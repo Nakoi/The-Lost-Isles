@@ -1,0 +1,19 @@
+state = {
+	id = 217
+	name = "STATE_1"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+#		owner = FRA
+#		add_core_of = FRA
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		1703 6188 1004 889 6158 1436 6131 2400 6150 326
+	}
+}
