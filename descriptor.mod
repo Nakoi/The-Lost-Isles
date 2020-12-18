@@ -1,4 +1,4 @@
-version="1.9.*"
+version="0.1.1"
 tags={
 	"Alternative History"
 	"National Focuses"
@@ -37,4 +37,4 @@ replace_path="history/states"
 replace_path="history/units"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
-supported_version="1.9.3"
+supported_version="1.10.*"
