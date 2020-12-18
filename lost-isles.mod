@@ -1,8 +1,9 @@
 version="0.1.1"
 tags={
 	"Alternative History"
+	"National Focuses"
 	"Gameplay"
-	"Events"
+	"Map"
 }
 name="The Lost Isles"
 replace_path="map/strategicregions"
@@ -35,5 +36,5 @@ replace_path="history/states"
 replace_path="history/units"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
-supported_version="1.9.*"
-path="C:/Users/User/Documents/Paradox Interactive/Hearts of Iron IV/mod/lost-isles"
+supported_version="1.10.*"
+path="C:/Users/HP/Documents/Paradox Interactive/Hearts of Iron IV/mod/The-Lost-Isles"
