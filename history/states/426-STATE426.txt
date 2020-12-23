@@ -1,12 +1,12 @@
 state = {
-	id = 65
-	name = "STATE_65"
+	id = 426
+	name = "STATE_426"
 	manpower = 1
 
 	state_category = city
 
 	history = {
-#		owner = VOC
+#		owner = FRA
 #		add_core_of = FRA
 #		victory_points = { 3838 1 }
 #		buildings = {
@@ -14,6 +14,6 @@ state = {
 	}
 
 	provinces = {
-		759 963 6088 1797 6075 393 6108 1505 1165
+		1939 1545 939 4349 4361 2544
 	}
 }
