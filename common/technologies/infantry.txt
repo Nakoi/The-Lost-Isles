@@ -1,0 +1,67 @@
+technologies = {
+
+	@100 = -0.25
+	@400 = 2
+	@600 = 4
+	@800 = 6
+	@850 = 8
+	@957 = 10
+	@959 = 12
+	@961 = 14
+	@963 = 16
+	@965 = 18
+	@967 = 20
+	@969 = 22
+	@971 = 20
+
+    infantry_weapons = {
+        research_cost = 1 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        enable_equipments = {
+			infantry_equipment_0
+		}
+		
+		enable_subunits = {
+			infantry
+		}
+		
+		path = {
+			leads_to_tech = infantry_weapons1
+			research_cost_coeff = 1
+		}
+        
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -1.5 
+                y = @100
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            infantry_weapons
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+}
