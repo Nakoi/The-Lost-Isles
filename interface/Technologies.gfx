@@ -1,0 +1,172 @@
+spriteTypes = {	
+
+	### generic equipment archetypes ###
+
+	SpriteType = {
+		name = "GFX_archetype_heavy_fighter_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_heavy_fighter_equipment.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_archetype_CAS_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_CAS_equipment.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_archetype_fighter_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_fighter_equipment.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_archetype_strat_bomber_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_strat_bomber_equipment.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_archetype_convoy_medium"
+		texturefile = "gfx/interface/archetypes/archetype_convoy.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_archetype_motorized_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_motorized_equipment.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_archetype_support_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_support_equipment.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_archetype_modern_tank_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_modern_tank_equipment.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_archetype_super_heavy_tank_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_super_heavy_tank_equipment.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_archetype_heavy_tank_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_heavy_tank_equipment.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_archetype_medium_tank_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_medium_tank_equipment.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_archetype_light_tank_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_light_tank_equipment.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_archetype_armored_car_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_armored_car_equipment.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_archetype_motorized_rocket_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_motorized_rocket_equipment.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_archetype_rocket_artillery_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_rocket_artillery_equipment.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_archetype_artillery_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_artillery_equipment.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_archetype_anti_tank_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_anti_tank_equipment.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_archetype_anti_air_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_anti_air_equipment.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_archetype_infantry_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_infantry_equipment.dds"
+	}	
+	
+	### generic equipment tech ###
+
+	SpriteType = {
+		name = "GFX_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_crossbow_medium"
+		texturefile = "gfx/interface/technologies/crossbow.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_crossbow1_medium"
+		texturefile = "gfx/interface/technologies/crossbow1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_gunpowder_medium"
+		texturefile = "gfx/interface/technologies/gunpowder.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_breech_loading_rifles_medium"
+		texturefile = "gfx/interface/technologies/breech_loading_rifles.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bolt_action_rifles_medium"
+		texturefile = "gfx/interface/technologies/bolt_action_rifles.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/ranged_infantry_upgrade_1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/ranged_infantry_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grenades_1_medium"
+		texturefile = "gfx/interface/technologies/grenades_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grenades_2_medium"
+		texturefile = "gfx/interface/technologies/grenades_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_3_medium"
+		texturefile = "gfx/interface/technologies/ranged_infantry_upgrade_3.dds"
+	}
+
+}
