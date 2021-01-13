@@ -258,29 +258,13 @@ guiTypes = {
 
 			}
 
-				
-			gridboxtype = {
-				name = "support_weapons_tree"
-				position = { x = 140 y = 210 }
-				#size = { width = 420 height = 500 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}	
-
 			iconType = {
 				name = "highlight_infantry_1"
 				spriteType = "GFX_tutorial_research_small_item_icon_glow"
 				position = { x=135 y=170}
 				hide = yes
 				alwaystransparent = yes
-			}
-			
-			gridboxtype = {
-				name = "night_vision_tree"
-				position = { x = 140 y = 210 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}		
+			}	
 	
 			gridboxtype = {
 				name = "infantry_weapons_tree"
@@ -290,10 +274,16 @@ guiTypes = {
 	
 			}
 
-
 			gridboxtype = {
 				name = "special_forces_concept_tree"
-				position = { x = 140 y = 1140 }
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "internal_combustion_engine_tree"
+				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

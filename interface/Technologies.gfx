@@ -165,8 +165,118 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_grenades_3_medium"
+		texturefile = "gfx/interface/technologies/grenades_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grenade_rifles_medium"
+		texturefile = "gfx/interface/technologies/grenades_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_machine_gun_medium"
+		texturefile = "gfx/interface/technologies/machine_gun.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_machine_gun_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/machine_gun_upgrade_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_machine_gun_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/machine_gun_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_machine_gun_upgrade_3_medium"
+		texturefile = "gfx/interface/technologies/machine_gun_upgrade_3.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_ranged_infantry_upgrade_3_medium"
 		texturefile = "gfx/interface/technologies/ranged_infantry_upgrade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_internal_combustion_engine_medium"
+		texturefile = "gfx/interface/technologies/internal_combustion_engine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_motorized_medium"
+		texturefile = "gfx/interface/technologies/early_motorized.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_motorized_medium"
+		texturefile = "gfx/interface/technologies/improved_motorized.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_upgrade_medium"
+		texturefile = "gfx/interface/technologies/infantry_upgrade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/infantry_upgrade1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/infantry_upgrade2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_upgrade3_medium"
+		texturefile = "gfx/interface/technologies/infantry_upgrade3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_upgrade4_medium"
+		texturefile = "gfx/interface/technologies/infantry_upgrade4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_lamellar_armor_medium"
+		texturefile = "gfx/interface/technologies/lamellar_armor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_plate_armor_medium"
+		texturefile = "gfx/interface/technologies/plate_armor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_armor_medium"
+		texturefile = "gfx/interface/technologies/infantry_armor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_armor_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_armor_upgrade_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_armor_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_armor_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elite_armor_medium"
+		texturefile = "gfx/interface/technologies/elite_armor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elite_armor_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/elite_armor_upgrade_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elite_armor_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/elite_armor_upgrade_2.dds"
 	}
 
 }
