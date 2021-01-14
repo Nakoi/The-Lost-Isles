@@ -65,7 +65,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_weapons"
-					position = { x = 30 y = 100 }
+					position = { x = 30 y = 240 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -78,7 +78,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 40 y = 740 }
+					position = { x = 450 y = 1075 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -91,7 +91,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_motorized"
-					position = { x = 30 y = 510 }
+					position = { x = 1450 y = 930 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
