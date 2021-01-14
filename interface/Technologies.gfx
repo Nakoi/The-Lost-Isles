@@ -265,6 +265,16 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_infantry_armor_upgrade_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_armor_upgrade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_armor_upgrade_4_medium"
+		texturefile = "gfx/interface/technologies/infantry_armor_upgrade_4.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_elite_armor_medium"
 		texturefile = "gfx/interface/technologies/elite_armor.dds"
 	}
@@ -277,6 +287,111 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_elite_armor_upgrade_2_medium"
 		texturefile = "gfx/interface/technologies/elite_armor_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elite_armor_upgrade_3_medium"
+		texturefile = "gfx/interface/technologies/elite_armor_upgrade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elite_armor_upgrade_4_medium"
+		texturefile = "gfx/interface/technologies/elite_armor_upgrade_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_special_forces_concept_medium"
+		texturefile = "gfx/interface/technologies/special_forces_concept.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shock_troops_0_medium"
+		texturefile = "gfx/interface/technologies/shock_troops_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shock_troops_1_medium"
+		texturefile = "gfx/interface/technologies/shock_troops_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shock_troops_2_medium"
+		texturefile = "gfx/interface/technologies/shock_troops_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shock_troops_3_medium"
+		texturefile = "gfx/interface/technologies/shock_troops_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shock_troops_4_medium"
+		texturefile = "gfx/interface/technologies/shock_troops_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpshooters_0_medium"
+		texturefile = "gfx/interface/technologies/sharpshooters_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpshooters_1_medium"
+		texturefile = "gfx/interface/technologies/sharpshooters_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpshooters_2_medium"
+		texturefile = "gfx/interface/technologies/sharpshooters_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpshooters_3_medium"
+		texturefile = "gfx/interface/technologies/sharpshooters_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpshooters_4_medium"
+		texturefile = "gfx/interface/technologies/sharpshooters_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guards_0_medium"
+		texturefile = "gfx/interface/technologies/guards_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guards_1_medium"
+		texturefile = "gfx/interface/technologies/guards_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guards_2_medium"
+		texturefile = "gfx/interface/technologies/guards_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guards_3_medium"
+		texturefile = "gfx/interface/technologies/guards_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guards_4_medium"
+		texturefile = "gfx/interface/technologies/guards_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_4_medium"
+		texturefile = "gfx/interface/technologies/ranged_infantry_upgrade_4.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_5_medium"
+		texturefile = "gfx/interface/technologies/ranged_infantry_upgrade_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_6_medium"
+		texturefile = "gfx/interface/technologies/ranged_infantry_upgrade_6.dds"
 	}
 
 }
