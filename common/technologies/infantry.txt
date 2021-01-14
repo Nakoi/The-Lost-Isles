@@ -771,7 +771,7 @@ technologies = {
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			infantry_equipment_4
+			infantry_equipment_3
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -813,8 +813,13 @@ technologies = {
         start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			machine_guns
-		}
+            #equipment_machine_gun
+            infantry_equipment_3
+        }
+
+        enable_subunits = {
+            unit_machine_gun
+        }
 
         path = {
 			leads_to_tech = machine_gun_upgrade_1
@@ -853,6 +858,10 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        unit_machine_gun = {
+            entrenchment = 1
+        }
     }
 
     machine_gun_upgrade_1 = {
@@ -896,6 +905,13 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        unit_machine_gun = {
+            defence = 0.1
+            attack = 0.1
+            ap_attack = 0.2
+            entrenchment = 1
+        }
     }
 
     machine_gun_upgrade_2 = {
@@ -939,6 +955,12 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+        unit_machine_gun = {
+            defence = 0.1
+            attack = 0.1
+            ap_attack = 0.2
+            entrenchment = 1
+        }
     }
 
     machine_gun_upgrade_3 = {
@@ -977,6 +999,13 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        unit_machine_gun = {
+            defence = 0.2
+            attack = 0.1
+            ap_attack = 0.2
+            entrenchment = 1
+        }
     }
 
     grenades_1 = {
@@ -1389,6 +1418,15 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        category_melee = {
+            breakthrough = 0.1
+            defense = 0.1
+        }
+        melee_infantry = {
+            hardness = 1
+            armor_value = 1
+        }
     }
 
     plate_armor = {
@@ -1437,6 +1475,15 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        category_melee = {
+            breakthrough = 0.2
+            defense = 0.2
+        }
+        melee_infantry = {
+            hardness = 2
+            armor_value = 3
+        }
     }
 
     infantry_armor = {
@@ -1488,6 +1535,23 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        unit_heavy_infantry = {
+            armor_value = 9
+            breakthrough = 1
+            defense = 0.1
+            hardness = 14
+            supply_consumption = 1
+            #maximum_speed = 4 - a bit confused amol, what exactly do you mean here?
+        }
+        category_ranged = {
+            defence = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 5
+            breakthrough = 0.25
+        }
     }
 
     infantry_armor_upgrade_1 = {
@@ -1531,6 +1595,19 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+        unit_heavy_infantry = {
+            armor_value = 5
+            breakthrough = 0.25
+            defense = 0.05
+            hardness = 3
+        }
+        category_ranged = {
+            defence = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 3
+        }
     }
 
     infantry_armor_upgrade_2 = {
@@ -1574,6 +1651,20 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        unit_heavy_infantry = {
+            armor_value = 5
+            breakthrough = 0.25
+            defense = 0.05
+            hardness = 3
+        }
+        category_ranged = {
+            defence = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 3
+        }
     }
 
     infantry_armor_upgrade_3 = {
@@ -1617,6 +1708,20 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        unit_heavy_infantry = {
+            armor_value = 6
+            breakthrough = 0.5
+            defense = 0.05
+            hardness = 3
+        }
+        category_ranged = {
+            defence = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 3
+        }
     }
 
     infantry_armor_upgrade_4 = {
@@ -1655,6 +1760,20 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        unit_heavy_infantry = {
+            armor_value = 6
+            breakthrough = 0.5
+            defense = 0.05
+            hardness = 3
+        }
+        category_ranged = {
+            defence = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 3
+        }
     }
 
     elite_armor = {
@@ -1702,6 +1821,17 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+        
+        category_ranged = {
+            defence = 0.02
+            breakthrough = 0.02
+        }
+        category_elite_infantry = {
+            armor_value = 10
+            breakthrough = 0.5
+            hardness = 10
+            defence = 0.1
+        }
     }
 
     elite_armor_upgrade_1 = {
@@ -1745,6 +1875,17 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        category_ranged = {
+            defence = 0.02
+            breakthrough = 0.02
+        }
+        category_elite_infantry = {
+            armor_value = 7
+            breakthrough = 0.2
+            hardness = 5
+            defence = 0.05
+        }
     }
 
     elite_armor_upgrade_2 = {
@@ -1788,6 +1929,17 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        category_ranged = {
+            defence = 0.02
+            breakthrough = 0.02
+        }
+        category_elite_infantry = {
+            armor_value = 7
+            breakthrough = 0.2
+            hardness = 5
+            defence = 0.05
+        }
     }
 
     elite_armor_upgrade_3 = {
@@ -1831,6 +1983,13 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        category_ranged = {
+            defence = 0.2
+            breakthrough = 0.2
+            hardness = 3
+            armor_value = 4
+        }
     }
 
     elite_armor_upgrade_4 = {
@@ -1869,6 +2028,13 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        category_ranged = {
+            defence = 0.25
+            breakthrough = 0.25
+            hardness = 4
+            armor_value = 5
+        }
     }
 #Special Forces Tree
     special_forces_concept = {
@@ -1896,7 +2062,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 12
+                x = 14
                 y = @800
             }
         }
@@ -1945,7 +2111,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 10
+                x = 12
                 y = @850
             }
         }
@@ -1971,6 +2137,13 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+        shock_troops = {
+            breakthrough = 2
+            armor_value = 10
+            ap_attack = 1
+            hard_attack = 2
+            #maximum_speed = 9
+        }
     }
 
     shock_troops_1 = {
@@ -1988,7 +2161,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 10
+                x = 12
                 y = @959
             }
         }
@@ -2014,6 +2187,12 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        shock_troops = {
+            max_organisation = 0.1
+            armor_value = 2
+            breakthrough = 0.1
+        }
     }
 
     shock_troops_2 = {
@@ -2031,7 +2210,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 10
+                x = 12
                 y = @963
             }
         }
@@ -2057,6 +2236,12 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        shock_troops = {
+            max_organisation = 0.1
+            armor_value = 1
+            breakthrough = 0.1
+        }
     }
 
     shock_troops_3 = {
@@ -2074,7 +2259,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 10
+                x = 12
                 y = @967
             }
         }
@@ -2100,6 +2285,12 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        shock_troops = {
+            max_organisation = 0.1
+            armor_value = 1
+            breakthrough = 0.1
+        }
     }
 
     shock_troops_4 = {
@@ -2112,7 +2303,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 10
+                x = 12
                 y = @971
             }
         }
@@ -2138,6 +2329,12 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        shock_troops = {
+            max_organisation = 0.1
+            armor_value = 1
+            breakthrough = 0.1
+        }
     }
 
     sharpshooters_0 = {
@@ -2159,7 +2356,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 12
+                x = 14
                 y = @850
             }
         }
@@ -2185,6 +2382,11 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        sharpshooters = {
+            soft_attack = 1
+            defence = -0.1
+        }
     }
 
     sharpshooters_1 = {
@@ -2202,7 +2404,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 12
+                x = 14
                 y = @959
             }
         }
@@ -2228,6 +2430,11 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        sharpshooters = {
+            soft_attack = 0.2
+            max_organisation = 0.05
+        }
     }
 
     sharpshooters_2 = {
@@ -2245,7 +2452,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 12
+                x = 14
                 y = @963
             }
         }
@@ -2271,6 +2478,11 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        sharpshooters = {
+            soft_attack = 0.2
+            max_organisation = 0.05
+        }
     }
 
     sharpshooters_3 = {
@@ -2288,7 +2500,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 12
+                x = 14
                 y = @967
             }
         }
@@ -2314,6 +2526,11 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        sharpshooters = {
+            soft_attack = 0.2
+            max_organisation = 0.05
+        }
     }
 
     sharpshooters_4 = {
@@ -2326,7 +2543,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 12
+                x = 14
                 y = @971
             }
         }
@@ -2352,6 +2569,11 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        sharpshooters = {
+            soft_attack = 0.2
+            max_organisation = 0.05
+        }
     }
 
     guards_0 = {
@@ -2373,7 +2595,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 14
+                x = 16
                 y = @850
             }
         }
@@ -2399,6 +2621,13 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+        guards = {
+            soft_attack = 0.25
+            defence = 0.25
+            armor_value =  = 5
+            breakthrough = 0.25
+            max_organisation = 0.10
+        }
     }
 
     guards_1 = {
@@ -2416,7 +2645,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 14
+                x = 16
                 y = @959
             }
         }
@@ -2442,6 +2671,14 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        guards = {
+            soft_attack = 0.05
+            defence = 0.05
+            armor_value = 0.5
+            breakthrough = 0.05
+            max_organisation = 0.05
+        }
     }
 
     guards_2 = {
@@ -2459,7 +2696,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 14
+                x = 16
                 y = @963
             }
         }
@@ -2485,6 +2722,14 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        guards = {
+            soft_attack = 0.05
+            defence = 0.05
+            armor_value = 0.5
+            breakthrough = 0.05
+            max_organisation = 0.05
+        }
     }
 
     guards_3 = {
@@ -2502,7 +2747,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 14
+                x = 16
                 y = @967
             }
         }
@@ -2528,6 +2773,14 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        guards = {
+            soft_attack = 0.05
+            defence = 0.05
+            armor_value = 0.5
+            breakthrough = 0.05
+            max_organisation = 0.05
+        }
     }
 
     guards_4 = {
@@ -2540,7 +2793,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 14
+                x = 16
                 y = @971
             }
         }
@@ -2566,6 +2819,14 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        guards = {
+            soft_attack = 0.05
+            defence = 0.05
+            armor_value = 0.5
+            breakthrough = 0.05
+            max_organisation = 0.05
+        }
     }
 
 #Motorized Tree
@@ -2584,7 +2845,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 8.5
+                x = 10
                 y = @967
             }
         }
@@ -2622,7 +2883,7 @@ technologies = {
         }
 
         enable_equipments = {
-            motorized_equipment_0
+            motorized_equipment
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -2631,7 +2892,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 8.5
+                x = 10
                 y = @969
             }
         }
@@ -2657,6 +2918,8 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+
     }
 
     improved_motorized = {
@@ -2664,7 +2927,7 @@ technologies = {
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
 
         enable_equipments = {
-            motorized_equipment_0
+            mechanized_equipment
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -2673,7 +2936,7 @@ technologies = {
             
             # Position in the tech tree interface
             position = { 
-                x = 8.5
+                x = 10
                 y = 25
             }
         }
@@ -2699,5 +2962,10 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        motorized_infantry = {
+            armor_value = 10
+            supply_consumption = 0.15
+        }
     }
 }
