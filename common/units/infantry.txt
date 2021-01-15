@@ -44,9 +44,9 @@ sub_units = {
 		
 		supply_consumption = 0.04
 	
-		#need = {
-		#	infantry_equipment = 100
-		#}
+		need = {
+			melee_infantry_equipment = 50
+		}
 	}
 
 	melee_militia = {
@@ -133,9 +133,9 @@ sub_units = {
 			movement = -0.2
 		}
 	
-		#need = {
-		#	infantry_equipment = 100
-		#}
+		need = {
+			melee_infantry_equipment = 20
+		}
 	}
 #Ranged Units
 	unit_heavy_infantry = {
@@ -178,9 +178,9 @@ sub_units = {
 		
 		supply_consumption = 0.1
 	
-		#need = {
-		#	infantry_equipment = 100
-		#}
+		need = {
+			ranged_infantry_equipment = 80
+		}
 	}
 
 	ranged_infantry = {
@@ -223,9 +223,9 @@ sub_units = {
 		
 		supply_consumption = 0.06
 	
-		#need = {
-		#	infantry_equipment = 100
-		#}
+		need = {
+			ranged_infantry_equipment = 50
+		}
 	}
 
 	ranged_militia = {
@@ -312,9 +312,9 @@ sub_units = {
 			movement = -0.2
 		}
 	
-		#need = {
-		#	infantry_equipment = 100
-		#}
+		need = {
+			ranged_infantry_equipment = 20
+		}
 	}
 #Motorized
 	motorized_infantry = {
@@ -330,7 +330,7 @@ sub_units = {
 			motorized
 		}
 
-		#transport =
+		transport = motorized_equipment
 		
 		group = infantry
 		
@@ -360,9 +360,10 @@ sub_units = {
 		
 		supply_consumption = 0.14
 	
-		#need = {
-		#	infantry_equipment = 100
-		#}
+		need = {
+			ranged_infantry_equipment = 50
+			motorized_equipment = 30
+		}
 	}
 #Special Forces
 	shock_troops = {
@@ -425,9 +426,9 @@ sub_units = {
 			attack = 0.1
 		}
 	
-		#need = {
-		#	infantry_equipment = 100
-		#}
+		need = {
+			ranged_infantry_equipment = 70
+		}
 	}
 
 	sharpshooters = {
@@ -493,9 +494,9 @@ sub_units = {
 			movement = 0.1
 		}
 	
-		#need = {
-		#	infantry_equipment = 100
-		#}
+		need = {
+			ranged_infantry_equipment = 70
+		}
 	}
 
 	guards = {
@@ -593,9 +594,9 @@ sub_units = {
 			movement = 0.1
 		}
 	
-		#need = {
-		#	infantry_equipment = 100
-		#}
+		need = {
+			ranged_infantry_equipment = 70
+		}
 	}
 #Support Companies
 	unit_machine_gun = {
@@ -636,8 +637,8 @@ sub_units = {
 		
 		supply_consumption = 0.08
 	
-		#need = {
-		#	infantry_equipment = 100
-		#}
+		need = {
+			archetype_machine_gun_equipment = 12
+		}
 	}
 }

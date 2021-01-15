@@ -19,7 +19,7 @@ technologies = {
         start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			infantry_equipment_0
+			melee_infantry_equipment_0
         }
 		
 		enable_subunits = {
@@ -129,7 +129,7 @@ technologies = {
         start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			infantry_equipment_1
+			melee_infantry_equipment_1
 		}
 
 		path = {
@@ -275,7 +275,7 @@ technologies = {
         start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			infantry_equipment_2
+			melee_infantry_equipment_2
 		}
 
 		path = {
@@ -375,7 +375,7 @@ technologies = {
         start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			infantry_equipment_3
+			ranged_infantry_equipment_0
         }
         
         enable_subunits = {
@@ -576,7 +576,7 @@ technologies = {
         start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			infantry_equipment_3
+			ranged_infantry_equipment_1
 		}
 
 		path = {
@@ -771,7 +771,7 @@ technologies = {
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			infantry_equipment_3
+			ranged_infantry_equipment_2
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -813,8 +813,7 @@ technologies = {
         start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-            #equipment_machine_gun
-            infantry_equipment_3
+            machine_gun_equipment
         }
 
         enable_subunits = {
@@ -1542,10 +1541,10 @@ technologies = {
             defense = 0.1
             hardness = 14
             supply_consumption = 1
-            #maximum_speed = 4 - a bit confused amol, what exactly do you mean here?
+            #maximum_speed = 4                - a bit confused amol, what exactly do you mean here?
         }
         category_ranged = {
-            defence = 0.2
+            defense = 0.2
             breakthrough = 0.2
         }
         category_elite_infantry = {
@@ -2624,7 +2623,7 @@ technologies = {
         guards = {
             soft_attack = 0.25
             defence = 0.25
-            armor_value =  = 5
+            armor_value  = 5
             breakthrough = 0.25
             max_organisation = 0.10
         }
@@ -2883,7 +2882,7 @@ technologies = {
         }
 
         enable_equipments = {
-            motorized_equipment
+            motorized_infantry_equipment_0
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -2927,7 +2926,7 @@ technologies = {
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
 
         enable_equipments = {
-            mechanized_equipment
+            motorized_infantry_equipment_1
         }
 
         # Controls which folder (tab) the technology appears under.
