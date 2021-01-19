@@ -2838,6 +2838,11 @@ technologies = {
 			research_cost_coeff = 1
         }
 
+        path = {
+			leads_to_tech = advanced_combustion_engine
+			research_cost_coeff = 1
+        }
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2845,6 +2850,17 @@ technologies = {
             # Position in the tech tree interface
             position = { 
                 x = 10
+                y = @967
+            }
+        }
+
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
                 y = @967
             }
         }

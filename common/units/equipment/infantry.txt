@@ -116,7 +116,7 @@ equipments = {
 		
 		interface_category = interface_category_land
 		
-		active = yes
+		active = no
 		
 		#Misc Abilities
 		reliability = 0.75
@@ -150,7 +150,7 @@ equipments = {
 		year = 850
 
 		archetype = ranged_infantry_equipment
-		active = yes
+		active = no
 		priority = 05
 		visual_level = 0
 	}
@@ -221,7 +221,7 @@ equipments = {
 		
 		interface_category = interface_category_land
 		
-		active = yes
+		active = no
 		
 		#Misc Abilities
 		reliability = 0.8
@@ -255,7 +255,7 @@ equipments = {
 		year = 965
 
 		archetype = archetype_machine_gun_equipment
-		active = yes
+		active = no
 		priority = 05
 		visual_level = 0
 	}
@@ -272,7 +272,7 @@ equipments = {
 		
 		interface_category = interface_category_land
 		
-		active = yes
+		active = no
 		
 		#Misc Abilities
 		reliability = 0.70
@@ -306,7 +306,7 @@ equipments = {
 		year = 969
 
 		archetype = motorized_equipment
-		active = yes
+		active = no
 		priority = 05
 		visual_level = 0
 	}
