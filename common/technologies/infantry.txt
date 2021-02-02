@@ -2829,65 +2829,6 @@ technologies = {
     }
 
 #Motorized Tree
-    internal_combustion_engine = {
-        research_cost = 1 # Cost in time, where 1 is the default research time length.
-        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
-        
-        path = {
-			leads_to_tech = early_motorized
-			research_cost_coeff = 1
-        }
-
-        path = {
-			leads_to_tech = advanced_combustion_engine
-			research_cost_coeff = 1
-        }
-
-        # Controls which folder (tab) the technology appears under.
-        folder = {
-            name = infantry_folder # Found in countrytechtreeview.gui
-            
-            # Position in the tech tree interface
-            position = { 
-                x = 10
-                y = @967
-            }
-        }
-
-        # Controls which folder (tab) the technology appears under.
-        folder = {
-            name = industry_folder # Found in countrytechtreeview.gui
-            
-            # Position in the tech tree interface
-            position = { 
-                x = 2
-                y = @967
-            }
-        }
-        
-        # Which technology categories apply to this technology.
-        categories = {
-            infantry_weapons
-        }
-        
-        # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
-        
-        # Adjusts weighting depending on taken technology (uses technology tags)
-        #ai_research_weights = {
-        #    <type> = <float>
-        #}
-    }
-
     early_motorized = {
         research_cost = 1 # Cost in time, where 1 is the default research time length.
         start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
@@ -2933,6 +2874,10 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
+
+        dependencies = {
+            internal_combustion_engine = 1
+        }
 
 
     }
@@ -2981,6 +2926,10 @@ technologies = {
         motorized_infantry = {
             armor_value = 10
             supply_consumption = 0.15
+        }
+        
+        dependencies = {
+            internal_combustion_engine = 1
         }
     }
 }
