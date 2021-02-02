@@ -394,4 +394,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ranged_infantry_upgrade_6.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_early_factories_medium"
+		texturefile = "gfx/interface/technologies/early_factories.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_manufacturing_system_medium"
+		texturefile = "gfx/interface/technologies/manufacturing_system.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_organized_factories_medium"
+		texturefile = "gfx/interface/technologies/organized_factories.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_basic_engineering_medium"
+		texturefile = "gfx/interface/technologies/basic_engineering.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_railroad_medium"
+		texturefile = "gfx/interface/technologies/early_railroad.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steel_railroad_medium"
+		texturefile = "gfx/interface/technologies/steel_railroad.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_integral_railroad_medium"
+		texturefile = "gfx/interface/technologies/integral_railroad.dds"
+	}
+
 }

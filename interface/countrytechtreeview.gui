@@ -287,6 +287,13 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+
+			gridboxtype = {
+				name = "early_motorized_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 		}
 
 		containerWindowType = {
@@ -2328,14 +2335,21 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "advanced_combustion_engine_tree"
+				name = "construction_0_tree"
 				position = { x = 210 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "internal_combustion_engine_tree"
+				name = "agriculture_0_tree"
+				position = { x = 210 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "financial_technology_0_tree"
 				position = { x = 210 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
