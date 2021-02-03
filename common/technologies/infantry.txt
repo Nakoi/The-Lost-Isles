@@ -12,7 +12,8 @@ technologies = {
 	@965 = 18
 	@967 = 20
 	@969 = 22
-	@971 = 24
+    @971 = 24
+    
 #Infantry Tree
     infantry_weapons = {
         research_cost = 1 # Cost in time, where 1 is the default research time length.
@@ -35,6 +36,10 @@ technologies = {
         path = {
 			leads_to_tech = lamellar_armor
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_primitive = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -84,7 +89,11 @@ technologies = {
 		path = {
 			leads_to_tech = infantry_weapons1
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -140,7 +149,11 @@ technologies = {
         path = {
 			leads_to_tech = crossbow
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -194,7 +207,11 @@ technologies = {
         path = {
             leads_to_tech = infantry_upgrade2
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -241,7 +258,11 @@ technologies = {
         path = {
             leads_to_tech = infantry_weapons2
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -331,6 +352,10 @@ technologies = {
 			research_cost_coeff = 1
         }
 
+        dependencies = {
+            is_civilized = 1
+        }
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -387,6 +412,10 @@ technologies = {
 			leads_to_tech = ranged_infantry_upgrade_1
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -429,6 +458,10 @@ technologies = {
         path = {
 			leads_to_tech = ranged_infantry_upgrade_2
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -484,6 +517,10 @@ technologies = {
 			research_cost_coeff = 1
         }
 
+        dependencies = {
+            is_civilized = 1
+        }
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -529,6 +566,10 @@ technologies = {
         path = {
 			leads_to_tech = breech_loading_rifles
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -588,6 +629,10 @@ technologies = {
 			leads_to_tech = machine_gun
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -642,6 +687,10 @@ technologies = {
                 y = @965
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -689,6 +738,10 @@ technologies = {
                 y = @967
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -724,6 +777,10 @@ technologies = {
         path = {
 			leads_to_tech = bolt_action_rifles
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -772,6 +829,10 @@ technologies = {
         
         enable_equipments = {
 			ranged_infantry_equipment_2
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -824,6 +885,10 @@ technologies = {
 			leads_to_tech = machine_gun_upgrade_1
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -870,6 +935,10 @@ technologies = {
         path = {
 			leads_to_tech = machine_gun_upgrade_2
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -920,6 +989,10 @@ technologies = {
         path = {
 			leads_to_tech = machine_gun_upgrade_3
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -976,6 +1049,10 @@ technologies = {
                 y = @971
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -1014,6 +1091,10 @@ technologies = {
         path = {
 			leads_to_tech = grenades_2
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -1065,6 +1146,10 @@ technologies = {
 			research_cost_coeff = 1
         }
 
+        dependencies = {
+            is_industrial = 1
+        }
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1111,6 +1196,10 @@ technologies = {
         path = {
 			leads_to_tech = grenade_rifles
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -1166,6 +1255,10 @@ technologies = {
                 y = @971
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -1213,7 +1306,11 @@ technologies = {
         path = {
             leads_to_tech = infantry_upgrade4
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -1255,6 +1352,10 @@ technologies = {
                 x = 2
                 y = @957
             }
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
         
         # Which technology categories apply to this technology.
@@ -1307,7 +1408,11 @@ technologies = {
         path = {
 			leads_to_tech = crossbow1
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
@@ -1347,6 +1452,10 @@ technologies = {
                 y = @600
             }
         }
+
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -1383,6 +1492,10 @@ technologies = {
         path = {
 			leads_to_tech = plate_armor
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_primitive = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -1442,6 +1555,10 @@ technologies = {
 			research_cost_coeff = 1
         }
 
+        dependencies = {
+            is_primitive = 1
+        }
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1496,6 +1613,10 @@ technologies = {
 
         enable_subunits = {
             unit_heavy_infantry
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -1562,6 +1683,10 @@ technologies = {
 			research_cost_coeff = 1
         }
 
+        dependencies = {
+            is_civilized = 1
+        }
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1616,6 +1741,10 @@ technologies = {
         path = {
 			leads_to_tech = infantry_armor_upgrade_3
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -1673,6 +1802,10 @@ technologies = {
         path = {
 			leads_to_tech = infantry_armor_upgrade_4
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -1737,6 +1870,10 @@ technologies = {
                 y = @969
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -1782,6 +1919,10 @@ technologies = {
         path = {
 			leads_to_tech = elite_armor_upgrade_1
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -1842,6 +1983,10 @@ technologies = {
 			research_cost_coeff = 1
         }
 
+        dependencies = {
+            is_civilized = 1
+        }
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1896,6 +2041,10 @@ technologies = {
 			research_cost_coeff = 1
         }
 
+        dependencies = {
+            is_civilized = 1
+        }
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1948,6 +2097,10 @@ technologies = {
         path = {
 			leads_to_tech = elite_armor_upgrade_4
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -2005,6 +2158,10 @@ technologies = {
                 y = @969
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -2054,6 +2211,10 @@ technologies = {
 			leads_to_tech = guards_0
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2102,6 +2263,10 @@ technologies = {
 
         enable_subunits = {
             shock_troops
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -2153,6 +2318,10 @@ technologies = {
 			leads_to_tech = shock_troops_2
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2202,6 +2371,10 @@ technologies = {
 			leads_to_tech = shock_troops_3
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2250,6 +2423,10 @@ technologies = {
         path = {
 			leads_to_tech = shock_troops_4
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -2306,6 +2483,10 @@ technologies = {
                 y = @971
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -2347,6 +2528,10 @@ technologies = {
 
         enable_subunits = {
             sharpshooters
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -2396,6 +2581,10 @@ technologies = {
 			leads_to_tech = sharpshooters_2
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2444,6 +2633,10 @@ technologies = {
 			leads_to_tech = sharpshooters_3
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2491,6 +2684,10 @@ technologies = {
         path = {
 			leads_to_tech = sharpshooters_4
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -2546,6 +2743,10 @@ technologies = {
                 y = @971
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -2586,6 +2787,10 @@ technologies = {
         
         enable_subunits = {
             guards
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -2636,6 +2841,10 @@ technologies = {
         path = {
 			leads_to_tech = guards_2
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -2688,6 +2897,10 @@ technologies = {
 			leads_to_tech = guards_3
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2738,6 +2951,10 @@ technologies = {
         path = {
 			leads_to_tech = guards_4
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -2796,6 +3013,10 @@ technologies = {
                 y = @971
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -2836,6 +3057,10 @@ technologies = {
         path = {
 			leads_to_tech = improved_motorized
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
 
         enable_equipments = {
@@ -2888,6 +3113,10 @@ technologies = {
 
         enable_equipments = {
             motorized_infantry_equipment_1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
 
         # Controls which folder (tab) the technology appears under.

@@ -28,6 +28,10 @@ technologies = {
 			leads_to_tech = basic_engineering
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -72,6 +76,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
         
+        dependencies = {
+            is_primitive = 1
+        }
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -113,7 +121,11 @@ technologies = {
 		path = {
 			leads_to_tech = advanced_metallurgy
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -156,7 +168,11 @@ technologies = {
 		path = {
 			leads_to_tech = interchangedeable_tools
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -199,7 +215,11 @@ technologies = {
 		path = {
 			leads_to_tech = tools_6
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -242,7 +262,11 @@ technologies = {
 		path = {
 			leads_to_tech = tools_7
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -285,7 +309,11 @@ technologies = {
 		path = {
 			leads_to_tech = tools_8
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -333,7 +361,11 @@ technologies = {
         path = {
 			leads_to_tech = luxury_goods_manufacturing_0
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -376,7 +408,11 @@ technologies = {
 		path = {
 			leads_to_tech = tools_10
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -419,7 +455,11 @@ technologies = {
 		path = {
 			leads_to_tech = tools_11
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -462,7 +502,11 @@ technologies = {
 		path = {
 			leads_to_tech = tools_12
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -505,7 +549,11 @@ technologies = {
 		path = {
 			leads_to_tech = tools_13
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -555,6 +603,10 @@ technologies = {
                 y = @971
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -586,6 +638,10 @@ technologies = {
 		path = {
 			leads_to_tech = hot_air_baloon
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_primitive = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -629,6 +685,10 @@ technologies = {
 		path = {
 			leads_to_tech = steam_engine
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -678,6 +738,10 @@ technologies = {
 			leads_to_tech = early_railroad
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -721,6 +785,10 @@ technologies = {
 			leads_to_tech = internal_combustion_engine
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -763,6 +831,10 @@ technologies = {
         path = {
 			leads_to_tech = advanced_combustion_engine
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -824,6 +896,10 @@ technologies = {
                 y = @971
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -855,6 +931,10 @@ technologies = {
 		path = {
 			leads_to_tech = guild_system
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_primitive = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -899,6 +979,10 @@ technologies = {
 			leads_to_tech = manufacturing_system
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -941,6 +1025,10 @@ technologies = {
 		path = {
 			leads_to_tech = early_factories
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -985,6 +1073,10 @@ technologies = {
 			leads_to_tech = organized_factories
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1028,6 +1120,10 @@ technologies = {
 			leads_to_tech = assembly_line
 			research_cost_coeff = 1
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1070,6 +1166,10 @@ technologies = {
 		path = {
 			leads_to_tech = shift_work
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -1120,6 +1220,10 @@ technologies = {
                 y = @971
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -1151,6 +1255,10 @@ technologies = {
 		path = {
 			leads_to_tech = steel_railroad
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_civilized = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -1194,6 +1302,10 @@ technologies = {
 		path = {
 			leads_to_tech = integral_railroad
 			research_cost_coeff = 1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
         
         # Controls which folder (tab) the technology appears under.
@@ -1244,6 +1356,10 @@ technologies = {
                 y = @969
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -1275,6 +1391,10 @@ technologies = {
         path = {
             research_cost_coeff = 1
             leads_to_tech = luxury_goods_manufacturing_1
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -1318,6 +1438,10 @@ technologies = {
         path = {
             research_cost_coeff = 1
             leads_to_tech = luxury_goods_manufacturing_2
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -1368,6 +1492,10 @@ technologies = {
                 y = @971
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -1399,7 +1527,11 @@ technologies = {
 		path = {
 			leads_to_tech = construction_1
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1447,7 +1579,11 @@ technologies = {
         path = {
 			leads_to_tech = fortification_0
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1490,7 +1626,11 @@ technologies = {
 		path = {
 			leads_to_tech = construction_3
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1533,7 +1673,11 @@ technologies = {
 		path = {
 			leads_to_tech = construction_4
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1576,7 +1720,11 @@ technologies = {
 		path = {
 			leads_to_tech = construction_5
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1619,7 +1767,11 @@ technologies = {
 		path = {
 			leads_to_tech = construction_6
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1662,7 +1814,11 @@ technologies = {
 		path = {
 			leads_to_tech = construction_7
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1705,7 +1861,11 @@ technologies = {
 		path = {
 			leads_to_tech = construction_8
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1748,7 +1908,11 @@ technologies = {
 		path = {
 			leads_to_tech = construction_9
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1791,7 +1955,11 @@ technologies = {
 		path = {
 			leads_to_tech = construction_10
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1834,7 +2002,11 @@ technologies = {
 		path = {
 			leads_to_tech = construction_11
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1877,7 +2049,11 @@ technologies = {
 		path = {
 			leads_to_tech = construction_12
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1928,6 +2104,10 @@ technologies = {
             }
         }
         
+        dependencies = {
+            is_industrial = 1
+        }
+
         # Which technology categories apply to this technology.
         categories = {
             industry
@@ -1958,7 +2138,11 @@ technologies = {
         path = {
 			leads_to_tech = fortification_1
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2013,6 +2197,10 @@ technologies = {
                 y = @850
             }
         }
+
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -2056,6 +2244,10 @@ technologies = {
                 y = @959
             }
         }
+
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -2094,6 +2286,10 @@ technologies = {
                 y = @963
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -2125,7 +2321,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_1
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2168,7 +2368,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_2
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2211,7 +2415,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_3
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2254,7 +2462,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_4
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2297,7 +2509,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_5
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2340,7 +2556,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_6
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2383,7 +2603,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_7
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2426,7 +2650,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_8
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2469,7 +2697,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_9
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2512,7 +2744,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_10
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2555,7 +2791,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_11
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2598,7 +2838,11 @@ technologies = {
 		path = {
 			leads_to_tech = agriculture_12
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2648,6 +2892,10 @@ technologies = {
                 y = @971
             }
         }
+
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Which technology categories apply to this technology.
         categories = {
@@ -2679,7 +2927,11 @@ technologies = {
 		path = {
 			leads_to_tech = financial_technology_1
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2722,7 +2974,11 @@ technologies = {
 		path = {
 			leads_to_tech = financial_technology_2
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_primitive = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2765,7 +3021,11 @@ technologies = {
 		path = {
 			leads_to_tech = financial_technology_3
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2808,7 +3068,11 @@ technologies = {
 		path = {
 			leads_to_tech = financial_technology_4
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2851,7 +3115,11 @@ technologies = {
 		path = {
 			leads_to_tech = financial_technology_5
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2894,7 +3162,11 @@ technologies = {
 		path = {
 			leads_to_tech = financial_technology_6
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2937,7 +3209,11 @@ technologies = {
 		path = {
 			leads_to_tech = financial_technology_7
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_civilized = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2980,7 +3256,11 @@ technologies = {
 		path = {
 			leads_to_tech = financial_technology_8
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -3023,7 +3303,11 @@ technologies = {
 		path = {
 			leads_to_tech = financial_technology_9
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -3066,7 +3350,11 @@ technologies = {
 		path = {
 			leads_to_tech = financial_technology_10
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -3109,7 +3397,11 @@ technologies = {
 		path = {
 			leads_to_tech = financial_technology_11
 			research_cost_coeff = 1
-		}
+        }
+        
+        dependencies = {
+            is_industrial = 1
+        }
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -3158,6 +3450,10 @@ technologies = {
                 x = 14
                 y = @971
             }
+        }
+
+        dependencies = {
+            is_industrial = 1
         }
         
         # Which technology categories apply to this technology.
