@@ -1,0 +1,42 @@
+technologies = {
+
+	is_primitive = {
+        research_cost = 1 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = is_civilized
+			research_cost_coeff = 1
+		}
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            civilization
+        }
+	}
+
+	is_civilized = {
+        research_cost = 1 # Cost in time, where 1 is the default research time length.
+        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = is_industrial
+			research_cost_coeff = 1
+		}
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            civilization
+        }
+	}
+
+	is_industrial = {
+        research_cost = 1 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            civilization
+        }
+	}
+}
