@@ -1,0 +1,11 @@
+on_startup = {
+	effect = {
+		every_country = {
+			set_technology = {
+				is_primitive = 1
+				is_civilized = 1
+				is_industrial = 1
+			}
+		}
+	}
+}
