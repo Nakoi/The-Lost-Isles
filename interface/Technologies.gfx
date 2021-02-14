@@ -1,5 +1,34 @@
 spriteTypes = {	
 
+	### technology backgrounds ###
+
+	spriteType = {
+		name = "GFX_technology_infantry_folder_small_foreign_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_infantry_folder_small_foreign_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_infantry_folder_small_foreign_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	spriteType = {
+		name = "GFX_technology_infantry_folder_small_foreign_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+	}
+
 	### generic equipment archetypes ###
 
 	SpriteType = {
@@ -427,6 +456,31 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_integral_railroad_medium"
 		texturefile = "gfx/interface/technologies/integral_railroad.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improvised_tools_medium"
+		texturefile = "gfx/interface/technologies/improvised_tools.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hot_air_baloon_medium"
+		texturefile = "gfx/interface/technologies/hot_air_baloon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_0_medium"
+		texturefile = "gfx/interface/technologies/construction_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fortification_3_medium"
+		texturefile = "gfx/interface/technologies/fortification_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fortification_1_medium"
+		texturefile = "gfx/interface/technologies/fortification_0.dds"
 	}
 
 }

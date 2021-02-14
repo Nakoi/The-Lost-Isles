@@ -3061,6 +3061,7 @@ technologies = {
 
         dependencies = {
             is_industrial = 1
+            internal_combustion_engine = 1
         }
 
         enable_equipments = {
@@ -3099,12 +3100,6 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
-
-        dependencies = {
-            internal_combustion_engine = 1
-        }
-
-
     }
 
     improved_motorized = {
@@ -3117,6 +3112,7 @@ technologies = {
 
         dependencies = {
             is_industrial = 1
+            internal_combustion_engine = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -3155,10 +3151,6 @@ technologies = {
         motorized_infantry = {
             armor_value = 10
             supply_consumption = 0.15
-        }
-        
-        dependencies = {
-            internal_combustion_engine = 1
         }
     }
 }
