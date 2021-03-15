@@ -229,8 +229,23 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_steam_engine_medium"
+		texturefile = "gfx/interface/technologies/steam_engine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_steam_engine_medium"
+		texturefile = "gfx/interface/technologies/advanced_steam_engine.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_internal_combustion_engine_medium"
 		texturefile = "gfx/interface/technologies/internal_combustion_engine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_combustion_engine_medium"
+		texturefile = "gfx/interface/technologies/advanced_combustion_engine.dds"
 	}
 
 	SpriteType = {
@@ -481,6 +496,51 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_fortification_1_medium"
 		texturefile = "gfx/interface/technologies/fortification_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_luxury_goods_manufacturing_0_medium"
+		texturefile = "gfx/interface/technologies/luxury_goods_manufacturing_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_luxury_goods_manufacturing_1_medium"
+		texturefile = "gfx/interface/technologies/luxury_goods_manufacturing_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_luxury_goods_manufacturing_2_medium"
+		texturefile = "gfx/interface/technologies/luxury_goods_manufacturing_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guild_system_medium"
+		texturefile = "gfx/interface/technologies/guild_system.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_artisans_medium"
+		texturefile = "gfx/interface/technologies/artisans.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_assembly_line_medium"
+		texturefile = "gfx/interface/technologies/assembly_line.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_0_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_metal_tools_medium"
+		texturefile = "gfx/interface/technologies/metal_tools.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_specialized_tools_medium"
+		texturefile = "gfx/interface/technologies/specialized_tools.dds"
 	}
 
 }
