@@ -833,19 +833,13 @@ technologies = {
 			research_cost_coeff = 1
         }
 
-        dependencies = {
-            is_industrial = 1
+        path = {
+			leads_to_tech = early_motorized
+			research_cost_coeff = 1
         }
 
-        # Controls which folder (tab) the technology appears under.
-        folder = {
-            name = industry_folder # Found in countrytechtreeview.gui
-            
-            # Position in the tech tree interface
-            position = { 
-                x = 2
-                y = @967
-            }
+        dependencies = {
+            is_industrial = 1
         }
 
         # Controls which folder (tab) the technology appears under.
@@ -855,6 +849,17 @@ technologies = {
             # Position in the tech tree interface
             position = { 
                 x = 10
+                y = @967
+            }
+        }
+
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
                 y = @967
             }
         }
