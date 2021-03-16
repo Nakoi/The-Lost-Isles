@@ -257,14 +257,6 @@ guiTypes = {
 				}	
 
 			}
-
-			iconType = {
-				name = "highlight_infantry_1"
-				spriteType = "GFX_tutorial_research_small_item_icon_glow"
-				position = { x=135 y=170}
-				hide = yes
-				alwaystransparent = yes
-			}	
 	
 			gridboxtype = {
 				name = "infantry_weapons_tree"
@@ -275,13 +267,6 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "special_forces_concept_tree"
-				position = { x = 140 y = 325 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
 				name = "internal_combustion_engine_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
@@ -289,7 +274,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "early_motorized_tree"
+				name = "special_forces_concept_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
