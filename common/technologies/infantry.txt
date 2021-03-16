@@ -975,7 +975,7 @@ technologies = {
         #}
 
         unit_machine_gun = {
-            defence = 0.1
+            defense = 0.1
             attack = 0.1
             ap_attack = 0.2
             entrenchment = 1
@@ -1028,7 +1028,7 @@ technologies = {
         #    <type> = <float>
         #}
         unit_machine_gun = {
-            defence = 0.1
+            defense = 0.1
             attack = 0.1
             ap_attack = 0.2
             entrenchment = 1
@@ -1077,7 +1077,7 @@ technologies = {
         #}
 
         unit_machine_gun = {
-            defence = 0.2
+            defense = 0.2
             attack = 0.1
             ap_attack = 0.2
             entrenchment = 1
@@ -1726,7 +1726,7 @@ technologies = {
             hardness = 3
         }
         category_ranged = {
-            defence = 0.2
+            defense = 0.2
             breakthrough = 0.2
         }
         category_elite_infantry = {
@@ -1787,7 +1787,7 @@ technologies = {
             hardness = 3
         }
         category_ranged = {
-            defence = 0.2
+            defense = 0.2
             breakthrough = 0.2
         }
         category_elite_infantry = {
@@ -1848,7 +1848,7 @@ technologies = {
             hardness = 3
         }
         category_ranged = {
-            defence = 0.2
+            defense = 0.2
             breakthrough = 0.2
         }
         category_elite_infantry = {
@@ -1904,7 +1904,7 @@ technologies = {
             hardness = 3
         }
         category_ranged = {
-            defence = 0.2
+            defense = 0.2
             breakthrough = 0.2
         }
         category_elite_infantry = {
@@ -1963,14 +1963,14 @@ technologies = {
         #}
         
         category_ranged = {
-            defence = 0.02
+            defense = 0.02
             breakthrough = 0.02
         }
         category_elite_infantry = {
             armor_value = 10
             breakthrough = 0.5
             hardness = 10
-            defence = 0.1
+            defense = 0.1
         }
     }
 
@@ -2021,14 +2021,14 @@ technologies = {
         #}
 
         category_ranged = {
-            defence = 0.02
+            defense = 0.02
             breakthrough = 0.02
         }
         category_elite_infantry = {
             armor_value = 7
             breakthrough = 0.2
             hardness = 5
-            defence = 0.05
+            defense = 0.05
         }
     }
 
@@ -2079,14 +2079,14 @@ technologies = {
         #}
 
         category_ranged = {
-            defence = 0.02
+            defense = 0.02
             breakthrough = 0.02
         }
         category_elite_infantry = {
             armor_value = 7
             breakthrough = 0.2
             hardness = 5
-            defence = 0.05
+            defense = 0.05
         }
     }
 
@@ -2137,7 +2137,7 @@ technologies = {
         #}
 
         category_ranged = {
-            defence = 0.2
+            defense = 0.2
             breakthrough = 0.2
             hardness = 3
             armor_value = 4
@@ -2186,7 +2186,7 @@ technologies = {
         #}
 
         category_ranged = {
-            defence = 0.25
+            defense = 0.25
             breakthrough = 0.25
             hardness = 4
             armor_value = 5
@@ -2569,7 +2569,7 @@ technologies = {
 
         sharpshooters = {
             soft_attack = 1
-            defence = -0.1
+            defense = -0.1
         }
     }
 
@@ -2827,7 +2827,7 @@ technologies = {
         #}
         guards = {
             soft_attack = 0.25
-            defence = 0.25
+            defense = 0.25
             armor_value  = 5
             breakthrough = 0.25
             max_organisation = 0.10
@@ -2882,7 +2882,7 @@ technologies = {
 
         guards = {
             soft_attack = 0.05
-            defence = 0.05
+            defense = 0.05
             armor_value = 0.5
             breakthrough = 0.05
             max_organisation = 0.05
@@ -2937,7 +2937,7 @@ technologies = {
 
         guards = {
             soft_attack = 0.05
-            defence = 0.05
+            defense = 0.05
             armor_value = 0.5
             breakthrough = 0.05
             max_organisation = 0.05
@@ -2992,7 +2992,7 @@ technologies = {
 
         guards = {
             soft_attack = 0.05
-            defence = 0.05
+            defense = 0.05
             armor_value = 0.5
             breakthrough = 0.05
             max_organisation = 0.05
@@ -3042,7 +3042,7 @@ technologies = {
 
         guards = {
             soft_attack = 0.05
-            defence = 0.05
+            defense = 0.05
             armor_value = 0.5
             breakthrough = 0.05
             max_organisation = 0.05
@@ -3061,7 +3061,6 @@ technologies = {
 
         dependencies = {
             is_industrial = 1
-            internal_combustion_engine = 1
         }
 
         enable_equipments = {
