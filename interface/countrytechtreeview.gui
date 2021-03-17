@@ -2254,21 +2254,8 @@ guiTypes = {
 		}			
 
 				instantTextBoxType = {
-					name = "industry_subtitle"
-					position = { x = 610 y = 210 }
-					textureFile = ""
-					font = "hoi_22tech"
-					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
 					name = "industry_subtitle_production"
-					position = { x = 260 y = 115  }
+					position = { x = 150 y = 122 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
@@ -2277,29 +2264,55 @@ guiTypes = {
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
-				}				
+				}
 
 				instantTextBoxType = {
-					name = "industry_subtitle_synthetic_oil"
-					position = { x = 1308 y = 115  }
+					name = "industry_subtitle_engineering"
+					position = { x = 150 y = 400 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_OIL"
-					maxWidth = 150
+					text = "INDUSTRY_TITLE_ENGINEERING"
+					maxWidth = 200
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
-					name = "industry_subtitle_construction"
-					position = { x = 871 y = 255  }
+					name = "industry_subtitle_CONSTRUCTION"
+					position = { x = 150 y = 950 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
 					text = "INDUSTRY_TITLE_CONSTRUCTION"
-					maxWidth = 250
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_subtitle_agriculture"
+					position = { x = 150 y = 1090 }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "INDUSTRY_TITLE_AGRICULTURE"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_subtitle_finance"
+					position = { x = 280 y = 1230 }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "INDUSTRY_TITLE_FINANCE"
+					maxWidth = 200
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
