@@ -1,15 +1,33 @@
 sub_unit_categories = {
-	category_army
-	category_front_line
-	category_all_infantry
+	category_army 
+	category_front_line 
+	category_all_infantry 
 	category_regular_infantry
-	category_melee
-	category_primitive 
-	category_militia
-	category_ranged
-	category_modern
-	category_elite_infantry
-	category_support_battalions
 	category_motorized
 	category_special_forces
+	category_elite_infantry
+	category_militia 
+	category_melee 
+	category_ranged 
+	category_modern
+	category_primitive 
+	category_support_battalions
+	category_skycarrier 
+	category_skycruiser 
+	category_airfrigate 
+	category_bombardier
+	category_primitive_artillery 
+	category_primitive_line_artillery 
+	category_primitive_support_artillery
+	category_catapult 
+	category_trebuchet 
+	category_modern_artillery 
+	category_modern_line_artillery
+	category_modern_support_artillery
+	category_cannon 
+	category_mortar
+	category_howitzer 
+	category_rocket
+	category_anti_air 
+	category_light_cannon
 }
