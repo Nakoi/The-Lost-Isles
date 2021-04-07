@@ -4,6 +4,9 @@ state={
 	provinces={
 		510 1926 3899 6250 6267 
 	}
-	manpower=0
+	manpower = 1
+state_category = city
+history = {
+}
 	buildings_max_level_factor=1.000
 }
