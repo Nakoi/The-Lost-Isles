@@ -517,11 +517,21 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_fortification_3_medium"
-		texturefile = "gfx/interface/technologies/fortification_1.dds"
+		texturefile = "gfx/interface/technologies/fortification_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fortification_2_medium"
+		texturefile = "gfx/interface/technologies/fortification_2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_fortification_1_medium"
+		texturefile = "gfx/interface/technologies/fortification_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fortification_0_medium"
 		texturefile = "gfx/interface/technologies/fortification_0.dds"
 	}
 
@@ -561,6 +571,61 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_financial_technology_1_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_2_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_3_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_4_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_5_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_6_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_7_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_7.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_8_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_8.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_9_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_9.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_10_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_10.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_11_medium"
+		texturefile = "gfx/interface/technologies/financial_technology_11.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_metal_tools_medium"
 		texturefile = "gfx/interface/technologies/metal_tools.dds"
 	}
@@ -568,6 +633,71 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_specialized_tools_medium"
 		texturefile = "gfx/interface/technologies/specialized_tools.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_12_medium"
+		texturefile = "gfx/interface/technologies/agriculture_12.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_11_medium"
+		texturefile = "gfx/interface/technologies/agriculture_11.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_10_medium"
+		texturefile = "gfx/interface/technologies/agriculture_10.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_9_medium"
+		texturefile = "gfx/interface/technologies/agriculture_9.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_8_medium"
+		texturefile = "gfx/interface/technologies/agriculture_8.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_7_medium"
+		texturefile = "gfx/interface/technologies/agriculture_7.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_6_medium"
+		texturefile = "gfx/interface/technologies/agriculture_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_5_medium"
+		texturefile = "gfx/interface/technologies/agriculture_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_4_medium"
+		texturefile = "gfx/interface/technologies/agriculture_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_3_medium"
+		texturefile = "gfx/interface/technologies/agriculture_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_2_medium"
+		texturefile = "gfx/interface/technologies/agriculture_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_1_medium"
+		texturefile = "gfx/interface/technologies/agriculture_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_0_medium"
+		texturefile = "gfx/interface/technologies/agriculture_0.dds"
 	}
 
 }
