@@ -1,12 +1,19 @@
-state={
-	id=625
-	name="STATE_625"
-	provinces={
+state = {
+	id = 625
+	name = "STATE_625"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AEF
+		add_core_of = AEF
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
 		268 1768 2932 3901 6105 
 	}
-	manpower = 1
-state_category = city
-history = {
-}
-	buildings_max_level_factor=1.000
 }
