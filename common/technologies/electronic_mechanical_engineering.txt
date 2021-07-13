@@ -1,0 +1,1516 @@
+technologies = {
+
+	@100 = 0
+	@400 = 2
+	@600 = 4
+	@800 = 6
+	@850 = 8
+	@957 = 10
+	@959 = 12
+	@961 = 14
+	@963 = 16
+	@965 = 18
+	@967 = 20
+	@969 = 22
+	@971 = 24
+
+	written_language = {
+
+		research_speed_factor = 0.04
+		
+		path = {
+			leads_to_tech = feudal_armies 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = basic_mathematics 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = scribe_caste 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.15
+		start_year = 100
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @100 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "100.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+
+	basic_mathematics = {
+
+		research_speed_factor = 0.03
+		
+		path = {
+			leads_to_tech = printing_press 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.15
+		start_year = 400
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @400 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "400.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	printing_press = {
+
+		research_speed_factor = 0.03
+		
+		path = {
+			leads_to_tech = experimental_science 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = encryption1 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = decryption1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.15
+		start_year = 600
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @600 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "600.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+
+	experimental_science = {
+
+		research_speed_factor = 0.04
+		
+		path = {
+			leads_to_tech = research_buff5 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = basic_chemistry 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.49
+		start_year = 800
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @800 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "400.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+
+	research_buff5 = {
+
+		research_speed_factor = 0.04
+		
+		path = {
+			leads_to_tech = magitech_experiments 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = encryption2 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = decryption2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.49
+		start_year = 850
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @850 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "850.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	magitech_experiments = {
+
+		research_speed_factor = 0.04
+		
+		path = {
+			leads_to_tech = research_buff7 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.49
+		start_year = 957
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @957 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "957.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	research_buff7 = {
+
+		research_speed_factor = 0.04
+		
+		path = {
+			leads_to_tech = research_buff8 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = encryption3 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = decryption3 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.49
+		start_year = 959
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @959 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "959.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+
+	research_buff8 = {
+
+		research_speed_factor = 0.05
+		
+		path = {
+			leads_to_tech = research_buff9 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.49
+		start_year = 961
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "961.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	research_buff9 = {
+
+		research_speed_factor = 0.05
+		
+		path = {
+			leads_to_tech = electrical_experiments 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = encryption4 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = decryption4 
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 3
+		start_year = 963
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "963.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	electrical_experiments = {
+
+		research_speed_factor = 0.05
+		
+		path = {
+			leads_to_tech = research_buff11 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 965
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "965.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	research_buff11 = {
+
+		research_speed_factor = 0.05
+		
+		path = {
+			leads_to_tech = research_buff12 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = encryption5 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = decryption5 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 967
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "967.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	research_buff12 = {
+
+		research_speed_factor = 0.06
+		
+		path = {
+			leads_to_tech = research_buff13 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 969
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "969.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	research_buff13 = {
+
+		research_speed_factor = 0.06
+		
+		path = {
+			leads_to_tech = encryption6 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = decryption6 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 971
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "971.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+
+	encryption1 = {
+
+        crypto_strength = 1
+		
+		research_cost = 1.26
+		start_year = 600
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @600 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "600.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	encryption2 = {
+
+		crypto_strength = 1
+		
+		research_cost = 1.5
+		start_year = 850
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @850 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "850.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	encryption3 = {
+
+		crypto_strength = 1
+		
+		research_cost = 1.74
+		start_year = 959
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @959 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "959.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	encryption4 = {
+
+		crypto_strength = 2
+		
+		research_cost = 2.11
+		start_year = 963
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "963.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	encryption5 = {
+
+		crypto_strength = 2
+		
+		research_cost = 2.11
+		start_year = 967
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "967.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	encryption6 = {
+
+		crypto_strength = 2
+		
+		research_cost = 2.54
+		start_year = 971
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "971.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	decryption1 = {
+
+		decryption_power = 10
+		
+		research_cost = 1.26
+		start_year = 600
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @600 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "600.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	decryption2 = {
+
+		decryption_power = 10
+		
+		research_cost = 1.5
+		start_year = 850
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @850 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "850.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	decryption3 = {
+
+		decryption_power = 15
+		
+		research_cost = 1.74
+		start_year = 959
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @959 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "959.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	decryption4 = {
+
+		decryption_power = 15
+		
+		research_cost = 2.11
+		start_year = 963
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "963.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	decryption5 = {
+
+		decryption_power = 25
+		
+		research_cost = 2.11
+		start_year = 967
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "967.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	decryption6 = {
+
+		decryption_power = 25
+		
+		research_cost = 2.54
+		start_year = 971
+		folder = {
+			name = electronics_folder
+			position = { x = 6 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "971.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	basic_chemistry = {
+
+		casualty_trickleback = 0.03
+		experience_loss_factor = -0.03
+		supply_consumption_factor = 0.05
+		attrition = -0.04
+		
+		path = {
+			leads_to_tech = medicine 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.49
+		start_year = 850
+		folder = {
+			name = electronics_folder
+			position = { x = 8 y = @850 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "850.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	medicine = {
+
+		casualty_trickleback = 0.04
+		experience_loss_factor = -0.04
+		supply_consumption_factor = 0.05
+		attrition = -0.05
+		
+		path = {
+			leads_to_tech = anatomy_studies 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 959
+		folder = {
+			name = electronics_folder
+			position = { x = 8 y = @959 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "959.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	anatomy_studies = {
+
+		casualty_trickleback = 0.04
+		experience_loss_factor = -0.04
+		supply_consumption_factor = 0.05
+		attrition = -0.05
+		
+		path = {
+			leads_to_tech = germ_theory 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.76
+		start_year = 963
+		folder = {
+			name = electronics_folder
+			position = { x = 8 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "963.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	germ_theory = {
+
+		casualty_trickleback = 0.04
+		experience_loss_factor = -0.04
+		supply_consumption_factor = 0.10
+		attrition = -0.06
+		
+		path = {
+			leads_to_tech = penicillin 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.76
+		start_year = 967
+		folder = {
+			name = electronics_folder
+			position = { x = 8 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "967.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	penicillin = {
+
+		casualty_trickleback = 0.05
+		experience_loss_factor = -0.05
+		supply_consumption_factor = 0.10
+		
+		research_cost = 4.21
+		start_year = 971
+		folder = {
+			name = electronics_folder
+			position = { x = 8 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "971.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	feudal_armies = {
+
+		max_planning = 0.075
+		army_org_factor = 0.05
+		supply_consumption_factor = 0.05
+
+		cavalry = {
+			forest = {
+				defence = 0.02
+			}
+			hills = {
+				defence = 0.02
+			}
+			mountain = {
+				defence = 0.02
+			}
+			plains = {
+				defence = 0.02
+			}
+			urban = {
+				defence = 0.02
+			}
+			jungle = {
+				defence = 0.02
+			}
+			marsh = {
+				defence = 0.02
+			}
+			desert = {
+				defence = 0.02
+			}
+			river = {
+				defence = 0.02
+			}
+			amphibious = {
+				defence = 0.02
+			}
+		}
+		
+		path = {
+			leads_to_tech = mercenary_auxiliaries 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.49
+		start_year = 400
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @400 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "400.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	mercenary_auxiliaries = {
+
+		max_planning = 0.075
+		army_org_factor = 0.10
+		supply_consumption_factor = 0.05
+
+		cavalry = {
+			forest = {
+				defence = 0.03
+			}
+			hills = {
+				defence = 0.03
+			}
+			mountain = {
+				defence = 0.03
+			}
+			plains = {
+				defence = 0.03
+			}
+			urban = {
+				defence = 0.03
+			}
+			jungle = {
+				defence = 0.03
+			}
+			marsh = {
+				defence = 0.03
+			}
+			desert = {
+				defence = 0.03
+			}
+			river = {
+				defence = 0.03
+			}
+			amphibious = {
+				defence = 0.03
+			}
+		}
+		
+		path = {
+			leads_to_tech = professional_officers 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.49
+		start_year = 600
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @600 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "600.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	professional_officers = {
+
+		max_planning = 0.075
+		army_org_factor = 0.05
+		supply_consumption_factor = 0.05
+
+		cavalry = {
+			forest = {
+				defence = 0.025
+			}
+			hills = {
+				defence = 0.025
+			}
+			mountain = {
+				defence = 0.05
+			}
+			plains = {
+				defence = 0.05
+			}
+			urban = {
+				defence = 0.025
+			}
+			jungle = {
+				defence = 0.05
+			}
+			marsh = {
+				defence = 0.05
+			}
+			desert = {
+				defence = 0.05
+			}
+			river = {
+				defence = 0.025
+			}
+			amphibious = {
+				defence = 0.05
+			}
+		}
+		
+		path = {
+			leads_to_tech = centralised_planning 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 850
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @850 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "850.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	centralised_planning = {
+
+		max_planning = 0.075
+		army_org_factor = 0.10
+		supply_consumption_factor = 0.10
+
+		cavalry = {
+			forest = {
+				defence = 0.025
+			}
+			hills = {
+				defence = 0.025
+			}
+			mountain = {
+				defence = 0.05
+			}
+			plains = {
+				defence = 0.05
+			}
+			urban = {
+				defence = 0.025
+			}
+			jungle = {
+				defence = 0.05
+			}
+			marsh = {
+				defence = 0.05
+			}
+			desert = {
+				defence = 0.05
+			}
+			river = {
+				defence = 0.025
+			}
+			amphibious = {
+				defence = 0.05
+			}
+		}
+		
+		path = {
+			leads_to_tech = army_organisation4 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.43
+		start_year = 959
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @959 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "959.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	army_organisation4 = {
+
+		max_planning = 0.075
+		army_org_factor = 0.05
+		supply_consumption_factor = 0.05
+		
+		path = {
+			leads_to_tech = divisional_structure 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4.21
+		start_year = 963
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "963.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	divisional_structure = {
+
+		max_planning = 0.075
+		army_org_factor = 0.10
+		supply_consumption_factor = 0.10
+
+		cavalry = {
+			forest = {
+				defence = 0.05
+				movement = 0.05
+			}
+			hills = {
+				defence = 0.05
+				movement = 0.05
+			}
+			urban = {
+				defence = 0.05
+				movement = 0.05
+			}
+			jungle = {
+				defence = 0.05
+				movement = 0.05
+			}
+			marsh = {
+				defence = 0.05
+				movement = 0.05
+			}
+			river = {
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+		
+		path = {
+			leads_to_tech = modern_armyDoctrine 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4.21
+		start_year = 967
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "967.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	modern_armyDoctrine = {
+
+		max_planning = 0.075
+		planning_speed = 0.05
+		army_org_factor = 0.10
+		supply_consumption_factor = 0.10
+
+		cavalry = {
+			forest = {
+				defence = 0.05
+				movement = 0.05
+			}
+			hills = {
+				defence = 0.05
+				movement = 0.05
+			}
+			urban = {
+				defence = 0.05
+				movement = 0.05
+			}
+			jungle = {
+				defence = 0.05
+				movement = 0.05
+			}
+			marsh = {
+				defence = 0.05
+				movement = 0.05
+			}
+			river = {
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+		
+		research_cost = 4.21
+		start_year = 971
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "971.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	scribe_caste = {
+
+		research_speed_factor = 0.05
+		political_power_gain = 0.10
+		experience_gain_factor = 0.05
+		
+		path = {
+			leads_to_tech = temple_schools 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.49
+		start_year = 400
+		folder = {
+			name = electronics_folder
+			position = { x = 10 y = @400 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "400.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	temple_schools = {
+
+		research_speed_factor = 0.06
+		political_power_gain = 0.10
+		experience_gain_factor = 0.05
+		
+		path = {
+			leads_to_tech = rulerSponsored_schooling 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 800
+		folder = {
+			name = electronics_folder
+			position = { x = 10 y = @800 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "800.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	rulerSponsored_schooling = {
+
+		research_speed_factor = 0.06
+		political_power_gain = 0.15
+		experience_gain_factor = 0.075
+		
+		path = {
+			leads_to_tech = education_buff4 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 957
+		folder = {
+			name = electronics_folder
+			position = { x = 10 y = @957 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "957.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	education_buff4 = {
+
+		research_speed_factor = 0.07
+		political_power_gain = 0.15
+		experience_gain_factor = 0.075
+		
+		path = {
+			leads_to_tech = education_buff5 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.44
+		start_year = 961
+		folder = {
+			name = electronics_folder
+			position = { x = 10 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "961.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	education_buff5 = {
+
+		research_speed_factor = 0.08
+		political_power_gain = 0.20
+		experience_gain_factor = 0.10
+		
+		path = {
+			leads_to_tech = education_buff6 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4.21
+		start_year = 965
+		folder = {
+			name = electronics_folder
+			position = { x = 10 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "965.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+	
+	education_buff6 = {
+
+		research_speed_factor = 0.08
+		political_power_gain = 0.20
+		experience_gain_factor = 0.125
+		
+		research_cost = 4.94
+		start_year = 969
+		folder = {
+			name = electronics_folder
+			position = { x = 10 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 3
+				date > "969.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+	}
+
+}
