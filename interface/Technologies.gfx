@@ -501,11 +501,6 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_improvised_tools_medium"
-		texturefile = "gfx/interface/technologies/improvised_tools.dds"
-	}
-
-	SpriteType = {
 		name = "GFX_hot_air_balloon_medium"
 		texturefile = "gfx/interface/technologies/hot_air_baloon.dds"
 	}
@@ -513,6 +508,66 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_construction_0_medium"
 		texturefile = "gfx/interface/technologies/construction_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_1_medium"
+		texturefile = "gfx/interface/technologies/construction_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_2_medium"
+		texturefile = "gfx/interface/technologies/construction_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_3_medium"
+		texturefile = "gfx/interface/technologies/construction_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_4_medium"
+		texturefile = "gfx/interface/technologies/construction_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_5_medium"
+		texturefile = "gfx/interface/technologies/construction_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_6_medium"
+		texturefile = "gfx/interface/technologies/construction_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_7_medium"
+		texturefile = "gfx/interface/technologies/construction_7.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_8_medium"
+		texturefile = "gfx/interface/technologies/construction_8.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_9_medium"
+		texturefile = "gfx/interface/technologies/construction_9.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_10_medium"
+		texturefile = "gfx/interface/technologies/construction_10.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_11_medium"
+		texturefile = "gfx/interface/technologies/construction_11_dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_12_medium"
+		texturefile = "gfx/interface/technologies/construction_12_dds"
 	}
 
 	SpriteType = {
@@ -563,6 +618,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_assembly_line_medium"
 		texturefile = "gfx/interface/technologies/assembly_line.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shift_work_medium"
+		texturefile = "gfx/interface/technologies/shift_work.dds"
 	}
 
 	SpriteType = {
@@ -626,13 +686,68 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_improvised_tools_medium"
+		texturefile = "gfx/interface/technologies/tools_1.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_metal_tools_medium"
-		texturefile = "gfx/interface/technologies/metal_tools.dds"
+		texturefile = "gfx/interface/technologies/tools_2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_specialized_tools_medium"
-		texturefile = "gfx/interface/technologies/specialized_tools.dds"
+		texturefile = "gfx/interface/technologies/tools_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_metallurgy_medium"
+		texturefile = "gfx/interface/technologies/tools_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_interchangeable_tools_medium"
+		texturefile = "gfx/interface/technologies/tools_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_6_medium"
+		texturefile = "gfx/interface/technologies/tools_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_7_medium"
+		texturefile = "gfx/interface/technologies/tools_7.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_8_medium"
+		texturefile = "gfx/interface/technologies/tools_8.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_9_medium"
+		texturefile = "gfx/interface/technologies/tools_9.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_10_medium"
+		texturefile = "gfx/interface/technologies/tools_10.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_11_medium"
+		texturefile = "gfx/interface/technologies/tools_11.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_12_medium"
+		texturefile = "gfx/interface/technologies/tools_12.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_13_medium"
+		texturefile = "gfx/interface/technologies/tools_13.dds"
 	}
 
 	SpriteType = {
