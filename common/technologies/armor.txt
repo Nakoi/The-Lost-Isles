@@ -1,0 +1,1424 @@
+technologies = {
+	
+	@400 = 0
+	@500 = 2
+	@800 = 4
+	@850 = 6
+	@957 = 8
+	@959 = 10
+	@961 = 12
+	@963 = 14
+	@965 = 16
+	@967 = 18
+	@969 = 20
+	@971 = 22
+
+	### Primitive Artillery Tech ###
+
+	catapult = {
+
+		enable_equipments = {
+			primitive_artillery_equipment_1
+		}
+		enable_subunits = {
+			artillery_brigade
+		}
+	
+		path = {
+			leads_to_tech = catapult_upgrade 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = trebuchet 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			basic_engineering = 1
+		}
+
+		research_cost = 1.79
+		start_year = 400
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @400 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	catapult_upgrade = {
+
+		category_catapult = {
+			soft_attack = 0.10
+		}
+
+		path = {
+			leads_to_tech = cannon
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.79
+		start_year = 500
+
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @500 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	### Modern Artillery Tech ###
+
+	cannon = {
+
+		enable_equipments = {
+			modern_artillery_equipment_1
+		}
+
+		enable_equipment_modules = { 
+			ship_light_gun
+			ship_heavy_gun
+		}
+	
+		path = {
+			leads_to_tech = cannon_upgrade_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = mortar
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = light_artillery
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			gunpowder = 1
+		}
+
+		research_cost = 2
+		start_year = 850
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @850 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	standard_charges = {
+
+		category_cannon = {
+			hard_attack = 0.10
+			piercing_attack = 0.10
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = canister_shot
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = anti_air_cannon
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = rocket_cannon
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 957
+
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @957 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	canister_shot = {
+
+		category_cannon = {
+			soft_attack = 0.10
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = friction_primer
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.49
+		start_year = 959
+
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @959 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	friction_primer = {
+
+		category_cannon = {
+			hard_attack = 0.15
+			piercing_attack = 0.15
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = improved_cannon
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.49
+		start_year = 961
+
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	improved_cannon = {
+
+		enable_equipments = {
+			modern_artillery_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = conical_shells
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 963
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	conical_shells = {
+
+		category_cannon = {
+			hard_attack = 0.15
+			piercing_attack = 0.15
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = breach_loading_mechanism
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 965
+
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	breach_loading_mechanism = {
+
+		category_cannon = {
+			soft_attack = 0.20
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = brass_shells
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 967
+
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	brass_shells = {
+
+		category_cannon = {
+			hard_attack = 0.20
+			piercing_attack = 0.20
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = modern_cannon
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 969
+
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	modern_cannon = {
+
+		enable_equipments = {
+			modern_artillery_equipment_3
+		}
+
+		research_cost = 2
+		start_year = 971
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	### Anti-Air Tech ###
+
+	anti_air_cannon = {
+
+		enable_equipments = {
+			anti_air_artillery_equipment_1
+		}
+
+		enable_subunits = {
+			anti_air_brigade
+		}
+
+		path = {
+			leads_to_tech = crystal_gunpowder_mixture
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.49
+		start_year = 959
+		
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = @959 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	crystal_gunpowder_mixture = {
+
+		category_anti_air = {
+			air_attack = 0.10
+			hard_attack = 0.10
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = percussion_lock_mechanism
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.49
+		start_year = 961
+
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	percussion_lock_mechanism = {
+
+		category_anti_air = {
+			air_attack = 0.15
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = tracer_projectiles
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 963
+
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	tracer_projectiles = {
+
+		category_anti_air = {
+			hard_attack = 0.20
+			piercing_attack = 0.20
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = improved_anti_air_cannon
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 965
+
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	improved_anti_air_cannon = {
+
+		enable_equipments = {
+			anti_air_artillery_equipment_2
+		}
+
+		path = {
+			leads_to_tech = brass_cartridges
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 967
+		
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	brass_cartridges = {
+
+		category_anti_air = {
+			air_attack = 0.20
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = shrapnel_projectiles
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 969
+
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	shrapnel_projectiles = {
+
+		category_anti_air = {
+			air_attack = 0.25
+			supply_cost = -0.05
+		}
+
+		research_cost = 3
+		start_year = 971
+
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	### Rocket Artillery Tech ###
+
+	rocket_cannon = {
+
+		enable_equipments = {
+			rocket_artillery_equipment_1
+		}
+
+		enable_subunits = {
+			rocket_brigade
+		}
+
+		path = {
+			leads_to_tech = explosive_rockets
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.49
+		start_year = 961
+		
+		folder = {
+			name = armour_folder
+			position = { x = 8 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	explosive_rockets = {
+
+		category_rockets = {
+			soft_attack = 0.10
+			entrenchment = 1
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = incendiary_rockets
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 963
+
+		folder = {
+			name = armour_folder
+			position = { x = 8 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	incendiary_rockets = {
+
+		category_rockets = {
+			defense = 0.15
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = flight_stabilisation
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 965
+
+		folder = {
+			name = armour_folder
+			position = { x = 8 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	flight_stabilisation = {
+
+		category_rockets = {
+			soft_attack = 0.20
+			entrenchment = 1
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = improved_rocket_cannon
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 967
+
+		folder = {
+			name = armour_folder
+			position = { x = 8 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	improved_rocket_cannon = {
+
+		enable_equipments = {
+			rocket_artillery_equipment_2
+		}
+
+		path = {
+			leads_to_tech = modern_rockets
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 969
+		
+		folder = {
+			name = armour_folder
+			position = { x = 8 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	modern_rockets = {
+
+		category_rockets = {
+			defense = 0.20
+			entrenchment = 1
+			supply_cost = -0.05
+		}
+
+		research_cost = 3
+		start_year = 971
+
+		folder = {
+			name = armour_folder
+			position = { x = 8 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	### Mortar Artillery Tech ###
+
+	mortar = {
+
+		enable_equipments = {
+			mortar_artillery_equipment_1
+		}
+
+		enable_subunits = {
+			mortar_brigade
+		}
+
+		path = {
+			leads_to_tech = elevation_screws
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			trebuchet
+		}
+
+		research_cost = 2
+		start_year = 957
+		
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @957 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	elevation_screws = {
+
+		category_mortar = {
+			soft_attack = 0.15
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = explosive_shells
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = howitzer
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.49
+		start_year = 959
+
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @959 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	explosive_shells = {
+
+		category_mortar = {
+			soft_attack = 0.15
+			piercing_attack = 0.10
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = standardised_powder_charges
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.49
+		start_year = 961
+
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	standardised_powder_charges = {
+
+		category_mortar = {
+			forts = {
+				attack = 0.15
+				breakthrough = 0.25
+				supply_cost = -0.05
+			}
+			urban = {
+				attack = 0.15
+				breakthrough = 0.25
+				supply_cost = -0.05
+			}
+		}
+
+		path = {
+			leads_to_tech = improved_mortar
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 963
+
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	improved_mortar = {
+
+		enable_equipments = {
+			mortar_artillery_equipment_2
+		}
+
+		path = {
+			leads_to_tech = mortar_weight_reduction
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 965
+		
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	mortar_weight_reduction = {
+
+		category_mortar = {
+			soft_attack = 0.15
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = modern_mortar_bombs
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 967
+
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	modern_mortar_bombs = {
+
+		category_mortar = {
+			soft_attack = 0.20
+			piercing_attack = 0.10
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = trench_mortars
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 969
+
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	trench_mortars = {
+
+		category_mortar = {
+			forts = {
+				attack = 0.20
+				breakthrough = 0.25
+				supply_cost = -0.05
+			}
+			urban = {
+				attack = 0.20
+				breakthrough = 0.25
+				supply_cost = -0.05
+			}
+		}
+
+		research_cost = 3
+		start_year = 971
+
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	### Howitzer Artillery Tech ###
+
+	howitzer = {
+
+		enable_equipments = {
+			howitzer_artillery_equipment_1
+		}
+
+		enable_subunits = {
+			howitzer_brigade
+		}
+
+		path = {
+			leads_to_tech = indirect_fire
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.49
+		start_year = 961
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	indirect_fire = {
+
+		category_howitzer = {
+			soft_attack = 0.15
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = gun_howitzers
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 963
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	gun_howitzers = {
+
+		category_howitzer = {
+			soft_attack = 0.20
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = case_shot
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 965
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	case_shot = {
+
+		category_howitzer = {
+			soft_attack = 0.20
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = improved_howitzer
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 967
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	improved_howitzer = {
+
+		enable_equipments = {
+			howitzer_artillery_equipment_2
+		}
+
+		path = {
+			leads_to_tech = recoil_management
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 969
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	recoil_management = {
+
+		category_howitzer = {
+			soft_attack = 0.20
+			supply_cost = -0.05
+		}
+
+		research_cost = 3
+		start_year = 971
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	### Light Artillery Tech ###
+
+	light_artillery = {
+
+		enable_equipments = {
+			light_artillery_equipment_1
+		}
+
+		enable_subunits = {
+			light_artillery_brigade
+		}
+
+		path = {
+			leads_to_tech = light_artillery_upgrade_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 957
+		
+		folder = {
+			name = armour_folder
+			position = { x = 10 y = @957 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	light_artillery_upgrade_1 = {
+
+		category_light_artillery = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+			supply_cost = -0.05
+		}
+
+		path = {
+			leads_to_tech = improved_light_artillery
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.49
+		start_year = 961
+
+		folder = {
+			name = armour_folder
+			position = { x = 10 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	improved_light_artillery = {
+
+		enable_equipments = {
+			light_artillery_equipment_2
+		}
+
+		path = {
+			leads_to_tech = light_artillery_upgrade_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 965
+		
+		folder = {
+			name = armour_folder
+			position = { x = 10 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	light_artillery_upgrade_2 = {
+
+		category_light_artillery = {
+			soft_attack = 0.20
+			hard_attack = 0.20
+			supply_cost = -0.05
+		}
+
+		research_cost = 3
+		start_year = 969
+
+		folder = {
+			name = armour_folder
+			position = { x = 10 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	### Trebuchet Artillery Tech ###
+
+	trebuchet = {
+
+		enable_equipments = {
+			trebuchet_artillery_equipment_1
+		}
+
+		enable_subunits = {
+			trebuchet_brigade
+		}
+
+		path = {
+			leads_to_tech = stationary_artillery
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = mortar
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.79
+		start_year = 500
+		
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = @500 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	### Stationary Artillery Tech ###
+	
+	stationary_artillery = {
+
+		enable_equipments = {
+			super_shell_equipment_1
+		}
+
+		enable_building = {
+			stationary_artillery_site
+		}
+
+		path = {
+			leads_to_tech = improved_stationary_artillery
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.75
+		start_year = 967
+		
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	improved_stationary_artillery = {
+
+		enable_equipments = {
+			super_shell_equipment_2
+		}
+
+		path = {
+			leads_to_tech = modern_stationary_artillery
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 969
+		
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	modern_stationary_artillery = {
+
+		enable_equipments = {
+			super_shell_equipment_3
+		}
+
+		research_cost = 3
+		start_year = 971
+		
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+}
