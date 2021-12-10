@@ -2,16 +2,15 @@ technologies = {
 	
 	@400 = 0
 	@500 = 2
-	@800 = 4
-	@850 = 6
-	@957 = 8
-	@959 = 10
-	@961 = 12
-	@963 = 14
-	@965 = 16
-	@967 = 18
-	@969 = 20
-	@971 = 22
+	@850 = 4
+	@957 = 6
+	@959 = 8
+	@961 = 10
+	@963 = 12
+	@965 = 14
+	@967 = 16
+	@969 = 18
+	@971 = 20
 
 	### Primitive Artillery Tech ###
 
@@ -33,16 +32,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		dependencies = {
-			basic_engineering = 1
-		}
-
 		research_cost = 1.79
 		start_year = 400
 		
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = @400 }
+			position = { x = 1 y = @400 }
 		}
 		
 		ai_will_do = {
@@ -70,7 +65,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = @500 }
+			position = { x = 1 y = @500 }
 		}
 		
 		ai_will_do = {
@@ -96,7 +91,7 @@ technologies = {
 		}
 	
 		path = {
-			leads_to_tech = cannon_upgrade_1
+			leads_to_tech = standard_charges
 			research_cost_coeff = 1
 		}
 
@@ -110,16 +105,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		dependencies = {
-			gunpowder = 1
-		}
-
 		research_cost = 2
 		start_year = 850
 		
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = @850 }
+			position = { x = 1 y = @850 }
 		}
 		
 		ai_will_do = {
@@ -159,7 +150,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = @957 }
+			position = { x = 1 y = @957 }
 		}
 		
 		ai_will_do = {
@@ -188,7 +179,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = @959 }
+			position = { x = 1 y = @959 }
 		}
 		
 		ai_will_do = {
@@ -218,7 +209,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = @961 }
+			position = { x = 1 y = @961 }
 		}
 		
 		ai_will_do = {
@@ -246,7 +237,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = @963 }
+			position = { x = 1 y = @963 }
 		}
 		
 		ai_will_do = {
@@ -276,7 +267,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = @965 }
+			position = { x = 1 y = @965 }
 		}
 		
 		ai_will_do = {
@@ -305,7 +296,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = @967 }
+			position = { x = 1 y = @967 }
 		}
 		
 		ai_will_do = {
@@ -335,7 +326,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = @969 }
+			position = { x = 1 y = @969 }
 		}
 		
 		ai_will_do = {
@@ -358,7 +349,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = @971 }
+			position = { x = 1 y = @971 }
 		}
 		
 		ai_will_do = {
@@ -392,7 +383,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 6 y = @959 }
+			position = { x = 4 y = @959 }
 		}
 		
 		ai_will_do = {
@@ -422,7 +413,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 6 y = @961 }
+			position = { x = 4 y = @961 }
 		}
 		
 		ai_will_do = {
@@ -451,7 +442,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 6 y = @963 }
+			position = { x = 4 y = @963 }
 		}
 		
 		ai_will_do = {
@@ -481,7 +472,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 6 y = @965 }
+			position = { x = 4 y = @965 }
 		}
 		
 		ai_will_do = {
@@ -509,7 +500,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 6 y = @967 }
+			position = { x = 4 y = @967 }
 		}
 		
 		ai_will_do = {
@@ -538,7 +529,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 6 y = @969 }
+			position = { x = 4 y = @969 }
 		}
 		
 		ai_will_do = {
@@ -562,7 +553,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 6 y = @971 }
+			position = { x = 4 y = @971 }
 		}
 		
 		ai_will_do = {
@@ -596,7 +587,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 8 y = @961 }
+			position = { x = 7 y = @961 }
 		}
 		
 		ai_will_do = {
@@ -626,7 +617,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 8 y = @963 }
+			position = { x = 7 y = @963 }
 		}
 		
 		ai_will_do = {
@@ -655,7 +646,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 8 y = @965 }
+			position = { x = 7 y = @965 }
 		}
 		
 		ai_will_do = {
@@ -685,7 +676,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 8 y = @967 }
+			position = { x = 7 y = @967 }
 		}
 		
 		ai_will_do = {
@@ -713,7 +704,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 8 y = @969 }
+			position = { x = 7 y = @969 }
 		}
 		
 		ai_will_do = {
@@ -738,7 +729,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 8 y = @971 }
+			position = { x = 7 y = @971 }
 		}
 		
 		ai_will_do = {
@@ -767,16 +758,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		dependencies = {
-			trebuchet
-		}
-
 		research_cost = 2
 		start_year = 957
 		
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = @957 }
+			position = { x = -2 y = @957 }
 		}
 		
 		ai_will_do = {
@@ -810,7 +797,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = @959 }
+			position = { x = -2 y = @959 }
 		}
 		
 		ai_will_do = {
@@ -840,7 +827,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = @961 }
+			position = { x = -2 y = @961 }
 		}
 		
 		ai_will_do = {
@@ -877,7 +864,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = @963 }
+			position = { x = -2 y = @963 }
 		}
 		
 		ai_will_do = {
@@ -905,7 +892,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = @965 }
+			position = { x = -2 y = @965 }
 		}
 		
 		ai_will_do = {
@@ -934,7 +921,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = @967 }
+			position = { x = -2 y = @967 }
 		}
 		
 		ai_will_do = {
@@ -964,7 +951,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = @969 }
+			position = { x = -2 y = @969 }
 		}
 		
 		ai_will_do = {
@@ -996,7 +983,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = @971 }
+			position = { x = -2 y = @971 }
 		}
 		
 		ai_will_do = {
@@ -1030,7 +1017,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = @961 }
+			position = { x = -5 y = @961 }
 		}
 		
 		ai_will_do = {
@@ -1059,7 +1046,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = @963 }
+			position = { x = -5 y = @963 }
 		}
 		
 		ai_will_do = {
@@ -1088,7 +1075,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = @965 }
+			position = { x = -5 y = @965 }
 		}
 		
 		ai_will_do = {
@@ -1117,7 +1104,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = @967 }
+			position = { x = -5 y = @967 }
 		}
 		
 		ai_will_do = {
@@ -1145,7 +1132,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = @969 }
+			position = { x = -5 y = @969 }
 		}
 		
 		ai_will_do = {
@@ -1169,7 +1156,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = @971 }
+			position = { x = -5 y = @971 }
 		}
 		
 		ai_will_do = {
@@ -1359,7 +1346,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = -2 y = @967 }
+			position = { x = -8 y = @967 }
 		}
 		
 		ai_will_do = {
@@ -1387,7 +1374,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = -2 y = @969 }
+			position = { x = -8 y = @969 }
 		}
 		
 		ai_will_do = {
@@ -1410,7 +1397,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = -2 y = @971 }
+			position = { x = -8 y = @971 }
 		}
 		
 		ai_will_do = {
