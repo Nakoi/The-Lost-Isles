@@ -1,0 +1,200 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_tech_support_medium"
+		texturefile = "gfx/interface/technologies/Support_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_engineers_medium"
+		texturefile = "gfx/interface/technologies/Engineer1_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_engineers2_medium"
+		texturefile = "gfx/interface/technologies/Engineer2_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_engineers3_medium"
+		texturefile = "gfx/interface/technologies/Engineer3_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_engineers4_medium"
+		texturefile = "gfx/interface/technologies/Engineer4_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_engineers5_medium"
+		texturefile = "gfx/interface/technologies/Engineer5_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_engineers6_medium"
+		texturefile = "gfx/interface/technologies/Engineer6_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_recon_medium"
+		texturefile = "gfx/interface/technologies/Recon1_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_recon2_medium"
+		texturefile = "gfx/interface/technologies/Recon2_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_recon3_medium"
+		texturefile = "gfx/interface/technologies/Recon3_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_recon4_medium"
+		texturefile = "gfx/interface/technologies/Recon4_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_recon5_medium"
+		texturefile = "gfx/interface/technologies/Recon5_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_recon6_medium"
+		texturefile = "gfx/interface/technologies/Recon6_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_maintenance_company_medium"
+		texturefile = "gfx/interface/technologies/Mainternance1_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_maintenance_company2_medium"
+		texturefile = "gfx/interface/technologies/Mainternance2_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_maintenance_company3_medium"
+		texturefile = "gfx/interface/technologies/Mainternance3_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_maintenance_company4_medium"
+		texturefile = "gfx/interface/technologies/Mainternance4_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_maintenance_company5_medium"
+		texturefile = "gfx/interface/technologies/Mainternance5_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_military_police_medium"
+		texturefile = "gfx/interface/technologies/MilitaryPolice1_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_military_police2_medium"
+		texturefile = "gfx/interface/technologies/MilitaryPolice2_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_military_police3_medium"
+		texturefile = "gfx/interface/technologies/MilitaryPolice3_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_military_police4_medium"
+		texturefile = "gfx/interface/technologies/MilitaryPolice4_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_military_police5_medium"
+		texturefile = "gfx/interface/technologies/MilitaryPolice5_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_field_hospital_medium"
+		texturefile = "gfx/interface/technologies/FieldHospital1_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_field_hospital2_medium"
+		texturefile = "gfx/interface/technologies/FieldHospital2_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_field_hospital3_medium"
+		texturefile = "gfx/interface/technologies/FieldHospital3_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_field_hospital4_medium"
+		texturefile = "gfx/interface/technologies/FieldHospital4_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_logistics_company_medium"
+		texturefile = "gfx/interface/technologies/LogisticsCompany1_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_logistics_company2_medium"
+		texturefile = "gfx/interface/technologies/LogisticsCompany2_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_logistics_company3_medium"
+		texturefile = "gfx/interface/technologies/LogisticsCompany3_SmollRess.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_logistics_company4_medium"
+		texturefile = "gfx/interface/technologies/LogisticsCompany4_SmollRess.dds"
+	}
+
+	#   ###  ##  #  # ###      ## #  # ### ###  
+	#    #  #    #  #  #      #   #  #  #  #  # 
+	#    #  # ## ####  #       #  ####  #  ###  
+	#    #  #  # #  #  #        # #  #  #  #    
+	### ###  ##  #  #  #      ##  #  # ### #    
+
+	 ##  ###  #  # ###  ## ### ###  
+	#  # #  # #  #  #  #   #   #  # 
+	#    ###  #  #  #   #  ##  ###  
+	#  # #  # #  #  #    # #   #  # 
+	 ##  #  #  ##  ### ##  ### #  # 
+
+	 ## #  # ###  #   #  ##  ###  ### #  # ###  ## 
+	#   #  # #  # ## ## #  # #  #  #  ## # #   #   
+	 #  #  # ###  # # # #### ###   #  # ## ##   #  
+	  # #  # #  # #   # #  # #  #  #  #  # #     # 
+	##   ##  ###  #   # #  # #  # ### #  # ### ##  
+
+	 ##   ##  ###  ###  ### ### ###  
+	#  # #  # #  # #  #  #  #   #  # 
+	#    #### ###  ###   #  ##  ###  
+	#  # #  # #  # #  #  #  #   #  # 
+	 ##  #  # #  # #  # ### ### #  # 
+
+	#  # ###  ##  #   # #   #      ## #  # ### ###   ## 
+	#  # #   #  # #   #  # #      #   #  #  #  #  # #   
+	#### ##  ####  # #    #        #  ####  #  ###   #  
+	#  # #   #  #  # #    #         # #  #  #  #      # 
+	#  # ### #  #   #     #       ##  #  # ### #    ##  
+
+	### ###   ##  #  #  ## ###   ##  ###  ### 
+	 #  #  # #  # ## # #   #  # #  # #  #  #  
+ 	 #  ###  #### # ##  #  ###  #  # ###   #  
+	 #  #  # #  # #  #   # #    #  # #  #  #  
+	 #  #  # #  # #  # ##  #     ##  #  #  #  
+
+	#   # ### #  # ###  ## 
+	## ##  #  ## # #   #   
+	# # #  #  # ## ##   #  
+	#   #  #  #  # #     # 
+	#   # ### #  # ### ##  
+
+}
