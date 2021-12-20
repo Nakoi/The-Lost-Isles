@@ -1,9 +1,21 @@
 spriteTypes = {
 
+	 ## #  # ###  ###   ##  ###  ####
+	#   #  # #  # #  # #  # #  #   #
+	 #  #  # ###  ###  #  # ###    #
+	  # #  # #    #    #  # #  #   #
+	##   ##  #    #     ##  #  #   #
+
 	SpriteType = {
 		name = "GFX_tech_support_medium"
 		texturefile = "gfx/interface/technologies/Support_SmollRes.dds"
 	}
+
+	### #  #  ##  ### #  # ### ### ###
+	#   ## # #  #  #  ## # #   #   #  #
+	##  # ## # ##  #  # ## ##  ##  ###
+	#   #  # #  #  #  #  # #   #   #  #
+	### #  #  ##  ### #  # ### ### #  #
 
 	SpriteType = {
 		name = "GFX_tech_engineers_medium"
@@ -35,6 +47,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Engineer6_SmollRess.dds"
 	}
 
+	###  ###   ##  ##  #  # 
+	#  # #    #   #  # ## #
+	###  ##  #    #  # # ##
+	#  # #    #   #  # #  #
+	#  # ###   ##  ##  #  #
+
 	SpriteType = {
 		name = "GFX_tech_recon_medium"
 		texturefile = "gfx/interface/technologies/Recon1_SmollRess.dds"
@@ -65,6 +83,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Recon6_SmollRess.dds"
 	}
 
+	#   #  ##  ### #  # ##### ### #  #  ##  #  #   ## ###
+	## ## #  #  #  ## #   #   #   ## # #  # ## #  #   #
+	# # # ####  #  # ##   #   ##  # ## #### # ## #    ##
+	#   # #  #  #  #  #   #   #   #  # #  # #  #  #   #
+	#   # #  # ### #  #   #   ### #  # #  # #  #   ## ###
+
 	SpriteType = {
 		name = "GFX_tech_maintenance_company_medium"
 		texturefile = "gfx/interface/technologies/Mainternance1_SmollRess.dds"
@@ -89,6 +113,12 @@ spriteTypes = {
 		name = "GFX_tech_maintenance_company5_medium"
 		texturefile = "gfx/interface/technologies/Mainternance5_SmollRess.dds"
 	}
+
+	###   ##  #   ###   ## ###
+	#  # #  # #    #   #   #
+	###  #  # #    #  #    ##
+	#    #  # #    #   #   #
+	#     ##  ### ###   ## ###
 
 	SpriteType = {
 		name = "GFX_tech_military_police_medium"
@@ -115,6 +145,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/MilitaryPolice5_SmollRess.dds"
 	}
 
+	#  #  ##   ## ###  ### #####  ##  #
+	#  # #  # #   #  #  #    #   #  # #
+	#### #  #  #  ###   #    #   #### #
+	#  # #  #   # #     #    #   #  # #
+	#  #  ##  ##  #    ###   #   #  # ####
+
 	SpriteType = {
 		name = "GFX_tech_field_hospital_medium"
 		texturefile = "gfx/interface/technologies/FieldHospital1_SmollRess.dds"
@@ -135,6 +171,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/FieldHospital4_SmollRess.dds"
 	}
 
+	#    ##   ##  ###  ## ##### ###   ##  ##
+	#   #  # #     #  #     #    #   #   #
+	#   #  # # ##  #   #    #    #  #     #
+	#   #  # #  #  #    #   #    #   #     #
+	###  ##   ##  ### ##    #   ###   ## ##
+
 	SpriteType = {
 		name = "GFX_tech_logistics_company_medium"
 		texturefile = "gfx/interface/technologies/LogisticsCompany1_SmollRess.dds"
@@ -153,6 +195,296 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_tech_logistics_company4_medium"
 		texturefile = "gfx/interface/technologies/LogisticsCompany4_SmollRess.dds"
+	}
+
+	 ##  ###  #### ### #   #   ### ###  #  #
+	#  # #  #   #   #  #   #   #   #  #  ##
+	#### ###    #   #  #   #   ##  ###   #
+	#  # #  #   #   #  #   #   #   #  #  #
+	#  # #  #   #  ### ### ### ### #  #  #
+
+	  ##  ##  #####  ##  ###  #  # #    #####  ##
+	 #   #  #   #   #  # #  # #  # #      #   #
+	#    ####   #   #### ###  #  # #      #    #
+	 #   #  #   #   #  # #    #  # #      #     #
+	  ## #  #   #   #  # #     ##  ####   #   ##
+	
+	SpriteType = {
+		name = "GFX_catapult_medium"
+		texturefile = "gfx/interface/technologies/catapult.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_catapult_upgrade_medium"
+		texturefile = "gfx/interface/technologies/catapult_upgrade.dds"
+	}
+
+	  ##  ##  #  # #  #  ##  #  #
+	 #   #  # ## # ## # #  # ## #
+	#    #### # ## # ## #  # # ##
+	 #   #  # #  # #  # #  # #  #
+	  ## #  # #  # #  #  ##  #  #
+
+	SpriteType = {
+		name = "GFX_cannon_medium"
+		texturefile = "gfx/interface/technologies/Cannon1_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_standard_charges_medium"
+		texturefile = "gfx/interface/technologies/cannon_upgrade_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_canister_shot_medium"
+		texturefile = "gfx/interface/technologies/cannon_upgade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_friction_primer_medium"
+		texturefile = "gfx/interface/technologies/cannon_upgrade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_cannon_medium"
+		texturefile = "gfx/interface/technologies/Cannon2_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_conical_shells_medium"
+		texturefile = "gfx/interface/technologies/cannon_upgrade_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_breach_loading_mechanism_medium"
+		texturefile = "gfx/interface/technologies/cannon_upgrade_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_brass_shells_medium"
+		texturefile = "gfx/interface/technologies/cannon_upgrade_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_cannon_medium"
+		texturefile = "gfx/interface/technologies/Cannon3_Smollres.dds"
+	}
+
+	 ##  #  # ##### ###         ##  ### ###
+	#  # ## #   #    #         #  #  #  #  #
+	#### # ##   #    #   ####  ####  #  ###
+	#  # #  #   #    #         #  #  #  #  #
+	#  # #  #   #   ###        #  # ### #  #
+
+	SpriteType = {
+		name = "GFX_anti_air_cannon_medium"
+		texturefile = "gfx/interface/technologies/AntiAir1_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_crystal_gunpowder_mixture_medium"
+		texturefile = "gfx/interface/technologies/aa_upgrade_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_percussion_lock_mechanism_medium"
+		texturefile = "gfx/interface/technologies/aa_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tracer_projectiles_medium"
+		texturefile = "gfx/interface/technologies/aa_upgrade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_anti_air_cannon_medium"
+		texturefile = "gfx/interface/technologies/AntiAir2_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_brass_cartridges_medium"
+		texturefile = "gfx/interface/technologies/aa_upgrade_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shrapnel_projectiles_medium"
+		texturefile = "gfx/interface/technologies/aa_upgrade_5.dds"
+	}
+
+	###   ##    ## #  # ### #####  ##
+	#  # #  #  #   # #  #     #   #
+	###  #  # #    ##   ##    #    #
+	#  # #  #  #   # #  #     #     #
+	#  #  ##    ## #  # ###   #   ##
+
+	SpriteType = {
+		name = "GFX_rocket_cannon_medium"
+		texturefile = "gfx/interface/technologies/rocketlauncher1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_explosive_rockets_medium"
+		texturefile = "gfx/interface/technologies/rocket_upgrade_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_incendiary_rockets_medium"
+		texturefile = "gfx/interface/technologies/rocket_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_flight_stabilisation_medium"
+		texturefile = "gfx/interface/technologies/rocket_upgrade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_rocket_cannon_medium"
+		texturefile = "gfx/interface/technologies/rocketlauncher2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_rockets_medium"
+		texturefile = "gfx/interface/technologies/rocket_upgrade_4.dds"
+	}
+
+	#   #  ##  ###  #####  ##  ###
+	## ## #  # #  #   #   #  # #  #
+	# # # #  # ###    #   #### ###
+	#   # #  # #  #   #   #  # #  #
+	#   #  ##  #  #   #   #  # #  #
+
+	SpriteType = {
+		name = "GFX_mortar_medium"
+		texturefile = "gfx/interface/technologies/Mortar1_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elevation_screws_medium"
+		texturefile = "gfx/interface/technologies/mortar_upgrade_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_explosive_shells_medium"
+		texturefile = "gfx/interface/technologies/mortar_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_standardised_powder_charges_medium"
+		texturefile = "gfx/interface/technologies/mortar_upgrade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_mortar_medium"
+		texturefile = "gfx/interface/technologies/Mortar1_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_weight_reduction_medium"
+		texturefile = "gfx/interface/technologies/mortar_upgrade_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_mortar_bombs_medium"
+		texturefile = "gfx/interface/technologies/mortar_upgrade_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_trench_mortars_medium"
+		texturefile = "gfx/interface/technologies/mortar_upgrade_6.dds"
+	}
+
+	#  #  ##  #   # ### ##### ##### ### ###
+	#  # #  # #   #  #    #      #  #   #  #
+	#### #  # # # #  #    #     #   ##  ###
+	#  # #  # ## ##  #    #    #    #   #  #
+	#  #  ##  #   # ###   #  #####  ### #  #
+
+	SpriteType = {
+		name = "GFX_howitzer_medium"
+		texturefile = "gfx/interface/technologies/Howitzer1_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_indirect_fire_medium"
+		texturefile = "gfx/interface/technologies/howitzer_upgrade_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_gun_howitzers_medium"
+		texturefile = "gfx/interface/technologies/howitzer_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_case_shot_medium"
+		texturefile = "gfx/interface/technologies/howitzer_upgrade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_howitzer_medium"
+		texturefile = "gfx/interface/technologies/Howitzer2_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_recoil_management_medium"
+		texturefile = "gfx/interface/technologies/howitzer_upgrade_4.dds"
+	}
+
+	##### ###  ### ###  #  #   ## #  # ### #####
+	  #   #  # #   #  # #  #  #   #  # #     #
+	  #   ###  ##  ###  #  # #    #### ##    #
+	  #   #  # #   #  # #  #  #   #  # #     #
+	  #   #  # ### ###   ##    ## #  # ###   #
+
+	SpriteType = {
+		name = "GFX_trebuchet_medium"
+		texturefile = "gfx/interface/technologies/trebuchet.dds"
+	}
+
+	 ## #####  ##  ##### ###  ##  #  #  ##  ###  #   #
+	#     #   #  #   #    #  #  # ## # #  # #  #  # #
+	 #    #   ####   #    #  #  # # ## #### ###    #
+	  #   #   #  #   #    #  #  # #  # #  # #  #   #
+	##    #   #  #   #   ###  ##  #  # #  # #  #   #
+
+	SpriteType = {
+		name = "GFX_stationary_artillery_medium"
+		texturefile = "gfx/interface/technologies/stationary_arty_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_stationary_artillery_medium"
+		texturefile = "gfx/interface/technologies/stationary_arty_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_stationary_artillery_medium"
+		texturefile = "gfx/interface/technologies/stationary_arty_3.dds"
+	}
+
+	#    ###  ##  #  # #####  ##  ###  ##### #   #
+	#     #  #    #  #   #   #  # #  #   #    # #
+	#     #  # ## ####   #   #### ###    #     #
+	#     #  #  # #  #   #   #  # #  #   #     #
+	#### ###  ##  #  #   #   #  # #  #   #     #
+
+	SpriteType = {
+		name = "GFX_light_artillery_medium"
+		texturefile = "gfx/interface/technologies/LightCannon_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_artillery_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/LightCannonUpgrade1_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_light_artillery_medium"
+		texturefile = "gfx/interface/technologies/LightCannon2_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_artillery_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/LightCannonUpgrade2_smollres.dds"
 	}
 
 	#   ###  ##  #  # ###      ## #  # ### ###  
