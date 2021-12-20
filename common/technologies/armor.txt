@@ -17,7 +17,7 @@ technologies = {
 	catapult = {
 
 		enable_equipments = {
-			primitive_artillery_equipment_1
+			artillery_equipment_1
 		}
 		enable_subunits = {
 			artillery_brigade
@@ -758,6 +758,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = stationary_artillery
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 957
 		
@@ -1302,17 +1307,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = mortar
-			research_cost_coeff = 1
-		}
-
 		research_cost = 1.79
 		start_year = 500
 		
 		folder = {
 			name = armour_folder
-			position = { x = -2 y = @500 }
+			position = { x = -8 y = @500 }
 		}
 		
 		ai_will_do = {
@@ -1332,14 +1332,18 @@ technologies = {
 			super_shell_equipment_1
 		}
 
-		enable_building = {
-			stationary_artillery_site
+		dependencies = {
+			mortar = 1
+			trebuchet = 1
 		}
 
 		path = {
 			leads_to_tech = improved_stationary_artillery
 			research_cost_coeff = 1
 		}
+
+		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
 
 		research_cost = 2.75
 		start_year = 967
@@ -1369,6 +1373,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
+
 		research_cost = 3
 		start_year = 969
 		
@@ -1391,6 +1398,9 @@ technologies = {
 		enable_equipments = {
 			super_shell_equipment_3
 		}
+
+		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
 
 		research_cost = 3
 		start_year = 971
