@@ -1,0 +1,19 @@
+state = {
+	id = 521
+	name = "STATE_521"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AAF
+		add_core_of = AAF
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		2071 3733 4498 4509 4530 
+	}
+}

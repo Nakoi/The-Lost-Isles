@@ -1,0 +1,19 @@
+state = {
+	id = 532
+	name = "STATE_532"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AAE
+		add_core_of = AAE
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		104 394 685 1385 2664 
+	}
+}
