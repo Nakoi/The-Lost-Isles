@@ -1,0 +1,123 @@
+equipments = {
+
+    #catapult
+	cannon_equipment = {
+		year = 500
+		is_archetype = yes
+		picture = archetype_cannon_equipment		
+		type = {
+			armor
+			#motorized #Removing motorized type
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 5
+
+		#Defensive Abilities
+		defense = 9
+		breakthrough = 6
+		hardness = 0.01
+		armor_value = 1
+
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 25
+		ap_attack = 35
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 4
+		
+		build_cost_ic = 40
+		resources = {
+			steel = 2
+			#wood = 2
+		}
+	}
+    #catapult
+    cannon_equipment_1 = {
+		year = 500
+
+		archetype = cannon_equipment
+		priority = 50
+		visual_level = 0
+
+	}
+
+    #Improved Cannon
+    cannon_equipment_2 = {
+		year = 500
+
+		archetype = cannon_equipment
+		priority = 50
+		visual_level = 0
+
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 5
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 10
+		hardness = 0.01
+		armor_value = 1
+
+		#Offensive Abilities
+		soft_attack = 35
+		hard_attack = 55
+		ap_attack = 50
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 4
+		
+		build_cost_ic = 80
+		resources = {
+			steel = 2
+			#wood = 2
+		}
+	}
+
+    #Modern Cannon
+    cannon_equipment_3 = {
+		year = 500
+
+		archetype = artillery_equipment
+		priority = 50
+		visual_level = 0
+
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 5
+
+		#Defensive Abilities
+		defense = 22
+		breakthrough = 10
+		hardness = 0.01
+		armor_value = 1
+
+		#Offensive Abilities
+		soft_attack = 50
+		hard_attack = 85
+		ap_attack = 90
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 4
+		
+		build_cost_ic = 200
+		resources = {
+			steel = 2
+			#wood = 2
+		}
+	}
+
+
+}
+
+
