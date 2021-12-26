@@ -1,0 +1,19 @@
+state = {
+	id = 694
+	name = "STATE_694"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AEM
+		add_core_of = AEM
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		3480 3698 5694 5708 
+	}
+}

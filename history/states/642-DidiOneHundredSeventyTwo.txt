@@ -1,0 +1,19 @@
+state = {
+	id = 642
+	name = "STATE_642"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AEH
+		add_core_of = AEH
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		470 1050 6238 6258 6275 
+	}
+}

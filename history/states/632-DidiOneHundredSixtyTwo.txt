@@ -1,0 +1,19 @@
+state = {
+	id = 632
+	name = "STATE_632"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AEF
+		add_core_of = AEF
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		737 1394 2174 2180 2330 2348 6135 6207 
+	}
+}
