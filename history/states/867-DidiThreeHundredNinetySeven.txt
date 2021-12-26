@@ -1,0 +1,19 @@
+state = {
+	id = 867
+	name = "STATE_867"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AEB
+		add_core_of = AEB
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		2333 2499 3094 5460 5498 
+	}
+}

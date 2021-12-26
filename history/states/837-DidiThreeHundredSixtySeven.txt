@@ -1,0 +1,19 @@
+state = {
+	id = 837
+	name = "STATE_837"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ADQ
+		add_core_of = ADQ
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		192 884 1327 1848 3468 3523 
+	}
+}

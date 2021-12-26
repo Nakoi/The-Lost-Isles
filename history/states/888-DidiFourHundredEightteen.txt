@@ -1,0 +1,19 @@
+state = {
+	id = 888
+	name = "STATE_888"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AEA
+		add_core_of = AEA
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		1362 2327 3123 3515 5452 
+	}
+}

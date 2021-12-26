@@ -1,0 +1,19 @@
+state = {
+	id = 811
+	name = "STATE_811"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ADJ
+		add_core_of = ADJ
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		181 2953 3336 6157 6180 
+	}
+}
