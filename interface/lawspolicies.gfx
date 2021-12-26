@@ -1,0 +1,63 @@
+spriteTypes = {	
+
+	###GOV'T POLICY###
+	
+	SpriteType = {
+		name = "GFX_idea_policy_despotism"
+		texturefile = "gfx/interface/ideas/despotism.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_oligarchy"
+		texturefile = "gfx/interface/ideas/oligarchy.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_aristocracy"
+		texturefile = "gfx/interface/ideas/aristocracy.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_auth_democracy"
+		texturefile = "gfx/interface/ideas/auth_democracy.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_democracy"
+		texturefile = "gfx/interface/ideas/democracy.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_anarchy"
+		texturefile = "gfx/interface/ideas/anarchy.dds"	
+	}
+	
+	###RECRUITMENT POLICY###
+	
+	SpriteType = {
+		name = "GFX_idea_recruit_militia_peacetime"
+		texturefile = "gfx/interface/ideas/peacetime_militia.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_recruit_militia_wartime"
+		texturefile = "gfx/interface/ideas/wartime_militia.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_recruit_volunteer"
+		texturefile = "gfx/interface/ideas/volunteer_army.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_recruit_selectivecon"
+		texturefile = "gfx/interface/ideas/selective_conscription.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_recruit_universalcon"
+		texturefile = "gfx/interface/ideas/universal_conscription.dds"	
+	}
+	
+	
+	
