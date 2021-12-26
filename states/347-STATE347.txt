@@ -1,0 +1,19 @@
+state = {
+	id = 347
+	name = "STATE_347"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AAB
+		add_core_of = AAB
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		4608 569 2539 4633 4657 4675 2423 4709 2585
+	}
+}

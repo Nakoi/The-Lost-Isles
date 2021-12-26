@@ -1,0 +1,19 @@
+state = {
+	id = 386
+	name = "STATE_386"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AVU
+		add_core_of = AVU
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		2046 793 4393 4412 1990 3764 1501
+	}
+}
