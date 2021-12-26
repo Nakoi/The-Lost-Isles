@@ -1,0 +1,19 @@
+state = {
+	id = 285
+	name = "STATE_285"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ABO
+		add_core_of = ABO
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		4278 4246 86 3571 4212 2816 157 4231 3308 4234 4261 2995 3957 390
+	}
+}

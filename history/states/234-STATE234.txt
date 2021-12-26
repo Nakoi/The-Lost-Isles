@@ -1,0 +1,19 @@
+state = {
+	id = 234
+	name = "STATE_234"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ABR
+		add_core_of = ABR
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		4316 2496 712 4279 1133 2100 4329 4350 3062
+	}
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 259
+	name = "STATE_259"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ABN
+		add_core_of = ABN
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		3591 152 3449 4479 4532 3895 3561 1665 2063 4466 3920
+	}
+}

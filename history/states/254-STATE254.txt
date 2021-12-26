@@ -1,0 +1,19 @@
+state = {
+	id = 254
+	name = "STATE_254"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ABQ
+		add_core_of = ABQ
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		4165 4150 2408 4123 4114 1000 4115 4118 4127 3625 4144 4133
+	}
+}

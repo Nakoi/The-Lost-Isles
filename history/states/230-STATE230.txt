@@ -1,0 +1,19 @@
+state = {
+	id = 230
+	name = "STATE_230"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ACQ
+		add_core_of = ACQ
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		1511 123 5640 2686 339 5674 1618 5720 93 1037 2495 5698
+	}
+}
