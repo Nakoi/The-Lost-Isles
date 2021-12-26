@@ -70,7 +70,7 @@ technologies = {
 	tech_engineers = {
 
 		enable_subunits = {
-			engineer
+			sapper_company
 		}
 
 
@@ -358,7 +358,7 @@ technologies = {
 	tech_recon = {
 
 		enable_subunits = {
-			recon
+			recon_company
 		}
 
 			recon = {
@@ -784,7 +784,7 @@ technologies = {
 	tech_military_police = {
 
 		enable_subunits = {
-			military_police
+			military_police_company
 		}
 
 			military_police = {
@@ -972,7 +972,7 @@ technologies = {
 	tech_field_hospital = {
 
 		enable_subunits = {
-			field_hospital
+			field_hospital_company
 		}
 
 			field_hospital = {

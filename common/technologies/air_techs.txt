@@ -3,9 +3,13 @@ technologies = {
 	bombardier = {
 
 		enable_equipments = {
-			bombardier_equipment_1
+			air_bombardier_equipment_1
 		}
 		
+		enable_subunits = {
+			air_bombardier
+		}
+
 		path = {
 			leads_to_tech = bombardier_upgrade1
 			research_cost_coeff = 1
@@ -174,7 +178,7 @@ technologies = {
 	improved_bombardier = {
 
 		enable_equipments = {
-			bombardier_equipment_2
+			air_bombardier_equipment_2
 		}
 		
 		path = {
@@ -347,7 +351,7 @@ technologies = {
 	modern_bombardier = {
 
 		enable_equipments = {
-			bombardier_equipment_3
+			air_bombardier_equipment_3
 		}
 		
 		research_cost = 1.5
@@ -896,6 +900,10 @@ technologies = {
 			sky_carrier_equipment_1
 		}
 
+		enable_subunits = {
+			sky_carrier_battalion
+		}
+
 		path = {
 			leads_to_tech = sky_carrier_upgrade1
 			research_cost_coeff = 1
@@ -1265,7 +1273,11 @@ technologies = {
 	air_skirmisher = {
 
 		enable_equipments = {
-			air_skirmisher_equipment_1
+			twi_lazer_equipment_1
+		}
+
+		enable_subunits = {
+			twi_lazer
 		}
 	
 		path = {
@@ -1286,7 +1298,6 @@ technologies = {
 		}
 		
 		categories = {
-			category_air
 			category_air_skirmisher
 		}
 		
@@ -1489,7 +1500,7 @@ technologies = {
 	air_carabiners = {
 
 		enable_equipments = {
-			air_skirmisher_equipment_2
+			air_carabiners_equipment_1
 		}
 		
 		path = {
@@ -1522,7 +1533,7 @@ technologies = {
 	air_grenadiers = {
 
 		enable_equipments = {
-			air_skirmisher_equipment_3
+			air_grenadiers_equipment_1
 		}
 
 		path = {
@@ -1681,7 +1692,7 @@ technologies = {
 	modern_air_carabiners = {
 
 		enable_equipments = {
-			air_skirmisher_equipment_4
+			air_carabiners_equipment_2
 		}
 
 		research_cost = 1.5
@@ -1709,7 +1720,7 @@ technologies = {
 	modern_air_grenadiers= {
 
 		enable_equipments = {
-			air_skirmisher_equipment_5
+			air_grenadiers_equipment_2
 		}
 		
 		research_cost = 1.5

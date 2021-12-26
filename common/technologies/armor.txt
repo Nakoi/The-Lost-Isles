@@ -16,11 +16,13 @@ technologies = {
 
 	catapult = {
 
+
 		enable_equipments = {
-			artillery_equipment_1
+			artillery_equipment
 		}
 		enable_subunits = {
-			artillery_brigade
+			catapult_frontline
+			catapult_support
 		}
 	
 		path = {
@@ -51,9 +53,11 @@ technologies = {
 
 	catapult_upgrade = {
 
-		category_catapult = {
+		category_artillery = {
 			soft_attack = 0.10
 		}
+
+		
 
 		path = {
 			leads_to_tech = cannon
@@ -82,7 +86,12 @@ technologies = {
 	cannon = {
 
 		enable_equipments = {
-			modern_artillery_equipment_1
+			cannon_equipment_1
+		}
+
+		enable_subunits = {
+			cannon_frontline
+			cannon_support
 		}
 
 		enable_equipment_modules = { 
@@ -129,6 +138,7 @@ technologies = {
 			piercing_attack = 0.10
 			supply_cost = -0.05
 		}
+
 
 		path = {
 			leads_to_tech = canister_shot
@@ -224,7 +234,7 @@ technologies = {
 	improved_cannon = {
 
 		enable_equipments = {
-			modern_artillery_equipment_2
+			cannon_equipment_2
 		}
 	
 		path = {
@@ -341,7 +351,7 @@ technologies = {
 	modern_cannon = {
 
 		enable_equipments = {
-			modern_artillery_equipment_3
+			cannon_equipment_3
 		}
 
 		research_cost = 2
@@ -366,11 +376,12 @@ technologies = {
 	anti_air_cannon = {
 
 		enable_equipments = {
-			anti_air_artillery_equipment_1
+			anti_air_equipment_1
 		}
 
 		enable_subunits = {
-			anti_air_brigade
+			anti_air_frontline
+			anti_air_support
 		}
 
 		path = {
@@ -487,7 +498,7 @@ technologies = {
 	improved_anti_air_cannon = {
 
 		enable_equipments = {
-			anti_air_artillery_equipment_2
+			anti_air_equipment_2
 		}
 
 		path = {
@@ -570,11 +581,12 @@ technologies = {
 	rocket_cannon = {
 
 		enable_equipments = {
-			rocket_artillery_equipment_1
+			rocket_equipment_1
 		}
 
 		enable_subunits = {
-			rocket_brigade
+			rocket_frontline
+			rocket_support
 		}
 
 		path = {
@@ -691,7 +703,7 @@ technologies = {
 	improved_rocket_cannon = {
 
 		enable_equipments = {
-			rocket_artillery_equipment_2
+			rocket_equipment_2
 		}
 
 		path = {
@@ -746,11 +758,12 @@ technologies = {
 	mortar = {
 
 		enable_equipments = {
-			mortar_artillery_equipment_1
+			mortar_equipment_0
 		}
 
 		enable_subunits = {
-			mortar_brigade
+			mortar_frontline
+			mortar_support
 		}
 
 		path = {
@@ -776,7 +789,7 @@ technologies = {
 		}
 		
 		categories = {
-			armor
+			
 		}
 	}
 
@@ -884,7 +897,7 @@ technologies = {
 	improved_mortar = {
 
 		enable_equipments = {
-			mortar_artillery_equipment_2
+			mortar_equipment_1
 		}
 
 		path = {
@@ -1005,11 +1018,12 @@ technologies = {
 	howitzer = {
 
 		enable_equipments = {
-			howitzer_artillery_equipment_1
+			howitzer_equipment_1
 		}
 
 		enable_subunits = {
-			howitzer_brigade
+			howitzer_frontline
+			howitzer_support
 		}
 
 		path = {
@@ -1124,7 +1138,7 @@ technologies = {
 	improved_howitzer = {
 
 		enable_equipments = {
-			howitzer_artillery_equipment_2
+			howitzer_equipment_2
 		}
 
 		path = {
@@ -1178,11 +1192,11 @@ technologies = {
 	light_artillery = {
 
 		enable_equipments = {
-			light_artillery_equipment_1
+			smoll_artillery_equipment_1 
 		}
 
 		enable_subunits = {
-			light_artillery_brigade
+			smoll_gun
 		}
 
 		path = {
@@ -1240,7 +1254,7 @@ technologies = {
 	improved_light_artillery = {
 
 		enable_equipments = {
-			light_artillery_equipment_2
+			smoll_artillery_equipment_2
 		}
 
 		path = {
@@ -1295,11 +1309,12 @@ technologies = {
 	trebuchet = {
 
 		enable_equipments = {
-			trebuchet_artillery_equipment_1
+			trebuchet_equipment_1
 		}
 
 		enable_subunits = {
-			trebuchet_brigade
+			trebuchet_frontline
+			trebuchet_support
 		}
 
 		path = {
@@ -1330,6 +1345,11 @@ technologies = {
 
 		enable_equipments = {
 			super_shell_equipment_1
+		}
+
+		enable_building = {
+			building = stationary_artillery
+			level = 1
 		}
 
 		dependencies = {
@@ -1408,6 +1428,69 @@ technologies = {
 		folder = {
 			name = armour_folder
 			position = { x = -8 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+
+	Ballista = {
+
+
+		enable_equipments = {
+			ballista_equipment_1
+		}
+		enable_subunits = {
+			ballista_frontline
+			ballista_support
+		}
+
+		path = {
+			leads_to_tech = Ballista_upgrade
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.79
+		start_year = 400
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @400 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+
+	Ballista_upgrade = {
+
+		category_artillery = {
+			soft_attack = 0.10
+		}
+
+		research_cost = 1.79
+		start_year = 500
+
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @500 }
+		}
+
+		path = {
+			leads_to_tech = anti_air_cannon
+			research_cost_coeff = 1
 		}
 		
 		ai_will_do = {

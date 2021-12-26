@@ -3,7 +3,7 @@ technologies = {
 	early_xebec = {
 
 		enable_equipments = {
-			destroyer_1
+			early_xebec
 		}
 		
 		path = {
@@ -38,12 +38,12 @@ technologies = {
 	improved_xebec = {
 
 		enable_equipments = { 
-			destroyer_2
+			improved_xebec
 		}
 		
 		
 		path = {
-			leads_to_tech = early_gunboat 
+			leads_to_tech = light_gunboat 
 			research_cost_coeff = 1
 		}
 		
@@ -71,14 +71,14 @@ technologies = {
 		}
 	}
 	
-	early_gunboat = {
+	light_gunboat = {
 
 		enable_equipments = { 
-			destroyer_3
+			light_gunboat
 		}
 		
 		path = {
-			leads_to_tech = improved_gunboat 
+			leads_to_tech = improved_light_gunboat 
 			research_cost_coeff = 1
 		}
 		
@@ -106,10 +106,10 @@ technologies = {
 		}
 	}
 	
-	improved_gunboat = {
+	improved_light_gunboat = {
 
 		enable_equipments = { 
-			destroyer_4
+			improved_light_gunboat
 		}
 		
 		research_cost = 2
@@ -140,10 +140,10 @@ technologies = {
 	galley = {
 
 		enable_equipments = { 
-			light_cruiser_1
+			galley
 		}
 		path = {
-			leads_to_tech = sloop 
+			leads_to_tech = sloop_of_war 
 			research_cost_coeff = 1
 		}
 		
@@ -176,10 +176,10 @@ technologies = {
 		}
 	}
 	
-	sloop = {
+	sloop_of_war = {
 
 		enable_equipments = { 
-			light_cruiser_2
+			sloop_of_war
 		}
 		
 		path = {
@@ -219,7 +219,7 @@ technologies = {
 	steam_corvette = {
 
 		enable_equipments = { 
-			light_cruiser_3
+			steam_corvette
 		}	
 		
 		path = {
@@ -259,7 +259,7 @@ technologies = {
 	early_destroyer = {
 
 		enable_equipments = { 
-			light_cruiser_4
+			early_destroyer
 		}
 		
 		path = {
@@ -300,11 +300,11 @@ technologies = {
 	early_frigate = {
 
 		enable_equipments = { 
-			heavy_cruiser_1
+			early_frigate
 		}
 		
 		path = {
-			leads_to_tech = improved_frigate 
+			leads_to_tech = frigate 
 			research_cost_coeff = 1
 		}
 
@@ -332,10 +332,10 @@ technologies = {
 		}
 	}
 	
-	improved_frigate = {
+	frigate = {
 
 		enable_equipments = { 
-			heavy_cruiser_2
+			frigate
 		}
 		
 		path = {
@@ -365,11 +365,11 @@ technologies = {
 	steam_frigate = {
 
 		enable_equipments = { 
-			heavy_cruiser_3
+			steam_frigate
 		}
 		
 		path = {
-			leads_to_tech = early_light_cruiser 
+			leads_to_tech = cruiser 
 			research_cost_coeff = 1
 		}
 		
@@ -392,10 +392,10 @@ technologies = {
 		}
 	}
 	
-	early_light_cruiser = {
+	cruiser = {
 
 		enable_equipments = { 
-			heavy_cruiser_4
+			cruiser
 		}
 		
 		research_cost = 2
@@ -420,7 +420,7 @@ technologies = {
 	siege_frigate = {
 
 		enable_equipments = { 
-			battle_cruiser_2
+			siege_frigate
 		}
 		
 		path = {
@@ -450,11 +450,11 @@ technologies = {
 	rocket_steamer = {
 
 		enable_equipments = { 
-			battle_cruiser_3
+			rocket_steamer
 		}
 		
 		path = {
-			leads_to_tech = early_heavy_cruiser 
+			leads_to_tech = rocket_cruiser 
 			research_cost_coeff = 1
 		}
 		
@@ -477,10 +477,10 @@ technologies = {
 		}
 	}
 
-	early_heavy_cruiser = {
+	rocket_cruiser = {
 
 		enable_equipments = { 
-			battle_cruiser_4
+			rocket_cruiser
 		}
 		
 		research_cost = 2
@@ -502,14 +502,14 @@ technologies = {
 		}
 	}
 		
-	early_battleship = {
+	early_ship_of_line = {
 
 		enable_equipments = { 
-			battleship_1
+			early_ship_of_line
 		}
 		
 		path = {
-			leads_to_tech = basic_battleship 
+			leads_to_tech = ship_of_the_line 
 			research_cost_coeff = 1
 		}
 		
@@ -532,14 +532,14 @@ technologies = {
 		}
 	}
 	
-	basic_battleship = {
+	ship_of_the_line = {
 
 		enable_equipments = { 
-			battleship_2
+			ship_of_the_line
 		}
 		
 		path = {
-			leads_to_tech = improved_battleship 
+			leads_to_tech = ironclad_warships 
 			research_cost_coeff = 1
 		}
 		
@@ -561,14 +561,14 @@ technologies = {
 		}
 	}
 	
-	improved_battleship = {
+	ironclad_warships = {
 
 		enable_equipments = { 
-			battleship_3
+			ironclad_warships
 		}
 		
 		path = {
-			leads_to_tech = advanced_battleship 
+			leads_to_tech = heavy_ship 
 			research_cost_coeff = 1
 		}
 		path = {
@@ -594,10 +594,10 @@ technologies = {
 		}
 	}
 	
-	advanced_battleship = {
+	heavy_ship = {
 
 		enable_equipments = { 
-			battleship_4
+			heavy_ship
 		}
 		
 		path = {
@@ -624,13 +624,17 @@ technologies = {
 	}
 	
 	
-	transport = {
+	transport_ship = {
 
 		transport_capacity = -0.5
 		naval_invasion_capacity = 10
 		
+		enable_equipments = {
+			transport_ship
+		}
+
 		path = {
-			leads_to_tech = landing_craft 
+			leads_to_tech = naval_invasion_buff_1 
 			research_cost_coeff = 1
 		}
 		
@@ -648,20 +652,17 @@ technologies = {
 		}
 	}
 	
-	landing_craft = {
+	naval_invasion_buff_1 = {
 
 		invasion_preparation = -0.5
 		amphibious_invasion_defence = 0.15
 		naval_invasion_capacity = 40
 
 		path = {
-			leads_to_tech = tank_landing_craft 
+			leads_to_tech = naval_invasion_buff_2 
 			research_cost_coeff = 1
 		}
 
-		enable_equipments = {
-			floating_harbor_equipment_1
-		}
 
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
@@ -680,14 +681,14 @@ technologies = {
 		}
 	}
 	
-	tank_landing_craft = {
+	naval_invasion_buff_2 = {
 
 		amphibious_invasion = 0.25
 		amphibious_invasion_defence = 0.5
 		naval_invasion_capacity = 100
 
 		path = {
-			leads_to_tech = super_landing_craft 
+			leads_to_tech = naval_invasion_buff_3 
 			research_cost_coeff = 1
 		}
 
@@ -704,7 +705,7 @@ technologies = {
 		}
 	}
 
-	super_landing_craft = {
+	naval_invasion_buff_3 = {
 
 		amphibious_invasion = 0.25
 		amphibious_invasion_defence = 0.5
