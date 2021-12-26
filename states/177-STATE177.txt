@@ -1,0 +1,19 @@
+state = {
+	id = 177
+	name = "STATE_177"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ACX
+		add_core_of = ACX
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		386 3085 5877 1063 2863 1607
+	}
+}
