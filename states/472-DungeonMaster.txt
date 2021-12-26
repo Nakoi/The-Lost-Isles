@@ -1,0 +1,19 @@
+state = {
+	id = 472
+	name = "STATE_472"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AAU
+		add_core_of = AAU
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		1323 2600 4914 4920 
+	}
+}

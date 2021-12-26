@@ -1,0 +1,16 @@
+state={
+	id=437
+	name="STATE_437"
+	provinces={
+		16 120 1388 1893 2913 3286 3844 
+	}
+	manpower=1
+	state_category = city
+	history = {
+				owner = AVU
+				add_core_of = AVU
+		#		victory_points = { 3838 1 }
+		#		buildings = {
+		#		}
+	}
+}
