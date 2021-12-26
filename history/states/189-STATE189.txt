@@ -1,0 +1,19 @@
+state = {
+	id = 189
+	name = "STATE_189"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ACT
+		add_core_of = ACT
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		1112 3099 5592 3310
+	}
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 165
+	name = "STATE_165"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ACD
+		add_core_of = ACD
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		113 6100 6117 1610 2938 2778 1846 2519 3116 6078 467 1832
+	}
+}
