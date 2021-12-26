@@ -1,0 +1,19 @@
+state = {
+	id = 355
+	name = "STATE_355"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AAA
+		add_core_of = AAA
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		2920 4078 1808 465 3602 4059 217
+	}
+}

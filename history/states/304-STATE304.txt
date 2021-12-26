@@ -1,0 +1,19 @@
+state = {
+	id = 304
+	name = "STATE_304"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ABL
+		add_core_of = ABL
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		1815 3621 4595 2452 2429 4542 338 1051 1626 1253 4578 3796 2112 29 3911
+	}
+}
