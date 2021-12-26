@@ -1,0 +1,1334 @@
+ideas = {
+
+	country = {
+		genidea_primitive_devtn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		}
+		
+		genidea_civilised_devtn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		}
+		
+		genidea_industrial_devtn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		}
+		
+		policy_despotismtn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = -0.1
+			}
+		}
+		
+		policy_oligarchytn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = 0.08
+				stability_factor = -0.05
+			}
+		}
+		
+		policy_aristocracytn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
+		
+		policy_auth_democracytn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		
+		policy_democracytn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = 0.1
+			}
+		}
+		
+		policy_anarchytn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.1
+				stability_weekly = -0.002
+			}
+		}
+		
+		policy_futuristtn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				research_speed_factor = 0.08
+				political_power_cost = 0.5
+			}
+		}
+		
+		policy_revolutionarytn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				research_speed_factor = 0.05
+				political_power_cost = 0.3
+			}
+		}
+		
+		policy_progressivetn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				research_speed_factor = 0.02
+			}
+		}
+		
+		policy_conservativetn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
+		
+		policy_reactionarytn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				research_speed_factor = -0.05
+				political_power_gain = 0.3
+			}
+		}
+		
+		policy_regressivetn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				research_speed_factor = -0.08
+				political_power_gain = 0.5
+			}
+		}
+		
+		policy_collectivetn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				industrial_capacity_factory = -0.1
+				production_factory_max_efficiency_factor = 0.12
+			}
+		}
+		
+		policy_socialisttn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				industrial_capacity_factory = -0.05
+				production_factory_max_efficiency_factor = 0.08
+			}
+		}
+		
+		policy_socialtn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				production_factory_max_efficiency_factor = 0.04
+			}
+		}
+		
+		policy_markettn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				industrial_capacity_factory = 0.04
+			}
+		}
+		
+		policy_capitalisttn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				industrial_capacity_factory = 0.08
+				production_factory_max_efficiency_factor = -0.05
+			}
+		}
+		
+		policy_laissez_fairetn = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		
+			modifier = {
+				industrial_capacity_factory = 0.12
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+	
+##################################
+#GENERIC GOVERNMENT SECTION IDEAS#
+##################################
+
+		genidea_militarism_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_militarism_drift = 0.1
+				conscription_factor = 0.2
+				army_org_factor = -0.1
+				mobilization_speed = 0.25
+			}
+		}
+		
+		genidea_militarism_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_militarism_drift = 0.2
+				conscription_factor = 0.2
+				army_org_factor = -0.1
+				mobilization_speed = 0.25
+				industrial_capacity_factory = 0.4
+				industrial_capacity_dockyard = 0.2
+				production_speed_buildings_factor = -0.4
+				consumer_goods_factor = -0.1
+				stability_weekly = -0.005
+			}
+		}
+		
+		genidea_imperialism_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_imperialism_drift = 0.1
+				navy_max_range_factor = 0.2
+				industrial_capacity_dockyard = 0.4
+				industrial_capacity_factory = -0.2
+			}
+		}
+		
+		genidea_imperialism_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_imperialism_drift = 0.2
+				non_core_manpower = 0.28
+				navy_max_range_factor = 0.2
+				industrial_capacity_dockyard = 0.4
+				industrial_capacity_factory = -0.2
+				compliance_growth = 0.2
+				political_power_factor = -0.15
+			}
+		}
+		
+		genidea_visionarism_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_visionarism_drift = 0.1
+				surrender_limit = 0.25
+				stability_weekly = 0.005
+				war_support_weekly 0.005
+				political_power_factor = 0.15
+			}
+		}
+		
+		genidea_visionarism_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_visionarism_drift = 0.2
+				send_volunteer_size = 10
+				send_volunteer_divisions_required = -1
+				send_volunteers_tension = -0.1
+				supply_consumption_factor = 0.15
+				surrender_limit = 0.25
+				stability_weekly = 0.005
+				war_support_weekly 0.005
+				enemy_justify_war_goal_time = -0.5
+				political_power_factor = 0.15
+			}
+		}
+		
+		genidea_solidarism_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_solidarism_drift = 0.1
+				research_speed_factor = 0.1
+			}
+		}
+		
+		genidea_solidarism_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_solidarism_drift = 0.2
+				research_speed_factor = 0.1
+				political_power_factor = 0.35
+				trade_opinion_factor = 0.5
+				opinion_gain_monthly_factor = 0.3
+				min_export = -0.1
+				justify_war_goal_time = 0.2
+			}
+		}
+		
+		genidea_continuism_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_continuism_drift = 0.1
+				conscription = 0.02
+				army_defence_factor = 0.15
+				army_morale_factor = 0.1
+				enemy_justify_war_goal_time = 0.5
+			}
+		}
+		
+		genidea_continuism_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_continuism_drift = 0.2
+				non_core_manpower = 0.1
+				conscription = 0.02
+				army_defence_factor = 0.15
+				army_morale_factor = 0.1
+				local_factories = 0.2
+				local_resources = 0.2
+				puppet_cost_factor = -0.5
+				subjects_autonomy_gain = -1.5
+				enemy_justify_war_goal_time = 0.5
+			}
+		}
+		
+		genidea_isolationism_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_isolationism_drift = 0.1
+				production_speed_bunker_factor = 0.5
+				production_speed_coastal_bunker_factor = 0.5
+				production_speed_anti_air_building_factor = 0.5
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		genidea_isolationism_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_isolationism_drift = 0.2
+				army_attack_factor = -0.3
+				army_defence_factor = -0.3
+				army_core_attack_factor = 0.6
+				army_core_defence_factor = 0.6
+				production_speed_bunker_factor = 0.5
+				production_speed_coastal_bunker_factor = 0.5
+				production_speed_anti_air_building_factor = 0.5
+				production_speed_buildings_factor = 0.5
+				consumer_goods_factor = -0.05
+				stability_weekly = 0.01
+				war_support_weekly = -0.005
+			}
+		}
+		
+		genidea_despotism_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				conscription = 0.01
+				special_forces_cap = 0.2
+				special_forces_training_time_factor = 0.2
+			}
+		}
+		
+		genidea_despotism_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = -0.01
+				conscription = 0.01
+				special_forces_cap = 0.2
+				special_forces_training_time_factor = 0.2
+			}
+		}
+		
+		genidea_oligarchy_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_advisor_cost_factor = -0.25
+				economy_cost_factor = -0.25
+				trade_laws_cost_factor = -0.25
+				mobilization_laws_cost_factor = -0.25
+			}
+		}
+		
+		genidea_oligarchy_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				resistance_growth = -0.2
+				political_advisor_cost_factor = -0.25
+				economy_cost_factor = -0.25
+				trade_laws_cost_factor = -0.25
+				mobilization_laws_cost_factor = -0.25
+			}
+		}
+		
+		genidea_aristocracy_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = 0.2
+				conscription_factor = -0.15
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		genidea_aristocracy_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = -0.0075
+				local_resources_factor = 0.25
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
+				political_power_factor = 0.2
+				conscription_factor = -0.15
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		genidea_auth_democracy_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = 0.01
+				political_power_factor = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		genidea_auth_democracy_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = 0.01
+				political_power_factor = 0.1
+				research_speed_factor = 0.12
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		genidea_democracy_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = -0.1
+				war_support_weekly = 0.01
+				weekly_manpower = 500
+				surrender_limit = 0.2
+				army_core_defence_factor = 0.2
+			}
+		}
+		
+		genidea_democracy_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = -0.15
+				drift_defence_factor = 0.6
+				war_support_weekly = 0.01
+				monthly_population = 0.3
+				weekly_manpower = 500
+				production_speed_buildings_factor = 0.4
+				surrender_limit = 0.2
+				army_core_defence_factor = 0.2
+			}
+		}
+		
+		genidea_anarchy_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = -0.3
+				stability_weekly = -0.015
+				war_support_weekly = -0.015
+				research_speed_factor = 0.4
+				monthly_population = 0.2
+			}
+		}
+		
+		genidea_anarchy_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = -0.3
+				stability_weekly = -0.015
+				war_support_weekly = 0.015
+				research_speed_factor = 0.4
+				monthly_population = 0.2
+				conscription_factor = 0.4
+			}
+		}
+		
+		genidea_regressive_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				research_speed_factor = -0.15
+				war_support_weekly = 0.01
+				monthly_population = 0.2
+				conscription_factor = 0.25
+			}
+		}
+		
+		genidea_regressive_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = 0.30
+				research_speed_factor = -0.25
+				war_support_weekly = 0.01
+				monthly_population = 0.2
+				conscription_factor = 0.25
+			}
+		}
+		
+		genidea_reactionary_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				non_core_manpower = -1
+				required_garrison_factor = 0.3
+				surrender_limit = 0.15
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+			}
+		}
+		
+		genidea_reactionary_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = 0.02
+				political_power_factor = 0.25
+				drift_defence_factor = 0.2
+				non_core_manpower = -1
+				weekly_manpower = -50
+				required_garrison_factor = 0.3
+				surrender_limit = 0.15
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+			}
+		}
+		
+		genidea_conservative_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				research_speed_factor = -0.1
+				conscription_factor = 0.15
+				war_support_weekly = 0.01
+			}
+		}
+		
+		genidea_conservative_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.25
+				local_resources_factor = 0.25
+				research_speed_factor = -0.1
+				conscription_factor = 0.15
+				war_support_weekly = 0.01
+				monthly_population = 0.5
+			}
+		}
+		
+		genidea_progressive_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				research_speed_factor = 0.1
+				conscription_factor = -0.15
+			}
+		}
+		
+		genidea_progressive_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = 0.015
+				industrial_capacity_factory = -0.25
+				production_speed_buildings_factor = -0.25
+				monthly_population = 0.5
+				research_speed_factor = 0.1
+				conscription_factor = -0.15
+			}
+		}
+		
+		genidea_revolutionary_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				non_core_manpower = 0.12
+				required_garrison_factor = -0.15
+				army_org_factor = -0.2
+			}
+		}
+		
+		genidea_revolutionary_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+				non_core_manpower = 0.12
+				required_garrison_factor = -0.15
+				army_org_factor = -0.2
+				army_core_defence_factor = 0.25
+				defence = 0.15
+			}
+		}
+		
+		genidea_futurist_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = -0.25
+				war_support_weekly = 0.02
+				justify_war_goal_time = -0.50
+				trade_opinion_factor = 0.25
+				monthly_population = -0.25
+			}
+		}
+		
+		genidea_futurist_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = -0.5
+				research_speed_factor = 0.15
+				war_support_weekly = 0.02
+				justify_war_goal_time = -0.50
+				trade_opinion_factor = 0.25
+				monthly_population = -0.75
+				army_speed_factor = 0.2
+			}
+		}
+		
+		genidea_collective_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.20
+				production_factory_start_efficiency_factor = 0.20
+				production_factory_efficiency_gain_factor = 0.20
+				consumer_goods_factor = 0.06
+			}
+		}
+		
+		genidea_collective_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.40
+				production_factory_start_efficiency_factor = 0.20
+				production_factory_efficiency_gain_factor = 0.20
+				production_factory_max_efficiency_factor = 0.30
+				line_change_production_efficiency_factor = 0.30
+				consumer_goods_factor = 0.12
+			}
+		}
+		
+		genidea_planned_eco_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				monthly_population = 0.50
+				production_factory_start_efficiency_factor = 0.10
+				political_power_factor = 0.15
+				consumer_goods_factor = 0.14
+			}
+		}
+		
+		genidea_planned_eco_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				monthly_population = 0.50
+				industrial_capacity_factory = -0.30
+				industrial_capacity_dockyard = -0.10
+				production_speed_buildings_factor = 0.15
+				production_factory_start_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.25
+				production_factory_max_efficiency_factor = 0.1
+				political_power_factor = 0.15
+				consumer_goods_factor = 0.24
+				conscription_factor = -0.1
+			}
+		}
+		
+		genidea_eco_intervention_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.04
+				production_factory_efficiency_gain_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		genidea_eco_intervention_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.15
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.04
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				line_change_production_efficiency_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		genidea_market_liberal_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				local_resources_factor = 0.1
+				trade_opinion_factor = 0.3
+				consumer_goods_factor = -0.03
+			}
+		}
+		
+		genidea_market_liberal_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
+				production_speed_buildings_factor = 0.1
+				local_resources_factor = 0.1
+				production_factory_efficiency_gain_factor = -0.1
+				trade_opinion_factor = 0.3
+				consumer_goods_factor = -0.03
+			}
+		}
+		
+		genidea_capitalism_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = -0.1
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.30
+				production_speed_industrial_complex_factor = -0.60
+				
+			}
+		}
+		
+		genidea_capitalism_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = -0.2
+				industrial_capacity_factory = 0.3
+				industrial_capacity_dockyard = 0.3
+				production_factory_start_efficiency_factor = -0.15
+				production_speed_buildings_factor = 0.30
+				production_speed_industrial_complex_factor = -0.60
+			}
+		}
+		
+		genidea_laissez_faire_buff_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				monthly_population = -0.25
+				political_power_factor = -0.2
+				production_factory_start_efficiency_factor = -0.15
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		genidea_laissez_faire_buff_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				monthly_population = -0.50
+				political_power_factor = -0.2
+				production_factory_start_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.30
+				industrial_capacity_factory = 0.45
+				industrial_capacity_dockyard = 0.45
+				local_resources_factor = 0.30
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+############################
+#GENERIC MISSION TREE IDEAS#
+############################
+		
+		genidea_engineer_cooperation = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			equipment_bonus = {
+	            artillery = {
+	                soft_attack = 0.1
+					instant = yes
+				}
+			}
+		}
+		
+		genidea_armorer_cooperation = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+	            infantry_equipment = {
+	                defense = 0.1
+					instant = yes
+				}
+			}
+		}
+		
+		genidea_art_of_war = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				army_org_factor = 0.2
+				max_planning_factor = 0.2
+				army_speed_factor = 0.1
+				
+			}
+		}
+		
+		genidea_ready_for_conquest = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				army_attack_factor = 0.15
+				breakthrough_factor = 0.15
+				justify_war_goal_time = -0.5
+			}
+		}
+		
+		genidea_path_of_warrior_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				experience_gain_army_factor = 0.1
+				army_attack_factor = 0.1
+			}
+		}
+		
+		genidea_path_of_warrior_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				subjects_autonomy_gain = -0.2
+				experience_gain_army_factor = 0.1
+				army_defence_factor = 0.1
+				
+			}
+		}
+		
+		genidea_path_of_warrior_3 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				subjects_autonomy_gain = -0.2
+				experience_gain_army_factor = 0.2
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+		
+		genidea_expanded_military_production = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.25
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.15
+			}
+		}
+		
+		genidea_expanded_civilian_production = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.25
+			}
+		}
+		
+		genidea_improved_infrastructure = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.10
+				local_resources_factor = 0.15
+			}
+		}
+		
+		genidea_schooling_investment = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				research_speed_factor = 0.15
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		genidea_booming_trade = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				min_export = -0.05
+				trade_opinion_factor = 0.1
+			}
+		}
+		
+		genidea_booming_ship_construction_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.35
+			}
+		}
+		
+		genidea_booming_ship_construction_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.35
+			}
+		}
+		
+		genidea_growing_trade = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				convoy = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+			modifier = {
+				consumer_goods_factor = -0.1
+				trade_opinion_factor = 0.1
+				min_export = -0.1
+			}
+		}
+		
+		genidea_new_screen_ships = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				screen_ship = {
+					lg_attack = 0.25
+					surface_detection = 0.25
+					sub_detection = 0.25
+					instant = yes
+				}
+			}
+		}
+
+		
+		genidea_new_capital_ships = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				capital_ship = {
+					hg_attack = 0.25
+					armor_value = 0.25
+				}
+			}
+		}
+		
+		genidea_grand_fleet = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				screen_ship = {
+					range = 0.2
+					lg_attack = 0.1
+					hg_attack = 0.1
+					max_strength = 0.1
+				}
+				capital_ship = {
+					range = 0.2
+					lg_attack = 0.1
+					hg_attack = 0.1
+					max_strength = 0.1
+				}
+			}
+		}
+	
+
+	

@@ -1,0 +1,348 @@
+ideas = {
+
+	technology_tier = { 
+		law = yes
+		
+		genidea_primitive_dev = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+		}
+		
+		genidea_civilised_dev = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+		}
+		
+		genidea_industrial_dev = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+		}
+	}
+	
+	race = { 
+		law = yes
+		
+		race_nohooves = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+		}
+	}
+	
+	government_type = { 
+		law = yes
+		
+		policy_despotism = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = -0.1
+			}
+		}
+		
+		policy_oligarchy = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+		
+			modifier = {
+				political_power_factor = 0.08
+				stability_factor = -0.05
+			}
+		}
+		
+		policy_aristocracy = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+		
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
+		
+		policy_auth_democracy = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		
+		policy_democracy = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = 0.1
+			}
+		}
+		
+		policy_anarchy = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.1
+				stability_weekly = -0.002
+			}
+		}
+	}
+	
+	cultural_policy = { 
+		law = yes
+		
+		policy_futurist = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				research_speed_factor = 0.08
+				political_power_cost = 0.5
+			}
+		}
+		
+		policy_revolutionary = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				research_speed_factor = 0.05
+				political_power_cost = 0.3
+			}
+		}
+		
+		policy_progressive = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+		
+			modifier = {
+				research_speed_factor = 0.02
+			}
+		}
+		
+		policy_conservative = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+		
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
+		
+		policy_reactionary = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				research_speed_factor = -0.05
+				political_power_gain = 0.3
+			}
+		}
+		
+		policy_regressive = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				research_speed_factor = -0.08
+				political_power_gain = 0.5
+			}
+		}
+	}
+	
+	economic_policy = { 
+		law = yes
+		
+		policy_collective = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.1
+				production_factory_max_efficiency_factor = 0.12
+			}
+		}
+		
+		policy_socialist = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+		
+			modifier = {
+				industrial_capacity_factory = -0.05
+				production_factory_max_efficiency_factor = 0.08
+			}
+		}
+		
+		policy_social = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+		
+			modifier = {
+				production_factory_max_efficiency_factor = 0.04
+			}
+		}
+		
+		policy_market = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.04
+			}
+		}
+		
+		policy_capitalist = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.08
+				production_factory_max_efficiency_factor = -0.05
+			}
+		}
+		
+		policy_laissez_faire = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.12
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+	}
