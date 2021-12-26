@@ -10,10 +10,13 @@ Credits
 Haile
 Nakoi
 Didicody
-Turbs
 Microwave
-Selene
+Turbs
 Amol
+Firewire
+EuroGeneral
+Selene Moon
+Learnor
 
 
 IMPORTANT NOTICE
