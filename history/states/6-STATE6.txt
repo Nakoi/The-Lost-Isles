@@ -1,0 +1,19 @@
+state = {
+	id = 6
+	name = "STATE_6"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ABD
+		add_core_of = ABD
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		5278 5286 2432 1031 2280
+	}
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 73
+	name = "STATE_73"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ABI
+		add_core_of = ABI
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		4576 288 972 2292 4573 2051 94 4612
+	}
+}
