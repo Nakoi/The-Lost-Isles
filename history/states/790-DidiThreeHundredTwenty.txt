@@ -1,0 +1,19 @@
+state = {
+	id = 790
+	name = "STATE_790"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = AEG
+		add_core_of = AEG
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		79 175 2247 3826 5778 
+	}
+}
