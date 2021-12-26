@@ -1,0 +1,1553 @@
+focus_tree = {
+    id = avtukov_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = BRA
+        }
+    }
+
+    default = no
+
+    continuous_focus_position = { x = 50 y = 3000 }
+
+##################
+###INITIAL TREE###
+##################
+
+	focus = {
+		id = AVT_the_great_modernisation
+		x = 8
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_full_speed_ahead
+		prerequisite = { focus = AVT_the_great_modernisation }
+		x = 4
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_undercut_pegasi
+		prerequisite = { focus = AVT_full_speed_ahead }
+		x = 4
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_commoner_officer_corps
+		prerequisite = { focus = AVT_undercut_pegasi }
+		x = 4
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_investigate_nobility
+		prerequisite = { focus = AVT_full_speed_ahead }
+		x = 2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_infiltrate_conspirators
+		prerequisite = { focus = AVT_investigate_nobility }
+		x = 2
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_urban_tax_reform
+		prerequisite = { focus = AVT_full_speed_ahead }
+		x = 6
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_destroy_guild_system
+		prerequisite = { focus = AVT_urban_tax_reform }
+		x = 6
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_root_out_traitors
+		prerequisite = { focus = AVT_commoner_officer_corps }
+		prerequisite = { focus = AVT_infiltrate_conspirators }
+		prerequisite = { focus = AVT_destroy_guild_system }
+		x = 4
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_new_dawn
+		prerequisite = { focus = AVT_root_out_traitors }
+		x = 4
+		y = 5
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_the_conspiracy
+		prerequisite = { focus = AVT_the_great_modernisation }
+		x = 12
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_rally_noble_support
+		prerequisite = { focus = AVT_the_conspiracy }
+		x = 12
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_target_secret_police
+		prerequisite = { focus = AVT_rally_noble_support }
+		x = 12
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_bribe_guards
+		prerequisite = { focus = AVT_the_conspiracy }
+		x = 10
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_infiltrate_palace
+		prerequisite = { focus = AVT_bribe_guards }
+		x = 10
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_boycott_taxes
+		prerequisite = { focus = AVT_the_conspiracy }
+		mutually_exclusive = { focus = AVT_weapons_smuggling focus = AVT_distract_loyalists }
+		x = 14
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_purchase_officer_commissions
+		prerequisite = { focus = AVT_boycott_taxes }
+		x = 14
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_weapons_smuggling
+		prerequisite = { focus = AVT_the_conspiracy }
+		mutually_exclusive = { focus = AVT_boycott_taxes focus = AVT_distract_loyalists }
+		x = 16
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_pull_out_border_garrisons
+		prerequisite = { focus = AVT_weapons_smuggling }
+		x = 16
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_distract_loyalists
+		prerequisite = { focus = AVT_the_conspiracy }
+		mutually_exclusive = { focus = AVT_weapons_smuggling focus = AVT_boycott_taxes }
+		x = 18
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_teleport_network
+		prerequisite = { focus = AVT_distract_loyalists }
+		x = 18
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_the_coup
+		prerequisite = { focus = AVT_target_secret_police }
+		prerequisite = { focus = AVT_infiltrate_palace }
+		prerequisite = { focus = AVT_purchase_officer_commissions focus = AVT_pull_out_border_garrisons focus = AVT_teleport_network }
+		x = 12
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_pegasi_take_charge
+		prerequisite = { focus = AVT_the_coup }
+		x = 12
+		y = 5
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_pegasi_take_charge
+				has_completed_focus = AVT_pull_out_border_garrisons
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_muds_take_charge
+		prerequisite = { focus = AVT_the_coup }
+		x = 10
+		y = 5
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_muds_take_charge
+				has_completed_focus = AVT_purchase_officer_commissions
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_unicorns_take_charge
+		prerequisite = { focus = AVT_the_coup }
+		x = 14
+		y = 5
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_unicorns_take_charge
+				has_completed_focus = AVT_teleport_network
+			}
+		}
+	}
+
+###############
+###TSAR TREE###
+###############
+	
+	focus = {
+		id = AVT_the_tsar
+		x = 4
+		y = 7
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_finish_what_we_started
+		prerequisite = { focus = AVT_the_tsar }
+		x = 4
+		y = 8
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_strike_dragons
+		prerequisite = { focus = AVT_finish_what_we_started }
+		x = 4
+		y = 9
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_rule_the_north
+		prerequisite = { focus = AVT_strike_dragons }
+		x = 4
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_avtukov_nationalism
+		prerequisite = { focus = AVT_rule_the_north }
+		mutually_exclusive = { focus = AVT_embrace_deer }
+		x = 3
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_embrace_deer
+		prerequisite = { focus = AVT_rule_the_north }
+		mutually_exclusive = { focus = AVT_avtukov_nationalism }
+		x = 5
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_hegemonic_ambitions
+		prerequisite = { focus = AVT_avtukov_nationalism focus = AVT_embrace_deer }
+		x = 4
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_panponisti
+		prerequisite = { focus = AVT_finish_what_we_started }
+		x = 2
+		y = 9
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_ally_schizoid
+		prerequisite = { focus = AVT_panponisti }
+		x = 2
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_integrate_majority_pony_land
+		prerequisite = { focus = AVT_hegemonic_ambitions }
+		x = 3
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_pressure_undead
+		prerequisite = { focus = AVT_integrate_majority_pony_land }
+		x = 2
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_magical_expertise_exchange
+		prerequisite = { focus = AVT_pressure_undead }
+		x = 2
+		y = 15
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_long_lost_brothers
+		prerequisite = { focus = AVT_hegemonic_ambitions }
+		x = 5
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_state_bilingualism
+		prerequisite = { focus = AVT_long_lost_brothers }
+		x = 4
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_unity_propaganda
+		prerequisite = { focus = AVT_long_lost_brothers }
+		x = 6
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_united_empire
+		prerequisite = { focus = AVT_state_bilingualism }
+		prerequisite = { focus = AVT_unity_propaganda }
+		x = 5
+		y = 15
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_kirin_military_specialists
+		prerequisite = { focus = AVT_united_empire }
+		x = 5
+		y = 16
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_invite_foreign_experts
+		prerequisite = { focus = AVT_the_tsar }
+		x = -2
+		y = 8
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_land_reform
+		prerequisite = { focus = AVT_invite_foreign_experts }
+		x = -3
+		y = 9
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_end_serfdom
+		prerequisite = { focus = AVT_land_reform }
+		x = -4
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_tribe_unity
+		prerequisite = { focus = AVT_invite_foreign_experts	}
+		x = -1
+		y = 9
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_royal_family_only
+		prerequisite = { focus = AVT_tribe_unity }
+		mutually_exclusive = { focus = AVT_reconcile_with_nobles }
+		x = -2
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_reconcile_with_nobles
+		prerequisite = { focus = AVT_tribe_unity }
+		mutually_exclusive = { focus = AVT_royal_family_only }
+		x = 0
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_forced_land_appropriation
+		prerequisite = { focus = AVT_end_serfdom }
+		prerequisite = { focus = AVT_royal_family_only }
+		x = -3
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_compesate_nobles
+		prerequisite = { focus = AVT_end_serfdom }
+		prerequisite = { focus = AVT_royal_family_only focus = AVT_reconcile_with_nobles }
+		x = -1
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_support_new_businesses
+		prerequisite = { focus = AVT_forced_land_appropriation focus = AVT_compesate_nobles }
+		x = -2
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_kickstart_industrial_revolution
+		prerequisite = { focus = AVT_support_new_businesses }
+		x = -2
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_advisory_parliament
+		prerequisite = { focus = AVT_kickstart_industrial_revolution }
+		mutually_exclusive = { focus = AVT_legislative_parliament }
+		x = -2
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_legislative_parliament
+		prerequisite = { focus = AVT_kickstart_industrial_revolution }
+		mutually_exclusive = { focus = AVT_advisory_parliament }
+		x = -4
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_service_guarantees_citizenship
+		prerequisite = { focus = AVT_legislative_parliament focus = AVT_advisory_parliament }
+		x = -3
+		y = 15
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_establish_school_system
+		prerequisite = { focus = AVT_kickstart_industrial_revolution }
+		x = 0
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_public_healthcare
+		prerequisite = { focus = AVT_establish_school_system }
+		x = 0
+		y = 15
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_royal_academy
+		prerequisite = { focus = AVT_public_healthcare }
+		prerequisite = { focus = AVT_service_guarantees_citizenship }
+		x = -2
+		y = 16
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_never_another_griffjew
+		prerequisite = { focus = AVT_united_empire }
+		prerequisite = { focus = AVT_service_guarantees_citizenship }
+		prerequisite = { focus = AVT_public_healthcare }
+		x = 3
+		y = 16
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_deindustrialise_south
+		prerequisite = { focus = AVT_never_another_griffjew }
+		x = 2
+		y = 17
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_fate_of_royals
+		prerequisite = { focus = AVT_never_another_griffjew }
+		x = 4
+		y = 17
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_luana_forever_broken
+		prerequisite = { focus = AVT_deindustrialise_south }
+		prerequisite = { focus = AVT_fate_of_royals }
+		x = 3
+		y = 18
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_colonial_affairs_office
+		prerequisite = { focus = AVT_finish_what_we_started }
+		x = 6
+		y = 9
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_prepare_navy
+		prerequisite = { focus = AVT_colonial_affairs_office }
+		x = 10
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_subjugate_primitives
+		prerequisite = { focus = AVT_prepare_navy }
+		mutually_exclusive = { focus = AVT_diplomatic_approach }
+		x = 9
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_diplomatic_approach
+		prerequisite = { focus = AVT_prepare_navy }
+		mutually_exclusive = { focus = AVT_subjugate_primitives }
+		x = 11
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_colonial_infrastructure
+		prerequisite = { focus = AVT_subjugate_primitives focus = AVT_diplomatic_approach }
+		x = 10
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_avtukovian_administration
+		prerequisite = { focus = AVT_subjugate_primitives focus = AVT_diplomatic_approach }
+		x = 8
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_local_collaborators
+		prerequisite = { focus = AVT_subjugate_primitives focus = AVT_diplomatic_approach }
+		x = 12
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_expand_empire
+		prerequisite = { focus = AVT_colonial_infrastructure }
+		x = 10
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_mine_expansion
+		prerequisite = { focus = AVT_colonial_infrastructure }
+		x = 8
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_local_luxuries
+		prerequisite = { focus = AVT_colonial_infrastructure }
+		x = 12
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_underwater_compliance
+		prerequisite = { focus = AVT_expand_empire }
+		mutually_exclusive = { focus = AVT_underwater_independence }
+		x = 9
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_invest_in_underwater_cities
+		prerequisite = { focus = AVT_underwater_compliance }
+		x = 9
+		y = 15
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_underwater_independence
+		prerequisite = { focus = AVT_expand_empire }
+		mutually_exclusive = { focus = AVT_underwater_compliance }
+		x = 11
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_develop_coast
+		prerequisite = { focus = AVT_underwater_independence }
+		x = 11
+		y = 15
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+##################
+###TSARINA TREE###
+##################
+	
+	focus = {
+		id = AVT_the_tsarina
+		x = -14
+		y = 7
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_offer_they_cant_refuse
+		prerequisite = { focus = AVT_the_tsarina }
+		mutually_exclusive = { focus = AVT_crush_deer }
+		x = -15
+		y = 8
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_crush_deer
+		prerequisite = { focus = AVT_the_tsarina }
+		mutually_exclusive = { focus = AVT_offer_they_cant_refuse }
+		x = -13
+		y = 8
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_towards_perfect_society
+		prerequisite = { focus = AVT_offer_they_cant_refuse focus = AVT_crush_deer }
+		x = -14
+		y = 9
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_integrate_jarls
+		prerequisite = { focus = AVT_offer_they_cant_refuse focus = AVT_crush_deer }
+		x = -16
+		y = 9
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_deal_with_democratic_legacy
+		prerequisite = { focus = AVT_offer_they_cant_refuse focus = AVT_crush_deer }
+		x = -12
+		y = 9
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_subjugate_dragons
+		prerequisite = { focus = AVT_towards_perfect_society }
+		x = -8
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_riches_of_mountain
+		prerequisite = { focus = AVT_subjugate_dragons }
+		x = -8
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_rightful_avtukov_land
+		prerequisite = { focus = AVT_riches_of_mountain }
+		x = -8
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_dealing_with_dissent
+		prerequisite = { focus = AVT_towards_perfect_society }
+		x = -23
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_local_noble_collaborators
+		prerequisite = { focus = AVT_dealing_with_dissent }
+		x = -24
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_focus_on_labor
+		prerequisite = { focus = AVT_local_noble_collaborators }
+		mutually_exclusive = { focus = AVT_focus_on_reeducation }
+		x = -25
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_focus_on_reeducation
+		prerequisite = { focus = AVT_local_noble_collaborators }
+		mutually_exclusive = { focus = AVT_focus_on_labor }
+		x = -23
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_reward_heroes
+		prerequisite = { focus = AVT_noble_dominated_army }
+		prerequisite = { focus = AVT_titles_for_best }
+		x = -14
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_noble_only_army
+		prerequisite = { focus = AVT_towards_perfect_society }
+		mutually_exclusive = { focus = AVT_noble_dominated_army }
+		x = -17
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_noble_dominated_army
+		prerequisite = { focus = AVT_towards_perfect_society }
+		mutually_exclusive = { focus = AVT_noble_only_army }
+		x = -15
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_city_serfdom
+		prerequisite = { focus = AVT_noble_only_army focus = AVT_noble_dominated_army }
+		mutually_exclusive = { focus = AVT_spare_the_wealthy }
+		x = -18
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_spare_the_wealthy
+		prerequisite = { focus = AVT_noble_only_army focus = AVT_noble_dominated_army }
+		mutually_exclusive = { focus = AVT_city_serfdom }
+		x = -16
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_once_traitor_always_traitor
+		prerequisite = { focus = AVT_city_serfdom focus = AVT_spare_the_wealthy }
+		mutually_exclusive = { focus = AVT_embrace_rebels }
+		x = -18
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_embrace_rebels
+		prerequisite = { focus = AVT_city_serfdom focus = AVT_spare_the_wealthy }
+		mutually_exclusive = { focus = AVT_once_traitor_always_traitor }
+		x = -16
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_absolute_rule
+		prerequisite = { focus = AVT_once_traitor_always_traitor focus = AVT_embrace_rebels }
+		mutually_exclusive = { focus = AVT_noble_council }
+		x = -18
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_noble_council
+		prerequisite = { focus = AVT_once_traitor_always_traitor focus = AVT_embrace_rebels }
+		mutually_exclusive = { focus = AVT_absolute_rule }
+		x = -16
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_strict_hierarchy
+		prerequisite = { focus = AVT_towards_perfect_society }
+		mutually_exclusive = { focus = AVT_titles_for_best }
+		x = -11
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_titles_for_best
+		prerequisite = { focus = AVT_towards_perfect_society }
+		mutually_exclusive = { focus = AVT_strict_hierarchy }
+		x = -13
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_buy_commoner_property
+		prerequisite = { focus = AVT_strict_hierarchy focus = AVT_titles_for_best }
+		mutually_exclusive = { focus = AVT_seize_commoner_property }
+		x = -12
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_seize_commoner_property
+		prerequisite = { focus = AVT_strict_hierarchy focus = AVT_titles_for_best }
+		mutually_exclusive = { focus = AVT_buy_commoner_property }
+		x = -10
+		y = 11
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_noblesse_oblige
+		prerequisite = { focus = AVT_buy_commoner_property focus = AVT_seize_commoner_property }
+		mutually_exclusive = { focus = AVT_masters_of_life_death }
+		x = -12
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_masters_of_life_death
+		prerequisite = { focus = AVT_buy_commoner_property focus = AVT_seize_commoner_property }
+		mutually_exclusive = { focus = AVT_noblesse_oblige }
+		x = -10
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_legacy_of_pioneers
+		prerequisite = { focus = AVT_noblesse_oblige focus = AVT_masters_of_life_death }
+		mutually_exclusive = { focus = AVT_work_with_church }
+		x = -12
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_work_with_church
+		prerequisite = { focus = AVT_noblesse_oblige focus = AVT_masters_of_life_death }
+		mutually_exclusive = { focus = AVT_legacy_of_pioneers }
+		x = -10
+		y = 13
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_grand_land_reclamation
+		prerequisite = { focus = AVT_legacy_of_pioneers }
+		x = -11
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_grand_cathedral
+		prerequisite = { focus = AVT_work_with_church }
+		x = -9
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_perfect_society
+		prerequisite = { focus = AVT_absolute_rule focus = AVT_noble_council }
+		prerequisite = { focus = AVT_legacy_of_pioneers focus = AVT_work_with_church }
+		mutually_exclusive = { focus = AVT_compromise_with_modernity }
+		x = -15
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_compromise_with_modernity
+		prerequisite = { focus = AVT_absolute_rule focus = AVT_noble_council }
+		prerequisite = { focus = AVT_legacy_of_pioneers focus = AVT_work_with_church }
+		mutually_exclusive = { focus = AVT_perfect_society }
+		x = -13
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_grand_tournament
+		prerequisite = { focus = AVT_perfect_society focus = AVT_compromise_with_modernity }
+		x = -14
+		y = 15
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_peace_and_prosperity
+		prerequisite = { focus = AVT_grand_tournament }
+		mutually_exclusive = { focus = AVT_save_the_world }
+		x = -13
+		y = 16
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_ootari_intervention
+		prerequisite = { focus = AVT_peace_and_prosperity }
+		x = -12
+		y = 17
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_save_the_world
+		prerequisite = { focus = AVT_grand_tournament }
+		mutually_exclusive = { focus = AVT_peace_and_prosperity }
+		x = -15
+		y = 16
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_natural_order_traunulu
+		prerequisite = { focus = AVT_save_the_world }
+		x = -16
+		y = 17
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_natural_order_arondinia
+		prerequisite = { focus = AVT_natural_order_traunulu }
+		x = -17
+		y = 18
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_natural_order_luanservy
+		prerequisite = { focus = AVT_save_the_world }
+		x = -14
+		y = 17
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_natural_order_vasdarnen
+		prerequisite = { focus = AVT_natural_order_luanservy }
+		x = -13
+		y = 18
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_natural_order_dominatra
+		prerequisite = { focus = AVT_natural_order_luanservy focus = AVT_natural_order_traunulu }
+		x = -15
+		y = 18
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_world_is_saved
+		prerequisite = { focus = AVT_natural_order_vasdarnen }
+		prerequisite = { focus = AVT_natural_order_dominatra }
+		prerequisite = { focus = AVT_natural_order_arondinia }
+		x = -15
+		y = 19
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_knightly_heritage
+		prerequisite = { focus = AVT_grand_tournament }
+		x = -11
+		y = 16
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_imperial_splendor
+		prerequisite = { focus = AVT_grand_tournament }
+		x = -8
+		y = 16
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_the_palace
+		prerequisite = { focus = AVT_imperial_splendor }
+		x = -10
+		y = 17
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_the_museum
+		prerequisite = { focus = AVT_imperial_splendor }
+		x = -8
+		y = 17
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_the_university
+		prerequisite = { focus = AVT_imperial_splendor }
+		x = -6
+		y = 17
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_landowners_to_industrialists
+		prerequisite = { focus = AVT_grand_tournament }
+		x = -20
+		y = 16
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_invite_foreign_investments
+		prerequisite = { focus = AVT_grand_tournament }
+		x = -18
+		y = 16
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_feudal_industrialism
+		prerequisite = { focus = AVT_landowners_to_industrialists }
+		prerequisite = { focus = AVT_invite_foreign_investments }
+		x = -19
+		y = 17
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_segregated_public_schooling
+		prerequisite = { focus = AVT_feudal_industrialism }
+		x = -19
+		y = 18
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_species_solidarity
+		prerequisite = { focus = AVT_grand_tournament }
+		x = -22
+		y = 16
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_towards_independence
+		prerequisite = { focus = AVT_species_solidarity }
+		mutually_exclusive = { focus = AVT_proper_avtukovian_province }
+		x = -22
+		y = 17
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_proper_avtukovian_province
+		prerequisite = { focus = AVT_focus_on_labor focus = AVT_focus_on_reeducation }
+		mutually_exclusive = { focus = AVT_towards_independence }
+		x = -24
+		y = 17
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}

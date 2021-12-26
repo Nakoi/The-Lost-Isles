@@ -1,0 +1,5111 @@
+focus_tree = {
+    id = generic_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = 
+        }
+    }
+
+    default = no
+
+    continuous_focus_position = { x = 50 y = 3000 }
+	
+########################
+###GENERIC GOVERNMENT###
+########################
+
+	focus = {
+		id = genfoc_defining_our_future
+		x = 8
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+	
+	focus = {
+		id = genfoc_on_the_warpath
+		prerequisite = { focus = genfoc_defining_our_future }
+		x = 8
+		y = 1
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = genfoc_our_government
+		prerequisite = { focus = genfoc_defining_our_future }
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+	
+	focus = {
+		id = genfoc_despotism
+		prerequisite = { focus = genfoc_our_government }
+		mutually_exclusive = { focus = genfoc_oligarchy focus = genfoc_aristocracy focus = genfoc_auth_democracy focus = genfoc_democracy focus = genfoc_anarchy }
+		x = -4
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_despotism
+		}
+		
+		completion_reward = {
+			add_ideas = policy_despotism
+			IF = {
+				limit = {
+					has_idea = policy_oligarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_oligarchy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_aristocracy
+				}
+				swap_ideas = {
+					remove_idea = policy_aristocracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_auth_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_auth_democracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_democracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_anarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_anarchy
+					add_idea = policy_despotism
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_despotism_buff_1
+		prerequisite = { focus = genfoc_despotism }
+		x = -4
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_despotism_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_despotism_buff_2
+		prerequisite = { focus = genfoc_despotism_buff_1 }
+		x = -4
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_political_power = 750
+			swap_ideas = {
+				add_idea = genidea_despotism_buff_2
+				remove_idea = genidea_despotism_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_oligarchy
+		prerequisite = { focus = genfoc_our_government }
+		mutually_exclusive = { focus = genfoc_despotism focus = genfoc_aristocracy focus = genfoc_auth_democracy focus = genfoc_democracy focus = genfoc_anarchy }
+		x = -2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_oligarchy
+		}
+		
+		completion_reward = {
+			add_ideas = policy_oligarchy
+			IF = {
+				limit = {
+					has_idea = policy_despotism
+				}
+				swap_ideas = {
+					remove_idea = policy_despotism
+					add_idea = policy_oligarchy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_aristocracy
+				}
+				swap_ideas = {
+					remove_idea = policy_aristocracy
+					add_idea = policy_oligarchy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_auth_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_auth_democracy
+					add_idea = policy_oligarchy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_democracy
+					add_idea = policy_oligarchy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_anarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_anarchy
+					add_idea = policy_oligarchy
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_oligarchy_buff_1
+		prerequisite = { focus = genfoc_oligarchy }
+		x = -2
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_oligarchy_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_oligarchy_buff_2
+		prerequisite = { focus = genfoc_oligarchy_buff_1 }
+		x = -2
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_oligarchy_buff_2
+				remove_idea = genidea_oligarchy_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_aristocracy
+		prerequisite = { focus = genfoc_our_government }
+		mutually_exclusive = { focus = genfoc_oligarchy focus = genfoc_despotism focus = genfoc_auth_democracy focus = genfoc_democracy focus = genfoc_anarchy }
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_aristocracy
+		}
+		
+		completion_reward = {
+			add_ideas = policy_aristocracy
+			IF = {
+				limit = {
+					has_idea = policy_oligarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_oligarchy
+					add_idea = policy_aristocracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_despotism
+				}
+				swap_ideas = {
+					remove_idea = policy_despotism
+					add_idea = policy_aristocracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_auth_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_auth_democracy
+					add_idea = policy_aristocracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_democracy
+					add_idea = policy_aristocracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_anarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_anarchy
+					add_idea = policy_aristocracy
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_aristocracy_buff_1
+		prerequisite = { focus = genfoc_aristocracy }
+		x = 0
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_aristocracy_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_aristocracy_buff_2
+		prerequisite = { focus = genfoc_aristocracy_buff_1 }
+		x = 0
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_aristocracy_buff_2
+				remove_idea = genidea_aristocracy_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_auth_democracy
+		prerequisite = { focus = genfoc_our_government }
+		mutually_exclusive = { focus = genfoc_oligarchy focus = genfoc_aristocracy focus = genfoc_despotism focus = genfoc_democracy focus = genfoc_anarchy }
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		
+		bypass = {
+			has_idea = policy_auth_democracy
+		}
+		
+		completion_reward = {
+			add_ideas = policy_auth_democracy
+			IF = {
+				limit = {
+					has_idea = policy_oligarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_oligarchy
+					add_idea = policy_auth_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_aristocracy
+				}
+				swap_ideas = {
+					remove_idea = policy_aristocracy
+					add_idea = policy_auth_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_despotism
+				}
+				swap_ideas = {
+					remove_idea = policy_despotism
+					add_idea = policy_auth_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_democracy
+					add_idea = policy_auth_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_anarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_anarchy
+					add_idea = policy_auth_democracy
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_auth_democracy_buff_1
+		prerequisite = { focus = genfoc_auth_democracy }
+		x = 2
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_auth_democracy_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_auth_democracy_buff_2
+		prerequisite = { focus = genfoc_auth_democracy_buff_1 }
+		x = 2
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_auth_democracy_buff_2
+				remove_idea = genidea_auth_democracy_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_democracy
+		prerequisite = { focus = genfoc_our_government }
+		mutually_exclusive = { focus = genfoc_oligarchy focus = genfoc_aristocracy focus = genfoc_auth_democracy focus = genfoc_despotism focus = genfoc_anarchy }
+		x = 4
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_democracy
+		}
+		
+		completion_reward = {
+			add_ideas = policy_democracy
+			IF = {
+				limit = {
+					has_idea = policy_oligarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_oligarchy
+					add_idea = policy_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_aristocracy
+				}
+				swap_ideas = {
+					remove_idea = policy_aristocracy
+					add_idea = policy_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_auth_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_auth_democracy
+					add_idea = policy_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_despotism
+				}
+				swap_ideas = {
+					remove_idea = policy_despotism
+					add_idea = policy_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_anarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_anarchy
+					add_idea = policy_democracy
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_democracy_buff_1
+		prerequisite = { focus = genfoc_democracy }
+		x = 4
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_democracy_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_democracy_buff_2
+		prerequisite = { focus = genfoc_democracy_buff_1 }
+		x = 4
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_democracy_buff_2
+				remove_idea = genidea_democracy_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_anarchy
+		prerequisite = { focus = genfoc_our_government }
+		mutually_exclusive = { focus = genfoc_oligarchy focus = genfoc_aristocracy focus = genfoc_auth_democracy focus = genfoc_democracy focus = genfoc_despotism }
+		x = 6
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_anarchy
+		}
+		
+		completion_reward = {
+			add_ideas = policy_anarchy
+			IF = {
+				limit = {
+					has_idea = policy_oligarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_oligarchy
+					add_idea = policy_anarchy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_aristocracy
+				}
+				swap_ideas = {
+					remove_idea = policy_aristocracy
+					add_idea = policy_anarchy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_auth_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_auth_democracy
+					add_idea = policy_anarchy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_democracy
+					add_idea = policy_anarchy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_despotism
+				}
+				swap_ideas = {
+					remove_idea = policy_despotism
+					add_idea = policy_anarchy
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_anarchy_buff_1
+		prerequisite = { focus = genfoc_anarchy }
+		x = 6
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_research_slot = -1
+			add_ideas = genidea_anarchy_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_anarchy_buff_2
+		prerequisite = { focus = genfoc_anarchy_buff_1 }
+		x = 6
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_anarchy_buff_2
+				remove_idea = genidea_anarchy_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_looking_outwards
+		prerequisite = { focus = genfoc_defining_our_future }
+		x = 15
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	
+	focus = {
+		id = genfoc_militarism
+		prerequisite = { focus = genfoc_looking_outwards }
+		mutually_exclusive = { focus = genfoc_imperialism focus = genfoc_visionarism focus = genfoc_solidarism focus = genfoc_continuism focus = genfoc_isolationism }
+		x = 10
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_government = ideology_militarism
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_militarism
+				popularity = 0.2
+			}
+			set_politics = {
+					ruling_party = ideology_militarism
+					elections_allowed = no
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_militarism_buff_1
+		prerequisite = { focus = genfoc_militarism }
+		x = 10
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+	
+		completion_reward = {
+			add_ideas = genidea_militarism_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_militarism_buff_2
+		prerequisite = { focus = genfoc_militarism_buff_1 }
+		x = 10
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_militarism_buff_2
+				remove_idea = genidea_militarism_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_imperialism
+		prerequisite = { focus = genfoc_looking_outwards }
+		mutually_exclusive = { focus = genfoc_militarism focus = genfoc_visionarism focus = genfoc_solidarism focus = genfoc_continuism focus = genfoc_isolationism }
+		x = 12
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_government = ideology_imperialism
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.2
+			}
+			set_politics = {
+				ruling_party = ideology_imperialism
+				elections_allowed = no
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_imperialism_buff_1
+		prerequisite = { focus = genfoc_imperialism }
+		x = 12
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_imperialism_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_imperialism_buff_2
+		prerequisite = { focus = genfoc_imperialism_buff_1 }
+		x = 12
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_imperialism_buff_2
+				remove_idea = genidea_imperialism_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_visionarism
+		prerequisite = { focus = genfoc_looking_outwards }
+		mutually_exclusive = { focus = genfoc_imperialism focus = genfoc_militarism focus = genfoc_solidarism focus = genfoc_continuism focus = genfoc_isolationism }
+		x = 14
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_government = ideology_visionarism
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_visionarism
+				popularity = 0.2
+			}
+			set_politics = {
+				ruling_party = ideology_visionarism
+				elections_allowed = no
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_visionarism_buff_1
+		prerequisite = { focus = genfoc_visionarism }
+		x = 14
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_visionarism_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_visionarism_buff_2
+		prerequisite = { focus = genfoc_visionarism_buff_1 }
+		x = 14
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_visionarism_buff_2
+				remove_idea = genidea_visionarism_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_solidarism
+		prerequisite = { focus = genfoc_looking_outwards }
+		mutually_exclusive = { focus = genfoc_imperialism focus = genfoc_visionarism focus = genfoc_militarism focus = genfoc_continuism focus = genfoc_isolationism }
+		x = 16
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_government = ideology_solidarism
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_solidarism
+				popularity = 0.2
+			}
+				set_politics = {
+					ruling_party = ideology_solidarism
+					elections_allowed = no
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_solidarism_buff_1
+		prerequisite = { focus = genfoc_solidarism }
+		x = 16
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_solidarism_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_solidarism_buff_2
+		prerequisite = { focus = genfoc_solidarism_buff_1 }
+		x = 16
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_solidarism_buff_2
+				remove_idea = genidea_solidarism_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_continuism
+		prerequisite = { focus = genfoc_looking_outwards }
+		mutually_exclusive = { focus = genfoc_imperialism focus = genfoc_visionarism focus = genfoc_solidarism focus = genfoc_militarism focus = genfoc_isolationism }
+		x = 18
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_government = ideology_continuism
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.2
+			}
+			set_politics = {
+				ruling_party = ideology_continuism
+				elections_allowed = no
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_continuism_buff_1
+		prerequisite = { focus = genfoc_continuism }
+		x = 18
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_continuism_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_continuism_buff_2
+		prerequisite = { focus = genfoc_continuism_buff_1 }
+		x = 18
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_continuism_buff_2
+				remove_idea = genidea_continuism_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_isolationism
+		prerequisite = { focus = genfoc_looking_outwards }
+		mutually_exclusive = { focus = genfoc_imperialism focus = genfoc_visionarism focus = genfoc_solidarism focus = genfoc_continuism focus = genfoc_militarism }
+		x = 20
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_government = ideology_isolationism
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_isolationism
+				popularity = 0.2
+			}
+			set_politics = {
+				ruling_party = ideology_isolationism
+				elections_allowed = no
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_isolationism_buff_1
+		prerequisite = { focus = genfoc_isolationism }
+		x = 20
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_isolationism_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_isolationism_buff_2
+		prerequisite = { focus = genfoc_isolationism_buff_1 }
+		x = 20
+		y = 4
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_isolationism_buff_2
+				remove_idea = genidea_isolationism_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_soul_of_nation
+		prerequisite = { focus = genfoc_defining_our_future }
+		x = 7
+		y = 5
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	
+	focus = {
+		id = genfoc_regressive
+		prerequisite = { focus = genfoc_soul_of_nation }
+		mutually_exclusive = { focus = genfoc_reactionary focus = genfoc_conservative focus = genfoc_progressive focus = genfoc_revolutionary focus = genfoc_futurist }
+		x = 7
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_regressive
+		}
+		
+		completion_reward = {
+			add_ideas = policy_regressive
+			IF = {
+				limit = {
+					has_idea = policy_reactionary
+				}
+				swap_ideas = {
+					remove_idea = policy_reactionary
+					add_idea = policy_regressive
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_conservative
+				}
+				swap_ideas = {
+					remove_idea = policy_conservative
+					add_idea = policy_regressive
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_progressive
+				}
+				swap_ideas = {
+					remove_idea = policy_progressive
+					add_idea = policy_regressive
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_revolutionary
+				}
+				swap_ideas = {
+					remove_idea = policy_revolutionary
+					add_idea = policy_regressive
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_futurist
+				}
+				swap_ideas = {
+					remove_idea = policy_futurist
+					add_idea = policy_regressive
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_regressive_buff_1
+		prerequisite = { focus = genfoc_regressive }
+		x = 7
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_regressive_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_regressive_buff_2
+		prerequisite = { focus = genfoc_regressive_buff_1 }
+		x = 7
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_regressive_buff_2
+				remove_idea = genidea_regressive_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_reactionary
+		prerequisite = { focus = genfoc_soul_of_nation }
+		mutually_exclusive = { focus = genfoc_regressive focus = genfoc_conservative focus = genfoc_progressive focus = genfoc_revolutionary focus = genfoc_futurist }
+		x = 5
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_reactionary
+		}
+		
+		completion_reward = {
+			add_ideas = policy_reactionary
+			IF = {
+				limit = {
+					has_idea = policy_regressive
+				}
+				swap_ideas = {
+					remove_idea = policy_regressive
+					add_idea = policy_reactionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_conservative
+				}
+				swap_ideas = {
+					remove_idea = policy_conservative
+					add_idea = policy_reactionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_progressive
+				}
+				swap_ideas = {
+					remove_idea = policy_progressive
+					add_idea = policy_reactionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_revolutionary
+				}
+				swap_ideas = {
+					remove_idea = policy_revolutionary
+					add_idea = policy_reactionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_futurist
+				}
+				swap_ideas = {
+					remove_idea = policy_futurist
+					add_idea = policy_reactionary
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_reactionary_buff_1
+		prerequisite = { focus = genfoc_reactionary }
+		x = 5
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_reactionary_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_reactionary_buff_2
+		prerequisite = { focus = genfoc_reactionary_buff_1 }
+		x = 5
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_reactionary_buff_2
+				remove_idea = genidea_reactionary_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_conservative
+		prerequisite = { focus = genfoc_soul_of_nation }
+		mutually_exclusive = { focus = genfoc_reactionary focus = genfoc_regressive focus = genfoc_progressive focus = genfoc_revolutionary focus = genfoc_futurist }
+		x = 3
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_conservative
+		}
+		
+		completion_reward = {
+			add_ideas = policy_conservative
+			IF = {
+				limit = {
+					has_idea = policy_regressive
+				}
+				swap_ideas = {
+					remove_idea = policy_regressive
+					add_idea = policy_conservative
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_reactionary
+				}
+				swap_ideas = {
+					remove_idea = policy_reactionary
+					add_idea = policy_conservative
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_progressive
+				}
+				swap_ideas = {
+					remove_idea = policy_progressive
+					add_idea = policy_conservative
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_revolutionary
+				}
+				swap_ideas = {
+					remove_idea = policy_revolutionary
+					add_idea = policy_conservative
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_futurist
+				}
+				swap_ideas = {
+					remove_idea = policy_futurist
+					add_idea = policy_conservative
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_conservative_buff_1
+		prerequisite = { focus = genfoc_conservative }
+		x = 3
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_conservative_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_conservative_buff_2
+		prerequisite = { focus = genfoc_conservative_buff_1 }
+		x = 3
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_conservative_buff_2
+				remove_idea = genidea_conservative_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_progressive
+		prerequisite = { focus = genfoc_soul_of_nation }
+		mutually_exclusive = { focus = genfoc_reactionary focus = genfoc_conservative focus = genfoc_regressive focus = genfoc_revolutionary focus = genfoc_futurist }
+		x = 1
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_progressive
+		}
+		
+		completion_reward = {
+			add_ideas = policy_progressive
+			IF = {
+				limit = {
+					has_idea = policy_regressive
+				}
+				swap_ideas = {
+					remove_idea = policy_regressive
+					add_idea = policy_progressive
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_reactionary
+				}
+				swap_ideas = {
+					remove_idea = policy_reactionary
+					add_idea = policy_progressive
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_conservative
+				}
+				swap_ideas = {
+					remove_idea = policy_conservative
+					add_idea = policy_progressive
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_revolutionary
+				}
+				swap_ideas = {
+					remove_idea = policy_revolutionary
+					add_idea = policy_progressive
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_futurist
+				}
+				swap_ideas = {
+					remove_idea = policy_futurist
+					add_idea = policy_progressive
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_progressive_buff_1
+		prerequisite = { focus = genfoc_progressive }
+		x = 1
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_progressive_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_progressive_buff_2
+		prerequisite = { focus = genfoc_progressive_buff_1 }
+		x = 1
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_progressive_buff_2
+				remove_idea = genidea_progressive_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_revolutionary
+		prerequisite = { focus = genfoc_soul_of_nation }
+		mutually_exclusive = { focus = genfoc_reactionary focus = genfoc_conservative focus = genfoc_progressive focus = genfoc_regressive focus = genfoc_futurist }
+		x = -1
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_revolutionary
+		}
+		
+		completion_reward = {
+			add_ideas = policy_revolutionary
+			IF = {
+				limit = {
+					has_idea = policy_regressive
+				}
+				swap_ideas = {
+					remove_idea = policy_regressive
+					add_idea = policy_revolutionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_reactionary
+				}
+				swap_ideas = {
+					remove_idea = policy_reactionary
+					add_idea = policy_revolutionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_conservative
+				}
+				swap_ideas = {
+					remove_idea = policy_conservative
+					add_idea = policy_revolutionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_progressive
+				}
+				swap_ideas = {
+					remove_idea = policy_progressive
+					add_idea = policy_revolutionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_futurist
+				}
+				swap_ideas = {
+					remove_idea = policy_futurist
+					add_idea = policy_revolutionary
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_revolutionary_buff_1
+		prerequisite = { focus = genfoc_revolutionary }
+		x = -1
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_revolutionary_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_revolutionary_buff_2
+		prerequisite = { focus = genfoc_revolutionary_buff_1 }
+		x = -1
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_revolutionary_buff_2
+				remove_idea = genidea_revolutionary_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_futurist
+		prerequisite = { focus = genfoc_soul_of_nation }
+		mutually_exclusive = { focus = genfoc_reactionary focus = genfoc_conservative focus = genfoc_progressive focus = genfoc_revolutionary focus = genfoc_regressive }
+		x = -3
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_futurist
+		}
+		
+		completion_reward = {
+			add_ideas = policy_futurist
+			IF = {
+				limit = {
+					has_idea = policy_regressive
+				}
+				swap_ideas = {
+					remove_idea = policy_regressive
+					add_idea = policy_futurist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_reactionary
+				}
+				swap_ideas = {
+					remove_idea = policy_reactionary
+					add_idea = policy_futurist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_conservative
+				}
+				swap_ideas = {
+					remove_idea = policy_conservative
+					add_idea = policy_futurist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_progressive
+				}
+				swap_ideas = {
+					remove_idea = policy_progressive
+					add_idea = policy_futurist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_revolutionary
+				}
+				swap_ideas = {
+					remove_idea = policy_revolutionary
+					add_idea = policy_futurist
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_futurist_buff_1
+		prerequisite = { focus = genfoc_futurist }
+		x = -3
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_futurist_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_futurist_buff_2
+		prerequisite = { focus = genfoc_futurist_buff_1 }
+		x = -3
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_futurist_buff_2
+				remove_idea = genidea_futurist_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_matters_of_economy
+		prerequisite = { focus = genfoc_defining_our_future }
+		x = 9
+		y = 5
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	
+	focus = {
+		id = genfoc_collective
+		prerequisite = { focus = genfoc_matters_of_economy }
+		mutually_exclusive = { focus = genfoc_planned_eco focus = genfoc_eco_intervention focus = genfoc_market_liberal focus = genfoc_capitalism focus = genfoc_laissez_faire }
+		x = 9
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_collective
+		}
+		
+		completion_reward = {
+			add_ideas = policy_collective
+			IF = {
+				limit = {
+					has_idea = policy_socialist
+				}
+				swap_ideas = {
+					remove_idea = policy_socialist
+					add_idea = policy_collective
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_social
+				}
+				swap_ideas = {
+					remove_idea = policy_social
+					add_idea = policy_collective
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_market
+				}
+				swap_ideas = {
+					remove_idea = policy_market
+					add_idea = policy_collective
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_capitalist
+				}
+				swap_ideas = {
+					remove_idea = policy_capitalist
+					add_idea = policy_collective
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_laissez_faire
+				}
+				swap_ideas = {
+					remove_idea = policy_laissez_faire
+					add_idea = policy_collective
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_collective_buff_1
+		prerequisite = { focus = genfoc_collective }
+		x = 9
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_collective_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_collective_buff_2
+		prerequisite = { focus = genfoc_collective_buff_1 }
+		x = 9
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_collective_buff_2
+				remove_idea = genidea_collective_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_planned_eco
+		prerequisite = { focus = genfoc_matters_of_economy }
+		mutually_exclusive = { focus = genfoc_collective focus = genfoc_eco_intervention focus = genfoc_market_liberal focus = genfoc_capitalism focus = genfoc_laissez_faire }
+		x = 11
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_socialist
+		}
+		
+		completion_reward = {
+			add_ideas = policy_socialist
+			IF = {
+				limit = {
+					has_idea = policy_collective
+				}
+				swap_ideas = {
+					remove_idea = policy_collective
+					add_idea = policy_socialist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_social
+				}
+				swap_ideas = {
+					remove_idea = policy_social
+					add_idea = policy_socialist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_market
+				}
+				swap_ideas = {
+					remove_idea = policy_market
+					add_idea = policy_socialist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_capitalist
+				}
+				swap_ideas = {
+					remove_idea = policy_capitalist
+					add_idea = policy_socialist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_laissez_faire
+				}
+				swap_ideas = {
+					remove_idea = policy_laissez_faire
+					add_idea = policy_socialist
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_planned_eco_buff_1
+		prerequisite = { focus = genfoc_planned_eco }
+		x = 11
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_planned_eco_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_planned_eco_buff_2
+		prerequisite = { focus = genfoc_planned_eco_buff_1 }
+		x = 11
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_planned_eco_buff_2
+				remove_idea = genidea_planned_eco_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_eco_intervention
+		prerequisite = { focus = genfoc_matters_of_economy }
+		mutually_exclusive = { focus = genfoc_planned_eco focus = genfoc_collective focus = genfoc_market_liberal focus = genfoc_capitalism focus = genfoc_laissez_faire }
+		x = 13
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_social
+		}
+		
+		completion_reward = {
+			add_ideas = policy_social
+			IF = {
+				limit = {
+					has_idea = policy_collective
+				}
+				swap_ideas = {
+					remove_idea = policy_collective
+					add_idea = policy_social
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_socialist
+				}
+				swap_ideas = {
+					remove_idea = policy_socialist
+					add_idea = policy_social
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_market
+				}
+				swap_ideas = {
+					remove_idea = policy_
+					add_idea = policy_social
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_capitalist
+				}
+				swap_ideas = {
+					remove_idea = policy_capitalist
+					add_idea = policy_social
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_laissez_faire
+				}
+				swap_ideas = {
+					remove_idea = policy_laissez_faire
+					add_idea = policy_social
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = genfoc_eco_intervention_buff_1
+		prerequisite = { focus = genfoc_eco_intervention }
+		x = 13
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_eco_intervention_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_eco_intervention_buff_2
+		prerequisite = { focus = genfoc_eco_intervention_buff_1 }
+		x = 13
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_eco_intervention_buff_2
+				remove_idea = genidea_eco_intervention_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_market_liberal
+		prerequisite = { focus = genfoc_matters_of_economy }
+		mutually_exclusive = { focus = genfoc_planned_eco focus = genfoc_eco_intervention focus = genfoc_collective focus = genfoc_capitalism focus = genfoc_laissez_faire }
+		x = 15
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_market
+		}
+		
+		completion_reward = {
+			add_ideas = policy_market
+			IF = {
+				limit = {
+					has_idea = policy_collective
+				}
+				swap_ideas = {
+					remove_idea = policy_collective
+					add_idea = policy_market
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_socialist
+				}
+				swap_ideas = {
+					remove_idea = policy_socialist
+					add_idea = policy_market
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_social
+				}
+				swap_ideas = {
+					remove_idea = policy_social
+					add_idea = policy_market
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_capitalist
+				}
+				swap_ideas = {
+					remove_idea = policy_capitalist
+					add_idea = policy_market
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_laissez_faire
+				}
+				swap_ideas = {
+					remove_idea = policy_laissez_faire
+					add_idea = policy_market
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_market_liberal_buff_1
+		prerequisite = { focus = genfoc_market_liberal }
+		x = 15
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas =genidea_market_liberal_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_market_liberal_buff_2
+		prerequisite = { focus = genfoc_market_liberal_buff_1 }
+		x = 15
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_market_liberal_buff_2
+				remove_idea = genidea_market_liberal_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_capitalism
+		prerequisite = { focus = genfoc_matters_of_economy }
+		mutually_exclusive = { focus = genfoc_planned_eco focus = genfoc_eco_intervention focus = genfoc_market_liberal focus = genfoc_collective focus = genfoc_laissez_faire }
+		x = 17
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_capitalist
+		}
+		
+		completion_reward = {
+			add_ideas = policy_capitalist
+			IF = {
+				limit = {
+					has_idea = policy_collective
+				}
+				swap_ideas = {
+					remove_idea = policy_collective
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_socialist
+				}
+				swap_ideas = {
+					remove_idea = policy_socialist
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_social
+				}
+				swap_ideas = {
+					remove_idea = policy_social
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_market
+				}
+				swap_ideas = {
+					remove_idea = policy_market
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_laissez_faire
+				}
+				swap_ideas = {
+					remove_idea = policy_laissez_faire
+					add_idea = policy_capitalist
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_capitalism_buff_1
+		prerequisite = { focus = genfoc_capitalism }
+		x = 17
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_capitalism_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_capitalism_buff_2
+		prerequisite = { focus = genfoc_capitalism_buff_1 }
+		x = 17
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_capitalism_buff_2
+				remove_idea = genidea_capitalism_buff_1
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_laissez_faire
+		prerequisite = { focus = genfoc_matters_of_economy }
+		mutually_exclusive = { focus = genfoc_planned_eco focus = genfoc_eco_intervention focus = genfoc_market_liberal focus = genfoc_capitalism focus = genfoc_collective }
+		x = 19
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			has_idea = policy_laissez_faire
+		}
+		
+		completion_reward = {
+			add_ideas = policy_laissez_faire
+			IF = {
+				limit = {
+					has_idea = policy_collective
+				}
+				swap_ideas = {
+					remove_idea = policy_collective
+					add_idea = policy_laissez_faire
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_socialist
+				}
+				swap_ideas = {
+					remove_idea = policy_socialist
+					add_idea = policy_laissez_faire
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_social
+				}
+				swap_ideas = {
+					remove_idea = policy_social
+					add_idea = policy_laissez_faire
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_market
+				}
+				swap_ideas = {
+					remove_idea = policy_market
+					add_idea = policy_laissez_faire
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_capitalist
+				}
+				swap_ideas = {
+					remove_idea = policy_capitalist
+					add_idea = policy_laissez_faire
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_laissez_faire_buff_1
+		prerequisite = { focus = genfoc_laissez_faire }
+		x = 19
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_laissez_faire_buff_1
+		}
+	}
+			
+	
+	focus = {
+		id = genfoc_laissez_faire_buff_2
+		prerequisite = { focus = genfoc_laissez_faire_buff_1 }
+		x = 19
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_laissez_faire_buff_2
+				remove_idea = genidea_laissez_faire_buff_1
+			}
+		}
+	}
+	
+##########################
+###GENERIC MISSION TREE###
+##########################
+	
+	focus = {
+		id = genfoc_our_economy
+		x = 40
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = electronics
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_arms_workshops
+		prerequisite = { focus = genfoc_our_economy }
+		x = 39
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			num_of_military_factories > 14
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_expanded_military_production days = 200 }
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_civilian_workshops
+		prerequisite = { focus = genfoc_our_economy }
+		x = 41
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			num_of_civilian_factories > 14
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_expanded_civilian_production days = 200 }
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = industry
+				}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_roads
+		prerequisite = { focus = genfoc_build_arms_workshops }
+		x = 38
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_build_roads_tooltip
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 9
+					}
+				}
+			}
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_improved_infrastructure days = 200 }
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_invest_in_schooling
+		prerequisite = { focus = genfoc_our_economy }
+		x = 40
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			has_political_power > 150
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			political_power = -150
+			add_timed_idea = { idea = genidea_schooling_investment days = 200 }
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = electronics
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_vitalise_agriculture
+		prerequisite = { focus = genfoc_build_civilian_workshops }
+		x = 42
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_tech_bonus = {
+					bonus = 1.0
+					uses = 2
+					category = industry
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_open_university
+		prerequisite = { focus = genfoc_invest_in_schooling }
+		x = 40
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			num_of_factories > 34
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	
+	focus = {
+		id = genfoc_boost_the_trade
+		prerequisite = { focus = genfoc_vitalise_agriculture }
+		prerequisite = { focus = genfoc_build_roads }
+		x = 42
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			has_equipment = {
+				convoy > 49
+			}
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_booming_trade days = 200 }
+		}
+	}
+	
+	focus = {
+		id = genfoc_our_warriors
+		x = 33
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_aid_blacksmiths
+		prerequisite = { focus = genfoc_our_warriors }
+		x = 35
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			has_army_experience > 40
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			army_experience = -40
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_work_with_engineers
+		prerequisite = { focus = genfoc_aid_blacksmiths }
+		x = 34
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			has_army_experience > 30
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			army_experience = -30
+			add_timed_idea = { idea = genidea_engineer_cooperation days = 200 }
+		}
+	}
+	
+	focus = {
+		id = genfoc_stockpile_support_eqipment
+		prerequisite = { focus = genfoc_work_with_engineers focus = genfoc_work_with_armorers }
+		x = 34
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			has_army_experience > 10
+		}
+		available = {
+			has_equipment = {
+				support_equipment > 249
+			}
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			army_experience = -10
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 3
+				category = support_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_work_with_armorers
+		prerequisite = { focus = genfoc_aid_blacksmiths }
+		x = 36
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			has_army_experience > 40
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			army_experience = -40
+			add_timed_idea = { idea = genidea_armorer_cooperation days = 200 }
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_create_doctrine
+		prerequisite = { focus = genfoc_work_with_armorers focus = genfoc_work_with_engineers }
+		x = 36
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_art_of_war
+		}
+	}
+	
+	focus = {
+		id = genfoc_assemble_army
+		prerequisite = { focus = genfoc_our_warriors }
+		x = 31
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			has_army_manpower = { size > 29999 }
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			army_experience = 20
+			add_timed_idea = { idea = genidea_ready_for_conquest days = 120 }
+		}
+	}
+	
+	focus = {
+		id = genfoc_gather_finest_warriors
+		prerequisite = { focus = genfoc_assemble_army }
+		x = 31
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			has_army_size = {
+				size > 9
+				type = armor
+			}
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = mountaineers_tech
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = genfoc_path_of_conquest
+		prerequisite = { focus = genfoc_assemble_army }
+		x = 30
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			num_of_controlled_states > 10
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			army_experience = 20
+			add_ideas = genidea_path_of_warrior_1
+			IF = {
+				limit = {
+					has_idea = genidea_path_of_warrior_2
+				}
+				remove_ideas = genidea_path_of_warrior_1
+				swap_ideas = {
+					remove_idea = genidea_path_of_warrior_2
+					add_idea = genidea_path_of_warrior_3
+			    }
+			}
+		}
+	}
+		
+		
+	
+	focus = {
+		id = genfoc_subjugate_neighbors
+		prerequisite = { focus = genfoc_assemble_army }
+		x = 32
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			num_subjects > 2
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			army_experience = 20
+			add_ideas = genidea_path_of_warrior_2
+			IF = {
+				limit = {
+					has_idea = genidea_path_of_warrior_1
+				}
+				remove_ideas = genidea_path_of_warrior_2
+				swap_ideas = {
+					remove_idea = genidea_path_of_warrior_1
+					add_idea = genidea_path_of_warrior_3
+			    }
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = genfoc_gunpowder_era
+		prerequisite = { focus = genfoc_open_university }
+		prerequisite = { focus = genfoc_stockpile_support_eqipment focus = genfoc_create_doctrine }
+		prerequisite = { focus = genfoc_path_of_conquest focus = genfoc_subjugate_neighbors }
+		x = 37
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = gentext_primitive_civilised_advancement
+				hidden_effect = {
+				swap_ideas = {
+					add_idea = genidea_civilised_dev
+					remove_idea = genidea_primitive_dev
+				}
+			}
+		}	
+	}
+	
+	focus = {
+		id = genfoc_claim_the_seas
+		prerequisite = { focus = genfoc_gunpowder_era }
+		x = 33
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			navy_experience = 20
+		}
+	}
+	
+	focus = {
+		id = genfoc_construct_shipyards
+		prerequisite = { focus = genfoc_claim_the_seas }
+		x = 33
+		y = 6
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		available = {
+			dockyard > 11
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_booming_ship_construction_1 days = 200 }
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = naval_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_create_merchant_fleet
+		prerequisite = { focus = genfoc_construct_shipyards }
+		x = 30
+		y = 7
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		available = {
+			has_equipment = {
+				convoy > 124
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_growing_trade days = 200 }
+		}
+	}
+	
+	focus = {
+		id = genfoc_expand_our_shipyards
+		prerequisite = { focus = genfoc_construct_shipyards }
+		x = 32
+		y = 7
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		available = {
+			dockyard > 23
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_booming_ship_construction_2 days = 200 }
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = naval_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_screening_ship_effort
+		prerequisite = { focus = genfoc_construct_shipyards }
+		x = 34
+		y = 7
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		available = {
+			has_navy_size = {
+				size > 9
+				type = screen_ship
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_new_screen_ships days = 200 }
+			navy_experience = 20
+		}
+	}
+	
+	focus = {
+		id = genfoc_capital_ship_effort
+		prerequisite = { focus = genfoc_construct_shipyards }
+		x = 36
+		y = 7
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		available = {
+			has_navy_size = {
+				size > 9
+				type = capital_ship
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_new_capital_ships days = 200 }
+			navy_experience = 20
+		}
+	}
+	
+	focus = {
+		id = genfoc_extensive_ship_research
+		prerequisite = { focus = genfoc_create_merchant_fleet focus = genfoc_expand_our_shipyards focus = genfoc_screening_ship_effort focus = genfoc_capital_ship_effort }
+		x = 31
+		y = 8
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		available = {
+			has_navy_experience > 99
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			navy_experience = -100
+			add_tech_bonus = {
+				bonus = 3.0
+				uses = 2
+				category = naval_equipment
+			}
+			add_tech_bonus = {
+				bonus = 3.0
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_grand_fleet
+		prerequisite = { focus = genfoc_create_merchant_fleet focus = genfoc_expand_our_shipyards focus = genfoc_screening_ship_effort focus = genfoc_capital_ship_effort }
+		x = 33
+		y = 8
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		available = {
+			has_navy_size = {
+				size > 3
+				type = capital_ship
+			}
+		}
+		available = {
+			has_navy_size = {
+				size > 19
+				type = screen_ship
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_grand_fleet
+		}
+	}
+	
+	focus = {
+		id = genfoc_develop_naval_doctrine
+		prerequisite = { focus = genfoc_create_merchant_fleet focus = genfoc_expand_our_shipyards focus = genfoc_screening_ship_effort focus = genfoc_capital_ship_effort }
+		x = 35
+		y = 8
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			navy_experience = 60
+		}
+	}
+	
+	focus = {
+		id = genfoc_conquer_the_skies
+		prerequisite = { focus = genfoc_gunpowder_era }
+		x = 42
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			air_experience = 20
+		}
+	}
+	
+	focus = {
+		id = genfoc_airship_infrastructure
+		prerequisite = { focus = genfoc_conquer_the_skies }
+		x = 42
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_anti_air_defense
+		prerequisite = { focus = genfoc_airship_infrastructure }
+		x = 38
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_bombardiers
+		prerequisite = { focus = genfoc_airship_infrastructure }
+		x = 40
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_air_frigates
+		prerequisite = { focus = genfoc_airship_infrastructure }
+		x = 42
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_sky_carriers
+		prerequisite = { focus = genfoc_airship_infrastructure }
+		x = 44
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_deploy_air_skirmishers
+		prerequisite = { focus = genfoc_airship_infrastructure }
+		x = 46
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_extensive_airship_research
+		prerequisite = { focus = genfoc_build_bombardiers focus = genfoc_build_air_frigates focus = genfoc_build_sky_carriers }
+		x = 40
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_expand_air_fleet
+		prerequisite = { focus = genfoc_build_bombardiers focus = genfoc_build_air_frigates focus = genfoc_build_sky_carriers }
+		x = 42
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_develop_air_doctrine
+		prerequisite = { focus = genfoc_build_bombardiers focus = genfoc_build_air_frigates focus = genfoc_build_sky_carriers }
+		x = 44
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_find_loyal_allies
+		prerequisite = { focus = genfoc_extensive_ship_research focus = genfoc_grand_fleet focus = genfoc_develop_naval_doctrine focus = genfoc_extensive_airship_research focus = genfoc_expand_air_fleet focus = genfoc_develop_air_doctrine }
+		x = 36
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_overseas_expansion
+		prerequisite = { focus = genfoc_extensive_ship_research focus = genfoc_grand_fleet focus = genfoc_develop_naval_doctrine focus = genfoc_extensive_airship_research focus = genfoc_expand_air_fleet focus = genfoc_develop_air_doctrine }
+		x = 38
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_modernise_the_army
+		prerequisite = { focus = genfoc_gunpowder_era }
+		x = 25
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_musket_development
+		prerequisite = { focus = genfoc_modernise_the_army }
+		x = 22
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_develop_conventional_arty
+		prerequisite = { focus = genfoc_musket_development }
+		x = 21
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_develop_experimental_arty
+		prerequisite = { focus = genfoc_musket_development }
+		x = 23
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_new_support_equipment
+		prerequisite = { focus = genfoc_develop_conventional_arty focus = genfoc_develop_experimental_arty }
+		x = 21
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_advanced_body_armor
+		prerequisite = { focus = genfoc_develop_conventional_arty focus = genfoc_develop_experimental_arty }
+		x = 23
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_volunteer_army
+		prerequisite = { focus = genfoc_modernise_the_army }
+		mutually_exclusive = { focus = genfoc_citizen_army focus = genfoc_conscript_army }
+		x = 24
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_citizen_army
+		prerequisite = { focus = genfoc_modernise_the_army }
+		mutually_exclusive = { focus = genfoc_volunteer_army focus = genfoc_conscript_army }
+		x = 26
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_conscript_army
+		prerequisite = { focus = genfoc_modernise_the_army }
+		mutually_exclusive = { focus = genfoc_citizen_army focus = genfoc_volunteer_army }
+		x = 28
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_update_army_doctrine
+		prerequisite = { focus = genfoc_conscript_army focus = genfoc_citizen_army focus = genfoc_volunteer_army }
+		x = 25
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_establish_special_forces
+		prerequisite = { focus = genfoc_update_army_doctrine }
+		x = 25
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_phase_out_melee
+		prerequisite = { focus = genfoc_conscript_army focus = genfoc_citizen_army focus = genfoc_volunteer_army }
+		x = 27
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_modern_army_organisation
+		prerequisite = { focus = genfoc_phase_out_melee }
+		x = 27
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_unite_the_region
+		prerequisite = { focus = genfoc_volunteer_army focus = genfoc_citizen_army focus = genfoc_conscript_army }
+		prerequisite = { focus = genfoc_new_support_equipment focus = genfoc_advanced_body_armor }
+		x = 24
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_fortify_the_border
+		prerequisite = { focus = genfoc_volunteer_army focus = genfoc_citizen_army focus = genfoc_conscript_army }
+		prerequisite = { focus = genfoc_new_support_equipment focus = genfoc_advanced_body_armor }
+		x = 28
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_economic_advancements
+		prerequisite = { focus = genfoc_gunpowder_era }
+		x = 51
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_military_manufactories
+		prerequisite = { focus = genfoc_economic_advancements }
+		x = 49
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_expand_resource_extraction
+		prerequisite = { focus = genfoc_economic_advancements }
+		x = 51
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_civilian_manufactories
+		prerequisite = { focus = genfoc_economic_advancements }
+		x = 53
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_more_military_manufactories
+		prerequisite = { focus = genfoc_build_military_manufactories }
+		prerequisite = { focus = genfoc_expand_resource_extraction	}
+		prerequisite = { focus = genfoc_build_civilian_manufactories }
+		x = 48
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_connect_the_nation
+		prerequisite = { focus = genfoc_build_military_manufactories }
+		prerequisite = { focus = genfoc_expand_resource_extraction	}
+		prerequisite = { focus = genfoc_build_civilian_manufactories }
+		x = 50
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_support_our_merchants
+		prerequisite = { focus = genfoc_build_military_manufactories }
+		prerequisite = { focus = genfoc_expand_resource_extraction	}
+		prerequisite = { focus = genfoc_build_civilian_manufactories }
+		x = 52
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_more_civilian_manufactories
+		prerequisite = { focus = genfoc_build_military_manufactories }
+		prerequisite = { focus = genfoc_expand_resource_extraction	}
+		prerequisite = { focus = genfoc_build_civilian_manufactories }
+		x = 54
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_scientific_boom
+		prerequisite = { focus = genfoc_connect_the_nation focus = genfoc_support_our_merchants }
+		x = 49
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_new_construction_techniques
+		prerequisite = { focus = genfoc_connect_the_nation focus = genfoc_support_our_merchants }
+		x = 51
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_feed_the_nation
+		prerequisite = { focus = genfoc_connect_the_nation focus = genfoc_support_our_merchants }
+		x = 53
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_proto_industrialization
+		prerequisite = { focus = genfoc_scientific_boom focus = genfoc_new_construction_techniques focus = genfoc_feed_the_nation }
+		x = 51
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_industrial_revolution
+		prerequisite = { focus = genfoc_unite_the_region focus = genfoc_fortify_the_border focus = genfoc_find_loyal_allies focus = genfoc_overseas_expansion }
+		prerequisite = { focus = genfoc_proto_industrialization }
+		x = 37
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_civilised_dev
+				has_idea = genidea_civilised_dev
+			}
+		}
+		bypass = {
+			has_idea = genidea_industrial_dev
+		}
+	}
+	
+	focus = {
+		id = genfoc_worldwide_cotender
+		prerequisite = { focus = genfoc_industrial_revolution }
+		x = 37
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_continental_conquest
+		prerequisite = { focus = genfoc_worldwide_cotender }
+		x = 37
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_two_continents_one_nation
+		prerequisite = { focus = genfoc_continental_conquest focus = genfoc_the_sun_never_sets }
+		x = 37
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_the_sun_never_sets
+		prerequisite = { focus = genfoc_worldwide_cotender }
+		x = 39
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_puppetmaster
+		prerequisite = { focus = genfoc_continental_conquest focus = genfoc_the_sun_never_sets }
+		x = 39
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_master_of_the_isles
+		prerequisite = { focus = genfoc_two_continents_one_nation focus = genfoc_puppetmaster }
+		x = 38
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_fortress_nation
+		prerequisite = { focus = genfoc_worldwide_cotender }
+		x = 41
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_making_friends
+		prerequisite = { focus = genfoc_worldwide_cotender }
+		x = 35
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_grand_alliance
+		prerequisite = { focus = genfoc_making_friends }
+		x = 35
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_gentle_push
+		prerequisite = { focus = genfoc_grand_alliance }
+		x = 35
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_destroy_army
+		prerequisite = { focus = genfoc_worldwide_cotender }
+		x = 33
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_new_age_air_warfare
+		prerequisite = { focus = genfoc_industrial_revolution }
+		x = 29
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_airfield_expansion
+		prerequisite = { focus = genfoc_new_age_air_warfare }
+		x = 28
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_stockpile_crystals
+		prerequisite = { focus = genfoc_new_age_air_warfare }
+		x = 30
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_airship_theoretical_development
+		prerequisite = { focus = genfoc_airfield_expansion focus = genfoc_stockpile_crystals }
+		x = 29
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_aerial_swarm_tactic
+		prerequisite = { focus = genfoc_airfield_expansion focus = genfoc_stockpile_crystals }
+		x = 27
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_pride_of_air_fleet
+		prerequisite = { focus = genfoc_airfield_expansion focus = genfoc_stockpile_crystals }
+		x = 31
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_modernise_air_frigates
+		prerequisite = { focus = genfoc_airship_theoretical_development }
+		x = 29
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_modernise_bombardiers
+		prerequisite = { focus = genfoc_airship_theoretical_development }
+		x = 27
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_modernise_sky_carriers
+		prerequisite = { focus = genfoc_airship_theoretical_development }
+		x = 31
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_new_age_naval_warfare
+		prerequisite = { focus = genfoc_industrial_revolution }
+		x = 45
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_port_expansion
+		prerequisite = { focus = genfoc_new_age_naval_warfare }
+		x = 44
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_stockpile_steel
+		prerequisite = { focus = genfoc_new_age_naval_warfare }
+		x = 46
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_navy_theoretical_development
+		prerequisite = { focus = genfoc_port_expansion focus = genfoc_stockpile_steel }
+		x = 45
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_modernise_capital_ships
+		prerequisite = { focus = genfoc_navy_theoretical_development focus = genfoc_expand_merchant_fleet }
+		x = 45
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_expand_merchant_fleet
+		prerequisite = { focus = genfoc_port_expansion focus = genfoc_stockpile_steel }
+		x = 43
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_modernise_screening_ships
+		prerequisite = { focus = genfoc_expand_merchant_fleet focus = genfoc_navy_theoretical_development }
+		x = 43
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_dockyard_expansion
+		prerequisite = { focus = genfoc_stockpile_steel focus = genfoc_port_expansion }
+		x = 47
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_dockyard_expansion_two
+		prerequisite = { focus = genfoc_dockyard_expansion }
+		x = 47
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_tenth_century_army
+		prerequisite = { focus = genfoc_industrial_revolution }
+		x = 22
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_modern_army_structure
+		prerequisite = { focus = genfoc_tenth_century_army }
+		x = 22
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_stockpile_rare_metals
+		prerequisite = { focus = genfoc_tenth_century_army }
+		x = 19
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_rifle_modernisation
+		prerequisite = { focus = genfoc_stockpile_rare_metals }
+		x = 19
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_support_equipment_modernisation
+		prerequisite = { focus = genfoc_rifle_modernisation focus = genfoc_machine_gun_development }
+		x = 19
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_machine_gun_development
+		prerequisite = { focus = genfoc_stockpile_rare_metals }
+		x = 21
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_infantry_mechanisation
+		prerequisite = { focus = genfoc_machine_gun_development focus = genfoc_rifle_modernisation }
+		x = 21
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_stockpile_chemicals
+		prerequisite = { focus = genfoc_tenth_century_army }
+		x = 25
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_conventional_artillery_development
+		prerequisite = { focus = genfoc_stockpile_chemicals }
+		x = 25
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_racial_research
+		prerequisite = { focus = genfoc_conventional_artillery_development focus = genfoc_experimental_artillery_development }
+		x = 25
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_experimental_artillery_development
+		prerequisite = { focus = genfoc_stockpile_chemicals }
+		x = 23
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_stationary_artillery_experiments
+		prerequisite = { focus = genfoc_experimental_artillery_development focus = genfoc_conventional_artillery_development }
+		x = 23
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_fan_flames_of_industry
+		prerequisite = { focus = genfoc_industrial_revolution }
+		x = 54
+		y = 11
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_civilian_factories
+		prerequisite = { focus = genfoc_fan_flames_of_industry }
+		x = 53
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_civilian_factories_two
+		prerequisite = { focus = genfoc_build_civilian_factories }
+		x = 53
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_military_factories
+		prerequisite = { focus = genfoc_fan_flames_of_industry }
+		x = 55
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_military_factories_two
+		prerequisite = { focus = genfoc_build_military_factories }
+		x = 55
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_workshop_of_the_world
+		prerequisite = { focus = genfoc_build_military_factories_two }
+		prerequisite = { focus = genfoc_build_civilian_factories_two }
+		x = 54
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_engineering_advancements
+		prerequisite = { focus = genfoc_fan_flames_of_industry }
+		x = 51
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_scientific_advancements
+		prerequisite = { focus = genfoc_engineering_advancements }
+		x = 51
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_technological_golden_age
+		prerequisite = { focus = genfoc_scientific_advancements }
+		x = 51
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_bountiful_harvest
+		prerequisite = { focus = genfoc_engineering_advancements }
+		x = 49
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_invest_in_agriculture
+		prerequisite = { focus = genfoc_bountiful_harvest }
+		x = 49
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_build_railroads
+		prerequisite = { focus = genfoc_fan_flames_of_industry }
+		x = 57
+		y = 12
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_produce_luxury_goods
+		prerequisite = { focus = genfoc_build_railroads }
+		x = 57
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_peaceful_and_prosperous
+		prerequisite = { focus = genfoc_produce_luxury_goods }
+		mutually_exclusive = { focus = genfoc_geared_for_war }
+		x = 57
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_modernise_the_financial_system
+		prerequisite = { focus = genfoc_build_railroads }
+		x = 59
+		y = 13
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_geared_for_war
+		prerequisite = { focus = genfoc_modernise_the_financial_system }
+		mutually_exclusive = { focus = genfoc_peaceful_and_prosperous }
+		x = 59
+		y = 14
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
