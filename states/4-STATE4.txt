@@ -1,0 +1,19 @@
+state = {
+	id = 4
+	name = "STATE_4"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ABD
+		add_core_of = ABD
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		2147 5283 5262 3122 5226 3101 3220 5254 5236 5221
+	}
+}
