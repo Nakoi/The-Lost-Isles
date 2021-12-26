@@ -1,0 +1,19 @@
+state = {
+	id = 939
+	name = "STATE_939"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ADL
+		add_core_of = ADL
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		1333 1519 3388 
+	}
+}

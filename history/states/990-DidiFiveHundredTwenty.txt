@@ -1,0 +1,19 @@
+state = {
+	id = 990
+	name = "STATE_990"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ADY
+		add_core_of = ADY
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		2000 2568 3629 5550 5559 5567 5573 
+	}
+}

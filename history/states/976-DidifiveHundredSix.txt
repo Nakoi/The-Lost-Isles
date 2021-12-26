@@ -1,0 +1,19 @@
+state = {
+	id = 976
+	name = "STATE_976"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ADW
+		add_core_of = ADW
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		3182 3866 5405 5413 
+	}
+}

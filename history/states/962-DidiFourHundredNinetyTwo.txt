@@ -1,0 +1,19 @@
+state = {
+	id = 962
+	name = "STATE_962"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ADX
+		add_core_of = ADX
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		223 1704 2433 3928 
+	}
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 910
+	name = "STATE_910"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ADN
+		add_core_of = ADN
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		1532 3075 3167 5944 
+	}
+}

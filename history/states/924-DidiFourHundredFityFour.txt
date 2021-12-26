@@ -1,0 +1,19 @@
+state = {
+	id = 924
+	name = "STATE_924"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ADU
+		add_core_of = ADU
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		514 5727 5746 5774 
+	}
+}

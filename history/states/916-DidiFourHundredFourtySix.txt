@@ -1,0 +1,19 @@
+state = {
+	id = 916
+	name = "STATE_916"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ADO
+		add_core_of = ADO
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		1090 3447 3636 3885 
+	}
+}

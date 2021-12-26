@@ -1,0 +1,19 @@
+state = {
+	id = 943
+	name = "STATE_943"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+		owner = ADS
+		add_core_of = ADS
+#		victory_points = { 3838 1 }
+#		buildings = {
+#		}
+	}
+
+	provinces = {
+		679 5908 5928 
+	}
+}
