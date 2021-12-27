@@ -8,7 +8,11 @@ state = {
 	history = {
 		owner = ADU
 		add_core_of = ADU
-#		victory_points = { 3838 1 }
+
+		victory_points = {
+		2151 20
+		}
+
 #		buildings = {
 #		}
 	}
@@ -16,4 +20,5 @@ state = {
 	provinces = {
 		2151 2833 3485 5766 5800 
 	}
+
 }
