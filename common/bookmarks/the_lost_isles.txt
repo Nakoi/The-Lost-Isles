@@ -1,0 +1,30 @@
+bookmarks = {
+	bookmark = {
+		name = "TLI_NAME"
+		desc = "TLI_DESC"
+		date = 957.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "ADU"
+		default = yes
+		
+		"ADU"={
+			history = "ADU_TLI_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_TLI_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
