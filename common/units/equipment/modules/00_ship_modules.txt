@@ -12,8 +12,9 @@ equipment_modules = {
 		category = light_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 1500
+		
 		add_stats = {
+			naval_range = 1500
 			naval_speed = 5
 			fuel_consumption = 0.05
 			build_cost_ic = 90
@@ -36,8 +37,9 @@ equipment_modules = {
 		parent = xebec_propulsion_1
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 1800
+		
 		add_stats = {
+			naval_range = 1800
 			naval_speed = 5
 			fuel_consumption = 0.05
 			build_cost_ic = 120
@@ -64,8 +66,9 @@ equipment_modules = {
 		parent = xebec_propulsion_2
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 2100
+		
 		add_stats = {
+			naval_range = 2100
 			naval_speed = 5
 			fuel_consumption = 0.05
 			build_cost_ic = 150
@@ -91,8 +94,9 @@ equipment_modules = {
 		parent = xebec_propulsion_3
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 2400
+		
 		add_stats = {
+			naval_range = 2400
 			naval_speed = 5
 			fuel_consumption = 0.05
 			build_cost_ic = 170
@@ -118,8 +122,9 @@ equipment_modules = {
 		category = light_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 1500
+		
 		add_stats = {
+			naval_range = 1500
 			naval_speed = 5
 			fuel_consumption = 0.05
 			build_cost_ic = 90
@@ -142,8 +147,9 @@ equipment_modules = {
 		parent = galley_propulsion_1
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 1800
+		 
 		add_stats = {
+			naval_range = 1800
 			naval_speed = 5
 			fuel_consumption = 0.05
 			build_cost_ic = 120
@@ -170,8 +176,9 @@ equipment_modules = {
 		parent = galley_propulsion_2
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 2100
+		
 		add_stats = {
+			naval_range = 2100
 			naval_speed = 5
 			fuel_consumption = 0.05
 			build_cost_ic = 150
@@ -197,8 +204,9 @@ equipment_modules = {
 		parent = galley_propulsion_3
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 2400
+		
 		add_stats = {
+			naval_range = 2400
 			naval_speed = 5
 			fuel_consumption = 0.05
 			build_cost_ic = 170
@@ -224,8 +232,9 @@ equipment_modules = {
 		category = light_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 1500
+		
 		add_stats = {
+			naval_range = 1500
 			naval_speed = 5
 			fuel_consumption = 0.1
 			build_cost_ic = 400
@@ -248,8 +257,9 @@ equipment_modules = {
 		parent = frigate_propulsion_1
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 1800
+		
 		add_stats = {
+			naval_range = 1800
 			naval_speed = 6
 			fuel_consumption = 0.1
 			build_cost_ic = 480
@@ -276,8 +286,9 @@ equipment_modules = {
 		parent = frigate_propulsion_2
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 2100
+		
 		add_stats = {
+			naval_range = 2100
 			naval_speed = 7
 			fuel_consumption = 0.1
 			build_cost_ic = 550
@@ -303,8 +314,9 @@ equipment_modules = {
 		parent = frigate_propulsion_3
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 2400
+		
 		add_stats = {
+			naval_range = 2400
 			naval_speed = 7
 			fuel_consumption = 0.2
 			build_cost_ic = 670
@@ -330,8 +342,9 @@ equipment_modules = {
 		category = light_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
-		naval_range = 1500
+		
 		add_stats = {
+			naval_range = 1500
 			naval_speed = 7
 			fuel_consumption = 0.2
 			build_cost_ic = 1800
@@ -356,6 +369,7 @@ equipment_modules = {
 
 		
 		add_stats = {
+			naval_range = 1800
 			naval_speed = 10
 			fuel_consumption = 0.2
 			build_cost_ic = 120
@@ -384,6 +398,7 @@ equipment_modules = {
 
 		
 		add_stats = {
+			naval_range = 2100
 			naval_speed = 11
 			fuel_consumption = 0.3
 			build_cost_ic = 2600
@@ -411,6 +426,7 @@ equipment_modules = {
 
 		
 		add_stats = {
+			naval_range = 2400
 			naval_speed = 12
 			fuel_consumption = 0.4
 			build_cost_ic = 3000
@@ -485,7 +501,6 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 40
-			naval_retreat_speed = 0.10
             naval_speed = 0.11
 		}
 	}
@@ -495,7 +510,6 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 55
-			naval_retreat_speed = 0.10
             naval_speed = 0.22
 		}
 		
@@ -510,7 +524,6 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 70
-			naval_retreat_speed = 0.10
             naval_speed = 0.33
 		}
 		can_convert_from = {
