@@ -7,10 +7,10 @@ state={
 	manpower=1
 	state_category = city
 	history = {
-				owner = AVU
-				add_core_of = AVU
-		#		victory_points = { 3838 1 }
-		#		buildings = {
-		#		}
+		owner = AVU
+		add_core_of = AVU
+		victory_points = { 16 10 }
+#		buildings = {
+#		}
 	}
 }
