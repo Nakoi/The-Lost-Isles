@@ -2,15 +2,15 @@ focus_tree = {
     id = generic_focus
 
     country = {
-        factor = 0
-
-        modifier = {
-            add = 10
-            tag = 
-        }
+        factor = 1
     }
 
-    default = no
+    default = yes
+    reset_on_civilwar = no
+	
+	initial_show_position = {
+		focus = genfoc_defining_our_future
+	}
 
     continuous_focus_position = { x = 50 y = 3000 }
 	
