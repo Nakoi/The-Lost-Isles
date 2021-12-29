@@ -1,0 +1,26 @@
+capital = 540
+
+set_research_slots = 3
+
+set_stability = 0.5
+
+set_war_support = 0.5
+
+
+set_politics = {
+	ruling_party = ideology_imperialism
+}
+
+set_popularities = {
+	ideology_imperialism = 100
+}
+
+set_convoys = 100
+
+add_ideas = {
+	recruit_selectivecon
+	genidea_civilised_dev
+	policy_aristocracy
+	policy_conservative
+
+}
