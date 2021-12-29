@@ -1648,7 +1648,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_collective
 		prerequisite = { focus = genfoc_matters_of_economy }
-		mutually_exclusive = { focus = genfoc_planned_eco focus = genfoc_eco_intervention focus = genfoc_market_liberal focus = genfoc_capitalism focus = genfoc_laissez_faire }
+		mutually_exclusive = { focus = genfoc_mercantilism focus = genfoc_feudalism focus = genfoc_oligopoly focus = genfoc_capitalism focus = genfoc_laissez_faire }
 		x = 9
 		y = 6
 		cost = 5
@@ -1664,28 +1664,28 @@ focus_tree = {
 			add_ideas = policy_collective
 			IF = {
 				limit = {
-					has_idea = policy_socialist
+					has_idea = policy_mercantilism
 				}
 				swap_ideas = {
-					remove_idea = policy_socialist
+					remove_idea = policy_mercantilism
 					add_idea = policy_collective
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_social
+					has_idea = policy_feudalism
 				}
 				swap_ideas = {
-					remove_idea = policy_social
+					remove_idea = policy_feudalism
 					add_idea = policy_collective
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_market
+					has_idea = policy_oligopoly
 				}
 				swap_ideas = {
-					remove_idea = policy_market
+					remove_idea = policy_oligopoly
 					add_idea = policy_collective
 				}
 			}
@@ -1744,9 +1744,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_planned_eco
+		id = genfoc_mercantilism
 		prerequisite = { focus = genfoc_matters_of_economy }
-		mutually_exclusive = { focus = genfoc_collective focus = genfoc_eco_intervention focus = genfoc_market_liberal focus = genfoc_capitalism focus = genfoc_laissez_faire }
+		mutually_exclusive = { focus = genfoc_collective focus = genfoc_feudalism focus = genfoc_oligopoly focus = genfoc_capitalism focus = genfoc_laissez_faire }
 		x = 11
 		y = 6
 		cost = 5
@@ -1755,36 +1755,36 @@ focus_tree = {
 		}
 		
 		bypass = {
-			has_idea = policy_socialist
+			has_idea = policy_mercantilism
 		}
 		
 		completion_reward = {
-			add_ideas = policy_socialist
+			add_ideas = policy_mercantilism
 			IF = {
 				limit = {
 					has_idea = policy_collective
 				}
 				swap_ideas = {
 					remove_idea = policy_collective
-					add_idea = policy_socialist
+					add_idea = policy_mercantilism
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_social
+					has_idea = policy_feudalism
 				}
 				swap_ideas = {
-					remove_idea = policy_social
-					add_idea = policy_socialist
+					remove_idea = policy_feudalism
+					add_idea = policy_mercantilism
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_market
+					has_idea = policy_oligopoly
 				}
 				swap_ideas = {
-					remove_idea = policy_market
-					add_idea = policy_socialist
+					remove_idea = policy_oligopoly
+					add_idea = policy_mercantilism
 				}
 			}
 			IF = {
@@ -1793,7 +1793,7 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = policy_capitalist
-					add_idea = policy_socialist
+					add_idea = policy_mercantilism
 				}
 			}
 			IF = {
@@ -1802,15 +1802,14 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = policy_laissez_faire
-					add_idea = policy_socialist
+					add_idea = policy_mercantilism
 				}
 			}
 		}
 	}
 	
 	focus = {
-		id = genfoc_planned_eco_buff_1
-		prerequisite = { focus = genfoc_planned_eco }
+		id = genfoc_outdated1
 		x = 11
 		y = 7
 		cost = 10
@@ -1819,13 +1818,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = genidea_planned_eco_buff_1
+			
 		}
 	}
 	
 	focus = {
-		id = genfoc_planned_eco_buff_2
-		prerequisite = { focus = genfoc_planned_eco_buff_1 }
+		id = genfoc_outdated2
 		x = 11
 		y = 8
 		cost = 15
@@ -1835,16 +1833,15 @@ focus_tree = {
 		
 		completion_reward = {
 			swap_ideas = {
-				add_idea = genidea_planned_eco_buff_2
-				remove_idea = genidea_planned_eco_buff_1
+
 			}
 		}
 	}
 	
 	focus = {
-		id = genfoc_eco_intervention
+		id = genfoc_feudalism
 		prerequisite = { focus = genfoc_matters_of_economy }
-		mutually_exclusive = { focus = genfoc_planned_eco focus = genfoc_collective focus = genfoc_market_liberal focus = genfoc_capitalism focus = genfoc_laissez_faire }
+		mutually_exclusive = { focus = genfoc_mercantilism focus = genfoc_collective focus = genfoc_oligopoly focus = genfoc_capitalism focus = genfoc_laissez_faire }
 		x = 13
 		y = 6
 		cost = 5
@@ -1853,36 +1850,36 @@ focus_tree = {
 		}
 		
 		bypass = {
-			has_idea = policy_social
+			has_idea = policy_feudalism
 		}
 		
 		completion_reward = {
-			add_ideas = policy_social
+			add_ideas = policy_feudalism
 			IF = {
 				limit = {
 					has_idea = policy_collective
 				}
 				swap_ideas = {
 					remove_idea = policy_collective
-					add_idea = policy_social
+					add_idea = policy_feudalism
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_socialist
+					has_idea = policy_mercantilism
 				}
 				swap_ideas = {
-					remove_idea = policy_socialist
-					add_idea = policy_social
+					remove_idea = policy_mercantilism
+					add_idea = policy_feudalism
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_market
+					has_idea = policy_oligopoly
 				}
 				swap_ideas = {
 					remove_idea = policy_
-					add_idea = policy_social
+					add_idea = policy_feudalism
 				}
 			}
 			IF = {
@@ -1891,7 +1888,7 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = policy_capitalist
-					add_idea = policy_social
+					add_idea = policy_feudalism
 				}
 			}
 			IF = {
@@ -1900,15 +1897,14 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = policy_laissez_faire
-					add_idea = policy_social
+					add_idea = policy_feudalism
 				}
 			}
 		}
 	}
 
 	focus = {
-		id = genfoc_eco_intervention_buff_1
-		prerequisite = { focus = genfoc_eco_intervention }
+		id = genfoc_outdated3
 		x = 13
 		y = 7
 		cost = 10
@@ -1917,13 +1913,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = genidea_eco_intervention_buff_1
 		}
 	}
 	
 	focus = {
-		id = genfoc_eco_intervention_buff_2
-		prerequisite = { focus = genfoc_eco_intervention_buff_1 }
+		id = genfoc_outdated4
 		x = 13
 		y = 8
 		cost = 15
@@ -1932,17 +1926,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				add_idea = genidea_eco_intervention_buff_2
-				remove_idea = genidea_eco_intervention_buff_1
-			}
+			
 		}
 	}
 	
 	focus = {
-		id = genfoc_market_liberal
+		id = genfoc_oligopoly
 		prerequisite = { focus = genfoc_matters_of_economy }
-		mutually_exclusive = { focus = genfoc_planned_eco focus = genfoc_eco_intervention focus = genfoc_collective focus = genfoc_capitalism focus = genfoc_laissez_faire }
+		mutually_exclusive = { focus = genfoc_mercantilism focus = genfoc_feudalism focus = genfoc_collective focus = genfoc_capitalism focus = genfoc_laissez_faire }
 		x = 15
 		y = 6
 		cost = 5
@@ -1951,36 +1942,36 @@ focus_tree = {
 		}
 		
 		bypass = {
-			has_idea = policy_market
+			has_idea = policy_oligopoly
 		}
 		
 		completion_reward = {
-			add_ideas = policy_market
+			add_ideas = policy_oligopoly
 			IF = {
 				limit = {
 					has_idea = policy_collective
 				}
 				swap_ideas = {
 					remove_idea = policy_collective
-					add_idea = policy_market
+					add_idea = policy_oligopoly
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_socialist
+					has_idea = policy_mercantilism
 				}
 				swap_ideas = {
-					remove_idea = policy_socialist
-					add_idea = policy_market
+					remove_idea = policy_mercantilism
+					add_idea = policy_oligopoly
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_social
+					has_idea = policy_feudalism
 				}
 				swap_ideas = {
-					remove_idea = policy_social
-					add_idea = policy_market
+					remove_idea = policy_feudalism
+					add_idea = policy_oligopoly
 				}
 			}
 			IF = {
@@ -1989,7 +1980,7 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = policy_capitalist
-					add_idea = policy_market
+					add_idea = policy_oligopoly
 				}
 			}
 			IF = {
@@ -1998,15 +1989,14 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = policy_laissez_faire
-					add_idea = policy_market
+					add_idea = policy_oligopoly
 				}
 			}
 		}
 	}
 	
 	focus = {
-		id = genfoc_market_liberal_buff_1
-		prerequisite = { focus = genfoc_market_liberal }
+		id = genfoc_outdated5
 		x = 15
 		y = 7
 		cost = 10
@@ -2015,13 +2005,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas =genidea_market_liberal_buff_1
+
 		}
 	}
 	
 	focus = {
-		id = genfoc_market_liberal_buff_2
-		prerequisite = { focus = genfoc_market_liberal_buff_1 }
+		id = genfoc_outdated6
 		x = 15
 		y = 8
 		cost = 15
@@ -2030,17 +2019,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				add_idea = genidea_market_liberal_buff_2
-				remove_idea = genidea_market_liberal_buff_1
-			}
+		
 		}
 	}
 	
 	focus = {
 		id = genfoc_capitalism
 		prerequisite = { focus = genfoc_matters_of_economy }
-		mutually_exclusive = { focus = genfoc_planned_eco focus = genfoc_eco_intervention focus = genfoc_market_liberal focus = genfoc_collective focus = genfoc_laissez_faire }
+		mutually_exclusive = { focus = genfoc_mercantilism focus = genfoc_feudalism focus = genfoc_oligopoly focus = genfoc_collective focus = genfoc_laissez_faire }
 		x = 17
 		y = 6
 		cost = 5
@@ -2065,28 +2051,28 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					has_idea = policy_socialist
+					has_idea = policy_mercantilism
 				}
 				swap_ideas = {
-					remove_idea = policy_socialist
+					remove_idea = policy_mercantilism
 					add_idea = policy_capitalist
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_social
+					has_idea = policy_feudalism
 				}
 				swap_ideas = {
-					remove_idea = policy_social
+					remove_idea = policy_feudalism
 					add_idea = policy_capitalist
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_market
+					has_idea = policy_oligopoly
 				}
 				swap_ideas = {
-					remove_idea = policy_market
+					remove_idea = policy_oligopoly
 					add_idea = policy_capitalist
 				}
 			}
@@ -2138,7 +2124,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_laissez_faire
 		prerequisite = { focus = genfoc_matters_of_economy }
-		mutually_exclusive = { focus = genfoc_planned_eco focus = genfoc_eco_intervention focus = genfoc_market_liberal focus = genfoc_capitalism focus = genfoc_collective }
+		mutually_exclusive = { focus = genfoc_mercantilism focus = genfoc_feudalism focus = genfoc_oligopoly focus = genfoc_capitalism focus = genfoc_collective }
 		x = 19
 		y = 6
 		cost = 5
@@ -2163,28 +2149,28 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					has_idea = policy_socialist
+					has_idea = policy_mercantilism
 				}
 				swap_ideas = {
-					remove_idea = policy_socialist
+					remove_idea = policy_mercantilism
 					add_idea = policy_laissez_faire
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_social
+					has_idea = policy_feudalism
 				}
 				swap_ideas = {
-					remove_idea = policy_social
+					remove_idea = policy_feudalism
 					add_idea = policy_laissez_faire
 				}
 			}
 			IF = {
 				limit = {
-					has_idea = policy_market
+					has_idea = policy_oligopoly
 				}
 				swap_ideas = {
-					remove_idea = policy_market
+					remove_idea = policy_oligopoly
 					add_idea = policy_laissez_faire
 				}
 			}
@@ -2196,40 +2182,6 @@ focus_tree = {
 					remove_idea = policy_capitalist
 					add_idea = policy_laissez_faire
 				}
-			}
-		}
-	}
-	
-	focus = {
-		id = genfoc_laissez_faire_buff_1
-		prerequisite = { focus = genfoc_laissez_faire }
-		x = 19
-		y = 7
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-			add_ideas = genidea_laissez_faire_buff_1
-		}
-	}
-			
-	
-	focus = {
-		id = genfoc_laissez_faire_buff_2
-		prerequisite = { focus = genfoc_laissez_faire_buff_1 }
-		x = 19
-		y = 8
-		cost = 15
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-			swap_ideas = {
-				add_idea = genidea_laissez_faire_buff_2
-				remove_idea = genidea_laissez_faire_buff_1
 			}
 		}
 	}
