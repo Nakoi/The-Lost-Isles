@@ -11,6 +11,10 @@ focus_tree = {
     }
 
     default = no
+    
+    initial_show_position = {
+		focus = AVT_the_great_modernisation
+	}
 
     continuous_focus_position = { x = 50 y = 3000 }
 
