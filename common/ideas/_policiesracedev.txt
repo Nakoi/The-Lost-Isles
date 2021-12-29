@@ -264,11 +264,12 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = -0.1
-				production_factory_max_efficiency_factor = 0.12
+				production_factory_max_efficiency_factor = 0.10
+				production_factory_start_efficiency_factor = 0.10
 			}
 		}
 		
-		policy_socialist = {
+		policy_mercantilism = {
 			
 			cost = -1
 			removal_cost = -1
@@ -279,12 +280,13 @@ ideas = {
 			}
 		
 			modifier = {
-				industrial_capacity_factory = -0.05
-				production_factory_max_efficiency_factor = 0.08
+				min_export = 0.15
+				consumer_goods_factor = -0.10
+				subjects_autonomy_gain = -0.5
 			}
 		}
 		
-		policy_social = {
+		policy_feudalism = {
 			
 			cost = -1
 			removal_cost = -1
@@ -295,11 +297,13 @@ ideas = {
 			}
 		
 			modifier = {
-				production_factory_max_efficiency_factor = 0.04
+				local_resources_factor = 0.2
+				stability_weekly = -0.002
+				fuel_gain_from_states = 22
 			}
 		}
 		
-		policy_market = {
+		policy_oligopoly = {
 			
 			cost = -1
 			removal_cost = -1
@@ -310,7 +314,13 @@ ideas = {
 			}
 			
 			modifier = {
-				industrial_capacity_factory = 0.04
+				political_power_gain = -0.1
+				materiel_manufacturer_cost_factor = -0.5
+				naval_manufacturer_cost_factor = -0.5
+				aircraft_manufacturer_cost_factor = -0.5
+				tank_manufacturer_cost_factor = -0.5
+				industrial_concern_cost_factor = -0.5
+				production_speed_buildings_factor = 0.15
 			}
 		}
 		
@@ -325,8 +335,9 @@ ideas = {
 			}
 			
 			modifier = {
-				industrial_capacity_factory = 0.08
-				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = 0.05
+				research_speed_factor = 0.03
 			}
 		}
 		
@@ -341,8 +352,10 @@ ideas = {
 			}
 			
 			modifier = {
-				industrial_capacity_factory = 0.12
+				industrial_capacity_factory = 0.2
 				production_factory_max_efficiency_factor = -0.1
+				conversion_cost_mil_to_civ_factor = -0.2
+				conversion_cost_civ_to_mil_factor = -0.2
 			}
 		}
 	}
