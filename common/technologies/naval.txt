@@ -637,6 +637,9 @@ technologies = {
 			leads_to_tech = naval_invasion_buff_1 
 			research_cost_coeff = 1
 		}
+
+		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
 		
 		research_cost = 1.5
 		start_year = 1922
@@ -662,10 +665,6 @@ technologies = {
 			leads_to_tech = naval_invasion_buff_2 
 			research_cost_coeff = 1
 		}
-
-
-		force_use_small_tech_layout = yes
-		show_equipment_icon = yes
 		
 		research_cost = 2
 		start_year = 1940
