@@ -59,5 +59,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/universal_conscription.dds"	
 	}
 	
-	
+	SpriteType = {
+		name = "GFX_idea_recruit_masscon"
+		texturefile = "gfx/interface/ideas/mass_conscription.dds"	
+	}
 	
