@@ -20,13 +20,13 @@ technologies = {
         start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			melee_equipment_1
+			rifle_equipment_1
         }
 		
-		enable_subunits = {
-            melee_infantry
-            melee_militia
-		}
+        enable_subunits = {
+            ranged_infantry
+            ranged_militia
+        }
 		
 		path = {
 			leads_to_tech = infantry_upgrade
@@ -130,7 +130,7 @@ technologies = {
         start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			melee_equipment_2
+			rifle_equipment_2
 		}
 
 		path = {
@@ -276,7 +276,7 @@ technologies = {
         start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			melee_equipment_3
+			rifle_equipment_3
 		}
 
 		path = {
@@ -376,13 +376,9 @@ technologies = {
         start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			rifle_equipment_1
+			rifle_equipment_4
         }
         
-        enable_subunits = {
-            ranged_infantry
-            ranged_militia
-        }
 
 		path = {
 			leads_to_tech = ranged_infantry_upgrade_1
@@ -579,7 +575,7 @@ technologies = {
         start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			rifle_equipment_2
+			rifle_equipment_5
 		}
 
 		path = {
@@ -774,7 +770,7 @@ technologies = {
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
-			rifle_equipment_3
+			rifle_equipment_6
         }
         
         # Controls which folder (tab) the technology appears under.

@@ -65,47 +65,47 @@ sub_units = {
 #   # ### #### ### ###            ### #  # #    #  # #  #   #   #  #   #
 
 
-	melee_infantry = {
-		abbreviation = "INF"
-		sprite = infantry
-		map_icon_category = infantry
-		can_be_parachuted = yes
-		priority = 600
-		ai_priority = 200
-		active = no
-		maximum_speed = 6
-		type = {
-			infantry
-		}
-		
-		group = infantry
-		
-		categories = {
-			category_front_line
-			category_light_infantry
-			category_all_infantry
-			category_army
-		}
-		
-		combat_width = 2
-		maximum_speed = 6
-		#Size Definitions
-		max_strength = 12.5
-		max_organisation = 40
-		default_morale = 0.1
-		manpower = 500
-
-		#Misc Abilities
-		training_time = 90
-		suppression = 1
-		weight = 0.25
-		
-		supply_consumption = 0.04
-	
-		need = {
-			melee_equipment = 50
-		}
-	}
+#	melee_infantry = {
+#		abbreviation = "INF"
+#		sprite = infantry
+#		map_icon_category = infantry
+#		can_be_parachuted = yes
+#		priority = 600
+#		ai_priority = 200
+#		active = no
+#		maximum_speed = 6
+#		type = {
+#			infantry
+#		}
+#		
+#		group = infantry
+#		
+#		categories = {
+#			category_front_line
+#			category_light_infantry
+#			category_all_infantry
+#			category_army
+#		}
+#		
+#		combat_width = 2
+#		maximum_speed = 6
+#		#Size Definitions
+#		max_strength = 12.5
+#		max_organisation = 40
+#		default_morale = 0.1
+#		manpower = 500
+#
+#		#Misc Abilities
+#		training_time = 90
+#		suppression = 1
+#		weight = 0.25
+#		
+#		supply_consumption = 0.04
+#	
+#		need = {
+#			melee_equipment = 50
+#		}
+#	}
 
 
 ###   ##  #  #  ##  ### ###              #   # ### #    ### ##### ###  ##
@@ -162,52 +162,56 @@ sub_units = {
 #   # #   #    #   #              #   #  #  #     #    #    #  #  #
 #   # ### #### ### ###            #   # ### #### ###   #    #  #  #
 
-	melee_militia = {
-		abbreviation = "INF"
-		sprite = infantry
-		map_icon_category = infantry
-		can_be_parachuted = yes
-		priority = 600
-		ai_priority = 200
-		active = no
+#	melee_militia = {
+#		abbreviation = "INF"
+#		sprite = infantry
+#		map_icon_category = infantry
+#		can_be_parachuted = yes
+#		priority = 600
+#		ai_priority = 200
+#		active = no
+#
+#		type = {
+#			infantry
+#		}
+#		
+#		group = infantry
+#		
+#		categories = {
+#			category_front_line
+#			category_light_infantry
+#			category_all_infantry
+#			category_army
+#		}
+#		
+#		combat_width = 2
+#		maximum_speed = 6
+#		#Size Definitions
+#		max_strength = 6.25
+#		max_organisation = 30
+#		default_morale = 0.1
+#		manpower = 250
+#
+#		#Misc Abilities
+#		training_time = 10
+#		suppression = 0.5
+#		weight = 0.125
+#		
+#		supply_consumption = 0.02
+#	
+#		need = {
+#			melee_equipment = 20
+#		}
+#	}
 
-		type = {
-			infantry
-		}
-		
-		group = infantry
-		
-		categories = {
-			category_front_line
-			category_light_infantry
-			category_all_infantry
-			category_army
-		}
-		
-		combat_width = 2
-		maximum_speed = 6
-		#Size Definitions
-		max_strength = 6.25
-		max_organisation = 30
-		default_morale = 0.1
-		manpower = 250
 
-		#Misc Abilities
-		training_time = 10
-		suppression = 0.5
-		weight = 0.125
-		
-		supply_consumption = 0.02
-	
-		need = {
-			melee_equipment = 20
-		}
-	}
  ##  ###  #   #  ##  ###
 #  # #  # ## ## #  # #  #
 #### ###  # # # #  # ###
 #  # #  # #   # #  # #  #
 #  # #  # #   #  ##  #  #
+
+
 
 	infantry_armor = {
 		abbreviation = "INF"

@@ -3,7 +3,7 @@
 equipments = {
 
 	rifle_equipment = {
-		year = 1936
+		year = 100
 	
 		is_archetype = yes
 		picture = archetype_infantry_equipment		
@@ -16,27 +16,27 @@ equipments = {
 		active = no
 		
 		#Misc Abilities
-		reliability = 0.75
+		reliability = 0.70
 		maximum_speed = 6
 
 		#Defensive Abilities
-		defense = 20
-		breakthrough = 3
+		defense = 6
+		breakthrough = 0.5
 		hardness = 0.01
 		armor_value = 1
 
 		#Offensive Abilities
-		soft_attack = 12
-		hard_attack = 5
-		ap_attack = 10
-		air_attack = 1
+		soft_attack = 2
+		hard_attack = 0
+		ap_attack = 1
+		air_attack = 0
 
 		#Space taken in convoy
 		lend_lease_cost = 1
 		
-		build_cost_ic = 4
+		build_cost_ic = 0.5
 		resources = {
-			steel = 2
+			steel = 0
             #iron = 2
 			#rare_metal = 0
 			#wood = 1
@@ -48,7 +48,7 @@ equipments = {
 	}
 
 	rifle_equipment_1 = {
-		year = 1936
+		year = 100
 	
 		archetype = rifle_equipment
 		active = no
@@ -57,7 +57,7 @@ equipments = {
 	}
 
 	rifle_equipment_2 = {
-		year = 1936
+		year = 100
 	
 		archetype = rifle_equipment
 		#parent = infantry_equipment_0
@@ -65,22 +65,22 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		
-		reliability = 0.8
+		reliability = 0.9
 
 		#Defensive Abilities
-		defense = 32
-		breakthrough = 7
+		defense = 10
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 20
-		hard_attack = 10
-		ap_attack = 14
-		air_attack = 3       
+		soft_attack = 5
+		hard_attack = 1
+		ap_attack = 0
+		air_attack = 0       
 
-		build_cost_ic = 8
+		build_cost_ic = 1
 
 		resources = {
-			steel = 3 #temp
+			steel = 1 #temp
             #iron = 2
             #coal = 1
 			#rare_metal = 0
@@ -101,8 +101,132 @@ equipments = {
 		armor_value = 2
 
 		#Defensive Abilities
+		defense = 20
+		breakthrough = 3
+
+		#Offensive Abilities
+		soft_attack = 9
+		hard_attack = 3
+		ap_attack = 1.5
+        air_attack = 0
+
+		build_cost_ic = 2
+
+		resources = {
+
+			steel = 2 #temp
+            #iron = 1
+            #coal = 1
+			#rare_metal = 3
+			#wood = 1
+			#chemicals = 2
+		}
+	}
+
+	rifle_equipment_4 = {
+		year = 850
+	
+		archetype = rifle_equipment
+		#parent = infantry_equipment_0
+		active = no
+		priority = 10
+		visual_level = 1
+		armor_value = 2
+
+		#Defensive Abilities
+		reliability = 0.75
+		maximum_speed = 6
+
+		#defensive Abilities
+		defense = 20
+		breakthrough = 3
+		hardness = 0.01
+		armor_value = 1
+
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 5
+		ap_attack = 10
+        air_attack = 1
+
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+
+		resources = {
+
+			steel = 2 #temp
+            #iron = 1
+            #coal = 1
+			#rare_metal = 3
+			#wood = 1
+			#chemicals = 2
+		}
+	}
+
+
+
+	rifle_equipment_5 = {
+		year = 963
+	
+		archetype = rifle_equipment
+		#parent = infantry_equipment_0
+		active = no
+		priority = 10
+		visual_level = 1
+		armor_value = 2
+
+		#Defensive Abilities
+		reliability = 0.8
+		maximum_speed = 6
+
+		#defensive Abilities
+		defense = 32
+		breakthrough = 7
+		hardness = 0.01
+		armor_value = 1
+
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 10
+		ap_attack = 14
+        air_attack = 3
+
+		lend_lease_cost = 1
+
+		build_cost_ic = 8
+
+		resources = {
+
+			steel = 3 #temp
+            #iron = 1
+            #coal = 1
+			#rare_metal = 3
+			#wood = 1
+			#chemicals = 2
+		}
+	}
+
+
+	rifle_equipment_6 = {
+		year = 963
+	
+		archetype = rifle_equipment
+		#parent = infantry_equipment_0
+		active = no
+		priority = 10
+		visual_level = 1
+		armor_value = 2
+
+		#Defensive Abilities
+		reliability = 0.8
+		maximum_speed = 6
+
+		#defensive Abilities
 		defense = 50
-		breakthrough = 12
+		breakthrough = 15
+		hardness = 0.01
+		armor_value = 1
 
 		#Offensive Abilities
 		soft_attack = 35
@@ -110,18 +234,21 @@ equipments = {
 		ap_attack = 18
         air_attack = 8
 
+		lend_lease_cost = 1
+
 		build_cost_ic = 20
 
 		resources = {
 
 			steel = 3 #temp
-            #iron = 2
-            #coal = 2
+            #iron = 1
+            #coal = 1
 			#rare_metal = 3
 			#wood = 1
 			#chemicals = 2
 		}
 	}
+
 
 
 }
