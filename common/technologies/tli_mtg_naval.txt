@@ -53,7 +53,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			xebec_tech
 		}
 	}
 	
@@ -103,7 +103,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			xebec_tech
 		}
 	}
 
@@ -154,7 +154,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			xebec_tech
 		}
 	}
 
@@ -194,7 +194,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			xebec_tech
 		}
 	}
 
@@ -235,7 +235,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			light_ship_tech
 		}
 	}
 
@@ -279,7 +279,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			light_ship_tech
 		}
 	}
 
@@ -323,7 +323,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			light_ship_tech
 		}
 	}
 
@@ -363,7 +363,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			light_ship_tech
 		}
 	}
 
@@ -405,7 +405,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			medium_ship_tech
 		}
 	}
 
@@ -450,7 +450,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			medium_ship_tech
 		}
 	}
 
@@ -495,7 +495,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			medium_ship_tech
 		}
 	}
 
@@ -536,7 +536,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			medium_ship_tech
 		}
 	}
 
@@ -578,7 +578,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			heavy_ship_tech
 		}
 	}
 
@@ -623,7 +623,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			heavy_ship_tech
 		}
 	}
 
@@ -668,7 +668,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			heavy_ship_tech
 		}
 	}
 
@@ -709,7 +709,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			dd_tech
+			heavy_ship_tech
 		}
 	}
 
@@ -1475,7 +1475,6 @@ technologies = {
 #  # #  # #   # #  # #   # #   #  #  #    # 
 #  # #  # #   # #  # #   # ### #  #  #  ##  
 
-
 	improved_gun_carriers = {
 		
 		research_cost = 1
@@ -1486,36 +1485,23 @@ technologies = {
 			leads_to_tech = breech_loaded_cannons
 			research_cost_coeff = 1
 		}
+
 		on_research_complete = {
 			custom_effect_tooltip = light_battery_advice_tt
 			custom_effect_tooltip = medium_battery_advice_tt
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
 
-		path = {
-			leads_to_tech = basic_medium_battery
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = basic_heavy_battery
-			research_cost_coeff = 1
-		}
-
 		enable_equipment_modules = { 
-			ship_light_battery_1
-			ship_medium_battery_1
-			ship_light_medium_battery_1
-			ship_heavy_battery_1
+			light_naval_gunnery_2
+			heavy_naval_gunnery_2
 		}
-		
-
 
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -8 y = 7 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1527,7 +1513,7 @@ technologies = {
 				factor = 500
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 		}
@@ -1548,16 +1534,10 @@ technologies = {
 			custom_effect_tooltip = light_battery_advice_tt
 		}
 
-		path = {
-			leads_to_tech = basic_light_shell
-			research_cost_coeff = 1
-		}
-
 		enable_equipment_modules = { 
-			ship_light_battery_2
+			light_naval_gunnery_3
+			heavy_naval_gunnery_3
 		}
-		
-
 
 		folder = {
 			name = mtgnavalfolder
@@ -1588,11 +1568,10 @@ technologies = {
 		}
 
 		enable_equipment_modules = { 
-			ship_light_battery_3
+			light_naval_gunnery_4
+			heavy_naval_gunnery_4
 		}
 		
-
-
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -8 y = 19 }
@@ -1627,25 +1606,10 @@ technologies = {
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
 
-		path = {
-			leads_to_tech = basic_medium_battery
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = basic_heavy_battery
-			research_cost_coeff = 1
-		}
-
 		enable_equipment_modules = { 
-			ship_light_battery_1
-			ship_medium_battery_1
-			ship_light_medium_battery_1
-			ship_heavy_battery_1
+			naval_mortars_1
 		}
 		
-
-
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -6 y = 7 }
@@ -1683,17 +1647,10 @@ technologies = {
 			custom_effect_tooltip = light_battery_advice_tt
 		}
 
-		path = {
-			leads_to_tech = basic_light_shell
-			research_cost_coeff = 1
-		}
-
 		enable_equipment_modules = { 
-			ship_light_battery_2
+			naval_mortars_2
 		}
 		
-
-
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -6 y = 13 }
@@ -1723,11 +1680,9 @@ technologies = {
 		}
 
 		enable_equipment_modules = { 
-			ship_light_battery_3
+			naval_mortars_3
 		}
 		
-
-
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -6 y = 19 }
@@ -1762,25 +1717,10 @@ technologies = {
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
 
-		path = {
-			leads_to_tech = basic_medium_battery
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = basic_heavy_battery
-			research_cost_coeff = 1
-		}
-
 		enable_equipment_modules = { 
-			ship_light_battery_1
-			ship_medium_battery_1
-			ship_light_medium_battery_1
-			ship_heavy_battery_1
+			naval_anti_air_1
 		}
 		
-
-
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -4 y = 7 }
@@ -1818,17 +1758,10 @@ technologies = {
 			custom_effect_tooltip = light_battery_advice_tt
 		}
 
-		path = {
-			leads_to_tech = basic_light_shell
-			research_cost_coeff = 1
-		}
-
 		enable_equipment_modules = { 
-			ship_light_battery_2
+			naval_anti_air_2
 		}
 		
-
-
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -4 y = 13 }
@@ -1858,11 +1791,9 @@ technologies = {
 		}
 
 		enable_equipment_modules = { 
-			ship_light_battery_3
+			naval_anti_air_3
 		}
 		
-
-
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -4 y = 19 }
@@ -1897,25 +1828,10 @@ technologies = {
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
 
-		path = {
-			leads_to_tech = basic_medium_battery
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = improved_carronade
-			research_cost_coeff = 1
-		}
-
 		enable_equipment_modules = { 
-			ship_light_battery_1
-			ship_medium_battery_1
-			ship_light_medium_battery_1
-			ship_heavy_battery_1
+			naval_carronades_1
 		}
 		
-
-
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = 7 }
@@ -1953,17 +1869,10 @@ technologies = {
 			custom_effect_tooltip = light_battery_advice_tt
 		}
 
-		path = {
-			leads_to_tech = basic_light_shell
-			research_cost_coeff = 1
-		}
-
 		enable_equipment_modules = { 
-			ship_light_battery_2
+			naval_carronades_2
 		}
 		
-
-
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = 13 }
@@ -1981,7 +1890,11 @@ technologies = {
 			naval_equipment
 		}
 	}
-
+###  ##  ###  ###  ### ###   ##  
+ #  #  # #  # #  # #   #  # #  # 
+ #  #  # ###  ###  ##  #  # #  # 
+ #  #  # #  # #    #   #  # #  # 
+ #   ##  #  # #    ### ###   ##  
 	early_torpedo = {
 		
 		research_cost = 2.0
@@ -2089,15 +2002,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-					tag = SOV
-				}
-				factor = 6
-			}
-			modifier = {
 				has_war = yes
 				factor = 2
 			}
@@ -2109,8 +2013,8 @@ technologies = {
 		
 		categories = {
 			naval_mines
-			naval_minelaying
+			naval_minesweeping
 			naval_equipment
 		}
 	}
-}
+ }
