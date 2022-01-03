@@ -1,6 +1,6 @@
 spriteTypes = {	
 
-	###GOV'T POLICY###
+	###GOVERNMENT TYPE###
 	
 	SpriteType = {
 		name = "GFX_idea_policy_despotism"
@@ -64,3 +64,29 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/mass_conscription.dds"	
 	}
 	
+	###ECONOMIC MODEL###
+	
+	SpriteType = {
+		name = "GFX_idea_policy_mercantilism"
+		texturefile = "gfx/interface/ideas/mercantilism.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_feudalism"
+		texturefile = "gfx/interface/ideas/feudalism.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_oligopoly"
+		texturefile = "gfx/interface/ideas/oligopoly.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_capitalist"
+		texturefile = "gfx/interface/ideas/free_market.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_laissez_faire"
+		texturefile = "gfx/interface/ideas/laissez_faire.dds"	
+	}
