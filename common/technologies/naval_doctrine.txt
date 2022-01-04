@@ -8,22 +8,19 @@ technologies = {
 		
 		
 		# EFFECT #############
-		battleship = {
-			max_organisation = 10			
+		early_xebec = {
+			max_organisation = 20
+			surface_visibility = -0.20			
 		}
-		battle_cruiser = {
-			max_organisation = 10			
+		galley = {
+			max_organisation = 20
+			surface_visibility = -0.20			
 		}
-		heavy_cruiser = {
-			max_organisation = 10			
+		early_frigate = {
+			max_organisation = 10
+			surface_visibility = -0.10			
 		}
-		light_cruiser = {
-			surface_detection = 0.10
-		}
-		destroyer = {
-			surface_detection = 0.10
-		}
-		mines_planting_by_fleets_factor = 0.1
+		naval_enemy_fleet_size_ratio_penalty_factor = 0.10
 		#####
 
 
@@ -63,16 +60,16 @@ technologies = {
 	
 	coastal_patrols = {
 		# EFFECT #############
-		battleship = {
+		early_xebec = {
 			max_organisation = 10
+			surface_detection = 0.15
+			sortie_efficiency = 0.15
 		}
-		battle_cruiser = {
+		galley = {
 			max_organisation = 10
+			surface_detection = 0.15
+			sortie_efficiency = 0.15
 		}
-		heavy_cruiser = {
-			max_organisation = 10
-		}
-		strike_force_movement_org_loss = -0.2
 		########
 
 		path = {
@@ -121,16 +118,17 @@ technologies = {
 
     retreat_maneuvers = {
 		# EFFECT #############
-		battleship = {
+		
+		early_xebec = {
 			max_organisation = 10
 		}
-		battle_cruiser = {
+		galley = {
 			max_organisation = 10
 		}
-		heavy_cruiser = {
+		early_frigate = {
 			max_organisation = 10
 		}
-		strike_force_movement_org_loss = -0.2
+		naval_retreat_chance = 0.25
 		########
 
 		path = {
@@ -179,16 +177,11 @@ technologies = {
 
     capital_ship_preservation = {
 		# EFFECT #############
-		battleship = {
+		early_ship_of_line = {
 			max_organisation = 10
+			reliability = 0.10
 		}
-		battle_cruiser = {
-			max_organisation = 10
-		}
-		heavy_cruiser = {
-			max_organisation = 10
-		}
-		strike_force_movement_org_loss = -0.2
+		naval_retreat_chance = 0.10
 		########
 
 		path = {
@@ -237,14 +230,13 @@ technologies = {
 
     know_thy_enemy = {
 		# EFFECT #############
-		battleship = {
+		early_xebec = {
 			max_organisation = 10
+			sortie_efficiency = 0.15
 		}
-		battle_cruiser = {
+		galley = {
 			max_organisation = 10
-		}
-		heavy_cruiser = {
-			max_organisation = 10
+			sortie_efficiency = 0.15
 		}
 		strike_force_movement_org_loss = -0.2
 		########
@@ -257,7 +249,7 @@ technologies = {
         prerequisite = { steam_engine = 1 }
 		
 		xp_research_type = navy
-		xp_unlock_cost = 100
+		xp_unlock_cost = 200
 		doctrine = yes	
 		research_cost = 3
 		
@@ -297,16 +289,14 @@ technologies = {
 
     naval_skirmishing = {
 		# EFFECT #############
-		battleship = {
-			max_organisation = 10
+		early_xebec = {
+			navy_screen_attack_factor = 0.10
 		}
-		battle_cruiser = {
-			max_organisation = 10
+		galley = {
+			navy_screen_attack_factor = 0.10
 		}
-		heavy_cruiser = {
-			max_organisation = 10
-		}
-		strike_force_movement_org_loss = -0.2
+		naval_retreat_chance = 0.40
+		navy_screen_attack_factor = 0.10
 		########
 
 		path = {
@@ -315,7 +305,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_unlock_cost = 100
+		xp_unlock_cost = 200
 		doctrine = yes	
 		research_cost = 3
 		
@@ -355,14 +345,13 @@ technologies = {
 
     trade_interdiction = {
 		# EFFECT #############
-		battleship = {
+		early_xebec = {
 			max_organisation = 10
+			sortie_efficiency = 0.15
 		}
-		battle_cruiser = {
+		galley = {
 			max_organisation = 10
-		}
-		heavy_cruiser = {
-			max_organisation = 10
+			sortie_efficiency = 0.15
 		}
 		strike_force_movement_org_loss = -0.2
 		########
@@ -418,22 +407,13 @@ technologies = {
 		
 		
 		# EFFECT #############
-		battleship = {
-			max_organisation = 10			
+		early_ship_of_line = {
+			max_organisation = 20
 		}
-		battle_cruiser = {
-			max_organisation = 10			
+		early_frigate = {
+			max_organisation = 20
 		}
-		heavy_cruiser = {
-			max_organisation = 10			
-		}
-		light_cruiser = {
-			surface_detection = 0.10
-		}
-		destroyer = {
-			surface_detection = 0.10
-		}
-		mines_planting_by_fleets_factor = 0.1
+		navy_screen_attack_factor = 0.10
 		#####
 
 
@@ -478,13 +458,10 @@ technologies = {
 	
 	fleet_distribution = {
 		# EFFECT #############
-		battleship = {
+		early_ship_of_line = {
 			max_organisation = 10
 		}
-		battle_cruiser = {
-			max_organisation = 10
-		}
-		heavy_cruiser = {
+		early_frigate = {
 			max_organisation = 10
 		}
 		strike_force_movement_org_loss = -0.2
@@ -538,16 +515,16 @@ technologies = {
 
     privateer_contracts = {
 		# EFFECT #############
-		battleship = {
+		early_xebec = {
 			max_organisation = 10
+			surface_detection = 0.10
+			sortie_efficiency = 0.15
 		}
-		battle_cruiser = {
+		galley = {
 			max_organisation = 10
+			sortie_efficiency = 0.15
+			surface_detection = 0.10
 		}
-		heavy_cruiser = {
-			max_organisation = 10
-		}
-		strike_force_movement_org_loss = -0.2
 		########
 
 		path = {
@@ -596,16 +573,14 @@ technologies = {
 
     rapid_response_fleet = {
 		# EFFECT #############
-		battleship = {
+		early_ship_of_line = {
 			max_organisation = 10
+			naval_speed = 0.20
 		}
-		battle_cruiser = {
+		early_frigate = {
 			max_organisation = 10
+			naval_speed = 0.20
 		}
-		heavy_cruiser = {
-			max_organisation = 10
-		}
-		strike_force_movement_org_loss = -0.2
 		########
 
 		path = {
@@ -654,16 +629,14 @@ technologies = {
 
     fleet_concentration = {
 		# EFFECT #############
-		battleship = {
+		early_ship_of_line = {
 			max_organisation = 10
+			navy_capital_ship_attack_factor = 0.20
 		}
-		battle_cruiser = {
+		early_frigate = {
 			max_organisation = 10
+			navy_capital_ship_attack_factor = 0.20
 		}
-		heavy_cruiser = {
-			max_organisation = 10
-		}
-		strike_force_movement_org_loss = -0.2
 		########
 
 		path = {
@@ -714,16 +687,14 @@ technologies = {
 
     improved_screen_organisation = {
 		# EFFECT #############
-		battleship = {
+		early_ship_of_line = {
 			max_organisation = 10
+			naval_speed = 0.10
 		}
-		battle_cruiser = {
+		early_frigate = {
 			max_organisation = 10
+			naval_speed = 0.10
 		}
-		heavy_cruiser = {
-			max_organisation = 10
-		}
-		strike_force_movement_org_loss = -0.2
 		########
 
 		path = {
@@ -772,16 +743,14 @@ technologies = {
 
     overwhelming_firepower = {
 		# EFFECT #############
-		battleship = {
+		early_ship_of_line = {
 			max_organisation = 10
+			navy_capital_ship_attack_factor = 0.15
 		}
-		battle_cruiser = {
+		early_frigate = {
 			max_organisation = 10
+			navy_capital_ship_attack_factor = 0.15
 		}
-		heavy_cruiser = {
-			max_organisation = 10
-		}
-		strike_force_movement_org_loss = -0.2
 		########
 
 		path = {
@@ -830,16 +799,22 @@ technologies = {
 
     ascendance_of_steam = {
 		# EFFECT #############
-		battleship = {
-			max_organisation = 10
+		early_xebec = {
+			max_organisation = 15
+			naval_speed = 0.20
 		}
-		battle_cruiser = {
-			max_organisation = 10
+		galley = {
+			max_organisation = 15
+			naval_speed = 0.20
 		}
-		heavy_cruiser = {
-			max_organisation = 10
+		early_ship_of_line = {
+			max_organisation = 15
+			naval_speed = 0.20
 		}
-		strike_force_movement_org_loss = -0.2
+		early_frigate = {
+			max_organisation = 15
+			naval_speed = 0.20
+		}
 		########
 
 		path = {
@@ -850,7 +825,7 @@ technologies = {
         prerequisite = { steam_engine }
 		
 		xp_research_type = navy
-		xp_unlock_cost = 100
+		xp_unlock_cost = 200
 		doctrine = yes	
 		research_cost = 3
 		
@@ -890,16 +865,22 @@ technologies = {
 
     logistics_ships = {
 		# EFFECT #############
-		battleship = {
+		early_xebec = {
 			max_organisation = 10
+			naval_range = 0.25
 		}
-		battle_cruiser = {
+		galley = {
 			max_organisation = 10
+			naval_range = 0.25
 		}
-		heavy_cruiser = {
+		early_ship_of_line = {
 			max_organisation = 10
+			naval_range = 0.25
 		}
-		strike_force_movement_org_loss = -0.2
+		early_frigate = {
+			max_organisation = 10
+			naval_range = 0.25
+		}
 		########
 
 		path = {
@@ -912,7 +893,7 @@ technologies = {
         }
 		
 		xp_research_type = navy
-		xp_unlock_cost = 100
+		xp_unlock_cost = 200
 		doctrine = yes	
 		research_cost = 3
 		
@@ -952,22 +933,32 @@ technologies = {
 
     fleet_in_being = {
 		# EFFECT #############
-		battleship = {
+		early_xebec = {
 			max_organisation = 10
+			sub_detection = 0.15
+			surface_detection = 0.15
 		}
-		battle_cruiser = {
+		galley = {
 			max_organisation = 10
+			sub_detection = 0.15
+			surface_detection = 0.15
 		}
-		heavy_cruiser = {
+		early_ship_of_line = {
 			max_organisation = 10
+			sub_detection = 0.15
+			surface_detection = 0.15
 		}
-		strike_force_movement_org_loss = -0.2
+		early_frigate = {
+			max_organisation = 10
+			sub_detection = 0.15
+			surface_detection = 0.15
+		}
 		########
         
         xor = { big_guns_never_tire }
 		
 		xp_research_type = navy
-		xp_unlock_cost = 100
+		xp_unlock_cost = 200
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1007,22 +998,16 @@ technologies = {
 
     big_guns_never_tire = {
 		# EFFECT #############
-		battleship = {
-			max_organisation = 10
+		early_ship_of_line = {
+			max_organisation = 25
+			navy_capital_ship_attack_factor = 0.25
 		}
-		battle_cruiser = {
-			max_organisation = 10
-		}
-		heavy_cruiser = {
-			max_organisation = 10
-		}
-		strike_force_movement_org_loss = -0.2
 		########
 
         xor = { fleet_in_being }
 		
 		xp_research_type = navy
-		xp_unlock_cost = 100
+		xp_unlock_cost = 200
 		doctrine = yes	
 		research_cost = 3
 		
