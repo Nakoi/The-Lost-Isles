@@ -11,7 +11,8 @@ technologies = {
 		xp_research_type = air
 		xp_unlock_cost = 100
 		
-		xor = { strategic_airship_implementation battlefield_destruction }
+		xor = { strategic_airship_implementation }
+		xor = { battlefield_destruction }
 		
 		path = {
 			leads_to_tech = superior_armaments
@@ -24,7 +25,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -66,7 +67,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -106,7 +107,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -144,7 +145,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -182,7 +183,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -220,7 +221,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -253,7 +254,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -293,7 +294,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -325,7 +326,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-        dependencies = { steam_engine }
+        prerequisite = { steam_engine }
 		
 		doctrine = yes	
 		research_cost = 3
@@ -333,7 +334,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -361,7 +362,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -399,7 +400,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -432,7 +433,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			air_parity_tree
-			cat_strategic_destruction
+			cat_air_parity
 		}
 		
 		folder = {
@@ -458,7 +459,8 @@ technologies = {
     strategic_airship_implementation = {
 		doctrine_name = "TITLE_STRATEGIC_AIRSHIP_IMPLEMENTATION"
 
-		xor = { battlefield_destruction air_parity }
+		xor = { battlefield_destruction }
+		xor = { air_parity }
 
 		xp_research_type = air
 		
@@ -479,7 +481,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			strategic_airship_implementation_tree
-			cat_battlefield_support
+			cat_strategic_airship_implementation
 		}
 		
 		folder = {
@@ -521,7 +523,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			strategic_airship_implementation_tree
-			cat_strategic_destruction
+			cat_strategic_airship_implementation
 		}
 		
 		folder = {
@@ -561,7 +563,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			strategic_airship_implementation_tree
-			cat_strategic_destruction
+			cat_strategic_airship_implementation
 		}
 		
 		folder = {
@@ -601,7 +603,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			strategic_airship_implementation_tree
-			cat_strategic_destruction
+			cat_strategic_airship_implementation
 		}
 		
 		folder = {
@@ -639,7 +641,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			strategic_airship_implementation_tree
-			cat_strategic_destruction
+			cat_strategic_airship_implementation
 		}
 		
 		folder = {
@@ -676,7 +678,7 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        dependencies = { steam_engine }
+        prerequisite = { steam_engine }
 		
 		doctrine = yes	
 		research_cost = 3
@@ -684,7 +686,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			strategic_airship_implementation_tree
-			cat_strategic_destruction
+			cat_strategic_airship_implementation
 		}
 		
 		folder = {
@@ -724,7 +726,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			strategic_airship_implementation_tree
-			cat_strategic_destruction
+			cat_strategic_airship_implementation
 		}
 		
 		folder = {
@@ -764,7 +766,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			strategic_airship_implementation_tree
-			cat_strategic_destruction
+			cat_strategic_airship_implementation
 		}
 		
 		folder = {
@@ -797,7 +799,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			strategic_airship_implementation_tree
-			cat_strategic_destruction
+			cat_strategic_airship_implementation
 		}
 		
 		folder = {
@@ -825,7 +827,8 @@ technologies = {
 		
 		xp_research_type = air
 		
-		xor = { strategic_airship_implementation air_parity }	
+		xor = { air_parity }	
+		xor = { strategic_airship_implementation }
 
 		# EFFECT ########
 		air_interception_detect_factor = 0.20
@@ -844,7 +847,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			battlefield_destruction_tree
-			cat_operational_integrity
+			cat_battlefield_destruction
 		}
 		
 		folder = {
@@ -876,7 +879,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			battlefield_destruction_tree
-			cat_strategic_destruction
+			cat_battlefield_destruction
 		}
 		
 		folder = {
@@ -919,7 +922,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			battlefield_destruction_tree
-			cat_strategic_destruction
+			cat_battlefield_destruction
 		}
 		
 		folder = {
@@ -959,7 +962,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			battlefield_destruction_tree
-			cat_strategic_destruction
+			cat_battlefield_destruction
 		}
 		
 		folder = {
@@ -978,7 +981,7 @@ technologies = {
 		}   
 	}
 
-    precise_strikes = {
+    precision_strikes = {
 
 		# EFFECT ########
 		air_cas_present_factor = 0.1
@@ -999,7 +1002,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			battlefield_destruction_tree
-			cat_strategic_destruction
+			cat_battlefield_destruction
 		}
 		
 		folder = {
@@ -1036,7 +1039,7 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        dependencies = { steam_engine }
+        prerequisite = { steam_engine }
 		
 		doctrine = yes	
 		research_cost = 3
@@ -1044,7 +1047,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			battlefield_destruction_tree
-			cat_strategic_destruction
+			cat_battlefield_destruction
 		}
 		
 		folder = {
@@ -1082,7 +1085,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			battlefield_destruction_tree
-			cat_strategic_destruction
+			cat_battlefield_destruction
 		}
 		
 		folder = {
@@ -1120,7 +1123,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			battlefield_destruction_tree
-			cat_strategic_destruction
+			cat_battlefield_destruction
 		}
 		
 		folder = {
@@ -1153,7 +1156,7 @@ technologies = {
 		categories = {
 			air_doctrine
 			battlefield_destruction_tree
-			cat_strategic_destruction
+			cat_battlefield_destruction
 		}
 		
 		folder = {
