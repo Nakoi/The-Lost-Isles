@@ -12,15 +12,18 @@ set_politics = {
 }
 
 set_popularities = {
-	ideology_imperialism = 100
+	ideology_imperialism = 60
+	ideology_militarism = 20
+	ideology_isolationism = 20
 }
 
 set_convoys = 100
 
 add_ideas = {
+	limited_exports
 	recruit_selectivecon
 	genidea_civilised_dev
 	policy_aristocracy
-	policy_conservative
-
+	policy_feudalism
+	policy_reactionary
 }
