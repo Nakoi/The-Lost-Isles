@@ -5,6 +5,15 @@ state = {
 
 	state_category = city
 
+	resources={
+		iron=31.000	
+		rare_metals=38.000
+		
+	}
+
+
+
+
 	history = {
 		owner = THA
 		add_core_of = THA

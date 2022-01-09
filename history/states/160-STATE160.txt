@@ -5,6 +5,14 @@ state = {
 
 	state_category = city
 
+
+	resources={
+		iron=26.000	
+		rare_metals=39.000
+		
+	}
+
+
 	history = {
 		owner = OAC
 		add_core_of = OAC

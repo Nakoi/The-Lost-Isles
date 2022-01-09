@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+
+	resources={
+        	coal=53.000
+
+    	}
+
 	history = {
 		owner = GIL
 		add_core_of = GIL

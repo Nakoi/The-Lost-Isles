@@ -5,6 +5,17 @@ state = {
 
 	state_category = city
 
+	resources={
+		iron=29.000	
+		rare_metals=29.000
+		luxuries=14.000
+		
+	}
+
+
+
+
+
 	history = {
 		owner = ADA
 		add_core_of = ADA

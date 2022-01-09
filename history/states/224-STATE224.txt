@@ -5,6 +5,14 @@ state = {
 
 	state_category = city
 
+
+	resources={
+        	coal=49.000
+		crystals=27.000
+    	}
+
+
+
 	history = {
 		owner = GAP
 		add_core_of = GAP

@@ -5,6 +5,14 @@ state = {
 
 	state_category = city
 
+	resources={
+		chemicals=17.000
+		luxuries=41.000
+	}
+
+
+
+
 	history = {
 		owner = IMI
 		add_core_of = IMI

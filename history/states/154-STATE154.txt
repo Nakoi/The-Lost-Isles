@@ -5,6 +5,14 @@ state = {
 
 	state_category = city
 
+	resources={
+		iron=19.000	
+		chemicals=6.000
+		
+	}
+
+
+
 	history = {
 		owner = NUX
 		add_core_of = NUX

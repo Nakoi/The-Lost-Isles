@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+	resources={
+		wheat=9.000
+
+		
+	}
+
 	history = {
 		owner = IMI
 		add_core_of = IMI

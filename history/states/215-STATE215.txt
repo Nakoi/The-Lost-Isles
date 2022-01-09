@@ -5,6 +5,13 @@ state = {
 
 	state_category = city
 
+	resources={
+        	coal=62.000
+		crystals=58.000
+    	}
+
+
+
 	history = {
 		owner = ETR
 		add_core_of = ETR
