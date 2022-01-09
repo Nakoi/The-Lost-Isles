@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+	resources={
+		luxuries=60.000
+
+		
+	}
+
 	history = {
 		owner = TEL
 		add_core_of = TEL

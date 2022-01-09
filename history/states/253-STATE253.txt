@@ -5,6 +5,14 @@ state = {
 
 	state_category = city
 
+	resources={
+		wood=37.000
+		luxuries=32.000
+		
+	}
+
+
+
 	history = {
 		owner = SII
 		add_core_of = SII

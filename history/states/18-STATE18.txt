@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+	resources={
+		iron=11.000	
+
+		
+	}
+
 	history = {
 		owner = IJI
 		add_core_of = IJI

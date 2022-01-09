@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+	resources={
+		coal=7.000
+		
+	}
+
+
 	history = {
 		owner = ARK
 		add_core_of = ARK

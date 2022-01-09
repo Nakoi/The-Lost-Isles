@@ -5,6 +5,14 @@ state = {
 
 	state_category = city
 
+	resources={
+		iron=20.000	
+		
+	}
+
+
+
+
 	history = {
 		owner = SHI
 		add_core_of = SHI

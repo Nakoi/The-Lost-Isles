@@ -5,6 +5,15 @@ state = {
 
 	state_category = city
 
+
+	resources={
+		chemicals=9.000
+		wheat=21.000
+		
+	}
+
+
+
 	history = {
 		owner = ARK
 		add_core_of = ARK
