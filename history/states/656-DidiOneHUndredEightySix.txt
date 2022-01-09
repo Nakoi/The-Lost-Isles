@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+
+	resources={
+		chemicals=91.000
+		
+	}
+
 	history = {
 		owner = VRA
 		add_core_of = VRA

@@ -5,6 +5,11 @@ state = {
 
 	state_category = city
 
+	resources={
+		iron=61.000	
+	
+	}
+
 	history = {
 		owner = ZIK
 		add_core_of = ZIK

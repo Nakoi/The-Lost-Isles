@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+	resources={
+		crystals=21.000
+
+		
+	}
+
 	history = {
 		owner = CLA
 		add_core_of = CLA

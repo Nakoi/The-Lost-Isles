@@ -5,6 +5,14 @@ state = {
 
 	state_category = city
 
+	resources={
+		wood=24.000
+		rare_metals=105.000
+
+		
+	}
+
+
 	history = {
 		owner = SOV
 		add_core_of = SOV
