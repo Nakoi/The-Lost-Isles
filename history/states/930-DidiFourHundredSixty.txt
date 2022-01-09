@@ -5,6 +5,11 @@ state = {
 
 	state_category = city
 
+	resources={
+		chemicals=63.000
+		
+	}
+
 	history = {
 		owner = NAS
 		add_core_of = NAS

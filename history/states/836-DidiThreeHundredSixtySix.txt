@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+	resources={
+		wheat=5.000
+
+		
+	}
+
 	history = {
 		owner = KLI
 		add_core_of = KLI

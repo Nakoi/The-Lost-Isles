@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+	resources={
+		iron=48.000	
+
+		
+	}
+
 	history = {
 		owner = ALT
 		add_core_of = ALT

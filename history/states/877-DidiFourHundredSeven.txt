@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+	resources={
+		wood=19.000
+
+		
+	}
+
 	history = {
 		owner = RAN
 		add_core_of = RAN

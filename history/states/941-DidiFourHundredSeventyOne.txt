@@ -5,6 +5,13 @@ state = {
 
 	state_category = city
 
+	resources={
+		chemicals=78.000
+		rare_metals=43.000
+		
+	}
+
+
 	history = {
 		owner = SEP
 		add_core_of = SEP

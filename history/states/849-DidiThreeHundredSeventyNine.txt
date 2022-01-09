@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+	resources={
+		wood=28.000
+
+		
+	}
+
 	history = {
 		owner = ROG
 		add_core_of = ROG

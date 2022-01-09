@@ -5,6 +5,12 @@ state = {
 
 	state_category = city
 
+	resources={
+		wood=52.000
+
+		
+	}
+
 	history = {
 		owner = AKN
 		add_core_of = AKN

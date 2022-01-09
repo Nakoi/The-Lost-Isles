@@ -5,6 +5,11 @@ state = {
 
 	state_category = city
 
+	resources={
+		chemicals=75.000
+		
+	}
+
 	history = {
 		owner = AFL
 		add_core_of = AFL

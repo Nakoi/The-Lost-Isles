@@ -5,6 +5,11 @@ state = {
 
 	state_category = city
 
+	resources={
+		chemicals=23.000
+		
+	}
+
 	history = {
 		owner = MEP
 		add_core_of = MEP
