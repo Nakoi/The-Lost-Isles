@@ -5,6 +5,11 @@ state = {
 
 	state_category = city
 
+	resources={
+		crystals=18.000
+	
+	}
+
 	history = {
 		owner = PRI
 		add_core_of = PRI

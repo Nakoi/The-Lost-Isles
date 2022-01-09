@@ -5,6 +5,14 @@ state = {
 
 	state_category = city
 
+	resources={
+		wood=17.000
+		luxuries=5.000
+		
+	}
+
+
+
 	history = {
 		owner = VED
 		add_core_of = VED

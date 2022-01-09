@@ -5,6 +5,11 @@ state = {
 
 	state_category = city
 
+	resources={
+		coal=62.000
+		
+	}
+
 	history = {
 		owner = OSK
 		add_core_of = OSK

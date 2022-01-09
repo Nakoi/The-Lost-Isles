@@ -5,6 +5,14 @@ state = {
 
 	state_category = city
 
+	resources={
+		wheat=4.000
+		luxuries=28.000
+		
+	}
+
+
+
 	history = {
 		owner = LUA
 		add_core_of = LUA

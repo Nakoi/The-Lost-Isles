@@ -5,6 +5,11 @@ state = {
 
 	state_category = city
 
+	resources={
+		coal=67.000
+		
+	}
+
 	history = {
 		owner = CRU
 		add_core_of = CRU

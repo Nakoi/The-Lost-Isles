@@ -5,6 +5,14 @@ state = {
 
 	state_category = city
 
+	resources={
+		chemicals=67.000
+		wheat=2.000
+		
+	}
+
+
+
 	history = {
 		owner = BOR
 		add_core_of = BOR

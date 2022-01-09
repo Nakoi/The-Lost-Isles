@@ -5,6 +5,11 @@ state = {
 
 	state_category = city
 
+	resources={
+		crystals=14.000
+	
+	}
+
 	history = {
 		owner = ASH
 		add_core_of = ASH

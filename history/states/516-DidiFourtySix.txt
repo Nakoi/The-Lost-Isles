@@ -5,6 +5,11 @@ state = {
 
 	state_category = city
 
+	resources={
+		coal=58.000
+		
+	}
+
 	history = {
 		owner = TYK
 		add_core_of = TYK
