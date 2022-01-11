@@ -15,8 +15,12 @@ state = {
 		owner = RIN
 		add_core_of = RIN
 		victory_points = { 938 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 5
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

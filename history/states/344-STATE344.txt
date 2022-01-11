@@ -9,8 +9,11 @@ state = {
 		owner = GAL 
 		add_core_of = GAL 
 		victory_points = { 3343 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 4
+		}
 	}
 
 	provinces = {

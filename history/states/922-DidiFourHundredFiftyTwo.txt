@@ -5,6 +5,18 @@ state = {
 
 	state_category = city
 
+	resources={
+		chemicals=4.000
+		luxuries=4.000
+		wood=4.000
+		rare_metals=4.000
+		wheat=4.000
+		iron=4.000	
+		crystals=4.000
+		coal=4.000
+		
+	}
+
 	history = {
 		owner = IGU
 		add_core_of = IGU

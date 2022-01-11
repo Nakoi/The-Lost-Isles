@@ -14,8 +14,11 @@ state = {
 		owner = SUA
 		add_core_of = SUA
 		victory_points = { 3179 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 4
+		}
 	}
 
 	provinces = {

@@ -14,8 +14,13 @@ state = {
 		owner = KAE
 		add_core_of = KAE
 		victory_points = { 1712 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 5
+			synthetic_refinery = 1
+			dockyard =2
+		}
 	}
 
 	provinces = {

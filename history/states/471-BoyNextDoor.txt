@@ -9,8 +9,11 @@ state = {
 		owner = AIN
 		add_core_of = AIN
 		victory_points = { 845 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {

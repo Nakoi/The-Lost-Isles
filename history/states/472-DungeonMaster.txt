@@ -14,8 +14,11 @@ state = {
 		owner = FRE
 		add_core_of = FRE
 		victory_points = { 4920 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {

@@ -9,8 +9,12 @@ state = {
 		owner = UNU
 		add_core_of = UNU
 		victory_points = { 2463 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

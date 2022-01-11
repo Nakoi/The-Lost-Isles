@@ -14,8 +14,11 @@ state = {
 		owner = SCO
 		add_core_of = SCO
 		victory_points = { 2642 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
 	}
 
 	provinces = {

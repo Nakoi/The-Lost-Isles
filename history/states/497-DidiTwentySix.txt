@@ -9,8 +9,12 @@ state = {
 		owner = HRI
 		add_core_of = HRI
 		victory_points = { 1528 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

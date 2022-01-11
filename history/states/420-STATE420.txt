@@ -15,8 +15,9 @@ state = {
 		owner = AVT
 		add_core_of = AVT
 		victory_points = { 502 10 }
-#		buildings = {
-#		}
+		buildings = {
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {

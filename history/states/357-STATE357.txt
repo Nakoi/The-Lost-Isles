@@ -14,8 +14,11 @@ state = {
 		owner = OSK
 		add_core_of = OSK
 		victory_points = { 2630 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 5
+		}
 	}
 
 	provinces = {
