@@ -14,8 +14,12 @@ state = {
 		owner = CIL
 		add_core_of = CIL
 		victory_points = { 5263 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

@@ -9,8 +9,11 @@ state = {
 		owner = CAI
 		add_core_of = CAI
 		victory_points = { 4796 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

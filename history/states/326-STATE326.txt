@@ -15,8 +15,12 @@ state = {
 		owner = LUA
 		add_core_of = LUA
 		victory_points = { 2714 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			dockyard = 2
+		}
 	}
 
 	provinces = {

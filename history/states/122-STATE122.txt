@@ -9,8 +9,13 @@ state = {
 		owner = ESU
 		add_core_of = ESU
 		victory_points = { 3456 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			synthetic_refinery = 1
+			dockyard = 2
+		}
 	}
 
 	provinces = {

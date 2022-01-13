@@ -14,8 +14,11 @@ state = {
 		owner = CRU
 		add_core_of = CRU
 		victory_points = { 4857 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

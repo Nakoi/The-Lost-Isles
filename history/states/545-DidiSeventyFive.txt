@@ -15,8 +15,12 @@ state = {
 		owner = SUN 
 		add_core_of = SUN 
 		victory_points = { 106 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {

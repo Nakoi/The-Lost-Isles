@@ -15,8 +15,11 @@ state = {
 		owner = IAR
 		add_core_of = IAR
 		victory_points = { 5167 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

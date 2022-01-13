@@ -17,8 +17,11 @@ state = {
 		owner = BOR
 		add_core_of = BOR
 		victory_points = { 456 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {

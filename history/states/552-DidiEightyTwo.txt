@@ -15,8 +15,10 @@ state = {
 		owner = VED
 		add_core_of = VED
 		victory_points = { 248 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {
