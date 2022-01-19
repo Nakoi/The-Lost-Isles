@@ -119,7 +119,7 @@ guiTypes = {
 
 					buttonType = {
 						name = "wood_icon"
-						position = { x=20 y=2 }
+						position = { x=0 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 3
 						#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
@@ -127,7 +127,7 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "wood_value"
-						position = { x = 51 y = 5 }
+						position = { x = 32 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
@@ -140,7 +140,7 @@ guiTypes = {
 
 					buttonType = {
 						name = "chemicals_icon"
-						position = { x=90 y=2 }
+						position = { x=70 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 5
 						#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
@@ -148,7 +148,7 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "chemicals_value"
-						position = { x = 121 y = 5 }
+						position = { x = 101 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
@@ -161,7 +161,7 @@ guiTypes = {
 
 					buttonType = {
 						name = "luxuries_icon"
-						position = { x=160 y=2 }
+						position = { x=140 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 2
 						#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
@@ -169,7 +169,7 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "luxuries_value"
-						position = { x = 191 y = 5 }
+						position = { x = 171 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
@@ -182,7 +182,7 @@ guiTypes = {
 
 					buttonType = {
 						name = "rare_metals_icon"
-						position = { x=230 y=2 }
+						position = { x=210 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 4
 						#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
@@ -190,7 +190,7 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "rare_metals_value"
-						position = { x = 259 y = 5 }
+						position = { x = 239 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
@@ -203,7 +203,7 @@ guiTypes = {
 
 					buttonType = {
 						name = "iron_icon"
-						position = { x=300 y=2 }
+						position = { x=280 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 6
 						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
@@ -211,7 +211,7 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "iron_value"
-						position = { x = 331 y = 5 }
+						position = { x = 311 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
@@ -224,7 +224,7 @@ guiTypes = {
 
 					buttonType = {
 						name = "crystals_icon"
-						position = { x=370 y=2 }
+						position = { x=350 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 6
 						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
@@ -232,7 +232,7 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "crystals_value"
-						position = { x = 401 y = 5 }
+						position = { x = 381 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
@@ -245,7 +245,7 @@ guiTypes = {
 
 					buttonType = {
 						name = "coal_icon"
-						position = { x=440 y=2 }
+						position = { x=420 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 6
 						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
@@ -253,7 +253,7 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "coal_value"
-						position = { x = 471 y = 5 }
+						position = { x = 451 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
