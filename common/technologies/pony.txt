@@ -1,0 +1,812 @@
+technologies = {
+	
+	@1918 = 0
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
+
+	###Earth Pony branch###
+
+	pony_juggernaut = {
+
+		enable_subunits = {
+			juggernauts
+		}
+
+		category_juggernauts = {
+			defense = 0.5
+			armor = 10.0
+			hardness = 19.0
+		}
+		
+		path = {
+			leads_to_tech = pony_pioneers
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 4 y = 0 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	pony_pioneers = {
+
+		category_juggernauts = {
+			entrenchment  = 5
+			defense = 0.2
+			max_organisation = 5
+			supply_consumption_factor = 0.05
+		}
+		
+		path = {
+			leads_to_tech = pony_mountain_training
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = pony_folder
+			position = { x = 4 y = 2}
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	pony_mountain_training = {
+
+		category_juggernauts = {
+			supply_consumption_factor = 0.05
+
+			hills = {
+				attack = 0.10
+				defence = 0.1
+				movement = 0.1
+			}
+			mountain = {
+				attack = 0.1
+				defence = 0.1
+				movement = 0.2
+			}
+		}
+
+		
+		
+		path = {
+			leads_to_tech = pony_heaviest_armour
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = pony_folder
+			position = { x = 4 y = 4}
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+	pony_heaviest_armour = {
+		
+		category_juggernauts = {
+			max_organisation = 5
+			hardness = 5.0
+			defense = 0.25
+			breakthrough = 0.25
+			armor = 20.0
+			supply_consumption_factor = 0.1
+		}
+
+		path = {
+			leads_to_tech = pony_iron_wall
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = pony_sapper_training
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = pony_folder
+			position = { x = 4 y = 6}
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	pony_iron_wall = {
+		
+		category_juggernauts = {
+			supply_consumption_factor = 0.1
+			max_organisation = 5
+			dig_in_speed_factor = 0.15
+			defense = 0.15
+		}
+
+		xor={
+			pony_sapper_training
+		}
+
+		path = {
+			leads_to_tech = pony_crystalline_shielding
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = pony_folder
+			position = { x = 2 y = 8}
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	pony_crystalline_shielding = {
+
+		category_juggernauts = {
+			max_organisation = 5
+			hardness = 1.0
+			defense = 0.15
+			supply_consumption_factor = 0.15
+		}
+		
+		path = {
+			leads_to_tech = pony_reinforced_trenches
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = pony_folder
+			position = { x = 2 y = 10}
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_reinforced_trenches = {
+
+		category_juggernauts = {
+			entrenchment  = 3
+			defense = 0.15
+			max_organisation = 5
+			supply_consumption_factor = 0.15
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = pony_folder
+			position = { x = 2 y = 12}
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	pony_sapper_training = {
+		
+		category_juggernauts = {
+			supply_consumption_factor = 0.1
+			max_organisation = 5
+			breakthrough = 0.15
+
+			fort = {
+				attack = 0.15
+			}
+			urban = {
+				attack = 0.15
+			}
+		}
+
+		xor={
+			pony_iron_wall
+		}
+
+		path = {
+			leads_to_tech = pony_dynamite_utilisation
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = pony_folder
+			position = { x = 6 y = 8}
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	pony_dynamite_utilisation = {
+		
+		category_juggernauts = {
+			max_organisation = 5
+			hard_attack = 0.25
+			soft_attack = 0.15
+			ap_attack = 0.25 
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_the_terex
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = pony_folder
+			position = { x = 6 y = 10}
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	pony_the_terex = {
+		
+		category_juggernauts = {
+			max_organisation = 5
+			org_loss_when_moving = -0.25
+			supply_consumption_factor = 0.6
+
+			fort = {
+				attack = 0.15
+			}
+			urban = {
+				attack = 0.15
+			}
+			hills = {
+				attack = 0.15
+				movement = 0.1
+			}
+			mountain = {
+				attack = 0.15
+				movement = 0.2
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = pony_folder
+			position = { x = 6 y = 12}
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_agricultural_mastery = {
+
+		#+22 rations produced on farms
+		#+1 crops produced on farms
+		monthly_population = 0.25
+		+20% farm and granary construction speed
+
+		path = {
+			leads_to_tech = pony_magic_construction
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 8 y = 0 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_magic_construction = {
+
+		production_speed_buildings_factor = 0.25
+		industry_air_damage_factor = -0.2
+
+		path = {
+			leads_to_tech = pony_magic_mining
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 8 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_magic_mining = {
+
+		production_speed_infrastructure_factor = 0.15
+		local_resources_factor = 0.20
+
+		path = {
+			leads_to_tech = pony_industrial_talent
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_industrial_talent = {
+
+		production_factory_efficiency_gain_factor = 0.20
+		production_factory_max_efficiency_factor = 0.10
+		production_factory_start_efficiency_factor = 0.10 		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 8 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	###Pegasi Branch###
+
+	pony_wind_riders = {
+
+		enable_subunits = {
+			wind_riders
+		}
+
+		category_wind_riders = {
+			recon = 2
+			defense = 0.25
+			breakthrough = 0.25
+			maximum_speed = 1.0	
+
+		}
+		
+		path = {
+			leads_to_tech = pony_cloud_cover
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 14 y = 0 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_cloud_cover = {
+
+		category_wind_riders = {
+			recon = 1
+			max_organisation = 5
+			default_morale = 0.1
+			breakthrough = 0.3
+		}
+		
+		path = {
+			leads_to_tech = pony_infantry_disruption_training
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = pony_anti_armor
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 14 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_infantry_disruption_training = {
+
+		category_wind_riders = {
+			max_organisation = 5
+			soft_attack = 0.2
+			supply_consumption_factor = 0.1
+		}
+
+		xor={
+			pony_anti_armor
+		}
+		
+		path = {
+			leads_to_tech = pony_gunlance
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 12 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_anti_armor = {
+
+		category_wind_riders = {
+			hard_attack = 0.2
+			ap_attack = 0.20 
+			supply_consumption_factor = 0.1
+		}
+
+		xor={
+			pony_infantry_disruption_training
+		}
+		
+		path = {
+			leads_to_tech = pony_gunlance
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 16 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_gunlance = {
+
+		enable_equipments = {
+			gunlance_equipment_0
+		}
+
+		
+		path = {
+			leads_to_tech = pony_weaponized_storm_clouds
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = pony_Breech_loaded_gunlance
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 14 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_weaponized_storm_clouds = {
+		
+		category_wind_riders = {
+			max_organisation = 5
+			defense = -0.1
+			soft_attack = 0.2
+			supply_consumption_factor = 0.1
+		}
+
+		path = {
+			leads_to_tech = pony_tornado_strike
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 14 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_tornado_strike = {
+		
+		category_wind_riders = {
+			max_organisation = 5
+			defense = -0.2
+			hard_attack = 0.2
+			breakthrough = 0.2
+			supply_consumption_factor = 0.1
+		}
+
+		path = {
+			leads_to_tech = pony_air_skirmishing_training
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = pony_perfected_hit_and_run
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 14 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_air_skirmishing_training = {
+		
+		category_wind_riders = {
+			default_morale = 0.1
+			air_attack = 0.40
+			supply_consumption_factor = 0.15
+			
+		}
+		xor = {
+			pony_tornado_strike
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 13 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_perfected_hit_and_run = {
+		
+		category_wind_riders = {
+			max_organisation = 5
+			breakthrough = 0.2
+			supply_consumption_factor = 0.15
+			
+		}
+		xor = {
+
+		}	
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 15 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_Breech_loaded_gunlance = {
+
+		enable_equipments = {
+			gunlance_equipment_1
+		}
+
+		
+		path = {
+			leads_to_tech = pony_revolving_gunlance
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 18 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_revolving_gunlance = {
+
+		enable_equipments = {
+			gunlance_equipment_2
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 18 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+}

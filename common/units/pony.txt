@@ -1,0 +1,141 @@
+# options for map_icon_category:
+# For land units: infantry,armored,other
+# For sea units: ship,transport,uboat
+
+sub_units = {
+
+	juggernauts = {
+		sprite = light_armor
+		map_icon_category = armored
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		special_forces = yes
+		can_be_parachuted = yes
+		
+		categories = {
+			category_army
+			category_front_line
+			category_all_infantry
+			category_special_forces 
+			category_ranged 
+			category_modern 
+			category_elite_infantry 
+			category_juggernauts
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 17.5
+		max_organisation = 45
+		default_morale = 0.3
+		manpower = 500
+
+		#Misc Abilities
+		training_time = 50
+		suppression = 1
+		weight = 0.5
+		
+		supply_consumption = -0.02
+	
+		need = {
+			infantry_equipment = 75
+		}
+
+		hills = {
+			attack = 0.15
+			defence = 0.1
+			movement = 0.3
+		}
+		mountain = {
+			attack = 0.2
+			defence = 0.1
+			movement = 0.6
+		}
+	}
+
+
+	wind_riders = {
+		sprite = light_armor
+		map_icon_category = armored
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		special_forces = yes
+		can_be_parachuted = yes
+		
+		categories = {
+			category_army
+			category_front_line
+			category_special_forces
+			category_ranged
+			category_modern
+			category_wind_riders
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 11
+		max_organisation = 40
+		default_morale = 0.4
+		manpower = 500
+
+		#Misc Abilities
+		training_time = 50
+		suppression = 1
+		weight = 0.5
+		
+		supply_consumption = -0.01
+	
+		need = {
+			infantry_equipment = 70
+		}
+
+		forest = {
+			movement = 0.5
+		}
+		hills = {
+			movement = 0.5
+		}
+		mountain = {
+			movement = 1.0
+		}
+		urban = {
+			movement = 0.2
+		}
+		jungle = {
+			movement = 0.5
+		}
+		marsh = {
+			movement = 1.0
+		}
+		desert = {
+			movement = 0.05
+		}
+		river = {
+			defence = 0.3
+			movement = 0.25
+		}
+		amphibious = {
+			defence = 0.7
+		}
+
+	}
+
+}
