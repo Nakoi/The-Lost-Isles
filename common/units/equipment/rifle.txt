@@ -36,7 +36,7 @@ equipments = {
 		
 		build_cost_ic = 0.5
 		resources = {
-			steel = 0
+			wood = 1
             #iron = 2
 			#rare_metal = 0
 			#wood = 1
@@ -80,7 +80,7 @@ equipments = {
 		build_cost_ic = 1
 
 		resources = {
-			steel = 1 #temp
+			wood = 1 #temp
             #iron = 2
             #coal = 1
 			#rare_metal = 0
@@ -114,7 +114,7 @@ equipments = {
 
 		resources = {
 
-			steel = 2 #temp
+			wood = 2 #temp
             #iron = 1
             #coal = 1
 			#rare_metal = 3
@@ -155,7 +155,7 @@ equipments = {
 
 		resources = {
 
-			steel = 2 #temp
+			wood = 2 #temp
             #iron = 1
             #coal = 1
 			#rare_metal = 3
@@ -198,7 +198,7 @@ equipments = {
 
 		resources = {
 
-			steel = 3 #temp
+			wood = 3 #temp
             #iron = 1
             #coal = 1
 			#rare_metal = 3
@@ -240,7 +240,7 @@ equipments = {
 
 		resources = {
 
-			steel = 3 #temp
+			wood = 3 #temp
             #iron = 1
             #coal = 1
 			#rare_metal = 3

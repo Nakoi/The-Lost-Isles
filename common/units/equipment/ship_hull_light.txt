@@ -45,7 +45,7 @@ equipments = {
 		build_cost_ic = 490
 		resources = {
 			#wood = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 100
@@ -96,7 +96,7 @@ equipments = {
 		resources = {
 			#wood = 2
 			#iron = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 100
@@ -151,7 +151,7 @@ equipments = {
 			#iron = 2
 			#crystals = 1
 			#coal = 2
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 100
@@ -204,7 +204,7 @@ equipments = {
 			#iron = 2
 			#coal = 3
 			#crystals = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 100
@@ -261,7 +261,7 @@ equipments = {
 		build_cost_ic = 850
 		resources = {
 			#wood = 2
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 100
@@ -313,7 +313,7 @@ equipments = {
 			#oil = 1
 			#wood = 2
 			#iron = 2
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 100
@@ -367,7 +367,7 @@ equipments = {
 			#iron = 2
 			#coal = 2
 			#crystals = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 100
@@ -420,7 +420,7 @@ equipments = {
 			#iron = 4
 			#coal = 3
 			#crystals = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 100
@@ -476,7 +476,7 @@ equipments = {
 		resources = {
 			#wood = 2
 			#iron = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 200
@@ -529,7 +529,7 @@ equipments = {
 			#wood = 3
 			#iron = 2
 			#crystals = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 200
@@ -583,7 +583,7 @@ equipments = {
 			#iron = 3
 			#coal = 2
 			#crystals = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 200
@@ -636,7 +636,7 @@ equipments = {
 			#iron = 4
 			#coal = 2
 			#crystals = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 250
@@ -689,7 +689,7 @@ equipments = {
 			#wood = 3
 			#iron = 2
 			#crystals = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 200
@@ -744,7 +744,7 @@ equipments = {
 			#chemicals = 1
 			#crystals = 1
 			#coal = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 200
@@ -798,7 +798,7 @@ equipments = {
 			#chemicals = 1
 			#coal = 1
 			#crystals = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 200
@@ -857,7 +857,7 @@ equipments = {
 		resources = {
 			#wood = 4
 			#iron = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 400
@@ -910,7 +910,7 @@ equipments = {
 			#wood = 4
 			#iron = 2
 			#crystals = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 600
@@ -967,7 +967,7 @@ equipments = {
 			#iron = 4
 			#coal = 1
 			#crystals = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 800
@@ -1021,7 +1021,7 @@ equipments = {
 			#iron = 4
 			#coal = 2
 			#crystals = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 250
@@ -1186,7 +1186,7 @@ equipments = {
 		
 		build_cost_ic = 400
 		resources = {
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 250
@@ -1246,7 +1246,7 @@ equipments = {
 		max_strength = 40
 		build_cost_ic = 500
 		resources = {
-			steel = 2
+			wood = 2
 		}
 		manpower = 325
 	}
@@ -1302,7 +1302,7 @@ equipments = {
 
 		
 		resources = {
-			steel = 3
+			wood = 3
 		}
 
 		surface_detection = 20
@@ -1376,8 +1376,8 @@ equipments = {
 		max_strength = 60
 		build_cost_ic = 600
 		resources = {
-			steel = 4
-			chromium = 1
+			wood = 4
+			#chromium = 1
 		}
 		manpower = 500
 	}
@@ -1424,7 +1424,7 @@ equipments = {
 		build_cost_ic = 400
 		resources = {
 			#oil = 1
-			steel = 2
+			wood = 2
 		}
 		
 		manpower = 250
@@ -1476,7 +1476,7 @@ equipments = {
 		build_cost_ic = 500
 		resources = {
 			#oil = 1
-			steel = 3
+			wood = 3
 		}		
 		manpower = 325
 	}
@@ -1527,7 +1527,7 @@ equipments = {
 		build_cost_ic = 500
 		resources = {
 			#oil = 2
-			steel = 3
+			wood = 3
 		}
 		manpower = 400
 	}
@@ -1579,8 +1579,8 @@ equipments = {
 		build_cost_ic = 500
 		resources = {
 			#oil = 2
-			steel = 4
-			chromium = 1
+			wood = 4
+			#chromium = 1
 		}		
 		manpower = 500
 	}
