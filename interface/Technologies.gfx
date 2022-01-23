@@ -529,4 +529,8 @@ spriteTypes = {
 	#   #  #  #  # #     # 
 	#   # ### #  # ### ##  
 
+	SpriteType = {
+		name = "GFX_radio_detection_medium"
+		texturefile = "gfx/interface/technologies/radio_detection.dds"
+	}
 }
