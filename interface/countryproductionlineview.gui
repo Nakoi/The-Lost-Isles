@@ -1343,37 +1343,6 @@ guiTypes = {
 				clicksound = click_checkbox
 			}
 
-			iconType = {
-				name = "crystals_icon"
-				position = { x=0 y=35 }
-				spriteType = "GFX_resources_strip"
-				frame = 7
-				#pdx_tooltip = "PRODUCTION_MATERIALS_CRYSTALS"
-			}
-
-			buttonType = {
-				name = "crystals_checkbox"
-				position = { x = 22 y = 34 
-				quadTextureSprite ="GFX_generic_checkbox"
-				Orientation = "UPPER_LEFT"
-				clicksound = click_checkbox
-			}
-
-			iconType = {
-				name = "coal_icon"
-				position = { x=58 y=35 }
-				spriteType = "GFX_resources_strip"
-				frame = 8
-				#pdx_tooltip = "PRODUCTION_MATERIALS_COAL"
-			}
-
-			buttonType = {
-				name = "coal_checkbox"
-				position = { x = 80 y = 34 }
-				quadTextureSprite ="GFX_generic_checkbox"
-				Orientation = "UPPER_LEFT"
-				clicksound = click_checkbox
-			}
 		}
 
 		buttonType = {
