@@ -1585,7 +1585,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "early_xebec_tree"
+				name = "early_xebec_ship_tree"
 				position = { x = 150 y = 60}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1593,7 +1593,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "galley_tree"
+				name = "galley_ship_tree"
 				position = { x = 150 y = 260 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1601,7 +1601,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "early_frigate_tree"
+				name = "early_frigate_ship_tree"
 				position = { x = 150 y = 260 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1609,7 +1609,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "early_ship_of_line_tree"
+				name = "early_ship_of_line_ship_tree"
 				position = { x = 150 y = 540 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1852,7 +1852,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "xebec_hull_tree"
+				name = "xebec_hull_tech_tree"
 				position = { x = 150 y = 60}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1860,7 +1860,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "galley_hull_tree"
+				name = "galley_hull_tech_tree"
 				position = { x = 150 y = 70}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1868,7 +1868,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "early_frigate_hull_tree"
+				name = "early_frigate_hull_tech_tree"
 				position = { x = 150 y = 70}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1876,7 +1876,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "early_ship_of_the_line_hull_tree"
+				name = "early_ship_of_the_line_hull_tech_tree"
 				position = { x = 150 y = 70}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
