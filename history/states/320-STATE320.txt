@@ -15,8 +15,12 @@ state = {
 		owner = ALK
 		add_core_of = ALK
 		victory_points = { 4307 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

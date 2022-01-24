@@ -15,8 +15,13 @@ state = {
 		owner = JEV
 		add_core_of = JEV
 		victory_points = { 4101 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			synthetic_refinery = 1
+			dockyard = 2
+		}
 	}
 
 	provinces = {

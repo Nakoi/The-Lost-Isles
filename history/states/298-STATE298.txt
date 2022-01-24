@@ -9,8 +9,10 @@ state = {
 		owner = SHI
 		add_core_of = SHI
 		victory_points = { 2731 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
 	}
 
 	provinces = {

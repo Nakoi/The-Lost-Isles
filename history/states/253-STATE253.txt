@@ -17,8 +17,12 @@ state = {
 		owner = SII
 		add_core_of = SII
 		victory_points = { 3120 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

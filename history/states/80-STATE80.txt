@@ -15,8 +15,10 @@ state = {
 		owner = SAL
 		add_core_of = SAL
 		victory_points = { 4518 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {

@@ -9,8 +9,10 @@ state = {
 		owner = SII
 		add_core_of = SII
 		victory_points = { 713 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {

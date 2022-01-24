@@ -9,8 +9,11 @@ state = {
 		owner = BRV
 		add_core_of = BRV
 		victory_points = { 376 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

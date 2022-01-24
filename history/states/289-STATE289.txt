@@ -16,8 +16,12 @@ state = {
 		owner = ARK
 		add_core_of = ARK
 		victory_points = { 4872 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

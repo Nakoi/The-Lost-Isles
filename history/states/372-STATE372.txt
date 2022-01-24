@@ -9,8 +9,10 @@ state = {
 		owner = IJI
 		add_core_of = IJI
 		victory_points = { 1122 10 }
-#		buildings = {
-#		}
+		buildings = {
+			industrial_complex = 2
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {

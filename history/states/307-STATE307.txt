@@ -15,8 +15,10 @@ state = {
 		owner = ZHE
 		add_core_of = ZHE
 		victory_points = { 2836 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {

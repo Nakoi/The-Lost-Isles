@@ -9,8 +9,12 @@ state = {
 		owner = AMA
 		add_core_of = AMA
 		victory_points = { 3805 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+		}
 	}
 
 	provinces = {

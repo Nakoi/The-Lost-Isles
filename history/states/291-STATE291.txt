@@ -15,8 +15,12 @@ state = {
 		owner = TAB
 		add_core_of = TAB
 		victory_points = { 2957 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

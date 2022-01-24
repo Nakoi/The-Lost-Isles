@@ -15,8 +15,13 @@ state = {
 		owner = VAL
 		add_core_of = VAL
 		victory_points = { 4033 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

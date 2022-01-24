@@ -15,8 +15,10 @@ state = {
 		owner = OSH
 		add_core_of = OSH
 		victory_points = { 2001 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {

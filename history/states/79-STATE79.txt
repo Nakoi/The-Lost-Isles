@@ -9,8 +9,12 @@ state = {
 		owner = SAV
 		add_core_of = SAV
 		victory_points = { 4452 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+		}
 	}
 
 	provinces = {
