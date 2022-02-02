@@ -15,8 +15,13 @@ state = {
 		owner = KEZ
 		add_core_of = KEZ
 		victory_points = { 5623 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			synthetic_refinery = 2
+			dockyard = 2
+		}
 	}
 
 	provinces = {

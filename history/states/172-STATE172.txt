@@ -18,8 +18,13 @@ state = {
 		owner = KOR
 		add_core_of = KOR
 		victory_points = { 3024 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			synthetic_refinery = 1
+			dockyard = 1
+		}
 	}
 
 	provinces = {

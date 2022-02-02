@@ -15,8 +15,12 @@ state = {
 		owner = LEC
 		add_core_of = LEC
 		victory_points = { 3648 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

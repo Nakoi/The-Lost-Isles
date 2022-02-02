@@ -17,8 +17,10 @@ state = {
 		owner = LAD
 		add_core_of = LAD
 		victory_points = { 387 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
 	}
 
 	provinces = {

@@ -9,8 +9,11 @@ state = {
 		owner = THA
 		add_core_of = THA
 		victory_points = { 6172 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
 	}
 
 	provinces = {

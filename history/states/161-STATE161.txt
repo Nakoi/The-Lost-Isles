@@ -9,8 +9,10 @@ state = {
 		owner = NUX
 		add_core_of = NUX
 		victory_points = { 868 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
 	}
 
 	provinces = {

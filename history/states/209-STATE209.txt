@@ -9,8 +9,11 @@ state = {
 		owner = CRA
 		add_core_of = CRA
 		victory_points = { 3317 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {

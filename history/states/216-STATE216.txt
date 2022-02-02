@@ -18,8 +18,12 @@ state = {
 		owner = ILR
 		add_core_of = ILR
 		victory_points = { 1969 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

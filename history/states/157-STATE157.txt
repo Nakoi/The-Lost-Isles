@@ -15,8 +15,12 @@ state = {
 		owner = OAC
 		add_core_of = OAC
 		victory_points = { 3598 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 6
+			dockyard = 2
+		}
 	}
 
 	provinces = {

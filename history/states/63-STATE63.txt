@@ -15,8 +15,12 @@ state = {
 		owner = IMI
 		add_core_of = IMI
 		victory_points = { 3886 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 1
+		}
 	}
 
 	provinces = {

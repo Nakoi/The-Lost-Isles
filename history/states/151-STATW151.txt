@@ -15,8 +15,12 @@ state = {
 		owner = ARR
 		add_core_of = ARR
 		victory_points = { 2379 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		}
 	}
 
 	provinces = {

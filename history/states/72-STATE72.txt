@@ -9,8 +9,10 @@ state = {
 		owner = BYI
 		add_core_of = BYI
 		victory_points = { 6327 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {

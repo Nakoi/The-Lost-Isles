@@ -15,8 +15,13 @@ state = {
 		owner = HAK
 		add_core_of = HAK
 		victory_points = { 3292 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			synthetic_refinery = 1
+			dockyard = 1
+		}
 	}
 
 	provinces = {

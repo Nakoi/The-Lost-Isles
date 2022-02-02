@@ -17,8 +17,11 @@ state = {
 		owner = PHE
 		add_core_of = PHE
 		victory_points = { 1927 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
 	}
 
 	provinces = {

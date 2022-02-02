@@ -20,8 +20,10 @@ state = {
 		owner = ADA
 		add_core_of = ADA
 		victory_points = { 491 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
 	}
 
 	provinces = {

@@ -9,8 +9,13 @@ state = {
 		owner = FED
 		add_core_of = FED
 		victory_points = { 27 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			synthetic_refinery = 1
+			dockyard = 2
+		}
 	}
 
 	provinces = {
