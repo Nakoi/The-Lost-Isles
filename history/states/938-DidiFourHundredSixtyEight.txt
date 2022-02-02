@@ -15,8 +15,11 @@ state = {
 		owner = AKN
 		add_core_of = AKN
 		victory_points = { 3362 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
 	}
 
 	provinces = {

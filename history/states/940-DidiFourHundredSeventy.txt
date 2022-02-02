@@ -15,8 +15,11 @@ state = {
 		owner = SEP
 		add_core_of = SEP
 		victory_points = { 522 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+		}
 	}
 
 	provinces = {

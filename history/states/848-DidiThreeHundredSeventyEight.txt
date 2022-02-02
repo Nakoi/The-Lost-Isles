@@ -9,8 +9,12 @@ state = {
 		owner = ROG
 		add_core_of = ROG
 		victory_points = { 530 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {

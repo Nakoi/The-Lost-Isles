@@ -9,8 +9,12 @@ state = {
 		owner = TJE
 		add_core_of = TJE
 		victory_points = { 5786 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

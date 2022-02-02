@@ -15,8 +15,12 @@ state = {
 		owner = AVH
 		add_core_of = AVH
 		victory_points = { 5718 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+		}
 	}
 
 	provinces = {

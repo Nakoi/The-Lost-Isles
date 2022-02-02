@@ -15,8 +15,12 @@ state = {
 		owner = ALT
 		add_core_of = ALT
 		victory_points = { 1775 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 2
+		}
 	}
 
 	provinces = {

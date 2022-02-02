@@ -9,8 +9,11 @@ state = {
 		owner = KLI
 		add_core_of = KLI
 		victory_points = { 5763 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
 	}
 
 	provinces = {

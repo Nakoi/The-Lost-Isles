@@ -15,8 +15,12 @@ state = {
 		owner = WEL
 		add_core_of = WEL
 		victory_points = { 2554 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 5
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {

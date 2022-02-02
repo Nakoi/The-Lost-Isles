@@ -9,8 +9,12 @@ state = {
 		owner = IGU
 		add_core_of = IGU
 		victory_points = { 3981 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

@@ -15,8 +15,12 @@ state = {
 		owner = RAN
 		add_core_of = RAN
 		victory_points = { 5458 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+			dockyard = 2
+		}
 	}
 
 	provinces = {
