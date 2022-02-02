@@ -14,8 +14,12 @@ state = {
 		owner = HIL
 		add_core_of = HIL
 		victory_points = { 3983 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {

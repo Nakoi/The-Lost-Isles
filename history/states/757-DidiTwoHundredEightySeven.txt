@@ -9,8 +9,10 @@ state = {
 		owner = ZIK
 		add_core_of = ZIK
 		victory_points = { 5835 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
 	}
 
 	provinces = {

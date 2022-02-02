@@ -9,8 +9,11 @@ state = {
 		owner = AFR
 		add_core_of = AFR
 		victory_points = { 6171 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 4
+		}
 	}
 
 	provinces = {

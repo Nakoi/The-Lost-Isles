@@ -9,8 +9,12 @@ state = {
 		owner = KUL
 		add_core_of = KUL
 		victory_points = { 6282 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 2
+		}
 	}
 
 	provinces = {

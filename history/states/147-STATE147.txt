@@ -9,8 +9,12 @@ state = {
 		owner = RED
 		add_core_of = RED
 		victory_points = { 2508 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			dockyard = 2
+		}
 	}
 
 	provinces = {

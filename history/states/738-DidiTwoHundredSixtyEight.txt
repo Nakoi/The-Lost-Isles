@@ -9,8 +9,12 @@ state = {
 		owner = GUT
 		add_core_of = GUT
 		victory_points = { 356 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+		}
 	}
 
 	provinces = {

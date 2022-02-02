@@ -15,8 +15,12 @@ state = {
 		owner = VRA
 		add_core_of = VRA
 		victory_points = { 618 20 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 2
+		}
 	}
 
 	provinces = {

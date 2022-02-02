@@ -9,8 +9,10 @@ state = {
 		owner = CLA
 		add_core_of = CLA
 		victory_points = { 3569 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
 	}
 
 	provinces = {

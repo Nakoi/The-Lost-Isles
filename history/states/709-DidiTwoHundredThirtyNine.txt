@@ -15,8 +15,11 @@ state = {
 		owner = MOK
 		add_core_of = MOK
 		victory_points = { 6029 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 4
+		}
 	}
 
 	provinces = {

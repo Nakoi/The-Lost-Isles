@@ -9,8 +9,11 @@ state = {
 		owner = LIO
 		add_core_of = LIO
 		victory_points = { 2900 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+		}
 	}
 
 	provinces = {

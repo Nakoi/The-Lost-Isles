@@ -9,8 +9,10 @@ state = {
 		owner = MON
 		add_core_of = MON
 		victory_points = { 3657 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
 	}
 
 	provinces = {

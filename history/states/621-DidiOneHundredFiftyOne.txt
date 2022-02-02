@@ -15,8 +15,13 @@ state = {
         owner = GIR
         add_core_of = GIR
         victory_points = { 2659 10 }
-#        buildings = {
-#        }
+	buildings = {
+		infrastructure = 3
+		arms_factory = 1
+		industrial_complex = 1
+		synthetic_refinery = 2
+		dockyard = 2
+	}
     }
 
     provinces = {

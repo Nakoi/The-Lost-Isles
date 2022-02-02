@@ -9,8 +9,11 @@ state = {
 		owner = COL
 		add_core_of = COL
 		victory_points = { 3779 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {

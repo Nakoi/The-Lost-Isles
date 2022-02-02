@@ -9,8 +9,11 @@ state = {
 		owner = KAT
 		add_core_of = KAT
 		victory_points = { 5911 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
 	}
 
 	provinces = {

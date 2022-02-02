@@ -15,8 +15,12 @@ state = {
 		owner = LES
 		add_core_of = LES
 		victory_points = { 6116 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+		}
 	}
 
 	provinces = {
