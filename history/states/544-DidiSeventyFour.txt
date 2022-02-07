@@ -15,8 +15,11 @@ state = {
 		owner = SUN 
 		add_core_of = SUN 
 		victory_points = { 1474 10 }
-#		buildings = {
-#		}
+		buildings = {
+			1474{
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces = {
