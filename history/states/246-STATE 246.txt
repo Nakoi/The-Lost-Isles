@@ -15,8 +15,11 @@ state = {
 		owner = KER
 		add_core_of = KER
 		victory_points = { 4185 10 }
-#		buildings = {
-#		}
+		buildings = {
+			4185{
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces = {

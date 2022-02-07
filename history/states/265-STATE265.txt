@@ -9,8 +9,11 @@ state = {
 		owner = VEN
 		add_core_of = VEN
 		victory_points = { 2304 10 }
-#		buildings = {
-#		}
+		buildings = {
+			2304{
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces = {
