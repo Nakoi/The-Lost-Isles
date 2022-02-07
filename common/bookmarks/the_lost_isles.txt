@@ -4,12 +4,12 @@ bookmarks = {
 		desc = "TLI_DESC"
 		date = 957.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "ADU"
+		default_country = "AVT"
 		default = yes
 		
-		"ADU"={
-			history = "ADU_TLI_DESC"
-			ideology = democratic
+		"AVT"={
+			history = "AVT_TLI_DESC"
+			ideology = ideology_imperialism
 			ideas = {
 				
 			}
