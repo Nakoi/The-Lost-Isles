@@ -1832,9 +1832,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
 
-			}
 		}
 	}
 	
@@ -1996,7 +1994,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_outdated5
+		id = genfoc_oligopoly_buff_1
+		prerequisite = { focus = genfoc_oligopoly }
 		x = 15
 		y = 7
 		cost = 10
@@ -2005,12 +2004,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-
+			add_ideas = genidea_eco_oligarchy_buff_1
 		}
 	}
 	
 	focus = {
-		id = genfoc_outdated6
+		id = genfoc_oligopoly_buff_2
+		prerequisite = { focus = genfoc_oligopoly_buff_1 }
 		x = 15
 		y = 8
 		cost = 15
@@ -2019,7 +2019,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		
+			swap_ideas = {
+				add_idea = genidea_eco_oligarchy_buff_2
+				remove_idea = genidea_eco_oligarchy_buff_1
+			}
 		}
 	}
 	
@@ -2182,6 +2185,39 @@ focus_tree = {
 					remove_idea = policy_capitalist
 					add_idea = policy_laissez_faire
 				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_laissez_faire_buff_1
+		prerequisite = { focus = genfoc_laissez_faire }
+		x = 19
+		y = 7
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_laissez_faire_buff_1
+		}
+	}
+	
+	focus = {
+		id = genfoc_laissez_faire_buff_2
+		prerequisite = { focus = genfoc_laissez_faire_buff_1 }
+		x = 19
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_laissez_faire_buff_2
+				remove_idea = genidea_laissez_faire_buff_1
 			}
 		}
 	}
