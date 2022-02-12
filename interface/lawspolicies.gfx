@@ -67,6 +67,11 @@ spriteTypes = {
 	###ECONOMIC MODEL###
 	
 	SpriteType = {
+		name = "GFX_idea_policy_collective"
+		texturefile = "gfx/interface/ideas/collectivism.dds"	
+	}
+	
+	SpriteType = {
 		name = "GFX_idea_policy_mercantilism"
 		texturefile = "gfx/interface/ideas/mercantilism.dds"	
 	}
@@ -89,4 +94,60 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_policy_laissez_faire"
 		texturefile = "gfx/interface/ideas/laissez_faire.dds"	
+	}
+
+	###CULTURAL POLICY###
+	
+	SpriteType = {
+		name = "GFX_idea_policy_regressive"
+		texturefile = "gfx/interface/ideas/regressive.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_reactionary"
+		texturefile = "gfx/interface/ideas/reactionary.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_conservative"
+		texturefile = "gfx/interface/ideas/conservative.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_progressive"
+		texturefile = "gfx/interface/ideas/progressive.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_revolutionary"
+		texturefile = "gfx/interface/ideas/revolutionary.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_policy_futurist"
+		texturefile = "gfx/interface/ideas/futurist.dds"	
+	}
+	
+	###RACE###
+	
+	SpriteType = {
+		name = "GFX_idea_race_pone"
+		texturefile = "gfx/interface/ideas/ponyraceicon.dds"	
+	}
+	
+	###TECH LEVEL###
+	
+	SpriteType = {
+		name = "GFX_idea_genidea_primitive_dev"
+		texturefile = "gfx/interface/ideas/primitive.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_genidea_civilised_dev"
+		texturefile = "gfx/interface/ideas/civilised.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_genidea_industrial_dev"
+		texturefile = "gfx/interface/ideas/industrial.dds"	
 	}
