@@ -50,6 +50,17 @@ ideas = {
 				always = no
 			}
 		}
+		
+		race_pone = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+		}
 	}
 	
 	government_type = { 
