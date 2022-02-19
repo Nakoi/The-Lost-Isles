@@ -1066,4 +1066,75 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ElectricGenerator.dds"
 	}
 
+	### #  # ###  #  #  ## ##### ###  #   #
+	 #  ## # #  # #  # #     #   #  #  # #
+	 #  # ## #  # #  #  #    #   ###    #
+	 #  #  # #  # #  #   #   #   #  #   #
+	### #  # ###   ##  ##    #   #  #   #
+
+	SpriteType = {
+		name = "GFX_agriculture_0_medium"
+		texturefile = "gfx/interface/technologies/ForestGardening_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_1_medium"
+		texturefile = "gfx/interface/technologies/Irrigation_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_2_medium"
+		texturefile = "gfx/interface/technologies/TwoCropRotation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_3_medium"
+		texturefile = "gfx/interface/technologies/Long-termStorageSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_4_medium"
+		texturefile = "gfx/interface/technologies/ThreeCropRotation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_5_medium"
+		texturefile = "gfx/interface/technologies/ImprovedAgriculturalTools_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_6_medium"
+		texturefile = "gfx/interface/technologies/FourCropRotation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_7_medium"
+		texturefile = "gfx/interface/technologies/SelectiveBreedingSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_8_medium"
+		texturefile = "gfx/interface/technologies/LandConversionSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_9_medium"
+		texturefile = "gfx/interface/technologies/AgriculturalMechanisation_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_10_medium"
+		texturefile = "gfx/interface/technologies/ChemicalFertiliser_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_11_medium"
+		texturefile = "gfx/interface/technologies/ChemicalFoodPreservation_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_agriculture_12_medium"
+		texturefile = "gfx/interface/technologies/IntensiveAgriculture_SmollRos.dds"
+	}
+
 }
