@@ -1,5 +1,295 @@
 spriteTypes = {
 
+	SpriteType = {
+		name = "GFX_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/inf_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_upgrade_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/inf_equipment_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/inf_equipment_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_gunpowder_medium"
+		texturefile = "gfx/interface/technologies/gunpowder.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/inf_equipment_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_7.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_3_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_8.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_breech_loading_rifles_medium"
+		texturefile = "gfx/interface/technologies/inf_equipment_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_4_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_9.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_5_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_10.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ranged_infantry_upgrade_6_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_11.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bolt_action_rifles_medium"
+		texturefile = "gfx/interface/technologies/inf_equipment_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_machine_gun_medium"
+		texturefile = "gfx/interface/technologies/machine_gun.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_machine_gun_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/mg_upgrade_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_machine_gun_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/mg_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_machine_gun_upgrade_3_medium"
+		texturefile = "gfx/interface/technologies/mg_upgrade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grenades_1_medium"
+		texturefile = "gfx/interface/technologies/grenade_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grenades_2_medium"
+		texturefile = "gfx/interface/technologies/grenade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grenades_3_medium"
+		texturefile = "gfx/interface/technologies/grenade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grenade_rifles_medium"
+		texturefile = "gfx/interface/technologies/grenade_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_upgrade3_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_upgrade4_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_crossbow_medium"
+		texturefile = "gfx/interface/technologies/crossbow_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_crossbow1_medium"
+		texturefile = "gfx/interface/technologies/crossbow_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_lamellar_armor_medium"
+		texturefile = "gfx/interface/technologies/armor_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_plate_armor_medium"
+		texturefile = "gfx/interface/technologies/armor_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_armor_medium"
+		texturefile = "gfx/interface/technologies/InfrantryArmor_1_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_armor_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/InfrantryArmor_2_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_armor_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/InfrantryArmor_3_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_armor_upgrade_3_medium"
+		texturefile = "gfx/interface/technologies/AssaultArmor_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_armor_upgrade_4_medium"
+		texturefile = "gfx/interface/technologies/TrenchArmor_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elite_armor_medium"
+		texturefile = "gfx/interface/technologies/EliteArmor_1_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elite_armor_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/EliteArmor_2_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elite_armor_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/EliteArmor_3_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elite_armor_upgrade_3_medium"
+		texturefile = "gfx/interface/technologies/EliteArmor_3_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elite_armor_upgrade_4_medium"
+		texturefile = "gfx/interface/technologies/EliteArmor_3_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_special_forces_concept_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_Concept_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shock_troops_0_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_01_ShockTroops_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shock_troops_1_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_02_ShockTroops_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shock_troops_2_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_03_ShockTroops_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shock_troops_3_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_04_ShockTroops_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shock_troops_4_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_05_ShockTroops_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpshooters_0_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_01_SharpshooterSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpshooters_1_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_02_SharpshooterSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpshooters_2_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_03_SharpshooterSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpshooters_3_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_04_SharpshooterSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sharpshooters_4_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_05_SharpshooterSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guards_0_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_01_Guards_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guards_1_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_02_Guards_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guards_2_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_03_Guards_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guards_3_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_04_Guards_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guards_4_medium"
+		texturefile = "gfx/interface/technologies/SpecialForces_05_Guards_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_motorized_medium"
+		texturefile = "gfx/interface/technologies/truck_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_motorized_medium"
+		texturefile = "gfx/interface/technologies/truck_2.dds"
+	}
+
 	 ## #  # ###  ###   ##  ###  ####
 	#   #  # #  # #  # #  # #  #   #
 	 #  #  # ###  ###  #  # ###    #
