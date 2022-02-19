@@ -844,4 +844,226 @@ spriteTypes = {
 		name = "GFX_radio_detection_medium"
 		texturefile = "gfx/interface/technologies/radio_detection.dds"
 	}
+
+	### #  #  ##  ### #  # ### ### ###  ### #  #  ##
+	#   ## # #     #  ## # #   #   #  #  #  ## # #
+	##  # ## # ##  #  # ## ##  ##  ###   #  # ## # ##
+	#   #  # #  #  #  #  # #   #   #  #  #  #  # #  #
+	### #  #  ##  ### #  # ### ### #  # ### #  #  ##
+
+	SpriteType = {
+		name = "GFX_written_language_medium"
+		texturefile = "gfx/interface/technologies/WrittenLanguage.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_basic_mathematics_medium"
+		texturefile = "gfx/interface/technologies/BasicMathematics.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_printing_press_medium"
+		texturefile = "gfx/interface/technologies/PrintingPress.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_encryption1_medium"
+		texturefile = "gfx/interface/technologies/Encryption1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_encryption2_medium"
+		texturefile = "gfx/interface/technologies/Encryption2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_encryption3_medium"
+		texturefile = "gfx/interface/technologies/Encryption3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_encryption4_medium"
+		texturefile = "gfx/interface/technologies/Encryption4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_encryption5_medium"
+		texturefile = "gfx/interface/technologies/Encryption5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_encryption6_medium"
+		texturefile = "gfx/interface/technologies/Encryption6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decryption1_medium"
+		texturefile = "gfx/interface/technologies/Decryption1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decryption2_medium"
+		texturefile = "gfx/interface/technologies/Decryption2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decryption3_medium"
+		texturefile = "gfx/interface/technologies/Decryption3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decryption4_medium"
+		texturefile = "gfx/interface/technologies/Decryption4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decryption5_medium"
+		texturefile = "gfx/interface/technologies/Decryption5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_decryption6_medium"
+		texturefile = "gfx/interface/technologies/Decryption6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_experimental_science_medium"
+		texturefile = "gfx/interface/technologies/ExperimentalScience.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_magitech_experiments_medium"
+		texturefile = "gfx/interface/technologies/MagitechExperiments.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_research_buff9_medium"
+		texturefile = "gfx/interface/technologies/ElectricalExperiments.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_scribe_caste_medium"
+		texturefile = "gfx/interface/technologies/ScribeCast.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_temple_schools_medium"
+		texturefile = "gfx/interface/technologies/TempleSchool.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rulerSponsored_schooling_medium"
+		texturefile = "gfx/interface/technologies/RulerSponsoredSchooling.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_education_buff4_medium"
+		texturefile = "gfx/interface/technologies/EducationBuff4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_education_buff5_medium"
+		texturefile = "gfx/interface/technologies/EducationBuff5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_education_buff6_medium"
+		texturefile = "gfx/interface/technologies/EducationBuff6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_basic_chemistry_medium"
+		texturefile = "gfx/interface/technologies/BasicChemestry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_medicine_medium"
+		texturefile = "gfx/interface/technologies/Medicine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_anatomy_studies_medium"
+		texturefile = "gfx/interface/technologies/AnatomyStudies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_germ_theory_medium"
+		texturefile = "gfx/interface/technologies/GermTheory.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_penicillin_medium"
+		texturefile = "gfx/interface/technologies/Penicilin.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_feudal_armies_medium"
+		texturefile = "gfx/interface/technologies/FeudalArmy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mercenary_auxiliaries_medium"
+		texturefile = "gfx/interface/technologies/MercenaryAuxileries.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_professional_officers_medium"
+		texturefile = "gfx/interface/technologies/ProfesionalOfficers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_centralised_planning_medium"
+		texturefile = "gfx/interface/technologies/CentralisedPlanning.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_army_organisation4_medium"
+		texturefile = "gfx/interface/technologies/ModrenArmyOrganization.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_divisional_structure_medium"
+		texturefile = "gfx/interface/technologies/DivisionalStructure.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_armyDoctrine_medium"
+		texturefile = "gfx/interface/technologies/FieldCorpsOrganisation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_research_buff5_medium"
+		texturefile = "gfx/interface/technologies/AdvancedOptics.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_research_buff7_medium"
+		texturefile = "gfx/interface/technologies/Mechanicalcalculator.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_research_buff8_medium"
+		texturefile = "gfx/interface/technologies/OpticalTelegraph.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_electrical_experiments_medium"
+		texturefile = "gfx/interface/technologies/EarlyMechanicalComputing.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_research_buff11_medium"
+		texturefile = "gfx/interface/technologies/FuelCell.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_research_buff12_medium"
+		texturefile = "gfx/interface/technologies/ElectricLightBulb.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_research_buff13_medium"
+		texturefile = "gfx/interface/technologies/ElectricGenerator.dds"
+	}
+
 }
