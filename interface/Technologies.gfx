@@ -493,6 +493,27 @@ spriteTypes = {
 	#  # #  #   #   #  #   #   #   #  #  #
 	#  # #  #   #  ### ### ### ### #  #  #
 
+
+
+	###   ##  #    #    ###  ## #####  ##
+	#  # #  # #    #     #  #     #   #  #
+	###  #### #    #     #   #    #   ####
+	#  # #  # #    #     #    #   #   #  #
+	###  #  # #### #### ### ##    #   #  #
+
+	SpriteType = {
+		name = "GFX_Ballista_medium"
+		texturefile = "gfx/interface/technologies/Ballista.dds"
+	}	
+	SpriteType = {
+		name = "GFX_Ballista_upgrade_medium"
+		texturefile = "gfx/interface/technologies/Ballista_Upgrade.dds"
+	}
+
+
+
+
+
 	  ##  ##  #####  ##  ###  #  # #    #####  ##
 	 #   #  #   #   #  # #  # #  # #      #   #
 	#    ####   #   #### ###  #  # #      #    #
