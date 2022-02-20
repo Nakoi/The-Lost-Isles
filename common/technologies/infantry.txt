@@ -2845,6 +2845,10 @@ technologies = {
             motorized_infantry
         }
 
+        dependencies = {
+            internal_combustion_engine = 1
+        }
+
 
 
         # Controls which folder (tab) the technology appears under.
