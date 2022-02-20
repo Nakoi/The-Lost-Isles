@@ -1137,4 +1137,97 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/IntensiveAgriculture_SmollRos.dds"
 	}
 
+	####  ##  ###  ##### ### #### ###  ##   ##  ##### ###  ##  #  #  ##
+	#    #  # #  #   #    #  #     #  #  # #  #   #    #  #  # ## # #
+	##   #  # ###    #    #  ###   #  #    ####   #    #  #  # # ##  #
+	#    #  # #  #   #    #  #     #  #  # #  #   #    #  #  # #  #   #
+	#     ##  #  #   #   ### #    ###  ##  #  #   #   ###  ##  #  # ##
+
+	SpriteType = {
+		name = "GFX_fortification_0_medium"
+		texturefile = "gfx/interface/technologies/EarlyForitificationsSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fortification_2_medium"
+		texturefile = "gfx/interface/technologies/BastionFortSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_fortification_3_medium"
+		texturefile = "gfx/interface/technologies/StarFortress.dds"
+	}
+
+	#####  ##   ##  #     ##
+	  #   #  # #  # #    #
+      #   #  # #  # #     #
+	  #   #  # #  # #      #
+	  #    ##   ##  #### ##
+
+	SpriteType = {
+		name = "GFX_improvised_tools_medium"
+		texturefile = "gfx/interface/technologies/EarlyTools1_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_metal_tools_medium"
+		texturefile = "gfx/interface/technologies/EarlyTools2_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_specialized_tools_medium"
+		texturefile = "gfx/interface/technologies/EarlyTools3_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_metallurgy_medium"
+		texturefile = "gfx/interface/technologies/AdvancedTools1_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_interchangeable_tools_medium"
+		texturefile = "gfx/interface/technologies/AdvancedTools2_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_6_medium"
+		texturefile = "gfx/interface/technologies/AdvancedTools3_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_7_medium"
+		texturefile = "gfx/interface/technologies/AdvancedTools4_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_8_medium"
+		texturefile = "gfx/interface/technologies/AdvancedTools5_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_9_medium"
+		texturefile = "gfx/interface/technologies/PowerTools1_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_10_medium"
+		texturefile = "gfx/interface/technologies/PowerTools2_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_11_medium"
+		texturefile = "gfx/interface/technologies/PowerTools3_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_12_medium"
+		texturefile = "gfx/interface/technologies/PowerTools4_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tools_13_medium"
+		texturefile = "gfx/interface/technologies/PowerTools5_SmollRes.dds"
+	}
+
+
 }
