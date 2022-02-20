@@ -1298,12 +1298,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_internal_combustion_engine_medium"
-		texturefile = "gfx/interface/technologies/AdvancedSteamEngine_Smollres.dds"
+		texturefile = "gfx/interface/technologies/AdvancedCombustuonEngine_smollres.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_advanced_combustion_engine_medium"
-		texturefile = "gfx/interface/technologies/AdvancedCombustuonEngine_smollres.dds"
+		texturefile = "gfx/interface/technologies/AdvancedSteamEngine_Smollres.dds"
 	}
 
 	###   ##  ### #    ###   ##   ##  ###
