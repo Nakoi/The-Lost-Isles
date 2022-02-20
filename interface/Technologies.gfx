@@ -1313,6 +1313,11 @@ spriteTypes = {
 	#  # #  # ### #### #  #  ##  #  # ###
 
 	SpriteType = {
+		name = "GFX_supply_wagon_medium"
+		texturefile = "gfx/interface/technologies/Wagon.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_early_train_medium"
 		texturefile = "gfx/interface/technologies/Early_railroad_smollres.dds"
 	}
