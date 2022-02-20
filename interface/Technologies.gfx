@@ -1229,5 +1229,260 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/PowerTools5_SmollRes.dds"
 	}
 
+	###  ###   ##  ###  #  #  ##  ##### ### #  #
+	#  # #  # #  # #  # #  # #  #   #    #  ## #
+	###  ###  #  # #  # #  # #      #    #  # ##
+	#    #  # #  # #  # #  # #  #   #    #  #  #
+	#    #  #  ##  ###   ##   ##    #   ### #  #
+
+	SpriteType = {
+		name = "GFX_artisans_medium"
+		texturefile = "gfx/interface/technologies/Tools_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_guild_system_medium"
+		texturefile = "gfx/interface/technologies/guildsystem_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_manufacturing_system_medium"
+		texturefile = "gfx/interface/technologies/Manufacture_system_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_factories_medium"
+		texturefile = "gfx/interface/technologies/early_factories_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_organized_factories_medium"
+		texturefile = "gfx/interface/technologies/organised_factories_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_assembly_line_medium"
+		texturefile = "gfx/interface/technologies/AssemblyLine_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_shift_work_medium"
+		texturefile = "gfx/interface/technologies/ShiftWork_SmollRes.dds"
+	}
+
+	### #  # ###  #  #  ## ##### ###  #   #     #### #  #  ##  ### #  # #### #### ###  ### #  #  ##
+	 #  ## # #  # #  # #     #   #  #  # #      #    ## # #     #  ## # #    #    #  #  #  ## # #
+	 #  # ## #  # #  #  #    #   ###    #       ###  # ## # ##  #  # ## ###  ###  ###   #  # ## # ##
+	 #  #  # #  # #  #   #   #   #  #   #       #    #  # #  #  #  #  # #    #    #  #  #  #  # #  #
+	### #  # ###   ##  ##    #   #  #   #       #### #  #  ##  ### #  # #### #### #  # ### #  #  ##
+
+	SpriteType = {
+		name = "GFX_basic_engineering_medium"
+		texturefile = "gfx/interface/technologies/Basic_engineering_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hot_air_balloon_medium"
+		texturefile = "gfx/interface/technologies/Balloon_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steam_engine_medium"
+		texturefile = "gfx/interface/technologies/SteamENgineBlueprint_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_steam_engine_medium"
+		texturefile = "gfx/interface/technologies/AdvancedSteamEngineBluePrint_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_internal_combustion_engine_medium"
+		texturefile = "gfx/interface/technologies/AdvancedSteamEngine_Smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_combustion_engine_medium"
+		texturefile = "gfx/interface/technologies/AdvancedCombustuonEngine_smollres.dds"
+	}
+
+	###   ##  ### #    ###   ##   ##  ###
+	#  # #  #  #  #    #  # #  # #  # #  #
+	###  ####  #  #    ###  #  # #### #  #
+	#  # #  #  #  #    #  # #  # #  # #  #
+	#  # #  # ### #### #  #  ##  #  # ###
+
+	SpriteType = {
+		name = "GFX_early_railroad_medium"
+		texturefile = "gfx/interface/technologies/Early_railroad_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steel_railroad_medium"
+		texturefile = "gfx/interface/technologies/Steel_railroad.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_integral_railroad_medium"
+		texturefile = "gfx/interface/technologies/Integral_rail_line_smollres.dds"
+	}
+
+	#    #  # #   # #  # ###  ### ####  ##
+	#    #  #  # #  #  # #  #  #  #    #
+	#    #  #   #   #  # ###   #  ###   #
+	#    #  #  # #  #  # #  #  #  #      #
+	####  ##  #   #  ##  #  # ### #### ##
+
+	SpriteType = {
+		name = "GFX_luxury_goods_manufacturing_0_medium"
+		texturefile = "gfx/interface/technologies/LuxuryGoodsProduction1_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_luxury_goods_manufacturing_1_medium"
+		texturefile = "gfx/interface/technologies/LuxuryGoodsProduction2_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_luxury_goods_manufacturing_2_medium"
+		texturefile = "gfx/interface/technologies/LuxuryGoodsProduction3_smollres.dds"
+	}
+
+	 ##   ##  #  #  ## ##### ###  #  #  ##  ##### ###  ##  #  #
+	#  # #  # ## # #     #   #  # #  # #  #   #    #  #  # ## #
+    #    #  # # ##  #    #   ###  #  # #      #    #  #  # # ##
+	#  # #  # #  #   #   #   #  # #  # #  #   #    #  #  # #  #
+	 ##   ##  #  # ##    #   #  #  ##   ##    #   ###  ##  #  #
+
+	SpriteType = {
+		name = "GFX_construction_0_medium"
+		texturefile = "gfx/interface/technologies/Contruction1_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_1_medium"
+		texturefile = "gfx/interface/technologies/Timber_smollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_2_medium"
+		texturefile = "gfx/interface/technologies/.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_3_medium"
+		texturefile = "gfx/interface/technologies/StanderisedBricks_smollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_4_medium"
+		texturefile = "gfx/interface/technologies/Planking_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_5_medium"
+		texturefile = "gfx/interface/technologies/ConcreteUtilisation_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_6_medium"
+		texturefile = "gfx/interface/technologies/Floorplan_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_7_medium"
+		texturefile = "gfx/interface/technologies/ProfesionalArchitects_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_8_medium"
+		texturefile = "gfx/interface/technologies/BuildingRegulations_smollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_9_medium"
+		texturefile = "gfx/interface/technologies/BallonFraming_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_10_medium"
+		texturefile = "gfx/interface/technologies/MechanisedConstruction_Low.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_11_medium"
+		texturefile = "gfx/interface/technologies/IFraming_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_construction_12_medium"
+		texturefile = "gfx/interface/technologies/ReinforcedConcrete_SmollRes.dds"
+	}
+
+	#### ### #  #  ##  #  #  ##  ####
+	#     #  ## # #  # ## # #  # #
+	###   #  # ## #### # ## #    ###
+	#     #  #  # #  # #  # #  # #
+	#    ### #  # #  # #  #  ##  ####
+
+	SpriteType = {
+		name = "GFX_financial_technology_0_medium"
+		texturefile = "gfx/interface/technologies/EstablishedCurency_smollres.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_1_medium"
+		texturefile = "gfx/interface/technologies/MerchantBankingSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_2_medium"
+		texturefile = "gfx/interface/technologies/CharteredCompaniesSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_3_medium"
+		texturefile = "gfx/interface/technologies/BureaucraticTaxationSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_4_medium"
+		texturefile = "gfx/interface/technologies/JoinStockCompaniesSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_5_medium"
+		texturefile = "gfx/interface/technologies/CentralBankSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_6_medium"
+		texturefile = "gfx/interface/technologies/ImprovedColonialManagementSmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_7_medium"
+		texturefile = "gfx/interface/technologies/StockExchange.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_8_medium"
+		texturefile = "gfx/interface/technologies/InsuranceCompanies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_9_medium"
+		texturefile = "gfx/interface/technologies/OptimisedTaxationMethods_SmollRes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_10_medium"
+		texturefile = "gfx/interface/technologies/MaximumColonialExploitation_smolress.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_financial_technology_11_medium"
+		texturefile = "gfx/interface/technologies/BusinessBanks_SmollRes.dds"
+	}
 
 }
