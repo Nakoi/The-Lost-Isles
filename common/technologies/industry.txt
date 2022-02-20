@@ -735,7 +735,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = early_railroad
+			leads_to_tech = early_train
 			research_cost_coeff = 1
         }
         
@@ -1296,8 +1296,59 @@ technologies = {
 
 	}
 
-	early_railroad = {
+
+
+	supply_wagon = {
         research_cost = 1.7 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = early_train
+			research_cost_coeff = 1
+        }
+        
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @100
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        enable_building = {
+            building = infrastructure
+            level = 5
+        }
+
+	}
+
+	early_train = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
         start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
 		
 		path = {
@@ -1340,10 +1391,60 @@ technologies = {
 
         enable_building = {
             building = infrastructure
-            level = 5
+            level = 7
         }
-
+        
 	}
+
+	steel_railroad = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = integral_railroad
+			research_cost_coeff = 1
+        }
+        
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @965
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        enable_building = {
+            building = infrastructure
+            level = 7
+        }
+        
+	}
+
 
 	steel_railroad = {
         research_cost = 2 # Cost in time, where 1 is the default research time length.
