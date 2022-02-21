@@ -1490,4 +1490,72 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/BusinessBanks_SmollRes.dds"
 	}
 
+
+	 ##  ### ###          ##### ###  #### ####
+	#  #  #  #  #      	    #   #  # #    #
+	####  #  ###    ####    #   ###  ###  ###
+	#  #  #  #  #           #   #  # #    #
+	#  # ### #  #           #   #  # #### ####
+
+	SpriteType = {
+		name = "GFX_bombardier_medium"
+		texturefile = "gfx/interface/technologies/Bombardier1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_bombardier_medium"
+		texturefile = "gfx/interface/technologies/Bombardier2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_bombardier_medium"
+		texturefile = "gfx/interface/technologies/Bombardier3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_air_frigate_medium"
+		texturefile = "gfx/interface/technologies/AirFrigate1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_air_frigate_medium"
+		texturefile = "gfx/interface/technologies/AirFrigate2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_air_frigate_medium"
+		texturefile = "gfx/interface/technologies/AirFrigate3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sky_cruiser_medium"
+		texturefile = "gfx/interface/technologies/SkyCruiser1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_sky_cruiser_medium"
+		texturefile = "gfx/interface/technologies/SkyCruiser3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sky_carrier_medium"
+		texturefile = "gfx/interface/technologies/SkyCarrier1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_sky_carrier_medium"
+		texturefile = "gfx/interface/technologies/SkyCarrier2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_sky_carrier_medium"
+		texturefile = "gfx/interface/technologies/SkyCarrier3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bombardier_upgrade_alt2_medium"
+		texturefile = "gfx/interface/technologies/ChainBalls_smol.dds"
+	}
+
+
 }
