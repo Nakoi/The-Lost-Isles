@@ -1557,5 +1557,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ChainBalls_smol.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_bombardier_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/BombardierGunCrewTraining1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bombardier_upgrade4_medium"
+		texturefile = "gfx/interface/technologies/BombardierGunCrewTraining2.dds"
+	}
 
 }
