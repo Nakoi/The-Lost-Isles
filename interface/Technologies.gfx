@@ -1577,4 +1577,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/HE_Shells.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_bombardier_upgrade_alt1_medium"
+		texturefile = "gfx/interface/technologies/Bombardier_provisions.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bombardier_upgrade_alt4_medium"
+		texturefile = "gfx/interface/technologies/Bombardier_provisions2.dds"
+	}
+
 }
