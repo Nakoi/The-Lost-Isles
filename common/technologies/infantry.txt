@@ -38,6 +38,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -87,6 +91,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -143,6 +151,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -197,6 +209,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Which technology categories apply to this technology.
         categories = {
             tli_infantry
@@ -244,6 +260,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Which technology categories apply to this technology.
         categories = {
             tli_infantry
@@ -289,6 +309,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
         
+		dependencies = {
+            tech_civilized = 1
+        }
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -331,7 +355,11 @@ technologies = {
 			leads_to_tech = infantry_weapons3
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -378,13 +406,16 @@ technologies = {
         enable_equipments = {
 			rifle_equipment_4
         }
-        
 
 		path = {
 			leads_to_tech = ranged_infantry_upgrade_1
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -427,7 +458,11 @@ technologies = {
 			leads_to_tech = ranged_infantry_upgrade_2
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -482,7 +517,11 @@ technologies = {
 			leads_to_tech = grenades_1
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -529,7 +568,11 @@ technologies = {
 			leads_to_tech = breech_loading_rifles
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -588,6 +631,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -630,7 +677,11 @@ technologies = {
 			leads_to_tech = ranged_infantry_upgrade_5
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -677,7 +728,11 @@ technologies = {
 			leads_to_tech = ranged_infantry_upgrade_6
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -724,7 +779,11 @@ technologies = {
 			leads_to_tech = bolt_action_rifles
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -773,6 +832,10 @@ technologies = {
 			rifle_equipment_6
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -824,6 +887,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -870,7 +937,11 @@ technologies = {
 			leads_to_tech = machine_gun_upgrade_2
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -920,7 +991,11 @@ technologies = {
 			leads_to_tech = machine_gun_upgrade_3
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -964,7 +1039,11 @@ technologies = {
     machine_gun_upgrade_3 = {
         research_cost = 4.2 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1014,7 +1093,11 @@ technologies = {
 			leads_to_tech = grenades_2
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1063,7 +1146,11 @@ technologies = {
 			leads_to_tech = grenades_3
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1111,7 +1198,11 @@ technologies = {
 			leads_to_tech = grenade_rifles
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1154,7 +1245,11 @@ technologies = {
     grenade_rifles = {
         research_cost = 3 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1198,6 +1293,10 @@ technologies = {
         research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1245,6 +1344,10 @@ technologies = {
         research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1287,6 +1390,10 @@ technologies = {
         research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1336,6 +1443,10 @@ technologies = {
         research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1383,7 +1494,11 @@ technologies = {
 			leads_to_tech = plate_armor
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1440,7 +1555,11 @@ technologies = {
 			leads_to_tech = elite_armor
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1496,7 +1615,11 @@ technologies = {
         enable_subunits = {
             infantry_armor
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1560,7 +1683,11 @@ technologies = {
 			leads_to_tech = infantry_armor_upgrade_2
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1616,7 +1743,11 @@ technologies = {
 			leads_to_tech = infantry_armor_upgrade_3
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1673,7 +1804,11 @@ technologies = {
 			leads_to_tech = infantry_armor_upgrade_4
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1725,7 +1860,11 @@ technologies = {
     infantry_armor_upgrade_4 = {
         research_cost = 3.4 # Cost in time, where 1 is the default research time length.
         start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
-    
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1782,7 +1921,11 @@ technologies = {
 			leads_to_tech = elite_armor_upgrade_1
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1840,7 +1983,11 @@ technologies = {
 			leads_to_tech = elite_armor_upgrade_2
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1894,7 +2041,11 @@ technologies = {
 			leads_to_tech = elite_armor_upgrade_3
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1948,7 +2099,11 @@ technologies = {
 			leads_to_tech = elite_armor_upgrade_4
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1993,7 +2148,11 @@ technologies = {
     elite_armor_upgrade_4 = {
         research_cost = 3.4 # Cost in time, where 1 is the default research time length.
         start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
-
+	
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2054,6 +2213,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2103,6 +2266,10 @@ technologies = {
             shock_troops
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2153,6 +2320,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2202,6 +2373,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2251,6 +2426,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2295,6 +2474,10 @@ technologies = {
         research_cost = 4.2 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2348,6 +2531,10 @@ technologies = {
             sharpshooters
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2396,6 +2583,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2444,6 +2635,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2492,6 +2687,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2535,6 +2734,10 @@ technologies = {
         research_cost = 4.2 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2586,7 +2789,11 @@ technologies = {
         enable_subunits = {
             guards
         }
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2636,7 +2843,11 @@ technologies = {
 			leads_to_tech = guards_2
 			research_cost_coeff = 1
         }
-        
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2688,6 +2899,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2739,6 +2954,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2784,7 +3003,11 @@ technologies = {
     guards_4 = {
         research_cost = 4.2 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2847,9 +3070,8 @@ technologies = {
 
         dependencies = {
             internal_combustion_engine = 1
+			tech_industrialized = 1
         }
-
-
 
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -2892,7 +3114,11 @@ technologies = {
         enable_equipments = {
             motorized_equipment_2
         }
-
+		
+		 dependencies = {
+			tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
