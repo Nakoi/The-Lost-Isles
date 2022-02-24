@@ -1587,4 +1587,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Bombardier_provisions2.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_bombardier_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/ReinforcedHull.dds"
+	}
+
 }
