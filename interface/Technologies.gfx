@@ -1592,4 +1592,44 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ReinforcedHull.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_air_frigate_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/Explosive_musket_balls.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_air_frigate_upgrade_alt1_medium"
+		texturefile = "gfx/interface/technologies/Fire_ammo_cannon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_air_frigate_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/Crystal_Gunpowder_Cannon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_air_frigate_upgrade_alt2_medium"
+		texturefile = "gfx/interface/technologies/ReinforcedHull.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_air_frigate_upgrade3_medium"
+		texturefile = "gfx/interface/technologies/Crystal_Gunpowder_Cannon_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_air_frigate_upgrade_alt3_medium"
+		texturefile = "gfx/interface/technologies/ReinforcedHull_Improved.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_air_frigate_upgrade4_medium"
+		texturefile = "gfx/interface/technologies/AirFrigate_MachineGun.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_air_frigate_upgrade_alt4_medium"
+		texturefile = "gfx/interface/technologies/Fire_ammo_cannon_upgrade_2.dds"
+	}
+
 }
