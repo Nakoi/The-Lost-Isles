@@ -1632,4 +1632,54 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Fire_ammo_cannon_upgrade_2.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_sky_carrier_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/grenade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sky_carrier_upgrade_alt1_medium"
+		texturefile = "gfx/interface/technologies/grenade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sky_carrier_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/grenade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sky_carrier_upgrade3_medium"
+		texturefile = "gfx/interface/technologies/grenade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sky_carrier_upgrade_alt3_medium"
+		texturefile = "gfx/interface/technologies/grenade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sky_carrier_upgrade_alt2_medium"
+		texturefile = "gfx/interface/technologies/Crystal_Gunpowder_Cannon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sky_carrier_upgrade_alt4_medium"
+		texturefile = "gfx/interface/technologies/Crystal_Gunpowder_Cannon_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sky_carrier_upgrade4_medium"
+		texturefile = "gfx/interface/technologies/grenade_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_reliable_loadout_medium"
+		texturefile = "gfx/interface/technologies/grenade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_experimental_loadout_medium"
+		texturefile = "gfx/interface/technologies/grenade_2.dds"
+	}
+
 }
