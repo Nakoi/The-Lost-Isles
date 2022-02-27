@@ -1682,4 +1682,30 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/grenade_2.dds"
 	}
 
+	#  #  ##  #  #  ##  #
+	## # #  # #  # #  # #
+	# ## #### #  # #### #
+	#  # #  # #  # #  # #
+	#  # #  #  ##  #  # ####
+
+	SpriteType = {
+		name = "GFX_early_xebec_ship_medium"
+		texturefile = "gfx/interface/technologies/Xebec.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_xebec_ship_medium"
+		texturefile = "gfx/interface/technologies/Xebec_improved.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_gunboat_ship_medium"
+		texturefile = "gfx/interface/technologies/GunBoats.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_light_gunboat_ship_medium"
+		texturefile = "gfx/interface/technologies/GunBoats_Improved.dds"
+	}
+
 }
