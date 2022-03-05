@@ -1708,4 +1708,81 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/GunBoats_Improved.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_galley_ship_medium"
+		texturefile = "gfx/interface/technologies/Galley.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sloop_of_war_ship_medium"
+		texturefile = "gfx/interface/technologies/Sloop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steam_corvette_ship_medium"
+		texturefile = "gfx/interface/technologies/Galley_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_destroyer_ship_medium"
+		texturefile = "gfx/interface/technologies/Galley_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_frigate_ship_medium"
+		texturefile = "gfx/interface/technologies/Early_frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_frigate_ship_medium"
+		texturefile = "gfx/interface/technologies/Improved_Frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_steam_frigate_ship_medium"
+		texturefile = "gfx/interface/technologies/Frigate_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cruiser_ship_medium"
+		texturefile = "gfx/interface/technologies/Frigate_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_siege_frigate_ship_medium"
+		texturefile = "gfx/interface/technologies/Siege_Frigate_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rocket_cruiser_ship_medium"
+		texturefile = "gfx/interface/technologies/Siege_Frigate_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rocket_steamer_ship_medium"
+		texturefile = "gfx/interface/technologies/Siege_Frigate_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_ship_of_line_ship_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ship_of_the_line_ship_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ironclad_warships_ship_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_ship_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_4.dds"
+	}
+
+	
+
 }

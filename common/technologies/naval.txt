@@ -459,7 +459,7 @@ technologies = {
 	early_ship_of_line_ship = {
 
 		enable_equipments = { 
-			ship_of_line_1
+			ship_of_line
 		}
 		
 		path = {
@@ -488,7 +488,7 @@ technologies = {
 	ship_of_the_line_ship = {
 
 		enable_equipments = { 
-			ship_of_line_2
+			ship_of_line_1
 		}
 		
 		path = {
@@ -517,7 +517,7 @@ technologies = {
 	ironclad_warships_ship = {
 
 		enable_equipments = { 
-			ship_of_line_3
+			ship_of_line_2
 		}
 		
 		path = {
@@ -544,10 +544,10 @@ technologies = {
 	}
 	
 	
-	heavy_ship_ship = {
+	heavy_ship = {
 
 		enable_equipments = { 
-			ship_of_line_4
+			ship_of_line_3
 		}
 		
 		research_cost = 2
