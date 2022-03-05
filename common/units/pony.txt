@@ -138,4 +138,49 @@ sub_units = {
 
 	}
 
+	unicorn_support = {
+		sprite = light_armor
+		map_icon_category = armored
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			support
+			armor
+		}
+		
+		group = armor
+		special_forces = yes
+		can_be_parachuted = yes
+		
+		categories = {
+			category_army
+			category_support_battalions
+			category_unicorn_support
+
+		}
+		
+		combat_width = 0
+		
+		#Size Definitions
+		max_strength = 0.4
+		max_organisation = 15
+		default_morale = 0.05
+		manpower = 100
+
+		#Misc Abilities
+		training_time = 70
+		suppression = 0
+		weight = 0.5
+		
+		supply_consumption = -0.1
+	
+		need = {
+			magical_equipment = 75
+		}
+
+	}
+
 }
