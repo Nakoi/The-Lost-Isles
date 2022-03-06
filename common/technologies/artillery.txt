@@ -18,11 +18,12 @@ technologies = {
 
 
 		enable_equipments = {
-			artillery_equipment
+			cannon_equipment_1
 		}
 		enable_subunits = {
-			catapult_frontline
-			catapult_support
+			cannon_frontline
+			cannon_support
+			
 		}
 	
 		path = {
@@ -42,6 +43,11 @@ technologies = {
 			position = { x = 1 y = @400 }
 		}
 		
+		dependencies = {
+			basic_engineering = 1
+
+		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -86,12 +92,7 @@ technologies = {
 	cannon = {
 
 		enable_equipments = {
-			cannon_equipment_1
-		}
-
-		enable_subunits = {
-			cannon_frontline
-			cannon_support
+			cannon_equipment_2
 		}
 
 		enable_equipment_modules = { 
@@ -234,7 +235,7 @@ technologies = {
 	improved_cannon = {
 
 		enable_equipments = {
-			cannon_equipment_2
+			cannon_equipment_3
 		}
 	
 		path = {
@@ -351,7 +352,7 @@ technologies = {
 	modern_cannon = {
 
 		enable_equipments = {
-			cannon_equipment_3
+			cannon_equipment_4
 		}
 
 		research_cost = 2

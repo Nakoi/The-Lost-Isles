@@ -33,7 +33,7 @@ sub_units = {
 
 		categories = {
 			category_front_line
-			category_light_infantry
+			category_militia
 			category_all_infantry
 			category_army
 		}
@@ -57,55 +57,6 @@ sub_units = {
 			rifle_equipment = 50
 		}
 	}
-
-#   # ### #    ### ###            ### #  # ####  ##  #  # ##### ###  #   #
-## ## #   #    #   #               #  ## # #    #  # ## #   #   #  #  # #
-# # # ##  #    ##  ##    #####     #  # ## ###  #### # ##   #   ###    #
-#   # #   #    #   #               #  #  # #    #  # #  #   #   #  #   #
-#   # ### #### ### ###            ### #  # #    #  # #  #   #   #  #   #
-
-
-#	melee_infantry = {
-#		abbreviation = "INF"
-#		sprite = infantry
-#		map_icon_category = infantry
-#		can_be_parachuted = yes
-#		priority = 600
-#		ai_priority = 200
-#		active = no
-#		maximum_speed = 6
-#		type = {
-#			infantry
-#		}
-#		
-#		group = infantry
-#		
-#		categories = {
-#			category_front_line
-#			category_light_infantry
-#			category_all_infantry
-#			category_army
-#		}
-#		
-#		combat_width = 2
-#		maximum_speed = 6
-#		#Size Definitions
-#		max_strength = 12.5
-#		max_organisation = 40
-#		default_morale = 0.1
-#		manpower = 500
-#
-#		#Misc Abilities
-#		training_time = 90
-#		suppression = 1
-#		weight = 0.25
-#		
-#		supply_consumption = 0.04
-#	
-#		need = {
-#			melee_equipment = 50
-#		}
-#	}
 
 
 ###   ##  #  #  ##  ### ###              #   # ### #    ### ##### ###  ##
@@ -156,53 +107,6 @@ sub_units = {
 		}
 	}
 
-#   # ### #    ### ###            #   # ### #    ### ##### ###  ##
-## ## #   #    #   #              ## ##  #  #     #    #    #  #  #
-# # # ##  #    ##  ##    #####    # # #  #  #     #    #    #  ####
-#   # #   #    #   #              #   #  #  #     #    #    #  #  #
-#   # ### #### ### ###            #   # ### #### ###   #    #  #  #
-
-#	melee_militia = {
-#		abbreviation = "INF"
-#		sprite = infantry
-#		map_icon_category = infantry
-#		can_be_parachuted = yes
-#		priority = 600
-#		ai_priority = 200
-#		active = no
-#
-#		type = {
-#			infantry
-#		}
-#		
-#		group = infantry
-#		
-#		categories = {
-#			category_front_line
-#			category_light_infantry
-#			category_all_infantry
-#			category_army
-#		}
-#		
-#		combat_width = 2
-#		maximum_speed = 6
-#		#Size Definitions
-#		max_strength = 6.25
-#		max_organisation = 30
-#		default_morale = 0.1
-#		manpower = 250
-#
-#		#Misc Abilities
-#		training_time = 10
-#		suppression = 0.5
-#		weight = 0.125
-#		
-#		supply_consumption = 0.02
-#	
-#		need = {
-#			melee_equipment = 20
-#		}
-#	}
 
 
  ##  ###  #   #  ##  ###
@@ -1089,77 +993,6 @@ sub_units = {
 #### ###  # # # #  # ###
 #  # #  # #   # #  # #  #
 #  # #  # #   #  ##  #  #
-
-
-	catapult_frontline = {
-		abbreviation = "ART"
-		sprite = artillery
-		map_icon_category = infantry
-		priority = 0
-		ai_priority = 0
-		active = yes
-		affects_speed = no
-		can_be_parachuted = yes
-		type = {
-			artillery
-		}
-		
-		group = mobile
-		
-		categories = {
-			category_support_battalions
-			category_army
-			category_artillery
-			
-		}
-
-
-		need = {
-			artillery_equipment = 18
-		}
-		manpower = 250
-		training_time = 40
-		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.3
-		weight = 0.25
-		combat_width = 3
-		supply_consumption = 0.1
-
-		forest = {
-			attack = -0.2
-			movement = -0.2
-		}
-
-		hills = {
-			movement = -0.05
-		}
-
-		mountain = {
-			movement = -0.2
-		}
-
-		jungle = {
-			attack = -0.25
-			movement = -0.25
-		}
-
-		marsh = {
-			attack = -0.2
-			movement = -0.3
-		}
-
-		river = {
-			attack = -0.2
-			movement = -0.2
-		}
-
-		amphibious = {
-			attack = -0.4
-			movement = -0.2
-		}
-
-	}
 
 
 
