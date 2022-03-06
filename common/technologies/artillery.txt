@@ -136,8 +136,8 @@ technologies = {
 
 		category_cannon = {
 			hard_attack = 0.10
-			piercing_attack = 0.10
-			supply_cost = -0.05
+			ap_attack = 0.10
+			supply_consumption_factor = -0.05
 		}
 
 
@@ -177,7 +177,7 @@ technologies = {
 
 		category_cannon = {
 			soft_attack = 0.10
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -206,8 +206,8 @@ technologies = {
 
 		category_cannon = {
 			hard_attack = 0.15
-			piercing_attack = 0.15
-			supply_cost = -0.05
+			ap_attack = 0.15
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -264,8 +264,8 @@ technologies = {
 
 		category_cannon = {
 			hard_attack = 0.15
-			piercing_attack = 0.15
-			supply_cost = -0.05
+			ap_attack = 0.15
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -294,7 +294,7 @@ technologies = {
 
 		category_cannon = {
 			soft_attack = 0.20
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -323,8 +323,8 @@ technologies = {
 
 		category_cannon = {
 			hard_attack = 0.20
-			piercing_attack = 0.20
-			supply_cost = -0.05
+			ap_attack = 0.20
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -412,7 +412,7 @@ technologies = {
 		category_anti_air = {
 			air_attack = 0.10
 			hard_attack = 0.10
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -441,7 +441,7 @@ technologies = {
 
 		category_anti_air = {
 			air_attack = 0.15
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -470,8 +470,8 @@ technologies = {
 
 		category_anti_air = {
 			hard_attack = 0.20
-			piercing_attack = 0.20
-			supply_cost = -0.05
+			ap_attack = 0.20
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -528,7 +528,7 @@ technologies = {
 
 		category_anti_air = {
 			air_attack = 0.20
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -557,7 +557,7 @@ technologies = {
 
 		category_anti_air = {
 			air_attack = 0.25
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		research_cost = 3
@@ -617,7 +617,7 @@ technologies = {
 		category_rockets = {
 			soft_attack = 0.10
 			entrenchment = 1
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -646,7 +646,7 @@ technologies = {
 
 		category_rockets = {
 			defense = 0.15
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -676,7 +676,7 @@ technologies = {
 		category_rockets = {
 			soft_attack = 0.20
 			entrenchment = 1
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -734,7 +734,7 @@ technologies = {
 		category_rockets = {
 			defense = 0.20
 			entrenchment = 1
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		research_cost = 3
@@ -798,7 +798,7 @@ technologies = {
 
 		category_mortar = {
 			soft_attack = 0.15
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -832,8 +832,8 @@ technologies = {
 
 		category_mortar = {
 			soft_attack = 0.15
-			piercing_attack = 0.10
-			supply_cost = -0.05
+			ap_attack = 0.10
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -861,15 +861,16 @@ technologies = {
 	standardised_powder_charges = {
 
 		category_mortar = {
-			forts = {
+		
+			fort = {
 				attack = 0.15
 				breakthrough = 0.25
-				supply_cost = -0.05
+				supply_consumption_factor = -0.05
 			}
 			urban = {
 				attack = 0.15
 				breakthrough = 0.25
-				supply_cost = -0.05
+				supply_consumption_factor = -0.05
 			}
 		}
 
@@ -930,7 +931,7 @@ technologies = {
 
 		category_mortar = {
 			soft_attack = 0.15
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -959,8 +960,8 @@ technologies = {
 
 		category_mortar = {
 			soft_attack = 0.20
-			piercing_attack = 0.10
-			supply_cost = -0.05
+			ap_attack = 0.10
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -991,12 +992,12 @@ technologies = {
 			forts = {
 				attack = 0.20
 				breakthrough = 0.25
-				supply_cost = -0.05
+				supply_consumption_factor = -0.05
 			}
 			urban = {
 				attack = 0.20
 				breakthrough = 0.25
-				supply_cost = -0.05
+				supply_consumption_factor = -0.05
 			}
 		}
 
@@ -1056,7 +1057,7 @@ technologies = {
 
 		category_howitzer = {
 			soft_attack = 0.15
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -1085,7 +1086,7 @@ technologies = {
 
 		category_howitzer = {
 			soft_attack = 0.20
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -1114,7 +1115,7 @@ technologies = {
 
 		category_howitzer = {
 			soft_attack = 0.20
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -1171,7 +1172,7 @@ technologies = {
 
 		category_howitzer = {
 			soft_attack = 0.20
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		research_cost = 3
@@ -1230,7 +1231,7 @@ technologies = {
 		category_light_artillery = {
 			soft_attack = 0.10
 			hard_attack = 0.10
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		path = {
@@ -1288,7 +1289,7 @@ technologies = {
 		category_light_artillery = {
 			soft_attack = 0.20
 			hard_attack = 0.20
-			supply_cost = -0.05
+			supply_consumption_factor = -0.05
 		}
 
 		research_cost = 3
