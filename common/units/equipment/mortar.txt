@@ -3,7 +3,7 @@
 equipments = {
 
 	mortar_equipment = {
-		year = 1936
+		year = 957
 	
 		is_archetype = yes
 		picture = archetype_infantry_equipment		
@@ -36,10 +36,9 @@ equipments = {
 		
 		build_cost_ic = 55
 		resources = {
-			wood = 2
-			#rare_metal = 1
-			#wood = 1
-			#chemicals = 2
+			rare_metal = 1
+			wood = 1
+			chemicals = 2
 		}
 
 		fuel_consumption = 0.13
@@ -47,7 +46,7 @@ equipments = {
 	}
 
 	mortar_equipment_0 = {
-		year = 1936
+		year = 957
 	
 		archetype = mortar_equipment
 		active = no
@@ -56,7 +55,7 @@ equipments = {
 	}
 
 	mortar_equipment_1 = {
-		year = 1936
+		year = 965
 	
 		archetype = mortar_equipment
 		#parent = infantry_equipment_0
@@ -77,10 +76,9 @@ equipments = {
 		build_cost_ic = 130
 
 		resources = {
-			wood = 3 #temp
-			#rare_metal = 3
-			#wood = 2
-			#chemicals = 2
+			rare_metal = 1
+			wood = 2
+			chemicals = 3
 		}
 	}
 
