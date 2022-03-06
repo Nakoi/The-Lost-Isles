@@ -45,6 +45,11 @@ technologies = {
 			leads_to_tech = tech_maintenance_company
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
 		research_cost = 1.0
 		start_year = 400
 		folder = {
@@ -119,7 +124,12 @@ technologies = {
 			leads_to_tech = tech_engineers2
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_primitive = 1
+			specialized_tools = 1
+        }
+		
 		research_cost = 2
 		start_year = 600
 		folder = {
@@ -164,7 +174,11 @@ technologies = {
 			leads_to_tech = tech_engineers3
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 850
 		folder = {
@@ -208,7 +222,11 @@ technologies = {
 			leads_to_tech = tech_engineers4
 			research_cost_coeff = 1
 		}		
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 959
 		folder = {
@@ -244,7 +262,11 @@ technologies = {
 			leads_to_tech = tech_engineers5
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 963
 		folder = {
@@ -290,7 +312,11 @@ technologies = {
 			leads_to_tech = tech_engineers6
 			research_cost_coeff = 1
 		}		
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 967
 		folder = {
@@ -329,7 +355,11 @@ technologies = {
 				attack = 0.15
 			}
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 971
 		folder = {
@@ -394,7 +424,12 @@ technologies = {
 			leads_to_tech = tech_recon2
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_primitive = 1
+			printing_press = 1
+        }
+		
 		research_cost = 2
 		start_year = 600
 		folder = {
@@ -435,7 +470,11 @@ technologies = {
 			leads_to_tech = tech_recon3
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 850
 		folder = {
@@ -471,7 +510,11 @@ technologies = {
 			leads_to_tech = tech_recon4
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 959
 		folder = {
@@ -506,7 +549,11 @@ technologies = {
 			leads_to_tech = tech_recon5
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 963
 		folder = {
@@ -542,7 +589,11 @@ technologies = {
 			leads_to_tech = tech_recon6
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 967
 		folder = {
@@ -572,7 +623,11 @@ technologies = {
 		category_recon = {
 			recon = 3
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 971
 		folder = {
@@ -613,7 +668,12 @@ technologies = {
 			leads_to_tech = tech_maintenance_company2
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+			interchangeable_tools = 1
+        }
+		
 		research_cost = 2
 		start_year = 850
 		folder = {
@@ -650,7 +710,11 @@ technologies = {
 			leads_to_tech = tech_maintenance_company3
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 959
 		folder = {
@@ -687,7 +751,11 @@ technologies = {
 			leads_to_tech = tech_maintenance_company4
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 963
 		folder = {
@@ -724,7 +792,11 @@ technologies = {
 			leads_to_tech = tech_maintenance_company5
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 967
 		folder = {
@@ -755,7 +827,11 @@ technologies = {
 			reliability_factor = 0.10
 			equipment_capture_factor = 0.10
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 971
 		folder = {
@@ -797,7 +873,12 @@ technologies = {
 			leads_to_tech = tech_military_police2
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+			professional_officers = 1
+        }
+		
 		research_cost = 2
 		start_year = 850
 		folder = {
@@ -835,7 +916,11 @@ technologies = {
 			leads_to_tech = tech_military_police3
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 959
 		folder = {
@@ -873,7 +958,11 @@ technologies = {
 			leads_to_tech = tech_military_police4
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 963
 		folder = {
@@ -911,7 +1000,11 @@ technologies = {
 			leads_to_tech = tech_military_police5
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 967
 		folder = {
@@ -943,7 +1036,11 @@ technologies = {
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 971
 		folder = {
@@ -984,7 +1081,12 @@ technologies = {
 			leads_to_tech = tech_field_hospital2
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+			medicine = 1
+        }
+		
 		research_cost = 2
 		start_year = 959
 		folder = {
@@ -1021,7 +1123,11 @@ technologies = {
 			leads_to_tech = tech_field_hospital3
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 963
 		folder = {
@@ -1058,7 +1164,11 @@ technologies = {
 			leads_to_tech = tech_field_hospital4
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 967
 		folder = {
@@ -1089,7 +1199,11 @@ technologies = {
 			casualty_trickleback = 0.20
 			experience_loss_factor = -0.20
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 971
 		folder = {
@@ -1130,7 +1244,12 @@ technologies = {
 			leads_to_tech = tech_logistics_company2
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+			centralised_planning = 1
+        }
+		
 		research_cost = 2
 		start_year = 959
 		folder = {
@@ -1167,7 +1286,11 @@ technologies = {
 			leads_to_tech = tech_logistics_company3
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 963
 		folder = {
@@ -1204,7 +1327,11 @@ technologies = {
 			leads_to_tech = tech_logistics_company4
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 967
 		folder = {
@@ -1235,7 +1362,11 @@ technologies = {
 			supply_consumption_factor = -0.15
 			fuel_consumption_factor = -0.10
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 1.5
 		start_year = 971
 		folder = {
