@@ -38,10 +38,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_primitive = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -75,7 +71,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_militia = {
+        category_all_infantry = {
             soft_attack = -0.4
             hard_attack = -0.4
             breakthrough = -0.2
@@ -91,10 +87,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_primitive = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -104,6 +96,7 @@ technologies = {
                 x = 4
                 y = @100
             }
+        
         }
         
         # Which technology categories apply to this technology.
@@ -128,7 +121,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_melee = {
+        category_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -151,10 +144,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_primitive = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -209,10 +198,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_primitive = 1
-        }
-		
         # Which technology categories apply to this technology.
         categories = {
             tli_infantry
@@ -235,7 +220,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_melee = {
+        category_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -260,10 +245,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_primitive = 1
-        }
-		
         # Which technology categories apply to this technology.
         categories = {
             tli_infantry
@@ -286,7 +267,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_melee = {
+        category_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -309,10 +290,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
         
-		dependencies = {
-            tech_civilized = 1
-        }
-
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -355,11 +332,7 @@ technologies = {
 			leads_to_tech = infantry_weapons3
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -393,8 +366,8 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_melee = {
-            hard_attack = 0.25
+        category_all_infantry = {
+            hard_attack = 0.1
             breakthrough = 0.1
         }
     }
@@ -406,16 +379,13 @@ technologies = {
         enable_equipments = {
 			rifle_equipment_4
         }
+        
 
 		path = {
 			leads_to_tech = ranged_infantry_upgrade_1
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_civilized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -458,11 +428,7 @@ technologies = {
 			leads_to_tech = ranged_infantry_upgrade_2
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -496,7 +462,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_ranged = {
+        category_all_infantry = {
             soft_attack = 0.1
             breakthrough = 0.1
         }
@@ -517,11 +483,7 @@ technologies = {
 			leads_to_tech = grenades_1
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -555,7 +517,7 @@ technologies = {
         #    <type> = <float>
         #}
         
-        category_ranged = {
+        category_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -568,11 +530,7 @@ technologies = {
 			leads_to_tech = breech_loading_rifles
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -606,7 +564,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_ranged = {
+        category_all_infantry = {
             soft_attack = 0.1
             ap_attack = 0.1
             supply_consumption = 0.05
@@ -631,10 +589,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -677,11 +631,7 @@ technologies = {
 			leads_to_tech = ranged_infantry_upgrade_5
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -715,7 +665,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_ranged = {
+        category_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -728,11 +678,7 @@ technologies = {
 			leads_to_tech = ranged_infantry_upgrade_6
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -765,7 +711,7 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
-        category_ranged = {
+        category_all_infantry = {
             soft_attack = 0.1
             ap_attack = 0.05
         }
@@ -779,11 +725,7 @@ technologies = {
 			leads_to_tech = bolt_action_rifles
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -817,7 +759,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_ranged = {
+        category_all_infantry = {
             soft_attack = 0.1
             ap_attack = 0.1
             supply_consumption = 0.05
@@ -832,10 +774,6 @@ technologies = {
 			rifle_equipment_6
         }
         
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -887,10 +825,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -937,11 +871,7 @@ technologies = {
 			leads_to_tech = machine_gun_upgrade_2
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -979,6 +909,7 @@ technologies = {
             defense = 0.1
             attack = 0.1
             ap_attack = 0.2
+            air_attack = 0.75
             entrenchment = 1
         }
     }
@@ -991,11 +922,7 @@ technologies = {
 			leads_to_tech = machine_gun_upgrade_3
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1032,6 +959,7 @@ technologies = {
             defense = 0.1
             attack = 0.1
             ap_attack = 0.2
+            air_attack = 0.75
             entrenchment = 1
         }
     }
@@ -1039,11 +967,7 @@ technologies = {
     machine_gun_upgrade_3 = {
         research_cost = 4.2 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1081,6 +1005,7 @@ technologies = {
             defense = 0.2
             attack = 0.1
             ap_attack = 0.2
+            air_attack = 0.75
             entrenchment = 1
         }
     }
@@ -1093,11 +1018,7 @@ technologies = {
 			leads_to_tech = grenades_2
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1146,11 +1067,7 @@ technologies = {
 			leads_to_tech = grenades_3
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1198,11 +1115,7 @@ technologies = {
 			leads_to_tech = grenade_rifles
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1245,11 +1158,7 @@ technologies = {
     grenade_rifles = {
         research_cost = 3 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1293,10 +1202,6 @@ technologies = {
         research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
         
-		dependencies = {
-            tech_civilized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1335,7 +1240,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_melee = {
+        category_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -1344,10 +1249,6 @@ technologies = {
         research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
         
-		dependencies = {
-            tech_civilized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1381,7 +1282,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_melee = {
+        category_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -1390,10 +1291,6 @@ technologies = {
         research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
         
-		dependencies = {
-            tech_primitive = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1432,9 +1329,9 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_melee = {
-            ap_attack = 1 
-            hard_attack = 0.5
+        category_all_infantry = {
+            ap_attack = 0.1 
+            hard_attack = 0.1
             supply_consumption = 0.05  
         }
     }
@@ -1443,10 +1340,6 @@ technologies = {
         research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
         
-		dependencies = {
-            tech_primitive = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1480,9 +1373,9 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_melee = {
-            ap_attack = 1 
-            hard_attack = 0.5
+        category_all_infantry = {
+            ap_attack = 0.1 
+            hard_attack = 0.1
         }
     }
 
@@ -1494,11 +1387,7 @@ technologies = {
 			leads_to_tech = plate_armor
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_primitive = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1532,13 +1421,13 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_melee = {
-            breakthrough = 0.1
-            defense = 0.1
-        }
-        melee_infantry = {
-            hardness = 1
+        category_regular_infantry = {
             armor_value = 1
+            hardness = 1
+        }
+        category_all_infantry = {
+            defence = 1
+            breakthrough = 1
         }
     }
 
@@ -1555,11 +1444,7 @@ technologies = {
 			leads_to_tech = elite_armor
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_primitive = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1593,13 +1478,13 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_melee = {
-            breakthrough = 0.2
-            defense = 0.2
-        }
-        melee_infantry = {
-            hardness = 2
+        category_regular_infantry = {
             armor_value = 3
+            hardness = 2
+        }
+        category_all_infantry = {
+            defence = 0.2
+            breakthrough = 0.2
         }
     }
 
@@ -1615,11 +1500,7 @@ technologies = {
         enable_subunits = {
             infantry_armor
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1663,12 +1544,14 @@ technologies = {
             defense = 0.1
             hardness = 14
             supply_consumption = 1
-            #maximum_speed = 4                - a bit confused amol, what exactly do you mean here?
+            maximum_speed = 4              #  - a bit confused amol, what exactly do you mean here?
         }
-        category_ranged = {
-            defense = 0.2
+
+        category_all_infantry = {
+            defence = 0.2
             breakthrough = 0.2
         }
+        
         category_elite_infantry = {
             armor_value = 5
             breakthrough = 0.25
@@ -1683,11 +1566,7 @@ technologies = {
 			leads_to_tech = infantry_armor_upgrade_2
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1726,7 +1605,7 @@ technologies = {
             defense = 0.05
             hardness = 3
         }
-        category_ranged = {
+        category_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -1743,11 +1622,7 @@ technologies = {
 			leads_to_tech = infantry_armor_upgrade_3
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1787,7 +1662,7 @@ technologies = {
             defense = 0.05
             hardness = 3
         }
-        category_ranged = {
+        category_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -1804,11 +1679,7 @@ technologies = {
 			leads_to_tech = infantry_armor_upgrade_4
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1848,7 +1719,7 @@ technologies = {
             defense = 0.05
             hardness = 3
         }
-        category_ranged = {
+        category_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -1860,11 +1731,7 @@ technologies = {
     infantry_armor_upgrade_4 = {
         research_cost = 3.4 # Cost in time, where 1 is the default research time length.
         start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+    
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1904,7 +1771,7 @@ technologies = {
             defense = 0.05
             hardness = 3
         }
-        category_ranged = {
+        category_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -1921,11 +1788,7 @@ technologies = {
 			leads_to_tech = elite_armor_upgrade_1
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -1963,7 +1826,7 @@ technologies = {
         #    <type> = <float>
         #}
         
-        category_ranged = {
+        category_all_infantry = {
             defense = 0.02
             breakthrough = 0.02
         }
@@ -1983,11 +1846,7 @@ technologies = {
 			leads_to_tech = elite_armor_upgrade_2
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2021,7 +1880,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_ranged = {
+        category_all_infantry = {
             defense = 0.02
             breakthrough = 0.02
         }
@@ -2041,11 +1900,7 @@ technologies = {
 			leads_to_tech = elite_armor_upgrade_3
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2079,7 +1934,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_ranged = {
+        category_all_infantry = {
             defense = 0.02
             breakthrough = 0.02
         }
@@ -2099,11 +1954,7 @@ technologies = {
 			leads_to_tech = elite_armor_upgrade_4
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2137,7 +1988,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_ranged = {
+        category_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
             hardness = 3
@@ -2148,11 +1999,7 @@ technologies = {
     elite_armor_upgrade_4 = {
         research_cost = 3.4 # Cost in time, where 1 is the default research time length.
         start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
-	
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2186,7 +2033,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_ranged = {
+        category_all_infantry = {
             defense = 0.25
             breakthrough = 0.25
             hardness = 4
@@ -2213,10 +2060,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_civilized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2266,10 +2109,6 @@ technologies = {
             shock_troops
         }
         
-		dependencies = {
-            tech_civilized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2307,7 +2146,7 @@ technologies = {
             armor_value = 10
             ap_attack = 1
             hard_attack = 2
-            #maximum_speed = 9
+            maximum_speed = 7
         }
     }
 
@@ -2320,10 +2159,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_civilized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2373,10 +2208,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2426,10 +2257,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2474,10 +2301,6 @@ technologies = {
         research_cost = 4.2 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
         
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2531,10 +2354,6 @@ technologies = {
             sharpshooters
         }
         
-		dependencies = {
-            tech_civilized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2583,10 +2402,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_civilized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2635,10 +2450,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2687,10 +2498,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2734,10 +2541,6 @@ technologies = {
         research_cost = 4.2 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
         
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2789,11 +2592,7 @@ technologies = {
         enable_subunits = {
             guards
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2843,11 +2642,7 @@ technologies = {
 			leads_to_tech = guards_2
 			research_cost_coeff = 1
         }
-		
-		dependencies = {
-            tech_civilized = 1
-        }
-		
+        
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2899,10 +2694,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -2954,10 +2745,6 @@ technologies = {
 			research_cost_coeff = 1
         }
         
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -3003,11 +2790,7 @@ technologies = {
     guards_4 = {
         research_cost = 4.2 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
-		
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
@@ -3070,8 +2853,9 @@ technologies = {
 
         dependencies = {
             internal_combustion_engine = 1
-			tech_industrialized = 1
         }
+
+
 
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -3114,11 +2898,7 @@ technologies = {
         enable_equipments = {
             motorized_equipment_2
         }
-		
-		 dependencies = {
-			tech_industrialized = 1
-        }
-		
+
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = infantry_folder # Found in countrytechtreeview.gui
