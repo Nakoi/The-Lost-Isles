@@ -9,7 +9,7 @@ buildings = {
 		base_cost = 6000
 		icon_frame = 3
 		infrastructure = yes
-		max_level = 5
+		max_level = 15
 		value = 1
 
 		show_modifier = yes
@@ -76,7 +76,7 @@ buildings = {
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 16
-		max_level = 1
+		max_level = 5
 		infrastructure_construction_effect = yes
 	}
 	

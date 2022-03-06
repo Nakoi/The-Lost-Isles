@@ -1289,7 +1289,7 @@ technologies = {
         }
 
         enable_equipments = {
-			rifle_equipment_2
+			train_equipment_1
 		}
         
         # Controls which folder (tab) the technology appears under.
@@ -1335,6 +1335,10 @@ technologies = {
 			leads_to_tech = steel_railroad
 			research_cost_coeff = 1
         }
+
+        enable_equipments = {
+			train_equipment_2
+		}
         
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -1381,6 +1385,11 @@ technologies = {
             building = infrastructure
             level = 7
         }
+
+        enable_building = {
+            building = rail_way
+            level = 1
+        }
         
 	}
 
@@ -1436,7 +1445,7 @@ technologies = {
 
 	steel_railroad = {
         research_cost = 2 # Cost in time, where 1 is the default research time length.
-        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+        start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
 		
 		path = {
 			leads_to_tech = integral_railroad
@@ -1476,9 +1485,14 @@ technologies = {
         #    <type> = <float>
         #}
 
+        #enable_building = {
+        #    building = infrastructure
+        #    level = 11
+        #}
+
         enable_building = {
-            building = infrastructure
-            level = 7
+            building = rail_way
+            level = 2
         }
         
 	}
@@ -1497,6 +1511,10 @@ technologies = {
                 y = @969
             }
         }
+
+        enable_equipments = {
+			train_equipment_3
+		}
         
         # Which technology categories apply to this technology.
         categories = {
@@ -1522,7 +1540,12 @@ technologies = {
 
         enable_building = {
             building = infrastructure
-            level = 10
+            level = 15
+        }
+
+        enable_building = {
+            building = rail_way
+            level = 5
         }
         
     }
