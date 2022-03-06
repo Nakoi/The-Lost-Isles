@@ -1783,6 +1783,90 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Ship_of_the_line_3.dds"
 	}
 
-	
+	#   # #####  ##
+	## ##   #   #  
+	# # #   #   # ##
+	#   #   #   #  #
+	#   #   #    ##
+
+		SpriteType = {
+		name = "GFX_xebec_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/Xebec.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_improved_xebec_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/Xebec_improved.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_light_gunboat_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/GunBoats.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_improved_light_gunboat_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/GunBoats_Improved.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_galley_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/Galley.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_sloop_of_war_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/sloop.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_steam_corvette_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/galley_3.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_early_destroyer_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/galley_4.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_early_frigate_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/Early_frigate.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_frigate_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/Improved_frigate.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_steam_frigate_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/frigate_3.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_cruiser_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/frigate_4.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_early_ship_of_the_line_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_improved_ship_of_the_line_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_ironclad_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_4.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_early_battleship_hull_tech_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_3.dds"
+	}
 
 }
