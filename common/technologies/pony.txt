@@ -931,7 +931,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = 
+			leads_to_tech = pony_advanced_magical_equipment
 			research_cost_coeff = 1
 		}
 		path = {
@@ -977,7 +977,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = pony_folder
-			position = { x = 31 y = 2 }
+			position = { x = 28 y = 2 }
 		}
 		
 		categories = {
@@ -1015,7 +1015,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = pony_folder
-			position = { x = 29 y = 3 }
+			position = { x = 26 y = 3 }
 		}
 		
 		categories = {
@@ -1053,7 +1053,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = pony_folder
-			position = { x = 33 y = 3 }
+			position = { x = 30 y = 3 }
 		}
 		
 		categories = {
@@ -1090,7 +1090,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = pony_folder
-			position = { x = 29 y = 5 }
+			position = { x = 26 y = 5 }
 		}
 		
 		categories = {
@@ -1126,7 +1126,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = pony_folder
-			position = { x = 33 y = 5 }
+			position = { x = 30 y = 5 }
 		}
 		
 		categories = {
@@ -1162,7 +1162,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = pony_folder
-			position = { x = 29 y = 7 }
+			position = { x = 26 y = 7 }
 		}
 		
 		categories = {
@@ -1198,7 +1198,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = pony_folder
-			position = { x = 33 y = 7 }
+			position = { x = 30 y = 7 }
 		}
 		
 		categories = {
@@ -1234,7 +1234,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = pony_folder
-			position = { x = 29 y = 9 }
+			position = { x = 26 y = 9 }
 		}
 		
 		categories = {
@@ -1270,7 +1270,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = pony_folder
-			position = { x = 33 y = 9 }
+			position = { x = 30 y = 9 }
 		}
 		
 		categories = {
@@ -1297,7 +1297,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = pony_folder
-			position = { x = 29 y = 11 }
+			position = { x = 26 y = 11 }
 		}
 		
 		categories = {
@@ -1311,10 +1311,6 @@ technologies = {
 
 	pony_magical_mine = {
 
-		category_unicorn_support = {
-			entrenchment  = 5
-		}
-
 		xor={
 			pony_teleportation
 		}
@@ -1323,7 +1319,124 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = pony_folder
-			position = { x = 33 y = 11 }
+			position = { x = 30 y = 11 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_advanced_magical_equipment = {
+
+		enable_equipments = {
+			magical_equipment_1
+		}
+
+		path = {
+			leads_to_tech = pony_modern_magical_equipment
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_naval_magic
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 35 y = 5 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_modern_magical_equipment = {
+
+		enable_equipments = {
+			magical_equipment_2
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 35 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_naval_magic = {
+
+		path = {
+			leads_to_tech = pony_advanced_naval_magic
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 32 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_advanced_naval_magic = {
+
+		path = {
+			leads_to_tech = pony_modern_naval_magic
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 32 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_modern_naval_magic = {
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 32 y = 10 }
 		}
 		
 		categories = {
