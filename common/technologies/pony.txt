@@ -22,7 +22,7 @@ technologies = {
 
 		category_juggernauts = {
 			defense = 0.5
-			armor = 10.0
+			armor_value = 10.0
 			hardness = 19.0
 		}
 		
@@ -128,7 +128,7 @@ technologies = {
 			hardness = 5.0
 			defense = 0.25
 			breakthrough = 0.25
-			armor = 20.0
+			armor_value = 20.0
 			supply_consumption_factor = 0.1
 		}
 
@@ -927,7 +927,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = 
+			leads_to_tech = pony_arcane_intellect
 			research_cost_coeff = 1
 		}
 		path = {
@@ -954,6 +954,387 @@ technologies = {
 			factor = 1
 		}
 	}
+
+	pony_arcane_intellect = {
+
+		category_unicorn_support = {
+			max_organisation = 5
+			#training_time = 0.05 Doesn't work atm
+			#recovery rate. Does not work
+
+		}
+
+		path = {
+			leads_to_tech = pony_magic_missile
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_magic_beam
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 31 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_magic_missile = {
+
+		category_unicorn_support = {
+			soft_attack = 0.25
+			breakthrough = 0.50
+			#training_time = 0.05 Doesn't work
+			
+		}
+
+		xor={
+			pony_magic_beam
+		}
+
+		path = {
+			leads_to_tech = pony_flicker
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_bubble_shield
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 29 y = 3 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_magic_beam = {
+
+		category_unicorn_support = {
+			hard_attack = 0.15
+			ap_attack = 0.25
+			#training_time = 0.05 Doesn't work
+			
+		}
+
+		xor={
+			pony_magic_missile
+		}
+
+		path = {
+			leads_to_tech = pony_flicker
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_bubble_shield
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 33 y = 3 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_flicker = {
+
+		category_unicorn_support = {
+			defense = 3.0
+			#reinforce rate. Doesn't work
+			#training_time  Doesn't work
+		}
+
+		xor={
+			pony_bubble_shield
+		}
+
+		path = {
+			leads_to_tech = pony_blinding_beam
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_healing_magic
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 29 y = 5 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_bubble_shield = {
+
+		category_unicorn_support = {
+			hardness = 4.0
+			armor_value = 10.0
+		}
+
+		xor={
+			pony_flicker
+		}
+
+		path = {
+			leads_to_tech = pony_blinding_beam
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_healing_magic
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 33 y = 5 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_blinding_beam = {
+
+		category_unicorn_support = {
+			soft_attack = 0.15
+			breakthrough = 0.5
+		}
+
+		xor={
+			pony_healing_magic
+		}
+
+		path = {
+			leads_to_tech = pony_magnetize_ray
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_combat_telekinesis
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 29 y = 7 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_healing_magic = {
+
+		category_unicorn_support = {
+			max_strength = 1
+			casualty_trickleback = 0.1
+		}
+
+		xor={
+			pony_blinding_beam
+		}
+
+		path = {
+			leads_to_tech = pony_magnetize_ray
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_combat_telekinesis
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 33 y = 7 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_magnetize_ray = {
+
+		category_unicorn_support = {
+			soft_attack = 0.1
+			hard_attack = 0.2
+		}
+
+		xor={
+			pony_combat_telekinesis
+		}
+
+		path = {
+			leads_to_tech = pony_teleportation
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_magical_mine
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 29 y = 9 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_combat_telekinesis = {
+
+		category_unicorn_support = {
+			defense = 0.5
+			max_organisation = 5
+		}
+
+		xor={
+			pony_magnetize_ray
+		}
+
+		path = {
+			leads_to_tech = pony_teleportation
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_magical_mine
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 33 y = 9 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_teleportation = {
+
+		category_unicorn_support = {
+			maximum_speed = 1.0
+			recon = 2
+		}
+
+		xor={
+			pony_magical_mine
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 29 y = 11 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_magical_mine = {
+
+		category_unicorn_support = {
+			entrenchment  = 5
+		}
+
+		xor={
+			pony_teleportation
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 33 y = 11 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 
 
 }
