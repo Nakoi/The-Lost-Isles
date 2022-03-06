@@ -36,11 +36,6 @@ equipments = {
 		
 		build_cost_ic = 0.5
 		resources = {
-			wood = 1
-            #iron = 2
-			#rare_metal = 0
-			#wood = 1
-			#chemicals = 0
 		}
 
 		fuel_consumption = 0.25
@@ -80,12 +75,7 @@ equipments = {
 		build_cost_ic = 1
 
 		resources = {
-			wood = 1 #temp
-            #iron = 2
-            #coal = 1
-			#rare_metal = 0
-			#wood = 1
-			#chemicals = 0
+			iron = 1
 		}
 	}
 
@@ -114,12 +104,8 @@ equipments = {
 
 		resources = {
 
-			wood = 2 #temp
-            #iron = 1
-            #coal = 1
-			#rare_metal = 3
-			#wood = 1
-			#chemicals = 2
+			iron = 1
+			coal = 1
 		}
 	}
 
@@ -131,7 +117,6 @@ equipments = {
 		active = no
 		priority = 10
 		visual_level = 1
-		armor_value = 2
 
 		#Defensive Abilities
 		reliability = 0.75
@@ -155,12 +140,8 @@ equipments = {
 
 		resources = {
 
-			wood = 2 #temp
-            #iron = 1
-            #coal = 1
-			#rare_metal = 3
-			#wood = 1
-			#chemicals = 2
+			wood = 1 
+			iron = 2
 		}
 	}
 
@@ -174,7 +155,6 @@ equipments = {
 		active = no
 		priority = 10
 		visual_level = 1
-		armor_value = 2
 
 		#Defensive Abilities
 		reliability = 0.8
@@ -197,13 +177,10 @@ equipments = {
 		build_cost_ic = 8
 
 		resources = {
+			iron = 2
+			wood = 1
+			coal = 1
 
-			wood = 3 #temp
-            #iron = 1
-            #coal = 1
-			#rare_metal = 3
-			#wood = 1
-			#chemicals = 2
 		}
 	}
 
@@ -216,7 +193,6 @@ equipments = {
 		active = no
 		priority = 10
 		visual_level = 1
-		armor_value = 2
 
 		#Defensive Abilities
 		reliability = 0.8
@@ -226,7 +202,7 @@ equipments = {
 		defense = 50
 		breakthrough = 15
 		hardness = 0.01
-		armor_value = 1
+		armor_value = 2
 
 		#Offensive Abilities
 		soft_attack = 35
@@ -240,12 +216,9 @@ equipments = {
 
 		resources = {
 
-			wood = 3 #temp
-            #iron = 1
-            #coal = 1
-			#rare_metal = 3
-			#wood = 1
-			#chemicals = 2
+			wood = 1 #temp
+			iron = 2
+			coal = 2
 		}
 	}
 

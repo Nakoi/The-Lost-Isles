@@ -29,11 +29,9 @@ equipments = {
 
 		build_cost_ic = 120
 		resources = {
-			#rare_metal = 2
-			#crystal = 1
-			#chemicals = 3
-			#oil = 1
-			wood = 1
+			rare_metal = 2
+			crystal = 1
+			chemicals = 3
 		}
 		
 		fuel_consumption = 0.25
@@ -64,11 +62,9 @@ equipments = {
 		build_cost_ic = 180
 
 		resources = {
-			#rare_metal = 2
-			#crystal = 1
-			#chemicals = 3
-			#oil = 1
-			wood = 1
+			rare_metal = 2
+			crystal = 1
+			chemicals = 3
 		}
 	}
 
