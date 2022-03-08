@@ -55,7 +55,7 @@ equipments = {
 		year = 100
 	
 		archetype = rifle_equipment
-		#parent = infantry_equipment_0
+		parent = rifle_equipment_1
 		active = no
 		priority = 10
 		visual_level = 1
@@ -84,9 +84,9 @@ equipments = {
 		year = 1936
 	
 		archetype = rifle_equipment
-		#parent = infantry_equipment_0
+		parent = rifle_equipment_2
 		active = no
-		priority = 10
+		priority = 15
 		visual_level = 1
 		armor_value = 2
 
@@ -113,9 +113,9 @@ equipments = {
 		year = 850
 	
 		archetype = rifle_equipment
-		#parent = infantry_equipment_0
+		parent = rifle_equipment_3
 		active = no
-		priority = 10
+		priority = 20
 		visual_level = 1
 
 		#Defensive Abilities
@@ -151,9 +151,9 @@ equipments = {
 		year = 963
 	
 		archetype = rifle_equipment
-		#parent = infantry_equipment_0
+		parent = rifle_equipment_4
 		active = no
-		priority = 10
+		priority = 25
 		visual_level = 1
 
 		#Defensive Abilities
@@ -189,9 +189,9 @@ equipments = {
 		year = 963
 	
 		archetype = rifle_equipment
-		#parent = infantry_equipment_0
+		parent = rifle_equipment_5
 		active = no
-		priority = 10
+		priority = 30
 		visual_level = 1
 
 		#Defensive Abilities
