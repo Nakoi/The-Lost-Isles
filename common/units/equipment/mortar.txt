@@ -6,7 +6,7 @@ equipments = {
 		year = 957
 	
 		is_archetype = yes
-		picture = archetype_infantry_equipment		
+		picture = archetype_mortar_equipment		
 		is_buildable = no
 		type = armor
 		group_by = archetype
@@ -36,7 +36,7 @@ equipments = {
 		
 		build_cost_ic = 55
 		resources = {
-			rare_metal = 1
+			rare_metals = 1
 			wood = 1
 			chemicals = 2
 		}
@@ -76,7 +76,7 @@ equipments = {
 		build_cost_ic = 130
 
 		resources = {
-			rare_metal = 1
+			rare_metals = 1
 			wood = 2
 			chemicals = 3
 		}
@@ -85,6 +85,8 @@ equipments = {
 
 
 }
+
+
 
 
 
