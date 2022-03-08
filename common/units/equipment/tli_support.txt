@@ -1,5 +1,5 @@
 equipments = {
-    support_equipment_1 = {
+    support_equipment = {
 		year = 100
 	
 		is_archetype = yes
@@ -24,6 +24,15 @@ equipments = {
 
 		fuel_consumption = 0.25
 		#food
+	}
+
+	support_equipment_1 = {
+		year = 100
+	
+		archetype = support_equipment
+		active = no
+		priority = 05
+		visual_level = 0
 	}
 
 
