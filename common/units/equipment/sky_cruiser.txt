@@ -91,7 +91,7 @@ equipments = {
 		year = 1936
 	
 		archetype = sky_cruiser_equipment
-		#parent = infantry_equipment_0
+		parent = sky_cruiser_equipment_1
 		active = no
 		priority = 10
 		visual_level = 1

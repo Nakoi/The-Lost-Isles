@@ -58,7 +58,7 @@ equipments = {
 		year = 965
 	
 		archetype = mortar_equipment
-		#parent = infantry_equipment_0
+		parent = mortar_equipment_0
 		active = no
 		priority = 10
 		visual_level = 1

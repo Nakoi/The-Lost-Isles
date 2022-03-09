@@ -59,6 +59,7 @@ equipments = {
 		year = 1936
 	
 		archetype = howitzer_equipment
+		parent = howitzer_equipment_1
 		active = no
 		priority = 10
 		visual_level = 1

@@ -49,7 +49,7 @@ equipments = {
 		year = 971
 	
 		archetype = motorized_equipment
-		#parent = infantry_equipment_0
+		parent = motorized_equipment_1
 		active = no
 		priority = 10
 		visual_level = 1

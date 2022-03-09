@@ -61,6 +61,7 @@ equipments = {
 		year = 1936
 	
 		archetype = air_carabiners_equipment
+		parent = twi_lazer_equipment_1
 		active = no
 		priority = 05
 		visual_level = 0
@@ -102,6 +103,7 @@ equipments = {
 		year = 1936
 	
 		archetype = air_skirmisher_equipment
+		parent = air_carabiners_equipment_1
 		active = no
 		priority = 05
 		visual_level = 0
@@ -143,6 +145,7 @@ equipments = {
 		year = 1936
 	
 		archetype = air_skirmisher_equipment
+		parent = twi_lazer_equipment_1
 		active = no
 		priority = 05
 		visual_level = 0
@@ -185,6 +188,7 @@ equipments = {
 		year = 1936
 	
 		archetype = air_skirmisher_equipment
+		parent = air_grenadiers_equipment_1
 		active = no
 		priority = 05
 		visual_level = 0

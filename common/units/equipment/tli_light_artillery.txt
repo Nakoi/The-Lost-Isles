@@ -59,6 +59,7 @@ equipments = {
 		year = 1940
 
 		archetype = anti_air_equipment
+		parent = smoll_artillery_equipment_1
 		priority = 80
 		visual_level = 1
 
