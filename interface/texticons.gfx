@@ -568,7 +568,7 @@ spriteTypes = {
 	}	
 
 	spriteType = {
-		name = "GFX_unit_guard_icon_small"
+		name = "GFX_unit_guards_icon_small"
 		texturefile = "gfx/texticons/unit_guard_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
