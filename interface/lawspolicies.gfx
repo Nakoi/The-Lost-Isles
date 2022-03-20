@@ -135,6 +135,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ponyraceicon.dds"	
 	}
 	
+	SpriteType = {
+		name = "GFX_idea_race_deet"
+		texturefile = "gfx/interface/ideas/deerraceicon.dds"	
+	}
+	
 	###TECH LEVEL###
 	
 	SpriteType = {
