@@ -1809,7 +1809,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_outdated1
+		id = genfoc_mercantilism_buff_1
+		prerequisite = { focus = genfoc_mercantilism }
 		x = 11
 		y = 7
 		cost = 10
@@ -1818,12 +1819,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_ideas = genidea_mercantilism_buff_1
 		}
 	}
 	
 	focus = {
-		id = genfoc_outdated2
+		id = genfoc_mercantilism_buff_2
+		prerequisite = { focus = genfoc_mercantilism_buff_1 }
 		x = 11
 		y = 8
 		cost = 15
@@ -1832,7 +1834,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-
+			swap_ideas = {
+				add_idea = genidea_mercantilism_buff_2
+				remove_idea = genidea_mercantilism_buff_1
+			}
 		}
 	}
 	
@@ -1902,7 +1907,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = genfoc_outdated3
+		id = genfoc_feudalism_buff_1
+		prerequisite = { focus = genfoc_feudalism }
 		x = 13
 		y = 7
 		cost = 10
@@ -1911,11 +1917,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_ideas = genidea_feudalism_buff_1
 		}
 	}
 	
 	focus = {
-		id = genfoc_outdated4
+		id = genfoc_feudalism_buff_2
+		prerequisite = { focus = genfoc_feudalism_buff_1 }
 		x = 13
 		y = 8
 		cost = 15
@@ -1924,7 +1932,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = genidea_feudalism_buff_2
+				remove_idea = genidea_feudalism_buff_1
+			}
 		}
 	}
 	
