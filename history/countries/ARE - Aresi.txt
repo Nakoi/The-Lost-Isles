@@ -1,4 +1,4 @@
-capital = 135
+capital = 897
 
 set_research_slots = 1
 
@@ -13,23 +13,23 @@ navy_experience = 30
 air_experience = 30
 
 set_politics = {
-	ruling_party = ideology_isolationism
+	ruling_party = ideology_imperialism
 }
 
 set_popularities = {
-	ideology_isolationism = 80
-	ideology_imperialism = 20
-
+	ideology_imperialism = 54
+	ideology_solidarism = 23
+	ideology_isolationism = 23
 }
 
 set_convoys = 100
 
 add_ideas = {
-	closed_economy
+	export_focus
 	genidea_primitive_dev
-	policy_despotism
-	policy_feudalism
-	policy_regressive
+	policy_auth_democracy
+	policy_mercantilism
+	policy_revolutionary
 }
 
 if = {
