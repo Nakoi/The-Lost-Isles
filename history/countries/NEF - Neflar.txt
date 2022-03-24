@@ -1,10 +1,10 @@
-capital = 135
+capital = 808
 
 set_research_slots = 1
 
-set_stability = 0.5
+set_stability = 0.4
 
-set_war_support = 0.5
+set_war_support = 0.1
 
 army_experience = 30 
 
@@ -17,19 +17,20 @@ set_politics = {
 }
 
 set_popularities = {
-	ideology_isolationism = 80
-	ideology_imperialism = 20
-
+	ideology_isolationism = 50
+	ideology_continuism = 20
+	ideology_visionarism = 20
+	ideology_imperialism = 10
 }
 
-set_convoys = 100
+set_convoys = 0
 
 add_ideas = {
-	closed_economy
+	limited_exports
 	genidea_primitive_dev
-	policy_despotism
+	policy_aristocracy
+	policy_progressive
 	policy_feudalism
-	policy_regressive
 }
 
 if = {
