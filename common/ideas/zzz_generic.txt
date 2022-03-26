@@ -870,7 +870,7 @@ ideas = {
 			}
 		}
 		
-		genidea_path_of_warrior_1 = {
+		genidea_path_of_conqueror = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -880,10 +880,11 @@ ideas = {
 			modifier = {
 				experience_gain_army_factor = 0.1
 				army_attack_factor = 0.1
+				resistance_decay = 0.1
 			}
 		}
 		
-		genidea_path_of_warrior_2 = {
+		genidea_path_of_subjugator = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
