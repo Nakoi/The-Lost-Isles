@@ -2600,7 +2600,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
-				category = infantry_weapons
+				category = tli_infantry
 			}
 		}
 	}
@@ -2610,7 +2610,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_our_warriors }
 		x = 35
 		y = 1
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2621,15 +2621,16 @@ focus_tree = {
 				has_idea = genidea_primitive_dev
 			}
 		}
-		available = {
-			has_army_experience > 40
-		}
 		bypass = {
 			has_idea = genidea_civilised_dev
 		}
 		
 		completion_reward = {
-			army_experience = -40
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = tli_infantry
+			}
 			random_owned_controlled_state = {	
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -2646,7 +2647,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_aid_blacksmiths }
 		x = 34
 		y = 2
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2657,25 +2658,33 @@ focus_tree = {
 				has_idea = genidea_primitive_dev
 			}
 		}
-		available = {
-			has_army_experience > 30
-		}
 		bypass = {
 			has_idea = genidea_civilised_dev
 		}
 		
 		completion_reward = {
-			army_experience = -30
-			add_timed_idea = { idea = genidea_engineer_cooperation days = 200 }
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
 	focus = {
-		id = genfoc_stockpile_support_eqipment
+		id = genfoc_support_our_warriors
 		prerequisite = { focus = genfoc_work_with_engineers focus = genfoc_work_with_armorers }
 		x = 34
 		y = 3
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2686,24 +2695,24 @@ focus_tree = {
 				has_idea = genidea_primitive_dev
 			}
 		}
-		available = {
-			has_army_experience > 10
-		}
-		available = {
-			has_equipment = {
-				support_equipment > 249
-			}
-		}
 		bypass = {
 			has_idea = genidea_civilised_dev
 		}
 		
 		completion_reward = {
-			army_experience = -10
+			army_experience = 10
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 3
-				category = support_tech
+				category = category_support_battalions
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -2713,7 +2722,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_aid_blacksmiths }
 		x = 36
 		y = 2
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2724,20 +2733,18 @@ focus_tree = {
 				has_idea = genidea_primitive_dev
 			}
 		}
-		available = {
-			has_army_experience > 40
-		}
 		bypass = {
 			has_idea = genidea_civilised_dev
 		}
 		
 		completion_reward = {
-			army_experience = -40
-			add_timed_idea = { idea = genidea_armorer_cooperation days = 200 }
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 1
-				category = infantry_weapons
+				uses = 2
+				technology = lamellar_armor
+				technology = plate_armor
+				technology = infantry_armor
+				technology = elite_armor
 			}
 			random_owned_controlled_state = {	
 				add_extra_state_shared_building_slots = 1
@@ -2755,7 +2762,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_work_with_armorers focus = genfoc_work_with_engineers }
 		x = 36
 		y = 3
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2771,7 +2778,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = genidea_art_of_war
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.75
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 	
@@ -2780,7 +2792,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_our_warriors }
 		x = 31
 		y = 1
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2791,16 +2803,13 @@ focus_tree = {
 				has_idea = genidea_primitive_dev
 			}
 		}
-		available = {
-			has_army_manpower = { size > 29999 }
-		}
 		bypass = {
 			has_idea = genidea_civilised_dev
 		}
 		
 		completion_reward = {
-			army_experience = 20
-			add_timed_idea = { idea = genidea_ready_for_conquest days = 120 }
+			army_experience = 10
+			add_manpower = 30000
 		}
 	}
 	
@@ -2857,7 +2866,7 @@ focus_tree = {
 			}
 		}
 		available = {
-			num_of_controlled_states > 10
+			num_of_controlled_states > 14
 		}
 		bypass = {
 			has_idea = genidea_civilised_dev
@@ -2865,17 +2874,7 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 20
-			add_ideas = genidea_path_of_warrior_1
-			IF = {
-				limit = {
-					has_idea = genidea_path_of_warrior_2
-				}
-				remove_ideas = genidea_path_of_warrior_1
-				swap_ideas = {
-					remove_idea = genidea_path_of_warrior_2
-					add_idea = genidea_path_of_warrior_3
-			    }
-			}
+			add_ideas = genidea_path_of_conqueror
 		}
 	}
 	
@@ -2896,7 +2895,7 @@ focus_tree = {
 			}
 		}
 		available = {
-			num_subjects > 2
+			num_subjects > 3
 		}
 		bypass = {
 			has_idea = genidea_civilised_dev
@@ -2904,28 +2903,18 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 20
-			add_ideas = genidea_path_of_warrior_2
-			IF = {
-				limit = {
-					has_idea = genidea_path_of_warrior_1
-				}
-				remove_ideas = genidea_path_of_warrior_2
-				swap_ideas = {
-					remove_idea = genidea_path_of_warrior_1
-					add_idea = genidea_path_of_warrior_3
-			    }
-			}
+			add_ideas = genidea_path_of_subjugator
 		}
 	}
 	
 	focus = {
 		id = genfoc_gunpowder_era
 		prerequisite = { focus = genfoc_open_university }
-		prerequisite = { focus = genfoc_stockpile_support_eqipment focus = genfoc_create_doctrine }
+		prerequisite = { focus = genfoc_support_our_warriors focus = genfoc_create_doctrine }
 		prerequisite = { focus = genfoc_path_of_conquest focus = genfoc_subjugate_neighbors }
 		x = 37
 		y = 4
-		cost = 10
+		cost = 15
 		ai_will_do = {
 			factor = 5
 		}
@@ -2942,6 +2931,7 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = gentext_primitive_civilised_advancement
+				hidden_effect = { set_technology = { tech_civilized = 1 } }
 				hidden_effect = {
 				swap_ideas = {
 					add_idea = genidea_civilised_dev
