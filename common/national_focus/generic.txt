@@ -2291,7 +2291,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_timed_idea = { idea = genidea_expanded_military_production days = 360 }
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
@@ -2340,7 +2339,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_timed_idea = { idea = genidea_expanded_civilian_production days = 360 }
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
@@ -2388,7 +2386,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_timed_idea = { idea = genidea_improved_infrastructure days = 360 }
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
@@ -3487,7 +3484,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_gunpowder_era }
 		x = 25
 		y = 5
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -3500,6 +3497,10 @@ focus_tree = {
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			army_experience = 20
 		}
 	}
 	
@@ -3522,6 +3523,21 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				technology = infantry_weapons3
+				technology = ranged_infantry_upgrade_1
+				technology = ranged_infantry_upgrade_2
+				technology = ranged_infantry_upgrade_3
+			}
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_4
+				amount = 1000
+			}
+		}
 	}
 	
 	focus = {
@@ -3542,6 +3558,18 @@ focus_tree = {
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 3.0
+				uses = 2
+				category = armor
+			}
+			add_equipment_to_stockpile = {
+				type = cannon_equipment_2
+				amount = 300
+			}
 		}
 	}
 	
@@ -3564,8 +3592,28 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				ahead_reduction = 2
+				uses = 2
+				category = armor
+			}		
+			add_equipment_to_stockpile = {
+				type = howitzer_equipment_1
+				amount = 100
+			}
+			add_equipment_to_stockpile = {
+				type = anti_air_equipment_1
+				amount = 100
+			}
+			add_equipment_to_stockpile = {
+				type = rocket_equipment_1
+				amount = 100
+			}
+		}
 	}
-	
+			
 	focus = {
 		id = genfoc_new_support_equipment
 		prerequisite = { focus = genfoc_develop_conventional_arty focus = genfoc_develop_experimental_arty }
@@ -3584,6 +3632,18 @@ focus_tree = {
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 3
+				category = category_support_battalions
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 250
+			}
 		}
 	}
 	
@@ -3605,6 +3665,27 @@ focus_tree = {
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				technology = infantry_armor
+				technology = infantry_armor_upgrade_1
+				technology = infantry_armor_upgrade_2
+				technology = elite_armor
+				technology = elite_armor_upgrade_1
+				technology = elite_armor_upgrade_2
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -3628,6 +3709,47 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+		
+		completion_reward = {
+			army_experience = 100
+			add_ideas = recruit_volunteer
+			IF = {
+				limit = {
+					has_idea = recruit_irregular_army
+				}
+				swap_ideas = {
+					remove_idea = recruit_irregular_army
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_peacetime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_universalcon
+				}
+				swap_ideas = {
+					remove_idea = recruit_universalcon
+					add_idea = recruit_volunteer
+				}
+			}
+		}
 	}
 	
 	focus = {
@@ -3649,6 +3771,47 @@ focus_tree = {
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			army_experience = 100
+			add_ideas = recruit_militia_peacetime
+			IF = {
+				limit = {
+					has_idea = recruit_irregular_army
+				}
+				swap_ideas = {
+					remove_idea = recruit_irregular_army
+					add_idea = recruit_militia_peacetime
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_volunteer
+				}
+				swap_ideas = {
+					remove_idea = recruit_volunteer
+					add_idea = recruit_militia_peacetime
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_militia_peacetime
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_universalcon
+				}
+				swap_ideas = {
+					remove_idea = recruit_universalcon
+					add_idea = recruit_militia_peacetime
+				}
+			}
 		}
 	}
 	
@@ -3672,6 +3835,47 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+		
+		completion_reward = {
+			army_experience = 100
+			add_ideas = recruit_selectivecon
+			IF = {
+				limit = {
+					has_idea = recruit_irregular_army
+				}
+				swap_ideas = {
+					remove_idea = recruit_irregular_army
+					add_idea = recruit_selectivecon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_volunteer
+				}
+				swap_ideas = {
+					remove_idea = recruit_volunteer
+					add_idea = recruit_selectivecon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_peacetime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_selectivecon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_universalcon
+				}
+				swap_ideas = {
+					remove_idea = recruit_universalcon
+					add_idea = recruit_selectivecon
+				}
+			}
+		}
 	}
 	
 	focus = {
@@ -3693,14 +3897,23 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+		
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.75
+				uses = 2
+				category = land_doctrine
+			}
+		}
 	}
 	
 	focus = {
 		id = genfoc_establish_special_forces
-		prerequisite = { focus = genfoc_update_army_doctrine }
-		x = 25
+		prerequisite = { focus = genfoc_update_army_doctrine focus = genfoc_modern_army_organisation }
+		x = 26
 		y = 8
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -3711,14 +3924,24 @@ focus_tree = {
 				has_idea = genidea_civilised_dev
 			}
 		}
+		available = {
+			has_army_size = {
+				size > 15
+				type = armor
+			}
+		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_pride_of_army
 		}
 	}
 	
 	focus = {
-		id = genfoc_phase_out_melee
-		prerequisite = { focus = genfoc_conscript_army focus = genfoc_citizen_army focus = genfoc_volunteer_army }
+		id = genfoc_modern_army_organisation
+		prerequisite = { focus = genfoc_update_army_doctrine focus = genfoc_modern_army_organisation }
 		x = 27
 		y = 7
 		cost = 10
@@ -3735,26 +3958,15 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
-	}
-	
-	focus = {
-		id = genfoc_modern_army_organisation
-		prerequisite = { focus = genfoc_phase_out_melee }
-		x = 27
-		y = 8
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
 		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = gentext_civilised_dev
-				has_idea = genidea_civilised_dev
+		completion_reward = {
+				add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				technology = professional_officers
+				technology = centralised_planning
+				technology = army_organisation4
 			}
-		}
-		bypass = {
-			has_idea = genidea_industrial_dev
 		}
 	}
 	
