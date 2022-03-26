@@ -117,7 +117,7 @@ sub_units = {
 
 
 
-	infantry_armor = {
+	armored_infantry = {
 		abbreviation = "INF"
 		sprite = infantry
 		map_icon_category = infantry
@@ -161,7 +161,7 @@ sub_units = {
 		supply_consumption = 1
 	
 		need = {
-			melee_equipment = 80
+			rifle_equipment = 80
 		}
 	}
 
