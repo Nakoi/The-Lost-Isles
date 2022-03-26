@@ -1488,7 +1488,7 @@ technologies = {
         }
     }
 
-    infantry_armor = {
+   infantry_armor = {
         research_cost = 2 # Cost in time, where 1 is the default research time length.
         start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
         
@@ -1498,7 +1498,7 @@ technologies = {
         }
 
         enable_subunits = {
-            infantry_armor
+            armored_infantry
         }
 
         # Controls which folder (tab) the technology appears under.
