@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 ###GENERAL LOCALISATION###
  ideology_militarism:0 "Militarism"
  ideology_imperialism:0 "Imperialism"
@@ -322,8 +322,6 @@
  genfoc_update_army_doctrine_desc:0 ""
  genfoc_establish_special_forces:0 "Establish Special Forces"
  genfoc_establish_special_forces_desc:0 ""
- genfoc_phase_out_melee:0 "Phase out Melee"
- genfoc_phase_out_melee_desc:0 ""
  genfoc_modern_army_organisation:0 "Modern Army Organisation"
  genfoc_modern_army_organisation_desc:0 ""
  genfoc_unite_the_region:0 "Unite the Region"
@@ -521,13 +519,16 @@
  genidea_laissez_faire_buff_1:0 "Laissez-Faire Policy"
  genidea_laissez_faire_buff_2:0 "Laissez-Faire Policy"
  
-###GENERIC MISSION TREE IDEAS###
+###NEW MISSION TREE IDEAS###
+ genidea_path_of_conqueror:0 "Path of the Conqueror"
+ genidea_path_of_subjugator:0 "Path of the Subjugator"
+ genidea_pride_of_army:0 "The Pride of the Army"
+ 
+###OLD MISSION TREE IDEAS###
  genidea_engineer_cooperation:0 "Engineer Cooperation"
  genidea_armorer_cooperation:0 "Armorer Cooperation"
  genidea_art_of_war:0 "The Art of War"
  genidea_ready_for_conquest:0 "Ready for Conquest"
- genidea_path_of_conqueror:0 "Path of the Conqueror"
- genidea_path_of_subjugator:0 "Path of the Subjugator"
  genidea_path_of_warrior_3:0 "Path of the Warrior"
  genidea_expanded_military_production:0 "Expanded Military Production"
  genidea_expanded_civilian_production:0 "Expanded Civilian Production"
