@@ -1,0 +1,56 @@
+capital = 165
+
+set_research_slots = 1
+
+set_stability = 0.8
+
+set_war_support = 0.2
+
+army_experience = 30 
+
+navy_experience = 30
+
+air_experience = 30
+
+set_politics = {
+	ruling_party = ideology_continuism
+}
+
+set_popularities = {
+	ideology_continuism = 75
+	ideology_isolationism = 15
+	ideology_visionarism = 10
+}
+
+set_convoys = 0
+
+add_ideas = {
+	limited_exports
+	genidea_primitive_dev
+	policy_despotism
+	policy_reactionary
+	policy_feudalism
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		xebec_hull = 1
+	}
+}
+
+set_technology = { 
+	infantry_weapons = 1
+	tech_support = 1
+	written_language = 1
+	feudal_armies = 1
+	scribe_caste = 1
+	artisans = 1
+	supply_wagon = 1
+	improvised_tools = 1
+	construction_0 = 1
+	agriculture_0 = 1
+	development = 1
+	tech_primitive = 1
+}
+
