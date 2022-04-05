@@ -18,14 +18,14 @@ set_politics = {
 
 set_popularities = {
 	ideology_imperialism = 47
-	ideology_militarism = 46
+	ideology_visionarism = 46
 	ideology_continuism = 7
 }
 
 set_convoys = 100
 
 add_ideas = {
-	recruit_universalcon
+	recruit_volunteer
 	limited_exports
 	genidea_civilised_dev
 	policy_oligarchy
