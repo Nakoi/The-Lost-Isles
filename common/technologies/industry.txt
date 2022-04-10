@@ -29,6 +29,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -43,6 +47,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitivetools
         }
         
         # Weighting for the AI to pick the technology
@@ -75,7 +80,11 @@ technologies = {
 			leads_to_tech = specialized_tools
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -90,6 +99,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitivetools
         }
         
         # Weighting for the AI to pick the technology
@@ -123,6 +133,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -137,6 +151,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitivetools
+			industry_civilizedtools
         }
         
         # Weighting for the AI to pick the technology
@@ -170,6 +186,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -184,6 +204,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedtools
         }
         
         # Weighting for the AI to pick the technology
@@ -217,6 +238,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -231,6 +256,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedtools
         }
         
         # Weighting for the AI to pick the technology
@@ -264,6 +290,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -278,6 +308,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedtools
         }
         
         # Weighting for the AI to pick the technology
@@ -311,6 +342,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -325,6 +360,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedtools
         }
         
         # Weighting for the AI to pick the technology
@@ -363,6 +399,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -377,6 +417,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedtools
         }
         
         # Weighting for the AI to pick the technology
@@ -410,6 +451,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -424,6 +469,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedtools
+			industry_industrialtools
         }
         
         # Weighting for the AI to pick the technology
@@ -457,6 +504,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -471,6 +522,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialtools
         }
         
         # Weighting for the AI to pick the technology
@@ -504,6 +556,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -518,6 +574,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialtools
         }
         
         # Weighting for the AI to pick the technology
@@ -551,6 +608,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -565,6 +626,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialtools
         }
         
         # Weighting for the AI to pick the technology
@@ -593,6 +655,10 @@ technologies = {
         research_cost = 3 # Cost in time, where 1 is the default research time length.
         start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -607,6 +673,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialtools
         }
         
         # Weighting for the AI to pick the technology
@@ -640,6 +707,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -654,6 +725,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveengi
         }
         
         # Weighting for the AI to pick the technology
@@ -686,6 +758,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -700,6 +776,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveengi
+			industry_civilizedengi
         }
         
         # Weighting for the AI to pick the technology
@@ -739,6 +817,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -753,6 +835,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedengi
         }
         
         # Weighting for the AI to pick the technology
@@ -790,6 +873,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -804,6 +891,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedengi
+			industry_industrialengi
         }
         
         # Weighting for the AI to pick the technology
@@ -840,7 +929,10 @@ technologies = {
 			leads_to_tech = advanced_combustion_engine
 			research_cost_coeff = 1
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 
         # Controls which folder (tab) the technology appears under.
         folder = {
@@ -853,7 +945,12 @@ technologies = {
             }
         }
         
-        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialengi
+        }
+		
         # Weighting for the AI to pick the technology
         ai_will_do = {
             factor = 1
@@ -884,6 +981,10 @@ technologies = {
         research_cost = 5.3 # Cost in time, where 1 is the default research time length.
 		start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
 		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -898,6 +999,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialengi
         }
         
         # Weighting for the AI to pick the technology
@@ -936,6 +1038,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -950,6 +1056,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveprod
         }
         
         # Weighting for the AI to pick the technology
@@ -985,6 +1092,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -999,6 +1110,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveprod
         }
         
         # Weighting for the AI to pick the technology
@@ -1036,6 +1148,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1050,6 +1166,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveprod
+			industry_civilizedprod
         }
         
         # Weighting for the AI to pick the technology
@@ -1087,6 +1205,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1101,6 +1223,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedprod
         }
         
         # Weighting for the AI to pick the technology
@@ -1138,6 +1261,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1152,6 +1279,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedprod
+			industry_industrialprod
         }
         
         # Weighting for the AI to pick the technology
@@ -1189,6 +1318,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1203,6 +1336,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialprod
         }
         
         # Weighting for the AI to pick the technology
@@ -1235,6 +1369,10 @@ technologies = {
         research_cost = 5.3 # Cost in time, where 1 is the default research time length.
         start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1249,6 +1387,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialprod
         }
         
         # Weighting for the AI to pick the technology
@@ -1287,11 +1426,15 @@ technologies = {
 			leads_to_tech = early_train
 			research_cost_coeff = 1
         }
-
+		
         enable_equipments = {
 			train_equipment_1
 		}
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1306,6 +1449,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_logi	
         }
         
         # Weighting for the AI to pick the technology
@@ -1340,6 +1484,10 @@ technologies = {
 			train_equipment_2
 		}
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1362,6 +1510,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_logi	
         }
         
         # Weighting for the AI to pick the technology
@@ -1402,6 +1551,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1416,6 +1569,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_logi	
         }
         
         # Weighting for the AI to pick the technology
@@ -1452,6 +1606,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1466,6 +1624,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_logi	
         }
         
         # Weighting for the AI to pick the technology
@@ -1501,6 +1660,10 @@ technologies = {
         research_cost = 2.5 # Cost in time, where 1 is the default research time length.
         start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1519,6 +1682,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_logi	
         }
         
         # Weighting for the AI to pick the technology
@@ -1558,7 +1722,11 @@ technologies = {
             research_cost_coeff = 1
             leads_to_tech = luxury_goods_manufacturing_1
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1573,6 +1741,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_luxury
         }
         
         # Weighting for the AI to pick the technology
@@ -1609,7 +1778,11 @@ technologies = {
             research_cost_coeff = 1
             leads_to_tech = luxury_goods_manufacturing_2
         }
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1624,6 +1797,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_luxury
         }
         
         # Weighting for the AI to pick the technology
@@ -1655,7 +1829,11 @@ technologies = {
     luxury_goods_manufacturing_2 = {
         research_cost = 2.5 # Cost in time, where 1 is the default research time length.
         start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1670,6 +1848,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_luxury
         }
         
         # Weighting for the AI to pick the technology
@@ -1707,6 +1886,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1721,6 +1904,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -1759,6 +1943,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1773,6 +1961,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -1806,6 +1995,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1820,6 +2013,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -1854,6 +2048,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1868,6 +2066,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveconstr
+			industry_civilizedconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -1901,6 +2101,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1915,6 +2119,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -1949,6 +2154,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -1963,6 +2172,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -1996,6 +2206,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2010,6 +2224,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -2044,6 +2259,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2058,6 +2277,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -2091,6 +2311,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2105,6 +2329,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedconstr
+			industry_industrialconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -2138,7 +2364,11 @@ technologies = {
 			leads_to_tech = construction_10
 			research_cost_coeff = 1
         }
-        
+		
+        dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2153,6 +2383,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -2186,6 +2417,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2200,6 +2435,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -2234,6 +2470,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2248,6 +2488,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -2276,6 +2517,10 @@ technologies = {
         research_cost = 2.5 # Cost in time, where 1 is the default research time length.
         start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2290,6 +2535,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialconstr
         }
         
         # Weighting for the AI to pick the technology
@@ -2324,6 +2570,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2338,6 +2588,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_fort
         }
         
         # Weighting for the AI to pick the technology
@@ -2377,6 +2628,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2391,6 +2646,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_fort
         }
         
         # Weighting for the AI to pick the technology
@@ -2430,6 +2686,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2444,6 +2704,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_fort
         }
         
         # Weighting for the AI to pick the technology
@@ -2478,6 +2739,10 @@ technologies = {
         research_cost = 2 # Cost in time, where 1 is the default research time length.
         start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2492,6 +2757,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_fort
         }
         
         # Weighting for the AI to pick the technology
@@ -2531,6 +2797,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2545,6 +2815,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveagri
         }
         
         # Weighting for the AI to pick the technology
@@ -2577,6 +2848,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2591,6 +2866,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveagri
         }
         
         # Weighting for the AI to pick the technology
@@ -2635,6 +2911,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2649,6 +2929,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveagri
         }
         
         # Weighting for the AI to pick the technology
@@ -2683,6 +2964,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2697,6 +2982,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveagri
+			industry_civilizedagri
         }
         
         # Weighting for the AI to pick the technology
@@ -2741,6 +3028,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2753,8 +3044,9 @@ technologies = {
         }
         
         # Which technology categories apply to this technology.
-        categories = {
+         categories = {
             industry
+			industry_civilizedagri
         }
         
         # Weighting for the AI to pick the technology
@@ -2787,6 +3079,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2801,6 +3097,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedagri
         }
         
         # Weighting for the AI to pick the technology
@@ -2843,6 +3140,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2857,6 +3158,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedagri
         }
         
         # Weighting for the AI to pick the technology
@@ -2890,6 +3192,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2904,6 +3210,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedagri
         }
         
         # Weighting for the AI to pick the technology
@@ -2946,6 +3253,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -2960,6 +3271,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedagri
+			industry_industrialagri
         }
         
         # Weighting for the AI to pick the technology
@@ -2993,6 +3306,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3007,6 +3324,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialagri
         }
         
         # Weighting for the AI to pick the technology
@@ -3049,6 +3367,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3061,8 +3383,9 @@ technologies = {
         }
         
         # Which technology categories apply to this technology.
-        categories = {
+         categories = {
             industry
+			industry_industrialagri
         }
         
         # Weighting for the AI to pick the technology
@@ -3096,6 +3419,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3108,8 +3435,9 @@ technologies = {
         }
         
         # Which technology categories apply to this technology.
-        categories = {
+         categories = {
             industry
+			industry_industrialagri
         }
         
         # Weighting for the AI to pick the technology
@@ -3146,7 +3474,11 @@ technologies = {
 				amount = 1
 			}
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3159,8 +3491,9 @@ technologies = {
         }
         
         # Which technology categories apply to this technology.
-        categories = {
+         categories = {
             industry
+			industry_industrialagri
         }
         
         # Weighting for the AI to pick the technology
@@ -3195,6 +3528,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3209,6 +3546,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveeco
         }
         
         # Weighting for the AI to pick the technology
@@ -3241,6 +3579,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_primitive = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3255,6 +3597,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveeco
         }
         
         # Weighting for the AI to pick the technology
@@ -3287,6 +3630,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3301,6 +3648,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_primitiveeco
+			industry_civilizedeco
         }
         
         # Weighting for the AI to pick the technology
@@ -3334,6 +3683,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3348,6 +3701,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedeco
         }
         
         # Weighting for the AI to pick the technology
@@ -3380,6 +3734,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3394,6 +3752,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedeco
         }
         
         # Weighting for the AI to pick the technology
@@ -3427,6 +3786,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3441,6 +3804,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedeco
         }
         
         # Weighting for the AI to pick the technology
@@ -3473,6 +3837,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_civilized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3487,6 +3855,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedeco
         }
         
         # Weighting for the AI to pick the technology
@@ -3518,6 +3887,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3532,6 +3905,8 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_civilizedeco
+			industry_industrialeco
         }
         
         # Weighting for the AI to pick the technology
@@ -3564,6 +3939,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3578,6 +3957,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialeco
         }
         
         # Weighting for the AI to pick the technology
@@ -3611,6 +3991,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3625,6 +4009,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialeco
         }
         
         # Weighting for the AI to pick the technology
@@ -3656,6 +4041,10 @@ technologies = {
 			research_cost_coeff = 1
         }
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3670,6 +4059,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialeco
         }
         
         # Weighting for the AI to pick the technology
@@ -3699,6 +4089,10 @@ technologies = {
         research_cost = 3 # Cost in time, where 1 is the default research time length.
         start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
         
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
         # Controls which folder (tab) the technology appears under.
         folder = {
             name = industry_folder # Found in countrytechtreeview.gui
@@ -3713,6 +4107,7 @@ technologies = {
         # Which technology categories apply to this technology.
         categories = {
             industry
+			industry_industrialeco
         }
         
         # Weighting for the AI to pick the technology
