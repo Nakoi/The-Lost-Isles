@@ -31,6 +31,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
 		research_cost = 1.15
 		start_year = 100
 		folder = {
@@ -48,6 +52,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_tribalresearch
 		}
 
 	}
@@ -60,6 +65,10 @@ technologies = {
 			leads_to_tech = printing_press 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_primitive = 1
+        }
 		
 		research_cost = 1.15
 		start_year = 400
@@ -78,6 +87,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_primitiveresearch
 		}
 
 	}
@@ -99,6 +109,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
 		research_cost = 1.15
 		start_year = 600
 		folder = {
@@ -116,6 +130,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_primitiveresearch
 		}
 
 	}
@@ -132,6 +147,10 @@ technologies = {
 			leads_to_tech = basic_chemistry 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 2.49
 		start_year = 800
@@ -150,6 +169,8 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_primitiveresearch
+			science_civilizedresearch
 		}
 
 	}
@@ -171,6 +192,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
 		research_cost = 2.49
 		start_year = 850
 		folder = {
@@ -188,6 +213,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_civilizedresearch
 		}
 
 	}
@@ -200,6 +226,10 @@ technologies = {
 			leads_to_tech = research_buff7 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 2.49
 		start_year = 957
@@ -218,6 +248,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_civilizedresearch
 		}
 
 	}
@@ -239,6 +270,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
 		research_cost = 2.49
 		start_year = 959
 		folder = {
@@ -256,6 +291,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_civilizedresearch
 		}
 
 	}
@@ -268,6 +304,10 @@ technologies = {
 			leads_to_tech = research_buff9 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 2.49
 		start_year = 961
@@ -286,6 +326,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_civilizedresearch
 		}
 
 	}
@@ -307,6 +348,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 3
 		start_year = 963
@@ -325,6 +369,8 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_civilizedresearch
+			science_industrialresearch
 		}
 
 	}
@@ -337,6 +383,10 @@ technologies = {
 			leads_to_tech = research_buff11 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 3
 		start_year = 965
@@ -355,6 +405,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_industrialresearch
 		}
 
 	}
@@ -376,6 +427,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 3
 		start_year = 967
 		folder = {
@@ -393,6 +448,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_industrialresearch
 		}
 
 	}
@@ -405,6 +461,10 @@ technologies = {
 			leads_to_tech = research_buff13 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 3.6
 		start_year = 969
@@ -423,6 +483,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_industrialresearch
 		}
 
 	}
@@ -439,6 +500,10 @@ technologies = {
 			leads_to_tech = decryption6 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 3.6
 		start_year = 971
@@ -457,6 +522,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_industrialresearch
 		}
 
 	}
@@ -464,6 +530,10 @@ technologies = {
 	encryption1 = {
 
         crypto_strength = 1
+		
+		dependencies = {
+            tech_primitive = 1
+        }
 		
 		research_cost = 1.26
 		start_year = 600
@@ -482,6 +552,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -489,6 +560,10 @@ technologies = {
 	encryption2 = {
 
 		crypto_strength = 1
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 1.5
 		start_year = 850
@@ -507,6 +582,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -514,6 +590,10 @@ technologies = {
 	encryption3 = {
 
 		crypto_strength = 1
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 1.74
 		start_year = 959
@@ -532,6 +612,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -539,6 +620,10 @@ technologies = {
 	encryption4 = {
 
 		crypto_strength = 2
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 2.11
 		start_year = 963
@@ -557,6 +642,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -564,6 +650,10 @@ technologies = {
 	encryption5 = {
 
 		crypto_strength = 2
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 2.11
 		start_year = 967
@@ -582,6 +672,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -589,6 +680,10 @@ technologies = {
 	encryption6 = {
 
 		crypto_strength = 2
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 2.54
 		start_year = 971
@@ -607,6 +702,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -614,6 +710,10 @@ technologies = {
 	decryption1 = {
 
 		decryption_power = 10
+		
+		dependencies = {
+            tech_primitive = 1
+        }
 		
 		research_cost = 1.26
 		start_year = 600
@@ -632,6 +732,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -639,6 +740,10 @@ technologies = {
 	decryption2 = {
 
 		decryption_power = 10
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 1.5
 		start_year = 850
@@ -657,6 +762,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -664,6 +770,10 @@ technologies = {
 	decryption3 = {
 
 		decryption_power = 15
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 1.74
 		start_year = 959
@@ -682,6 +792,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -689,6 +800,10 @@ technologies = {
 	decryption4 = {
 
 		decryption_power = 15
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 2.11
 		start_year = 963
@@ -707,6 +822,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -714,6 +830,10 @@ technologies = {
 	decryption5 = {
 
 		decryption_power = 25
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 2.11
 		start_year = 967
@@ -732,6 +852,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -739,6 +860,10 @@ technologies = {
 	decryption6 = {
 
 		decryption_power = 25
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 2.54
 		start_year = 971
@@ -757,6 +882,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_crypto
 		}
 
 	}
@@ -772,6 +898,10 @@ technologies = {
 			leads_to_tech = medicine 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 2.49
 		start_year = 850
@@ -790,6 +920,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_chemistry
 		}
 
 	}
@@ -805,6 +936,10 @@ technologies = {
 			leads_to_tech = anatomy_studies 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 3
 		start_year = 959
@@ -823,6 +958,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_chemistry
 		}
 
 	}
@@ -838,6 +974,10 @@ technologies = {
 			leads_to_tech = germ_theory 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 3.76
 		start_year = 963
@@ -856,6 +996,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_chemistry
 		}
 
 	}
@@ -871,6 +1012,10 @@ technologies = {
 			leads_to_tech = penicillin 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 3.76
 		start_year = 967
@@ -889,6 +1034,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_chemistry
 		}
 
 	}
@@ -898,6 +1044,10 @@ technologies = {
 		casualty_trickleback = 0.05
 		experience_loss_factor = -0.05
 		supply_consumption_factor = 0.10
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 4.21
 		start_year = 971
@@ -916,6 +1066,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_chemistry
 		}
 
 	}
@@ -964,6 +1115,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
 		research_cost = 2.49
 		start_year = 400
 		folder = {
@@ -981,6 +1136,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_armyorg
 		}
 
 	}
@@ -1029,6 +1185,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
 		research_cost = 2.49
 		start_year = 600
 		folder = {
@@ -1046,6 +1206,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_armyorg
 		}
 
 	}
@@ -1094,6 +1255,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
 		research_cost = 3
 		start_year = 850
 		folder = {
@@ -1111,6 +1276,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_armyorg
 		}
 
 	}
@@ -1159,6 +1325,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
 		research_cost = 3.43
 		start_year = 959
 		folder = {
@@ -1176,6 +1346,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_armyorg
 		}
 
 	}
@@ -1190,6 +1361,10 @@ technologies = {
 			leads_to_tech = divisional_structure 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 4.21
 		start_year = 963
@@ -1208,6 +1383,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_armyorg
 		}
 
 	}
@@ -1250,6 +1426,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 4.21
 		start_year = 967
 		folder = {
@@ -1267,6 +1447,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_armyorg
 		}
 
 	}
@@ -1305,6 +1486,10 @@ technologies = {
 			}
 		}
 		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
 		research_cost = 4.21
 		start_year = 971
 		folder = {
@@ -1322,6 +1507,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_armyorg
 		}
 
 	}
@@ -1336,6 +1522,10 @@ technologies = {
 			leads_to_tech = temple_schools 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_primitive = 1
+        }
 		
 		research_cost = 2.49
 		start_year = 400
@@ -1354,6 +1544,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_education
 		}
 
 	}
@@ -1368,6 +1559,10 @@ technologies = {
 			leads_to_tech = rulerSponsored_schooling 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 3
 		start_year = 800
@@ -1386,6 +1581,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_education
 		}
 
 	}
@@ -1400,6 +1596,10 @@ technologies = {
 			leads_to_tech = education_buff4 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 3
 		start_year = 957
@@ -1418,6 +1618,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_education
 		}
 
 	}
@@ -1432,6 +1633,10 @@ technologies = {
 			leads_to_tech = education_buff5 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 3.44
 		start_year = 961
@@ -1450,6 +1655,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_education
 		}
 
 	}
@@ -1464,6 +1670,10 @@ technologies = {
 			leads_to_tech = education_buff6 
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 4.21
 		start_year = 965
@@ -1482,6 +1692,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_education
 		}
 
 	}
@@ -1491,6 +1702,10 @@ technologies = {
 		research_speed_factor = 0.08
 		political_power_gain = 0.20
 		experience_gain_factor = 0.125
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		research_cost = 4.94
 		start_year = 969
@@ -1509,6 +1724,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			science_education
 		}
 
 	}
