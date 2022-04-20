@@ -1,0 +1,106 @@
+capital = 632
+
+set_research_slots = 3
+
+set_stability = 0.2
+
+set_war_support = 0.9
+
+army_experience = 30 
+
+navy_experience = 30
+
+air_experience = 30
+
+set_politics = {
+	ruling_party = ideology_militarism
+}
+
+set_popularities = {
+	ideology_imperialism = 10
+	ideology_militarism = 40
+	ideology_visionarism = 20
+	ideology_isolationism = 30
+}
+
+set_convoys = 25
+
+add_ideas = {
+	limited_exports
+	recruit_militia_peacetime
+	genidea_civilised_dev
+	policy_aristocracy
+	policy_laissez_faire
+	policy_regressive
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		xebec_hull = 1
+	}
+}
+
+set_technology = { 
+	infantry_weapons = 1
+	infantry_upgrade = 1
+	infantry_weapons1 = 1
+	infantry_upgrade1 = 1
+	infantry_upgrade2 = 1
+	infantry_weapons2 = 1
+	infantry_upgrade3 = 1
+	crossbow = 1
+	crossbow1 = 1
+	gunpowder = 1
+	infantry_weapons3 = 1
+	lamellar_armor = 1
+	plate_armor = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers2 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	air_frigate = 1
+	air_skirmisher = 1
+	written_language = 1
+	basic_mathematics = 1
+	printing_press = 1
+	experimental_science = 1
+	feudal_armies = 1
+	mercenary_auxiliaries = 1
+	scribe_caste = 1
+	temple_schools = 1
+	encryption1 = 1
+	decryption1 = 1
+	artisans = 1
+	guild_system = 1
+	supply_wagon = 1
+	improvised_tools = 1
+	metal_tools = 1
+	specialized_tools = 1
+	advanced_metallurgy = 1
+	basic_engineering = 1
+	hot_air_balloon = 1
+	construction_0 = 1
+	construction_1 = 1
+	construction_2 = 1
+	construction_3 = 1
+	fortification_0 = 1
+	agriculture_0 = 1
+	agriculture_1 = 1
+	agriculture_2 = 1
+	agriculture_3 = 1
+	financial_technology_0 = 1
+	financial_technology_1 = 1
+	financial_technology_2 = 1
+	catapult = 1
+	catapult_upgrade = 1
+	trebuchet = 1
+	Ballista = 1
+	Ballista_upgrade = 1
+	cannon = 1
+	development = 1
+	tech_primitive = 1
+	tech_civilized = 1
+}
+
