@@ -5,10 +5,15 @@ ideas = {
 		use_list_view = yes
 		
 		free_trade = {
-
-			cost = 150
+			
+			cost = 200
 			removal_cost = -1
-
+			
+			available = {
+				NOT = { has_idea = policy_mercantilism }
+				NOT = { has_government = ideology_isolationism }
+			}
+			
 			modifier = {
 				min_export = 0.8
 				industrial_capacity_factory = 0.15
@@ -28,9 +33,13 @@ ideas = {
 		
 		export_focus = {
 
-			cost = 150
+			cost = 200
 			removal_cost = -1
-
+			
+			available = {
+				NOT = { has_government = ideology_isolationism }
+			}
+			
 			modifier = {
 				min_export = 0.5
 				industrial_capacity_factory = 0.1
@@ -52,9 +61,14 @@ ideas = {
 		
 		limited_exports = {
 
-			cost = 150
+			cost = 200
 			removal_cost = -1
-
+			
+			available = {
+				has_war = yes
+				has_war_support > 0.59	
+			}
+			
 			modifier = {
 				min_export = 0.25
 				industrial_capacity_factory = 0.05
@@ -74,9 +88,16 @@ ideas = {
 		
 		closed_economy = {
 
-			cost = 150
+			cost = 200
 			removal_cost = -1
-
+			
+			available = {
+				NOT = { has_idea = policy_mercantilism }
+				NOT = { has_government = ideology_solidarism }
+				has_war = yes
+				has_war_support > 0.79
+			}
+			
 			modifier = {
 				min_export = 0
 				#civilian_intel_to_others = 0.0
