@@ -1469,6 +1469,16 @@ technologies = {
         #    <type> = <float>
         #}
 
+		 enable_building = {
+            building = infrastructure
+            level = 3
+        }
+
+        enable_building = {
+            building = rail_way
+            level = 1
+        }
+        
 	}
 
 	early_train = {
@@ -1537,7 +1547,7 @@ technologies = {
 
         enable_building = {
             building = rail_way
-            level = 1
+            level = 3
         }
         
 	}
@@ -1591,69 +1601,10 @@ technologies = {
 
         enable_building = {
             building = infrastructure
-            level = 7
+            level = 11
         }
-        
-	}
-
-
-	steel_railroad = {
-        research_cost = 2 # Cost in time, where 1 is the default research time length.
-        start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
-		
-		path = {
-			leads_to_tech = integral_railroad
-			research_cost_coeff = 1
-        }
-        
-		dependencies = {
-            tech_industrialized = 1
-        }
-		
-        # Controls which folder (tab) the technology appears under.
-        folder = {
-            name = industry_folder # Found in countrytechtreeview.gui
-            
-            # Position in the tech tree interface
-            position = { 
-                x = 0
-                y = @965
-            }
-        }
-        
-        # Which technology categories apply to this technology.
-        categories = {
-            industry
-			industry_logi	
-        }
-        
-        # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
-        
-        # Adjusts weighting depending on taken technology (uses technology tags)
-        #ai_research_weights = {
-        #    <type> = <float>
-        #}
-
-        #enable_building = {
-        #    building = infrastructure
-        #    level = 11
-        #}
-
-        enable_building = {
-            building = rail_way
-            level = 2
-        }
-        
+        production_speed_supply_node_factor = 0.25
+		production_speed_rail_way_factor = 0.25
 	}
 
 	integral_railroad = {
@@ -4079,7 +4030,6 @@ technologies = {
         #    <type> = <float>
         #}
 
-        compliance_growth_on_our_occupied_states = -0.02
         local_resources_factor = 0.1
         local_factories = 0.1
 
