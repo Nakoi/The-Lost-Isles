@@ -891,7 +891,6 @@ technologies = {
 
 		casualty_trickleback = 0.03
 		experience_loss_factor = -0.03
-		supply_consumption_factor = 0.05
 		attrition = -0.04
 		
 		path = {
@@ -929,7 +928,6 @@ technologies = {
 
 		casualty_trickleback = 0.04
 		experience_loss_factor = -0.04
-		supply_consumption_factor = 0.05
 		attrition = -0.05
 		
 		path = {
@@ -967,7 +965,6 @@ technologies = {
 
 		casualty_trickleback = 0.04
 		experience_loss_factor = -0.04
-		supply_consumption_factor = 0.05
 		attrition = -0.05
 		
 		path = {
@@ -1005,7 +1002,6 @@ technologies = {
 
 		casualty_trickleback = 0.04
 		experience_loss_factor = -0.04
-		supply_consumption_factor = 0.10
 		attrition = -0.06
 		
 		path = {
@@ -1043,7 +1039,6 @@ technologies = {
 
 		casualty_trickleback = 0.05
 		experience_loss_factor = -0.05
-		supply_consumption_factor = 0.10
 		
 		dependencies = {
             tech_industrialized = 1
@@ -1076,8 +1071,10 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.05
 		supply_consumption_factor = 0.05
+		army_morale_factor = 0.5
+		training_time_army = 10
 
-		cavalry = {
+		ranged_militia = {
 			forest = {
 				defence = 0.02
 			}
@@ -1146,8 +1143,10 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.10
 		supply_consumption_factor = 0.05
-
-		cavalry = {
+		army_morale_factor = 0.5
+		training_time_army = 15
+		
+		ranged_militia = {
 			forest = {
 				defence = 0.03
 			}
@@ -1216,8 +1215,10 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.05
 		supply_consumption_factor = 0.05
-
-		cavalry = {
+		army_morale_factor = 0.5
+		training_time_army = 15
+		
+		ranged_militia = {
 			forest = {
 				defence = 0.025
 			}
@@ -1286,8 +1287,10 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.10
 		supply_consumption_factor = 0.10
-
-		cavalry = {
+		army_morale_factor = 0.5
+		training_time_army = 20
+		
+		ranged_militia = {
 			forest = {
 				defence = 0.025
 			}
@@ -1356,6 +1359,8 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.05
 		supply_consumption_factor = 0.05
+		army_morale_factor = 0.5
+		training_time_army = 15
 		
 		path = {
 			leads_to_tech = divisional_structure 
@@ -1393,8 +1398,10 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.10
 		supply_consumption_factor = 0.10
-
-		cavalry = {
+		army_morale_factor = 0.5
+		training_time_army = 15
+		
+		ranged_militia = {
 			forest = {
 				defence = 0.05
 				movement = 0.05
@@ -1458,8 +1465,10 @@ technologies = {
 		planning_speed = 0.05
 		army_org_factor = 0.10
 		supply_consumption_factor = 0.10
-
-		cavalry = {
+		army_morale_factor = 0.5
+		training_time_army = 15
+		
+		ranged_militia = {
 			forest = {
 				defence = 0.05
 				movement = 0.05
