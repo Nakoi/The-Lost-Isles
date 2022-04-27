@@ -250,7 +250,6 @@ sub_units = {
 		}
 		
 		combat_width = 2
-		#maximum_speed = 6
 		#Size Definitions
 		max_strength = 12.5
 		max_organisation = 40
@@ -339,7 +338,6 @@ sub_units = {
 		}
 		
 		combat_width = 0
-		#maximum_speed = 6
 		#Size Definitions
 		max_strength = 0.1
 		max_organisation = 0
@@ -414,7 +412,6 @@ sub_units = {
 		}
 		
 		combat_width = 0
-		#maximum_speed = 6
 		#Size Definitions
 		max_strength = 1
 		max_organisation = 15
@@ -491,7 +488,6 @@ sub_units = {
 		}
 		
 		combat_width = 0
-		#maximum_speed = 6
 		#Size Definitions
 		max_strength = 1
 		max_organisation = 15
@@ -575,7 +571,6 @@ sub_units = {
 		}
 		
 		combat_width = 0
-		#maximum_speed = 6
 		#Size Definitions
 		max_strength = 1
 		max_organisation = 15
@@ -626,7 +621,6 @@ sub_units = {
 		}
 		
 		combat_width = 0
-		#maximum_speed = 6
 		#Size Definitions
 		max_strength = 1
 		max_organisation = 0
@@ -678,7 +672,6 @@ sub_units = {
 		}
 		
 		combat_width = 0
-		#maximum_speed = 6
 		#Size Definitions
 		max_strength = 1
 		max_organisation = 15
@@ -730,7 +723,6 @@ sub_units = {
 		}
 		
 		combat_width = 0
-		#maximum_speed = 6
 		#Size Definitions
 		max_strength = 1
 		max_organisation = 5
@@ -797,6 +789,7 @@ sub_units = {
 		}
 
 		combat_width = 2
+		maximum_speed = 0.34
 		#Size Definitions
 		max_strength = 12.5
 		max_organisation = 45
@@ -874,7 +867,6 @@ sub_units = {
 		}
 
 		combat_width = 2
-		#maximum_speed = 6
 		#Size Definitions
 		max_strength = 12.5
 		max_organisation = 35
@@ -955,7 +947,6 @@ sub_units = {
 		}
 
 		combat_width = 2
-		#maximum_speed = 6
 		#Size Definitions
 		max_strength = 12.5
 		max_organisation = 50
