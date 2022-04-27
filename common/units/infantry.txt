@@ -50,7 +50,7 @@ sub_units = {
 		suppression = 1
 		weight = 0.25
 		
-		supply_consumption = 0.06
+		supply_consumption = 0.01
 	
 		need = {
 			rifle_equipment = 50
@@ -98,7 +98,7 @@ sub_units = {
 		suppression = 1
 		weight = 0.25
 		
-		supply_consumption = 0.03
+		supply_consumption = 0.01
 	
 		need = {
 			rifle_equipment = 25
@@ -212,8 +212,7 @@ sub_units = {
 		defense = 0.1
 		hardness = 14
 
-		
-		supply_consumption = 1
+		supply_consumption = 0.1
 	
 		need = {
 			rifle_equipment = 80
@@ -227,7 +226,7 @@ sub_units = {
 #   #  ##    #    ##  #  # ### ##### ### ###
 
 
-	motorized_infantry = {
+	motor_infantry = {
 		abbreviation = "INF"
 		sprite = infantry
 		map_icon_category = infantry
@@ -237,10 +236,10 @@ sub_units = {
 		active = no
 
 		type = {
-			motorized
+			infantry
 		}
 		
-		group = mobile
+		group = infantry
 		
 		categories = {
 			category_front_line
@@ -249,7 +248,7 @@ sub_units = {
 			category_army
 		}
 		
-		combat_width = 0
+		combat_width = 2
 		#maximum_speed = 6
 		#Size Definitions
 		max_strength = 12.5
@@ -262,8 +261,10 @@ sub_units = {
 		suppression = 1.5
 		weight = 0.4
 		
-		supply_consumption = 0.14
-	
+		supply_consumption = 0.1
+		
+		transport = motorized_equipment
+		
 		need = {
 			motorized_equipment = 30
 			rifle_equipment = 50
@@ -349,13 +350,13 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.08
+		supply_consumption = 0.1
 	
 		need = {
 			machinegun_equipment = 12
 		}
 
-				hills = {
+		hills = {
 			defence = 0.1
 		}
 
@@ -636,7 +637,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.01
+		supply_consumption = 0.1
 		reliability_factor = 0.05
 		equipment_capture_factor = 0.05
 
@@ -688,7 +689,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.01
+		supply_consumption = 0.1
 		reliability_factor = 0.05
 		equipment_capture_factor = 0.05
 
@@ -811,7 +812,7 @@ sub_units = {
 		#armor piercing
 		hardness = 14
 
-		supply_consumption = 0.1
+		supply_consumption = 0.01
 	
 		need = {
 			rifle_equipment = 70
@@ -889,7 +890,7 @@ sub_units = {
 		#armor piercing
 		hardness = 14
 
-		supply_consumption = 0.1
+		supply_consumption = 0.01
 	
 		need = {
 			rifle_equipment = 70
@@ -970,7 +971,7 @@ sub_units = {
 		defence = 0.25
         breakthrough = 0.25
 
-		supply_consumption = 0.06
+		supply_consumption = 0.01
 	
 		need = {
 			rifle_equipment = 70
@@ -1688,7 +1689,7 @@ sub_units = {
 		max_strength = 0.1
 		weight = 0.05
 		
-		supply_consumption = 0.08
+		supply_consumption = 0.1
 
 		# Support nerfs to combat abilities
 		defense = -0.4
@@ -1736,7 +1737,7 @@ sub_units = {
 		max_strength = 0.1
 		weight = 0.05
 		
-		supply_consumption = 0.08
+		supply_consumption = 0.1
 
 		# Support nerfs to combat abilities
 		defense = -0.4
@@ -1785,7 +1786,7 @@ sub_units = {
 		max_strength = 0.1
 		weight = 0.05
 		
-		supply_consumption = 0.08
+		supply_consumption = 0.1
 
 		# Support nerfs to combat abilities
 		defense = -0.4
@@ -1832,7 +1833,7 @@ sub_units = {
 		max_strength = 0.1
 		weight = 0.05
 		
-		supply_consumption = 0.08
+		supply_consumption = 0.1
 
 		# Support nerfs to combat abilities
 		defense = -0.4
@@ -1879,7 +1880,7 @@ sub_units = {
 		max_strength = 0.1
 		weight = 0.05
 		
-		supply_consumption = 0.08
+		supply_consumption = 0.1
 
 		# Support nerfs to combat abilities
 		defense = -0.4
@@ -1925,7 +1926,7 @@ sub_units = {
 		max_strength = 0.1
 		weight = 0.05
 		
-		supply_consumption = 0.08
+		supply_consumption = 0.1
 
 		# Support nerfs to combat abilities
 		defense = -0.4
@@ -1972,7 +1973,7 @@ sub_units = {
 		max_strength = 0.1
 		weight = 0.05
 		
-		supply_consumption = 0.08
+		supply_consumption = 0.1
 
 		# Support nerfs to combat abilities
 		defense = -0.4
@@ -2018,7 +2019,7 @@ sub_units = {
 		max_strength = 0.1
 		weight = 0.05
 		
-		supply_consumption = 0.08
+		supply_consumption = 0.1
 
 		# Support nerfs to combat abilities
 		defense = -0.4
