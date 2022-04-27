@@ -2351,7 +2351,6 @@ technologies = {
             armor_value = 10
             ap_attack = 1
             hard_attack = 2
-            maximum_speed = 7
         }
     }
 
@@ -2403,7 +2402,7 @@ technologies = {
         #}
 
         shock_troops = {
-            max_organisation = 0.1
+            max_organisation = 5
             armor_value = 2
             breakthrough = 0.1
         }
@@ -2457,7 +2456,7 @@ technologies = {
         #}
 
         shock_troops = {
-            max_organisation = 0.1
+            max_organisation = 5
             armor_value = 1
             breakthrough = 0.1
         }
@@ -2511,7 +2510,7 @@ technologies = {
         #}
 
         shock_troops = {
-            max_organisation = 0.1
+            max_organisation = 5
             armor_value = 1
             breakthrough = 0.1
         }
@@ -2560,7 +2559,7 @@ technologies = {
         #}
 
         shock_troops = {
-            max_organisation = 0.1
+            max_organisation = 5
             armor_value = 1
             breakthrough = 0.1
         }
@@ -2672,7 +2671,7 @@ technologies = {
 
         sharpshooters = {
             soft_attack = 0.2
-            max_organisation = 0.05
+            max_organisation = 3
         }
     }
 
@@ -2725,7 +2724,7 @@ technologies = {
 
         sharpshooters = {
             soft_attack = 0.2
-            max_organisation = 0.05
+            max_organisation = 3
         }
     }
 
@@ -2778,7 +2777,7 @@ technologies = {
 
         sharpshooters = {
             soft_attack = 0.2
-            max_organisation = 0.05
+            max_organisation = 3
         }
     }
 
@@ -2826,7 +2825,7 @@ technologies = {
 
         sharpshooters = {
             soft_attack = 0.2
-            max_organisation = 0.05
+            max_organisation = 3
         }
     }
 
@@ -2885,7 +2884,7 @@ technologies = {
             defense = 0.25
             armor_value  = 5
             breakthrough = 0.25
-            max_organisation = 0.10
+            max_organisation = 5
         }
     }
 
@@ -2941,7 +2940,7 @@ technologies = {
             defense = 0.05
             armor_value = 0.5
             breakthrough = 0.05
-            max_organisation = 0.05
+            max_organisation = 5
         }
     }
 
@@ -2997,7 +2996,7 @@ technologies = {
             defense = 0.05
             armor_value = 0.5
             breakthrough = 0.05
-            max_organisation = 0.05
+            max_organisation = 5
         }
     }
 
@@ -3053,7 +3052,7 @@ technologies = {
             defense = 0.05
             armor_value = 0.5
             breakthrough = 0.05
-            max_organisation = 0.05
+            max_organisation = 5
         }
     }
 
@@ -3104,7 +3103,7 @@ technologies = {
             defense = 0.05
             armor_value = 0.5
             breakthrough = 0.05
-            max_organisation = 0.05
+            max_organisation = 5
         }
     }
 
