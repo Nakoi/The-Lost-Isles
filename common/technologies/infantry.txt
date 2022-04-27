@@ -76,7 +76,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_militia = {
             soft_attack = -0.4
             hard_attack = -0.4
             breakthrough = -0.2
@@ -1568,13 +1568,9 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_regular_infantry = {
-            armor_value = 1
-            hardness = 1
-        }
         category_all_infantry = {
-            defence = 1
-            breakthrough = 1
+            defence = 0.1
+            breakthrough = 0.1
         }
     }
 
@@ -1630,10 +1626,6 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_regular_infantry = {
-            armor_value = 3
-            hardness = 2
-        }
         category_all_infantry = {
             defence = 0.2
             breakthrough = 0.2
@@ -1705,7 +1697,7 @@ technologies = {
         }
 
         category_all_infantry = {
-            defence = 0.2
+            defense = 0.2
             breakthrough = 0.2
         }
         
@@ -1761,7 +1753,8 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
-        unit_heavy_infantry = {
+		
+        category_armored_infantry = {
             armor_value = 5
             breakthrough = 0.25
             defense = 0.05
@@ -1823,7 +1816,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        unit_heavy_infantry = {
+        category_armored_infantry = {
             armor_value = 5
             breakthrough = 0.25
             defense = 0.05
@@ -1885,7 +1878,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        unit_heavy_infantry = {
+        category_armored_infantry = {
             armor_value = 6
             breakthrough = 0.5
             defense = 0.05
@@ -1942,7 +1935,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        unit_heavy_infantry = {
+        category_armored_infantry = {
             armor_value = 6
             breakthrough = 0.5
             defense = 0.05
@@ -2009,8 +2002,8 @@ technologies = {
         #}
         
         category_all_infantry = {
-            defense = 0.02
-            breakthrough = 0.02
+            defense = 0.2
+            breakthrough = 0.2
         }
         category_elite_infantry = {
             armor_value = 10
@@ -2068,8 +2061,8 @@ technologies = {
         #}
 
         category_all_infantry = {
-            defense = 0.02
-            breakthrough = 0.02
+            defense = 0.2
+            breakthrough = 0.2
         }
         category_elite_infantry = {
             armor_value = 7
@@ -2127,8 +2120,8 @@ technologies = {
         #}
 
         category_all_infantry = {
-            defense = 0.02
-            breakthrough = 0.02
+            defense = 0.2
+            breakthrough = 0.2
         }
         category_elite_infantry = {
             armor_value = 7
