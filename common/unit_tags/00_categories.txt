@@ -3,6 +3,10 @@ sub_unit_categories = {
 	category_light_infantry
     category_front_line
 	category_all_infantry
+	category_militia
+	category_regular_infantry
+	category_armored_infantry
+	category_elite_infantry
 	category_support_battalions
 	category_all_armor
 	category_army
@@ -37,7 +41,6 @@ sub_unit_categories = {
 	category_air_carabiners
 	category_air_grenadiers
 	category_catapult_frontline
-	category_regular_infantry
 	category_anti_air
 	category_rockets
 	cat_fleet_in_being
