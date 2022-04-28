@@ -244,8 +244,8 @@ sub_units = {
 		
 		categories = {
 			category_front_line
-			category_light_infantry
 			category_all_infantry
+			category_motorized
 			category_army
 		}
 		
@@ -331,9 +331,7 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_light_infantry
-			category_all_infantry
+			category_support_battalions
 			category_army
 		}
 		
@@ -405,9 +403,8 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_light_infantry
-			category_all_infantry
+			category_support_battalions
+			category_engineers
 			category_army
 		}
 		
@@ -481,9 +478,8 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_light_infantry
-			category_all_infantry
+			category_support_battalions
+			category_recon
 			category_army
 		}
 		
@@ -564,9 +560,8 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_light_infantry
-			category_all_infantry
+			category_support_battalions
+			category_maintenance
 			category_army
 		}
 		
@@ -614,9 +609,8 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_light_infantry
-			category_all_infantry
+			category_support_battalions
+			category_mp
 			category_army
 		}
 		
@@ -665,9 +659,8 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_light_infantry
-			category_all_infantry
+			category_support_battalions
+			category_hospital
 			category_army
 		}
 		
@@ -716,9 +709,8 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_light_infantry
-			category_all_infantry
+			category_support_battalions
+			category_logistics
 			category_army
 		}
 		
@@ -1059,9 +1051,11 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_support_battalions
+			category_front_line 
 			category_army
 			category_artillery
+			category_line_artillery
+			category_anti_air
 			
 		}
 
@@ -1135,9 +1129,11 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_support_battalions
+			category_front_line 
 			category_army
 			category_artillery
+			category_siege_artillery
+			category_line_artillery
 			
 		}
 
@@ -1211,10 +1207,11 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_support_battalions
+			category_front_line 
 			category_army
 			category_artillery
-			
+			category_line_artillery 
+			category_medium_artillery
 		}
 
 
@@ -1285,10 +1282,11 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_support_battalions
+			category_front_line 
 			category_army
 			category_artillery
-			
+			category_line_artillery
+			category_howitzer 
 		}
 
 
@@ -1358,10 +1356,11 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_support_battalions
+			category_front_line 
 			category_army
 			category_artillery
-			
+			category_line_artillery
+			category_siege_artillery
 		}
 
 
@@ -1434,9 +1433,11 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_support_battalions
+			category_front_line 
 			category_army
 			category_artillery
+			category_line_artillery
+			category_anti_air
 			
 		}
 
@@ -1507,10 +1508,11 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_support_battalions
+			category_front_line 
 			category_army
 			category_artillery
-			
+			category_line_artillery
+			category_rocket 
 		}
 
 
@@ -1581,9 +1583,12 @@ sub_units = {
 		group = infantry
 		
 		categories = {
+			category_front_line 
 			category_army
 			category_artillery
-			category_tli_light_artillery
+			category_line_artillery
+			category_light_cannon
+			category_special_forces
 		}
 
 		need = {
@@ -1665,6 +1670,9 @@ sub_units = {
 			category_support_battalions
 			category_army
 			category_artillery
+			category_support_artillery
+			category_medium_artillery
+
 			
 		}
 
@@ -1713,7 +1721,8 @@ sub_units = {
 			category_support_battalions
 			category_army
 			category_artillery
-			
+			category_anti_air 
+			category_support_artillery
 		}
 
 
@@ -1762,7 +1771,8 @@ sub_units = {
 			category_support_battalions
 			category_army
 			category_artillery
-			
+			category_siege_artillery
+			category_support_artillery
 		}
 
 
@@ -1809,7 +1819,8 @@ sub_units = {
 			category_support_battalions
 			category_army
 			category_artillery
-			
+			category_medium_artillery
+			category_support_artillery
 		}
 
 
@@ -1856,7 +1867,8 @@ sub_units = {
 			category_support_battalions
 			category_army
 			category_artillery
-			
+			category_howitzer 
+			category_support_artillery
 		}
 
 
@@ -1902,7 +1914,8 @@ sub_units = {
 			category_support_battalions
 			category_army
 			category_artillery
-			
+			category_siege_artillery
+			category_support_artillery
 		}
 
 
@@ -1949,7 +1962,8 @@ sub_units = {
 			category_support_battalions
 			category_army
 			category_artillery
-			
+			category_anti_air
+			category_support_artillery
 		}
 
 
@@ -1995,7 +2009,8 @@ sub_units = {
 			category_support_battalions
 			category_army
 			category_artillery
-			
+			category_support_artillery
+			category_rocket
 		}
 
 
