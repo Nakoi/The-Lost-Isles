@@ -2,7 +2,7 @@ equipments = {
 
     #catapult
 	cannon_equipment = {
-		year = 500
+		year = 400
 		is_archetype = yes
 		picture = archetype_cannon_equipment		
 		type = {
@@ -40,7 +40,7 @@ equipments = {
 	}
     #catapult
     cannon_equipment_1 = {
-		year = 500
+		year = 400
 
 		archetype = cannon_equipment
 		priority = 50
@@ -50,7 +50,7 @@ equipments = {
 
     #Cannon
     cannon_equipment_2 = {
-		year = 500
+		year = 850
 
 		archetype = cannon_equipment
 		parent = cannon_equipment_1
@@ -122,9 +122,9 @@ equipments = {
 
     #Modern Cannon
     cannon_equipment_4 = {
-		year = 500
+		year = 971
 
-		archetype = artillery_equipment
+		archetype = cannon_equipment
 		parent = cannon_equipment_3
 		priority = 50
 		visual_level = 3
