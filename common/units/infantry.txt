@@ -1048,7 +1048,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = mobile
+		group = sneed
 		
 		categories = {
 			category_front_line 
@@ -1058,7 +1058,6 @@ sub_units = {
 			category_anti_air
 			
 		}
-
 
 		need = {
 			ballista_equipment = 18
@@ -1121,10 +1120,10 @@ sub_units = {
 		affects_speed = no
 		can_be_parachuted = yes
 		type = {
-			artillery
+			infantry
 		}
 		
-		group = mobile
+		group = sneed
 		
 		categories = {
 			category_front_line 
@@ -1199,7 +1198,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = mobile
+		group = sneed
 		
 		categories = {
 			category_front_line 
@@ -1273,7 +1272,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = mobile
+		group = sneed
 		
 		categories = {
 			category_front_line 
@@ -1350,7 +1349,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = mobile
+		group = sneed
 		
 		categories = {
 			category_front_line 
@@ -1425,7 +1424,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = mobile
+		group = sneed
 		
 		categories = {
 			category_front_line 
@@ -1488,7 +1487,7 @@ sub_units = {
 
 
 	smoll_gun = {
-		#abbreviation = "ART"
+		abbreviation = "ART"
 		sprite = artillery
 		map_icon_category = infantry
 		priority = 0
@@ -1500,7 +1499,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = infantry
+		group = sneed
 		
 		categories = {
 			category_front_line 
