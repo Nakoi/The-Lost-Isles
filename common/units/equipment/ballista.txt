@@ -48,6 +48,43 @@ equipments = {
 
 	}
 
+	ballista_equipment_2 = {
+		year = 959
+
+		archetype = ballista_equipment
+		parent = ballista_equipment_1
+		priority = 80
+		visual_level = 1
+		
+		soft_attack = 3.5
+		hard_attack = 11
+		ap_attack = 60
+		air_attack = 25
+
+		build_cost_ic = 5
+		resources = {
+			steel = 2
+		}
+	}
+	
+	ballista_equipment_3 = {
+		year = 967
+
+		archetype = ballista_equipment
+		parent = ballista_equipment_2
+		priority = 80
+		visual_level = 2
+		
+		soft_attack = 4
+		hard_attack = 15
+		ap_attack = 88
+		air_attack = 32
+
+		build_cost_ic = 6
+		resources = {
+			steel = 3
+		}
+	}
 
 }
 

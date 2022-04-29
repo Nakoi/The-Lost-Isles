@@ -377,12 +377,7 @@ technologies = {
 	anti_air_cannon = {
 
 		enable_equipments = {
-			anti_air_equipment_1
-		}
-
-		enable_subunits = {
-			anti_air_frontline
-			anti_air_support
+			ballista_equipment_2
 		}
 
 		path = {
@@ -499,7 +494,7 @@ technologies = {
 	improved_anti_air_cannon = {
 
 		enable_equipments = {
-			anti_air_equipment_2
+			ballista_equipment_3
 		}
 
 		path = {
@@ -759,12 +754,7 @@ technologies = {
 	mortar = {
 
 		enable_equipments = {
-			mortar_equipment_0
-		}
-
-		enable_subunits = {
-			mortar_frontline
-			mortar_support
+			mortar_equipment_1
 		}
 
 		path = {
@@ -902,7 +892,7 @@ technologies = {
 	improved_mortar = {
 
 		enable_equipments = {
-			mortar_equipment_1
+			mortar_equipment_2
 		}
 
 		path = {
@@ -1314,16 +1304,18 @@ technologies = {
 	trebuchet = {
 
 		enable_equipments = {
-			trebuchet_equipment_1
+			mortar_equipment_0
 		}
 
+
 		enable_subunits = {
-			trebuchet_frontline
-			trebuchet_support
+			mortar_frontline
+			mortar_support
 		}
 
 		path = {
 			leads_to_tech = stationary_artillery
+			leads_to_tech = mortar
 			research_cost_coeff = 1
 		}
 
@@ -1332,7 +1324,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -8 y = @500 }
+			position = { x = -2 y = @500 }
 		}
 		
 		ai_will_do = {

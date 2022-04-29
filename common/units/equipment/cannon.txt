@@ -53,8 +53,9 @@ equipments = {
 		year = 500
 
 		archetype = cannon_equipment
+		parent = cannon_equipment_1
 		priority = 50
-		visual_level = 0
+		visual_level = 1
 
 		#Misc Abilities
 		reliability = 0.8
@@ -88,8 +89,9 @@ equipments = {
 		year = 963
 
 		archetype = cannon_equipment
+		parent = cannon_equipment_2
 		priority = 50
-		visual_level = 0
+		visual_level = 2
 
 		#Misc Abilities
 		reliability = 0.8
@@ -123,8 +125,9 @@ equipments = {
 		year = 500
 
 		archetype = artillery_equipment
+		parent = cannon_equipment_3
 		priority = 50
-		visual_level = 0
+		visual_level = 3
 
 		#Misc Abilities
 		reliability = 0.8
