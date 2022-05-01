@@ -6,9 +6,9 @@ equipments = {
 		year = 1936
 	
 		is_archetype = yes
-		picture = archetype_infantry_equipment		
+		picture = archetype_sky_carrier_equipment		
 		is_buildable = no
-		type = fighter interceptor
+		type = { cas air_transport }
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -50,7 +50,7 @@ equipments = {
 	sky_carrier_equipment_1 = {
 		year = 1936
 	
-		archetype = sky_cruiser
+		archetype = sky_carrier_equipment
 		active = no
 		priority = 05
 		visual_level = 0
@@ -90,7 +90,7 @@ equipments = {
 	sky_carrier_equipment_2 = {
 		year = 1936
 	
-		archetype = sky_cruiser_equipment
+		archetype = sky_carrier_equipment
 		parent = sky_carrier_equipment_1
 		active = no
 		priority = 10
@@ -134,7 +134,7 @@ equipments = {
 	sky_carrier_equipment_3 = {
 		year = 1936
 	
-		archetype = sky_cruiser_equipment
+		archetype = sky_carrier_equipment
 		parent = sky_carrier_equipment_2
 		active = no
 		priority = 10

@@ -6,9 +6,9 @@ equipments = {
 		year = 1936
 	
 		is_archetype = yes
-		picture = archetype_infantry_equipment		
+		picture = archetype_air_frigate_equipment	
 		is_buildable = no
-		type = fighter interceptor
+		type = { fighter interceptor }
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -59,7 +59,7 @@ equipments = {
 	air_frigate_equipment_2 = {
 		year = 1936
 	
-		archetype = melee_equipment
+		archetype = air_frigate_equipment
 		parent = air_frigate_equipment_1
 		active = no
 		priority = 10
@@ -96,7 +96,7 @@ equipments = {
 		year = 1936
 	
 		archetype = air_frigate_equipment
-		parent = air_frigate_equipment_1
+		parent = air_frigate_equipment_2
 		active = no
 		priority = 10
 		visual_level = 1
