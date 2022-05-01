@@ -34,18 +34,23 @@ technologies = {
 			leads_to_tech = trebuchet 
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+			basic_engineering = 1
+            tech_primitive = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
 		research_cost = 1.79
 		start_year = 400
 		
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = @400 }
-		}
-		
-		dependencies = {
-			basic_engineering = 1
-
 		}
 
 		ai_will_do = {
@@ -67,7 +72,16 @@ technologies = {
 			leads_to_tech = cannon
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
 		research_cost = 1.79
 		start_year = 500
 
@@ -112,7 +126,17 @@ technologies = {
 			leads_to_tech = light_artillery
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+			gunpowder = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
 		research_cost = 2
 		start_year = 850
 		
@@ -152,7 +176,16 @@ technologies = {
 			leads_to_tech = rocket_cannon
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
 		research_cost = 2
 		start_year = 957
 
@@ -181,7 +214,16 @@ technologies = {
 			leads_to_tech = friction_primer
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
 		research_cost = 2.49
 		start_year = 959
 
@@ -211,7 +253,16 @@ technologies = {
 			leads_to_tech = improved_cannon
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
 		research_cost = 2.49
 		start_year = 961
 
@@ -239,7 +290,16 @@ technologies = {
 			leads_to_tech = conical_shells
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
 		research_cost = 2
 		start_year = 963
 		
@@ -269,7 +329,16 @@ technologies = {
 			leads_to_tech = breach_loading_mechanism
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
 		research_cost = 2.75
 		start_year = 965
 
@@ -298,7 +367,16 @@ technologies = {
 			leads_to_tech = brass_shells
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
 		research_cost = 3
 		start_year = 967
 
@@ -328,7 +406,16 @@ technologies = {
 			leads_to_tech = modern_cannon
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
 		research_cost = 3
 		start_year = 969
 
@@ -351,7 +438,16 @@ technologies = {
 		enable_equipments = {
 			cannon_equipment_4
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
 		research_cost = 2
 		start_year = 971
 		
@@ -381,7 +477,16 @@ technologies = {
 			leads_to_tech = crystal_gunpowder_mixture
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
 		research_cost = 2.49
 		start_year = 959
 		
@@ -411,7 +516,16 @@ technologies = {
 			leads_to_tech = percussion_lock_mechanism
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
 		research_cost = 2.49
 		start_year = 961
 
@@ -440,7 +554,16 @@ technologies = {
 			leads_to_tech = tracer_projectiles
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
 		research_cost = 2.75
 		start_year = 963
 
@@ -470,7 +593,16 @@ technologies = {
 			leads_to_tech = improved_anti_air_cannon
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
 		research_cost = 2.75
 		start_year = 965
 
@@ -498,7 +630,16 @@ technologies = {
 			leads_to_tech = brass_cartridges
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
 		research_cost = 2.75
 		start_year = 967
 		
@@ -527,7 +668,16 @@ technologies = {
 			leads_to_tech = shrapnel_projectiles
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
 		research_cost = 3
 		start_year = 969
 
@@ -551,7 +701,16 @@ technologies = {
 			air_attack = 0.25
 			supply_consumption_factor = 0.05
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
 		research_cost = 3
 		start_year = 971
 
@@ -586,7 +745,16 @@ technologies = {
 			leads_to_tech = explosive_rockets
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
 		research_cost = 2.49
 		start_year = 961
 		
@@ -616,7 +784,16 @@ technologies = {
 			leads_to_tech = incendiary_rockets
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
 		research_cost = 2.75
 		start_year = 963
 
@@ -645,7 +822,16 @@ technologies = {
 			leads_to_tech = flight_stabilisation
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
 		research_cost = 2.75
 		start_year = 965
 
@@ -675,7 +861,16 @@ technologies = {
 			leads_to_tech = improved_rocket_cannon
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
 		research_cost = 3
 		start_year = 967
 
@@ -703,7 +898,16 @@ technologies = {
 			leads_to_tech = modern_rockets
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
 		research_cost = 3
 		start_year = 969
 		
@@ -728,7 +932,16 @@ technologies = {
 			entrenchment = 1
 			supply_consumption_factor = 0.05
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
 		research_cost = 3
 		start_year = 971
 
@@ -763,7 +976,16 @@ technologies = {
 			leads_to_tech = stationary_artillery
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
 		research_cost = 2
 		start_year = 957
 		
@@ -797,7 +1019,16 @@ technologies = {
 			leads_to_tech = howitzer
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
 		research_cost = 2.49
 		start_year = 959
 
@@ -827,7 +1058,16 @@ technologies = {
 			leads_to_tech = standardised_powder_charges
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
 		research_cost = 2.49
 		start_year = 961
 
@@ -864,7 +1104,16 @@ technologies = {
 			leads_to_tech = improved_mortar
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
 		research_cost = 2.75
 		start_year = 963
 
@@ -892,7 +1141,16 @@ technologies = {
 			leads_to_tech = mortar_weight_reduction
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
 		research_cost = 2.75
 		start_year = 965
 		
@@ -921,7 +1179,16 @@ technologies = {
 			leads_to_tech = modern_mortar_bombs
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
 		research_cost = 2.75
 		start_year = 967
 
@@ -951,7 +1218,16 @@ technologies = {
 			leads_to_tech = trench_mortars
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
 		research_cost = 3
 		start_year = 969
 
@@ -983,6 +1259,15 @@ technologies = {
 				attack = 0.15
 			}
 		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
 		
 		research_cost = 3
 		start_year = 971
@@ -1018,7 +1303,16 @@ technologies = {
 			leads_to_tech = indirect_fire
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
 		research_cost = 2.49
 		start_year = 961
 		
@@ -1047,7 +1341,16 @@ technologies = {
 			leads_to_tech = gun_howitzers
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
 		research_cost = 2.75
 		start_year = 963
 
@@ -1076,7 +1379,16 @@ technologies = {
 			leads_to_tech = case_shot
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
 		research_cost = 2.75
 		start_year = 965
 
@@ -1105,7 +1417,16 @@ technologies = {
 			leads_to_tech = improved_howitzer
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
 		research_cost = 2.75
 		start_year = 967
 
@@ -1133,7 +1454,16 @@ technologies = {
 			leads_to_tech = recoil_management
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
 		research_cost = 3
 		start_year = 969
 		
@@ -1157,7 +1487,16 @@ technologies = {
 			soft_attack = 0.20
 			supply_consumption_factor = 0.05
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
 		research_cost = 3
 		start_year = 971
 
@@ -1191,7 +1530,16 @@ technologies = {
 			leads_to_tech = light_artillery_upgrade_1
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_light
+        }
+		
 		research_cost = 2
 		start_year = 957
 		
@@ -1221,7 +1569,16 @@ technologies = {
 			leads_to_tech = improved_light_artillery
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_light
+        }
+		
 		research_cost = 2.49
 		start_year = 961
 
@@ -1249,7 +1606,16 @@ technologies = {
 			leads_to_tech = light_artillery_upgrade_2
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_light
+        }
+		
 		research_cost = 2.75
 		start_year = 965
 		
@@ -1274,7 +1640,16 @@ technologies = {
 			hard_attack = 0.30
 			supply_consumption_factor = 0.05
 		}
-
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_light
+        }
+		
 		research_cost = 3
 		start_year = 969
 
@@ -1311,7 +1686,16 @@ technologies = {
 			leads_to_tech = mortar
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
 		research_cost = 1.79
 		start_year = 500
 		
@@ -1344,9 +1728,14 @@ technologies = {
 
 		dependencies = {
 			mortar = 1
-			trebuchet = 1
+			tech_industrialized
 		}
-
+		
+		categories = {
+			artillery
+			artillery_stationary
+        }
+		
 		path = {
 			leads_to_tech = improved_stationary_artillery
 			research_cost_coeff = 1
@@ -1382,7 +1771,16 @@ technologies = {
 			leads_to_tech = modern_stationary_artillery
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+			tech_industrialized
+		}
+		
+		categories = {
+			artillery
+			artillery_stationary
+        }
+		
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
 
@@ -1408,7 +1806,16 @@ technologies = {
 		enable_equipments = {
 			super_shell_equipment_3
 		}
-
+		
+		dependencies = {
+			tech_industrialized
+		}
+		
+		categories = {
+			artillery
+			artillery_stationary
+        }
+		
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
 
@@ -1445,7 +1852,17 @@ technologies = {
 			leads_to_tech = Ballista_upgrade
 			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+            tech_primitive = 1
+			basic_engineering = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
 		research_cost = 1.79
 		start_year = 400
 		
@@ -1471,7 +1888,16 @@ technologies = {
 			hard_attack = 0.10
 			ap_attack = 0.10
 		}
-
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
 		research_cost = 1.79
 		start_year = 500
 
