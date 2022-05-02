@@ -1,17 +1,26 @@
 sub_units = {
 
-	twi_lazer = {
+	air_skirmishers = {
 		sprite = light_plane
 		priority = 1
 		active = yes
 		type = { fighter cas }
-		need = { twi_lazer_equipment = 1 }
+		need = { air_skirmisher_equipment = 1 }
 		categories = { category_air_skirmisher }
+	}
+	
+	air_strikers = {
+		sprite = light_plane
+		priority = 2
+		active = yes
+		type = { cas }
+		need = { air_striker_equipment = 1 }
+		categories = { category_air_striker }
 	}
 	
 	air_frigate = {
 		sprite = light_plane
-		priority = 2
+		priority = 3
 		active = yes
 		type = { fighter cas }
 		need = { air_frigate_equipment = 1 }
@@ -20,7 +29,7 @@ sub_units = {
 
 	air_bombardier = {
 		sprite = light_plane
-		priority = 3
+		priority = 4
 		active = yes
 		type = { tactical_bomber }
 		need = { air_bombardier_equipment = 1 }
@@ -29,7 +38,7 @@ sub_units = {
 	
 	sky_carrier = {
 		sprite = light_plane
-		priority = 4
+		priority = 5
 		active = yes
 		type = { cas air_transport }
 		need = { sky_carrier_equipment = 1 }
@@ -38,7 +47,7 @@ sub_units = {
 	
 	sky_cruiser = {
 		sprite = light_plane
-		priority = 5
+		priority = 6
 		active = yes
 		type = { fighter tactical_bomber }
 		need = { sky_cruiser_equipment = 1 }
