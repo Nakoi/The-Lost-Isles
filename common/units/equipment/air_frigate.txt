@@ -37,10 +37,8 @@ equipments = {
 		
 		build_cost_ic = 1200
 		resources = {
-			wood = 0
-			#rare_metal = 1
-			#wood = 1
-			#chemicals = 2
+			wood = 3
+			crystals = 1
 		}
 
 		fuel_consumption = 0.2
@@ -73,7 +71,7 @@ equipments = {
 		air_agility = 32
 		air_attack = 260
 		air_defence = 800
-		air_ground_attack = 60
+		air_ground_attack = 100
 		air_superiority = 24
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
@@ -84,10 +82,9 @@ equipments = {
 		
 		build_cost_ic = 2400
 		resources = {
-			wood = 0
-			#rare_metal = 1
-			#wood = 1
-			#chemicals = 2
+			wood = 3
+			crystals = 2
+			coal = 1
 		}
 	}
 
@@ -119,14 +116,11 @@ equipments = {
 		
 		build_cost_ic = 4800
 		resources = {
-			wood = 0
-			#rare_metal = 1
-			#wood = 1
-			#chemicals = 2
+			wood = 4
+			crystals = 3
+			rare_metals = 1
 		}
 	}
-
-
 }
 
 
