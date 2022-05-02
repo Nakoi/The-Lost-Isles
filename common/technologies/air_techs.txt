@@ -1273,16 +1273,52 @@ technologies = {
 	air_skirmisher = {
 
 		enable_equipments = {
-			twi_lazer_equipment_1
+			air_skirmisher_equipment_1
 		}
 
 		enable_subunits = {
-			twi_lazer
+			air_skirmishers
 		}
 	
 		path = {
 			leads_to_tech = as_fighter_upgrade1
 			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = air_striker
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 959
+		folder = {
+			name = air_techs_folder
+			position = { x = 27 y = 2 }
+		}
+		
+		categories = {
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+	
+	air_striker = {
+
+		enable_equipments = {
+			air_striker_equipment_1
+		}
+
+		enable_subunits = {
+			air_strikers
 		}
 
 		path = {
@@ -1294,7 +1330,7 @@ technologies = {
 		start_year = 959
 		folder = {
 			name = air_techs_folder
-			position = { x = 29 y = 2 }
+			position = { x = 31 y = 2 }
 		}
 		
 		categories = {
@@ -1500,7 +1536,7 @@ technologies = {
 	air_carabiners = {
 
 		enable_equipments = {
-			air_carabiners_equipment_1
+			air_skirmisher_equipment_2
 		}
 		
 		path = {
@@ -1533,7 +1569,7 @@ technologies = {
 	air_grenadiers = {
 
 		enable_equipments = {
-			air_grenadiers_equipment_1
+			air_striker_equipment_2
 		}
 
 		path = {
@@ -1692,7 +1728,7 @@ technologies = {
 	modern_air_carabiners = {
 
 		enable_equipments = {
-			air_carabiners_equipment_2
+			air_skirmisher_equipment_3
 		}
 
 		research_cost = 1.5
@@ -1720,7 +1756,7 @@ technologies = {
 	modern_air_grenadiers= {
 
 		enable_equipments = {
-			air_grenadiers_equipment_2
+			air_striker_equipment_3
 		}
 		
 		research_cost = 1.5
