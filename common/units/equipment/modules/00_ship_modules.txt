@@ -25,11 +25,9 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
+		build_cost_resources = {
+			wood = 1
 		}
-
 	}
 
 	xebec_propulsion_2 = {
@@ -50,14 +48,9 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = light_ship_engine_1
-			convert_cost_ic = 230
+		build_cost_resources = {
+			wood = 2
+			iron = 1
 		}
 	}
 
@@ -79,16 +72,13 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = light_ship_engine_2
-			convert_cost_ic = 230
+		build_cost_resources = {
+			wood = 2
+			iron = 2
+			coal = 2
 		}
 	}
+	
 	xebec_propulsion_4 = {
 		category = light_ship_engine
 		parent = xebec_propulsion_3
@@ -107,15 +97,12 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
+		build_cost_resources = {
+			wood = 3
+			iron = 2
+			coal = 3
 		}
 		
-		can_convert_from = {
-			module = light_ship_engine_3
-			convert_cost_ic = 230
-		}
 	}
 
     galley_propulsion_1 = {
@@ -135,11 +122,9 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
+		build_cost_resources = {
+			wood = 2
 		}
-
 	}
 
 	galley_propulsion_2 = {
@@ -156,19 +141,13 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.32
+			naval_speed = 0.30
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = light_ship_engine_1
-			convert_cost_ic = 230
-		}
+		build_cost_resources = {
+			wood = 2
+		}	
 	}
 
 	galley_propulsion_3 = {
@@ -189,16 +168,13 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = light_ship_engine_2
-			convert_cost_ic = 230
+		build_cost_resources = {
+			wood = 3
+			iron = 1
+			coal = 2
 		}
 	}
+	
 	galley_propulsion_4 = {
 		category = light_ship_engine
 		parent = galley_propulsion_3
@@ -217,14 +193,10 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = light_ship_engine_3
-			convert_cost_ic = 230
+		build_cost_resources = {
+			wood = 1
+			iron = 4
+			coal = 4
 		}
 	}
 
@@ -245,11 +217,10 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
+		build_cost_resources = {
+			wood = 2
+			iron = 1
 		}
-
 	}
 
 	frigate_propulsion_2 = {
@@ -270,14 +241,9 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = light_ship_engine_1
-			convert_cost_ic = 230
+		build_cost_resources = {
+			wood = 3
+			iron = 2
 		}
 	}
 
@@ -299,16 +265,13 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = light_ship_engine_2
-			convert_cost_ic = 230
+		build_cost_resources = {
+			wood = 3
+			iron = 3
+			coal = 2
 		}
 	}
+	
 	frigate_propulsion_4 = {
 		category = light_ship_engine
 		parent = frigate_propulsion_3
@@ -318,7 +281,7 @@ equipment_modules = {
 		add_stats = {
 			naval_range = 2400
 			naval_speed = 7
-			fuel_consumption = 0.2
+			fuel_consumption = 0.1
 			build_cost_ic = 670
 		}
 		
@@ -327,14 +290,10 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = light_ship_engine_3
-			convert_cost_ic = 230
+		build_cost_resources = {
+			wood = 2
+			iron = 4
+			coal = 4
 		}
 	}
 
@@ -351,15 +310,14 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.3
+			naval_speed = 0.2
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
+		build_cost_resources = {
+			wood = 4
+			iron = 4
 		}
-
 	}
 
 	ship_of_the_line_propulsion_2 = {
@@ -372,7 +330,7 @@ equipment_modules = {
 			naval_range = 1800
 			naval_speed = 10
 			fuel_consumption = 0.2
-			build_cost_ic = 120
+			build_cost_ic = 2200
 		}
 		
 		multiply_stats = {
@@ -380,14 +338,9 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = light_ship_engine_1
-			convert_cost_ic = 230
+		build_cost_resources = {
+			wood = 4
+			iron = 2
 		}
 	}
 
@@ -409,16 +362,13 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = light_ship_engine_2
-			convert_cost_ic = 230
+		build_cost_resources = {
+			wood = 1
+			iron = 4
+			coal = 2
 		}
 	}
+	
 	ship_of_the_line_propulsion_4 = {
 		category = light_ship_engine
 		parent = ship_of_the_line_propulsion_3
@@ -437,14 +387,10 @@ equipment_modules = {
 			reliability = -0.2
 		}
 		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = light_ship_engine_3
-			convert_cost_ic = 230
+		build_cost_resources = {
+			wood = 2
+			iron = 4
+			coal = 4
 		}
 	}
 
