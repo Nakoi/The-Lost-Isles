@@ -1,12 +1,12 @@
 sub_units = {
 
-	early_ship_of_line = {
+	ship_of_line = {
 		sprite = destroyer
 		map_icon_category = ship
 		priority = 3
 		active = yes
 		type = { capital_ship }
-		need = { ship_hull_light = 1 }
+		need = { ship_of_the_line_hull = 1 }
 		
 		max_organisation = 40
 
