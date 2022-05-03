@@ -434,7 +434,9 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 40
-            naval_speed = 0.11
+		}
+		multiply_stats = {
+			naval_speed = 0.11
 		}
 	}
 	
@@ -444,7 +446,9 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 55
-            naval_speed = 0.22
+		}
+		multiply_stats = {
+			naval_speed = 0.22
 		}
 	}
 	
@@ -454,7 +458,9 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 70
-            naval_speed = 0.33
+		}
+		multiply_stats = {
+			naval_speed = 0.33
 		}
 	}
 
@@ -527,7 +533,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.1
 			naval_speed = -0.1
-            surface_visibility = 8
+            surface_visibility = 0.25
             max_strength = 0.05
 		}
 		
@@ -543,7 +549,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.1
 			naval_speed = -0.7
-            surface_visibility = 8
+            surface_visibility = 0.25
 			max_strength = 0.05
 		}
 		
@@ -560,7 +566,7 @@ equipment_modules = {
 			build_cost_ic = 0.1
 			naval_speed = -0.1
 			max_strength = 0.05
-            surface_visibility = 8
+            surface_visibility = 0.25
 		}
 		
 		add_stats = {
@@ -575,7 +581,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.1
 			naval_speed = -0.1
-            surface_visibility = 8
+            surface_visibility = 0.25
 			max_strength = 0.05
 		}
 		
