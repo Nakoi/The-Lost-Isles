@@ -179,7 +179,7 @@ equipments = {
 			fixed_ship_engine_slot = xebec_propulsion_3
 			rear_1_custom_slot = empty
 		}
-
+		
 		surface_detection = 20
 		surface_visibility = 10
 		reliability = 0.80
@@ -255,39 +255,31 @@ equipments = {
 			fixed_ship_engine_slot = xebec_propulsion_1
 			fixed_ship_torpedo_slot = empty
 			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
+			rear_1_custom_slot = light_naval_battery_1
 		}
-		lg_armor_piercing = 0
-		lg_attack = 0
 		
-		torpedo_attack = 0
-		sub_attack = 1
-		
-		anti_air_attack = 0
-		
-		armor_value = 0
-
+		type = { 
+			screen_ship
+		}
 		
 		surface_detection = 20
-		sub_detection = 5
-		surface_visibility = 10
+		sub_detection = 1
+		surface_visibility = 8
 		naval_speed = 25
 		reliability = 0.80
 		
 		naval_range = 1500
 		
-		max_strength = 25
+		max_strength = 20
 		
-
-		fuel_consumption = 7
-		
-		build_cost_ic = 400
+		build_cost_ic = 220
 		resources = {
-			wood = 2
+			wood = 1
 		}
+		manpower = 100
 		
-		manpower = 250
 	}
+	
 	xebec_2 = {
 		year = 957
 
@@ -303,40 +295,29 @@ equipments = {
 			fixed_ship_engine_slot = xebec_propulsion_2
 			fixed_ship_torpedo_slot = empty
 			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
+			rear_1_custom_slot = light_naval_battery_2
 		}
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 0
-		sub_attack = 1
-		
-		anti_air_attack = 0
-		
-		armor_value = 0
-
-		
-		surface_detection = 25
-		sub_detection = 10
-		surface_visibility = 10
-		naval_speed = 25
-		reliability = 0.85
-
-		naval_range = 1800
-		
-		max_strength = 40
-		
-
 		
 		type = { 
 			screen_ship
-			anti_air
 		}
+		
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 8
+		naval_speed = 25
+		reliability = 0.80
 
-		build_cost_ic = 500
+		naval_range = 1800
+		
+		max_strength = 100
+
+		build_cost_ic = 250
 		resources = {
-			wood = 3
+			wood = 2
+			iron = 1
 		}		
-		manpower = 325
+		manpower = 100
 	}
 	
 	xebec_3 = {
@@ -353,40 +334,39 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = xebec_propulsion_3
 			fixed_ship_torpedo_slot = empty
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
+			front_1_custom_slot = naval_anti_air_2
+			mid_1_custom_slot = spotting_equipment_2
+			rear_1_custom_slot = light_naval_battery_3
 		}
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 0
-		sub_attack = 1
-		
-		anti_air_attack = 0
-		
-		armor_value = 0
-
-		
-		surface_detection = 40
-		sub_detection = 10
-		surface_visibility = 10
-		naval_speed = 25
-		reliability = 0.90
-
-		naval_range = 2000
-		
-		max_strength = 50
-		
-
 		
 		type = { 
 			screen_ship
-			anti_air
 		}
-		build_cost_ic = 500
+		
+		anti_air_attack = 80
+		
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 8
+		naval_speed = 25
+		reliability = 0.8
+
+		naval_range = 1100
+		
+		max_strength = 320
+
+		type = { 
+			screen_ship
+		}
+		
+		build_cost_ic = 290
 		resources = {
-			wood = 3
+			wood = 2
+			iron = 2
+			coal = 1
+			crystals = 1
 		}
-		manpower = 400
+		manpower = 100
 	}
 	
 	xebec_4 = {
@@ -397,47 +377,40 @@ equipments = {
 		parent = xebec_3
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = light_naval_battery_4
+			fixed_ship_battery_slot = ship_torpedo_1
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = xebec_propulsion_4
 			fixed_ship_torpedo_slot = empty
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
+			front_1_custom_slot = naval_anti_air_3
+			mid_1_custom_slot = spotting_equipment_3
+			rear_1_custom_slot = light_naval_battery_4
 		}
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 0
-		sub_attack = 1
 		
-		anti_air_attack = 5
+		anti_air_attack = 130
 		
-		armor_value = 0
-
-		
-		surface_detection = 40
-		sub_detection = 10
-		surface_visibility = 10
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 8
 		naval_speed = 25
-		reliability = 0.92
+		reliability = 0.80
 
-		naval_range = 2500
+		naval_range = 2400
 		
-		max_strength = 60
-		
-
+		max_strength = 440
 		
 		type = { 
 			screen_ship
-			anti_air
 		}
 
-		build_cost_ic = 500
+		build_cost_ic = 400
 		resources = {
-			#oil = 2
-			wood = 4
+			wood = 3
+			iron = 2
+			coal = 3
+			crystals = 1
 		}		
-		manpower = 500
+		manpower = 100
 	}
 }
