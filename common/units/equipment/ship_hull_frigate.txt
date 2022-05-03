@@ -7,7 +7,7 @@ equipments = {
 #   #  # #  # #     #          #    #  #  #  #  # #  #   #   #
 ### #  # #  # ####  #          #    #  # ###  ##  #  #   #   ###
 
-    early_frigate_hull = {
+    frigate_hull = {
 		year = 600
 
 		can_be_produced = {
@@ -117,18 +117,15 @@ equipments = {
 
 		fuel_consumption = 0
 		
-		build_cost_ic = 400
-		resources = {
-			wood = 2
-		}
+		build_cost_ic = 1800
 		
-		manpower = 250
+		manpower = 200
 	}
 
 	frigate_hull_1 = {
 		year = 600
 
-		archetype = early_frigate_hull
+		archetype = frigate_hull
 		priority = 2000
 		#alias = destroyer_1
 		
@@ -138,7 +135,7 @@ equipments = {
 	frigate_hull_2 = {
 		year = 957
 
-		archetype = early_frigate_hull
+		archetype = frigate_hull
 		priority = 2000
 		parent = frigate_hull_1
 		#alias = destroyer_2
@@ -171,21 +168,35 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_2
 		}
 
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 1
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
 
-		reliability = 0.85
+		
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 10
+		naval_speed = 25
+		reliability = 0.80
 		naval_range = 1800
 		max_strength = 40
-		build_cost_ic = 500
-		resources = {
-			wood = 2
-		}
-		manpower = 325
+		build_cost_ic = 1900
+		manpower = 200
 	}
 
 	frigate_hull_3 = {
 		year = 965
 
-		archetype = early_frigate_hull
+		archetype = frigate_hull
 		priority = 2000
 		parent = frigate_hull_2
 		#alias = destroyer_3
@@ -230,18 +241,13 @@ equipments = {
 			}
 		}
 
-		
-		resources = {
-			wood = 3
-		}
-
 		surface_detection = 20
 		surface_visibility = 10
 		reliability = 0.90
-		naval_range = 2000
+		naval_range = 2100
 		max_strength = 50
-		build_cost_ic = 550
-		manpower = 400
+		build_cost_ic = 2000
+		manpower = 200
 
 		default_modules = {
 			mid_1_custom_slot = empty
@@ -253,7 +259,7 @@ equipments = {
 	frigate_hull_4 = {
 		year = 969
 
-		archetype = early_frigate_hull
+		archetype = frigate_hull
 		priority = 2000
 		parent = frigate_hull_3
 		#alias = destroyer_4
@@ -301,20 +307,16 @@ equipments = {
 
 		surface_detection = 20
 		reliability = 0.92
-		naval_range = 2500
+		naval_range = 2400
 		max_strength = 60
-		build_cost_ic = 600
-		resources = {
-			wood = 4
-			#chromium = 1
-		}
-		manpower = 500
+		build_cost_ic = 2100
+		manpower = 200
 	}
 
    frigate_1 = {
 		year = 600
 
-		archetype = early_frigate_hull
+		archetype = frigate_hull
 		priority = 2000
 		module_slots = inherit
 		default_modules = {
@@ -363,7 +365,7 @@ equipments = {
 	frigate_2 = {
 		year = 957
 
-		archetype = early_frigate_hull
+		archetype = frigate_hull
 		priority = 2000
 		parent = frigate_1
 		module_slots = inherit
@@ -415,7 +417,7 @@ equipments = {
 	frigate_3 = {
 		year = 965
 
-		archetype = early_frigate_hull
+		archetype = frigate_hull
 		priority = 2000
 		parent = frigate_2
 		module_slots = inherit
@@ -466,7 +468,7 @@ equipments = {
 	frigate_4 = {
 		year = 969
 
-		archetype = early_frigate_hull
+		archetype = frigate_hull
 		priority = 2000
 		parent = frigate_3
 		module_slots = inherit
@@ -519,7 +521,7 @@ equipments = {
 	siege_frigate_1 = {
 		year = 957
 
-		archetype = early_frigate_hull
+		archetype = frigate_hull
 		priority = 2000
 		module_slots = inherit
 		default_modules = {
@@ -572,7 +574,7 @@ equipments = {
 	siege_frigate_2 = {
 		year = 965
 
-		archetype = early_frigate_hull
+		archetype = frigate_hull
 		priority = 2000
 		module_slots = inherit
 		default_modules = {
@@ -626,7 +628,7 @@ equipments = {
 	siege_frigate_3 = {
 		year = 969
 
-		archetype = early_frigate_hull
+		archetype = frigate_hull
 		priority = 2000
 		module_slots = inherit
 		default_modules = {

@@ -116,12 +116,9 @@ equipments = {
 
 		fuel_consumption = 0
 		
-		build_cost_ic = 400
-		resources = {
-			wood = 2
-		}
+		build_cost_ic = 3096
 		
-		manpower = 250
+		manpower = 400
 	}
 
 	ship_of_the_line_hull_1 = {
@@ -171,14 +168,11 @@ equipments = {
 		}
 
 
-		reliability = 0.85
+		reliability = 0.80
 		naval_range = 1800
 		max_strength = 40
-		build_cost_ic = 500
-		resources = {
-			wood = 2
-		}
-		manpower = 325
+		build_cost_ic = 3192
+		manpower = 600
 	}
 
 	ship_of_the_line_hull_3 = {
@@ -229,18 +223,13 @@ equipments = {
 			}
 		}
 
-		
-		resources = {
-			wood = 3
-		}
-
 		surface_detection = 20
 		surface_visibility = 10
-		reliability = 0.90
-		naval_range = 2000
+		reliability = 0.80
+		naval_range = 2100
 		max_strength = 50
-		build_cost_ic = 550
-		manpower = 400
+		build_cost_ic = 3288
+		manpower = 800
 
 		default_modules = {
 			mid_1_custom_slot = empty
@@ -299,15 +288,11 @@ equipments = {
 
 
 		surface_detection = 20
-		reliability = 0.92
-		naval_range = 2500
+		reliability = 0.80
+		naval_range = 2400
 		max_strength = 60
-		build_cost_ic = 600
-		resources = {
-			wood = 4
-			#chromium = 1
-		}
-		manpower = 500
+		build_cost_ic = 3384
+		manpower = 1000
 	}
 
    ship_of_line = {
