@@ -837,6 +837,8 @@ technologies = {
 			spotting_equipment_1
 		}
 		
+		naval_retreat_speed = 0.1
+		
 		research_cost = 2.5
 		path = {
 			leads_to_tech = spotting_equipment_2
@@ -870,6 +872,8 @@ technologies = {
 			spotting_equipment_2
 		}
 		
+		naval_retreat_speed = 0.1
+		
 		research_cost = 2.5
 		path = {
 			leads_to_tech = spotting_equipment_3
@@ -902,6 +906,8 @@ technologies = {
 		enable_equipment_modules = { 
 			spotting_equipment_3
 		}
+		
+		naval_retreat_speed = 0.1
 		
 		research_cost = 2.5
 		xp_research_type = navy
@@ -1183,6 +1189,11 @@ technologies = {
 
 	improved_gun_carriers = {
 		
+		enable_equipment_modules = { 
+			light_naval_battery_2
+			heavy_naval_battery_2
+		}
+		
 		research_cost = 1
 
 		start_year = 957
@@ -1196,11 +1207,6 @@ technologies = {
 			custom_effect_tooltip = light_battery_advice_tt
 			custom_effect_tooltip = medium_battery_advice_tt
 			custom_effect_tooltip = heavy_battery_advice_tt
-		}
-
-		enable_equipment_modules = { 
-			light_naval_gunnery_2
-			heavy_naval_gunnery_2
 		}
 
 		folder = {
@@ -1228,6 +1234,11 @@ technologies = {
 
 	breech_loaded_cannons = {
 		
+		enable_equipment_modules = { 
+			light_naval_battery_3
+			heavy_naval_battery_3
+		}
+		
 		research_cost = 1
 
 		start_year = 965
@@ -1239,11 +1250,6 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = light_battery_advice_tt
-		}
-
-		enable_equipment_modules = { 
-			light_naval_gunnery_3
-			heavy_naval_gunnery_3
 		}
 
 		folder = {
@@ -1266,17 +1272,17 @@ technologies = {
 
 	modern_naval_gunnery = {
 		
+		enable_equipment_modules = { 
+			light_naval_battery_3
+			heavy_naval_battery_3
+		}
+		
 		research_cost = 1
 
 		start_year = 969
 
 		on_research_complete = {
 			custom_effect_tooltip = light_battery_advice_tt
-		}
-
-		enable_equipment_modules = { 
-			light_naval_gunnery_4
-			heavy_naval_gunnery_4
 		}
 		
 		folder = {

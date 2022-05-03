@@ -20,6 +20,10 @@ technologies = {
 		enable_equipments = {
 			cannon_equipment_1
 		}
+		enable_equipment_modules = { 
+			light_naval_battery_1
+			heavy_naval_battery_1
+		}
 		enable_subunits = {
 			cannon_frontline
 			cannon_support
