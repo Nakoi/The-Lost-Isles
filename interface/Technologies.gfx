@@ -1729,22 +1729,22 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_early_frigate_ship_medium"
+		name = "GFX_medium_ship_tech_medium"
 		texturefile = "gfx/interface/technologies/Early_frigate.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_frigate_ship_medium"
+		name = "GFX_medium_ship_tech_2_medium"
 		texturefile = "gfx/interface/technologies/Improved_Frigate.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_steam_frigate_ship_medium"
+		name = "GFX_medium_ship_tech_3_medium"
 		texturefile = "gfx/interface/technologies/Frigate_3.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_cruiser_ship_medium"
+		name = "GFX_medium_ship_tech_4_medium"
 		texturefile = "gfx/interface/technologies/Frigate_4.dds"
 	}
 
