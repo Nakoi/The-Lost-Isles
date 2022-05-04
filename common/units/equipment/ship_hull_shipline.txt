@@ -124,7 +124,7 @@ equipments = {
 	ship_of_the_line_hull_1 = {
 		year = 600
 
-		archetype = early_ship_of_the_line_hull
+		archetype = ship_of_the_line_hull
 		priority = 2000
 		#alias = destroyer_1
 		
@@ -134,7 +134,7 @@ equipments = {
 	ship_of_the_line_hull_2 = {
 		year = 957
 
-		archetype = early_ship_of_the_line_hull
+		archetype = ship_of_the_line_hull
 		priority = 2000
 		parent = ship_of_the_line_hull_1
 		#alias = destroyer_2
@@ -178,7 +178,7 @@ equipments = {
 	ship_of_the_line_hull_3 = {
 		year = 965
 
-		archetype = early_ship_of_the_line_hull
+		archetype = ship_of_the_line_hull
 		priority = 2000
 		parent = ship_of_the_line_hull_2
 		#alias = destroyer_3
@@ -241,7 +241,7 @@ equipments = {
 	ship_of_the_line_hull_4 = {
 		year = 969
 
-		archetype = early_ship_of_the_line_hull
+		archetype = ship_of_the_line_hull
 		priority = 2000
 		parent = ship_of_the_line_hull_3
 		#alias = destroyer_4
@@ -298,7 +298,7 @@ equipments = {
    ship_of_line = {
 		year = 600
 
-		archetype = early_ship_of_the_line_hull
+		archetype = ship_of_the_line_hull
 		priority = 2000
 		module_slots = inherit
 		default_modules = {
@@ -347,7 +347,7 @@ equipments = {
 	ship_of_line_1 = {
 		year = 957
 
-		archetype = early_ship_of_the_line_hull
+		archetype = ship_of_the_line_hull
 		priority = 2000
 		parent = ship_of_line
 		module_slots = inherit
@@ -399,7 +399,7 @@ equipments = {
 	ship_of_line_2 = {
 		year = 965
 
-		archetype = early_ship_of_the_line_hull
+		archetype = ship_of_the_line_hull
 		priority = 2000
 		parent = ship_of_line_1
 		module_slots = inherit
@@ -450,7 +450,7 @@ equipments = {
 	ship_of_line_3 = {
 		year = 969
 
-		archetype = early_ship_of_the_line_hull
+		archetype = ship_of_the_line_hull
 		priority = 2000
 		parent = ship_of_line_2
 		module_slots = inherit
