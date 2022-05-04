@@ -9,8 +9,11 @@ state = {
 		owner = CIL
 		add_core_of = CIL
 #		victory_points = { 2306 10 }
-#		buildings = {
-#		}
+		buildings = {
+			5342 ={
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces = {
