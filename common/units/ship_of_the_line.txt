@@ -6,7 +6,7 @@ sub_units = {
 		priority = 3
 		active = yes
 		type = { capital_ship }
-		need = { ship_of_the_line_hull = 1 }
+		need = { ship_hull_heavy = 1 }
 		
 		max_organisation = 40
 
