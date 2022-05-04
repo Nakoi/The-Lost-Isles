@@ -463,17 +463,17 @@ technologies = {
 		}
 	}
 
-	early_ship_of_the_line_hull_tech = {
+	heavy_ship_tech = {
 
 		enable_equipments = {
-			ship_of_the_line_hull_1
+			ship_hull_heavy_1
 		}
 		enable_equipment_modules = { 
 			ship_of_the_line_propulsion_1
 			heavy_planking_1
 		}
 		path = {
-			leads_to_tech = improved_ship_of_the_line_hull_tech
+			leads_to_tech = heavy_ship_tech_2
 			research_cost_coeff = 1
 		}
 		
@@ -501,17 +501,17 @@ technologies = {
 		}
 	}
 
-	improved_ship_of_the_line_hull_tech = {
+	heavy_ship_tech_2 = {
 
 		enable_equipments = { 
-			ship_of_the_line_hull_2
+			ship_hull_heavy_2
 		}
 		enable_equipment_modules = { 
 			ship_of_the_line_propulsion_2
 			heavy_planking_2
 		}
 		path = {
-			leads_to_tech = ironclad_hull_tech
+			leads_to_tech = heavy_ship_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -539,17 +539,17 @@ technologies = {
 		}
 	}
 
-    ironclad_hull_tech = {
+    heavy_ship_tech_3 = {
 
 		enable_equipments = { 
-			ship_of_the_line_hull_3
+			ship_hull_heavy_3
 		}
 		enable_equipment_modules = { 
 			ship_of_the_line_propulsion_3
 			heavy_planking_3
 		}
 		path = {
-			leads_to_tech = early_battleship_hull_tech
+			leads_to_tech = heavy_ship_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -577,10 +577,10 @@ technologies = {
 		}
 	}
 
-    early_battleship_hull_tech = {
+    heavy_ship_tech_4 = {
 
 		enable_equipments = { 
-			ship_of_the_line_hull_4
+			ship_hull_heavy_4
 		}
 		enable_equipment_modules = { 
 			ship_of_the_line_propulsion_4
