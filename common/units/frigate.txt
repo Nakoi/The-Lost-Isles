@@ -6,7 +6,7 @@ sub_units = {
 		priority = 3
 		active = yes
 		type = { screen_ship }
-		need = { frigate_hull = 1 }
+		need = { ship_hull_cruiser = 1 }
 		
 		max_organisation = 40
 
