@@ -1764,22 +1764,22 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_early_ship_of_line_ship_medium"
+		name = "GFX_heavy_ship_tech_medium"
 		texturefile = "gfx/interface/technologies/Ship_of_the_line_1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_ship_of_the_line_ship_medium"
+		name = "GFX_heavy_ship_tech_2_medium"
 		texturefile = "gfx/interface/technologies/Ship_of_the_line_2.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_ironclad_warships_ship_medium"
+		name = "GFX_heavy_ship_tech_3_medium"
 		texturefile = "gfx/interface/technologies/Ship_of_the_line_4.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_heavy_ship_medium"
+		name = "GFX_heavy_ship_tech_4_medium"
 		texturefile = "gfx/interface/technologies/Ship_of_the_line_3.dds"
 	}
 
