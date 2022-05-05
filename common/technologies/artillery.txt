@@ -975,11 +975,6 @@ technologies = {
 			leads_to_tech = elevation_screws
 			research_cost_coeff = 1
 		}
-
-		path = {
-			leads_to_tech = stationary_artillery
-			research_cost_coeff = 1
-		}
 		
 		dependencies = {
             tech_civilized = 1
@@ -1717,128 +1712,8 @@ technologies = {
 		}
 	}
 
-	### Stationary Artillery Tech ###
+	### Stationary Artillery Tech  - deleted ###
 	
-	stationary_artillery = {
-
-		enable_equipments = {
-			super_shell_equipment_1
-		}
-
-		enable_building = {
-			building = stationary_artillery
-			level = 1
-		}
-
-		dependencies = {
-			mortar = 1
-			tech_industrialized
-		}
-		
-		categories = {
-			artillery
-			artillery_stationary
-        }
-		
-		path = {
-			leads_to_tech = improved_stationary_artillery
-			research_cost_coeff = 1
-		}
-
-		force_use_small_tech_layout = yes
-		show_equipment_icon = yes
-
-		research_cost = 2.75
-		start_year = 967
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -8 y = @967 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	improved_stationary_artillery = {
-
-		enable_equipments = {
-			super_shell_equipment_2
-		}
-
-		path = {
-			leads_to_tech = modern_stationary_artillery
-			research_cost_coeff = 1
-		}
-		
-		dependencies = {
-			tech_industrialized
-		}
-		
-		categories = {
-			artillery
-			artillery_stationary
-        }
-		
-		force_use_small_tech_layout = yes
-		show_equipment_icon = yes
-
-		research_cost = 3
-		start_year = 969
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -8 y = @969 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	modern_stationary_artillery = {
-
-		enable_equipments = {
-			super_shell_equipment_3
-		}
-		
-		dependencies = {
-			tech_industrialized
-		}
-		
-		categories = {
-			artillery
-			artillery_stationary
-        }
-		
-		force_use_small_tech_layout = yes
-		show_equipment_icon = yes
-
-		research_cost = 3
-		start_year = 971
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -8 y = @971 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
 
 
 	Ballista = {
