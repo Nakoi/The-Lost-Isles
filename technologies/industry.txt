@@ -1,0 +1,4244 @@
+technologies = {
+
+	@100 = 0
+	@400 = 2
+	@600 = 4
+	@800 = 6
+	@850 = 8
+	@957 = 10
+	@959 = 12
+	@961 = 14
+	@963 = 16
+	@965 = 18
+	@967 = 20
+	@969 = 22
+	@971 = 24
+
+
+	improvised_tools = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = metal_tools
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_engineering
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @100
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitivetools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.05
+        production_factory_efficiency_gain_factor = 0.05
+        
+	}
+	
+	metal_tools = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = specialized_tools
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @400
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitivetools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.05
+        production_factory_efficiency_gain_factor = 0.05
+        
+	}
+
+	specialized_tools = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = advanced_metallurgy
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @600
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitivetools
+			industry_civilizedtools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.1
+        production_factory_efficiency_gain_factor = 0.1
+
+	}
+
+	advanced_metallurgy = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = interchangeable_tools
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @800
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedtools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.1
+        production_factory_efficiency_gain_factor = 0.1
+        
+	}
+
+	interchangeable_tools = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = tools_6
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedtools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.1
+        production_factory_efficiency_gain_factor = 0.1
+        
+    }
+    
+    tools_6 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = tools_7
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @957
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedtools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.15
+        production_factory_efficiency_gain_factor = 0.15
+        
+    }
+    
+    tools_7 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = tools_8
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedtools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.15
+        production_factory_efficiency_gain_factor = 0.15
+        
+    }
+    
+    tools_8 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 961     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = tools_9
+			research_cost_coeff = 1
+        }
+        
+        path = {
+			leads_to_tech = luxury_goods_manufacturing_0
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @961
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedtools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.2
+        production_factory_efficiency_gain_factor = 0.2
+        
+    }
+    
+    tools_9 = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 963    # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = tools_10
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedtools
+			industry_industrialtools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.2
+        production_factory_efficiency_gain_factor = 0.2
+        
+    }
+    
+    tools_10 = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = tools_11
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @965
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialtools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.2
+        production_factory_efficiency_gain_factor = 0.2
+        
+    }
+    
+    tools_11 = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = tools_12
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialtools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.2
+        production_factory_efficiency_gain_factor = 0.2
+        
+    }
+    
+    tools_12 = {
+        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = tools_13
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @969
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialtools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.25
+        production_factory_efficiency_gain_factor = 0.25
+        
+    }
+    
+    tools_13 = {
+        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialtools
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_max_efficiency_factor = 0.25
+        production_factory_efficiency_gain_factor = 0.25
+        
+	}
+	
+	basic_engineering = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = hot_air_balloon
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @400
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveengi
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        industrial_capacity_factory = 0.05
+
+	}
+	
+	hot_air_balloon = {
+        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = steam_engine
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveengi
+			industry_civilizedengi
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_army = {
+            recon = 1
+        }
+
+	}
+	
+	steam_engine = {
+        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = advanced_steam_engine
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = early_train
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedengi
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        industrial_capacity_factory = 0.1
+        industrial_capacity_dockyard = 0.1
+        local_resources_factor = 0.05
+        air_agility_factor = 0.1
+        air_maximum_speed_factor = 0.1
+        air_range_factor = 0.2
+        
+	}
+	
+	advanced_steam_engine = {
+        research_cost = 4.2 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = internal_combustion_engine
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedengi
+			industry_industrialengi
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        industrial_capacity_factory = 0.1
+        industrial_capacity_dockyard = 0.1
+        local_resources_factor = 0.05
+        air_agility_factor = 0.1
+        air_maximum_speed_factor = 0.1
+        air_range_factor = 0.2
+        
+    }
+    
+    internal_combustion_engine = {
+        research_cost = 4.2 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = advanced_combustion_engine
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialengi
+        }
+		
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        industrial_capacity_factory = 0.1
+        industrial_capacity_dockyard = 0.1
+        local_resources_factor = 0.05
+        air_agility_factor = 0.15
+        air_maximum_speed_factor = 0.15
+        air_range_factor = 0.25
+        
+    }
+	
+	advanced_combustion_engine = {
+        research_cost = 5.3 # Cost in time, where 1 is the default research time length.
+		start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialengi
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        industrial_capacity_factory = 0.1
+        industrial_capacity_dockyard = 0.1
+        local_resources_factor = 0.05
+        air_agility_factor = 0.15
+        air_maximum_speed_factor = 0.15
+        air_range_factor = 0.3
+        motorized_speed_factor = 0.1 #may or may not work
+        
+	}
+	
+	artisans = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = guild_system
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -2
+                y = @100
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveprod
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_efficiency_gain_factor = 0.1
+        industrial_capacity_factory = 0.1
+        industrial_capacity_dockyard = 0.15
+        production_factory_start_efficiency_factor = 0.05
+
+	}
+
+	guild_system = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = manufacturing_system
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -2
+                y = @600
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveprod
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_efficiency_gain_factor = 0.1
+        industrial_capacity_factory = 0.15
+        industrial_capacity_dockyard = 0.15
+        production_factory_start_efficiency_factor = 0.05
+        line_change_production_efficiency_factor = 0.02
+        industry_air_damage_factor = 0.05
+
+	}
+
+	manufacturing_system = {
+        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = early_factories
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -2
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveprod
+			industry_civilizedprod
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_efficiency_gain_factor = 0.15
+        industrial_capacity_factory = 0.2
+        industrial_capacity_dockyard = 0.2
+        production_factory_start_efficiency_factor = 0.1
+        line_change_production_efficiency_factor = 0.02
+        industry_air_damage_factor = 0.1
+        
+	}
+
+	early_factories = {
+        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = organized_factories
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -2
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedprod
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_efficiency_gain_factor = 0.15
+        industrial_capacity_factory = 0.4
+        industrial_capacity_dockyard = 0.4
+        production_factory_start_efficiency_factor = 0.1
+        line_change_production_efficiency_factor = 0.03
+        industry_air_damage_factor = 0.1
+        
+	}
+
+	organized_factories = {
+        research_cost = 4.2 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = assembly_line
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -2
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedprod
+			industry_industrialprod
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_efficiency_gain_factor = 0.25
+        industrial_capacity_factory = 0.4
+        industrial_capacity_dockyard = 0.4
+        production_factory_start_efficiency_factor = 0.15
+        line_change_production_efficiency_factor = 0.04
+        industry_air_damage_factor = 0.15
+        
+	}
+
+	assembly_line = {
+        research_cost = 4.2 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = shift_work
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -2
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialprod
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_efficiency_gain_factor = 0.25
+        industrial_capacity_factory = 0.45
+        industrial_capacity_dockyard = 0.45
+        production_factory_start_efficiency_factor = 0.15
+        line_change_production_efficiency_factor = 0.04
+        industry_air_damage_factor = 0.15
+        
+	}
+
+	shift_work = {
+        research_cost = 5.3 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -2
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialprod
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_factory_efficiency_gain_factor = 0.25
+        industrial_capacity_factory = 0.45
+        industrial_capacity_dockyard = 0.45
+        production_factory_start_efficiency_factor = 0.15
+        line_change_production_efficiency_factor = 0.05
+        industry_air_damage_factor = 0.20
+
+	}
+
+
+
+	supply_wagon = {
+        research_cost = 1.7 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = early_train
+			research_cost_coeff = 1
+        }
+		
+        enable_equipments = {
+			train_equipment_1
+		}
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @100
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_logi	
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+		 enable_building = {
+            building = infrastructure
+            level = 3
+        }
+
+        enable_building = {
+            building = rail_way
+            level = 1
+        }
+        
+	}
+
+	early_train = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 961     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = steel_railroad
+			research_cost_coeff = 1
+        }
+
+        enable_equipments = {
+			train_equipment_2
+		}
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @961
+            }
+        }
+
+        dependencies = {
+            steam_engine = 1
+        }
+
+        dependencies = {
+            supply_wagon = 1
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_logi	
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        enable_building = {
+            building = infrastructure
+            level = 7
+        }
+
+        enable_building = {
+            building = rail_way
+            level = 3
+        }
+        
+	}
+
+	steel_railroad = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = integral_railroad
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @965
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_logi	
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        enable_building = {
+            building = infrastructure
+            level = 11
+        }
+        production_speed_supply_node_factor = 0.25
+		production_speed_rail_way_factor = 0.25
+	}
+
+	integral_railroad = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @969
+            }
+        }
+
+        enable_equipments = {
+			train_equipment_3
+		}
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_logi	
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        enable_building = {
+            building = infrastructure
+            level = 15
+        }
+
+        enable_building = {
+            building = rail_way
+            level = 5
+        }
+        
+    }
+    
+    luxury_goods_manufacturing_0 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+            research_cost_coeff = 1
+            leads_to_tech = luxury_goods_manufacturing_1
+        }
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 6
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_luxury
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        on_research_complete = {
+			modify_building_resources = {
+				building = industrial_complex
+				resource = aluminium
+				amount = 1
+			}
+		}
+    }
+
+    luxury_goods_manufacturing_1 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+            research_cost_coeff = 1
+            leads_to_tech = luxury_goods_manufacturing_2
+        }
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 6
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_luxury
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        on_research_complete = {
+			modify_building_resources = {
+				building = industrial_complex
+				resource = aluminium
+				amount = 1
+			}
+		}
+    }
+
+    luxury_goods_manufacturing_2 = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 6
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_luxury
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        on_research_complete = {
+			modify_building_resources = {
+				building = industrial_complex
+				resource = aluminium
+				amount = 1
+			}
+		}
+    }
+
+    construction_0 = {
+        research_cost = 1.3 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_1
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @100
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.05
+        industry_repair_factor = 0.03
+        
+    }
+    
+    construction_1 = {
+        research_cost = 1.3 # Cost in time, where 1 is the default research time length.
+        start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_2
+			research_cost_coeff = 1
+        }
+        
+        path = {
+			leads_to_tech = fortification_0
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @400
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.05
+        industry_repair_factor = 0.05
+        
+    }
+    
+    construction_2 = {
+        research_cost = 1.3 # Cost in time, where 1 is the default research time length.
+        start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_3
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @600
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.1
+        industry_repair_factor = 0.1
+        global_building_slots_factor = 0.1
+        
+    }
+    
+    construction_3 = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_4
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @800
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveconstr
+			industry_civilizedconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.1
+        industry_repair_factor = 0.1
+
+    }
+    
+    construction_4 = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_5
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.1
+        industry_repair_factor = 0.15
+        global_building_slots_factor = 0.2
+        
+    }
+    
+    construction_5 = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_6
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @957
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.1
+        industry_repair_factor = 0.15
+        
+    }
+    
+    construction_6 = {
+        research_cost = 1.7 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_7
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.15
+        industry_repair_factor = 0.2
+        global_building_slots_factor = 0.2
+        
+    }
+    
+    construction_7 = {
+        research_cost = 1.7 # Cost in time, where 1 is the default research time length.
+        start_year = 961     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_8
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @961
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.15
+        industry_repair_factor = 0.20
+        
+    }
+    
+    construction_8 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_9
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedconstr
+			industry_industrialconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.15
+        industry_repair_factor = 0.2
+        global_building_slots_factor = 0.2
+        
+    }
+    
+    construction_9 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_10
+			research_cost_coeff = 1
+        }
+		
+        dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @965
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.15
+        industry_repair_factor = 0.2
+        
+    }
+    
+    construction_10 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_11
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.2
+        industry_repair_factor = 0.25
+        global_building_slots_factor = 0.3
+        
+    }
+    
+    construction_11 = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = construction_12
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @969
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.2
+        industry_repair_factor = 0.25
+        
+    }
+    
+    construction_12 = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @971
+            }
+        }
+
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialconstr
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        production_speed_buildings_factor = 0.2
+        industry_repair_factor = 0.25
+        global_building_slots_factor = 0.4
+        
+    }
+    
+    fortification_0 = {
+        research_cost = 1.3 # Cost in time, where 1 is the default research time length.
+        start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = fortification_1
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 8
+                y = @600
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_fort
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        enable_building = {
+            building = bunker
+            level = 3
+        }
+
+        enable_building = {
+            building = coastal_bunker
+            level = 3
+        }
+    }
+
+    fortification_1 = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = fortification_2
+			research_cost_coeff = 1
+		}
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 8
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_fort
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        enable_building = {
+            building = bunker
+            level = 5
+        }
+
+        enable_building = {
+            building = coastal_bunker
+            level = 5
+        }
+    }
+
+    fortification_2 = {
+        research_cost = 1.7 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = fortification_3
+			research_cost_coeff = 1
+		}
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 8
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_fort
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        enable_building = {
+            building = bunker
+            level = 7
+        }
+
+        enable_building = {
+            building = coastal_bunker
+            level = 7
+        }
+    }
+
+    fortification_3 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 8
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_fort
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        enable_building = {
+            building = bunker
+            level = 10
+        }
+
+        enable_building = {
+            building = coastal_bunker
+            level = 10
+        }
+    }
+
+    agriculture_0 = {
+        research_cost = 1.3 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = agriculture_1
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @100
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        conscription_factor = 0.01
+        monthly_population = 0.05
+    }
+
+    agriculture_1 = {
+        research_cost = 1.3 # Cost in time, where 1 is the default research time length.
+        start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = agriculture_2
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @400
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        monthly_population = 0.05
+
+        enable_building = {
+            building = synthetic_refinery
+            level = 7
+        }
+    }
+
+    agriculture_2 = {
+        research_cost = 1.3 # Cost in time, where 1 is the default research time length.
+        start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+        
+		path = {
+			leads_to_tech = agriculture_3
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @600
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        monthly_population = 0.1
+        conscription_factor = 0.01
+        fuel_gain_from_states = 22
+
+    }
+
+    agriculture_3 = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = agriculture_4
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @800
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveagri
+			industry_civilizedagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        monthly_population = 0.1
+
+        enable_building = {
+            building = fuel_silo
+            level = 3
+        }
+    }
+
+    agriculture_4 = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = agriculture_5
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+         categories = {
+            industry
+			industry_civilizedagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        monthly_population = 0.1
+        conscription_factor = 0.02
+    }
+
+    agriculture_5 = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = agriculture_6
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @957
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        monthly_population = 0.15
+        conscription_factor = 0.02
+        fuel_gain_from_states = 22
+
+    }
+
+    agriculture_6 = {
+        research_cost = 1.7 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = agriculture_7
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        monthly_population = 0.15
+        conscription_factor = 0.02
+
+    }
+
+    agriculture_7 = {
+        research_cost = 1.7 # Cost in time, where 1 is the default research time length.
+        start_year = 961     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = agriculture_8
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @961
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        monthly_population = 0.2
+        conscription_factor = 0.03
+        fuel_gain_from_states = 22
+
+    }
+
+    agriculture_8 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = agriculture_9
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedagri
+			industry_industrialagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        monthly_population = 0.2
+        conscription_factor = 0.03
+
+    }
+
+    agriculture_9 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = agriculture_10
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @965
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+        
+        monthly_population = 0.25
+        conscription_factor = 0.03
+        fuel_gain_from_states = 22
+
+    }
+
+    agriculture_10 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+
+		path = {
+			leads_to_tech = agriculture_11
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+         categories = {
+            industry
+			industry_industrialagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        monthly_population = 0.25
+        conscription_factor = 0.03
+
+    }
+
+    agriculture_11 = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = agriculture_12
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @969
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+         categories = {
+            industry
+			industry_industrialagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        monthly_population = 0.25
+        conscription_factor = 0.04
+        fuel_gain_from_states = 22
+
+    }
+
+    agriculture_12 = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+         categories = {
+            industry
+			industry_industrialagri
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        monthly_population = 0.25
+        conscription_factor = 0.04
+        fuel_gain_from_states = 22
+
+    }
+
+    financial_technology_0 = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = financial_technology_1
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @400
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+        
+        consumer_goods_factor = -0.02
+
+    }
+
+    financial_technology_1 = {
+        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = financial_technology_2
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @600
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        consumer_goods_factor = -0.02
+
+    }
+
+    financial_technology_2 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = financial_technology_3
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @800
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_primitiveeco
+			industry_civilizedeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        trade_opinion_factor = 0.05
+        min_export = -0.05
+
+    }
+
+    financial_technology_3 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = financial_technology_4
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        consumer_goods_factor = -0.04
+
+    }
+
+    financial_technology_4 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = financial_technology_5
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @957
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        trade_opinion_factor = 0.05
+        min_export = -0.05
+
+    }
+
+    financial_technology_5 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = financial_technology_6
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        consumer_goods_factor = -0.04
+
+    }
+
+    financial_technology_6 = {
+        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        start_year = 961     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = financial_technology_7
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @961
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+        local_resources_factor = 0.1
+        local_factories = 0.1
+    }
+
+    financial_technology_7 = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = financial_technology_8
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_civilizedeco
+			industry_industrialeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        consumer_goods_factor = -0.05
+
+    }
+
+    financial_technology_8 = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = financial_technology_9
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @965
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        trade_opinion_factor = 0.05
+        min_export = -0.05
+
+    }
+
+    financial_technology_9 = {
+        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = financial_technology_10
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        consumer_goods_factor = -0.05
+    }
+
+    financial_technology_10 = {
+        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		path = {
+			leads_to_tech = financial_technology_11
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @969
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        local_resources_factor = 0.1
+        local_factories = 0.1
+
+    }
+
+    financial_technology_11 = {
+        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+			industry_industrialeco
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        consumer_goods_factor = -0.06
+    }
+
+
+
+
+
+
+
+
+	development = {
+        research_cost = 100 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = tech_primitive
+			research_cost_coeff = 1
+        }
+
+        
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 20
+                y = @100
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+	}
+
+	tech_primitive = {
+        research_cost = 100 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = tech_civilized
+			research_cost_coeff = 1
+        }
+
+        
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 20
+                y = @600
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+	}
+
+
+	tech_civilized = {
+        research_cost = 100 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = tech_industrialized
+			research_cost_coeff = 1
+        }
+
+        
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 20
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+	}
+
+
+	tech_industrialized = {
+        research_cost = 100 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+		
+
+        
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 20
+                y = @957
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+	}
+
+}

@@ -1,0 +1,1047 @@
+technologies = {
+
+	brown_water_navy = {
+		doctrine_name = "TITLE_BROWN_WATER_NAVY"
+		
+		#Fleet in being is mainly focused on Battleships (and Battlecrusiers/Heavy cruisers) and ASW with carriers and submarines being used to a lesser extent. The fleet may not have to do anything at all to be useful - simply having a powerful fleet in a protected port forces your enemies to keep a fleet of their own nearby in order you fight you if you emerge
+		#Bonus org for BB/BC/CA
+		
+		
+		# EFFECT #############
+		early_xebec = {
+			max_organisation = 20
+			surface_visibility = -0.20			
+		}
+		galley = {
+			max_organisation = 20
+			surface_visibility = -0.20			
+		}
+		early_frigate = {
+			max_organisation = 10
+			surface_visibility = -0.10			
+		}
+		naval_enemy_fleet_size_ratio_penalty_factor = 0.10
+		#####
+
+
+		xor = { line_of_battle } 
+		
+		path = {
+			leads_to_tech = coastal_patrols
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			brown_water_navy_tree
+			cat_brown_water_navy
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.0
+		}
+	}
+	
+	coastal_patrols = {
+		# EFFECT #############
+		early_xebec = {
+			max_organisation = 10
+			surface_detection = 0.15
+			sortie_efficiency = 0.15
+		}
+		galley = {
+			max_organisation = 10
+			surface_detection = 0.15
+			sortie_efficiency = 0.15
+		}
+		########
+
+		path = {
+			leads_to_tech = retreat_maneuvers
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			brown_water_navy_tree
+			cat_brown_water_navy
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    retreat_maneuvers = {
+		# EFFECT #############
+		
+		early_xebec = {
+			max_organisation = 10
+		}
+		galley = {
+			max_organisation = 10
+		}
+		early_frigate = {
+			max_organisation = 10
+		}
+		naval_retreat_chance = 0.25
+		########
+
+		path = {
+			leads_to_tech = capital_ship_preservation
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			brown_water_navy_tree
+			cat_brown_water_navy
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    capital_ship_preservation = {
+		# EFFECT #############
+		early_ship_of_line = {
+			max_organisation = 10
+			reliability = 0.10
+		}
+		naval_retreat_chance = 0.10
+		########
+
+		path = {
+			leads_to_tech = know_thy_enemy
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			brown_water_navy_tree
+			cat_brown_water_navy
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    know_thy_enemy = {
+		# EFFECT #############
+		early_xebec = {
+			max_organisation = 10
+			sortie_efficiency = 0.15
+		}
+		galley = {
+			max_organisation = 10
+			sortie_efficiency = 0.15
+		}
+		strike_force_movement_org_loss = -0.2
+		########
+
+		path = {
+			leads_to_tech = naval_skirmishing
+			research_cost_coeff = 1
+		}
+
+        prerequisite = { steam_engine = 1 }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 200
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			brown_water_navy_tree
+			cat_brown_water_navy
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    naval_skirmishing = {
+		# EFFECT #############
+		early_xebec = {
+			navy_screen_attack_factor = 0.10
+		}
+		galley = {
+			navy_screen_attack_factor = 0.10
+		}
+		naval_retreat_chance = 0.40
+		navy_screen_attack_factor = 0.10
+		########
+
+		path = {
+			leads_to_tech = trade_interdiction
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 200
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			brown_water_navy_tree
+			cat_brown_water_navy
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    trade_interdiction = {
+		# EFFECT #############
+		early_xebec = {
+			max_organisation = 10
+			sortie_efficiency = 0.15
+		}
+		galley = {
+			max_organisation = 10
+			sortie_efficiency = 0.15
+		}
+		strike_force_movement_org_loss = -0.2
+		########
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			brown_water_navy_tree
+			cat_brown_water_navy
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    ####################################
+	############ END TREE ##############
+	####################################
+
+    line_of_battle = {
+		doctrine_name = "TITLE_LIVE_OF_BATTLE"
+		
+		#Fleet in being is mainly focused on Battleships (and Battlecrusiers/Heavy cruisers) and ASW with carriers and submarines being used to a lesser extent. The fleet may not have to do anything at all to be useful - simply having a powerful fleet in a protected port forces your enemies to keep a fleet of their own nearby in order you fight you if you emerge
+		#Bonus org for BB/BC/CA
+		
+		
+		# EFFECT #############
+		early_ship_of_line = {
+			max_organisation = 20
+		}
+		early_frigate = {
+			max_organisation = 20
+		}
+		navy_screen_attack_factor = 0.10
+		#####
+
+
+		xor = { brown_water_navy } 
+		
+		path = {
+			leads_to_tech = fleet_distribution
+			research_cost_coeff = 1
+		}
+
+        path = {
+            leads_to_tech = fleet_concentration
+            research_cost_coeff = 1
+        }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			line_of_battle_tree
+			cat_line_of_battle
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.0
+		}
+	}
+	
+	fleet_distribution = {
+		# EFFECT #############
+		early_ship_of_line = {
+			max_organisation = 10
+		}
+		early_frigate = {
+			max_organisation = 10
+		}
+		strike_force_movement_org_loss = -0.2
+		########
+
+		path = {
+			leads_to_tech = privateer_contracts
+			research_cost_coeff = 1
+		}
+
+        xor = { fleet_concentration }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			line_of_battle_tree
+			cat_line_of_battle
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    privateer_contracts = {
+		# EFFECT #############
+		early_xebec = {
+			max_organisation = 10
+			surface_detection = 0.10
+			sortie_efficiency = 0.15
+		}
+		galley = {
+			max_organisation = 10
+			sortie_efficiency = 0.15
+			surface_detection = 0.10
+		}
+		########
+
+		path = {
+			leads_to_tech = rapid_response_fleet
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			line_of_battle_tree
+			cat_line_of_battle
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    rapid_response_fleet = {
+		# EFFECT #############
+		early_ship_of_line = {
+			max_organisation = 10
+			naval_speed = 0.20
+		}
+		early_frigate = {
+			max_organisation = 10
+			naval_speed = 0.20
+		}
+		########
+
+		path = {
+			leads_to_tech = ascendance_of_steam
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			line_of_battle_tree
+			cat_line_of_battle
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    fleet_concentration = {
+		# EFFECT #############
+		early_ship_of_line = {
+			max_organisation = 10
+			navy_capital_ship_attack_factor = 0.20
+		}
+		early_frigate = {
+			max_organisation = 10
+			navy_capital_ship_attack_factor = 0.20
+		}
+		########
+
+		path = {
+			leads_to_tech = improved_screen_organisation
+			research_cost_coeff = 1
+		}
+
+        xor = { fleet_distribution }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			line_of_battle_tree
+			cat_line_of_battle
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    improved_screen_organisation = {
+		# EFFECT #############
+		early_ship_of_line = {
+			max_organisation = 10
+			naval_speed = 0.10
+		}
+		early_frigate = {
+			max_organisation = 10
+			naval_speed = 0.10
+		}
+		########
+
+		path = {
+			leads_to_tech = overwhelming_firepower
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			line_of_battle_tree
+			cat_line_of_battle
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    overwhelming_firepower = {
+		# EFFECT #############
+		early_ship_of_line = {
+			max_organisation = 10
+			navy_capital_ship_attack_factor = 0.15
+		}
+		early_frigate = {
+			max_organisation = 10
+			navy_capital_ship_attack_factor = 0.15
+		}
+		########
+
+		path = {
+			leads_to_tech = ascendance_of_steam
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			line_of_battle_tree
+			cat_line_of_battle
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    ascendance_of_steam = {
+		# EFFECT #############
+		early_xebec = {
+			max_organisation = 15
+			naval_speed = 0.20
+		}
+		galley = {
+			max_organisation = 15
+			naval_speed = 0.20
+		}
+		early_ship_of_line = {
+			max_organisation = 15
+			naval_speed = 0.20
+		}
+		early_frigate = {
+			max_organisation = 15
+			naval_speed = 0.20
+		}
+		########
+
+		path = {
+			leads_to_tech = logistics_ships
+			research_cost_coeff = 1
+		}
+
+        prerequisite = { steam_engine }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 200
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			line_of_battle_tree
+			cat_line_of_battle
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    logistics_ships = {
+		# EFFECT #############
+		early_xebec = {
+			max_organisation = 10
+			naval_range = 0.25
+		}
+		galley = {
+			max_organisation = 10
+			naval_range = 0.25
+		}
+		early_ship_of_line = {
+			max_organisation = 10
+			naval_range = 0.25
+		}
+		early_frigate = {
+			max_organisation = 10
+			naval_range = 0.25
+		}
+		########
+
+		path = {
+			leads_to_tech = fleet_in_being
+			research_cost_coeff = 1
+		}
+
+        path = {
+            leads_to_tech = big_guns_never_tire
+        }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 200
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			line_of_battle_tree
+			cat_line_of_battle
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    fleet_in_being = {
+		# EFFECT #############
+		early_xebec = {
+			max_organisation = 10
+			sub_detection = 0.15
+			surface_detection = 0.15
+		}
+		galley = {
+			max_organisation = 10
+			sub_detection = 0.15
+			surface_detection = 0.15
+		}
+		early_ship_of_line = {
+			max_organisation = 10
+			sub_detection = 0.15
+			surface_detection = 0.15
+		}
+		early_frigate = {
+			max_organisation = 10
+			sub_detection = 0.15
+			surface_detection = 0.15
+		}
+		########
+        
+        xor = { big_guns_never_tire }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 200
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			line_of_battle_tree
+			cat_line_of_battle
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+
+    big_guns_never_tire = {
+		# EFFECT #############
+		early_ship_of_line = {
+			max_organisation = 25
+			navy_capital_ship_attack_factor = 0.25
+		}
+		########
+
+        xor = { fleet_in_being }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 200
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			line_of_battle_tree
+			cat_line_of_battle
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			battleship = 1.0
+			cruiser = 1.5
+		}
+	}
+}

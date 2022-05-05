@@ -1,0 +1,1783 @@
+technologies = {
+
+	bombardier = {
+
+		enable_equipments = {
+			air_bombardier_equipment_1
+		}
+		
+		enable_subunits = {
+			air_bombardier
+		}
+
+		path = {
+			leads_to_tech = bombardier_upgrade1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = bombardier_upgrade_alt1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 961
+		folder = {
+			name = air_techs_folder
+			position = { x = -14 y = 4 }
+		}
+		
+		categories = {
+			category_air
+			category_bombardier
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}	
+
+	bombardier_upgrade1 = {
+
+		air_defence_factor = 0.10
+		
+		path = {
+			leads_to_tech = bombardier_upgrade2
+			research_cost_coeff = 1
+		}
+
+		xor = { bombardier_upgrade_alt1 }		
+
+		research_cost = 1.5
+		start_year = 961
+		folder = {
+			name = air_techs_folder
+			position = { x = -16 y = 6}
+		}
+		
+		categories = {
+			category_air
+			category_bombardier
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	bombardier_upgrade_alt1 = {
+
+		air_range_factor = 0.10
+		air_nav_efficiency = 0.10
+		
+		path = {
+			leads_to_tech = bombardier_upgrade_alt2
+			research_cost_coeff = 1
+		}
+
+		xor = { bombardier_upgrade1 }	
+
+		research_cost = 1.5
+		start_year = 961
+		folder = {
+			name = air_techs_folder
+			position = { x = -12 y = 6}
+		}
+		
+		categories = {
+			category_air
+			category_bombardier
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	bombardier_upgrade2 = {
+
+		air_strategic_bomber_bombing_factor = 0.10
+		
+		path = {
+			leads_to_tech = improved_bombardier
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 963
+		folder = {
+			name = air_techs_folder
+			position = { x = -16 y = 8}
+		}
+		
+		categories = {
+			category_air
+			category_bombardier
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	bombardier_upgrade_alt2 = {
+
+		air_nav_efficiency = 0.10
+		
+		path = {
+			leads_to_tech = improved_bombardier
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 963
+		folder = {
+			name = air_techs_folder
+			position = { x = -12 y = 8}
+		}
+		
+		categories = {
+			category_air
+			category_bombardier
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	improved_bombardier = {
+
+		enable_equipments = {
+			air_bombardier_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = bombardier_upgrade3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = bombardier_upgrade_alt3
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 965
+		folder = {
+			name = air_techs_folder
+			position = { x = -14 y = 10}
+		}
+		
+		categories = {
+			category_air
+			category_bombardier
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	bombardier_upgrade3 = {
+
+		air_defence_factor = 0.10
+		air_attack_factor = 0.10
+		
+		path = {
+			leads_to_tech = bombardier_upgrade4
+			research_cost_coeff = 1
+		}
+
+		xor = { bombardier_upgrade_alt3 }	
+
+		research_cost = 1.5
+		start_year = 967
+		folder = {
+			name = air_techs_folder
+			position = { x = -16 y = 12}
+		}
+		
+		categories = {
+			category_air
+			category_bombardier
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	bombardier_upgrade_alt3 = {
+
+		air_nav_efficiency = 0.10
+		
+		path = {
+			leads_to_tech = bombardier_upgrade_alt4
+			research_cost_coeff = 1
+		}
+
+		xor = { bombardier_upgrade3 }		
+
+		research_cost = 1.5
+		start_year = 967
+		folder = {
+			name = air_techs_folder
+			position = { x = -12 y = 12}
+		}
+		
+		categories = {
+			category_air
+			category_bombardier
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	bombardier_upgrade4 = {
+
+		air_strategic_bomber_bombing_factor = 0.15
+
+		path = {
+			leads_to_tech = modern_bombardier
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = -16 y = 14}
+		}
+		
+		categories = {
+			category_air
+			category_bombardier
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	bombardier_upgrade_alt4 = {
+
+		air_range_factor = 0.10
+		air_nav_efficiency = 0.10
+
+		path = {
+			leads_to_tech = modern_bombardier
+			research_cost_coeff = 1
+		}		
+		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = -12 y = 14}
+		}
+		
+		categories = {
+			category_air
+			category_bombardier
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	modern_bombardier = {
+
+		enable_equipments = {
+			air_bombardier_equipment_3
+		}
+		
+		research_cost = 1.5
+		start_year = 971
+		folder = {
+			name = air_techs_folder
+			position = { x = -14 y = 16}
+		}
+		
+		categories = {
+			category_air
+			category_bombardier
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_frigate = {
+
+		enable_equipments = {
+			air_frigate_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = air_frigate_upgrade_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = air_frigate_upgrade_alt1
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 961
+		folder = {
+			name = air_techs_folder
+			position = { x = -6 y = 4}
+		}
+		
+		categories = {
+			category_airfrigate
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_frigate_upgrade_1 = {
+
+		air_attack_factor = 0.10
+
+		xor = { air_frigate_upgrade_alt1 }
+		
+		path = {
+			leads_to_tech = air_frigate_upgrade2
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 961
+		folder = {
+			name = air_techs_folder
+			position = { x = -8 y = 6}
+		}
+		
+		categories = {
+			category_airfrigate
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_frigate_upgrade_alt1= {
+
+		ground_attack_factor = 0.1
+		
+		path = {
+			leads_to_tech = air_frigate_upgrade_alt2
+			research_cost_coeff = 1
+		}
+
+		xor = { air_frigate_upgrade_1 }
+
+		research_cost = 1.5
+		start_year = 961
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 6}
+		}
+		
+		categories = {
+			category_airfrigate
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_frigate_upgrade2 = {
+
+		air_agility_factor = 0.15
+		
+		path = {
+			leads_to_tech = improved_air_frigate
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 963
+		folder = {
+			name = air_techs_folder
+			position = { x = -8 y = 8}
+		}
+		
+		categories = {
+			category_airfrigate
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_frigate_upgrade_alt2 = {
+
+		air_defence_factor = 0.10
+		
+		path = {
+			leads_to_tech = improved_air_frigate
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 963
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 8}
+		}
+		
+		categories = {
+			category_airfrigate
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	improved_air_frigate = {
+
+		enable_equipments = {
+			air_frigate_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = air_frigate_upgrade3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = air_frigate_upgrade_alt3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sky_cruiser
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 965
+		folder = {
+			name = air_techs_folder
+			position = { x = -6 y = 10}
+		}
+		
+		categories = {
+			category_airfrigate
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_frigate_upgrade3 = {
+
+		air_agility_factor = 0.15
+		air_maximum_speed_factor = 0.20
+		air_range_factor = 0.10
+		
+		path = {
+			leads_to_tech = air_frigate_upgrade4
+			research_cost_coeff = 1
+		}
+
+		xor = { air_frigate_upgrade_alt3 }	
+
+		research_cost = 1.5
+		start_year = 967
+		folder = {
+			name = air_techs_folder
+			position = { x = -8 y = 12}
+		}
+		
+		categories = {
+			category_airfrigate
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_frigate_upgrade_alt3 = {
+
+		air_defence_factor = 0.10
+		
+		path = {
+			leads_to_tech = air_frigate_upgrade_alt4
+			research_cost_coeff = 1
+		}
+
+		xor = { air_frigate_upgrade3 }		
+
+		research_cost = 1.5
+		start_year = 967
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 12}
+		}
+		
+		categories = {
+			category_airfrigate
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_frigate_upgrade4 = {
+
+		air_attack_factor = 0.15
+
+		path = {
+			leads_to_tech = modern_air_frigate
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = -8 y = 14}
+		}
+		
+		categories = {
+			category_airfrigate
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_frigate_upgrade_alt4 = {
+
+		ground_attack_factor = 0.1
+
+		path = {
+			leads_to_tech = modern_air_frigate
+			research_cost_coeff = 1
+		}		
+		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 14}
+		}
+		
+		categories = {
+			category_airfrigate
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	modern_air_frigate = {
+
+		enable_equipments = {
+			air_frigate_equipment_3
+		}
+		
+		research_cost = 1.5
+		start_year = 971
+		folder = {
+			name = air_techs_folder
+			position = { x = -6 y = 16}
+		}
+		
+		categories = {
+			category_airfrigate
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	sky_cruiser = {
+
+		enable_equipments = {
+			sky_cruiser_equipment_1
+		}
+
+		path = {
+			leads_to_tech = reliable_loadout
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = experimental_loadout
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = 1 y = 12}
+		}
+		
+		categories = {
+			category_skycruiser
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	reliable_loadout = {
+
+		ground_attack_factor = 0.05
+		air_strategic_bomber_bombing_factor = 0.05
+		air_attack_factor = 0.05
+		air_accidents_factor = -0.05
+
+		path = {
+			leads_to_tech = improved_sky_cruiser
+			research_cost_coeff = 1
+		}
+
+		xor = { experimental_loadout }		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = -1 y = 14}
+		}
+		
+		categories = {
+			category_skycruiser
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	experimental_loadout = {
+
+		ground_attack_factor = 0.15
+		air_strategic_bomber_bombing_factor = 0.15
+		air_attack_factor = 0.15
+		air_accidents_factor = 0.10
+
+		path = {
+			leads_to_tech = improved_sky_cruiser
+			research_cost_coeff = 1
+		}
+
+		xor = { reliable_loadout }		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = 3 y = 14}
+		}
+		
+		categories = {
+			category_skycruiser
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	improved_sky_cruiser = {
+
+		enable_equipments = {
+			sky_cruiser_equipment_2
+		}	
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = 1 y = 16 }
+		}
+		
+		categories = {
+			category_skycruiser
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	sky_carrier = {
+
+		enable_equipments = {
+			sky_carrier_equipment_1
+		}
+
+		enable_subunits = {
+			sky_carrier_battalion
+		}
+
+		path = {
+			leads_to_tech = sky_carrier_upgrade1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sky_carrier_upgrade_alt1
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 961
+		folder = {
+			name = air_techs_folder
+			position = { x = 10 y = 4 }
+		}
+		
+		categories = {
+			category_skycarrier
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	sky_carrier_upgrade1 = {
+
+		ground_attack_factor = 0.1
+		
+		path = {
+			leads_to_tech = sky_carrier_upgrade2
+			research_cost_coeff = 1
+		}
+
+		xor = { sky_carrier_upgrade_alt1 }
+
+		research_cost = 1.5
+		start_year = 961
+		folder = {
+			name = air_techs_folder
+			position = { x = 8 y = 6 }
+		}
+		
+		categories = {
+			category_skycarrier
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	sky_carrier_upgrade_alt1= {
+
+		air_range_factor = 0.15
+		air_maximum_speed_factor = 0.10
+		
+		path = {
+			leads_to_tech = sky_carrier_upgrade_alt2
+			research_cost_coeff = 1
+		}
+
+		xor = { sky_carrier_upgrade1 }
+
+		research_cost = 1.5
+		start_year = 961
+		folder = {
+			name = air_techs_folder
+			position = { x = 12 y = 6}
+		}
+		
+		categories = {
+			category_skycarrier
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	sky_carrier_upgrade2 = {
+
+		air_defence_factor = 0.10
+		
+		path = {
+			leads_to_tech = improved_sky_carrier
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 963
+		folder = {
+			name = air_techs_folder
+			position = { x = 8 y = 8}
+		}
+		
+		categories = {
+			category_skycarrier
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	sky_carrier_upgrade_alt2 = {
+
+		air_agility_factor = 0.15
+		
+		path = {
+			leads_to_tech = improved_sky_carrier
+			research_cost_coeff = 2
+		}		
+
+		research_cost = 1.5
+		start_year = 963
+		folder = {
+			name = air_techs_folder
+			position = { x = 12 y = 8}
+		}
+		
+		categories = {
+			category_skycarrier
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	improved_sky_carrier = {
+
+		enable_equipments = {
+			sky_carrier_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = sky_carrier_upgrade3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sky_carrier_upgrade_alt3
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 965
+		folder = {
+			name = air_techs_folder
+			position = { x = 10 y = 10}
+		}
+		
+		categories = {
+			category_skycarrier
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	sky_carrier_upgrade3 = {
+
+		air_defence_factor = 0.10
+		
+		path = {
+			leads_to_tech = sky_carrier_upgrade4
+			research_cost_coeff = 1
+		}
+
+		xor = { sky_carrier_upgrade_alt3 }	
+
+		research_cost = 1.5
+		start_year = 967
+		folder = {
+			name = air_techs_folder
+			position = { x = 8 y = 12}
+		}
+		
+		categories = {
+			category_skycarrier
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	sky_carrier_upgrade_alt3 = {
+
+		air_maximum_speed_factor = 0.15
+		air_range_factor = 0.15
+		
+		path = {
+			leads_to_tech = sky_carrier_upgrade_alt4
+			research_cost_coeff = 1
+		}
+
+		xor = { sky_carrier_upgrade3 }		
+
+		research_cost = 1.5
+		start_year = 967
+		folder = {
+			name = air_techs_folder
+			position = { x = 12 y = 12}
+		}
+		
+		categories = {
+			category_skycarrier
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	sky_carrier_upgrade4 = {
+
+		ground_attack_factor = 0.15
+
+		path = {
+			leads_to_tech = modern_sky_carrier
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = 8 y = 14}
+		}
+		
+		categories = {
+			category_skycarrier
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	sky_carrier_upgrade_alt4 = {
+
+		air_agility_factor = 0.15
+
+		path = {
+			leads_to_tech = modern_sky_carrier
+			research_cost_coeff = 1
+		}		
+		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = 12 y = 14}
+		}
+		
+		categories = {
+			category_skycarrier
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	modern_sky_carrier = {
+
+		enable_equipments = {
+			sky_carrier_equipment_3
+		}
+		
+		research_cost = 1.5
+		start_year = 971
+		folder = {
+			name = air_techs_folder
+			position = { x = 10 y = 16}
+		}
+		
+		categories = {
+			category_skycarrier
+			category_air
+			category_airship
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_skirmisher = {
+
+		enable_equipments = {
+			air_skirmisher_equipment_1
+		}
+
+		enable_subunits = {
+			air_skirmishers
+		}
+	
+		path = {
+			leads_to_tech = as_fighter_upgrade1
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = air_striker
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 959
+		folder = {
+			name = air_techs_folder
+			position = { x = 27 y = 2 }
+		}
+		
+		categories = {
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+	
+	air_striker = {
+
+		enable_equipments = {
+			air_striker_equipment_1
+		}
+
+		enable_subunits = {
+			air_strikers
+		}
+
+		path = {
+			leads_to_tech = as_bomber_upgrade1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 959
+		folder = {
+			name = air_techs_folder
+			position = { x = 31 y = 2 }
+		}
+		
+		categories = {
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	as_fighter_upgrade1 = {
+
+		air_attack_factor = 0.10
+		
+		path = {
+			leads_to_tech = as_fighter_upgrade2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 961
+		folder = {
+			name = air_techs_folder
+			position = { x = 27 y = 4 }
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	as_bomber_upgrade1 = {
+
+		ground_attack_factor = 0.1
+		
+		path = {
+			leads_to_tech = as_bomber_upgrade2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 961
+		folder = {
+			name = air_techs_folder
+			position = { x = 31 y = 4}
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	as_fighter_upgrade2 = {
+
+		air_agility_factor = 0.10
+		
+		path = {
+			leads_to_tech = as_fighter_upgrade3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 963
+		folder = {
+			name = air_techs_folder
+			position = { x = 27 y = 6}
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	as_bomber_upgrade2 = {
+
+		air_nav_efficiency = 0.25
+		
+		path = {
+			leads_to_tech = as_bomber_upgrade3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 963
+		folder = {
+			name = air_techs_folder
+			position = { x = 31 y = 6}
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	as_fighter_upgrade3 = {
+
+		air_attack_factor = 0.10
+		
+		path = {
+			leads_to_tech = air_carabiners
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 965
+		folder = {
+			name = air_techs_folder
+			position = { x = 27 y = 8}
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	as_bomber_upgrade3 = {
+
+		air_nav_efficiency = 0.20
+		
+		path = {
+			leads_to_tech = air_grenadiers
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 967
+		folder = {
+			name = air_techs_folder
+			position = { x = 31 y = 8}
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_carabiners = {
+
+		enable_equipments = {
+			air_skirmisher_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = as_fighter_upgrade4
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 967
+		folder = {
+			name = air_techs_folder
+			position = { x = 27 y = 10}
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	air_grenadiers = {
+
+		enable_equipments = {
+			air_striker_equipment_2
+		}
+
+		path = {
+			leads_to_tech = as_bomber_upgrade4
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = 31 y = 10 }
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	as_fighter_upgrade4 = {
+
+		air_superiority_efficiency = 1.0
+
+		path = {
+			leads_to_tech = as_fighter_upgrade5
+			research_cost_coeff = 1
+		}		
+		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = 27 y = 12 }
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	as_bomber_upgrade4 = {
+
+		air_defence_factor = 0.40
+
+		path = {
+			leads_to_tech = as_bomber_upgrade5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 971
+		folder = {
+			name = air_techs_folder
+			position = { x = 31 y = 12 }
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	as_fighter_upgrade5 = {
+
+		air_agility_factor = 0.20
+
+		path = {
+			leads_to_tech = modern_air_carabiners
+			research_cost_coeff = 1
+		}		
+		
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = 27 y = 14 }
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	as_bomber_upgrade5 = {
+
+		ground_attack_factor = 0.2
+
+		path = {
+			leads_to_tech = modern_air_grenadiers
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 971
+		folder = {
+			name = air_techs_folder
+			position = { x = 31 y = 14 }
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	modern_air_carabiners = {
+
+		enable_equipments = {
+			air_skirmisher_equipment_3
+		}
+
+		research_cost = 1.5
+		start_year = 969
+		folder = {
+			name = air_techs_folder
+			position = { x = 27 y = 16 }
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+
+	modern_air_grenadiers= {
+
+		enable_equipments = {
+			air_striker_equipment_3
+		}
+		
+		research_cost = 1.5
+		start_year = 971
+		folder = {
+			name = air_techs_folder
+			position = { x = 31 y = 16 }
+		}
+		
+		categories = {
+			category_air
+			category_air_skirmisher
+		}
+		
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				date > "959.1.1"
+			}
+		}
+	}
+}
