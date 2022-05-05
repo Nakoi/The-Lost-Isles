@@ -417,3 +417,316 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 	}
+	
+	light_cruiser_1 = {
+		year = 600
+		visual_level = 0
+		archetype = ship_hull_cruiser
+		priority = 1900
+		module_slots = inherit
+
+		type = { 
+			screen_ship
+		}
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			ship_anti_air_upgrade
+		}
+		default_modules = {
+			fixed_ship_battery_slot = light_naval_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = frigate_propulsion_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		fuel_consumption = 0
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 15
+		naval_speed = 30
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 70		
+		
+		build_cost_ic = 1800
+		
+		manpower = 200
+	}
+	
+	light_cruiser_2 = {
+		year = 957
+		visual_level = 0
+		archetype = ship_hull_cruiser
+		priority = 1900
+		parent = light_cruiser_1
+		module_slots = inherit
+
+		type = { 
+			screen_ship
+		}
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			ship_anti_air_upgrade
+		}
+		default_modules = {
+			fixed_ship_battery_slot = light_naval_battery_2
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = frigate_propulsion_2
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		fuel_consumption = 0
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 15
+		naval_speed = 30
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 70		
+		
+		build_cost_ic = 1800
+		
+		manpower = 200
+	}
+	
+	light_cruiser_3 = {
+		year = 957
+		visual_level = 0
+		archetype = ship_hull_cruiser
+		priority = 1900
+		parent = light_cruiser_2
+		module_slots = inherit
+
+		type = { 
+			screen_ship
+		}
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			ship_anti_air_upgrade
+		}
+		default_modules = {
+			fixed_ship_battery_slot = light_naval_battery_3
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = frigate_propulsion_3
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		fuel_consumption = 0
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 15
+		naval_speed = 30
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 70		
+		
+		build_cost_ic = 1800
+		
+		manpower = 200
+	}
+	
+	light_cruiser_4 = {
+		year = 957
+		visual_level = 0
+		archetype = ship_hull_cruiser
+		priority = 1900
+		parent = light_cruiser_3
+		module_slots = inherit
+
+		type = { 
+			screen_ship
+		}
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			ship_anti_air_upgrade
+		}
+		default_modules = {
+			fixed_ship_battery_slot = light_naval_battery_4
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = frigate_propulsion_4
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		fuel_consumption = 0
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 15
+		naval_speed = 30
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 70		
+		
+		build_cost_ic = 1800
+		
+		manpower = 200
+	}
+	
+	siege_frigate_1 = {
+		year = 957
+		visual_level = 0
+		archetype = ship_hull_cruiser
+		priority = 1900
+		module_slots = inherit
+
+		type = { 
+			capital_ship
+		}
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			ship_anti_air_upgrade
+		}
+		default_modules = {
+			fixed_ship_battery_slot = naval_mortars_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = frigate_propulsion_2
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		fuel_consumption = 0
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 15
+		naval_speed = 30
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 70		
+		
+		build_cost_ic = 1800
+		
+		manpower = 200
+	}
+	
+	siege_frigate_2 = {
+		year = 957
+		visual_level = 0
+		archetype = ship_hull_cruiser
+		priority = 1900
+		parent = siege_frigate_1
+		module_slots = inherit
+
+		type = { 
+			capital_ship
+		}
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			ship_anti_air_upgrade
+		}
+		default_modules = {
+			fixed_ship_battery_slot = naval_mortars_2
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = frigate_propulsion_3
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		fuel_consumption = 0
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 15
+		naval_speed = 30
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 70		
+		
+		build_cost_ic = 1800
+		
+		manpower = 200
+	}
+	
+	siege_frigate_3 = {
+		year = 957
+		visual_level = 0
+		archetype = ship_hull_cruiser
+		priority = 1900
+		parent = siege_frigate_2
+		module_slots = inherit
+
+		type = { 
+			capital_ship
+		}
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			ship_anti_air_upgrade
+		}
+		default_modules = {
+			fixed_ship_battery_slot = naval_mortars_3
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = frigate_propulsion_4
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		fuel_consumption = 0
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 15
+		naval_speed = 30
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 70		
+		
+		build_cost_ic = 1800
+		
+		manpower = 200
+	}
