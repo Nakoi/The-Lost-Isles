@@ -38,6 +38,10 @@ add_ideas = {
 	policy_feudalism
 	policy_reactionary
 }
+##diplomacy##
+create_faction = "Crown of Avtukov"
+add_to_faction = AVT
+add_to_faction = OSK
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

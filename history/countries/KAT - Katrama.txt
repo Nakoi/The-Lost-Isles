@@ -33,6 +33,10 @@ add_ideas = {
 	policy_progressive
 }
 
+create_faction = "Zebra Protection Accord"
+add_to_faction = KAT
+add_to_faction = RED
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {

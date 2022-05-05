@@ -35,6 +35,9 @@ add_ideas = {
 	policy_feudalism
 }
 
+create_faction = "Heavenly Realm of Ijikami"
+add_to_faction = IJI
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {

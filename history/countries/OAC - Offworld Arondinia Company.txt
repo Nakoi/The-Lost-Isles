@@ -33,6 +33,9 @@ add_ideas = {
 	policy_oligopoly
 	policy_progressive
 }
+create_faction = "OAC Sphere"
+add_to_faction = OAC
+add_to_faction = NUX
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

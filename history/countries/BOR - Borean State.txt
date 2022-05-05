@@ -32,6 +32,10 @@ add_ideas = {
 	policy_reactionary
 }
 
+create_faction = "Anti-Luanan Alliance"
+add_to_faction = BOR
+add_to_faction = VED
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {

@@ -31,6 +31,15 @@ add_ideas = {
 	policy_reactionary
 	policy_feudalism
 }
+##diplomacy##
+create_faction = "Realm of Sepsta"
+add_to_faction = SEP
+add_to_faction = NAS
+add_to_faction = NAP
+add_to_faction = TJE
+add_to_faction = AVH
+add_to_faction = MEP
+add_to_faction = NAB
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

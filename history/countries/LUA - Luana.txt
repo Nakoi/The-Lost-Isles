@@ -33,6 +33,9 @@ add_ideas = {
 	policy_conservative
 }
 
+create_faction = "Imperial Restoration League"
+add_to_faction = LUA
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {

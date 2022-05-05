@@ -30,7 +30,10 @@ add_ideas = {
 	policy_reactionary
 	policy_feudalism
 }
-
+create_faction = "Islivalian Sovereignty"
+add_to_faction = ISL
+add_to_faction = JES
+add_to_faction = STA
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
