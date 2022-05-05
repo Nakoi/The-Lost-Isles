@@ -12,8 +12,13 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-
-		start_year = 1922
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
+		dependencies = {
+            tech_primitive = 1
+        }
+		start_year = 600
 		
 		folder = {
 			name = naval_folder
@@ -48,13 +53,19 @@ technologies = {
 		}
 		
 		research_cost = 2
-		
-		start_year = 1936
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
+		start_year = 957
 
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 7 }
 		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		ai_will_do = {
 			factor = 1
@@ -84,12 +95,19 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1940
-		
+		start_year = 965
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 13 }
 		}
+		
+		dependencies = {
+            tech_industrialized = 1
+			steam_engine = 1
+        }
 		
 		ai_will_do = {
 			factor = 1
@@ -114,12 +132,19 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1944
-		
+		start_year = 969
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 19 }
 		}
+		
+		dependencies = {
+            tech_industrialized = 1
+			steam_engine = 1
+        }
 		
 		ai_will_do = {
 			factor = 1
@@ -146,8 +171,10 @@ technologies = {
 		
 		research_cost = 2
 		
-		start_year = 1936
-		
+		start_year = 600
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
 		folder = {
 			name = naval_folder
 			position = { x = -1 y = 1 }
@@ -175,9 +202,13 @@ technologies = {
 		}
 		
 		research_cost = 2
-
-		start_year = 1940
-		
+		dependencies = {
+            tech_civilized = 1
+        }
+		start_year = 957
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
 		folder = {
 			name = naval_folder
 			position = { x = -1 y = 7 }
@@ -205,9 +236,14 @@ technologies = {
 		}
 		
 		research_cost = 2
-
-		start_year = 1944
-		
+		dependencies = {
+            tech_industrialized = 1
+			steam_engine = 1
+        }
+		start_year = 965
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
 		folder = {
 			name = naval_folder
 			position = { x = -1 y = 13 }
@@ -231,9 +267,14 @@ technologies = {
 		}
 		
 		research_cost = 2
-
-		start_year = 1944
-		
+		dependencies = {
+            tech_industrialized = 1
+			steam_engine = 1
+        }
+		start_year = 969
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
 		folder = {
 			name = naval_folder
 			position = { x = -1 y = 19 }
@@ -268,13 +309,15 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1922
+		start_year = 600
 		
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 1 }
 		}
-		
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
 		ai_will_do = {
 			factor = 1
 		}
@@ -297,9 +340,13 @@ technologies = {
 		}
 		
 		research_cost = 2
-		
-		start_year = 1936
-		
+		dependencies = {
+            tech_civilized = 1
+        }
+		start_year = 957
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 7 }
@@ -327,9 +374,14 @@ technologies = {
 		}
 		
 		research_cost = 2
-
-		start_year = 1940
-		
+		dependencies = {
+            tech_industrialized = 1
+			steam_engine = 1
+        }
+		start_year = 965
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 13 }
@@ -352,9 +404,14 @@ technologies = {
 		}
 		
 		research_cost = 2
-
-		start_year = 1944
-		
+		dependencies = {
+            tech_industrialized = 1
+			steam_engine = 1
+        }
+		start_year = 969
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 19 }
@@ -384,8 +441,13 @@ technologies = {
 		
 		
 		research_cost = 1.5
-
-		start_year = 1922
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
+		dependencies = {
+            tech_civilized = 1
+        }
+		start_year = 957
 		
 		folder = {
 			name = naval_folder
@@ -414,8 +476,14 @@ technologies = {
 		}
 		
 		research_cost = 2
-
-		start_year = 1940
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
+		dependencies = {
+            tech_industrialized = 1
+			steam_engine = 1
+        }
+		start_year = 965
 		
 		folder = {
 			name = naval_folder
@@ -439,7 +507,14 @@ technologies = {
 		}		
 		
 		research_cost = 1.5
-		start_year = 1922
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
+		dependencies = {
+            tech_industrialized = 1
+			steam_engine = 1
+        }
+		start_year = 969
 		
 		folder = {
 			name = naval_folder
@@ -468,7 +543,10 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
+		start_year = 600
 		
 		folder = {
 			name = naval_folder
@@ -497,7 +575,13 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 957
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		folder = {
 			name = naval_folder
@@ -526,7 +610,14 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
+		start_year = 965
+		dependencies = {
+            tech_industrialized = 1
+			steam_engine = 1
+        }
 		
 		folder = {
 			name = naval_folder
@@ -551,7 +642,14 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		xp_research_type = navy
+		xp_boost_cost = 100
+		xp_research_bonus = 1.50
+		start_year = 969
+		dependencies = {
+            tech_industrialized = 1
+			steam_engine = 1
+        }
 		
 		folder = {
 			name = naval_folder
@@ -586,8 +684,10 @@ technologies = {
 		show_equipment_icon = yes
 		
 		research_cost = 1.5
-		start_year = 1922
-		
+		start_year = 600
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
 		folder = {
 			name = naval_folder
 			position = { x = 3 y = 1 }
@@ -611,8 +711,10 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
-		
+		start_year = 957
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
 		folder = {
 			name = naval_folder
 			position = { x = 3 y = 7 }
@@ -636,7 +738,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		start_year = 965
 		folder = {
 			name = naval_folder
 			position = { x = 3 y = 13 }
@@ -655,7 +760,7 @@ technologies = {
 		naval_invasion_capacity = 100
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 969
 		folder = {
 			name = naval_folder
 			position = { x = 3 y = 19 }
