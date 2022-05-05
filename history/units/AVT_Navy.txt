@@ -1,0 +1,35 @@
+units = {
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Coast Patrol Fleet"			
+		naval_base = 1360 #
+		task_force = {
+			name = "Coast Patrol Fleet"
+			location = 1360 #
+			##Xebecs##
+			ship = { name = "IANS Gracemare" definition = xebec start_experience_factor = 0.2 equipment = { xebec_hull_2 = { amount = 1 owner = AVT version_name = "Pioner Class" } } }
+			ship = { name = "IANS Egret" definition = xebec start_experience_factor = 0.2 equipment = { xebec_hull_2 = { amount = 1 owner = AVT version_name = "Pioner Class" } } }
+			ship = { name = "IANS Vernyy" definition = xebec start_experience_factor = 0.2 equipment = { xebec_hull_2 = { amount = 1 owner = AVT version_name = "Pioner Class"} } }
+			ship = { name = "IANS Kopye" definition = xebec start_experience_factor = 0.2 equipment = { xebec_hull_2 = { amount = 1 owner = AVT version_name = "Pioner Class"} } }
+			ship = { name = "IANS Rhyl" definition = xebec start_experience_factor = 0.2 equipment = { xebec_hull_2 = { amount = 1 owner = AVT version_name = "Pioner Class"} } }
+			}
+		}
+	fleet = {
+		name = "Western Fleet"			
+		naval_base = 4201 #
+		task_force = {
+			name = "Western Fleet"
+			location = 4201 #
+			##Light Ships##
+			ship = { name = "IANS Belka" definition = galley start_experience_factor = 0.35 equipment = { galley_hull_2 = { amount = 1 owner = AVT version_name = "Khimera Class" } } }
+			ship = { name = "IANS Polyarnaya Zvezda" definition = galley start_experience_factor = 0.35 equipment = { galley_hull_2 = { amount = 1 owner = AVT version_name = "Khimera Class" } } }
+			ship = { name = "IANS Azov" definition = galley start_experience_factor = 0.35 equipment = { galley_hull_2 = { amount = 1 owner = AVT version_name = "Khimera Class"} } }
+			ship = { name = "IANS Tserber" definition = galley start_experience_factor = 0.35 equipment = { galley_hull_2 = { amount = 1 owner = AVT version_name = "Khimera Class"} } }
+			##Medium Ships##
+			ship = { name = "IANS Klever" definition = frigate start_experience_factor = 0.4 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AVT version_name = "Dvorets Class"} } }
+			ship = { name = "IANS Almaz" definition = frigate start_experience_factor = 0.4 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AVT version_name = "Dvorets Class"} } }
+			##Heavy Ships##
+			ship = { name = "IANS Gertsoginya" definition = ship_of_line start_experience_factor = 0.45 equipment = { ship_hull_heavy_2 = { amount = 1 owner = AVT version_name = "Pobeda Class"} } }
+			}
+		}
+	}
