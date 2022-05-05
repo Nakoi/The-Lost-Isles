@@ -1747,7 +1747,27 @@ spriteTypes = {
 		name = "GFX_medium_ship_tech_4_medium"
 		texturefile = "gfx/interface/technologies/Frigate_4.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_medium_ship_poverty_medium"
+		texturefile = "gfx/interface/technologies/Early_frigate.dds"
+	}
 
+	SpriteType = {
+		name = "GFX_medium_ship_poverty_2_medium"
+		texturefile = "gfx/interface/technologies/Improved_Frigate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_medium_ship_poverty_3_medium"
+		texturefile = "gfx/interface/technologies/Frigate_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_medium_ship_poverty_4_medium"
+		texturefile = "gfx/interface/technologies/Frigate_4.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_siege_frigate_ship_medium"
 		texturefile = "gfx/interface/technologies/Siege_Frigate_1.dds"
@@ -1780,6 +1800,26 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_heavy_ship_tech_4_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_ship_poverty_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_ship_poverty_2_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_ship_poverty_3_medium"
+		texturefile = "gfx/interface/technologies/Ship_of_the_line_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_ship_poverty_4_medium"
 		texturefile = "gfx/interface/technologies/Ship_of_the_line_3.dds"
 	}
 
