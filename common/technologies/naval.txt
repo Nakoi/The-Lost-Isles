@@ -291,14 +291,13 @@ technologies = {
 	}
 	
 	
-	early_frigate_ship = {
+	medium_ship_poverty = {
 
 		enable_equipments = { 
-			frigate_1
 		}
 		
 		path = {
-			leads_to_tech = frigate_ship 
+			leads_to_tech = medium_ship_poverty_2
 			research_cost_coeff = 1
 		}
 
@@ -328,14 +327,13 @@ technologies = {
 		}
 	}
 	
-	frigate_ship = {
+	medium_ship_poverty_2 = {
 
 		enable_equipments = { 
-			frigate_2
 		}
 		
 		path = {
-			leads_to_tech = steam_frigate_ship 
+			leads_to_tech = medium_ship_poverty_3
 			research_cost_coeff = 1
 		}
 		
@@ -362,14 +360,13 @@ technologies = {
 		}
 	}
 	
-	steam_frigate_ship = {
+	medium_ship_poverty_3 = {
 
 		enable_equipments = { 
-			frigate_3
 		}
 		
 		path = {
-			leads_to_tech = cruiser_ship 
+			leads_to_tech = medium_ship_poverty_4
 			research_cost_coeff = 1
 		}
 		
@@ -397,10 +394,9 @@ technologies = {
 		}
 	}
 	
-	cruiser_ship = {
+	medium_ship_poverty_4 = {
 
 		enable_equipments = { 
-			frigate_4
 		}
 		
 		research_cost = 2
@@ -531,14 +527,13 @@ technologies = {
 		}
 	}
 	
-	early_ship_of_line_ship = {
+	heavy_ship_poverty = {
 
 		enable_equipments = { 
-			ship_of_line
 		}
 		
 		path = {
-			leads_to_tech = ship_of_the_line_ship 
+			leads_to_tech = heavy_ship_poverty_2 
 			research_cost_coeff = 1
 		}
 		
@@ -563,14 +558,13 @@ technologies = {
 		}
 	}
 	
-	ship_of_the_line_ship = {
+	heavy_ship_poverty_2 = {
 
 		enable_equipments = { 
-			ship_of_line_1
 		}
 		
 		path = {
-			leads_to_tech = ironclad_warships_ship 
+			leads_to_tech = heavy_ship_poverty_3 
 			research_cost_coeff = 1
 		}
 		
@@ -598,14 +592,13 @@ technologies = {
 		}
 	}
 	
-	ironclad_warships_ship = {
+	heavy_ship_poverty_3 = {
 
 		enable_equipments = { 
-			ship_of_line_2
 		}
 		
 		path = {
-			leads_to_tech = heavy_ship 
+			leads_to_tech = heavy_ship_poverty_4 
 			research_cost_coeff = 1
 		}
 		
@@ -635,10 +628,9 @@ technologies = {
 	}
 	
 	
-	heavy_ship = {
+	heavy_ship_poverty_4 = {
 
 		enable_equipments = { 
-			ship_of_line_3
 		}
 		
 		research_cost = 2
