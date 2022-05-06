@@ -13,13 +13,6 @@ equipments = {
 		alias = destroyer
 		priority = 2000
 
-		upgrades = {
-			ship_torpedo_upgrade
-			destroyer_engine_upgrade
-			ship_ASW_upgrade
-			ship_anti_air_upgrade
-		}
-
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
@@ -184,7 +177,7 @@ equipments = {
 		surface_visibility = 10
 		reliability = 0.80
 		naval_range = 2100
-		max_strength = 50
+		max_strength = 320
 		build_cost_ic = 290
 		manpower = 320
 
@@ -202,7 +195,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { module_light_lg module_torpedo }
+				allowed_module_categories = { module_light_lg  }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -214,6 +207,7 @@ equipments = {
 				allowed_module_categories = {
 					module_light_lg
 					module_naval_aa
+					module_torpedo
 				}
 			}
 			mid_1_custom_slot = {
@@ -273,9 +267,6 @@ equipments = {
 		max_strength = 20
 		
 		build_cost_ic = 220
-		resources = {
-			wood = 1
-		}
 		manpower = 100
 		
 	}
@@ -312,11 +303,7 @@ equipments = {
 		
 		max_strength = 100
 
-		build_cost_ic = 250
-		resources = {
-			wood = 2
-			iron = 1
-		}		
+		build_cost_ic = 250	
 		manpower = 100
 	}
 	
@@ -326,7 +313,41 @@ equipments = {
 		archetype = xebec_hull
 		priority = 2000
 		parent = xebec_2
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { module_light_lg module_carronades }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { module_xebec_sails }
+			}
+
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+		}
 		default_modules = {
 			fixed_ship_battery_slot = light_naval_battery_3
 			fixed_ship_anti_air_slot = empty
@@ -343,7 +364,7 @@ equipments = {
 			screen_ship
 		}
 		
-		anti_air_attack = 80
+		anti_air_attack = 0
 		
 		surface_detection = 20
 		sub_detection = 1
@@ -360,12 +381,6 @@ equipments = {
 		}
 		
 		build_cost_ic = 290
-		resources = {
-			wood = 2
-			iron = 2
-			coal = 1
-			crystals = 1
-		}
 		manpower = 100
 	}
 	
@@ -375,21 +390,54 @@ equipments = {
 		archetype = xebec_hull
 		priority = 2000
 		parent = xebec_3
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { module_light_lg  }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { module_xebec_sails }
+			}
+
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_naval_aa
+					module_torpedo
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_naval_aa
+				}
+			}
+		}
 		default_modules = {
-			fixed_ship_battery_slot = ship_torpedo_1
+			fixed_ship_battery_slot = light_naval_battery_4
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = xebec_propulsion_4
 			fixed_ship_torpedo_slot = empty
-			front_1_custom_slot = naval_anti_air_3
+			front_1_custom_slot = ship_torpedo_1
 			mid_1_custom_slot = spotting_equipment_3
 			rear_1_custom_slot = light_naval_battery_4
 		}
 		
-		anti_air_attack = 130
-		
+		anti_air_attack = 0
+		torpedo_attack = 0
 		surface_detection = 20
 		sub_detection = 1
 		surface_visibility = 8
@@ -404,13 +452,7 @@ equipments = {
 			screen_ship
 		}
 
-		build_cost_ic = 400
-		resources = {
-			wood = 3
-			iron = 2
-			coal = 3
-			crystals = 1
-		}		
+		build_cost_ic = 400		
 		manpower = 100
 	}
 }

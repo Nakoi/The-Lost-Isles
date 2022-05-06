@@ -23,13 +23,6 @@ equipments = {
 		alias = destroyer
 		priority = 2000
 
-		upgrades = {
-			ship_torpedo_upgrade
-			destroyer_engine_upgrade
-			ship_ASW_upgrade
-			ship_anti_air_upgrade
-		}
-
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
@@ -366,14 +359,14 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = galley_propulsion_1
+			fixed_ship_battery_slot = light_naval_battery_1
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_engine_slot = galley_propulsion_1
 			fixed_ship_torpedo_slot = empty
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
+			mid_1_custom_slot = light_naval_battery_1
+			rear_1_custom_slot = light_naval_battery_1
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -394,18 +387,11 @@ equipments = {
 		
 		naval_range = 1500
 		
-		max_strength = 25
-		
-
-		fuel_consumption = 7
+		max_strength = 40
 		
 		build_cost_ic = 400
-		resources = {
-			#oil = 1
-			wood = 2
-		}
 		
-		manpower = 250
+		manpower = 100
 	}
 
 	galley_2 = {
@@ -416,14 +402,14 @@ equipments = {
 		parent = galley_1
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = galley_propulsion_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_battery_slot = light_naval_battery_2
+			fixed_ship_anti_air_slot = naval_anti_air_1
+			fixed_ship_fire_control_system_slot = spotting_equipment_1
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_engine_slot = galley_propulsion_2
 			fixed_ship_torpedo_slot = empty
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
+			mid_1_custom_slot = naval_anti_air_1
+			rear_1_custom_slot = light_naval_battery_2
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -443,21 +429,15 @@ equipments = {
 
 		naval_range = 1800
 		
-		max_strength = 40
-		
-
-		
+		max_strength = 360
+				
 		type = { 
 			screen_ship
 			anti_air
 		}
 
-		build_cost_ic = 500
-		resources = {
-			#oil = 1
-			wood = 3
-		}		
-		manpower = 325
+		build_cost_ic = 500	
+		manpower = 100
 	}
 	
 	galley_3 = {
@@ -466,16 +446,61 @@ equipments = {
 		archetype = galley_hull
 		priority = 2000
 		parent = galley_2
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { module_light_lg module_carronades }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { module_naval_aa }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { module_spottingeq module_navigationeq }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { module_galley_sails }
+			}
+			
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+		}
 		default_modules = {
-			fixed_ship_battery_slot = galley_propulsion_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_battery_slot = light_naval_battery_3
+			fixed_ship_anti_air_slot = naval_anti_air_2
+			fixed_ship_fire_control_system_slot = spotting_equipment_2
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_engine_slot = galley_propulsion_3
 			fixed_ship_torpedo_slot = empty
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
+			front_1_custom_slot = light_naval_battery_3
+			mid_1_custom_slot = naval_anti_air_2
+			rear_1_custom_slot = light_naval_battery_3
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -495,20 +520,15 @@ equipments = {
 
 		naval_range = 2000
 		
-		max_strength = 50
+		max_strength = 640
 		
-
 		
 		type = { 
 			screen_ship
 			anti_air
 		}
 		build_cost_ic = 500
-		resources = {
-			#oil = 2
-			wood = 3
-		}
-		manpower = 400
+		manpower = 100
 	}
 	
 	galley_4 = {
@@ -517,23 +537,83 @@ equipments = {
 		archetype = galley_hull
 		priority = 2000
 		parent = galley_3
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { module_light_lg module_torpedo }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { module_naval_aa }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { module_spottingeq module_navigationeq }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { module_galley_sails }
+			}
+			
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_naval_aa
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_torpedo
+					module_naval_aa
+					module_minelayer
+					module_minesweeper
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_torpedo
+					module_naval_aa
+					module_minelayer
+					module_minesweeper
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_torpedo
+					module_naval_aa
+					module_minelayer
+					module_minesweeper
+				}
+			}
+		}
+		
 		default_modules = {
-			fixed_ship_battery_slot = galley_propulsion_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_battery_slot = ship_torpedo_1
+			fixed_ship_anti_air_slot = naval_anti_air_3
+			fixed_ship_fire_control_system_slot = spotting_equipment_3
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_engine_slot = galley_propulsion_4
 			fixed_ship_torpedo_slot = empty
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
+			front_1_custom_slot = light_naval_battery_4
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = naval_anti_air_3
+			rear_1_custom_slot = light_naval_battery_4
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
 		sub_attack = 1
 		
-		anti_air_attack = 5
+		anti_air_attack = 0
 		
 		armor_value = 0
 
@@ -546,7 +626,7 @@ equipments = {
 
 		naval_range = 2500
 		
-		max_strength = 60
+		max_strength = 880
 		
 
 		
@@ -556,10 +636,6 @@ equipments = {
 		}
 
 		build_cost_ic = 500
-		resources = {
-			#oil = 2
-			wood = 4
-			#chromium = 1
-		}		
-		manpower = 500
+	
+		manpower = 100
 	}

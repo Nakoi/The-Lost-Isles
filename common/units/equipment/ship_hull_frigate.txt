@@ -322,7 +322,7 @@ equipments = {
 		priority = 1900
 		parent = ship_hull_cruiser_3
 
-		build_cost_ic = 2100
+		build_cost_ic = 2200
 		naval_range = 2400
 		max_strength = 1240
 
@@ -429,21 +429,17 @@ equipments = {
 			screen_ship
 		}
 		
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_anti_air_upgrade
-		}
+
 		default_modules = {
 			fixed_ship_battery_slot = light_naval_battery_1
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = frigate_propulsion_1
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
+			fixed_ship_armor_slot = light_planking_1
+			mid_1_custom_slot = light_naval_battery_1
+			mid_2_custom_slot = light_naval_battery_1
+			rear_1_custom_slot = light_naval_battery_1
 		}
 		
 		fuel_consumption = 0
@@ -468,27 +464,82 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1900
 		parent = light_cruiser_1
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { module_light_lg module_carronades module_naval_mortar }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { module_naval_aa }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { module_spottingeq module_navigationeq }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { module_frigate_sails }
+			}
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { module_light_armor }	
+			}
+			
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+		}
 
 		type = { 
 			screen_ship
 		}
 		
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_anti_air_upgrade
-		}
 		default_modules = {
 			fixed_ship_battery_slot = light_naval_battery_2
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_anti_air_slot = naval_anti_air_1
+			fixed_ship_fire_control_system_slot = navigation_equipment_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = frigate_propulsion_2
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
+			fixed_ship_armor_slot = light_planking_2 
+			front_1_custom_slot = light_naval_battery_2
+			mid_1_custom_slot = spotting_equipment_1
+			mid_2_custom_slot = light_naval_battery_2
+			rear_1_custom_slot = light_naval_battery_2
 		}
 		
 		fuel_consumption = 0
@@ -500,9 +551,9 @@ equipments = {
 		
 		naval_range = 1500
 		
-		max_strength = 70		
+		max_strength = 460		
 		
-		build_cost_ic = 1800
+		build_cost_ic = 1900
 		
 		manpower = 200
 	}
@@ -513,27 +564,94 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1900
 		parent = light_cruiser_2
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { module_light_lg module_carronades module_naval_mortar }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { module_naval_aa }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { module_spottingeq module_navigationeq }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { module_frigate_sails }
+			}
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { module_light_armor }	
+			}
+			
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+			rear_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+		}
 
 		type = { 
 			screen_ship
 		}
 		
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_anti_air_upgrade
-		}
+
 		default_modules = {
 			fixed_ship_battery_slot = light_naval_battery_3
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_anti_air_slot = naval_anti_air_2
+			fixed_ship_fire_control_system_slot = navigation_equipment_2
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = frigate_propulsion_3
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
+			fixed_ship_armor_slot = light_planking_3
+			front_1_custom_slot = light_naval_battery_3
+			mid_1_custom_slot = spotting_equipment_2
+			mid_2_custom_slot = light_naval_battery_3
+			rear_1_custom_slot = light_naval_battery_3
+			rear_2_custom_slot = light_naval_battery_3
 		}
 		
 		fuel_consumption = 0
@@ -543,11 +661,11 @@ equipments = {
 		naval_speed = 30
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 2100
 		
-		max_strength = 70		
+		max_strength = 1040		
 		
-		build_cost_ic = 1800
+		build_cost_ic = 2000
 		
 		manpower = 200
 	}
@@ -558,27 +676,92 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1900
 		parent = light_cruiser_3
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { module_light_lg module_heavy_lg module_naval_mortar }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { module_naval_aa }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { module_spottingeq module_navigationeq }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { module_frigate_sails }
+			}
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { module_light_armor }	
+			}
+			
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_naval_aa
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_torpedo
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_torpedo
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_torpedo
+					module_naval_aa
+				}
+			}
+			rear_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_torpedo
+					module_naval_aa
+				}
+			}
+		}
 
 		type = { 
 			screen_ship
 		}
 		
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_anti_air_upgrade
-		}
 		default_modules = {
 			fixed_ship_battery_slot = light_naval_battery_4
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_anti_air_slot = naval_anti_air_3
+			fixed_ship_fire_control_system_slot = navigation_equipment_3
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = frigate_propulsion_4
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
+			fixed_ship_armor_slot = light_planking_4
+			front_1_custom_slot = light_naval_battery_4
+			mid_1_custom_slot = spotting_equipment_3
+			mid_2_custom_slot = light_naval_battery_4
+			rear_1_custom_slot = light_naval_battery_4
+			rear_2_custom_slot = light_naval_battery_4
 		}
 		
 		fuel_consumption = 0
@@ -588,11 +771,11 @@ equipments = {
 		naval_speed = 30
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 2400
 		
-		max_strength = 70		
+		max_strength = 1240		
 		
-		build_cost_ic = 1800
+		build_cost_ic = 2100
 		
 		manpower = 200
 	}
@@ -602,27 +785,82 @@ equipments = {
 		visual_level = 0
 		archetype = ship_hull_cruiser
 		priority = 1900
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { module_light_lg module_carronades module_naval_mortar }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { module_naval_aa }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { module_spottingeq module_navigationeq }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { module_frigate_sails }
+			}
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { module_light_armor }	
+			}
+			
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+		}
 
 		type = { 
 			capital_ship
 		}
 		
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_anti_air_upgrade
-		}
 		default_modules = {
 			fixed_ship_battery_slot = naval_mortars_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_anti_air_slot = naval_anti_air_1
+			fixed_ship_fire_control_system_slot = navigation_equipment_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = frigate_propulsion_2
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
+			fixed_ship_armor_slot = light_planking_2 
+			front_1_custom_slot = naval_carronades_1
+			mid_1_custom_slot = spotting_equipment_1
+			mid_2_custom_slot = naval_carronades_1
+			rear_1_custom_slot = naval_carronades_1
 		}
 		
 		fuel_consumption = 0
@@ -632,11 +870,11 @@ equipments = {
 		naval_speed = 30
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 1800
 		
-		max_strength = 70		
+		max_strength = 460		
 		
-		build_cost_ic = 1800
+		build_cost_ic = 1900
 		
 		manpower = 200
 	}
@@ -647,27 +885,93 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1900
 		parent = siege_frigate_1
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { module_light_lg module_carronades module_naval_mortar }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { module_naval_aa }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { module_spottingeq module_navigationeq }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { module_frigate_sails }
+			}
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { module_light_armor }	
+			}
+			
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_carronades
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+			rear_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_carronades
+					module_naval_aa
+				}
+			}
+		}
 
 		type = { 
 			capital_ship
 		}
 		
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_anti_air_upgrade
-		}
 		default_modules = {
 			fixed_ship_battery_slot = naval_mortars_2
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_anti_air_slot = naval_anti_air_2
+			fixed_ship_fire_control_system_slot = navigation_equipment_2
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = frigate_propulsion_3
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
+			fixed_ship_armor_slot = light_planking_3 
+			front_1_custom_slot = naval_carronades_2
+			mid_1_custom_slot = spotting_equipment_2
+			mid_2_custom_slot = naval_carronades_2
+			rear_1_custom_slot = naval_carronades_2
+			rear_2_custom_slot = light_naval_battery_3
 		}
 		
 		fuel_consumption = 0
@@ -677,11 +981,11 @@ equipments = {
 		naval_speed = 30
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 2100
 		
-		max_strength = 70		
+		max_strength = 1040		
 		
-		build_cost_ic = 1800
+		build_cost_ic = 2000
 		
 		manpower = 200
 	}
@@ -692,27 +996,92 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1900
 		parent = siege_frigate_2
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { module_light_lg module_heavy_lg module_naval_mortar }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { module_naval_aa }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { module_spottingeq module_navigationeq }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { module_frigate_sails }
+			}
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { module_light_armor }	
+			}
+			
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_naval_aa
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_torpedo
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_light_lg
+					module_torpedo
+					module_naval_aa
+					module_spottingeq
+					module_navigationeq
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_torpedo
+					module_naval_aa
+				}
+			}
+			rear_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					module_naval_mortar
+					module_light_lg
+					module_torpedo
+					module_naval_aa
+				}
+			}
+		}
 
 		type = { 
 			capital_ship
 		}
 		
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_anti_air_upgrade
-		}
 		default_modules = {
 			fixed_ship_battery_slot = naval_mortars_3
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_anti_air_slot = naval_anti_air_3
+			fixed_ship_fire_control_system_slot = navigation_equipment_3
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = frigate_propulsion_4
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
+			fixed_ship_armor_slot = light_planking_4
+			front_1_custom_slot = naval_mortars_3
+			mid_1_custom_slot = spotting_equipment_3
+			mid_2_custom_slot = light_naval_battery_4
+			rear_1_custom_slot = light_naval_battery_4
+			rear_2_custom_slot = light_naval_battery_4
 		}
 		
 		fuel_consumption = 0
@@ -722,11 +1091,11 @@ equipments = {
 		naval_speed = 30
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 2400
 		
-		max_strength = 70		
+		max_strength = 1240		
 		
-		build_cost_ic = 1800
+		build_cost_ic = 2100
 		
 		manpower = 200
 	}
