@@ -9,8 +9,11 @@ state = {
 		owner = RAN
 		add_core_of = RAN
 #		victory_points = { 1350 10 }
-#		buildings = {
-#		}
+		buildings = {
+			3470={
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces = {
