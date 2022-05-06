@@ -13,12 +13,12 @@ navy_experience = 30
 air_experience = 30
 
 set_politics = {
-	ruling_party = ideology_imperialism
+	ruling_party = ideology_militarism
 }
 
 set_popularities = {
-	ideology_militarism = 20
-	ideology_imperialism = 80
+	ideology_militarism = 80
+	ideology_imperialism = 20
 }
 
 set_convoys = 0
@@ -34,6 +34,26 @@ create_faction = "Islivalian Sovereignty"
 add_to_faction = ISL
 add_to_faction = JES
 add_to_faction = STA
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = JES
+		autonomous_state = autonomy_army
+	}
+	set_autonomy = {
+		target = STA
+		autonomous_state = autonomy_army
+	}
+	else = {
+		puppet = JES
+		puppet = STA
+	}
+}
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {

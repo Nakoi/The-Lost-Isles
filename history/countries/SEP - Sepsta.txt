@@ -42,6 +42,47 @@ add_to_faction = MEP
 add_to_faction = NAB
 
 if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = NAS
+		autonomous_state = autonomy_dominion
+	}
+
+	set_autonomy = {
+		target = NAP
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = TJE
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = AVH
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = MEP
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = NAB
+		autonomous_state = autonomy_puppet
+	}
+	else = {
+		puppet = NAS
+		puppet = NAP
+		puppet = TJE
+		puppet = AVH
+		puppet = MEP
+		puppet = NAB
+	}
+}
+if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		xebec_hull = 1

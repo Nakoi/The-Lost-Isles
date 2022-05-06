@@ -36,7 +36,27 @@ add_ideas = {
 create_faction = "OAC Sphere"
 add_to_faction = OAC
 add_to_faction = NUX
-
+add_to_faction = FED
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = NUX
+		autonomous_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = FED
+		autonomous_state = autonomy_dominion
+	}
+	else = {
+		puppet = NUX
+		puppet = FED
+	}
+}
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {

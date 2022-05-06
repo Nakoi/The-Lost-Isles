@@ -42,7 +42,23 @@ add_ideas = {
 create_faction = "Crown of Avtukov"
 add_to_faction = AVT
 add_to_faction = OSK
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = OSK
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.35
+	}
 
+	else = {
+		puppet = RAJ
+	}
+}
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
