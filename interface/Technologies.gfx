@@ -1149,6 +1149,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_fortification_1_medium"
+		texturefile = "gfx/interface/technologies/CastleFortification.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_fortification_2_medium"
 		texturefile = "gfx/interface/technologies/BastionFortSmollRes.dds"
 	}
