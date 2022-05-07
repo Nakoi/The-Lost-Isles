@@ -935,7 +935,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = 
+			leads_to_tech = pony_magic_unleashed
 			research_cost_coeff = 1
 		}
 
@@ -1448,6 +1448,523 @@ technologies = {
 		}
 	}
 
+	pony_magic_unleashed = {
+
+		enable_subunits = {
+			pony_mages
+		}
+
+		path = {
+			leads_to_tech = pony_abjuration
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_pyrokinesis
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_witchcraft
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 42 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_abjuration = {
+
+		category_mages = {
+			breakthrough = 1.0
+			defense = 5.0
+			hardness = 8.0
+			armor_value = 25.0
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_illusion
+			research_cost_coeff = 1
+		}
+
+		xor={
+			pony_pyrokinesis
+		}
+		xor={
+			pony_witchcraft
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 38 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_illusion = {
+
+		category_mages = {
+			breakthrough = 8.0
+			defense = 4.0
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_vivomancy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 38 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_vivomancy = {
+
+		category_mages = {
+		#-20% experienced strength losses (Needs work)
+		#-20% experienced organisation losses (Needs work)
+		max_strength = 9.0
+		#training_time = 0.20 Doesn't work ATM
+		supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 38 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_negation = {
+
+		category_mages = {
+		soft_attack = 0.5
+		hard_attack = 0.5
+		ap_attack = 1.0
+		#training_time = 0.20 Doesn't work ATM
+		supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_chronomancy 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 38 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_chronomancy = {
+		
+		category_mages = {
+			initiative = 0.5
+			maximum_speed = 2.0
+			+10% reinforce rate (needs work)
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 38 y = 12 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_pyrokinesis = {
+
+		category_mages = {
+			soft_attack = 1.5
+			hard_attack = 0.5
+			breakthrough = 9.0
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_hydrosphy
+			research_cost_coeff = 1
+		}
+
+		xor={
+			pony_abjuration
+		}
+		xor={
+			pony_witchcraft
+		}
+		
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 42 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_hydrosphy = {
+
+		category_mages = {
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		if = {
+			limit = { has_dlc = "Man the Guns" }
+				#(add navigation module)
+			else = {
+				#naval equipment:+15% speed
+			}
+
+		}
+
+		path = {
+			leads_to_tech = pony_geomancy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 42 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_geomancy = {
+
+		category_mages = {
+			defense = 7.0
+			hardness = 4.0
+			armor_value = 10.0
+			ap_attack = 1.0
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_aerotheurgy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 42 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_aerotheurgy = {
+
+		category_mages = {
+			ap_attack = 3.0
+			breakthrough = 1.0
+			soft_attack = 0.5
+			hard_attack = 1.0
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_conjuration
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 42 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_conjuration = {
+		
+		category_mages = {
+			combat_width = 1.0
+			recon = 5.0
+			breakthrough = 3.0
+			hard_attack = 1.5
+			ap_attack = 0.5
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 42 y = 12 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_witchcraft = {
+
+		category_mages = {
+			soft_attack = 1.5
+			max_organisation = 0.5
+			ap_attack = 1.5
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_mindbending
+			research_cost_coeff = 1
+		}
+
+		xor={
+			pony_pyrokinesis
+		}
+		xor={
+			pony_abjuration
+		}
+		
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 46 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_mindbending = {
+
+		category_mages = {
+			breakthrough = 7.0
+			#-50% org loss on move
+			ap_attack = 2.0
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_necromancy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 46 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_necromancy = {
+
+		category_mages = {
+			defense = 6.0
+			#-50% attrition
+			breakthrough = 2.0
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_flebotomy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 46 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_flebotomy = {
+
+		category_mages = {
+			defense = 2.0
+			ap_attack = 1.0
+			hard_attack = 1.0
+			armor_value = 15.0
+			hardness = 5.0
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_malignancy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 46 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_malignancy = {
+		
+		category_mages = {
+			ap_attack = 1.0
+			soft_attack = 1.0
+			hard_attack = 1.0
+			#training_time = 0.20 Doesn't work ATM
+			supply_consumption_factor = 0.15
+		}
+
+		research_cost = 1.7
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 46 y = 12 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 
 }
