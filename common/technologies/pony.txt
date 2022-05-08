@@ -31,8 +31,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 4 y = 0 }
@@ -62,8 +62,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 	
-		research_cost = 1.5
-		start_year = 1918
+		research_cost = 1.6
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 4 y = 2}
@@ -83,7 +83,9 @@ technologies = {
 
 		category_juggernauts = {
 			supply_consumption_factor = 0.05
+		}
 
+		juggernauts = {
 			hills = {
 				attack = 0.10
 				defence = 0.1
@@ -95,7 +97,6 @@ technologies = {
 				movement = 0.2
 			}
 		}
-
 		
 		
 		path = {
@@ -103,8 +104,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 	
-		research_cost = 1.5
-		start_year = 1918
+		research_cost = 1.6
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 4 y = 4}
@@ -142,8 +143,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1918
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 4 y = 6}
@@ -164,8 +165,8 @@ technologies = {
 		category_juggernauts = {
 			supply_consumption_factor = 0.1
 			max_organisation = 5
-			dig_in_speed_factor = 0.15
 			defense = 0.15
+			entrenchment  = 2
 		}
 
 		xor={
@@ -177,8 +178,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1918
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 2 y = 8}
@@ -198,7 +199,7 @@ technologies = {
 
 		category_juggernauts = {
 			max_organisation = 5
-			hardness = 1.0
+			hardness = 10.0
 			defense = 0.15
 			supply_consumption_factor = 0.15
 		}
@@ -208,8 +209,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1918
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 2 y = 10}
@@ -233,8 +234,8 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 		
-		research_cost = 1.5
-		start_year = 1918
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 2 y = 12}
@@ -256,6 +257,9 @@ technologies = {
 			supply_consumption_factor = 0.1
 			max_organisation = 5
 			breakthrough = 0.15
+		}
+
+		juggernauts = {
 
 			fort = {
 				attack = 0.15
@@ -274,8 +278,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1918
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 6 y = 8}
@@ -306,8 +310,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1918
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 6 y = 10}
@@ -327,8 +331,11 @@ technologies = {
 		
 		category_juggernauts = {
 			max_organisation = 5
-			org_loss_when_moving = -0.25
 			supply_consumption_factor = 0.6
+			breakthrough = 0.25
+		}
+
+		juggernauts = {
 
 			fort = {
 				attack = 0.15
@@ -345,9 +352,10 @@ technologies = {
 				movement = 0.2
 			}
 		}
+		org_loss_when_moving = -0.15
 
-		research_cost = 1.5
-		start_year = 1918
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 6 y = 12}
