@@ -382,8 +382,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 1.6
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 8 y = 0 }
@@ -408,8 +408,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 8 y = 2 }
@@ -427,15 +427,15 @@ technologies = {
 	pony_magic_mining = {
 
 		production_speed_infrastructure_factor = 0.15
-		local_resources_factor = 0.20
+		local_resources_factor = 0.15
 
 		path = {
 			leads_to_tech = pony_industrial_talent
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 8 y = 4 }
@@ -456,8 +456,8 @@ technologies = {
 		production_factory_max_efficiency_factor = 0.10
 		production_factory_start_efficiency_factor = 0.10 		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 8 y = 6 }
@@ -817,7 +817,7 @@ technologies = {
 
 	pony_aerial_reconaissance = {
 
-		category_all_army = {
+		category_army = {
 			recon = 2
 			initiative = 0.02
 			
@@ -828,8 +828,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 1.6
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 20 y = 0 }
@@ -847,15 +847,15 @@ technologies = {
 	pony_weather_control = {
 
 		air_weather_penalty = -0.25
-		attrition = 0.20
+		attrition = -0.20
 
 		path = {
 			leads_to_tech = pony_home_in_skies
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 20 y = 2 }
@@ -874,7 +874,7 @@ technologies = {
 
 		category_air_skirmisher = {
 			air_agility = 0.25
-			air_defence_factor = 0.25
+			air_defence = 0.25
 			maximum_speed = 0.25
 			air_range = 0.25
 		}
@@ -884,8 +884,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 20 y = 4 }
@@ -907,8 +907,8 @@ technologies = {
 			ap_attack = 0.25 
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 20 y = 6 }
@@ -947,8 +947,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 35 y = 0 }
@@ -967,9 +967,11 @@ technologies = {
 
 		category_unicorn_support = {
 			max_organisation = 5
-			#training_time = 0.05 Doesn't work atm
 			#recovery rate. Does not work
 
+		}
+		unicorn_support = {
+			training_time = -5
 		}
 
 		path = {
