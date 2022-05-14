@@ -480,6 +480,10 @@ technologies = {
 			wind_riders
 		}
 
+		enable_equipments = {
+			gunlance_equipment_0
+		}
+
 		category_wind_riders = {
 			recon = 2
 			defense = 0.25
@@ -493,8 +497,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 14 y = 0 }
@@ -528,8 +532,8 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 1.6
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 14 y = 2 }
@@ -561,8 +565,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 1.6
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 12 y = 4 }
@@ -594,8 +598,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 1.6
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 16 y = 4 }
@@ -613,7 +617,7 @@ technologies = {
 	pony_gunlance = {
 
 		enable_equipments = {
-			gunlance_equipment_0
+			gunlance_equipment_1
 		}
 
 		
@@ -627,8 +631,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 14 y = 6 }
@@ -657,8 +661,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 14 y = 8 }
@@ -693,8 +697,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 14 y = 8 }
@@ -721,8 +725,8 @@ technologies = {
 			pony_tornado_strike
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 13 y = 10 }
@@ -749,8 +753,8 @@ technologies = {
 
 		}	
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 15 y = 10 }
@@ -768,7 +772,7 @@ technologies = {
 	pony_Breech_loaded_gunlance = {
 
 		enable_equipments = {
-			gunlance_equipment_1
+			gunlance_equipment_2
 		}
 
 		
@@ -777,8 +781,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 18 y = 8 }
@@ -796,11 +800,11 @@ technologies = {
 	pony_revolving_gunlance = {
 
 		enable_equipments = {
-			gunlance_equipment_2
+			gunlance_equipment_3
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.69
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 18 y = 10 }
@@ -967,9 +971,9 @@ technologies = {
 
 		category_unicorn_support = {
 			max_organisation = 5
-			#recovery rate. Does not work
-
+			default_morale = 0.1
 		}
+
 		unicorn_support = {
 			training_time = -5
 		}
@@ -983,8 +987,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 1.6
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 28 y = 2 }
@@ -1004,8 +1008,6 @@ technologies = {
 		category_unicorn_support = {
 			soft_attack = 0.25
 			breakthrough = 0.50
-			#training_time = 0.05 Doesn't work
-			
 		}
 
 		xor={
@@ -1021,8 +1023,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 1.6
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 26 y = 3 }
@@ -1042,8 +1044,6 @@ technologies = {
 		category_unicorn_support = {
 			hard_attack = 0.15
 			ap_attack = 0.25
-			#training_time = 0.05 Doesn't work
-			
 		}
 
 		xor={
@@ -1059,8 +1059,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 1.6
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 30 y = 3 }
@@ -1079,8 +1079,7 @@ technologies = {
 
 		category_unicorn_support = {
 			defense = 3.0
-			#reinforce rate. Doesn't work
-			#training_time  Doesn't work
+			default_morale = 0.2
 		}
 
 		xor={
@@ -1096,8 +1095,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 26 y = 5 }
@@ -1132,8 +1131,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 30 y = 5 }
@@ -1168,8 +1167,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 26 y = 7 }
@@ -1204,8 +1203,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 30 y = 7 }
@@ -1240,8 +1239,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 26 y = 9 }
@@ -1276,8 +1275,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 30 y = 9 }
@@ -1303,8 +1302,8 @@ technologies = {
 			pony_magical_mine
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 26 y = 11 }
@@ -1320,13 +1319,19 @@ technologies = {
 	}
 
 	pony_magical_mine = {
+		
+		category_unicorn_support = {
+			default_morale = 0.2
+			defense = 1
+			entrenchment  = 5
+		}
 
 		xor={
 			pony_teleportation
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 30 y = 11 }
@@ -1356,8 +1361,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 35 y = 5 }
@@ -1378,8 +1383,8 @@ technologies = {
 			magical_equipment_2
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 35 y = 8 }
@@ -1477,8 +1482,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.15
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 42 y = 2 }
@@ -1500,7 +1505,6 @@ technologies = {
 			defense = 5.0
 			hardness = 8.0
 			armor_value = 25.0
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
 		}
 
@@ -1516,8 +1520,8 @@ technologies = {
 			pony_witchcraft
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 38 y = 4 }
@@ -1537,7 +1541,6 @@ technologies = {
 		category_mages = {
 			breakthrough = 8.0
 			defense = 4.0
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
 		}
 
@@ -1546,8 +1549,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 38 y = 6 }
@@ -1565,10 +1568,8 @@ technologies = {
 	pony_vivomancy = {
 
 		category_mages = {
-		#-20% experienced strength losses (Needs work)
-		#-20% experienced organisation losses (Needs work)
+		defense = 2.0
 		max_strength = 9.0
-		#training_time = 0.20 Doesn't work ATM
 		supply_consumption_factor = 0.15
 		}
 
@@ -1577,8 +1578,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 38 y = 8 }
@@ -1599,7 +1600,6 @@ technologies = {
 		soft_attack = 0.5
 		hard_attack = 0.5
 		ap_attack = 1.0
-		#training_time = 0.20 Doesn't work ATM
 		supply_consumption_factor = 0.15
 		}
 
@@ -1608,8 +1608,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.69
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 38 y = 10 }
@@ -1629,13 +1629,12 @@ technologies = {
 		category_mages = {
 			initiative = 0.5
 			maximum_speed = 2.0
-			+10% reinforce rate (needs work)
-			#training_time = 0.20 Doesn't work ATM
+			default_morale = 1
 			supply_consumption_factor = 0.15
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.69
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 38 y = 12 }
@@ -1656,7 +1655,6 @@ technologies = {
 			soft_attack = 1.5
 			hard_attack = 0.5
 			breakthrough = 9.0
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
 		}
 
@@ -1672,8 +1670,8 @@ technologies = {
 			pony_witchcraft
 		}
 		
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 42 y = 4 }
@@ -1691,8 +1689,21 @@ technologies = {
 	pony_hydrosphy = {
 
 		category_mages = {
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
+		}
+
+		pony_mages = {
+			marsh = {
+				attack = 0.5
+				movement = 0.5
+			}
+			river = {
+				attack = 0.5
+				movement = 0.5
+			}
+			amphibious = {
+				attack = 0.8
+			}
 		}
 
 		if = {
@@ -1709,8 +1720,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 42 y = 6 }
@@ -1732,7 +1743,6 @@ technologies = {
 			hardness = 4.0
 			armor_value = 10.0
 			ap_attack = 1.0
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
 		}
 
@@ -1741,8 +1751,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 42 y = 8 }
@@ -1764,7 +1774,6 @@ technologies = {
 			breakthrough = 1.0
 			soft_attack = 0.5
 			hard_attack = 1.0
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
 		}
 
@@ -1773,8 +1782,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.69
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 42 y = 10 }
@@ -1797,12 +1806,11 @@ technologies = {
 			breakthrough = 3.0
 			hard_attack = 1.5
 			ap_attack = 0.5
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.69
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 42 y = 12 }
@@ -1821,9 +1829,8 @@ technologies = {
 
 		category_mages = {
 			soft_attack = 1.5
-			max_organisation = 0.5
+			max_organisation = 0.2
 			ap_attack = 1.5
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
 		}
 
@@ -1839,8 +1846,8 @@ technologies = {
 			pony_abjuration
 		}
 		
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 2.68
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 46 y = 4 }
@@ -1859,10 +1866,13 @@ technologies = {
 
 		category_mages = {
 			breakthrough = 7.0
-			#-50% org loss on move
+			maximum_speed = 0.5
 			ap_attack = 2.0
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
+		}
+		
+		pony_mages = {
+			equipment_capture_factor = 0.10
 		}
 
 		path = {
@@ -1870,8 +1880,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 46 y = 6 }
@@ -1890,9 +1900,8 @@ technologies = {
 
 		category_mages = {
 			defense = 6.0
-			#-50% attrition
+			max_strength = 1.0
 			breakthrough = 2.0
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
 		}
 
@@ -1901,8 +1910,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.22
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 46 y = 8 }
@@ -1925,7 +1934,6 @@ technologies = {
 			hard_attack = 1.0
 			armor_value = 15.0
 			hardness = 5.0
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
 		}
 
@@ -1934,8 +1942,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.69
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 46 y = 10 }
@@ -1956,12 +1964,11 @@ technologies = {
 			ap_attack = 1.0
 			soft_attack = 1.0
 			hard_attack = 1.0
-			#training_time = 0.20 Doesn't work ATM
 			supply_consumption_factor = 0.15
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 3.69
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 46 y = 12 }
