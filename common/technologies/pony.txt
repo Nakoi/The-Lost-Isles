@@ -1406,6 +1406,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		enable_equipment_modules = { 
+			light_planking_pony_1
+			heavy_planking_pony_1
+		}
+
 		research_cost = 1.7
 		start_year = 1936
 		folder = {
@@ -1429,6 +1438,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		enable_equipment_modules = { 
+			light_planking_pony_2
+			heavy_planking_pony_2
+		}
+
 		research_cost = 1.7
 		start_year = 1936
 		folder = {
@@ -1446,6 +1460,11 @@ technologies = {
 	}
 
 	pony_modern_naval_magic = {
+
+		enable_equipment_modules = { 
+			light_planking_pony_3
+			heavy_planking_pony_3
+		}
 
 		research_cost = 1.7
 		start_year = 1936
@@ -1662,6 +1681,10 @@ technologies = {
 			leads_to_tech = pony_hydrosphy
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = pony_hydrosphy_MTG
+			research_cost_coeff = 1
+		}
 
 		xor={
 			pony_abjuration
@@ -1706,18 +1729,15 @@ technologies = {
 			}
 		}
 
-		if = {
-			limit = { has_dlc = "Man the Guns" }
-				#(add navigation module)
-			else = {
-				#naval equipment:+15% speed
-			}
-
-		}
+		naval_speed_factor = 0.15
 
 		path = {
 			leads_to_tech = pony_geomancy
 			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			NOT = { has_dlc = "Man the Guns" }
 		}
 		
 		research_cost = 3.22
@@ -1725,6 +1745,144 @@ technologies = {
 		folder = {
 			name = pony_folder
 			position = { x = 42 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_hydrosphy_MTG = {
+
+		category_mages = {
+			supply_consumption_factor = 0.15
+		}
+
+		pony_mages = {
+			marsh = {
+				attack = 0.5
+				movement = 0.5
+			}
+			river = {
+				attack = 0.5
+				movement = 0.5
+			}
+			amphibious = {
+				attack = 0.8
+			}
+		}
+
+		enable_equipment_modules = { 
+			navigation_equipment_pony_1
+		}
+
+		path = {
+			leads_to_tech = pony_geomancy_MTG
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 3.22
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 42 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_geomancy_MTG = {
+
+		category_mages = {
+			defense = 7.0
+			hardness = 4.0
+			armor_value = 10.0
+			ap_attack = 1.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_aerotheurgy_MTG
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.22
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 42 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_aerotheurgy_MTG = {
+
+		category_mages = {
+			ap_attack = 3.0
+			breakthrough = 1.0
+			soft_attack = 0.5
+			hard_attack = 1.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_conjuration_MTG
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.69
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 42 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_conjuration_MTG = {
+		
+		category_mages = {
+			combat_width = 1.0
+			recon = 5.0
+			breakthrough = 3.0
+			hard_attack = 1.5
+			ap_attack = 0.5
+			supply_consumption_factor = 0.15
+		}
+
+		research_cost = 3.69
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 42 y = 12 }
 		}
 		
 		categories = {
