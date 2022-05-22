@@ -674,7 +674,7 @@ equipment_modules = {
 			naval_speed = -0.1
             surface_visibility = 0.1
 			max_strength = 0.05
-			reliability = 0.1
+			reliability = 0.05
 		}
 		
 		add_stats = {
@@ -691,7 +691,7 @@ equipment_modules = {
 			naval_speed = -0.1
             surface_visibility = 0.1
 			max_strength = 0.05
-			reliability = 0.15
+			reliability = 0.05
 		}
 		
 		add_stats = {

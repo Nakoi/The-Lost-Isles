@@ -372,10 +372,17 @@ technologies = {
 
 	pony_agricultural_mastery = {
 
-		#+22 rations produced on farms
-		#+1 crops produced on farms
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = wheat
+				amount = 1
+			}
+		}
+
+		fuel_gain_from_states = 22
 		monthly_population = 0.25
-		+20% farm and granary construction speed
+		production_speed_synthetic_refinery_factor = 0.20	
 
 		path = {
 			leads_to_tech = pony_magic_construction
@@ -701,7 +708,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = pony_folder
-			position = { x = 14 y = 8 }
+			position = { x = 14 y = 10 }
 		}
 		
 		categories = {
@@ -722,14 +729,14 @@ technologies = {
 			
 		}
 		xor = {
-			pony_tornado_strike
+			pony_perfected_hit_and_run
 		}
 
 		research_cost = 3.22
 		start_year = 957
 		folder = {
 			name = pony_folder
-			position = { x = 13 y = 10 }
+			position = { x = 13 y = 12 }
 		}
 		
 		categories = {
@@ -750,14 +757,14 @@ technologies = {
 			
 		}
 		xor = {
-
+			pony_air_skirmishing_training
 		}	
 
 		research_cost = 3.22
 		start_year = 957
 		folder = {
 			name = pony_folder
-			position = { x = 15 y = 10 }
+			position = { x = 15 y = 12 }
 		}
 		
 		categories = {
@@ -1593,7 +1600,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = 
+			leads_to_tech = pony_negation
 			research_cost_coeff = 1
 		}
 		
@@ -1987,7 +1994,7 @@ technologies = {
 
 		category_mages = {
 			soft_attack = 1.5
-			max_organisation = 0.2
+			max_organisation = 20
 			ap_attack = 1.5
 			supply_consumption_factor = 0.15
 		}
