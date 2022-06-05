@@ -47,4 +47,106 @@ AVT_General_2={
         }
     }
 
+AVT_General_3={
+        name=AVT_General_3_name
+        portraits={
+            army={
+                large="GFX/leaders/AVT/AVT_Army_leader_03.tga"
+            }
+        }
+	corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+AVT_General_4={
+        name=AVT_General_4_name
+        portraits={
+            army={
+                large="GFX/leaders/AVT/AVT_Army_leader_04.tga"
+            }
+        }
+	corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+AVT_General_5={
+        name=AVT_General_5_name
+        portraits={
+            army={
+                large="GFX/leaders/AVT/AVT_Army_leader_05.tga"
+            }
+        }
+	corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+AVT_General_6={
+        name=AVT_General_6_name
+        portraits={
+            army={
+                large="GFX/leaders/AVT/AVT_Army_leader_06.tga"
+            }
+        }
+	corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+AVT_General_7={
+        name=AVT_General_7_name
+        portraits={
+            army={
+                large="GFX/leaders/AVT/AVT_Army_leader_07.tga"
+            }
+        }
+	corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+AVT_General_8={
+        name=AVT_General_8_name
+        portraits={
+            army={
+                large="GFX/leaders/AVT/AVT_Army_leader_08.tga"
+            }
+        }
+	corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
 }
