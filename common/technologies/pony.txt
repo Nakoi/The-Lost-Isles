@@ -12,9 +12,23 @@ technologies = {
 	@1945 = 18
 	@1946 = 20
 
+	pone_race = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+	}
+
 	###Earth Pony branch###
 
 	pony_juggernaut = {
+
+		dependencies = {
+			pone_race = 1
+		}
 
 		enable_subunits = {
 			juggernauts
@@ -372,6 +386,10 @@ technologies = {
 
 	pony_agricultural_mastery = {
 
+		dependencies = {
+			pone_race = 1
+		}
+
 		on_research_complete = {
 			modify_building_resources = {
 				building = synthetic_refinery
@@ -482,6 +500,10 @@ technologies = {
 	###Pegasi Branch###
 
 	pony_wind_riders = {
+
+		dependencies = {
+			pone_race = 1
+		}
 
 		enable_subunits = {
 			wind_riders
@@ -828,6 +850,10 @@ technologies = {
 
 	pony_aerial_reconaissance = {
 
+		dependencies = {
+			pone_race = 1
+		}
+
 		category_army = {
 			recon = 2
 			initiative = 0.02
@@ -936,6 +962,10 @@ technologies = {
 
 
 	pony_magical_equipment = {
+
+		dependencies = {
+			pone_race = 1
+		}
 
 		enable_equipments = {
 			magical_equipment_0

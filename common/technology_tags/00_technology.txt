@@ -207,6 +207,9 @@ technology_folders = {
 
 	pony_folder = {
 		ledger = army
+		available = {
+			is_pone_race = yes
+		}
 	}
 	#secret_weapons_folder
 }
