@@ -56,8 +56,8 @@ equipments = {
 	gunlance_equipment_1 = {
 		year = 1936
 	
-		archetype = infantry_equipment
-		parent = infantry_equipment_0
+		archetype = gunlance_equipment
+		parent = gunlance_equipment_0
 		active = no
 		priority = 10
 		visual_level = 1
@@ -87,8 +87,8 @@ equipments = {
 	gunlance_equipment_2 = {
 		year = 1936
 	
-		archetype = infantry_equipment
-		parent = infantry_equipment_0
+		archetype = gunlance_equipment
+		parent = gunlance_equipment_1
 		active = no
 		priority = 15
 		visual_level = 1
@@ -118,8 +118,8 @@ equipments = {
 	gunlance_equipment_3 = {
 		year = 1936
 	
-		archetype = infantry_equipment
-		parent = infantry_equipment_0
+		archetype = gunlance_equipment
+		parent = gunlance_equipment_2
 		active = no
 		priority = 15
 		visual_level = 1
