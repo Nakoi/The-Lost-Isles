@@ -2294,10 +2294,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
-				technology = improvised_tools
-				technology = metal_tools
-				technology = specialized_tools
-				technology = advanced_metallurgy
+				category = industry_primitivetools
 			}
 			random_owned_controlled_state = {	
 				add_extra_state_shared_building_slots = 1
@@ -2342,9 +2339,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
-				technology = artisans
-				technology = guild_system
-				technology = manufacturing_system
+				category = industry_primitiveprod
 			}
 			random_owned_controlled_state = {	
 				add_extra_state_shared_building_slots = 1
@@ -2389,10 +2384,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
-				technology = construction_0
-				technology = construction_1
-				technology = construction_2
-				technology = construction_3
+				category = industry_primitiveconstr
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
@@ -2489,10 +2481,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 2
-				technology = agriculture_0
-				technology = agriculture_1
-				technology = agriculture_2
-				technology = agriculture_3
+				category = industry_primitiveagri
 			}
 		}
 	}
@@ -2526,11 +2515,8 @@ focus_tree = {
 			add_research_slot = 1
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
-				technology = written_language
-				technology = basic_mathematics
-				technology = printing_press
-				technology = experimental_science
+				uses = 1
+				category = science_primitiveresearch
 			}
 		}
 	}
@@ -2566,9 +2552,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
-				technology = financial_technology_0
-				technology = financial_technology_1
-				technology = financial_technology_2
+				category = industry_primitiveeco
 			}
 		}
 	}
@@ -2626,7 +2610,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 2
-				category = tli_infantry
+				category = infantry_primitiveeq
 			}
 			random_owned_controlled_state = {	
 				add_extra_state_shared_building_slots = 1
@@ -2663,7 +2647,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 2
-				category = armor
+				category = artillery
 			}
 			random_owned_controlled_state = {	
 				add_extra_state_shared_building_slots = 1
@@ -2738,10 +2722,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 2
-				technology = lamellar_armor
-				technology = plate_armor
-				technology = infantry_armor
-				technology = elite_armor
+				category = infantry_armorcat
 			}
 			random_owned_controlled_state = {	
 				add_extra_state_shared_building_slots = 1
@@ -3528,10 +3509,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
-				technology = infantry_weapons3
-				technology = ranged_infantry_upgrade_1
-				technology = ranged_infantry_upgrade_2
-				technology = ranged_infantry_upgrade_3
+				category = infantry_civilizedeq
 			}
 			add_equipment_to_stockpile = {
 				type = rifle_equipment_4
@@ -3564,7 +3542,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 3.0
 				uses = 2
-				category = armor
+				category = artillery_medium
 			}
 			add_equipment_to_stockpile = {
 				type = cannon_equipment_2
@@ -3597,7 +3575,9 @@ focus_tree = {
 			add_tech_bonus = {
 				ahead_reduction = 2
 				uses = 2
-				category = armor
+				category = artillery_antiair
+				category = artillery_rocket
+				category = artillery_howitzer
 			}		
 			add_equipment_to_stockpile = {
 				type = howitzer_equipment_1
@@ -3671,12 +3651,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1
 				uses = 2
-				technology = infantry_armor
-				technology = infantry_armor_upgrade_1
-				technology = infantry_armor_upgrade_2
-				technology = elite_armor
-				technology = elite_armor_upgrade_1
-				technology = elite_armor_upgrade_2
+				category = infantry_armorcat
 			}
 			random_owned_controlled_state = {	
 				add_extra_state_shared_building_slots = 1
@@ -3881,7 +3856,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_update_army_doctrine
 		prerequisite = { focus = genfoc_conscript_army focus = genfoc_citizen_army focus = genfoc_volunteer_army }
-		x = 25
+		x = 26
 		y = 7
 		cost = 10
 		ai_will_do = {
@@ -3910,8 +3885,8 @@ focus_tree = {
 	
 	focus = {
 		id = genfoc_establish_special_forces
-		prerequisite = { focus = genfoc_update_army_doctrine focus = genfoc_modern_army_organisation }
-		x = 26
+		prerequisite = { focus = genfoc_update_army_doctrine }
+		x = 25
 		y = 8
 		cost = 1
 		ai_will_do = {
@@ -3941,9 +3916,9 @@ focus_tree = {
 	
 	focus = {
 		id = genfoc_modern_army_organisation
-		prerequisite = { focus = genfoc_update_army_doctrine focus = genfoc_modern_army_organisation }
+		prerequisite = { focus = genfoc_update_army_doctrine }
 		x = 27
-		y = 7
+		y = 8
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -3963,9 +3938,7 @@ focus_tree = {
 				add_tech_bonus = {
 				bonus = 1
 				uses = 2
-				technology = professional_officers
-				technology = centralised_planning
-				technology = army_organisation4
+				category = science_armyorg
 			}
 		}
 	}
