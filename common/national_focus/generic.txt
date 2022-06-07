@@ -2902,6 +2902,7 @@ focus_tree = {
 				tooltip = gentext_primitive_dev
 				has_idea = genidea_primitive_dev
 			}
+			has_political_power > 149
 		}
 		bypass = {
 			has_idea = genidea_civilised_dev
@@ -2909,6 +2910,43 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = gentext_primitive_civilised_advancement
+			add_research_slot = 1
+			add_political_power = -150
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = tli_infantry
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = category_support_battalions
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = artillery
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = category_airship
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = naval_equipment
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = electronics
+			}
 				hidden_effect = { set_technology = { tech_civilized = 1 } }
 				hidden_effect = {
 				swap_ideas = {
@@ -4006,6 +4044,14 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = industry
+			}
+		}
 	}
 	
 	focus = {
@@ -4026,6 +4072,25 @@ focus_tree = {
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -4048,6 +4113,15 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_expand_resource_extraction days = 360 }
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = industry_civilizedtools
+			}
+		}
 	}
 	
 	focus = {
@@ -4068,6 +4142,25 @@ focus_tree = {
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -4092,6 +4185,38 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = industry_civilizedengi
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	
 	focus = {
@@ -4114,6 +4239,15 @@ focus_tree = {
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_connect_the_nation days = 360 }
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_logi
+			}
 		}
 	}
 	
@@ -4138,6 +4272,14 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = industry_civilizedeco
+			}
+		}
 	}
 	
 	focus = {
@@ -4161,6 +4303,38 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_civilizedconstr
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	
 	focus = {
@@ -4182,6 +4356,10 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
 	}
 	
 	focus = {
@@ -4189,7 +4367,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_connect_the_nation focus = genfoc_support_our_merchants }
 		x = 51
 		y = 8
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -4199,9 +4377,14 @@ focus_tree = {
 				tooltip = gentext_civilised_dev
 				has_idea = genidea_civilised_dev
 			}
+			industrial_complex > 69
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_new_construction_techniques
 		}
 	}
 	
@@ -4224,6 +4407,15 @@ focus_tree = {
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
+	
+		completion_reward = {
+			add_timed_idea = { idea = genidea_feed_the_nation days = 360 }
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_civilizedagri
+			}
+		}
 	}
 	
 	focus = {
@@ -4231,7 +4423,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_scientific_boom focus = genfoc_new_construction_techniques focus = genfoc_feed_the_nation }
 		x = 51
 		y = 9
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -4241,9 +4433,20 @@ focus_tree = {
 				tooltip = gentext_civilised_dev
 				has_idea = genidea_civilised_dev
 			}
+			num_of_factories > 99
 		}
+		
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_proto_industrialization
+			add_tech_bonus = {
+				bonus = 2
+				uses = 3
+				category = industry
+			}
 		}
 	}
 	
