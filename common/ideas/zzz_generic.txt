@@ -806,9 +806,9 @@ ideas = {
 				consumer_goods_factor = -0.1
 			}
 		}
-########################
-#NEW MISSION TREE IDEAS#
-########################
+####################
+#MISSION TREE IDEAS#
+####################
 
 		genidea_path_of_conqueror = {
 			picture = great_depression
@@ -850,42 +850,8 @@ ideas = {
 				special_forces_cap = 0.1
 			}		
 		}
-
-########################
-#OLD MISSION TREE IDEAS#
-########################
 		
-		genidea_engineer_cooperation = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			equipment_bonus = {
-	            artillery = {
-	                soft_attack = 0.1
-					instant = yes
-				}
-			}
-		}
-		
-		genidea_armorer_cooperation = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			equipment_bonus = {
-	            infantry_equipment = {
-	                defense = 0.1
-					instant = yes
-				}
-			}
-		}
-		
-		genidea_art_of_war = {
+		genidea_expand_resource_extraction = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -893,13 +859,12 @@ ideas = {
 			}
 			
 			modifier = {
-				army_org_factor = 0.2
-				max_planning_factor = 0.2
-				army_speed_factor = 0.1
-			}
+				local_resources_factor = 0.25
+				production_speed_infrastructure_factor = 0.25
+			}		
 		}
 		
-		genidea_ready_for_conquest = {
+		genidea_connect_the_nation = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -907,13 +872,13 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = 0.15
-				breakthrough_factor = 0.15
-				justify_war_goal_time = -0.5
-			}
+				local_resources_factor = 0.25
+				production_speed_infrastructure_factor = 0.25
+				production_speed_rail_way_factor = 0.25
+			}		
 		}
 		
-		genidea_path_of_warrior_3 = {
+		genidea_feed_the_nation = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -921,177 +886,45 @@ ideas = {
 			}
 			
 			modifier = {
-				subjects_autonomy_gain = -0.2
-				experience_gain_army_factor = 0.2
-				army_attack_factor = 0.1
-				army_defence_factor = 0.1
-			}
+				monthly_population_factor = 0.25
+				conscription_factor = 0.1
+				production_speed_synthetic_refinery_factor = 0.25
+				production_speed_fuel_silo_factor = 0.25
+				weekly_manpower = 500
+			}		
 		}
 		
-		genidea_expanded_military_production = {
+		genidea_new_construction_techniques = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
+			}
+			
+			research_bonus = {
+				industry_civilizedconstr = 0.20
+				industry_industrialconstr = 0.20
+			}	
+			
+			modifier = {
+				production_speed_buildings_factor = 0.2	
+			}
+		}
+		
+		genidea_proto_industrialization = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			research_bonus = {
+				industry = 0.20
 			}
 			
 			modifier = {
-				industrial_capacity_factory = 0.25
-				production_factory_max_efficiency_factor = 0.15
-				production_factory_efficiency_gain_factor = 0.15
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+				production_factory_efficiency_gain_factor = 0.1				
 			}
 		}
-		
-		genidea_expanded_civilian_production = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			modifier = {
-				production_speed_buildings_factor = 0.25
-			}
-		}
-		
-		genidea_improved_infrastructure = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			modifier = {
-				production_speed_buildings_factor = 0.10
-				local_resources_factor = 0.15
-			}
-		}
-		
-		genidea_schooling_investment = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			modifier = {
-				research_speed_factor = 0.15
-				consumer_goods_factor = 0.1
-			}
-		}
-		
-		genidea_booming_trade = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			modifier = {
-				consumer_goods_factor = -0.05
-				min_export = -0.05
-				trade_opinion_factor = 0.1
-			}
-		}
-		
-		genidea_booming_ship_construction_1 = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			modifier = {
-				industrial_capacity_dockyard = 0.35
-			}
-		}
-		
-		genidea_booming_ship_construction_2 = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			modifier = {
-				industrial_capacity_dockyard = 0.35
-			}
-		}
-		
-		genidea_growing_trade = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			equipment_bonus = {
-				convoy = {
-					build_cost_ic = -0.1 instant = yes
-				}
-			}
-			modifier = {
-				consumer_goods_factor = -0.1
-				trade_opinion_factor = 0.1
-				min_export = -0.1
-			}
-		}
-		
-		genidea_new_screen_ships = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			equipment_bonus = {
-				screen_ship = {
-					lg_attack = 0.25
-					surface_detection = 0.25
-					sub_detection = 0.25
-					instant = yes
-				}
-			}
-		}
-
-		
-		genidea_new_capital_ships = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			equipment_bonus = {
-				capital_ship = {
-					hg_attack = 0.25
-					armor_value = 0.25
-				}
-			}
-		}
-		
-		genidea_grand_fleet = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			equipment_bonus = {
-				screen_ship = {
-					range = 0.2
-					lg_attack = 0.1
-					hg_attack = 0.1
-					max_strength = 0.1
-				}
-				capital_ship = {
-					range = 0.2
-					lg_attack = 0.1
-					hg_attack = 0.1
-					max_strength = 0.1
-				}
-			}
-		}
-	
-
-	
