@@ -928,3 +928,36 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.1				
 			}
 		}
+		
+		genidea_booming_ship_construction = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.35		
+			}
+		}
+		
+		genidea_grand_fleet = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				screen_ship = {
+					naval_range = 0.2
+				}
+				capital_ship = {
+					naval_range = 0.2
+				}
+			}
+			
+			modifier = {
+				naval_damage_factor = 0.1	
+			}
+		}
