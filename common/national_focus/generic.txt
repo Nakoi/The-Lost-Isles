@@ -2987,7 +2987,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_claim_the_seas }
 		x = 33
 		y = 6
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2998,19 +2998,26 @@ focus_tree = {
 				has_idea = genidea_civilised_dev
 			}
 		}
-		available = {
-			dockyard > 11
-		}
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
 		
 		completion_reward = {
-			add_timed_idea = { idea = genidea_booming_ship_construction_1 days = 200 }
-			add_tech_bonus = {
-				bonus = 1.0
-				uses = 2
-				category = naval_equipment
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -3020,7 +3027,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_construct_shipyards }
 		x = 30
 		y = 7
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -3031,17 +3038,15 @@ focus_tree = {
 				has_idea = genidea_civilised_dev
 			}
 		}
-		available = {
-			has_equipment = {
-				convoy > 124
-			}
-		}
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
 		
 		completion_reward = {
-			add_timed_idea = { idea = genidea_growing_trade days = 200 }
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 100
+			}
 		}
 	}
 	
@@ -3050,7 +3055,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_construct_shipyards }
 		x = 32
 		y = 7
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -3061,19 +3066,27 @@ focus_tree = {
 				has_idea = genidea_civilised_dev
 			}
 		}
-		available = {
-			dockyard > 23
-		}
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
 		
 		completion_reward = {
-			add_timed_idea = { idea = genidea_booming_ship_construction_2 days = 200 }
-			add_tech_bonus = {
-				bonus = 1.0
-				uses = 2
-				category = naval_equipment
+			add_timed_idea = { idea = genidea_booming_ship_construction days = 360 }
+				random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -3083,7 +3096,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_construct_shipyards }
 		x = 34
 		y = 7
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -3094,19 +3107,21 @@ focus_tree = {
 				has_idea = genidea_civilised_dev
 			}
 		}
-		available = {
-			has_navy_size = {
-				size > 9
-				type = screen_ship
-			}
-		}
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
 		
 		completion_reward = {
-			add_timed_idea = { idea = genidea_new_screen_ships days = 200 }
-			navy_experience = 20
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = dd_tech
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = cl_tech
+			}
 		}
 	}
 	
@@ -3115,7 +3130,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_construct_shipyards }
 		x = 36
 		y = 7
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -3126,19 +3141,21 @@ focus_tree = {
 				has_idea = genidea_civilised_dev
 			}
 		}
-		available = {
-			has_navy_size = {
-				size > 9
-				type = capital_ship
-			}
-		}
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
 		
 		completion_reward = {
-			add_timed_idea = { idea = genidea_new_capital_ships days = 200 }
-			navy_experience = 20
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = ca_tech
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = bb_tech
+			}
 		}
 	}
 	
@@ -3147,7 +3164,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_create_merchant_fleet focus = genfoc_expand_our_shipyards focus = genfoc_screening_ship_effort focus = genfoc_capital_ship_effort }
 		x = 31
 		y = 8
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -3158,24 +3175,16 @@ focus_tree = {
 				has_idea = genidea_civilised_dev
 			}
 		}
-		available = {
-			has_navy_experience > 99
-		}
 		bypass = {
 			has_idea = genidea_industrial_dev
 		}
 		
 		completion_reward = {
-			navy_experience = -100
+			navy_experience = 50
 			add_tech_bonus = {
-				bonus = 3.0
-				uses = 2
+				bonus = 2
+				uses = 3
 				category = naval_equipment
-			}
-			add_tech_bonus = {
-				bonus = 3.0
-				uses = 2
-				category = naval_doctrine
 			}
 		}
 	}
@@ -3238,7 +3247,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			navy_experience = 60
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 1
+				uses = 2
+				category = naval_doctrine
+			}
 		}
 	}
 	
