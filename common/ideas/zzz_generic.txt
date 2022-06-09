@@ -940,7 +940,7 @@ ideas = {
 				industrial_capacity_dockyard = 0.35		
 			}
 		}
-		
+	
 		genidea_grand_fleet = {
 			picture = great_depression
 			removal_cost = -1
@@ -959,5 +959,31 @@ ideas = {
 			
 			modifier = {
 				naval_damage_factor = 0.1	
+			}
+		}
+		
+		genidea_grand_air_fleet = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				air_frigate = {
+					air_defence = 0.15
+					air_attack = 0.15
+					air_ground_attack = 0.15
+				}
+				air_bombardier = {
+					air_defence = 0.15
+					air_attack = 0.15
+					air_ground_attack = 0.15
+				}
+				sky_carrier = {
+					air_defence = 0.15
+					air_attack = 0.15
+					air_ground_attack = 0.15
+				}
 			}
 		}
