@@ -147,6 +147,10 @@ technologies = {
 			supply_consumption_factor = 0.1
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		path = {
 			leads_to_tech = pony_iron_wall
 			research_cost_coeff = 1
@@ -183,6 +187,10 @@ technologies = {
 			entrenchment  = 2
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		xor={
 			pony_sapper_training
 		}
@@ -217,6 +225,10 @@ technologies = {
 			defense = 0.15
 			supply_consumption_factor = 0.15
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		path = {
 			leads_to_tech = pony_reinforced_trenches
@@ -247,6 +259,10 @@ technologies = {
 			max_organisation = 5
 			supply_consumption_factor = 0.15
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		research_cost = 3.22
 		start_year = 957
@@ -272,6 +288,10 @@ technologies = {
 			max_organisation = 5
 			breakthrough = 0.15
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		juggernauts = {
 
@@ -319,6 +339,10 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		path = {
 			leads_to_tech = pony_the_terex
 			research_cost_coeff = 1
@@ -348,6 +372,10 @@ technologies = {
 			supply_consumption_factor = 0.6
 			breakthrough = 0.25
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		juggernauts = {
 
@@ -454,6 +482,10 @@ technologies = {
 		production_speed_infrastructure_factor = 0.15
 		local_resources_factor = 0.15
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		path = {
 			leads_to_tech = pony_industrial_talent
 			research_cost_coeff = 1
@@ -480,6 +512,10 @@ technologies = {
 		production_factory_efficiency_gain_factor = 0.20
 		production_factory_max_efficiency_factor = 0.10
 		production_factory_start_efficiency_factor = 0.10 		
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		research_cost = 2.68
 		start_year = 957
@@ -649,6 +685,10 @@ technologies = {
 			gunlance_equipment_1
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		
 		path = {
 			leads_to_tech = pony_weaponized_storm_clouds
@@ -685,6 +725,10 @@ technologies = {
 			supply_consumption_factor = 0.1
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		path = {
 			leads_to_tech = pony_tornado_strike
 			research_cost_coeff = 1
@@ -715,6 +759,10 @@ technologies = {
 			breakthrough = 0.2
 			supply_consumption_factor = 0.1
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		path = {
 			leads_to_tech = pony_air_skirmishing_training
@@ -754,6 +802,10 @@ technologies = {
 			pony_perfected_hit_and_run
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		research_cost = 3.22
 		start_year = 957
 		folder = {
@@ -782,6 +834,10 @@ technologies = {
 			pony_air_skirmishing_training
 		}	
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		research_cost = 3.22
 		start_year = 957
 		folder = {
@@ -803,6 +859,10 @@ technologies = {
 		enable_equipments = {
 			gunlance_equipment_2
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		
 		path = {
@@ -831,6 +891,10 @@ technologies = {
 		enable_equipments = {
 			gunlance_equipment_3
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		research_cost = 3.69
 		start_year = 957
@@ -916,6 +980,10 @@ technologies = {
 			air_range = 0.25
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		path = {
 			leads_to_tech = pony_artillery_wind
 			research_cost_coeff = 1
@@ -943,6 +1011,10 @@ technologies = {
 			hard_attack = 0.25
 			ap_attack = 0.25 
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		research_cost = 2.68
 		start_year = 957
@@ -1119,6 +1191,10 @@ technologies = {
 			default_morale = 0.2
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		xor={
 			pony_bubble_shield
 		}
@@ -1154,6 +1230,10 @@ technologies = {
 			hardness = 4.0
 			armor_value = 10.0
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		xor={
 			pony_flicker
@@ -1191,6 +1271,10 @@ technologies = {
 			breakthrough = 0.5
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		xor={
 			pony_healing_magic
 		}
@@ -1226,6 +1310,10 @@ technologies = {
 			max_strength = 1
 			casualty_trickleback = 0.1
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		xor={
 			pony_blinding_beam
@@ -1263,6 +1351,10 @@ technologies = {
 			hard_attack = 0.2
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		xor={
 			pony_combat_telekinesis
 		}
@@ -1298,6 +1390,10 @@ technologies = {
 			defense = 0.5
 			max_organisation = 5
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		xor={
 			pony_magnetize_ray
@@ -1335,6 +1431,10 @@ technologies = {
 			recon = 2
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		xor={
 			pony_magical_mine
 		}
@@ -1363,6 +1463,10 @@ technologies = {
 			entrenchment  = 5
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		xor={
 			pony_teleportation
 		}
@@ -1388,6 +1492,10 @@ technologies = {
 		enable_equipments = {
 			magical_equipment_1
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		path = {
 			leads_to_tech = pony_modern_magical_equipment
@@ -1420,6 +1528,10 @@ technologies = {
 			magical_equipment_2
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		research_cost = 3.22
 		start_year = 957
 		folder = {
@@ -1442,6 +1554,10 @@ technologies = {
 			leads_to_tech = pony_advanced_naval_magic
 			research_cost_coeff = 1
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -1475,6 +1591,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+            tech_civilized = 1
+        }
+
 		enable_equipment_modules = { 
 			light_planking_pony_2
 			heavy_planking_pony_2
@@ -1502,6 +1622,10 @@ technologies = {
 			light_planking_pony_3
 			heavy_planking_pony_3
 		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		research_cost = 1.7
 		start_year = 1936
@@ -1600,6 +1724,10 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
+		dependencies = {
+            tech_industrialized = 1
+        }
+
 		path = {
 			leads_to_tech = pony_vivomancy
 			research_cost_coeff = 1
@@ -1628,6 +1756,10 @@ technologies = {
 		max_strength = 9.0
 		supply_consumption_factor = 0.15
 		}
+
+		dependencies = {
+            tech_industrialized = 1
+        }
 
 		path = {
 			leads_to_tech = pony_negation
@@ -1659,6 +1791,10 @@ technologies = {
 		supply_consumption_factor = 0.15
 		}
 
+		dependencies = {
+            tech_industrialized = 1
+        }
+
 		path = {
 			leads_to_tech = pony_chronomancy 
 			research_cost_coeff = 1
@@ -1688,6 +1824,10 @@ technologies = {
 			default_morale = 1
 			supply_consumption_factor = 0.15
 		}
+
+		dependencies = {
+            tech_industrialized = 1
+        }
 
 		research_cost = 3.69
 		start_year = 957
@@ -1752,6 +1892,10 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
+		dependencies = {
+            tech_industrialized = 1
+        }
+
 		pony_mages = {
 			marsh = {
 				attack = 0.5
@@ -1798,6 +1942,10 @@ technologies = {
 		category_mages = {
 			supply_consumption_factor = 0.15
 		}
+
+		dependencies = {
+            tech_industrialized = 1
+        }
 
 		pony_mages = {
 			marsh = {
@@ -1852,6 +2000,10 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
+		dependencies = {
+            tech_industrialized = 1
+        }
+
 		path = {
 			leads_to_tech = pony_aerotheurgy_MTG
 			research_cost_coeff = 1
@@ -1882,6 +2034,10 @@ technologies = {
 			hard_attack = 1.0
 			supply_consumption_factor = 0.15
 		}
+
+		dependencies = {
+            tech_industrialized = 1
+        }
 
 		path = {
 			leads_to_tech = pony_conjuration_MTG
@@ -1915,6 +2071,10 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
+		dependencies = {
+            tech_industrialized = 1
+        }
+
 		research_cost = 3.69
 		start_year = 957
 		folder = {
@@ -1940,6 +2100,10 @@ technologies = {
 			ap_attack = 1.0
 			supply_consumption_factor = 0.15
 		}
+
+		dependencies = {
+            tech_industrialized = 1
+        }
 
 		path = {
 			leads_to_tech = pony_aerotheurgy
@@ -1972,6 +2136,10 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
+		dependencies = {
+            tech_industrialized = 1
+        }
+
 		path = {
 			leads_to_tech = pony_conjuration
 			research_cost_coeff = 1
@@ -2003,6 +2171,10 @@ technologies = {
 			ap_attack = 0.5
 			supply_consumption_factor = 0.15
 		}
+
+		dependencies = {
+            tech_industrialized = 1
+        }
 
 		research_cost = 3.69
 		start_year = 957
@@ -2065,6 +2237,10 @@ technologies = {
 			ap_attack = 2.0
 			supply_consumption_factor = 0.15
 		}
+
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		pony_mages = {
 			equipment_capture_factor = 0.10
@@ -2100,6 +2276,10 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
+		dependencies = {
+            tech_industrialized = 1
+        }
+
 		path = {
 			leads_to_tech = pony_flebotomy
 			research_cost_coeff = 1
@@ -2132,6 +2312,10 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
+		dependencies = {
+            tech_industrialized = 1
+        }
+
 		path = {
 			leads_to_tech = pony_malignancy
 			research_cost_coeff = 1
@@ -2161,6 +2345,10 @@ technologies = {
 			hard_attack = 1.0
 			supply_consumption_factor = 0.15
 		}
+
+		dependencies = {
+            tech_industrialized = 1
+        }
 
 		research_cost = 3.69
 		start_year = 957
