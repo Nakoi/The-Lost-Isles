@@ -80,7 +80,7 @@ technologies = {
 		}
 
 
-			engineer = {
+			sapper_company = {
 				soft_attack = -0.5
 				breakthrough = 0.1
 
@@ -158,7 +158,7 @@ technologies = {
 	
 	tech_engineers2 = {
 
-		engineer = {
+		sapper_company = {
 			breakthrough = 0.1
 			defense = 0.10
 			
@@ -207,7 +207,7 @@ technologies = {
 	
 	tech_engineers3 = {
 
-		engineer = {
+		sapper_company = {
 			breakthrough = 0.1
 			defense = 0.10
 			jungle = {
@@ -255,7 +255,7 @@ technologies = {
 	
 	tech_engineers4 = {
 
-		engineer = {
+		sapper_company = {
 			entrenchment  = 5
 		}
 
@@ -295,7 +295,7 @@ technologies = {
 
 	tech_engineers5 = {
 
-		engineer = {
+		sapper_company = {
 			breakthrough = 0.1
 			defense = 0.10
 			entrenchment  = 3
@@ -344,7 +344,7 @@ technologies = {
 	}
 	tech_engineers6 = {
 
-		engineer = {
+		sapper_company = {
 			breakthrough = 0.1
 			defense = 0.10
 			entrenchment  = 3
@@ -864,7 +864,7 @@ technologies = {
 			military_police_company
 		}
 
-			military_police = {
+			military_police_company = {
 				suppression_factor = 0.2
 				casualty_trickleback = 0.02
 				experience_loss_factor = -0.02
@@ -907,7 +907,7 @@ technologies = {
 	
 	tech_military_police2 = {
 
-		military_police = {
+		military_police_company = {
 			suppression_factor = 0.2
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
@@ -949,7 +949,7 @@ technologies = {
 	
 	tech_military_police3 = {
 
-		military_police = {
+		military_police_company = {
 			suppression_factor = 0.2
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
@@ -991,7 +991,7 @@ technologies = {
 
 	tech_military_police4 = {
 
-		military_police = {
+		military_police_company = {
 			suppression_factor = 0.2
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
@@ -1032,7 +1032,7 @@ technologies = {
 	}
 	tech_military_police5 = {
 
-		military_police = {
+		military_police_company = {
 			suppression_factor = 0.2
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
@@ -1073,7 +1073,7 @@ technologies = {
 			field_hospital_company
 		}
 
-			field_hospital = {
+			field_hospital_company = {
 				casualty_trickleback = 0.10
 				experience_loss_factor = -0.10
 			}
@@ -1115,7 +1115,7 @@ technologies = {
 	
 	tech_field_hospital2 = {
 
-		field_hospital = {
+		field_hospital_company = {
 			casualty_trickleback = 0.15
 			experience_loss_factor = -0.15
 		}
@@ -1156,7 +1156,7 @@ technologies = {
 	
 	tech_field_hospital3 = {
 
-		field_hospital = {
+		field_hospital_company = {
 			casualty_trickleback = 0.15
 			experience_loss_factor = -0.15
 		}
@@ -1196,7 +1196,7 @@ technologies = {
 	}
 	tech_field_hospital4 = {
 
-		field_hospital = {
+		field_hospital_company = {
 			casualty_trickleback = 0.20
 			experience_loss_factor = -0.20
 		}

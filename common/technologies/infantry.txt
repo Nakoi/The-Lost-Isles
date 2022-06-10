@@ -999,7 +999,7 @@ technologies = {
 
         unit_machine_gun = {
             defense = 0.1
-            attack = 0.1
+            soft_attack = 0.1
             ap_attack = 0.2
             air_attack = 0.75
             entrenchment = 1
@@ -1054,7 +1054,7 @@ technologies = {
         #}
         unit_machine_gun = {
             defense = 0.1
-            attack = 0.1
+            soft_attack = 0.1
             ap_attack = 0.2
             air_attack = 0.75
             entrenchment = 1
@@ -1105,7 +1105,7 @@ technologies = {
 
         unit_machine_gun = {
             defense = 0.2
-            attack = 0.1
+            soft_attack = 0.1
             ap_attack = 0.2
             air_attack = 0.75
             entrenchment = 1
@@ -1569,7 +1569,7 @@ technologies = {
         #}
 
         category_all_infantry = {
-            defence = 0.1
+            defense = 0.1
             breakthrough = 0.1
         }
     }
@@ -1627,7 +1627,7 @@ technologies = {
         #}
 
         category_all_infantry = {
-            defence = 0.2
+            defense = 0.2
             breakthrough = 0.2
         }
     }
@@ -1687,7 +1687,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        unit_heavy_infantry = {
+        category_heavy_infantry  = {
             armor_value = 9
             breakthrough = 1
             defense = 0.1

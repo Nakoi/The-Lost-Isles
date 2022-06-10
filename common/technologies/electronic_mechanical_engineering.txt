@@ -889,7 +889,9 @@ technologies = {
 	
 	basic_chemistry = {
 
-		casualty_trickleback = 0.03
+		category_army = {
+			casualty_trickleback = 0.03
+		}
 		experience_loss_factor = -0.03
 		attrition = -0.04
 		
@@ -926,7 +928,9 @@ technologies = {
 	
 	medicine = {
 
-		casualty_trickleback = 0.04
+		category_army = {
+			casualty_trickleback = 0.04
+		}
 		experience_loss_factor = -0.04
 		attrition = -0.05
 		
@@ -963,7 +967,9 @@ technologies = {
 	
 	anatomy_studies = {
 
-		casualty_trickleback = 0.04
+		category_army = {
+			casualty_trickleback = 0.04
+		}
 		experience_loss_factor = -0.04
 		attrition = -0.05
 		
@@ -1000,7 +1006,9 @@ technologies = {
 	
 	germ_theory = {
 
-		casualty_trickleback = 0.04
+		category_army = {
+			casualty_trickleback = 0.04
+		}
 		experience_loss_factor = -0.04
 		attrition = -0.06
 		
@@ -1037,7 +1045,9 @@ technologies = {
 	
 	penicillin = {
 
-		casualty_trickleback = 0.05
+		category_army = {
+			casualty_trickleback = 0.05
+		}
 		experience_loss_factor = -0.05
 		
 		dependencies = {

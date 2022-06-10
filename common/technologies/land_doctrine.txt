@@ -1115,9 +1115,9 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
-			land_reinforce_rate = 0.02
-		}
+		
+		land_reinforce_rate = 0.02
+
         category_special_forces = {
             land_reinforce_rate = 0.05
             maximum_speed = 0.15
@@ -1344,27 +1344,27 @@ technologies = {
             maximum_speed = 0.10
 			Forest = {
                 attack = 0.10
-                defense = 0.10
+                defence = 0.10
                 movement = 0.10
             }
             Mountain = {
                 attack = 0.10
-                defense = 0.10
+                defence = 0.10
                 movement = 0.10
             }
             Jungle = {
                 attack = 0.10
-                defense = 0.10
+                defence = 0.10
                 movement = 0.10
             }
             Marsh = {
                 attack = 0.10
-                defense = 0.10
+                defence = 0.10
                 movement = 0.10
             }
             River = {
                 attack = 0.10
-                defense = 0.10
+                defence = 0.10
                 movement = 0.10
             }
 		}
@@ -1444,7 +1444,7 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_special_forces = {
-			armor = 2.0
+			armor_value = 2.0
             hard_attack = 0.25
 		}
 		
@@ -1861,7 +1861,7 @@ technologies = {
 		
 		category_army = {
 			maximum_speed = 0.25
-            armor = 500
+            armor_value = 5.0
             defense = 0.10
             breakthrough = 1.20
 		}
@@ -1947,11 +1947,11 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_army = {
-			max_organisation = .30
+			max_organisation = 0.30
             soft_attack = 0.10
             minimum_training_level = -0.15
-            land_reinforce_rate = 0.02
 		}
+		land_reinforce_rate = 0.02
 
         xor = { grand_batteries }
 		
@@ -2464,15 +2464,15 @@ technologies = {
 		
 		category_special_forces = {
 			defense = 0.40
-            armor = 3.00
+            armor_value = 3.00
 		}
         category_army = {
             recon = -3
-            max_dig_in = -2
             defense = -0.10
             land_reinforce_rate = 0.02
             mobilization_speed = 0.25
         }
+        max_dig_in = -2
 
         path = {
 			leads_to_tech = mobile_warfare 
@@ -2652,8 +2652,8 @@ technologies = {
 		
 		category_army = {
 			combat_width = -0.4
-            minimum_training_level = 0.19
 		}
+		minimum_training_level = 0.19
         conscription = 0.05
 
         xor = { mobile_warfare superior_firepower trench_warfare }
