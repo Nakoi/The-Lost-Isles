@@ -325,8 +325,10 @@ technologies = {
 			leads_to_tech = aerial_hit_and_run
 			research_cost_coeff = 1
 		}
+		dependencies = {
+            steam_engine = 1
+        }
 
-        prerequisite = { steam_engine }
 		
 		doctrine = yes	
 		research_cost = 3
@@ -678,7 +680,9 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        prerequisite = { steam_engine }
+        dependencies = {
+            steam_engine = 1
+        }
 		
 		doctrine = yes	
 		research_cost = 3
@@ -1039,7 +1043,9 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        prerequisite = { steam_engine }
+        dependencies = {
+            steam_engine = 1
+        }
 		
 		doctrine = yes	
 		research_cost = 3

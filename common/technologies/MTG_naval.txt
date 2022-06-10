@@ -1073,7 +1073,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 3
-}
+			
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -1163,23 +1163,19 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
-		light_cruiser = {
+		frigate = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
-		heavy_cruiser = {
+		galley = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
-		battleship = {
+		ship_of_line = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
-		battle_cruiser = {
-			lg_attack = 0.05
-			hg_attack = 0.05
-		}
-		carrier = {
+		xebec = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
@@ -1219,23 +1215,19 @@ technologies = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
-		light_cruiser = {
+		frigate = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
-		heavy_cruiser = {
+		galley = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
-		battleship = {
+		ship_of_line = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
-		battle_cruiser = {
-			lg_attack = 0.1
-			hg_attack = 0.1
-		}
-		carrier = {
+		xebec = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
@@ -1271,23 +1263,19 @@ technologies = {
 			lg_attack = 0.2
 			hg_attack = 0.2
 		}
-		light_cruiser = {
+		frigate = {
 			lg_attack = 0.2
 			hg_attack = 0.2
 		}
-		heavy_cruiser = {
+		galley = {
 			lg_attack = 0.2
 			hg_attack = 0.2
 		}
-		battleship = {
+		ship_of_line = {
 			lg_attack = 0.2
 			hg_attack = 0.2
 		}
-		battle_cruiser = {
-			lg_attack = 0.2
-			hg_attack = 0.2
-		}
-		carrier = {
+		xebec = {
 			lg_attack = 0.2
 			hg_attack = 0.2
 		}
