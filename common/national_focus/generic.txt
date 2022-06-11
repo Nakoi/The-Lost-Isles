@@ -3572,7 +3572,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_extensive_ship_research focus = genfoc_grand_fleet focus = genfoc_develop_naval_doctrine focus = genfoc_extensive_airship_research focus = genfoc_expand_air_fleet focus = genfoc_develop_air_doctrine }
 		x = 36
 		y = 9
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -3582,9 +3582,14 @@ focus_tree = {
 				tooltip = gentext_civilised_dev
 				has_idea = genidea_civilised_dev
 			}
+			num_faction_members > 3
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_find_loyal_allies
 		}
 	}
 	
@@ -3593,7 +3598,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_extensive_ship_research focus = genfoc_grand_fleet focus = genfoc_develop_naval_doctrine focus = genfoc_extensive_airship_research focus = genfoc_expand_air_fleet focus = genfoc_develop_air_doctrine }
 		x = 38
 		y = 9
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -3603,9 +3608,14 @@ focus_tree = {
 				tooltip = gentext_civilised_dev
 				has_idea = genidea_civilised_dev
 			}
+			num_subjects > 9
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_overseas_expansion
 		}
 	}
 	
@@ -4098,7 +4108,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_new_support_equipment focus = genfoc_advanced_body_armor }
 		x = 24
 		y = 9
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -4108,9 +4118,23 @@ focus_tree = {
 				tooltip = gentext_civilised_dev
 				has_idea = genidea_civilised_dev
 			}
+			num_of_controlled_states > 49
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_political_power = 150
+			add_war_support = 0.15
+			every_owned_state = {
+                limit = {
+                    NOT = {
+                        is_core_of = ROOT
+                    }
+                }
+                add_compliance = 15
+            }
 		}
 	}
 	
@@ -4120,7 +4144,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_new_support_equipment focus = genfoc_advanced_body_armor }
 		x = 28
 		y = 9
-		cost = 10
+		cost = 20
 		ai_will_do = {
 			factor = 5
 		}
@@ -4133,6 +4157,10 @@ focus_tree = {
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_fortify_the_border
 		}
 	}
 	
@@ -4740,24 +4768,6 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_fortress_nation
-		prerequisite = { focus = genfoc_worldwide_cotender }
-		x = 41
-		y = 12
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = gentext_industrial_dev
-				has_idea = genidea_industrial_dev
-			}
-		}
-	}
-	
-	focus = {
 		id = genfoc_making_friends
 		prerequisite = { focus = genfoc_worldwide_cotender }
 		x = 35
@@ -4798,24 +4808,6 @@ focus_tree = {
 		prerequisite = { focus = genfoc_grand_alliance }
 		x = 35
 		y = 14
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = gentext_industrial_dev
-				has_idea = genidea_industrial_dev
-			}
-		}
-	}
-	
-	focus = {
-		id = genfoc_destroy_army
-		prerequisite = { focus = genfoc_worldwide_cotender }
-		x = 33
-		y = 12
 		cost = 10
 		ai_will_do = {
 			factor = 5
