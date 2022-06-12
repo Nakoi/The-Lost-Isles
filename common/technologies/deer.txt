@@ -1,0 +1,656 @@
+technologies = {
+	
+	@1918 = 0
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
+
+	deer_race = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+	}
+
+	seafaring_traditions = {
+
+		dependencies = {
+		}
+		
+		path = {
+			leads_to_tech = longship_deer
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cold_climate_mastery
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = trade_connections
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 6 y = 0 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	longship_deer = {
+
+		dependencies = {
+		}
+		
+		path = {
+			leads_to_tech = assault_ship_deer
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = boarding_parties_deer
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	boarding_parties_deer = {
+
+		dependencies = {
+		}
+		
+		path = {
+			leads_to_tech = boarding_parties_deer_2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	boarding_parties_deer_2 = {
+
+		dependencies = {
+		}
+		
+		path = {
+			leads_to_tech = boarding_parties_deer_3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	boarding_parties_deer_3 = {
+
+		dependencies = {
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	assault_ship_deer = {
+
+		dependencies = {
+		}
+		
+		path = {
+			leads_to_tech = steam_assault_ship_deer
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	steam_assault_ship_deer = {
+
+		dependencies = {
+		}
+		
+		path = {
+			leads_to_tech = modern_assault_ship_deer
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 4 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	modern_assault_ship_deer = {
+
+		dependencies = {
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 4 y = 14 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cold_climate_mastery = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = at_home_in_mountains
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 6 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	at_home_in_mountains = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = guerilla_warfare_expertise
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 6 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	guerilla_warfare_expertise = {
+
+		dependencies = {
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 6 y = 14 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	trade_connections = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = modern_pirates
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	modern_pirates = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = skilled_shipbuilders
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 8 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	skilled_shipbuilders = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 8 y = 14 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	deer_highlanders = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = deer_field_recon
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 12 y = 0 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	deer_field_recon= {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = advanced_mountain_gear
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 12 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	advanced_mountain_gear= {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = heirs_of_jaris
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heirs_of_vikings
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 12 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	heirs_of_jaris= {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = demolitions_training
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 10 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	demolitions_training= {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = heroes_of_myth
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 10 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heroes_of_myth= {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = pioneers_of_camouflage
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 10 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heirs_of_vikings= {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = light_infantry_expertise
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 14 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	light_infantry_expertise= {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = heroes_of_people
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 14 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heroes_of_people= {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = pioneers_of_camouflage
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 14 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pioneers_of_camouflage= {
+
+		dependencies = {
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 12 y = 12 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+
+
+
+
+
+}
