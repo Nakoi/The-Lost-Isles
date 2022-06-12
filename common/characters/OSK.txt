@@ -16,4 +16,39 @@ OSK_Army_leader_01={
         }
     }
 
+OSK_Army_leader_02={
+        name=OSK_Army_leader_02_name
+        portraits={
+            army={
+		large="GFX/leaders/OSK/OSK_Army_leader_02.tga"
+            }	
+        }
+	corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+OSK_Army_leader_03={
+        name=OSK_Army_leader_03_name
+        portraits={
+            army={
+		large="GFX/leaders/OSK/OSK_Army_leader_03.tga"
+            }	
+        }
+	corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+
 }
