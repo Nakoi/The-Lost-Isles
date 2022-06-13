@@ -8,7 +8,7 @@ OSK_Army_leader_01={
         }
 	field_marshal={
             traits = {}
-            skill = 1
+            skill = 2
             attack_skill = 1
             defense_skill = 1
             planning_skill = 1
@@ -38,6 +38,23 @@ OSK_Army_leader_03={
         portraits={
             army={
 		large="GFX/leaders/OSK/OSK_Army_leader_03.tga"
+            }	
+        }
+	corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+OSK_Army_leader_04={
+        name=OSK_Army_leader_04_name
+        portraits={
+            army={
+		large="GFX/leaders/OSK/OSK_Army_leader_04.tga"
             }	
         }
 	corps_commander={
