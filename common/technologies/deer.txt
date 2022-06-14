@@ -26,6 +26,28 @@ technologies = {
 
 		dependencies = {
 		}
+
+		convoy_escort_efficiency = 0.2
+		destroyer = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+		}
+		frigate = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+		}
+		galley = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+		}
+		ship_of_line = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+		}
+		xebec = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+		}
 		
 		path = {
 			leads_to_tech = longship_deer
@@ -236,8 +258,15 @@ technologies = {
 
 	cold_climate_mastery = {
 
+		category_army = { 
+			acclimatization_cold_climate_gain_factor = 0.3
+			attrition = 0.1
+			defense = 0.1
+		}
+
+
 		dependencies = {
-		}	
+		}
 
 		path = {
 			leads_to_tech = at_home_in_mountains
@@ -261,6 +290,8 @@ technologies = {
 	}
 
 	at_home_in_mountains = {
+
+
 
 		dependencies = {
 		}	
@@ -288,6 +319,12 @@ technologies = {
 
 	guerilla_warfare_expertise = {
 
+		category_army = { 
+			defense = 0.1
+			entrenchment = 3
+			dig_in_speed = 0.2
+		}
+
 		dependencies = {
 		}	
 
@@ -308,6 +345,9 @@ technologies = {
 	}
 
 	trade_connections = {
+
+		min_export = -0.5
+		trade_opinion_factor = 0.15
 
 		dependencies = {
 		}	
@@ -335,6 +375,10 @@ technologies = {
 
 	modern_pirates = {
 
+		convoy_raiding_efficiency_factor = 0.2
+		amphibious_invasion_defence = 0.2
+		invasion_preparation = -0.15
+
 		dependencies = {
 		}	
 
@@ -361,13 +405,10 @@ technologies = {
 
 	skilled_shipbuilders = {
 
+		industrial_capacity_dockyard = 0.3
+
 		dependencies = {
 		}	
-
-		path = {
-			leads_to_tech = 
-			research_cost_coeff = 1
-		}
 
 		research_cost = 2.15
 		start_year = 957
