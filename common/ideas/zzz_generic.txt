@@ -1030,3 +1030,117 @@ ideas = {
 				local_resources_factor = 0.15
 			}
 		}
+		
+		genidea_worldwide_cotender = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				max_command_power = 100
+				political_power_factor = 0.1
+				org_loss_when_moving = -0.05
+				justify_war_goal_time = -0.25
+			}
+		}
+		
+		genidea_continental_conquest1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				resistance_growth = -0.1
+				required_garrison_factor = -0.2
+			}
+		}
+	
+		genidea_continental_conquest2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				resistance_growth = -0.1
+				required_garrison_factor = -0.2
+				compliance_growth = 0.1
+				non_core_manpower = 0.1
+				local_resources_factor = 0.1
+			}
+		}
+		
+		genidea_the_sun_never_sets1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				conscription_factor = 0.1
+				autonomy_gain = -0.5
+			}
+		}
+		
+		genidea_the_sun_never_sets2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				conscription_factor = 0.2
+				autonomy_gain = -1
+				
+			}
+		}
+		
+		genidea_go_do_a_crime = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
+				army_org_factor = 0.5
+				army_speed_factor = 0.25
+			}
+		}
+		
+		genidea_grand_alliance1  = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = 0.1
+				trade_opinion_factor = 0.1
+			}
+		}
+		
+		genidea_grand_alliance2  = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = 0.1
+				trade_opinion_factor = 0.1
+				weekly_manpower = 2000
+				land_reinforce_rate = 0.05
+			}
+		}
