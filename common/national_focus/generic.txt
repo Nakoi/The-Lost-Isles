@@ -4664,7 +4664,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_industrial_revolution }
 		x = 37
 		y = 11
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -4674,6 +4674,11 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			is_major = yes
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_worldwide_cotender
 		}
 	}
 	
@@ -4682,7 +4687,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_worldwide_cotender }
 		x = 37
 		y = 12
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -4692,6 +4697,11 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			num_of_controlled_states > 99
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_continental_conquest1
 		}
 	}
 	
@@ -4700,7 +4710,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_continental_conquest focus = genfoc_the_sun_never_sets }
 		x = 37
 		y = 13
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -4709,6 +4719,14 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+			num_of_controlled_states > 199
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_continental_conquest2
+				remove_idea = genidea_continental_conquest1
 			}
 		}
 	}
@@ -4718,7 +4736,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_worldwide_cotender }
 		x = 39
 		y = 12
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -4728,6 +4746,11 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			num_subjects > 19
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_the_sun_never_sets1
 		}
 	}
 	
@@ -4736,7 +4759,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_continental_conquest focus = genfoc_the_sun_never_sets }
 		x = 39
 		y = 13
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -4745,6 +4768,14 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+			num_subjects > 39
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_the_sun_never_sets2
+				remove_idea = genidea_the_sun_never_sets1
 			}
 		}
 	}
@@ -4754,7 +4785,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_two_continents_one_nation focus = genfoc_puppetmaster }
 		x = 38
 		y = 14
-		cost = 10
+		cost = 20
 		ai_will_do = {
 			factor = 5
 		}
@@ -4765,29 +4796,39 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
-	}
-	
-	focus = {
-		id = genfoc_making_friends
-		prerequisite = { focus = genfoc_worldwide_cotender }
-		x = 35
-		y = 12
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
 		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = gentext_industrial_dev
-				has_idea = genidea_industrial_dev
-			}
+		completion_reward = {
+			add_ideas = genidea_go_do_a_crime
 		}
 	}
 	
 	focus = {
 		id = genfoc_grand_alliance
-		prerequisite = { focus = genfoc_making_friends }
+		prerequisite = { focus = genfoc_worldwide_cotender }
+		x = 35
+		y = 12
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+			num_faction_members > 9
+		}
+		
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = genidea_grand_alliance1
+		}
+	}
+	
+	focus = {
+		id = genfoc_allied_army
+		prerequisite = { focus = genfoc_grand_alliance }
 		x = 35
 		y = 13
 		cost = 10
@@ -4801,14 +4842,23 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_grand_alliance2
+				remove_idea = genidea_grand_alliance1
+			}
+		}
 	}
+		
+	
 	
 	focus = {
 		id = genfoc_gentle_push
-		prerequisite = { focus = genfoc_grand_alliance }
+		prerequisite = { focus = genfoc_allied_army }
 		x = 35
 		y = 14
-		cost = 10
+		cost = 20
 		ai_will_do = {
 			factor = 5
 		}
@@ -4818,6 +4868,10 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = gentext_firewire_pls
 		}
 	}
 	
