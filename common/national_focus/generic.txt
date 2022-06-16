@@ -4870,14 +4870,22 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			is_faction_leader = yes
+			is_subject = no
 			num_of_factories > 399
 			num_faction_members > 14
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = gentext_firewire_pls
-		}
-	}
+			every_country = {
+				limit = {
+					NOT = { tag = FROM }
+					is_in_faction_with = FROM
+					is_subject = no
+				}
+				country_event = { id = puppet.1 }
+			}
+		}	}
 	
 	focus = {
 		id = genfoc_new_age_air_warfare

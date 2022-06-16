@@ -1,0 +1,51 @@
+add_namespace = puppet
+
+country_event = {
+ 	id = puppet.1
+ 	title = puppet.1.title
+ 	desc = puppet.1.desc
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+ 	fire_only_once = no
+
+ 	option = {
+		name = puppet.1.a
+		ai_chance = { factor = 1000}
+
+		FROM = {
+			puppet = ROOT
+		}
+	}
+
+	option = {
+		name = puppet.1.b
+		ai_chance = { factor = 0}
+
+		leave_faction = yes
+
+		FROM = {
+			country_event = { id = puppet.2 }
+		} 
+	}
+}
+
+country_event = {
+ 	id = puppet.2
+ 	title = puppet.2.title
+ 	desc = puppet.2.desc
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+ 	fire_only_once = no
+
+	option = {
+		name = puppet.2.a
+		ai_chance = { factor = 1000}
+
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = FROM
+		} 
+	}
+}
