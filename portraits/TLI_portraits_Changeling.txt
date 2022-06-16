@@ -1,0 +1,569 @@
+### Continents ###
+### MONGOLIAN ###
+
+ALK = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Mongolian_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Mongolian_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Mongolian_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Mongolian_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_imperialism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_visionarism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_solidarism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_continuism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_isolationism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02s.tga"
+			}
+		}
+	}
+
+}
+
+GLO = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Mongolian_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Mongolian_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Mongolian_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Mongolian_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_imperialism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_visionarism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_solidarism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_continuism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_isolationism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02s.tga"
+			}
+		}
+	}
+}
+
+
+YAN = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Mongolian_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Mongolian_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Mongolian_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Mongolian_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_imperialism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_visionarism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_solidarism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_continuism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_isolationism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02s.tga"
+			}
+		}
+	}
+
+}
+
+
+ZHE = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Mongolian_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Mongolian_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Mongolian_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Mongolian_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_imperialism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_visionarism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_solidarism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_continuism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+		}
+		ideology_isolationism = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Mongolian_Royal_02s.tga"
+			}
+		}
+	}
+
+}
+
+
+### IRISH ###
+
+
+FRI = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Irish_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Irish_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Irish_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Irish_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+	}
+
+}
+
+HIL = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Irish_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Irish_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Irish_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Irish_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+	}
+
+}
+
+VRA = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Irish_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Irish_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Changeling_Male_Irish_Army_leader_01.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Changeling_Female_Irish_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_01.tga"
+				"gfx/leaders/Generic/Changeling_Female_Irish_Royal_02.tga"
+			}
+		}
+	}
+
+}
+

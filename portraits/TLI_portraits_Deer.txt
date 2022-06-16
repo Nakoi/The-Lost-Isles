@@ -1,0 +1,598 @@
+### Continents ###
+
+
+OSK = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+GAL = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+AST = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+
+
+VAL = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+SII = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+KER = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_02.tga"
+			"gfx/leaders/Generic/Deer_Male_Norse_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_01.tga"
+			"gfx/leaders/Generic/Deer_Female_Norse_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_01.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Royal_02.tga"
+				"gfx/leaders/Generic/Deer_Male_Norse_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_03.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Royal_04.tga"
+				"gfx/leaders/Generic/Deer_Female_Norse_Politician_02.tga"
+			}
+		}
+	}
+
+}

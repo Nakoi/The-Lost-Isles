@@ -1,0 +1,894 @@
+### Continents ###
+
+continent = {
+	name = Luanservy
+	army = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+TYK = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+BRV = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+SAL = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+
+WEL = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+ROG = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+KLI = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+SOV = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+ZIK = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Pony_Male_Slavic_Army_leader_03.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_02.tga"
+			"gfx/leaders/Generic/Pony_Female_Slavic_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_03.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Royal_02.tga"
+				"gfx/leaders/Generic/Pony_Male_Slavic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_01.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Royal_04.tga"
+				"gfx/leaders/Generic/Pony_Female_Slavic_Politician_02.tga"
+			}
+		}
+	}
+
+}

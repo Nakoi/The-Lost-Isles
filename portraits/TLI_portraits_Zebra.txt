@@ -1,0 +1,989 @@
+### Continents ###
+### MONGOLIAN ###
+
+MAK = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+	}
+}
+
+ARE = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+	}
+}
+
+NAC = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+	
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+	}
+}
+
+VAK = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+IGU = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+RAN = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+RED = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+KAT = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+KEZ = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+	}
+
+}
+
+IAR = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_01.tga"
+			"gfx/leaders/Generic/Zebra_Male_African_Army_leader_02.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_03.tga"
+			"gfx/leaders/Generic/Zebra_Female_African_Army_leader_04.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_03.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Royal_04.tga"
+				"gfx/leaders/Generic/Zebra_Male_African_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_01.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Royal_02.tga"
+				"gfx/leaders/Generic/Zebra_Female_African_Politician_02.tga"
+			}
+		}
+	}
+
+}
