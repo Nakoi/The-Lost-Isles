@@ -1144,3 +1144,52 @@ ideas = {
 				land_reinforce_rate = 0.05
 			}
 		}
+		
+		genidea_airfield_expansion  = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_air_base_factor = 1
+			}
+		}
+		
+		genidea_airship_crystals  = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			research_bonus = {
+				category_air = 0.10
+			}
+			
+			equipment_bonus = {
+				air_frigate = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				air_bombardier = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				sky_carrier = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		
+		genidea_port_expansion  = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_naval_base_factor = 1
+				production_speed_dockyard_factor = 0.2
+			}
+		}
