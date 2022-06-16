@@ -1,0 +1,35 @@
+characters={
+GAL_Army_leader_01={
+        name=GAL_Army_leader_01_name
+        portraits={
+            army={
+		large="GFX/leaders/GAL/Galund_Female_Army_leader_01.tga"
+            }	
+        }
+	field_marshal={
+            traits = {}
+            skill = 2
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+GAL_Army_leader_02={
+        name=GAL_Army_leader_02_name
+        portraits={
+            army={
+		large="GFX/leaders/GAL/Galund_Male_Army_leader_02.tga"
+            }	
+        }
+	corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+}
