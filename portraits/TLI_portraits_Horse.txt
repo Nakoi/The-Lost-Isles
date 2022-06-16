@@ -1,0 +1,1382 @@
+### Continents ###
+
+NUX = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+
+IMI = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+
+ADA = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+
+THA = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+
+MIT = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+
+KOR = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+
+ISL = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+
+STA = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+
+JES = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+
+CRA = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+HAK = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+JAC = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+GAP = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
+
+AFR = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_03.tga"
+			"gfx/leaders/Generic/Horse_Male_Arabic_Army_leader_04.tga"
+		}
+		female = {
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_01.tga"
+			"gfx/leaders/Generic/Horse_Female_Arabic_Army_leader_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_01.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Royal_02.tga"
+				"gfx/leaders/Generic/Horse_Male_Arabic_Politician_01.tga"
+			}
+			female = {
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_03.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Royal_04.tga"
+				"gfx/leaders/Generic/Horse_Female_Arabic_Politician_02.tga"
+			}
+		}
+	}
+}
