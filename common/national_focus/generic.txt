@@ -4605,6 +4605,7 @@ focus_tree = {
 				tooltip = gentext_civilised_dev
 				has_idea = genidea_civilised_dev
 			}
+			has_political_power > 299
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
@@ -4613,7 +4614,8 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = gentext_primitive_civilised_advancement
 			add_research_slot = 1
-			add_political_power = -150
+			add_political_power = -300
+			remove_ideas = genidea_proto_industrialization
 			add_tech_bonus = {
 				bonus = 1.5
 				uses = 2
@@ -4880,7 +4882,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_industrial_revolution }
 		x = 29
 		y = 11
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -4889,6 +4891,15 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			air_experience = 50
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_air
 			}
 		}
 	}
@@ -4898,7 +4909,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_new_age_air_warfare }
 		x = 28
 		y = 12
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -4908,6 +4919,10 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_airfield_expansion days = 360 }
 		}
 	}
 	
@@ -4916,7 +4931,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_new_age_air_warfare }
 		x = 30
 		y = 12
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -4926,6 +4941,15 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			has_resources_amount = {
+				resource = crystals
+				amount > 99
+				delivered = yes
+			}
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_airship_crystals
 		}
 	}
 	
@@ -4945,7 +4969,17 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			air_experience = 100
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = category_air
+			}
+		}
 	}
+	
 	
 	focus = {
 		id = genfoc_aerial_swarm_tactic
@@ -4961,6 +4995,14 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = category_air_skirmisher
 			}
 		}
 	}
@@ -4981,6 +5023,14 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = category_skycruiser
+			}
+		}
 	}
 	
 	focus = {
@@ -4997,6 +5047,14 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+	
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = category_airfrigate
 			}
 		}
 	}
@@ -5017,6 +5075,14 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = category_bombardier
+			}
+		}
 	}
 	
 	focus = {
@@ -5035,6 +5101,14 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = category_skycarrier
+			}
+		}
 	}
 	
 	focus = {
@@ -5042,7 +5116,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_industrial_revolution }
 		x = 45
 		y = 11
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -5051,6 +5125,15 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			navy_experience = 50
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = naval_equipment
 			}
 		}
 	}
@@ -5060,7 +5143,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_new_age_naval_warfare }
 		x = 44
 		y = 12
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -5071,6 +5154,10 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = genidea_port_expansion days = 360 }
+		}
 	}
 	
 	focus = {
@@ -5078,7 +5165,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_new_age_naval_warfare }
 		x = 46
 		y = 12
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -5087,6 +5174,35 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+			has_resources_amount = {
+				resource = iron
+				amount > 74
+				delivered = yes
+			}
+			has_resources_amount = {
+				resource = coal
+				amount > 74
+				delivered = yes
+			}
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -5107,6 +5223,15 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			navy_experience = 100
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = naval_equipment
+			}
+		}
 	}
 	
 	focus = {
@@ -5123,6 +5248,19 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = ca_tech
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = bb_tech
 			}
 		}
 	}
@@ -5143,7 +5281,15 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 100
+			}
+		}
 	}
+	
 	
 	focus = {
 		id = genfoc_modernise_screening_ships
@@ -5159,6 +5305,19 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = dd_tech
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = cl_tech
 			}
 		}
 	}
@@ -5179,6 +5338,33 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	
 	focus = {
@@ -5195,6 +5381,33 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
