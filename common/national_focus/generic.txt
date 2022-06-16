@@ -4870,6 +4870,8 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			num_of_factories > 399
+			num_faction_members > 14
 		}
 		
 		completion_reward = {
