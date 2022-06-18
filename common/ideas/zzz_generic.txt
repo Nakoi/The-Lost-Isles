@@ -851,6 +851,33 @@ ideas = {
 			}		
 		}
 		
+		genidea_schooling_investment = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				research_speed_factor = 0.15
+				consumer_goods_factor = 0.1
+			}		
+		}
+		
+		genidea_booming_trade = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				trade_opinion_factor = 0.1
+				consumer_goods_factor = -0.05
+				min_export = -0.05
+			}		
+		}
+		
 		genidea_expand_resource_extraction = {
 			picture = great_depression
 			removal_cost = -1
@@ -1110,6 +1137,7 @@ ideas = {
 			}
 			
 			modifier = {
+				justify_war_goal_time = -0.5
 				industrial_capacity_factory = 0.25
 				industrial_capacity_dockyard = 0.25
 				army_org_factor = 0.5
