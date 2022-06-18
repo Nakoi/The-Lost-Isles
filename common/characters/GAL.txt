@@ -32,4 +32,21 @@ GAL_Army_leader_02={
             logistics_skill = 1
         }
     }
+
+GAL_Army_leader_03={
+        name=GAL_Army_leader_03_name
+        portraits={
+            army={
+		large="GFX/leaders/GAL/Galund_Male_Army_leader_03.tga"
+            }	
+        }
+	corps_commander={
+            traits = {}
+            skill = 2
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
 }
