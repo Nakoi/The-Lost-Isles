@@ -43,6 +43,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			random_neighbor_country = {
+				FROM = {
+                    create_wargoal = {
+						target = PREV
+						type = annex_everything
+					}
+				}
+			}
 		}
 	}
 	
@@ -2435,7 +2443,7 @@ focus_tree = {
 			add_timed_idea = { idea = genidea_schooling_investment days = 360 }
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = electronics
 			}
 		}
@@ -2480,7 +2488,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = industry_primitiveagri
 			}
 		}
@@ -2609,7 +2617,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = infantry_primitiveeq
 			}
 			random_owned_controlled_state = {	
@@ -2646,7 +2654,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = artillery
 			}
 			random_owned_controlled_state = {	
@@ -2684,7 +2692,7 @@ focus_tree = {
 			army_experience = 10
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 3
+				uses = 1
 				category = category_support_battalions
 			}
 			random_owned_controlled_state = {	
@@ -2721,7 +2729,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = infantry_armorcat
 			}
 			random_owned_controlled_state = {	
@@ -2796,7 +2804,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_assemble_army }
 		x = 31
 		y = 2
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2807,12 +2815,6 @@ focus_tree = {
 				has_idea = genidea_primitive_dev
 			}
 		}
-		available = {
-			has_army_size = {
-				size > 9
-				type = armor
-			}
-		}
 		bypass = {
 			has_idea = genidea_civilised_dev
 		}
@@ -2821,8 +2823,8 @@ focus_tree = {
 			army_experience = 10
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
-				category = mountaineers_tech
+				uses = 1
+				category = racial
 			}
 		}
 	}
@@ -2914,38 +2916,43 @@ focus_tree = {
 			add_political_power = -150
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = tli_infantry
 			}
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = category_support_battalions
 			}
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = artillery
 			}
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = category_air
 			}
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = naval_equipment
 			}
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = industry
 			}
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = electronics
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = racial
 			}
 				hidden_effect = { set_technology = { tech_civilized = 1 } }
 				hidden_effect = {
@@ -3183,7 +3190,7 @@ focus_tree = {
 			navy_experience = 50
 			add_tech_bonus = {
 				bonus = 2
-				uses = 3
+				uses = 1
 				category = naval_equipment
 			}
 		}
@@ -3386,7 +3393,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = category_bombardier
 			}
 		}
@@ -3415,7 +3422,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = category_airfrigate
 			}
 		}
@@ -3444,7 +3451,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = category_skycarrier
 			}
 		}
@@ -3474,7 +3481,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = category_air_skirmisher
 			}
 		}
@@ -3504,7 +3511,7 @@ focus_tree = {
 			air_experience = 50
 			add_tech_bonus = {
 				bonus = 2
-				uses = 3
+				uses = 1
 				category = category_air
 			}
 		}
@@ -3700,7 +3707,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 3.0
-				uses = 2
+				uses = 1
 				category = artillery_medium
 			}
 			add_equipment_to_stockpile = {
@@ -3733,7 +3740,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				ahead_reduction = 2
-				uses = 2
+				uses = 1
 				category = artillery_antiair
 				category = artillery_rocket
 				category = artillery_howitzer
@@ -3776,7 +3783,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1.5
-				uses = 3
+				uses = 1
 				category = category_support_battalions
 			}
 			add_equipment_to_stockpile = {
@@ -3809,7 +3816,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = infantry_armorcat
 			}
 			random_owned_controlled_state = {	
@@ -4047,7 +4054,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_update_army_doctrine }
 		x = 25
 		y = 8
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -4056,12 +4063,6 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_civilised_dev
 				has_idea = genidea_civilised_dev
-			}
-		}
-		available = {
-			has_army_size = {
-				size > 15
-				type = armor
 			}
 		}
 		bypass = {
@@ -4096,7 +4097,7 @@ focus_tree = {
 		completion_reward = {
 				add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = science_armyorg
 			}
 		}
@@ -4144,7 +4145,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_new_support_equipment focus = genfoc_advanced_body_armor }
 		x = 28
 		y = 9
-		cost = 20
+		cost = 30
 		ai_will_do = {
 			factor = 5
 		}
@@ -4187,7 +4188,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = industry
 			}
 		}
@@ -4257,7 +4258,7 @@ focus_tree = {
 			add_timed_idea = { idea = genidea_expand_resource_extraction days = 360 }
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = industry_civilizedtools
 			}
 		}
@@ -4415,7 +4416,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = industry_civilizedeco
 			}
 		}
@@ -4583,7 +4584,7 @@ focus_tree = {
 			add_ideas = genidea_proto_industrialization
 			add_tech_bonus = {
 				bonus = 2
-				uses = 3
+				uses = 1
 				category = industry
 			}
 		}
@@ -4618,38 +4619,43 @@ focus_tree = {
 			remove_ideas = genidea_proto_industrialization
 			add_tech_bonus = {
 				bonus = 1.5
-				uses = 2
+				uses = 1
 				category = tli_infantry
 			}
 			add_tech_bonus = {
 				bonus = 1.5
-				uses = 2
+				uses = 1
 				category = category_support_battalions
 			}
 			add_tech_bonus = {
 				bonus = 1.5
-				uses = 2
+				uses = 1
 				category = artillery
 			}
 			add_tech_bonus = {
 				bonus = 1.5
-				uses = 2
+				uses = 1
 				category = category_air
 			}
 			add_tech_bonus = {
 				bonus = 1.5
-				uses = 2
+				uses = 1
 				category = naval_equipment
 			}
 			add_tech_bonus = {
 				bonus = 1.5
-				uses = 2
+				uses = 1
 				category = industry
 			}
 			add_tech_bonus = {
 				bonus = 1.5
-				uses = 2
+				uses = 1
 				category = electronics
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = racial
 			}
 				hidden_effect = { set_technology = { tech_industrialized = 1 } }
 				hidden_effect = {
@@ -4984,7 +4990,7 @@ focus_tree = {
 			air_experience = 100
 			add_tech_bonus = {
 				bonus = 1
-				uses = 3
+				uses = 1
 				category = category_air
 			}
 		}
@@ -5011,7 +5017,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = category_air_skirmisher
 			}
 		}
@@ -5037,7 +5043,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = category_skycruiser
 			}
 		}
@@ -5063,7 +5069,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = category_airfrigate
 			}
 		}
@@ -5089,7 +5095,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = category_bombardier
 			}
 		}
@@ -5115,7 +5121,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = category_skycarrier
 			}
 		}
@@ -5238,7 +5244,7 @@ focus_tree = {
 			navy_experience = 100
 			add_tech_bonus = {
 				bonus = 1
-				uses = 3
+				uses = 1
 				category = naval_equipment
 			}
 		}
