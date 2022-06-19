@@ -1,0 +1,30 @@
+spriteTypes = {
+
+	# Portraits #
+	# If missing country specific portraits, the default will be used (without TAG at the front).
+	# If there is one that match the Ace name + surname, the one will be used.
+	# For example: GFX_POL_ace_Tomasz_Kowalczyk
+	# Else, the random from 0 and up will be used.
+	# Using _m_ and _f_ for male and female.
+
+	#####################################
+	######## Don't remove this ##########
+	#####################################
+	spriteType = {
+		name = "GFX_ace_none"
+		texturefile = "gfx/aces/ace_none.dds"
+	}
+	#####################################
+	#### No seriously - Leave it be! ####
+	#####################################
+
+	# Generics #
+	spriteType = {
+		name = "GFX_ace_m_0"
+		texturefile = "gfx/aces/ace_m_0.dds"
+	}
+	spriteType = {
+		name = "GFX_ace_f_0"
+		texturefile = "gfx/aces/ace_f_0.dds"
+	}
+}
