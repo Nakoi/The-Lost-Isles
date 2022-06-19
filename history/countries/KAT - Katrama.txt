@@ -13,13 +13,13 @@ navy_experience = 30
 air_experience = 30
 
 set_politics = {
-	ruling_party = ideology_imperialism
+	ruling_party = ideology_solidarism
 }
 
 set_popularities = {
-	ideology_imperialism = 50
+	ideology_solidarism = 50
 	ideology_militarism = 20
-	ideology_isolationism = 30
+	ideology_imperialism = 30
 }
 
 set_convoys = 10
