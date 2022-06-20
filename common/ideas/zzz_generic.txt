@@ -1221,3 +1221,40 @@ ideas = {
 				production_speed_dockyard_factor = 0.2
 			}
 		}
+		
+		genidea_army_raremetals  = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			research_bonus = {
+				tli_infantry = 0.10
+			}
+		}
+			
+		genidea_army_chemicals  = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+		}
+		
+		genidea_big_army = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				army_attack_factor = 0.15
+				army_morale_factor = 0.1
+			}
+		}
