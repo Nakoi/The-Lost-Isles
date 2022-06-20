@@ -5429,11 +5429,11 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_tenth_century_army
+		id = genfoc_eleventh_century_army
 		prerequisite = { focus = genfoc_industrial_revolution }
 		x = 22
 		y = 11
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -5442,16 +5442,25 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			army_experience = 50
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = tli_infantry
 			}
 		}
 	}
 	
 	focus = {
 		id = genfoc_modern_army_structure
-		prerequisite = { focus = genfoc_tenth_century_army }
+		prerequisite = { focus = genfoc_eleventh_century_army }
 		x = 22
 		y = 12
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -5461,15 +5470,22 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			has_army_manpower = {
+				size > 749999
+			}
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_big_army
 		}
 	}
 	
 	focus = {
 		id = genfoc_stockpile_rare_metals
-		prerequisite = { focus = genfoc_tenth_century_army }
+		prerequisite = { focus = genfoc_eleventh_century_army }
 		x = 19
 		y = 12
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -5479,6 +5495,15 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			has_resources_amount = {
+				resource = rare_metals
+				amount > 99
+				delivered = yes
+			}
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_army_raremetals
 		}
 	}
 	
@@ -5496,6 +5521,23 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_6
+				amount = 1000
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = tli_infantry
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_grenade
 			}
 		}
 	}
@@ -5516,6 +5558,18 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 1000
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_support_battalions
+			}
+		}
 	}
 	
 	focus = {
@@ -5532,6 +5586,18 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = machinegun_equipment_1
+				amount = 200
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_machinegun
 			}
 		}
 	}
@@ -5552,14 +5618,26 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 100
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_motoreq
+			}
+		}
 	}
 	
 	focus = {
 		id = genfoc_stockpile_chemicals
-		prerequisite = { focus = genfoc_tenth_century_army }
+		prerequisite = { focus = genfoc_eleventh_century_army }
 		x = 25
 		y = 12
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -5569,6 +5647,15 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			has_resources_amount = {
+				resource = chemicals
+				amount > 99
+				delivered = yes
+			}
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_army_raremetals
 		}
 	}
 	
@@ -5586,6 +5673,28 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = cannon_equipment_4
+				amount = 300
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = artillery_medium
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = artillery_light
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = artillery_siege
 			}
 		}
 	}
@@ -5606,6 +5715,14 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = racial
+			}
+		}
 	}
 	
 	focus = {
@@ -5622,6 +5739,28 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = howitzer_equipment_2
+				amount = 300
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = artillery_howitzer
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = artillery_rocket
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = artillery_antiair
 			}
 		}
 	}
