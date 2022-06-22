@@ -44,6 +44,7 @@ focus_tree = {
 		
 		available = {
 			NOT = {
+				is_subject = yes
 				has_war = yes
 				has_government = ideology_isolationism
 			}
@@ -73,6 +74,7 @@ focus_tree = {
 		
 		available = {
 			NOT = {
+				is_subject = yes
 				has_war = yes
 				has_government = ideology_isolationism
 				has_government = ideology_solidarism
@@ -103,6 +105,7 @@ focus_tree = {
 		
 		available = {
 			NOT = {
+				is_subject = yes
 				has_war = yes
 				has_government = ideology_isolationism
 				has_government = ideology_solidarism
