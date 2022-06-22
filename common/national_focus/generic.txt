@@ -5655,7 +5655,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = genidea_army_raremetals
+			add_ideas = genidea_army_chemicals
 		}
 	}
 	
@@ -5799,6 +5799,30 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	
 	focus = {
@@ -5815,6 +5839,33 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -5835,6 +5886,33 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	
 	focus = {
@@ -5851,6 +5929,33 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -5871,6 +5976,33 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	
 	focus = {
@@ -5879,7 +6011,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_build_civilian_factories_two }
 		x = 54
 		y = 14
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -5889,6 +6021,11 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			num_of_factories > 399
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_workshop_of_the_world
 		}
 	}
 	
@@ -5906,6 +6043,19 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialengi
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_logi
 			}
 		}
 	}
@@ -5926,6 +6076,15 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_ideas = genidea_i_fucking_love_science
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = science_chemistry
+			}
+		}
 	}
 	
 	focus = {
@@ -5933,7 +6092,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_scientific_advancements }
 		x = 51
 		y = 14
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -5943,6 +6102,11 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			num_of_factories > 199
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 	
@@ -5951,7 +6115,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_engineering_advancements }
 		x = 49
 		y = 13
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -5960,6 +6124,22 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+			has_resources_amount = {
+				resource = wheat
+				amount > 39
+				delivered = yes
+			}
+			synthetic_refinery > 19
+		}
+		
+		completion_reward = {
+			add_stability = 0.1
+			add_manpower = 25000
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialagri
 			}
 		}
 	}
@@ -5980,6 +6160,10 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_ideas = genidea_modern_agriculture
+		}
 	}
 	
 	focus = {
@@ -5998,6 +6182,10 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_ideas = genidea_i_fucking_love_trains
+		}
 	}
 	
 	focus = {
@@ -6005,7 +6193,7 @@ focus_tree = {
 		prerequisite = { focus = genfoc_build_railroads }
 		x = 57
 		y = 13
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -6015,6 +6203,17 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+			has_resources_amount = {
+				resource = luxuries
+				amount > 149
+				delivered = yes
+			}
+		}
+		
+		completion_reward = {
+			add_stability = 0.15
+			add_war_support = 0.15
+			add_political_power = 50
 		}
 	}
 	
@@ -6035,6 +6234,10 @@ focus_tree = {
 				has_idea = genidea_industrial_dev
 			}
 		}
+		
+		completion_reward = {
+			add_ideas = genidea_peaceful_and_prosperous
+		}
 	}
 	
 	focus = {
@@ -6051,6 +6254,15 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		completion_reward = {
+			add_political_power = 100
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialeco
 			}
 		}
 	}
@@ -6071,5 +6283,9 @@ focus_tree = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
 			}
+		}
+		
+		completion_reward = {
+			add_ideas = genidea_geared_for_war
 		}
 	}
