@@ -42,6 +42,74 @@ focus_tree = {
 			factor = 5
 		}
 		
+		available = {
+			NOT = {
+				has_war = yes
+				has_government = ideology_isolationism
+			}
+		}
+			
+		completion_reward = {
+			random_neighbor_country = {
+				FROM = {
+                    create_wargoal = {
+						target = PREV
+						type = annex_everything
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_aggressive_expansion
+		prerequisite = { focus = genfoc_on_the_warpath }
+		x = 8
+		y = 2
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			NOT = {
+				has_war = yes
+				has_government = ideology_isolationism
+				has_government = ideology_solidarism
+			}
+		}
+			
+		completion_reward = {
+			random_neighbor_country = {
+				FROM = {
+                    create_wargoal = {
+						target = PREV
+						type = annex_everything
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = genfoc_glorious_conquest
+		prerequisite = { focus = genfoc_aggressive_expansion }
+		x = 8
+		y = 3
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			NOT = {
+				has_war = yes
+				has_government = ideology_isolationism
+				has_government = ideology_solidarism
+				has_government = ideology_continuism
+			}
+		}
+			
 		completion_reward = {
 			random_neighbor_country = {
 				FROM = {
@@ -2859,6 +2927,42 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = genfoc_overlord_aid
+		prerequisite = { focus = genfoc_assemble_army }
+		x = 28
+		y = 3
+		cost = 30
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_primitive_dev
+				has_idea = genidea_primitive_dev
+			}
+		}
+		available = {
+			is_subject = yes
+		}
+		bypass = {
+			has_idea = genidea_civilised_dev
+		}
+		
+		completion_reward = {
+			add_manpower = 10000
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = infantry_civilizedeq
+			}
+			add_autonomy_score = {
+				value = -100
+			}
+		}
+	}
+	
+	focus = {
 		id = genfoc_subjugate_neighbors
 		prerequisite = { focus = genfoc_assemble_army }
 		x = 32
@@ -2891,7 +2995,7 @@ focus_tree = {
 		id = genfoc_gunpowder_era
 		prerequisite = { focus = genfoc_open_university }
 		prerequisite = { focus = genfoc_support_our_warriors focus = genfoc_create_doctrine }
-		prerequisite = { focus = genfoc_path_of_conquest focus = genfoc_subjugate_neighbors }
+		prerequisite = { focus = genfoc_path_of_conquest focus = genfoc_subjugate_neighbors focus = genfoc_overlord_aid }
 		x = 37
 		y = 4
 		cost = 15
@@ -4070,7 +4174,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = genidea_pride_of_army
+			add_ideas = genidea_pride_of_army_1
 		}
 	}
 	
@@ -5766,7 +5870,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_stationary_artillery_experiments
+		id = genfoc_special_forces_expansion
 		prerequisite = { focus = genfoc_experimental_artillery_development focus = genfoc_conventional_artillery_development }
 		x = 23
 		y = 14
@@ -5779,6 +5883,14 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+			has_completed_focus = genfoc_establish_special_forces
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = genidea_pride_of_army_2
+				remove_idea = genidea_pride_of_army_1
 			}
 		}
 	}
