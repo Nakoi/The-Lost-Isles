@@ -1258,3 +1258,83 @@ ideas = {
 				army_morale_factor = 0.1
 			}
 		}
+		
+		genidea_workshop_of_the_world = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
+				production_speed_buildings_factor = 0.25
+				production_factory_max_efficiency_factor = 0.25
+			}
+		}
+		
+		genidea_i_fucking_love_science = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				research_speed_factor = 0.15
+			}
+		}
+		
+		genidea_modern_agriculture = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				supply_consumption_factor = -0.25
+				monthly_population = 0.25
+			}
+		}
+		
+		genidea_i_fucking_love_trains = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_rail_way_factor = 0.25
+				production_speed_supply_node_factor = 1
+			}
+		}
+		
+		genidea_peaceful_and_prosperous = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				research_speed_factor = 0.10
+				production_speed_buildings_factor = 0.2
+			}
+		}
+		
+		genidea_geared_for_war = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				land_reinforce_rate = 0.05
+				no_supply_grace = 48
+				experience_loss_factor = 0.1
+			}
+		}
