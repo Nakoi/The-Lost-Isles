@@ -839,7 +839,7 @@ ideas = {
 			}
 		}
 		
-		genidea_pride_of_army = {
+		genidea_pride_of_army_1 = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -848,6 +848,19 @@ ideas = {
 			
 			modifier = {
 				special_forces_cap = 0.1
+			}		
+		}
+		
+		genidea_pride_of_army_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				special_forces_cap = 0.2
+				special_forces_no_supply_grace = 24
 			}		
 		}
 		
