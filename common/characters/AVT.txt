@@ -1,5 +1,5 @@
 characters={
-AVT_mare={
+    AVT_mare={
         name=AVT_mare_name
         portraits={
             civilian={
@@ -13,14 +13,14 @@ AVT_mare={
         }
     }
 
-AVT_General_1={
+    AVT_General_1={
         name=AVT_General_1_name
         portraits={
             army={
 		large="GFX/leaders/AVT/AVT_Army_leader_01.tga"
             }	
         }
-	field_marshal={
+        field_marshal={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -30,14 +30,14 @@ AVT_General_1={
         }
     }
 
-AVT_General_2={
+    AVT_General_2={
         name=AVT_General_2_name
         portraits={
             army={
                 large="GFX/leaders/AVT/AVT_Army_leader_02.tga"
             }
         }
-	corps_commander={
+        corps_commander={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -47,14 +47,14 @@ AVT_General_2={
         }
     }
 
-AVT_General_3={
+    AVT_General_3={
         name=AVT_General_3_name
         portraits={
             army={
                 large="GFX/leaders/AVT/AVT_Army_leader_03.tga"
             }
         }
-	corps_commander={
+        corps_commander={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -64,14 +64,14 @@ AVT_General_3={
         }
     }
 
-AVT_General_4={
+    AVT_General_4={
         name=AVT_General_4_name
         portraits={
             army={
                 large="GFX/leaders/AVT/AVT_Army_leader_04.tga"
             }
         }
-	corps_commander={
+        corps_commander={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -81,14 +81,14 @@ AVT_General_4={
         }
     }
 
-AVT_General_5={
+    AVT_General_5={
         name=AVT_General_5_name
         portraits={
             army={
                 large="GFX/leaders/AVT/AVT_Army_leader_05.tga"
             }
         }
-	corps_commander={
+	    corps_commander={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -98,14 +98,14 @@ AVT_General_5={
         }
     }
 
-AVT_General_6={
+    AVT_General_6={
         name=AVT_General_6_name
         portraits={
             army={
                 large="GFX/leaders/AVT/AVT_Army_leader_06.tga"
             }
         }
-	corps_commander={
+        corps_commander={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -115,14 +115,14 @@ AVT_General_6={
         }
     }
 
-AVT_General_7={
+    AVT_General_7={
         name=AVT_General_7_name
         portraits={
             army={
                 large="GFX/leaders/AVT/AVT_Army_leader_07.tga"
             }
         }
-	corps_commander={
+	    corps_commander={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -132,20 +132,40 @@ AVT_General_7={
         }
     }
 
-AVT_General_8={
+    AVT_General_8={
         name=AVT_General_8_name
         portraits={
             army={
                 large="GFX/leaders/AVT/AVT_Army_leader_08.tga"
             }
         }
-	corps_commander={
+	    corps_commander={
             traits = {}
             skill = 1
             attack_skill = 1
             defense_skill = 1
             planning_skill = 1
             logistics_skill = 1
+        }
+    }
+
+    AVT_advisor_1={
+        name=AVT_advisor_1_name
+        portraits={
+        
+        }
+        advisor={
+            slot = political_advisor
+            allowed = {
+                original_tag = AVT
+            }
+            traits = {
+                navy_chief_naval_aviation_2
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 50
+            }
         }
     }
 
