@@ -67,4 +67,21 @@ TYK_Army_leader_04={
         }
     }
 
+TYK_Army_leader_05={
+        name=TYK_Army_leader_05_name
+        portraits={
+            army={
+		large="GFX/leaders/TYK/Pony_Female_Savinki_Army_leader_05.tga"
+            }	
+        }
+	corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
 }
