@@ -3,19 +3,117 @@
 
 # Political advisors
 every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = AVT tag = OSK  } }
+	#limit = {
+		#NOT = { OR = { tag = AVT tag = OSK  } }
 		# avoid generic advisors in temporary countries
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		}
-	}
+		#is_dynamic_country = no
+		#NOT = {
+		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
+		#}
+	#}
 	generate_character = {
-		token_base = generic_communist_revolutionary # token will be TAG_token_base
+		token_base = advtrait_rural_aristocrat # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
-			traits = { navy_chief_naval_aviation_1 }
+			traits = { advtrait_rural_aristocrat }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_restless_warrior # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_restless_warrior }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_high_priest # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_high_priest }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_guild_master # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_guild_master }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_grand_architect # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_grand_architect }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_court_wizard # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_court_wizard }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_court_jester # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_court_jester }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_grand_inquisitor # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_grand_inquisitor }
 			ai_will_do = {
 				factor = 0
 			}
