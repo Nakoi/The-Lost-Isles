@@ -11,6 +11,7 @@ every_possible_country = {
 		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
 		#}
 	#}
+	
 	generate_character = {
 		token_base = advtrait_rural_aristocrat # token will be TAG_token_base
 		advisor = {
@@ -114,6 +115,230 @@ every_possible_country = {
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_grand_inquisitor }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_spymaster # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_spymaster }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_moderniser # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_moderniser }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_sneering_imperialist # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_sneering_imperialist }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_merchant_adventurer # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_merchant_adventurer }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_expert_diplomat # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_expert_diplomat }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_financial_expert # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_financial_expert }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_war_profiteer # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_war_profiteer }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_smooth_talking_charmer # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_smooth_talking_charmer }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_captain_of_industry# token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_captain_of_industry }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_war_industrialist # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_war_industrialist }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_brilliant_inventor # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_brilliant_inventor }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_rabid_nationalist # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_rabid_nationalist }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_expert_administrator # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_expert_administrator }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_ideological_crusader # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_ideological_crusader }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_state_sponsored_journalist # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_state_sponsored_journalist }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = advtrait_industry_reformer # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { advtrait_industry_reformer }
 			ai_will_do = {
 				factor = 0
 			}
