@@ -110,7 +110,184 @@ leader_traits = {
 		}
 	}
 	
-	###
+	### CIVILIZED TIER TRAITS ###
+	
+	advtrait_spymaster = {
+		sprite = 13
+		operative_slot = 2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_moderniser = {
+		sprite = 13
+		research_speed_factor = 0.05
+		production_speed_buildings_factor = 0.1
+		stability_weekly = -0.003
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_sneering_imperialist = {
+		sprite = 13
+		ideology_imperialism_drift = 0.02
+		non_core_manpower = 0.08
+		local_resources_factor = 0.15
+		resistance_growth = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_merchant_adventurer = {
+		sprite = 13
+		consumer_goods_factor = -0.03
+		political_power_cost = 0.2
+		min_export = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_expert_diplomat = {
+		sprite = 13
+		ideology_solidarism_drift = 0.02
+		opinion_gain_monthly_factor = 0.15
+		political_power_cost = -0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_financial_expert = {
+		sprite = 13
+		consumer_goods_factor = -0.05
+		production_factory_max_efficiency_factor = 0.05 
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_war_profiteer = {
+		sprite = 13
+		industrial_capacity_factory = 0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_speed_industrial_complex_factor = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_smooth_talking_charmer = {
+		sprite = 13
+		political_advisor_cost_factor = -0.1
+		trade_laws_cost_factor = -0.1
+		political_power_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### CIVILIZED TIER TRAITS ###
+	
+	advtrait_captain_of_industry = {
+		sprite = 13
+		political_power_cost = 0.2
+		production_speed_industrial_complex_factor = 0.2
+		production_speed_infrastructure_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_war_industrialist = {
+		sprite = 13
+		political_power_cost = 0.25
+		production_speed_arms_factory_factor = 0.25
+		production_speed_dockyard_factor = 0.2
+		ideology_militarism_drift = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_brilliant_inventor = {
+		sprite = 13
+		political_power_cost = 0.1
+		research_speed_factor = 0.08
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_rabid_nationalist = {
+		sprite = 13
+		war_support_weekly = 0.007
+		stability_weekly = -0.001
+		justify_war_goal_time = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_expert_administrator = {
+		sprite = 13
+		political_power_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_ideological_crusader = {
+		sprite = 13
+		conscription = 0.01
+		war_support_factor = 0.05
+		stability_factor = -0.1
+		ideology_visionarism_drift = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_state_sponsored_journalist = {
+		sprite = 13
+		drift_defence_factor = 0.5
+		political_power_factor = 0.1
+		stability_weekly = 0.004
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advtrait_industry_reformer = {
+		sprite = 13
+		production_speed_buildings_factor = 0.1
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### THEORISTS ###
 	
 	military_theorist = {
 		sprite = 14	
