@@ -3,14 +3,18 @@
 
 # Political advisors
 every_possible_country = {
-	#limit = {
+	limit = {
+		NOT = {
+			has_idea = genidea_civilised_dev
+			has_idea = genidea_industrial_dev
+		}
 		#NOT = { OR = { tag = AVT tag = OSK  } }
 		# avoid generic advisors in temporary countries
 		#is_dynamic_country = no
 		#NOT = {
 		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
 		#}
-	#}
+	}
 	
 	generate_character = {
 		token_base = advtrait_rural_aristocrat # token will be TAG_token_base
@@ -123,6 +127,21 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_communist_revolutionary }
 		}
 	}
+}
+	
+every_possible_country = {
+	limit = {
+		NOT = {
+			has_idea = genidea_primitive_dev
+			has_idea = genidea_industrial_dev
+		}
+		#NOT = { OR = { tag = AVT tag = OSK  } }
+		# avoid generic advisors in temporary countries
+		#is_dynamic_country = no
+		#NOT = {
+		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
+		#}
+	}
 	
 	generate_character = {
 		token_base = advtrait_spymaster # token will be TAG_token_base
@@ -234,6 +253,21 @@ every_possible_country = {
 		portraits = { 
 			army = { small = GFX_idea_generic_communist_revolutionary }
 		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		NOT = {
+			has_idea = genidea_primitive_dev
+			has_idea = genidea_civilised_dev
+		}
+		#NOT = { OR = { tag = AVT tag = OSK  } }
+		# avoid generic advisors in temporary countries
+		#is_dynamic_country = no
+		#NOT = {
+		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
+		#}
 	}
 	
 	generate_character = {
