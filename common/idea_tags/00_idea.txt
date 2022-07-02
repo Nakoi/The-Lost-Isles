@@ -51,9 +51,9 @@ idea_categories = {
 	}
 	
 	research_production = {
-		slot = tank_manufacturer
+		slot = cannon_manufacturer
 		slot = naval_manufacturer
-		slot = aircraft_manufacturer
+		slot = airship_manufacturer
 		slot = materiel_manufacturer
 		slot = industrial_concern
 		character_slot = theorist
