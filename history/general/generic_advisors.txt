@@ -18,7 +18,11 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_rural_aristocrat }
 			available = {
-				has_idea = genidea_primitive_dev
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -35,7 +39,11 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_restless_warrior }
 			available = {
-				has_idea = genidea_primitive_dev
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -52,7 +60,11 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_high_priest }
 			available = {
-				has_idea = genidea_primitive_dev
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -69,7 +81,11 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_guild_master }
 			available = {
-				has_idea = genidea_primitive_dev
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -86,7 +102,11 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_grand_architect }
 			available = {
-				has_idea = genidea_primitive_dev
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -103,7 +123,11 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_court_wizard }
 			available = {
-				has_idea = genidea_primitive_dev
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -120,7 +144,11 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_court_jester }
 			available = {
-				has_idea = genidea_primitive_dev
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -137,7 +165,11 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_grand_inquisitor }
 			available = {
-				has_idea = genidea_primitive_dev
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -165,7 +197,10 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_spymaster }
 			available = {
-				has_idea = genidea_civilised_dev
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -182,7 +217,10 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_moderniser }
 			available = {
-				has_idea = genidea_civilised_dev
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -199,7 +237,10 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_sneering_imperialist }
 			available = {
-				has_idea = genidea_civilised_dev
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -216,7 +257,10 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_merchant_adventurer }
 			available = {
-				has_idea = genidea_civilised_dev
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -233,7 +277,10 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_expert_diplomat }
 			available = {
-				has_idea = genidea_civilised_dev
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -250,7 +297,10 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_financial_expert }
 			available = {
-				has_idea = genidea_civilised_dev
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -267,7 +317,10 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_war_profiteer }
 			available = {
-				has_idea = genidea_civilised_dev
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -284,7 +337,10 @@ every_possible_country = {
 			slot = political_advisor
 			traits = { advtrait_smooth_talking_charmer }
 			available = {
-				has_idea = genidea_civilised_dev
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
 			}
 			ai_will_do = {
 				factor = 0
