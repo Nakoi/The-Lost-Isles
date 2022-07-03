@@ -58,8 +58,6 @@
  recruit_selectivecon:0 "Selective Conscription"
  recruit_universalcon:0 "Universal Conscription"
  recruit_masscon:0 "Mass Conscription"
- 
- 
 
 ###GENERIC IDEOLOGY FOCUS###
  genfoc_defining_our_future:0 "Defining our Future"
@@ -563,6 +561,16 @@
  genidea_i_fucking_love_trains:0 "Railway Expansion"
  genidea_peaceful_and_prosperous:0 "Peaceful and Prosperous"
  genidea_geared_for_war:0 "Geared for War"
+ 
+###GENERIC DESIGNER COMPANIES###
+ designer_artillery_primitive:0 "Siege Engineers' Guild"
+ designer_norm_artillery_civilised:0 "Cannon Design Commission"
+ designer_exp_artillery_civilised:0 "Experimental Artillery Design Commission"
+ designer_siege_artillery_civilised:0 "Siege Artillery Design Commission"
+ designer_norm_artillery_industrial:0 "Cannon Design Company"
+ designer_exp_artillery_industrial:0 "Experimental Artillery Design Company"
+ designer_siege_artillery_industrial:0 "Siege Artillery Design Company"
+ designer_aa_artillery_industrial:0 "Anti-Air Artillery Design Company"
  
 ###GENERIC TOOLTIPS###
  gentext_firewire_pls:0 "firewire pls help :("
