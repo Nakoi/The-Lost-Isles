@@ -589,6 +589,7 @@
  advtrait_industry_reformer:0 "Industry Reformer"
  
 ###GENERIC DESIGNER COMPANIES###
+ cannon_manufacturer:0 "Cannon Designer"
  designer_artillery_primitive:0 "Siege Engineers' Guild"
  designer_norm_artillery_civilised:0 "Cannon Design Commission"
  designer_exp_artillery_civilised:0 "Experimental Artillery Design Commission"
@@ -597,6 +598,15 @@
  designer_exp_artillery_industrial:0 "Experimental Artillery Design Company"
  designer_siege_artillery_industrial:0 "Siege Artillery Design Company"
  designer_aa_artillery_industrial:0 "Anti-Air Artillery Design Company"
+ 
+ designer_navy_primitive:0 "Shipwrights' Guild"
+ designer_coast_navy_civilised:0 "Coastal Defense Design Commission"
+ designer_big_navy_civilised:0 "High Seas Fleet Design Commission"
+ designer_stronk_navy_civilised:0 "Battlefleet Design Commission"
+ designer_engine_navy_industrial:0 "Naval Engine Design Company"
+ designer_armor_navy_industrial:0 "Naval Armor Design Company"
+ designer_torpedo_navy_industrial:0 "Torpedo Design Company"
+ designer_aa_navy_industrial:0 "Naval Air Defence Design Company"
  
 ###GENERIC TOOLTIPS###
  gentext_firewire_pls:0 "firewire pls help :("
