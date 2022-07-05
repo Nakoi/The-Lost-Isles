@@ -5030,7 +5030,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_airfield_expansion
 		prerequisite = { focus = genfoc_new_age_air_warfare }
-		x = 28
+		x = 29
 		y = 12
 		cost = 5
 		ai_will_do = {
@@ -5050,35 +5050,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_stockpile_crystals
-		prerequisite = { focus = genfoc_new_age_air_warfare }
-		x = 30
-		y = 12
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = gentext_industrial_dev
-				has_idea = genidea_industrial_dev
-			}
-			has_resources_amount = {
-				resource = crystals
-				amount > 99
-				delivered = yes
-			}
-		}
-		
-		completion_reward = {
-			add_ideas = genidea_airship_crystals
-		}
-	}
-	
-	focus = {
 		id = genfoc_airship_theoretical_development
-		prerequisite = { focus = genfoc_airfield_expansion focus = genfoc_stockpile_crystals }
+		prerequisite = { focus = genfoc_airfield_expansion }
 		x = 29
 		y = 13
 		cost = 10
@@ -5106,7 +5079,7 @@ focus_tree = {
 	
 	focus = {
 		id = genfoc_aerial_swarm_tactic
-		prerequisite = { focus = genfoc_airfield_expansion focus = genfoc_stockpile_crystals }
+		prerequisite = { focus = genfoc_airfield_expansion }
 		x = 27
 		y = 13
 		cost = 10
@@ -5132,7 +5105,7 @@ focus_tree = {
 	
 	focus = {
 		id = genfoc_pride_of_air_fleet
-		prerequisite = { focus = genfoc_airfield_expansion focus = genfoc_stockpile_crystals }
+		prerequisite = { focus = genfoc_airfield_expansion }
 		x = 31
 		y = 13
 		cost = 10
@@ -5264,7 +5237,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_port_expansion
 		prerequisite = { focus = genfoc_new_age_naval_warfare }
-		x = 44
+		x = 45
 		y = 12
 		cost = 5
 		ai_will_do = {
@@ -5284,55 +5257,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_stockpile_steel
-		prerequisite = { focus = genfoc_new_age_naval_warfare }
-		x = 46
-		y = 12
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = gentext_industrial_dev
-				has_idea = genidea_industrial_dev
-			}
-			has_resources_amount = {
-				resource = iron
-				amount > 74
-				delivered = yes
-			}
-			has_resources_amount = {
-				resource = coal
-				amount > 74
-				delivered = yes
-			}
-		}
-		
-		completion_reward = {
-			random_owned_controlled_state = {	
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = dockyard
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {	
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = dockyard
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	
-	focus = {
 		id = genfoc_navy_theoretical_development
-		prerequisite = { focus = genfoc_port_expansion focus = genfoc_stockpile_steel }
+		prerequisite = { focus = genfoc_port_expansion }
 		x = 45
 		y = 13
 		cost = 10
@@ -5390,7 +5316,7 @@ focus_tree = {
 	
 	focus = {
 		id = genfoc_expand_merchant_fleet
-		prerequisite = { focus = genfoc_port_expansion focus = genfoc_stockpile_steel }
+		prerequisite = { focus = genfoc_port_expansion }
 		x = 43
 		y = 13
 		cost = 10
@@ -5447,7 +5373,7 @@ focus_tree = {
 	
 	focus = {
 		id = genfoc_dockyard_expansion
-		prerequisite = { focus = genfoc_stockpile_steel focus = genfoc_port_expansion }
+		prerequisite = { focus = genfoc_port_expansion }
 		x = 47
 		y = 13
 		cost = 10
@@ -5588,35 +5514,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_stockpile_rare_metals
-		prerequisite = { focus = genfoc_eleventh_century_army }
-		x = 19
-		y = 12
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = gentext_industrial_dev
-				has_idea = genidea_industrial_dev
-			}
-			has_resources_amount = {
-				resource = rare_metals
-				amount > 99
-				delivered = yes
-			}
-		}
-		
-		completion_reward = {
-			add_ideas = genidea_army_raremetals
-		}
-	}
-	
-	focus = {
 		id = genfoc_rifle_modernisation
-		prerequisite = { focus = genfoc_stockpile_rare_metals }
+		prerequisite = { focus = genfoc_eleventh_century_army }
 		x = 19
 		y = 13
 		cost = 10
@@ -5681,7 +5580,7 @@ focus_tree = {
 	
 	focus = {
 		id = genfoc_machine_gun_development
-		prerequisite = { focus = genfoc_stockpile_rare_metals }
+		prerequisite = { focus = genfoc_eleventh_century_army }
 		x = 21
 		y = 13
 		cost = 10
@@ -5740,35 +5639,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_stockpile_chemicals
-		prerequisite = { focus = genfoc_eleventh_century_army }
-		x = 25
-		y = 12
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = gentext_industrial_dev
-				has_idea = genidea_industrial_dev
-			}
-			has_resources_amount = {
-				resource = chemicals
-				amount > 99
-				delivered = yes
-			}
-		}
-		
-		completion_reward = {
-			add_ideas = genidea_army_chemicals
-		}
-	}
-	
-	focus = {
 		id = genfoc_conventional_artillery_development
-		prerequisite = { focus = genfoc_stockpile_chemicals }
+		prerequisite = { focus = genfoc_eleventh_century_army }
 		x = 25
 		y = 13
 		cost = 10
@@ -5834,7 +5706,7 @@ focus_tree = {
 	
 	focus = {
 		id = genfoc_experimental_artillery_development
-		prerequisite = { focus = genfoc_stockpile_chemicals }
+		prerequisite = { focus = genfoc_eleventh_century_army }
 		x = 23
 		y = 13
 		cost = 10
@@ -6178,7 +6050,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_scientific_advancements
 		prerequisite = { focus = genfoc_engineering_advancements }
-		x = 51
+		x = 50
 		y = 13
 		cost = 10
 		ai_will_do = {
@@ -6226,42 +6098,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_bountiful_harvest
-		prerequisite = { focus = genfoc_engineering_advancements }
-		x = 49
-		y = 13
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = gentext_industrial_dev
-				has_idea = genidea_industrial_dev
-			}
-			has_resources_amount = {
-				resource = wheat
-				amount > 39
-				delivered = yes
-			}
-			synthetic_refinery > 19
-		}
-		
-		completion_reward = {
-			add_stability = 0.1
-			add_manpower = 25000
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = industry_industrialagri
-			}
-		}
-	}
-	
-	focus = {
 		id = genfoc_invest_in_agriculture
-		prerequisite = { focus = genfoc_bountiful_harvest }
+		prerequisite = { focus = genfoc_scientific_advancements }
 		x = 49
 		y = 14
 		cost = 10
@@ -6304,37 +6142,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = genfoc_produce_luxury_goods
-		prerequisite = { focus = genfoc_build_railroads }
-		x = 57
-		y = 13
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = gentext_industrial_dev
-				has_idea = genidea_industrial_dev
-			}
-			has_resources_amount = {
-				resource = luxuries
-				amount > 149
-				delivered = yes
-			}
-		}
-		
-		completion_reward = {
-			add_stability = 0.15
-			add_war_support = 0.15
-			add_political_power = 50
-		}
-	}
-	
-	focus = {
 		id = genfoc_peaceful_and_prosperous
-		prerequisite = { focus = genfoc_produce_luxury_goods }
+		prerequisite = { focus = genfoc_modernise_the_financial_system }
 		mutually_exclusive = { focus = genfoc_geared_for_war }
 		x = 57
 		y = 14
@@ -6358,7 +6167,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_modernise_the_financial_system
 		prerequisite = { focus = genfoc_build_railroads }
-		x = 59
+		x = 58
 		y = 13
 		cost = 10
 		ai_will_do = {
