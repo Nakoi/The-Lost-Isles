@@ -1598,16 +1598,16 @@ ideas = {
 			}
 			
 			equipment_bonus = {
-				dd_tech = {
+				xebec_tech = {
 					build_cost_ic = -0.1
 				}
-				cl_tech = {
+				light_ship_tech = {
 					build_cost_ic = -0.1
 				}
-				ca_tech = {
+				medium_ship_tech = {
 					build_cost_ic = -0.1
 				}
-				bb_tech = {
+				heavy_ship_tech = {
 					build_cost_ic = -0.1
 				}
 			}
@@ -1632,13 +1632,13 @@ ideas = {
 			}
 			
 			equipment_bonus = {
-				dd_tech = {
+				xebec_tech = {
 					build_cost_ic = -0.3
 					naval_range = -0.5
 					surface_detection = 0.2
 					sub_detection = 0.2
 				}
-				cl_tech = {
+				light_ship_tech = {
 					build_cost_ic = -0.3
 					naval_range = -0.5
 					surface_detection = 0.2
@@ -1666,7 +1666,7 @@ ideas = {
 			}
 			
 			equipment_bonus = {
-				ca_tech = {
+				medium_ship_tech = {
 					build_cost_ic = -0.1
 					naval_range = 0.25
 					naval_speed = 0.15
@@ -1674,7 +1674,7 @@ ideas = {
 					lg_attack = -0.05
 					hg_attack = -0.05
 				}
-				bb_tech = {
+				heavy_ship_tech = {
 					build_cost_ic = -0.1
 					naval_range = 0.25
 					naval_speed = 0.15
@@ -1704,23 +1704,23 @@ ideas = {
 			}
 			
 			equipment_bonus = {
-				dd_tech = {
+				xebec_tech = {
 					build_cost_ic = 0.15
 					surface_detection = -0.25
 					lg_attack = 0.2
 				}
-				cl_tech = {
+				light_ship_tech = {
 					build_cost_ic = 0.15
 					surface_detection = -0.25
 					lg_attack = 0.2
 				}
-				ca_tech = {
+				medium_ship_tech = {
 					build_cost_ic = 0.15
 					surface_detection = -0.25
 					armor_value = 0.1
 					hg_attack = 0.15
 				}
-				bb_tech = {
+				heavy_ship_tech = {
 					build_cost_ic = 0.15
 					surface_detection = -0.25
 					armor_value = 0.1
@@ -1745,22 +1745,22 @@ ideas = {
 			}
 			
 			equipment_bonus = {
-				dd_tech = {
+				xebec_tech = {
 					build_cost_ic = 0.1
 					naval_range = 0.25
 					naval_speed = 0.15
 				}
-				cl_tech = {
+				light_ship_tech = {
 					build_cost_ic = 0.1
 					naval_range = 0.25
 					naval_speed = 0.15
 				}
-				ca_tech = {
+				medium_ship_tech = {
 					build_cost_ic = 0.1
 					naval_range = 0.25
 					naval_speed = 0.15
 				}
-				bb_tech = {
+				heavy_ship_tech = {
 					build_cost_ic = 0.1
 					naval_range = 0.25
 					naval_speed = 0.15
@@ -1784,12 +1784,12 @@ ideas = {
 			}
 			
 			equipment_bonus = {
-				ca_tech = {
+				medium_ship_tech = {
 					build_cost_ic = 0.1
 					armor_value = 0.25
 					max_strength = 0.1
 				}
-				bb_tech = {
+				heavy_ship_tech = {
 					build_cost_ic = 0.1
 					armor_value = 0.25
 					max_strength = 0.1
@@ -1813,19 +1813,19 @@ ideas = {
 			}
 			
 			equipment_bonus = {
-				dd_tech = {
+				xebec_tech = {
 					build_cost_ic = 0.05
 					torpedo_attack = 0.75
 				}
-				cl_tech = {
+				light_ship_tech = {
 					build_cost_ic = 0.05
 					torpedo_attack = 0.75
 				}
-				ca_tech = {
+				medium_ship_tech = {
 					build_cost_ic = 0.05
 					torpedo_attack = 0.75
 				}
-				bb_tech = {
+				heavy_ship_tech = {
 					build_cost_ic = 0.05
 					torpedo_attack = 0.75
 				}
@@ -1848,19 +1848,19 @@ ideas = {
 			}
 			
 			equipment_bonus = {
-				dd_tech = {
+				xebec_tech = {
 					build_cost_ic = 0.05
 					anti_air_attack = 0.35
 				}
-				cl_tech = {
+				light_ship_tech = {
 					build_cost_ic = 0.05
 					anti_air_attack = 0.35
 				}
-				ca_tech = {
+				medium_ship_tech = {
 					build_cost_ic = 0.05
 					anti_air_attack = 0.35
 				}
-				bb_tech = {
+				heavy_ship_tech = {
 					build_cost_ic = 0.05
 					anti_air_attack = 0.35
 				}
