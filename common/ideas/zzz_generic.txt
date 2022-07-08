@@ -2171,6 +2171,13 @@ ideas = {
 			research_bonus = {
 				infantry_armorcat = 0.15
 			}
+			
+			equipment_bonus = {
+				infantry_weapons = {
+					armor_value = 1
+					defense = 0.2
+				}
+			}
 		}
 		
 		designer_supporteq_civilised = {
@@ -2265,3 +2272,4 @@ ideas = {
 				}
 			}
 		}
+	}
