@@ -2273,3 +2273,173 @@ ideas = {
 			}
 		}
 	}
+	
+	industrial_concern = { 
+	
+		designer = yes
+	
+		designer_construction_primitive = {
+			
+			picture = no
+
+			available = {
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry_primitiveconstr = 0.15
+				industry_fort = 0.15
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		
+		designer_extraction_civilised = {
+			
+			picture = no
+
+			available = {
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry_civilizedtools = 0.15
+			}
+			
+			modifier = {
+				local_resources_factor = 0.2
+			}
+		}
+		
+		designer_agriculture_civilised = {
+			
+			picture = no
+
+			available = {
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry_civilizedagri = 0.15
+			}
+			
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.25
+				production_speed_fuel_silo_factor = 0.25
+				monthly_population_factor = 0.15
+			}
+		}
+		
+		designer_finance_civilised = {
+			
+			picture = no
+
+			available = {
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry_civilizedeco = 0.15
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				min_export = -0.1
+			}
+		}
+		
+		designer_trains_industrial = {
+			
+			picture = no
+
+			available = {
+				has_idea = genidea_industrial_dev
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry_logi = 0.25
+			}
+			
+			modifier = {
+				production_speed_rail_way_factor = 0.35
+				production_speed_infrastructure_factor = 0.35
+			}
+		}
+		
+		designer_science_industrial = {
+			
+			picture = no
+
+			available = {
+				has_idea = genidea_industrial_dev
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			
+			modifier = {
+				research_speed_factor = 0.15
+			}
+		}
+		
+		designer_engine_industrial = {
+			
+			picture = no
+
+			available = {
+				has_idea = genidea_industrial_dev
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			equipment_bonus = {
+				infantry_motoreq = {
+					build_cost_ic = -0.1
+				}
+				category_bombardier = {
+					build_cost_ic = -0.1
+				}
+				category_airfrigate = {
+					build_cost_ic = -0.1
+				}
+				category_skycarrier = {
+					build_cost_ic = -0.1
+				}
+				category_skycruiser = {
+					build_cost_ic = -0.1
+				}
+			}
+		}
+	}
