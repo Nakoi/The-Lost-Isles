@@ -3229,12 +3229,12 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
-				category = dd_tech
+				category = xebec_tech
 			}
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
-				category = cl_tech
+				category = light_ship_tech
 			}
 		}
 	}
@@ -3263,12 +3263,12 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
-				category = ca_tech
+				category = medium_ship_tech
 			}
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
-				category = bb_tech
+				category = heavy_ship_tech
 			}
 		}
 	}
@@ -5304,12 +5304,12 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1
 				uses = 1
-				category = ca_tech
+				category = medium_ship_tech
 			}
 			add_tech_bonus = {
 				bonus = 1
 				uses = 1
-				category = bb_tech
+				category = heavy_ship_tech
 			}
 		}
 	}
@@ -5361,12 +5361,12 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1
 				uses = 1
-				category = dd_tech
+				category = xebec_tech
 			}
 			add_tech_bonus = {
 				bonus = 1
 				uses = 1
-				category = cl_tech
+				category = light_ship_tech
 			}
 		}
 	}
