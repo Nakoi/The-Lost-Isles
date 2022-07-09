@@ -291,6 +291,19 @@ technologies = {
 
 	at_home_in_mountains = {
 
+		ranged_militia = {
+
+			hills = {
+				attack = 0.25
+				defence = 0.25
+				movement = 0.25
+			}
+			mountain = {
+				attack = 0.25
+				defence = 0.25
+				movement = 0.25
+			}
+		}
 
 
 		dependencies = {
@@ -429,6 +442,10 @@ technologies = {
 
 	deer_highlanders = {
 
+		enable_subunits = {
+			highlanders
+		}
+
 		dependencies = {
 		}	
 
@@ -455,6 +472,12 @@ technologies = {
 
 	deer_field_recon= {
 
+		category_highlanders = {
+			recon = 2
+			initiative = 0.15
+			maximum_speed = 0.10
+		}
+
 		dependencies = {
 		}	
 
@@ -480,6 +503,24 @@ technologies = {
 	}
 
 	advanced_mountain_gear= {
+
+		category_highlanders = {
+			supply_consumption_factor = 0.05
+			max_organisation = 10
+		}
+
+		highlanders = {
+			hills = {
+				attack = 0.15
+				defence = 0.15
+				movement = 0.15
+			}
+			mountain = {
+				attack = 0.15
+				defence = 0.15
+				movement = 0.25
+			}
+		}
 
 		dependencies = {
 		}	
@@ -512,6 +553,22 @@ technologies = {
 
 	heirs_of_jaris= {
 
+		category_highlanders = {
+			defense = 0.10
+		}
+
+		highlanders = {
+			river = {
+				attack = 0.20
+				defence = 0.10
+				movement = 0.20
+			}
+			amphibious = {
+				attack = 0.20
+				defence = 0.10
+			}
+		}
+
 		dependencies = {
 		}	
 
@@ -537,6 +594,12 @@ technologies = {
 	}
 
 	demolitions_training= {
+
+		category_highlanders = {
+			hard_attack = 0.25
+			ap_attack = 0.3
+			supply_consumption_factor = 0.05
+		}
 
 		dependencies = {
 		}	
