@@ -1,0 +1,126 @@
+propaganda_efforts = {
+	
+
+    	war_propaganda = {
+
+        	icon = generic_prepare_civil_war
+
+        	available = {
+            	NOT = { has_country_flag = war_propaganda_campaign_running }
+            	threat > 0.5
+            	has_war_support < 0.5
+            	has_offensive_war = no
+            	if = {
+                	limit = {
+                    	tag = SPR
+                    	has_dlc = "La Resistance"
+                	}
+                	NOT = {
+                    	has_idea = SPR_political_violence
+                	}
+            	}
+            	if = {
+                	limit = {
+                    	original_tag = SPR
+                    	has_dlc = "La Resistance"
+                	}
+                	has_global_flag = scw_over
+            }
+        
+
+        	visible = {
+
+        	}
+
+        	fire_only_once = no
+
+        	days_remove = 90
+        	days_re_enable = 180
+
+        	cost = 150
+
+        	modifier = {
+            	war_support_weekly = 0.01
+        	}
+
+        	complete_effect = {
+            	set_country_flag = war_propaganda_campaign_running
+        	}
+        	remove_effect = {
+            	clr_country_flag = war_propaganda_campaign_running
+        	}
+
+        	ai_will_do = {
+            	base = 0
+            	modifier = {
+                	add = 1
+                	has_war_support < 0.4
+                	has_war = yes
+            	}
+        	}
+    	}
+	}
+}
+gendecision_arms_trade = {
+	
+	gendecision_buy_infeq = {
+		available = {
+			has_equipment = {
+				convoy > 5
+			}
+			any_owned_state = {
+				has_resources_amount = { resource = luxuries amount > 1 }	
+			}
+		}
+
+		random_owned_controlled_state = {
+    		limit = {
+        		has_resources_amount = {
+        			resource = luxuries
+        			amount > 1
+				}
+        	}
+		}
+
+		visible = {
+    		always = yes
+		}
+
+  		fire_only_once = no
+
+		days_remove = 120
+		days_re_enable = 60
+
+		#modifier = {
+		#	country_resource_luxuries = -2	
+		#}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = -6
+			}
+
+			any_owned_state = {
+				limit = {
+					has_resources_amount = { resource = luxuries amount > 1 }	
+				}	
+				add_dynamic_modifier = { 
+					modifier = genmod_two_luxury_purchase
+					days = 120 
+				}
+			}
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_3
+				amount = 2500
+			}
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 6
+			}
+		}
+	}
+}
+}
