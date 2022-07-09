@@ -100,16 +100,8 @@ gendecision_arms_trade = {
 				type = convoy
 				amount = -6
 			}
-
-			any_owned_state = {
-				limit = {
-					has_resources_amount = { resource = luxuries amount > 1 }	
-				}	
-				add_dynamic_modifier = { 
-					modifier = genmod_two_luxury_purchase
-					days = 120 
-				}
-			}
+		TLI_luxuries_8 = yes
+			
 		}
 		remove_effect = {
 			add_equipment_to_stockpile = {
@@ -120,6 +112,7 @@ gendecision_arms_trade = {
 				type = convoy
 				amount = 6
 			}
+			TLI_luxuries_8_remove = yes
 		}
 	}
 }

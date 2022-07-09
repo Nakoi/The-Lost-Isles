@@ -1,0 +1,3057 @@
+#Made by Firewire
+#Do not touch without permission, or you will get a keyboard to your face!
+#To-Do: Luxuries 16 & 32
+
+TLI_luxuries_test = {
+	if = {
+		limit = {
+			450 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+			}
+		}
+		450 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -2
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_test_450
+        	}
+    	}	
+	}
+}
+
+TLI_luxuries_test_remove = {
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_test_450
+			}
+		}
+		450 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 2
+        	}
+        	clr_country_flag = TLI_luxuries_test_450
+    	}	
+	}
+}
+
+TLI_luxuries_8 = {
+	if = {
+		limit = {
+			1 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+
+		}
+		1 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_1
+        	}
+    	}	
+	}
+	else_if ={
+		limit = {
+			2 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		2 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_2
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			16 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		16 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_16
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			17 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		17 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_17
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			20 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		20 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_20
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			28 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		28 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_28
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			40 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		40 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_40
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			41 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		41 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_41
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			53 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		53 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_53
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			65 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		65 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_65
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			67 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		67 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_67
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			70 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		70 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_70
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			85 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		85 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_85
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			132 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		132 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_132
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			145 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		145 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_145
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			148 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		148 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_148
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			150 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		150 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_150
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			152 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		152 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_152
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			155 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		155 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_155
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			158 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		158 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_158
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			163 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		163 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_163
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			166 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		166 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_166
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			184 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		184 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_184
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			185 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		185 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_185
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			187 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		187 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_187
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			192 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		192 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_192
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			200 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		200 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_200
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			201 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		201 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_201
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			202 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		202 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_202
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			203 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		203 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_203
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			205 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		205 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_205
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			206 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		206 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_206
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			221 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		221 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_221
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			234 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		234 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_234
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			235 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		235 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_235
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			236 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		236 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_236
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			241 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		241 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_241
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			243 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		243 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_243
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			246 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		246 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_246
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			250 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		250 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_250
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			251 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		251 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_251
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			252 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		252 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_252
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			253 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		253 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_253
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			256 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		256 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_256
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			258 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		258 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_258
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			260 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		260 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_260
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			271 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		271 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_271
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			325 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		325 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_325
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			331 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		331 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_331
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			389 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		389 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_389
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			421 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		421 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_421
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			445 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		445 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_445
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			447 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		447 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_447
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			450 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		450 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_450
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			454 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		454 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_454
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			459 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		459 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_459
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			485 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		485 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_485
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			489 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		489 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_489
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			491 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		491 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_491
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			492 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		492 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_492
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			493 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		493 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_493
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			498 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		498 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_498
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			499 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		499 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_499
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			557 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		557 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_557
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			559 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		559 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_559
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			564 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		564 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_564
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			576 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		576 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_576
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			577 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		577 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_577
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			589 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		589 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_589
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			592 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		592 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_592
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			623 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		623 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_623
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			680 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		680 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_680
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			684 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		684 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_684
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			728 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		728 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_728
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			772 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		772 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_772
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			796 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		796 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_796
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			797 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		797 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_797
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			802 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		802 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_802
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			859 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		859 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_859
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			866 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		866 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_866
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			871 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		871 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_871
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			897 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		897 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_897
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			898 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		898 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_898
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			899 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		899 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_899
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			922 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		922 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_922
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			937 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		937 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_937
+        	}
+    	}
+	}
+	else_if ={
+		limit = {
+			938 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		938 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_938
+        	}
+    	}
+	}
+	else ={
+		limit = {
+			946 = {
+				has_resources_amount = {
+       				resource = luxuries
+        			amount > 1
+        		}
+        		is_owned_by	= ROOT
+			}
+		}
+		946 = {
+			add_resource = {
+        		type = luxuries
+        		amount = -8
+        	}
+        	ROOT = {
+        		set_country_flag = TLI_luxuries_8_946
+        	}
+    	}
+	}
+}
+
+TLI_luxuries_8_remove = {
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_1
+			}
+		}
+		1 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_1
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_1
+			}
+		}
+		1 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_1
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_2
+			}
+		}
+		2 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_2
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_16
+			}
+		}
+		16 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_16
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_17
+			}
+		}
+		17 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_17
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_20
+			}
+		}
+		20 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_20
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_28
+			}
+		}
+		28 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_28
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_40
+			}
+		}
+		40 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_40
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_41
+			}
+		}
+		41 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_41
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_53
+			}
+		}
+		53 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_53
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_65
+			}
+		}
+		65 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_65
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_67
+			}
+		}
+		67 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_67
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_70
+			}
+		}
+		70 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_70
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_85
+			}
+		}
+		85 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_85
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_132
+			}
+		}
+		132 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_132
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_145
+			}
+		}
+		145 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_145
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_148
+			}
+		}
+		148 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_148
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_150
+			}
+		}
+		150 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_150
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_152
+			}
+		}
+		152 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_152
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_155
+			}
+		}
+		155 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_155
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_158
+			}
+		}
+		158 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_158
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_163
+			}
+		}
+		163 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_163
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_166
+			}
+		}
+		166 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_166
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_184
+			}
+		}
+		184 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_184
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_185
+			}
+		}
+		185 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_185
+    	}
+    }
+    else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_187
+			}
+		}
+		187 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_187
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_192
+			}
+		}
+		192 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_192
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_200
+			}
+		}
+		200 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_200
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_201
+			}
+		}
+		201 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_201
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_202
+			}
+		}
+		202 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_202
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_203
+			}
+		}
+		203 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_203
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_205
+			}
+		}
+		205 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_205
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_206
+			}
+		}
+		206 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_206
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_221
+			}
+		}
+		221 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_221
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_234
+			}
+		}
+		234 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_234
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_235
+			}
+		}
+		235 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_235
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_236
+			}
+		}
+		236 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_236
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_241
+			}
+		}
+		241 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_241
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_243
+			}
+		}
+		243 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_243
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_246
+			}
+		}
+		246 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_246
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_250
+			}
+		}
+		250 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_250
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_251
+			}
+		}
+		251 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_251
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_252
+			}
+		}
+		252 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_252
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_253
+			}
+		}
+		253 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_253
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_256
+			}
+		}
+		256 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_256
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_258
+			}
+		}
+		258 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_258
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_260
+			}
+		}
+		260 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_260
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_271
+			}
+		}
+		271 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_271
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_325
+			}
+		}
+		325 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_325
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_331
+			}
+		}
+		331 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_331
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_389
+			}
+		}
+		389 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_389
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_421
+			}
+		}
+		421 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_421
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_445
+			}
+		}
+		445 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_445
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_447
+			}
+		}
+		447 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_447
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_450
+			}
+		}
+		450 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_450
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_454
+			}
+		}
+		454 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_454
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_459
+			}
+		}
+		459 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_459
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_485
+			}
+		}
+		485 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_485
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_489
+			}
+		}
+		489 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_489
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_491
+			}
+		}
+		491 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_491
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_492
+			}
+		}
+		492 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_492
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_493
+			}
+		}
+		493 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_493
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_498
+			}
+		}
+		498 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_498
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_499
+			}
+		}
+		499 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_499
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_557
+			}
+		}
+		557 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_557
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_559
+			}
+		}
+		559 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_559
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_564
+			}
+		}
+		564 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_564
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_576
+			}
+		}
+		576 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_576
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_577
+			}
+		}
+		577 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_577
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_589
+			}
+		}
+		589 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_589
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_592
+			}
+		}
+		592 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_592
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_623
+			}
+		}
+		623 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_623
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_680
+			}
+		}
+		680 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_680
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_684
+			}
+		}
+		684 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_684
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_728
+			}
+		}
+		728 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_728
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_772
+			}
+		}
+		772 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_772
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_796
+			}
+		}
+		796 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_796
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_797
+			}
+		}
+		797 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_797
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_802
+			}
+		}
+		802 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_802
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_859
+			}
+		}
+		859 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_859
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_866
+			}
+		}
+		866 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_866
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_871
+			}
+		}
+		871 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_871
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_897
+			}
+		}
+		897 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_897
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_898
+			}
+		}
+		898 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_898
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_899
+			}
+		}
+		899 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_899
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_922
+			}
+		}
+		922 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_922
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_937
+			}
+		}
+		937 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_937
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_938
+			}
+		}
+		938 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_938
+    	}	
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = TLI_luxuries_8_946
+			}
+		}
+		946 = {
+			add_resource = {
+        		type = luxuries
+        		amount = 8
+        	}
+        	clr_country_flag = TLI_luxuries_8_946
+    	}	
+	}	
+}
+
+
