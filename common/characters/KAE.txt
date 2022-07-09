@@ -1,0 +1,19 @@
+characters={
+    KAE_General_1={
+        name=KAE_General_1_name
+        portraits={
+            army={
+		large="GFX/leaders/KAE/KAE_Army_leader_01.tga"
+            }	
+        }
+        field_marshal={
+            traits = {}
+            skill = 2
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+}
