@@ -69,7 +69,7 @@ gendecision_arms_trade = {
 				convoy > 5
 			}
 			any_owned_state = {
-				has_resources_amount = { resource = luxuries amount > 1 }	
+				has_resources_amount = { resource = luxuries amount > 7 }	
 			}
 		}
 
@@ -77,7 +77,7 @@ gendecision_arms_trade = {
     		limit = {
         		has_resources_amount = {
         			resource = luxuries
-        			amount > 1
+        			amount > 7
 				}
         	}
 		}
@@ -115,5 +115,109 @@ gendecision_arms_trade = {
 			TLI_luxuries_8_remove = yes
 		}
 	}
-}
+	gendecision_buy_infeq16 = {
+		available = {
+			has_equipment = {
+				convoy > 5
+			}
+			any_owned_state = {
+				has_resources_amount = { resource = luxuries amount > 15 }	
+			}
+		}
+
+		random_owned_controlled_state = {
+    		limit = {
+        		has_resources_amount = {
+        			resource = luxuries
+        			amount > 15
+				}
+        	}
+		}
+
+		visible = {
+    		always = yes
+		}
+
+  		fire_only_once = no
+
+		days_remove = 120
+		days_re_enable = 60
+
+		#modifier = {
+		#	country_resource_luxuries = -2	
+		#}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = -6
+			}
+		TLI_luxuries_16 = yes
+			
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_3
+				amount = 2500
+			}
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 6
+			}
+			TLI_luxuries_16_remove = yes
+		}
+	}
+
+	gendecision_buy_infeq32 = {
+		available = {
+			has_equipment = {
+				convoy > 5
+			}
+			any_owned_state = {
+				has_resources_amount = { resource = luxuries amount > 31 }	
+			}
+		}
+
+		random_owned_controlled_state = {
+    		limit = {
+        		has_resources_amount = {
+        			resource = luxuries
+        			amount > 31
+				}
+        	}
+		}
+
+		visible = {
+    		always = yes
+		}
+
+  		fire_only_once = no
+
+		days_remove = 120
+		days_re_enable = 60
+
+		#modifier = {
+		#	country_resource_luxuries = -2	
+		#}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = -6
+			}
+		TLI_luxuries_32 = yes
+			
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_3
+				amount = 2500
+			}
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 6
+			}
+			TLI_luxuries_32_remove = yes
+		}
+	}
 }
