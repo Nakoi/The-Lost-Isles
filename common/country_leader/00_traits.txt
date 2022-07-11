@@ -289,31 +289,112 @@ leader_traits = {
 	
 	### THEORISTS ###
 	
-	military_theorist = {
-		sprite = 14	
-		land_doctrine_cost_factor = -0.1
+	theotrait_massmob = {
+		sprite = 14
+		experience_gain_army = 0.05
+		land_doctrine_cost_factor = -0.2
+		conscription_factor = 0.1
+		mobilization_speed = 0.3
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	
-	air_warfare_theorist = {
+	theotrait_firepower = {
 		sprite = 14
-		air_doctrine_cost_factor = -0.1
+		experience_gain_army = 0.05
+		land_doctrine_cost_factor = -0.2
+		offence = 0.15
+		supply_consumption_factor = 0.05
+		
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	
-	naval_theorist = {
+	theotrait_discipline = {
 		sprite = 14
-		naval_doctrine_cost_factor = -0.1
+		experience_gain_army = 0.05
+		land_doctrine_cost_factor = -0.2
+		army_org_factor = 0.1
+		training_time_factor = -0.2
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
+	
+	theotrait_mobility = {
+		sprite = 14
+		experience_gain_army = 0.05
+		land_doctrine_cost_factor = -0.2
+		org_loss_when_moving = -0.1
+		army_speed_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	theotrait_smolboat = {
+		sprite = 14
+		experience_gain_navy = 0.05
+		navy_doctrine_cost_factor = -0.2
+		navy_screen_attack_factor = 0.1
+		navy_screen_defence_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	theotrait_bigboat = {
+		sprite = 14
+		experience_gain_navy = 0.05
+		navy_doctrine_cost_factor = -0.2
+		navy_capital_ship_attack_factor = 0.2
+		navy_capital_ship_defence_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	theotrait_airskirm = {
+		sprite = 14
+		experience_gain_air = 0.05
+		navy_doctrine_cost_factor = -0.2
+		air_superiority_efficiency = 0.25
+		air_detection = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	theotrait_airbomb = {
+		sprite = 14
+		experience_gain_air = 0.05
+		air_doctrine_cost_factor = -0.2
+		air_strategic_bomber_bombing_factor = 0.15
+		air_strategic_bomber_defence_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	theotrait_aircas = {
+		sprite = 14
+		experience_gain_air = 0.05
+		air_doctrine_cost_factor = -0.2
+		air_cas_present_factor = 0.15
+		air_escort_efficiency = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
