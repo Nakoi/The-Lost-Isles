@@ -499,3 +499,149 @@ every_possible_country = {
 	}
 }
 
+every_possible_country = {
+	#limit = {
+		#NOT = { OR = { tag = AVT tag = OSK  } }
+		# avoid generic advisors in temporary countries
+		#is_dynamic_country = no
+		#NOT = {
+		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
+		#}
+	#}
+	
+	generate_character = {
+		token_base = theotrait_massmob # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { theotrait_massmob }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = theotrait_firepower # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { theotrait_firepower }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = theotrait_discipline # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { theotrait_discipline }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = theotrait_mobility # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { theotrait_mobility }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = theotrait_smolboat # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { theotrait_smolboat }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = theotrait_bigboat # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { theotrait_bigboat }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = theotrait_airskirm # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { theotrait_airskirm }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = theotrait_airbomb # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { theotrait_airbomb }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = theotrait_aircas # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { theotrait_aircas }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+}
+
