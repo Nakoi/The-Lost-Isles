@@ -13,7 +13,7 @@ every_possible_country = {
 	#}
 	
 	generate_character = {
-		token_base = advtrait_rural_aristocrat # token will be TAG_token_base
+		token_base = aadvtrait_rural_aristocrat # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_rural_aristocrat }
@@ -34,7 +34,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_restless_warrior # token will be TAG_token_base
+		token_base = aadvtrait_restless_warrior # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_restless_warrior }
@@ -55,7 +55,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_high_priest # token will be TAG_token_base
+		token_base = aadvtrait_high_priest # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_high_priest }
@@ -76,7 +76,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_guild_master # token will be TAG_token_base
+		token_base = aadvtrait_guild_master # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_guild_master }
@@ -97,7 +97,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_grand_architect # token will be TAG_token_base
+		token_base = aadvtrait_grand_architect # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_grand_architect }
@@ -118,7 +118,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_court_wizard # token will be TAG_token_base
+		token_base = aadvtrait_court_wizard # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_court_wizard }
@@ -139,7 +139,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_court_jester # token will be TAG_token_base
+		token_base = aadvtrait_court_jester # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_court_jester }
@@ -160,7 +160,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_grand_inquisitor # token will be TAG_token_base
+		token_base = aadvtrait_grand_inquisitor # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_grand_inquisitor }
@@ -192,7 +192,7 @@ every_possible_country = {
 	#}
 	
 	generate_character = {
-		token_base = advtrait_spymaster # token will be TAG_token_base
+		token_base = aadvtrait_spymaster # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_spymaster }
@@ -212,7 +212,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_moderniser # token will be TAG_token_base
+		token_base = aadvtrait_moderniser # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_moderniser }
@@ -232,7 +232,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_sneering_imperialist # token will be TAG_token_base
+		token_base = aadvtrait_sneering_imperialist # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_sneering_imperialist }
@@ -252,7 +252,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_merchant_adventurer # token will be TAG_token_base
+		token_base = aadvtrait_merchant_adventurer # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_merchant_adventurer }
@@ -272,7 +272,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_expert_diplomat # token will be TAG_token_base
+		token_base = aadvtrait_expert_diplomat # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_expert_diplomat }
@@ -292,7 +292,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_financial_expert # token will be TAG_token_base
+		token_base = aadvtrait_financial_expert # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_financial_expert }
@@ -312,7 +312,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_war_profiteer # token will be TAG_token_base
+		token_base = aadvtrait_war_profiteer # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_war_profiteer }
@@ -332,7 +332,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_smooth_talking_charmer # token will be TAG_token_base
+		token_base = aadvtrait_smooth_talking_charmer # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_smooth_talking_charmer }
@@ -363,7 +363,7 @@ every_possible_country = {
 	#}
 	
 	generate_character = {
-		token_base = advtrait_captain_of_industry# token will be TAG_token_base
+		token_base = aadvtrait_captain_of_industry# token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_captain_of_industry }
@@ -380,7 +380,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_war_industrialist # token will be TAG_token_base
+		token_base = aadvtrait_war_industrialist # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_war_industrialist }
@@ -397,7 +397,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_brilliant_inventor # token will be TAG_token_base
+		token_base = aadvtrait_brilliant_inventor # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_brilliant_inventor }
@@ -414,7 +414,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_rabid_nationalist # token will be TAG_token_base
+		token_base = aadvtrait_rabid_nationalist # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_rabid_nationalist }
@@ -431,7 +431,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_expert_administrator # token will be TAG_token_base
+		token_base = aadvtrait_expert_administrator # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_expert_administrator }
@@ -448,7 +448,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_ideological_crusader # token will be TAG_token_base
+		token_base = aadvtrait_ideological_crusader # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_ideological_crusader }
@@ -465,7 +465,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_state_sponsored_journalist # token will be TAG_token_base
+		token_base = aadvtrait_state_sponsored_journalist # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_state_sponsored_journalist }
@@ -482,7 +482,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = advtrait_industry_reformer # token will be TAG_token_base
+		token_base = aadvtrait_industry_reformer # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
 			traits = { advtrait_industry_reformer }
@@ -510,7 +510,7 @@ every_possible_country = {
 	#}
 	
 	generate_character = {
-		token_base = theotrait_massmob # token will be TAG_token_base
+		token_base = atheotrait_massmob # token will be TAG_token_base
 		advisor = {
 			slot = theorist
 			traits = { theotrait_massmob }
@@ -525,7 +525,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = theotrait_firepower # token will be TAG_token_base
+		token_base = atheotrait_firepower # token will be TAG_token_base
 		advisor = {
 			slot = theorist
 			traits = { theotrait_firepower }
@@ -540,7 +540,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = theotrait_discipline # token will be TAG_token_base
+		token_base = atheotrait_discipline # token will be TAG_token_base
 		advisor = {
 			slot = theorist
 			traits = { theotrait_discipline }
@@ -555,7 +555,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = theotrait_mobility # token will be TAG_token_base
+		token_base = atheotrait_mobility # token will be TAG_token_base
 		advisor = {
 			slot = theorist
 			traits = { theotrait_mobility }
@@ -570,7 +570,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = theotrait_smolboat # token will be TAG_token_base
+		token_base = atheotrait_smolboat # token will be TAG_token_base
 		advisor = {
 			slot = theorist
 			traits = { theotrait_smolboat }
@@ -585,7 +585,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = theotrait_bigboat # token will be TAG_token_base
+		token_base = atheotrait_bigboat # token will be TAG_token_base
 		advisor = {
 			slot = theorist
 			traits = { theotrait_bigboat }
@@ -600,7 +600,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = theotrait_airskirm # token will be TAG_token_base
+		token_base = atheotrait_airskirm # token will be TAG_token_base
 		advisor = {
 			slot = theorist
 			traits = { theotrait_airskirm }
@@ -615,7 +615,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = theotrait_airbomb # token will be TAG_token_base
+		token_base = atheotrait_airbomb # token will be TAG_token_base
 		advisor = {
 			slot = theorist
 			traits = { theotrait_airbomb }
@@ -630,7 +630,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = theotrait_aircas # token will be TAG_token_base
+		token_base = atheotrait_aircas # token will be TAG_token_base
 		advisor = {
 			slot = theorist
 			traits = { theotrait_aircas }
@@ -644,4 +644,368 @@ every_possible_country = {
 		}
 	}
 }
+
+every_possible_country = {
+	#limit = {
+		#NOT = { OR = { tag = AVT tag = OSK  } }
+		# avoid generic advisors in temporary countries
+		#is_dynamic_country = no
+		#NOT = {
+		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
+		#}
+	#}
+	
+	generate_character = {
+		token_base = achieftrait_offense_1 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_offense_1 }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_defense_1 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_defense_1 }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_drill_1 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_drill_1 }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_organisation_1 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_organisation_1 }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_planning_1 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_planning_1 }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_morale_1 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_morale_1 }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_maneuver_1 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_maneuver_1 }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_logistics_1 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_logistics_1 }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_offense_2 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_offense_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_defense_2 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_defense_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_drill_2 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_drill_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_organisation_2 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_organisation_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_planning_2 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_planning_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_morale_2 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_morale_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_maneuver_2 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_maneuver_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_logistics_2 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_logistics_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_offense_3 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_offense_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_defense_3 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_defense_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_drill_3 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_drill_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_organisation_3 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_organisation_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_planning_3 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_planning_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_morale_3 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_morale_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_maneuver_3 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_maneuver_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_logistics_3 # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { chieftrait_logistics_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+}
+
 
