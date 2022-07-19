@@ -275,6 +275,11 @@
  MANPOWER_TOTAL_VALUE:0 "$VALUE|0*$"
  MANPOWER_AIR_WING_CREATION_VALUE:0 "$VALUE|0$"
  SERVICE_MANPOWER_HEADER:0 "Service Manpower"
+ 
+ ###TLI UNITS###
+ ranged_infantry:0 "Regulars"
+ 
+ ###idk###
  anti_tank:0 "Support Anti-Tank"
  anti_tank_desc:0 ""
  anti_air:0 "Support Anti-Air"
