@@ -4720,7 +4720,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = gentext_primitive_civilised_advancement
+			custom_effect_tooltip = gentext_civilised_industrial_advancement
 			add_research_slot = 1
 			add_political_power = -300
 			remove_ideas = genidea_proto_industrialization
