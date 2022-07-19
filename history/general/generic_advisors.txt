@@ -1160,5 +1160,927 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_communist_revolutionary }
 		}
 	}
+}
 
+every_possible_country = {
+	#limit = {
+		#NOT = { OR = { tag = AVT tag = OSK  } }
+		# avoid generic advisors in temporary countries
+		#is_dynamic_country = no
+		#NOT = {
+		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
+		#}
+	#}
+	
+	generate_character = {
+		token_base = achieftrait_weather_1 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_weather_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_nightops_1 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_nightops_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_airsupport_1 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_airsupport_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_airmaint_1 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_airmaint_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_weather_2 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_weather_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_nightops_2 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_nightops_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_airsupport_2 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_airsupport_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_airmaint_2 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_airmaint_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_weather_3 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_weather_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_nightops_3 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_nightops_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_airsupport_3 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_airsupport_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = achieftrait_airmaint_3 # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { chieftrait_airmaint_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+}
+
+every_possible_country = {
+	#limit = {
+		#NOT = { OR = { tag = AVT tag = OSK  } }
+		# avoid generic advisors in temporary countries
+		#is_dynamic_country = no
+		#NOT = {
+		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
+		#}
+	#}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_lineinf_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_lineinf_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_aggressive_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_aggressive_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_elite_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_elite_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_arty_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_arty_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_guerilla_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_guerilla_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_boatschool_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_boatschool_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_navlanding_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_navlanding_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_navlogi_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_navlogi_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_smallboat_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_smallboat_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_bigboat_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_bigboat_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airboatschool_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airboatschool_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airskirm_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airskirm_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airstriker_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airstriker_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airboats_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airboats_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_stratairboat_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_stratairboat_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airassault_1 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airassault_1 }
+			cost = 150
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_lineinf_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_lineinf_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_aggressive_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_aggressive_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_elite_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_elite_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_arty_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_arty_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_guerilla_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_guerilla_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_boatschool_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_boatschool_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_navlanding_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_navlanding_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_navlogi_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_navlogi_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_smallboat_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_smallboat_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_bigboat_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_bigboat_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airboatschool_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airboatschool_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airskirm_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airskirm_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airstriker_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airstriker_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airboats_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airboats_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_stratairboat_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_stratairboat_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airassault_2 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airassault_2 }
+			cost = 200
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_lineinf_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_lineinf_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_aggressive_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_aggressive_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_elite_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_elite_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_artyv # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_arty_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_guerilla_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_guerilla_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_boatschool_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_boatschool_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_navlanding_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_navlanding_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_navlogi_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_navlogi_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_smallboat_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_smallboat_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_bigboat_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_bigboat_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airboatschool_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airboatschool_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airskirm_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airskirm_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airstriker_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airstriker_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airboats_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airboats_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_stratairboat_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_stratairboat_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+	
+	generate_character = {
+		token_base = aarmyadvtrait_airassault_3 # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { armyadvtrait_airassault_3 }
+			cost = 250
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+}
 
