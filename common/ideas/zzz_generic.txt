@@ -1463,11 +1463,11 @@ ideas = {
 			removal_cost = 10
 			
 			research_bonus = {
-				artillery_mortar = 0.15
+				artillery_siege = 0.15
 			}
 			
 			equipment_bonus = {
-				artillery_mortar = {
+				artillery_siege = {
 					build_cost_ic = -0.1
 					attack = 0.2
 				}
@@ -1539,11 +1539,11 @@ ideas = {
 			removal_cost = 10
 			
 			research_bonus = {
-				artillery_mortar = 0.25
+				artillery_siege = 0.25
 			}
 			
 			equipment_bonus = {
-				artillery_mortar = {
+				artillery_siege = {
 					build_cost_ic = -0.2
 					attack = 0.3
 				}
