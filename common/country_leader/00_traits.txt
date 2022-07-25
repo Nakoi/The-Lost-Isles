@@ -1216,6 +1216,7 @@ leader_traits = {
 	armyadvtrait_airboatschool_1 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		experience_gain_air_factor = 0.1
 		
 		ai_will_do = {
 			factor = 1
@@ -1225,6 +1226,7 @@ leader_traits = {
 	armyadvtrait_airboatschool_2 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		experience_gain_air_factor = 0.2
 		
 		ai_will_do = {
 			factor = 1
@@ -1234,6 +1236,7 @@ leader_traits = {
 	armyadvtrait_airboatschool_3 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		experience_gain_air_factor = 0.3
 		
 		ai_will_do = {
 			factor = 1
@@ -1243,6 +1246,13 @@ leader_traits = {
 	armyadvtrait_airskirm_1 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_air_skirmisher = {
+				air_agility = 0.1
+				air_attack = 0.1
+				
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1252,6 +1262,12 @@ leader_traits = {
 	armyadvtrait_airskirm_2 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_air_skirmisher = {
+				air_agility = 0.2
+				air_attack = 0.2
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1261,6 +1277,12 @@ leader_traits = {
 	armyadvtrait_airskirm_3 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_air_skirmisher = {
+				air_agility = 0.3
+				air_attack = 0.3
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1270,6 +1292,12 @@ leader_traits = {
 	armyadvtrait_airstriker_1 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_air_striker = {
+				air_ground_attack = 0.1
+				naval_strike_attack = 0.1
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1279,6 +1307,12 @@ leader_traits = {
 	armyadvtrait_airstriker_2 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_air_striker = {
+				air_ground_attack = 0.2
+				naval_strike_attack = 0.2
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1288,6 +1322,12 @@ leader_traits = {
 	armyadvtrait_airstriker_3 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_air_striker = {
+				air_ground_attack = 0.3
+				naval_strike_attack = 0.3
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1297,6 +1337,16 @@ leader_traits = {
 	armyadvtrait_airboats_1 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_airfrigate = {
+				air_attack = 0.1
+				air_superiority = 0.15
+			}
+			category_skycruiser = {
+				air_attack = 0.1
+				air_superiority = 0.15
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1306,6 +1356,16 @@ leader_traits = {
 	armyadvtrait_airboats_2 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_airfrigate = {
+				air_attack = 0.2
+				air_superiority = 0.3
+			}
+			category_skycruiser = {
+				air_attack = 0.2
+				air_superiority = 0.3
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1315,6 +1375,16 @@ leader_traits = {
 	armyadvtrait_airboats_3 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_airfrigate = {
+				air_attack = 0.3
+				air_superiority = 0.45
+			}
+			category_skycruiser = {
+				air_attack = 0.3
+				air_superiority = 0.45
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1324,6 +1394,16 @@ leader_traits = {
 	armyadvtrait_stratairboat_1 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_bombardier = {
+				air_defence = 0.1
+				air_bombing = 0.1
+			}
+			category_skycarrier = {
+				air_defence = 0.1
+				air_bombing = 0.1
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1333,6 +1413,16 @@ leader_traits = {
 	armyadvtrait_stratairboat_2 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_bombardier = {
+				air_defence = 0.2
+				air_bombing = 0.2
+			}
+			category_skycarrier = {
+				air_defence = 0.2
+				air_bombing = 0.2
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1342,6 +1432,16 @@ leader_traits = {
 	armyadvtrait_stratairboat_3 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		equipment_bonus = {
+			category_bombardier = {
+				air_defence = 0.3
+				air_bombing = 0.3
+			}
+			category_skycarrier = {
+				air_defence = 0.3
+				air_bombing = 0.3
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1351,6 +1451,8 @@ leader_traits = {
 	armyadvtrait_airassault_1 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		air_paradrop_attack_factor = 0.15
+		paradrop_organization_factor = 0.35
 		
 		ai_will_do = {
 			factor = 1
@@ -1360,6 +1462,8 @@ leader_traits = {
 	armyadvtrait_airassault_2 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		air_paradrop_attack_factor = 0.25
+		paradrop_organization_factor = 0.50
 		
 		ai_will_do = {
 			factor = 1
@@ -1369,6 +1473,8 @@ leader_traits = {
 	armyadvtrait_airassault_3 = {
 		sprite = 14
 		experience_gain_air = 0.02
+		air_paradrop_attack_factor = 0.35
+		paradrop_organization_factor = 0.75
 		
 		ai_will_do = {
 			factor = 1
