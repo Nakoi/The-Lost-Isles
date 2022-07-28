@@ -3,14 +3,9 @@
 
 # Political advisors
 every_possible_country = {
-	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
-	#}
+	limit = {
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
+	}
 	
 	generate_character = {
 		token_base = aadvtrait_rural_aristocrat # token will be TAG_token_base
@@ -182,14 +177,9 @@ every_possible_country = {
 }
 	
 every_possible_country = {
-	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
-	#}
+	limit = {
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
+	}
 	
 	generate_character = {
 		token_base = aadvtrait_spymaster # token will be TAG_token_base
@@ -353,14 +343,9 @@ every_possible_country = {
 }
 
 every_possible_country = {
-	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
-	#}
+	limit = {
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
+	}
 	
 	generate_character = {
 		token_base = aadvtrait_captain_of_industry# token will be TAG_token_base
@@ -500,14 +485,9 @@ every_possible_country = {
 }
 
 every_possible_country = {
-	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
-	#}
+	limit = {
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
+	}
 	
 	generate_character = {
 		token_base = atheotrait_massmob # token will be TAG_token_base
@@ -646,14 +626,9 @@ every_possible_country = {
 }
 
 every_possible_country = {
-	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
-	#}
+	limit = {
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
+	}
 	
 	generate_character = {
 		token_base = achieftrait_offense_1 # token will be TAG_token_base
@@ -1017,14 +992,9 @@ every_possible_country = {
 }
 
 every_possible_country = {
-	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
-	#}
+	limit = {
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
+	}
 	
 	generate_character = {
 		token_base = achieftrait_privateering_1 # token will be TAG_token_base
@@ -1163,14 +1133,9 @@ every_possible_country = {
 }
 
 every_possible_country = {
-	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
-	#}
+	limit = {
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
+	}
 	
 	generate_character = {
 		token_base = achieftrait_weather_1 # token will be TAG_token_base
@@ -1354,14 +1319,9 @@ every_possible_country = {
 }
 
 every_possible_country = {
-	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
-	#}
+	limit = {
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
+	}
 	
 	generate_character = {
 		token_base = aarmyadvtrait_lineinf_1 # token will be TAG_token_base
@@ -1889,7 +1849,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = aarmyadvtrait_artyv # token will be TAG_token_base
+		token_base = aarmyadvtrait_arty_3 # token will be TAG_token_base
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_arty_3 }
