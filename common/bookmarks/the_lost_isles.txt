@@ -18,10 +18,74 @@ bookmarks = {
 			}
 		}
 
+
+		"GAL"={
+			history = "OTHER_TLI_DESC"
+			ideology = ideology_continuism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"ESU"={
+			history = "OTHER_TLI_DESC"
+			ideology = ideology_visionarism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"SUA"={
+			history = "OTHER_TLI_DESC"
+			ideology = ideology_imperialism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+		"KAE"={
+			history = "OTHER_TLI_DESC"
+			ideology = ideology_solidarism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"BOR"={
+			history = "OTHER_TLI_DESC"
+			ideology = ideology_militarism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"LUA"={
+			history = "OTHER_TLI_DESC"
+			ideology = ideology_imperialism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
 		"---"={
 			history = "OTHER_TLI_DESC"
 		}
-
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

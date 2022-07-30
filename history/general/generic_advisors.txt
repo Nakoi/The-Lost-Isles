@@ -4,12 +4,7 @@
 # Political advisors
 every_possible_country = {
 	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
 	#}
 	
 	generate_character = {
@@ -183,12 +178,7 @@ every_possible_country = {
 	
 every_possible_country = {
 	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
 	#}
 	
 	generate_character = {
@@ -354,12 +344,7 @@ every_possible_country = {
 
 every_possible_country = {
 	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
 	#}
 	
 	generate_character = {
@@ -501,12 +486,7 @@ every_possible_country = {
 
 every_possible_country = {
 	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
 	#}
 	
 	generate_character = {
@@ -647,12 +627,7 @@ every_possible_country = {
 
 every_possible_country = {
 	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
 	#}
 	
 	generate_character = {
@@ -1018,12 +993,7 @@ every_possible_country = {
 
 every_possible_country = {
 	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
 	#}
 	
 	generate_character = {
@@ -1164,12 +1134,7 @@ every_possible_country = {
 
 every_possible_country = {
 	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
 	#}
 	
 	generate_character = {
@@ -1355,12 +1320,7 @@ every_possible_country = {
 
 every_possible_country = {
 	#limit = {
-		#NOT = { OR = { tag = AVT tag = OSK  } }
-		# avoid generic advisors in temporary countries
-		#is_dynamic_country = no
-		#NOT = {
-		#	has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-		#}
+		NOT = { OR = { tag = AVT tag = OSK tag = GAL tag = SCO tag = AIN tag = SEN tag = WAO tag = FRE tag = ONK tag = ASH tag = RIN tag = HRI tag = UNU tag = AZE tag = WEI tag = ESU tag = KAE tag = SUA tag = AST tag = SUN tag = TYK tag = CRU tag = CAI tag = BOR tag = LUA tag = VED tag = CIL tag = PRI } }
 	#}
 	
 	generate_character = {
@@ -1889,7 +1849,7 @@ every_possible_country = {
 	}
 	
 	generate_character = {
-		token_base = aarmyadvtrait_artyv # token will be TAG_token_base
+		token_base = aarmyadvtrait_arty_3 # token will be TAG_token_base
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_arty_3 }

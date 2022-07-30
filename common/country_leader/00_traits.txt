@@ -305,9 +305,12 @@ leader_traits = {
 		sprite = 14
 		experience_gain_army = 0.05
 		land_doctrine_cost_factor = -0.2
-		offence = 0.15
-		supply_consumption_factor = 0.05
-		
+		supply_consumption_factor = 0.1
+		equipment_bonus = {
+			artillery = {
+				soft_attack = 0.1
+			}
+		}
 		
 		ai_will_do = {
 			factor = 1

@@ -1,4 +1,5 @@
 characters={
+
     AVT_tzar={
         name=AVT_tzar_name
         portraits={
@@ -165,25 +166,329 @@ characters={
             logistics_skill = 1
         }
     }
-
-    AVT_advisor_1={
-        name=AVT_advisor_1_name
-        portraits={
-        
-        }
-        advisor={
-            slot = political_advisor
-            allowed = {
-                original_tag = AVT
-            }
-            traits = {
-                navy_chief_naval_aviation_2
-            }
-            cost = 150
-            ai_will_do = {
-                factor = 50
-            }
-        }
-    }
-
 }
+	
+	AVT_adv_restless_warrior = {
+        name = AVT_adv_restless_warrior_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			traits = {
+				advtrait_restless_warrior
+			}
+			available = {
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
+			}
+		}
+	}
+	
+	
+	AVT_adv_high_priest = {
+        name = AVT_adv_high_priest_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			traits = {
+				advtrait_high_priest
+			}
+			available = {
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
+			}
+		}
+	}
+	
+	
+	AVT_adv_guild_master = {
+        name = AVT_adv_guild_master_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			traits = {
+				advtrait_guild_master
+			}
+			available = {
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
+			}
+		}
+	}
+	
+	AVT_adv_court_wizard = {
+        name = AVT_adv_court_wizard_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			traits = {
+				advtrait_court_wizard
+			}
+			available = {
+				OR = {
+					has_idea = genidea_primitive_dev
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
+			}
+		}
+	}
+	
+	AVT_adv_spymaster = {
+        name = AVT_adv_spymaster_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			traits = {
+				advtrait_spymaster
+			}
+			available = {
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
+			}
+		}
+	}
+	
+	AVT_adv_sneering_imperialist = {
+        name = AVT_adv_sneering_imperialist_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			traits = {
+				advtrait_sneering_imperialist
+			}
+			available = {
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
+			}
+		}
+	}
+	
+	AVT_adv_war_profiteer = {
+        name = AVT_adv_war_profiteer_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			traits = {
+				advtrait_war_profiteer
+			}
+			available = {
+				OR = {
+					has_idea = genidea_civilised_dev
+					has_idea = genidea_industrial_dev
+				}
+			}
+		}
+	}
+	
+	
+	AVT_adv_captain_of_industry = {
+        name = AVT_adv_captain_of_industry_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			traits = {
+				advtrait_captain_of_industry
+			}
+			available = {
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	AVT_adv_brilliant_inventor = {
+        name = AVT_adv_brilliant_inventor_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			traits = {
+				advtrait_brilliant_inventor
+			}
+			available = {
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	AVT_adv_ideological_crusader = {
+        name = AVT_adv_ideological_crusader_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			traits = {
+				advtrait_ideological_crusader
+			}
+			available = {
+				has_idea = genidea_industrial_dev
+			}
+		}
+	}
+	
+	AVT_theo_massmob = {
+        name = AVT_theo_massmob_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 200
+			slot = theorist
+			traits = {
+				theotrait_massmob
+			}
+		}
+	}
+	
+	AVT_theo_mobility = {
+        name = AVT_theo_mobility_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 200
+			slot = theorist
+			traits = {
+				theotrait_mobility
+			}
+		}
+	}
+	
+	AVT_theo_bigboat = {
+        name = AVT_theo_bigboat_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 200
+			slot = theorist
+			traits = {
+				theotrait_bigboat
+			}
+		}
+	}
+	
+	AVT_theo_airbomb = {
+        name = AVT_theo_airbomb_name
+		
+        portraits = {
+            army = {
+				small = GFX_idea_georgy_zhukov
+				#large = GFX_portrait_SOV_georgy_zhukov
+            }
+		}
+		
+		advisor = {
+			cost = 200
+			slot = theorist
+			traits = {
+				theotrait_airbomb
+			}
+		}
+	}

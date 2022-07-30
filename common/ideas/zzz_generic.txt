@@ -1923,6 +1923,7 @@ ideas = {
 					build_cost_ic = 0.1
 					air_attack = 0.15
 					air_ground_attack = 0.10
+					air_agility = 0.25
 				}
 			}
 		}
@@ -1948,7 +1949,6 @@ ideas = {
 			equipment_bonus = {
 				category_bombardier = {
 					build_cost_ic = 0.1
-					air_attack = 0.15
 					air_bombing = 0.15
 					naval_strike_attack = 0.15
 					naval_strike_targetting = 0.15

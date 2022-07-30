@@ -69,7 +69,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.05
         production_factory_efficiency_gain_factor = 0.05
-        
+        industrial_capacity_dockyard = 0.05
 	}
 	
 	metal_tools = {
@@ -121,6 +121,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.05
         production_factory_efficiency_gain_factor = 0.05
+		industrial_capacity_dockyard = 0.05
         
 	}
 
@@ -174,6 +175,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.1
         production_factory_efficiency_gain_factor = 0.1
+		industrial_capacity_dockyard = 0.1
 
 	}
 
@@ -226,6 +228,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.1
         production_factory_efficiency_gain_factor = 0.1
+		industrial_capacity_dockyard = 0.1
         
 	}
 
@@ -278,6 +281,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.1
         production_factory_efficiency_gain_factor = 0.1
+		industrial_capacity_dockyard = 0.1
         
     }
     
@@ -330,6 +334,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.15
         production_factory_efficiency_gain_factor = 0.15
+		industrial_capacity_dockyard = 0.15
         
     }
     
@@ -382,6 +387,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.15
         production_factory_efficiency_gain_factor = 0.15
+		industrial_capacity_dockyard = 0.15
         
     }
     
@@ -439,6 +445,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.2
         production_factory_efficiency_gain_factor = 0.2
+		industrial_capacity_dockyard = 0.2
         
     }
     
@@ -492,6 +499,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.2
         production_factory_efficiency_gain_factor = 0.2
+		industrial_capacity_dockyard = 0.2
         
     }
     
@@ -544,6 +552,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.2
         production_factory_efficiency_gain_factor = 0.2
+		industrial_capacity_dockyard = 0.2
         
     }
     
@@ -596,6 +605,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.2
         production_factory_efficiency_gain_factor = 0.2
+		industrial_capacity_dockyard = 0.2
         
     }
     
@@ -648,6 +658,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.25
         production_factory_efficiency_gain_factor = 0.25
+		industrial_capacity_dockyard = 0.25
         
     }
     
@@ -695,7 +706,7 @@ technologies = {
 
         production_factory_max_efficiency_factor = 0.25
         production_factory_efficiency_gain_factor = 0.25
-        
+        industrial_capacity_dockyard = 0.25
 	}
 	
 	basic_engineering = {
@@ -746,7 +757,7 @@ technologies = {
         #}
 
         industrial_capacity_factory = 0.05
-
+		local_resources_factor = 0.1
 	}
 	
 	hot_air_balloon = {
@@ -857,7 +868,7 @@ technologies = {
 
         industrial_capacity_factory = 0.1
         industrial_capacity_dockyard = 0.1
-        local_resources_factor = 0.05
+        local_resources_factor = 0.20
         air_agility_factor = 0.1
         air_maximum_speed_factor = 0.1
         air_range_factor = 0.2
@@ -914,7 +925,7 @@ technologies = {
 
         industrial_capacity_factory = 0.1
         industrial_capacity_dockyard = 0.1
-        local_resources_factor = 0.05
+        local_resources_factor = 0.20
         air_agility_factor = 0.1
         air_maximum_speed_factor = 0.1
         air_range_factor = 0.2
@@ -970,7 +981,7 @@ technologies = {
 
         industrial_capacity_factory = 0.1
         industrial_capacity_dockyard = 0.1
-        local_resources_factor = 0.05
+        local_resources_factor = 0.25
         air_agility_factor = 0.15
         air_maximum_speed_factor = 0.15
         air_range_factor = 0.25
@@ -1021,7 +1032,7 @@ technologies = {
 
         industrial_capacity_factory = 0.1
         industrial_capacity_dockyard = 0.1
-        local_resources_factor = 0.05
+        local_resources_factor = 0.3
         air_agility_factor = 0.15
         air_maximum_speed_factor = 0.15
         air_range_factor = 0.3
