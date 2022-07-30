@@ -27,6 +27,47 @@ recruit_character = AVT_General_8
 recruit_character = AVT_General_9
 recruit_character = AVT_advisor_1
 
+#POLITICAL ADVISORS
+#recruit_character = AVT_adv_restless_warrior
+#recruit_character = AVT_adv_high_priest
+#recruit_character = AVT_adv_guild_master
+#recruit_character = AVT_adv_court_wizard
+#recruit_character = AVT_adv_spymaster
+#recruit_character = AVT_adv_sneering_imperialist
+#recruit_character = AVT_adv_war_profiteer
+#recruit_character = AVT_adv_captain_of_industry
+#recruit_character = AVT_adv_brilliant_inventor
+#recruit_character = AVT_adv_ideological_crusader
+
+#ARMY THEORISTS
+#recruit_character = AVT_theo_massmob
+#recruit_character = AVT_theo_mobility
+#recruit_character = AVT_theo_bigboat
+#recruit_character = AVT_theo_airbomb
+
+#ARMY CHIEFS
+#recruit_character = AVT_chief_drill_2
+#recruit_character = AVT_chief_organisation_1
+#recruit_character = AVT_chief_planning_1
+#recruit_character = AVT_chief_morale_2
+
+#recruit_character = AVT_chief_grandbattle_2
+#recruit_character = AVT_chief_boatmaneuver_2
+
+#recruit_character = AVT_chief_weather_2
+#recruit_character = AVT_chief_airskirm_2
+#recruit_character = AVT_chief_airstriker_1
+
+#ARMY HICOM
+#recruit_character = AVT_armyadv_lineinf_2
+#recruit_character = AVT_armyadv_aggressive_2
+#recruit_character = AVT_armyadv_elite_2
+#recruit_character = AVT_armyadv_arty_2
+#recruit_character = AVT_armyadv_boatschool_2
+#recruit_character = AVT_armyadv_smallboat_1
+#recruit_character = AVT_armyadv_airboatschool_2
+#recruit_character = AVT_armyadv_airboats_1
+
 set_politics = {
 	ruling_party = ideology_imperialism
 }
@@ -68,7 +109,7 @@ if = {
 	}
 
 	else = {
-		puppet = OSK
+		puppet = RAJ
 	}
 }
 if = {
