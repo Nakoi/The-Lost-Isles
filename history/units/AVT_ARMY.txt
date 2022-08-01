@@ -20,15 +20,37 @@ division_template = {
 		ranged_infantry = { x = 0 y = 0 }
 		ranged_infantry = { x = 0 y = 1 }
 		ranged_infantry = { x = 0 y = 2 }
-		ranged_infantry = { x = 0 y = 3 }
 		ranged_infantry = { x = 1 y = 0 }
 		ranged_infantry = { x = 1 y = 1 }
 		ranged_infantry = { x = 1 y = 2 }
-		ranged_infantry = { x = 1 y = 3 }
 	}
 	
 	support = 	{
 		cannon_support = { x = 0 y = 0 }
+	}
+
+	priority = 1
+}
+
+division_template = {
+	name = "Pegazskaya Rat'"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		wind_riders = { x = 0 y = 0 }
+		wind_riders = { x = 0 y = 1 }
+		wind_riders = { x = 0 y = 2 }
+		wind_riders = { x = 0 y = 3 }
+		wind_riders = { x = 0 y = 4 }
+		wind_riders = { x = 1 y = 0 }
+		wind_riders = { x = 1 y = 1 }
+		wind_riders = { x = 1 y = 2 }
+		wind_riders = { x = 1 y = 3 }
+		wind_riders = { x = 1 y = 4 }
+	}
+	
+	support = 	{
+		recon_company = { x = 0 y = 0 }
 	}
 
 	priority = 1
@@ -42,20 +64,19 @@ division_template = {
 		ranged_infantry = { x = 0 y = 0 }
 		ranged_infantry = { x = 0 y = 1 }
 		ranged_infantry = { x = 0 y = 2 }
-		ranged_infantry = { x = 0 y = 3 }
-		ranged_infantry = { x = 0 y = 4 }
 		ranged_infantry = { x = 1 y = 0 }
 		ranged_infantry = { x = 1 y = 1 }
 		ranged_infantry = { x = 1 y = 2 }
-		ranged_infantry = { x = 1 y = 3 }
-		ranged_infantry = { x = 1 y = 4 }
-		cannon_frontline = { x = 2 y = 0 }
-		cannon_frontline = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 0 }
+		ranged_infantry = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 2 }
+		cannon_frontline = { x = 3 y = 0 }
 	}
 	
 	support = 	{
-		sapper_company = { x = 0 y = 0 }
-		recon_company = { x = 0 y = 1 }
+		unicorn_support = { x = 0 y = 0 }
+		sapper_company = { x = 0 y = 1 }
+		recon_company = { x = 0 y = 2 }
 	}
 
 	priority = 2
@@ -63,278 +84,234 @@ division_template = {
 
 ### OOB ###
 units = {
-	#### REGULARS ####
 	division = {
-		name = "1. Rat', Greismerskaya B.R."
-		location = 1360
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "2. Rat', Greismerskaya B.R."
-		location = 1360
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "3. Rat', Greismerskaya B.R."
-		location = 2914
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "4. Rat', Greismerskaya B.R."
-		location = 2914
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "1. Rat', Tsarigradskaya B.R."
-		location = 3106
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "2. Rat', Tsarigradskaya B.R."
-		location = 3106
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "3. Rat', Tsarigradskaya B.R."
-		location = 3106
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "4. Rat', Tsarigradskaya B.R."
-		location = 3106
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "1. Rat', 1. B.R."
-		location = 333
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "2. Rat', 1. B.R."
-		location = 1367
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "3. Rat', 1. B.R."
-		location = 4478
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "4. Rat', 1. B.R."
-		location = 3548
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	
-	#### GUARDS ####
-	division = {
-		name = "Tsarigradskaya Rat' Zashchitnikov"
+		name = "1. Rat' Zashchitnikov, RZG"
 		location = 3106
 		division_template = "Rat' Zashchitnikov Gosudarya"
-		start_experience_factor = 0.8
+		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
-	
 	division = {
-		name = "Greismerskaya Rat' Zashchitnikov"
-		location = 1360
+		name = "2. Rat' Zashchitnikov, RZG"
+		location = 3106
 		division_template = "Rat' Zashchitnikov Gosudarya"
-		start_experience_factor = 0.8
+		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
-	
-	#### MILITIA ####
 	division = {
-		name = "1. Polk, Gorodskoe Opolchenie"
-		location = 1494
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
-	}
-	
-	division = {
-		name = "2. Polk, Gorodskoe Opolchenie"
-		location = 2238
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
+		name = "3. Rat' Zashchitnikov, RZG"
+		location = 3106
+		division_template = "Rat' Zashchitnikov Gosudarya"
+		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
-	
 	division = {
-		name = "3. Polk, Gorodskoe Opolchenie"
-		location = 149
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
+		name = "4. Rat' Zashchitnikov, RZG"
+		location = 3106
+		division_template = "Rat' Zashchitnikov Gosudarya"
+		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "4. Polk, Gorodskoe Opolchenie"
-		location = 4369
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "5. Polk, Gorodskoe Opolchenie"
-		location = 4447
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "6. Polk, Gorodskoe Opolchenie"
-		location = 502
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "7. Polk, Gorodskoe Opolchenie"
+		name = "1. Rat' Pekhoty, 1. PBR"
 		location = 4475
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Rat' Pekhoty, 1. PBR"
+		location = 883
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Rat' Pekhoty, 1. PBR"
+		location = 4522
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Rat' Pekhoty, 1. PBR"
+		location = 4526
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Rat' Pekhoty, 1. PBR"
+		location = 4543
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Rat' Pekhoty, 1. PBR"
+		location = 2959
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "8. Polk, Gorodskoe Opolchenie"
-		location = 4345
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
+		name = "1. Rat' Pekhoty, 2. PBR"
+		location = 3234
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Rat' Pekhoty, 2. PBR"
+		location = 4636
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Rat' Pekhoty, 2. PBR"
+		location = 4640
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Rat' Pekhoty, 2. PBR"
+		location = 2644
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Rat' Pekhoty, 2. PBR"
+		location = 563
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Rat' Pekhoty, 2. PBR"
+		location = 4769
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "9. Polk, Gorodskoe Opolchenie"
-		location = 1990
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
+		name = "1. Rat' Pekhoty, 3. PBR"
+		location = 1201
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Rat' Pekhoty, 3. PBR"
+		location = 4620
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Rat' Pekhoty, 3. PBR"
+		location = 1272
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Rat' Pekhoty, 3. PBR"
+		location = 3441
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Rat' Pekhoty, 3. PBR"
+		location = 2621
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Rat' Pekhoty, 3. PBR"
+		location = 2945
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "10. Polk, Gorodskoe Opolchenie"
+		name = "Udarnaya Rat', GBR"
 		location = 1360
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
+		division_template = "Rat' Zashchitnikov Gosudarya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1. Rat' Pekhoty, GBR"
+		location = 1360
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Rat' Pekhoty, GBR"
+		location = 1360
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Rat' Pekhoty, GBR"
+		location = 1360
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Rat' Pekhoty, GBR"
+		location = 1360
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Rat' Pekhoty, GBR"
+		location = 1360
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Rat' Pekhoty, GBR"
+		location = 1360
+		division_template = "Rat' Pekhoty"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "11. Polk, Gorodskoe Opolchenie"
-		location = 4225
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
+		name = "Novoavtukiskaya Pegazskaya Rat'"
+		location = 4779
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Yug-Primorskaya Pegazskaya Rat'"
+		location = 4905
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Starogranitskskaya Pegazskaya Rat'"
+		location = 557
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	
-	division = {
-		name = "12. Polk, Gorodskoe Opolchenie"
-		location = 4232
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "13. Polk, Gorodskoe Opolchenie"
-		location = 2343
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "14. Polk, Gorodskoe Opolchenie"
-		location = 4177
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "15. Polk, Gorodskoe Opolchenie"
-		location = 799
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "16. Polk, Gorodskoe Opolchenie"
-		location = 1828
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "17. Polk, Gorodskoe Opolchenie"
-		location = 4201
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "18. Polk, Gorodskoe Opolchenie"
-		location = 4201
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "19. Polk, Gorodskoe Opolchenie"
-		location = 628
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "20. Polk, Gorodskoe Opolchenie"
-		location = 628
-		division_template = "Polk Gorodskogo Opolcheniya"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
 	
