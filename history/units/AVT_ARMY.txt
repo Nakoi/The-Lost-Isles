@@ -244,49 +244,49 @@ units = {
 	
 	division = {
 		name = "Udarnaya Rat', GBR"
-		location = 1360
+		location = 628
 		division_template = "Rat' Zashchitnikov Gosudarya"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "1. Rat' Pekhoty, GBR"
-		location = 1360
+		location = 628
 		division_template = "Rat' Pekhoty"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "2. Rat' Pekhoty, GBR"
-		location = 1360
+		location = 628
 		division_template = "Rat' Pekhoty"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "3. Rat' Pekhoty, GBR"
-		location = 1360
+		location = 628
 		division_template = "Rat' Pekhoty"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "4. Rat' Pekhoty, GBR"
-		location = 1360
+		location = 628
 		division_template = "Rat' Pekhoty"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "5. Rat' Pekhoty, GBR"
-		location = 1360
+		location = 628
 		division_template = "Rat' Pekhoty"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "6. Rat' Pekhoty, GBR"
-		location = 1360
+		location = 628
 		division_template = "Rat' Pekhoty"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
@@ -313,5 +313,41 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
+	division = {
+		name = "Ditovskaya Pegazskaya Rat'"
+		location = 3560
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1. Pogranichskaya Pegazskaya Rat'"
+		location = 1859
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Pogranichskaya Pegazskaya Rat'"
+		location = 1859
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Pegazskokraiskaya Pegazskaya Rat'"
+		location = 1367
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Pegazskaya Rat' Zashchitnikov"
+		location = 1367
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
 	
 	
