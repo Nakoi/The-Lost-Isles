@@ -1,0 +1,208 @@
+﻿division_template = {
+	name = "Simingun"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_militia = { x = 0 y = 0 }
+		ranged_militia = { x = 0 y = 1 }
+		ranged_militia = { x = 1 y = 0 }
+		ranged_militia = { x = 1 y = 1 }
+	}					
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Bang-eo Yeodan"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+	}
+	
+	support = 	{
+		cannon_support = { x = 0 y = 0 }
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Dolgyeog-Yeodan"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		cannon_frontline = { x = 2 y = 0 }
+		rocket_frontline = { x = 2 y = 1 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1. Bang-eo Yeodan"
+		location = 3199
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Bang-eo Yeodan"
+		location = 4547
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Bang-eo Yeodan"
+		location = 1687
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Bang-eo Yeodan"
+		location = 4548
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Bang-eo Yeodan"
+		location = 88
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Bang-eo Yeodan"
+		location = 4551
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7. Bang-eo Yeodan"
+		location = 101
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8. Bang-eo Yeodan"
+		location = 1891
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9. Bang-eo Yeodan"
+		location = 218
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "10. Bang-eo Yeodan"
+		location = 723
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "11. Bang-eo Yeodan"
+		location = 3456
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "12. Bang-eo Yeodan"
+		location = 3456
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "13. Bang-eo Yeodan"
+		location = 3456
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "14. Bang-eo Yeodan"
+		location = 3456
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "15. Bang-eo Yeodan"
+		location = 1316
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "16. Bang-eo Yeodan"
+		location = 1316
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "17. Bang-eo Yeodan"
+		location = 4752
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "18. Bang-eo Yeodan"
+		location = 4752
+		division_template = "Bang-eo Yeodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "1. Bang-eo Yeodan"
+		location = 469
+		division_template = "Dolgyeog-Yeodan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Bang-eo Yeodan"
+		location = 469
+		division_template = "Dolgyeog-Yeodan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Bang-eo Yeodan"
+		location = 2252
+		division_template = "Dolgyeog-Yeodan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Bang-eo Yeodan"
+		location = 2252
+		division_template = "Dolgyeog-Yeodan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
