@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Subidae"
+	name = "Gyeongchaldae"
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
@@ -13,109 +13,91 @@
 }
 
 division_template = {
-	name = "Bobyeongdae"
+	name = "Sigunbudae"
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
 		ranged_infantry = { x = 0 y = 0 }
 		ranged_infantry = { x = 0 y = 1 }
 		ranged_infantry = { x = 0 y = 2 }
-		ranged_infantry = { x = 0 y = 3 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		ranged_infantry = { x = 2 y = 0 }
+		ranged_infantry = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 2 }
+		cannon_frontline = { x = 3 y = 0 }
+	}
+		
+	support = 	{
+		rocket_support = { x = 0 y = 0 }
+		sapper_company = { x = 0 y = 1 }
+		recon_company = { x = 0 y = 2 }
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Pobyeong Budae"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
 		ranged_infantry = { x = 1 y = 0 }
 		ranged_infantry = { x = 1 y = 1 }
 		ranged_infantry = { x = 1 y = 2 }
 		rocket_frontline = { x = 2 y = 0 }
 		rocket_frontline = { x = 2 y = 1 }
-		rocket_frontline = { x = 2 y = 2 }
-		rocket_frontline = { x = 2 y = 3 }
-	}
-		
-	support = 	{
-		recon_company = { x = 0 y = 0 }
 	}
 	
-	priority = 2
-}
-
-division_template = {
-	name = "Yongbyeongdan"
-	division_names_group = SOV_INF_01
-	
-	regiments = {					
-		ranged_infantry = { x = 0 y = 0 }
-		ranged_infantry = { x = 0 y = 1 }
-		ranged_infantry = { x = 0 y = 2 }
-		ranged_infantry = { x = 0 y = 3 }
-		ranged_infantry = { x = 1 y = 0 }
-		ranged_infantry = { x = 1 y = 1 }
-		ranged_infantry = { x = 1 y = 2 }
-		ranged_infantry = { x = 1 y = 3 }
-		ranged_infantry = { x = 2 y = 0 }
-		ranged_infantry = { x = 2 y = 1 }
-		ranged_infantry = { x = 2 y = 2 }
-		ranged_infantry = { x = 2 y = 3 }
-		ranged_infantry = { x = 3 y = 0 }
-		ranged_infantry = { x = 3 y = 1 }
-		ranged_infantry = { x = 3 y = 2 }
-		ranged_infantry = { x = 3 y = 3 }
-	}
-		
-	support = 	{
-		rocket_support = { x = 0 y = 0 }
-		recon_company = { x = 0 y = 1 }
-	}
-	
-	priority = 2
+	priority = 1
 }
 
 ### OOB ###
 units = {
-	#### REGULARS ####
 	division = {
-		name = "1. Bobyeongdae"
+		name = "1. Sigunbudae"
 		location = 2643
-		division_template = "Bobyeongdae"
+		division_template = "Sigunbudae"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
-	
 	division = {
-		name = "2. Bobyeongdae"
-		location = 2643
-		division_template = "Bobyeongdae"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "3. Bobyeongdae"
+		name = "2. Sigunbudae"
 		location = 1712
-		division_template = "Bobyeongdae"
+		division_template = "Sigunbudae"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Sigunbudae"
+		location = 5139
+		division_template = "Sigunbudae"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Sigunbudae"
+		location = 3436
+		division_template = "Sigunbudae"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	
-	#### MERCENARIES ####
 	division = {
-		name = "1. Yongbyeongdan"
-		location = 3436
-		division_template = "Yongbyeongdan"
-		start_experience_factor = 0.8
+		name = "1. Pobyeong Budae"
+		location = 2643
+		division_template = "Pobyeong Budae"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
-	
 	division = {
-		name = "2. Yongbyeongdan"
-		location = 3436
-		division_template = "Yongbyeongdan"
-		start_experience_factor = 0.8
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "3. Yongbyeongdan"
-		location = 3731
-		division_template = "Yongbyeongdan"
-		start_experience_factor = 0.8
+		name = "2. Pobyeong Budae"
+		location = 2643
+		division_template = "Pobyeong Budae"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
