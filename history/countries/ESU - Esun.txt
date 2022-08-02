@@ -17,6 +17,8 @@ recruit_character = ESU_Army_leader_02
 recruit_character = ESU_Army_leader_03
 recruit_character = ESU_Army_leader_04
 
+set_oob = "ESU_ARMY"
+
 set_politics = {
 	ruling_party = ideology_visionarism
 }
@@ -111,6 +113,7 @@ set_technology = {
 	Ballista = 1
 	Ballista_upgrade = 1
 	cannon = 1
+	rocket_cannon = 1
 	development = 1
 	tech_primitive = 1
 	tech_civilized = 1
