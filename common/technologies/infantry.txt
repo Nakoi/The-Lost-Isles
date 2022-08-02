@@ -1712,8 +1712,7 @@ technologies = {
             breakthrough = 1
             defense = 0.1
             hardness = 14
-            supply_consumption = 1
-            maximum_speed = 4              #  - a bit confused amol, what exactly do you mean here?
+            supply_consumption = 0.04
         }
 
         category_all_infantry = {
