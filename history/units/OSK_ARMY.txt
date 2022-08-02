@@ -1,0 +1,74 @@
+﻿division_template = {
+	name = "Rauhanturvajoukko"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_militia = { x = 0 y = 0 }
+		ranged_militia = { x = 0 y = 1 }
+		ranged_militia = { x = 1 y = 0 }
+		ranged_militia = { x = 1 y = 1 }
+	}
+
+	priority = 0
+}
+
+division_template = {
+	name = "Sorkkajalkaväenprikaati"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+	}
+
+	priority = 1
+}
+
+### OOB ###
+units = {
+	division = {
+		name = "1. Vartijajääkäriprikaati"
+		location = 2630
+		division_template = "Sorkkajalkaväenprikaati"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Vartijajääkäriprikaati"
+		location = 4071
+		division_template = "Sorkkajalkaväenprikaati"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Vartijajääkäriprikaati"
+		location = 235
+		division_template = "Sorkkajalkaväenprikaati"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Vartijajääkäriprikaati"
+		location = 217
+		division_template = "Sorkkajalkaväenprikaati"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Vartijajääkäriprikaati"
+		location = 236
+		division_template = "Sorkkajalkaväenprikaati"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Vartijajääkäriprikaati"
+		location = 4159
+		division_template = "Sorkkajalkaväenprikaati"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
