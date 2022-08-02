@@ -209,12 +209,7 @@ sub_units = {
 		suppression = 1
 		weight = 0.5
 
-        armor_value = 9
-        breakthrough = 1
-		defense = 0.1
-		hardness = 14
-
-		supply_consumption = 0.1
+		supply_consumption = 0.06
 	
 		need = {
 			rifle_equipment = 80
