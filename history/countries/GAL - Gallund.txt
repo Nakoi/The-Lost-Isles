@@ -12,6 +12,8 @@ navy_experience = 30
 
 air_experience = 30
 
+set_oob = "GAL_ARMY"
+
 recruit_character = GAL_Army_leader_01
 recruit_character = GAL_Army_leader_02
 recruit_character = GAL_Army_leader_03
@@ -33,7 +35,7 @@ set_popularities = {
 set_convoys = 100
 
 add_ideas = {
-	recruit_selectivecon
+	recruit_volunteer
 	free_trade
 	genidea_civilised_dev
 	race_deet
@@ -63,6 +65,8 @@ set_technology = {
 	infantry_weapons3 = 1
 	lamellar_armor = 1
 	plate_armor = 1
+	special_forces_concept = 1
+	sharpshooters_0 = 1
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
@@ -113,6 +117,7 @@ set_technology = {
 	trebuchet = 1
 	Ballista = 1
 	Ballista_upgrade = 1
+	anti_air_cannon = 1
 	cannon = 1
 	development = 1
 	tech_primitive = 1
