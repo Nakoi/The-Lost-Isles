@@ -1,0 +1,126 @@
+﻿division_template = {
+	name = "Milits Regiment"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_militia = { x = 0 y = 0 }
+		ranged_militia = { x = 0 y = 1 }
+		ranged_militia = { x = 1 y = 0 }
+		ranged_militia = { x = 1 y = 1 }
+	}					
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Infanteri Brigade"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+	}
+	
+	support = 	{
+		cannon_support = { x = 0 y = 0 }
+	}
+
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1. Infanteri Brigade"
+		location = 5182
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Infanteri Brigade"
+		location = 2730
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Infanteri Brigade"
+		location = 1139
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Infanteri Brigade"
+		location = 5134
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Infanteri Brigade"
+		location = 2747
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Infanteri Brigade"
+		location = 5080
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7. Infanteri Brigade"
+		location = 2726
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8. Infanteri Brigade"
+		location = 4975
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9. Infanteri Brigade"
+		location = 854
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "10. Infanteri Brigade"
+		location = 4976
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "11. Infanteri Brigade"
+		location = 985
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "12. Infanteri Brigade"
+		location = 488
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "13. Infanteri Brigade"
+		location = 2892
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
