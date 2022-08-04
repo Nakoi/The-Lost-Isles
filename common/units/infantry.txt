@@ -383,7 +383,7 @@ sub_units = {
   # #  # #    #    #   #  #               #   #  # #   # #    #  # #  #   #
 ##  #  # #    #    ### #  #                ##  ##  #   # #    #  # #  #   #
 
-	sapper_company = {
+	tli_sapper_company = {
 		abbreviation = "INF"
 		sprite = infantry
 		map_icon_category = infantry
@@ -458,7 +458,7 @@ sub_units = {
 #  # #    #   #  # #  #              #   #  # #   # #    #  # #  #   #
 #  # ###   ##  ##  #  #               ##  ##  #   # #    #  # #  #   #
 
-	recon_company = {
+	tli_recon_company = {
 		abbreviation = "INF"
 		sprite = infantry
 		map_icon_category = infantry
@@ -540,7 +540,7 @@ sub_units = {
 #   # #  #  #  #  #   #   #   #  # #  # #  #  #   #                #   #  # #   # #    #  # #  #   #
 #   # #  # ### #  #   #   ### #  # #  # #  #   ## ###               ##  ##  #   # #    #  # #  #   #
 
-	maintenance_company = {
+	tli_maintenance_company = {
 		abbreviation = "INF"
 		sprite = infantry
 		map_icon_category = infantry
@@ -589,7 +589,7 @@ sub_units = {
 #   # ### #### ###   #   #  # #  #   #             #     ##  #### ###    ## ###
 
 
-	military_police_company = {
+	tli_military_police_company = {
 		abbreviation = "INF"
 		sprite = infantry
 		map_icon_category = infantry
@@ -639,7 +639,7 @@ sub_units = {
 #    ### ### #### ###                 #  #  ##  ##  #    ###   #   #  # ####
 
 
-	field_hospital_company = {
+	tli_field_hospital_company = {
 		abbreviation = "INF"
 		sprite = infantry
 		map_icon_category = infantry
@@ -689,7 +689,7 @@ sub_units = {
 #    #  # #  #  #    #   #    #   #     #
 ####  ##   ##  ### ##    #   ###   ## ##
 
-	logistics_company = {
+	tli_logistics_company = {
 		abbreviation = "INF"
 		sprite = infantry
 		map_icon_category = infantry
