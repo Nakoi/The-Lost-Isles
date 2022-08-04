@@ -1,17 +1,17 @@
 equipments = {
 
-	smoll_artillery_equipment = {
-		year = 1934
-
+	fuckshit_one = {
+		year = 957
 		is_archetype = yes
-		picture = archetype_anti_air_equipment		
+		picture = archetype_fuckshit_one		
 		type = {
-			anti_air
-			infantry #adding infantry type
+			armor
+			#motorized #Removing motorized type
 		}
 		group_by = archetype
 		
 		interface_category = interface_category_land
+
 
 		#Misc Abilities
 		reliability = 0.8
@@ -34,52 +34,53 @@ equipments = {
 		
 		build_cost_ic = 30
 		resources = {
-			wood = 2
-			#rare_metal = 0
-			#crystal = 0
-            #wood = 1
-            #iron = 1
-			#chemicals = 1
+			wood = 1
+			rare_metal = 1
+			chemicals = 1
 		}
-
-		
+		fuel_consumption = 0.13
 	}
 
-	smoll_artillery_equipment_1 = {
-		year = 1936
+   fuckshit_one_1 = {
+		year = 957
 
-        defense = 1
-
-		archetype = anti_air_equipment
-		priority = 80
+		archetype = fuckshit_one
+		priority = 50
 		visual_level = 0
-	}
-	
-	smoll_artillery_equipment_2 = {
-		year = 1940
 
-		archetype = anti_air_equipment
-		parent = smoll_artillery_equipment_1
-		priority = 80
+	}
+
+    fuckshit_one_2 = {
+		year = 965
+
+		archetype = fuckshit_one
+		parent = fuckshit_one_1
+		priority = 50
 		visual_level = 1
 
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 6
+
+		#Defensive Abilities
 		defense = 1
 		breakthrough = 20
+		hardness = 0.01
 		armor_value = 1
-		
+
+		#Offensive Abilities
 		soft_attack = 30
 		hard_attack = 45
 		ap_attack = 45
 
-
-		build_cost_ic = 90
+		#Space taken in convoy
+		lend_lease_cost = 4
+		
+		build_cost_ic = 75
 		resources = {
 			wood = 2
-			#rare_metal = 1
-			#crystal = 0
-            #wood = 1
-			#chemicals = 2
+			rare_metal = 1
+			chemicals = 2
 		}
+		fuel_consumption = 0.13
 	}
-	
-}
