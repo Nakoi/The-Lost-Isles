@@ -1482,7 +1482,7 @@ sub_units = {
 
 
 
-	smoll_gun = {
+	light_artillery_frontline = {
 		abbreviation = "ART"
 		sprite = artillery
 		map_icon_category = infantry
@@ -1503,11 +1503,11 @@ sub_units = {
 			category_artillery
 			category_line_artillery
 			category_light_cannon
-			category_special_forces
+			#category_special_forces
 		}
 
 		need = {
-			smoll_artillery_equipment = 18
+			fuckshit_one = 18
 		}
 
 		manpower = 250
