@@ -12,6 +12,8 @@ navy_experience = 30
 
 air_experience = 30
 
+set_oob = "CIL_ARMY"
+
 set_politics = {
 	ruling_party = ideology_continuism
 }
@@ -56,9 +58,15 @@ set_technology = {
 	infantry_weapons3 = 1
 	lamellar_armor = 1
 	plate_armor = 1
+	infantry_armor = 1
+	special_forces_concept = 1
+	shock_troop_0 = 1
+	guards_0 = 1
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
 	air_frigate = 1
 	sky_carrier = 1
 	written_language = 1
@@ -107,6 +115,8 @@ set_technology = {
 	Ballista = 1
 	Ballista_upgrade = 1
 	cannon = 1
+	mortar = 1
+	anti_air_cannon = 1
 	development = 1
 	tech_primitive = 1
 	tech_civilized = 1
