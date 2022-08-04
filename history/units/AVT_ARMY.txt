@@ -71,6 +71,7 @@ division_template = {
 		ranged_infantry = { x = 2 y = 1 }
 		ranged_infantry = { x = 2 y = 2 }
 		cannon_frontline = { x = 3 y = 0 }
+		howitzer_frontline = { x = 3 y = 1 }
 	}
 	
 	support = 	{

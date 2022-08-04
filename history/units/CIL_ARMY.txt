@@ -51,16 +51,15 @@ division_template = {
 		ranged_infantry = { x = 1 y = 2 }
 		guards = { x = 2 y = 0 }
 		guards = { x = 2 y = 1 }
-		mortar_frontline = { x = 3 y = 0 }
+		cannon_frontline = { x = 3 y = 0 }
 		mortar_frontline = { x = 3 y = 1 }
 	}
 	
 	support = 	{
-		cannon_support = { x = 0 y = 0 }
 		tli_maintenance_company = { x = 0 y = 1 }
 	}
 	
-	priority = 1
+	priority = 2
 }
 
 division_template = {
@@ -81,7 +80,7 @@ division_template = {
 	}
 	
 	support = 	{
-		mortar_support = { x = 0 y = 0 }
+		cannon_support = { x = 0 y = 0 }
 	}
 	
 	priority = 1
