@@ -80,7 +80,7 @@ technologies = {
 		}
 
 
-			sapper_company = {
+			tli_sapper_company = {
 				soft_attack = -0.5
 				breakthrough = 0.1
 
@@ -158,7 +158,7 @@ technologies = {
 	
 	tech_engineers2 = {
 
-		sapper_company = {
+		tli_sapper_company = {
 			breakthrough = 0.1
 			defense = 0.10
 			
@@ -207,7 +207,7 @@ technologies = {
 	
 	tech_engineers3 = {
 
-		sapper_company = {
+		tli_sapper_company = {
 			breakthrough = 0.1
 			defense = 0.10
 			jungle = {
@@ -255,7 +255,7 @@ technologies = {
 	
 	tech_engineers4 = {
 
-		sapper_company = {
+		tli_sapper_company = {
 			entrenchment  = 5
 		}
 
@@ -295,7 +295,7 @@ technologies = {
 
 	tech_engineers5 = {
 
-		sapper_company = {
+		tli_sapper_company = {
 			breakthrough = 0.1
 			defense = 0.10
 			entrenchment  = 3
@@ -344,7 +344,7 @@ technologies = {
 	}
 	tech_engineers6 = {
 
-		sapper_company = {
+		tli_sapper_company = {
 			breakthrough = 0.1
 			defense = 0.10
 			entrenchment  = 3
@@ -392,7 +392,7 @@ technologies = {
 			tli_recon_company
 		}
 
-			recon = {
+			tli_recon_company = {
 				recon = 1
 				soft_attack = -0.9
 				hard_attack = -0.9
@@ -463,7 +463,7 @@ technologies = {
 	
 	tech_recon2 = {
 
-		category_recon = {
+		tli_recon_company = {
 			recon = 1
 		}
 		
@@ -503,7 +503,7 @@ technologies = {
 	
 	tech_recon3 = {
 
-		category_recon = {
+		tli_recon_company = {
 			recon = 1
 		}
 
@@ -542,7 +542,7 @@ technologies = {
 	}
 	tech_recon4 = {
 
-		category_recon = {
+		tli_recon_company = {
 			recon = 2
 		}
 
@@ -582,7 +582,7 @@ technologies = {
 
 	tech_recon5 = {
 
-		category_recon = {
+		tli_recon_company = {
 			recon = 2
 		}
 
@@ -621,7 +621,7 @@ technologies = {
 	}
 	tech_recon6 = {
 
-		category_recon = {
+		tli_recon_company = {
 			recon = 3
 		}
 		
@@ -660,7 +660,7 @@ technologies = {
 			tli_maintenance_company
 		}
 
-			maintenance_company = {
+			tli_maintenance_company = {
 				reliability_factor = 0.05
 				equipment_capture_factor = 0.05
 			}
@@ -702,7 +702,7 @@ technologies = {
 	
 	tech_maintenance_company2 = {
 
-		maintenance_company = {
+		tli_maintenance_company = {
 			reliability_factor = 0.05
 			equipment_capture_factor = 0.05
 		}
@@ -743,7 +743,7 @@ technologies = {
 	
 	tech_maintenance_company3 = {
 
-		maintenance_company = {
+		tli_maintenance_company = {
 			reliability_factor = 0.075
 			equipment_capture_factor = 0.075
 		}
@@ -784,7 +784,7 @@ technologies = {
 
 	tech_maintenance_company4 = {
 
-		maintenance_company = {
+		tli_maintenance_company = {
 			reliability_factor = 0.075
 			equipment_capture_factor = 0.075
 		}
@@ -824,7 +824,7 @@ technologies = {
 	}
 	tech_maintenance_company5 = {
 
-		maintenance_company = {
+		tli_maintenance_company = {
 			reliability_factor = 0.10
 			equipment_capture_factor = 0.10
 		}
@@ -864,7 +864,7 @@ technologies = {
 			tli_military_police_company
 		}
 
-			military_police_company = {
+			tli_military_police_company = {
 				suppression_factor = 0.2
 				casualty_trickleback = 0.02
 				experience_loss_factor = -0.02
@@ -907,7 +907,7 @@ technologies = {
 	
 	tech_military_police2 = {
 
-		military_police_company = {
+		tli_military_police_company = {
 			suppression_factor = 0.2
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
@@ -949,7 +949,7 @@ technologies = {
 	
 	tech_military_police3 = {
 
-		military_police_company = {
+		tli_military_police_company = {
 			suppression_factor = 0.2
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
@@ -991,7 +991,7 @@ technologies = {
 
 	tech_military_police4 = {
 
-		military_police_company = {
+		tli_military_police_company = {
 			suppression_factor = 0.2
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
@@ -1032,7 +1032,7 @@ technologies = {
 	}
 	tech_military_police5 = {
 
-		military_police_company = {
+		tli_military_police_company = {
 			suppression_factor = 0.2
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
@@ -1073,7 +1073,7 @@ technologies = {
 			tli_field_hospital_company
 		}
 
-			field_hospital_company = {
+			tli_field_hospital_company = {
 				casualty_trickleback = 0.10
 				experience_loss_factor = -0.10
 			}
@@ -1115,7 +1115,7 @@ technologies = {
 	
 	tech_field_hospital2 = {
 
-		field_hospital_company = {
+		tli_field_hospital_company = {
 			casualty_trickleback = 0.15
 			experience_loss_factor = -0.15
 		}
@@ -1156,7 +1156,7 @@ technologies = {
 	
 	tech_field_hospital3 = {
 
-		field_hospital_company = {
+		tli_field_hospital_company = {
 			casualty_trickleback = 0.15
 			experience_loss_factor = -0.15
 		}
@@ -1196,7 +1196,7 @@ technologies = {
 	}
 	tech_field_hospital4 = {
 
-		field_hospital_company = {
+		tli_field_hospital_company = {
 			casualty_trickleback = 0.20
 			experience_loss_factor = -0.20
 		}
@@ -1236,7 +1236,7 @@ technologies = {
 			tli_logistics_company
 		}
 
-			logistics_company = {
+			tli_logistics_company = {
 				supply_consumption_factor = -0.10
 				fuel_consumption_factor = -0.05
 			}
@@ -1278,7 +1278,7 @@ technologies = {
 	
 	tech_logistics_company2 = {
 
-		logistics_company = {
+		tli_logistics_company = {
 			supply_consumption_factor = -0.10
 			fuel_consumption_factor = -0.05
 		}
@@ -1319,7 +1319,7 @@ technologies = {
 	
 	tech_logistics_company3 = {
 
-		logistics_company = {
+		tli_logistics_company = {
 			supply_consumption_factor = -0.15
 			fuel_consumption_factor = -0.10
 		}
@@ -1359,7 +1359,7 @@ technologies = {
 	}
 	tech_logistics_company4 = {
 
-		logistics_company = {
+		tli_logistics_company = {
 			supply_consumption_factor = -0.15
 			fuel_consumption_factor = -0.10
 		}
