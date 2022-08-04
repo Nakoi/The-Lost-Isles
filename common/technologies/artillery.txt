@@ -1518,11 +1518,11 @@ technologies = {
 	light_artillery = {
 
 		enable_equipments = {
-			smoll_artillery_equipment_1 
+			fuckshit_one_1
 		}
 
 		enable_subunits = {
-			smoll_gun
+			light_artillery_frontline
 		}
 
 		path = {
@@ -1558,7 +1558,7 @@ technologies = {
 
 	light_artillery_upgrade_1 = {
 
-		category_light_cannon = {
+		fuckshit_one = {
 			soft_attack = 0.20
 			hard_attack = 0.20
 			supply_consumption_factor = 0.05
@@ -1598,9 +1598,9 @@ technologies = {
 	improved_light_artillery = {
 
 		enable_equipments = {
-			smoll_artillery_equipment_2
+			fuckshit_one_2
 		}
-
+		
 		path = {
 			leads_to_tech = light_artillery_upgrade_2
 			research_cost_coeff = 1
@@ -1634,7 +1634,7 @@ technologies = {
 
 	light_artillery_upgrade_2 = {
 
-		category_light_cannon = {
+		fuckshit_one = {
 			soft_attack = 0.30
 			hard_attack = 0.30
 			supply_consumption_factor = 0.05
