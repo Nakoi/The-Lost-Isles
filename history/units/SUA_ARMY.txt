@@ -31,8 +31,8 @@ division_template = {
 	}
 	
 	support = {
-		sapper_company = { x = 0 y = 0 }
-		recon_company = { x = 0 y = 1 }
+		tli_sapper_company = { x = 0 y = 0 }
+		tli_recon_company = { x = 0 y = 1 }
 	}
 	
 	priority = 1

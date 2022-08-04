@@ -50,7 +50,7 @@ division_template = {
 	}
 	
 	support = 	{
-		recon_company = { x = 0 y = 0 }
+		tli_recon_company = { x = 0 y = 0 }
 	}
 
 	priority = 1
@@ -75,8 +75,8 @@ division_template = {
 	
 	support = 	{
 		unicorn_support = { x = 0 y = 0 }
-		sapper_company = { x = 0 y = 1 }
-		recon_company = { x = 0 y = 2 }
+		tli_sapper_company = { x = 0 y = 1 }
+		tli_recon_company = { x = 0 y = 2 }
 	}
 
 	priority = 2
