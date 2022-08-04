@@ -1,0 +1,242 @@
+﻿division_template = {
+	name = "Milice"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_militia = { x = 0 y = 0 }
+		ranged_militia = { x = 0 y = 1 }
+		ranged_militia = { x = 1 y = 0 }
+		ranged_militia = { x = 1 y = 1 }
+	}					
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Brigade de Disciples de Sang"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		armored_infantry = { x = 0 y = 0 }
+		ranged_militia = { x = 0 y = 1 }
+		ranged_militia = { x = 0 y = 2 }
+		ranged_militia = { x = 0 y = 3 }
+		ranged_militia = { x = 0 y = 4 }
+		armored_infantry = { x = 1 y = 0 }
+		ranged_militia = { x = 1 y = 1 }
+		ranged_militia = { x = 1 y = 2 }
+		ranged_militia = { x = 1 y = 3 }
+		ranged_militia = { x = 1 y = 4 }
+		mortar_frontline = { x = 2 y = 0 }
+		mortar_frontline = { x = 2 y = 1 }
+	}
+	
+	support = 	{
+		tli_sapper_company = { x = 0 y = 0 }
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Brigade des Corsairs Rouges"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		guards = { x = 2 y = 0 }
+		guards = { x = 2 y = 1 }
+		mortar_frontline = { x = 3 y = 0 }
+		mortar_frontline = { x = 3 y = 1 }
+	}
+	
+	support = 	{
+		cannon_support = { x = 0 y = 0 }
+		tli_maintenance_company = { x = 0 y = 1 }
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Brigade des Galants Doreés"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		armored_infantry = { x = 0 y = 0 }
+		armored_infantry = { x = 0 y = 1 }
+		armored_infantry = { x = 0 y = 2 }
+		armored_infantry = { x = 1 y = 0 }
+		armored_infantry = { x = 1 y = 1 }
+		armored_infantry = { x = 1 y = 2 }
+		shock_troops = { x = 2 y = 0 }
+		shock_troops = { x = 2 y = 1 }
+		shock_troops = { x = 2 y = 2 }
+
+	}
+	
+	support = 	{
+		mortar_support = { x = 0 y = 0 }
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Brigade des Mécanistes"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		cannon_frontline = { x = 2 y = 0 }
+		cannon_frontline = { x = 2 y = 1 }
+
+	}
+	
+	support = 	{
+		tli_field_hospital_company = { x = 0 y = 0 }
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Brigade du Coeur Noir"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 0 y = 3 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		ranged_infantry = { x = 1 y = 3 }
+		cannon_frontline = { x = 2 y = 0 }
+		cannon_frontline = { x = 2 y = 1 }
+	}
+	
+	support = 	{
+		tli_sapper_company = { x = 0 y = 0 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1. Brigade de Disciples de Sang"
+		location = 1111
+		division_template = "Brigade de Disciples de Sang"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Brigade de Disciples de Sang"
+		location = 1111
+		division_template = "Brigade de Disciples de Sang"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Brigade de Disciples de Sang"
+		location = 1111
+		division_template = "Brigade de Disciples de Sang"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1. Brigade des Corsairs Rouges"
+		location = 566
+		division_template = "Brigade des Corsairs Rouges"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Brigade des Corsairs Rouges"
+		location = 566
+		division_template = "Brigade des Corsairs Rouges"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3.Brigade des Corsairs Rouges"
+		location = 566
+		division_template = "Brigade des Corsairs Rouges"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1. Brigade des Galants Doreés"
+		location = 5263
+		division_template = "Brigade des Galants Doreés"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Brigade des Galants Doreés"
+		location = 5263
+		division_template = "Brigade des Galants Doreés"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Brigade des Galants Doreés"
+		location = 5263
+		division_template = "Brigade des Galants Doreés"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1. Brigade des Mécanistes"
+		location = 1013
+		division_template = "Brigade des Mécanistes"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Brigade des Mécanistes"
+		location = 1013
+		division_template = "Brigade des Mécanistes"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Brigade des Mécanistes"
+		location = 1013
+		division_template = "Brigade des Mécanistes"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1. Brigade du Coeur Noir"
+		location = 5199
+		division_template = "Brigade du Coeur Noir"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Brigade du Coeur Noir"
+		location = 5199
+		division_template = "Brigade du Coeur Noir"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Brigade du Coeur Noir"
+		location = 5199
+		division_template = "Brigade du Coeur Noir"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
