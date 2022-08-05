@@ -12,6 +12,8 @@ navy_experience = 30
 
 air_experience = 30
 
+set_oob = "VED_ARMY"
+
 set_politics = {
 	ruling_party = ideology_militarism
 }
@@ -106,6 +108,7 @@ set_technology = {
 	Ballista = 1
 	Ballista_upgrade = 1
 	cannon = 1
+	mortar = 1
 	development = 1
 	tech_primitive = 1
 	tech_civilized = 1
