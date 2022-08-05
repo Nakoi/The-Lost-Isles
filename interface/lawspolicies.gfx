@@ -35,6 +35,11 @@ spriteTypes = {
 	###RECRUITMENT POLICY###
 	
 	SpriteType = {
+		name = "GFX_idea_recruit_irregular_army"
+		texturefile = "gfx/interface/ideas/irregular_army.dds"	
+	}
+	
+	SpriteType = {
 		name = "GFX_idea_recruit_militia_peacetime"
 		texturefile = "gfx/interface/ideas/peacetime_militia.dds"	
 	}
