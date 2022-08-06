@@ -1,0 +1,115 @@
+﻿division_template = {
+	name = "Milizia"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_militia = { x = 0 y = 0 }
+		ranged_militia = { x = 0 y = 1 }
+		ranged_militia = { x = 1 y = 0 }
+		ranged_militia = { x = 1 y = 1 }
+	}					
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Brigada de Mosqueters"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		cannon_frontline = { x = 2 y = 0 }
+		mortar_frontline = { x = 2 y = 1 }
+	}
+	
+	support = 	{
+		rocket_support = { x = 0 y = 0 }
+		tli_maintenance_company = { x = 0 y = 1 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1. Brigada de Mosqueters"
+		location = 899
+		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Brigada de Mosqueters"
+		location = 8454
+		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Brigada de Mosqueters"
+		location = 4886
+		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Brigada de Mosqueters"
+		location = 3797
+		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Brigada de Mosqueters"
+		location = 1210
+		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Brigada de Mosqueters"
+		location = 5001
+		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7. Brigada de Mosqueters"
+		location = 1224
+		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8. Brigada de Mosqueters"
+		location = 3916
+		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9. Brigada de Mosqueters"
+		location = 3916
+		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "10. Brigada de Mosqueters"
+		location = 3178
+		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "11. Brigada de Mosqueters"
+		location = 3178
+		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
