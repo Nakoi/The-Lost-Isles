@@ -1,0 +1,145 @@
+﻿division_template = {
+	name = "Milizia"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_militia = { x = 0 y = 0 }
+		ranged_militia = { x = 0 y = 1 }
+		ranged_militia = { x = 1 y = 0 }
+		ranged_militia = { x = 1 y = 1 }
+	}					
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Brigada d'Infanteria"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		armored_infantry = { x = 0 y = 0 }
+		armored_infantry = { x = 0 y = 1 }
+		armored_infantry = { x = 0 y = 2 }
+		armored_infantry = { x = 1 y = 0 }
+		armored_infantry = { x = 1 y = 1 }
+		armored_infantry = { x = 1 y = 2 }
+	}
+	
+	support = 	{
+		cannon_support = { x = 0 y = 0 }
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Brigada de Guàrdies"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		shock_troops = { x = 0 y = 0 }
+		shock_troops = { x = 0 y = 1 }
+		shock_troops = { x = 0 y = 2 }
+		shock_troops = { x = 1 y = 0 }
+		shock_troops = { x = 1 y = 1 }
+		shock_troops = { x = 1 y = 2 }
+		shock_troops = { x = 2 y = 0 }
+		shock_troops = { x = 2 y = 1 }
+		shock_troops = { x = 2 y = 2 }
+		cannon_frontline = { x = 3 y = 0 }
+		cannon_frontline = { x = 3 y = 1 }
+	}
+	
+	support = 	{
+		tli_sapper_company = { x = 0 y = 0 }
+		tli_recon_company = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1. Brigada de Guàrdies"
+		location = 106
+		division_template = "Brigada de Guàrdies"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Brigada de Guàrdies"
+		location = 106
+		division_template = "Brigada de Guàrdies"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Brigada de Guàrdies"
+		location = 106
+		division_template = "Brigada de Guàrdies"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1. Brigada d'Infanteria"
+		location = 1034
+		division_template = "Brigada d'Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Brigada d'Infanteria"
+		location = 207
+		division_template = "Brigada d'Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Brigada d'Infanteria"
+		location = 1391
+		division_template = "Brigada d'Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Brigada d'Infanteria"
+		location = 1461
+		division_template = "Brigada d'Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Brigada d'Infanteria"
+		location = 3442
+		division_template = "Brigada d'Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Brigada d'Infanteria"
+		location = 3352
+		division_template = "Brigada d'Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7. Brigada d'Infanteria"
+		location = 3386
+		division_template = "Brigada d'Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8. Brigada d'Infanteria"
+		location = 5002
+		division_template = "Brigada d'Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9. Brigada d'Infanteria"
+		location = 1085
+		division_template = "Brigada d'Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
