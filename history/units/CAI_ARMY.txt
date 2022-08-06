@@ -1,0 +1,120 @@
+﻿division_template = {
+	name = "Simingun"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_militia = { x = 0 y = 0 }
+		ranged_militia = { x = 0 y = 1 }
+		ranged_militia = { x = 1 y = 0 }
+		ranged_militia = { x = 1 y = 1 }
+	}					
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Brigada de Infantaria"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+	}
+	
+	support = 	{
+		cannon_support = { x = 0 y = 0 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1. Brigada de Infantaria"
+		location = 4733
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Brigada de Infantaria"
+		location = 4733
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Brigada de Infantaria"
+		location = 4733
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Brigada de Infantaria"
+		location = 5036
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Brigada de Infantaria"
+		location = 5036
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Brigada de Infantaria"
+		location = 5036
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7. Brigada de Infantaria"
+		location = 2011
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8. Brigada de Infantaria"
+		location = 2011
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9. Brigada de Infantaria"
+		location = 2011
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "10. Brigada de Infantaria"
+		location = 1714
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "11. Brigada de Infantaria"
+		location = 2922
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "12. Brigada de Infantaria"
+		location = 110
+		division_template = "Brigada de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
