@@ -12,6 +12,8 @@ navy_experience = 30
 
 air_experience = 30
 
+set_oob = "SUN_ARMY"
+
 set_politics = {
 	ruling_party = ideology_imperialism
 }
@@ -54,6 +56,9 @@ set_technology = {
 	infantry_weapons3 = 1
 	lamellar_armor = 1
 	plate_armor = 1
+	infantry_armor = 1
+	special_forces_concept = 1
+	shock_troops_0 = 1
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
