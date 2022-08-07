@@ -48,9 +48,13 @@ focus_tree = {
 				has_war = yes
 				has_government = ideology_isolationism
 			}
+			NOT = {
+				has_country_flag = genflag_chill_the_fuck_out
+			}
 		}
 			
 		completion_reward = {
+			set_country_flag = { flag = genflag_chill_the_fuck_out value = 1 days = 360 }
 			random_neighbor_country = {
 				FROM = {
                     create_wargoal = {
@@ -79,9 +83,13 @@ focus_tree = {
 				has_government = ideology_isolationism
 				has_government = ideology_solidarism
 			}
+			NOT = {
+				has_country_flag = genflag_chill_the_fuck_out
+			}
 		}
 			
 		completion_reward = {
+			set_country_flag = { flag = genflag_chill_the_fuck_out value = 1 days = 360 }
 			random_neighbor_country = {
 				FROM = {
                     create_wargoal = {
@@ -111,9 +119,13 @@ focus_tree = {
 				has_government = ideology_solidarism
 				has_government = ideology_continuism
 			}
+			NOT = {
+				has_country_flag = genflag_chill_the_fuck_out
+			}
 		}
 			
 		completion_reward = {
+			set_country_flag = { flag = genflag_chill_the_fuck_out value = 1 days = 360 }
 			random_neighbor_country = {
 				FROM = {
                     create_wargoal = {
