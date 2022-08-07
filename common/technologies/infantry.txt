@@ -321,7 +321,7 @@ technologies = {
 		}
         
 		dependencies = {
-            tech_civilized = 1
+            tech_primitive = 1
         }
 		
         # Controls which folder (tab) the technology appears under.
@@ -1176,17 +1176,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_regular_infantry = {
-            hard_attack = 0.15
-            ap_attack = 0.15
-            supply_consumption = 0.03
-        }
-		category_armored_infantry = {
-            hard_attack = 0.15
-            ap_attack = 0.15
-            supply_consumption = 0.03
-        }
-		category_elite_infantry = {
+        category_all_infantry = {
             hard_attack = 0.15
             ap_attack = 0.15
             supply_consumption = 0.03
@@ -1240,7 +1230,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_regular_infantry = {
+        category_all_infantry = {
             hard_attack = 0.15
             ap_attack = 0.15
         }
@@ -1293,7 +1283,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_regular_infantry = {
+        category_all_infantry = {
             hard_attack = 0.15
             ap_attack = 0.15
         }
@@ -1341,7 +1331,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_regular_infantry = {
+        category_all_infantry = {
             hard_attack = 0.25
             ap_attack = 0.25
         }
@@ -1352,7 +1342,7 @@ technologies = {
         start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
         
 		dependencies = {
-            tech_civilized = 1
+            tech_primitive = 1
         }
 		
         # Controls which folder (tab) the technology appears under.
@@ -1405,7 +1395,7 @@ technologies = {
         start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
         
 		dependencies = {
-            tech_civilized = 1
+           tech_primitive = 1
         }
 		
         # Controls which folder (tab) the technology appears under.
@@ -2321,8 +2311,9 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
-
-        special_forces_cap = 0.1
+		
+		special_forces_min = 36
+        special_forces_cap = 0.25
     }
 
     shock_troops_0 = {
