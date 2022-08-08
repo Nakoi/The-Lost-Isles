@@ -3098,6 +3098,9 @@ focus_tree = {
 				tooltip = gentext_civilised_dev
 				has_idea = genidea_civilised_dev
 			}
+			any_owned_state = {
+				is_coastal = yes
+			}
 		}
 		bypass = {
 			has_idea = genidea_industrial_dev
@@ -5233,6 +5236,9 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+			any_owned_state = {
+				is_coastal = yes
 			}
 		}
 		
