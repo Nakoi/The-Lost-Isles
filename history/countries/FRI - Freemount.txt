@@ -102,3 +102,7 @@ set_technology = {
 	tech_civilized = 1
 }
 
+declare_war_on = {
+	target = HIL
+	type = annex_everything
+}

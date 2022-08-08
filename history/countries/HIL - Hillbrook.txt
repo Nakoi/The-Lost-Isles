@@ -103,3 +103,7 @@ set_technology = {
 	tech_civilized = 1
 }
 
+declare_war_on = {
+	target = VRA
+	type = annex_everything
+}
