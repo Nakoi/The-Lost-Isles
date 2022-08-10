@@ -1517,9 +1517,9 @@ technologies = {
 
 	light_artillery = {
 
-		#enable_equipments = {
-			#fuckshit_one_1
-		#}
+		enable_equipments = {
+			fuckshit_one_1
+		}
 
 		enable_subunits = {
 			light_artillery_frontline
@@ -1558,7 +1558,7 @@ technologies = {
 
 	light_artillery_upgrade_1 = {
 
-		fuckshit_one = {
+		category_light_artillery = {
 			soft_attack = 0.20
 			hard_attack = 0.20
 			supply_consumption_factor = 0.05
@@ -1597,9 +1597,9 @@ technologies = {
 
 	improved_light_artillery = {
 
-		#enable_equipments = {
-			#fuckshit_one_2
-		#}
+		enable_equipments = {
+			fuckshit_one_2
+		}
 		
 		path = {
 			leads_to_tech = light_artillery_upgrade_2
@@ -1634,7 +1634,7 @@ technologies = {
 
 	light_artillery_upgrade_2 = {
 
-		fuckshit_one = {
+		category_light_artillery = {
 			soft_attack = 0.30
 			hard_attack = 0.30
 			supply_consumption_factor = 0.05
