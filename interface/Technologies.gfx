@@ -1687,6 +1687,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/grenade_2.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_air_skirmisher_medium"
+		texturefile = "gfx/interface/technologies/Air_Skirmisher_01.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_air_carabiners_medium"
+		texturefile = "gfx/interface/technologies/Air_Skirmisher_02.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_air_carabiners_medium"
+		texturefile = "gfx/interface/technologies/Air_Skirmisher_03.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_air_striker_medium"
+		texturefile = "gfx/interface/technologies/Air_Striker_01.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_air_grenadiers_medium"
+		texturefile = "gfx/interface/technologies/Air_Striker_02.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_air_grenadiers_medium"
+		texturefile = "gfx/interface/technologies/Air_Striker_03.dds"
+	}
+
 	#  #  ##  #  #  ##  #
 	## # #  # #  # #  # #
 	# ## #### #  # #### #
