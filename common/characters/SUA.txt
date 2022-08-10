@@ -1,0 +1,19 @@
+characters={
+SUA_Army_leader_01={
+        name=SUA_Army_leader_01_name
+        portraits={
+            army={
+		large="GFX/leaders/SUA/SUA_Army_leader_01.tga"
+            }	
+        }
+	field_marshal={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+}
