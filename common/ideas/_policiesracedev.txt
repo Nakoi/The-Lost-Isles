@@ -71,6 +71,175 @@ ideas = {
 				always = no
 			}
 		}
+		
+		race_hippogriff = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_griffon = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_kirin = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_parrot = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_dragon = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_dog = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_bug = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_gargoyle = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_zebra = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_donk = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_minotaur = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_centaur = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
+		
+		race_horse = {
+			
+			cost = -1
+			removal_cost = -1
+			level = 1
+			
+			cancel_if_invalid = no
+			
+			available = {
+				always = no
+			}
+		}
 	}
 	
 	government_type = { 
