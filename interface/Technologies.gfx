@@ -622,6 +622,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/aa_upgrade_5.dds"
 	}
 
+
 	###   ##    ## #  # ### #####  ##
 	#  # #  #  #   # #  #     #   #
 	###  #  # #    ##   ##    #    #
@@ -1716,6 +1717,43 @@ spriteTypes = {
 		name = "GFX_modern_air_grenadiers_medium"
 		texturefile = "gfx/interface/technologies/Air_Striker_03.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_as_fighter_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/SwordBayonet.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_as_fighter_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/ExtraTraining.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_as_fighter_upgrade3_medium"
+		texturefile = "gfx/interface/technologies/inf_eq_upgrade_10.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_as_fighter_upgrade4_medium"
+		texturefile = "gfx/interface/technologies/AmmoSupply.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_as_bomber_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/FlachetteDarts.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_as_bomber_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/Spotters.dds"
+	}
+
+
+	 ##  ### ###           ## #  # ###
+	#  #  #  #  #         #   # #   #
+	####  #  ###    ###    #  ##    #
+	#  #  #  #  #           # # #   #
+	#  # ### #  #         ##  # #  ###
 
 	#  #  ##  #  #  ##  #
 	## # #  # #  # #  # #
