@@ -1680,12 +1680,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_reliable_loadout_medium"
-		texturefile = "gfx/interface/technologies/grenade_2.dds"
+		texturefile = "gfx/interface/technologies/Fire_ammo_cannon.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_experimental_loadout_medium"
-		texturefile = "gfx/interface/technologies/grenade_2.dds"
+		texturefile = "gfx/interface/technologies/ExperimentalLoadout.dds"
 	}
 
 	SpriteType = {
