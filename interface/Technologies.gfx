@@ -1748,6 +1748,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Spotters.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_as_bomber_upgrade3_medium"
+		texturefile = "gfx/interface/technologies/Fire_ammo_cannon_upgrade_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_as_bomber_upgrade4_medium"
+		texturefile = "gfx/interface/technologies/RevolverUpgrades.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_as_bomber_upgrade5_medium"
+		texturefile = "gfx/interface/technologies/Explosive_musket_balls.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_as_fighter_upgrade5_medium"
+		texturefile = "gfx/interface/technologies/EnhancingShot.dds"
+	}
+
 
 	 ##  ### ###           ## #  # ###
 	#  #  #  #  #         #   # #   #
