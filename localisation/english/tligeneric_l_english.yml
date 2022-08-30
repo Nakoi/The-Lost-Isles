@@ -779,13 +779,25 @@
  
 ###GENERIC TOOLTIPS###
  gentext_firewire_pls:0 "firewire pls help :("
+ gentext_build_roads_tooltip:0 "At least 2 levels of infrastructure on every owned and controlled province."
+  
  gentext_primitive_dev:0 "§GPrimitive Development Stage§!"
  gentext_civilised_dev:0 "§YCivilised Development Stage§!"
  gentext_industrial_dev:0 "§OIndustrial Development Stage§!"
- gentext_has_militia:0 "Military Reliant on Militias"
- gentext_has_conscription:0 "Has Conscription"
  gentext_primitive_civilised_advancement:0 "§YAdvance to Civilised Development!§!"
  gentext_civilised_industrial_advancement:0 "§OAdvance to Industrial Development!§!"
- gentext_build_roads_tooltip:0 "At least 2 levels of infrastructure on every owned and controlled province."
+ 
+ gentext_look_at_decisions:0 "Changed via Recruitment Decisions"
+ gentext_recruitment_decision_cost:0 "£command_power §Y100§!"
+ gentext_recruitment_decision_cost_blocked:0 "£command_power §R100§!"
+ gentext_recruitment_decision_cost_tooltip:0 "It costs £command_power §Y100§! to take this decision."
+ gentext_recruitment_decision_cost50:0 "£command_power §Y50§!"
+ gentext_recruitment_decision_cost50_blocked:0 "£command_power §R50§!"
+ gentext_recruitment_decision_cost50_tooltip:0 "It costs £command_power §Y50§! to take this decision."
+ gentext_has_militia:0 "Militia Army"
+ gentext_has_mobilised_militia:0 "Mobilised Militia Army"
+ gentext_has_volarmy:0 "Volunteer Army"
+ gentext_has_conscription:0 "Conscript Army"
+ gentext_has_massconscription:0 "Has Conscripted Everyone"
  
  genflag_chill_the_fuck_out:0 "At least a year has passed since our last conquest."
