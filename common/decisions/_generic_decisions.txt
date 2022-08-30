@@ -1,223 +1,385 @@
-propaganda_efforts = {
+gendecision_recruitment = {
 	
+	gendecision_volunteer_militia = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_has_volarmy
+				has_idea = recruit_volunteer
+			}
+		}
+		custom_cost_trigger = {
+			command_power > 99
+		}
+		custom_cost_text = gentext_recruitment_decision_cost
+		
+		#visible = {
+    		has_idea = recruit_volunteer
+		#}
 
-    	war_propaganda = {
+  		fire_only_once = no
 
-        	icon = generic_prepare_civil_war
+		days_remove = 120
 
-        	available = {
-            	NOT = { has_country_flag = war_propaganda_campaign_running }
-            	threat > 0.5
-            	has_war_support < 0.5
-            	has_offensive_war = no
-            	if = {
-                	limit = {
-                    	tag = SPR
-                    	has_dlc = "La Resistance"
-                	}
-                	NOT = {
-                    	has_idea = SPR_political_violence
-                	}
-            	}
-            	if = {
-                	limit = {
-                    	original_tag = SPR
-                    	has_dlc = "La Resistance"
-                	}
-                	has_global_flag = scw_over
-            }
-        
-
-        	visible = {
-
-        	}
-
-        	fire_only_once = no
-
-        	days_remove = 90
-        	days_re_enable = 180
-
-        	cost = 150
-
-        	modifier = {
-            	war_support_weekly = 0.01
-        	}
-
-        	complete_effect = {
-            	set_country_flag = war_propaganda_campaign_running
-        	}
-        	remove_effect = {
-            	clr_country_flag = war_propaganda_campaign_running
-        	}
-
-        	ai_will_do = {
-            	base = 0
-            	modifier = {
-                	add = 1
-                	has_war_support < 0.4
-                	has_war = yes
-            	}
-        	}
-    	}
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = recruit_volunteer
+				add_idea = recruit_militia_peacetime
+			}
+			hidden_effect = {
+				add_command_power = -100
+			}
+		}
 	}
-}
-gendecision_arms_trade = {
 	
-	gendecision_buy_infeq = {
+	gendecision_volunteer_selcon = {
 		available = {
-			has_equipment = {
-				convoy > 5
-			}
-			any_owned_state = {
-				has_resources_amount = { resource = luxuries amount > 7 }	
+			custom_trigger_tooltip = {
+				tooltip = gentext_has_volarmy
+				has_idea = recruit_volunteer
 			}
 		}
-
-		random_owned_controlled_state = {
-    		limit = {
-        		has_resources_amount = {
-        			resource = luxuries
-        			amount > 7
-				}
-        	}
+		
+		custom_cost_trigger = {
+			command_power > 99
 		}
-
-		visible = {
-    		always = yes
-		}
+		custom_cost_text = gentext_recruitment_decision_cost
+		
+		#visible = {
+    		has_idea = recruit_volunteer
+		#}
 
   		fire_only_once = no
 
 		days_remove = 120
-		days_re_enable = 60
-
-		#modifier = {
-		#	country_resource_luxuries = -2	
-		#}
 
 		complete_effect = {
-			add_equipment_to_stockpile = {
-				type = convoy
-				amount = -6
+			swap_ideas = {
+				remove_idea = recruit_volunteer
+				add_idea = recruit_selectivecon
 			}
-		TLI_luxuries_8 = yes
-			
-		}
-		remove_effect = {
-			add_equipment_to_stockpile = {
-				type = rifle_equipment_3
-				amount = 2500
+			hidden_effect = {
+				add_command_power = -100
 			}
-			add_equipment_to_stockpile = {
-				type = convoy
-				amount = 6
-			}
-			TLI_luxuries_8_remove = yes
 		}
 	}
-	gendecision_buy_infeq16 = {
+	
+	gendecision_militia_mobilise = {
 		available = {
-			has_equipment = {
-				convoy > 5
+			custom_trigger_tooltip = {
+				tooltip = gentext_has_militia
+				has_idea = recruit_militia_peacetime
 			}
-			any_owned_state = {
-				has_resources_amount = { resource = luxuries amount > 15 }	
-			}
+			has_war = yes
 		}
-
-		random_owned_controlled_state = {
-    		limit = {
-        		has_resources_amount = {
-        			resource = luxuries
-        			amount > 15
-				}
-        	}
+		
+		custom_cost_trigger = {
+			command_power > 49
 		}
-
-		visible = {
-    		always = yes
-		}
+		custom_cost_text = gentext_recruitment_decision_cost50
+		
+		#visible = {
+    		has_idea = recruit_militia_peacetime
+		#}
 
   		fire_only_once = no
 
-		days_remove = 120
-		days_re_enable = 60
-
-		#modifier = {
-		#	country_resource_luxuries = -2	
-		#}
-
 		complete_effect = {
-			add_equipment_to_stockpile = {
-				type = convoy
-				amount = -6
+			swap_ideas = {
+				remove_idea = recruit_militia_peacetime
+				add_idea = recruit_militia_wartime
 			}
-		TLI_luxuries_16 = yes
-			
-		}
-		remove_effect = {
-			add_equipment_to_stockpile = {
-				type = rifle_equipment_3
-				amount = 2500
+			hidden_effect = {
+				add_command_power = -50
 			}
-			add_equipment_to_stockpile = {
-				type = convoy
-				amount = 6
-			}
-			TLI_luxuries_16_remove = yes
 		}
 	}
-
-	gendecision_buy_infeq32 = {
+	
+	gendecision_militia_demobilise = {
 		available = {
-			has_equipment = {
-				convoy > 5
+			custom_trigger_tooltip = {
+				tooltip = gentext_has_mobilised_militia
+				has_idea = recruit_militia_wartime
 			}
-			any_owned_state = {
-				has_resources_amount = { resource = luxuries amount > 31 }	
+			has_war = no
+		}
+		
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = gentext_recruitment_decision_cost50
+		
+		#visible = {
+    		has_idea = recruit_militia_wartime
+		#}
+		
+		days_remove = 365
+		
+  		fire_only_once = no
+
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = recruit_militia_wartime
+				add_idea = recruit_militia_peacetime
+			}
+			hidden_effect = {
+				add_command_power = -50
 			}
 		}
-
-		random_owned_controlled_state = {
-    		limit = {
-        		has_resources_amount = {
-        			resource = luxuries
-        			amount > 31
-				}
-        	}
+	}
+	
+	gendecision_militia_volunteer = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_has_militia
+				has_idea = recruit_militia_peacetime
+			}
 		}
-
-		visible = {
-    		always = yes
+		
+		custom_cost_trigger = {
+			command_power > 99
 		}
+		custom_cost_text = gentext_recruitment_decision_cost
+		
+		#visible = {
+    		has_idea = recruit_militia_peacetime
+		#}
 
   		fire_only_once = no
 
 		days_remove = 120
-		days_re_enable = 60
-
-		#modifier = {
-		#	country_resource_luxuries = -2	
-		#}
 
 		complete_effect = {
-			add_equipment_to_stockpile = {
-				type = convoy
-				amount = -6
+			swap_ideas = {
+				remove_idea = recruit_militia_peacetime
+				add_idea = recruit_volunteer
 			}
-		TLI_luxuries_32 = yes
-			
 		}
+	}
+	
+	gendecision_militia_selcon = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_has_militia
+				has_idea = recruit_militia_peacetime
+			}
+		}
+		
+		custom_cost_trigger = {
+			command_power > 99
+		}
+		custom_cost_text = gentext_recruitment_decision_cost
+		
+		#visible = {
+    		has_idea = recruit_militia_peacetime
+		#}
+
+  		fire_only_once = no
+
+		days_remove = 120
+
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = recruit_militia_peacetime
+				add_idea = recruit_selectivecon
+			}
+		}
+	}
+	
+	gendecision_selcon_militia = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_has_conscription
+				has_idea = recruit_selectivecon
+			}
+		}
+		
+		custom_cost_trigger = {
+			command_power > 99
+		}
+		custom_cost_text = gentext_recruitment_decision_cost
+		
+		#visible = {
+    		has_idea = recruit_selectivecon
+		#}
+
+  		fire_only_once = no
+
+		days_remove = 120
+
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = recruit_selectivecon
+				add_idea = recruit_militia_peacetime
+			}
+		}
+	}
+	
+	gendecision_selcon_volunteer = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_has_conscription
+				has_idea = recruit_selectivecon
+			}
+		}
+		
+		custom_cost_trigger = {
+			command_power > 99
+		}
+		custom_cost_text = gentext_recruitment_decision_cost
+		
+		#visible = {
+    		has_idea = recruit_selectivecon
+		#}
+
+  		fire_only_once = no
+
+		days_remove = 120
+
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = recruit_selectivecon
+				add_idea = recruit_volunteer
+			}
+		}
+	}
+	
+	gendecision_selcon_unicon = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_has_conscription
+				has_idea = recruit_selectivecon
+			}
+			custom_trigger_tooltip = {
+				tooltip = gentext_industrial_dev
+				has_idea = genidea_industrial_dev
+			}
+		}
+		
+		custom_cost_trigger = {
+			command_power > 99
+		}
+		custom_cost_text = gentext_recruitment_decision_cost
+		
+		#visible = {
+    		has_idea = recruit_selectivecon
+		#}
+
+  		fire_only_once = no
+
+		days_remove = 120
+
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = recruit_selectivecon
+				add_idea = recruit_universalcon
+			}
+		}
+	}
+	
+	gendecision_goblinmode = {
+		available = {
+			has_manpower < 999
+			has_war = yes
+		}
+		
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = gentext_recruitment_decision_cost50
+		
+		#visible = {
+    		has_war = yes
+		#}
+
+  		fire_only_once = no
+
+		complete_effect = {
+			IF = {
+				limit = {
+					has_idea = recruit_militia_peacetime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_masscon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_wartime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_wartime
+					add_idea = recruit_masscon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_volunteer
+				}
+				swap_ideas = {
+					remove_idea = recruit_volunteer
+					add_idea = recruit_masscon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_masscon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_universalcon
+				}
+				swap_ideas = {
+					remove_idea = recruit_universalcon
+					add_idea = recruit_masscon
+				}
+			hidden_effect = {
+				add_command_power = -50
+			}
+			}
+		}
+	}
+	
+	gendecision_goblinmode_off = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gentext_has_massconscription
+				has_idea = recruit_masscon
+			}
+			has_war = no
+		}
+		
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		custom_cost_text = gentext_recruitment_decision_cost50
+		
+		#visible = {
+    		has_idea = recruit_masscon
+		#}
+		
+		days_remove = 365
+		
+  		fire_only_once = no
+
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = recruit_masscon
+				add_idea = recruit_universalcon
+			}
+			add_ideas = genidea_ptsd
+			hidden_effect = {
+				add_command_power = -50
+			}
+		}
+		
 		remove_effect = {
-			add_equipment_to_stockpile = {
-				type = rifle_equipment_3
-				amount = 2500
-			}
-			add_equipment_to_stockpile = {
-				type = convoy
-				amount = 6
-			}
-			TLI_luxuries_32_remove = yes
+			remove_ideas = genidea_ptsd
 		}
 	}
 }
