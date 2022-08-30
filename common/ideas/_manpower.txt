@@ -11,7 +11,10 @@ ideas = {
 			level = 1
 			
 			available = {
-				
+				custom_trigger_tooltip = {
+					tooltip = gentext_look_at_decisions
+					has_idea = genidea_unobtainable
+				}
 			}
 
 			modifier = {
@@ -32,7 +35,10 @@ ideas = {
 			level = 1
 			
 			available = {
-				
+				custom_trigger_tooltip = {
+					tooltip = gentext_look_at_decisions
+					has_idea = genidea_unobtainable
+				}
 			}
 
 			modifier = {
@@ -58,10 +64,9 @@ ideas = {
 			
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = gentext_has_militia
-					has_idea = recruit_militia_peacetime
+					tooltip = gentext_look_at_decisions
+					has_idea = genidea_unobtainable
 				}
-				has_war = yes
 			}
 			
 			modifier = {
@@ -88,7 +93,10 @@ ideas = {
 			level = 1
 			
 			available = {
-				
+				custom_trigger_tooltip = {
+					tooltip = gentext_look_at_decisions
+					has_idea = genidea_unobtainable
+				}
 			}
 
 			modifier = {
@@ -114,7 +122,10 @@ ideas = {
 			level = 1
 			
 			available = {
-				
+				custom_trigger_tooltip = {
+					tooltip = gentext_look_at_decisions
+					has_idea = genidea_unobtainable
+				}
 			}
 
 			modifier = {
@@ -138,8 +149,8 @@ ideas = {
 			
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = gentext_industrial_dev
-					has_idea = genidea_industrial_dev
+					tooltip = gentext_look_at_decisions
+					has_idea = genidea_unobtainable
 				}
 			}
 
@@ -160,13 +171,9 @@ ideas = {
 			
 			available = {
 				custom_trigger_tooltip = {
-				tooltip = gentext_has_conscription
-				OR = {
-					has_idea = recruit_selectivecon
-					has_idea = recruit_universalcon
+					tooltip = gentext_look_at_decisions
+					has_idea = genidea_unobtainable
 				}
-			}
-				has_war = yes
 			}
 			
 			modifier = {

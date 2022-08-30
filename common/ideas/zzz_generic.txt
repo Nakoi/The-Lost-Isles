@@ -2,6 +2,26 @@ ideas = {
 
 	country = {
 		
+		genidea_unobtainable = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		}
+		
+		genidea_ptsd = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				army_org_factor = -0.33
+			}
+		}
+		
 ##################################
 #GENERIC GOVERNMENT SECTION IDEAS#
 ##################################
