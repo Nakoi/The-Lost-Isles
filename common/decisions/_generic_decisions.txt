@@ -307,7 +307,7 @@ gendecision_recruitment = {
 				}
 				swap_ideas = {
 					remove_idea = recruit_militia_peacetime
-					add_idea = recruit_masscon
+					add_idea = recruit_universalcon
 				}
 			}
 			IF = {
@@ -316,7 +316,7 @@ gendecision_recruitment = {
 				}
 				swap_ideas = {
 					remove_idea = recruit_militia_wartime
-					add_idea = recruit_masscon
+					add_idea = recruit_universalcon
 				}
 			}
 			IF = {
@@ -325,7 +325,7 @@ gendecision_recruitment = {
 				}
 				swap_ideas = {
 					remove_idea = recruit_volunteer
-					add_idea = recruit_masscon
+					add_idea = recruit_universalcon
 				}
 			}
 			IF = {
@@ -334,7 +334,7 @@ gendecision_recruitment = {
 				}
 				swap_ideas = {
 					remove_idea = recruit_selectivecon
-					add_idea = recruit_masscon
+					add_idea = recruit_universalcon
 				}
 			}
 			hidden_effect = {
