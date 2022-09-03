@@ -575,6 +575,21 @@
  genidea_peaceful_and_prosperous:0 "Peaceful and Prosperous"
  genidea_geared_for_war:0 "Geared for War"
  
+###GNERIC DECISIONS###
+ gendecision_volunteer_militia:0 "Reduce the Regular Army"
+ gendecision_volunteer_selcon:0 "Introduce Conscription"
+ gendecision_militia_mobilise:0 "Mobilise the Militias"
+ gendecision_militia_demobilise:0 "Demobilise the Militias"
+ gendecision_militia_volunteer:0 "Expand the Regular Army"
+ gendecision_militia_selcon:0 "Introduce Conscription"
+ gendecision_selcon_militia:0 "Disband the Draft Reserve"
+ gendecision_selcon_volunteer:0 "Suspend Conscription"
+ gendecision_unicon:0 "Introduce Universal Conscription"
+ gendecision_goblinmode:0 "Introduce Mass Conscription"
+ gendecision_goblinmode_off:0 "Recover from the War"
+ 
+ genidea_militia_demob:0 "Militia Demobilisation"
+ 
 ###GENERIC ADVISOR TRAITS###
  advtrait_rural_aristocrat:0 "Rural Aristocrat"
  advtrait_restless_warrior:0 "Restless Warrior"
