@@ -42,7 +42,7 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.01
+				conscription = 0.015
 				army_attack_factor = 0.2
 				army_defence_factor = 0.2
 				army_org_factor = 0.2
@@ -189,9 +189,18 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-	
-	country = {
-		genidea_army_reorg = {
+
+country = {
+		
+		genidea_unobtainable = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+		}
+		
+		genidea_ptsd = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -199,11 +208,19 @@ ideas = {
 			}
 			
 			modifier = {
-				mobilization_speed = -0.5
-				command_power_gain = -0.8
-				training_time_factor = 0.3
-				political_power_cost = 0.2
-				army_org_factor = -0.15
+				army_org_factor = -0.33
+			}
+		}
+		
+		genidea_militia_demob = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				conscription = 0.03
 			}
 		}
 	}
