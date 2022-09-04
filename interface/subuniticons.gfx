@@ -39,9 +39,12 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_rocket_frontline_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_Rocket_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mortar_frontline_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_Mortar_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_howitzer_frontline_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_Howitzer_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_artillery_frontline_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/LightArtilery_icon.dds" noOfFrames = 2 }
 	
 	####################################################
 	### Small images for DIVISIONS (On-map-counters) ###
+
+	spriteType = { name = "GFX_unit_light_artillery_frontline_icon_medium"					textureFile = "gfx/interface/counters/divisions_small/LightArtilery_icon.dds" noOfFrames = 2 }
 
 	spriteType = { name = "GFX_unit_modern_armor_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modern_armor_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_super_heavy_armor_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_super_heavy_armor_icon.dds" noOfFrames = 2}
@@ -115,6 +118,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_motor_infantry_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_icon.dds" noOfFrames = 2}
 	
 	spriteType = { name = "GFX_unit_unit_machine_gun_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/unit_machinegun_icon_small.dds" noOfFrames = 2 }
+
 
 	###########################################
 	### Large images for DIVISION TEMPLATES ###
