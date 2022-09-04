@@ -1707,7 +1707,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_heavy_infantry  = {
+        category_armored_infantry  = {
             armor_value = 9
             breakthrough = 1
             defense = 0.1
