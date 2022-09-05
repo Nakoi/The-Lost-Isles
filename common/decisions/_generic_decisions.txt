@@ -6,6 +6,9 @@ gendecision_recruitment = {
 				tooltip = gentext_has_volarmy
 				has_idea = recruit_volunteer
 			}
+			NOT = {
+				has_idea = genidea_army_reorg_timed
+			}
 			is_ai = no
 		}
 		custom_cost_trigger = {
@@ -26,9 +29,14 @@ gendecision_recruitment = {
 				remove_idea = recruit_volunteer
 				add_idea = recruit_militia_peacetime
 			}
+			add_ideas = genidea_army_reorg_timed
 			hidden_effect = {
 				add_command_power = -100
 			}
+		}
+		
+		remove_effect = {
+			remove_ideas = genidea_army_reorg_timed
 		}
 	}
 	
@@ -37,6 +45,9 @@ gendecision_recruitment = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_has_volarmy
 				has_idea = recruit_volunteer
+			}
+			NOT = {
+				has_idea = genidea_army_reorg_timed
 			}
 			is_ai = no
 		}
@@ -59,9 +70,14 @@ gendecision_recruitment = {
 				remove_idea = recruit_volunteer
 				add_idea = recruit_selectivecon
 			}
+			add_ideas = genidea_army_reorg_timed
 			hidden_effect = {
 				add_command_power = -100
 			}
+		}
+		
+		remove_effect = {
+			remove_ideas = genidea_army_reorg_timed
 		}
 	}
 	
@@ -149,6 +165,9 @@ gendecision_recruitment = {
 				tooltip = gentext_has_militia
 				has_idea = recruit_militia_peacetime
 			}
+			NOT = {
+				has_idea = genidea_army_reorg_timed
+			}
 			is_ai = no
 		}
 		
@@ -170,9 +189,14 @@ gendecision_recruitment = {
 				remove_idea = recruit_militia_peacetime
 				add_idea = recruit_volunteer
 			}
+			add_ideas = genidea_army_reorg_timed
 			hidden_effect = {
 				add_command_power = -100
 			}
+		}
+		
+		remove_effect = {
+			remove_ideas = genidea_army_reorg_timed
 		}
 	}
 	
@@ -181,6 +205,9 @@ gendecision_recruitment = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_has_militia
 				has_idea = recruit_militia_peacetime
+			}
+			NOT = {
+				has_idea = genidea_army_reorg_timed
 			}
 			is_ai = no
 		}
@@ -203,9 +230,14 @@ gendecision_recruitment = {
 				remove_idea = recruit_militia_peacetime
 				add_idea = recruit_selectivecon
 			}
+			add_ideas = genidea_army_reorg_timed
 			hidden_effect = {
 				add_command_power = -100
 			}
+		}
+		
+		remove_effect = {
+			remove_ideas = genidea_army_reorg_timed
 		}
 	}
 	
@@ -214,6 +246,9 @@ gendecision_recruitment = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_has_conscription
 				has_idea = recruit_selectivecon
+			}
+			NOT = {
+				has_idea = genidea_army_reorg_timed
 			}
 			is_ai = no
 		}
@@ -236,9 +271,14 @@ gendecision_recruitment = {
 				remove_idea = recruit_selectivecon
 				add_idea = recruit_militia_peacetime
 			}
+			add_ideas = genidea_army_reorg_timed
 			hidden_effect = {
 				add_command_power = -100
 			}
+		}
+		
+		remove_effect = {
+			remove_ideas = genidea_army_reorg_timed
 		}
 	}
 	
@@ -247,6 +287,9 @@ gendecision_recruitment = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_has_conscription
 				has_idea = recruit_selectivecon
+			}
+			NOT = {
+				has_idea = genidea_army_reorg_timed
 			}
 			is_ai = no
 		}
@@ -269,9 +312,14 @@ gendecision_recruitment = {
 				remove_idea = recruit_selectivecon
 				add_idea = recruit_volunteer
 			}
+			add_ideas = genidea_army_reorg_timed
 			hidden_effect = {
 				add_command_power = -100
 			}
+		}
+		
+		remove_effect = {
+			remove_ideas = genidea_army_reorg_timed
 		}
 	}
 	
@@ -280,6 +328,9 @@ gendecision_recruitment = {
 			custom_trigger_tooltip = {
 				tooltip = gentext_industrial_dev
 				has_idea = genidea_industrial_dev
+			}
+			NOT = {
+				has_idea = genidea_army_reorg_timed
 			}
 		}
 		
@@ -293,7 +344,7 @@ gendecision_recruitment = {
 		custom_cost_text = gentext_recruitment_decision_cost
 		
 		visible = {
-			has_idea = recruit_selectivecon
+			has_idea = genidea_industrial_dev
 		}
 
   		fire_only_once = no
@@ -337,9 +388,14 @@ gendecision_recruitment = {
 					add_idea = recruit_universalcon
 				}
 			}
+			add_ideas = genidea_army_reorg_timed
 			hidden_effect = {
 				add_command_power = -100
 			}
+		}
+		
+		remove_effect = {
+			remove_ideas = genidea_army_reorg_timed
 		}
 	}
 	
@@ -347,6 +403,13 @@ gendecision_recruitment = {
 		available = {
 			has_manpower < 999
 			has_war = yes
+			OR = {
+				has_idea = recruit_militia_peacetime
+				has_idea = recruit_militia_wartime
+				has_idea = recruit_volunteer
+				has_idea = recruit_selectivecon
+				has_idea = recruit_universalcon
+			}
 		}
 		
 		ai_will_do = {
@@ -437,8 +500,6 @@ gendecision_recruitment = {
 		visible = {
     		has_idea = recruit_masscon
 		}
-		
-		days_remove = 365
 		
   		fire_only_once = no
 
