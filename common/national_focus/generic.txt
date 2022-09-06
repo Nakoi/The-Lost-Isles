@@ -5018,7 +5018,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_new_age_air_warfare
 		prerequisite = { focus = genfoc_industrial_revolution }
-		x = 29
+		x = 45
 		y = 11
 		cost = 5
 		ai_will_do = {
@@ -5045,7 +5045,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_airfield_expansion
 		prerequisite = { focus = genfoc_new_age_air_warfare }
-		x = 29
+		x = 45
 		y = 12
 		cost = 5
 		ai_will_do = {
@@ -5067,7 +5067,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_airship_theoretical_development
 		prerequisite = { focus = genfoc_airfield_expansion }
-		x = 29
+		x = 45
 		y = 13
 		cost = 10
 		ai_will_do = {
@@ -5095,7 +5095,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_aerial_swarm_tactic
 		prerequisite = { focus = genfoc_airfield_expansion }
-		x = 27
+		x = 43
 		y = 13
 		cost = 10
 		ai_will_do = {
@@ -5121,7 +5121,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_pride_of_air_fleet
 		prerequisite = { focus = genfoc_airfield_expansion }
-		x = 31
+		x = 47
 		y = 13
 		cost = 10
 		ai_will_do = {
@@ -5147,7 +5147,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_modernise_air_frigates
 		prerequisite = { focus = genfoc_airship_theoretical_development }
-		x = 29
+		x = 45
 		y = 14
 		cost = 10
 		ai_will_do = {
@@ -5173,7 +5173,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_modernise_bombardiers
 		prerequisite = { focus = genfoc_airship_theoretical_development }
-		x = 27
+		x = 43
 		y = 14
 		cost = 10
 		ai_will_do = {
@@ -5199,7 +5199,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_modernise_sky_carriers
 		prerequisite = { focus = genfoc_airship_theoretical_development }
-		x = 31
+		x = 47
 		y = 14
 		cost = 10
 		ai_will_do = {
@@ -5225,7 +5225,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_new_age_naval_warfare
 		prerequisite = { focus = genfoc_industrial_revolution }
-		x = 45
+		x = 29
 		y = 11
 		cost = 5
 		ai_will_do = {
@@ -5255,7 +5255,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_port_expansion
 		prerequisite = { focus = genfoc_new_age_naval_warfare }
-		x = 45
+		x = 29
 		y = 12
 		cost = 5
 		ai_will_do = {
@@ -5277,7 +5277,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_navy_theoretical_development
 		prerequisite = { focus = genfoc_port_expansion }
-		x = 45
+		x = 29
 		y = 13
 		cost = 10
 		ai_will_do = {
@@ -5304,7 +5304,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_modernise_capital_ships
 		prerequisite = { focus = genfoc_navy_theoretical_development focus = genfoc_expand_merchant_fleet }
-		x = 45
+		x = 29
 		y = 14
 		cost = 10
 		ai_will_do = {
@@ -5335,7 +5335,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_expand_merchant_fleet
 		prerequisite = { focus = genfoc_port_expansion }
-		x = 43
+		x = 27
 		y = 13
 		cost = 10
 		ai_will_do = {
@@ -5361,7 +5361,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_modernise_screening_ships
 		prerequisite = { focus = genfoc_expand_merchant_fleet focus = genfoc_navy_theoretical_development }
-		x = 43
+		x = 27
 		y = 14
 		cost = 10
 		ai_will_do = {
@@ -5392,7 +5392,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_dockyard_expansion
 		prerequisite = { focus = genfoc_port_expansion }
-		x = 47
+		x = 31
 		y = 13
 		cost = 10
 		ai_will_do = {
@@ -5437,7 +5437,7 @@ focus_tree = {
 	focus = {
 		id = genfoc_dockyard_expansion_two
 		prerequisite = { focus = genfoc_dockyard_expansion }
-		x = 47
+		x = 31
 		y = 14
 		cost = 10
 		ai_will_do = {
