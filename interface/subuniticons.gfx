@@ -59,6 +59,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_light_artillery_frontline_icon_medium"					textureFile = "gfx/interface/counters/divisions_small/LightArtilery_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_ballista_frontline_icon_medium"							textureFile = "gfx/interface/counters/divisions_small/AA.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_ballista_support_icon_medium"							textureFile = "gfx/interface/counters/divisions_small/AA_Support_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_unicorn_support_icon_medium"							textureFile = "gfx/interface/counters/divisions_small/unicorn_support_icon.dds" noOfFrames = 2 }
 
 
 	spriteType = { name = "GFX_unit_modern_armor_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modern_armor_icon.dds" noOfFrames = 2}
