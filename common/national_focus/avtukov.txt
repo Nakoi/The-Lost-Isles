@@ -26,7 +26,7 @@ focus_tree = {
 		id = AVT_the_great_modernisation
 		x = 0
 		y = 0
-		cost = 1
+		cost = 2
 		ai_will_do = {
 			factor = 5
 		}
@@ -38,9 +38,20 @@ focus_tree = {
 		x = -4
 		y = 1
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 2
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.01
+			}
 		}
 	}
 	
@@ -50,9 +61,28 @@ focus_tree = {
 		x = -4
 		y = 2
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_4
+				amount = 500
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 100
+			}
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.02
+			}
 		}
 	}
 	
@@ -62,9 +92,19 @@ focus_tree = {
 		x = -4
 		y = 3
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			army_experience = 20
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 	
@@ -74,9 +114,31 @@ focus_tree = {
 		x = -6
 		y = 2
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+	
+		completion_reward = {
+			add_political_power = 25
+			431 = {
+				add_manpower = -15
+			}
+			450 = {
+				add_manpower = -15
+			}
+			394 = {
+				add_manpower = -15
+			}
+			380 = {
+				add_manpower = -15
+			}
+			442 = {
+				add_manpower = -15
+			}
+			438 = {
+				add_manpower = -15
+			}
 		}
 	}
 	
@@ -86,9 +148,35 @@ focus_tree = {
 		x = -6
 		y = 3
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = science_crypto
+			}
+			431 = {
+				add_manpower = -25
+			}
+			450 = {
+				add_manpower = -25
+			}
+			394 = {
+				add_manpower = -25
+			}
+			380 = {
+				add_manpower = -25
+			}
+			442 = {
+				add_manpower = -25
+			}
+			438 = {
+				add_manpower = -25
+			}
 		}
 	}
 	
@@ -98,9 +186,25 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_civilizedeco
+			}
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.02
+			}
 		}
 	}
 	
@@ -110,9 +214,36 @@ focus_tree = {
 		x = -2
 		y = 3
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			450 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			450 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.03
+			}
 		}
 	}
 	
@@ -124,9 +255,13 @@ focus_tree = {
 		x = -4
 		y = 4
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			add_manpower = -1000
 		}
 	}
 	
@@ -136,9 +271,13 @@ focus_tree = {
 		x = -4
 		y = 5
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+	
+		completion_reward = {
+			add_political_power = 150
 		}
 	}
 	
@@ -228,35 +367,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = AVT_weapons_smuggling
-		prerequisite = { focus = AVT_the_conspiracy }
-		mutually_exclusive = { focus = AVT_boycott_taxes focus = AVT_distract_loyalists }
-		x = 8
-		y = 2
-		relative_position_id = AVT_the_great_modernisation
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	
-	focus = {
-		id = AVT_pull_out_border_garrisons
-		prerequisite = { focus = AVT_weapons_smuggling }
-		x = 8
-		y = 3
-		relative_position_id = AVT_the_great_modernisation
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	
-	focus = {
 		id = AVT_distract_loyalists
 		prerequisite = { focus = AVT_the_conspiracy }
 		mutually_exclusive = { focus = AVT_weapons_smuggling focus = AVT_boycott_taxes }
-		x = 10
+		x = 8
 		y = 2
 		relative_position_id = AVT_the_great_modernisation
 		cost = 1
@@ -268,7 +382,7 @@ focus_tree = {
 	focus = {
 		id = AVT_teleport_network
 		prerequisite = { focus = AVT_distract_loyalists }
-		x = 10
+		x = 8
 		y = 3
 		relative_position_id = AVT_the_great_modernisation
 		cost = 1
@@ -281,7 +395,7 @@ focus_tree = {
 		id = AVT_the_coup
 		prerequisite = { focus = AVT_target_secret_police }
 		prerequisite = { focus = AVT_infiltrate_palace }
-		prerequisite = { focus = AVT_purchase_officer_commissions focus = AVT_pull_out_border_garrisons focus = AVT_teleport_network }
+		prerequisite = { focus = AVT_purchase_officer_commissions focus = AVT_teleport_network }
 		x = 4
 		y = 4
 		relative_position_id = AVT_the_great_modernisation
@@ -292,28 +406,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = AVT_pegasi_take_charge
-		prerequisite = { focus = AVT_the_coup }
-		x = 4
-		y = 5
-		relative_position_id = AVT_the_great_modernisation
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = AVTtt_pegasi_take_charge
-				has_completed_focus = AVT_pull_out_border_garrisons
-			}
-		}
-	}
-	
-	focus = {
 		id = AVT_muds_take_charge
 		prerequisite = { focus = AVT_the_coup }
-		x = 2
+		x = 3
 		y = 5
 		relative_position_id = AVT_the_great_modernisation
 		cost = 1
@@ -332,7 +427,7 @@ focus_tree = {
 	focus = {
 		id = AVT_unicorns_take_charge
 		prerequisite = { focus = AVT_the_coup }
-		x = 6
+		x = 5
 		y = 5
 		relative_position_id = AVT_the_great_modernisation
 		cost = 1
@@ -344,6 +439,62 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = AVTtt_unicorns_take_charge
 				has_completed_focus = AVT_teleport_network
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_weapons_smuggling
+		prerequisite = { focus = AVT_the_conspiracy }
+		mutually_exclusive = { focus = AVT_boycott_taxes focus = AVT_distract_loyalists }
+		x = 10
+		y = 2
+		relative_position_id = AVT_the_great_modernisation
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_pull_out_border_garrisons
+		prerequisite = { focus = AVT_weapons_smuggling }
+		x = 10
+		y = 3
+		relative_position_id = AVT_the_great_modernisation
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_light_the_flame
+		prerequisite = { focus = AVT_pull_out_border_garrisons }
+		x = 10
+		y = 4
+		relative_position_id = AVT_the_great_modernisation
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	focus = {
+		id = AVT_pegasi_take_charge
+		prerequisite = { focus = AVT_light_the_flame }
+		x = 10
+		y = 5
+		relative_position_id = AVT_the_great_modernisation
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_pegasi_take_charge
+				has_completed_focus = AVT_light_the_flame
 			}
 		}
 	}
