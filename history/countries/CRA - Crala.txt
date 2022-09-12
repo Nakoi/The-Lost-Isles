@@ -1,6 +1,6 @@
 capital = 217
 
-set_research_slots = 1
+set_research_slots = 2
 
 set_stability = 0.5
 
@@ -32,6 +32,7 @@ add_ideas = {
 	policy_democracy
 	policy_conservative
 	policy_collective
+	race_horse
 }
 
 if = {
