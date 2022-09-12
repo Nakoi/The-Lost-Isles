@@ -1,6 +1,6 @@
 capital = 902
 
-set_research_slots = 1
+set_research_slots = 2
 
 set_stability = 0.3
 
@@ -30,6 +30,7 @@ add_ideas = {
 	policy_despotism
 	policy_progressive
 	policy_mercantilism
+	race_donk
 }
 
 if = {
@@ -52,5 +53,13 @@ set_technology = {
 	agriculture_0 = 1
 	development = 1
 	tech_primitive = 1
+
+	infantry_upgrade = 1
+	infantry_weapons1 = 1
+	catapult = 1
+	basic_mathematics = 1
+	basic_engineering = 1
+	agriculture_1 = 1
+	financial_technology_0 = 1
 }
 
