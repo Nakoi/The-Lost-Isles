@@ -21,6 +21,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_motor_infantry_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_motorized_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_pony_mages_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/mage_frontline_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_wind_riders_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/wind_riders_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_juggernauts_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/Juggernaught_icon.dds" noOfFrames = 2 }
 	
 	spriteType = { name = "GFX_unit_tli_sapper_company_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/sapper_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_tli_recon_company_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/Support_Recon_icon.dds" noOfFrames = 2 }
@@ -48,6 +49,7 @@ spriteTypes = {
 	####################################################
 	### Small images for DIVISIONS (On-map-counters) ###
 
+	spriteType = { name = "GFX_unit_juggernauts_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/Juggernaught_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_wind_riders_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/wind_riders_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_pony_mages_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/mage_frontline_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_ranged_infantry_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_ranged_infantry_icon.dds" noOfFrames = 2}
