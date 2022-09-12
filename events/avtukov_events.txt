@@ -124,6 +124,20 @@ country_event = {
 	option = {
 		name = avt_event.6.a
 		set_country_flag = avt_tzaritsa_accepted
+
+		hidden_effect = {
+                retire_country_leader = yes
+                add_country_leader_role = { 
+                    character = AVT_tzaritsa
+                    promote_leader = yes
+
+                    country_leader = {
+                        ideology = imperialism_thing
+                        expire = "1965.1.1"
+                        id=-1
+                    }
+                }
+            }
 	}
 }
 
