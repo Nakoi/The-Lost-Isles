@@ -60,9 +60,9 @@ AVT_ADJ:0 "Avtukovian"
  AVT_teleport_network_desc:0 ""
  AVT_the_coup:0 "The Coup"
  AVT_the_coup_desc:0 ""
- AVT_muds_take_charge:0 "The Gracemareans Take Charge"
+ AVT_muds_take_charge:0 "The Council Takes Charge"
  AVT_muds_take_charge_desc:0 ""
- AVT_unicorns_take_charge:0 "The Mages Take Charge"
+ AVT_unicorns_take_charge:0 "The College Takes Charge"
  AVT_unicorns_take_charge_desc:0 ""
  AVT_weapons_smuggling:0 "Weapons Smuggling"
  AVT_weapons_smuggling_desc:0 ""
@@ -73,9 +73,56 @@ AVT_ADJ:0 "Avtukovian"
  AVT_pegasi_take_charge:0 "The Swiftguards Take Charge"
  AVT_pegasi_take_charge_desc:0 ""
 
+###EVENT LOCALISATION###
+ avt_event.0.t:0 "Winds of Change"
+ avt_event.0.d:0 "Synopsis: The capital city celebrates the Victory Day (a celebration to commemorate the victory over the griffons). After the military parade, the tsar, Ivory Spark makes a speech in front of a crowd of nobles, citizens and officers announcing a new direction for the tsardom. He points out the current issues plaguing the nation, and promises to fix them, introducing more rights and equality for the ponies, economic and societal modernisation, etc. He also points out the danger posed by the increasingly militarized Gallund"
+ avt_event.0.a:0 "The crowd cheers!"
+ avt_event.0.b:0 "The crowd remains silent."
+ 
+ avt_event.1.t:0 "Behind the Curtains"
+ avt_event.1.d:0 "Synopsis: The Tsar and his closest allies (Arctic Metal, Midnight Song, Flawless Dusk and Elusive Gem) discuss the plans for reforms, and the danger of a possible noble conspiracy. He’s glad that the ponies seemed pleased and hopeful."
+ avt_event.1.a:0 "Nevertheless, we must press on"
+ 
+ avt_event.2.t:0 "Behind the Curtains"
+ avt_event.2.d:0 "Synopsis: The Tsar and his closest allies (Arctic Metal, Midnight Song, Flawless Dusk and Elusive Gem) discuss the plans for reforms, and the danger of a possible noble conspiracy. He’s worried that the crowd did not appreciate these plans."
+ avt_event.2.a:0 "Nevertheless, we must press on"
 
+ avt_event.3.t:0 "An Invitation"
+ avt_event.3.d:0 "Synopsis: Elusive Gem is sitting in her room, pondering the recent events, maybe reading a book? A servant comes in, with a message for her eyes only. She reads the message, where Artic Metal asks her to meet with him in secret, saying they have an urgent matter to discuss."
+ avt_event.3.a:0 "I’ll attend"
+ avt_event.3.b:0 "I don’t feel like going there."
 
+ avt_event.4.t:0 "An Offer"
+ avt_event.4.d:0 "Synopsis: Elusive meets up with her uncle and the other nobles from her father’s circle. They explain to her that Ivory is destroying avtukov, and soon all of the nobility will lose everything they have, that he has already killed many in his quest for reform. They also remind her how negligent he was of her when she was growing up. They’ll propose to kidnap him, blame it on the original rebels, and then put her in charge, as the rightful heir. He then finally proposes a third meeting to discuss all the details. Elusive considers the offer and answers."
+ avt_event.4.a:0 "I’ll do it. For the good of the Tsardom."
+ avt_event.4.b:0 "This isn’t right. I’ll pretend to agree and tell my father."
+ 
+ avt_event.5.t:0 "A Vacant Throne"
+ avt_event.5.d:0 "Synopsis: from the perspective of a citizen of tsarigrad, who reacts and comments on the news that Ivory Spark has disappeared. A regency council was established from the high nobility present in the city."
+ avt_event.5.a:0 "What will happen now?"
+ 
+ avt_event.6.t:0 "A New Tsaritsa"
+ avt_event.6.d:0 "Synopsis: Elusive Gem’s coronation ceremony from her perspective. She has doubts about all this. After being crowned she delivers a speech about the values she believes in, about how she wants to save the nation from the recent chaos, with a return to tradition."
+ avt_event.6.a:0 "Long Live the Tsaritsa!"
+ 
+ avt_event.7.t:0 "One Last Threat Foiled"
+ avt_event.7.d:0 "Synopsis: Ivory and Elusive arrive at the secret meeting with armed guards. After a quick argument between Ivory and Arctic, the guards arrest the conspirators. As they are taken away, Ivory thanks his daughter for telling him about this, and apologizes for not having any time for her."
+ avt_event.7.a:0 "Thank you."
+ 
+ avt_event.8.t:0 "The End of the Conspiracy"
+ avt_event.8.d:0 "Synopsis: Ivory receives a report from Midnight Song that a simultaneous arrest of all the conspirator leaders was a success. He’s relieved, and sure that he can finally fix the empire. The tsar chooses what to do with the main 3 who tried to kill him."
+ avt_event.8.a:0 "Execute them!"
+ avt_event.8.b:0 "Exile them."
+ avt_event.8.c:0 "Imprison them for life."
+ 
+ avt_event.9.t:0 "The End of the Conspiracy"
+ avt_event.9.d:0 "Synopsis: Elusive receives a report from Midnight Song that a simultaneous arrest of all the conspirator leaders was a success. She’s relieved, and sure that she can finally fix the empire. The tsaritsa chooses what to do with the main 3 who tried to kill her father."
+ avt_event.9.a:0 "Execute them!"
+ avt_event.9.b:0 "Exile them."
+ avt_event.9.c:0 "Imprison them for life."
+ 
+ 
 ###TOOLTIP LOCALISATION###
  AVTtt_pegasi_take_charge:0 "Made preparations as the §CSwiftguards§!"
- AVTtt_muds_take_charge:0 "Made preparations as the §OGracemareans§!"
- AVTtt_unicorns_take_charge:0 "Made preparations as the §PMages§!"
+ AVTtt_muds_take_charge:0 "Made preparations as the §OTrade Council§!"
+ AVTtt_unicorns_take_charge:0 "Made preparations as the §PPlatinum College§!"

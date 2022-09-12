@@ -30,11 +30,16 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		completion_reward = {
+			country_event = { id = avt_event.0 }
+		}
 	}
 	
 	focus = {
 		id = AVT_full_speed_ahead
 		prerequisite = { focus = AVT_the_great_modernisation }
+		mutually_exclusive = ( focus = AVT_the_conspiracy }
 		x = -4
 		y = 1
 		relative_position_id = AVT_the_great_modernisation
@@ -51,6 +56,18 @@ focus_tree = {
 			add_popularity = {
 				ideology = ideology_continuism
 				popularity = 0.01
+			}
+			IF = {
+				limit = {
+					has_country_flag = avt_crowd_cheered
+				}
+				country_event = { id = avt_event.1 }
+			}
+			IF = {
+				limit = {
+					has_country_flag = avt_crowd_silent
+				}
+				country_event = { id = avt_event.2 }
 			}
 		}
 	}
@@ -260,8 +277,27 @@ focus_tree = {
 			factor = 5
 		}
 		
+		select_effect = {
+			country_event = {
+				id = avt_event.3
+				days = 5
+			}
+		}
+		
 		completion_reward = {
 			add_manpower = -1000
+			IF = {
+				limit = {
+					has_country_flag = avt_tzaritsa_accepted
+				}
+				country_event = { id = avt_event.6 }
+			}
+			IF = {
+				limit = {
+					has_country_flag = avt_tzaritsa_lied
+				}
+				country_event = { id = avt_event.7 }
+			}
 		}
 	}
 	
@@ -284,6 +320,7 @@ focus_tree = {
 	focus = {
 		id = AVT_the_conspiracy
 		prerequisite = { focus = AVT_the_great_modernisation }
+		mutually_exclusive = ( focus = AVT_full_speed_ahead }
 		x = 4
 		y = 1
 		relative_position_id = AVT_the_great_modernisation

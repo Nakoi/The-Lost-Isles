@@ -1,0 +1,215 @@
+add_namespace = avt_event
+
+country_event = {
+	id = avt_event.0
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.0"}
+	title = avt_event.0.t
+	desc = avt_event.0.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.0.a
+		add_political_power = 30
+		set_country_flag = avt_crowd_cheered
+		swap_ideas = {
+			add_idea = policy_progressive
+			remove_idea = policy_reactionary
+		}
+	}
+	
+	option = {
+		name = avt_event.0.b
+		set_country_flag = avt_crowd_silent
+		add_political_power = -10
+		swap_ideas = {
+			add_idea = policy_progressive
+			remove_idea = policy_reactionary
+		}
+	}
+}
+
+country_event = {
+	id = avt_event.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.1"}
+	title = avt_event.1.t
+	desc = avt_event.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.1.a
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = avt_event.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.2"}
+	title = avt_event.2.t
+	desc = avt_event.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.2.a
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = avt_event.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.3"}
+	title = avt_event.3.t
+	desc = avt_event.3.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.3.a
+		country_event = { id = avt_event.4 }
+	}
+	option = {
+		name = avt_event.3.b
+	}
+}
+
+country_event = {
+	id = avt_event.4
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.4"}
+	title = avt_event.4.t
+	desc = avt_event.4.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.4.a
+		country_event = { id = avt_event.5 }
+	}
+	option = {
+		name = avt_event.4.b
+		country_event = { id = avt_event.7 }
+	}
+}
+
+country_event = {
+	id = avt_event.5
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.5"}
+	title = avt_event.5.t
+	desc = avt_event.5.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.5.a
+		country_event = { id = avt_event.6 }
+	}
+}
+
+country_event = {
+	id = avt_event.6
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.6"}
+	title = avt_event.6.t
+	desc = avt_event.6.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.6.a
+		set_country_flag = avt_tzaritsa_accepted
+	}
+}
+
+country_event = {
+	id = avt_event.7
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.7"}
+	title = avt_event.7.t
+	desc = avt_event.7.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.7.a
+		set_country_flag = avt_tzaritsa_lied
+		add_popularity = {
+			ideology = ideology_continuism
+			popularity = -0.1
+		}
+	}
+}
+
+country_event = {
+	id = avt_event.7
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.7"}
+	title = avt_event.7.t
+	desc = avt_event.7.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.7.a
+		add_popularity = {
+			ideology = ideology_continuism
+			popularity = -0.1
+		}
+	}
+}
+
+country_event = {
+	id = avt_event.8
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.8"}
+	title = avt_event.8.t
+	desc = avt_event.8.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.8.a
+		add_stability = 0.05
+		add_political_power = -50
+	}
+	option = {
+		name = avt_event.8.b
+		add_political_power = 20
+	}
+	option = {
+		name = avt_event.8.c
+		add_stability = -0.05
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = avt_event.9
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.9"}
+	title = avt_event.9.t
+	desc = avt_event.9.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.9.a
+		add_stability = 0.05
+		add_political_power = -50
+	}
+	option = {
+		name = avt_event.9.b
+		add_political_power = 20
+	}
+	option = {
+		name = avt_event.9.c
+		add_stability = -0.05
+		add_political_power = 50
+	}
+}
