@@ -1,6 +1,6 @@
 capital = 85
 
-set_research_slots = 1
+set_research_slots = 2
 
 set_stability = 0.5
 
@@ -30,6 +30,7 @@ add_ideas = {
 	policy_oligarchy
 	policy_collective
 	policy_reactionary
+	race_zebra
 }
 
 if = {
