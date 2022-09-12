@@ -1,6 +1,6 @@
 capital = 236
 
-set_research_slots = 1
+set_research_slots = 2
 
 set_stability = 0.9
 
@@ -33,6 +33,7 @@ add_ideas = {
 	policy_despotism
 	policy_conservative
 	policy_feudalism
+	race_dragon
 }
 
 if = {
