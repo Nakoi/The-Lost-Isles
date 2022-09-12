@@ -83,6 +83,11 @@ focus_tree = {
 			factor = 5
 		}
 		
+		available = {
+			has_civilwar = no
+    		has_stability > 0.39
+		}
+
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = rifle_equipment_4
@@ -135,6 +140,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+
+		available = {
+			has_civilwar = no
+    		has_stability > 0.54
+		}
 	
 		completion_reward = {
 			add_political_power = 25
@@ -168,6 +178,12 @@ focus_tree = {
 		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+
+		available = {
+			has_civilwar = no
+    		has_stability > 0.49
+			command_power > 50
 		}
 		
 		completion_reward = {
@@ -207,6 +223,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+
+		available = {
+			has_civilwar = no
+    		ideology_imperialism > 0.49
+		}
 		
 		completion_reward = {
 			add_tech_bonus = {
@@ -234,6 +255,12 @@ focus_tree = {
 		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+
+		available = {
+			has_civilwar = no
+    		ideology_imperialism > 0.59
+			has_political_power > 50
 		}
 		
 		completion_reward = {
@@ -282,6 +309,12 @@ focus_tree = {
 				id = avt_event.3
 				days = 5
 			}
+		}
+
+		available = {
+			has_civilwar = no
+    		ideology_imperialism > 0.69
+			has_stability > 0.69
 		}
 		
 		completion_reward = {
