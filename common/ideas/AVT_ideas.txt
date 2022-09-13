@@ -1,0 +1,65 @@
+ideas = {
+		
+	country = {
+
+		AVT_idea_noble_discontent = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				# Cannot create, delete or edit templates
+                # Cannot train or disband divisions.
+                # Can’t release countries
+                political_power_gain = -0.3
+                add_stability = -0.2
+
+			}
+		}
+
+		AVT_idea_Patriotism = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				surrender_limit = 0.2
+                army_core_defence_factor = 0.1
+                consumer_goods_factor = 0.05
+                attrition = -0.05
+			}
+		}
+
+		AVT_idea_stagnant_society = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				research_speed_factor = -0.2
+                production_speed_buildings_factor = -0.25
+                industrial_capacity_factory = -0.2
+                political_power_factor = -0.1
+			}
+		}
+        
+		AVT_idea_tribe_mistrust = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.05
+                industrial_capacity_factory = -0.2
+                industrial_capacity_dockyard = -0.2
+                conscription_factor = -0.1
+			}
+		}
