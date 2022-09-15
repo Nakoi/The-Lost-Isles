@@ -122,22 +122,23 @@ country_event = {
 	major = no
 	
 	option = {
-		name = avt_event.6.a
+		name = avt_event.6.a #TO SWITCH TO CONTINUISM 
 		set_country_flag = avt_tzaritsa_accepted
-
+		custom_effect_tooltip = AVTtt_tsaritsa_takeover
 		hidden_effect = {
-                retire_country_leader = yes
-                add_country_leader_role = { 
-                    character = AVT_tzaritsa
-                    promote_leader = yes
+            retire_country_leader = yes
+            add_country_leader_role = {
+                character = AVT_tzaritsa
+                promote_leader = yes
 
-                    country_leader = {
-                        ideology = imperialism_thing
-                        expire = "1965.1.1"
-                        id=-1
-                    }
+                country_leader = {
+                    ideology = imperialism_thing
+                    expire = "1965.1.1"
+                    id=-1
                 }
             }
+			add_ideas = AVT_idea_low_public_discontent
+        }
 	}
 }
 
@@ -153,24 +154,6 @@ country_event = {
 	option = {
 		name = avt_event.7.a
 		set_country_flag = avt_tzaritsa_lied
-		add_popularity = {
-			ideology = ideology_continuism
-			popularity = -0.1
-		}
-	}
-}
-
-country_event = {
-	id = avt_event.7
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.7"}
-	title = avt_event.7.t
-	desc = avt_event.7.d
-	picture = GFX_news_event_chinese_soldiers_march
-	is_triggered_only = yes
-	major = no
-	
-	option = {
-		name = avt_event.7.a
 		add_popularity = {
 			ideology = ideology_continuism
 			popularity = -0.1
