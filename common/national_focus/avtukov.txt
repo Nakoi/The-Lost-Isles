@@ -84,7 +84,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_civilwar = no
+			has_civil_war = no
     		has_stability > 0.39
 		}
 
@@ -119,6 +119,12 @@ focus_tree = {
 			factor = 5
 		}
 		
+		available = {
+			has_civil_war = no
+    		has_stability > 0.49
+			command_power > 50
+		}
+		
 		completion_reward = {
 			army_experience = 20
 			add_doctrine_cost_reduction = {
@@ -142,7 +148,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_civilwar = no
+			has_civil_war = no
     		has_stability > 0.54
 		}
 	
@@ -181,9 +187,8 @@ focus_tree = {
 		}
 
 		available = {
-			has_civilwar = no
-    		has_stability > 0.49
-			command_power > 50
+			has_civil_war = no
+    		has_stability > 0.64
 		}
 		
 		completion_reward = {
@@ -225,7 +230,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_civilwar = no
+			has_civil_war = no
     		ideology_imperialism > 0.49
 		}
 		
@@ -258,7 +263,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_civilwar = no
+			has_civil_war = no
     		ideology_imperialism > 0.59
 			has_political_power > 50
 		}
@@ -312,7 +317,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_civilwar = no
+			has_civil_war = no
     		ideology_imperialism > 0.69
 			has_stability > 0.69
 		}
@@ -323,13 +328,13 @@ focus_tree = {
 				limit = {
 					has_country_flag = avt_tzaritsa_accepted
 				}
-				country_event = { id = avt_event.6 }
+				country_event = { id = avt_event.9 }
 			}
 			IF = {
 				limit = {
 					has_country_flag = avt_tzaritsa_lied
 				}
-				country_event = { id = avt_event.7 }
+				country_event = { id = avt_event.8 }
 			}
 		}
 	}
