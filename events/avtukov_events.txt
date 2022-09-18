@@ -1,4 +1,5 @@
 add_namespace = avt_event
+add_namespace = avt_civwarevent
 
 country_event = {
 	id = avt_event.0
@@ -208,5 +209,19 @@ country_event = {
 		name = avt_event.9.c
 		add_stability = -0.05
 		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.0
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.0"}
+	title = avt_civwarevent.0.t
+	desc = avt_civwarevent.0.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_civwarevent.0.a
 	}
 }
