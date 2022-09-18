@@ -1,0 +1,308 @@
+decisioncat_avt_civilwartsar = {
+
+	AVT_secure_imperial_rule_mission = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 360
+
+		fire_only_once = yes
+
+		activation = {
+			tag = AVT
+			has_completed_focus = AVT_full_speed_ahead
+		}
+
+		visible = {
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+		}
+
+		cancel_if_not_visible = yes
+
+		is_good = no
+
+		timeout_effect = {
+			country_event = { id = avt_civwarevent.0 }
+		}
+	}
+	
+	AVT_bread_and_circuses_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+		}
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_secure_imperial_rule_mission
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+		}
+		
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		
+		remove_effect = {
+			add_stability = 0.04
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.03
+			}
+		}
+	}
+	
+	AVT_imperial_propaganda_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+		}
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_secure_imperial_rule_mission
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+		}
+		
+		modifier = {
+			political_power_factor = -0.1
+		}
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.06
+			}
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.02
+			}
+		}
+	}
+	
+	AVT_secure_tsarigrad_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+			has_equipment = { rifle_equipment > 99 }
+		}
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 7
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_secure_imperial_rule_mission
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+		}
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment
+				amount = -100
+			}
+		}
+		
+		remove_effect = {
+			add_stability = 0.08
+		}
+	}
+	
+	AVT_infiltrate_college_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+			has_equipment = { support_equipment > 49 }
+		}
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_secure_imperial_rule_mission
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+		}
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -50
+			}
+		}
+		
+		remove_effect = {
+			add_stability = 0.04
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.06
+			}
+			add_popularity = {
+				ideology = ideology_isolationism
+				popularity = -0.06
+			}
+		}
+	}
+	
+	AVT_infiltrate_tradecouncil_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+			has_equipment = { support_equipment > 49 }
+		}
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_secure_imperial_rule_mission
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+		}
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -50
+			}
+		}
+		
+		remove_effect = {
+			add_stability = 0.04
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.06
+			}
+			add_popularity = {
+				ideology = ideology_visionarism
+				popularity = -0.06
+			}
+		}
+	}
+	
+	AVT_infiltrate_swiftguards_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+			has_equipment = { support_equipment > 49 }
+		}
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_secure_imperial_rule_mission
+			has_completed_focus = AVT_full_speed_ahead
+			NOT = { has_completed_focus = AVT_root_out_traitors }
+		}
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -50
+			}
+		}
+		
+		remove_effect = {
+			add_stability = 0.04
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.06
+			}
+			add_popularity = {
+				ideology = ideology_militarism
+				popularity = -0.06
+			}
+		}
+	}
