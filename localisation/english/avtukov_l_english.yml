@@ -80,6 +80,16 @@
  AVT_idea_stagnant_society:0 "Stagnant Society"
  AVT_idea_tribe_mistrust:0 "Tribe Mistrust"
 
+###DECISION LOCALISATION###
+ decisioncat_avt_civilwartsar:0 "Solidify Control"
+ AVT_secure_imperial_rule_mission:0 "Secure Imperial Rule"
+ AVT_bread_and_circuses_decision:0 "Bread and Circuses"
+ AVT_imperial_propaganda_decision:0 "Imperial Propaganda"
+ AVT_secure_tsarigrad_decision:0 "Secure Tsarigrad"
+ AVT_infiltrate_college_decision:0 "Infiltrate the Platinum College"
+ AVT_infiltrate_tradecouncil_decision:0 "Infiltrate the Trade Council"
+ AVT_infiltrate_swiftguards_decision:0 "Infiltrate the Swiftguards"
+
 ###EVENT LOCALISATION###
  avt_event.0.t:0 "Winds of Change"
  avt_event.0.d:0 "Synopsis: The capital city celebrates the Victory Day (a celebration to commemorate the victory over the griffons). After the military parade, the tsar, Ivory Spark makes a speech in front of a crowd of nobles, citizens and officers announcing a new direction for the tsardom. He points out the current issues plaguing the nation, and promises to fix them, introducing more rights and equality for the ponies, economic and societal modernisation, etc. He also points out the danger posed by the increasingly militarized Gallund"
@@ -128,6 +138,9 @@
  avt_event.9.b:0 "Exile them."
  avt_event.9.c:0 "Imprison them for life."
  
+ avt_civwarevent.0.t:0 "bruh"
+ avt_civwarevent.0.d:0 "u done fugged up now :DDD"
+ avt_civwarevent.0.a:0 "fug DDD:"
  
 ###TOOLTIP LOCALISATION###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
