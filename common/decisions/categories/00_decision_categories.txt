@@ -5,3 +5,15 @@ gendecision_recruitment = {
         always = yes
     }
 }
+
+decisioncat_avt_civilwartsar = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = AVT
+	}
+
+	visible = {
+		has_completed_focus = AVT_full_speed_ahead
+	}
+}
