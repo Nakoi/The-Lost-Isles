@@ -49,6 +49,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_avt_civilwartsar
+			activate_mission = AVT_secure_imperial_rule_mission
 			add_popularity = {
 				ideology = ideology_imperialism
 				popularity = 0.03
