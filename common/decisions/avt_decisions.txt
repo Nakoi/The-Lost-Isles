@@ -306,3 +306,318 @@ decisioncat_avt_civilwartsar = {
 			}
 		}
 	}
+}
+	
+decisioncat_avt_civilwarrebel = {
+
+	AVT_kill_tsar_mission = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 360
+
+		fire_only_once = yes
+
+		activation = {
+			tag = AVT
+			has_completed_focus = AVT_the_conspiracy
+		}
+
+		visible = {
+			NOT = { has_completed_focus = AVT_the_coup }
+		}
+
+		cancel_if_not_visible = yes
+
+		is_good = yes
+
+		timeout_effect = {
+			country_event = { id = avt_civwarevent.0 }
+		}
+	}
+	
+	AVT_rile_up_masses_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+		}
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_kill_tsar_mission
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+		}
+		
+		modifier = {
+			production_speed_buildings_factor = -0.2
+			weekly_manpower = -100
+		}
+		
+		remove_effect = {
+			add_stability = -0.04
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = -0.04
+			}
+			add_popularity = {
+				ideology = ideology_solidarism
+				popularity = 0.01
+			}
+		}
+	}
+	
+	AVT_convince_muds_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+		}
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_kill_tsar_mission
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+		}
+		
+		modifier = {
+			political_power_factor = -0.1
+		}
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = ideology_visionarism
+				popularity = 0.06
+			}
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = -0.06
+			}
+		}
+	}
+	
+	AVT_convince_unicorns_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+		}
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_kill_tsar_mission
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+		}
+		
+		modifier = {
+			political_power_factor = -0.1
+		}
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = ideology_isolationism
+				popularity = 0.06
+			}
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = -0.06
+			}
+		}
+	}
+	
+	AVT_convince_pegasi_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+		}
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_kill_tsar_mission
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+		}
+		
+		modifier = {
+			political_power_factor = -0.1
+		}
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = ideology_militarism
+				popularity = 0.06
+			}
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = -0.06
+			}
+		}
+	}
+	
+	AVT_spread_violence_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+			has_equipment = { rifle_equipment > 99 }
+		}
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 7
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_kill_tsar_mission
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+		}
+		
+		modifier = {
+			
+		}
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment
+				amount = -100
+			}
+		}
+		
+		remove_effect = {
+			add_stability = -0.08
+			add_manpower = -200
+		}
+	}
+	
+	AVT_infiltrate_tzar_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+			has_equipment = { support_equipment > 49 }
+		}
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = AVT
+			has_active_mission = AVT_kill_tsar_mission
+			has_completed_focus = AVT_the_conspiracy
+			NOT = { has_completed_focus = AVT_the_coup }
+		}
+		
+		modifier = {
+			
+		}
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -50
+			}
+		}
+		
+		remove_effect = {
+			add_stability = -0.04
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = -0.06
+			}
+		}
+	}
+}
