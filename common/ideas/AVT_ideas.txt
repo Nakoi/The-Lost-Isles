@@ -75,3 +75,40 @@ ideas = {
 				political_power_gain = 0.2
 			}
 		}
+
+		AVT_idea_traitors_in_the_palace = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+
+		AVT_idea_rebellious_nobility = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = -0.4
+				stability_factor = -0.2
+			}
+		}
+
+		AVT_idea_decreased_tax_revenue = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}

@@ -368,6 +368,24 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_militarism
+				popularity = 0.02
+			}
+
+			add_popularity = {
+				ideology = ideology_isolationism
+				popularity = 0.02
+			}
+
+			add_popularity = {
+				ideology = ideology_visionarism
+				popularity = 0.02
+			}
+		#ADD EVENT HERE
+		}
 	}
 	
 	focus = {
@@ -379,6 +397,16 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = -0.05
+			}
+			add_timed_idea = {
+				idea = AVT_idea_rebellious_nobility
+				days = 720
+			}
 		}
 	}
 	
@@ -392,6 +420,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		completion_reward = {
+			add_stability = -0.05
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = -0.05
+			}
+		}
 	}
 	
 	focus = {
@@ -404,6 +439,16 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+
+		completion_reward = {
+			add_stability = -0.05
+			add_timed_idea = { 
+				idea = AVT_idea_traitors_in_the_palace 
+				days = 360
+				}
+		}
+		
+
 	}
 	
 	focus = {
@@ -429,6 +474,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		completion_reward = {
+			#ADD EVENT HERE
+			add_timed_idea = {
+				idea = AVT_idea_decreased_tax_revenue
+				days = 500
+			}
+		}
 	}
 	
 	focus = {
@@ -440,6 +492,17 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		available = {
+			ideology_visionarism > 0.34
+			political_power_factor = 25
+			has_war = no
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_visionarism
+				popularity = 0.05
+			}
 		}
 	}
 	
@@ -454,6 +517,65 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		completion_reward = {
+			# ADD EVENT HERE
+			450 = {
+  				damage_building = {
+   					type = industrial_complex
+    				damage = 1
+  				}
+  				damage_building = {
+   					type = arms_factory
+    				damage = 1
+  				}
+  				damage_building = {
+   					type = dockyard
+    				damage = 1
+  				}
+			}
+			447 = {
+  				damage_building = {
+   					type = industrial_complex
+    				damage = 1
+  				}
+  				damage_building = {
+   					type = arms_factory
+    				damage = 1
+  				}
+  				damage_building = {
+   					type = dockyard
+    				damage = 1
+  				}
+			}
+			448 = {
+  				damage_building = {
+   					type = industrial_complex
+    				damage = 1
+  				}
+  				damage_building = {
+   					type = arms_factory
+    				damage = 1
+  				}
+  				damage_building = {
+   					type = dockyard
+    				damage = 1
+  				}
+			}
+			449 = {
+  				damage_building = {
+   					type = industrial_complex
+    				damage = 1
+  				}
+  				damage_building = {
+   					type = arms_factory
+    				damage = 1
+  				}
+  				damage_building = {
+   					type = dockyard
+    				damage = 1
+  				}
+			}
+		}
 	}
 	
 	focus = {
@@ -465,6 +587,14 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		available = {
+			ideology_isolationism > 0.34
+			has_war = no
+			has_equipment = { support_equipment > 49 }
+		}
+		completion_reward = {
+			stability_factor = -0.05
 		}
 	}
 	
@@ -479,6 +609,22 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		available = {
+			stability_factor < 0.1
+			ideology_imperialism < 0.2
+			has_war = no
+		}
+		completion_reward = {
+			#ADD EVENT HERE
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = -0.1
+			}
+			add_political_power = -100
+			AVT_tzar = {
+				retire = yes
+			}
 		}
 	}
 	
@@ -516,7 +662,13 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = AVTtt_unicorns_take_charge
 				has_completed_focus = AVT_teleport_network
+				has_war = no
 			}
+		}
+		completion_reward = {
+			add_political_power = 300
+			#ADD EVENT HERE
+			remove_ideas = AVT_idea_noble_discontent
 		}
 	}
 	
@@ -531,6 +683,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+                type = rifle_equipment
+                amount = -500
+            }
+			#ADD EVENT HERE
+		}
 	}
 	
 	focus = {
@@ -542,6 +701,14 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		available = {
+			ideology_militarism = 0.34
+			command_power = 50
+			has_war = no
+		}
+		completion_reward = {
+			stability_factor -0.05
 		}
 	}
 	
@@ -573,5 +740,10 @@ focus_tree = {
 				tooltip = AVTtt_pegasi_take_charge
 				has_completed_focus = AVT_light_the_flame
 			}
+		}
+		completion_reward = {
+		political_power_factor = 300
+		#ADD EVENT HERE
+		remove_ideas = AVT_idea_noble_discontent
 		}
 	}
