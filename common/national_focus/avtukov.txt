@@ -370,6 +370,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_avt_civilwarrebel
+			activate_mission = AVT_kill_tsar_mission
 			add_popularity = {
 				ideology = ideology_militarism
 				popularity = 0.02
