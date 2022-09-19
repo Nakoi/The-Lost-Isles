@@ -89,6 +89,15 @@
  AVT_infiltrate_college_decision:0 "Infiltrate the Platinum College"
  AVT_infiltrate_tradecouncil_decision:0 "Infiltrate the Trade Council"
  AVT_infiltrate_swiftguards_decision:0 "Infiltrate the Swiftguards"
+ 
+ decisioncat_avt_civilwarrebel:0 "Prepare the Coup"
+ AVT_kill_tsar_mission:0 "Kill the Tsar"
+ AVT_rile_up_masses_decision:0 "Rile up the Masses"
+ AVT_convince_muds_decision:0 "Convince the Trade Councils"
+ AVT_convince_unicorns_decision:0 "Convince the Platinum Mages"
+ AVT_convince_pegasi_decision:0 "Convince the Swiftguards"
+ AVT_spread_violence_decision:0 "Sow Chaos"
+ AVT_infiltrate_tzar_decision:0 "Infiltrate the Tsar's Inner Circle"
 
 ###EVENT LOCALISATION###
  avt_event.0.t:0 "Winds of Change"
