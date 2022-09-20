@@ -123,17 +123,20 @@ country_event = {
 	major = no
 	
 	option = {
-		name = avt_event.6.a #TO SWITCH TO CONTINUISM 
+		name = avt_event.6.a 
 		set_country_flag = avt_tzaritsa_accepted
 		custom_effect_tooltip = AVTtt_tsaritsa_takeover
 		hidden_effect = {
             retire_country_leader = yes
+			set_politics = {
+				ruling_party = ideology_continuism
+				elections_allowed = no
+			}
             add_country_leader_role = {
                 character = AVT_tzaritsa
                 promote_leader = yes
-
                 country_leader = {
-                    ideology = imperialism_thing
+                    ideology = continuism_thing
                     expire = "1965.1.1"
                     id=-1
                 }

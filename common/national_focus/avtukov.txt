@@ -57,7 +57,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = ideology_continuism
-				popularity = 0.01
+				popularity = 0.02
 			}
 			IF = {
 				limit = {
@@ -105,7 +105,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = ideology_continuism
-				popularity = 0.02
+				popularity = 0.03
 			}
 		}
 	}
@@ -156,6 +156,10 @@ focus_tree = {
 	
 		completion_reward = {
 			add_political_power = 25
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.05
+			}
 			431 = {
 				add_manpower = -15
 			}
@@ -198,6 +202,10 @@ focus_tree = {
 				bonus = 1
 				uses = 2
 				category = science_crypto
+			}
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.05
 			}
 			431 = {
 				add_manpower = -25
@@ -248,7 +256,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = ideology_continuism
-				popularity = 0.02
+				popularity = 0.05
 			}
 		}
 	}
@@ -293,7 +301,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = ideology_continuism
-				popularity = 0.03
+				popularity = 0.05
 			}
 		}
 	}
@@ -364,7 +372,7 @@ focus_tree = {
 		x = 4
 		y = 1
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 2
 		ai_will_do = {
 			factor = 5
 		}
@@ -396,10 +404,16 @@ focus_tree = {
 		x = 4
 		y = 2
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_civil_war = no
+			has_stability < 0.35
+		}
+		
 		completion_reward = {
 			add_popularity = {
 				ideology = ideology_imperialism
@@ -418,10 +432,16 @@ focus_tree = {
 		x = 4
 		y = 3
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_civil_war = no
+			has_stability < 0.20
+		}
+		
 		completion_reward = {
 			add_stability = -0.05
 			add_popularity = {
@@ -437,20 +457,23 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+		
+		available = {
+			has_civil_war = no
+			ideology_imperialism < 0.35
 		}
 
 		completion_reward = {
 			add_stability = -0.05
 			add_timed_idea = { 
-				idea = AVT_idea_traitors_in_the_palace 
-				days = 360
-				}
+				idea = AVT_idea_traitors_in_the_palace_1 
+				days = 720
+			}
 		}
-		
-
 	}
 	
 	focus = {
@@ -459,9 +482,21 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+		
+		available = {
+			has_civil_war = no
+			ideology_imperialism < 0.25
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = AVT_idea_traitors_in_the_palace_2
+				remove_idea = AVT_idea_traitors_in_the_palace_1
+			}
 		}
 	}
 	
@@ -472,15 +507,20 @@ focus_tree = {
 		x = 6
 		y = 2
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_civil_war = no
+			ideology_visionarism > 0.25
+		}
+		
 		completion_reward = {
-			#ADD EVENT HERE
 			add_timed_idea = {
 				idea = AVT_idea_decreased_tax_revenue
-				days = 500
+				days = 360
 			}
 		}
 	}
@@ -491,15 +531,17 @@ focus_tree = {
 		x = 6
 		y = 3
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
 		}
+		
 		available = {
+			has_civil_war = no
 			ideology_visionarism > 0.34
-			political_power_factor = 25
-			has_war = no
+			has_political_power > 25
 		}
+		
 		completion_reward = {
 			add_popularity = {
 				ideology = ideology_visionarism
@@ -515,10 +557,16 @@ focus_tree = {
 		x = 8
 		y = 2
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_civil_war = no
+			ideology_isolationism > 0.24
+		}
+		
 		completion_reward = {
 			# ADD EVENT HERE
 			450 = {
@@ -586,17 +634,19 @@ focus_tree = {
 		x = 8
 		y = 3
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
 		}
+		
 		available = {
+			has_civil_war = no
 			ideology_isolationism > 0.34
-			has_war = no
 			has_equipment = { support_equipment > 49 }
 		}
+		
 		completion_reward = {
-			stability_factor = -0.05
+			add_stability = -0.05
 		}
 	}
 	
@@ -608,7 +658,7 @@ focus_tree = {
 		x = 4
 		y = 4
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
 		}
@@ -636,16 +686,19 @@ focus_tree = {
 		x = 3
 		y = 5
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = AVTtt_muds_take_charge
-				has_completed_focus = AVT_purchase_officer_commissions
-			}
+			has_civil_war = no
+		}
+		
+		completion_reward = {
+			add_political_power = 300
+			#ADD EVENT HERE
+			remove_ideas = AVT_idea_noble_discontent
 		}
 	}
 	
@@ -655,18 +708,15 @@ focus_tree = {
 		x = 5
 		y = 5
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = AVTtt_unicorns_take_charge
-				has_completed_focus = AVT_teleport_network
-				has_war = no
-			}
+			has_civil_war = no
 		}
+		
 		completion_reward = {
 			add_political_power = 300
 			#ADD EVENT HERE
@@ -681,10 +731,17 @@ focus_tree = {
 		x = 10
 		y = 2
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_civil_war = no
+			ideology_militarism > 0.24
+			has_equipment = { rifle_equipment > 499 }
+		}
+		
 		completion_reward = {
 			add_equipment_to_stockpile = {
                 type = rifle_equipment
@@ -700,17 +757,46 @@ focus_tree = {
 		x = 10
 		y = 3
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
 		}
+		
 		available = {
-			ideology_militarism = 0.34
-			command_power = 50
-			has_war = no
+			has_civil_war = no
+			ideology_militarism > 0.34
+			command_power > 49
 		}
+		
 		completion_reward = {
-			stability_factor -0.05
+			add_stability = -0.04
+			403 = {
+				set_demilitarized_zone = yes
+			}
+			411 = {
+				set_demilitarized_zone = yes
+			}
+			404 = {
+				set_demilitarized_zone = yes
+			}
+			402 = {
+				set_demilitarized_zone = yes
+			}
+			414 = {
+				set_demilitarized_zone = yes
+			}
+			413 = {
+				set_demilitarized_zone = yes
+			}
+			412 = {
+				set_demilitarized_zone = yes
+			}
+			415 = {
+				set_demilitarized_zone = yes
+			}
+			416 = {
+				set_demilitarized_zone = yes
+			}
 		}
 	}
 	
@@ -720,9 +806,13 @@ focus_tree = {
 		x = 10
 		y = 4
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 6
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			
 		}
 	}
 	
@@ -732,20 +822,18 @@ focus_tree = {
 		x = 10
 		y = 5
 		relative_position_id = AVT_the_great_modernisation
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = AVTtt_pegasi_take_charge
-				has_completed_focus = AVT_light_the_flame
-			}
+			has_civil_war = no
 		}
+		
 		completion_reward = {
-		political_power_factor = 300
-		#ADD EVENT HERE
-		remove_ideas = AVT_idea_noble_discontent
+			add_political_power = 300
+			#ADD EVENT HERE
+			remove_ideas = AVT_idea_noble_discontent
 		}
 	}
