@@ -57,7 +57,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = ideology_continuism
-				popularity = 0.01
+				popularity = 0.02
 			}
 			IF = {
 				limit = {
@@ -105,7 +105,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = ideology_continuism
-				popularity = 0.02
+				popularity = 0.03
 			}
 		}
 	}
@@ -156,6 +156,10 @@ focus_tree = {
 	
 		completion_reward = {
 			add_political_power = 25
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.05
+			}
 			431 = {
 				add_manpower = -15
 			}
@@ -198,6 +202,10 @@ focus_tree = {
 				bonus = 1
 				uses = 2
 				category = science_crypto
+			}
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.05
 			}
 			431 = {
 				add_manpower = -25
@@ -248,7 +256,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = ideology_continuism
-				popularity = 0.02
+				popularity = 0.05
 			}
 		}
 	}
@@ -293,7 +301,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = ideology_continuism
-				popularity = 0.03
+				popularity = 0.05
 			}
 		}
 	}
