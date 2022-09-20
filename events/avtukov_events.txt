@@ -1,6 +1,8 @@
 add_namespace = avt_event
 add_namespace = avt_civwarevent
 
+###EARLY GAME TSAR###
+
 country_event = {
 	id = avt_event.0
 	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.0"}
@@ -215,6 +217,120 @@ country_event = {
 	}
 }
 
+###EARLY GAME OPPOSITION###
+
+country_event = {
+	id = avt_event.10
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.10"}
+	title = avt_event.10.t
+	desc = avt_event.10.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.10.a
+		add_popularity = {
+			ideology = ideology_isolationism
+			popularity = 0.02
+		}
+	}
+	option = {
+		name = avt_event.10.b
+		add_popularity = {
+			ideology = ideology_visionarism
+			popularity = 0.02
+		}
+	}
+	option = {
+		name = avt_event.10.c
+		add_popularity = {
+			ideology = ideology_militarism
+			popularity = 0.02
+		}
+	}
+}
+
+country_event = {
+	id = avt_event.11
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.11"}
+	title = avt_event.11.t
+	desc = avt_event.11.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.11.a
+	}
+}
+
+country_event = {
+	id = avt_event.12
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.12"}
+	title = avt_event.12.t
+	desc = avt_event.12.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.12.a
+	}
+}
+
+country_event = {
+	id = avt_event.13
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.13"}
+	title = avt_event.13.t
+	desc = avt_event.13.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.13.a
+	}
+}
+
+country_event = {
+	id = avt_event.14
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.14"}
+	title = avt_event.14.t
+	desc = avt_event.14.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.14.a
+		kill_country_leader = yes
+		add_political_power = -100
+		add_popularity = {
+			ideology = ideology_imperialism
+			popularity = -0.1
+		}
+	}
+}
+
+country_event = {
+	id = avt_event.15
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.15"}
+	title = avt_event.15.t
+	desc = avt_event.15.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.15.a
+		add_stability = -0.2
+		add_political_power = -100
+	}
+}
+
+###CIVIL WAR###
+
 country_event = {
 	id = avt_civwarevent.0
 	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.0"}
@@ -226,5 +342,19 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.0.a
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.1"}
+	title = avt_civwarevent.1.t
+	desc = avt_civwarevent.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_civwarevent.1.a
 	}
 }
