@@ -130,7 +130,7 @@ decisioncat_avt_civilwartsar = {
 		available = {
 			has_completed_focus = AVT_full_speed_ahead
 			NOT = { has_completed_focus = AVT_root_out_traitors }
-			has_equipment = { rifle_equipment > 99 }
+			has_equipment = { rifle_equipment > 249 }
 		}
 
 		fire_only_once = no
@@ -151,12 +151,12 @@ decisioncat_avt_civilwartsar = {
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = rifle_equipment
-				amount = -100
+				amount = -250
 			}
 		}
 		
 		remove_effect = {
-			add_stability = 0.08
+			add_stability = 0.05
 			add_popularity = {
 				ideology = ideology_continuism
 				popularity = 0.03
@@ -212,7 +212,7 @@ decisioncat_avt_civilwartsar = {
 			}
 			add_popularity = {
 				ideology = ideology_isolationism
-				popularity = -0.06
+				popularity = -0.03
 			}
 		}
 	}
@@ -265,7 +265,7 @@ decisioncat_avt_civilwartsar = {
 			}
 			add_popularity = {
 				ideology = ideology_visionarism
-				popularity = -0.06
+				popularity = -0.03
 			}
 		}
 	}
@@ -318,7 +318,7 @@ decisioncat_avt_civilwartsar = {
 			}
 			add_popularity = {
 				ideology = ideology_militarism
-				popularity = -0.06
+				popularity = -0.03
 			}
 		}
 	}
@@ -345,14 +345,15 @@ decisioncat_avt_civilwarrebel = {
 
 		visible = {
 			NOT = { has_completed_focus = AVT_the_coup }
-		}
+			NOT = { has_completed_focus = AVT_light_the_flame }
+		}		
 
 		cancel_if_not_visible = yes
 
 		is_good = yes
 
 		timeout_effect = {
-			country_event = { id = avt_civwarevent.0 }
+			country_event = { id = avt_civwarevent.1 }
 		}
 	}
 	
@@ -367,6 +368,7 @@ decisioncat_avt_civilwarrebel = {
 		available = {
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
+			NOT = { has_completed_focus = AVT_light_the_flame }
 		}
 
 		cost = 50
@@ -384,6 +386,7 @@ decisioncat_avt_civilwarrebel = {
 			has_active_mission = AVT_kill_tsar_mission
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
+			NOT = { has_completed_focus = AVT_light_the_flame }
 		}
 		
 		modifier = {
@@ -415,6 +418,7 @@ decisioncat_avt_civilwarrebel = {
 		available = {
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
+			NOT = { has_completed_focus = AVT_light_the_flame }
 		}
 
 		cost = 50
@@ -432,6 +436,7 @@ decisioncat_avt_civilwarrebel = {
 			has_active_mission = AVT_kill_tsar_mission
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
+			NOT = { has_completed_focus = AVT_light_the_flame }
 		}
 		
 		modifier = {
@@ -445,7 +450,7 @@ decisioncat_avt_civilwarrebel = {
 			}
 			add_popularity = {
 				ideology = ideology_imperialism
-				popularity = -0.06
+				popularity = -0.03
 			}
 		}
 	}
@@ -461,6 +466,7 @@ decisioncat_avt_civilwarrebel = {
 		available = {
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
+			NOT = { has_completed_focus = AVT_light_the_flame }
 		}
 
 		cost = 50
@@ -478,6 +484,7 @@ decisioncat_avt_civilwarrebel = {
 			has_active_mission = AVT_kill_tsar_mission
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
+			NOT = { has_completed_focus = AVT_light_the_flame }
 		}
 		
 		modifier = {
@@ -491,7 +498,7 @@ decisioncat_avt_civilwarrebel = {
 			}
 			add_popularity = {
 				ideology = ideology_imperialism
-				popularity = -0.06
+				popularity = -0.03
 			}
 		}
 	}
@@ -507,6 +514,7 @@ decisioncat_avt_civilwarrebel = {
 		available = {
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
+			NOT = { has_completed_focus = AVT_light_the_flame }
 		}
 
 		cost = 50
@@ -524,6 +532,7 @@ decisioncat_avt_civilwarrebel = {
 			has_active_mission = AVT_kill_tsar_mission
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
+			NOT = { has_completed_focus = AVT_light_the_flame }
 		}
 		
 		modifier = {
@@ -537,7 +546,7 @@ decisioncat_avt_civilwarrebel = {
 			}
 			add_popularity = {
 				ideology = ideology_imperialism
-				popularity = -0.06
+				popularity = -0.03
 			}
 		}
 	}
@@ -553,7 +562,8 @@ decisioncat_avt_civilwarrebel = {
 		available = {
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
-			has_equipment = { rifle_equipment > 99 }
+			NOT = { has_completed_focus = AVT_light_the_flame }
+			has_equipment = { rifle_equipment > 249 }
 		}
 
 		fire_only_once = no
@@ -569,6 +579,7 @@ decisioncat_avt_civilwarrebel = {
 			has_active_mission = AVT_kill_tsar_mission
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
+			NOT = { has_completed_focus = AVT_light_the_flame }
 		}
 		
 		modifier = {
@@ -578,12 +589,12 @@ decisioncat_avt_civilwarrebel = {
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = rifle_equipment
-				amount = -100
+				amount = -250
 			}
 		}
 		
 		remove_effect = {
-			add_stability = -0.08
+			add_stability = -0.05
 			add_manpower = -200
 		}
 	}
@@ -599,6 +610,7 @@ decisioncat_avt_civilwarrebel = {
 		available = {
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
+			NOT = { has_completed_focus = AVT_light_the_flame }
 			has_equipment = { support_equipment > 49 }
 		}
 
@@ -615,6 +627,7 @@ decisioncat_avt_civilwarrebel = {
 			has_active_mission = AVT_kill_tsar_mission
 			has_completed_focus = AVT_the_conspiracy
 			NOT = { has_completed_focus = AVT_the_coup }
+			NOT = { has_completed_focus = AVT_light_the_flame }
 		}
 		
 		modifier = {
