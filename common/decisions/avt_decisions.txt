@@ -157,6 +157,10 @@ decisioncat_avt_civilwartsar = {
 		
 		remove_effect = {
 			add_stability = 0.08
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.03
+			}
 		}
 	}
 	
@@ -201,6 +205,10 @@ decisioncat_avt_civilwartsar = {
 			add_popularity = {
 				ideology = ideology_imperialism
 				popularity = 0.06
+			}
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.04
 			}
 			add_popularity = {
 				ideology = ideology_isolationism
@@ -252,6 +260,10 @@ decisioncat_avt_civilwartsar = {
 				popularity = 0.06
 			}
 			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.04
+			}
+			add_popularity = {
 				ideology = ideology_visionarism
 				popularity = -0.06
 			}
@@ -299,6 +311,10 @@ decisioncat_avt_civilwartsar = {
 			add_popularity = {
 				ideology = ideology_imperialism
 				popularity = 0.06
+			}
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.04
 			}
 			add_popularity = {
 				ideology = ideology_militarism
