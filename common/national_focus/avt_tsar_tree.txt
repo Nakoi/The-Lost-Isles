@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = AVT
        }
     }
 
@@ -420,7 +420,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = AVT_never_another_griffjew
+		id = AVT_never_another_gerard
 		prerequisite = { focus = AVT_united_empire }
 		prerequisite = { focus = AVT_service_guarantees_citizenship }
 		prerequisite = { focus = AVT_public_healthcare }
@@ -435,7 +435,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_deindustrialise_south
-		prerequisite = { focus = AVT_never_another_griffjew }
+		prerequisite = { focus = AVT_never_another_gerard }
 		x = 2
 		y = 10
 		relative_position_id = AVT_the_tzar
@@ -447,7 +447,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_fate_of_royals
-		prerequisite = { focus = AVT_never_another_griffjew }
+		prerequisite = { focus = AVT_never_another_gerard }
 		x = 4
 		y = 10
 		relative_position_id = AVT_the_tzar
@@ -605,7 +605,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = AVT_underwater_independence
+		id = AVT_leash_the_dogs
 		prerequisite = { focus = AVT_expand_empire }
 		x = 11
 		y = 7
@@ -619,7 +619,7 @@ focus_tree = {
 	focus = {
 		id = AVT_new_kingdom
 		prerequisite = { focus = AVT_underwater_compliance }
-		prerequisite = { focus = AVT_underwater_independence }
+		prerequisite = { focus = AVT_leash_the_dogs }
 		x = 10
 		y = 8
 		relative_position_id = AVT_the_tzar
