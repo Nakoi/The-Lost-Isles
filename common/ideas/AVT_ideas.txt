@@ -125,5 +125,73 @@ ideas = {
 				consumer_goods_factor = 0.15
 			}
 		}
+
+		AVT_towards_meritocracy = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				research_speed_factor = 0.05
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+			}
+		}
+
+		AVT_aristocratic_insight = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_gain = 0.1
+				local_resources_factor = 0.1
+			}
+		}
+
+		AVT_reparations_to_the_nobels = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.1
+				political_power_gain = -0.2
+			}
+		}
+
+		AVT_advisory_parliament = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_gain = 0.25
+				advisor_recruitment_cost = -0.2
+				ideology_imperialism_drift = 0.1
+			}
+		}
+
+		AVT_legislative_parliament = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_gain = -0.1
+				advisor_recruitment_cost = -0.5
+				stability_weekly = 0.1
+			}
+		}
 	}
 }

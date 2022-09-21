@@ -22,6 +22,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	
 	focus = {
@@ -230,6 +234,15 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		completion_reward = {
+			add_political_power = 150
+			#recruit_advisor
+			add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category = 	industry_civilizedeco
+            }
+		}
 	}
 	
 	focus = {
@@ -241,6 +254,72 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category =	industry_civilizedagri
+            }	
+			add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category =	industry_civilizedconstr
+            }
+			402 = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			463 = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = fuel_silo
+					level = 1
+					instant_build = yes
+				}
+			}
+			447 = {	
+				add_extra_state_shared_building_slots = 2
+			}
+			454 = {	
+				add_extra_state_shared_building_slots = 2
+			}
+			432 = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			426 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = fuel_silo
+					level = 1
+					instant_build = yes
+				}
+			}
+			440 = {	
+				add_extra_state_shared_building_slots = 3
+			}
+			435 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -254,6 +333,33 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		completion_reward = {
+			add_stability = -0.1
+			450 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			439 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			455 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	
 	focus = {
@@ -266,6 +372,15 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		completion_reward = {
+			remove_ideas = AVT_idea_tribe_mistrust
+			add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category = 	racial
+            }
+		}
+
 	}
 	
 	focus = {
@@ -279,6 +394,102 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		completion_reward = {
+		add_ideas = policy_revolutionary
+			IF = {
+				limit = {
+					has_idea = policy_regressive
+				}
+				swap_ideas = {
+					remove_idea = policy_regressive
+					add_idea = policy_revolutionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_reactionary
+				}
+				swap_ideas = {
+					remove_idea = policy_reactionary
+					add_idea = policy_revolutionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_conservative
+				}
+				swap_ideas = {
+					remove_idea = policy_conservative
+					add_idea = policy_revolutionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_progressive
+				}
+				swap_ideas = {
+					remove_idea = policy_progressive
+					add_idea = policy_revolutionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_futurist
+				}
+				swap_ideas = {
+					remove_idea = policy_futurist
+					add_idea = policy_revolutionary
+				}
+			}
+			
+			add_ideas = policy_despotism
+			IF = {
+				limit = {
+					has_idea = policy_oligarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_oligarchy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_aristocracy
+				}
+				swap_ideas = {
+					remove_idea = policy_aristocracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_auth_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_auth_democracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_democracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_anarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_anarchy
+					add_idea = policy_despotism
+				}
+			}
+			add_ideas = AVT_towards_meritocracy
+		}
 	}
 	
 	focus = {
@@ -288,9 +499,59 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			add_political_power = -75
+			add_ideas = AVT_aristocratic_insight
+			add_ideas = policy_despotism
+			IF = {
+				limit = {
+					has_idea = policy_oligarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_oligarchy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_aristocracy
+				}
+				swap_ideas = {
+					remove_idea = policy_aristocracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_auth_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_auth_democracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_democracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_anarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_anarchy
+					add_idea = policy_despotism
+				}
+			}
 		}
 	}
 	
@@ -301,9 +562,37 @@ focus_tree = {
 		x = -3
 		y = 4
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		available = {
+			command_power > 49
+		}
+		completion_reward = {
+			add_manpower = -3450
+			add_command_power = -50
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = -0.1
+			}
+			stability_factor = -0.1
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -317,6 +606,32 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.05
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_timed_idea = {
+				idea = AVT_reparations_to_the_nobels
+				days = 720
+			}
 		}
 	}
 	
@@ -342,6 +657,17 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		available = {
+			num_of_factories > 125
+		}
+		completion_reward = {
+			add_political_power = -300
+			swap_ideas = {
+				add_idea = genidea_industrial_dev
+				remove_idea = genidea_civilised_dev
+			}
+			#remove_ideas = avt_proto_industrial
+		}
 	}
 	
 	focus = {
@@ -354,6 +680,9 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			add_ideas = AVT_advisory_parliament
 		}
 	}
 	
@@ -368,6 +697,55 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		completion_reward = {
+			add_ideas = policy_democracy
+			IF = {
+				limit = {
+					has_idea = policy_oligarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_oligarchy
+					add_idea = policy_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_aristocracy
+				}
+				swap_ideas = {
+					remove_idea = policy_aristocracy
+					add_idea = policy_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_auth_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_auth_democracy
+					add_idea = policy_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_despotism
+				}
+				swap_ideas = {
+					remove_idea = policy_despotism
+					add_idea = policy_democracy
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_anarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_anarchy
+					add_idea = policy_democracy
+				}
+			}
+			add_ideas = AVT_legislative_parliament
+		}
 	}
 	
 	focus = {
@@ -379,6 +757,10 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			#add new generals
+			#modify_idea avt_triumphant_patriotism
 		}
 	}
 	
