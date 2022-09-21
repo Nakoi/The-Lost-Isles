@@ -39,6 +39,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_war_support = 0.05
 			AVT = {
   				add_state_claim = 348
   				add_state_claim = 347
@@ -82,22 +83,36 @@ focus_tree = {
 		x = 4
 		y = 3
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
+		
 		available = {
-				owns_state = 140
-				owns_state = 383
+			OR = {
+				GAL = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = GAL }
+			}
+			OR = {
+				SCO = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = SCO }
+			}
+			owns_state = 383
+  			owns_state = 140
 		}
+		
 		completion_reward = {
 			add_popularity = {
 				ideology = ideology_imperialism
 				popularity = 0.05
 			}
 			AVT = {
-  				add_state_claim = 383
-  				add_state_claim = 140
+  				add_state_core = 383
+  				add_state_core = 140
 			}
 			140 = {	
 				add_extra_state_shared_building_slots = 2
@@ -130,10 +145,11 @@ focus_tree = {
 		x = 3
 		y = 4
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
+		
 		available = {
 			OR = {
 				GAL = {
@@ -142,13 +158,14 @@ focus_tree = {
 			NOT = { country_exists = GAL }
 			}
 		}
+		
 		completion_reward = {
 			every_state = {
 				limit = {
 					is_owned_by = ROOT
 					NOT = { is_core_of = ROOT }
 				}
-			add_resistance = 5
+				add_resistance = 10
 			}
 			add_ideas = AVT_nationalist_fervor
 		}
@@ -161,7 +178,7 @@ focus_tree = {
 		x = 5
 		y = 4
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -238,9 +255,14 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			#TO ADD RELATIONS MODIFIER
 		}
 	}
 	
