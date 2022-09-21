@@ -515,6 +515,7 @@ focus_tree = {
 		available = {
 			has_civil_war = no
 			ideology_visionarism > 0.25
+			has_country_flag = avt_tax_evaders_flag
 		}
 		
 		completion_reward = {
@@ -566,6 +567,7 @@ focus_tree = {
 		available = {
 			has_civil_war = no
 			ideology_isolationism > 0.24
+			has_country_flag = avt_car_bombers_flag
 		}
 		
 		completion_reward = {
@@ -676,6 +678,7 @@ focus_tree = {
 	focus = {
 		id = AVT_muds_take_charge
 		prerequisite = { focus = AVT_the_coup }
+		mutually_exclusive = { focus = AVT_unicorns_take_charge }
 		x = 3
 		y = 5
 		relative_position_id = AVT_the_great_modernisation
@@ -698,6 +701,7 @@ focus_tree = {
 	focus = {
 		id = AVT_unicorns_take_charge
 		prerequisite = { focus = AVT_the_coup }
+		mutually_exclusive = { focus = AVT_muds_take_charge }
 		x = 5
 		y = 5
 		relative_position_id = AVT_the_great_modernisation
@@ -733,6 +737,7 @@ focus_tree = {
 			has_civil_war = no
 			ideology_militarism > 0.24
 			has_equipment = { rifle_equipment > 499 }
+			has_country_flag = avt_arms_trafficking_flag
 		}
 		
 		completion_reward = {

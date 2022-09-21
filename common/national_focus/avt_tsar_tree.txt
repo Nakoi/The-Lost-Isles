@@ -89,6 +89,7 @@ focus_tree = {
 	focus = {
 		id = AVT_hegemonic_ambitions
 		prerequisite = { focus = AVT_avtukov_nationalism focus = AVT_embrace_deer }
+		prerequisite = { focus = AVT_forced_land_appropriation focus = AVT_compesate_nobles }
 		x = 4
 		y = 5
 		relative_position_id = AVT_the_tzar
@@ -594,21 +595,8 @@ focus_tree = {
 	focus = {
 		id = AVT_underwater_compliance
 		prerequisite = { focus = AVT_expand_empire }
-		mutually_exclusive = { focus = AVT_underwater_independence }
 		x = 9
 		y = 7
-		relative_position_id = AVT_the_tzar
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	
-	focus = {
-		id = AVT_invest_in_underwater_cities
-		prerequisite = { focus = AVT_underwater_compliance }
-		x = 9
-		y = 8
 		relative_position_id = AVT_the_tzar
 		cost = 1
 		ai_will_do = {
@@ -619,7 +607,6 @@ focus_tree = {
 	focus = {
 		id = AVT_underwater_independence
 		prerequisite = { focus = AVT_expand_empire }
-		mutually_exclusive = { focus = AVT_underwater_compliance }
 		x = 11
 		y = 7
 		relative_position_id = AVT_the_tzar
@@ -630,9 +617,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = AVT_develop_coast
+		id = AVT_new_kingdom
+		prerequisite = { focus = AVT_underwater_compliance }
 		prerequisite = { focus = AVT_underwater_independence }
-		x = 11
+		x = 10
 		y = 8
 		relative_position_id = AVT_the_tzar
 		cost = 1
