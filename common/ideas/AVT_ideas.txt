@@ -32,6 +32,21 @@ ideas = {
                 attrition = -0.05
 			}
 		}
+		
+		AVT_idea_Patriotism_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				surrender_limit = 0.2
+                army_core_defence_factor = 0.1
+				non_core_manpower = 0.1
+                attrition = -0.1
+			}
+		}
 
 		AVT_idea_stagnant_society = {
 			picture = great_depression
@@ -175,7 +190,7 @@ ideas = {
 				
 			modifier = {
 				political_power_gain = 0.25
-				advisor_recruitment_cost = -0.2
+				political_advisor_cost_factor = -0.2
 				ideology_imperialism_drift = 0.1
 			}
 		}
@@ -189,8 +204,26 @@ ideas = {
 				
 			modifier = {
 				political_power_gain = -0.1
-				advisor_recruitment_cost = -0.5
-				stability_weekly = 0.1
+				political_advisor_cost_factor = -0.5
+				stability_weekly = 0.01
+			}
+		}
+		
+		AVT_national_healthcare = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				monthly_population = 0.15
+				conscription_factor = 0.1
+				consumer_goods_factor = 0.03
+			}
+			
+			research_bonus = {
+				science_chemistry = 0.2
 			}
 		}
 	}
