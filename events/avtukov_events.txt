@@ -230,6 +230,7 @@ country_event = {
 	
 	option = {
 		name = avt_event.10.a
+		set_country_flag = avt_car_bombers_flag
 		add_popularity = {
 			ideology = ideology_isolationism
 			popularity = 0.02
@@ -237,6 +238,7 @@ country_event = {
 	}
 	option = {
 		name = avt_event.10.b
+		set_country_flag = avt_tax_evaders_flag
 		add_popularity = {
 			ideology = ideology_visionarism
 			popularity = 0.02
@@ -244,6 +246,7 @@ country_event = {
 	}
 	option = {
 		name = avt_event.10.c
+		set_country_flag = avt_arms_trafficking_flag
 		add_popularity = {
 			ideology = ideology_militarism
 			popularity = 0.02
