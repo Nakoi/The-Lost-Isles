@@ -34,9 +34,24 @@ focus_tree = {
 		x = 4
 		y = 1
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			AVT = {
+  				add_state_claim = 348
+  				add_state_claim = 347
+				add_state_claim = 344
+				add_state_claim = 345
+				add_state_claim = 346
+				add_state_claim = 343
+				add_state_claim = 342
+				create_wargoal = {
+					type = annex_everything
+					target = GAL
+				}
+			}
 		}
 	}
 	
@@ -46,9 +61,18 @@ focus_tree = {
 		x = 4
 		y = 2
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			AVT = {
+				create_wargoal = {
+					type = annex_everything
+					target = SCO
+				}
+			}
 		}
 	}
 	
@@ -61,6 +85,41 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		available = {
+				owns_state = 140
+				owns_state = 383
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.05
+			}
+			AVT = {
+  				add_state_claim = 383
+  				add_state_claim = 140
+			}
+			140 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_manpower = 12900
+			}
+			383 = {	
+				add_manpower = 7329
+				add_resource = {
+					type = crystals
+					amount = 10
+				}
+			}
 		}
 	}
 	
@@ -75,6 +134,24 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		available = {
+			OR = {
+				GAL = {
+			is_subject_of = AVT
+			}
+			NOT = { country_exists = GAL }
+			}
+		}
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_owned_by = ROOT
+					NOT = { is_core_of = ROOT }
+				}
+			add_resistance = 5
+			}
+			add_ideas = AVT_nationalist_fervor
+		}
 	}
 	
 	focus = {
@@ -87,6 +164,58 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		available = {
+			OR = {
+				GAL = {
+				is_subject_of = AVT
+				}
+				NOT = { country_exists = GAL }
+			}
+			owns_state = 348
+			owns_state = 347
+			owns_state = 344
+			owns_state = 345
+			owns_state = 346
+			owns_state = 343
+			owns_state = 342
+		}
+		completion_reward = {
+			348 = {
+				add_compliance = 15
+				add_resistance = -15
+				#STATE MODIEFIER ADD HERE
+			}
+			347 = {
+				add_compliance = 15
+				add_resistance = -15
+				#STATE MODIEFIER ADD HERE
+			}
+			344 = {
+				add_compliance = 15
+				add_resistance = -15
+				#STATE MODIEFIER ADD HERE
+			}
+			345 = {
+				add_compliance = 15
+				add_resistance = -15
+				#STATE MODIEFIER ADD HERE
+			}
+			346 = {
+				add_compliance = 15
+				add_resistance = -15
+				#STATE MODIEFIER ADD HERE
+			}
+			343 = {
+				add_compliance = 15
+				add_resistance = -15
+				#STATE MODIEFIER ADD HERE
+			}
+			342 = {
+				add_compliance = 15
+				add_resistance = -15
+				#STATE MODIEFIER ADD HERE
+			}
 		}
 	}
 	
@@ -121,9 +250,12 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			#ADD EVENT HERE
 		}
 	}
 	

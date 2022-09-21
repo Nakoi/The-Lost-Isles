@@ -226,5 +226,19 @@ ideas = {
 				science_chemistry = 0.2
 			}
 		}
+
+		AVT_nationalist_fervor = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription = 0.015
+				justify_war_goal_time = -0.25
+				mobilization_speed = 0.25
+			}
+		}
 	}
 }
