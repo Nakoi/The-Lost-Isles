@@ -240,5 +240,34 @@ ideas = {
 				mobilization_speed = 0.25
 			}
 		}
+
+		AVT_administrative_reorganistation = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				research_speed_factor = -0.25
+				political_power_gain = -0.5
+				production_speed_buildings_factor = -0.25
+			}
+		}
+
+		AVT_strenght_though_diversity = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				army_org_factor = -0.1
+				political_power_gain = 0.1
+				non_core_manpower = 0.1
+				required_garrison_factor = -0.2
+			}
+		}
 	}
 }

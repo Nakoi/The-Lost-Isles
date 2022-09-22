@@ -247,6 +247,311 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		available = {
+			has_army_manpower ={
+				size > 300000
+			}
+		}
+		completion_reward = {
+			ESU = {
+				limit = {
+					country_exists = ESU
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = ESU
+						type = annex_everything
+					}
+				}
+			}
+
+			AZE = {
+				limit = {
+					country_exists = AZE
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = AZE
+						type = annex_everything
+					}
+				}
+			}
+
+			HRI = {
+				limit = {
+					country_exists = HRI
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = HRI
+						type = annex_everything
+					}
+				}
+			}
+
+			ONK = {
+				limit = {
+					country_exists = ONK
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = ONK
+						type = annex_everything
+					}
+				}
+			}
+
+			WAO = {
+				limit = {
+					country_exists = WAO
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = WAO
+						type = annex_everything
+					}
+				}
+			}
+
+			AIN = {
+				limit = {
+					country_exists = AIN
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = AIN
+						type = annex_everything
+					}
+				}
+			}
+
+			SEN = {
+				limit = {
+					country_exists = SEN
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = SEN
+						type = annex_everything
+					}
+				}
+			}
+
+			FRE = {
+				limit = {
+					country_exists = FRE
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = FRE
+						type = annex_everything
+					}
+				}
+			}
+
+			SUA = {
+				limit = {
+					country_exists = SUA
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = SUA
+						type = annex_everything
+					}
+				}
+			}
+
+			ASH = {
+				limit = {
+					country_exists = ASH
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = ASH
+						type = annex_everything
+					}
+				}
+			}
+
+			RIN = {
+				limit = {
+					country_exists = RIN
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = RIN
+						type = annex_everything
+					}
+				}
+			}
+
+			UNU = {
+				limit = {
+					country_exists = UNU
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = UNU
+						type = annex_everything
+					}
+				}
+			}
+			WEI = {
+				limit = {
+					country_exists = WEI
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = WEI
+						type = annex_everything
+					}
+				}
+			}
+
+			KAE = {
+				limit = {
+					country_exists = KAE
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = KAE
+						type = annex_everything
+					}
+				}
+			}
+
+			AST = {
+				limit = {
+					country_exists = AST
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = AST
+						type = annex_everything
+					}
+				}
+			}
+		}
 	}
 	
 	focus = {
@@ -291,6 +596,110 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		available = {
+			OR = {
+				ESU = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = ESU }
+			}
+			OR = {
+				AZE = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = AZE }
+			}
+			OR = {
+				HRI = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = HRI }
+			}
+			OR = {
+				ONK = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = ONK }
+			}
+			OR = {
+				WAO = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = WAO }
+			}
+			OR = {
+				AIN = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = AIN }
+			}
+			OR = {
+				SEN = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = SEN }
+			}
+			OR = {
+				FRE = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = FRE }
+			}
+			OR = {
+				SUA = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = SUA }
+			}
+			OR = {
+				ASH = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = ASH }
+			}
+			OR = {
+				RIN = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = RIN }
+			}
+			OR = {
+				UNU = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = UNU }
+			}
+			OR = {
+				WEI = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = WEI }
+			}
+			OR = {
+				KAE = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = KAE }
+			}
+			OR = {
+				ASK = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = AST }
+			}
+			owns_state = 125
+			owns_state = 124
+			owns_state = 123
+			owns_state = 465
+			owns_state = 480
+		}
+		completion_reward = {
+			add_state_core = 125
+			add_state_core = 124
+			add_state_core = 123
+			add_state_core = 465
+			add_state_core = 480
+		}
 	}
 	
 	focus = {
@@ -327,6 +736,281 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		available = {
+			OR = {
+				ESU = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = ESU }
+			}
+			OR = {
+				AZE = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = AZE }
+			}
+			OR = {
+				HRI = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = HRI }
+			}
+			OR = {
+				ONK = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = ONK }
+			}
+			OR = {
+				WAO = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = WAO }
+			}
+			OR = {
+				AIN = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = AIN }
+			}
+			OR = {
+				SEN = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = SEN }
+			}
+			OR = {
+				FRE = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = FRE }
+			}
+			OR = {
+				SUA = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = SUA }
+			}
+			OR = {
+				ASH = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = ASH }
+			}
+			OR = {
+				RIN = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = RIN }
+			}
+			OR = {
+				UNU = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = UNU }
+			}
+			OR = {
+				WEI = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = WEI }
+			}
+			OR = {
+				KAE = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = KAE }
+			}
+			OR = {
+				ASK = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = AST }
+			}
+		}
+		completion_reward = {
+			add_political_power = 100
+			122 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			481 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			467 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			470 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			466 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			468 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			457 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			482 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			477 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			478 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			479 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			459 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			471 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			460 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			458 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			484 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			469 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			483 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			496 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			497 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			485 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			486 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			472 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			498 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			507 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			499 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			418 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			473 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			488 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			487 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			490 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			489 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			500 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			501 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			506 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			503 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			504 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			505 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			495 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			494 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			502 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			493 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			492 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			136 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+			491 = {
+				add_compliance = 10
+				add_resistance = -10
+			}
+		}
 	}
 	
 	focus = {
@@ -339,6 +1023,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = AVT_administrative_reorganistation
+				days = 360
+			}
+			add_ideas = AVT_strenght_though_diversity
+		}
 	}
 	
 	focus = {
@@ -350,6 +1041,56 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			122 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			482 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			469 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			418 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			136 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			506 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -364,6 +1105,21 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		available = {
+			NOT = {
+				has_idea = AVT_administrative_reorganistation
+			}
+		}
+		completion_reward = {
+			#CHANGE COUNTRY NAME
+			#CHANGE FLAG
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.1
+			}
+			add_stability = 0.1
+			add_political_power = 150
+		}
 	}
 	
 	focus = {
@@ -375,6 +1131,13 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			set_technology = {
+				shock_troops_0 = 1
+			}
+			#spawn units
+			#ADD ARMY ADVISOR
 		}
 	}
 	
@@ -1192,6 +1955,148 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		available = {
+			has_war_support > 0.8
+			has_army_manpower ={
+				size > 400000
+			}
+		}
+		completion_reward = {
+			SUN = {
+				limit = {
+					country_exists = SUN
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = SUN
+						type = annex_everything
+					}
+				}
+			}
+			CRU = {
+				limit = {
+					country_exists = CRU
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = CRU
+						type = annex_everything
+					}
+				}
+			}
+			CAI = {
+				limit = {
+					country_exists = CAI
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = CAI
+						type = annex_everything
+					}
+				}
+			}
+			BOR = {
+				limit = {
+					country_exists = BOR
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = BOR
+						type = annex_everything
+					}
+				}
+			}
+			LUA = {
+				limit = {
+					country_exists = LUA
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = LUA
+						type = annex_everything
+					}
+				}
+			}
+			VED = {
+				limit = {
+					country_exists = VED
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = VED
+						type = annex_everything
+					}
+				}
+			}
+			CIL = {
+				limit = {
+					country_exists = CIL
+					NOT = {
+						OR = {
+							is_subject_of = ROOT
+							is_in_faction_with = ROOT
+							is_guaranteed_by = ROOT
+							has_guaranteed = ROOT
+						}
+					}
+				}
+				AVT = {
+					declare_war_on  = {
+						target = CIL
+						type = annex_everything
+					}
+				}
+			}
+			add_state_claim = 325
+		}
 	}
 	
 	focus = {
@@ -1203,6 +2108,349 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			545 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			545 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			545 = {	
+				add_manpower = -6211
+			}
+
+###################################################
+			533 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			533 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			533 = {	
+				add_manpower = -3451
+			}
+
+###################################################
+			474 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			474 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			474 = {	
+				add_manpower = -4532
+			}
+
+###################################################
+			530 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			530 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			530 = {	
+				add_manpower = -1200
+			}
+
+###################################################
+			537 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			537 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			537 = {	
+				add_manpower = -612
+			}
+
+###################################################
+			526 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			526 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			526 = {	
+				add_manpower = -53
+			}
+
+###################################################
+			590 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			590 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			590 = {	
+				add_manpower = -7893
+			}
+
+###################################################
+			593 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			593 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			593 = {	
+				add_manpower = -3477
+			}
+
+###################################################
+			588 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			588 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			588 = {	
+				add_manpower = -351
+			}
+
+###################################################
+			606 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			606 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			606 = {	
+				add_manpower = -9006
+			}
+
+###################################################
+			603 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			603 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			603 = {	
+				add_manpower = -5562
+			}
+
+###################################################
+			608 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			608 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			608 = {	
+				add_manpower = -2311
+			}
+
+###################################################
+			325 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			325 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			325 = {	
+				add_manpower = -15793
+			}
+
+###################################################
+			326 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			326 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			326 = {	
+				add_manpower = -2214
+			}
+
+###################################################
+			549 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			549 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			549 = {	
+				add_manpower = -3321
+			}
+
+###################################################
+			554 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			554 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			554 = {	
+				add_manpower = -9753
+			}
+
+###################################################
+			555 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			555 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			555 = {	
+				add_manpower = -120
+			}
+
+###################################################
+			563 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			563 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			563 = {	
+				add_manpower = -3321
+			}
+
+###################################################
+			577 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			577 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			577 = {	
+				add_manpower = -2297
+			}
+
+###################################################
+			573 = {	
+				set_building_level = {
+					type = arms_factory
+					level = 0
+				}
+			}
+			573 = {	
+				set_building_level = {
+					type = industrial_complex
+					level = 0
+				}
+			}
+			573 = {	
+				add_manpower = -5501
+			}
+			add_offsite_building = { type = arms_factory level = 10 }
+			add_offsite_building = { type = industrial_complex level = 10 }
+			#SUN CRU CAI BOR LUA VED CIL MAKE THEM CIVILIZED
 		}
 	}
 	
@@ -1228,6 +2476,26 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			add_political_power = 150
+			325 = {
+				#CHANGE STATE type
+				add_manpower = -500000
+			}
+			579 = {
+				add_manpower = 99000
+			}
+			580 = {
+				add_manpower = 97900
+			}
+			550 = {
+				add_manpower = 96731
+			}
+			551 = {
+				add_manpower = 100203
+			}
+			#UNLUCK DECISIONS
 		}
 	}
 	
