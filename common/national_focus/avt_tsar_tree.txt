@@ -243,7 +243,7 @@ focus_tree = {
 		x = 4
 		y = 5
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -253,6 +253,9 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			custom_effect_tooltip = AVTtt_kill_kirins
+		
+			hidden_effect = {
 			ESU = {
 				limit = {
 					country_exists = ESU
@@ -551,6 +554,7 @@ focus_tree = {
 					}
 				}
 			}
+			}
 		}
 	}
 	
@@ -592,11 +596,13 @@ focus_tree = {
 		x = 3
 		y = 6
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		available = {
+		custom_trigger_tooltip = {
+			tooltip = AVTtt_kirins_killed
 			OR = {
 				ESU = {
 					is_subject_of = AVT
@@ -687,11 +693,12 @@ focus_tree = {
 				}
 				NOT = { country_exists = AST }
 			}
-			owns_state = 125
-			owns_state = 124
-			owns_state = 123
-			owns_state = 465
-			owns_state = 480
+		}
+		owns_state = 125
+		owns_state = 124
+		owns_state = 123
+		owns_state = 465
+		owns_state = 480
 		}
 		completion_reward = {
 			add_state_core = 125
@@ -708,9 +715,13 @@ focus_tree = {
 		x = 2
 		y = 7
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			#ADD EVENT
 		}
 	}
 	
@@ -720,9 +731,22 @@ focus_tree = {
 		x = 2
 		y = 8
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = racial
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = electronics
+			}
 		}
 	}
 	
@@ -732,11 +756,13 @@ focus_tree = {
 		x = 5
 		y = 6
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_kirins_killed
 			OR = {
 				ESU = {
 					is_subject_of = AVT
@@ -827,9 +853,13 @@ focus_tree = {
 				}
 				NOT = { country_exists = AST }
 			}
+			}
 		}
 		completion_reward = {
 			add_political_power = 100
+			custom_effect_tooltip = AVTtt_pacify_kirins
+			
+			hidden_effect = {
 			122 = {
 				add_compliance = 10
 				add_resistance = -10
@@ -1010,6 +1040,7 @@ focus_tree = {
 				add_compliance = 10
 				add_resistance = -10
 			}
+			}
 		}
 	}
 	
@@ -1019,7 +1050,7 @@ focus_tree = {
 		x = 4
 		y = 7
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1038,7 +1069,7 @@ focus_tree = {
 		x = 6
 		y = 7
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1101,7 +1132,7 @@ focus_tree = {
 		x = 5
 		y = 8
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1113,6 +1144,8 @@ focus_tree = {
 		completion_reward = {
 			#CHANGE COUNTRY NAME
 			#CHANGE FLAG
+			#ADD EVENT
+			#UNLOCK FINAL INTEGRATION DECISIONS
 			add_popularity = {
 				ideology = ideology_imperialism
 				popularity = 0.1
@@ -1128,16 +1161,36 @@ focus_tree = {
 		x = 5
 		y = 9
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
-			set_technology = {
-				shock_troops_0 = 1
-			}
 			#spawn units
-			#ADD ARMY ADVISOR
+			#ADD ARMY ADVISORS
+			IF = {
+				limit = {
+					AVT = {
+						has_tech = shock_troops_0
+					}
+				}
+				add_tech_bonus = {
+					bonus = 1.5
+					uses = 1
+					category = tli_infantry
+				}
+			}
+			
+			IF = {
+				limit = {
+					AVT = {
+						NOT = { has_tech = shock_troops_0 }
+					}
+				}
+				set_technology = {
+					shock_troops_0 = 1
+				}
+			}
 		}
 	}
 	
@@ -1951,7 +2004,7 @@ focus_tree = {
 		x = 3
 		y = 9
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1962,6 +2015,9 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			custom_effect_tooltip = AVTtt_kill_griffons	
+		
+		hidden_effect = {
 			SUN = {
 				limit = {
 					country_exists = SUN
@@ -2097,6 +2153,7 @@ focus_tree = {
 			}
 			add_state_claim = 325
 		}
+		}
 	}
 	
 	focus = {
@@ -2105,11 +2162,14 @@ focus_tree = {
 		x = 2
 		y = 10
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
+			custom_effect_tooltip = AVTtt_literal_griffon_genocide
+		
+		hidden_effect = {
 			545 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2126,7 +2186,6 @@ focus_tree = {
 				add_manpower = -6211
 			}
 
-###################################################
 			533 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2143,7 +2202,6 @@ focus_tree = {
 				add_manpower = -3451
 			}
 
-###################################################
 			474 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2160,7 +2218,6 @@ focus_tree = {
 				add_manpower = -4532
 			}
 
-###################################################
 			530 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2177,7 +2234,6 @@ focus_tree = {
 				add_manpower = -1200
 			}
 
-###################################################
 			537 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2194,7 +2250,6 @@ focus_tree = {
 				add_manpower = -612
 			}
 
-###################################################
 			526 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2211,7 +2266,6 @@ focus_tree = {
 				add_manpower = -53
 			}
 
-###################################################
 			590 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2228,7 +2282,6 @@ focus_tree = {
 				add_manpower = -7893
 			}
 
-###################################################
 			593 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2245,7 +2298,6 @@ focus_tree = {
 				add_manpower = -3477
 			}
 
-###################################################
 			588 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2262,7 +2314,6 @@ focus_tree = {
 				add_manpower = -351
 			}
 
-###################################################
 			606 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2279,7 +2330,6 @@ focus_tree = {
 				add_manpower = -9006
 			}
 
-###################################################
 			603 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2296,7 +2346,6 @@ focus_tree = {
 				add_manpower = -5562
 			}
 
-###################################################
 			608 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2313,7 +2362,6 @@ focus_tree = {
 				add_manpower = -2311
 			}
 
-###################################################
 			325 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2330,7 +2378,6 @@ focus_tree = {
 				add_manpower = -15793
 			}
 
-###################################################
 			326 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2347,7 +2394,6 @@ focus_tree = {
 				add_manpower = -2214
 			}
 
-###################################################
 			549 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2364,7 +2410,6 @@ focus_tree = {
 				add_manpower = -3321
 			}
 
-###################################################
 			554 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2381,7 +2426,6 @@ focus_tree = {
 				add_manpower = -9753
 			}
 
-###################################################
 			555 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2398,7 +2442,6 @@ focus_tree = {
 				add_manpower = -120
 			}
 
-###################################################
 			563 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2415,7 +2458,6 @@ focus_tree = {
 				add_manpower = -3321
 			}
 
-###################################################
 			577 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2432,7 +2474,6 @@ focus_tree = {
 				add_manpower = -2297
 			}
 
-###################################################
 			573 = {	
 				set_building_level = {
 					type = arms_factory
@@ -2452,6 +2493,7 @@ focus_tree = {
 			add_offsite_building = { type = industrial_complex level = 10 }
 			#SUN CRU CAI BOR LUA VED CIL MAKE THEM CIVILIZED
 		}
+		}
 	}
 	
 	focus = {
@@ -2460,9 +2502,13 @@ focus_tree = {
 		x = 4
 		y = 10
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			#ADD EVENT HERE
 		}
 	}
 	
@@ -2473,29 +2519,33 @@ focus_tree = {
 		x = 3
 		y = 11
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
 			add_political_power = 150
-			325 = {
-				#CHANGE STATE type
-				add_manpower = -500000
+			custom_effect_tooltip = AVTtt_holy_shit_ivory
+		
+			hidden_effect = {
+				325 = {
+					set_state_category = rural
+					add_manpower = -500000
+				}
+				579 = {
+					add_manpower = 99000
+				}
+				580 = {
+					add_manpower = 97900
+				}
+				550 = {
+					add_manpower = 96731
+				}
+				551 = {
+					add_manpower = 100203
+				}
+				#UNLUCK DECISIONS
 			}
-			579 = {
-				add_manpower = 99000
-			}
-			580 = {
-				add_manpower = 97900
-			}
-			550 = {
-				add_manpower = 96731
-			}
-			551 = {
-				add_manpower = 100203
-			}
-			#UNLUCK DECISIONS
 		}
 	}
 	
