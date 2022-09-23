@@ -313,10 +313,12 @@ ideas = {
 				justify_war_goal_time = -0.1
 				navy_max_range_factor = 0.15
 				industrial_capacity_dockyard = 0.1
+				local_resources_factor = 0.1
+				subjects_autonomy_gain = -0.5
 			}
 		}
-
-		AVT_colonial_affairs_office_idea_03 = {
+		
+		AVT_local_collaborators_idea = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -325,10 +327,6 @@ ideas = {
 				
 			modifier = {
 				required_garrison_factor = -0.2
-				non_core_manpower = 0.05
-				justify_war_goal_time = -0.1
-				navy_max_range_factor = 0.15
-				industrial_capacity_dockyard = 0.1
 				local_factories = 0.1
 			}
 		}
