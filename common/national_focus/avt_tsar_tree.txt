@@ -2664,26 +2664,41 @@ focus_tree = {
 			factor = 5
 		}
 		available = {
-		#REPLACE NOT = COUNTRY_EXISTS WITH CHECKING FOR STATE OWNERSHIP
 			custom_trigger_tooltip = {
 				tooltip = AVTtt_tsarcolonial_1
 				OR = {
 					TOK = {
 						is_subject_of = AVT
 					}
-					NOT = { country_exists = TOK }
+					AVT = {
+						owns_state = 314
+						owns_state = 259
+						owns_state = 261
+					}
 				}
 				OR = {
 					VAL = {
 						is_subject_of = AVT
 					}
-					NOT = { country_exists = VAL }
+					AVT = {
+						owns_state = 260
+						owns_state = 284
+						owns_state = 258
+						owns_state = 285
+						owns_state = 256
+						owns_state = 255
+					}
 				}
 				OR = {
 					SII = {
 						is_subject_of = AVT
 					}
-					NOT = { country_exists = SII }
+					AVT = {
+						owns_state = 254
+						owns_state = 257
+						owns_state = 316
+						owns_state = 253
+					}
 				}
 			}
 		}
@@ -2753,19 +2768,35 @@ focus_tree = {
 					TOK = {
 						is_subject_of = AVT
 					}
-					NOT = { country_exists = TOK }
+					AVT = {
+						owns_state = 314
+						owns_state = 259
+						owns_state = 261
+					}
 				}
 				OR = {
 					VAL = {
 						is_subject_of = AVT
 					}
-					NOT = { country_exists = VAL }
+					AVT = {
+						owns_state = 260
+						owns_state = 284
+						owns_state = 258
+						owns_state = 285
+						owns_state = 256
+						owns_state = 255
+					}
 				}
 				OR = {
 					SII = {
 						is_subject_of = AVT
 					}
-					NOT = { country_exists = SII }
+					AVT = {
+						owns_state = 254
+						owns_state = 257
+						owns_state = 316
+						owns_state = 253
+					}
 				}
 			}
 		}
@@ -2796,19 +2827,35 @@ focus_tree = {
 					TOK = {
 						is_subject_of = AVT
 					}
-					NOT = { country_exists = TOK }
+					AVT = {
+						owns_state = 314
+						owns_state = 259
+						owns_state = 261
+					}
 				}
 				OR = {
 					VAL = {
 						is_subject_of = AVT
 					}
-					NOT = { country_exists = VAL }
+					AVT = {
+						owns_state = 260
+						owns_state = 284
+						owns_state = 258
+						owns_state = 285
+						owns_state = 256
+						owns_state = 255
+					}
 				}
 				OR = {
 					SII = {
 						is_subject_of = AVT
 					}
-					NOT = { country_exists = SII }
+					AVT = {
+						owns_state = 254
+						owns_state = 257
+						owns_state = 316
+						owns_state = 253
+					}
 				}
 			}
 		}
