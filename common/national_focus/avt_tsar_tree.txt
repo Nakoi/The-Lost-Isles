@@ -2576,11 +2576,11 @@ focus_tree = {
 		}
 		available = {
 			has_navy_size = {
-				size > 24
+				size > 23
 				type = screen_ship
 			}
 			has_navy_size = {
-				size > 24
+				size > 7
 				type = capital_ship
 			}
 		}
@@ -2631,18 +2631,25 @@ focus_tree = {
 			factor = 5
 		}
 		available = {
-			ships_in_area = {
-				areas = 372
-				size > 10 
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_gunboat_diplomacy
+				ships_in_area = {
+					area = 372
+					size > 9
+				}
+				ships_in_area = {
+					area = 374
+					size > 9
+				}
+				ships_in_area = {
+					area = 370
+					size > 9
+				}
 			}
-			ships_in_area = {
-				areas = 374
-				size > 10 
-			}
-			ships_in_area = {
-				areas = 370
-				size > 10 
-			}
+		}
+		
+		completion_reward = {
+			#ADD EVENT
 		}
 	}
 	
@@ -2657,25 +2664,30 @@ focus_tree = {
 			factor = 5
 		}
 		available = {
-			OR = {
-				TOK = {
-					is_subject_of = AVT
+		#REPLACE NOT = COUNTRY_EXISTS WITH CHECKING FOR STATE OWNERSHIP
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_tsarcolonial_1
+				OR = {
+					TOK = {
+						is_subject_of = AVT
+					}
+					NOT = { country_exists = TOK }
 				}
-				NOT = { country_exists = TOK }
-			}
-			OR = {
-				VAL = {
-					is_subject_of = AVT
+				OR = {
+					VAL = {
+						is_subject_of = AVT
+					}
+					NOT = { country_exists = VAL }
 				}
-				NOT = { country_exists = VAL }
-			}
-			OR = {
-				SII = {
-					is_subject_of = AVT
+				OR = {
+					SII = {
+						is_subject_of = AVT
+					}
+					NOT = { country_exists = SII }
 				}
-				NOT = { country_exists = SII }
 			}
 		}
+		
 		completion_reward = {
 			261 = {
 				add_resource = {
@@ -2733,26 +2745,31 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
 		available = {
-			OR = {
-				TOK = {
-					is_subject_of = AVT
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_tsarcolonial_1
+				OR = {
+					TOK = {
+						is_subject_of = AVT
+					}
+					NOT = { country_exists = TOK }
 				}
-				NOT = { country_exists = TOK }
-			}
-			OR = {
-				VAL = {
-					is_subject_of = AVT
+				OR = {
+					VAL = {
+						is_subject_of = AVT
+					}
+					NOT = { country_exists = VAL }
 				}
-				NOT = { country_exists = VAL }
-			}
-			OR = {
-				SII = {
-					is_subject_of = AVT
+				OR = {
+					SII = {
+						is_subject_of = AVT
+					}
+					NOT = { country_exists = SII }
 				}
-				NOT = { country_exists = SII }
 			}
 		}
+		
 		completion_reward = {
 			swap_ideas = {
 				add_idea = AVT_colonial_affairs_office_idea_02
@@ -2771,31 +2788,33 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
 		available = {
-			OR = {
-				TOK = {
-					is_subject_of = AVT
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_tsarcolonial_1
+				OR = {
+					TOK = {
+						is_subject_of = AVT
+					}
+					NOT = { country_exists = TOK }
 				}
-				NOT = { country_exists = TOK }
-			}
-			OR = {
-				VAL = {
-					is_subject_of = AVT
+				OR = {
+					VAL = {
+						is_subject_of = AVT
+					}
+					NOT = { country_exists = VAL }
 				}
-				NOT = { country_exists = VAL }
-			}
-			OR = {
-				SII = {
-					is_subject_of = AVT
+				OR = {
+					SII = {
+						is_subject_of = AVT
+					}
+					NOT = { country_exists = SII }
 				}
-				NOT = { country_exists = SII }
 			}
 		}
+		
 		completion_reward = {
-			swap_ideas = {
-				add_idea = AVT_colonial_affairs_office_idea_03
-				remove_idea = AVT_colonial_affairs_office_idea_02
-			}
+			add_ideas = AVT_local_collaborators_idea
 		}
 	}
 	
@@ -2881,6 +2900,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		completion_reward = {
+			#TO BE ADDED WHEN FIREWIRE DOES THE THING
+		}
 	}
 	
 	focus = {
@@ -2892,6 +2915,10 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			#ADD EVENT
 		}
 	}
 	
@@ -2905,6 +2932,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		completion_reward = {
+			#ADD EVENT
+		}
 	}
 	
 	focus = {
@@ -2917,5 +2948,9 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		
+		completion_reward = {
+			#make groBimperialismus
 		}
 	}
