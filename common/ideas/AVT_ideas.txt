@@ -269,5 +269,68 @@ ideas = {
 				required_garrison_factor = -0.2
 			}
 		}
+
+		AVT_colonial_affairs_office_idea_00 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				required_garrison_factor = -0.1
+				non_core_manpower = 0.05
+				justify_war_goal_time = -0.1
+			}
+		}
+
+		AVT_colonial_affairs_office_idea_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				required_garrison_factor = -0.1
+				non_core_manpower = 0.05
+				justify_war_goal_time = -0.1
+				navy_max_range_factor = 0.15
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+
+		AVT_colonial_affairs_office_idea_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				required_garrison_factor = -0.1
+				non_core_manpower = 0.05
+				justify_war_goal_time = -0.1
+				navy_max_range_factor = 0.15
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+
+		AVT_colonial_affairs_office_idea_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				required_garrison_factor = -0.2
+				non_core_manpower = 0.05
+				justify_war_goal_time = -0.1
+				navy_max_range_factor = 0.15
+				industrial_capacity_dockyard = 0.1
+				local_factories = 0.1
+			}
+		}
 	}
 }

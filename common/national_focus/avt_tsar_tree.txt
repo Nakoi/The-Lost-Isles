@@ -2555,9 +2555,12 @@ focus_tree = {
 		x = 6
 		y = 2
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			add_ideas = AVT_colonial_affairs_office_idea_00
 		}
 	}
 	
@@ -2571,6 +2574,22 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		available = {
+			has_navy_size = {
+				size > 24
+				type = screen_ship
+			}
+			has_navy_size = {
+				size > 24
+				type = capital_ship
+			}
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = AVT_colonial_affairs_office_idea_01
+				remove_idea = AVT_colonial_affairs_office_idea_00
+			}
+		}
 	}
 	
 	focus = {
@@ -2580,9 +2599,23 @@ focus_tree = {
 		x = 9
 		y = 4
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = TOK
+				type = puppet_wargoal_focus
+			}
+			declare_war_on = {
+				target = VAL
+				type = puppet_wargoal_focus
+			}
+			declare_war_on = {
+				target = SII
+				type = puppet_wargoal_focus
+			}
 		}
 	}
 	
@@ -2593,9 +2626,23 @@ focus_tree = {
 		x = 11
 		y = 4
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		available = {
+			ships_in_area = {
+				areas = 372
+				size > 10 
+			}
+			ships_in_area = {
+				areas = 374
+				size > 10 
+			}
+			ships_in_area = {
+				areas = 370
+				size > 10 
+			}
 		}
 	}
 	
@@ -2605,9 +2652,74 @@ focus_tree = {
 		x = 10
 		y = 5
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		available = {
+			OR = {
+				TOK = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = TOK }
+			}
+			OR = {
+				VAL = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = VAL }
+			}
+			OR = {
+				SII = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = SII }
+			}
+		}
+		completion_reward = {
+			261 = {
+				add_resource = {
+					type = crystals
+					amount = 8
+				}
+				add_resource = {
+					type = iron
+					amount = 8
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+
+			314 = {
+				add_resource = {
+					type = iron
+					amount = 12
+				}
+				add_resource = {
+					type = coal
+					amount = 6
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+
+			284 = {
+				add_resource = {
+					type = crystals
+					amount = 12
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+
+			253 = {
+				add_resource = {
+					type = rare_metals
+					amount = 6
+				}
+				add_resource = {
+					type = wood
+					amount = 10
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 	}
 	
@@ -2617,9 +2729,35 @@ focus_tree = {
 		x = 8
 		y = 5
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
+		}
+		available = {
+			OR = {
+				TOK = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = TOK }
+			}
+			OR = {
+				VAL = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = VAL }
+			}
+			OR = {
+				SII = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = SII }
+			}
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = AVT_colonial_affairs_office_idea_02
+				remove_idea = AVT_colonial_affairs_office_idea_01
+			}
 		}
 	}
 	
@@ -2629,9 +2767,35 @@ focus_tree = {
 		x = 12
 		y = 5
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
+		}
+		available = {
+			OR = {
+				TOK = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = TOK }
+			}
+			OR = {
+				VAL = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = VAL }
+			}
+			OR = {
+				SII = {
+					is_subject_of = AVT
+				}
+				NOT = { country_exists = SII }
+			}
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = AVT_colonial_affairs_office_idea_03
+				remove_idea = AVT_colonial_affairs_office_idea_02
+			}
 		}
 	}
 	
@@ -2641,9 +2805,23 @@ focus_tree = {
 		x = 10
 		y = 6
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = OSH
+				type = puppet_wargoal_focus
+			}
+			declare_war_on = {
+				target = SHI
+				type = puppet_wargoal_focus
+			}
+			declare_war_on = {
+				target = VEN
+				type = puppet_wargoal_focus
+			}
 		}
 	}
 	
@@ -2653,9 +2831,43 @@ focus_tree = {
 		x = 8
 		y = 6
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		completion_reward = {
+			261 = {
+				add_resource = {
+					type = iron
+					amount = 12
+				}
+			}
+			314 = {
+				add_resource = {
+					type = iron
+					amount = 12
+				}
+				add_resource = {
+					type = coal
+					amount = 10
+				}
+			}
+			284 = {
+				add_resource = {
+					type = crystals
+					amount = 12
+				}
+			}
+			253 = {
+				add_resource = {
+					type = rare_metals
+					amount = 10
+				}
+				add_resource = {
+					type = wood
+					amount = 10
+				}
+			}
 		}
 	}
 	
@@ -2665,7 +2877,7 @@ focus_tree = {
 		x = 12
 		y = 6
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2677,7 +2889,7 @@ focus_tree = {
 		x = 9
 		y = 7
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2689,7 +2901,7 @@ focus_tree = {
 		x = 11
 		y = 7
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2702,7 +2914,7 @@ focus_tree = {
 		x = 10
 		y = 8
 		relative_position_id = AVT_the_tzar
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
