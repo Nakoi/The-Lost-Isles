@@ -1,5 +1,6 @@
 add_namespace = avt_event
 add_namespace = avt_civwarevent
+add_namespace = avt_tsarevent
 
 ###EARLY GAME TSAR###
 
@@ -359,5 +360,25 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.1.a
+	}
+}
+
+###TSAR PATH###
+
+country_event = {
+	id = avt_tsarevent.0
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_tsarevent.0"}
+	title = avt_tsarevent.0.t
+	desc = avt_tsarevent.0.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_tsarevent.0.a
+		add_political_power = 150
+		load_focus_tree = avtukov_tsar_focus
+		remove_ideas = AVT_idea_noble_discontent
+		complete_national_focus = AVT_the_tsar
 	}
 }
