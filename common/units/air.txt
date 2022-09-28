@@ -7,6 +7,7 @@ sub_units = {
 		type = { fighter cas }
 		need = { air_skirmisher_equipment = 1 }
 		categories = { category_air_skirmisher }
+		land_air_wing_size = 100
 	}
 	
 	air_strikers = {
@@ -16,6 +17,7 @@ sub_units = {
 		type = { cas }
 		need = { air_striker_equipment = 1 }
 		categories = { category_air_striker }
+		land_air_wing_size = 100
 	}
 	
 	air_frigate = {
@@ -25,6 +27,7 @@ sub_units = {
 		type = { fighter cas }
 		need = { air_frigate_equipment = 1 }
 		categories = { category_air_frigate }
+		land_air_wing_size = 12
 	}
 
 	air_bombardier = {
@@ -34,6 +37,7 @@ sub_units = {
 		type = { tactical_bomber }
 		need = { air_bombardier_equipment = 1 }
 		categories = { category_air_bombardier }
+		land_air_wing_size = 12
 	}
 	
 	sky_carrier = {
@@ -43,6 +47,7 @@ sub_units = {
 		type = { cas air_transport }
 		need = { sky_carrier_equipment = 1 }
 		categories = { category_sky_carrier }
+		land_air_wing_size = 12
 	}
 	
 	sky_cruiser = {
@@ -52,6 +57,7 @@ sub_units = {
 		type = { fighter tactical_bomber }
 		need = { sky_cruiser_equipment = 1 }
 		categories = { category_sky_cruiser }
+		land_air_wing_size = 12
 	}
 
 
