@@ -6,15 +6,24 @@ equipments = {
 		year = 1936
 	
 		is_archetype = yes
-		picture = archetype_sky_carrier_equipment		
-		is_buildable = no
-		type = { cas air_transport }
+		is_convertable = yes
+		is_buildable = yes
+		picture = archetype_sky_carrier_equipment
+		type = air_transport
+		allow_mission_type = {
+			training
+			cas
+			attack_logistics
+			naval_bomber
+		}
 		group_by = archetype
 		
 		interface_category = interface_category_land
+		sprite = light_plane
+		air_map_icon_frame = 1
+		interface_category = interface_category_air
 		
-		active = no
-		
+		interface_overview_category_index = 1
 		#Misc Abilities
 		reliability = 1
 		maximum_speed = 40
@@ -50,8 +59,7 @@ equipments = {
 	
 		archetype = sky_carrier_equipment
 		active = no
-		priority = 10
-		visual_level = 0
+		priority = 5
 	}
 
 	sky_carrier_equipment_2 = {
@@ -59,9 +67,7 @@ equipments = {
 	
 		archetype = sky_carrier_equipment
 		parent = sky_carrier_equipment_1
-		active = no
-		priority = 10
-		visual_level = 1
+		priority = 5
 		
 		reliability = 0.9
 
@@ -102,9 +108,7 @@ equipments = {
 	
 		archetype = sky_carrier_equipment
 		parent = sky_carrier_equipment_2
-		active = no
-		priority = 10
-		visual_level = 1
+		priority = 5
 
 
 		#Misc Abilities
@@ -137,7 +141,6 @@ equipments = {
 		fuel_consumption = 0.25
 		#food
 	}
-
 }
 
 

@@ -6,15 +6,26 @@ equipments = {
 		year = 1936
 	
 		is_archetype = yes
-		picture = archetype_air_skirmisher_equipment		
+		is_convertable = yes
 		is_buildable = yes
-		type = { fighter cas }
+		picture = archetype_air_skirmisher_equipment		
+		type = fighter
+		allow_mission_type = {
+			training
+			air_superiority
+			interception
+			cas
+			attack_logistics
+			naval_bomber
+			recon
+			naval_patrol
+		}
 		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 1
+		interface_category = interface_category_air
 		
-		interface_category = interface_category_land
-		
-		active = no
-		
+		interface_overview_category_index = 1
 		#Misc Abilities
 		reliability = 1.35
 		maximum_speed = 50
@@ -50,8 +61,7 @@ equipments = {
 	
 		archetype = air_skirmisher_equipment
 		active = no
-		priority = 05
-		visual_level = 0
+		priority = 5
 	}
 
 
@@ -60,9 +70,7 @@ equipments = {
 	
 		archetype = air_skirmisher_equipment
 		parent = air_skirmisher_equipment_1
-		active = no
-		priority = 05
-		visual_level = 0
+		priority = 5
 
 		#Misc Abilities
 		reliability = 1.35
@@ -101,9 +109,7 @@ equipments = {
 	
 		archetype = air_skirmisher_equipment
 		parent = air_skirmisher_equipment_2
-		active = no
-		priority = 05
-		visual_level = 0
+		priority = 5
 
 		#Misc Abilities
 		reliability = 1.35
@@ -143,7 +149,13 @@ equipments = {
 		is_archetype = yes
 		picture = archetype_air_striker_equipment		
 		is_buildable = yes
-		type = { cas }
+		type = cas
+		allow_mission_type = {
+			training
+			cas
+			attack_logistics
+			naval_bomber
+		}
 		group_by = archetype
 		
 		interface_category = interface_category_land
@@ -185,8 +197,7 @@ equipments = {
 	
 		archetype = air_striker_equipment
 		active = no
-		priority = 05
-		visual_level = 0
+		priority = 5
 	}
 	
 	air_striker_equipment_2 = {
@@ -194,9 +205,7 @@ equipments = {
 	
 		archetype = air_striker_equipment
 		parent = air_striker_equipment_1
-		active = no
-		priority = 05
-		visual_level = 0
+		priority = 5
 
 		#Misc Abilities
 		reliability = 1.35
@@ -236,9 +245,7 @@ equipments = {
 	
 		archetype = air_striker_equipment
 		parent = air_striker_equipment_2
-		active = no
-		priority = 05
-		visual_level = 0
+		priority = 5
 
 		#Misc Abilities
 		reliability = 1.35
@@ -271,7 +278,6 @@ equipments = {
 		#food
 
 	}
-
 }
 
 
