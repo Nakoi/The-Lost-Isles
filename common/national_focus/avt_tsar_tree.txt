@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = AVT
        }
     }
 
@@ -15,8 +15,8 @@ focus_tree = {
     continuous_focus_position = { x = 50 y = 3000 }
 
 	focus = {
-		id = AVT_the_tsar
-		x = 4
+		id = AVT_the_tzar
+		x = 0
 		y = 0
 		cost = 0.2
 		ai_will_do = {
@@ -30,8 +30,8 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_finish_what_we_started
-		prerequisite = { focus = AVT_the_tsar }
-		x = 4
+		prerequisite = { focus = AVT_the_tzar }
+		x = 0
 		y = 1
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -59,7 +59,7 @@ focus_tree = {
 	focus = {
 		id = AVT_strike_dragons
 		prerequisite = { focus = AVT_finish_what_we_started }
-		x = 4
+		x = 0
 		y = 2
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -80,7 +80,7 @@ focus_tree = {
 	focus = {
 		id = AVT_rule_the_north
 		prerequisite = { focus = AVT_strike_dragons }
-		x = 4
+		x = 0
 		y = 3
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -142,7 +142,7 @@ focus_tree = {
 		id = AVT_avtukov_nationalism
 		prerequisite = { focus = AVT_rule_the_north }
 		mutually_exclusive = { focus = AVT_embrace_deer }
-		x = 3
+		x = -1
 		y = 4
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -175,7 +175,7 @@ focus_tree = {
 		id = AVT_embrace_deer
 		prerequisite = { focus = AVT_rule_the_north }
 		mutually_exclusive = { focus = AVT_avtukov_nationalism }
-		x = 5
+		x = 1
 		y = 4
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -286,7 +286,7 @@ focus_tree = {
 		id = AVT_hegemonic_ambitions
 		prerequisite = { focus = AVT_avtukov_nationalism focus = AVT_embrace_deer }
 		prerequisite = { focus = AVT_forced_land_appropriation focus = AVT_compesate_nobles }
-		x = 4
+		x = 0
 		y = 5
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -607,7 +607,7 @@ focus_tree = {
 	focus = {
 		id = AVT_panponisti
 		prerequisite = { focus = AVT_finish_what_we_started }
-		x = 2
+		x = -2
 		y = 2
 		relative_position_id = AVT_the_tzar
 		cost = 5
@@ -624,7 +624,7 @@ focus_tree = {
 	focus = {
 		id = AVT_ally_schizoid
 		prerequisite = { focus = AVT_panponisti }
-		x = 2
+		x = -2
 		y = 3
 		relative_position_id = AVT_the_tzar
 		cost = 5
@@ -639,7 +639,7 @@ focus_tree = {
 	focus = {
 		id = AVT_integrate_majority_pony_land
 		prerequisite = { focus = AVT_hegemonic_ambitions }
-		x = 3
+		x = -1
 		y = 6
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -758,7 +758,7 @@ focus_tree = {
 	focus = {
 		id = AVT_pressure_undead
 		prerequisite = { focus = AVT_integrate_majority_pony_land }
-		x = 2
+		x = -2
 		y = 7
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -774,7 +774,7 @@ focus_tree = {
 	focus = {
 		id = AVT_magical_expertise_exchange
 		prerequisite = { focus = AVT_pressure_undead }
-		x = 2
+		x = -2
 		y = 8
 		relative_position_id = AVT_the_tzar
 		cost = 5
@@ -799,7 +799,7 @@ focus_tree = {
 	focus = {
 		id = AVT_long_lost_brothers
 		prerequisite = { focus = AVT_hegemonic_ambitions }
-		x = 5
+		x = 1
 		y = 6
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1093,7 +1093,7 @@ focus_tree = {
 	focus = {
 		id = AVT_state_bilingualism
 		prerequisite = { focus = AVT_long_lost_brothers }
-		x = 4
+		x = 0
 		y = 7
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1112,7 +1112,7 @@ focus_tree = {
 	focus = {
 		id = AVT_unity_propaganda
 		prerequisite = { focus = AVT_long_lost_brothers }
-		x = 6
+		x = 2
 		y = 7
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1175,7 +1175,7 @@ focus_tree = {
 		id = AVT_united_empire
 		prerequisite = { focus = AVT_state_bilingualism }
 		prerequisite = { focus = AVT_unity_propaganda }
-		x = 5
+		x = 1
 		y = 8
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1204,7 +1204,7 @@ focus_tree = {
 	focus = {
 		id = AVT_kirin_military_specialists
 		prerequisite = { focus = AVT_united_empire }
-		x = 5
+		x = 1
 		y = 9
 		relative_position_id = AVT_the_tzar
 		cost = 5
@@ -1242,8 +1242,8 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_invite_foreign_experts
-		prerequisite = { focus = AVT_the_tsar }
-		x = -2
+		prerequisite = { focus = AVT_the_tzar }
+		x = -6
 		y = 1
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1264,7 +1264,7 @@ focus_tree = {
 	focus = {
 		id = AVT_land_reform
 		prerequisite = { focus = AVT_invite_foreign_experts }
-		x = -3
+		x = -7
 		y = 2
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1342,7 +1342,7 @@ focus_tree = {
 	focus = {
 		id = AVT_end_serfdom
 		prerequisite = { focus = AVT_land_reform }
-		x = -4
+		x = -8
 		y = 3
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1427,7 +1427,7 @@ focus_tree = {
 	focus = {
 		id = AVT_tribe_unity
 		prerequisite = { focus = AVT_invite_foreign_experts	}
-		x = -1
+		x = -5
 		y = 2
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1449,7 +1449,7 @@ focus_tree = {
 		id = AVT_royal_family_only
 		prerequisite = { focus = AVT_tribe_unity }
 		mutually_exclusive = { focus = AVT_reconcile_with_nobles }
-		x = -2
+		x = -6
 		y = 3
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1556,7 +1556,7 @@ focus_tree = {
 		id = AVT_reconcile_with_nobles
 		prerequisite = { focus = AVT_tribe_unity }
 		mutually_exclusive = { focus = AVT_royal_family_only }
-		x = 0
+		x = -4
 		y = 3
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1623,7 +1623,7 @@ focus_tree = {
 		id = AVT_forced_land_appropriation
 		prerequisite = { focus = AVT_end_serfdom }
 		prerequisite = { focus = AVT_royal_family_only }
-		x = -3
+		x = -7
 		y = 4
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1687,7 +1687,7 @@ focus_tree = {
 		id = AVT_compesate_nobles
 		prerequisite = { focus = AVT_end_serfdom }
 		prerequisite = { focus = AVT_royal_family_only focus = AVT_reconcile_with_nobles }
-		x = -1
+		x = -5
 		y = 4
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1748,7 +1748,7 @@ focus_tree = {
 	focus = {
 		id = AVT_support_new_businesses
 		prerequisite = { focus = AVT_forced_land_appropriation focus = AVT_compesate_nobles }
-		x = -2
+		x = -6
 		y = 5
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1813,7 +1813,7 @@ focus_tree = {
 	focus = {
 		id = AVT_kickstart_industrial_revolution
 		prerequisite = { focus = AVT_support_new_businesses }
-		x = -2
+		x = -6
 		y = 6
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1882,7 +1882,7 @@ focus_tree = {
 		id = AVT_advisory_parliament
 		prerequisite = { focus = AVT_kickstart_industrial_revolution }
 		mutually_exclusive = { focus = AVT_legislative_parliament }
-		x = -2
+		x = -6
 		y = 7
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1898,7 +1898,7 @@ focus_tree = {
 		id = AVT_legislative_parliament
 		prerequisite = { focus = AVT_kickstart_industrial_revolution }
 		mutually_exclusive = { focus = AVT_advisory_parliament }
-		x = -4
+		x = -8
 		y = 7
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1958,7 +1958,7 @@ focus_tree = {
 	focus = {
 		id = AVT_service_guarantees_citizenship
 		prerequisite = { focus = AVT_legislative_parliament focus = AVT_advisory_parliament }
-		x = -3
+		x = -7
 		y = 8
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -1977,7 +1977,7 @@ focus_tree = {
 	focus = {
 		id = AVT_establish_school_system
 		prerequisite = { focus = AVT_kickstart_industrial_revolution }
-		x = 0
+		x = -4
 		y = 7
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2003,7 +2003,7 @@ focus_tree = {
 	focus = {
 		id = AVT_public_healthcare
 		prerequisite = { focus = AVT_establish_school_system }
-		x = 0
+		x = -4
 		y = 8
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2025,7 +2025,7 @@ focus_tree = {
 		id = AVT_royal_academy
 		prerequisite = { focus = AVT_public_healthcare }
 		prerequisite = { focus = AVT_service_guarantees_citizenship }
-		x = -2
+		x = -6
 		y = 9
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2047,7 +2047,7 @@ focus_tree = {
 		prerequisite = { focus = AVT_united_empire }
 		prerequisite = { focus = AVT_service_guarantees_citizenship }
 		prerequisite = { focus = AVT_public_healthcare }
-		x = 3
+		x = -1
 		y = 9
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2205,7 +2205,7 @@ focus_tree = {
 	focus = {
 		id = AVT_deindustrialise_south
 		prerequisite = { focus = AVT_never_another_gerard }
-		x = 2
+		x = -2
 		y = 10
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2544,7 +2544,7 @@ focus_tree = {
 	focus = {
 		id = AVT_fate_of_royals
 		prerequisite = { focus = AVT_never_another_gerard }
-		x = 4
+		x = 0
 		y = 10
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2561,7 +2561,7 @@ focus_tree = {
 		id = AVT_luana_forever_broken
 		prerequisite = { focus = AVT_deindustrialise_south }
 		prerequisite = { focus = AVT_fate_of_royals }
-		x = 3
+		x = -1
 		y = 11
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2597,7 +2597,7 @@ focus_tree = {
 	focus = {
 		id = AVT_colonial_affairs_office
 		prerequisite = { focus = AVT_finish_what_we_started }
-		x = 6
+		x = 2
 		y = 2
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2612,7 +2612,7 @@ focus_tree = {
 	focus = {
 		id = AVT_prepare_navy
 		prerequisite = { focus = AVT_colonial_affairs_office }
-		x = 10
+		x = 6
 		y = 3
 		relative_position_id = AVT_the_tzar
 		cost = 1
@@ -2641,7 +2641,7 @@ focus_tree = {
 		id = AVT_subjugate_primitives
 		prerequisite = { focus = AVT_prepare_navy }
 		mutually_exclusive = { focus = AVT_diplomatic_approach }
-		x = 9
+		x = 5
 		y = 4
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2668,7 +2668,7 @@ focus_tree = {
 		id = AVT_diplomatic_approach
 		prerequisite = { focus = AVT_prepare_navy }
 		mutually_exclusive = { focus = AVT_subjugate_primitives }
-		x = 11
+		x = 7
 		y = 4
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2701,7 +2701,7 @@ focus_tree = {
 	focus = {
 		id = AVT_colonial_infrastructure
 		prerequisite = { focus = AVT_subjugate_primitives focus = AVT_diplomatic_approach }
-		x = 10
+		x = 6
 		y = 5
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2798,7 +2798,7 @@ focus_tree = {
 	focus = {
 		id = AVT_avtukovian_administration
 		prerequisite = { focus = AVT_subjugate_primitives focus = AVT_diplomatic_approach }
-		x = 8
+		x = 4
 		y = 5
 		relative_position_id = AVT_the_tzar
 		cost = 5
@@ -2857,7 +2857,7 @@ focus_tree = {
 	focus = {
 		id = AVT_local_collaborators
 		prerequisite = { focus = AVT_subjugate_primitives focus = AVT_diplomatic_approach }
-		x = 12
+		x = 8
 		y = 5
 		relative_position_id = AVT_the_tzar
 		cost = 5
@@ -2913,7 +2913,7 @@ focus_tree = {
 	focus = {
 		id = AVT_expand_empire
 		prerequisite = { focus = AVT_colonial_infrastructure }
-		x = 10
+		x = 6
 		y = 6
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2939,7 +2939,7 @@ focus_tree = {
 	focus = {
 		id = AVT_mine_expansion
 		prerequisite = { focus = AVT_colonial_infrastructure }
-		x = 8
+		x = 4
 		y = 6
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -2985,7 +2985,7 @@ focus_tree = {
 	focus = {
 		id = AVT_local_luxuries
 		prerequisite = { focus = AVT_colonial_infrastructure }
-		x = 12
+		x = 8
 		y = 6
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -3001,7 +3001,7 @@ focus_tree = {
 	focus = {
 		id = AVT_underwater_compliance
 		prerequisite = { focus = AVT_expand_empire }
-		x = 9
+		x = 5
 		y = 7
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -3017,7 +3017,7 @@ focus_tree = {
 	focus = {
 		id = AVT_leash_the_dogs
 		prerequisite = { focus = AVT_expand_empire }
-		x = 11
+		x = 7
 		y = 7
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -3034,7 +3034,7 @@ focus_tree = {
 		id = AVT_new_kingdom
 		prerequisite = { focus = AVT_underwater_compliance }
 		prerequisite = { focus = AVT_leash_the_dogs }
-		x = 10
+		x = 6
 		y = 8
 		relative_position_id = AVT_the_tzar
 		cost = 10
@@ -3044,5 +3044,167 @@ focus_tree = {
 		
 		completion_reward = {
 			#make groBimperialismus
+		}
+	}
+	
+	focus = {
+		id = AVT_gracemarean_army_legacy
+		x = 12
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AVT_militia_expansion
+		prerequisite = { focus = AVT_gracemarean_army_legacy }
+		x = 0
+		y = 1
+		relative_position_id = AVT_gracemarean_army_legacy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AVT_doctrine_modernisation
+		prerequisite = { focus = AVT_gracemarean_army_legacy }
+		x = 2
+		y = 1
+		relative_position_id = AVT_gracemarean_army_legacy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AVT_winter_warfare_expertise
+		prerequisite = { focus = AVT_militia_expansion }
+		prerequisite = { focus = AVT_doctrine_modernisation }
+		x = 1
+		y = 2
+		relative_position_id = AVT_gracemarean_army_legacy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AVT_defensive_war_mastery
+		prerequisite = { focus = AVT_winter_warfare_expertise }
+		mutually_exclusive = { focus = AVT_wave_of_bodies }
+		x = 0
+		y = 3
+		relative_position_id = AVT_gracemarean_army_legacy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AVT_wave_of_bodies
+		prerequisite = { focus = AVT_winter_warfare_expertise }
+		mutually_exclusive = { focus = AVT_defensive_war_mastery }
+		x = 2
+		y = 3
+		relative_position_id = AVT_gracemarean_army_legacy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AVT_musketry_advancements
+		prerequisite = { focus = AVT_gracemarean_army_legacy }
+		x = -2
+		y = 1
+		relative_position_id = AVT_gracemarean_army_legacy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AVT_engineer_corps
+		prerequisite = { focus = AVT_musketry_advancements }
+		x = -2
+		y = 2
+		relative_position_id = AVT_gracemarean_army_legacy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AVT_queen_of_battlefield
+		prerequisite = { focus = AVT_engineer_corps }
+		x = -2
+		y = 3
+		relative_position_id = AVT_gracemarean_army_legacy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AVT_machine_gun_development
+		prerequisite = { focus = AVT_queen_of_battlefield }
+		prerequisite = { focus = AVT_defensive_war_mastery focus = AVT_wave_of_bodies }
+		x = 0
+		y = 4
+		relative_position_id = AVT_gracemarean_army_legacy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
 		}
 	}
