@@ -3057,12 +3057,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = category_army
-			}
-			army_experience = 25
+
 		}
 	}
 	
@@ -3078,7 +3073,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = AVT_national_pony_army_idea_01
+
 		}
 	}
 	
@@ -3094,11 +3089,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 2
-				category = land_doctrine
-			}
+
 		}
 	}
 	
@@ -3115,15 +3106,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = category_logistics
-			}
-			swap_ideas = {
-				remove_idea = AVT_national_pony_army_idea_01
-				add_idea = AVT_national_pony_army_idea_02
-			}
+
 		}
 	}
 	
@@ -3140,10 +3123,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = AVT_national_pony_army_idea_02
-				add_idea = AVT_national_pony_army_idea_03
-			}
+
 		}
 	}
 	
@@ -3176,16 +3156,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 2
-				category = 	infantry_weapons
-			}
-			add_equipment_to_stockpile = {
-				type = rifle_equipment_4
-				amount = 1500
-				producer = AVT
-			}
+
 		}
 	}
 	
@@ -3201,20 +3172,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = category_engineers
-			}
-			#
-			#ADD JUGERAUTS RESEARCH BONUS 
-			#
-			#
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 100
-				producer = AVT
-			}
+
 		}
 	}
 	
@@ -3230,16 +3188,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = cannon_equipment_2
-				amount = 300
-				producer = AVT
-			}
-			add_tech_bonus = {
-				bonus = 0.75
-				uses = 2
-				category = artillery
-			}
+
 		}
 	}
 	
@@ -3256,10 +3205,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 3
-				uses = 1
-				category = infantry_machinegun
-			}
+
 		}
 	}
