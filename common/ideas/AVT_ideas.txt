@@ -330,5 +330,69 @@ ideas = {
 				local_factories = 0.1
 			}
 		}
+	
+		AVT_national_pony_army_idea_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.1
+				mobilization_speed = 0.1
+				supply_consumption_factor = 0.05
+			}
+		}
+
+		AVT_national_pony_army_idea_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.1
+				mobilization_speed = 0.1
+				supply_consumption_factor = 0.05
+				out_of_supply_factor = -0.05
+				attrition = -0.1
+			}
+		}
+
+		AVT_national_pony_army_idea_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				army_defence_factor = 0.1
+				land_reinforce_rate = 0.03
+				conscription_factor = 0.1
+				mobilization_speed = 0.1
+				supply_consumption_factor = 0.05
+				out_of_supply_factor = -0.05
+				attrition = -0.1
+			}
+		}
+		
+		AVT_national_pony_army_idea_04 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.2
+				mobilization_speed = 0.1
+				supply_consumption_factor = 0.05
+				out_of_supply_factor = -0.05
+				attrition = -0.1
+			}
+		}
 	}
 }
