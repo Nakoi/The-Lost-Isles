@@ -3197,6 +3197,9 @@ focus_tree = {
 					add_state_core  = 149
 
 					set_capital = { state = 259 }
+					
+					AVT = { add_to_faction = AVC }
+					AVT = { puppet = AVC }
 				}
 			}
 		}
