@@ -29,3 +29,15 @@ decisioncat_avt_civilwarrebel = {
 		has_completed_focus = AVT_the_conspiracy
 	}
 }
+
+decisioncat_avt_tsarpath = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = AVT
+	}
+
+	visible = {
+		has_completed_focus = AVT_the_tzar
+	}
+}
