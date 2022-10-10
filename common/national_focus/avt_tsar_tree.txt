@@ -25,6 +25,15 @@ focus_tree = {
 		#COMPLETED THROUGH EVENT
 		completion_reward = {
 			add_political_power = 50
+			AVC = {			
+				transfer_state  = 255
+				transfer_state  = 285
+				transfer_state  = 256			
+				add_state_core = 255
+				add_state_core = 285
+				add_state_core = 256
+				set_capital = { state = 285 }
+			}
 		}
 	}
 	

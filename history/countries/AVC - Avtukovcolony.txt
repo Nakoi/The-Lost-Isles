@@ -1,0 +1,188 @@
+capital = 285
+
+set_research_slots = 3
+
+set_stability = 0.5
+
+set_war_support = 0.5
+
+army_experience = 30 
+
+navy_experience = 30
+
+air_experience = 30
+
+
+#POLITICAL ADVISORS
+#recruit_character = AVT_adv_restless_warrior
+#recruit_character = AVT_adv_high_priest
+#recruit_character = AVT_adv_guild_master
+#recruit_character = AVT_adv_court_wizard
+#recruit_character = AVT_adv_spymaster
+#recruit_character = AVT_adv_sneering_imperialist
+#recruit_character = AVT_adv_war_profiteer
+#recruit_character = AVT_adv_captain_of_industry
+#recruit_character = AVT_adv_brilliant_inventor
+#recruit_character = AVT_adv_ideological_crusader
+
+#ARMY THEORISTS
+#recruit_character = AVT_theo_massmob
+#recruit_character = AVT_theo_mobility
+#recruit_character = AVT_theo_bigboat
+#recruit_character = AVT_theo_airbomb
+
+#ARMY CHIEFS
+#recruit_character = AVT_chief_drill_2
+#recruit_character = AVT_chief_organisation_1
+#recruit_character = AVT_chief_planning_1
+#recruit_character = AVT_chief_morale_2
+
+#recruit_character = AVT_chief_grandbattle_2
+#recruit_character = AVT_chief_boatmaneuver_2
+
+#recruit_character = AVT_chief_weather_2
+#recruit_character = AVT_chief_airskirm_2
+#recruit_character = AVT_chief_airstriker_1
+
+#ARMY HICOM
+#recruit_character = AVT_armyadv_lineinf_2
+#recruit_character = AVT_armyadv_aggressive_2
+#recruit_character = AVT_armyadv_elite_2
+#recruit_character = AVT_armyadv_arty_2
+#recruit_character = AVT_armyadv_boatschool_2
+#recruit_character = AVT_armyadv_smallboat_1
+#recruit_character = AVT_armyadv_airboatschool_2
+#recruit_character = AVT_armyadv_airboats_1
+
+set_politics = {
+	ruling_party = ideology_imperialism
+}
+
+set_popularities = {
+	ideology_imperialism = 100
+	ideology_militarism = 0
+	ideology_isolationism = 0
+	ideology_visionarism = 0
+	ideology_solidarism = 0
+}
+
+set_convoys = 100
+
+add_ideas = {
+	limited_exports
+	recruit_selectivecon
+	genidea_civilised_dev
+	race_pone
+	policy_aristocracy
+	policy_feudalism
+	policy_reactionary
+}
+##diplomacy##
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+	xebec_hull_tech = 1
+	improved_xebec_hull_tech = 1
+	galley_hull_tech = 1
+	sloop_of_war_hull_tech = 1
+	medium_ship_tech = 1
+	medium_ship_tech_2 = 1
+	heavy_ship_tech = 1
+	heavy_ship_tech_2 = 1
+	mtg_transport = 1
+	spotting_equipment_1 = 1
+	navigation_equipment_1 = 1
+	improved_gun_carriers = 1
+	carronade = 1
+	naval_mortars = 1
+	}
+}
+
+set_technology = { 
+	pone_race = 1
+	infantry_weapons = 1
+	infantry_upgrade = 1
+	infantry_weapons1 = 1
+	infantry_upgrade1 = 1
+	infantry_upgrade2 = 1
+	infantry_weapons2 = 1
+	infantry_upgrade3 = 1
+	crossbow = 1
+	crossbow1 = 1
+	gunpowder = 1
+	infantry_weapons3 = 1
+	lamellar_armor = 1
+	plate_armor = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers2 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	air_frigate = 1
+	air_skirmisher = 1
+	written_language = 1
+	basic_mathematics = 1
+	printing_press = 1
+	experimental_science = 1
+	feudal_armies = 1
+	mercenary_auxiliaries = 1
+	scribe_caste = 1
+	temple_schools = 1
+	encryption1 = 1
+	decryption1 = 1
+	artisans = 1
+	guild_system = 1
+	supply_wagon = 1
+	improvised_tools = 1
+	metal_tools = 1
+	specialized_tools = 1
+	advanced_metallurgy = 1
+	basic_engineering = 1
+	hot_air_balloon = 1
+	construction_0 = 1
+	construction_1 = 1
+	construction_2 = 1
+	construction_3 = 1
+	fortification_0 = 1
+	agriculture_0 = 1
+	agriculture_1 = 1
+	agriculture_2 = 1
+	agriculture_3 = 1
+	financial_technology_0 = 1
+	financial_technology_1 = 1
+	financial_technology_2 = 1
+	catapult = 1
+	catapult_upgrade = 1
+	trebuchet = 1
+	Ballista = 1
+	Ballista_upgrade = 1
+	cannon = 1
+	howitzer = 1
+	development = 1
+	tech_primitive = 1
+	tech_civilized = 1
+	xebec_hull_tech = 1
+	improved_xebec_hull_tech = 1
+	galley_hull_tech = 1
+	sloop_of_war_hull_tech = 1
+	medium_ship_tech = 1
+	medium_ship_tech_2 = 1
+	heavy_ship_tech = 1
+	heavy_ship_tech_2 = 1
+	mtg_transport = 1
+	spotting_equipment_1 = 1
+	navigation_equipment_1 = 1
+	improved_gun_carriers = 1
+	carronade = 1
+	puckle_gun = 1
+	pony_agricultural_mastery = 1
+	pony_wind_riders = 1
+	pony_cloud_cover = 1
+	pony_infantry_disruption_training = 1
+	pony_gunlance = 1
+	pony_aerial_reconaissance = 1
+	pony_magical_equipment = 1
+	pony_arcane_intellect = 1
+}
+
+####VARIANTS####
