@@ -32,6 +32,8 @@
 
  AVC_ADJ:0 "Traunulu-Avtukovian"
 
+ AVT_faction_panpony:0 "All-Pony League"
+
 ###CHARACTER NAMES###
  AVT_tzar_name:0 "Ivory Spark"
  AVT_tzaritsa_name:0 "Elusive Gem"
@@ -255,6 +257,9 @@
  AVT_convince_pegasi_decision:0 "Convince the Swiftguards"
  AVT_spread_violence_decision:0 "Sow Chaos"
  AVT_infiltrate_tzar_decision:0 "Infiltrate the Tsar's Inner Circle"
+ 
+ decisioncat_avt_tsarpath:0 "The All-Pony League"
+ AVT_political_marriage_sov_decision:0 "Political Marriage with Sovjok"
 
 ###EVENT LOCALISATION - EARLYGAME###
  avt_event.0.t:0 "Winds of Change"
@@ -344,11 +349,22 @@
  avt_tsarevent.0.d:0 "the tsar won :DDDDDDD"
  avt_tsarevent.0.a:0 "avtukovskie vpered avtukovskie vpered avtukovskie vpered avtukovskie vpered avtukovskie vpered"
  
+ avt_tsarevent.1.t:0 "Envoys from the North"
+ avt_tsarevent.1.d:0 "Synopsis: Diplomats arrive in Sovjok, and propose an alliance in the interest of furthering the interests of all ponies."
+ avt_tsarevent.1.a:0 "Sounds like a great idea!"
+ avt_tsarevent.1.b:0 "We don’t need them here!"
+ 
+ avt_tsarevent.2.t:0 "political marriage"
+ avt_tsarevent.2.d:0 "Synopsis: A member of the Avtukov royal family marries a member of the royal family of Sovjok."
+ avt_tsarevent.2.a:0 "Cheers!"
+ 
 ###TOOLTIP LOCALISATION###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
+ 
  avt_tax_evaders_flag:0 "§OConspiracy led by Cherry Cupcake§!"
  avt_car_bombers_flag:0 "§PConspiracy led by Emerald Mask§!"
  avt_arms_trafficking_flag:0 "§CConspiracy led by Violet Rain§!"
+ avt_sovjok_alliance_accepted_flag:0 "Sovjok has accepted our offer"
  
  AVTtt_kirins_killed:0 "All Kirin countries on our borders §Rdefeated§!"
  AVTtt_gunboat_diplomacy:0 "Has 10 warships each of any type on the shores of:\nJarldom of Siilovpu\nFree Cities of Valkovsi\nKingdom of Toknong"
