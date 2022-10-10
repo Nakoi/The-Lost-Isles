@@ -13,3 +13,11 @@ opinion_modifiers = {
 	tlirelations_pan_pony_sentiment = {
 		value = 25
 	}
+	
+	tlirelations_generic_alliance_accepted = {
+		value = 50
+	}
+	
+	tlirelations_generic_alliance_refused = {
+		value = -50
+	}
