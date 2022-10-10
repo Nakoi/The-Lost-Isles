@@ -617,7 +617,78 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 50
-			#TO ADD RELATIONS MODIFIER
+			AVT = {
+				add_opinion_modifier = {
+					target = TYK
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
+			TYK = {
+				add_opinion_modifier = {
+					target = AVT
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
+			AVT = {
+				add_opinion_modifier = {
+					target = SOV
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
+			SOV = {
+				add_opinion_modifier = {
+					target = AVT
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
+			AVT = {
+				add_opinion_modifier = {
+					target = ZIK
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
+			ZIK = {
+				add_opinion_modifier = {
+					target = AVT
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
+			AVT = {
+				add_opinion_modifier = {
+					target = WEL
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
+			WEL = {
+				add_opinion_modifier = {
+					target = AVT
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
+			AVT = {
+				add_opinion_modifier = {
+					target = ROG
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
+			ROG = {
+				add_opinion_modifier = {
+					target = AVT
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
+			AVT = {
+				add_opinion_modifier = {
+					target = KLI
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
+			KLI = {
+				add_opinion_modifier = {
+					target = AVT
+					modifier = tlirelations_pan_pony_sentiment
+				}
+			}
 		}
 	}
 	
@@ -3030,7 +3101,7 @@ focus_tree = {
 		}
 	}
 	
-focus = {
+	focus = {
 		id = AVT_new_kingdom
 		prerequisite = { focus = AVT_underwater_compliance }
 		prerequisite = { focus = AVT_leash_the_dogs }
@@ -3043,89 +3114,7 @@ focus = {
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = AVTtt_grobimperialismus_west
-			
-			hidden_effect = {
-				AVC = {			
-					transfer_state  = 253
-					transfer_state  = 254
-					transfer_state  = 255	
-					transfer_state  = 256
-					transfer_state  = 285
-					transfer_state  = 257
-					transfer_state  = 316
-					transfer_state  = 317
-					transfer_state  = 258		
-					transfer_state  = 284
-					transfer_state  = 315
-					transfer_state  = 322
-					transfer_state  = 260
-					transfer_state  = 314
-					transfer_state  = 324
-					transfer_state  = 323
-					transfer_state  = 323
-					transfer_state  = 259
-					transfer_state  = 261
-					transfer_state  = 313
-					transfer_state  = 311
-					transfer_state  = 298
-					transfer_state  = 286
-					transfer_state  = 280
-					transfer_state  = 277
-					transfer_state  = 262
-					transfer_state  = 263
-					transfer_state  = 275
-					transfer_state  = 276
-					transfer_state  = 264
-					transfer_state  = 265
-					transfer_state  = 274
-					transfer_state  = 268
-					transfer_state  = 273
-					transfer_state  = 267
-					transfer_state  = 266
-					transfer_state  = 149									
-
-					add_state_core  = 253
-					add_state_core  = 254
-					add_state_core  = 255	
-					add_state_core  = 256
-					add_state_core  = 285
-					add_state_core  = 257
-					add_state_core  = 316
-					add_state_core  = 317
-					add_state_core  = 258		
-					add_state_core  = 284
-					add_state_core  = 315
-					add_state_core  = 322
-					add_state_core  = 260
-					add_state_core  = 314
-					add_state_core  = 324
-					add_state_core  = 323
-					add_state_core  = 323
-					add_state_core  = 259
-					add_state_core  = 261
-					add_state_core  = 313
-					add_state_core  = 311
-					add_state_core  = 298
-					add_state_core  = 286
-					add_state_core  = 280
-					add_state_core  = 277
-					add_state_core  = 262
-					add_state_core  = 263
-					add_state_core  = 275
-					add_state_core  = 276
-					add_state_core  = 264
-					add_state_core  = 265
-					add_state_core  = 274
-					add_state_core  = 268
-					add_state_core  = 273
-					add_state_core  = 267
-					add_state_core  = 266
-					add_state_core  = 149
-
-					set_capital = { state = 259 }
-				}
-			}
+			#make groBimperialismus
 		}
 	}
 	
