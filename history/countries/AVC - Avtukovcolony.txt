@@ -69,13 +69,13 @@ set_popularities = {
 set_convoys = 100
 
 add_ideas = {
-	limited_exports
-	recruit_selectivecon
+	free_trade
+	recruit_volunteer
 	genidea_civilised_dev
 	race_pone
-	policy_aristocracy
-	policy_feudalism
-	policy_reactionary
+	policy_despotism
+	policy_laissez_faire
+	policy_progressive
 }
 ##diplomacy##
 if = {
