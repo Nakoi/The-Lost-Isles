@@ -703,7 +703,9 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			#ADD EVENT HERE
+			SOV = {
+				country_event = { id = avt_tsarevent.1 }
+			}
 		}
 	}
 	
@@ -3101,7 +3103,7 @@ focus_tree = {
 		}
 	}
 	
-focus = {
+	focus = {
 		id = AVT_new_kingdom
 		prerequisite = { focus = AVT_underwater_compliance }
 		prerequisite = { focus = AVT_leash_the_dogs }
