@@ -382,3 +382,64 @@ country_event = {
 		complete_national_focus = AVT_the_tzar
 	}
 }
+
+country_event = {
+	id = avt_tsarevent.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_tsarevent.1"}
+	title = avt_tsarevent.1.t
+	desc = avt_tsarevent.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_tsarevent.1.a
+		AVT = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = tlirelations_generic_alliance_accepted
+			}
+			set_country_flag = avt_sovjok_alliance_accepted_flag
+			give_guarantee = SOV
+			give_military_access = SOV
+		}
+		SOV = {
+			add_opinion_modifier = {
+				target = AVT
+				modifier = tlirelations_generic_alliance_accepted
+			}
+			give_guarantee = AVT
+			give_military_access = AVT
+		}
+	}
+	
+	option = {
+		name = avt_tsarevent.1.b
+		AVT = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = tlirelations_generic_alliance_refused
+			}
+		}
+		SOV = {
+			add_opinion_modifier = {
+				target = AVT
+				modifier = tlirelations_generic_alliance_refused
+			}
+		}
+	}
+}
+
+country_event = {
+	id = avt_tsarevent.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_tsarevent.2"}
+	title = avt_tsarevent.2.t
+	desc = avt_tsarevent.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_tsarevent.2.a
+		add_stability = 0.05
+	}
