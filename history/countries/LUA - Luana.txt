@@ -17,6 +17,7 @@ set_politics = {
 }
 
 set_oob = "LUA_ARMY"
+recruit_character = LUA_Army_leader_01
 
 set_popularities = {
 	ideology_imperialism = 60
