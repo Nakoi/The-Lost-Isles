@@ -840,7 +840,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#ADD EVENT
+			TYK = {
+				country_event = { id = avt_tsarevent.3 }
+			}
 		}
 	}
 	
