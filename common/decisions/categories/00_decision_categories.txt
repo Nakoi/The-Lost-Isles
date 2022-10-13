@@ -41,3 +41,15 @@ decisioncat_avt_tsarpath = {
 		has_completed_focus = AVT_the_tzar
 	}
 }
+
+decisioncat_avt_kirin_integration = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = AVT
+	}
+
+	visible = {
+		has_completed_focus = AVT_the_tzar
+	}
+}
