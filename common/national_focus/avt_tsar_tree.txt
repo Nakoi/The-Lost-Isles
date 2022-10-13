@@ -1261,12 +1261,16 @@ focus_tree = {
 			NOT = {
 				has_idea = AVT_administrative_reorganistation
 			}
+			AVT = {
+				owns_state = 500
+				owns_state = 122
+			}
 		}
 		completion_reward = {
 			#CHANGE COUNTRY NAME
 			#CHANGE FLAG
-			#ADD EVENT
-			#UNLOCK FINAL INTEGRATION DECISIONS
+			unlock_decision_category_tooltip = decisioncat_avt_kirin_integration
+			country_event = { id = avt_tsarevent.4 }
 			add_popularity = {
 				ideology = ideology_imperialism
 				popularity = 0.1
@@ -2628,7 +2632,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#ADD EVENT HERE
+			country_event = { id = avt_tsarevent.5 }
 		}
 	}
 	
