@@ -491,3 +491,52 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = avt_tsarevent.4
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_tsarevent.4"}
+	title = avt_tsarevent.4.t
+	desc = avt_tsarevent.4.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_tsarevent.4.a
+	}
+	
+	option = {
+		name = avt_tsarevent.4.b
+		set_capital = { state = 500 }
+	}
+	
+	option = {
+		name = avt_tsarevent.4.c
+		set_capital = { state = 122 }
+	}
+}
+
+country_event = {
+	id = avt_tsarevent.5
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_tsarevent.5"}
+	title = avt_tsarevent.5.t
+	desc = avt_tsarevent.5.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_tsarevent.5.a
+		add_stability = 0.05
+	}
+	
+	option = {
+		name = avt_tsarevent.5.b
+	}
+	
+	option = {
+		name = avt_tsarevent.5.c
+		add_stability = -0.1
+		add_political_power = -50
+	}
+}
