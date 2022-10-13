@@ -679,7 +679,7 @@ decisioncat_avt_tsarpath = {
 
 		visible = {
 			tag = AVT
-			has_completed_focus = AVT_the_tzar
+			has_completed_focus = AVT_ally_schizoid
 		}
 		
 		#modifier = {
@@ -691,6 +691,284 @@ decisioncat_avt_tsarpath = {
 			set_faction_name = AVT_faction_panpony
 			AVT = { add_to_faction = SOV }
 			
+		}
+	}
+}
+
+decisioncat_avt_kirin_integration = {
+
+	AVT_integrate_northern_ootari_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			owns_state = 122
+			owns_state = 481
+			owns_state = 467
+			owns_state = 470
+			owns_state = 466
+			owns_state = 457
+			owns_state = 468
+			owns_state = 459
+			owns_state = 471
+		
+			122 = { compliance > 60 }
+			481 = { compliance > 60 }
+			467 = { compliance > 60 }
+			470 = { compliance > 60 }
+			466 = { compliance > 60 }
+			457 = { compliance > 60 }
+			468 = { compliance > 60 }
+			459 = { compliance > 60 }
+			471 = { compliance > 60 }
+		}
+		
+		cost = 200
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_united_empire
+		}
+		
+		#modifier = {
+			#consumer_goods_factor = 0.05
+		#}
+		
+		remove_effect = {
+			122 = { add_core_of = AVT }
+			481 = { add_core_of = AVT }
+			467 = { add_core_of = AVT }
+			470 = { add_core_of = AVT }
+			466 = { add_core_of = AVT }
+			457 = { add_core_of = AVT }
+			468 = { add_core_of = AVT }
+			459 = { add_core_of = AVT }
+			471 = { add_core_of = AVT }
+		}
+	}
+	
+	AVT_integrate_western_ootari_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			owns_state = 479
+			owns_state = 478
+			owns_state = 477
+			owns_state = 482
+			owns_state = 497
+			owns_state = 496
+			owns_state = 483
+			owns_state = 507
+			owns_state = 498
+			owns_state = 499
+			
+			479 = { compliance > 60 }
+			478 = { compliance > 60 }
+			477 = { compliance > 60 }
+			482 = { compliance > 60 }
+			497 = { compliance > 60 }
+			496 = { compliance > 60 }
+			483 = { compliance > 60 }
+			507 = { compliance > 60 }
+			498 = { compliance > 60 }
+			499 = { compliance > 60 }
+		}
+		
+		cost = 200
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_united_empire
+		}
+		
+		#modifier = {
+			#consumer_goods_factor = 0.05
+		#}
+		
+		remove_effect = {
+			479 = { add_core_of = AVT }
+			478 = { add_core_of = AVT }
+			477 = { add_core_of = AVT }
+			482 = { add_core_of = AVT }
+			497 = { add_core_of = AVT }
+			496 = { add_core_of = AVT }
+			483 = { add_core_of = AVT }
+			507 = { add_core_of = AVT }
+			498 = { add_core_of = AVT }
+			499 = { add_core_of = AVT }
+		}
+	}
+	
+	AVT_integrate_eastern_ootari_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			owns_state = 484
+			owns_state = 469
+			owns_state = 485
+			owns_state = 486
+			owns_state = 472
+			owns_state = 460
+			owns_state = 458
+			owns_state = 418
+			owns_state = 473
+			owns_state = 488
+			owns_state = 487
+			owns_state = 490
+			owns_state = 489
+		
+			484 = { compliance > 60 }
+			469 = { compliance > 60 }
+			485 = { compliance > 60 }
+			486 = { compliance > 60 }
+			472 = { compliance > 60 }
+			460 = { compliance > 60 }
+			458 = { compliance > 60 }
+			418 = { compliance > 60 }
+			473 = { compliance > 60 }
+			488 = { compliance > 60 }
+			487 = { compliance > 60 }
+			490 = { compliance > 60 }
+			489 = { compliance > 60 }
+		}
+		
+		cost = 200
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_united_empire
+		}
+		
+		#modifier = {
+			#consumer_goods_factor = 0.05
+		#}
+		
+		remove_effect = {
+			484 = { add_core_of = AVT }
+			469 = { add_core_of = AVT }
+			485 = { add_core_of = AVT }
+			486 = { add_core_of = AVT }
+			472 = { add_core_of = AVT }
+			460 = { add_core_of = AVT }
+			458 = { add_core_of = AVT }
+			418 = { add_core_of = AVT }
+			473 = { add_core_of = AVT }
+			488 = { add_core_of = AVT }
+			487 = { add_core_of = AVT }
+			490 = { add_core_of = AVT }
+			489 = { add_core_of = AVT }
+		}
+	}
+	
+	AVT_integrate_southern_ootari_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			owns_state = 503
+			owns_state = 506
+			owns_state = 505
+			owns_state = 504
+			owns_state = 500
+			owns_state = 501
+			owns_state = 491
+			owns_state = 492
+			owns_state = 136
+			owns_state = 502
+			owns_state = 495
+			owns_state = 494
+			owns_state = 493
+			
+			503 = { compliance > 60 }
+			506 = { compliance > 60 }
+			505 = { compliance > 60 }
+			504 = { compliance > 60 }
+			500 = { compliance > 60 }
+			501 = { compliance > 60 }
+			491 = { compliance > 60 }
+			492 = { compliance > 60 }
+			136 = { compliance > 60 }
+			502 = { compliance > 60 }
+			495 = { compliance > 60 }
+			494 = { compliance > 60 }
+			493 = { compliance > 60 }
+		}
+		
+		cost = 200
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_united_empire
+		}
+		
+		#modifier = {
+			#consumer_goods_factor = 0.05
+		#}
+		
+		remove_effect = {
+			503 = { add_core_of = AVT }
+			506 = { add_core_of = AVT }
+			505 = { add_core_of = AVT }
+			504 = { add_core_of = AVT }
+			500 = { add_core_of = AVT }
+			501 = { add_core_of = AVT }
+			491 = { add_core_of = AVT }
+			492 = { add_core_of = AVT }
+			136 = { add_core_of = AVT }
+			502 = { add_core_of = AVT }
+			495 = { add_core_of = AVT }
+			494 = { add_core_of = AVT }
+			493 = { add_core_of = AVT }
 		}
 	}
 }
