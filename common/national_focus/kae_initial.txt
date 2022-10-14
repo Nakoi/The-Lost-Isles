@@ -261,7 +261,7 @@ focus_tree = {
 	focus = {
 		id = KAE_visions_of_the_league
 		prerequisite = { focus = KAE_political_mission }
-		x = -10 # INCREASE BY 4
+		x = -6 # INCREASE BY 4
 		y = 5 
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -275,7 +275,7 @@ focus_tree = {
 	focus = {
 		id = KAE_form_the_league
 		prerequisite = { focus = KAE_visions_of_the_league }
-		x = -10
+		x = -6
 		y = 6
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -289,7 +289,7 @@ focus_tree = {
 	focus = {
 		id = KAE_pressure_them
 		prerequisite = { focus = KAE_form_the_league }
-		x = -11
+		x = -7
 		y = 7
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -303,7 +303,7 @@ focus_tree = {
 	focus = {
 		id = KAE_promisses
 		prerequisite = { focus = KAE_form_the_league }
-		x = -9
+		x = -5
 		y = 7
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -318,7 +318,7 @@ focus_tree = {
 		id = KAE_gain_factories
 		prerequisite = { focus = KAE_promisses }
         prerequisite = { focus = KAE_pressure_them }
-		x = -12
+		x = -8
 		y = 8
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -333,7 +333,7 @@ focus_tree = {
 		id = KAE_form_the_army
 		prerequisite = { focus = KAE_promisses }
         prerequisite = { focus = KAE_pressure_them }
-		x = -11
+		x = -7
 		y = 9
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -348,7 +348,7 @@ focus_tree = {
 		id = KAE_fortify_our_allies
 		prerequisite = { focus = KAE_promisses }
         prerequisite = { focus = KAE_pressure_them }
-		x = -8
+		x = -4
 		y = 8
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -363,7 +363,7 @@ focus_tree = {
 		id = KAE_prepare_the_lines
 		prerequisite = { focus = KAE_promisses }
         prerequisite = { focus = KAE_pressure_them }
-		x = -9
+		x = -5
 		y = 9
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -380,7 +380,7 @@ focus_tree = {
         prerequisite = { focus = KAE_gain_factories }
         prerequisite = { focus = KAE_form_the_army }
         prerequisite = { focus = KAE_prepare_the_lines }
-		x = -10
+		x = -6
 		y = 10
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -394,7 +394,7 @@ focus_tree = {
 	focus = {
 		id = KAE_war_Vote
 		prerequisite = { focus = KAE_war_to_all_kirins }
-		x = -10
+		x = -6
 		y = 11
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -410,7 +410,7 @@ focus_tree = {
 	focus = {
 		id = KAE_one_united_nation
 		prerequisite = { focus = KAE_political_mission }
-		x = 10 # DECREASE BY 3
+		x = 6 # DECREASE BY 3
 		y = 5
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -424,7 +424,7 @@ focus_tree = {
 	focus = {
 		id = KAE_strenghten_our_lines
 		prerequisite = { focus = KAE_one_united_nation }
-		x = 10
+		x = 6
 		y = 6
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -438,7 +438,7 @@ focus_tree = {
 	focus = {
 		id = KAE_silence_them
 		prerequisite = { focus = KAE_strenghten_our_lines }
-		x = 10
+		x = 6
 		y = 7
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -452,7 +452,7 @@ focus_tree = {
 	focus = {
 		id = KAE_factories_for_the_war
 		prerequisite = { focus = KAE_strenghten_our_lines }
-		x = 8
+		x = 4
 		y = 7
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -466,7 +466,7 @@ focus_tree = {
 	focus = {
 		id = KAE_indoctrinate_the_youth
 		prerequisite = { focus = KAE_strenghten_our_lines }
-		x = 12
+		x = 8
 		y = 7
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -482,7 +482,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_indoctrinate_the_youth }
         prerequisite = { focus = KAE_silence_them }
         prerequisite = { focus = KAE_factories_for_the_war }
-		x = 10
+		x = 6
 		y = 8
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -496,7 +496,7 @@ focus_tree = {
 	focus = {
 		id = KAE_rebuild_the_infrastructure
 		prerequisite = { focus = KAE_war_to_the_clans }
-		x = 9
+		x = 5
 		y = 9
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -510,7 +510,7 @@ focus_tree = {
 	focus = {
 		id = KAE_fix_the_factories
 		prerequisite = { focus = KAE_war_to_the_clans }
-		x = 11
+		x = 7
 		y = 9
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -525,7 +525,7 @@ focus_tree = {
 		id = KAE_boost_of_morale
 		prerequisite = { focus = KAE_fix_the_factories }
         prerequisite = { focus = KAE_rebuild_the_infrastructure }
-		x = 10
+		x = 6
 		y = 10
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -540,7 +540,7 @@ focus_tree = {
 		id = KAE_invest_in_the_empire
 		prerequisite = { focus = KAE_fix_the_factories }
         prerequisite = { focus = KAE_rebuild_the_infrastructure }
-		x = 8
+		x = 4
 		y = 10
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -555,7 +555,7 @@ focus_tree = {
 		id = KAE_locomotive_infrastructure
 		prerequisite = { focus = KAE_fix_the_factories }
         prerequisite = { focus = KAE_rebuild_the_infrastructure }
-		x = 12
+		x = 8
 		y = 10
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -571,7 +571,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_locomotive_infrastructure }
         prerequisite = { focus = KAE_invest_in_the_empire }
         prerequisite = { focus = KAE_boost_of_morale }
-		x = 10
+		x = 6
 		y = 11
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -585,7 +585,7 @@ focus_tree = {
 	focus = {
 		id = KAE_war_vote_2
 		prerequisite = { focus = KAE_war_to_all_kirins_2 }
-		x = 10
+		x = 6
 		y = 12
 		relative_position_id = KAE_negotiations
 		cost = 1
