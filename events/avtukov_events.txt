@@ -540,3 +540,51 @@ country_event = {
 		add_political_power = -50
 	}
 }
+
+country_event = {
+	id = avt_tsarevent.6
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_tsarevent.6"}
+	title = avt_tsarevent.6.t
+	desc = avt_tsarevent.6.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_tsarevent.6.a
+		add_opinion_modifier = {
+			target = AVT
+			modifier = tlirelations_generic_alliance_accepted
+		}
+		AVT = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = tlirelations_generic_alliance_accepted
+			}
+			add_to_faction = ROOT
+			give_guarantee = ROOT
+		}
+		IF = {
+			limit = {
+				ROOT = { has_opinion = { target = AVT value > 89 } }
+			}
+			ai_will_do = {
+				factor = 400
+			}
+		}
+	}
+	
+	option = {
+		name = avt_tsarevent.6.b
+		add_opinion_modifier = {
+			target = AVT
+			modifier = tlirelations_generic_alliance_refused
+		}
+		AVT = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = tlirelations_generic_alliance_refused
+			}
+		}
+	}
+}
