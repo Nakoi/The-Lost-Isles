@@ -693,6 +693,293 @@ decisioncat_avt_tsarpath = {
 			
 		}
 	}
+	
+	AVT_invite_rognia_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			ROG = {
+				has_opinion = { target = AVT value > 49 }
+				is_subject = no
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_luana_forever_broken
+		}
+		
+		#modifier = {
+			#consumer_goods_factor = 0.05
+		#}
+		
+		remove_effect = {
+			ROG = {
+				country_event = { id = avt_tsarevent.6 }
+			}
+		}
+	}
+	
+	AVT_invite_klizina_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			KLI = {
+				has_opinion = { target = AVT value > 49 }
+				is_subject = no
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_luana_forever_broken
+		}
+		
+		#modifier = {
+			#consumer_goods_factor = 0.05
+		#}
+		
+		remove_effect = {
+			KLI = {
+				country_event = { id = avt_tsarevent.6 }
+			}
+		}
+	}
+	
+	AVT_invite_welernia_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			WEL = {
+				has_opinion = { target = AVT value > 49 }
+				is_subject = no
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_luana_forever_broken
+		}
+		
+		#modifier = {
+			#consumer_goods_factor = 0.05
+		#}
+		
+		remove_effect = {
+			WEL = {
+				country_event = { id = avt_tsarevent.6 }
+			}
+		}
+	}
+	
+	AVT_invite_zikrov_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			ZIK = {
+				has_opinion = { target = AVT value > 49 }
+				is_subject = no
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_luana_forever_broken
+		}
+		
+		#modifier = {
+			#consumer_goods_factor = 0.05
+		#}
+		
+		remove_effect = {
+			ZIK = {
+				country_event = { id = avt_tsarevent.6 }
+			}
+		}
+	}
+	
+	AVT_invite_salkinovski_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			SAL = {
+				has_opinion = { target = AVT value > 49 }
+				is_subject = no
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_luana_forever_broken
+		}
+		
+		#modifier = {
+			#consumer_goods_factor = 0.05
+		#}
+		
+		remove_effect = {
+			SAL = {
+				country_event = { id = avt_tsarevent.6 }
+			}
+		}
+	}
+	
+	AVT_invite_brveski_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			BRV = {
+				has_opinion = { target = AVT value > 49 }
+				is_subject = no
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_luana_forever_broken
+		}
+		
+		#modifier = {
+			#consumer_goods_factor = 0.05
+		#}
+		
+		remove_effect = {
+			BRV = {
+				country_event = { id = avt_tsarevent.6 }
+			}
+		}
+	}
+	
+	AVT_invite_nagovina_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			NAG = {
+				has_opinion = { target = AVT value > 49 }
+				is_subject = no
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_luana_forever_broken
+		}
+		
+		#modifier = {
+			#consumer_goods_factor = 0.05
+		#}
+		
+		remove_effect = {
+			NAG = {
+				country_event = { id = avt_tsarevent.6 }
+			}
+		}
+	}
 }
 
 decisioncat_avt_kirin_integration = {
