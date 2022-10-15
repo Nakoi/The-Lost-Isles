@@ -51,6 +51,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = air_skirmisher_equipment
+				amount = 150
+				producer = KAE
+			}
 		}
 	}
 
@@ -65,6 +70,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_4
+				amount = 1500
+				producer = KAE
+			}
 		}
 	}
 
@@ -79,6 +89,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = air_skirmisher_equipment
+				amount = 2000
+				producer = KAE
+			}
 		}
 	}
 
@@ -93,6 +108,12 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = air_skirmisher_equipment
+				amount = 250
+				producer = KAE
+			}
+			add_political_power = 50
 		}
 	}
 
@@ -131,6 +152,8 @@ focus_tree = {
 	focus = {
 		id = KAE_advisor_in_these_times
 		prerequisite = { focus = KAE_political_mission }
+		mutually_exclusive = ( focus = KAE_visions_of_the_league }
+		mutually_exclusive = ( focus = KAE_one_united_nation }
 		x = 0
 		y = 5
 		relative_position_id = KAE_negotiations
@@ -261,6 +284,8 @@ focus_tree = {
 	focus = {
 		id = KAE_visions_of_the_league
 		prerequisite = { focus = KAE_political_mission }
+		mutually_exclusive = ( focus = KAE_advisor_in_these_times }
+		mutually_exclusive = ( focus = KAE_one_united_nation }
 		x = -6 # INCREASE BY 4
 		y = 5 
 		relative_position_id = KAE_negotiations
@@ -410,6 +435,8 @@ focus_tree = {
 	focus = {
 		id = KAE_one_united_nation
 		prerequisite = { focus = KAE_political_mission }
+		mutually_exclusive = ( focus = KAE_visions_of_the_league }
+		mutually_exclusive = ( focus = KAE_advisor_in_these_times }
 		x = 6 # DECREASE BY 3
 		y = 5
 		relative_position_id = KAE_negotiations
@@ -432,6 +459,70 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			502 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 3159
+						limit_to_border = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 1912
+						limit_to_border = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 1644
+						limit_to_border = yes
+					}
+				}
+			}
+			495 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 3223
+						limit_to_border = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 3474
+						limit_to_border = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 5079
+						limit_to_border = yes
+					}
+				}
+			}
 		}
 	}
 
@@ -460,6 +551,14 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			140 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -474,6 +573,8 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_manpower = 5000
+			add_ideas = KAE_idea_indoctrinate
 		}
 	}
 
