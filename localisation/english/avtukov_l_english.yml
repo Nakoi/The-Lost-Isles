@@ -260,6 +260,13 @@
  
  decisioncat_avt_tsarpath:0 "The All-Pony League"
  AVT_political_marriage_sov_decision:0 "Political Marriage with Sovjok"
+ AVT_invite_rognia_decision:0 "Invite Rognia to the League"
+ AVT_invite_klizina_decision:0 "Invite Klizina to the League"
+ AVT_invite_welernia_decision:0 "Invite Welernia to the League"
+ AVT_invite_zikrov_decision:0 "Invite Zikrov to the League"
+ AVT_invite_salkinovski_decision:0 "Invite Salkinovski to the League"
+ AVT_invite_brveski_decision:0 "Invite Brveski to the League"
+ AVT_invite_nagovina_decision:0 "Invite Nagovina to the League"
  
  decisioncat_avt_kirin_integration:0 "Final Integration"
  AVT_integrate_northern_ootari_decision:0 "Integrate Northern Ootari"
@@ -380,6 +387,11 @@
  avt_tsarevent.5.a:0 "Imprisonment for Life!"
  avt_tsarevent.5.b:0 "Exile them to (state 102 placeholder name)"
  avt_tsarevent.5.c:0 "They deserve nothing but death."
+ 
+ avt_tsarevent.6.t:0 "le invitation"
+ avt_tsarevent.6.d:0 "damn bro these avtukovian niggaz want us to join their faction :flushed: :flushed:"
+ avt_tsarevent.6.a:0 "He'll Yeah Niggah!!!"
+ avt_tsarevent.6.b:0 "He'll Nah Niggah!!!"
  
 ###TOOLTIP LOCALISATION###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
