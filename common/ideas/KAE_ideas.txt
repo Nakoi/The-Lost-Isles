@@ -28,5 +28,18 @@ ideas = {
 			}
 		}
 
+		KAE_visions_of_the_league_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+                stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+
     }
 }
