@@ -37,6 +37,20 @@
 ###CHARACTER NAMES###
  AVT_tzar_name:0 "Ivory Spark"
  AVT_tzaritsa_name:0 "Elusive Gem"
+ 
+###POLITICAL PARTIES###
+ AVT_tsar_parliament_militarism_party:0 "The Radicals"
+ AVT_tsar_parliament_militarism_party_long:0 "The All-Avtukovian Radical Party - "Bayonet" Facion"
+ AVT_tsar_parliament_imperialism_party:0 "The Sovereign"
+ AVT_tsar_parliament_imperialism_party_long:0 "The Representatives of the Sovereign"
+ AVT_tsar_parliament_visonarism_party:0 "The Celestians"
+ AVT_tsar_parliament_visonarism_party_long:0 "The All-Avtukovian Equestrian Harmonist Party"
+ AVT_tsar_parliament_solidarism_party:0 "The Radicals"
+ AVT_tsar_parliament_solidarism_party_long:0 "The All-Avtukovian Radical Party"
+ AVT_tsar_parliament_continuism_party:0 "The Traditionalists"
+ AVT_tsar_parliament_continuism_party_long:0 "The All-Avtukovian Traditionalist Movement - "Roots""
+ AVT_tsar_parliament_isolationism_party:0 "The Unicorns"
+ AVT_tsar_parliament_isolationism_party_long:0 "The All-Avtukovian Unicorn Interest Party"
 
 ###FOCUS LOCALISATION - EARLYGAME###
  AVT_the_great_modernisation:0 "The Great Modernisation"
@@ -392,6 +406,14 @@
  avt_tsarevent.6.d:0 "damn bro these avtukovian niggaz want us to join their faction :flushed: :flushed:"
  avt_tsarevent.6.a:0 "He'll Yeah Niggah!!!"
  avt_tsarevent.6.b:0 "He'll Nah Niggah!!!"
+ 
+ avt_tsarevent.7.t:0 "Noble Exodus"
+ avt_tsarevent.7.d:0 "Synopsis: Hearing about the decision to disavow the vast majority of noble titles, many now-former noble families have decided to leave Avtukov, taking their wealth with them"
+ avt_tsarevent.7.a:0 "We don’t need them here."
+ 
+ avt_tsarevent.8.t:0 "First Elections"
+ avt_tsarevent.8.d:0 "Synopsis: After the tsar formed the parliament, several political parties were formed and took part in elections. These parties will be introduced."
+ avt_tsarevent.8.a:0 "The ponies have spoken!"
  
 ###TOOLTIP LOCALISATION###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
