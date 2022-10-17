@@ -268,6 +268,22 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			declare_war_on = {
+				target = WEI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AZE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = HRI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ONK
+				type = annex_everything
+			}
 		}
 	}
 
@@ -315,6 +331,12 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			create_faction = Trade_League
+			Trade_League = {
+				add_to_faction = ASH
+				add_to_faction = UNU
+				add_to_faction = RIN
+			}
 		}
 	}
 
@@ -330,6 +352,16 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_state_claim = 479
+			add_state_claim = 478
+			add_state_claim = 477
+			add_state_claim = 482
+			add_state_claim = 497
+			add_state_claim = 496
+			add_state_claim = 483
+			add_state_claim = 507
+			add_state_claim = 498
+			add_state_claim = 499	
 		}
 	}
 
@@ -345,6 +377,21 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			UNU = {
+				add_state_claim = 479
+				add_state_claim = 478
+			}
+			RIN = {
+				add_state_claim = 477
+				add_state_claim = 482
+				add_state_claim = 496
+			}
+			ASH = {
+				add_state_claim = 483
+				add_state_claim = 507
+				add_state_claim = 498
+				add_state_claim = 499
+			}
 		}
 	}
 
@@ -360,6 +407,22 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			494 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			493 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -375,6 +438,8 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			#KAE gets 3 divisions
+			# RIN, UNU, ASH get 1 division each
 		}
 	}
 
@@ -390,6 +455,72 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			503 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 1443
+						limit_to_border = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 3751
+						limit_to_border = yes
+					}
+				}
+			}
+			504 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 1309
+						limit_to_border = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 651
+						limit_to_border = yes
+					}
+				}
+			}
+			500 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 1441
+						limit_to_border = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = no
+						province = 4993
+						limit_to_border = yes
+					}
+				}
+			}
 		}
 	}
 
@@ -405,6 +536,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_4
+				amount = 5000
+				producer = KAE
+			}
 		}
 	}
 
@@ -422,6 +558,22 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			declare_war_on = {
+				target = WEI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AZE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = HRI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ONK
+				type = annex_everything
+			}
 		}
 	}
 
