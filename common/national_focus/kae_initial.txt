@@ -317,6 +317,7 @@ focus_tree = {
 		x = -7
 		y = 7
 		relative_position_id = KAE_negotiations
+		mutually_exclusive = ( focus = KAE_promisses }
 		cost = 1
 		ai_will_do = {
 			factor = 5
@@ -328,6 +329,7 @@ focus_tree = {
 	focus = {
 		id = KAE_promisses
 		prerequisite = { focus = KAE_form_the_league }
+		mutually_exclusive = ( focus = KAE_pressure_them }
 		x = -5
 		y = 7
 		relative_position_id = KAE_negotiations
