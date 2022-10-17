@@ -1,0 +1,513 @@
+focus_tree = {
+    id = kae_initial_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = ZZZ
+       }
+    }
+    default = no
+
+    continuous_focus_position = { x = 50 y = 3000 }
+
+	focus = {
+		id = Solidarism_for_all
+		x = 0
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+     ###   ##  #     ##  #  # #   #
+    #   # #  # #    #  # ## #  # #
+    #     #  # #    #  # # ##   #
+    #   # #  # #    #  # #  #   #
+     ###   ##  ####  ##  #  #   #
+
+	focus = {
+		id = KAE_visions_of_a_colonial_empire
+
+		x = 0
+		y = 20
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_establish_a_frontier
+		prerequisite = { focus = KAE_visions_of_a_colonial_empire }
+		x = 0
+		y = 2
+		relative_position_id = KAE_visions_of_a_colonial_empire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_invest_in_the_colony
+		prerequisite = { focus = KAE_establish_a_frontier }
+		x = -1
+		y = 3
+		relative_position_id = KAE_visions_of_a_colonial_empire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_train_a_local_force
+		prerequisite = { focus = KAE_establish_a_frontier }
+		x = 1
+		y = 3
+		relative_position_id = KAE_visions_of_a_colonial_empire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_avtukovian_trade
+		prerequisite = { focus = KAE_train_a_local_force }
+        prerequisite = { focus = KAE_invest_in_the_colony }
+		x = -2
+		y = 4
+		relative_position_id = KAE_visions_of_a_colonial_empire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_idustrial_expedition
+		prerequisite = { focus = KAE_train_a_local_force }
+        prerequisite = { focus = KAE_invest_in_the_colony }
+		x = 0
+		y = 4
+		relative_position_id = KAE_visions_of_a_colonial_empire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_Resource_investigation
+		prerequisite = { focus = KAE_train_a_local_force }
+        prerequisite = { focus = KAE_invest_in_the_colony }
+		x = 2
+		y = 4
+		relative_position_id = KAE_visions_of_a_colonial_empire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_Resource_harvesting
+		prerequisite = { focus = KAE_Resource_investigation }
+		x = 3
+		y = 5
+		relative_position_id = KAE_visions_of_a_colonial_empire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_troop_bolstering
+		prerequisite = { focus = KAE_idustrial_expedition }
+        prerequisite = { focus = KAE_avtukovian_trade }
+		x = -1
+		y = 5
+		relative_position_id = KAE_visions_of_a_colonial_empire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_transform_the_workshops
+		prerequisite = { focus = KAE_Resource_investigation }
+		x = 1
+		y = 5
+		relative_position_id = KAE_visions_of_a_colonial_empire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_holy_war
+		prerequisite = { focus = KAE_Resource_investigation }
+		x = -1
+		y = 6
+		relative_position_id = KAE_visions_of_a_colonial_empire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_reform_the_guilds
+		prerequisite = { focus = KAE_transform_the_workshops }
+		prerequisite = { focus = KAE_Resource_harvesting }
+		x = 2
+		y = 6
+		relative_position_id = KAE_visions_of_a_colonial_empire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+#   # ### ###   ##
+## ## #   #  # #  #
+# # # ##  ###  #
+#   # #   #  # #  #
+#   # ### #  #  ##
+
+	focus = {
+		id = KAE_mercenary_relations
+		prerequisite = { focus = Solidarism_for_all }
+		x = 1
+		y = 1
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_mercs_in_the_army
+		prerequisite = { focus = KAE_mercenary_relations }
+		x = 0
+		y = 2
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_establish_a_contract
+		prerequisite = { focus = KAE_mercenary_relations }
+		x = 2
+		y = 2
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_support_from_the_people
+		prerequisite = { focus = KAE_mercenary_relations }
+		x = 4
+		y = 2
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_merc_equipment
+		prerequisite = { focus = KAE_establish_a_contract }
+		prerequisite = { focus = KAE_mercs_in_the_army }
+		prerequisite = { focus = KAE_support_from_the_people }
+		x = 1
+		y = 3
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_merc_expeditions
+		prerequisite = { focus = KAE_establish_a_contract }
+		prerequisite = { focus = KAE_mercs_in_the_army }
+		prerequisite = { focus = KAE_support_from_the_people }
+		x = 3
+		y = 3
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_merc_perks
+		prerequisite = { focus = KAE_establish_a_contract }
+		prerequisite = { focus = KAE_mercs_in_the_army }
+		prerequisite = { focus = KAE_support_from_the_people }
+		x = 5
+		y = 3
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_overdrive_the_factories
+		prerequisite = { focus = KAE_establish_a_contract }
+		prerequisite = { focus = KAE_mercs_in_the_army }
+		prerequisite = { focus = KAE_support_from_the_people }
+		x = 7
+		y = 3
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_locomotive_improvements
+		prerequisite = { focus = KAE_merc_equipment }
+		prerequisite = { focus = KAE_merc_expeditions }
+		prerequisite = { focus = KAE_merc_perks }
+		prerequisite = { focus = KAE_overdrive_the_factories }
+		x = 2
+		y = 4
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_weapon_improvements
+		prerequisite = { focus = KAE_merc_equipment }
+		prerequisite = { focus = KAE_merc_expeditions }
+		prerequisite = { focus = KAE_merc_perks }
+		prerequisite = { focus = KAE_overdrive_the_factories }
+		x = 4
+		y = 4
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_training_program
+		prerequisite = { focus = KAE_merc_equipment }
+		prerequisite = { focus = KAE_merc_expeditions }
+		prerequisite = { focus = KAE_merc_perks }
+		prerequisite = { focus = KAE_overdrive_the_factories }
+		x = 6
+		y = 4
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_hunting_army
+		prerequisite = { focus = KAE_locomotive_improvements }
+		prerequisite = { focus = KAE_weapon_improvements }
+		prerequisite = { focus = KAE_training_program }
+		x = 4
+		y = 5
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+#     #  ##  ###         ##   ##### #### ###  ##  #  #  ##
+#     # #  # #  #       #       #   #    #   #  # ## # #
+#     # #### ###   ###  # ##    #   ##   ##  #  # # ##  #
+#  #  # #  # #  #       #  #    #   #    #   #  # #  #   #
+ #  #   #  # #  #        ##   ##### #    #    ##  #  # ##
+
+	focus = {
+		id = KAE_prepare_for_war
+		prerequisite = { focus = Solidarism_for_all }
+		x = -1
+		y = 1
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_Resuply_the_troops
+		prerequisite = { focus = KAE_prepare_for_war }
+		x = -2
+		y = 2
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_strenghten_the_border
+		prerequisite = { focus = KAE_prepare_for_war }
+		x = -4
+		y = 2
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_border_fortifications
+		prerequisite = { focus = KAE_strenghten_the_border }
+		prerequisite = { focus = KAE_Resuply_the_troops }
+		x = -3
+		y = 3
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_new_face_of_warfare
+		prerequisite = { focus = KAE_strenghten_the_border }
+		prerequisite = { focus = KAE_Resuply_the_troops }
+		x = -1
+		y = 3
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_war_factories
+		prerequisite = { focus = KAE_strenghten_the_border }
+		prerequisite = { focus = KAE_Resuply_the_troops }
+		x = -5
+		y = 3
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KAE_griffon_war
+		prerequisite = { focus = KAE_border_fortifications }
+		prerequisite = { focus = KAE_new_face_of_warfare }
+		prerequisite = { focus = KAE_war_factories }
+		x = -3
+		y = 4
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+}
