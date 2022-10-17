@@ -588,3 +588,152 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = avt_tsarevent.7
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_tsarevent.7"}
+	title = avt_tsarevent.7.t
+	desc = avt_tsarevent.7.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_tsarevent.7.a
+		add_stability = -0.1
+		add_popularity = {
+			ideology = ideology_imperialism
+			popularity = -0.1
+		}
+		add_manpower = -5000
+		394 = {
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		380 = {
+			remove_building = {
+				type = industrial_complex
+				level = 2
+			}
+		}
+		349 = {
+			remove_building = {
+				type = industrial_complex
+				level = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = avt_tsarevent.8
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_tsarevent.8"}
+	title = avt_tsarevent.8.t
+	desc = avt_tsarevent.8.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_tsarevent.8.a
+		add_stability = 0.1
+		
+		set_party_name = {
+			ideology = ideology_imperialism
+			name = AVT_tsar_parliament_imperialism_party
+			long_name = AVT_tsar_parliament_imperialism_party_long
+		}
+		
+		set_party_name = {
+			ideology = ideology_militarism
+			name = AVT_tsar_parliament_militarism_party
+			long_name = AVT_tsar_parliament_militarism_party_long
+		}
+		add_popularity = {
+			ideology = ideology_militarism
+			popularity = 0.04
+		}
+		add_country_leader_role = {
+			character = AVT_tzar
+			promote_leader = yes
+			country_leader = {
+				ideology = militarism_thing
+				expire = "1965.1.1.1"
+			}
+		}
+		
+		set_party_name = {
+			ideology = ideology_visionarism
+			name = AVT_tsar_parliament_visonarism_party
+			long_name = AVT_tsar_parliament_visonarism_party_long
+		}
+		add_popularity = {
+			ideology = ideology_visionarism
+			popularity = 0.04
+		}
+		add_country_leader_role = {
+			character = AVT_tzar
+			promote_leader = yes
+			country_leader = {
+				ideology = visionarism_thing
+				expire = "1965.1.1.1"
+			}
+		}
+		
+		set_party_name = {
+			ideology = ideology_solidarism
+			name = AVT_tsar_parliament_solidarism_party
+			long_name = AVT_tsar_parliament_solidarism_party_long
+		}
+		add_popularity = {
+			ideology = ideology_solidarism
+			popularity = 0.04
+		}
+		add_country_leader_role = {
+			character = AVT_tzar
+			promote_leader = yes
+			country_leader = {
+				ideology = solidarism_thing
+				expire = "1965.1.1.1"
+			}
+		}
+		
+		set_party_name = {
+			ideology = ideology_continuism
+			name = AVT_tsar_parliament_continuism_party
+			long_name = AVT_tsar_parliament_continuism_party_long
+		}
+		add_popularity = {
+			ideology = ideology_continuism
+			popularity = 0.04
+		}
+		add_country_leader_role = {
+			character = AVT_tzar
+			promote_leader = yes
+			country_leader = {
+				ideology = continuism_thing
+				expire = "1965.1.1.1"
+			}
+		}
+		
+		set_party_name = {
+			ideology = ideology_isolationism
+			name = AVT_tsar_parliament_isolationism_party
+			long_name = AVT_tsar_parliament_isolationism_party_long
+		}
+		add_popularity = {
+			ideology = ideology_isolationism
+			popularity = 0.04
+		}
+		add_country_leader_role = {
+			character = AVT_tzar
+			promote_leader = yes
+			country_leader = {
+				ideology = isolationism_thing
+				expire = "1965.1.1.1"
+			}
+		}
+	}
+}
