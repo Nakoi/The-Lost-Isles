@@ -16,5 +16,17 @@ ideas = {
 			}
 		}
 
+		KAE_imperial_investment = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
     }
 }
