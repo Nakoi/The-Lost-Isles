@@ -1628,6 +1628,13 @@ focus_tree = {
 					add_idea = policy_despotism
 				}
 			}
+			
+			hidden_effect = {
+				country_event = {
+					id = avt_tsarevent.7
+					days = 14
+				}
+			}
 		}
 	}
 	
@@ -1970,6 +1977,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = AVT_advisory_parliament
+			hidden_effect = {
+				country_event = {
+					id = avt_tsarevent.8
+					days = 90
+				}
+			}
 		}
 	}
 	
@@ -2029,6 +2042,12 @@ focus_tree = {
 				swap_ideas = {
 					remove_idea = policy_anarchy
 					add_idea = policy_auth_democracy
+				}
+			}
+			hidden_effect = {
+				country_event = {
+					id = avt_tsarevent.8
+					days = 90
 				}
 			}
 		}
