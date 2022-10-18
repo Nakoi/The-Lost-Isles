@@ -41,5 +41,100 @@ ideas = {
 			}
 		}
 
+		KAE_solidarism_for_all_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_solidarism_drift = 0.02
+				stability_factor = 0.05
+			}
+		}
+
+		KAE_merc_relations = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_weekly = -0.005
+			}
+		}
+
+		KAE_merc_deployment = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				recruitable_population = 0.05
+			}
+		}
+
+		KAE_peoples_support = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				recruitable_population = 0.05
+				war_support_weekly_factor = 0.005
+			}
+		}
+
+		KAE_mercenary_perks_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				#army_non_core_attack_factor = 0.05
+				#army_non_core_defence_factor = 0.1
+				#(MICRO)
+			}
+		}
+
+		KAE_mercenary_perks_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				#army_non_core_attack_factor = 0.05
+				#army_non_core_defence_factor = 0.1
+				#(MICRO)
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.2
+			}
+		}
+
+		KAE_factory_overdrive_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05 
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+
     }
 }

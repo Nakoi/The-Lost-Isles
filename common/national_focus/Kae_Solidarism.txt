@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = KAE
        }
     }
     default = no
@@ -14,7 +14,7 @@ focus_tree = {
     continuous_focus_position = { x = 50 y = 3000 }
 
 	focus = {
-		id = Solidarism_for_all
+		id = solidarism_for_all
 		x = 0
 		y = 0
 		cost = 10
@@ -22,6 +22,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_ideas = KAE_solidarism_for_all_idea 
 		}
 	}
 
@@ -213,15 +214,19 @@ focus_tree = {
 
 	focus = {
 		id = KAE_mercenary_relations
-		prerequisite = { focus = Solidarism_for_all }
+		prerequisite = { focus = solidarism_for_all }
 		x = 1
 		y = 1
-		relative_position_id = Solidarism_for_all
+		relative_position_id = solidarism_for_all
 		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
+			add_timed_idea = {
+				idea = KAE_merc_relations
+				days = 180
+			}
 		}
 	}
 
@@ -236,6 +241,9 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_manpower = 50000
+			add_ideas = KAE_merc_deployment
+			#spawns 2 merc divisions
 		}
 	}
 
@@ -250,6 +258,18 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_4
+				#merc weapons (we'll have to make some unique art for it but just the weapons from CAI)
+				amount = 2000
+				producer = CAI
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				#merc support equipment (we'll have to make some unique art for it but just the weapons from CAI)
+				amount = 500
+				producer = CAI
+			}
 		}
 	}
 
@@ -264,6 +284,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_ideas = KAE_peoples_support
 		}
 	}
 
@@ -280,6 +301,14 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_4
+				#merc weapons (we'll have to make some unique art for it but just the weapons from CAI)
+				amount = 2000
+				producer = CAI
+			}
+			#Merc weapon and support equipment blueprint (MICRO)
+			#only the mercs can use this equipment
 		}
 	}
 
@@ -296,6 +325,8 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			#gains a merc gerneral (MICRO)
+			#creats 2 experienced divisions of mercs
 		}
 	}
 
@@ -312,6 +343,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_ideas = KAE_mercenary_perks_01 #(MICRO)
 		}
 	}
 
@@ -328,6 +360,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_ideas = KAE_factory_overdrive_idea
 		}
 	}
 
@@ -345,6 +378,44 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_logi
+			}
+			505 = {
+				add_building_construction  = {
+					type = supply_node
+					level = 1
+					province = 5042
+					instant_build = yes
+				}
+			}
+			504 = {
+				add_building_construction  = {
+					type = supply_node
+					level = 1
+					province = 938
+					instant_build = yes
+				}
+			}
+			506 = {
+				add_building_construction  = {
+					type = supply_node
+					level = 1
+					province = 280
+					instant_build = yes
+				}
+			}
+			500 = {
+				add_building_construction  = {
+					type = supply_node
+					level = 1
+					province = 4993
+					instant_build = yes
+				}
+			}
+
 		}
 	}
 
@@ -362,6 +433,16 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = category_ranged
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = 	category_artillery
+			}
 		}
 	}
 
@@ -379,6 +460,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			#creates 2 divisions (MICRO)
 		}
 	}
 
@@ -395,6 +477,10 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+				swap_ideas = {
+					remove_idea = KAE_mercenary_perks_01
+					add_idea = KAE_mercenary_perks_02
+				}
 		}
 	}
 
@@ -407,10 +493,10 @@ focus_tree = {
 
 	focus = {
 		id = KAE_prepare_for_war
-		prerequisite = { focus = Solidarism_for_all }
+		prerequisite = { focus = solidarism_for_all }
 		x = -1
 		y = 1
-		relative_position_id = Solidarism_for_all
+		relative_position_id = solidarism_for_all
 		cost = 10
 		ai_will_do = {
 			factor = 5
