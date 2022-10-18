@@ -18,11 +18,12 @@ focus_tree = {
 		id = KAE_negotiations
 		x = 0
 		y = 0
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_kae_starting_cilraine_trade
 		}
 	}
 
@@ -32,11 +33,21 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = KAE_negotiations
-		cost = 10
+		cost = 3
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_political_power > 14
+		}
+		
 		completion_reward = {
+			add_days_mission_timeout = {
+				mission = KAE_negotiation_time_limit_mission
+				days = 141
+			}
+			add_political_power = -15
 		}
 	}
 
@@ -46,15 +57,20 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = KAE_negotiations
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
+		
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = air_skirmisher_equipment
-				amount = 150
+				amount = 170
 				producer = KAE
+			}
+			add_days_mission_timeout = {
+				mission = KAE_negotiation_time_limit_mission
+				days = 65
 			}
 		}
 	}
@@ -65,55 +81,21 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = KAE_negotiations
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
+		
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = rifle_equipment_4
-				amount = 1500
+				amount = 1000
 				producer = KAE
 			}
-		}
-	}
-
-	focus = {
-		id = KAE_gain_weapons
-		prerequisite = { focus = KAE_weapons }
-		x = 2
-		y = 2
-		relative_position_id = KAE_negotiations
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = rifle_equipment_4
-				amount = 2000
-				producer = KAE
+			add_days_mission_timeout = {
+				mission = KAE_negotiation_time_limit_mission
+				days = 65
 			}
-		}
-	}
-
-	focus = {
-		id = KAE_gain_air_equipment
-		prerequisite = { focus = KAE_air_equipment }
-		x = -2
-		y = 2
-		relative_position_id = KAE_negotiations
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = air_skirmisher_equipment
-				amount = 250
-				producer = KAE
-			}
-			add_political_power = 50
 		}
 	}
 
@@ -123,11 +105,17 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = KAE_negotiations
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			NOT = { has_active_mission = KAE_negotiation_time_limit_mission }
+		}
+		
 		completion_reward = {
+			#add an idea that gives you a few offmap factories i guess
 		}
 	}
 
@@ -136,8 +124,8 @@ focus_tree = {
 	focus = {
 		id = KAE_political_mission
 		prerequisite = { focus = KAE_improved_relations }
-        prerequisite = { focus = KAE_gain_air_equipment }
-        prerequisite = { focus = KAE_gain_weapons }
+        prerequisite = { focus = KAE_air_equipment }
+        prerequisite = { focus = KAE_weapons }
 		x = 0
 		y = 4
 		relative_position_id = KAE_negotiations
@@ -162,12 +150,6 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			create_faction = Trade_League
-			Trade_League = {
-				add_to_faction = ASH
-				add_to_faction = UNU
-				add_to_faction = RIN
-			}
 		}
 	}
 
