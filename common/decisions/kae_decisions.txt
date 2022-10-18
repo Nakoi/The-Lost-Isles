@@ -1,0 +1,188 @@
+decisioncat_kae_starting_cilraine_trade = {
+
+	KAE_negotiation_time_limit_mission = {
+
+		icon = eng_propaganda_campaigns
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 120
+
+		fire_only_once = yes
+
+		activation = {
+			tag = KAE
+			has_completed_focus = KAE_negotiations
+		}
+
+		cancel_if_not_visible = yes
+		
+		is_good = no
+	}
+	
+	KAE_buy_cilraine_rifles_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_weapons
+		}
+
+		cost = 25
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_negotiations
+			has_active_mission = KAE_negotiation_time_limit_mission
+		}
+		
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_4
+				amount = 500
+				producer = KAE
+			}
+		}
+	}
+	
+	KAE_buy_cilraine_supporteq_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_weapons
+		}
+
+		cost = 25
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_negotiations
+			has_active_mission = KAE_negotiation_time_limit_mission
+		}
+		
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 50
+				producer = KAE
+			}
+		}
+	}
+	
+	KAE_buy_cilraine_cannons_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_weapons
+		}
+
+		cost = 25
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_negotiations
+			has_active_mission = KAE_negotiation_time_limit_mission
+		}
+		
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = cannon_equipment_2
+				amount = 30
+				producer = KAE
+			}
+		}
+	}
+	
+	KAE_hire_cilraine_airskirms_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_air_equipment
+		}
+
+		cost = 25
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_negotiations
+			has_active_mission = KAE_negotiation_time_limit_mission
+		}
+		
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = air_skirmisher_equipment
+				amount = 25
+				producer = KAE
+			}
+		}
+	}
+}
