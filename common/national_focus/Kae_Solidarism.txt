@@ -575,6 +575,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			501 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = synthetic_refinery
 					level = 1
@@ -582,6 +583,7 @@ focus_tree = {
 				}
 			}
 			493 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = synthetic_refinery
 					level = 1
@@ -623,6 +625,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			136 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -630,6 +633,7 @@ focus_tree = {
 				}
 			}
 			493 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -637,6 +641,7 @@ focus_tree = {
 				}
 			}
 			491 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -644,6 +649,7 @@ focus_tree = {
 				}
 			}
 			136 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -651,6 +657,7 @@ focus_tree = {
 				}
 			}
 			502 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -658,6 +665,7 @@ focus_tree = {
 				}
 			}
 			495 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -713,7 +721,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_young_apprenticeships
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry_civilisedconstr
+			}
 		}
 	}
 
@@ -770,6 +782,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			502 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -777,6 +790,7 @@ focus_tree = {
 				}
 			}
 			504 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -784,6 +798,7 @@ focus_tree = {
 				}
 			}
 			506 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -805,6 +820,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_ideas = KAE_ootari_workshop_idea
 		}
 	}
 
@@ -991,9 +1007,14 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			army_experience = 100
+			army_experience = 50
 			add_war_support = 0.1
 			#recruits new commander
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_engineers
+			}
 		}
 	}
 
@@ -1047,7 +1068,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			army_experience = 100
+			army_experience = 50
 			#adds new commader 
 		}
 	}
@@ -1063,8 +1084,8 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_war_support = 0.1
-			add_stability = 0.1
+			add_war_support = 0.20
+			add_stability = 0.05
 		}
 	}
 
@@ -1099,7 +1120,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			army_experience = 50
+			army_experience = 30
 		}
 	}
 
@@ -1175,7 +1196,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			army_experience = 50
+			army_experience = 30
 		}
 	}
 
@@ -1320,6 +1341,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = naval_doctrine_blue
+			}
 		}
 	}
 
@@ -1335,6 +1361,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = naval_doctrine_brown
+			}
 		}
 	}
 
