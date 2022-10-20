@@ -942,6 +942,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_ideas = KAE_our_duty_01
 		}
 	}
 
@@ -956,6 +957,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+				swap_ideas = {
+					add_idea = KAE_our_duty_02
+					remove_idea = KAE_our_duty_01
+			}
+			add_manpower = 20000
 		}
 	}
 
@@ -970,6 +976,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_ideas = KAE_officer_training_01
 		}
 	}
 
@@ -984,6 +991,9 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			army_experience = 100
+			add_war_support = 0.1
+			#recruits new commander
 		}
 	}
 
@@ -999,6 +1009,10 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+				swap_ideas = {
+					add_idea = KAE_officer_training_03
+					remove_idea = KAE_officer_training_01
+			}
 		}
 	}
 
@@ -1014,6 +1028,10 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+				swap_ideas = {
+					add_idea = KAE_officer_training_02
+					remove_idea = KAE_officer_training_01
+			}
 		}
 	}
 
@@ -1029,6 +1047,8 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			army_experience = 100
+			#adds new commader 
 		}
 	}
 
@@ -1043,6 +1063,8 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_war_support = 0.1
+			add_stability = 0.1
 		}
 	}
 
@@ -1058,6 +1080,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	land_doctrine
+			}
 		}
 	}
 
@@ -1072,6 +1099,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			army_experience = 50
 		}
 	}
 
@@ -1086,6 +1114,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	artillery
+			}
 		}
 	}
 
@@ -1101,6 +1134,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	artillery_antiair
+			}
 		}
 	}
 
@@ -1117,6 +1155,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	artillery_rocket
+			}
 		}
 	}
 
@@ -1132,6 +1175,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			army_experience = 50
 		}
 	}
 
@@ -1146,6 +1190,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	infantry_weapons
+			}
 		}
 	}
 
@@ -1160,6 +1209,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	infantry_armorcat
+			}
 		}
 	}
 
@@ -1174,6 +1228,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	infantry_specialunit
+			}
 		}
 	}
 
@@ -1188,6 +1247,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			navy_experience = 100
 		}
 	}
 
@@ -1202,6 +1262,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	naval_doctrine
+			}
 		}
 	}
 
@@ -1216,6 +1281,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	light_ship_tech
+			}
 		}
 	}
 
@@ -1230,6 +1300,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	medium_ship_tech
+			}
 		}
 	}
 
@@ -1275,6 +1350,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	medium_ship_tech
+			}
 		}
 	}
 
@@ -1290,6 +1370,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	light_ship_tech
+			}
 		}
 	}
 
@@ -1306,6 +1391,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	heavy_ship_tech
+			}
 		}
 	}
 
@@ -1320,6 +1410,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			air_experience = 100
 		}
 	}
 
@@ -1334,6 +1425,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = category_air
+			}
 		}
 	}
 
@@ -1348,6 +1444,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = category_air
+			}
 		}
 	}
 
@@ -1362,6 +1463,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = category_air_skirmisher
+			}
 		}
 	}
 
