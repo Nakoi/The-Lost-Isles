@@ -417,7 +417,7 @@ focus_tree = {
 
 
 	focus = {
-		id = KEA_Greater_economy
+		id = KAE_Greater_economy
 
 		x = 30
 		y = 0
@@ -431,11 +431,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_Living_conditions
-		prerequisite = { focus = KEA_Greater_economy }
+		id = KAE_Living_conditions
+		prerequisite = { focus = KAE_Greater_economy }
 		x = 0
 		y = 1
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -445,11 +445,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_new_machine_blueprints
-		prerequisite = { focus = KEA_Greater_economy }
+		id = KAE_new_machine_blueprints
+		prerequisite = { focus = KAE_Greater_economy }
 		x = 2
 		y = 1
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -460,10 +460,10 @@ focus_tree = {
 
 	focus = {
 		id = KAE_Infrastructure_improvements
-		prerequisite = { focus = KEA_Greater_economy }
+		prerequisite = { focus = KAE_Greater_economy }
 		x = -2
 		y = 1
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -477,7 +477,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_Infrastructure_improvements }
 		x = -3
 		y = 2
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -488,10 +488,10 @@ focus_tree = {
 
 	focus = {
 		id = KAE_Farm_fields
-		prerequisite = { focus = KEA_Living_conditions }
+		prerequisite = { focus = KAE_Living_conditions }
 		x = -1
 		y = 2
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -503,10 +503,10 @@ focus_tree = {
 
 	focus = {
 		id = KAE_new_tools
-		prerequisite = { focus = KEA_new_machine_blueprints }
+		prerequisite = { focus = KAE_new_machine_blueprints }
 		x = 1
 		y = 2
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -517,10 +517,10 @@ focus_tree = {
 
 	focus = {
 		id = KAE_Mega_factories
-		prerequisite = { focus = KEA_new_machine_blueprints }
+		prerequisite = { focus = KAE_new_machine_blueprints }
 		x = 3
 		y = 2
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -534,7 +534,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_Mega_factories }
 		x = 4
 		y = 3
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -549,7 +549,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_put_the_people_to_work }
 		x = -2
 		y = 3
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -564,7 +564,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_new_tools }
 		x = 0
 		y = 3
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -579,7 +579,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_new_tools }
 		x = 2
 		y = 3
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -594,7 +594,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_kirin_fire_magic_as_coals }
 		x = 1
 		y = 4
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -609,7 +609,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_engineering_schools }
 		x = -1
 		y = 4
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -619,12 +619,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KAE_adorse_our_leader
+		id = KAE_workshop_of_ootari
 		prerequisite = { focus = KAE_industrial_powerhouse }
 		prerequisite = { focus = KAE_weapon_science }
 		x = 0
 		y = 5
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -639,7 +639,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_Mining }
 		x = 5
 		y = 4
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -653,7 +653,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_iron_mines_01 }
 		x = 5
 		y = 5
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -667,7 +667,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_Mining }
 		x = 3
 		y = 4
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -681,7 +681,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_coal_mines_01 }
 		x = 3
 		y = 5
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -696,7 +696,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_coal_mines_02 }
 		x = 4
 		y = 6
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -717,7 +717,7 @@ focus_tree = {
 		prerequisite = { focus = KAE_put_the_people_to_work }
 		x = -5
 		y = 3
-		relative_position_id = KEA_Greater_economy
+		relative_position_id = KAE_Greater_economy
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -727,7 +727,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_service_posters
+		id = KAE_service_posters
 		prerequisite = { focus = KAE_duty_calls }
 		x = -1
 		y = 1
@@ -741,7 +741,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_schools_for_officers
+		id = KAE_schools_for_officers
 		prerequisite = { focus = KAE_duty_calls }
 		x = 1
 		y = 1
@@ -755,8 +755,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_greater_army_infrastructure
-		prerequisite = { focus = KEA_schools_for_officers }
+		id = KAE_greater_army_infrastructure
+		prerequisite = { focus = KAE_schools_for_officers }
 		x = 2
 		y = 2
 		relative_position_id = KAE_duty_calls
@@ -769,8 +769,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_army_defence_plans
-		prerequisite = { focus = KEA_schools_for_officers }
+		id = KAE_army_defence_plans
+		prerequisite = { focus = KAE_schools_for_officers }
+		mutually_exclusive = { focus = KAE_army_attack_plans }
 		x = 0
 		y = 2
 		relative_position_id = KAE_duty_calls
@@ -783,8 +784,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_army_attack_plans
-		prerequisite = { focus = KEA_schools_for_officers }
+		id = KAE_army_attack_plans
+		prerequisite = { focus = KAE_schools_for_officers }
+		mutually_exclusive = { focus = KAE_army_defence_plans }
 		x = -2
 		y = 2
 		relative_position_id = KAE_duty_calls
@@ -797,10 +799,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_joint_operations
-		prerequisite = { focus = KEA_army_attack_plans }
-		prerequisite = { focus = KEA_army_defence_plans }
-		prerequisite = { focus = KEA_greater_army_infrastructure }
+		id = KAE_joint_operations
+		prerequisite = { focus = KAE_army_attack_plans focus = KAE_army_defence_plans }
+		prerequisite = { focus = KAE_greater_army_infrastructure }
 		x = 1
 		y = 3
 		relative_position_id = KAE_duty_calls
@@ -813,8 +814,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_proud_of_our_nation
-		prerequisite = { focus = KEA_service_posters }
+		id = KAE_proud_of_our_nation
+		prerequisite = { focus = KAE_service_posters }
 		x = -1
 		y = 3
 		relative_position_id = KAE_duty_calls
@@ -827,9 +828,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_Army_doctrine
-		prerequisite = { focus = KEA_proud_of_our_nation }
-		prerequisite = { focus = KEA_joint_operations }		
+		id = KAE_Army_doctrine
+		prerequisite = { focus = KAE_proud_of_our_nation }
+		prerequisite = { focus = KAE_joint_operations }		
 		x = 0
 		y = 4
 		relative_position_id = KAE_duty_calls
@@ -842,7 +843,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_Artillery_drills
+		id = KAE_Artillery_drills
 		prerequisite = { focus = KAE_duty_calls }	
 		x = -5
 		y = 1
@@ -856,11 +857,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_Artillery_improvements_01
-		prerequisite = { focus = KEA_Artillery_drills }	
+		id = KAE_Artillery_improvements_01
+		prerequisite = { focus = KAE_Artillery_drills }	
 		x = -1
 		y = 1
-		relative_position_id = KEA_Artillery_drills
+		relative_position_id = KAE_Artillery_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -871,11 +872,11 @@ focus_tree = {
 
 
 	focus = {
-		id = KEA_anti_air_improvements_01
-		prerequisite = { focus = KEA_Artillery_drills }	
+		id = KAE_anti_air_improvements_01
+		prerequisite = { focus = KAE_Artillery_drills }	
 		x = 1
 		y = 1
-		relative_position_id = KEA_Artillery_drills
+		relative_position_id = KAE_Artillery_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -887,11 +888,11 @@ focus_tree = {
 
 
 	focus = {
-		id = KEA_rocket_improvements_01
-		prerequisite = { focus = KEA_Artillery_drills }	
+		id = KAE_rocket_improvements_01
+		prerequisite = { focus = KAE_Artillery_drills }	
 		x = 0
 		y = 2
-		relative_position_id = KEA_Artillery_drills
+		relative_position_id = KAE_Artillery_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -902,7 +903,7 @@ focus_tree = {
 
 
 	focus = {
-		id = KEA_Army_drills
+		id = KAE_Army_drills
 		prerequisite = { focus = KAE_duty_calls }	
 		x = -9
 		y = 1
@@ -917,10 +918,10 @@ focus_tree = {
 
 	focus = {
 		id = KAE_weapon_improvements_01
-		prerequisite = { focus = KEA_Army_drills }	
+		prerequisite = { focus = KAE_Army_drills }	
 		x = 1
 		y = 1
-		relative_position_id = KEA_Army_drills
+		relative_position_id = KAE_Army_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -931,10 +932,10 @@ focus_tree = {
 
 	focus = {
 		id = KAE_uniform_improvements_01
-		prerequisite = { focus = KEA_Army_drills }	
+		prerequisite = { focus = KAE_Army_drills }	
 		x = -1
 		y = 1
-		relative_position_id = KEA_Army_drills
+		relative_position_id = KAE_Army_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -945,10 +946,10 @@ focus_tree = {
 
 	focus = {
 		id = KAE_specialization_improvements_01
-		prerequisite = { focus = KEA_Army_drills }	
+		prerequisite = { focus = KAE_Army_drills }	
 		x = 0
 		y = 2
-		relative_position_id = KEA_Army_drills
+		relative_position_id = KAE_Army_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -958,8 +959,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_navy_drills
-
+		id = KAE_navy_drills
+		prerequisite = { focus = KAE_duty_calls }	
 		x = -7
 		y = 4
 		relative_position_id = KAE_duty_calls
@@ -972,11 +973,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_navy_doctrines
-		prerequisite = { focus = KEA_navy_drills }	
+		id = KAE_navy_doctrines
+		prerequisite = { focus = KAE_navy_drills }	
 		x = 0
 		y = 1
-		relative_position_id = KEA_navy_drills
+		relative_position_id = KAE_navy_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -986,11 +987,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_light_ships_01
-		prerequisite = { focus = KEA_navy_drills }	
+		id = KAE_light_ships_01
+		prerequisite = { focus = KAE_navy_drills }	
 		x = -2
 		y = 1
-		relative_position_id = KEA_navy_drills
+		relative_position_id = KAE_navy_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -1000,11 +1001,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_medium_ships_01
-		prerequisite = { focus = KEA_navy_drills }	
+		id = KAE_medium_ships_01
+		prerequisite = { focus = KAE_navy_drills }	
 		x = 2
 		y = 1
-		relative_position_id = KEA_navy_drills
+		relative_position_id = KAE_navy_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -1014,11 +1015,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_blue_water_doctrine
-		prerequisite = { focus = KEA_navy_doctrines }	
+		id = KAE_blue_water_doctrine
+		prerequisite = { focus = KAE_navy_doctrines }
+		mutually_exclusive = { focus = KAE_brown_water_doctrine }
 		x = 1
 		y = 2
-		relative_position_id = KEA_navy_drills
+		relative_position_id = KAE_navy_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -1028,11 +1030,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_brown_water_doctrine
-		prerequisite = { focus = KEA_navy_doctrines }	
+		id = KAE_brown_water_doctrine
+		prerequisite = { focus = KAE_navy_doctrines }
+		mutually_exclusive = { focus = KAE_blue_water_doctrine }
 		x = -1
 		y = 2
-		relative_position_id = KEA_navy_drills
+		relative_position_id = KAE_navy_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -1042,11 +1045,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_medium_ships_02
-		prerequisite = { focus = KEA_medium_ships_01 }	
+		id = KAE_medium_ships_02
+		prerequisite = { focus = KAE_medium_ships_01 }
+		mutually_exclusive = { focus =  KAE_light_ships_02 }
 		x = 2
 		y = 3
-		relative_position_id = KEA_navy_drills
+		relative_position_id = KAE_navy_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -1056,11 +1060,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_light_ships_02
-		prerequisite = { focus = KEA_light_ships_01 }	
+		id = KAE_light_ships_02
+		prerequisite = { focus = KAE_light_ships_01 }
+		mutually_exclusive = { focus =  KAE_medium_ships_02 }
 		x = -2
 		y = 3
-		relative_position_id = KEA_navy_drills
+		relative_position_id = KAE_navy_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -1071,14 +1076,12 @@ focus_tree = {
 
 
 	focus = {
-		id = KEA_heavy_ships_01
-		prerequisite = { focus = KEA_light_ships_02 }	
-		prerequisite = { focus = KEA_brown_water_doctrine }	
-		prerequisite = { focus = KEA_blue_water_doctrine }	
-		prerequisite = { focus = KEA_medium_ships_02 }	
+		id = KAE_heavy_ships_01
+		prerequisite = { focus = KAE_light_ships_02 focus = KAE_medium_ships_02 }	
+		prerequisite = { focus = KAE_brown_water_doctrine focus = KAE_blue_water_doctrine }	
 		x = 0
 		y = 4
-		relative_position_id = KEA_navy_drills
+		relative_position_id = KAE_navy_drills
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -1088,8 +1091,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_airship_drills	
-		prerequisite = { focus = KEA_greater_army_infrastructure }
+		id = KAE_airship_drills	
+		prerequisite = { focus = KAE_greater_army_infrastructure }
 		x = 3
 		y = 3
 		relative_position_id = KAE_duty_calls
@@ -1102,8 +1105,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_air_ship_upgrade_01
-		prerequisite = { focus = KEA_airship_drills }	
+		id = KAE_air_ship_upgrade_01
+		prerequisite = { focus = KAE_airship_drills }	
 		x = 2
 		y = 4
 		relative_position_id = KAE_duty_calls
@@ -1116,8 +1119,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_air_ship_upgrade_02
-		prerequisite = { focus = KEA_airship_drills }	
+		id = KAE_air_ship_upgrade_02
+		prerequisite = { focus = KAE_airship_drills }	
 		x = 4
 		y = 4
 		relative_position_id = KAE_duty_calls
@@ -1130,8 +1133,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KEA_airskirmisher_uprade_01
-		prerequisite = { focus = KEA_airship_drills }	
+		id = KAE_airskirmisher_uprade_01
+		prerequisite = { focus = KAE_airship_drills }	
 		x = 3
 		y = 5
 		relative_position_id = KAE_duty_calls
