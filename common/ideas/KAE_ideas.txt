@@ -1,140 +1,5 @@
-ideas = {
-		
+ideas = {	
 	country = {
-
-		KAE_idea_indoctrinate = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				training_time_factor = -0.1
-                stability_factor = -0.1
-				conscription_factor = 0.05
-			}
-		}
-
-		KAE_imperial_investment = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				production_speed_buildings_factor = 0.1
-			}
-		}
-
-		KAE_visions_of_the_league_idea = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-                stability_factor = 0.1
-				political_power_gain = 0.1
-			}
-		}
-
-		KAE_solidarism_for_all_idea = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				ideology_solidarism_drift = 0.02
-				stability_factor = 0.05
-			}
-		}
-
-		KAE_merc_relations = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				consumer_goods_factor = 0.1
-				stability_weekly = -0.005
-			}
-		}
-
-		KAE_merc_deployment = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				recruitable_population = 0.05
-			}
-		}
-
-		KAE_peoples_support = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				recruitable_population = 0.05
-				war_support_weekly_factor = 0.005
-			}
-		}
-
-		KAE_mercenary_perks_01 = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				#army_non_core_attack_factor = 0.05
-				#army_non_core_defence_factor = 0.1
-				#(MICRO)
-			}
-		}
-
-		KAE_mercenary_perks_02 = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				#army_non_core_attack_factor = 0.05
-				#army_non_core_defence_factor = 0.1
-				#(MICRO)
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.2
-			}
-		}
-
-		KAE_factory_overdrive_idea = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.05 
-				industrial_capacity_factory = 0.1
-				consumer_goods_factor = -0.05
-			}
-		}
 
 		KAE_Greater_economy_idea = {
 			picture = great_depression
@@ -157,6 +22,8 @@ ideas = {
 			}
 				
 			modifier = {
+				production_speed_buildings_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
 				stability_factor = -0.05
 			}
 		}
@@ -169,11 +36,23 @@ ideas = {
 			}
 				
 			modifier = {
-				local_manpower = -0.05
-				local_non_core_manpower = -0.1
 				production_speed_buildings_factor = 0.1
 				line_change_production_efficiency_factor = 0.1
 				stability_factor = -0.1
+			}
+		}
+		
+		KAE_poor_living_conditions_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+				stability_factor = -0.15
 			}
 		}
 
@@ -186,35 +65,6 @@ ideas = {
 				
 			modifier = {
 				local_resources = 0.2
-			}
-		}
-
-		KAE_young_apprenticeships = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				state_production_speed_industrial_complex_factor = 0.2
-				local_factories = 0.1
-			}
-		}
-
-		KAE_poor_living_conditions_03 = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				local_manpower = -0.1
-				local_non_core_manpower = -0.15
-				production_speed_buildings_factor = 0.2
-				line_change_production_efficiency_factor = 0.2
-				stability_factor = -0.15
 			}
 		}
 
@@ -239,7 +89,7 @@ ideas = {
 			}
 				
 			modifier = {
-				recruitable_population_factor = 0.05
+				conscription_factor = 0.05
 			}
 		}
 
@@ -251,7 +101,7 @@ ideas = {
 			}
 				
 			modifier = {
-				recruitable_population_factor = 0.07
+				conscription_factor = 0.1
 				local_non_core_manpower = 0.05
 			}
 		}
@@ -266,7 +116,6 @@ ideas = {
 			modifier = {
 				army_leader_start_planning_level = 1
 				max_planning_factor = 0.1
-				max_planning = 1
 
 			}
 		}
@@ -281,8 +130,7 @@ ideas = {
 			modifier = {
 				army_leader_start_planning_level = 1
 				max_planning_factor = 0.1
-				max_planning = 1
-				army_attack_factor = 0.2
+				army_core_attack_factor = 0.1
 
 			}
 		}
@@ -297,12 +145,23 @@ ideas = {
 			modifier = {
 				army_leader_start_planning_level = 1
 				max_planning_factor = 0.1
-				max_planning = 1
-				army_defence_factor  = 0.2
+				army_core_defence_factor  = 0.1
 
 			}
 		}
-
+	
+		KAE_ootari_workshop_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				state_production_speed_industrial_complex_factor = 0.2
+				global_building_slots_factor = 0.25
+			}
+		}
 
 
     }
