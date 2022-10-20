@@ -136,5 +136,100 @@ ideas = {
 			}
 		}
 
+		KAE_Greater_economy_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				line_change_production_efficiency_factor = 0.1
+			}
+		}
+
+		KAE_poor_living_conditions_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+
+		KAE_poor_living_conditions_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				local_manpower = -0.05
+				local_non_core_manpower = -0.1
+				production_speed_buildings_factor = 0.1
+				line_change_production_efficiency_factor = 0.1
+				stability_factor = -0.1
+			}
+		}
+
+		KAE_open_the_mines_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				local_resources = 0.2
+			}
+		}
+
+		KAE_young_apprenticeships = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				state_production_speed_industrial_complex_factor = 0.2
+				local_factories = 0.1
+			}
+		}
+
+		KAE_poor_living_conditions_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				local_manpower = -0.1
+				local_non_core_manpower = -0.15
+				production_speed_buildings_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+				stability_factor = -0.15
+			}
+		}
+
+		KAE_open_the_mines_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				local_resources = 0.3
+				production_lack_of_resource_penalty_factor = -0.1
+			}
+		}
+
     }
 }

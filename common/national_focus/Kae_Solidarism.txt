@@ -427,7 +427,9 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
 		}
+
 	}
 
 	focus = {
@@ -441,7 +443,9 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_ideas = KAE_poor_living_conditions_01
 		}
+
 	}
 
 	focus = {
@@ -455,6 +459,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_civilizedprod
+			}
 		}
 	}
 
@@ -469,12 +478,76 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			136 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			493 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			494 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			492 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			491 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			479 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			503 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			505 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			501 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
 	focus = {
 		id = KAE_put_the_people_to_work
 		prerequisite = { focus = KAE_Infrastructure_improvements }
+		prerequisite = { focus = KAE_Living_conditions }
 		x = -3
 		y = 2
 		relative_position_id = KAE_Greater_economy
@@ -483,6 +556,10 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+				swap_ideas = {
+					add_idea = KAE_poor_living_conditions_02
+					remove_idea = KAE_poor_living_conditions_01
+			}
 		}
 	}
 
@@ -497,6 +574,20 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			501 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			493 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -512,6 +603,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry_civilizedtools
+			}
 		}
 	}
 
@@ -526,6 +622,48 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			136 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			493 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			491 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			136 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			502 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			495 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -540,6 +678,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_ideas = KAE_open_the_mines_01
 		}
 	}
 
@@ -555,6 +694,10 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+				swap_ideas = {
+					add_idea = KAE_poor_living_conditions_03
+					remove_idea = KAE_poor_living_conditions_02
+			}
 		}
 	}
 
@@ -570,6 +713,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_ideas = KAE_young_apprenticeships
 		}
 	}
 
@@ -585,6 +729,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_resource = {
+				type = coal
+				amount = 20
+				state = 493
+			}
 		}
 	}
 
@@ -600,6 +749,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 2
+				category =  tli_infantry
+			}
 		}
 	}
 
@@ -615,6 +769,27 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			502 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			504 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			506 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -645,6 +820,16 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_resource = {
+				type = iron
+				amount = 5
+				state = 478
+			}
+			add_resource = {
+				type = iron
+				amount = 5
+				state = 503
+			}
 		}
 	}
 
@@ -659,6 +844,16 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_resource = {
+				type = iron
+				amount = 10
+				state = 503
+			}
+			add_resource = {
+				type = iron
+				amount = 10
+				state = 478
+			}
 		}
 	}
 
@@ -673,6 +868,16 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_resource = {
+				type = coal
+				amount = 5
+				state = 493
+			}
+			add_resource = {
+				type = coal
+				amount = 5
+				state = 501
+			}
 		}
 	}
 
@@ -687,6 +892,16 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_resource = {
+				type = coal
+				amount = 10
+				state = 501
+			}
+			add_resource = {
+				type = coal
+				amount = 10
+				state = 493
+			}
 		}
 	}
 
@@ -702,6 +917,10 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+				swap_ideas = {
+					add_idea = KAE_open_the_mines_02
+					remove_idea = KAE_open_the_mines_01
+			}
 		}
 	}
 
