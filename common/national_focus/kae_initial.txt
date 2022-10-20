@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = KAE
        }
     }
 
@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_negotiations
-		x = 0
+		x = 8
 		y = 0
 		cost = 1
 		ai_will_do = {
@@ -66,7 +66,7 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 				type = air_skirmisher_equipment
 				amount = 170
-				producer = KAE
+				producer = CIL
 			}
 			add_days_mission_timeout = {
 				mission = KAE_negotiation_time_limit_mission
@@ -90,7 +90,7 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 				type = rifle_equipment_4
 				amount = 1000
-				producer = KAE
+				producer = CIL
 			}
 			add_days_mission_timeout = {
 				mission = KAE_negotiation_time_limit_mission
@@ -122,28 +122,13 @@ focus_tree = {
 #Politically consume the clans
 
 	focus = {
-		id = KAE_political_mission
+		id = KAE_advisor_in_these_times
+		prerequisite = { focus = KAE_political_mission }
 		prerequisite = { focus = KAE_improved_relations }
         prerequisite = { focus = KAE_air_equipment }
         prerequisite = { focus = KAE_weapons }
 		x = 0
 		y = 3
-		relative_position_id = KAE_negotiations
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = KAE_advisor_in_these_times
-		prerequisite = { focus = KAE_political_mission }
-		mutually_exclusive = ( focus = KAE_visions_of_the_league }
-		mutually_exclusive = ( focus = KAE_one_united_nation }
-		x = 0
-		y = 4
 		relative_position_id = KAE_negotiations
 		cost = 1
 		ai_will_do = {
@@ -157,7 +142,7 @@ focus_tree = {
 		id = KAE_talks_with_rinto
 		prerequisite = { focus = KAE_advisor_in_these_times }
 		x = 0
-		y = 5
+		y = 4
 		relative_position_id = KAE_negotiations
 		cost = 10
 		ai_will_do = {
@@ -171,7 +156,7 @@ focus_tree = {
 		id = KAE_talks_with_Unuo
 		prerequisite = { focus = KAE_advisor_in_these_times }
 		x = -2
-		y = 5
+		y = 4
 		relative_position_id = KAE_negotiations
 		cost = 1
 		ai_will_do = {
@@ -185,49 +170,7 @@ focus_tree = {
 		id = KAE_talks_with_Ashi
 		prerequisite = { focus = KAE_advisor_in_these_times }
 		x = 2
-		y = 5
-		relative_position_id = KAE_negotiations
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = KAE_claimes_Ashi
-		prerequisite = { focus = KAE_talks_with_Ashi }
-		x = 2
-		y = 6
-		relative_position_id = KAE_negotiations
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = KAE_claimes_Unuo
-		prerequisite = { focus = KAE_talks_with_Unuo }
-		x = -2
-		y = 6
-		relative_position_id = KAE_negotiations
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = KAE_claimes_Rinto
-		prerequisite = { focus = KAE_talks_with_rinto }
-		x = 0
-		y = 6
+		y = 4
 		relative_position_id = KAE_negotiations
 		cost = 10
 		ai_will_do = {
@@ -239,11 +182,11 @@ focus_tree = {
 
 	focus = {
 		id = KAE_claimes_We_are_ready
-		prerequisite = { focus = KAE_claimes_Rinto }
-        prerequisite = { focus = KAE_claimes_Unuo }
-        prerequisite = { focus = KAE_claimes_Ashi }
+		prerequisite = { focus = KAE_talks_with_rinto }
+        prerequisite = { focus = KAE_talks_with_Unuo }
+        prerequisite = { focus = KAE_talks_with_Ashi }
 		x = 0
-		y = 7
+		y = 5
 		relative_position_id = KAE_negotiations
 		cost = 10
 		ai_will_do = {
@@ -273,7 +216,7 @@ focus_tree = {
 		id = KAE_Claims_Vote
 		prerequisite = { focus = KAE_claimes_We_are_ready }
 		x = 0
-		y = 8
+		y = 6
 		relative_position_id = KAE_negotiations
 		cost = 10
 		ai_will_do = {
