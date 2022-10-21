@@ -14,413 +14,10 @@ focus_tree = {
     continuous_focus_position = { x = 50 y = 3000 }
 
 	focus = {
-		id = solidarism_for_all
-		x = 0
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_ideas = KAE_solidarism_for_all_idea 
-		}
-	}
-
-
-#   # ### ###   ##
-## ## #   #  # #  #
-# # # ##  ###  #
-#   # #   #  # #  #
-#   # ### #  #  ##
-
-	focus = {
-		id = KAE_mercenary_relations
-		prerequisite = { focus = solidarism_for_all }
-		x = 1
-		y = 1
-		relative_position_id = solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_timed_idea = {
-				idea = KAE_merc_relations
-				days = 180
-			}
-		}
-	}
-
-	focus = {
-		id = KAE_mercs_in_the_army
-		prerequisite = { focus = KAE_mercenary_relations }
-		x = 0
-		y = 2
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_manpower = 50000
-			add_ideas = KAE_merc_deployment
-			#spawns 2 merc divisions
-		}
-	}
-
-	focus = {
-		id = KAE_establish_a_contract
-		prerequisite = { focus = KAE_mercenary_relations }
-		x = 2
-		y = 2
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = rifle_equipment_4
-				#merc weapons (we'll have to make some unique art for it but just the weapons from CAI)
-				amount = 2000
-				producer = CAI
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				#merc support equipment (we'll have to make some unique art for it but just the weapons from CAI)
-				amount = 500
-				producer = CAI
-			}
-		}
-	}
-
-	focus = {
-		id = KAE_support_from_the_people
-		prerequisite = { focus = KAE_mercenary_relations }
-		x = 4
-		y = 2
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_ideas = KAE_peoples_support
-		}
-	}
-
-	focus = {
-		id = KAE_merc_equipment
-		prerequisite = { focus = KAE_establish_a_contract }
-		prerequisite = { focus = KAE_mercs_in_the_army }
-		prerequisite = { focus = KAE_support_from_the_people }
-		x = 1
-		y = 3
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = rifle_equipment_4
-				#merc weapons (we'll have to make some unique art for it but just the weapons from CAI)
-				amount = 2000
-				producer = CAI
-			}
-			#Merc weapon and support equipment blueprint (MICRO)
-			#only the mercs can use this equipment
-		}
-	}
-
-	focus = {
-		id = KAE_merc_expeditions
-		prerequisite = { focus = KAE_establish_a_contract }
-		prerequisite = { focus = KAE_mercs_in_the_army }
-		prerequisite = { focus = KAE_support_from_the_people }
-		x = 3
-		y = 3
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			#gains a merc gerneral (MICRO)
-			#creats 2 experienced divisions of mercs
-		}
-	}
-
-	focus = {
-		id = KAE_merc_perks
-		prerequisite = { focus = KAE_establish_a_contract }
-		prerequisite = { focus = KAE_mercs_in_the_army }
-		prerequisite = { focus = KAE_support_from_the_people }
-		x = 5
-		y = 3
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_ideas = KAE_mercenary_perks_01 #(MICRO)
-		}
-	}
-
-	focus = {
-		id = KAE_overdrive_the_factories
-		prerequisite = { focus = KAE_establish_a_contract }
-		prerequisite = { focus = KAE_mercs_in_the_army }
-		prerequisite = { focus = KAE_support_from_the_people }
-		x = 7
-		y = 3
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_ideas = KAE_factory_overdrive_idea
-		}
-	}
-
-	focus = {
-		id = KAE_locomotive_improvements
-		prerequisite = { focus = KAE_merc_equipment }
-		prerequisite = { focus = KAE_merc_expeditions }
-		prerequisite = { focus = KAE_merc_perks }
-		prerequisite = { focus = KAE_overdrive_the_factories }
-		x = 2
-		y = 4
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = industry_logi
-			}
-			505 = {
-				add_building_construction  = {
-					type = supply_node
-					level = 1
-					province = 5042
-					instant_build = yes
-				}
-			}
-			504 = {
-				add_building_construction  = {
-					type = supply_node
-					level = 1
-					province = 938
-					instant_build = yes
-				}
-			}
-			506 = {
-				add_building_construction  = {
-					type = supply_node
-					level = 1
-					province = 280
-					instant_build = yes
-				}
-			}
-			500 = {
-				add_building_construction  = {
-					type = supply_node
-					level = 1
-					province = 4993
-					instant_build = yes
-				}
-			}
-
-		}
-	}
-
-	focus = {
-		id = KAE_weapon_improvements
-		prerequisite = { focus = KAE_merc_equipment }
-		prerequisite = { focus = KAE_merc_expeditions }
-		prerequisite = { focus = KAE_merc_perks }
-		prerequisite = { focus = KAE_overdrive_the_factories }
-		x = 4
-		y = 4
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 2
-				category = category_ranged
-			}
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				category = 	category_artillery
-			}
-		}
-	}
-
-	focus = {
-		id = KAE_training_program
-		prerequisite = { focus = KAE_merc_equipment }
-		prerequisite = { focus = KAE_merc_expeditions }
-		prerequisite = { focus = KAE_merc_perks }
-		prerequisite = { focus = KAE_overdrive_the_factories }
-		x = 6
-		y = 4
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			#creates 2 divisions (MICRO)
-		}
-	}
-
-	focus = {
-		id = KAE_hunting_army
-		prerequisite = { focus = KAE_locomotive_improvements }
-		prerequisite = { focus = KAE_weapon_improvements }
-		prerequisite = { focus = KAE_training_program }
-		x = 4
-		y = 5
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-				swap_ideas = {
-					remove_idea = KAE_mercenary_perks_01
-					add_idea = KAE_mercenary_perks_02
-				}
-		}
-	}
-
-
-#     #  ##  ###         ##   ##### #### ###  ##  #  #  ##
-#     # #  # #  #       #       #   #    #   #  # ## # #
-#     # #### ###   ###  # ##    #   ##   ##  #  # # ##  #
-#  #  # #  # #  #       #  #    #   #    #   #  # #  #   #
- #  #   #  # #  #        ##   ##### #    #    ##  #  # ##
-
-	focus = {
-		id = KAE_prepare_for_war
-		prerequisite = { focus = solidarism_for_all }
-		x = -1
-		y = 1
-		relative_position_id = solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = KAE_Resuply_the_troops
-		prerequisite = { focus = KAE_prepare_for_war }
-		x = -2
-		y = 2
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = KAE_strenghten_the_border
-		prerequisite = { focus = KAE_prepare_for_war }
-		x = -4
-		y = 2
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = KAE_border_fortifications
-		prerequisite = { focus = KAE_strenghten_the_border }
-		prerequisite = { focus = KAE_Resuply_the_troops }
-		x = -3
-		y = 3
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = KAE_new_face_of_warfare
-		prerequisite = { focus = KAE_strenghten_the_border }
-		prerequisite = { focus = KAE_Resuply_the_troops }
-		x = -1
-		y = 3
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = KAE_war_factories
-		prerequisite = { focus = KAE_strenghten_the_border }
-		prerequisite = { focus = KAE_Resuply_the_troops }
-		x = -5
-		y = 3
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = KAE_griffon_war
-		prerequisite = { focus = KAE_border_fortifications }
-		prerequisite = { focus = KAE_new_face_of_warfare }
-		prerequisite = { focus = KAE_war_factories }
-		x = -3
-		y = 4
-		relative_position_id = Solidarism_for_all
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-
-	focus = {
 		id = KAE_Greater_economy
 
-		x = 25
-		y = 0
+		x = 12
+		y = 1
 		relative_position_id = Solidarism_for_all
 		cost = 10
 		ai_will_do = {
@@ -1506,7 +1103,7 @@ focus_tree = {
 	focus = {
 		id = KAE_politics
 
-		x = 35
+		x = 3
 		y = 0
 		relative_position_id = Solidarism_for_all
 		cost = 10
@@ -1521,7 +1118,7 @@ focus_tree = {
 	focus = {
 		id = KAE_rightfully_ours
 		prerequisite = { focus = KAE_politics }	
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = KAE_politics
 		cost = 10
@@ -1536,7 +1133,7 @@ focus_tree = {
 	focus = {
 		id = KAE_unuo_territories
 		prerequisite = { focus = KAE_rightfully_ours }	
-		x = -2
+		x = -3
 		y = 2
 		relative_position_id = KAE_politics
 		cost = 10
@@ -1551,7 +1148,7 @@ focus_tree = {
 	focus = {
 		id = KAE_rinto_territories
 		prerequisite = { focus = KAE_rightfully_ours }	
-		x = -1
+		x = -2
 		y = 3
 		relative_position_id = KAE_politics
 		cost = 10
@@ -1566,7 +1163,7 @@ focus_tree = {
 	focus = {
 		id = KAE_ashi_territories
 		prerequisite = { focus = KAE_rightfully_ours }	
-		x = 0
+		x = -1
 		y = 2
 		relative_position_id = KAE_politics
 		cost = 10
@@ -1581,7 +1178,7 @@ focus_tree = {
 	focus = {
 		id = KAE_Envoy_to_esun
 		prerequisite = { focus = KAE_politics }	
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = KAE_politics
 		cost = 10
@@ -1596,7 +1193,7 @@ focus_tree = {
 	focus = {
 		id = KAE_clan_wai_claims
 		prerequisite = { focus = KAE_Envoy_to_esun }	
-		x = 2
+		x = 1
 		y = 2
 		relative_position_id = KAE_politics
 		cost = 10
@@ -1611,7 +1208,7 @@ focus_tree = {
 	focus = {
 		id = KAE_denounce_sunotia
 		prerequisite = { focus = KAE_clan_wai_claims }	
-		x = 1
+		x = 0
 		y = 3
 		relative_position_id = KAE_politics
 		cost = 10
@@ -1627,7 +1224,7 @@ focus_tree = {
 	focus = {
 		id = KAE_rally_the_people
 		prerequisite = { focus = KAE_clan_wai_claims }	
-		x = 3
+		x = 2
 		y = 3
 		relative_position_id = KAE_politics
 		cost = 10
@@ -1643,8 +1240,39 @@ focus_tree = {
 		id = KAE_bring_them_war
 		prerequisite = { focus = KAE_rally_the_people }	
 		prerequisite = { focus = KAE_denounce_sunotia }	
-		x = 2
+		x = 1
 		y = 4
+		relative_position_id = KAE_politics
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
+
+
+	focus = {
+		id = KAE_Envoy_to_cilarine
+		prerequisite = { focus = KAE_politics }	
+		x = 2
+		y = 1
+		relative_position_id = KAE_politics
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
+
+	focus = {
+		id = KAE_talks_about_an_allience
+		prerequisite = { focus = KAE_Envoy_to_cilarine }	
+		x = 3
+		y = 2
 		relative_position_id = KAE_politics
 		cost = 10
 		ai_will_do = {
