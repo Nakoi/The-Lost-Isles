@@ -7,7 +7,7 @@
 
 
 ###FOCUS LOCALISATION - EARLYGAME###
- KAE_negotiations:0 "Negotiate with Cilraine"
+ KAE_negotiations:0 "Negotiate with cilarine"
  KAE_negotiations_desc:0 ""
  KAE_relations:0 "Concede on Paying the Gulf Entry Tariff"
  KAE_relations_desc:0 ""
@@ -31,14 +31,37 @@
  KAE_Claims_Vote_desc:0 ""
 
 ###DECISION LOCALISATION###
- decisioncat_kae_starting_cilraine_trade:0 "The Negotiations of 957"
+ decisioncat_kae_starting_cilarine_trade:0 "The Negotiations of 957"
  KAE_negotiation_time_limit_mission:0 "Negotiation Time Limit"
- KAE_buy_cilraine_rifles_decision:0 "Purchase Muskets"
- KAE_buy_cilraine_supporteq_decision:0 "Purchase Support Equipment"
- KAE_buy_cilraine_cannons_decision:0 "Purchase Cannons"
- KAE_hire_cilraine_airskirms_decision:0 "Hire More Mercenaries"
+ KAE_buy_cilarine_rifles_decision:0 "Purchase Muskets"
+ KAE_buy_cilarine_supporteq_decision:0 "Purchase Support Equipment"
+ KAE_buy_cilarine_cannons_decision:0 "Purchase Cannons"
+ KAE_hire_cilarine_airskirms_decision:0 "Hire More Mercenaries"
 
 ###EVENT LOCALISATION ###
-
+ kae_startevent.0.t:0 "0"
+ kae_startevent.0.d:0 ""
+ kae_startevent.0.a:0 ""
+ 
+ kae_startevent.1.t:0 "1"
+ kae_startevent.1.d:0 ""
+ kae_startevent.1.a:0 ""
+ 
+ kae_startevent.2.t:0 "2"
+ kae_startevent.2.d:0 ""
+ kae_startevent.2.a:0 ""
+ 
+ kae_startevent.3.t:0 "3"
+ kae_startevent.3.d:0 ""
+ kae_startevent.3.a:0 "yes"
+ kae_startevent.3.b:0 "no"
+ 
+ kae_startevent.4.t:0 "4"
+ kae_startevent.4.d:0 ""
+ kae_startevent.4.a:0 ""
+ 
+ kae_startevent.5.t:0 "5"
+ kae_startevent.5.d:0 ""
+ kae_startevent.5.a:0 ""
  
 ###TOOLTIP LOCALISATION###
