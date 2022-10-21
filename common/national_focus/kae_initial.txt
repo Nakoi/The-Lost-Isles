@@ -24,6 +24,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			unlock_decision_category_tooltip = decisioncat_kae_starting_cilraine_trade
+			country_event = { id = kae_startevent.0 }
 		}
 	}
 
@@ -40,6 +41,9 @@ focus_tree = {
 		
 		available = {
 			has_political_power > 14
+			NOT = {
+				has_completed_focus = KAE_improved_relations
+			}
 		}
 		
 		completion_reward = {
@@ -60,6 +64,12 @@ focus_tree = {
 		cost = 5
 		ai_will_do = {
 			factor = 5
+		}
+		
+		available = {
+			NOT = {
+				has_completed_focus = KAE_improved_relations
+			}
 		}
 		
 		completion_reward = {
@@ -84,6 +94,12 @@ focus_tree = {
 		cost = 5
 		ai_will_do = {
 			factor = 5
+		}
+		
+		available = {
+			NOT = {
+				has_completed_focus = KAE_improved_relations
+			}
 		}
 		
 		completion_reward = {
@@ -123,7 +139,6 @@ focus_tree = {
 
 	focus = {
 		id = KAE_advisor_in_these_times
-		prerequisite = { focus = KAE_political_mission }
 		prerequisite = { focus = KAE_improved_relations }
         prerequisite = { focus = KAE_air_equipment }
         prerequisite = { focus = KAE_weapons }
@@ -134,7 +149,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
 		completion_reward = {
+			country_event = { id = kae_startevent.2 }
 		}
 	}
 
@@ -148,7 +165,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
 		completion_reward = {
+			RIN = {
+				country_event = {
+					id = kae_startevent.3
+					days = 12
+				}
+			}
 		}
 	}
 
@@ -162,7 +186,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
 		completion_reward = {
+			UNU = {
+				country_event = {
+					id = kae_startevent.3
+					days = 12
+				}
+			}
 		}
 	}
 
@@ -176,7 +207,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
 		completion_reward = {
+			ASH = {
+				country_event = {
+					id = kae_startevent.3
+					days = 12
+				}
+			}
 		}
 	}
 
@@ -193,10 +231,6 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			declare_war_on = {
-				target = WEI
-				type = annex_everything
-			}
 			declare_war_on = {
 				target = AZE
 				type = annex_everything
@@ -223,6 +257,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			country_event = { id = kae_startevent.5 }
 		}
 	}
 
