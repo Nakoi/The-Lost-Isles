@@ -20,6 +20,10 @@ decisioncat_kae_starting_cilraine_trade = {
 		cancel_if_not_visible = yes
 		
 		is_good = no
+		
+		timeout_effect = {
+			country_event = { id = kae_startevent.1 }
+		}
 	}
 	
 	KAE_buy_cilraine_rifles_decision = {
