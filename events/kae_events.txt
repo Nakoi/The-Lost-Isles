@@ -1,0 +1,105 @@
+add_namespace = kae_startevent
+
+###EARLYGAME###
+
+country_event = {
+	id = kae_startevent.0
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_startevent.0"}
+	title = kae_startevent.0.t
+	desc = kae_startevent.0.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_startevent.0.a
+	}
+}
+
+country_event = {
+	id = kae_startevent.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_startevent.1"}
+	title = kae_startevent.1.t
+	desc = kae_startevent.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_startevent.1.a
+	}
+}
+
+country_event = {
+	id = kae_startevent.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_startevent.2"}
+	title = kae_startevent.2.t
+	desc = kae_startevent.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_startevent.2.a
+	}
+}
+
+country_event = {
+	id = kae_startevent.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_startevent.3"}
+	title = kae_startevent.3.t
+	desc = kae_startevent.3.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_startevent.3.a
+		KAE = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = yes
+			}
+		}
+	}
+	
+	option = {
+		name = kae_startevent.3.b
+		country_event = { 
+			id = kae_startevent.4
+			days = 4
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+}
+
+country_event = {
+	id = kae_startevent.4
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_startevent.4"}
+	title = kae_startevent.4.t
+	desc = kae_startevent.4.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_startevent.4.a
+	}
+}
+
+country_event = {
+	id = kae_startevent.5
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_startevent.5"}
+	title = kae_startevent.5.t
+	desc = kae_startevent.5.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_startevent.5.a
+		load_focus_tree = kae_main_focus
+	}
+}
