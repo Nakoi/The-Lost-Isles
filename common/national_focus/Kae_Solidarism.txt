@@ -419,7 +419,7 @@ focus_tree = {
 	focus = {
 		id = KAE_Greater_economy
 
-		x = 30
+		x = 25
 		y = 0
 		relative_position_id = Solidarism_for_all
 		cost = 10
@@ -1501,6 +1501,158 @@ focus_tree = {
 			}
 		}
 	}
+#Politics
 
+	focus = {
+		id = KAE_politics
+
+		x = 35
+		y = 0
+		relative_position_id = Solidarism_for_all
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
+
+	focus = {
+		id = KAE_rightfully_ours
+		prerequisite = { focus = KAE_politics }	
+		x = -1
+		y = 1
+		relative_position_id = KAE_politics
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
+
+	focus = {
+		id = KAE_unuo_territories
+		prerequisite = { focus = KAE_rightfully_ours }	
+		x = -2
+		y = 2
+		relative_position_id = KAE_politics
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
+
+	focus = {
+		id = KAE_rinto_territories
+		prerequisite = { focus = KAE_rightfully_ours }	
+		x = -1
+		y = 3
+		relative_position_id = KAE_politics
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
+
+	focus = {
+		id = KAE_ashi_territories
+		prerequisite = { focus = KAE_rightfully_ours }	
+		x = 0
+		y = 2
+		relative_position_id = KAE_politics
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
+
+	focus = {
+		id = KAE_Envoy_to_esun
+		prerequisite = { focus = KAE_politics }	
+		x = 1
+		y = 1
+		relative_position_id = KAE_politics
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
+
+	focus = {
+		id = KAE_clan_wai_claims
+		prerequisite = { focus = KAE_Envoy_to_esun }	
+		x = 2
+		y = 2
+		relative_position_id = KAE_politics
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
+
+	focus = {
+		id = KAE_denounce_sunotia
+		prerequisite = { focus = KAE_clan_wai_claims }	
+		x = 1
+		y = 3
+		relative_position_id = KAE_politics
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
+
+
+	focus = {
+		id = KAE_rally_the_people
+		prerequisite = { focus = KAE_clan_wai_claims }	
+		x = 3
+		y = 3
+		relative_position_id = KAE_politics
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
+
+	focus = {
+		id = KAE_bring_them_war
+		prerequisite = { focus = KAE_rally_the_people }	
+		prerequisite = { focus = KAE_denounce_sunotia }	
+		x = 2
+		y = 4
+		relative_position_id = KAE_politics
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_Greater_economy_idea
+		}
+	}
 
 }
