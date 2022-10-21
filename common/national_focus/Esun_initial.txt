@@ -1,0 +1,793 @@
+focus_tree = {
+    id = kae_initial_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = ESU
+       }
+    }
+
+    default = no
+
+    continuous_focus_position = { x = 50 y = 3000 }
+
+	focus = {
+		id = ESU_Upcoming_elections
+		x = 8
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_elections
+		prerequisite = { focus = ESU_Upcoming_elections }
+		x = 0
+		y = 1
+		relative_position_id = ESU_Upcoming_elections
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	#visionarism path
+
+	focus = {
+		id = ESU_visionarism
+		prerequisite = { focus = ESU_elections }
+		mutually_exclusive = { focus = ESU_militarism }
+		x = -10
+		y = 2
+		relative_position_id = ESU_Upcoming_elections
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_pony_rights
+		prerequisite = { focus = ESU_visionarism }
+		x = -1
+		y = 1
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_give_them_jobs
+		prerequisite = { focus = ESU_pony_rights }
+		x = -2
+		y = 2
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_booming_industry
+		prerequisite = { focus = ESU_pony_rights }
+		x = 0
+		y = 2
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_pony_work_acceptance
+		prerequisite = { focus = ESU_give_them_jobs }
+		x = -1
+		y = 3
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_pony_education
+		prerequisite = { focus = ESU_give_them_jobs }
+		x = -3
+		y = 3
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_pony_regiments
+		prerequisite = { focus = ESU_pony_work_acceptance }
+		prerequisite = { focus = ESU_pony_education }
+		x = -2
+		y = 4
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_pony_officers
+		prerequisite = { focus = ESU_pony_regiments }
+		x = -3
+		y = 5
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_army_training
+		prerequisite = { focus = ESU_pony_regiments }
+		x = -1
+		y = 5
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_ponies_and_kirins_for_our_nation
+		prerequisite = { focus = ESU_pony_officers }
+		prerequisite = { focus = ESU_army_training }
+		x = -2
+		y = 6
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_ideas_of_vengence
+		prerequisite = { focus = ESU_ponies_and_kirins_for_our_nation }
+		prerequisite = { focus = ESU_scienctific_progress }
+		prerequisite = { focus = ESU_Trains_across_the_nation }
+		x = 1
+		y = 9
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_Infrastructure_rework
+		prerequisite = { focus = ESU_booming_industry }
+		x = 1
+		y = 3
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_biger_workforce
+		prerequisite = { focus = ESU_Infrastructure_rework }
+		prerequisite = { focus = ESU_pony_work_acceptance }
+		x = 0
+		y = 4
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_industry_investment
+		prerequisite = { focus = ESU_biger_workforce }
+		x = 3
+		y = 5
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_mining_operations
+		prerequisite = { focus = ESU_industry_investment }
+		x = -2
+		y = 1
+		relative_position_id = ESU_industry_investment
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_farming_operations
+		prerequisite = { focus = ESU_industry_investment }
+		x = 0
+		y = 1
+		relative_position_id = ESU_industry_investment
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_lumber_operations
+		prerequisite = { focus = ESU_industry_investment }
+		x = 2
+		y = 1
+		relative_position_id = ESU_industry_investment
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_Trains_across_the_nation
+		prerequisite = { focus = ESU_lumber_operations }
+		prerequisite = { focus = ESU_farming_operations }
+		prerequisite = { focus = ESU_mining_operations }
+		x = 1
+		y = 2
+		relative_position_id = ESU_industry_investment
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_scienctific_progress
+		prerequisite = { focus = ESU_lumber_operations }
+		prerequisite = { focus = ESU_farming_operations }
+		prerequisite = { focus = ESU_mining_operations }
+		x = -1
+		y = 2
+		relative_position_id = ESU_industry_investment
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = ESU_old_relations
+		prerequisite = { focus = ESU_visionarism }
+		x = 1
+		y = 1
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_envoys_to_the_clans
+		prerequisite = { focus = ESU_old_relations focus = ESU_send_troops_to_the_front}
+		x = 10
+		y = 2
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = ESU_talks_with_Hriki
+		prerequisite = { focus = ESU_envoys_to_the_clans }
+		x = 0
+		y = 2
+		relative_position_id = ESU_envoys_to_the_clans
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_talks_with_Waonto
+		prerequisite = { focus = ESU_envoys_to_the_clans }
+		x = 1
+		y = 1
+		relative_position_id = ESU_envoys_to_the_clans
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_talks_with_onki
+		prerequisite = { focus = ESU_envoys_to_the_clans }
+		x = -1
+		y = 1
+		relative_position_id = ESU_envoys_to_the_clans
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#militarism
+
+	focus = {
+		id = ESU_militarism
+		prerequisite = { focus = ESU_elections }
+		mutually_exclusive = { focus = ESU_visionarism }
+		x = 10
+		y = 2
+		relative_position_id = ESU_Upcoming_elections
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_send_troops_to_the_front
+		prerequisite = { focus = ESU_militarism }
+		x = -1
+		y = 1
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_start_the_warmachine
+		prerequisite = { focus = ESU_militarism }
+		x = 1
+		y = 1
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_experienced_officers
+		prerequisite = { focus = ESU_send_troops_to_the_front }
+		x = -2
+		y = 2
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_remove_the_inexperienced
+		prerequisite = { focus = ESU_experienced_officers }
+		x = -3
+		y = 3
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_offensive_army
+		prerequisite = { focus = ESU_remove_the_inexperienced }
+		mutually_exclusive = {focus = ESU_defensive_army}
+		x = -4
+		y = 4
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_defensive_army
+		prerequisite = { focus = ESU_remove_the_inexperienced }
+		mutually_exclusive = {focus = ESU_offensive_army}
+		x = -2
+		y = 4
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = ESU_mandatory_duty
+		prerequisite = { focus = ESU_defensive_army focus = ESU_offensive_army}
+		x = -3
+		y = 5
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_no_protests
+		prerequisite = { focus = ESU_drive_the_ponies_outs }
+		x = -1
+		y = 3
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = ESU_workforce_overdrive
+		prerequisite = { focus = ESU_weapon_supplies }
+		x = 1
+		y = 3
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_infrastructure_expansion
+		prerequisite = { focus = ESU_weapon_supplies }
+		x = 3
+		y = 3
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_expand_the_rail_roads
+		prerequisite = { focus = ESU_workforce_overdrive }
+		prerequisite = { focus = ESU_infrastructure_expansion }
+		x = 2
+		y = 4
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_our_ruler_is_right
+		prerequisite = { focus = ESU_no_protests }
+		x = 0
+		y = 4
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_drive_the_ponies_outs
+		prerequisite = { focus = ESU_send_troops_to_the_front }
+		x = 0
+		y = 2
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = ESU_dawn_of_a_new_empire
+		prerequisite = { focus = ESU_our_ruler_is_right }
+		prerequisite = { focus = ESU_expand_the_rail_roads }
+		x = 1
+		y = 5
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = ESU_weapon_supplies
+		prerequisite = { focus = ESU_start_the_warmachine }
+		x = 2
+		y = 2
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+#Faction forming
+}
