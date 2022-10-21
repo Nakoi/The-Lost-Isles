@@ -1111,7 +1111,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			add_political_power = 100
 		}
 	}
 
@@ -1126,7 +1126,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			#adds event about the clans (MICRO)
 		}
 	}
 
@@ -1141,7 +1141,8 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			add_state_core = 503
+			add_state_core = 506
 		}
 	}
 
@@ -1156,7 +1157,8 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			add_state_core = 505
+			add_state_core = 504
 		}
 	}
 
@@ -1171,7 +1173,8 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			add_state_core = 501
+			add_state_core = 500
 		}
 	}
 
@@ -1186,7 +1189,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			#adds event (MICRO)
 		}
 	}
 
@@ -1201,7 +1204,8 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			add_state_claim = 479
+			add_state_claim = 478
 		}
 	}
 
@@ -1216,7 +1220,18 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			KAE = {
+				add_opinion_modifier = {
+					target = SUN
+						modifier = tlirelations_generic_huge_opinion_decrease
+				}
+			}
+			SUN = {
+				add_opinion_modifier = {
+					target = KAE
+					modifier = tlirelations_generic_huge_opinion_decrease
+				}
+			}
 		}
 	}
 
@@ -1232,7 +1247,8 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			#adds event
+			add_war_support = 0.05
 		}
 	}
 
@@ -1248,7 +1264,14 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			declare_war_on = {
+				target = SUN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = WEI
+				type = annex_everything
+			}
 		}
 	}
 
@@ -1264,7 +1287,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			#Event about cilarine and kae (MICRO)
 		}
 	}
 
@@ -1279,7 +1302,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_Greater_economy_idea
+			#form faction or add cilarine in a factions (MICRO)
 		}
 	}
 
