@@ -27,6 +27,12 @@ country_event = {
 	
 	option = {
 		name = kae_startevent.1.a
+		complete_national_focus = KAE_improved_relations
+		remove_ideas = KAE_shit_arms_industry
+		add_timed_idea = {
+			idea = KAE_shit_arms_industry_better
+			days = 360
+		}
 	}
 }
 
@@ -65,9 +71,11 @@ country_event = {
 	
 	option = {
 		name = kae_startevent.3.b
-		country_event = { 
-			id = kae_startevent.4
-			days = 4
+		KAE = {
+			country_event = { 
+				id = kae_startevent.4
+				days = 4
+			}
 		}
 		ai_will_do = {
 			factor = 400
