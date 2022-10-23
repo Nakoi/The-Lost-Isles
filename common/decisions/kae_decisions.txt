@@ -16,7 +16,11 @@ decisioncat_kae_starting_cilarine_trade = {
 			tag = KAE
 			has_completed_focus = KAE_negotiations
 		}
-
+		
+		visible = {
+			NOT = { has_completed_focus = KAE_improved_relations }
+		}
+		
 		cancel_if_not_visible = yes
 		
 		is_good = no
@@ -35,10 +39,10 @@ decisioncat_kae_starting_cilarine_trade = {
 		}
 
 		available = {
-			has_completed_focus = KAE_weapons
+			has_completed_focus = KAE_negotiations
 		}
 
-		cost = 25
+		cost = 50
 
 		fire_only_once = no
 
@@ -46,7 +50,7 @@ decisioncat_kae_starting_cilarine_trade = {
 			base = 100
 		}
 
-		days_remove = 30
+		days_remove = 90
 
 		visible = {
 			tag = KAE
@@ -55,14 +59,14 @@ decisioncat_kae_starting_cilarine_trade = {
 		}
 		
 		modifier = {
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.15
 		}
 		
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = rifle_equipment_4
-				amount = 500
-				producer = KAE
+				amount = 1500
+				producer = CIL
 			}
 		}
 	}
@@ -76,10 +80,10 @@ decisioncat_kae_starting_cilarine_trade = {
 		}
 
 		available = {
-			has_completed_focus = KAE_weapons
+			has_completed_focus = KAE_negotiations
 		}
 
-		cost = 25
+		cost = 50
 
 		fire_only_once = no
 
@@ -87,7 +91,7 @@ decisioncat_kae_starting_cilarine_trade = {
 			base = 100
 		}
 
-		days_remove = 30
+		days_remove = 90
 
 		visible = {
 			tag = KAE
@@ -96,14 +100,14 @@ decisioncat_kae_starting_cilarine_trade = {
 		}
 		
 		modifier = {
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.15
 		}
 		
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = support_equipment
-				amount = 50
-				producer = KAE
+				amount = 150
+				producer = CIL
 			}
 		}
 	}
@@ -120,15 +124,15 @@ decisioncat_kae_starting_cilarine_trade = {
 			has_completed_focus = KAE_weapons
 		}
 
-		cost = 25
-
+		cost = 50
+		
 		fire_only_once = no
 
 		ai_will_do = {
 			base = 100
 		}
 
-		days_remove = 30
+		days_remove = 90
 
 		visible = {
 			tag = KAE
@@ -137,14 +141,14 @@ decisioncat_kae_starting_cilarine_trade = {
 		}
 		
 		modifier = {
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.15
 		}
 		
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = cannon_equipment_2
-				amount = 30
-				producer = KAE
+				amount = 60
+				producer = CIL
 			}
 		}
 	}
@@ -161,7 +165,7 @@ decisioncat_kae_starting_cilarine_trade = {
 			has_completed_focus = KAE_air_equipment
 		}
 
-		cost = 25
+		cost = 50
 
 		fire_only_once = no
 
@@ -169,7 +173,7 @@ decisioncat_kae_starting_cilarine_trade = {
 			base = 100
 		}
 
-		days_remove = 30
+		days_remove = 90
 
 		visible = {
 			tag = KAE
@@ -178,14 +182,14 @@ decisioncat_kae_starting_cilarine_trade = {
 		}
 		
 		modifier = {
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.15
 		}
 		
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = air_skirmisher_equipment
-				amount = 25
-				producer = KAE
+				amount = 80
+				producer = CIL
 			}
 		}
 	}
