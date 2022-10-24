@@ -21,6 +21,9 @@ country_event = {
 			add_idea = policy_progressive
 			remove_idea = policy_reactionary
 		}
+		ai_chance = {
+			factor = 50
+		}
 	}
 	
 	option = {
@@ -30,6 +33,9 @@ country_event = {
 		swap_ideas = {
 			add_idea = policy_progressive
 			remove_idea = policy_reactionary
+		}
+		ai_chance = {
+			factor = 50
 		}
 	}
 }
@@ -76,9 +82,15 @@ country_event = {
 	option = {
 		name = avt_event.3.a
 		country_event = { id = avt_event.4 }
+		ai_chance = {
+			factor = 10
+		}
 	}
 	option = {
 		name = avt_event.3.b
+		ai_chance = {
+			factor = 90
+		}
 	}
 }
 
@@ -94,10 +106,16 @@ country_event = {
 	option = {
 		name = avt_event.4.a
 		country_event = { id = avt_event.5 }
+		ai_chance = {
+			factor = 10
+		}
 	}
 	option = {
 		name = avt_event.4.b
 		country_event = { id = avt_event.7 }
+		ai_chance = {
+			factor = 90
+		}
 	}
 }
 
@@ -181,15 +199,24 @@ country_event = {
 		name = avt_event.8.a
 		add_stability = 0.05
 		add_political_power = -50
+		ai_chance = {
+			factor = 25
+		}
 	}
 	option = {
 		name = avt_event.8.b
 		add_political_power = 20
+		ai_chance = {
+			factor = 50
+		}
 	}
 	option = {
 		name = avt_event.8.c
 		add_stability = -0.05
 		add_political_power = 50
+		ai_chance = {
+			factor = 25
+		}
 	}
 }
 
@@ -206,15 +233,24 @@ country_event = {
 		name = avt_event.9.a
 		add_stability = 0.05
 		add_political_power = -50
+		ai_chance = {
+			factor = 25
+		}
 	}
 	option = {
 		name = avt_event.9.b
 		add_political_power = 20
+		ai_chance = {
+			factor = 25
+		}
 	}
 	option = {
 		name = avt_event.9.c
 		add_stability = -0.05
 		add_political_power = 50
+		ai_chance = {
+			factor = 50
+		}
 	}
 }
 
@@ -236,6 +272,9 @@ country_event = {
 			ideology = ideology_isolationism
 			popularity = 0.02
 		}
+		ai_chance = {
+			factor = 10
+		}
 	}
 	option = {
 		name = avt_event.10.b
@@ -244,6 +283,9 @@ country_event = {
 			ideology = ideology_visionarism
 			popularity = 0.02
 		}
+		ai_chance = {
+			factor = 80
+		}
 	}
 	option = {
 		name = avt_event.10.c
@@ -251,6 +293,9 @@ country_event = {
 		add_popularity = {
 			ideology = ideology_militarism
 			popularity = 0.02
+		}
+		ai_chance = {
+			factor = 10
 		}
 	}
 }
@@ -411,6 +456,22 @@ country_event = {
 			give_guarantee = AVT
 			give_military_access = AVT
 		}
+		ai_chance = {
+			modifier = {
+				factor = 90
+				has_opinion = {
+					target = AVT
+					value > 89
+				}	
+			}
+			modifier = {
+				factor = 50
+				has_opinion = {
+					target = AVT
+					value < 89
+				}
+			}	
+		}
 	}
 	
 	option = {
@@ -426,6 +487,15 @@ country_event = {
 				target = AVT
 				modifier = tlirelations_generic_alliance_refused
 			}
+		}
+		ai_chance = {
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = AVT
+					value < -15
+				}
+			}	
 		}
 	}
 }
@@ -473,6 +543,22 @@ country_event = {
 				modifier = tlirelations_generic_alliance_accepted
 			}
 		}
+		ai_chance = {
+			modifier = {
+				factor = 90
+				has_opinion = {
+					target = AVT
+					value > 89
+				}	
+			}
+			modifier = {
+				factor = 50
+				has_opinion = {
+					target = AVT
+					value < 89
+				}
+			}	
+		}
 	}
 	
 	option = {
@@ -489,6 +575,15 @@ country_event = {
 				modifier = tlirelations_generic_alliance_refused
 			}
 		}
+		ai_chance = {
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = AVT
+					value < -15
+				}
+			}	
+		}
 	}
 }
 
@@ -503,16 +598,25 @@ country_event = {
 	
 	option = {
 		name = avt_tsarevent.4.a
+		ai_chance = {
+			factor = 80
+		}
 	}
 	
 	option = {
 		name = avt_tsarevent.4.b
 		set_capital = { state = 500 }
+		ai_chance = {
+			factor = 10
+		}
 	}
 	
 	option = {
 		name = avt_tsarevent.4.c
 		set_capital = { state = 122 }
+		ai_chance = {
+			factor = 10
+		}
 	}
 }
 
@@ -528,16 +632,25 @@ country_event = {
 	option = {
 		name = avt_tsarevent.5.a
 		add_stability = 0.05
+		ai_chance = {
+			factor = 25
+		}
 	}
 	
 	option = {
 		name = avt_tsarevent.5.b
+		ai_chance = {
+			factor = 50
+		}
 	}
 	
 	option = {
 		name = avt_tsarevent.5.c
 		add_stability = -0.1
 		add_political_power = -50
+		ai_chance = {
+			factor = 25
+		}
 	}
 }
 
@@ -564,12 +677,20 @@ country_event = {
 			add_to_faction = ROOT
 			give_guarantee = ROOT
 		}
-		IF = {
-			limit = {
-				ROOT = { has_opinion = { target = AVT value > 89 } }
+		ai_chance = {
+			modifier = {
+				factor = 90
+				has_opinion = {
+					target = AVT
+					value > 89
+				}	
 			}
-			ai_will_do = {
-				factor = 400
+			modifier = {
+				factor = 50
+				has_opinion = {
+					target = AVT
+					value < 89
+				}	
 			}
 		}
 	}
@@ -585,6 +706,15 @@ country_event = {
 				target = ROOT
 				modifier = tlirelations_generic_alliance_refused
 			}
+		}
+		ai_chance = {
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = AVT
+					value < -15
+				}
+			}	
 		}
 	}
 }

@@ -67,6 +67,9 @@ country_event = {
 				transfer_troops = yes
 			}
 		}
+		ai_chance = {
+			factor = 20
+		}
 	}
 	
 	option = {
@@ -77,8 +80,8 @@ country_event = {
 				days = 4
 			}
 		}
-		ai_will_do = {
-			factor = 400
+		ai_chance = {
+			factor = 80
 		}
 	}
 }
