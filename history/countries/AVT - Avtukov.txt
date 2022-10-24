@@ -102,10 +102,7 @@ add_to_faction = AVT
 add_to_faction = OSK
 if = {
 	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
+		has_dlc = "Together for Victory"
 	}
 	set_autonomy = {
 		target = OSK
@@ -114,7 +111,7 @@ if = {
 	}
 
 	else = {
-		puppet = RAJ
+		puppet = OSK
 	}
 }
 if = {
