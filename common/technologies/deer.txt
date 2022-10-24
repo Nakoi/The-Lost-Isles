@@ -473,7 +473,7 @@ technologies = {
 	deer_field_recon= {
 
 		category_highlanders = {
-			recon = 2
+			recon = 3
 			initiative = 0.15
 			maximum_speed = 0.10
 		}
@@ -555,18 +555,7 @@ technologies = {
 
 		category_highlanders = {
 			defense = 0.10
-		}
-
-		highlanders = {
-			river = {
-				attack = 0.20
-				defence = 0.10
-				movement = 0.20
-			}
-			amphibious = {
-				attack = 0.20
-				defence = 0.10
-			}
+			max_organisation = 10
 		}
 
 		dependencies = {
@@ -627,6 +616,13 @@ technologies = {
 
 	heroes_of_myth= {
 
+		category_highlanders = {
+			max_organisation = 10
+			soft_attack = 0.15
+			breakthrough = 0.1
+			supply_consumption_factor = 0.1
+		}
+
 		dependencies = {
 		}	
 
@@ -652,6 +648,23 @@ technologies = {
 	}
 
 	heirs_of_vikings= {
+
+		category_highlanders = {
+			defense = 0.1
+		}
+
+		highlanders = {
+			river = {
+				attack = 0.20
+				defence = 0.10
+				movement = 0.20
+			}
+			amphibious = {
+				attack = 0.20
+				defence = 0.10
+				movement = 0.20
+			}
+		}
 
 		dependencies = {
 		}	
@@ -679,6 +692,12 @@ technologies = {
 
 	light_infantry_expertise= {
 
+		category_highlanders = {
+			defense = 0.15
+			maximum_speed = 0.10
+			supply_consumption_factor = -0.15
+		}
+
 		dependencies = {
 		}	
 
@@ -704,6 +723,12 @@ technologies = {
 	}
 
 	heroes_of_people= {
+
+		category_highlanders = {
+			max_organisation = 5
+			max_strength = 0.1
+			defense = 0.1
+		}
 
 		dependencies = {
 		}	
@@ -731,6 +756,11 @@ technologies = {
 
 	pioneers_of_camouflage= {
 
+		category_highlanders = {
+			entrenchment = 5
+			defense = 0.1
+		}
+
 		dependencies = {
 		}	
 
@@ -749,6 +779,456 @@ technologies = {
 			factor = 1
 		}
 	}
+
+
+	power_of_runes = {
+
+		research_speed_factor = 0.07
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = thuriaz_rune
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = isaz_rune
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = magic_of_belief
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = runic_warriors
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 20 y = 0 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	thuriaz_rune = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = eihwaz_rune
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 16 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	eihwaz_rune = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = raido_rune
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 16 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	raido_rune = {
+
+		dependencies = {
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 16 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	isaz_rune = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = sowlio_rune
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 20 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	sowlio_rune = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = cen_rune
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 20 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cen_rune = {
+
+		dependencies = {
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 20 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	magic_of_belief = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = cult_of_personality
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 24 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cult_of_personality = {
+
+		dependencies = {
+		}	
+
+		path = {
+			leads_to_tech = faith_in_victory
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 24 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	faith_in_victory = {
+
+		dependencies = {
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 24 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	runic_warriors = {
+
+		dependencies = {
+		}
+
+		path = {
+			leads_to_tech = peorth_rune
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 30 y = 1 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	peorth_rune = {
+
+		dependencies = {
+		}
+
+		path = {
+			leads_to_tech = terror_tactics
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = deer_gunlance
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 30 y = 3 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	terror_tactics = {
+
+		dependencies = {
+		}
+
+		path = {
+			leads_to_tech = runic_invocation
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 30 y = 5 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	runic_invocation = {
+
+		dependencies = {
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 30 y = 7 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	deer_gunlance = {
+
+		enable_equipments = {
+			gunlance_equipment_1
+		}
+
+		dependencies = {
+		}
+
+		path = {
+			leads_to_tech = deer_breech_loaded_gunlance
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 27 y = 3 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	deer_breech_loaded_gunlance = {
+
+		enable_equipments = {
+			gunlance_equipment_2
+		}
+
+		dependencies = {
+		}
+
+		path = {
+			leads_to_tech = deer_revolving_gunlance
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 27 y = 5 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	deer_revolving_gunlance = {
+
+		enable_equipments = {
+			gunlance_equipment_3
+		}
+
+		dependencies = {
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 27 y = 7 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
 
 
 
