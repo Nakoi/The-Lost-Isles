@@ -194,3 +194,134 @@ decisioncat_kae_starting_cilarine_trade = {
 		}
 	}
 }
+
+decisioncat_kae_decisions = {
+
+	KAE_core_unuo = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_rightfully_ours
+			KAE = {
+				owns_state = 503
+				owns_state = 506
+			}
+			503 = { compliance > 50 }
+			506 = { compliance > 50 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_rightfully_ours
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 503
+			add_state_core = 506
+		}
+	}
+	
+	KAE_core_rinto = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_rightfully_ours
+			KAE = {
+				owns_state = 505
+				owns_state = 504
+			}
+			505 = { compliance > 50 }
+			504 = { compliance > 50 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_rightfully_ours
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 505
+			add_state_core = 504
+		}
+	}
+	
+	KAE_core_ashi = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_rightfully_ours
+			KAE = {
+				owns_state = 500
+				owns_state = 501
+			}
+			500 = { compliance > 50 }
+			501 = { compliance > 50 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_rightfully_ours
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 500
+			add_state_core = 501
+		}
+	}
