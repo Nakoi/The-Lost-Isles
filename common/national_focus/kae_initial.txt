@@ -224,10 +224,10 @@ focus_tree = {
 			factor = 5
 		}
 		
-		available = {
-			country_exists = UNU
-			country_exists = RIN
-			country_exists = ASH
+		bypass = {
+			NOT = { country_exists = UNU }
+			NOT = { country_exists = RIN }
+			NOT = { country_exists = ASH }
 		}
 		
 		completion_reward = {
