@@ -65,3 +65,15 @@ decisioncat_kae_starting_cilarine_trade = {
 		has_completed_focus = KAE_negotiations
 	}
 }
+
+decisioncat_kae_decisions = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = KAE
+	}
+
+	visible = {
+		has_completed_focus = KAE_rightfully_ours
+	}
+}
