@@ -158,8 +158,8 @@ ONK = {
 
 
 IAR = {
-    color = rgb { 123 100 181 }
-    color_ui = rgb { 117 95 175 }
+    color = rgb { 71 138 219 }
+    color_ui = rgb { 38 90 152 }
 }
 
 
@@ -310,23 +310,28 @@ KER = {
 
 
 JES = {
-    color = rgb { 114 91 79 }
-    color_ui = rgb { 108 84 72 }
+    color = rgb { 132 12 12 }
+    color_ui = rgb { 185 30 30 }
 }
 
 
 
 STA = {
-    color = rgb { 156 227 56 }
-    color_ui = rgb { 151 220 54 }
+    color = rgb { 109 8 30 }
+    color_ui = rgb { 120 17 40 }
 }
 
 
 ISL = {
-    color = rgb { 209 178 110 }
-    color_ui = rgb { 199 168 100 }
+    color = rgb { 155 20 0 }
+    color_ui = rgb { 192 55 9 }
 }
 
+
+KYH = {
+    color = rgb { 255 250 223 }
+    color_ui = rgb { 255 247 203 }
+}
 
 MIT = {
     color = rgb { 130 210 135 }
@@ -555,8 +560,8 @@ NAS = {
 
 
 SEP = {
-    color = rgb { 198 210 57 }
-    color_ui = rgb { 186 198 51 }
+    color = rgb { 245 107 28 }
+    color_ui = rgb { 231 84 19 }
 }
 
 
@@ -589,8 +594,8 @@ AKN = {
 
 
 KLI = {
-    color = rgb { 120 124 170 }
-    color_ui = rgb { 115 118 158 }
+    color = rgb { 58 165 63 }
+    color_ui = rgb { 43 150 48 }
 }
 
 
@@ -654,14 +659,14 @@ ROG = {
 
 
 WEL = {
-    color = rgb { 237 227 152 }
-    color_ui = rgb { 226 216 144 }
+    color = rgb { 225 4 10 }
+    color_ui = rgb { 207 2 7 }
 }
 
 
 RAN = {
-    color = rgb { 88 145 108 }
-    color_ui = rgb { 81 130 98 }
+    color = rgb { 8 9 57 }
+    color_ui = rgb { 4 4 95 }
 }
 
 
@@ -691,8 +696,8 @@ LES = {
 
 
 SOV = {
-    color = rgb { 147 145 114 }
-    color_ui = rgb { 141 140 103 }
+    color = rgb { 41 42 158 }
+    color_ui = rgb { 35 35 143 }
 }
 
 
@@ -771,8 +776,8 @@ AFR = {
 
 
 KUL = {
-    color = rgb { 50 77 77 }
-    color_ui = rgb { 55 71 71 }
+    color = rgb { 40 116 108 }
+    color_ui = rgb { 38 94 88  }
 }
 
 
