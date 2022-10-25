@@ -490,7 +490,7 @@ country_event = {
 		}
 		ai_chance = {
 			modifier = {
-				factor = 0
+				factor = 100
 				has_opinion = {
 					target = AVT
 					value < -15
@@ -577,7 +577,7 @@ country_event = {
 		}
 		ai_chance = {
 			modifier = {
-				factor = 0
+				factor = 100
 				has_opinion = {
 					target = AVT
 					value < -15
@@ -709,7 +709,7 @@ country_event = {
 		}
 		ai_chance = {
 			modifier = {
-				factor = 0
+				factor = 100
 				has_opinion = {
 					target = AVT
 					value < -15
