@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = KAE
        }
     }
     default = no
@@ -41,8 +41,31 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = KAE_poor_living_conditions_01
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
-
 	}
 
 	focus = {
@@ -152,9 +175,49 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-				swap_ideas = {
-					add_idea = KAE_poor_living_conditions_02
-					remove_idea = KAE_poor_living_conditions_01
+			swap_ideas = {
+				add_idea = KAE_poor_living_conditions_02
+				remove_idea = KAE_poor_living_conditions_01
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -414,7 +477,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.25
+				bonus = 0.5
 				uses = 2
 				category =  tli_infantry
 			}
@@ -473,6 +536,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = KAE_ootari_workshop_idea
+			add_research_slot = 1
 		}
 	}
 
@@ -483,7 +547,7 @@ focus_tree = {
 		x = 5
 		y = 4
 		relative_position_id = KAE_Greater_economy
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -507,7 +571,7 @@ focus_tree = {
 		x = 5
 		y = 5
 		relative_position_id = KAE_Greater_economy
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -531,7 +595,7 @@ focus_tree = {
 		x = 3
 		y = 4
 		relative_position_id = KAE_Greater_economy
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -555,7 +619,7 @@ focus_tree = {
 		x = 3
 		y = 5
 		relative_position_id = KAE_Greater_economy
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -753,10 +817,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.5
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
 				uses = 1
-				category =	land_doctrine
+				category = land_doctrine
 			}
 		}
 	}
@@ -782,7 +847,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = KAE_Artillery_drills
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -802,7 +867,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = KAE_Artillery_drills
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -823,7 +888,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = KAE_Artillery_drills
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -858,7 +923,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = KAE_Army_drills
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -877,7 +942,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = KAE_Army_drills
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -896,7 +961,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = KAE_Army_drills
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -935,10 +1000,10 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.5
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
 				uses = 1
-				category =	naval_doctrine
+				category = naval_doctrine
 			}
 		}
 	}
@@ -988,13 +1053,13 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = KAE_navy_drills
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.5
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
 				uses = 2
 				category = naval_doctrine_blue
 			}
@@ -1008,13 +1073,13 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = KAE_navy_drills
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.5
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
 				uses = 2
 				category = naval_doctrine_brown
 			}
@@ -1034,7 +1099,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				ahead_reduction = 2
 				uses = 1
 				category =	medium_ship_tech
 			}
@@ -1054,7 +1119,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				ahead_reduction = 2
 				uses = 1
 				category =	light_ship_tech
 			}
@@ -1103,13 +1168,13 @@ focus_tree = {
 		x = 2
 		y = 4
 		relative_position_id = KAE_duty_calls
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.25
+				bonus = 0.5
 				uses = 1
 				category = category_air
 			}
@@ -1122,15 +1187,15 @@ focus_tree = {
 		x = 4
 		y = 4
 		relative_position_id = KAE_duty_calls
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.25
-				uses = 1
-				category = category_air
+			add_doctrine_cost_reduction =  {
+				cost_reduction = 0.5
+				uses = 2
+				category = air_doctrine
 			}
 		}
 	}
@@ -1141,13 +1206,13 @@ focus_tree = {
 		x = 3
 		y = 5
 		relative_position_id = KAE_duty_calls
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.25
+				bonus = 0.5
 				uses = 1
 				category = category_air_skirmisher
 			}
@@ -1201,7 +1266,7 @@ focus_tree = {
 		x = -3
 		y = 2
 		relative_position_id = KAE_politics
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1223,7 +1288,7 @@ focus_tree = {
 		x = -2
 		y = 3
 		relative_position_id = KAE_politics
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1245,7 +1310,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = KAE_politics
-		cost = 8
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1272,7 +1337,9 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			#adds event (MICRO)
+			ESU = {
+				country_event = { id = kae_event.0 }
+			}
 		}
 	}
 
@@ -1330,7 +1397,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			#adds event
+			country_event = { id = kae_event.3 }
 			add_war_support = 0.05
 		}
 	}
@@ -1349,11 +1416,23 @@ focus_tree = {
 		completion_reward = {
 			declare_war_on = {
 				target = SUN
-				type = annex_everything
+				type = take_state
 			}
 			declare_war_on = {
 				target = WEI
 				type = annex_everything
+			}
+			IF = {
+				limit = {
+					ESU = {
+						has_country_flag = kae_esun_agreed_sunotia_war
+					}
+				}
+				ESU = { 
+					country_event = { id = kae_event.4 }
+					add_state_claim = 482
+					add_state_claim = 477
+				}
 			}
 		}
 	}
@@ -1369,8 +1448,15 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			CIL = { is_in_faction = no }
+		}
+		
 		completion_reward = {
-			#Event about cilarine and kae (MICRO)
+			CIL = { 
+				country_event = { id = kae_event.5 }
+			}
 		}
 	}
 
@@ -1384,9 +1470,18 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			is_in_faction_with = CIL
+		}
+		
 		completion_reward = {
-			#form faction or add cilarine in a factions (MICRO)
+			KAE = {
+				add_ideas = KAE_free_trade_alliance_bonus_KAE
+			}
+			CIL = {
+				add_ideas = KAE_free_trade_alliance_bonus_CIL
+			}
 		}
 	}
-
 }

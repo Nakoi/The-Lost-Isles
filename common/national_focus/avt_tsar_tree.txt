@@ -49,7 +49,7 @@ focus_tree = {
 				add_state_claim = 343
 				add_state_claim = 342
 				create_wargoal = {
-					type = annex_everything
+					type = take_state
 					target = GAL
 				}
 			}
@@ -3278,8 +3278,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.75
+			add_doctrine_cost_reduction =  {
+				cost_reduction = 0.5
 				uses = 2
 				category = land_doctrine
 			}
