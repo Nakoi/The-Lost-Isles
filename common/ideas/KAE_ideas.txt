@@ -66,7 +66,8 @@ ideas = {
 				
 			modifier = {
 				production_speed_buildings_factor = 0.1
-				line_change_production_efficiency_factor = 0.1
+				line_change_production_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = -0.1
 				stability_factor = -0.1
 			}
 		}
@@ -80,7 +81,8 @@ ideas = {
 				
 			modifier = {
 				production_speed_buildings_factor = 0.2
-				line_change_production_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.1
+				production_factory_max_efficiency_factor = -0.2
 				stability_factor = -0.15
 			}
 		}
@@ -191,7 +193,36 @@ ideas = {
 				global_building_slots_factor = 0.25
 			}
 		}
-
-
+		
+		KAE_free_trade_alliance_bonus_KAE = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				weekly_manpower = 120
+			}
+			
+			equipment_bonus = {
+				category_air_skirmisher = {
+					build_cost_ic = -0.25 instant = yes
+				}
+			}
+		}
+		
+		KAE_free_trade_alliance_bonus_CIL = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+			}
+		}
     }
 }
