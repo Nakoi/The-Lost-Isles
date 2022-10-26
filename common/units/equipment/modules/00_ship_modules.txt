@@ -1126,3 +1126,22 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 	}
 }
+
+
+#Deers
+	module_boarding_1 = {
+		abbreviation = "saj"
+		category = module_boarding
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_5
+		
+		add_stats = {
+			torpedo_attack = 3
+			build_cost_ic = 90
+			manpower = 50
+		}
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+		critical_parts = { damaged_heavy_guns }
+	}

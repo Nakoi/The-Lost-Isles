@@ -84,6 +84,13 @@ technologies = {
 
 		dependencies = {
 		}
+
+		enable_equipments = {
+			longship_hull_1
+		}
+		enable_equipment_modules = { 
+			module_boarding_1
+		}
 		
 		path = {
 			leads_to_tech = assault_ship_deer
@@ -260,10 +267,9 @@ technologies = {
 
 		category_army = { 
 			acclimatization_cold_climate_gain_factor = 0.3
-			attrition = 0.1
 			defense = 0.1
 		}
-
+		attrition = -0.1
 
 		dependencies = {
 		}
@@ -335,8 +341,8 @@ technologies = {
 		category_army = { 
 			defense = 0.1
 			entrenchment = 3
-			dig_in_speed = 0.2
 		}
+		dig_in_speed = 0.2
 
 		dependencies = {
 		}	
@@ -359,7 +365,7 @@ technologies = {
 
 	trade_connections = {
 
-		min_export = -0.5
+		min_export = -0.05
 		trade_opinion_factor = 0.15
 
 		dependencies = {
