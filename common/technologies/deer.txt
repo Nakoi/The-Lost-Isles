@@ -824,6 +824,13 @@ technologies = {
 	thuriaz_rune = {
 
 		dependencies = {
+		}
+
+		category_army = {
+			defense = 0.15
+		}
+		category_rune_warrior = {
+			defense = 0.15
 		}	
 
 		path = {
@@ -850,6 +857,13 @@ technologies = {
 	eihwaz_rune = {
 
 		dependencies = {
+		}
+
+		category_army = {
+			reliability_factor = 0.1
+		}
+		category_rune_warrior = {
+			reliability_factor = 0.05
 		}	
 
 		path = {
@@ -876,6 +890,13 @@ technologies = {
 	raido_rune = {
 
 		dependencies = {
+		}
+
+		category_army = {
+			maximum_speed = 0.1
+		}
+		category_rune_warrior = {
+			maximum_speed = 0.1
 		}	
 
 		research_cost = 2.15
@@ -897,6 +918,10 @@ technologies = {
 	isaz_rune = {
 
 		dependencies = {
+		}
+
+		category_army = {
+			supply_consumption_factor = -0.25
 		}	
 
 		path = {
@@ -923,6 +948,13 @@ technologies = {
 	sowlio_rune = {
 
 		dependencies = {
+		}
+
+		category_army = {
+			max_strength = 0.15
+		}
+		category_rune_warrior = {
+			max_strength = 0.15
 		}	
 
 		path = {
@@ -949,7 +981,16 @@ technologies = {
 	cen_rune = {
 
 		dependencies = {
-		}	
+		}
+
+		category_army = {
+			soft_attack = 0.15
+			ap_attack = 0.15
+		}
+		category_rune_warrior = {
+			soft_attack = 0.1
+			ap_attack = 0.1
+		}
 
 		research_cost = 2.15
 		start_year = 957
@@ -970,7 +1011,10 @@ technologies = {
 	magic_of_belief = {
 
 		dependencies = {
-		}	
+		}
+
+		stability_weekly = 0.02
+		industrial_capacity_factory	= 0.1
 
 		path = {
 			leads_to_tech = cult_of_personality
@@ -996,7 +1040,10 @@ technologies = {
 	cult_of_personality = {
 
 		dependencies = {
-		}	
+		}
+
+		political_power_gain = 0.25
+		drift_defence_factor = 0.5
 
 		path = {
 			leads_to_tech = faith_in_victory
@@ -1022,7 +1069,13 @@ technologies = {
 	faith_in_victory = {
 
 		dependencies = {
-		}	
+		}
+
+		org_loss_when_moving = -0.1	
+		category_army = {
+			breakthrough = 0.2
+			soft_attack = 0.2
+		}
 
 		research_cost = 2.15
 		start_year = 957
@@ -1043,6 +1096,20 @@ technologies = {
 	runic_warriors = {
 
 		dependencies = {
+            tech_civilized = 1
+        }
+
+		enable_subunits = {
+			runic_warriors
+		}
+		enable_equipments = {
+			gunlance_equipment_0
+		}
+
+		category_rune_warrior = {
+			air_attack = -0.5
+			defense = 0.5
+			breakthrough = 0.2
 		}
 
 		path = {
@@ -1069,7 +1136,14 @@ technologies = {
 	peorth_rune = {
 
 		dependencies = {
+            tech_civilized = 1
+        }
+
+		category_rune_warrior = {
+			soft_attack = 0.2
+			hard_attack = 0.2
 		}
+
 
 		path = {
 			leads_to_tech = terror_tactics
@@ -1099,6 +1173,12 @@ technologies = {
 	terror_tactics = {
 
 		dependencies = {
+            tech_civilized = 1
+        }
+
+		category_rune_warrior = {
+			maximum_speed = 0.2
+			breakthrough = 0.2
 		}
 
 		path = {
@@ -1125,6 +1205,13 @@ technologies = {
 	runic_invocation = {
 
 		dependencies = {
+            tech_civilized = 1
+        }
+
+		category_rune_warrior = {
+			defense = 0.15
+			ap_attack = 0.25
+			soft_attack = 0.1
 		}
 
 		research_cost = 2.15
@@ -1145,12 +1232,13 @@ technologies = {
 
 	deer_gunlance = {
 
-		enable_equipments = {
-			gunlance_equipment_1
-		}
+		dependencies = {
+            tech_civilized = 1
+        }
 
 		dependencies = {
-		}
+            tech_civilized = 1
+        }
 
 		path = {
 			leads_to_tech = deer_breech_loaded_gunlance
@@ -1180,7 +1268,8 @@ technologies = {
 		}
 
 		dependencies = {
-		}
+            tech_civilized = 1
+        }
 
 		path = {
 			leads_to_tech = deer_revolving_gunlance
@@ -1210,7 +1299,8 @@ technologies = {
 		}
 
 		dependencies = {
-		}
+            tech_civilized = 1
+        }
 
 		research_cost = 2.15
 		start_year = 957
@@ -1221,6 +1311,397 @@ technologies = {
 		
 		categories = {
 			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	battle_seers = {
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		enable_subunits = {
+			battle_seer_coven
+		}
+		enable_equipments = {
+			magical_equipment_0
+		}
+
+		category_battle_seers = {
+			defense = 1
+			recon = 2
+		}
+
+		path = {
+			leads_to_tech = battlefield_coordination
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = high_command_seer_attache
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 38 y = 0 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	battlefield_coordination = {
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		coordination_bonus = 0.2
+
+		xor = { high_command_seer_attache }
+
+		path = {
+			leads_to_tech = battle_divination
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 36 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	high_command_seer_attache = {
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		max_planning = 0.2
+		planning_speed = 0.2
+
+		xor = { battlefield_coordination }
+
+		path = {
+			leads_to_tech = battle_divination
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 40 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	battle_divination = {
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		category_battle_seers = {
+			defense = 1
+			initiative = 0.1
+			max_organisation = 15
+		}
+
+		path = {
+			leads_to_tech = precognitive_reconnaissance
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = deer_advanced_magical_equipment
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 38 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	precognitive_reconnaissance = {
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		category_battle_seers = {
+			defense = 1
+			recon = 6
+		}
+
+		path = {
+			leads_to_tech = dance_with_death 
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 38 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dance_with_death = {
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		category_battle_seers = {
+			max_strength = 1
+			defense = 2
+			breakthrough = 1
+		}
+
+		path = {
+			leads_to_tech = magic_of_frost 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = visions_of_glory
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 38 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	magic_of_frost = {
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		category_battle_seers = {
+			hard_attack = 0.5
+			ap_attack = 0.5
+		}
+
+		xor = { visions_of_glory }
+
+		path = {
+			leads_to_tech = stormcalling
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 36 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	visions_of_glory = {
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		category_battle_seers = {
+			max_organisation = 30
+		}
+
+		xor = { magic_of_frost }
+
+		path = {
+			leads_to_tech = battle_meditation
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 40 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	stormcalling = {
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		category_battle_seers = {
+			soft_attack = 1
+			ap_attack = 0.5
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 36 y = 12 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	battle_meditation = {
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		coordination_bonus = 0.05
+		category_battle_seers = {
+			max_organisation = 15
+			defense = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 40 y = 12 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	deer_advanced_magical_equipment = {
+
+		enable_equipments = {
+			magical_equipment_1
+		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		path = {
+			leads_to_tech = deer_modern_magical_equipment
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.68
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 34 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	deer_modern_magical_equipment = {
+
+		enable_equipments = {
+			magical_equipment_2
+		}
+
+		dependencies = {
+            tech_civilized = 1
+        }
+
+		research_cost = 3.22
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 34 y = 10 }
+		}
+		
+		categories = {
+			racial
 		}
 		
 		ai_will_do = {

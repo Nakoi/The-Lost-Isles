@@ -3227,6 +3227,13 @@ guiTypes = {
             	slotsize = { width = 70 height = 70 }
             	format = "UP"
         		}
+
+        		gridboxtype = {
+            	name = "battle_seers_tree"
+            	position = { x = 140 y = 210 }
+            	slotsize = { width = 70 height = 70 }
+            	format = "UP"
+        		}
 		}
 
 		containerWindowType = {
