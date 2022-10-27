@@ -48,7 +48,11 @@ technologies = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
-		
+
+		path = {
+			leads_to_tech = longship_deer_MTG
+			research_cost_coeff = 1
+		}
 		path = {
 			leads_to_tech = longship_deer
 			research_cost_coeff = 1
@@ -68,7 +72,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = deer_folder
-			position = { x = 6 y = 0 }
+			position = { x = 4 y = 0 }
 		}
 		
 		categories = {
@@ -80,7 +84,7 @@ technologies = {
 		}
 	}
 
-	longship_deer = {
+	longship_deer_MTG = {
 
 		dependencies = {
 		}
@@ -93,19 +97,23 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = assault_ship_deer
+			leads_to_tech = assault_ship_deer_MTG
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = boarding_parties_deer
+			leads_to_tech = boarding_parties_deer_MTG
 			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
 		}		
 
 		research_cost = 2.15
 		start_year = 957
 		folder = {
 			name = deer_folder
-			position = { x = 4 y = 2 }
+			position = { x = 2 y = 2 }
 		}
 		
 		categories = {
@@ -117,13 +125,124 @@ technologies = {
 		}
 	}
 
-	boarding_parties_deer = {
+	boarding_parties_deer_MTG = {
 
 		dependencies = {
+			tech_civilized = 1
+		}
+
+		enable_equipment_modules = { 
+			module_boarding_2
+		}
+		enable_equipment_modules = { 
+			module_armored_boarding_1
+		}
+		enable_equipment_modules = { 
+			module_demolition_boarding_1
 		}
 		
 		path = {
-			leads_to_tech = boarding_parties_deer_2
+			leads_to_tech = boarding_parties_deer_2_MTG
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	boarding_parties_deer_2_MTG = {
+
+		dependencies = {
+			tech_civilized = 1
+		}
+
+		enable_equipment_modules = { 
+			module_boarding_3
+		}
+		enable_equipment_modules = { 
+			module_armored_boarding_2
+		}
+		enable_equipment_modules = { 
+			module_demolition_boarding_2
+		}
+		
+		path = {
+			leads_to_tech = boarding_parties_deer_3_MTG
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	boarding_parties_deer_3_MTG = {
+
+		dependencies = {
+			tech_civilized = 1
+		}
+
+		enable_equipment_modules = { 
+			module_boarding_4
+		}
+		enable_equipment_modules = { 
+			module_armored_boarding_3
+		}
+		enable_equipment_modules = { 
+			module_demolition_boarding_3
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	assault_ship_deer_MTG = {
+
+		dependencies = {
+			tech_civilized = 1
+		}
+
+		enable_equipments = {
+			longship_hull_2
+		}
+		
+		path = {
+			leads_to_tech = steam_assault_ship_deer_MTG
 			research_cost_coeff = 1
 		}		
 
@@ -143,13 +262,18 @@ technologies = {
 		}
 	}
 
-	boarding_parties_deer_2 = {
+	steam_assault_ship_deer_MTG = {
 
 		dependencies = {
+			tech_civilized = 1
+		}
+
+		enable_equipments = {
+			longship_hull_3
 		}
 		
 		path = {
-			leads_to_tech = boarding_parties_deer_3
+			leads_to_tech = modern_assault_ship_deer_MTG
 			research_cost_coeff = 1
 		}		
 
@@ -169,9 +293,14 @@ technologies = {
 		}
 	}
 
-	boarding_parties_deer_3 = {
+	modern_assault_ship_deer_MTG = {
 
 		dependencies = {
+			tech_civilized = 1
+		}	
+
+		enable_equipments = {
+			longship_hull_4
 		}
 
 		research_cost = 2.15
@@ -190,9 +319,52 @@ technologies = {
 		}
 	}
 
+	longship_deer = {
+
+		dependencies = {
+		}
+
+		enable_equipments = { 
+			longship_1
+		}
+		
+		path = {
+			leads_to_tech = assault_ship_deer
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = boarding_parties_deer
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			NOT = { has_dlc = "Man the Guns" }
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = deer_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	assault_ship_deer = {
 
 		dependencies = {
+			tech_civilized = 1
+		}
+
+		enable_equipments = { 
+			longship_2
 		}
 		
 		path = {
@@ -204,7 +376,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = deer_folder
-			position = { x = 4 y = 6 }
+			position = { x = 2 y = 6 }
 		}
 		
 		categories = {
@@ -219,6 +391,11 @@ technologies = {
 	steam_assault_ship_deer = {
 
 		dependencies = {
+			tech_civilized = 1
+		}
+
+		enable_equipments = { 
+			longship_3
 		}
 		
 		path = {
@@ -230,7 +407,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = deer_folder
-			position = { x = 4 y = 10 }
+			position = { x = 2 y = 10 }
 		}
 		
 		categories = {
@@ -245,13 +422,18 @@ technologies = {
 	modern_assault_ship_deer = {
 
 		dependencies = {
-		}	
+			tech_civilized = 1
+		}
+
+		enable_equipments = { 
+			longship_4
+		}
 
 		research_cost = 2.15
 		start_year = 957
 		folder = {
 			name = deer_folder
-			position = { x = 4 y = 14 }
+			position = { x = 2 y = 14 }
 		}
 		
 		categories = {
@@ -313,6 +495,7 @@ technologies = {
 
 
 		dependencies = {
+			tech_civilized = 1
 		}	
 
 		path = {
@@ -345,6 +528,7 @@ technologies = {
 		dig_in_speed = 0.2
 
 		dependencies = {
+			tech_civilized = 1
 		}	
 
 		research_cost = 2.15
@@ -399,6 +583,7 @@ technologies = {
 		invasion_preparation = -0.15
 
 		dependencies = {
+			tech_civilized = 1
 		}	
 
 		path = {
@@ -427,6 +612,7 @@ technologies = {
 		industrial_capacity_dockyard = 0.3
 
 		dependencies = {
+			tech_civilized = 1
 		}	
 
 		research_cost = 2.15
@@ -563,8 +749,10 @@ technologies = {
 			defense = 0.10
 			max_organisation = 10
 		}
+		xor = { heirs_of_vikings }
 
 		dependencies = {
+			tech_civilized = 1
 		}	
 
 		path = {
@@ -597,6 +785,7 @@ technologies = {
 		}
 
 		dependencies = {
+			tech_civilized = 1
 		}	
 
 		path = {
@@ -630,6 +819,7 @@ technologies = {
 		}
 
 		dependencies = {
+			tech_civilized = 1
 		}	
 
 		path = {
@@ -671,8 +861,10 @@ technologies = {
 				movement = 0.20
 			}
 		}
+		xor = { heirs_of_jaris }
 
 		dependencies = {
+			tech_civilized = 1
 		}	
 
 		path = {
@@ -696,7 +888,7 @@ technologies = {
 		}
 	}
 
-	light_infantry_expertise= {
+	light_infantry_expertise = {
 
 		category_highlanders = {
 			defense = 0.15
@@ -705,6 +897,7 @@ technologies = {
 		}
 
 		dependencies = {
+			tech_civilized = 1
 		}	
 
 		path = {
@@ -737,6 +930,7 @@ technologies = {
 		}
 
 		dependencies = {
+			tech_civilized = 1
 		}	
 
 		path = {
@@ -768,6 +962,7 @@ technologies = {
 		}
 
 		dependencies = {
+			tech_civilized = 1
 		}	
 
 		research_cost = 2.15
@@ -863,6 +1058,7 @@ technologies = {
 	eihwaz_rune = {
 
 		dependencies = {
+			tech_civilized = 1
 		}
 
 		category_army = {
@@ -896,6 +1092,7 @@ technologies = {
 	raido_rune = {
 
 		dependencies = {
+			tech_civilized = 1
 		}
 
 		category_army = {
@@ -954,6 +1151,7 @@ technologies = {
 	sowlio_rune = {
 
 		dependencies = {
+			tech_civilized = 1
 		}
 
 		category_army = {
@@ -987,6 +1185,7 @@ technologies = {
 	cen_rune = {
 
 		dependencies = {
+			tech_civilized = 1
 		}
 
 		category_army = {
@@ -1046,6 +1245,7 @@ technologies = {
 	cult_of_personality = {
 
 		dependencies = {
+			tech_civilized = 1
 		}
 
 		political_power_gain = 0.25
@@ -1075,6 +1275,7 @@ technologies = {
 	faith_in_victory = {
 
 		dependencies = {
+			tech_civilized = 1
 		}
 
 		org_loss_when_moving = -0.1	
@@ -1102,7 +1303,7 @@ technologies = {
 	runic_warriors = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		enable_subunits = {
@@ -1142,7 +1343,7 @@ technologies = {
 	peorth_rune = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		category_rune_warrior = {
@@ -1179,7 +1380,7 @@ technologies = {
 	terror_tactics = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		category_rune_warrior = {
@@ -1211,7 +1412,7 @@ technologies = {
 	runic_invocation = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		category_rune_warrior = {
@@ -1239,12 +1440,12 @@ technologies = {
 	deer_gunlance = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
-		dependencies = {
-            tech_civilized = 1
-        }
+		enable_equipments = {
+			gunlance_equipment_1
+		}
 
 		path = {
 			leads_to_tech = deer_breech_loaded_gunlance
@@ -1274,7 +1475,7 @@ technologies = {
 		}
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		path = {
@@ -1305,7 +1506,7 @@ technologies = {
 		}
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		research_cost = 2.15
@@ -1327,7 +1528,7 @@ technologies = {
 	battle_seers = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		enable_subunits = {
@@ -1370,7 +1571,7 @@ technologies = {
 	battlefield_coordination = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		coordination_bonus = 0.2
@@ -1401,7 +1602,7 @@ technologies = {
 	high_command_seer_attache = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		max_planning = 0.2
@@ -1433,7 +1634,7 @@ technologies = {
 	battle_divination = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		category_battle_seers = {
@@ -1470,7 +1671,7 @@ technologies = {
 	precognitive_reconnaissance = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		category_battle_seers = {
@@ -1502,7 +1703,7 @@ technologies = {
 	dance_with_death = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		category_battle_seers = {
@@ -1539,7 +1740,7 @@ technologies = {
 	magic_of_frost = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		category_battle_seers = {
@@ -1573,7 +1774,7 @@ technologies = {
 	visions_of_glory = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		category_battle_seers = {
@@ -1606,7 +1807,7 @@ technologies = {
 	stormcalling = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		category_battle_seers = {
@@ -1633,7 +1834,7 @@ technologies = {
 	battle_meditation = {
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		coordination_bonus = 0.05
@@ -1665,7 +1866,7 @@ technologies = {
 		}
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		path = {
@@ -1696,7 +1897,7 @@ technologies = {
 		}
 
 		dependencies = {
-            tech_civilized = 1
+            tech_industrialized = 1
         }
 
 		research_cost = 3.22
