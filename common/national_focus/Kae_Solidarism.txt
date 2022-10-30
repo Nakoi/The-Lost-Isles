@@ -1277,8 +1277,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			503 = { add_manpower = -1000 }
+			506 = { add_manpower = -1000 }
 			503 = { add_compliance = 15 }
 			506 = { add_compliance = 15 }
+			add_manpower = -200
 		}
 	}
 
@@ -1299,8 +1302,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			505 = { add_manpower = -1000 }
+			504 = { add_manpower = -1000 }
 			505 = { add_compliance = 15 }
 			504 = { add_compliance = 15 }
+			add_manpower = -200
 		}
 	}
 
@@ -1321,8 +1327,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			501 = { add_manpower = -1000 }
+			500 = { add_manpower = -1000 }
 			501 = { add_compliance = 15 }
 			500 = { add_compliance = 15 }
+			add_manpower = -200
 		}
 	}
 
@@ -1356,6 +1365,17 @@ focus_tree = {
 		completion_reward = {
 			add_state_claim = 478
 			add_state_claim = 479
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 495
+					num_provinces = 1
+				}	
+				defender = {
+					state = 479
+					num_provinces = 1
+				}
+			}
 		}
 	}
 
@@ -1398,6 +1418,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = { id = kae_event.3 }
+			add_manpower = 10000
 			add_war_support = 0.05
 		}
 	}
