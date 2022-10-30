@@ -95,7 +95,7 @@ ideas = {
 			}
 				
 			modifier = {
-				local_resources = 0.2
+				local_resources_factor = 0.2
 			}
 		}
 
@@ -107,7 +107,7 @@ ideas = {
 			}
 				
 			modifier = {
-				local_resources = 0.3
+				local_resources_factor = 0.3
 				production_lack_of_resource_penalty_factor = -0.1
 			}
 		}
