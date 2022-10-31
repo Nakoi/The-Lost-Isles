@@ -70,6 +70,101 @@ ideas = {
 			}
 		}
 
+		ESU_pony_rights_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.1
+				monthly_population = 0.01
+			}
+		}
+
+		ESU_more_workers_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		ESU_improved_eductation = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+
+		ESU_more_workers_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				consumer_goods_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+
+		ESU_more_workers_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				consumer_goods_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+
+		ESU_equal_officers = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				max_planning_factor = 0.2
+				planning_speed = 0.1
+				training_time_factor = -0.1
+
+			}
+		}
+
+		ESU_sience_progress = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+
 
     }
 }

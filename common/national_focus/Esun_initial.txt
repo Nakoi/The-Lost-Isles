@@ -61,6 +61,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			#ADDS EVENT
 		}
 	}
 
@@ -79,6 +80,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_stability = 0.1
+			add_ideas = ESU_pony_rights_idea
 		}
 	}
 
@@ -97,6 +100,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			#ADDS EVENT
 		}
 	}
 
@@ -115,6 +119,28 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			122 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			123 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			124 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = ESU_more_workers_01
 		}
 	}
 
@@ -130,9 +156,14 @@ focus_tree = {
 		}
 		
 		available = {
+			#RQUIRES ideas = ESU_more_workers_01
 		}
 		
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = ESU_more_workers_01
+				add_idea = ESU_more_workers_02
+			}
 		}
 	}
 
@@ -151,6 +182,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_ideas = ESU_improved_eductation
 		}
 	}
 
@@ -170,6 +202,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			#ADDS TWO DIVISIONS
+			add_manpower = 5000
 		}
 	}
 
@@ -188,6 +222,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_ideas = ESU_equal_officers
 		}
 	}
 
@@ -206,6 +241,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_manpower = 5000
+			#CREATE 1 DIVISION
 		}
 	}
 
@@ -225,6 +262,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			#adds event
+			add_stability = 0.1
+			add_war_support = 0.05
+			add_political_power = 150
 		}
 	}
 
@@ -263,6 +304,50 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			122 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			123 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			124 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			125 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			122 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3456
+				}
+			}
+			124 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 469
+				}
+			}
 		}
 	}
 
@@ -279,9 +364,14 @@ focus_tree = {
 		}
 		
 		available = {
+			
 		}
 		
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = ESU_more_workers_02
+				add_idea = ESU_more_workers_03
+			}
 		}
 	}
 
@@ -300,6 +390,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+
 		}
 	}
 
@@ -318,6 +409,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_resource = {
+				type = iron
+				amount = 10
+				state = 124
+			}
 		}
 	}
 
@@ -336,6 +432,20 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			467 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			123 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -351,6 +461,11 @@ focus_tree = {
 		}
 		
 		available = {
+			add_resource = {
+				type = wood
+				amount = 10
+				state = 124
+			}
 		}
 		
 		completion_reward = {
@@ -374,6 +489,38 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			122 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3456
+				}
+			}
+			124 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 469
+				}
+			}
+			123 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 1841
+				}
+			}
+			481 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3333
+				}
+			}
 		}
 	}
 
@@ -394,6 +541,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_research_slot = 1
+			add_ideas = ESU_sience_progress
 		}
 	}
 
