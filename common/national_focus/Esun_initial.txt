@@ -274,7 +274,7 @@ focus_tree = {
 		prerequisite = { focus = ESU_ponies_and_kirins_for_our_nation }
 		prerequisite = { focus = ESU_scienctific_progress }
 		prerequisite = { focus = ESU_Trains_across_the_nation }
-		x = 1
+		x = 0
 		y = 9
 		relative_position_id = ESU_visionarism
 		cost = 3
@@ -378,7 +378,7 @@ focus_tree = {
 	focus = {
 		id = ESU_industry_investment
 		prerequisite = { focus = ESU_biger_workforce }
-		x = 3
+		x = 2
 		y = 5
 		relative_position_id = ESU_visionarism
 		cost = 3
@@ -568,9 +568,9 @@ focus_tree = {
 
 	focus = {
 		id = ESU_envoys_to_the_clans
-		prerequisite = { focus = ESU_old_relations focus = ESU_send_troops_to_the_front}
+		prerequisite = { focus = ESU_eyes_on_the_clans }
 		x = 10
-		y = 2
+		y = 3
 		relative_position_id = ESU_visionarism
 		cost = 3
 		ai_will_do = {
@@ -588,8 +588,8 @@ focus_tree = {
 	focus = {
 		id = ESU_talks_with_Hriki
 		prerequisite = { focus = ESU_envoys_to_the_clans }
-		x = 0
-		y = 2
+		x = -1
+		y = 1
 		relative_position_id = ESU_envoys_to_the_clans
 		cost = 3
 		ai_will_do = {
@@ -624,8 +624,8 @@ focus_tree = {
 	focus = {
 		id = ESU_talks_with_onki
 		prerequisite = { focus = ESU_envoys_to_the_clans }
-		x = -1
-		y = 1
+		x = 0
+		y = 2
 		relative_position_id = ESU_envoys_to_the_clans
 		cost = 3
 		ai_will_do = {
@@ -638,7 +638,191 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-
+	
+	focus = {
+		id = ESU_eyes_on_the_clans
+		prerequisite = { focus = ESU_old_relations }
+		x = -4
+		y = -1
+		relative_position_id = ESU_envoys_to_the_clans
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ESU_acquire_weapons
+		prerequisite = { focus = ESU_eyes_on_the_clans }
+		x = 0
+		y = 1
+		relative_position_id = ESU_eyes_on_the_clans
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ESU_amnesty_for_their_soldiers
+		prerequisite = { focus = ESU_acquire_weapons }
+		mutually_exclusive = { focus = ESU_no_forgiveness }
+		x = -1
+		y = 2
+		relative_position_id = ESU_eyes_on_the_clans
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ESU_no_forgiveness
+		prerequisite = { focus = ESU_acquire_weapons }
+		mutually_exclusive = { focus = ESU_amnesty_for_their_soldiers }
+		x = 1
+		y = 2
+		relative_position_id = ESU_eyes_on_the_clans
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ESU_restore_control
+		prerequisite = { focus = ESU_amnesty_for_their_soldiers focus = ESU_no_forgiveness }
+		x = 0
+		y = 3
+		relative_position_id = ESU_eyes_on_the_clans
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ESU_secure_our_south
+		prerequisite = { focus = ESU_send_troops_to_the_front }
+		x = 4
+		y = -1
+		relative_position_id = ESU_envoys_to_the_clans
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ESU_crush_them_all
+		prerequisite = { focus = ESU_secure_our_south }
+		x = 0
+		y = 1
+		relative_position_id = ESU_secure_our_south
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ESU_enslave_them
+		prerequisite = { focus = ESU_crush_them_all }
+		mutually_exclusive = { focus = ESU_redemption_through_blood }
+		x = -1
+		y = 2
+		relative_position_id = ESU_secure_our_south
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ESU_redemption_through_blood
+		prerequisite = { focus = ESU_crush_them_all }
+		mutually_exclusive = { focus = ESU_enslave_them }
+		x = 1
+		y = 2
+		relative_position_id = ESU_secure_our_south
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ESU_deal_with_sunotian_imperialism
+		prerequisite = { focus = ESU_enslave_them focus = ESU_redemption_through_blood }
+		x = 0
+		y = 3
+		relative_position_id = ESU_secure_our_south
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+	
 	#militarism
 
 	focus = {
@@ -703,113 +887,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
-	}
-
-	focus = {
-		id = ESU_experienced_officers
-		prerequisite = { focus = ESU_send_troops_to_the_front }
-		x = -2
-		y = 2
-		relative_position_id = ESU_militarism
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			#add 2 new commanders
-			add_manpower = 2000
-		}
-	}
-
-	focus = {
-		id = ESU_remove_the_inexperienced
-		prerequisite = { focus = ESU_experienced_officers }
-		x = -3
-		y = 3
-		relative_position_id = ESU_militarism
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			add_manpower = -500
-			#remove a commander
-			add_stability = -0.1
-			add_timed_idea = {
-				idea = ESU_removed_officers
-				days = 180
-			}
-		}
-	}
-
-	focus = {
-		id = ESU_offensive_army
-		prerequisite = { focus = ESU_remove_the_inexperienced }
-		mutually_exclusive = {focus = ESU_defensive_army}
-		x = -4
-		y = 4
-		relative_position_id = ESU_militarism
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			add_war_support = 0.05
-			add_ideas = ESU_offensive_army_idea
-		}
-	}
-
-	focus = {
-		id = ESU_defensive_army
-		prerequisite = { focus = ESU_remove_the_inexperienced }
-		mutually_exclusive = {focus = ESU_offensive_army}
-		x = -2
-		y = 4
-		relative_position_id = ESU_militarism
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			add_war_support = 0.05
-			add_ideas = ESU_defence_army_idea
-		}
-	}
-
-
-	focus = {
-		id = ESU_mandatory_duty
-		prerequisite = { focus = ESU_defensive_army focus = ESU_offensive_army}
-		x = -3
-		y = 5
-		relative_position_id = ESU_militarism
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			add_ideas = ESU_mandatory_duty_idea
 		}
 	}
 
@@ -999,7 +1076,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ESU_dawn_of_a_new_empire
+		id = ESU_militarisation_of_the_state
 		prerequisite = { focus = ESU_our_ruler_is_right }
 		prerequisite = { focus = ESU_expand_the_rail_roads }
 		x = 1
@@ -1015,6 +1092,170 @@ focus_tree = {
 		
 		completion_reward = {
 			#adds event
+		}
+	}
+	
+	focus = {
+		id = ESU_offensive_army
+		prerequisite = { focus = ESU_militarisation_of_the_state }
+		mutually_exclusive = { focus = ESU_defensive_army }
+		x = 0
+		y = 6
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_war_support = 0.05
+			add_ideas = ESU_offensive_army_idea
+		}
+	}
+
+	focus = {
+		id = ESU_defensive_army
+		prerequisite = { focus = ESU_militarisation_of_the_state }
+		mutually_exclusive = { focus = ESU_offensive_army }
+		x = 2
+		y = 6
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_war_support = 0.05
+			add_ideas = ESU_defence_army_idea
+		}
+	}
+
+
+	focus = {
+		id = ESU_mandatory_duty
+		prerequisite = { focus = ESU_defensive_army focus = ESU_offensive_army }
+		x = 1
+		y = 7
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_mandatory_duty_idea
+		}
+	}
+	
+	focus = {
+		id = ESU_cult_of_personality
+		prerequisite = { focus = ESU_our_ruler_is_right }
+		x = -3
+		y = 5
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_mandatory_duty_idea
+		}
+	}
+	
+	focus = {
+		id = ESU_songs_for_the_leader
+		prerequisite = { focus = ESU_militarisation_of_the_state }
+		prerequisite = { focus = ESU_cult_of_personality }
+		x = -4
+		y = 6
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_war_support = 0.05
+			add_ideas = ESU_offensive_army_idea
+		}
+	}
+
+	focus = {
+		id = ESU_statues_of_the_leader
+		prerequisite = { focus = ESU_militarisation_of_the_state }
+		prerequisite = { focus = ESU_cult_of_personality }
+		x = -2
+		y = 6
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_war_support = 0.05
+			add_ideas = ESU_defence_army_idea
+		}
+	}
+
+
+	focus = {
+		id = ESU_long_live_our_leader
+		prerequisite = { focus = ESU_songs_for_the_leader }
+		prerequisite = { focus = ESU_statues_of_the_leader }
+		x = -3
+		y = 7
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_mandatory_duty_idea
+		}
+	}
+	
+	focus = {
+		id = ESU_kirin_unification
+		prerequisite = { focus = ESU_mandatory_duty }
+		prerequisite = { focus = ESU_long_live_our_leader }
+		x = -1
+		y = 9
+		relative_position_id = ESU_militarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_mandatory_duty_idea
 		}
 	}
 
