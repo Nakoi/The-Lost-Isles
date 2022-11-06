@@ -22,7 +22,7 @@ country_event = {
 			remove_idea = policy_reactionary
 		}
 		ai_chance = {
-			factor = 50
+			base = 50
 		}
 	}
 	
@@ -35,7 +35,7 @@ country_event = {
 			remove_idea = policy_reactionary
 		}
 		ai_chance = {
-			factor = 50
+			base = 50
 		}
 	}
 }
@@ -83,13 +83,13 @@ country_event = {
 		name = avt_event.3.a
 		country_event = { id = avt_event.4 }
 		ai_chance = {
-			factor = 10
+			base = 10
 		}
 	}
 	option = {
 		name = avt_event.3.b
 		ai_chance = {
-			factor = 90
+			base = 90
 		}
 	}
 }
@@ -107,14 +107,14 @@ country_event = {
 		name = avt_event.4.a
 		country_event = { id = avt_event.5 }
 		ai_chance = {
-			factor = 10
+			base = 10
 		}
 	}
 	option = {
 		name = avt_event.4.b
 		country_event = { id = avt_event.7 }
 		ai_chance = {
-			factor = 90
+			base = 90
 		}
 	}
 }
@@ -200,14 +200,14 @@ country_event = {
 		add_stability = 0.05
 		add_political_power = -50
 		ai_chance = {
-			factor = 25
+			base = 25
 		}
 	}
 	option = {
 		name = avt_event.8.b
 		add_political_power = 20
 		ai_chance = {
-			factor = 50
+			base = 50
 		}
 	}
 	option = {
@@ -215,7 +215,7 @@ country_event = {
 		add_stability = -0.05
 		add_political_power = 50
 		ai_chance = {
-			factor = 25
+			base = 25
 		}
 	}
 }
@@ -234,14 +234,14 @@ country_event = {
 		add_stability = 0.05
 		add_political_power = -50
 		ai_chance = {
-			factor = 25
+			base = 25
 		}
 	}
 	option = {
 		name = avt_event.9.b
 		add_political_power = 20
 		ai_chance = {
-			factor = 25
+			base = 25
 		}
 	}
 	option = {
@@ -249,7 +249,7 @@ country_event = {
 		add_stability = -0.05
 		add_political_power = 50
 		ai_chance = {
-			factor = 50
+			base = 50
 		}
 	}
 }
@@ -273,7 +273,7 @@ country_event = {
 			popularity = 0.02
 		}
 		ai_chance = {
-			factor = 10
+			base = 10
 		}
 	}
 	option = {
@@ -284,7 +284,7 @@ country_event = {
 			popularity = 0.02
 		}
 		ai_chance = {
-			factor = 80
+			base = 80
 		}
 	}
 	option = {
@@ -295,7 +295,7 @@ country_event = {
 			popularity = 0.02
 		}
 		ai_chance = {
-			factor = 10
+			base = 10
 		}
 	}
 }
@@ -457,18 +457,19 @@ country_event = {
 			give_military_access = AVT
 		}
 		ai_chance = {
+			base = 50
 			modifier = {
-				factor = 90
+				add = 50
 				has_opinion = {
 					target = AVT
 					value > 89
 				}	
 			}
 			modifier = {
-				factor = 50
+				add = 25
 				has_opinion = {
 					target = AVT
-					value < 89
+					value > 24
 				}
 			}	
 		}
@@ -489,8 +490,9 @@ country_event = {
 			}
 		}
 		ai_chance = {
+			base = 50
 			modifier = {
-				factor = 100
+				add = 50
 				has_opinion = {
 					target = AVT
 					value < -15
@@ -544,18 +546,19 @@ country_event = {
 			}
 		}
 		ai_chance = {
+			base = 50
 			modifier = {
-				factor = 90
+				add = 50
 				has_opinion = {
 					target = AVT
 					value > 89
 				}	
 			}
 			modifier = {
-				factor = 50
+				add = 25
 				has_opinion = {
 					target = AVT
-					value < 89
+					value > 24
 				}
 			}	
 		}
@@ -576,8 +579,9 @@ country_event = {
 			}
 		}
 		ai_chance = {
+			base = 50
 			modifier = {
-				factor = 100
+				add = 50
 				has_opinion = {
 					target = AVT
 					value < -15
@@ -598,7 +602,7 @@ country_event = {
 	
 	option = {
 		name = avt_tsarevent.4.a
-		ai_chance = {
+		base = {
 			factor = 80
 		}
 	}
@@ -606,7 +610,7 @@ country_event = {
 	option = {
 		name = avt_tsarevent.4.b
 		set_capital = { state = 500 }
-		ai_chance = {
+		base = {
 			factor = 10
 		}
 	}
@@ -614,7 +618,7 @@ country_event = {
 	option = {
 		name = avt_tsarevent.4.c
 		set_capital = { state = 122 }
-		ai_chance = {
+		base = {
 			factor = 10
 		}
 	}
@@ -632,14 +636,14 @@ country_event = {
 	option = {
 		name = avt_tsarevent.5.a
 		add_stability = 0.05
-		ai_chance = {
+		base = {
 			factor = 25
 		}
 	}
 	
 	option = {
 		name = avt_tsarevent.5.b
-		ai_chance = {
+		base = {
 			factor = 50
 		}
 	}
@@ -648,7 +652,7 @@ country_event = {
 		name = avt_tsarevent.5.c
 		add_stability = -0.1
 		add_political_power = -50
-		ai_chance = {
+		base = {
 			factor = 25
 		}
 	}
@@ -678,20 +682,21 @@ country_event = {
 			give_guarantee = ROOT
 		}
 		ai_chance = {
+			base = 50
 			modifier = {
-				factor = 90
+				add = 50
 				has_opinion = {
 					target = AVT
 					value > 89
 				}	
 			}
 			modifier = {
-				factor = 50
+				add = 25
 				has_opinion = {
 					target = AVT
-					value < 89
-				}	
-			}
+					value > 24
+				}
+			}	
 		}
 	}
 	
@@ -708,8 +713,9 @@ country_event = {
 			}
 		}
 		ai_chance = {
+			base = 50
 			modifier = {
-				factor = 100
+				add = 50
 				has_opinion = {
 					target = AVT
 					value < -15

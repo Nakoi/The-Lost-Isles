@@ -68,7 +68,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 20
+			base = 20
 		}
 	}
 	
@@ -81,7 +81,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 80
+			base = 80
 		}
 	}
 }
@@ -134,18 +134,19 @@ country_event = {
 		}
 		ESU = { set_country_flag = kae_esun_agreed_sunotia_war }
 		ai_chance = {
+			base = 50
 			modifier = {
-				factor = 90
+				add = 50
 				has_opinion = {
 					target = KAE
 					value > 89
 				}	
 			}
 			modifier = {
-				factor = 60
+				add = 25
 				has_opinion = {
 					target = KAE
-					value < 89
+					value > 24
 				}
 			}	
 		}
@@ -161,8 +162,9 @@ country_event = {
 		}
 		ESU = { set_country_flag = kae_esun_refused_sunotia_war }
 		ai_chance = {
+			base = 50
 			modifier = {
-				factor = 100
+				add = 50
 				has_opinion = {
 					target = KAE
 					value < -15
@@ -254,18 +256,19 @@ country_event = {
 			}
 		}
 		ai_chance = {
+			base = 50
 			modifier = {
-				factor = 90
+				add = 50
 				has_opinion = {
 					target = KAE
 					value > 89
 				}	
 			}
 			modifier = {
-				factor = 60
+				add = 25
 				has_opinion = {
 					target = KAE
-					value < 89
+					value > 24
 				}
 			}	
 		}
@@ -280,8 +283,9 @@ country_event = {
 			}
 		}
 		ai_chance = {
+			base = 50
 			modifier = {
-				factor = 100
+				add = 50
 				has_opinion = {
 					target = KAE
 					value < -15
