@@ -1294,4 +1294,666 @@ focus_tree = {
 	}
 
 #Faction forming
+
+
+#HIDDEN TREE FOR VISIONARISM
+
+	focus = {
+		id = ESU_a_new_dawn
+		prerequisite = { focus = ESU_ideas_of_vengence }
+		x = 0
+		y = 10
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+#EXPANSION
+	focus = {
+		id = ESU_all_for_the_nation
+		prerequisite = { focus = ESU_a_new_dawn }
+		mutually_exclusive = { focus = ESU_an_old_enemy }
+		x = -4
+		y = 11
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_noble_workforce
+		prerequisite = { focus = ESU_all_for_the_nation }
+		x = -2
+		y = 1
+
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#CREATES EVENT ABOUT ESUN SUPPORTING THE BRAVE WORKERS
+		}
+	}
+
+	focus = {
+		id = ESU_lead_by_example
+		prerequisite = { focus = ESU_all_for_the_nation }
+		x = 2
+		y = 1
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#gives an event where esun sends a work force to the recently captured regions to boost production
+			#adds infrastructure in the Hiriki, waonto and Onki regions
+		}
+	}
+
+	focus = {
+		id = ESU_steampower
+		prerequisite = { focus = ESU_lead_by_example }
+		prerequisite = { focus = ESU_noble_workforce }
+		x = 1
+		y = 2
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#gives an event about steam engines being introduced into the factories to speed up production
+			#creates civ factories in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_streamline_the_production
+		prerequisite = { focus = ESU_lead_by_example }
+		prerequisite = { focus = ESU_noble_workforce }
+		x = 3
+		y = 2
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#gives an event about steam engines being introduced into the factories to speed up production
+			#creates civ factories in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_harbor_expansion
+		prerequisite = { focus = ESU_lead_by_example }
+		prerequisite = { focus = ESU_noble_workforce }
+		x = -1
+		y = 2
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#creates dockyards and gives 100 convoy
+		}
+	}
+
+	focus = {
+		id = ESU_spark_the_factories
+		prerequisite = { focus = ESU_lead_by_example }
+		prerequisite = { focus = ESU_noble_workforce }
+		x = -3
+		y = 2
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_economic_boom
+		prerequisite = { focus = ESU_spark_the_factories }
+		prerequisite = { focus = ESU_harbor_expansion }
+		x = -2
+		y = 3
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_mandatory_service
+		prerequisite = { focus = ESU_streamline_the_production }
+		prerequisite = { focus = ESU_steampower }
+		x = 2
+		y = 3
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_sience_division
+		prerequisite = { focus = ESU_lead_by_example }
+		prerequisite = { focus = ESU_noble_workforce }
+		x = 0
+		y = 3
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_Focus_01
+		prerequisite = { focus = ESU_sience_division }
+		x = 1
+		y = 4
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_Focus_02
+		prerequisite = { focus = ESU_sience_division }
+		x = -1
+		y = 4
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_Focus_03
+		prerequisite = { focus = ESU_Focus_02 }
+		prerequisite = { focus = ESU_Focus_01 }
+		x = 0
+		y = 5
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_Focus_04
+		prerequisite = { focus = ESU_economic_boom }
+		x = -2
+		y = 5
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_Focus_05
+		prerequisite = { focus = ESU_mandatory_service }
+		x = 2
+		y = 5
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_Focus_06
+		prerequisite = { focus = ESU_Focus_04 }
+		prerequisite = { focus = ESU_Focus_03 }
+		prerequisite = { focus = ESU_Focus_05 }
+		x = 0
+		y = 6
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+
+#IJIKAMI FOCUS TREE
+	focus = {
+		id = ESU_an_old_enemy
+		prerequisite = { focus = ESU_a_new_dawn }
+		mutually_exclusive = { focus = ESU_all_for_the_nation }
+		x = 4
+		y = 11
+		relative_position_id = ESU_visionarism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_01
+		prerequisite = { focus = ESU_an_old_enemy }
+		x = -2
+		y = 1
+
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#CREATES EVENT ABOUT ESUN SUPPORTING THE BRAVE WORKERS
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_02
+		prerequisite = { focus = ESU_an_old_enemy }
+		x = 2
+		y = 1
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#gives an event where esun sends a work force to the recently captured regions to boost production
+			#adds infrastructure in the Hiriki, waonto and Onki regions
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_03
+		prerequisite = { focus = ESU_iji_focus_02 }
+		prerequisite = { focus = ESU_iji_focus_01 }
+		x = 1
+		y = 2
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#gives an event about steam engines being introduced into the factories to speed up production
+			#creates civ factories in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_04
+		prerequisite = { focus = ESU_iji_focus_02 }
+		prerequisite = { focus = ESU_iji_focus_01 }
+		x = 3
+		y = 2
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#gives an event about steam engines being introduced into the factories to speed up production
+			#creates civ factories in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_05
+		prerequisite = { focus = ESU_iji_focus_02 }
+		prerequisite = { focus = ESU_iji_focus_01 }
+		x = -1
+		y = 2
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#creates dockyards and gives 100 convoy
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_06
+		prerequisite = { focus = ESU_iji_focus_02 }
+		prerequisite = { focus = ESU_iji_focus_01 }
+		x = -3
+		y = 2
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_07
+		prerequisite = { focus = ESU_iji_focus_06 }
+		prerequisite = { focus = ESU_iji_focus_05 }
+		x = -2
+		y = 3
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_08
+		prerequisite = { focus = ESU_iji_focus_03 }
+		prerequisite = { focus = ESU_iji_focus_04 }
+		x = 2
+		y = 3
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_09
+		prerequisite = { focus = ESU_iji_focus_01 }
+		prerequisite = { focus = ESU_iji_focus_02 }
+		x = 0
+		y = 3
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_10
+		prerequisite = { focus = ESU_iji_focus_09 }
+		x = 1
+		y = 4
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_11
+		prerequisite = { focus = ESU_iji_focus_10 }
+		x = -1
+		y = 4
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_12
+		prerequisite = { focus = ESU_iji_focus_11 }
+		prerequisite = { focus = ESU_iji_focus_10 }
+		x = 0
+		y = 5
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_13
+		prerequisite = { focus = ESU_iji_focus_07 }
+		x = -2
+		y = 5
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_14
+		prerequisite = { focus = ESU_iji_focus_08 }
+		x = 2
+		y = 5
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+	focus = {
+		id = ESU_iji_focus_15
+		prerequisite = { focus = ESU_iji_focus_12 }
+		prerequisite = { focus = ESU_iji_focus_13 }
+		prerequisite = { focus = ESU_iji_focus_14 }
+		x = 0
+		y = 6
+		relative_position_id = ESU_an_old_enemy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			#adds iron and coal in a few states
+		}
+	}
+
+
 }
