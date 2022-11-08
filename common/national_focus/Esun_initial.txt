@@ -1474,7 +1474,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#creates idea : economic_boom_idea
+			#production_factory_max_efficiency_factor = +X
+			#industrial_capacity_factory = +x
+			#production_speed_buildings_factor = +x
 		}
 	}
 
@@ -1494,7 +1497,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#adds 5000 manpower
+			#creates idea : disipline_by_service
+			#army_morale = +X
+			#army_org = +X
 		}
 	}
 
@@ -1514,13 +1520,16 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#adds 1 extra research slot
+			#creates idea : Research_divisions
+			#research_speed_factor = +X
 		}
 	}
 
 	focus = {
-		id = ESU_Focus_01
+		id = ESU_support_the_troops
 		prerequisite = { focus = ESU_sience_division }
+		mutually_exclusive = { focus = ESU_Stabalize_the_nation }
 		x = 1
 		y = 4
 		relative_position_id = ESU_all_for_the_nation
@@ -1533,13 +1542,15 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#creates idea : troop_support
+			#war_support_factor = +X%
 		}
 	}
 
 	focus = {
-		id = ESU_Focus_02
+		id = ESU_Stabalize_the_nation
 		prerequisite = { focus = ESU_sience_division }
+		mutually_exclusive = { focus = ESU_support_the_troops }
 		x = -1
 		y = 4
 		relative_position_id = ESU_all_for_the_nation
@@ -1552,14 +1563,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#creates idea : stable_nation
+			#stability_factor = +X%
 		}
 	}
 
 	focus = {
-		id = ESU_Focus_03
-		prerequisite = { focus = ESU_Focus_02 }
-		prerequisite = { focus = ESU_Focus_01 }
+		id = ESU_steadfast
+		prerequisite = { focus = ESU_Stabalize_the_nation focus = ESU_support_the_troops  }
 		x = 0
 		y = 5
 		relative_position_id = ESU_all_for_the_nation
@@ -1572,12 +1583,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#creates an option for create a faction 
 		}
 	}
 
 	focus = {
-		id = ESU_Focus_04
+		id = ESU_worker_tools
 		prerequisite = { focus = ESU_economic_boom }
 		x = -2
 		y = 5
@@ -1591,12 +1602,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#adds civ factories in a few states
 		}
 	}
 
 	focus = {
-		id = ESU_Focus_05
+		id = ESU_faith_in_our_nation
 		prerequisite = { focus = ESU_mandatory_service }
 		x = 2
 		y = 5
@@ -1610,15 +1621,15 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#adds idea
 		}
 	}
 
 	focus = {
-		id = ESU_Focus_06
-		prerequisite = { focus = ESU_Focus_04 }
-		prerequisite = { focus = ESU_Focus_03 }
-		prerequisite = { focus = ESU_Focus_05 }
+		id = ESU_world_wonder
+		prerequisite = { focus = ESU_worker_tools }
+		prerequisite = { focus = ESU_steadfast }
+		prerequisite = { focus = ESU_faith_in_our_nation }
 		x = 0
 		y = 6
 		relative_position_id = ESU_all_for_the_nation
@@ -1631,7 +1642,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#add event about a gigantic monument built for the nation of esun as it stands tall above all others
 		}
 	}
 
@@ -1657,7 +1668,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ESU_iji_focus_01
+		id = ESU_Informant_bureau
 		prerequisite = { focus = ESU_an_old_enemy }
 		x = -2
 		y = 1
@@ -1672,12 +1683,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#CREATES EVENT ABOUT ESUN SUPPORTING THE BRAVE WORKERS
+			#CREATES EVENT ABOUT the start of an informant bureau
 		}
 	}
 
 	focus = {
-		id = ESU_iji_focus_02
+		id = ESU_training_plans
 		prerequisite = { focus = ESU_an_old_enemy }
 		x = 2
 		y = 1
@@ -1697,9 +1708,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ESU_iji_focus_03
-		prerequisite = { focus = ESU_iji_focus_02 }
-		prerequisite = { focus = ESU_iji_focus_01 }
+		id = ESU_ijikami_propaganda
+		prerequisite = { focus = ESU_training_plans }
+		prerequisite = { focus = ESU_Informant_bureau }
 		x = 1
 		y = 2
 		relative_position_id = ESU_an_old_enemy
@@ -1718,9 +1729,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ESU_iji_focus_04
-		prerequisite = { focus = ESU_iji_focus_02 }
-		prerequisite = { focus = ESU_iji_focus_01 }
+		id = ESU_officers_education
+		prerequisite = { focus = ESU_training_plans }
+		prerequisite = { focus = ESU_Informant_bureau }
 		x = 3
 		y = 2
 		relative_position_id = ESU_an_old_enemy
@@ -1739,9 +1750,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ESU_iji_focus_05
-		prerequisite = { focus = ESU_iji_focus_02 }
-		prerequisite = { focus = ESU_iji_focus_01 }
+		id = ESU_friends_across
+		prerequisite = { focus = ESU_training_plans }
+		prerequisite = { focus = ESU_Informant_bureau }
 		x = -1
 		y = 2
 		relative_position_id = ESU_an_old_enemy
@@ -1754,14 +1765,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#creates dockyards and gives 100 convoy
+			#event about people that support our informants in Ijikami
 		}
 	}
 
 	focus = {
-		id = ESU_iji_focus_06
+		id = ESU_informant_sabotage
 		prerequisite = { focus = ESU_iji_focus_02 }
-		prerequisite = { focus = ESU_iji_focus_01 }
+		prerequisite = { focus = ESU_Informant_bureau }
 		x = -3
 		y = 2
 		relative_position_id = ESU_an_old_enemy
@@ -1774,14 +1785,15 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#destroys infrastructure in Ijikami
+			#event pop up about the informant success
 		}
 	}
 
 	focus = {
-		id = ESU_iji_focus_07
-		prerequisite = { focus = ESU_iji_focus_06 }
-		prerequisite = { focus = ESU_iji_focus_05 }
+		id = ESU_civil_unrest_plans
+		prerequisite = { focus = ESU_informant_sabotage }
+		prerequisite = { focus = ESU_friends_across }
 		x = -2
 		y = 3
 		relative_position_id = ESU_an_old_enemy
@@ -1794,14 +1806,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#Ijikam gains an idea where it's stability drops
 		}
 	}
 
 	focus = {
-		id = ESU_iji_focus_08
-		prerequisite = { focus = ESU_iji_focus_03 }
-		prerequisite = { focus = ESU_iji_focus_04 }
+		id = ESU_troop_drills
+		prerequisite = { focus = ESU_ijikami_propaganda }
+		prerequisite = { focus = ESU_officers_education }
 		x = 2
 		y = 3
 		relative_position_id = ESU_an_old_enemy
@@ -1814,14 +1826,15 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#adds 2 divisions
+			#adds 10000 manpower 
 		}
 	}
 
 	focus = {
-		id = ESU_iji_focus_09
-		prerequisite = { focus = ESU_iji_focus_01 }
-		prerequisite = { focus = ESU_iji_focus_02 }
+		id = ESU_read_the_navy
+		prerequisite = { focus = ESU_Informant_bureau }
+		prerequisite = { focus = ESU_training_plans }
 		x = 0
 		y = 3
 		relative_position_id = ESU_an_old_enemy
@@ -1831,16 +1844,18 @@ focus_tree = {
 		}
 		
 		available = {
+			#requires naval force of 15 strong and naval ships in regions : 
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#gives navy experience
+			#adds 5 Xebec class ships
 		}
 	}
 
 	focus = {
-		id = ESU_iji_focus_10
-		prerequisite = { focus = ESU_iji_focus_09 }
+		id = ESU_naval_defence
+		prerequisite = { focus = ESU_read_the_navy }
 		x = 1
 		y = 4
 		relative_position_id = ESU_an_old_enemy
@@ -1853,13 +1868,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#Creates idea:  naval_defence_idea
+			#+10% naval defence
 		}
 	}
 
 	focus = {
-		id = ESU_iji_focus_11
-		prerequisite = { focus = ESU_iji_focus_10 }
+		id = ESU_naval_offense
+		prerequisite = { focus = ESU_read_the_navy }
 		x = -1
 		y = 4
 		relative_position_id = ESU_an_old_enemy
@@ -1872,14 +1888,15 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#Creates idea:  naval_offense_idea
+			#+10% naval attack
 		}
 	}
 
 	focus = {
-		id = ESU_iji_focus_12
-		prerequisite = { focus = ESU_iji_focus_11 }
-		prerequisite = { focus = ESU_iji_focus_10 }
+		id = ESU_naval_supremecy
+		prerequisite = { focus = ESU_naval_offense }
+		prerequisite = { focus = ESU_naval_defence }
 		x = 0
 		y = 5
 		relative_position_id = ESU_an_old_enemy
@@ -1892,13 +1909,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#adds 5 battleships
 		}
 	}
 
 	focus = {
-		id = ESU_iji_focus_13
-		prerequisite = { focus = ESU_iji_focus_07 }
+		id = ESU_factory_destruction
+		prerequisite = { focus = ESU_civil_unrest_plans }
 		x = -2
 		y = 5
 		relative_position_id = ESU_an_old_enemy
@@ -1911,13 +1928,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#Damages or removes civil and war factories in Ijikami
 		}
 	}
 
 	focus = {
-		id = ESU_iji_focus_14
-		prerequisite = { focus = ESU_iji_focus_08 }
+		id = ESU_ready_force
+		prerequisite = { focus = ESU_troop_drills }
 		x = 2
 		y = 5
 		relative_position_id = ESU_an_old_enemy
@@ -1935,10 +1952,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ESU_iji_focus_15
+		id = ESU_flames_of_war
 		prerequisite = { focus = ESU_iji_focus_12 }
-		prerequisite = { focus = ESU_iji_focus_13 }
-		prerequisite = { focus = ESU_iji_focus_14 }
+		prerequisite = { focus = ESU_factory_destruction }
+		prerequisite = { focus = ESU_ready_force }
 		x = 0
 		y = 6
 		relative_position_id = ESU_an_old_enemy
@@ -1951,7 +1968,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			#starts civil war in Ijikami
 		}
 	}
 
