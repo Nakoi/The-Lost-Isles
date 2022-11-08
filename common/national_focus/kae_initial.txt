@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_negotiations
-		icon = GFX_focus_esu_generic
+		icon = GFX_focus_kae_generic
 		x = 8
 		y = 0
 		cost = 3
@@ -31,7 +31,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_relations
-		icon = GFX_focus_esu_generic
+		icon = GFX_focus_kae_generic
 		prerequisite = { focus = KAE_negotiations }
 		x = 0
 		y = 1
