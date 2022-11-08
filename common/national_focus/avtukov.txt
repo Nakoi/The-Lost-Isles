@@ -24,6 +24,7 @@ focus_tree = {
 
 	focus = {
 		id = AVT_the_great_modernisation
+		icon = GFX_focus_avt_generic
 		x = 0
 		y = 0
 		cost = 2
@@ -38,6 +39,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_full_speed_ahead
+		icon = GFX_focus_avt_generic
 		prerequisite = { focus = AVT_the_great_modernisation }
 		mutually_exclusive = ( focus = AVT_the_conspiracy }
 		x = -4

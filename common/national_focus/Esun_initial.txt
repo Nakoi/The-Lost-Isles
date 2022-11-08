@@ -16,6 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_Upcoming_elections
+		icon = GFX_focus_esu_generic
 		x = 8
 		y = 0
 		cost = 1
@@ -28,6 +29,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_elections
+		icon = GFX_focus_esu_generic
 		prerequisite = { focus = ESU_Upcoming_elections }
 		x = 0
 		y = 1
