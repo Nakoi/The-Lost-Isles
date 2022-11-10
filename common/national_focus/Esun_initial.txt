@@ -28,31 +28,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ESU_elections
-		icon = GFX_focus_esu_generic
-		prerequisite = { focus = ESU_Upcoming_elections }
-		x = 0
-		y = 1
-		relative_position_id = ESU_Upcoming_elections
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-		}
-	}
-	#visionarism path
-
-	focus = {
 		id = ESU_visionarism
-		prerequisite = { focus = ESU_elections }
+		prerequisite = { focus = ESU_Upcoming_elections }
 		mutually_exclusive = { focus = ESU_militarism }
 		x = -10
-		y = 2
+		y = 1
 		relative_position_id = ESU_Upcoming_elections
 		cost = 3
 		ai_will_do = {
@@ -829,10 +809,10 @@ focus_tree = {
 
 	focus = {
 		id = ESU_militarism
-		prerequisite = { focus = ESU_elections }
+		prerequisite = { focus = ESU_Upcoming_elections }
 		mutually_exclusive = { focus = ESU_visionarism }
 		x = 10
-		y = 2
+		y = 1
 		relative_position_id = ESU_Upcoming_elections
 		cost = 3
 		ai_will_do = {
