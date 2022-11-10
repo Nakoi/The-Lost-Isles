@@ -1971,6 +1971,34 @@ focus_tree = {
 		
 		completion_reward = {
 			#starts civil war in Ijikami
+						hidden_effect = {
+				UES = {			
+					transfer_state  = 11
+					transfer_state  = 9
+					transfer_state  = 8
+					transfer_state  = 7
+					transfer_state  = 371
+					transfer_state  = 6
+					transfer_state  = 5
+					transfer_state  = 4
+							
+
+					add_state_core  = 11
+					add_state_core  = 9
+					add_state_core  = 8
+					add_state_core  = 7
+					add_state_core  = 371
+					add_state_core  = 6
+					add_state_core  = 5
+					add_state_core  = 4
+
+
+					set_capital = { state = 5 }
+					
+					UES = { add_to_faction = ESU }
+					ESU = { puppet = UES }
+				}
+			}
 		}
 	}
 
