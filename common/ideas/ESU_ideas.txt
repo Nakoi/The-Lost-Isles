@@ -1,6 +1,166 @@
 ideas = {	
 	country = {
 		
+		ESU_homecoming_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				war_support_factor = 0.15
+				conscription_factor = 0.1
+			}
+			
+			targeted_modifier = {
+				tag = IJI
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+		
+		ESU_pone_problem_idea_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_factor = -0.2
+				stability_factor = -0.25 
+				conscription_factor = -0.3
+				research_speed_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.2	
+				industrial_capacity_dockyard = -0.2
+			}
+		}
+		
+		ESU_pone_problem_idea_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.125
+				conscription_factor = -0.3
+				research_speed_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.2	
+				industrial_capacity_dockyard = -0.2
+			}
+		}
+		
+		ESU_pone_problem_idea_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.075
+				conscription_factor = -0.3
+				research_speed_factor = -0.15
+				production_factory_max_efficiency_factor = -0.10
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+			}
+		}
+		
+		ESU_pone_problem_idea_04 = { #edu
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.075
+				conscription_factor = -0.3
+				production_factory_max_efficiency_factor = -0.10
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+			}
+		}
+		
+		ESU_pone_problem_idea_05 = { #ind
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.075
+				conscription_factor = -0.3
+				research_speed_factor = -0.15
+			}
+		}
+		
+		ESU_pone_problem_idea_06 = { #all
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.075
+				conscription_factor = -0.3
+			}
+		}
+		
+		ESU_equal_officers_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				max_planning_factor = 0.2
+				planning_speed = 0.1
+				training_time_factor = -0.1
+			}
+		}
+		
+		ESU_equal_officers_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.15
+			}
+		}
+		
+		ESU_equal_officers_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				max_planning_factor = 0.2
+				planning_speed = 0.1
+				training_time_factor = -0.1
+				conscription_factor = 0.15
+			}
+		}
+		
 		ESU_removed_officers = {
 			picture = great_depression
 			removal_cost = -1
@@ -135,21 +295,6 @@ ideas = {
 				consumer_goods_factor = 0.2
 				production_factory_efficiency_gain_factor = 0.15
 				production_factory_max_efficiency_factor = 0.1
-			}
-		}
-
-		ESU_equal_officers = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				max_planning_factor = 0.2
-				planning_speed = 0.1
-				training_time_factor = -0.1
-
 			}
 		}
 
