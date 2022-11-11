@@ -1,5 +1,5 @@
 focus_tree = {
-    id = kae_initial_focus
+    id = esun_focus
 
     country = {
         factor = 0
@@ -19,11 +19,12 @@ focus_tree = {
 		icon = GFX_focus_esu_generic
 		x = 8
 		y = 0
-		cost = 1
+		cost = 12
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
+			#event, pick one
 		}
 	}
 
@@ -40,10 +41,11 @@ focus_tree = {
 		}
 		
 		available = {
+			#always false
 		}
 		
 		completion_reward = {
-			#ADDS EVENT
+			#autocomplete
 		}
 	}
 
@@ -53,7 +55,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -62,8 +64,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_stability = 0.1
-			add_ideas = ESU_pony_rights_idea
+			swap_ideas = {
+				remove_idea = ESU_pone_problem_idea_01
+				add_idea = ESU_pone_problem_idea_02
+			}
 		}
 	}
 
@@ -73,7 +77,7 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -82,7 +86,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#ADDS EVENT
+			swap_ideas = {
+				remove_idea = ESU_pone_problem_idea_02
+				add_idea = ESU_pone_problem_idea_03
+			}
 		}
 	}
 
@@ -92,7 +99,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -102,27 +109,29 @@ focus_tree = {
 		
 		completion_reward = {
 			122 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 			123 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 			124 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
-			add_ideas = ESU_more_workers_01
 		}
 	}
 
@@ -132,19 +141,30 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			#RQUIRES ideas = ESU_more_workers_01
+			
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = ESU_more_workers_01
-				add_idea = ESU_more_workers_02
+			IF = {
+				limit = {
+					has_idea = ESU_pone_problem_idea_04
+				}
+				swap_ideas = {
+					remove_idea = ESU_pone_problem_idea_04
+					add_idea = ESU_pone_problem_idea_06
+				}
+				else = {
+					swap_ideas = {
+						remove_idea = ESU_pone_problem_idea_03
+						add_idea = ESU_pone_problem_idea_05
+					}
+				}
 			}
 		}
 	}
@@ -155,7 +175,7 @@ focus_tree = {
 		x = -3
 		y = 3
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -164,10 +184,24 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = ESU_improved_eductation
+			IF = {
+				limit = {
+					has_idea = ESU_pone_problem_idea_05
+				}
+				swap_ideas = {
+					remove_idea = ESU_pone_problem_idea_05
+					add_idea = ESU_pone_problem_idea_06
+				}
+				else = {
+					swap_ideas = {
+						remove_idea = ESU_pone_problem_idea_03
+						add_idea = ESU_pone_problem_idea_04
+					}
+				}
+			}
 		}
 	}
-
+	
 	focus = {
 		id = ESU_pony_regiments
 		prerequisite = { focus = ESU_pony_work_acceptance }
@@ -175,7 +209,7 @@ focus_tree = {
 		x = -2
 		y = 4
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -184,8 +218,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#ADDS TWO DIVISIONS
-			add_manpower = 5000
+			remove_ideas = ESU_pone_problem_idea_06
 		}
 	}
 
@@ -195,7 +228,7 @@ focus_tree = {
 		x = -3
 		y = 5
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -204,7 +237,18 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = ESU_equal_officers
+			IF = {
+				limit = {
+					has_idea = ESU_equal_officers_02
+				}
+				swap_ideas = {
+					remove_idea = ESU_equal_officers_02
+					add_idea = ESU_equal_officers_03
+				}
+				else = {
+					add_ideas = ESU_equal_officers_01
+				}
+			}
 		}
 	}
 
@@ -214,7 +258,7 @@ focus_tree = {
 		x = -1
 		y = 5
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -223,8 +267,18 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_manpower = 5000
-			#CREATE 1 DIVISION
+			IF = {
+				limit = {
+					has_idea = ESU_equal_officers_01
+				}
+				swap_ideas = {
+					remove_idea = ESU_equal_officers_01
+					add_idea = ESU_equal_officers_03
+				}
+				else = {
+					add_ideas = ESU_equal_officers_02
+				}
+			}
 		}
 	}
 
@@ -235,7 +289,7 @@ focus_tree = {
 		x = -2
 		y = 6
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -259,7 +313,7 @@ focus_tree = {
 		x = 0
 		y = 9
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -277,7 +331,7 @@ focus_tree = {
 		x = 1
 		y = 3
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -340,7 +394,7 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -350,9 +404,29 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = ESU_more_workers_02
-				add_idea = ESU_more_workers_03
+			466 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			470 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			468 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -363,7 +437,7 @@ focus_tree = {
 		x = 2
 		y = 5
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -382,7 +456,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = ESU_industry_investment
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -393,7 +467,7 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = iron
-				amount = 10
+				amount = 12
 				state = 124
 			}
 		}
@@ -405,7 +479,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ESU_industry_investment
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -415,6 +489,7 @@ focus_tree = {
 		
 		completion_reward = {
 			467 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = synthetic_refinery
 					level = 1
@@ -422,6 +497,7 @@ focus_tree = {
 				}
 			}
 			123 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = synthetic_refinery
 					level = 1
@@ -437,20 +513,21 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = ESU_industry_investment
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			add_resource = {
-				type = wood
-				amount = 10
-				state = 124
-			}
+		
 		}
 		
 		completion_reward = {
+			add_resource = {
+				type = wood
+				amount = 24
+				state = 467
+			}
 		}
 	}
 
@@ -462,7 +539,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = ESU_industry_investment
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -514,7 +591,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = ESU_industry_investment
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -536,7 +613,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -550,11 +627,11 @@ focus_tree = {
 
 	focus = {
 		id = ESU_envoys_to_the_clans
-		prerequisite = { focus = ESU_eyes_on_the_clans }
+		prerequisite = { focus = ESU_eyes_on_the_clans focus = ESU_secure_our_south }
 		x = 10
 		y = 3
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -563,6 +640,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			#event, annex if accept, war if refused, 95-99% chance of refuse
 		}
 	}
 
@@ -579,12 +657,18 @@ focus_tree = {
 		}
 		
 		available = {
+			owns_state = 483
+			owns_state = 496
+			owns_state = 497
 		}
 		
 		completion_reward = {
+			483 = { add_compliance = 15 }
+			496 = { add_compliance = 15 }
+			497 = { add_compliance = 15 }
 		}
 	}
-
+	
 	focus = {
 		id = ESU_talks_with_Waonto
 		prerequisite = { focus = ESU_envoys_to_the_clans }
@@ -597,9 +681,13 @@ focus_tree = {
 		}
 		
 		available = {
+			owns_state = 469
+			owns_state = 484
 		}
 		
 		completion_reward = {
+			469 = { add_compliance = 15 }
+			484 = { add_compliance = 15 }
 		}
 	}
 
@@ -615,9 +703,15 @@ focus_tree = {
 		}
 		
 		available = {
+			owns_state = 507
+			owns_state = 499
+			owns_state = 498
 		}
 		
 		completion_reward = {
+			507 = { add_compliance = 15 }
+			499 = { add_compliance = 15 }
+			498 = { add_compliance = 15 }
 		}
 	}
 	
@@ -645,7 +739,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ESU_eyes_on_the_clans
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -654,6 +748,16 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_3
+				amount = 5000
+				producer = ESU
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+				producer = ESU
+			}
 		}
 	}
 	
@@ -670,9 +774,19 @@ focus_tree = {
 		}
 		
 		available = {
+			owns_state = 483
+			owns_state = 496
+			owns_state = 497
+			owns_state = 469
+			owns_state = 484
+			owns_state = 507
+			owns_state = 499
+			owns_state = 498
 		}
 		
 		completion_reward = {
+			add_stability = -0.05
+			add_manpower = 50000
 		}
 	}
 	
@@ -689,9 +803,26 @@ focus_tree = {
 		}
 		
 		available = {
+			owns_state = 483
+			owns_state = 496
+			owns_state = 497
+			owns_state = 469
+			owns_state = 484
+			owns_state = 507
+			owns_state = 499
+			owns_state = 498
 		}
 		
 		completion_reward = {
+			add_stability = 0.1
+			483 = { add_manpower = -8000 }
+			496 = { add_manpower = -8000 }
+			497 = { add_manpower = -8000 }
+			469 = { add_manpower = -8000 }
+			484 = { add_manpower = -8000 }
+			507 = { add_manpower = -8000 }
+			499 = { add_manpower = -8000 }
+			498 = { add_manpower = -8000 }
 		}
 	}
 	
@@ -701,7 +832,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = ESU_eyes_on_the_clans
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -710,6 +841,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			#REMOVE SUNOTIA remove sunotia you are worst bird. you are the bird idiot you are the bird smell. return to lunaoa. to our lunaoa cousins you may come our contry. you may live in the zoo….ahahahaha ,sunotia we will never forgeve you......
 		}
 	}
 	
