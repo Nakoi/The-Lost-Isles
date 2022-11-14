@@ -1,0 +1,288 @@
+add_namespace = esu_event
+
+country_event = {
+	id = esu_event.0
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.0"}
+	title = esu_event.0.t
+	desc = esu_event.0.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.0.a
+		set_country_flag = esu_sane_victory
+		complete_national_focus = ESU_visionarism
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = {
+		name = esu_event.0.b
+		set_country_flag = esu_schizo_victory
+		complete_national_focus = ESU_militarism
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = {
+	id = esu_event.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.1"}
+	title = esu_event.1.t
+	desc = esu_event.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.1.a
+		ESU = {
+			add_state_claim = 482
+			add_state_claim = 477
+			add_state_claim = 483
+			add_state_claim = 496
+			add_state_claim = 497
+			add_state_claim = 484
+			add_state_claim = 469
+			add_state_claim = 498
+			add_state_claim = 507
+			add_state_claim = 499
+		}
+		KAE = {
+			add_state_claim = 478
+			add_state_claim = 479
+			add_state_claim = 506
+			add_state_claim = 503
+			add_state_claim = 504
+			add_state_claim = 505
+			add_state_claim = 500
+			add_state_claim = 501
+		}
+		SUA = {
+			add_state_claim = 458
+			add_state_claim = 460
+			add_state_claim = 459
+			add_state_claim = 471
+			add_state_claim = 472
+			add_state_claim = 485
+			add_state_claim = 486
+		}
+	}
+}
+
+country_event = {
+	id = esu_event.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.2"}
+	title = esu_event.2.t
+	desc = esu_event.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.2.a
+		ESU = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = yes
+			}
+		}
+		ai_chance = {
+			base = 5
+		}
+	}
+	
+	option = {
+		name = esu_event.2.b
+		ESU = {
+			country_event = { 
+				id = esu_event.3
+				days = 4
+			}
+		}
+		ai_chance = {
+			base = 95
+		}
+	}
+}
+
+country_event = {
+	id = esu_event.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.3"}
+	title = esu_event.3.t
+	desc = esu_event.3.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.3.a
+		declare_war_on = {
+			target = HRI
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = ONK
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = WAO
+			type = annex_everything
+		}
+	}
+}
+
+country_event = {
+	id = esu_event.4
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.4"}
+	title = esu_event.4.t
+	desc = esu_event.4.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.4.a
+		ESU = {
+			country_event = { 
+				id = esu_event.5
+				days = 4
+			}
+			country_event = { 
+				id = esu_event.7
+				days = 30
+			}
+		}
+		KAE = { set_country_flag = kae_esun_agreed_sunotia_war }
+		ESU = { set_country_flag = kae_esun_agreed_sunotia_war }
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = ESU
+					value > 89
+				}	
+			}
+			modifier = {
+				add = 25
+				has_opinion = {
+					target = ESU
+					value > 24
+				}
+			}	
+		}
+	}
+	
+	option = {
+		name = kae_event.0.b
+		ESU = {
+			country_event = { 
+				id = esu_event.6
+				days = 4
+			}
+			country_event = { 
+				id = esu_event.7
+				days = 30
+			}
+		}
+		KAE = { set_country_flag = kae_esun_refused_sunotia_war }
+		KAE = { set_country_flag = kae_esun_refused_sunotia_war }
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = ESU
+					value < -15
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	id = esu_event.5
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.5"}
+	title = esu_event.5.t
+	desc = esu_event.5.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.5.a
+	}
+}
+
+country_event = {
+	id = esu_event.6
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.6"}
+	title = esu_event.6.t
+	desc = esu_event.6.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.6.a
+	}
+}
+
+country_event = {
+	id = esu_event.7
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.7"}
+	title = esu_event.7.t
+	desc = esu_event.7.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.7.a
+		declare_war_on = {
+			target = SUN
+			type = take_state
+		}
+		declare_war_on = {
+			target = AZE
+			type = annex_everything
+		}
+		IF = {
+			limit = {
+				KAE = {
+					has_country_flag = kae_esun_agreed_sunotia_war
+				}
+				KAE = { 
+					country_event = { id = kae_event.8 }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = esu_event.8
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.8"}
+	title = esu_event.8.t
+	desc = esu_event.8.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.8.a
+		declare_war_on = {
+			target = SUN
+			type = take_state
+		}
+		declare_war_on = {
+			target = WEI
+			type = annex_everything
+		}
+	}
+}
+
