@@ -161,6 +161,84 @@ ideas = {
 			}
 		}
 		
+		ESU_eyes_on_clans_idea_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			targeted_modifier = {
+				tag = HRI
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = WAO
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = ONK
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		
+		ESU_eyes_on_clans_idea_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			targeted_modifier = {
+				tag = HRI
+				attack_bonus_against = 0.2
+				defense_bonus_against = -0.1
+			}
+			targeted_modifier = {
+				tag = WAO
+				attack_bonus_against = 0.2
+				defense_bonus_against = -0.1
+			}
+			targeted_modifier = {
+				tag = ONK
+				attack_bonus_against = 0.2
+				defense_bonus_against = -0.1
+			}
+		}
+		
+		ESU_slavery_meme = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+				local_resources_factor = 0.2
+				stability_factor = -0.05
+			}
+		}
+		
+		ESU_redemption_meme = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.1
+				army_attack_factor = 0.1
+				experience_loss_factor = 0.2
+				stability_factor = -0.05
+			}
+		}
+		
 		ESU_removed_officers = {
 			picture = great_depression
 			removal_cost = -1
