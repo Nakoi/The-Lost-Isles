@@ -286,3 +286,18 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = esu_event.9
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.9"}
+	title = esu_event.9.t
+	desc = esu_event.9.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.9.a
+		load_focus_tree = esun_focus_2
+	}
+}
+
