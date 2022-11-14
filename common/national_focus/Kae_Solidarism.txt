@@ -1363,8 +1363,6 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_state_claim = 478
-			add_state_claim = 479
 			start_border_war = {
 				change_state_after_war = no
 				attacker = {
@@ -1451,8 +1449,6 @@ focus_tree = {
 				}
 				ESU = { 
 					country_event = { id = kae_event.4 }
-					add_state_claim = 482
-					add_state_claim = 477
 				}
 			}
 		}

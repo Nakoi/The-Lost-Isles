@@ -24,7 +24,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			#event, pick one
+			country_event = { id = esu_event.0 days = 4 }
 		}
 	}
 
@@ -41,7 +41,7 @@ focus_tree = {
 		}
 		
 		available = {
-			#always false
+			has_country_flag = esu_sane_victory
 		}
 		
 		completion_reward = {
@@ -622,6 +622,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			country_event = { id = esu_event.1 }
 		}
 	}
 
@@ -640,7 +641,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#event, annex if accept, war if refused, 95-99% chance of refuse
+			HRI = { country_event = { id = esu_event.2 days = 6 } }
+			ONK = { country_event = { id = esu_event.2 days = 6 } }
+			WAO = { country_event = { id = esu_event.2 days = 6 } }
 		}
 	}
 
@@ -717,8 +720,8 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_eyes_on_the_clans
-		prerequisite = { focus = ESU_old_relations }
-		x = -4
+		prerequisite = { focus = ESU_old_relations focus = ESU_send_troops_to_the_front }
+		x = 0
 		y = -1
 		relative_position_id = ESU_envoys_to_the_clans
 		cost = 3
@@ -730,13 +733,17 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_timed_idea = {
+				idea = ESU_eyes_on_clans_idea_01
+				days = 365
+			}
 		}
 	}
 	
 	focus = {
 		id = ESU_acquire_weapons
 		prerequisite = { focus = ESU_eyes_on_the_clans }
-		x = 0
+		x = -4
 		y = 1
 		relative_position_id = ESU_eyes_on_the_clans
 		cost = 5
@@ -765,7 +772,7 @@ focus_tree = {
 		id = ESU_amnesty_for_their_soldiers
 		prerequisite = { focus = ESU_acquire_weapons }
 		mutually_exclusive = { focus = ESU_no_forgiveness }
-		x = -1
+		x = -5
 		y = 2
 		relative_position_id = ESU_eyes_on_the_clans
 		cost = 3
@@ -794,7 +801,7 @@ focus_tree = {
 		id = ESU_no_forgiveness
 		prerequisite = { focus = ESU_acquire_weapons }
 		mutually_exclusive = { focus = ESU_amnesty_for_their_soldiers }
-		x = 1
+		x = -3
 		y = 2
 		relative_position_id = ESU_eyes_on_the_clans
 		cost = 3
@@ -829,7 +836,90 @@ focus_tree = {
 	focus = {
 		id = ESU_restore_control
 		prerequisite = { focus = ESU_amnesty_for_their_soldiers focus = ESU_no_forgiveness }
-		x = 0
+		x = -4
+		y = 3
+		relative_position_id = ESU_eyes_on_the_clans
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			#TBD - BYPASS IF KAE ASKED FIRST
+		}
+		
+		completion_reward = {
+			KAE = { country_event = { id = esu_event.4 } }
+		}
+	}
+	
+	focus = {
+		id = ESU_crush_them_all
+		prerequisite = { focus = ESU_eyes_on_the_clans }
+		x = 4
+		y = 1
+		relative_position_id = ESU_eyes_on_the_clans
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_war = yes
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ESU_eyes_on_clans_idea_01
+				add_idea = ESU_eyes_on_clans_idea_02
+			}
+		}
+	}
+	
+	focus = {
+		id = ESU_enslave_them
+		prerequisite = { focus = ESU_crush_them_all }
+		mutually_exclusive = { focus = ESU_redemption_through_blood }
+		x = 3
+		y = 2
+		relative_position_id = ESU_eyes_on_the_clans
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_slavery_meme
+		}
+	}
+	
+	focus = {
+		id = ESU_redemption_through_blood
+		prerequisite = { focus = ESU_crush_them_all }
+		mutually_exclusive = { focus = ESU_enslave_them }
+		x = 5
+		y = 2
+		relative_position_id = ESU_eyes_on_the_clans
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_redemption_meme
+		}
+	}
+	
+	focus = {
+		id = ESU_deal_with_sunotian_imperialism
+		prerequisite = { focus = ESU_enslave_them focus = ESU_redemption_through_blood }
+		x = 4
 		y = 3
 		relative_position_id = ESU_eyes_on_the_clans
 		cost = 10
@@ -841,99 +931,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#REMOVE SUNOTIA remove sunotia you are worst bird. you are the bird idiot you are the bird smell. return to lunaoa. to our lunaoa cousins you may come our contry. you may live in the zoo….ahahahaha ,sunotia we will never forgeve you......
-		}
-	}
-	
-	focus = {
-		id = ESU_secure_our_south
-		prerequisite = { focus = ESU_send_troops_to_the_front }
-		x = 4
-		y = -1
-		relative_position_id = ESU_envoys_to_the_clans
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = ESU_crush_them_all
-		prerequisite = { focus = ESU_secure_our_south }
-		x = 0
-		y = 1
-		relative_position_id = ESU_secure_our_south
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = ESU_enslave_them
-		prerequisite = { focus = ESU_crush_them_all }
-		mutually_exclusive = { focus = ESU_redemption_through_blood }
-		x = -1
-		y = 2
-		relative_position_id = ESU_secure_our_south
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = ESU_redemption_through_blood
-		prerequisite = { focus = ESU_crush_them_all }
-		mutually_exclusive = { focus = ESU_enslave_them }
-		x = 1
-		y = 2
-		relative_position_id = ESU_secure_our_south
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = ESU_deal_with_sunotian_imperialism
-		prerequisite = { focus = ESU_enslave_them focus = ESU_redemption_through_blood }
-		x = 0
-		y = 3
-		relative_position_id = ESU_secure_our_south
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
+			declare_war_on = {
+				target = SUN
+				type = take_state
+			}
+			declare_war_on = {
+				target = AZE
+				type = annex_everything
+			}
 		}
 	}
 	
@@ -952,6 +957,7 @@ focus_tree = {
 		}
 		
 		available = {
+			has_country_flag = esu_schizo_victory
 		}
 		
 		completion_reward = {
@@ -974,8 +980,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#creates 2 divisions in state: 122
-			add_manpower = 5000
+			add_manpower = 50000
 		}
 	}
 
