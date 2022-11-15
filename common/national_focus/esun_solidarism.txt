@@ -18,7 +18,7 @@ focus_tree = {
 		id = ESU_a_new_dawn
 		x = 0
 		y = 0
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -27,6 +27,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			#do something with decisions idk bro
 		}
 	}
 
@@ -38,7 +39,7 @@ focus_tree = {
 		x = -4
 		y = 1
 		relative_position_id = ESU_a_new_dawn
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -47,6 +48,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			#autocomplete
 		}
 	}
 
@@ -66,7 +68,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#CREATES EVENT ABOUT ESUN SUPPORTING THE BRAVE WORKERS
+			#event about esun not being a shit place to live in
 		}
 	}
 
@@ -85,8 +87,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#gives an event where esun sends a work force to the recently captured regions to boost production
-			#adds infrastructure in the Hiriki, waonto and Onki regions
+			#event about esun not being a shit place to live in
 		}
 	}
 
@@ -97,7 +98,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = ESU_all_for_the_nation
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -106,8 +107,16 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#gives an event about steam engines being introduced into the factories to speed up production
-			#creates civ factories in a few states
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialprod
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_logi
+			}
 		}
 	}
 
@@ -118,7 +127,7 @@ focus_tree = {
 		x = 3
 		y = 2
 		relative_position_id = ESU_all_for_the_nation
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -127,8 +136,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#gives an event about steam engines being introduced into the factories to speed up production
-			#creates civ factories in a few states
+			add_ideas = ESU_streamlined_production
 		}
 	}
 
@@ -139,7 +147,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = ESU_all_for_the_nation
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -148,7 +156,38 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#creates dockyards and gives 100 convoy
+			122 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			123 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			465 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			480 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -159,7 +198,7 @@ focus_tree = {
 		x = -3
 		y = 2
 		relative_position_id = ESU_all_for_the_nation
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -168,7 +207,56 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			466 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			470 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			483 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			484 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			498 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -179,7 +267,7 @@ focus_tree = {
 		x = -2
 		y = 3
 		relative_position_id = ESU_all_for_the_nation
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -188,10 +276,34 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#creates idea : economic_boom_idea
-			#production_factory_max_efficiency_factor = +X
-			#industrial_capacity_factory = +x
-			#production_speed_buildings_factor = +x
+			add_ideas = ESU_economic_boom_idea
+			IF = {
+				limit = {
+					has_idea = export_focus
+				}
+				swap_ideas = {
+					remove_idea = export_focus
+					add_idea = free_trade
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = limited_exports
+				}
+				swap_ideas = {
+					remove_idea = limited_exports
+					add_idea = free_trade
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = closed_economy
+				}
+				swap_ideas = {
+					remove_idea = closed_economy
+					add_idea = free_trade
+				}
+			}
 		}
 	}
 
@@ -202,7 +314,7 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = ESU_all_for_the_nation
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -211,10 +323,42 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds 5000 manpower
-			#creates idea : disipline_by_service
-			#army_morale = +X
-			#army_org = +X
+			IF = {
+				limit = {
+					has_idea = recruit_militia_peacetime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_wartime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_wartime
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_volunteer
+				}
+				swap_ideas = {
+					remove_idea = recruit_volunteer
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_universalcon
+				}
+			}
 		}
 	}
 
@@ -225,7 +369,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = ESU_all_for_the_nation
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -234,16 +378,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds 1 extra research slot
-			#creates idea : Research_divisions
-			#research_speed_factor = +X
+			add_research_slot = 1
 		}
 	}
 
 	focus = {
-		id = ESU_support_the_troops
-		prerequisite = { focus = ESU_sience_division }
-		mutually_exclusive = { focus = ESU_Stabalize_the_nation }
+		id = ESU_confederacy
+		mutually_exclusive = { focus = ESU_economic_union }
 		x = 1
 		y = 4
 		relative_position_id = ESU_all_for_the_nation
@@ -253,18 +394,19 @@ focus_tree = {
 		}
 		
 		available = {
+			num_of_factories > 99
+			has_completed_focus = ESU_noble_workforce
+			has_completed_focus = ESU_lead_by_example
 		}
 		
 		completion_reward = {
-			#creates idea : troop_support
-			#war_support_factor = +X%
+			#idk
 		}
 	}
 
 	focus = {
-		id = ESU_Stabalize_the_nation
-		prerequisite = { focus = ESU_sience_division }
-		mutually_exclusive = { focus = ESU_support_the_troops }
+		id = ESU_economic_union
+		mutually_exclusive = { focus = ESU_confederacy }
 		x = -1
 		y = 4
 		relative_position_id = ESU_all_for_the_nation
@@ -274,21 +416,23 @@ focus_tree = {
 		}
 		
 		available = {
+			num_of_factories > 99
+			has_completed_focus = ESU_noble_workforce
+			has_completed_focus = ESU_lead_by_example
 		}
 		
 		completion_reward = {
-			#creates idea : stable_nation
-			#stability_factor = +X%
+			#idk
 		}
 	}
 
 	focus = {
 		id = ESU_steadfast
-		prerequisite = { focus = ESU_Stabalize_the_nation focus = ESU_support_the_troops  }
+		prerequisite = { focus = ESU_economic_union focus = ESU_confederacy }
 		x = 0
 		y = 5
 		relative_position_id = ESU_all_for_the_nation
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -307,7 +451,7 @@ focus_tree = {
 		x = -2
 		y = 5
 		relative_position_id = ESU_all_for_the_nation
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -316,7 +460,16 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds civ factories in a few states
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialtools
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialconstr
+			}
 		}
 	}
 
@@ -326,7 +479,7 @@ focus_tree = {
 		x = 2
 		y = 5
 		relative_position_id = ESU_all_for_the_nation
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -335,7 +488,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds idea
+			add_ideas = ESU_eastern_monks_idea
+			add_manpower = 5000
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = racial
+			}
 		}
 	}
 
@@ -356,7 +515,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#add event about a gigantic monument built for the nation of esun as it stands tall above all others
+			#funni epilogue event
 		}
 	}
 
