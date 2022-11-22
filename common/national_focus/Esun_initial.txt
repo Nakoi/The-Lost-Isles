@@ -638,6 +638,10 @@ focus_tree = {
 		}
 		
 		available = {
+			owns_state = 483
+			owns_state = 496
+			owns_state = 484
+			owns_state = 498
 		}
 		
 		completion_reward = {
@@ -675,8 +679,6 @@ focus_tree = {
 			}
 		}
 	}
-
-
 
 	focus = {
 		id = ESU_old_relations
@@ -1051,7 +1053,46 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_manpower = 50000
+			IF = {
+				limit = {
+					has_idea = recruit_militia_peacetime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_wartime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_wartime
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_volunteer
+				}
+				swap_ideas = {
+					remove_idea = recruit_volunteer
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_universalcon
+				}
+			}
+			swap_ideas = {
+				remove_idea = ESU_pone_problem_idea_01
+				add_idea = ESU_pone_problem_idea_07
+			}
 		}
 	}
 
@@ -1095,9 +1136,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_manpower = -100
-			#add event
-			add_stability = -0.05
+			add_stability = 0.25
+			122 = { add_manpower = -40000 }
+			123 = { add_manpower = -20000 }
+			465 = { add_manpower = -20000 }
+			480 = { add_manpower = -22000 }
 		}
 	}
 
@@ -1239,7 +1282,10 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 150
-			#adds event
+			swap_ideas = {
+				remove_idea = ESU_pone_problem_idea_08
+				add_idea = ESU_pone_problem_idea_09
+			}
 		}
 	}
 
@@ -1258,9 +1304,19 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_stability = -0.05
-			#add event
-
+			swap_ideas = {
+				remove_idea = ESU_pone_problem_idea_07
+				add_idea = ESU_pone_problem_idea_08
+			}
+			466 = { add_manpower = -215000 }
+			125 = { add_manpower = -225000 }
+			124 = { add_manpower = -200000 }
+			remove_state_core = 466
+			remove_state_core = 125
+			remove_state_core = 124
+			remove_state_core = 470
+			remove_state_core = 468
+			remove_state_core = 457
 		}
 	}
 
