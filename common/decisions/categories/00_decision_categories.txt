@@ -77,3 +77,18 @@ decisioncat_kae_decisions = {
 		has_completed_focus = KAE_rightfully_ours
 	}
 }
+
+decisioncat_esu_integration = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = ESU
+	}
+
+	visible = {
+		OR = {
+			has_completed_focus = ESU_amnesty_for_their_soldiers
+			has_completed_focus = ESU_no_forgiveness
+		}
+	}
+}
