@@ -1,0 +1,155 @@
+decisioncat_esu_integration = {
+
+	ESU_core_hriki = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = ESU
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = ESU_amnesty_for_their_soldiers
+				has_completed_focus = ESU_no_forgiveness
+			}
+			ESU = {
+				owns_state = 483
+				owns_state = 496
+				owns_state = 497
+			}
+			483 = { compliance > 50 }
+			496 = { compliance > 50 }
+			497 = { compliance > 50 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = ESU
+			OR = {
+				has_completed_focus = ESU_amnesty_for_their_soldiers
+				has_completed_focus = ESU_no_forgiveness
+			}
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 483
+			add_state_core = 496
+			add_state_core = 497
+		}
+	}
+	
+	ESU_core_onki = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = ESU
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = ESU_amnesty_for_their_soldiers
+				has_completed_focus = ESU_no_forgiveness
+			}
+			ESU = {
+				owns_state = 507
+				owns_state = 499
+				owns_state = 498
+			}
+			507 = { compliance > 50 }
+			499 = { compliance > 50 }
+			498 = { compliance > 50 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = ESU
+			OR = {
+				has_completed_focus = ESU_amnesty_for_their_soldiers
+				has_completed_focus = ESU_no_forgiveness
+			}
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 507
+			add_state_core = 499
+			add_state_core = 498
+		}
+	}
+	
+	ESU_core_waonto = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = ESU
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = ESU_amnesty_for_their_soldiers
+				has_completed_focus = ESU_no_forgiveness
+			}
+			ESU = {
+				owns_state = 469
+				owns_state = 484
+			}
+			469 = { compliance > 50 }
+			484 = { compliance > 50 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = ESU
+			OR = {
+				has_completed_focus = ESU_amnesty_for_their_soldiers
+				has_completed_focus = ESU_no_forgiveness
+			}
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 469
+			add_state_core = 484
+		}
+	}
+}
