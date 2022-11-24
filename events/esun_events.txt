@@ -12,6 +12,7 @@ country_event = {
 	option = {
 		name = esu_event.0.a
 		set_country_flag = esu_sane_victory
+		set_country_flag = i_hate_ziggers
 		complete_national_focus = ESU_visionarism
 		ai_chance = {
 			base = 100
