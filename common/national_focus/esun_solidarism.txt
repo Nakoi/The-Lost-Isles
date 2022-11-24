@@ -1,4 +1,4 @@
-focus_tree = {
+#focus_tree = {
     id = esun_focus_2
 
     country = {
@@ -22,6 +22,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
 		
 		available = {
 		}
@@ -872,4 +873,4 @@ focus_tree = {
 			}
 		}
 	}
-}
+#}
