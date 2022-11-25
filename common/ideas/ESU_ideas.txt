@@ -333,19 +333,6 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
-		
-		ESU_removed_officers = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				max_planning_factor = -0.1
-				
-			}
-		}
 
 		ESU_Workforce = {
 			picture = great_depression
@@ -355,13 +342,13 @@ ideas = {
 			}
 				
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
+				production_speed_buildings_factor = 0.1
 				consumer_goods_factor = -0.1
 				stability_weekly = -0.002
 			}
 		}
-
-		ESU_offensive_army_idea = {
+		
+		ESU_cult_of_personality_idea_01 = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -369,12 +356,12 @@ ideas = {
 			}
 				
 			modifier = {
-				army_attack_factor = 0.1
-				conscription_factor = 0.02
+				consumer_goods_factor = 0.05
+				stability_weekly = 0.001
 			}
 		}
-
-		ESU_defence_army_idea = {
+		
+		ESU_cult_of_personality_idea_02 = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -382,26 +369,120 @@ ideas = {
 			}
 				
 			modifier = {
-				army_defence_factor = 0.1
-				conscription_factor = 0.02
-			}
-		}
-
-
-		ESU_mandatory_duty_idea = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				weekly_manpower = 125
-				conscription_factor = 0.1
+				consumer_goods_factor = 0.05
+				research_speed_factor = -0.1
+				stability_weekly = 0.002
 				war_support_factor = 0.05
-				stability_factor = -0.1
 			}
 		}
+		
+		ESU_cult_of_personality_idea_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_weekly = 0.002
+				war_support_factor = 0.05
+			}
+		}
+		
+		ESU_cult_of_personality_idea_04 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.15
+				research_speed_factor = -0.1
+				stability_weekly = 0.003
+				war_support_factor = 0.1
+			}
+		}
+		
+		ESU_cult_of_personality_idea_05 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.15
+				research_speed_factor = -0.1
+				stability_weekly = 0.003
+				war_stability_factor = 0.15
+				war_support_factor = 0.25
+				surrender_limit = 1
+			}
+		}
+
+		ESU_state_militarisation_idea_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				war_support_weekly = 0.002
+			}
+		}
+		
+		ESU_state_militarisation_idea_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				war_support_weekly = 0.005
+				conscription_factor = -0.25
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+		
+		ESU_state_militarisation_idea_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				war_support_weekly = 0.005
+				conscription_factor = 0.1
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+			}
+		}
+		
+		ESU_state_militarisation_idea_04 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+				war_support_weekly = 0.005
+				conscription_factor = 0.1
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				
+			}
+		}
+		
 
 		ESU_pony_rights_idea = {
 			picture = great_depression
