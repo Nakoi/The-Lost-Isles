@@ -368,13 +368,13 @@ focus_tree = {
 				category = racial
 			}
 			hidden_effect = { set_technology = { tech_industrialized = 1 } }
-			#hidden_effect = {
+			hidden_effect = {
 				swap_ideas = {
 					add_idea = genidea_industrial_dev
 					remove_idea = genidea_civilised_dev
 				}
-				#country_event = { id = esu_event.9 days = 74 }
-			#}
+				country_event = { id = esu_event.9 days = 74 }
+			}
 		}	
 	}
 
@@ -1325,7 +1325,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds event
+			add_ideas = ESU_state_militarisation_idea_01
 		}
 	}
 	
@@ -1345,8 +1345,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_war_support = 0.05
-			add_ideas = ESU_offensive_army_idea
+			swap_ideas = {
+				remove_idea = ESU_state_militarisation_idea_01
+				add_idea = ESU_state_militarisation_idea_02
+			}
 		}
 	}
 
@@ -1366,8 +1368,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_war_support = 0.05
-			add_ideas = ESU_defence_army_idea
+			swap_ideas = {
+				remove_idea = ESU_state_militarisation_idea_01
+				add_idea = ESU_state_militarisation_idea_03
+			}
 		}
 	}
 
@@ -1387,7 +1391,21 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = ESU_mandatory_duty_idea
+			IF = {
+				limit = {
+					has_idea = ESU_state_militarisation_idea_02
+				}
+				swap_ideas = {
+					remove_idea = ESU_state_militarisation_idea_02
+					add_idea = ESU_state_militarisation_idea_04
+				}
+				else = {
+					swap_ideas = {
+						remove_idea = ESU_state_militarisation_idea_03
+						add_idea = ESU_state_militarisation_idea_04
+					}
+				}
+			}
 		}
 	}
 	
@@ -1406,7 +1424,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = ESU_mandatory_duty_idea
+			add_ideas = ESU_cult_of_personality_idea_01
 		}
 	}
 	
@@ -1426,8 +1444,21 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_war_support = 0.05
-			add_ideas = ESU_offensive_army_idea
+			IF = {
+				limit = {
+					has_idea = ESU_cult_of_personality_idea_03
+				}
+				swap_ideas = {
+					remove_idea = ESU_cult_of_personality_idea_03
+					add_idea = ESU_cult_of_personality_idea_04
+				}
+				else = {
+					swap_ideas = {
+						remove_idea = ESU_cult_of_personality_idea_01
+						add_idea = ESU_cult_of_personality_idea_02
+					}
+				}
+			}
 		}
 	}
 
@@ -1447,8 +1478,21 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_war_support = 0.05
-			add_ideas = ESU_defence_army_idea
+			IF = {
+				limit = {
+					has_idea = ESU_cult_of_personality_idea_02
+				}
+				swap_ideas = {
+					remove_idea = ESU_cult_of_personality_idea_02
+					add_idea = ESU_cult_of_personality_idea_04
+				}
+				else = {
+					swap_ideas = {
+						remove_idea = ESU_cult_of_personality_idea_01
+						add_idea = ESU_cult_of_personality_idea_03
+					}
+				}
+			}
 		}
 	}
 
@@ -1469,7 +1513,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = ESU_mandatory_duty_idea
+			swap_ideas = {
+				remove_idea = ESU_cult_of_personality_idea_04
+				add_idea = ESU_cult_of_personality_idea_05
+			}
 		}
 	}
 	
@@ -1486,11 +1533,62 @@ focus_tree = {
 		}
 		
 		available = {
+			num_of_factories > 69
+			has_political_power > 299
 		}
 		
 		completion_reward = {
-			add_ideas = ESU_mandatory_duty_idea
-		}
+			custom_effect_tooltip = gentext_civilised_industrial_advancement
+			add_research_slot = 1
+			add_political_power = -300
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = tli_infantry
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = category_support_battalions
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = artillery
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = category_air
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = naval_equipment
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = electronics
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = racial
+			}
+			hidden_effect = { set_technology = { tech_industrialized = 1 } }
+			hidden_effect = {
+				swap_ideas = {
+					add_idea = genidea_industrial_dev
+					remove_idea = genidea_civilised_dev
+				}
+			}
+		}	
 	}
 
 
