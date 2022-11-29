@@ -3,7 +3,7 @@ state = {
 	name = "STATE_136"
 	manpower = 1197347
 
-	state_category = city
+	state_category = megalopolis
 
 	resources={
 		wheat=2.000
@@ -17,7 +17,7 @@ state = {
 		victory_points = { 2643 20}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 5
+			arms_factory = 4
 			industrial_complex = 3
 			synthetic_refinery = 1
 			dockyard =3
