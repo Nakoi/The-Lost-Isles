@@ -23,6 +23,21 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		select_effect = {
+			country_event = {
+				id = esu_start.0
+				days = 28
+			}
+		}
+		
+		select_effect = {
+			country_event = {
+				id = esu_start.1
+				days = 56
+			}
+		}
+		
 		completion_reward = {
 			country_event = { id = esu_event.0 days = 4 }
 		}
@@ -922,7 +937,15 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			KAE = { country_event = { id = esu_event.4 } }
+			ESU = { country_event = { id = esu_event.7 days = 30 } }
+			IF = {
+				limit = {
+					KAE = {
+						has_country_flag = kae_esun_agreed_sunotia_war
+					}
+					KAE = { country_event = { id = esu_event.4 } }
+				}
+			}
 		}
 	}
 	
@@ -1044,7 +1067,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1102,7 +1125,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -1136,7 +1159,7 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1160,7 +1183,7 @@ focus_tree = {
 		x = 1
 		y = 3
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -1179,7 +1202,7 @@ focus_tree = {
 		x = 3
 		y = 3
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -1237,7 +1260,7 @@ focus_tree = {
 		x = 2
 		y = 4
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -1260,7 +1283,7 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1283,7 +1306,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1316,7 +1339,7 @@ focus_tree = {
 		x = 1
 		y = 5
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -1336,7 +1359,7 @@ focus_tree = {
 		x = 0
 		y = 6
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1359,7 +1382,7 @@ focus_tree = {
 		x = 2
 		y = 6
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1382,7 +1405,7 @@ focus_tree = {
 		x = 1
 		y = 7
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -1415,7 +1438,7 @@ focus_tree = {
 		x = -3
 		y = 5
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -1435,7 +1458,7 @@ focus_tree = {
 		x = -4
 		y = 6
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1469,7 +1492,7 @@ focus_tree = {
 		x = -2
 		y = 6
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1504,7 +1527,7 @@ focus_tree = {
 		x = -3
 		y = 7
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -1598,7 +1621,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -1632,10 +1655,6 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 5
-		}
-		
-		allow_branch = {
-			has_country_flag = i_hate_ziggers
 		}
 		
 		available = {
