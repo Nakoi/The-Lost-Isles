@@ -1,4 +1,33 @@
 add_namespace = esu_event
+add_namespace = esu_start
+
+country_event = {
+	id = esu_start.0
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_start.0"}
+	title = esu_start.0.t
+	desc = esu_start.0.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_start.0.a
+	}
+}
+
+country_event = {
+	id = esu_start.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_start.1"}
+	title = esu_start.1.t
+	desc = esu_start.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_start.1.a
+	}
+}
 
 country_event = {
 	id = esu_event.0
@@ -12,7 +41,6 @@ country_event = {
 	option = {
 		name = esu_event.0.a
 		set_country_flag = esu_sane_victory
-		set_country_flag = i_hate_ziggers
 		complete_national_focus = ESU_visionarism
 		ai_chance = {
 			base = 100
@@ -104,6 +132,24 @@ country_event = {
 				days = 4
 			}
 		}
+		IF = {
+			limit = {
+				tag = HRI
+			}
+			set_country_flag = esu_flag_hri_no
+		}
+		IF = {
+			limit = {
+				tag = ONK
+			}
+			set_country_flag = esu_flag_onk_no
+		}
+		IF = {
+			limit = {
+				tag = WAO
+			}
+			set_country_flag = esu_flag_wao_no
+		}
 		ai_chance = {
 			base = 95
 		}
@@ -121,17 +167,38 @@ country_event = {
 	
 	option = {
 		name = esu_event.3.a
-		declare_war_on = {
-			target = HRI
-			type = annex_everything
+		IF = {
+			limit = {
+				ESU = {
+					has_country_flag = esu_flag_hri_no
+				}
+			}
+			declare_war_on = {
+				target = HRI
+				type = annex_everything
+			}
 		}
-		declare_war_on = {
-			target = ONK
-			type = annex_everything
+		IF = {
+			limit = {
+				ESU = {
+					has_country_flag = esu_flag_onk_no
+				}
+			}
+			declare_war_on = {
+				target = ONK
+				type = annex_everything
+			}
 		}
-		declare_war_on = {
-			target = WAO
-			type = annex_everything
+		IF = {
+			limit = {
+				ESU = {
+					has_country_flag = esu_flag_wao_no
+				}
+			}
+			declare_war_on = {
+				target = WAO
+				type = annex_everything
+			}
 		}
 	}
 }
@@ -149,13 +216,13 @@ country_event = {
 		name = esu_event.4.a
 		ESU = {
 			country_event = { 
-				id = esu_event.5
+				id = esu_event.5 # response from kae - YES
 				days = 4
 			}
-			country_event = { 
-				id = esu_event.7
-				days = 30
-			}
+			#country_event = { 
+				id = esu_event.7 # TRIGGERED VIA FOCUS TREE - WAR DECLARATION
+				days = 30 
+			#}
 		}
 		KAE = { set_country_flag = kae_esun_agreed_sunotia_war }
 		ESU = { set_country_flag = kae_esun_agreed_sunotia_war }
@@ -179,19 +246,19 @@ country_event = {
 	}
 	
 	option = {
-		name = kae_event.0.b
+		name = esu_event.4.b
 		ESU = {
 			country_event = { 
-				id = esu_event.6
+				id = esu_event.6 # response from kae - NO
 				days = 4
 			}
-			country_event = { 
-				id = esu_event.7
+			#country_event = { 
+				id = esu_event.7 # TRIGGERED VIA FOCUS TREE - WAR DECLARATION
 				days = 30
-			}
+			#}
 		}
 		KAE = { set_country_flag = kae_esun_refused_sunotia_war }
-		KAE = { set_country_flag = kae_esun_refused_sunotia_war }
+		ESU = { set_country_flag = kae_esun_refused_sunotia_war }
 		ai_chance = {
 			base = 50
 			modifier = {
