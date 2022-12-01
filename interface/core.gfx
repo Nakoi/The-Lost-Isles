@@ -1493,6 +1493,39 @@ bitmapfonts = {
 			T = { 255 255 255 }
 		}
 	}
+
+	bitmapfont = {
+		name = "hoi_30"
+		fontfiles = {
+			"gfx/fonts/hoi_30"
+		}
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 86 172 91 }
+			R = { 222 86 70 }
+			Y = { 238 201 35 }
+			H = { 238 201 35 }
+			T = { 255 255 255 }
+		}
+	}
+
+	bitmapfont_override = {
+		name = "hoi_30"
+		fontfiles = {
+			"gfx/fonts/hoi_30"
+			"gfx/fonts/hoi_30_cyrillic"
+		}
+		languages = { "l_russian" "l_polish" }
+	}
+
+	bitmapfont_override = {
+		name = "hoi_30"
+		fontfiles = {
+			"gfx/fonts/japanese/hoi_30"
+		}
+		languages = { "l_japanese" }
+	}
 	
 	bitmapfont = {
 		name = "Arial12"
