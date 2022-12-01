@@ -1,52 +1,52 @@
 sub_unit_categories = {
-	category_front_line
-	category_regular_infantry
-	category_all_infantry
-	category_army
-	category_militia
-	category_armored_infantry
-	category_motorized
-	category_support_battalions
-	category_engineers
-	category_recon
-	category_maintenance
-	category_mp
-	category_hospital
-	category_logistics
-	category_special_forces
-	category_elite_infantry
-	category_artillery
-	category_line_artillery
-	category_support_artillery
-	category_anti_air
-	category_siege_artillery
-	category_medium_artillery
-	category_light_artillery
-	category_howitzer 
-	category_rocket
-	category_light_cannon
+	
+	#if you touch this i will gift you a new car and let you start it up :) tiocfaidh ar la
+	
+	category_army # all army
+	category_front_line # all front units 
+	
+	category_all_infantry # all infantry
+	category_regular_infantry # normal infantry specific
+	category_militia # militia specific
+	category_armored_infantry # armored infantry specific
+	category_motorized # motor infantry specific
+	category_elite_infantry # the three special infantry types everyone gets
+	
+	category_support_battalions # all support units
+	category_engineers # yeah
+	category_recon # yeah
+	category_maintenance # yeah
+	category_mp # yeah
+	category_hospital # yeah
+	category_logistics # yeah
+	
+	category_special_forces # all racial tech tree units
+	category_juggernauts
+	category_wind_riders
+	category_unicorn_support
+	category_mages
+	category_highlanders
+	category_rune_warrior
+	category_battle_seers
+	
+	category_artillery # all artillery
+	category_line_artillery # artillery in front
+	category_support_artillery # artillery in support
+	category_anti_air # aa arty specific
+	category_siege_artillery # mortar specific
+	category_medium_artillery # regular arty specific
+	category_light_artillery #light arty specific 
+	category_howitzer # howitzer arty specific
+	category_rocket # rocket arty specific
+	
+	#category_light_cannon # spotten 1 instance - light arty
+	#category_ranged # none spotted
+	#category_heavy_infantry # spotten 1 instance - armored infantry
+	
 	category_air_frigate
 	category_air_bombardier
 	category_sky_cruiser
 	category_sky_carrier
 	category_air_skirmisher
 	category_air_striker
-	cat_fleet_in_being
-	fleet_in_being_tree
-	cat_brown_water_navy
-	brown_water_navy_tree
-	air_parity_tree
-	cat_air_parity
-	strategic_airship_implementation_tree
-	cat_strategic_airship_implementation
-	category_juggernauts
-	category_wind_riders
-	category_unicorn_support
-	category_mages
-	category_ranged 
-	category_heavy_infantry
-	category_highlanders
-	category_rune_warrior
-	category_battle_seers
-
 }
