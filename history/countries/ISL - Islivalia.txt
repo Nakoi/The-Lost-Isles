@@ -60,7 +60,7 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-		xebec_hull = 1
+		xebec_hull_tech = 1
 	}
 }
 
