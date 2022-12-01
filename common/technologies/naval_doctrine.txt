@@ -8,7 +8,7 @@ technologies = {
 		
 		
 		# EFFECT #############
-		early_xebec = {
+		xebec = {
 			max_organisation = 20
 			surface_visibility = -0.20			
 		}
@@ -16,7 +16,7 @@ technologies = {
 			max_organisation = 20
 			surface_visibility = -0.20			
 		}
-		early_frigate = {
+		frigate = {
 			max_organisation = 10
 			surface_visibility = -0.10			
 		}
@@ -60,16 +60,15 @@ technologies = {
 	
 	coastal_patrols = {
 		# EFFECT #############
-		early_xebec = {
+		xebec = {
 			max_organisation = 10
 			surface_detection = 0.15
-			sortie_efficiency = 0.15
 		}
 		galley = {
 			max_organisation = 10
 			surface_detection = 0.15
-			sortie_efficiency = 0.15
 		}
+		convoy_raiding_efficiency_factor = 0.15
 		########
 
 		path = {
@@ -119,13 +118,13 @@ technologies = {
     retreat_maneuvers = {
 		# EFFECT #############
 		
-		early_xebec = {
+		xebec = {
 			max_organisation = 10
 		}
 		galley = {
 			max_organisation = 10
 		}
-		early_frigate = {
+		frigate = {
 			max_organisation = 10
 		}
 		naval_retreat_chance = 0.25
@@ -177,7 +176,7 @@ technologies = {
 
     capital_ship_preservation = {
 		# EFFECT #############
-		early_ship_of_line = {
+		ship_of_line = {
 			max_organisation = 10
 			reliability = 0.10
 		}
@@ -230,14 +229,13 @@ technologies = {
 
     know_thy_enemy = {
 		# EFFECT #############
-		early_xebec = {
+		xebec = {
 			max_organisation = 10
-			sortie_efficiency = 0.15
 		}
 		galley = {
 			max_organisation = 10
-			sortie_efficiency = 0.15
 		}
+		convoy_raiding_efficiency_factor = 0.15
 		strike_force_movement_org_loss = -0.2
 		########
 
@@ -246,7 +244,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-        prerequisite = { steam_engine = 1 }
+        dependencies = {
+            steam_engine = 1
+        }
 		
 		xp_research_type = navy
 		xp_unlock_cost = 200
@@ -289,12 +289,6 @@ technologies = {
 
     naval_skirmishing = {
 		# EFFECT #############
-		early_xebec = {
-			navy_screen_attack_factor = 0.10
-		}
-		galley = {
-			navy_screen_attack_factor = 0.10
-		}
 		naval_retreat_chance = 0.40
 		navy_screen_attack_factor = 0.10
 		########
@@ -345,14 +339,13 @@ technologies = {
 
     trade_interdiction = {
 		# EFFECT #############
-		early_xebec = {
+		xebec = {
 			max_organisation = 10
-			sortie_efficiency = 0.15
 		}
 		galley = {
 			max_organisation = 10
-			sortie_efficiency = 0.15
 		}
+		convoy_raiding_efficiency_factor = 0.15
 		strike_force_movement_org_loss = -0.2
 		########
 		
@@ -407,10 +400,10 @@ technologies = {
 		
 		
 		# EFFECT #############
-		early_ship_of_line = {
+		ship_of_line = {
 			max_organisation = 20
 		}
-		early_frigate = {
+		frigate = {
 			max_organisation = 20
 		}
 		navy_screen_attack_factor = 0.10
@@ -458,10 +451,10 @@ technologies = {
 	
 	fleet_distribution = {
 		# EFFECT #############
-		early_ship_of_line = {
+		ship_of_line = {
 			max_organisation = 10
 		}
-		early_frigate = {
+		frigate = {
 			max_organisation = 10
 		}
 		strike_force_movement_org_loss = -0.2
@@ -515,16 +508,15 @@ technologies = {
 
     privateer_contracts = {
 		# EFFECT #############
-		early_xebec = {
+		xebec = {
 			max_organisation = 10
 			surface_detection = 0.10
-			sortie_efficiency = 0.15
 		}
 		galley = {
 			max_organisation = 10
-			sortie_efficiency = 0.15
 			surface_detection = 0.10
 		}
+		convoy_raiding_efficiency_factor = 0.15
 		########
 
 		path = {
@@ -573,11 +565,11 @@ technologies = {
 
     rapid_response_fleet = {
 		# EFFECT #############
-		early_ship_of_line = {
+		ship_of_line = {
 			max_organisation = 10
 			naval_speed = 0.20
 		}
-		early_frigate = {
+		frigate = {
 			max_organisation = 10
 			naval_speed = 0.20
 		}
@@ -629,14 +621,13 @@ technologies = {
 
     fleet_concentration = {
 		# EFFECT #############
-		early_ship_of_line = {
+		ship_of_line = {
 			max_organisation = 10
-			navy_capital_ship_attack_factor = 0.20
 		}
-		early_frigate = {
+		frigate = {
 			max_organisation = 10
-			navy_capital_ship_attack_factor = 0.20
 		}
+		navy_capital_ship_attack_factor = 0.20
 		########
 
 		path = {
@@ -687,11 +678,11 @@ technologies = {
 
     improved_screen_organisation = {
 		# EFFECT #############
-		early_ship_of_line = {
+		ship_of_line = {
 			max_organisation = 10
 			naval_speed = 0.10
 		}
-		early_frigate = {
+		frigate = {
 			max_organisation = 10
 			naval_speed = 0.10
 		}
@@ -743,14 +734,13 @@ technologies = {
 
     overwhelming_firepower = {
 		# EFFECT #############
-		early_ship_of_line = {
+		ship_of_line = {
 			max_organisation = 10
-			navy_capital_ship_attack_factor = 0.15
 		}
-		early_frigate = {
+		frigate = {
 			max_organisation = 10
-			navy_capital_ship_attack_factor = 0.15
 		}
+		navy_capital_ship_attack_factor = 0.15
 		########
 
 		path = {
@@ -799,7 +789,7 @@ technologies = {
 
     ascendance_of_steam = {
 		# EFFECT #############
-		early_xebec = {
+		xebec = {
 			max_organisation = 15
 			naval_speed = 0.20
 		}
@@ -807,11 +797,11 @@ technologies = {
 			max_organisation = 15
 			naval_speed = 0.20
 		}
-		early_ship_of_line = {
+		ship_of_line = {
 			max_organisation = 15
 			naval_speed = 0.20
 		}
-		early_frigate = {
+		frigate = {
 			max_organisation = 15
 			naval_speed = 0.20
 		}
@@ -822,7 +812,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-        prerequisite = { steam_engine }
+        dependencies = {
+            steam_engine = 1
+        }
 		
 		xp_research_type = navy
 		xp_unlock_cost = 200
@@ -865,7 +857,7 @@ technologies = {
 
     logistics_ships = {
 		# EFFECT #############
-		early_xebec = {
+		xebec = {
 			max_organisation = 10
 			naval_range = 0.25
 		}
@@ -873,11 +865,11 @@ technologies = {
 			max_organisation = 10
 			naval_range = 0.25
 		}
-		early_ship_of_line = {
+		ship_of_line = {
 			max_organisation = 10
 			naval_range = 0.25
 		}
-		early_frigate = {
+		frigate = {
 			max_organisation = 10
 			naval_range = 0.25
 		}
@@ -933,7 +925,7 @@ technologies = {
 
     fleet_in_being = {
 		# EFFECT #############
-		early_xebec = {
+		xebec = {
 			max_organisation = 10
 			sub_detection = 0.15
 			surface_detection = 0.15
@@ -943,12 +935,12 @@ technologies = {
 			sub_detection = 0.15
 			surface_detection = 0.15
 		}
-		early_ship_of_line = {
+		ship_of_line = {
 			max_organisation = 10
 			sub_detection = 0.15
 			surface_detection = 0.15
 		}
-		early_frigate = {
+		frigate = {
 			max_organisation = 10
 			sub_detection = 0.15
 			surface_detection = 0.15
@@ -998,7 +990,7 @@ technologies = {
 
     big_guns_never_tire = {
 		# EFFECT #############
-		early_ship_of_line = {
+		ship_of_line = {
 			max_organisation = 25
 			navy_capital_ship_attack_factor = 0.25
 		}
