@@ -1,98 +1,68 @@
 # Written by Henrik "Groogy" Hansson
 # Modified by Daniel "Da9L" Sjöberg
-
+#IF YOU DARE TO CHANGE THE AI_STRATEGY I WILL SHOOT YOU -didi
+#STILL HAVE TO ADD AIR SKIRMISHERS
 default_unit_production = { #If adding country-unique ones, bear in mind that they STACK
 	enable = {
 		always = yes
-		NOT = { original_tag = GER } NOT = { original_tag = FRA } NOT = { original_tag = CHI  } NOT = { original_tag = ENG  }
-		not = { original_tag = CZE }
-		NOT = { tag = SOV }
-		Not = {
-			OR = {
-				original_tag = JAP
-			}
-		}
 	}
 
-	ai_strategy = {
-		type = role_ratio
-		id = paratroopers
-		value = 0
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = mountaineers
-		value = 4
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = marines
-		value = 0
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = armor
-		value = 2
-	}
-
-	ai_strategy = {
+	#TLI SHIT
+	#GROUND
+ 	ai_strategy = {
 		type = role_ratio
 		id = ranged_infantry
-		value = 80
+		value = 100
 	}
 
-	#Air unit factors
+ 	ai_strategy = {
+		type = role_ratio
+		id = ranged_militia
+		value = 0
+	}
+
+ 	ai_strategy = {
+		type = role_ratio
+		id = armored_infantry
+		value = 50
+	}
+
+ 	ai_strategy = {
+		type = role_ratio
+		id = motor_infantry
+		value = 50
+	}
+
+	#equipment
 	ai_strategy = {
-		type = unit_ratio
-		id = fighter
-		value = 80
+		type = equipment_production_factor
+		id = air_frigate
+		value = 25
 	}
 
 	ai_strategy = {
-		type = unit_ratio
-		id = cas
-		value = 5
+		type = equipment_production_factor
+		id = ranged_infantry
+		value = 50
 	}
 
 	ai_strategy = {
-		type = unit_ratio
-		id = tactical_bomber
-		value = 5
+		type = equipment_production_factor
+		id = cannon_frontline
+		value = 25
 	}
 
-	ai_strategy = {
-		type = unit_ratio
-		id = strategic_bomber
-		value = 5
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = naval_bomber
-		value = 5
-	}
-
-
-	# Naval unit factors
+	#naval unit ratio
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 10
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = submarine
-		value = 10
+		value = 25
 	}
 
 	ai_strategy = {
 		type = unit_ratio
 		id = screen_ship
-		value = 40
+		value = 60
 	}
 
 	ai_strategy = {
@@ -101,22 +71,29 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 		value = 15
 	}
 
+	#Air unit 
 	ai_strategy = {
-		type = equipment_production_factor
-		id = fighter
+		type = unit_ratio
+		id = air_frigate
 		value = 35
 	}
 
 	ai_strategy = {
-		type = equipment_production_factor
-		id = ranged_infantry
-		value = 40
+		type = unit_ratio
+		id = air_bombardier
+		value = 35
 	}
 
 	ai_strategy = {
-		type = equipment_production_factor
-		id = artillery
-		value = 25
+		type = unit_ratio
+		id = sky_carrier
+		value = 30
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = sky_cruiser
+		value = 0
 	}
 }
 
