@@ -10,11 +10,7 @@ equipments = {
     galley_hull = {
 		year = 600
 
-		can_be_produced = {
-			NOT = {
-				has_idea = BUL_army_restrictions
-			}
-		}
+
 
 		is_archetype = yes
 		is_buildable = no
