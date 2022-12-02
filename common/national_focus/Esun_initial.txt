@@ -252,6 +252,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_doctrine_cost_reduction =  {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
 			IF = {
 				limit = {
 					has_idea = ESU_equal_officers_02
@@ -2365,6 +2370,7 @@ focus_tree = {
 	focus = {
 		id = ESU_naval_defence
 		prerequisite = { focus = ESU_read_the_navy }
+		mutually_exclusive = { focus = ESU_naval_offense }
 		x = 1
 		y = 4
 		relative_position_id = ESU_an_old_enemy
@@ -2385,6 +2391,7 @@ focus_tree = {
 	focus = {
 		id = ESU_naval_offense
 		prerequisite = { focus = ESU_read_the_navy }
+		mutually_exclusive = { focus = ESU_naval_defence }
 		x = -1
 		y = 4
 		relative_position_id = ESU_an_old_enemy
@@ -2404,8 +2411,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_naval_supremecy
-		prerequisite = { focus = ESU_naval_offense }
-		prerequisite = { focus = ESU_naval_defence }
+		prerequisite = { focus = ESU_naval_offense focus = ESU_naval_defence }
 		x = 0
 		y = 5
 		relative_position_id = ESU_an_old_enemy
@@ -2462,7 +2468,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_flames_of_war
-		prerequisite = { focus = ESU_iji_focus_12 }
+		prerequisite = { focus = ESU_naval_supremecy }
 		prerequisite = { focus = ESU_factory_destruction }
 		prerequisite = { focus = ESU_ready_force }
 		x = 0
