@@ -1657,7 +1657,7 @@ focus_tree = {
 		id = ESU_a_new_dawn
 		x = 8
 		y = 8
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2169,7 +2169,7 @@ focus_tree = {
 		x = 4
 		y = 1
 		relative_position_id = ESU_a_new_dawn
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -2197,7 +2197,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#CREATES EVENT ABOUT the start of an informant bureau
+			#event containing a report about local supporters in the south of ijikami
 		}
 	}
 
@@ -2216,8 +2216,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#gives an event where esun sends a work force to the recently captured regions to boost production
-			#adds infrastructure in the Hiriki, waonto and Onki regions
+			#event about immigrant volunteers being trained in preparation for the invasion (they haven't fucking seen a gun before lmao)
 		}
 	}
 
@@ -2228,7 +2227,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = ESU_an_old_enemy
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -2237,8 +2236,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#gives an event about steam engines being introduced into the factories to speed up production
-			#creates civ factories in a few states
+			swap_ideas = {
+				add_idea = ESU_homecoming_idea_2
+				remove_idea = ESU_homecoming_idea
+			}
 		}
 	}
 
@@ -2249,7 +2250,7 @@ focus_tree = {
 		x = 3
 		y = 2
 		relative_position_id = ESU_an_old_enemy
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -2258,8 +2259,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#gives an event about steam engines being introduced into the factories to speed up production
-			#creates civ factories in a few states
+			#get some ocs or some shit idk
+			add_manpower = 10000
+			swap_ideas = {
+				add_idea = ESU_equal_officers_04
+				remove_idea = ESU_equal_officers_03
+			}
 		}
 	}
 
@@ -2270,16 +2275,28 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = ESU_an_old_enemy
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
+			has_equipment = {
+				rifle_equipment > 9999
+			}
 		}
 		
 		completion_reward = {
-			#event about people that support our informants in Ijikami
+			add_equipment_to_stockpile = {
+				type = rifle_equipment
+				amount = -10000
+			}
+			IJI = {
+				add_timed_idea = { 
+					idea = ESU_iji_commoners_with_guns
+					days = 720
+				}
+			}
 		}
 	}
 
@@ -2290,17 +2307,28 @@ focus_tree = {
 		x = -3
 		y = 2
 		relative_position_id = ESU_an_old_enemy
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
+			has_equipment = {
+				support_equipment >249
+			}
 		}
 		
 		completion_reward = {
-			#destroys infrastructure in Ijikami
-			#event pop up about the informant success
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -250
+			}
+			IJI = {
+				add_timed_idea = { 
+					idea = ESU_iji_sabotage_1
+					days = 720
+				}
+			}
 		}
 	}
 
@@ -2311,7 +2339,7 @@ focus_tree = {
 		x = -2
 		y = 3
 		relative_position_id = ESU_an_old_enemy
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2320,7 +2348,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#Ijikam gains an idea where it's stability drops
+			IJI = {
+				swap_ideas = {
+					add_idea = ESU_iji_sabotage_2
+					remove_idea = ESU_iji_sabotage_1
+				}
+			}
 		}
 	}
 
@@ -2331,7 +2364,7 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = ESU_an_old_enemy
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2340,8 +2373,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds 2 divisions
-			#adds 10000 manpower 
+			country_event = { id = esu_sanelate.0 }
 		}
 	}
 
@@ -2434,7 +2466,7 @@ focus_tree = {
 		x = -2
 		y = 5
 		relative_position_id = ESU_an_old_enemy
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2443,7 +2475,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#Damages or removes civil and war factories in Ijikami
+			IJI = {
+				swap_ideas = {
+					add_idea = ESU_iji_sabotage_3
+					remove_idea = ESU_iji_sabotage_2
+				}
+			}
 		}
 	}
 
@@ -2453,7 +2490,7 @@ focus_tree = {
 		x = 2
 		y = 5
 		relative_position_id = ESU_an_old_enemy
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2462,7 +2499,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds iron and coal in a few states
+			country_event = { id = esu_sanelate.1 }
 		}
 	}
 
