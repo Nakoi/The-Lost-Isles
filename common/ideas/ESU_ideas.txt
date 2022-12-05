@@ -142,6 +142,20 @@ ideas = {
 			}
 		}
 		
+		ESU_homecoming_idea_8 = { #healed wounds
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = 0.1
+				war_support_factor = 0.05
+			}
+		}
+		
 		ESU_pone_problem_idea_01 = {
 			picture = great_depression
 			removal_cost = -1
@@ -495,6 +509,20 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.05
 				stability_weekly = -0.002
+			}
+		}
+		
+		ESU_naval_supremacy_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			equipment_bonus = {
+				ship_hull_heavy = {
+					build_cost_ic = -0.2
+				}
 			}
 		}
 		
