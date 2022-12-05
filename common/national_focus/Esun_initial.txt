@@ -2157,6 +2157,10 @@ focus_tree = {
 		
 		completion_reward = {
 			#funni epilogue event
+			swap_ideas = {
+				add_idea = ESU_homecoming_idea_8
+				remove_idea = ESU_homecoming_idea
+			}
 		}
 	}
 
@@ -2384,18 +2388,32 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = ESU_an_old_enemy
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			#requires naval force of 15 strong and naval ships in regions : 
+			has_navy_size = {
+				size > 9
+				archetype = ship_hull_heavy
+			}
+			has_navy_size = {
+				size > 19
+				archetype = ship_hull_cruiser
+			}
+			has_navy_size = {
+				size > 49
+				archetype = galley_hull
+			}
+			has_navy_size = {
+				size > 24
+				archetype = xebec_hull
+			}
 		}
 		
 		completion_reward = {
-			#gives navy experience
-			#adds 5 Xebec class ships
+		
 		}
 	}
 
@@ -2412,11 +2430,11 @@ focus_tree = {
 		}
 		
 		available = {
+			has_tech = shock_troops_0
 		}
 		
 		completion_reward = {
-			#Creates idea:  naval_defence_idea
-			#+10% naval defence
+			load_oob = ESU_MARINEGREN
 		}
 	}
 
@@ -2433,11 +2451,49 @@ focus_tree = {
 		}
 		
 		available = {
+			IF = {
+				limit = { has_dlc = "Man the Guns" }
+				has_tech = heavy_ship_tech_3
+				has_tech = breech_loaded_cannons
+			}
+			ELSE = {
+				has_tech = heavy_ship_poverty_3
+			}
 		}
 		
 		completion_reward = {
-			#Creates idea:  naval_offense_idea
-			#+10% naval attack
+			IF = {
+				limit = { has_dlc = "Man the Guns" }
+				set_technology = {
+					heavy_ship_tech_4 = 1
+				}
+				set_technology = {
+					modern_naval_gunnery = 1
+				}
+				create_equipment_variant = {
+					name = "Fearless Class"								
+					type = ship_hull_heavy_4
+					modules = {
+						fixed_ship_battery_slot = heavy_naval_battery_4
+						fixed_ship_anti_air_slot = empty
+						fixed_ship_fire_control_system_slot = empty
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = ship_of_the_line_propulsion_4
+						fixed_ship_armor_slot = heavy_planking_4
+						front_1_custom_slot = light_naval_battery_4
+						mid_1_custom_slot = empty
+						mid_3_custom_slot = heavy_naval_battery_4
+						mid_2_custom_slot = heavy_naval_battery_4
+						mid_4_custom_slot = heavy_naval_battery_4
+						rear_1_custom_slot = light_naval_battery_4
+					}
+				}
+			}
+			ELSE = {
+				set_technology = {
+					heavy_ship_poverty_4 = 1
+				}
+			}
 		}
 	}
 
@@ -2447,7 +2503,7 @@ focus_tree = {
 		x = 0
 		y = 5
 		relative_position_id = ESU_an_old_enemy
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
@@ -2456,7 +2512,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#adds 5 battleships
+			add_ideas = ESU_naval_supremacy_idea
 		}
 	}
 
