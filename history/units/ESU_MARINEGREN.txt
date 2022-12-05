@@ -1,0 +1,48 @@
+﻿division_template = {
+	name = "Marine-Grenadier Brigade"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		shock_troops = { x = 0 y = 0 }
+		shock_troops = { x = 0 y = 1 }
+		shock_troops = { x = 0 y = 2 }
+		shock_troops = { x = 0 y = 3 }
+		shock_troops = { x = 1 y = 0 }
+		shock_troops = { x = 1 y = 1 }
+		shock_troops = { x = 1 y = 2 }
+		shock_troops = { x = 1 y = 3 }
+		cannon_frontline = { x = 2 y = 0 }
+		rocket_frontline = { x = 2 y = 1 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1. Marine-Grenadier Brigade"
+		location = 3456
+		division_template = "Marine-Grenadier Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Marine-Grenadier Brigade"
+		location = 3456
+		division_template = "Marine-Grenadier Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Marine-Grenadier Brigade"
+		location = 3456
+		division_template = "Marine-Grenadier Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Marine-Grenadier Brigade"
+		location = 3456
+		division_template = "Marine-Grenadier Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
