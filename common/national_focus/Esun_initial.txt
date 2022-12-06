@@ -2046,7 +2046,40 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#idk
+			#creates a puppet in ijikami
+						hidden_effect = {
+				ESP = {			
+					transfer_state  = 466
+					transfer_state  = 470
+					transfer_state  = 468
+					transfer_state  = 457
+					transfer_state  = 125
+
+					add_state_core  = 466
+					add_state_core  = 470
+					add_state_core  = 468
+					add_state_core  = 457
+					add_state_core  = 125
+
+					set_capital = { state = 466 }
+					inherit_technology = ESU
+				}
+				ESU = {
+					IF = {
+						limit = { has_dlc = "Together for Victory" }
+							set_autonomy = {
+								target = ESP
+								autonomy_state = autonomy_integrated_puppet
+								freedom_level = 0.2
+								end_wars = no
+								end_civil_wars = no
+							}
+						}
+					ELSE = {
+						puppet = ESP
+					}
+				}
+			}
 		}
 	}
 
@@ -2606,10 +2639,9 @@ focus_tree = {
 
 
 					set_capital = { state = 5 }
-					
-					UES = { add_to_faction = ESU }
-					ESU = { puppet = UES }
+					inherit_technology = ESU
 				}
+				ESU = { puppet = UES }
 			}
 		}
 	}

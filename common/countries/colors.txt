@@ -34,6 +34,11 @@ UES = {
 }
 
 
+ESP= {
+    color = rgb { 255 189 112 }
+    color_ui = rgb { 255 191 115 }
+}
+
 SUN = {
     color = rgb { 135 197 136 }
     color_ui = rgb { 84 214 147 }
