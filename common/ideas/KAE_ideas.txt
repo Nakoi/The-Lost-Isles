@@ -1,6 +1,92 @@
 ideas = {	
 	country = {
 		
+		KAE_cucked_gulf_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+				
+			modifier = {
+				stability_factor = -0.25
+				consumer_goods_factor = 0.35
+				min_export = 1
+			}
+		}
+		
+		KAE_cucked_gulf_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+				
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+				min_export = 0.15
+			}
+		}
+		
+		KAE_minutekirin_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				OR = {
+					has_idea = recruit_militia_peacetime
+					has_idea = recruit_militia_wartime
+				}
+			}
+				
+			modifier = {
+				conscription_factor = 0.5
+				mobilization_speed = 10
+				army_org_factor = -0.3
+				army_org_regain = 1
+				army_attack_factor = -0.2
+				army_defence_factor = -0.2
+			}
+		}
+		
+		KAE_minutekirin_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				OR = {
+					has_idea = recruit_militia_peacetime
+					has_idea = recruit_militia_wartime
+				}
+			}
+				
+			modifier = {
+				conscription_factor = 0.35
+				mobilization_speed = 5
+				army_org_factor = -0.15
+				army_org_regain = 0.5
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+			}
+		}
+		
+		KAE_minutekirin_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				OR = {
+					has_idea = recruit_militia_peacetime
+					has_idea = recruit_militia_wartime
+				}
+			}
+				
+			modifier = {
+				conscription_factor = 0.15
+				mobilization_speed = 1
+				army_org_regain = 0.15
+				army_attack_factor = -0.05
+			}
+		}
+		
 		KAE_shit_arms_industry = {
 			picture = great_depression
 			removal_cost = -1
