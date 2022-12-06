@@ -746,9 +746,13 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-				swap_ideas = {
-					add_idea = KAE_officer_training_03
-					remove_idea = KAE_officer_training_01
+			swap_ideas = {
+				add_idea = KAE_officer_training_03
+				remove_idea = KAE_officer_training_01
+			}
+			swap_ideas = {
+				add_idea = KAE_minutekirin_02
+				remove_idea = KAE_minutekirin_01
 			}
 		}
 	}
@@ -765,9 +769,13 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-				swap_ideas = {
-					add_idea = KAE_officer_training_02
-					remove_idea = KAE_officer_training_01
+			swap_ideas = {
+				add_idea = KAE_officer_training_02
+				remove_idea = KAE_officer_training_01
+			}
+			swap_ideas = {
+				add_idea = KAE_minutekirin_02
+				remove_idea = KAE_minutekirin_01
 			}
 		}
 	}
@@ -822,6 +830,10 @@ focus_tree = {
 				cost_reduction = 0.5
 				uses = 1
 				category = land_doctrine
+			}
+			swap_ideas = {
+				add_idea = KAE_minutekirin_03
+				remove_idea = KAE_minutekirin_02
 			}
 		}
 	}
@@ -1495,6 +1507,7 @@ focus_tree = {
 		completion_reward = {
 			KAE = {
 				add_ideas = KAE_free_trade_alliance_bonus_KAE
+				remove_ideas = KAE_cucked_gulf_02
 			}
 			CIL = {
 				add_ideas = KAE_free_trade_alliance_bonus_CIL

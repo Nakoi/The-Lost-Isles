@@ -49,6 +49,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			swap_ideas = {
+				add_idea = KAE_cucked_gulf_02
+				remove_idea = KAE_cucked_gulf_01
+			}
 			add_days_mission_timeout = {
 				mission = KAE_negotiation_time_limit_mission
 				days = 90
