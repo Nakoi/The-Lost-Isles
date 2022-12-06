@@ -938,19 +938,25 @@ focus_tree = {
 		}
 		
 		available = {
-			#TBD - BYPASS IF KAE ASKED FIRST
+			
 		}
 		
-		completion_reward = {
-			ESU = { country_event = { id = esu_event.7 days = 30 } }
+		select_effect = {
 			IF = {
 				limit = {
 					KAE = {
 						has_country_flag = kae_esun_agreed_sunotia_war
 					}
-					KAE = { country_event = { id = esu_event.4 } }
+				}
+				country_event = {
+					id = esu_event.4
+					days = 7
 				}
 			}
+		}
+		
+		completion_reward = {
+			ESU = { country_event = { id = esu_event.7 days = 2 } }
 		}
 	}
 	
