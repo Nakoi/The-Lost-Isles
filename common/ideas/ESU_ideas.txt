@@ -256,7 +256,7 @@ ideas = {
 			}
 		}
 		
-		ESU_pone_problem_idea_07 = {
+		ESU_pone_problem_idea_07 = { #schizo
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -274,7 +274,7 @@ ideas = {
 			}
 		}
 		
-		ESU_pone_problem_idea_08 = {
+		ESU_pone_problem_idea_08 = { #schizo
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -292,7 +292,7 @@ ideas = {
 			}
 		}
 		
-		ESU_pone_problem_idea_09 = {
+		ESU_pone_problem_idea_09 = { #schizo
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -444,6 +444,34 @@ ideas = {
 		}
 		
 		ESU_eastern_monks_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = -0.03
+				industrial_capacity_factory = 0.05
+				stability_weekly = -0.001
+			}
+		}
+		
+		ESU_kae_cooperation = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = -0.03
+				industrial_capacity_factory = 0.05
+				stability_weekly = -0.001
+			}
+		}
+		
+		ESU_sua_cooperation = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
