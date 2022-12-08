@@ -482,3 +482,145 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = esu_sanelate.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_sanelate.2"}
+	title = esu_sanelate.2.t
+	desc = esu_sanelate.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = { #yea
+		name = esu_sanelate.2.a
+		IF = {
+			limit = {
+				tag = KAE
+			}
+			ROOT = { add_ideas = ESU_kae_cooperation }
+			ESU = { add_ideas = ESU_kae_cooperation }
+		}
+		IF = {
+			limit = {
+				tag = SUA
+			}
+			ROOT = { add_ideas = ESU_sua_cooperation }
+			ESU = { add_ideas = ESU_sua_cooperation }
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = ESU
+					value > 89
+				}	
+			}
+			modifier = {
+				add = 25
+				has_opinion = {
+					target = ESU
+					value > 24
+				}
+			}	
+		}
+	}
+		
+	option = { #nah
+		name = esu_sanelate.2.b
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = ESU
+					value < -15
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	id = esu_sanelate.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_sanelate.3"}
+	title = esu_sanelate.3.t
+	desc = esu_sanelate.3.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_sanelate.3.a
+		set_country_flag = esu_hwholesome_1000
+		complete_national_focus = ESU_all_for_the_nation
+		ai_chance = {
+			base = 0
+		}
+	}
+	
+	option = { 
+		name = esu_sanelate.3.b
+		set_country_flag = esu_based_as_fuck_retvrning
+		complete_national_focus = ESU_an_old_enemy
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+country_event = { #flavor 1
+	id = esu_sanelate.4
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_sanelate.4"}
+	title = esu_sanelate.4.t
+	desc = esu_sanelate.4.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_sanelate.4.a
+	}
+}
+
+country_event = { #flavor 2
+	id = esu_sanelate.5
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_sanelate.5"}
+	title = esu_sanelate.5.t
+	desc = esu_sanelate.5.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_sanelate.5.a
+	}
+}
+
+country_event = { #flavor 3
+	id = esu_sanelate.6
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_sanelate.6"}
+	title = esu_sanelate.6.t
+	desc = esu_sanelate.6.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_sanelate.6.a
+	}
+}
+
+country_event = { #flavor 4
+	id = esu_sanelate.7
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_sanelate.7"}
+	title = esu_sanelate.7.t
+	desc = esu_sanelate.7.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_sanelate.7.a
+	}
+}
