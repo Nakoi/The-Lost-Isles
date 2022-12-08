@@ -130,26 +130,8 @@ country_event = {
 		ESU = {
 			country_event = { 
 				id = esu_event.3
-				days = 4
+				days = 14
 			}
-		}
-		IF = {
-			limit = {
-				tag = HRI
-			}
-			set_country_flag = esu_flag_hri_no
-		}
-		IF = {
-			limit = {
-				tag = ONK
-			}
-			set_country_flag = esu_flag_onk_no
-		}
-		IF = {
-			limit = {
-				tag = WAO
-			}
-			set_country_flag = esu_flag_wao_no
 		}
 		ai_chance = {
 			base = 95
@@ -168,38 +150,17 @@ country_event = {
 	
 	option = {
 		name = esu_event.3.a
-		IF = {
-			limit = {
-				ESU = {
-					has_country_flag = esu_flag_hri_no
-				}
-			}
-			declare_war_on = {
-				target = HRI
-				type = annex_everything
-			}
+		declare_war_on = {
+			target = HRI
+			type = annex_everything
 		}
-		IF = {
-			limit = {
-				ESU = {
-					has_country_flag = esu_flag_onk_no
-				}
-			}
-			declare_war_on = {
-				target = ONK
-				type = annex_everything
-			}
+		declare_war_on = {
+			target = ONK
+			type = annex_everything
 		}
-		IF = {
-			limit = {
-				ESU = {
-					has_country_flag = esu_flag_wao_no
-				}
-			}
-			declare_war_on = {
-				target = WAO
-				type = annex_everything
-			}
+		declare_war_on = {
+			target = WAO
+			type = annex_everything
 		}
 	}
 }
