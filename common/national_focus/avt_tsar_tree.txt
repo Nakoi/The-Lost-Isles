@@ -3221,11 +3221,26 @@ focus_tree = {
 					add_state_core  = 267
 					add_state_core  = 266
 					add_state_core  = 149
-
-					set_capital = { state = 259 }
 					
-					AVT = { add_to_faction = AVC }
-					AVT = { puppet = AVC }
+					set_capital = { state = 259 }
+					inherit_technology = AVT
+				}
+				
+				AVT = { add_to_faction = AVC }
+				AVT = {
+					IF = {
+						limit = { has_dlc = "Together for Victory" }
+							set_autonomy = {
+								target = AVC
+								autonomy_state = autonomy_colony
+								freedom_level = 0.2
+								end_wars = no
+								end_civil_wars = no
+							}
+						}
+					ELSE = {
+						puppet = AVC
+					}
 				}
 			}
 		}
