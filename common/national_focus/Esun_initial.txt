@@ -1663,16 +1663,17 @@ focus_tree = {
 		id = ESU_a_new_dawn
 		x = 8
 		y = 8
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
+			has_completed_focus = ESU_ideas_of_vengence
 		}
 		
 		completion_reward = {
-			#do something with decisions idk bro
+			country_event = { id = esu_sanelate.3 }
 		}
 	}
 
@@ -1690,6 +1691,7 @@ focus_tree = {
 		}
 		
 		available = {
+			has_country_flag = esu_hwholesome_1000
 		}
 		
 		completion_reward = {
@@ -1713,7 +1715,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#event about esun not being a shit place to live in
+			country_event = { id = esu_sanelate.4 }
 		}
 	}
 
@@ -1732,7 +1734,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#event about esun not being a shit place to live in
+			country_event = { id = esu_sanelate.5 }
 		}
 	}
 
@@ -2046,8 +2048,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#creates a puppet in ijikami
-						hidden_effect = {
+			custom_effect_tooltip = ESUtt_mare_ethnostate
+			hidden_effect = {
 				ESP = {			
 					transfer_state  = 466
 					transfer_state  = 470
@@ -2102,7 +2104,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#idk
+			add_stability = -0.05
 		}
 	}
 
@@ -2117,11 +2119,19 @@ focus_tree = {
 			factor = 5
 		}
 		
+		bypass = {
+			NOT = {
+				country_exists = KAE
+				country_exists = SUA
+			}
+		}
+		
 		available = {
 		}
 		
 		completion_reward = {
-			#creates an option for create a faction 
+			KAE = { country_event = { id = esu_sanelate.2 } }
+			SUA = { country_event = { id = esu_sanelate.2 } }
 		}
 	}
 
@@ -2218,6 +2228,7 @@ focus_tree = {
 		}
 		
 		available = {
+			has_country_flag = esu_based_as_fuck_retvrning
 		}
 		
 		completion_reward = {
@@ -2240,7 +2251,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#event containing a report about local supporters in the south of ijikami
+			country_event = { id = esu_sanelate.6 }
 		}
 	}
 
@@ -2259,7 +2270,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#event about immigrant volunteers being trained in preparation for the invasion (they haven't fucking seen a gun before lmao)
+			country_event = { id = esu_sanelate.7 }
 		}
 	}
 
@@ -2615,8 +2626,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#starts civil war in Ijikami
-						hidden_effect = {
+			custom_effect_tooltip = ESUtt_second_rising
+			hidden_effect = {
 				UES = {			
 					transfer_state  = 11
 					transfer_state  = 9
@@ -2641,7 +2652,21 @@ focus_tree = {
 					set_capital = { state = 5 }
 					inherit_technology = ESU
 				}
-				ESU = { puppet = UES }
+				ESU = {
+					IF = {
+						limit = { has_dlc = "Together for Victory" }
+							set_autonomy = {
+								target = UES
+								autonomy_state = autonomy_puppet
+								freedom_level = 0.2
+								end_wars = no
+								end_civil_wars = no
+							}
+						}
+					ELSE = {
+						puppet = UES
+					}
+				}
 			}
 		}
 	}
