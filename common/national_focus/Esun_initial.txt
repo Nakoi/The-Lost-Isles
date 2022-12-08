@@ -836,6 +836,7 @@ focus_tree = {
 	focus = {
 		id = ESU_acquire_weapons
 		prerequisite = { focus = ESU_eyes_on_the_clans }
+		prerequisite = { focus = ESU_old_relations }
 		x = -4
 		y = 1
 		relative_position_id = ESU_eyes_on_the_clans
@@ -948,9 +949,11 @@ focus_tree = {
 						has_country_flag = kae_esun_agreed_sunotia_war
 					}
 				}
-				country_event = {
-					id = esu_event.4
-					days = 7
+				KAE = {
+					country_event = {
+						id = esu_event.4
+						days = 7
+					}
 				}
 			}
 		}
@@ -963,6 +966,7 @@ focus_tree = {
 	focus = {
 		id = ESU_crush_them_all
 		prerequisite = { focus = ESU_eyes_on_the_clans }
+		prerequisite = { focus = ESU_send_troops_to_the_front }
 		x = 4
 		y = 1
 		relative_position_id = ESU_eyes_on_the_clans
