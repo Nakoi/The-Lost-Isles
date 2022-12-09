@@ -34,3 +34,73 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 } 
         }
     }
+
+    SpriteType = { 
+        name = "ESU_GFX_Upcoming_Elections"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Upcoming_Elections.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Upcoming_Elections_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Upcoming_Elections.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Upcoming_Elections.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Upcoming_Elections.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+    SpriteType = { 
+        name = "ESU_GFX_The_era_of_unity"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_The_era_of_unity.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_The_era_of_unity_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_The_era_of_unity.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_The_era_of_unity.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_The_era_of_unity.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }

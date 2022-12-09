@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_Upcoming_elections
-		icon = GFX_focus_esu_generic
+		icon = ESU_GFX_Upcoming_Elections
 		x = 8
 		y = 0
 		cost = 12
@@ -45,6 +45,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_visionarism
+		icon = ESU_GFX_The_era_of_unity
 		prerequisite = { focus = ESU_Upcoming_elections }
 		mutually_exclusive = { focus = ESU_militarism }
 		x = -10
@@ -836,7 +837,6 @@ focus_tree = {
 	focus = {
 		id = ESU_acquire_weapons
 		prerequisite = { focus = ESU_eyes_on_the_clans }
-		prerequisite = { focus = ESU_old_relations }
 		x = -4
 		y = 1
 		relative_position_id = ESU_eyes_on_the_clans
@@ -949,11 +949,9 @@ focus_tree = {
 						has_country_flag = kae_esun_agreed_sunotia_war
 					}
 				}
-				KAE = {
-					country_event = {
-						id = esu_event.4
-						days = 7
-					}
+				country_event = {
+					id = esu_event.4
+					days = 7
 				}
 			}
 		}
@@ -966,7 +964,6 @@ focus_tree = {
 	focus = {
 		id = ESU_crush_them_all
 		prerequisite = { focus = ESU_eyes_on_the_clans }
-		prerequisite = { focus = ESU_send_troops_to_the_front }
 		x = 4
 		y = 1
 		relative_position_id = ESU_eyes_on_the_clans
