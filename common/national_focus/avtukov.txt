@@ -24,7 +24,7 @@ focus_tree = {
 
 	focus = {
 		id = AVT_the_great_modernisation
-		icon = GFX_focus_avt_generic
+		icon = AVT_GreatModernisation
 		x = 0
 		y = 0
 		cost = 2
@@ -39,7 +39,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_full_speed_ahead
-		icon = GFX_focus_avt_generic
+		icon = AVT_GFX_FullspeedAhead
 		prerequisite = { focus = AVT_the_great_modernisation }
 		mutually_exclusive = ( focus = AVT_the_conspiracy }
 		x = -4
@@ -78,6 +78,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_undercut_pegasi
+		icon = AVT_GFX_Undercut_The_SwiftGuard
 		prerequisite = { focus = AVT_full_speed_ahead }
 		x = -4
 		y = 2
@@ -114,6 +115,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_commoner_officer_corps
+		icon = AVT_GFX_Common_officer_corps
 		prerequisite = { focus = AVT_undercut_pegasi }
 		x = -4
 		y = 3
@@ -142,6 +144,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_investigate_nobility
+		icon = AVT_GFX_Investigate_the_Nobility
 		prerequisite = { focus = AVT_full_speed_ahead }
 		x = -6
 		y = 2
@@ -185,6 +188,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_infiltrate_conspirators
+		icon = AVT_GFX_Infiltrate_the_conspiritors
 		prerequisite = { focus = AVT_investigate_nobility }
 		x = -6
 		y = 3
@@ -232,6 +236,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_urban_tax_reform
+		icon = AVT_GFX_Urban_Tax_reform
 		prerequisite = { focus = AVT_full_speed_ahead }
 		x = -2
 		y = 2
@@ -265,6 +270,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_destroy_guild_system
+		icon = AVT_GFX_Destroy_the_guilds
 		prerequisite = { focus = AVT_urban_tax_reform }
 		x = -2
 		y = 3
@@ -310,6 +316,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_root_out_traitors
+		icon = AVT_GFX_Root_out_the_traitors
 		prerequisite = { focus = AVT_commoner_officer_corps }
 		prerequisite = { focus = AVT_infiltrate_conspirators }
 		prerequisite = { focus = AVT_destroy_guild_system }
@@ -353,6 +360,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_new_dawn
+		icon = AVT_GFX_A_New_Dawn
 		prerequisite = { focus = AVT_root_out_traitors }
 		x = -4
 		y = 5
@@ -369,6 +377,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_the_conspiracy
+		icon = AVT_GFX_The_Conspiracy
 		prerequisite = { focus = AVT_the_great_modernisation }
 		mutually_exclusive = ( focus = AVT_full_speed_ahead }
 		x = 4
@@ -402,6 +411,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_rally_noble_support
+		icon = AVT_GFX_Rally_the_Nobles
 		prerequisite = { focus = AVT_the_conspiracy }
 		x = 4
 		y = 2
@@ -430,6 +440,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_target_secret_police
+		icon = AVT_GFX_Target_the_secret_Police
 		prerequisite = { focus = AVT_rally_noble_support }
 		x = 4
 		y = 3
@@ -455,6 +466,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_bribe_guards
+		icon = AVT_GFX_Bribe_the_Guards
 		prerequisite = { focus = AVT_the_conspiracy }
 		x = 2
 		y = 2
@@ -480,6 +492,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_infiltrate_palace
+		icon = AVT_GFX_Infiltrate_the_Palace
 		prerequisite = { focus = AVT_bribe_guards }
 		x = 2
 		y = 3
@@ -657,6 +670,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_the_coup
+		icon = AVT_GFX_The_Coup
 		prerequisite = { focus = AVT_target_secret_police }
 		prerequisite = { focus = AVT_infiltrate_palace }
 		prerequisite = { focus = AVT_purchase_officer_commissions focus = AVT_teleport_network }
