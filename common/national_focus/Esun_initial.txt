@@ -67,6 +67,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_pony_rights
+		icon = ESU_GFX_Punishment_for_discrimination
 		prerequisite = { focus = ESU_visionarism }
 		x = -1
 		y = 1
@@ -89,6 +90,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_give_them_jobs
+		icon = ESU_GFX_Give_Them_Jobs
 		prerequisite = { focus = ESU_pony_rights }
 		x = -2
 		y = 2
@@ -111,6 +113,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_booming_industry
+		icon = ESU_GFX_Booming_Industry
 		prerequisite = { focus = ESU_pony_rights }
 		x = 0
 		y = 2
@@ -153,6 +156,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_pony_work_acceptance
+		icon = ESU_GFX_Pony_Work_acceptance
 		prerequisite = { focus = ESU_give_them_jobs }
 		x = -1
 		y = 3
@@ -187,6 +191,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_pony_education
+		icon = ESU_GFX_Pony_eductation
 		prerequisite = { focus = ESU_give_them_jobs }
 		x = -3
 		y = 3
@@ -220,6 +225,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_pony_regiments
+		icon = ESU_GFX_Pony_Regiments
 		prerequisite = { focus = ESU_pony_work_acceptance }
 		prerequisite = { focus = ESU_pony_education }
 		x = -2
@@ -240,6 +246,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_pony_officers
+		icon = ESU_GFX_Ponies_led_by_ponies
 		prerequisite = { focus = ESU_pony_regiments }
 		x = -3
 		y = 5
@@ -275,6 +282,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_army_training
+		icon = ESU_GFX_Barracks
 		prerequisite = { focus = ESU_pony_regiments }
 		x = -1
 		y = 5
@@ -401,6 +409,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_Infrastructure_rework
+		icon = ESU_GFX_Cobblestone_Roads
 		prerequisite = { focus = ESU_booming_industry }
 		x = 1
 		y = 3
@@ -463,6 +472,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_biger_workforce
+		icon = ESU_GFX_Pony_Industries
 		prerequisite = { focus = ESU_Infrastructure_rework }
 		prerequisite = { focus = ESU_pony_work_acceptance }
 		x = 0
@@ -507,6 +517,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_industry_investment
+		icon = ESU_GFX_Idustrial_investment
 		prerequisite = { focus = ESU_biger_workforce }
 		x = 2
 		y = 5
@@ -703,6 +714,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_old_relations
+		icon = ESU_GFX_Old_Relations
 		prerequisite = { focus = ESU_visionarism }
 		x = 1
 		y = 1
