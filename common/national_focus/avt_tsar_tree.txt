@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = AVT
        }
     }
 
@@ -580,26 +580,6 @@ focus_tree = {
 						}
 					}
 				}
-
-				AST = {
-					limit = {
-						country_exists = AST
-						NOT = {
-							OR = {
-								is_subject_of = ROOT
-								is_in_faction_with = ROOT
-								is_guaranteed_by = ROOT
-								has_guaranteed = ROOT
-							}
-						}
-					}
-					AVT = {
-						declare_war_on  = {
-							target = AST
-							type = annex_everything
-						}
-					}
-				}
 			}
 		}
 	}
@@ -806,12 +786,6 @@ focus_tree = {
 				}
 				NOT = { country_exists = KAE }
 			}
-			OR = {
-				ASK = {
-					is_subject_of = AVT
-				}
-				NOT = { country_exists = AST }
-			}
 		}
 		owns_state = 125
 		owns_state = 124
@@ -821,10 +795,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_state_core = 125
-			add_state_core = 124
-			add_state_core = 123
-			add_state_core = 465
-			add_state_core = 480
+			add_state_core = 466
+			add_state_core = 470
+			add_state_core = 468
+			add_state_core = 457
 		}
 	}
 	
@@ -967,12 +941,6 @@ focus_tree = {
 					is_subject_of = AVT
 				}
 				NOT = { country_exists = KAE }
-			}
-			OR = {
-				ASK = {
-					is_subject_of = AVT
-				}
-				NOT = { country_exists = AST }
 			}
 			}
 		}
@@ -1247,6 +1215,39 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = AVT_subjugate_astaria
+		prerequisite = { focus = AVT_unity_propaganda }
+		x = 3
+		y = 8
+		relative_position_id = AVT_the_tzar
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			AST = {
+				OR = {
+					is_subject_of = ROOT
+					is_in_faction_with = ROOT
+					is_guaranteed_by = ROOT
+					has_guaranteed = ROOT
+					NOT = { country_exists = AST }
+				}
+			}
+		}
+		
+		completion_reward = {
+			AVT = {
+				declare_war_on  = {
+					target = AST
+					type = annex_everything
+				}
+			}
+		}
+	}
+	
+	focus = {
 		id = AVT_united_empire
 		prerequisite = { focus = AVT_state_bilingualism }
 		prerequisite = { focus = AVT_unity_propaganda }
@@ -1291,7 +1292,6 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			#spawn units
 			#ADD ARMY ADVISORS
 			IF = {
 				limit = {
@@ -1316,6 +1316,7 @@ focus_tree = {
 					shock_troops_0 = 1
 				}
 			}
+			load_oob = AVT_KIRINTROOPS
 		}
 	}
 	
