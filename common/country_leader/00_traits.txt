@@ -3,21 +3,14 @@
 @tier3 = 10
 
 leader_traits = {
+
+	### LEADER TRAITS - AVT ###
 	
-	dictator = {
-		random = no
-		political_power_factor = 0.25
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	### IDEA TRAITS ###
-
-	popular_figurehead = {
+	advtrait_avt_orchidtrait = {
 		sprite = 13
-		stability_factor = 0.15 
+		supply_consumption_factor = -0.1
+		attrition = -0.1
+		army_defence_factor = 0.1
 		
 		ai_will_do = {
 			factor = 1
