@@ -313,6 +313,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_ponies_and_kirins_for_our_nation
+		icon = ESU_GFX_Two_Races_under_One_Flag
 		prerequisite = { focus = ESU_pony_officers }
 		prerequisite = { focus = ESU_army_training }
 		x = -2
@@ -336,6 +337,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_ideas_of_vengence
+		icon = ESU_GFX_Strive_Forevermore
 		prerequisite = { focus = ESU_ponies_and_kirins_for_our_nation }
 		prerequisite = { focus = ESU_clan_industry }
 		prerequisite = { focus = ESU_boat_industry }
@@ -541,6 +543,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_mining_operations
+		icon = ESU_GFX_Reopen_the_mines
 		prerequisite = { focus = ESU_industry_investment }
 		x = -2
 		y = 1
@@ -564,6 +567,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_farming_operations
+		icon = ESU_GFX_Chemical_fertiliser
 		prerequisite = { focus = ESU_industry_investment }
 		x = 0
 		y = 1
@@ -598,6 +602,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_lumber_operations
+		icon = ESU_GFX_Timber_expansion
 		prerequisite = { focus = ESU_industry_investment }
 		x = 2
 		y = 1
@@ -622,6 +627,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_boat_industry
+		icon = ESU_GFX_Boat_Industry
 		prerequisite = { focus = ESU_lumber_operations }
 		prerequisite = { focus = ESU_farming_operations }
 		prerequisite = { focus = ESU_mining_operations }
@@ -658,6 +664,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_clan_industry
+		icon = ESU_GFX_southern_Industry
 		prerequisite = { focus = ESU_lumber_operations }
 		prerequisite = { focus = ESU_farming_operations }
 		prerequisite = { focus = ESU_mining_operations }
@@ -1066,6 +1073,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_militarism
+		icon = ESU_generic_DarkPath
 		prerequisite = { focus = ESU_Upcoming_elections }
 		mutually_exclusive = { focus = ESU_visionarism }
 		x = 10
