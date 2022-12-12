@@ -856,6 +856,7 @@ focus_tree = {
 	focus = {
 		id = ESU_acquire_weapons
 		prerequisite = { focus = ESU_eyes_on_the_clans }
+		prerequisite = { focus = ESU_old_relations }
 		x = -4
 		y = 1
 		relative_position_id = ESU_eyes_on_the_clans
@@ -965,12 +966,16 @@ focus_tree = {
 			IF = {
 				limit = {
 					KAE = {
-						has_country_flag = kae_esun_agreed_sunotia_war
+						NOT = {
+							has_country_flag = kae_esun_agreed_sunotia_war
+						}
 					}
 				}
-				country_event = {
-					id = esu_event.4
-					days = 7
+				KAE = {
+					country_event = {
+						id = esu_event.4
+						days = 7
+					}
 				}
 			}
 		}
@@ -983,6 +988,7 @@ focus_tree = {
 	focus = {
 		id = ESU_crush_them_all
 		prerequisite = { focus = ESU_eyes_on_the_clans }
+		prerequisite = { focus = ESU_send_troops_to_the_front } 
 		x = 4
 		y = 1
 		relative_position_id = ESU_eyes_on_the_clans
@@ -1073,7 +1079,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_militarism
-		icon = ESU_generic_DarkPath
+		icon = ESU_GFX_Cleansing
 		prerequisite = { focus = ESU_Upcoming_elections }
 		mutually_exclusive = { focus = ESU_visionarism }
 		x = 10
@@ -1095,6 +1101,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_send_troops_to_the_front
+		icon = ESU_GFX_Universal_concription
 		prerequisite = { focus = ESU_militarism }
 		x = -1
 		y = 1
@@ -1153,6 +1160,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_start_the_warmachine
+		icon = ESU_GFX_Arm_Recruits
 		prerequisite = { focus = ESU_militarism }
 		x = 1
 		y = 1
@@ -1187,6 +1195,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_no_protests
+		icon = ESU_GFX_No_protests
 		prerequisite = { focus = ESU_drive_the_ponies_outs }
 		x = -1
 		y = 3
@@ -1211,6 +1220,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_workforce_overdrive
+		icon = ESU_GFX_WorkForce_In_Overdrive
 		prerequisite = { focus = ESU_weapon_supplies }
 		x = 1
 		y = 3
@@ -1230,6 +1240,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_infrastructure_expansion
+		icon = ESU_GFX_Improve_Supply_lines
 		prerequisite = { focus = ESU_weapon_supplies }
 		x = 3
 		y = 3
@@ -1287,6 +1298,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_disarm_the_citizenry
+		icon = ESU_GFX_Disarm_Citizenry
 		prerequisite = { focus = ESU_workforce_overdrive }
 		prerequisite = { focus = ESU_infrastructure_expansion }
 		x = 2
@@ -1334,6 +1346,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_drive_the_ponies_outs
+		icon = ESU_GFX_Drive_Them_Out
 		prerequisite = { focus = ESU_send_troops_to_the_front }
 		x = 0
 		y = 2
@@ -1366,6 +1379,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_militarisation_of_the_state
+		icon = ESU_GFX_Militarize_the_nation
 		prerequisite = { focus = ESU_our_ruler_is_right }
 		prerequisite = { focus = ESU_disarm_the_citizenry }
 		x = 1
@@ -1649,6 +1663,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_weapon_supplies
+		icon = ESU_GFX_Sea_Of_Spears
 		prerequisite = { focus = ESU_start_the_warmachine }
 		x = 2
 		y = 2
