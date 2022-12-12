@@ -175,15 +175,31 @@ characters={
             logistics_skill = 1
         }
     }
-}
+	
+	AVT_gen_ivy_rain = { #empty character to become general via focus
+        name = AVT_gen_ivy_rain_name
+		gender = female
+		
+        portraits = {
+            army = {
+                large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+            }
+        }
+    }
+	
+	AVT_gen_shining_arrow = { #empty character to become general via focus
+        name = AVT_gen_shining_arrow_name
+		
+        portraits = {
+            army = {
+                large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+            }
+        }
+    }
 	
 	AVT_adv_orchid_flame = {
         name = AVT_adv_orchid_flame_name
 		gender = female
-		
-		allowed  = {
-			original_tag = AVT
-		}
 		
         portraits = {
             army = {
@@ -194,11 +210,88 @@ characters={
 		advisor = {
 			cost = 150
 			slot = high_command
+			allowed  = {
+				original_tag = AVT
+			}
 			traits = {
 				advtrait_avt_orchidtrait
 			}
 			available = {
-				
+				has_completed_focus = AVT_kirin_military_specialists
 			}
 		}
 	}
+	
+	AVT_adv_blazing_oak = {
+        name = AVT_adv_blazing_oak_name
+		
+        portraits = {
+            army = {
+				small = "gfx/interface/ideas/AdvisorMarePlaceholder.dds"
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = high_command
+			allowed  = {
+				original_tag = AVT
+			}
+			traits = {
+				armyadvtrait_aggressive_3
+			}
+			available = {
+				has_completed_focus = AVT_kirin_military_specialists
+			}
+		}
+	}
+	
+	AVT_adv_gerwin_vdgoede = {
+        name = AVT_adv_gerwin_vdgoede_name
+		
+        portraits = {
+            army = {
+				small = "gfx/interface/ideas/AdvisorMarePlaceholder.dds"
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			allowed  = {
+				original_tag = AVT
+			}
+			traits = {
+				advtrait_moderniser
+			}
+			available = {
+				has_completed_focus = AVT_invite_foreign_experts
+			}
+		}
+	}
+	
+	AVT_adv_silver_sunset = {
+        name = AVT_adv_silver_sunset_name
+		gender = female
+		
+        portraits = {
+            army = {
+				small = "gfx/interface/ideas/AdvisorMarePlaceholder.dds"
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			allowed  = {
+				original_tag = AVT
+			}
+			traits = {
+				advtrait_financial_expert
+			}
+			available = {
+				has_completed_focus = AVT_invite_foreign_experts
+			}
+		}
+	}
+}
