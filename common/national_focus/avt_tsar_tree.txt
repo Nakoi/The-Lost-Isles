@@ -1773,7 +1773,7 @@ focus_tree = {
 	focus = {
 		id = AVT_compesate_nobles
 		prerequisite = { focus = AVT_end_serfdom }
-		prerequisite = { focus = AVT_royal_family_only focus = AVT_reconcile_with_nobles }
+		prerequisite = { focus = AVT_reconcile_with_nobles }
 		x = -5
 		y = 4
 		relative_position_id = AVT_the_tzar
@@ -1894,6 +1894,8 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_mysticorp
 		}
 	}
 	
@@ -2065,7 +2067,24 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			#ADD GENERALS
+			add_corps_commander_role = {
+				character = AVT_gen_ivy_rain
+				traits = {}
+				skill = 3
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 5
+				logistics_skill = 1
+			}
+			add_corps_commander_role = {
+				character = AVT_gen_shining_arrow
+				traits = {}
+				skill = 2
+				attack_skill = 1
+				defense_skill = 3
+				planning_skill = 1
+				logistics_skill = 4
+			}
 			swap_ideas = {
 				remove_idea = AVT_idea_Patriotism
 				add_idea = AVT_idea_Patriotism_2
