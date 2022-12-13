@@ -1400,6 +1400,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_offensive_army
+		icon = ESU_GFX_Quality_training
 		prerequisite = { focus = ESU_militarisation_of_the_state }
 		mutually_exclusive = { focus = ESU_defensive_army }
 		x = 0
@@ -1423,6 +1424,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_defensive_army
+		icon = ESU_GFX_Quantity_training
 		prerequisite = { focus = ESU_militarisation_of_the_state }
 		mutually_exclusive = { focus = ESU_offensive_army }
 		x = 2
@@ -1447,6 +1449,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_mandatory_duty
+		icon = ESU_GFX_Mandatory_Service
 		prerequisite = { focus = ESU_defensive_army focus = ESU_offensive_army }
 		x = 1
 		y = 7
@@ -1591,6 +1594,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_kirin_unification
+		icon = ESU_GFX_Unite_all_kirins
 		prerequisite = { focus = ESU_mandatory_duty }
 		prerequisite = { focus = ESU_long_live_our_leader }
 		x = -1
@@ -1697,6 +1701,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_a_new_dawn
+		icon = ESU_GFX_New_Dawn
 		x = 8
 		y = 8
 		cost = 5
@@ -1716,6 +1721,7 @@ focus_tree = {
 #EXPANSION
 	focus = {
 		id = ESU_all_for_the_nation
+		icon = ESU_GFX_All_For_The_Nation
 		prerequisite = { focus = ESU_a_new_dawn }
 		mutually_exclusive = { focus = ESU_an_old_enemy }
 		x = -4
@@ -1737,6 +1743,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_noble_workforce
+		icon = ESU_GFX_Noble_Force
 		prerequisite = { focus = ESU_all_for_the_nation }
 		x = -2
 		y = 1
@@ -1825,6 +1832,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_harbor_expansion
+		icon = ESU_GFX_Boat_Industry
 		prerequisite = { focus = ESU_lead_by_example }
 		prerequisite = { focus = ESU_noble_workforce }
 		x = -1
@@ -1876,6 +1884,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_spark_the_factories
+		icon = ESU_GFX_southern_Industry
 		prerequisite = { focus = ESU_lead_by_example }
 		prerequisite = { focus = ESU_noble_workforce }
 		x = -3
@@ -1945,6 +1954,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_economic_boom
+		icon = ESU_GFX_Economic_Boom
 		prerequisite = { focus = ESU_spark_the_factories }
 		prerequisite = { focus = ESU_harbor_expansion }
 		x = -2
@@ -2047,6 +2057,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_sience_division
+		icon = ESU_GFX_Best_Education
 		prerequisite = { focus = ESU_lead_by_example }
 		prerequisite = { focus = ESU_noble_workforce }
 		x = 0
@@ -2173,6 +2184,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_worker_tools
+		icon = ESU_GFX_Better_Tools
 		prerequisite = { focus = ESU_economic_boom }
 		x = -2
 		y = 5
