@@ -1797,15 +1797,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = industry_industrialprod
-			}
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = industry_logi
+			swap_ideas = {
+				add_idea = ESU_homecoming_idea_8
+				remove_idea = ESU_homecoming_idea
 			}
 		}
 	}
@@ -1827,6 +1821,11 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = ESU_streamlined_production
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialprod
+			}
 		}
 	}
 
@@ -2078,7 +2077,8 @@ focus_tree = {
 
 	focus = {
 		id = ESU_confederacy
-		prerequisite = { focus = ESU_economic_boom focus = ESU_mandatory_service }
+		prerequisite = { focus = ESU_economic_boom }
+		prerequisite = { focus = ESU_sience_division }
 		mutually_exclusive = { focus = ESU_economic_union }
 		x = 1
 		y = 4
@@ -2089,52 +2089,19 @@ focus_tree = {
 		}
 		
 		available = {
-			num_of_factories > 99
 			has_completed_focus = ESU_noble_workforce
 			has_completed_focus = ESU_lead_by_example
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = ESUtt_mare_ethnostate
-			hidden_effect = {
-				ESP = {			
-					transfer_state  = 466
-					transfer_state  = 470
-					transfer_state  = 468
-					transfer_state  = 457
-					transfer_state  = 125
-
-					add_state_core  = 466
-					add_state_core  = 470
-					add_state_core  = 468
-					add_state_core  = 457
-					add_state_core  = 125
-
-					set_capital = { state = 466 }
-					inherit_technology = ESU
-				}
-				ESU = {
-					IF = {
-						limit = { has_dlc = "Together for Victory" }
-							set_autonomy = {
-								target = ESP
-								autonomy_state = autonomy_integrated_puppet
-								freedom_level = 0.2
-								end_wars = no
-								end_civil_wars = no
-							}
-						}
-					ELSE = {
-						puppet = ESP
-					}
-				}
-			}
+			
 		}
 	}
 
 	focus = {
 		id = ESU_economic_union
-		prerequisite = { focus = ESU_economic_boom focus = ESU_mandatory_service }
+		prerequisite = { focus = ESU_mandatory_service }
+		prerequisite = { focus = ESU_sience_division }
 		mutually_exclusive = { focus = ESU_confederacy }
 		x = -1
 		y = 4
@@ -2145,13 +2112,12 @@ focus_tree = {
 		}
 
 		available = {
-			num_of_factories > 99
 			has_completed_focus = ESU_noble_workforce
 			has_completed_focus = ESU_lead_by_example
 		}
 		
 		completion_reward = {
-			add_stability = -0.05
+			
 		}
 	}
 
@@ -2174,11 +2140,13 @@ focus_tree = {
 		}
 		
 		available = {
+			has_army_manpower = {
+				size > 399999
+			}
 		}
 		
 		completion_reward = {
-			KAE = { country_event = { id = esu_sanelate.2 } }
-			SUA = { country_event = { id = esu_sanelate.2 } }
+			country_event = { id = esu_sanelate.2 }
 		}
 	}
 
@@ -2227,7 +2195,6 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = ESU_eastern_monks_idea
-			add_manpower = 5000
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 3
@@ -2253,11 +2220,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#funni epilogue event
-			swap_ideas = {
-				add_idea = ESU_homecoming_idea_8
-				remove_idea = ESU_homecoming_idea
-			}
 		}
 	}
 
