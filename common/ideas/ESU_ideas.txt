@@ -142,7 +142,7 @@ ideas = {
 			}
 		}
 		
-		ESU_homecoming_idea_8 = { #healed wounds
+		ESU_homecoming_idea_8 = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -150,9 +150,24 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = -0.05
-				stability_factor = 0.1
-				war_support_factor = 0.05
+				war_support_factor = 0.2
+				conscription_factor = 0.1
+			}
+			
+			targeted_modifier = {
+				tag = IJI
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = KAE
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = SUA
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 			}
 		}
 		
@@ -424,7 +439,7 @@ ideas = {
 			}
 				
 			modifier = {
-				production_factory_max_efficiency_factor = 0.15
+				production_factory_max_efficiency_factor = 0.10
 				production_factory_start_efficiency_factor = -0.25
 			}
 		}
@@ -451,9 +466,9 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = -0.03
-				industrial_capacity_factory = 0.05
-				stability_weekly = -0.001
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.1
+				stability_weekly = 0.001
 			}
 		}
 		
