@@ -454,50 +454,13 @@ country_event = {
 	
 	option = { #yea
 		name = esu_sanelate.2.a
-		IF = {
-			limit = {
-				tag = KAE
-			}
-			ROOT = { add_ideas = ESU_kae_cooperation }
-			ESU = { add_ideas = ESU_kae_cooperation }
+		declare_war_on = {
+			target = SUA
+			type = annex_everything
 		}
-		IF = {
-			limit = {
-				tag = SUA
-			}
-			ROOT = { add_ideas = ESU_sua_cooperation }
-			ESU = { add_ideas = ESU_sua_cooperation }
-		}
-		ai_chance = {
-			base = 50
-			modifier = {
-				add = 50
-				has_opinion = {
-					target = ESU
-					value > 89
-				}	
-			}
-			modifier = {
-				add = 25
-				has_opinion = {
-					target = ESU
-					value > 24
-				}
-			}	
-		}
-	}
-		
-	option = { #nah
-		name = esu_sanelate.2.b
-		ai_chance = {
-			base = 50
-			modifier = {
-				add = 50
-				has_opinion = {
-					target = ESU
-					value < -15
-				}
-			}	
+		declare_war_on = {
+			target = KAE
+			type = annex_everything
 		}
 	}
 }
