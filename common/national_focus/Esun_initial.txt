@@ -1764,6 +1764,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_lead_by_example
+		icon = ESU_GFX_Lead_By_example
 		prerequisite = { focus = ESU_all_for_the_nation }
 		x = 2
 		y = 1
@@ -1783,6 +1784,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_steampower
+		icon = ESU_GFX_Ootari_Propaganda
 		prerequisite = { focus = ESU_lead_by_example }
 		prerequisite = { focus = ESU_noble_workforce }
 		x = 1
@@ -1806,6 +1808,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_streamline_the_production
+		icon = ESU_GFX_Cannon_Art
 		prerequisite = { focus = ESU_lead_by_example }
 		prerequisite = { focus = ESU_noble_workforce }
 		x = 3
@@ -2001,6 +2004,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_mandatory_service
+		icon = ESU_GFX_Universal_Conscription
 		prerequisite = { focus = ESU_streamline_the_production }
 		prerequisite = { focus = ESU_steampower }
 		x = 2
@@ -2077,6 +2081,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_confederacy
+		icon = ESU_GFX_To_fight_better
 		prerequisite = { focus = ESU_economic_boom }
 		prerequisite = { focus = ESU_sience_division }
 		mutually_exclusive = { focus = ESU_economic_union }
@@ -2100,6 +2105,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_economic_union
+		icon = ESU_GFX_To_Work_Harder
 		prerequisite = { focus = ESU_mandatory_service }
 		prerequisite = { focus = ESU_sience_division }
 		mutually_exclusive = { focus = ESU_confederacy }
@@ -2123,6 +2129,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_steadfast
+		icon = ESU_GFX_Unitited_Ootari_State
 		prerequisite = { focus = ESU_economic_union focus = ESU_confederacy }
 		x = 0
 		y = 5
@@ -2205,6 +2212,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_world_wonder
+		icon = ESU_GFX_Unification
 		prerequisite = { focus = ESU_worker_tools }
 		prerequisite = { focus = ESU_steadfast }
 		prerequisite = { focus = ESU_faith_in_our_nation }
