@@ -16,7 +16,8 @@ ideologies = {
 		color = { 189 47 33 }
 		
 		rules = {
-			can_create_factions = yes
+			can_create_factions = no
+			can_join_factions = no
 			can_create_collaboration_government = yes
 			can_declare_war_on_same_ideology = yes
 			can_force_government = no
@@ -65,7 +66,8 @@ ideologies = {
 		color = { 121 51 192 }
 		
 		rules = {
-			can_create_factions = yes
+			can_create_factions = no
+			can_join_factions = no
 			can_create_collaboration_government = yes
 			can_declare_war_on_same_ideology = yes
 			can_force_government = no
@@ -114,7 +116,8 @@ ideologies = {
 		color = { 255 202 75 }
 		
 		rules = {
-			can_create_factions = yes
+			can_create_factions = no
+			can_join_factions = no
 			can_create_collaboration_government = yes
 			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
@@ -162,7 +165,8 @@ ideologies = {
 		color = { 58 58 170 }
 		
 		rules = {
-			can_create_factions = yes
+			can_create_factions = no
+			can_join_factions = no
 			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
@@ -209,7 +213,8 @@ ideologies = {
 		color = { 59 158 119 }
 		
 		rules = {
-			can_create_factions = yes
+			can_create_factions = no
+			can_join_factions = no
 			can_create_collaboration_government = yes
 			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
@@ -255,7 +260,8 @@ ideologies = {
 		color = { 195 202 210 }
 		
 		rules = {
-			can_create_factions = yes
+			can_create_factions = no
+			can_join_factions = no
 			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = yes
 			can_force_government = no
