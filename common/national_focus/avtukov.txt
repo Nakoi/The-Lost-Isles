@@ -517,6 +517,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_boycott_taxes
+		icon = AVT_GFX_Boycot_Taxes
 		prerequisite = { focus = AVT_the_conspiracy }
 		mutually_exclusive = { focus = AVT_weapons_smuggling focus = AVT_distract_loyalists }
 		x = 6
@@ -544,6 +545,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_purchase_officer_commissions
+		icon = AVT_GFX_Purchase_officer
 		prerequisite = { focus = AVT_boycott_taxes }
 		x = 6
 		y = 3
@@ -569,6 +571,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_distract_loyalists
+		icon = AVT_GFX_Distract
 		prerequisite = { focus = AVT_the_conspiracy }
 		mutually_exclusive = { focus = AVT_weapons_smuggling focus = AVT_boycott_taxes }
 		x = 8
@@ -739,6 +742,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_weapons_smuggling
+		icon = AVT_GFX_Weapon_Smuggeling
 		prerequisite = { focus = AVT_the_conspiracy }
 		mutually_exclusive = { focus = AVT_boycott_taxes focus = AVT_distract_loyalists }
 		x = 10
