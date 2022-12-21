@@ -110,6 +110,10 @@ focus_tree = {
 				ideology = ideology_continuism
 				popularity = 0.03
 			}
+			add_days_mission_timeout = {
+				mission = AVT_secure_imperial_rule_mission
+				days = 30
+			}
 		}
 	}
 	
@@ -138,6 +142,10 @@ focus_tree = {
 				cost_reduction = 0.5
 				uses = 1
 				category = land_doctrine
+			}
+			add_days_mission_timeout = {
+				mission = AVT_secure_imperial_rule_mission
+				days = 30
 			}
 		}
 	}
@@ -182,6 +190,10 @@ focus_tree = {
 			}
 			438 = {
 				add_manpower = -15
+			}
+			add_days_mission_timeout = {
+				mission = AVT_secure_imperial_rule_mission
+				days = 30
 			}
 		}
 	}
@@ -231,6 +243,10 @@ focus_tree = {
 			438 = {
 				add_manpower = -25
 			}
+			add_days_mission_timeout = {
+				mission = AVT_secure_imperial_rule_mission
+				days = 30
+			}
 		}
 	}
 	
@@ -264,6 +280,10 @@ focus_tree = {
 			add_popularity = {
 				ideology = ideology_continuism
 				popularity = 0.05
+			}
+			add_days_mission_timeout = {
+				mission = AVT_secure_imperial_rule_mission
+				days = 30
 			}
 		}
 	}
@@ -310,6 +330,10 @@ focus_tree = {
 			add_popularity = {
 				ideology = ideology_continuism
 				popularity = 0.05
+			}
+			add_days_mission_timeout = {
+				mission = AVT_secure_imperial_rule_mission
+				days = 30
 			}
 		}
 	}
