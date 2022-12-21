@@ -10,6 +10,7 @@ technology_categories = {
 	category_bombardier
 	category_skycruiser
 	category_skycarrier
+	
 	artillery
 	artillery_medium
 	artillery_antiair
@@ -17,8 +18,9 @@ technology_categories = {
 	artillery_siege
 	artillery_howitzer
 	artillery_light
-	tli_infantry
-	infantry_weapons
+	
+	tli_infantry #everything in infantry tree
+	infantry_weapons #just infantry equipment
 	infantry_primitiveeq
 	infantry_civilizedeq
 	infantry_industrialeq
@@ -27,6 +29,7 @@ technology_categories = {
 	infantry_armorcat
 	infantry_motoreq
 	infantry_specialunit
+	
 	category_primitive
 	category_modern
 	category_support_battalions
@@ -38,6 +41,7 @@ technology_categories = {
 	category_logistics
 	category_army
 	racial
+	
 	industry
 	industry_primitivetools
 	industry_civilizedtools
@@ -60,6 +64,7 @@ technology_categories = {
 	industry_primitiveeco
 	industry_civilizedeco
 	industry_industrialeco
+
 	electronics
 	science_primitiveresearch
 	science_civilizedresearch
@@ -68,11 +73,13 @@ technology_categories = {
 	science_crypto
 	science_chemistry
 	science_armyorg
+	
 	land_doctrine
 	air_doctrine
 	naval_doctrine
 	naval_doctrine_blue
 	naval_doctrine_brown
+	
 	naval_equipment
 	xebec_tech
 	light_ship_tech
@@ -81,9 +88,8 @@ technology_categories = {
 	naval_mines
 	tp_tech
 	
-	air_parity_tree
+	air_parity_tree #misc doctrine bullshit
 	cat_air_parity
-
 	strategic_airship_implementation_tree
 	cat_strategic_airship_implementation
 	battlefield_destruction_tree
@@ -92,7 +98,6 @@ technology_categories = {
 	cat_brown_water_navy
 	line_of_battle_tree
 	cat_line_of_battle
-
 	cat_mobile_warfare 
 }
 
