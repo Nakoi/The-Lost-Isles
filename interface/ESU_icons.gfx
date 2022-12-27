@@ -1807,3 +1807,258 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 } 
         }
     }
+
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Old_Enemy"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Old_Enemy.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Old_Enemy_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Old_Enemy.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Old_Enemy.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Old_Enemy.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Struggle"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Struggle.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Struggle_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Struggle.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Struggle.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Struggle.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Militia_training"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Militia_training.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Militia_training_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Militia_training.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Militia_training.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Militia_training.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Espionage"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Espionage.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Espionage_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Espionage.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Espionage.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Espionage.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Sabotage_Homeland"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Sabotage_Homeland.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Sabotage_Homeland_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Sabotage_Homeland.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Sabotage_Homeland.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Sabotage_Homeland.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Friends_Across"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Friends_Across.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Friends_Across_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Friends_Across.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Friends_Across.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Friends_Across.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Unrest"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Unrest.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Unrest_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Unrest.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Unrest.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Unrest.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
