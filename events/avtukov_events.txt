@@ -232,14 +232,36 @@ country_event = {
 	option = {
 		name = avt_event.9.a
 		add_stability = 0.05
-		add_political_power = -50
+		add_political_power = 100
+		load_focus_tree = avtukov_tsaritsa_focus
+		remove_ideas = AVT_idea_noble_discontent
+		complete_national_focus = AVT_the_tsarina
+		add_popularity = {
+			ideology = ideology_continuism
+			popularity = 0.3
+		}
+		add_popularity = {
+			ideology = ideology_solidarism
+			popularity = 0.1
+		}
 		ai_chance = {
 			base = 25
 		}
 	}
 	option = {
 		name = avt_event.9.b
-		add_political_power = 20
+		add_political_power = 170
+		load_focus_tree = avtukov_tsaritsa_focus
+		remove_ideas = AVT_idea_noble_discontent
+		complete_national_focus = AVT_the_tsarina
+		add_popularity = {
+			ideology = ideology_continuism
+			popularity = 0.3
+		}
+		add_popularity = {
+			ideology = ideology_solidarism
+			popularity = 0.1
+		}
 		ai_chance = {
 			base = 25
 		}
@@ -247,7 +269,18 @@ country_event = {
 	option = {
 		name = avt_event.9.c
 		add_stability = -0.05
-		add_political_power = 50
+		add_political_power = 200
+		load_focus_tree = avtukov_tsaritsa_focus
+		remove_ideas = AVT_idea_noble_discontent
+		complete_national_focus = AVT_the_tsarina
+		add_popularity = {
+			ideology = ideology_continuism
+			popularity = 0.3
+		}
+		add_popularity = {
+			ideology = ideology_solidarism
+			popularity = 0.1
+		}
 		ai_chance = {
 			base = 50
 		}
