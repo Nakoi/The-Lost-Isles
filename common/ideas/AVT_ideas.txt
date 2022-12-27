@@ -2,6 +2,8 @@ ideas = {
 		
 	country = {
 
+###STARTING###
+
 		AVT_idea_noble_discontent = {
 			picture = great_depression
 			removal_cost = -1
@@ -76,19 +78,8 @@ ideas = {
                 conscription_factor = -0.1
 			}
 		}
-		
-		AVT_idea_low_public_discontent = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				stability_factor = -0.05
-				political_power_gain = 0.2
-			}
-		}
+
+###EARLYGAME+TSAR###
 
 		AVT_idea_traitors_in_the_palace_1 = {
 			picture = great_depression
@@ -330,7 +321,69 @@ ideas = {
 				local_factories = 0.1
 			}
 		}
-	
+		
+###TSARITSA TREE###
+
+		AVT_idea_low_public_discontent = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_solidarism_drift = -0.03
+			}
+		}
+		
+		AVT_idea_med_public_discontent = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_solidarism_drift = 0.05
+				industrial_capacity_factory = -0.1
+				political_power_gain = -0.1
+			}
+		}
+		
+		AVT_idea_high_public_discontent = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_solidarism_drift = 0.1
+				industrial_capacity_factory = -0.15
+				political_power_gain = -0.2
+				stability_weekly = -0.002
+				war_support_weekly = -0.002
+			}
+		}
+		
+		AVT_idea_veryhigh_public_discontent = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_solidarism_drift = 0.2
+				industrial_capacity_factory = -0.25
+				political_power_gain = -0.25
+				stability_weekly = -0.005
+				war_support_weekly = -0.005
+			}
+		}
+		
+###ARMY TREE SHIT###
+
 		AVT_national_pony_army_idea_01 = {
 			picture = great_depression
 			removal_cost = -1
@@ -394,8 +447,8 @@ ideas = {
 				attrition = -0.1
 			}
 		}
-	}
-	
+		
+###DESIGNERS N SHIT###
 	materiel_manufacturer = { 
 	
 		designer = yes
