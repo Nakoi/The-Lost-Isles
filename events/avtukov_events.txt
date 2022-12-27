@@ -162,7 +162,6 @@ country_event = {
                     id=-1
                 }
             }
-			add_ideas = AVT_idea_low_public_discontent
         }
 	}
 }
@@ -235,6 +234,7 @@ country_event = {
 		add_political_power = 100
 		load_focus_tree = avtukov_tsaritsa_focus
 		remove_ideas = AVT_idea_noble_discontent
+		add_ideas = AVT_idea_low_public_discontent
 		complete_national_focus = AVT_the_tsarina
 		add_popularity = {
 			ideology = ideology_continuism
@@ -253,6 +253,7 @@ country_event = {
 		add_political_power = 170
 		load_focus_tree = avtukov_tsaritsa_focus
 		remove_ideas = AVT_idea_noble_discontent
+		add_ideas = AVT_idea_low_public_discontent
 		complete_national_focus = AVT_the_tsarina
 		add_popularity = {
 			ideology = ideology_continuism
@@ -272,6 +273,7 @@ country_event = {
 		add_political_power = 200
 		load_focus_tree = avtukov_tsaritsa_focus
 		remove_ideas = AVT_idea_noble_discontent
+		add_ideas = AVT_idea_low_public_discontent
 		complete_national_focus = AVT_the_tsarina
 		add_popularity = {
 			ideology = ideology_continuism
