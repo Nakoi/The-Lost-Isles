@@ -2188,6 +2188,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_faith_in_our_nation
+		icon = ESU_GFX_Religion
 		prerequisite = { focus = ESU_mandatory_service }
 		x = 2
 		y = 5
@@ -2297,6 +2298,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_ijikami_propaganda
+		icon = ESU_GFX_Home_Propaganda
 		prerequisite = { focus = ESU_training_plans }
 		prerequisite = { focus = ESU_Informant_bureau }
 		x = 1

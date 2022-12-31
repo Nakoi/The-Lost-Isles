@@ -2062,3 +2062,75 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 } 
         }
     }
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Religion"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Religion.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Religion_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Religion.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Religion.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Religion.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Home_Propaganda"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Home_Propaganda.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Home_Propaganda_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Home_Propaganda.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Home_Propaganda.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Home_Propaganda.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
