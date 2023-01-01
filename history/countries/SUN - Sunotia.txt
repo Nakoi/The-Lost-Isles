@@ -15,12 +15,12 @@ air_experience = 30
 set_oob = "SUN_ARMY"
 
 set_politics = {
-	ruling_party = ideology_imperialism
+	ruling_party = ideology_visionarism
 }
 
 set_popularities = {
-	ideology_imperialism = 47
-	ideology_visionarism = 46
+	ideology_imperialism = 46
+	ideology_visionarism = 47
 	ideology_continuism = 7
 }
 
@@ -117,36 +117,3 @@ set_technology = {
 }
 
 #diplomacy
-give_guarantee = AZE
-give_guarantee = WEI
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = AZE
-		autonomous_state = autonomy_puppet
-		freedom_level = 0.1
-	}
-
-	else = {
-		puppet = AZE
-	}
-}
-
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-		}
-	}
-	set_autonomy = {
-		target = WEI
-		autonomous_state = autonomy_puppet
-		freedom_level = 0.1
-	}
-
-	else = {
-		puppet = WEI
-	}
-}
