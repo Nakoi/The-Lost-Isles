@@ -121,7 +121,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			base = 5
+			base = 0
 		}
 	}
 	
@@ -134,7 +134,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			base = 95
+			base = 100
 		}
 	}
 }
@@ -160,157 +160,6 @@ country_event = {
 		}
 		declare_war_on = {
 			target = WAO
-			type = annex_everything
-		}
-	}
-}
-
-country_event = {
-	id = esu_event.4
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.4"}
-	title = esu_event.4.t
-	desc = esu_event.4.d
-	picture = GFX_news_event_chinese_soldiers_march
-	is_triggered_only = yes
-	major = no
-	
-	option = {
-		name = esu_event.4.a
-		ESU = {
-			country_event = { 
-				id = esu_event.5 # response from kae - YES
-				days = 4
-			}
-			#country_event = { 
-				id = esu_event.7 # TRIGGERED VIA FOCUS TREE - WAR DECLARATION
-				days = 30 
-			#}
-		}
-		KAE = { set_country_flag = kae_esun_agreed_sunotia_war }
-		ESU = { set_country_flag = kae_esun_agreed_sunotia_war }
-		ai_chance = {
-			base = 50
-			modifier = {
-				add = 50
-				has_opinion = {
-					target = ESU
-					value > 89
-				}	
-			}
-			modifier = {
-				add = 25
-				has_opinion = {
-					target = ESU
-					value > 24
-				}
-			}	
-		}
-	}
-	
-	option = {
-		name = esu_event.4.b
-		ESU = {
-			country_event = { 
-				id = esu_event.6 # response from kae - NO
-				days = 4
-			}
-			#country_event = { 
-				id = esu_event.7 # TRIGGERED VIA FOCUS TREE - WAR DECLARATION
-				days = 30
-			#}
-		}
-		KAE = { set_country_flag = kae_esun_refused_sunotia_war }
-		ESU = { set_country_flag = kae_esun_refused_sunotia_war }
-		ai_chance = {
-			base = 50
-			modifier = {
-				add = 50
-				has_opinion = {
-					target = ESU
-					value < -15
-				}
-			}	
-		}
-	}
-}
-
-country_event = {
-	id = esu_event.5
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.5"}
-	title = esu_event.5.t
-	desc = esu_event.5.d
-	picture = GFX_news_event_chinese_soldiers_march
-	is_triggered_only = yes
-	major = no
-	
-	option = {
-		name = esu_event.5.a
-	}
-}
-
-country_event = {
-	id = esu_event.6
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.6"}
-	title = esu_event.6.t
-	desc = esu_event.6.d
-	picture = GFX_news_event_chinese_soldiers_march
-	is_triggered_only = yes
-	major = no
-	
-	option = {
-		name = esu_event.6.a
-	}
-}
-
-country_event = {
-	id = esu_event.7
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.7"}
-	title = esu_event.7.t
-	desc = esu_event.7.d
-	picture = GFX_news_event_chinese_soldiers_march
-	is_triggered_only = yes
-	major = no
-	
-	option = {
-		name = esu_event.7.a
-		declare_war_on = {
-			target = SUN
-			type = take_state
-		}
-		declare_war_on = {
-			target = AZE
-			type = annex_everything
-		}
-		IF = {
-			limit = {
-				KAE = {
-					has_country_flag = kae_esun_agreed_sunotia_war
-				}
-				KAE = { 
-					country_event = { id = kae_event.8 }
-				}
-			}
-		}
-	}
-}
-
-country_event = {
-	id = esu_event.8
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.8"}
-	title = esu_event.8.t
-	desc = esu_event.8.d
-	picture = GFX_news_event_chinese_soldiers_march
-	is_triggered_only = yes
-	major = no
-	
-	option = {
-		name = esu_event.8.a
-		declare_war_on = {
-			target = SUN
-			type = take_state
-		}
-		declare_war_on = {
-			target = WEI
 			type = annex_everything
 		}
 	}
