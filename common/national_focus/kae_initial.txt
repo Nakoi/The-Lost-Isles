@@ -55,7 +55,7 @@ focus_tree = {
 			}
 			add_days_mission_timeout = {
 				mission = KAE_negotiation_time_limit_mission
-				days = 90
+				days = 60
 			}
 			add_political_power = -15
 		}
@@ -115,7 +115,9 @@ focus_tree = {
 
 	focus = {
 		id = KAE_improved_relations
+		prerequisite = { focus = KAE_air_equipment }
 		prerequisite = { focus = KAE_relations }
+		prerequisite = { focus = KAE_weapons }
 		x = 0
 		y = 2
 		relative_position_id = KAE_negotiations
@@ -134,13 +136,9 @@ focus_tree = {
 		}
 	}
 
-#Politically consume the clans
-
 	focus = {
 		id = KAE_advisor_in_these_times
 		prerequisite = { focus = KAE_improved_relations }
-        prerequisite = { focus = KAE_air_equipment }
-        prerequisite = { focus = KAE_weapons }
 		x = 0
 		y = 3
 		relative_position_id = KAE_negotiations
@@ -155,75 +153,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KAE_talks_with_rinto
-		prerequisite = { focus = KAE_advisor_in_these_times }
-		x = 0
-		y = 4
-		relative_position_id = KAE_negotiations
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-			RIN = {
-				country_event = {
-					id = kae_startevent.3
-					days = 12
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = KAE_talks_with_Unuo
-		prerequisite = { focus = KAE_advisor_in_these_times }
-		x = -2
-		y = 4
-		relative_position_id = KAE_negotiations
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-			UNU = {
-				country_event = {
-					id = kae_startevent.3
-					days = 12
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = KAE_talks_with_Ashi
-		prerequisite = { focus = KAE_advisor_in_these_times }
-		x = 2
-		y = 4
-		relative_position_id = KAE_negotiations
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-			ASH = {
-				country_event = {
-					id = kae_startevent.3
-					days = 12
-				}
-			}
-		}
-	}
-
-	focus = {
 		id = KAE_claimes_We_are_ready
-		prerequisite = { focus = KAE_talks_with_rinto }
-        prerequisite = { focus = KAE_talks_with_Unuo }
-        prerequisite = { focus = KAE_talks_with_Ashi }
+		prerequisite = { focus = KAE_advisor_in_these_times }
 		x = 0
-		y = 5
+		y = 4
 		relative_position_id = KAE_negotiations
 		cost = 10
 		ai_will_do = {
@@ -234,6 +167,7 @@ focus_tree = {
 			NOT = { country_exists = UNU }
 			NOT = { country_exists = RIN }
 			NOT = { country_exists = ASH }
+			NOT = { country_exists = WEI }
 		}
 		
 		completion_reward = {
@@ -249,6 +183,10 @@ focus_tree = {
 				target = ASH
 				type = annex_everything
 			}
+			declare_war_on = {
+				target = WEI
+				type = annex_everything
+			}
 		}
 	}
 
@@ -256,9 +194,9 @@ focus_tree = {
 		id = KAE_Claims_Vote
 		prerequisite = { focus = KAE_claimes_We_are_ready }
 		x = 0
-		y = 6
+		y = 5
 		relative_position_id = KAE_negotiations
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 5
 		}
