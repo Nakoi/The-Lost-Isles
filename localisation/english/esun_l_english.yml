@@ -101,13 +101,15 @@
  ESU_talks_with_Waonto_desc:0 ""
  ESU_talks_with_onki:0 "Secure our Southern Border"
  ESU_talks_with_onki_desc:0 ""
+ ESU_talks_with_azeo:0 "Secure our Western Border"
+ ESU_talks_with_azeo_desc:0 "
  ESU_acquire_weapons:0 "Acquire Weapons"
  ESU_acquire_weapons_desc:0 ""
  ESU_amnesty_for_their_soldiers:0 "Amnesty for Their Soldiers"
  ESU_amnesty_for_their_soldiers_desc:0 ""
  ESU_no_forgiveness:0 "No Forgiveness"
  ESU_no_forgiveness_desc:0 ""
- ESU_restore_control:0 "Restore Control of Western Border"
+ ESU_restore_control:0 "Western Wall"
  ESU_restore_control_desc:0 ""
  ESU_crush_them_all:0 "Crush them All"
  ESU_crush_them_all_desc:0 ""
@@ -115,7 +117,7 @@
  ESU_enslave_them_desc:0 ""
  ESU_redemption_through_blood:0 "Redemption Through Blood"
  ESU_redemption_through_blood_desc:0 ""
- ESU_deal_with_sunotian_imperialism:0 "Deal with the Western Griffons"
+ ESU_deal_with_sunotian_imperialism:0 "Deal with the Godless Griffons"
  ESU_deal_with_sunotian_imperialism_desc:0 ""
  
  ESU_a_new_dawn:0 "A New Dawn"
@@ -306,27 +308,6 @@
  esu_event.3.t:0 "They Refuse!"
  esu_event.3.d:0 "The local clan leader has refused our ultimatum! We shall crush these barbarians with our professional military might!"
  esu_event.3.a:0 "Forward!"
-  
- esu_event.4.t:0 "Envoy from Esun"
- esu_event.4.d:0 "Holy Republic of Esun has noticed growing Sunotian influence in territories controlled by clans Wei and Azeo. They are a threat to the territorial integrity to either of our respective nations. Esun Leaders have asked us if we'll help them in case of war that will eventualy break out."
- esu_event.4.a:0 "Yes. We will crush those birds."
- esu_event.4.b:0 "No. Esun isn't trustworthy."
-  
- esu_event.5.t:0 "Response from Kae Trade League"
- esu_event.5.d:0 "Kae Trade League has agreed to our proposal, they will aid us in case of war"
- esu_event.5.a:0 "Perfect!"
-  
- esu_event.6.t:0 "Response from Kae Trade League"
- esu_event.6.d:0 "Kae Trade League has refused our proposal, they'll stay neutral during the conflict despite our mutual grievances against Sunotia."
- esu_event.6.a:0 "Damn!"
-  
- esu_event.7.t:0 "War against the Griffons"
- esu_event.7.d:0 "Today our troops marched westward and entered the territory controlled by the Azeo clan, triggering a war with Kingdom of Sunotia as they were under Sunotian protection."
- esu_event.7.a:0 "To victory!"
-  
- esu_event.8.t:0 "War with Sunotia"
- esu_event.8.d:0 "Republic of Esun has went to war with Sunotia. As we agreed to join Esun in case of an offensive war against Sunotia, we are to mobilise and advance against Sunotia ourselves."
- esu_event.8.a:0 "Let's go!"
   
  esu_event.9.t:0 "live leak logo"
  esu_event.9.d:0 "Today (leader name) was visiting and checking working conditions in one of our coal mines and while checking the safety of the tunnels in front of the press, a coal dust explosion had occured in close proximity of our leader. After a hours-long rescue mission workers found only charred carcasses of our leader, the journalists surrounding him, and the unfortunate miners caught in the flame."
