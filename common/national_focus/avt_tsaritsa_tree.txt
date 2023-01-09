@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = AVT
        }
     }
 
@@ -240,12 +240,16 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_avt_elusivepath
+			hidden_effect = {
+				country_event = { id = avt_elusiveevent.3 days = 4 }
+			}
 		}
 	}
 	
