@@ -313,6 +313,9 @@
  AVT_integrate_western_ootari_decision:0 "Integrate Western Ootari"
  AVT_integrate_eastern_ootari_decision:0 "Integrate Eastern Ootari"
  AVT_integrate_southern_ootari_decision:0 "Integrate Southern Ootari"
+ 
+ decisioncat_avt_elusivepath:0 "Burden of the Crown"
+ AVT_peasant_uprising_mission:0 "Rebellious Peasantry"
 
 ###EVENT LOCALISATION - EARLYGAME###
  avt_event.0.t:0 "Winds of Change"
@@ -457,6 +460,13 @@
  avt_elusiveevent.2.b:0 "(Jarl B) shall be our leader"
  avt_elusiveevent.2.c:0 "We can trust (Jarl C)"
  
+ avt_elusiveevent.3.t:0 "Disorder Among the Peasantry"
+ avt_elusiveevent.3.d:0 "Synopsis: After the coronation of Elusive, several prominent peasant figures gather as they begin to plan their overthrow of the tyrannical new tsaritsa. Major characters from the peasant liberation party are introduced."
+ avt_elusiveevent.3.a:0 "She won’t take our freedom!"
+ 
+ avt_elusiveevent.4.t:0 "A Cry for Freedom"
+ avt_elusiveevent.4.d:0 "Synopsis: The PLP has consolidated enough influence to start a rebellion."
+ avt_elusiveevent.4.a:0 "Crush them!"
  
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
@@ -486,7 +496,11 @@
  
 ###TOOLTIP LOCALISATION - ELUSIVE###
  AVTtt_all_of_gallund:0 "§YGains claims to all Gallundian starting provinces§!"
+ AVTtt_peasant_unrest_increase:0 "§RPeasant Unrest Increase!§!"
+ AVTtt_peasant_unrest_decrease:0 "§GPeasant Unrest Decrease!§!"
  AVTtt_hierta_increase:0 "§GHierta Family Opinion Increase!§!"
  AVTtt_hierta_decrease:0 "§RHierta Family Opinion Decrease!§!"
  AVTtt_demidov_increase:0 "§GDemidov Family Opinion Increase!§!"
  AVTtt_demidov_decrease:0 "§RDemidov Family Opinion Decrease!§!"
+ 
+ avt_peasant_uprising_flag:0 "peasant uprising flag"
