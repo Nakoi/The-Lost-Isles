@@ -31,7 +31,21 @@
  AVC_ideology_isolationism_DEF:0 "The Grand Principality of Northern Traunulu"
 
  AVC_ADJ:0 "Traunulu-Avtukovian"
-
+ 
+ GAA_ideology_militarism:0 "Principality of Gallund"
+ GAA_ideology_imperialism:0 "Principality of Gallund"
+ GAA_ideology_visionarism:0 "Principality of Gallund"
+ GAA_ideology_solidarism:0 "Principality of Gallund"
+ GAA_ideology_continuism:0 "Principality of Gallund"
+ GAA_ideology_isolationism:0 "Principality of Gallund"
+ 
+ GAA_ideology_militarism_DEF:0 "The Principality of Gallund"
+ GAA_ideology_imperialism_DEF:0 "The Principality of Gallund"
+ GAA_ideology_visionarism_DEF:0 "The Principality of Gallund"
+ GAA_ideology_solidarism_DEF:0 "The Principality of Gallund"
+ GAA_ideology_continuism_DEF:0 "The Principality of Gallund"
+ GAA_ideology_isolationism_DEF:0 "The Principality of Gallund"
+ 
  AVT_faction_panpony:0 "All-Pony League"
 
 ###CHARACTER NAMES###
@@ -427,7 +441,24 @@
  avt_tsarevent.8.d:0 "Synopsis: After the tsar formed the parliament, several political parties were formed and took part in elections. These parties will be introduced."
  avt_tsarevent.8.a:0 "The ponies have spoken!"
  
-###TOOLTIP LOCALISATION###
+ 
+ avt_elusiveevent.0.t:0 "A Day at the Council"
+ avt_elusiveevent.0.d:0 "Synopsis: Elusive holds the first council meeting since Ivory has been kidnapped. Should introduce the main factions of the nobility she’ll have to contend with."
+ avt_elusiveevent.0.a:0 "Let’s get to work"
+ 
+ avt_elusiveevent.1.t:0 "Avtukov Demands our Submission!"
+ avt_elusiveevent.1.d:0 "Synopsis: Diplomats from avtukov arrive, demanding that Gallund agrees to become their vassal, abolishes their democracy and installs a Jarl to the throne. In return, they offer some of the lands that were taken from them during the previous war."
+ avt_elusiveevent.1.a:0 "We have no choice but to accept"
+ avt_elusiveevent.1.b:0 "They'll never take our freedom!"
+ 
+ avt_elusiveevent.2.t:0 "One Last Election"
+ avt_elusiveevent.2.d:0 "Synopsis: Having accepted their fate, the citizens of Gallund choose a Jarl family to rule as their new monarchs under the watchful eye of Avtukovian officials."
+ avt_elusiveevent.2.a:0 "(Jarl A) will lead us in these troubling times"
+ avt_elusiveevent.2.b:0 "(Jarl B) shall be our leader"
+ avt_elusiveevent.2.c:0 "We can trust (Jarl C)"
+ 
+ 
+###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
  
  avt_tax_evaders_flag:0 "§OConspiracy led by Cherry Cupcake§!"
@@ -436,6 +467,11 @@
  avt_sovjok_alliance_accepted_flag:0 "Sovjok has accepted our offer"
  avt_savinki_alliance_accepted_flag:0 "Savinki has accepted our offer"
  
+ AVTtt_pegasi_take_charge:0 "Made preparations as the §CSwiftguards§!"
+ AVTtt_muds_take_charge:0 "Made preparations as the §OTrade Council§!"
+ AVTtt_unicorns_take_charge:0 "Made preparations as the §PPlatinum College§!"
+
+###TOOLTIP LOCALISATION - TSAR###
  AVTtt_kirins_killed:0 "All Kirin countries on our borders §Rdefeated§!"
  AVTtt_gunboat_diplomacy:0 "Has 10 warships each of any type on the shores of:\nJarldom of Siilovpu\nFree Cities of Valkovsi\nKingdom of Toknong"
  AVTtt_tsarcolonial_1:0 "Has complete control of the starting territories of:\nJarldom of Siilovpu\nFree Cities of Valkovsi\nKingdom of Toknong"
@@ -448,6 +484,9 @@
  AVTtt_holy_shit_ivory:0 "§RThe urban citizenry of Luana will have to go somewhere else...§!"
  AVTtt_grobimperialismus_west:0 "§CVGH.......§!"
  
- AVTtt_pegasi_take_charge:0 "Made preparations as the §CSwiftguards§!"
- AVTtt_muds_take_charge:0 "Made preparations as the §OTrade Council§!"
- AVTtt_unicorns_take_charge:0 "Made preparations as the §PPlatinum College§!"
+###TOOLTIP LOCALISATION - ELUSIVE###
+ AVTtt_all_of_gallund:0 "§YGains claims to all Gallundian starting provinces§!"
+ AVTtt_hierta_increase:0 "§GHierta Family Opinion Increase!§!"
+ AVTtt_hierta_decrease:0 "§RHierta Family Opinion Decrease!§!"
+ AVTtt_demidov_increase:0 "§GDemidov Family Opinion Increase!§!"
+ AVTtt_demidov_decrease:0 "§RDemidov Family Opinion Decrease!§!"
