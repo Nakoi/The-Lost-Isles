@@ -1,6 +1,7 @@
 add_namespace = avt_event
 add_namespace = avt_civwarevent
 add_namespace = avt_tsarevent
+add_namespace = avt_elusiveevent
 
 ###EARLY GAME TSAR###
 
@@ -906,5 +907,163 @@ country_event = {
 				expire = "1965.1.1.1"
 			}
 		}
+	}
+}
+
+###TSARITSA PATH###
+
+country_event = {
+	id = avt_elusiveevent.0
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.0"}
+	title = avt_elusiveevent.0.t
+	desc = avt_elusiveevent.0.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.0.a
+		add_ideas = AVT_idea_loyalty_royalfam_mid
+		add_ideas = AVT_idea_loyalty_aminoff_high
+		add_ideas = AVT_idea_loyalty_hierta_high
+		add_ideas = AVT_idea_loyalty_demidov_high
+		add_ideas = policy_regressive
+		IF = {
+			limit = {
+				has_idea = policy_reactionary
+			}
+			swap_ideas = {
+				remove_idea = policy_reactionary
+				add_idea = policy_regressive
+			}
+		}
+		IF = {
+			limit = {
+				has_idea = policy_conservative
+			}
+			swap_ideas = {
+				remove_idea = policy_conservative
+				add_idea = policy_regressive
+			}
+		}
+		IF = {
+			limit = {
+				has_idea = policy_progressive
+			}
+			swap_ideas = {
+				remove_idea = policy_progressive
+				add_idea = policy_regressive
+			}
+		}
+		IF = {
+			limit = {
+				has_idea = policy_revolutionary
+			}
+			swap_ideas = {
+				remove_idea = policy_revolutionary
+				add_idea = policy_regressive
+			}
+		}
+		IF = {
+			limit = {
+				has_idea = policy_futurist
+			}
+			swap_ideas = {
+				remove_idea = policy_futurist
+				add_idea = policy_regressive
+			}
+		}
+	}
+}
+
+country_event = {
+	id = avt_elusiveevent.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.1"}
+	title = avt_elusiveevent.1.t
+	desc = avt_elusiveevent.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.1.a
+		country_event = { id = avt_elusiveevent.2 days = 14 }
+		GAL = {
+			transfer_state = 404
+			transfer_state = 411
+			transfer_state = 403
+			add_state_core = 404
+			add_state_core = 411
+			add_state_core = 403
+		}
+		AVT = {
+			set_autonomy = {
+				target = GAL
+				autonomy_state = autonomy_dominion
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = AVT
+					value > 89
+				}	
+			}
+			modifier = {
+				add = 25
+				has_opinion = {
+					target = AVT
+					value > 24
+				}
+			}	
+		}
+	}
+	option = {
+		name = avt_elusiveevent.1.b
+		AVT = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = GAL
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = AVT
+					value < -15
+				}
+			}	
+		}
+		
+	}
+}
+
+country_event = {
+	id = avt_elusiveevent.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.2"}
+	title = avt_elusiveevent.2.t
+	desc = avt_elusiveevent.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.2.a
+		GAL = { set_cosmetic_tag = GAA }
+		add_stability = -0.15
+	}
+	option = {
+		name = avt_elusiveevent.2.b
+		GAL = { set_cosmetic_tag = GAA }
+		add_stability = -0.15
+	}
+	option = {
+		name = avt_elusiveevent.2.c
+		GAL = { set_cosmetic_tag = GAA }
+		add_stability = -0.15
 	}
 }
