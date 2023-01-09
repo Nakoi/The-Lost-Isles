@@ -24,6 +24,7 @@ focus_tree = {
 		}
 		#COMPLETED THROUGH EVENT
 		completion_reward = {
+			add_political_power = 50
 		}
 	}
 	
@@ -33,12 +34,13 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			country_event = { id = avt_elusiveevent.0 }
 		}
 	}
 	
@@ -49,12 +51,75 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			GAL = { country_event = { id = avt_elusiveevent.1 } }
+			
+			custom_effect_tooltip = AVTtt_demidov_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_low
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_low
+						add_idea = AVT_idea_loyalty_demidov_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_mid
+						add_idea = AVT_idea_loyalty_demidov_high
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_high
+						add_idea = AVT_idea_loyalty_demidov_veryhigh
+					}
+				}
+			}
+			
+			custom_effect_tooltip = AVTtt_hierta_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_mid
+						add_idea = AVT_idea_loyalty_hierta_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_high
+						add_idea = AVT_idea_loyalty_hierta_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_veryhigh
+						add_idea = AVT_idea_loyalty_hierta_high
+					}
+				}
+			}
 		}
 	}
 	
@@ -65,12 +130,107 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			declare_war_on = {
+				type = annex_everything
+				target = GAL
+			}
+			custom_effect_tooltip = AVTtt_all_of_gallund
+			
+			custom_effect_tooltip = AVTtt_hierta_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_low
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_low
+						add_idea = AVT_idea_loyalty_hierta_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_mid
+						add_idea = AVT_idea_loyalty_hierta_high
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_high
+						add_idea = AVT_idea_loyalty_hierta_veryhigh
+					}
+				}
+			}
+			
+			custom_effect_tooltip = AVTtt_demidov_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_mid
+						add_idea = AVT_idea_loyalty_demidov_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_high
+						add_idea = AVT_idea_loyalty_demidov_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_veryhigh
+						add_idea = AVT_idea_loyalty_demidov_high
+					}
+				}
+			}
+			
+			hidden_effect = {
+				AVT = {
+					add_state_claim = 348
+					add_state_claim = 347
+					add_state_claim = 344
+					add_state_claim = 345
+					add_state_claim = 346
+					add_state_claim = 343
+					add_state_claim = 342
+					add_state_claim = 341
+					add_state_claim = 340
+					add_state_claim = 339
+					add_state_claim = 336
+					add_state_claim = 337
+					add_state_claim = 338
+					add_state_claim = 335
+					add_state_claim = 334
+					add_state_claim = 333
+					add_state_claim = 332
+					add_state_claim = 329
+					add_state_claim = 331
+					add_state_claim = 330
+					add_state_claim = 328
+					add_state_claim = 104
+					add_state_claim = 105
+				}
+			}
 		}
 	}
 	

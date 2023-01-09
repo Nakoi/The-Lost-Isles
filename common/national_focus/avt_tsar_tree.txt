@@ -48,7 +48,7 @@ focus_tree = {
 				add_state_claim = 346
 				add_state_claim = 343
 				add_state_claim = 342
-				create_wargoal = {
+				declare_war_on = {
 					type = take_state
 					target = GAL
 				}
@@ -69,7 +69,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			AVT = {
-				create_wargoal = {
+				declare_war_on = {
 					type = annex_everything
 					target = SCO
 				}
