@@ -1067,3 +1067,63 @@ country_event = {
 		add_stability = -0.15
 	}
 }
+
+country_event = {
+	id = avt_elusiveevent.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.3"}
+	title = avt_elusiveevent.3.t
+	desc = avt_elusiveevent.3.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.3.a
+		set_country_flag = avt_peasant_uprising_flag
+		custom_effect_tooltip = AVTtt_peasant_unrest_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_low_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_low_public_discontent
+					add_idea = AVT_idea_med_public_discontent
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_med_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_med_public_discontent
+					add_idea = AVT_idea_high_public_discontent
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_high_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_high_public_discontent
+					add_idea = AVT_idea_veryhigh_public_discontent
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = avt_elusiveevent.4
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.4"}
+	title = avt_elusiveevent.4.t
+	desc = avt_elusiveevent.4.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.4.a
+		
+	}
+}
