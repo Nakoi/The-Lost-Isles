@@ -54,6 +54,18 @@ decisioncat_avt_kirin_integration = {
 	}
 }
 
+decisioncat_avt_elusivepath = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = AVT
+	}
+
+	visible = {
+		has_completed_focus = AVT_perfect_society
+	}
+}
+
 decisioncat_kae_starting_cilarine_trade = {
 	icon = generic_political_actions
 	
