@@ -2403,6 +2403,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_officers_education
+		icon = ESU_GFX_Cut_Corners
 		prerequisite = { focus = ESU_training_plans }
 		prerequisite = { focus = ESU_Informant_bureau }
 		x = 3
@@ -2520,6 +2521,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_troop_drills
+		icon = ESU_GFX_Week_training
 		prerequisite = { focus = ESU_ijikami_propaganda }
 		prerequisite = { focus = ESU_officers_education }
 		x = 2
@@ -2540,6 +2542,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_read_the_navy
+		icon = ESU_GFX_Ready_The_Navy
 		prerequisite = { focus = ESU_Informant_bureau }
 		prerequisite = { focus = ESU_training_plans }
 		x = 0
@@ -2576,6 +2579,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_naval_defence
+		icon = ESU_GFX_NavalGrenadier
 		prerequisite = { focus = ESU_read_the_navy }
 		mutually_exclusive = { focus = ESU_naval_offense }
 		x = 1
@@ -2597,6 +2601,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_naval_offense
+		icon = ESU_GFX_ERWS
 		prerequisite = { focus = ESU_read_the_navy }
 		mutually_exclusive = { focus = ESU_naval_defence }
 		x = -1
@@ -2656,6 +2661,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_naval_supremecy
+		icon = ESU_GFX_Naval_Supremacy
 		prerequisite = { focus = ESU_naval_offense focus = ESU_naval_defence }
 		x = 0
 		y = 5
@@ -2675,6 +2681,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_factory_destruction
+		icon = ESU_GFX_Destruction_Iji_factories
 		prerequisite = { focus = ESU_civil_unrest_plans }
 		x = -2
 		y = 5
@@ -2699,6 +2706,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_ready_force
+		icon = ESU_GFX_Ready_Struggle
 		prerequisite = { focus = ESU_troop_drills }
 		x = 2
 		y = 5
