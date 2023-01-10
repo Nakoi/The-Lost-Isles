@@ -1276,7 +1276,7 @@ decisioncat_avt_elusivepath = {
 
 		activation = {
 			tag = AVT
-			has_country_flag = avt_peasant_uprising_flag
+			#has_country_flag = avt_peasant_uprising_flag
 		}
 
 		visible = {
@@ -1301,7 +1301,7 @@ decisioncat_avt_elusivepath = {
 		}
 	}
 	
-	AVT_elusive_generic_decision = {
+	AVT_elusive_tournament_decision = {
 
 		icon = eng_propaganda_campaigns
 
@@ -1313,7 +1313,7 @@ decisioncat_avt_elusivepath = {
 			has_completed_focus = AVT_perfect_society
 		}
 
-		cost = 50
+		cost = 100
 
 		fire_only_once = no
 
@@ -1321,18 +1321,18 @@ decisioncat_avt_elusivepath = {
 			base = 100
 		}
 
-		days_remove = 30
+		days_remove = 21
 
 		visible = {
 			tag = AVT
-			has_completed_focus = AVT_perfect_society
+			#has_completed_focus = AVT_perfect_society
 		}
 		
 		modifier = {
-			consumer_goods_factor = 0.05
+			
 		}
 		
 		remove_effect = {
-			add_stability = 0.04
+			country_event = { id = avt_elusiveevent.5 }
 		}
 	}
