@@ -774,7 +774,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = AVT_invite_foreign_investment
+		id = AVT_segregated_schooling
 		prerequisite = { focus = AVT_landowners_into_industrialists }
 		prerequisite = { focus = AVT_invite_foreign_investment }
 		x = -5
