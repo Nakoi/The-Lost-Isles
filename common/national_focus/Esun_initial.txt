@@ -878,6 +878,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_acquire_weapons
+		icon = ESU_GFX_Aquire_Weapons
 		prerequisite = { focus = ESU_eyes_on_the_clans }
 		prerequisite = { focus = ESU_old_relations }
 		x = -4
@@ -907,6 +908,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_amnesty_for_their_soldiers
+		icon = ESU_GFX_Amnisty
 		prerequisite = { focus = ESU_acquire_weapons }
 		mutually_exclusive = { focus = ESU_no_forgiveness }
 		x = -5
@@ -936,6 +938,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_no_forgiveness
+		icon = ESU_GFX_No_Forgiveness
 		prerequisite = { focus = ESU_acquire_weapons }
 		mutually_exclusive = { focus = ESU_amnesty_for_their_soldiers }
 		x = -3
@@ -972,6 +975,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_restore_control
+		icon = ESU_GFX_Wall
 		prerequisite = { focus = ESU_amnesty_for_their_soldiers focus = ESU_no_forgiveness }
 		x = -4
 		y = 3
@@ -1072,6 +1076,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_crush_them_all
+		icon = ESU_GFX_Crush_Them_All
 		prerequisite = { focus = ESU_eyes_on_the_clans }
 		prerequisite = { focus = ESU_send_troops_to_the_front } 
 		x = 4
@@ -1096,6 +1101,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_enslave_them
+		icon = ESU_GFX_Enslave_Them
 		prerequisite = { focus = ESU_crush_them_all }
 		mutually_exclusive = { focus = ESU_redemption_through_blood }
 		x = 3
@@ -1116,6 +1122,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_redemption_through_blood
+		icon = ESU_GFX_Blood_Redemption
 		prerequisite = { focus = ESU_crush_them_all }
 		mutually_exclusive = { focus = ESU_enslave_them }
 		x = 5
@@ -1136,6 +1143,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_deal_with_sunotian_imperialism
+		icon = ESU_GFX_Deal_With_Griffons
 		prerequisite = { focus = ESU_enslave_them focus = ESU_redemption_through_blood }
 		x = 4
 		y = 3
