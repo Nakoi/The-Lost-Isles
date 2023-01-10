@@ -602,6 +602,40 @@
  avt_elusiveevent.4.d:0 "Synopsis: The PLP has consolidated enough influence to start a rebellion."
  avt_elusiveevent.4.a:0 "Crush them!"
  
+ avt_elusiveevent.5.t:0 "The Grand Tournament - Preparations"
+ avt_elusiveevent.5.d:0 "Synopsis: The preparations for the grand tournament are nearing completion according to ancient scriptures that were dug out of the archives. Elusive ponders whether or not she should take part in the tournament, and whether or not to allow the peasants to attend the event."
+ avt_elusiveevent.5.a:0 "As tradition commands, I’ll attend. The peasants can come."
+ avt_elusiveevent.5.b:0 "I’ll take part, but I don’t want the peasants to watch."
+ avt_elusiveevent.5.c:0 "I’ll only preside over the event, the peasants can come."
+ avt_elusiveevent.5.e:0 "I won't attend, and it’ll be a noble only event."
+ 
+ avt_elusiveevent.6.t:0 "The Grand Tournament - A draw?"
+ avt_elusiveevent.6.d:0 "Synopsis: The event is a huge success, as thousands of nobles from across the realm come, watch and participate. Due to the tsaritsa herself taking part, she’s given an easy time in many disciplines by her opponents, and it results in there being no big winner of the tournament. After decorating the top competitors, everyone leaves."
+ avt_elusiveevent.6.a:0 "At least everypony had fun?"
+ 
+ avt_elusiveevent.7.t:0 "The Grand Tournament - The Hiertas victorious"
+ avt_elusiveevent.7.d:0 "Synopsis: The competition is fierce, as all the nobles try their best to win, and in the end, one victor stands tall - Onyx Star. He and his family are celebrated and rewarded."
+ avt_elusiveevent.7.a:0 "A toast to your victory!"
+ 
+ avt_elusiveevent.8.t:0 "The Grand Tournament - The Aminoffs victorious"
+ avt_elusiveevent.8.d:0 "Synopsis: The competition is fierce, as all the nobles try their best to win, and in the end, one victor stands tall - Solar Comet. He and his family are celebrated and rewarded."
+ avt_elusiveevent.8.a:0 "A toast to your victory!"
+ 
+ avt_elusiveevent.9.t:0 "The Grand Tournament - The Demidovs victorious"
+ avt_elusiveevent.9.d:0 "Synopsis: The competition is fierce, as all the nobles try their best to win, and in the end, one victor stands tall - Crimson Vision. He and his family are celebrated and rewarded."
+ avt_elusiveevent.9.a:0 "A toast to your victory!"
+ 
+ avt_elusiveevent.10.t:0 "The Grand Tournament - An unexpected winner"
+ avt_elusiveevent.10.d:0 "Synopsis: The competition is fierce, as all the nobles try their best to win, and in the end, one victor stands tall - Ice Blossom. Although she’s from a minor noble family, she’s acknowledged and rewarded as a victor."
+ avt_elusiveevent.10.a:0 "A surprise to be sure, but a welcome one"
+ 
+ avt_elusiveevent.11.t:0 "The Party"
+ avt_elusiveevent.11.d:0 "Synopsis: All the important ponies of the realm have gathered at the Tsarigrad palace for a grand celebration. Elusive meets all the various house leaders. Soon after, the dancing begins, and Elusive has to make a choice as to who will have her first dance"
+ avt_elusiveevent.11.a:0 "I’ll dance with my cousin, Silent Step"
+ avt_elusiveevent.11.b:0 "I’ll choose Solar Comet"
+ avt_elusiveevent.11.c:0 "Onyx Star looks interesting"
+ avt_elusiveevent.11.e:0 "Crimson Vision looks charming today"
+ 
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
  
@@ -632,8 +666,12 @@
  AVTtt_all_of_gallund:0 "§YGains claims to all Gallundian starting provinces§!"
  AVTtt_peasant_unrest_increase:0 "§RPeasant Unrest Increase!§!"
  AVTtt_peasant_unrest_decrease:0 "§GPeasant Unrest Decrease!§!"
+ AVTtt_royalfam_increase:0 "§GRoyal Family Opinion Increase!§!"
+ AVTtt_royalfam_decrease:0 "§RRoyal Family Opinion Decrease!§!"
  AVTtt_hierta_increase:0 "§GHierta Family Opinion Increase!§!"
  AVTtt_hierta_decrease:0 "§RHierta Family Opinion Decrease!§!"
+ AVTtt_aminoff_increase:0 "§GAminoff Family Opinion Increase!§!"
+ AVTtt_aminoff_decrease:0 "§RAminoff Family Opinion Decrease!§!"
  AVTtt_demidov_increase:0 "§GDemidov Family Opinion Increase!§!"
  AVTtt_demidov_decrease:0 "§RDemidov Family Opinion Decrease!§!"
  
