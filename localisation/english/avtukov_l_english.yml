@@ -364,13 +364,16 @@
  AVT_idea_stagnant_society:0 "Stagnant Society"
  AVT_idea_tribe_mistrust:0 "Tribe Mistrust"
  
+ 
  AVT_designer_mysticorp:0 "Mysticorp - Magitech"
  AVT_designer_maplewood:0 "Maplewood - Rapid Construction"
+ 
  
  AVT_idea_traitors_in_the_palace_1:0 "Traitors in the Palace"
  AVT_idea_traitors_in_the_palace_2:0 "Traitors in the Palace"
  AVT_idea_rebellious_nobility:0 "Rebellious Nobility"
  AVT_idea_decreased_tax_revenue:0 "Decreased Tax Revenue"
+ 
  
  AVT_towards_meritocracy:0 "Towards Meritocracy"
  AVT_aristocratic_insight:0 "Aristocratic Insight"
@@ -383,6 +386,7 @@
  AVT_colonial_affairs_office_idea_01:0 "Colonial Affairs Office"
  AVT_colonial_affairs_office_idea_02:0 "Colonial Affairs Office"
  AVT_local_collaborators_idea:0 "Local Collaborators"
+ 
  
  AVT_idea_low_public_discontent:0 "Low Public Discontent"
  AVT_idea_med_public_discontent:0 "Moderate Public Discontent"
@@ -407,6 +411,9 @@
  AVT_idea_loyalty_demidov_high:0 "Demidov Family Loyalty - High"
  AVT_idea_loyalty_demidov_veryhigh:0 "Demidov Family Loyalty - Very High"
  AVT_idea_loyalty_demidov_absolute:0 "Demidov Family Loyalty - Absolute"
+ AVT_donation:0 "Charity Donation"
+ AVT_large_donation:0 "Large Charity Donation"
+ 
  
  AVT_national_pony_army_idea_01:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
@@ -450,6 +457,11 @@
  
  decisioncat_avt_elusivepath:0 "Burden of the Crown"
  AVT_peasant_uprising_mission:0 "Rebellious Peasantry"
+ AVT_elusive_tournament_decision:0 "Host a Tournament"
+ AVT_elusive_inventors_decision:0 "Attend an Inventor Competition"
+ AVT_elusive_parade_decision:0 "Attend a Military Parade"
+ AVT_elusive_charity_decision:0 "Hold a Charity Event"
+ AVT_elusive_family_decision:0 "Host a Royal Family Banquet"
 
 ###EVENT LOCALISATION - EARLYGAME###
  avt_event.0.t:0 "Winds of Change"
@@ -635,6 +647,34 @@
  avt_elusiveevent.11.b:0 "I’ll choose Solar Comet"
  avt_elusiveevent.11.c:0 "Onyx Star looks interesting"
  avt_elusiveevent.11.e:0 "Crimson Vision looks charming today"
+ 
+ avt_elusiveevent.12.t:0 "Visionaries of the Future"
+ avt_elusiveevent.12.d:0 "Synopsis: Amber Dream is organising a competition for inventors and scholars from all across the realm, in order to fund further technological progress by supporting some of these ponies. She invites Elusive to be one of the judges of the competition, and asks for her financial support in supporting these prodigies."
+ avt_elusiveevent.12.a:0 "I’ll attend the event and see for myself."
+ avt_elusiveevent.12.b:0 "I’ll send her the support she needs, but excuse myself from attending."
+ avt_elusiveevent.12.c:0 "I have neither the time nor money for this."
+ 
+ avt_elusiveevent.13.t:0 "Visionaries of the Future - The Choice"
+ avt_elusiveevent.13.d:0 "Synopsis: Elusive by Amber’s side in front of the stage, and watches as many different ponies come and present their ideas and inventions, not understanding many of them. The three that grab her attention the most are: an earth pony that has some  interesting findings about pony anatomy, a pegasus who has come up with a new way of constructing buildings, and a pegasus who created a new explosive mixture. Amber lets Elusive pick the project to support."
+ avt_elusiveevent.13.a:0 "A healthy society is a productive society"
+ avt_elusiveevent.13.b:0 "Let’s build our nation up!"
+ avt_elusiveevent.13.c:0 "I’m sure the army will appreciate new explosives."
+ avt_elusiveevent.13.e:0 "Actually, I don’t like any of these"
+ 
+ avt_elusiveevent.14.t:0 "The Parade"
+ avt_elusiveevent.14.d:0 "Synopsis: Elusive receives an offer from Sunrise Mark to organise a military parade in one of their new territories, to remind the new subjects who’s in charge."
+ avt_elusiveevent.14.a:0 "Visiting our deer subjects sounds like a great idea"
+ avt_elusiveevent.14.b:0 "The Kirins need a reminder of who’s in charge"
+ avt_elusiveevent.14.c:0 "No, this would only antagonize them for no reason"
+ 
+ avt_elusiveevent.15.t:0 "Charity Banquet"
+ avt_elusiveevent.15.d:0 "Synopsis: Elusive hosts a charity banquet at the imperial palace, and at the end, many noble donate different sums to the development of the poorest regions of Avtukov. The money is to be spent on building roads, new irrigation systems and land terraforming, and finally for new tools for the local farmers. Elusive has to choose the size of her donation."
+ avt_elusiveevent.15.a:0 "A small donation will suffice"
+ avt_elusiveevent.15.b:0 "I’ll make a large donation"
+ 
+ avt_elusiveevent.16.t:0 "Some Family time"
+ avt_elusiveevent.16.d:0 "Synopsis: A banquet is hosted for the entire royal family at Arctic Metal’s mansion. Elusive socialises with her relatives. She gossips with her cousins, she’s faced with some demands for projects, and ends up thinking about her father, how he usually used to lead this event."
+ avt_elusiveevent.16.a:0 "They’ll know I still care about them."
  
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
