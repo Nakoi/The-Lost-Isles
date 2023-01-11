@@ -709,6 +709,30 @@ ideas = {
 			}
 		}
 		
+		AVT_donation = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		AVT_large_donation = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
+		
 ###DESIGNERS N SHIT###
 	materiel_manufacturer = { 
 	
