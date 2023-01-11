@@ -1285,10 +1285,6 @@ decisioncat_avt_elusivepath = {
 					has_completed_focus = AVT_towards_perfect_society 
 					has_completed_focus = AVT_compromise_with_modernity
 				}
-				OR = {
-					has_stability > 0.29
-					ideology_continuism > 0.39
-				}
 			}
 		}
 
@@ -1334,5 +1330,155 @@ decisioncat_avt_elusivepath = {
 		
 		remove_effect = {
 			country_event = { id = avt_elusiveevent.5 }
+		}
+	}
+	
+	AVT_elusive_inventors_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_perfect_society
+		}
+
+		cost = 100
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = AVT
+			#has_completed_focus = AVT_perfect_society
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			country_event = { id = avt_elusiveevent.12 }
+		}
+	}
+	
+	AVT_elusive_parade_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_perfect_society
+		}
+
+		custom_cost_trigger = {
+			command_power > 49
+		}
+		hidden_effect = {
+			add_command_power = -50
+		}
+		custom_cost_text = gentext_recruitment_decision_cost50
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = AVT
+			#has_completed_focus = AVT_perfect_society
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			country_event = { id = avt_elusiveevent.14 }
+		}
+	}
+	
+	AVT_elusive_charity_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_perfect_society
+		}
+
+		cost = 75
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = AVT
+			#has_completed_focus = AVT_perfect_society
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			country_event = { id = avt_elusiveevent.15 }
+		}
+	}
+	
+	AVT_elusive_family_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_perfect_society
+		}
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = AVT
+			#has_completed_focus = AVT_perfect_society
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			country_event = { id = avt_elusiveevent.16 }
 		}
 	}
