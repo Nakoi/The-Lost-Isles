@@ -1514,3 +1514,534 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = avt_elusiveevent.12
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.12"}
+	title = avt_elusiveevent.12.t
+	desc = avt_elusiveevent.12.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.12.a
+		country_event = { id = avt_elusiveevent.13 days = 3 }
+	}
+	
+	option = {
+		name = avt_elusiveevent.12.b
+		add_tech_bonus = {
+            bonus = 1.0
+            uses = 1
+            category = science_chemistry
+        }
+		add_political_power = -50
+		custom_effect_tooltip = AVTtt_aminoff_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_low
+					add_idea = AVT_idea_loyalty_aminoff_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_mid
+					add_idea = AVT_idea_loyalty_aminoff_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_high
+					add_idea = AVT_idea_loyalty_aminoff_veryhigh
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = avt_elusiveevent.12.c
+		add_political_power = 100
+		custom_effect_tooltip = AVTtt_aminoff_decrease
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_mid
+					add_idea = AVT_idea_loyalty_aminoff_low
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_high
+					add_idea = AVT_idea_loyalty_aminoff_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_veryhigh
+					add_idea = AVT_idea_loyalty_aminoff_high
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = avt_elusiveevent.13
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.13"}
+	title = avt_elusiveevent.13.t
+	desc = avt_elusiveevent.13.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.13.a
+		add_tech_bonus = {
+            bonus = 1.0
+            uses = 1
+            category = science_chemistry
+        }
+		add_political_power = -50
+		custom_effect_tooltip = AVTtt_aminoff_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_low
+					add_idea = AVT_idea_loyalty_aminoff_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_mid
+					add_idea = AVT_idea_loyalty_aminoff_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_high
+					add_idea = AVT_idea_loyalty_aminoff_veryhigh
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = avt_elusiveevent.13.b
+		add_tech_bonus = {
+            bonus = 1.0
+            uses = 1
+            category = industry_civilizedconstr
+        }
+		add_political_power = -50
+		custom_effect_tooltip = AVTtt_aminoff_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_low
+					add_idea = AVT_idea_loyalty_aminoff_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_mid
+					add_idea = AVT_idea_loyalty_aminoff_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_high
+					add_idea = AVT_idea_loyalty_aminoff_veryhigh
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = avt_elusiveevent.13.c
+		add_tech_bonus = {
+            bonus = 1.0
+            uses = 1
+            category = infantry_grenade
+        }
+		add_political_power = -50
+		custom_effect_tooltip = AVTtt_aminoff_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_low
+					add_idea = AVT_idea_loyalty_aminoff_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_mid
+					add_idea = AVT_idea_loyalty_aminoff_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_high
+					add_idea = AVT_idea_loyalty_aminoff_veryhigh
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = avt_elusiveevent.13.e
+		add_political_power = 100
+		custom_effect_tooltip = AVTtt_aminoff_decrease
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_mid
+					add_idea = AVT_idea_loyalty_aminoff_low
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_high
+					add_idea = AVT_idea_loyalty_aminoff_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_veryhigh
+					add_idea = AVT_idea_loyalty_aminoff_high
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = avt_elusiveevent.14
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.14"}
+	title = avt_elusiveevent.14.t
+	desc = avt_elusiveevent.14.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.14.a
+		army_experience = 10
+		415 = { add_manpower = -73 }
+		custom_effect_tooltip = AVTtt_hierta_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_low
+					add_idea = AVT_idea_loyalty_hierta_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_mid
+					add_idea = AVT_idea_loyalty_hierta_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_high
+					add_idea = AVT_idea_loyalty_hierta_veryhigh
+				}
+			}
+		}		
+	}
+	
+	option = {
+		name = avt_elusiveevent.14.b
+		army_experience = 10
+		420 = { add_manpower = -68 }
+		custom_effect_tooltip = AVTtt_hierta_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_low
+					add_idea = AVT_idea_loyalty_hierta_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_mid
+					add_idea = AVT_idea_loyalty_hierta_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_high
+					add_idea = AVT_idea_loyalty_hierta_veryhigh
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = avt_elusiveevent.14.c
+		add_political_power = 50
+		add_command_power = 50
+		custom_effect_tooltip = AVTtt_hierta_decrease
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_mid
+					add_idea = AVT_idea_loyalty_hierta_low
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_high
+					add_idea = AVT_idea_loyalty_hierta_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_veryhigh
+					add_idea = AVT_idea_loyalty_hierta_high
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = avt_elusiveevent.15
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.15"}
+	title = avt_elusiveevent.15.t
+	desc = avt_elusiveevent.15.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.15.a
+		438 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = synthetic_refinery
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_timed_idea = {
+			idea = AVT_donation
+			days = 180
+		}
+		custom_effect_tooltip = AVTtt_demidov_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_low
+					add_idea = AVT_idea_loyalty_demidov_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_mid
+					add_idea = AVT_idea_loyalty_demidov_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_high
+					add_idea = AVT_idea_loyalty_demidov_veryhigh
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = avt_elusiveevent.15.b
+		438 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = synthetic_refinery
+				level = 2
+				instant_build = yes
+			}
+		}
+		add_timed_idea = {
+			idea = AVT_large_donation
+			days = 180
+		}
+		custom_effect_tooltip = AVTtt_demidov_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_low
+					add_idea = AVT_idea_loyalty_demidov_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_mid
+					add_idea = AVT_idea_loyalty_demidov_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_high
+					add_idea = AVT_idea_loyalty_demidov_veryhigh
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = avt_elusiveevent.16
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.16"}
+	title = avt_elusiveevent.16.t
+	desc = avt_elusiveevent.16.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.16.a
+		custom_effect_tooltip = AVTtt_royalfam_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_low
+					add_idea = AVT_idea_loyalty_royalfam_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_mid
+					add_idea = AVT_idea_loyalty_royalfam_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_high
+					add_idea = AVT_idea_loyalty_royalfam_veryhigh
+				}
+			}
+		}
+	}
+}
