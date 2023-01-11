@@ -462,6 +462,12 @@
  AVT_elusive_parade_decision:0 "Attend a Military Parade"
  AVT_elusive_charity_decision:0 "Hold a Charity Event"
  AVT_elusive_family_decision:0 "Host a Royal Family Banquet"
+ AVT_elusive_forage_decision:0 "Host The Forage"
+ AVT_elusive_equestria_decision:0 "Send an Expedition to Equestria"
+ AVT_elusive_marriage_decision:0 "Look for a Husband"
+ AVT_elusive_marriage_solarcomet_decision:0 "Marry Solar Comet"
+ AVT_elusive_marriage_onyxstar_decision:0 "Marry Onyx Star"
+ AVT_elusive_marriage_crimsonvision_decision:0 "Marry Crimson Vision"
 
 ###EVENT LOCALISATION - EARLYGAME###
  avt_event.0.t:0 "Winds of Change"
@@ -676,6 +682,26 @@
  avt_elusiveevent.16.d:0 "Synopsis: A banquet is hosted for the entire royal family at Arctic Metal’s mansion. Elusive socialises with her relatives. She gossips with her cousins, she’s faced with some demands for projects, and ends up thinking about her father, how he usually used to lead this event."
  avt_elusiveevent.16.a:0 "They’ll know I still care about them."
  
+ avt_elusiveevent.17.t:0 "The Forage"
+ avt_elusiveevent.17.d:0 "Synopsis: The activity is a game for the nobility, where the nobles walk around a forest and pick edible plants in pairs. The pair with the most and best wins. Elusive organises the yearly Forage in a recently terraformed forest in Kharinka. Representatives of many families arrive, and Elusive has to choose her pair for this activity."
+ avt_elusiveevent.17.a:0 "I’ll go with my cousin, Silent Step"
+ avt_elusiveevent.17.b:0 "I choose Solar Comet"
+ avt_elusiveevent.17.c:0 "Onyx Star shall be my partner"
+ avt_elusiveevent.17.e:0 "Crimson Vision"
+ 
+ avt_elusiveevent.18.t:0 "Homecoming - Preparations"
+ avt_elusiveevent.18.d:0 "Synopsis: Winter Gust presents Elusive with a plan to send an expedition to Equestria, to inform Celestia of their existence, to try to learn from each other, and to trade."
+ avt_elusiveevent.18.a:0 "It’s a worthy endeavor. I’ll finance it."
+ avt_elusiveevent.18.b:0 "I’ll allow it, but the Aminoffs will have to pay for it."
+ 
+ avt_elusiveevent.19.t:0 "Homecoming - The Return"
+ avt_elusiveevent.19.d:0 "Synopsis: Elusive and Winter Gust meet at the palace with the expedition, who then explain how it went. They were welcomed by princess Celestia, who seemed to be glad to meet these ponies. She also allowed them to meet with Equestrian researchers, and exchange knowledge."
+ avt_elusiveevent.19.a:0 "We have the Alicorn’s approval!"
+ 
+ avt_elusiveevent.20.t:0 "Matters of Courtship"
+ avt_elusiveevent.20.d:0 "Synopsis: Elusive has announced that she is now looking for a husband, and has organised a meeting with all the worthy suitors. Each of the major and several minor noble families have sent their candidates. In this event, Elusive meets with the most important 3 to talk about them, their plans, and to receive their proposal."
+ avt_elusiveevent.20.a:0 "This won’t be an easy choice…"
+ 
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
  
@@ -714,5 +740,9 @@
  AVTtt_aminoff_decrease:0 "§RAminoff Family Opinion Decrease!§!"
  AVTtt_demidov_increase:0 "§GDemidov Family Opinion Increase!§!"
  AVTtt_demidov_decrease:0 "§RDemidov Family Opinion Decrease!§!"
+ AVTtt_hierta_absolute:0 "§GThe Hierta Family's support will be absolute!§!"
+ AVTtt_aminoff_absolute:0 "§GThe Aminoff Family's support will be absolute!§!"
+ AVTtt_demidov_absolute:0 "§GThe Demidov Family's support will be absolute!§!"
  
  avt_peasant_uprising_flag:0 "peasant uprising flag"
+ avt_elusive_looking_for_husband_flag:0 "Looking for a Husband"
