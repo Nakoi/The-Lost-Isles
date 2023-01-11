@@ -1311,7 +1311,7 @@ decisioncat_avt_elusivepath = {
 
 		cost = 100
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -1347,7 +1347,7 @@ decisioncat_avt_elusivepath = {
 
 		cost = 100
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -1389,7 +1389,7 @@ decisioncat_avt_elusivepath = {
 		}
 		custom_cost_text = gentext_recruitment_decision_cost50
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -1425,7 +1425,7 @@ decisioncat_avt_elusivepath = {
 
 		cost = 75
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -1461,7 +1461,7 @@ decisioncat_avt_elusivepath = {
 
 		cost = 50
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -1480,5 +1480,304 @@ decisioncat_avt_elusivepath = {
 		
 		remove_effect = {
 			country_event = { id = avt_elusiveevent.16 }
+		}
+	}
+	
+	AVT_elusive_forage_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_perfect_society
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = AVT
+			#has_completed_focus = AVT_perfect_society
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			country_event = { id = avt_elusiveevent.17 }
+		}
+	}
+	
+	AVT_elusive_equestria_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_perfect_society
+			has_equipment = {
+				convoy > 99
+			}
+			has_equipment = {
+				support_equipment > 99
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 240
+
+		visible = {
+			tag = AVT
+			#has_completed_focus = AVT_perfect_society
+		}
+		
+		modifier = {
+			
+		}
+		
+		complete_effect = {
+			country_event = { id = avt_elusiveevent.18 days = 4 }
+		}
+		
+		remove_effect = {
+			country_event = { id = avt_elusiveevent.19 }
+		}
+	}
+	
+	AVT_elusive_marriage_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_perfect_society
+			date > 961.5.11
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = AVT
+			#has_completed_focus = AVT_perfect_society
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			country_event = { id = avt_elusiveevent.20 }
+		}
+	}
+	
+	AVT_elusive_marriage_solarcomet_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_perfect_society
+			OR = {
+				has_idea = AVT_idea_loyalty_aminoff_high 
+				has_idea = AVT_idea_loyalty_aminoff_veryhigh
+			}
+		}
+
+		cost = 150
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			#has_completed_focus = AVT_perfect_society
+			has_country_flag = avt_elusive_looking_for_husband_flag
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			add_stability = 0.1
+			custom_effect_tooltip = AVTtt_aminoff_absolute
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_high
+					add_idea = AVT_idea_loyalty_aminoff_absolute
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_veryhigh
+					add_idea = AVT_idea_loyalty_aminoff_absolute
+				}
+			}
+		}
+	}
+	
+	AVT_elusive_marriage_onyxstar_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_perfect_society
+			OR = {
+				has_idea = AVT_idea_loyalty_hierta_high
+				has_idea = AVT_idea_loyalty_hierta_veryhigh
+			}
+		}
+
+		cost = 150
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			#has_completed_focus = AVT_perfect_society
+			has_country_flag = avt_elusive_looking_for_husband_flag
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			add_stability = 0.1
+			custom_effect_tooltip = AVTtt_hierta_absolute
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_high
+					add_idea = AVT_idea_loyalty_hierta_absolute
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_veryhigh
+					add_idea = AVT_idea_loyalty_hierta_absolute
+				}
+			}
+		}
+	}
+	
+	AVT_elusive_marriage_crimsonvision_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_perfect_society
+			OR = {
+				has_idea = AVT_idea_loyalty_demidov_high
+				has_idea = AVT_idea_loyalty_demidov_veryhigh
+			}
+		}
+
+		cost = 150
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = AVT
+			#has_completed_focus = AVT_perfect_society
+			has_country_flag = avt_elusive_looking_for_husband_flag
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			add_stability = 0.1
+			custom_effect_tooltip = AVTtt_demidov_absolute
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_high
+					add_idea = AVT_idea_loyalty_demidov_absolute
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_veryhigh
+					add_idea = AVT_idea_loyalty_demidov_absolute
+				}
+			}
 		}
 	}
