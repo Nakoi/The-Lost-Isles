@@ -191,41 +191,9 @@ country_event = {
 	
 	option = {
 		name = esu_sanelate.0.a
-		IF = {
-			limit = {
-				has_idea = recruit_militia_peacetime
-			}
-			swap_ideas = {
-				remove_idea = recruit_militia_peacetime
-				add_idea = recruit_universalcon
-			}
-		}
-		IF = {
-			limit = {
-				has_idea = recruit_militia_wartime
-			}
-			swap_ideas = {
-				remove_idea = recruit_militia_wartime
-				add_idea = recruit_universalcon
-			}
-		}
-		IF = {
-			limit = {
-				has_idea = recruit_volunteer
-			}
-			swap_ideas = {
-				remove_idea = recruit_volunteer
-				add_idea = recruit_universalcon
-			}
-		}
-		IF = {
-			limit = {
-				has_idea = recruit_selectivecon
-			}
-			swap_ideas = {
-				remove_idea = recruit_selectivecon
-				add_idea = recruit_universalcon
-			}
+		swap_ideas = {
+			remove_idea = ESU_homecoming_idea_2
+			add_idea = ESU_homecoming_idea_3_quantity
 		}
 	}
 		
@@ -233,61 +201,7 @@ country_event = {
 		name = esu_sanelate.0.b
 		swap_ideas = {
 			remove_idea = ESU_homecoming_idea_2
-			add_idea = ESU_homecoming_idea_3
-		}
-	}
-}
-
-country_event = {
-	id = esu_sanelate.1
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_sanelate.1"}
-	title = esu_sanelate.1.t
-	desc = esu_sanelate.1.d
-	picture = GFX_news_event_chinese_soldiers_march
-	is_triggered_only = yes
-	major = no
-	
-	option = { #focusing on homefront
-		name = esu_sanelate.1.a
-		IF = {
-			limit = {
-				has_idea = ESU_homecoming_idea_3
-			}
-			swap_ideas = {
-				remove_idea = ESU_homecoming_idea_3
-				add_idea = ESU_homecoming_idea_6
-			}
-		}
-		IF = {
-			limit = {
-				has_idea = ESU_homecoming_idea_2
-			}
-			swap_ideas = {
-				remove_idea = ESU_homecoming_idea_2
-				add_idea = ESU_homecoming_idea_4
-			}
-		}
-	}
-		
-	option = { #focusing on the fight
-		name = esu_sanelate.1.b
-		IF = {
-			limit = {
-				has_idea = ESU_homecoming_idea_3
-			}
-			swap_ideas = {
-				remove_idea = ESU_homecoming_idea_3
-				add_idea = ESU_homecoming_idea_7
-			}
-		}
-		IF = {
-			limit = {
-				has_idea = ESU_homecoming_idea_2
-			}
-			swap_ideas = {
-				remove_idea = ESU_homecoming_idea_2
-				add_idea = ESU_homecoming_idea_5
-			}
+			add_idea = ESU_homecoming_idea_3_quality
 		}
 	}
 }
