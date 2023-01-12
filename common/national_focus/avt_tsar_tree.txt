@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = AVT
        }
     }
 
@@ -30,6 +30,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_finish_what_we_started
+		icon = AVT_GFX_Finish_What_We_Started
 		prerequisite = { focus = AVT_the_tzar }
 		x = 0
 		y = 1
@@ -58,6 +59,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_strike_dragons
+		icon = AVT_GFX_Attack_Dragons
 		prerequisite = { focus = AVT_finish_what_we_started }
 		x = 0
 		y = 2
@@ -79,6 +81,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_rule_the_north
+		icon = AVT_GFX_Rule_The_North
 		prerequisite = { focus = AVT_strike_dragons }
 		x = 0
 		y = 3
@@ -140,6 +143,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_avtukov_nationalism
+		icon = AVT_GFX_Promote_Nationalism
 		prerequisite = { focus = AVT_rule_the_north }
 		mutually_exclusive = { focus = AVT_embrace_deer }
 		x = -1
@@ -586,6 +590,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_panponisti
+		icon = AVT_GFX_PanPony
 		prerequisite = { focus = AVT_finish_what_we_started }
 		x = -2
 		y = 2
@@ -674,6 +679,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_ally_schizoid
+		icon = AVT_GFX_Sovjok
 		prerequisite = { focus = AVT_panponisti }
 		x = -2
 		y = 3
