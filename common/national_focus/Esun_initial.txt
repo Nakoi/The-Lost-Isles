@@ -741,6 +741,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_envoys_to_the_clans
+		icon = ESU_GFX_An_Ultimatum
 		prerequisite = { focus = ESU_eyes_on_the_clans focus = ESU_secure_our_south }
 		x = 10
 		y = 3
@@ -764,6 +765,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_talks_with_Hriki
+		icon = ESU_GFX_Hiriki_Soil
 		prerequisite = { focus = ESU_envoys_to_the_clans }
 		x = -1
 		y = 1
@@ -788,6 +790,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_talks_with_Waonto
+		icon = ESU_GFX_Waonto_Forest
 		prerequisite = { focus = ESU_envoys_to_the_clans }
 		x = 1
 		y = 1
@@ -810,6 +813,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_talks_with_onki
+		icon = ESU_GFX_Onki_Border
 		prerequisite = { focus = ESU_envoys_to_the_clans }
 		x = 0
 		y = 2
@@ -834,6 +838,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_talks_with_azeo
+		icon = ESU_GFX_Azeo
 		prerequisite = { focus = ESU_talks_with_onki }
 		x = 0
 		y = 3
@@ -856,6 +861,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_eyes_on_the_clans
+		icon = ESU_GFX_Eyes_On_The_Interior
 		prerequisite = { focus = ESU_old_relations focus = ESU_send_troops_to_the_front }
 		x = 0
 		y = -1

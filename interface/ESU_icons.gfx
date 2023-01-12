@@ -2720,3 +2720,230 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 } 
         }
     }
+
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Eyes_On_The_Interior"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Eyes_On_The_Interior.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Eyes_On_The_Interior_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Eyes_On_The_Interior.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Eyes_On_The_Interior.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Eyes_On_The_Interior.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "ESU_GFX_An_Ultimatum"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_An_Ultimatum.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_An_Ultimatum_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_An_Ultimatum.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_An_Ultimatum.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_An_Ultimatum.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Hiriki_Soil"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Hiriki_Soil.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Hiriki_Soil_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Hiriki_Soil.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Hiriki_Soil.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Hiriki_Soil.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Waonto_Forest"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Waonto_Forest.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Waonto_Forest_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Waonto_Forest.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Waonto_Forest.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Waonto_Forest.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Onki_Border"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Onki_Border.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Onki_Border_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Onki_Border.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Onki_Border.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Onki_Border.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Azeo"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Azeo.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Azeo_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Azeo.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Azeo.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Azeo.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
