@@ -1894,10 +1894,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				add_idea = ESU_homecoming_idea_8
-				remove_idea = ESU_homecoming_idea
-			}
+			add_ideas = ESU_ootari_nationalism
 		}
 	}
 
@@ -2194,7 +2191,16 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_industrialeq
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_machinegun
+			}
 		}
 	}
 
@@ -2218,7 +2224,16 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialengi
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialconstr
+			}
 		}
 	}
 
@@ -2269,14 +2284,9 @@ focus_tree = {
 		
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1
-				uses = 1
+				bonus = 0.5
+				uses = 2
 				category = industry_industrialtools
-			}
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = industry_industrialconstr
 			}
 		}
 	}
@@ -2734,7 +2744,24 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			country_event = { id = esu_sanelate.1 }
+			IF = {
+				limit = {
+					has_idea = ESU_homecoming_idea_3_quantity
+				}
+				swap_ideas = {
+					remove_idea = ESU_homecoming_idea_3_quantity
+					add_idea = ESU_homecoming_idea_4_quantity_milspend
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = ESU_homecoming_idea_3_quality
+				}
+				swap_ideas = {
+					remove_idea = ESU_homecoming_idea_4_quality_milspend
+					add_idea = ESU_homecoming_idea_4_quantity_milspend
+				}
+			}
 		}
 	}
 
