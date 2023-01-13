@@ -364,6 +364,8 @@
  AVT_idea_noble_discontent:0 "Discontent in High Places"
  AVT_idea_Patriotism:0 "Triumphant Patriotism"
  AVT_idea_Patriotism_2:0 "Triumphant Patriotism"
+ AVT_idea_Patriotism_elusive_1:0 "Champions of the Realm"
+ AVT_idea_Patriotism_elusive_2:0 "Protectors of the Weak"
  AVT_idea_stagnant_society:0 "Stagnant Society"
  AVT_idea_tribe_mistrust:0 "Tribe Mistrust"
  
@@ -416,7 +418,7 @@
  AVT_idea_loyalty_demidov_absolute:0 "Demidov Family Loyalty - Absolute"
  AVT_donation:0 "Charity Donation"
  AVT_large_donation:0 "Large Charity Donation"
- 
+ AVT_officer_reparations:0 "Commoner Officer Reparations"
  
  AVT_national_pony_army_idea_01:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
@@ -705,6 +707,11 @@
  avt_elusiveevent.20.d:0 "Synopsis: Elusive has announced that she is now looking for a husband, and has organised a meeting with all the worthy suitors. Each of the major and several minor noble families have sent their candidates. In this event, Elusive meets with the most important 3 to talk about them, their plans, and to receive their proposal."
  avt_elusiveevent.20.a:0 "This won’t be an easy choice…"
  
+ avt_elusiveevent.21.t:0 "Commission Officers Protest!"
+ avt_elusiveevent.21.d:0 "Synopsis: With the formation of the exclusively noble commanded army, a bunch of commissioned officers got extremely upset, as they paid for their role in the army. Together, they sent a petition to the Tsaritsa to give them back their money."
+ avt_elusiveevent.21.a:0 "Paying them will be honorable"
+ avt_elusiveevent.21.b:0 "The treasury cannot bear this expense"
+ 
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
  
@@ -733,6 +740,8 @@
  
 ###TOOLTIP LOCALISATION - ELUSIVE###
  AVTtt_all_of_gallund:0 "§YGains claims to all Gallundian starting provinces§!"
+ AVTtt_pissed_deets:0 "§YOur new forcibly acquired subjects will not be pleased§!"
+ 
  AVTtt_peasant_unrest_increase:0 "§RPeasant Unrest Increase!§!"
  AVTtt_peasant_unrest_decrease:0 "§GPeasant Unrest Decrease!§!"
  AVTtt_royalfam_increase:0 "§GRoyal Family Opinion Increase!§!"
