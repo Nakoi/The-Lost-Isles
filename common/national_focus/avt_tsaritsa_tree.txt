@@ -259,12 +259,31 @@ focus_tree = {
 		x = -2
 		y = 3
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			GAL = {
+				is_puppet_of = AVT
+			}
+		}
+		
 		completion_reward = {
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.05
+			}
+			add_corps_commander_role = {
+				character = AVT_gen_aud_luludottir
+				traits = {}
+				skill = 1
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 1
+			}
 		}
 	}
 	
@@ -274,12 +293,118 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			NOT = {
+				country_exists = GAL
+			}
+			has_equipment = { rifle_equipment > 999 }
+		}
+		
 		completion_reward = {
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.1
+			}
+			custom_effect_tooltip = AVTtt_pissed_deets
+			hidden_effect = {
+				348 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				347 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				344 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				345 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				346 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				343 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				342 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				341 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				340 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				339 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				336 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				337 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				338 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				335 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				334 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				333 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				332 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				329 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				331 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				330 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				328 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				104 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+				105 = {
+					add_compliance = 15
+					add_resistance = 15
+				}
+			}
 		}
 	}
 	
@@ -290,12 +415,115 @@ focus_tree = {
 		x = -3
 		y = 4
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			hidden_effect = {
+				country_event = { id = avt_elusiveevent.21 days = 13 }
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = science_armyorg
+			}
+			swap_ideas = {
+				remove_idea = AVT_idea_Patriotism
+				add_idea = AVT_idea_Patriotism_elusive_1
+			}
+			
+			custom_effect_tooltip = AVTtt_hierta_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_low
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_low
+						add_idea = AVT_idea_loyalty_hierta_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_mid
+						add_idea = AVT_idea_loyalty_hierta_high
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_high
+						add_idea = AVT_idea_loyalty_hierta_veryhigh
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_royalfam_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_mid
+						add_idea = AVT_idea_loyalty_royalfam_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_high
+						add_idea = AVT_idea_loyalty_royalfam_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_veryhigh
+						add_idea = AVT_idea_loyalty_royalfam_high
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_aminoff_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_mid
+						add_idea = AVT_idea_loyalty_aminoff_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_high
+						add_idea = AVT_idea_loyalty_aminoff_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_veryhigh
+						add_idea = AVT_idea_loyalty_aminoff_high
+					}
+				}
+			}
 		}
 	}
 	
@@ -306,12 +534,115 @@ focus_tree = {
 		x = -1
 		y = 4
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			hidden_effect = {
+				country_event = { id = avt_elusiveevent.21 days = 13 }
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = science_armyorg
+			}
+			swap_ideas = {
+				remove_idea = AVT_idea_Patriotism
+				add_idea = AVT_idea_Patriotism_elusive_2
+			}
+			
+			custom_effect_tooltip = AVTtt_royalfam_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_low
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_low
+						add_idea = AVT_idea_loyalty_royalfam_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_mid
+						add_idea = AVT_idea_loyalty_royalfam_high
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_high
+						add_idea = AVT_idea_loyalty_royalfam_veryhigh
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_demidov_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_mid
+						add_idea = AVT_idea_loyalty_demidov_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_high
+						add_idea = AVT_idea_loyalty_demidov_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_veryhigh
+						add_idea = AVT_idea_loyalty_demidov_high
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_hierta_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_mid
+						add_idea = AVT_idea_loyalty_hierta_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_high
+						add_idea = AVT_idea_loyalty_hierta_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_veryhigh
+						add_idea = AVT_idea_loyalty_hierta_high
+					}
+				}
+			}
 		}
 	}
 	
@@ -322,7 +653,7 @@ focus_tree = {
 		x = 3
 		y = 4
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -338,7 +669,7 @@ focus_tree = {
 		x = 1
 		y = 4
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -354,7 +685,7 @@ focus_tree = {
 		x = 0
 		y = 5
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
