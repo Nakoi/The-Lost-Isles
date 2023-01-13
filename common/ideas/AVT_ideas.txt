@@ -49,6 +49,39 @@ ideas = {
                 attrition = -0.1
 			}
 		}
+		
+		AVT_idea_Patriotism_elusive_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = -0.05
+				conscription_factor = -0.6
+				army_attack_factor = 0.4
+                army_defence_factor = 0.4
+				supply_consumption_factor = -0.3
+				special_forces_cap = 0.2
+			}
+		}
+		
+		AVT_idea_Patriotism_elusive_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = -0.4
+				army_attack_factor = 0.15
+                army_defence_factor = 0.15
+				supply_consumption_factor = -0.15
+				special_forces_cap = 0.1
+			}
+		}
 
 		AVT_idea_stagnant_society = {
 			picture = great_depression
@@ -643,6 +676,42 @@ ideas = {
 			}
 		}
 		
+		AVT_donation = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		AVT_large_donation = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
+		
+		AVT_officer_reparations = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
+		
 ###ARMY TREE SHIT###
 
 		AVT_national_pony_army_idea_01 = {
@@ -706,30 +775,6 @@ ideas = {
 				supply_consumption_factor = 0.05
 				out_of_supply_factor = -0.05
 				attrition = -0.1
-			}
-		}
-		
-		AVT_donation = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				consumer_goods_factor = 0.1
-			}
-		}
-		
-		AVT_large_donation = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				consumer_goods_factor = 0.2
 			}
 		}
 		
