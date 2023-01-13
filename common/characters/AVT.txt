@@ -197,6 +197,16 @@ characters={
         }
     }
 	
+	AVT_gen_aud_luludottir = { #empty character to become general via focus
+        name = AVT_gen_aud_luludottir_name
+		
+        portraits = {
+            army = {
+                large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+            }
+        }
+    }
+	
 	AVT_adv_orchid_flame = {
         name = AVT_adv_orchid_flame_name
 		gender = female
@@ -291,6 +301,31 @@ characters={
 			}
 			available = {
 				has_completed_focus = AVT_invite_foreign_experts
+			}
+		}
+	}
+	
+	AVT_adv_asgeir_horaldsson = {
+        name = AVT_adv_asgeir_horaldsson_name
+		gender = female
+		
+        portraits = {
+            army = {
+				small = "gfx/interface/ideas/AdvisorMarePlaceholder.dds"
+            }
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			allowed  = {
+				original_tag = AVT
+			}
+			traits = {
+				advtrait_avt_horaldtrait
+			}
+			available = {
+				has_completed_focus = AVT_integrate_jarls
 			}
 		}
 	}
