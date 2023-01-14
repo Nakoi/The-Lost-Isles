@@ -96,6 +96,20 @@ ideas = {
                 industrial_capacity_factory = -0.2
 			}
 		}
+		
+		AVT_idea_stagnant_society_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				research_speed_factor = -0.2
+                production_speed_buildings_factor = 0.15
+                industrial_capacity_factory = 0.15
+			}
+		}
         
 		AVT_idea_tribe_mistrust = {
 			picture = great_depression
@@ -709,6 +723,48 @@ ideas = {
 				
 			modifier = {
 				consumer_goods_factor = 0.2
+			}
+		}
+		
+		AVT_trade_collapse = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				min_export = 0.2
+				industrial_capacity_dockyard = -0.4
+				trade_opinion_factor = -2
+				local_resources_factor = -0.3
+				
+			}
+		}
+		
+		AVT_academic_inspectors = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				research_speed_factor = -0.5
+				ideology_solidarism_drift = -0.1
+			}
+		}
+		
+		AVT_loyal_research = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				research_speed_factor = -0.3
+				ideology_continuism_drift = 0.05
 			}
 		}
 		
