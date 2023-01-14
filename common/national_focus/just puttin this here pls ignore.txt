@@ -1,0 +1,309 @@
+		custom_effect_tooltip = AVTtt_peasant_unrest_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_low_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_low_public_discontent
+					add_idea = AVT_idea_med_public_discontent
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_med_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_med_public_discontent
+					add_idea = AVT_idea_high_public_discontent
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_high_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_high_public_discontent
+					add_idea = AVT_idea_veryhigh_public_discontent
+				}
+			}
+		}
+		
+		custom_effect_tooltip = AVTtt_peasant_unrest_decrease
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_med_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_med_public_discontent
+					add_idea = AVT_idea_low_public_discontent
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_high_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_high_public_discontent
+					add_idea = AVT_idea_med_public_discontent
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_veryhigh_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_veryhigh_public_discontent
+					add_idea = AVT_idea_high_public_discontent
+				}
+			}
+		}
+		
+		
+		custom_effect_tooltip = AVTtt_royalfam_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_low
+					add_idea = AVT_idea_loyalty_royalfam_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_mid
+					add_idea = AVT_idea_loyalty_royalfam_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_high
+					add_idea = AVT_idea_loyalty_royalfam_veryhigh
+				}
+			}
+		}
+		custom_effect_tooltip = AVTtt_royalfam_decrease
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_mid
+					add_idea = AVT_idea_loyalty_royalfam_low
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_high
+					add_idea = AVT_idea_loyalty_royalfam_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_veryhigh
+					add_idea = AVT_idea_loyalty_royalfam_high
+				}
+			}
+		}
+			
+			
+		custom_effect_tooltip = AVTtt_aminoff_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_low
+					add_idea = AVT_idea_loyalty_aminoff_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_mid
+					add_idea = AVT_idea_loyalty_aminoff_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_high
+					add_idea = AVT_idea_loyalty_aminoff_veryhigh
+				}
+			}
+		}
+		custom_effect_tooltip = AVTtt_aminoff_decrease
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_mid
+					add_idea = AVT_idea_loyalty_aminoff_low
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_high
+					add_idea = AVT_idea_loyalty_aminoff_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_veryhigh
+					add_idea = AVT_idea_loyalty_aminoff_high
+				}
+			}
+		}
+		
+		
+		custom_effect_tooltip = AVTtt_hierta_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_low
+					add_idea = AVT_idea_loyalty_hierta_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_mid
+					add_idea = AVT_idea_loyalty_hierta_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_high
+					add_idea = AVT_idea_loyalty_hierta_veryhigh
+				}
+			}
+		}
+		custom_effect_tooltip = AVTtt_hierta_decrease
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_mid
+					add_idea = AVT_idea_loyalty_hierta_low
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_high
+					add_idea = AVT_idea_loyalty_hierta_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_hierta_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_hierta_veryhigh
+					add_idea = AVT_idea_loyalty_hierta_high
+				}
+			}
+		}
+		
+		custom_effect_tooltip = AVTtt_demidov_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_low
+					add_idea = AVT_idea_loyalty_demidov_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_mid
+					add_idea = AVT_idea_loyalty_demidov_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_high
+					add_idea = AVT_idea_loyalty_demidov_veryhigh
+				}
+			}
+		}
+		custom_effect_tooltip = AVTtt_demidov_decrease
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_mid
+					add_idea = AVT_idea_loyalty_demidov_low
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_high
+					add_idea = AVT_idea_loyalty_demidov_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_demidov_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_demidov_veryhigh
+					add_idea = AVT_idea_loyalty_demidov_high
+				}
+			}
+		}
+		
