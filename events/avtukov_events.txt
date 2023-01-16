@@ -2378,3 +2378,129 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = avt_elusiveevent.22
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.22"}
+	title = avt_elusiveevent.22.t
+	desc = avt_elusiveevent.22.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.22.a
+		450 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		custom_effect_tooltip = AVTtt_royalfam_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_low
+					add_idea = AVT_idea_loyalty_royalfam_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_mid
+					add_idea = AVT_idea_loyalty_royalfam_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_royalfam_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_royalfam_high
+					add_idea = AVT_idea_loyalty_royalfam_veryhigh
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = avt_elusiveevent.22.b
+		add_tech_bonus = {
+            bonus = 1.0
+            uses = 1
+            category = electronics
+        }
+		custom_effect_tooltip = AVTtt_aminoff_increase
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_low
+					add_idea = AVT_idea_loyalty_aminoff_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_mid
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_mid
+					add_idea = AVT_idea_loyalty_aminoff_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_loyalty_aminoff_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_loyalty_aminoff_high
+					add_idea = AVT_idea_loyalty_aminoff_veryhigh
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = avt_elusiveevent.22.c
+		add_stability = 0.1
+		custom_effect_tooltip = AVTtt_peasant_unrest_decrease
+		hidden_effect = {
+			IF = {
+				limit = {
+					has_idea = AVT_idea_med_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_med_public_discontent
+					add_idea = AVT_idea_low_public_discontent
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_high_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_high_public_discontent
+					add_idea = AVT_idea_med_public_discontent
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_idea_veryhigh_public_discontent
+				}
+				swap_ideas = {
+					remove_idea = AVT_idea_veryhigh_public_discontent
+					add_idea = AVT_idea_high_public_discontent
+				}
+			}
+		}
+	}
+}
