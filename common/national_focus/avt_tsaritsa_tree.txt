@@ -434,6 +434,43 @@ focus_tree = {
 				add_idea = AVT_idea_Patriotism_elusive_1
 			}
 			
+			IF = {
+				limit = {
+					has_idea = recruit_irregular_army
+				}
+				swap_ideas = {
+					remove_idea = recruit_irregular_army
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_peacetime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_universalcon
+				}
+				swap_ideas = {
+					remove_idea = recruit_universalcon
+					add_idea = recruit_volunteer
+				}
+			}
+			
 			custom_effect_tooltip = AVTtt_hierta_increase
 			hidden_effect = {
 				IF = {
@@ -551,6 +588,43 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = AVT_idea_Patriotism
 				add_idea = AVT_idea_Patriotism_elusive_2
+			}
+			
+			IF = {
+				limit = {
+					has_idea = recruit_irregular_army
+				}
+				swap_ideas = {
+					remove_idea = recruit_irregular_army
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_peacetime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_universalcon
+				}
+				swap_ideas = {
+					remove_idea = recruit_universalcon
+					add_idea = recruit_volunteer
+				}
 			}
 			
 			custom_effect_tooltip = AVTtt_royalfam_increase
@@ -674,7 +748,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			swap_ideas = {
-				add_idea = AVT_idea_stagnant_society_2
+				add_idea = AVT_idea_stagnant_society_elusive_1
 				remove_idea = AVT_idea_stagnant_society
 			}
 			custom_effect_tooltip = AVTtt_royalfam_increase
@@ -1714,12 +1788,113 @@ focus_tree = {
 		x = 2
 		y = 5
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			has_political_power > 99
+		}
+		
 		completion_reward = {
+			country_event = { id = avt_elusiveevent.22 days = 3 }
+			440 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			447 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			454 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			432 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+			402 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			435 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			463 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = fuel_silo
+					level = 1
+					instant_build = yes
+				}
+			}
+			426 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = fuel_silo
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			add_political_power = -100
+			add_timed_idea = {
+				idea = AVT_buyout_payments
+				days = 360
+			}
+			
+			custom_effect_tooltip = AVTtt_royalfam_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_mid
+						add_idea = AVT_idea_loyalty_royalfam_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_high
+						add_idea = AVT_idea_loyalty_royalfam_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_veryhigh
+						add_idea = AVT_idea_loyalty_royalfam_high
+					}
+				}
+			}
 		}
 	}
 	
@@ -1730,12 +1905,104 @@ focus_tree = {
 		x = 2
 		y = 6
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_ideas = AVT_plm
+			
+			custom_effect_tooltip = AVTtt_hierta_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_mid
+						add_idea = AVT_idea_loyalty_hierta_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_high
+						add_idea = AVT_idea_loyalty_hierta_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_veryhigh
+						add_idea = AVT_idea_loyalty_hierta_high
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_aminoff_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_mid
+						add_idea = AVT_idea_loyalty_aminoff_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_high
+						add_idea = AVT_idea_loyalty_aminoff_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_veryhigh
+						add_idea = AVT_idea_loyalty_aminoff_high
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_demidov_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_mid
+						add_idea = AVT_idea_loyalty_demidov_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_high
+						add_idea = AVT_idea_loyalty_demidov_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_veryhigh
+						add_idea = AVT_idea_loyalty_demidov_high
+					}
+				}
+			}
 		}
 	}
 	
@@ -1746,12 +2013,49 @@ focus_tree = {
 		x = 2
 		y = 7
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			remove_ideas = AVT_idea_tribe_mistrust
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = racial
+			}
+			
+			custom_effect_tooltip = AVTtt_hierta_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_mid
+						add_idea = AVT_idea_loyalty_hierta_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_high
+						add_idea = AVT_idea_loyalty_hierta_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_veryhigh
+						add_idea = AVT_idea_loyalty_hierta_high
+					}
+				}
+			}
 		}
 	}
 	
@@ -1762,12 +2066,115 @@ focus_tree = {
 		x = 4
 		y = 5
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			has_equipment = {
+				rifle_equipment > 1999
+			}
+		}
+		
 		completion_reward = {
+			country_event = { id = avt_elusiveevent.22 days = 3 }
+			440 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			447 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			454 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			432 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+			402 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			435 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			463 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = fuel_silo
+					level = 1
+					instant_build = yes
+				}
+			}
+			426 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = fuel_silo
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			add_equipment_to_stockpile = {
+				type = rifle_equipment
+				amount = -2000
+			}
+			add_manpower = -5000
+			
+			custom_effect_tooltip = AVTtt_peasant_unrest_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_low_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_low_public_discontent
+						add_idea = AVT_idea_med_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_med_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_med_public_discontent
+						add_idea = AVT_idea_high_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_high_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_high_public_discontent
+						add_idea = AVT_idea_veryhigh_public_discontent
+					}
+				}
+			}
 		}
 	}
 	
@@ -1778,12 +2185,74 @@ focus_tree = {
 		x = 4
 		y = 6
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_ideas = AVT_pushed_to_the_limit
+			
+			custom_effect_tooltip = AVTtt_demidov_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_low
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_low
+						add_idea = AVT_idea_loyalty_demidov_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_mid
+						add_idea = AVT_idea_loyalty_demidov_high
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_high
+						add_idea = AVT_idea_loyalty_demidov_veryhigh
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_peasant_unrest_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_low_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_low_public_discontent
+						add_idea = AVT_idea_med_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_med_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_med_public_discontent
+						add_idea = AVT_idea_high_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_high_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_high_public_discontent
+						add_idea = AVT_idea_veryhigh_public_discontent
+					}
+				}
+			}
 		}
 	}
 	
@@ -1794,12 +2263,77 @@ focus_tree = {
 		x = 4
 		y = 7
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = AVT_idea_tribe_mistrust
+				add_idea = AVT_idea_tribe_mistrust_elusive_1
+			}
+			
+			custom_effect_tooltip = AVTtt_peasant_unrest_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_low_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_low_public_discontent
+						add_idea = AVT_idea_med_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_med_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_med_public_discontent
+						add_idea = AVT_idea_high_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_high_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_high_public_discontent
+						add_idea = AVT_idea_veryhigh_public_discontent
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_royalfam_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_mid
+						add_idea = AVT_idea_loyalty_royalfam_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_high
+						add_idea = AVT_idea_loyalty_royalfam_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_veryhigh
+						add_idea = AVT_idea_loyalty_royalfam_high
+					}
+				}
+			}
 		}
 	}
 	
@@ -1811,12 +2345,195 @@ focus_tree = {
 		x = -1
 		y = 8
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			has_political_power > 99
+			OR = {
+				has_idea = AVT_idea_loyalty_aminoff_high
+				has_idea = AVT_idea_loyalty_aminoff_veryhigh
+			}
+			OR = {
+				has_idea = AVT_idea_loyalty_hierta_high
+				has_idea = AVT_idea_loyalty_hierta_veryhigh
+			}
+			OR = {
+				has_idea = AVT_idea_loyalty_demidov_high
+				has_idea = AVT_idea_loyalty_demidov_veryhigh
+			}
+		}
+			
 		completion_reward = {
+			IF = {
+				limit = {
+					has_idea = policy_oligarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_oligarchy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_aristocracy
+				}
+				swap_ideas = {
+					remove_idea = policy_aristocracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_auth_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_auth_democracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_democracy
+				}
+				swap_ideas = {
+					remove_idea = policy_democracy
+					add_idea = policy_despotism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_anarchy
+				}
+				swap_ideas = {
+					remove_idea = policy_anarchy
+					add_idea = policy_despotism
+				}
+			}
+			add_ideas = AVT_true_autocracy
+			
+			custom_effect_tooltip = AVTtt_royalfam_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_low
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_low
+						add_idea = AVT_idea_loyalty_royalfam_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_mid
+						add_idea = AVT_idea_loyalty_royalfam_high
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_high
+						add_idea = AVT_idea_loyalty_royalfam_veryhigh
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_aminoff_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_mid
+						add_idea = AVT_idea_loyalty_aminoff_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_high
+						add_idea = AVT_idea_loyalty_aminoff_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_veryhigh
+						add_idea = AVT_idea_loyalty_aminoff_high
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_hierta_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_mid
+						add_idea = AVT_idea_loyalty_hierta_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_high
+						add_idea = AVT_idea_loyalty_hierta_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_veryhigh
+						add_idea = AVT_idea_loyalty_hierta_high
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_demidov_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_mid
+						add_idea = AVT_idea_loyalty_demidov_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_high
+						add_idea = AVT_idea_loyalty_demidov_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_veryhigh
+						add_idea = AVT_idea_loyalty_demidov_high
+					}
+				}
+			}
 		}
 	}
 	
@@ -1828,12 +2545,44 @@ focus_tree = {
 		x = 1
 		y = 8
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_political_power = 50
+			add_ideas = AVT_executive_council
+			custom_effect_tooltip = AVTtt_royalfam_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_mid
+						add_idea = AVT_idea_loyalty_royalfam_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_high
+						add_idea = AVT_idea_loyalty_royalfam_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_royalfam_veryhigh
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_royalfam_veryhigh
+						add_idea = AVT_idea_loyalty_royalfam_high
+					}
+				}
+			}
 		}
 	}
 	
@@ -1844,12 +2593,118 @@ focus_tree = {
 		x = -1
 		y = 9
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			has_completed_focus = AVT_absolute_rule
+			has_completed_focus = AVT_noble_only_army
+			has_completed_focus = AVT_strict_hierarchy
+			has_completed_focus = AVT_city_serfdom
+			has_completed_focus = AVT_aristocrat_unity
+		}
+		
 		completion_reward = {
+			add_stability = 0.2
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.25
+			}
+			
+			add_ideas = AVT_feudal_perfection
+			
+			custom_effect_tooltip = AVTtt_aminoff_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_low
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_low
+						add_idea = AVT_idea_loyalty_aminoff_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_mid
+						add_idea = AVT_idea_loyalty_aminoff_high
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_aminoff_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_aminoff_high
+						add_idea = AVT_idea_loyalty_aminoff_veryhigh
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_hierta_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_low
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_low
+						add_idea = AVT_idea_loyalty_hierta_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_mid
+						add_idea = AVT_idea_loyalty_hierta_high
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_hierta_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_hierta_high
+						add_idea = AVT_idea_loyalty_hierta_veryhigh
+					}
+				}
+			}
+			custom_effect_tooltip = AVTtt_demidov_increase
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_low
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_low
+						add_idea = AVT_idea_loyalty_demidov_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_mid
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_mid
+						add_idea = AVT_idea_loyalty_demidov_high
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_loyalty_demidov_high
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_loyalty_demidov_high
+						add_idea = AVT_idea_loyalty_demidov_veryhigh
+					}
+				}
+			}
 		}
 	}
 	
@@ -1860,12 +2715,60 @@ focus_tree = {
 		x = 1
 		y = 9
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_stability = 0.1
+			add_ideas = AVT_modern_feudalism
+			
+			IF = {
+				limit = {
+					has_idea = policy_regressive
+				}
+				swap_ideas = {
+					remove_idea = policy_regressive
+					add_idea = policy_reactionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_conservative
+				}
+				swap_ideas = {
+					remove_idea = policy_conservative
+					add_idea = policy_reactionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_progressive
+				}
+				swap_ideas = {
+					remove_idea = policy_progressive
+					add_idea = policy_reactionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_revolutionary
+				}
+				swap_ideas = {
+					remove_idea = policy_revolutionary
+					add_idea = policy_reactionary
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_futurist
+				}
+				swap_ideas = {
+					remove_idea = policy_futurist
+					add_idea = policy_reactionary
+				}
+			}
 		}
 	}
 	
