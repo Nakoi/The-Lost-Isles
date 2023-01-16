@@ -35,7 +35,7 @@ ideas = {
 			}
 		}
 		
-		AVT_idea_Patriotism_2 = {
+		AVT_idea_Patriotism_tzar_1 = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -97,7 +97,7 @@ ideas = {
 			}
 		}
 		
-		AVT_idea_stagnant_society_2 = {
+		AVT_idea_stagnant_society_elusive_1 = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -123,6 +123,84 @@ ideas = {
                 industrial_capacity_factory = -0.2
                 industrial_capacity_dockyard = -0.2
                 conscription_factor = -0.1
+			}
+		}
+		
+		AVT_idea_tribe_mistrust_elusive_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_gain = 0.2
+				trade_opinion_factor = 0.2
+				political_advisor_cost_factor = -0.2
+				high_command_cost_factor = -0.2
+                conscription_factor = -0.1
+			}
+		}
+		
+		AVT_true_autocracy = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_gain = 0.5
+				justify_war_goal_time = -0.25
+			}
+		}
+		
+		AVT_executive_council = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				trade_laws_cost_factor = -0.5
+				political_advisor_cost_factor = -0.33
+				army_chief_cost_factor = -0.33
+				navy_chief_cost_factor = -0.33
+				air_chief_cost_factor = -0.33
+				high_command_cost_factor = -0.33
+				theorist_cost_factor = -0.33
+			}
+		}
+		
+		AVT_feudal_perfection = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_weekly = 0.01
+				war_support_weekly = 0.01
+				research_speed_factor = -0.2
+				production_speed_buildings_factor = 0.25
+				local_resources_factor = 0.25
+				monthly_population = 0.25
+			}
+		}
+		
+		AVT_modern_feudalism = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				local_resources_factor = 0.1
+				monthly_population = 0.1
 			}
 		}
 
@@ -726,6 +804,18 @@ ideas = {
 			}
 		}
 		
+		AVT_buyout_payments = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
+		
 		AVT_trade_collapse = {
 			picture = great_depression
 			removal_cost = -1
@@ -765,6 +855,38 @@ ideas = {
 			modifier = {
 				research_speed_factor = -0.3
 				ideology_continuism_drift = 0.05
+			}
+		}
+		
+		AVT_plm = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_weekly = 0.002
+				ideology_solidarism_drift = -0.03
+			}
+		}
+		
+		AVT_pushed_to_the_limit = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_weekly = -0.002
+				ideology_solidarism_drift = 0.03
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+				production_speed_buildings_factor = 0.2
+				monthly_population = -0.5
 			}
 		}
 		
