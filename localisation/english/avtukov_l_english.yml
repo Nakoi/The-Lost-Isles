@@ -363,12 +363,13 @@
 ###IDEA LOCALISATION###
  AVT_idea_noble_discontent:0 "Discontent in High Places"
  AVT_idea_Patriotism:0 "Triumphant Patriotism"
- AVT_idea_Patriotism_2:0 "Triumphant Patriotism"
+ AVT_idea_Patriotism_tzar_1:0 "Triumphant Patriotism"
  AVT_idea_Patriotism_elusive_1:0 "Champions of the Realm"
  AVT_idea_Patriotism_elusive_2:0 "Protectors of the Weak"
  AVT_idea_stagnant_society:0 "Stagnant Society"
- AVT_idea_stagnant_society_2:0 "Stable, Not Stagnant"
+ AVT_idea_stagnant_society_elusive_1:0 "Stable, Not Stagnant"
  AVT_idea_tribe_mistrust:0 "Tribe Mistrust"
+ AVT_idea_tribe_mistrust_elusive_1:0 "Aristocratic Union"
  
  
  AVT_designer_mysticorp:0 "Mysticorp - Magitech"
@@ -422,8 +423,15 @@
  AVT_large_donation:0 "Large Charity Donation"
  AVT_officer_reparations:0 "Commoner Officer Reparations"
  AVT_trade_collapse:0 "Trade Collapse"
+ AVT_buyout_payments:0 "Buyout Payments"
  AVT_academic_inspectors:0 "Academic Inspectors"
  AVT_loyal_research:0 "Loyal Research"
+ AVT_plm:0 "Peasant Lives Matter"
+ AVT_pushed_to_the_limit:0 "Pushed to the Limit"
+ AVT_true_autocracy:0 "True Autocracy"
+ AVT_executive_council:0 "Executive Council"
+ AVT_feudal_perfection:0 "Feudal Perfection"
+ AVT_modern_feudalism:0 "Modern Feudalism"
  
  AVT_national_pony_army_idea_01:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
@@ -716,6 +724,12 @@
  avt_elusiveevent.21.d:0 "Synopsis: With the formation of the exclusively noble commanded army, a bunch of commissioned officers got extremely upset, as they paid for their role in the army. Together, they sent a petition to the Tsaritsa to give them back their money."
  avt_elusiveevent.21.a:0 "Paying them will be honorable"
  avt_elusiveevent.21.b:0 "The treasury cannot bear this expense"
+ 
+ avt_elusiveevent.22.t:0 "New Crown Land"
+ avt_elusiveevent.22.d:0 "Synopsis: With the new acquired lands, Elusive decides what to do with the new assets."
+ avt_elusiveevent.22.a:0 "It belongs to the crown"
+ avt_elusiveevent.22.b:0 "The Aminoffs will put it to good use"
+ avt_elusiveevent.22.c:0 "Share it between the minor nobility"
  
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
