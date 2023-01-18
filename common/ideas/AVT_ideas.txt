@@ -977,12 +977,14 @@ ideas = {
 			}
 			
 			equipment_bonus = {
-				infantry_weapons = {
+				rifle_equipment = {
 					soft_attack = 0.1
+					instant = yes
 				}
 				magical_equipment = {
 					build_cost_ic = -0.2
 					reliability_factor = 0.05
+					instant = yes
 				}
 			}
 		}
