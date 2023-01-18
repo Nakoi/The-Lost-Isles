@@ -311,8 +311,21 @@ leader_traits = {
 		land_doctrine_cost_factor = -0.2
 		supply_consumption_factor = 0.1
 		equipment_bonus = {
-			artillery = {
+			cannon_equipment = {
 				soft_attack = 0.1
+				instant = yes
+			}
+			fuckshit_one = {
+				soft_attack = 0.1
+				instant = yes
+			}
+			howitzer_equipment = {
+				soft_attack = 0.1
+				instant = yes
+			}
+			rocket_equipment = {
+				soft_attack = 0.1
+				instant = yes
 			}
 		}
 		
@@ -1254,10 +1267,10 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_air_skirmisher = {
+			air_skirmisher_equipment = {
 				air_agility = 0.1
 				air_attack = 0.1
-				
+				instant = yes
 			}
 		}
 		
@@ -1270,9 +1283,10 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_air_skirmisher = {
+			air_skirmisher_equipment = {
 				air_agility = 0.2
 				air_attack = 0.2
+				instant = yes
 			}
 		}
 		
@@ -1285,9 +1299,10 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_air_skirmisher = {
+			air_skirmisher_equipment = {
 				air_agility = 0.3
 				air_attack = 0.3
+				instant = yes
 			}
 		}
 		
@@ -1300,9 +1315,10 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_air_striker = {
+			air_striker_equipment = {
 				air_ground_attack = 0.1
 				naval_strike_attack = 0.1
+				instant = yes
 			}
 		}
 		
@@ -1315,9 +1331,10 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_air_striker = {
+			air_striker_equipment = {
 				air_ground_attack = 0.2
 				naval_strike_attack = 0.2
+				instant = yes
 			}
 		}
 		
@@ -1330,9 +1347,10 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_air_striker = {
+			air_striker_equipment = {
 				air_ground_attack = 0.3
 				naval_strike_attack = 0.3
+				instant = yes
 			}
 		}
 		
@@ -1345,13 +1363,15 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_airfrigate = {
+			air_frigate_equipment = {
 				air_attack = 0.1
 				air_superiority = 0.15
+				instant = yes
 			}
-			category_skycruiser = {
+			sky_cruiser_equipment = {
 				air_attack = 0.1
 				air_superiority = 0.15
+				instant = yes
 			}
 		}
 		
@@ -1364,13 +1384,15 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_airfrigate = {
+			air_frigate_equipment = {
 				air_attack = 0.2
 				air_superiority = 0.3
+				instant = yes
 			}
-			category_skycruiser = {
+			sky_cruiser_equipment = {
 				air_attack = 0.2
 				air_superiority = 0.3
+				instant = yes
 			}
 		}
 		
@@ -1383,13 +1405,15 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_airfrigate = {
+			air_frigate_equipment = {
 				air_attack = 0.3
 				air_superiority = 0.45
+				instant = yes
 			}
-			category_skycruiser = {
+			sky_cruiser_equipment = {
 				air_attack = 0.3
 				air_superiority = 0.45
+				instant = yes
 			}
 		}
 		
@@ -1402,13 +1426,15 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_bombardier = {
+			air_bombardier_equipment = {
 				air_defence = 0.1
 				air_bombing = 0.1
+				instant = yes
 			}
-			category_skycarrier = {
+			sky_carrier_equipment = {
 				air_defence = 0.1
 				air_bombing = 0.1
+				instant = yes
 			}
 		}
 		
@@ -1421,13 +1447,15 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_bombardier = {
+			air_bombardier_equipment = {
 				air_defence = 0.2
 				air_bombing = 0.2
+				instant = yes
 			}
-			category_skycarrier = {
+			sky_carrier_equipment = {
 				air_defence = 0.2
 				air_bombing = 0.2
+				instant = yes
 			}
 		}
 		
@@ -1440,13 +1468,15 @@ leader_traits = {
 		sprite = 14
 		experience_gain_air = 0.02
 		equipment_bonus = {
-			category_bombardier = {
+			air_bombardier_equipment = {
 				air_defence = 0.3
 				air_bombing = 0.3
+				instant = yes
 			}
-			category_skycarrier = {
+			sky_carrier_equipment = {
 				air_defence = 0.3
 				air_bombing = 0.3
+				instant = yes
 			}
 		}
 		
