@@ -432,6 +432,9 @@
  AVT_executive_council:0 "Executive Council"
  AVT_feudal_perfection:0 "Feudal Perfection"
  AVT_modern_feudalism:0 "Modern Feudalism"
+ AVT_splendor_idea:0 "Fanciest Uniforms, Shiniest Medals!"
+ AVT_investment_fund_flow:0 "Investment Funds Flow"
+ AVT_species_solidarity_idea:0 "Species Solidarity"
  
  AVT_national_pony_army_idea_01:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
@@ -486,6 +489,13 @@
  AVT_elusive_marriage_solarcomet_decision:0 "Marry Solar Comet"
  AVT_elusive_marriage_onyxstar_decision:0 "Marry Onyx Star"
  AVT_elusive_marriage_crimsonvision_decision:0 "Marry Crimson Vision"
+ 
+ decisioncat_avt_elusivepalace:0 "Constructing the Palace"
+ AVT_elusive_palace_decision_1:0 "Phase 1 - Planning"
+ AVT_elusive_palace_decision_2:0 "Phase 2 - Materials Acquisition"
+ AVT_elusive_palace_decision_3:0 "Phase 3 - The Foundations"
+ AVT_elusive_palace_decision_4:0 "Phase 4 - The Structure"
+ AVT_elusive_palace_decision_5:0 "Phase 5 - The Interior"
 
 ###EVENT LOCALISATION - EARLYGAME###
  avt_event.0.t:0 "Winds of Change"
@@ -777,3 +787,7 @@
  
  avt_peasant_uprising_flag:0 "peasant uprising flag"
  avt_elusive_looking_for_husband_flag:0 "Looking for a Husband"
+ avt_elusive_palace_1_completed:0 "Palace Planning Complete"
+ avt_elusive_palace_2_completed:0 "Material Acquisition Complete"
+ avt_elusive_palace_3_completed:0 "Palace Foundations Complete"
+ avt_elusive_palace_4_completed:0 "Palace Interior Complete"
