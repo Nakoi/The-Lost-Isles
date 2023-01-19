@@ -890,6 +890,47 @@ ideas = {
 			}
 		}
 		
+		AVT_splendor_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.1
+				army_defence_factor = -0.1
+				army_org_factor = 0.1
+			}
+		}
+		
+		AVT_investment_fund_flow = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.3
+				political_power_gain = -0.7
+			}
+		}
+		
+		AVT_species_solidarity_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				non_core_manpower = 0.05
+				required_garrison_factor = -0.2
+			}
+		}
+		
 ###ARMY TREE SHIT###
 
 		AVT_national_pony_army_idea_01 = {
