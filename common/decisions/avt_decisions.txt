@@ -1276,7 +1276,7 @@ decisioncat_avt_elusivepath = {
 
 		activation = {
 			tag = AVT
-			#has_country_flag = avt_peasant_uprising_flag
+			has_country_flag = avt_peasant_uprising_flag
 		}
 
 		visible = {
@@ -1321,7 +1321,7 @@ decisioncat_avt_elusivepath = {
 
 		visible = {
 			tag = AVT
-			#has_completed_focus = AVT_perfect_society
+			has_completed_focus = AVT_perfect_society
 		}
 		
 		modifier = {
@@ -1357,7 +1357,7 @@ decisioncat_avt_elusivepath = {
 
 		visible = {
 			tag = AVT
-			#has_completed_focus = AVT_perfect_society
+			has_completed_focus = AVT_perfect_society
 		}
 		
 		modifier = {
@@ -1399,7 +1399,7 @@ decisioncat_avt_elusivepath = {
 
 		visible = {
 			tag = AVT
-			#has_completed_focus = AVT_perfect_society
+			has_completed_focus = AVT_perfect_society
 		}
 		
 		modifier = {
@@ -1435,7 +1435,7 @@ decisioncat_avt_elusivepath = {
 
 		visible = {
 			tag = AVT
-			#has_completed_focus = AVT_perfect_society
+			has_completed_focus = AVT_perfect_society
 		}
 		
 		modifier = {
@@ -1471,7 +1471,7 @@ decisioncat_avt_elusivepath = {
 
 		visible = {
 			tag = AVT
-			#has_completed_focus = AVT_perfect_society
+			has_completed_focus = AVT_perfect_society
 		}
 		
 		modifier = {
@@ -1507,7 +1507,7 @@ decisioncat_avt_elusivepath = {
 
 		visible = {
 			tag = AVT
-			#has_completed_focus = AVT_perfect_society
+			has_completed_focus = AVT_perfect_society
 		}
 		
 		modifier = {
@@ -1549,7 +1549,7 @@ decisioncat_avt_elusivepath = {
 
 		visible = {
 			tag = AVT
-			#has_completed_focus = AVT_perfect_society
+			has_completed_focus = AVT_perfect_society
 		}
 		
 		modifier = {
@@ -1590,7 +1590,7 @@ decisioncat_avt_elusivepath = {
 
 		visible = {
 			tag = AVT
-			#has_completed_focus = AVT_perfect_society
+			has_completed_focus = AVT_perfect_society
 		}
 		
 		modifier = {
@@ -1630,7 +1630,7 @@ decisioncat_avt_elusivepath = {
 
 		visible = {
 			tag = AVT
-			#has_completed_focus = AVT_perfect_society
+			has_completed_focus = AVT_perfect_society
 			has_country_flag = avt_elusive_looking_for_husband_flag
 		}
 		
@@ -1690,7 +1690,7 @@ decisioncat_avt_elusivepath = {
 
 		visible = {
 			tag = AVT
-			#has_completed_focus = AVT_perfect_society
+			has_completed_focus = AVT_perfect_society
 			has_country_flag = avt_elusive_looking_for_husband_flag
 		}
 		
@@ -1750,7 +1750,7 @@ decisioncat_avt_elusivepath = {
 
 		visible = {
 			tag = AVT
-			#has_completed_focus = AVT_perfect_society
+			has_completed_focus = AVT_perfect_society
 			has_country_flag = avt_elusive_looking_for_husband_flag
 		}
 		
@@ -1779,5 +1779,201 @@ decisioncat_avt_elusivepath = {
 					add_idea = AVT_idea_loyalty_demidov_absolute
 				}
 			}
+		}
+	}
+}
+
+decisioncat_avt_elusivepalace = {
+
+	AVT_elusive_palace_decision_1 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_palace
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 120
+
+		#visible = {
+			tag = AVT
+			has_completed_focus = AVT_palace
+		#}
+		
+		modifier = {
+			stability_factor = 0.1
+		}
+		
+		remove_effect = {
+			add_stability = 0.1
+			set_country_flag = avt_elusive_palace_1_completed
+		}
+	}
+	
+	AVT_elusive_palace_decision_2 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_palace
+			has_country_flag = avt_elusive_palace_1_completed
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 120
+
+		#visible = {
+			tag = AVT
+			has_completed_focus = AVT_palace
+			has_country_flag = avt_elusive_palace_1_completed
+		#}
+		
+		modifier = {
+			stability_factor = 0.1
+		}
+		
+		remove_effect = {
+			add_stability = 0.1
+			set_country_flag = avt_elusive_palace_2_completed
+		}
+	}
+	
+	AVT_elusive_palace_decision_3 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_palace
+			has_country_flag = avt_elusive_palace_2_completed
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 120
+
+		#visible = {
+			tag = AVT
+			has_completed_focus = AVT_palace
+			has_country_flag = avt_elusive_palace_2_completed
+		#}
+		
+		modifier = {
+			stability_factor = 0.1
+		}
+		
+		remove_effect = {
+			add_stability = 0.1
+			set_country_flag = avt_elusive_palace_3_completed
+		}
+	}
+	
+	AVT_elusive_palace_decision_4 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_palace
+			has_country_flag = avt_elusive_palace_3_completed
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 120
+
+		#visible = {
+			tag = AVT
+			has_completed_focus = AVT_palace
+			has_country_flag = avt_elusive_palace_3_completed
+		#}
+		
+		modifier = {
+			stability_factor = 0.1
+		}
+		
+		remove_effect = {
+			add_stability = 0.1
+			set_country_flag = avt_elusive_palace_4_completed
+		}
+	}
+	
+	AVT_elusive_palace_decision_5 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_palace
+			has_country_flag = avt_elusive_palace_4_completed
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 120
+
+		#visible = {
+			tag = AVT
+			has_completed_focus = AVT_palace
+			has_country_flag = avt_elusive_palace_4_completed
+		#}
+		
+		modifier = {
+			stability_factor = 0.1
+		}
+		
+		remove_effect = {
+			add_stability = 0.1
+			set_country_flag = avt_elusive_palace_5_completed
 		}
 	}
