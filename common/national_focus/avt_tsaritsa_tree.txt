@@ -2839,12 +2839,22 @@ focus_tree = {
 		x = 3
 		y = 10
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_war_support = 0.1
+			add_field_marshal_role = {
+				character = AVT_tzaritsa
+				traits = {}
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
 		}
 	}
 	
@@ -2854,12 +2864,18 @@ focus_tree = {
 		x = 5
 		y = 10
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_ideas = AVT_splendor_idea
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry_industrialconstr
+			}
 		}
 	}
 	
@@ -2869,12 +2885,13 @@ focus_tree = {
 		x = 5
 		y = 11
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_avt_elusivepalace
 		}
 	}
 	
@@ -2884,12 +2901,67 @@ focus_tree = {
 		x = -5
 		y = 10
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			num_of_factories > 124
+			has_political_power > 299
+		}
+		
 		completion_reward = {
+			custom_effect_tooltip = gentext_civilised_industrial_advancement
+			add_research_slot = 1
+			add_political_power = -300
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = tli_infantry
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = category_support_battalions
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = artillery
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = category_air
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = naval_equipment
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = electronics
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = racial
+			}
+			hidden_effect = { set_technology = { tech_industrialized = 1 } }
+			hidden_effect = {
+				swap_ideas = {
+					add_idea = genidea_industrial_dev
+					remove_idea = genidea_civilised_dev
+				}
+			}
 		}
 	}
 	
@@ -2899,12 +2971,75 @@ focus_tree = {
 		x = -6
 		y = 11
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_stability = -0.1
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialtools
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialprod
+			}
+			347 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			421 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			429 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			396 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			463 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -2914,12 +3049,21 @@ focus_tree = {
 		x = -4
 		y = 11
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialeco
+			}
+			add_timed_idea = {
+				idea = AVT_investment_fund_flow
+				days = 360
+			}
 		}
 	}
 	
@@ -2930,12 +3074,17 @@ focus_tree = {
 		x = -5
 		y = 12
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			num_of_factories > 199
+		}
+		
 		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 	
@@ -2945,12 +3094,15 @@ focus_tree = {
 		x = -7
 		y = 12
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			every_state = {
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 	
@@ -2960,12 +3112,22 @@ focus_tree = {
 		x = -3
 		y = 12
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 3
+				category = naval_equipment
+			}
+			add_doctrine_cost_reduction =  {
+				cost_reduction = 0.75
+				uses = 1
+				category = naval_doctrine
+			}
 		}
 	}
 	
@@ -3097,12 +3259,18 @@ focus_tree = {
 		x = -9
 		y = 10
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_ideas = AVT_species_solidarity_idea
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = racial
+			}
 		}
 	}
 	
