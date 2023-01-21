@@ -2355,14 +2355,17 @@ focus_tree = {
 			OR = {
 				has_idea = AVT_idea_loyalty_aminoff_high
 				has_idea = AVT_idea_loyalty_aminoff_veryhigh
+				has_idea = AVT_idea_loyalty_aminoff_absolute
 			}
 			OR = {
 				has_idea = AVT_idea_loyalty_hierta_high
 				has_idea = AVT_idea_loyalty_hierta_veryhigh
+				has_idea = AVT_idea_loyalty_aminoff_absolute
 			}
 			OR = {
 				has_idea = AVT_idea_loyalty_demidov_high
 				has_idea = AVT_idea_loyalty_demidov_veryhigh
+				has_idea = AVT_idea_loyalty_aminoff_absolute
 			}
 		}
 			
@@ -3137,12 +3140,19 @@ focus_tree = {
 		x = -7
 		y = 4
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_war_support = 0.05
+			declare_war_on = {
+				type = annex_everything
+				target = SCO
+			}
+			add_state_claim = 383
+			add_state_claim = 140
 		}
 	}
 	
@@ -3152,12 +3162,36 @@ focus_tree = {
 		x = -7
 		y = 5
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_resource = {
+				type = rare_metals
+				amount = 25
+				state = 140
+			}
+			add_resource = {
+				type = iron
+				amount = 25
+				state = 140
+			}
+			add_resource = {
+				type = crystals
+				amount = 30
+				state = 383
+			}
+			add_resource = {
+				type = rare_metals
+				amount = 10
+				state = 383
+			}
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.05
+			}
 		}
 	}
 	
@@ -3167,12 +3201,47 @@ focus_tree = {
 		x = -7
 		y = 6
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			add_resource = {
+				type = rare_metals
+				amount = 20
+				state = 349
+			}
+			add_resource = {
+				type = rare_metals
+				amount = 10
+				state = 394
+			}
+			add_resource = {
+				type = iron
+				amount = 12
+				state = 452
+			}
+			add_resource = {
+				type = iron
+				amount = 5
+				state = 442
+			}
+			add_resource = {
+				type = coal
+				amount = 10
+				state = 442
+			}
+			add_resource = {
+				type = crystals
+				amount = 10
+				state = 414
+			}
+			add_resource = {
+				type = crystals
+				amount = 10
+				state = 399
+			}
 		}
 	}
 	
@@ -3182,12 +3251,13 @@ focus_tree = {
 		x = -11
 		y = 4
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_avt_penalcolony
 		}
 	}
 	
@@ -3197,12 +3267,46 @@ focus_tree = {
 		x = -11
 		y = 5
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			owns_state = 258
+		}
+		
 		completion_reward = {
+			custom_effect_tooltip = AVTtt_peasant_unrest_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_med_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_med_public_discontent
+						add_idea = AVT_idea_low_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_high_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_high_public_discontent
+						add_idea = AVT_idea_med_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_veryhigh_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_veryhigh_public_discontent
+						add_idea = AVT_idea_high_public_discontent
+					}
+				}
+			}
 		}
 	}
 	
@@ -3213,12 +3317,18 @@ focus_tree = {
 		x = -12
 		y = 6
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			owns_state = 258
+		}
+		
 		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+			add_offsite_building = { type = arms_factory level = 2 }
 		}
 	}
 	
@@ -3229,12 +3339,47 @@ focus_tree = {
 		x = -10
 		y = 6
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			owns_state = 258
+		}
+		
 		completion_reward = {
+			add_political_power = 50
+			custom_effect_tooltip = AVTtt_peasant_unrest_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_med_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_med_public_discontent
+						add_idea = AVT_idea_low_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_high_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_high_public_discontent
+						add_idea = AVT_idea_med_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_veryhigh_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_veryhigh_public_discontent
+						add_idea = AVT_idea_high_public_discontent
+					}
+				}
+			}
 		}
 	}
 	
@@ -3244,12 +3389,20 @@ focus_tree = {
 		x = -11
 		y = 7
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			owns_state = 258
+		}
+		
 		completion_reward = {
+			258 = {
+				add_compliance = 10
+				add_resistance = -15
+			}
 		}
 	}
 	
@@ -3281,12 +3434,220 @@ focus_tree = {
 		x = -9
 		y = 11
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			owns_state = 258
+			258 = {
+				compliance > 69
+				resistance < 49
+			}
+		}
+		
 		completion_reward = {
+			custom_effect_tooltip = AVTtt_penal_colony_independence
+			hidden_effect = {
+				AVC = {
+					set_capital = { state = 258 }
+					inherit_technology = AVT
+				}
+				AVT = { add_to_faction = AVC }
+				AVT = {
+					IF = {
+						limit = { has_dlc = "Together for Victory" }
+							set_autonomy = {
+								target = AVC
+								autonomy_state = autonomy_colony
+								freedom_level = 0.2
+								end_wars = no
+								end_civil_wars = no
+							}
+						}
+					ELSE = {
+						puppet = AVC
+					}
+				}
+				
+				255 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 255
+							add_state_core = 255
+						}
+					}
+				}
+				256 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 256
+							add_state_core = 256
+						}
+					}
+				}
+				285 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 285
+							add_state_core = 285
+						}
+					}
+				}
+				284 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 284
+							add_state_core = 284
+						}
+					}
+				}
+				258 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 258
+							add_state_core = 258
+						}
+					}
+				}
+				260 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 260
+							add_state_core = 260
+						}
+					}
+				}
+				314 = { #TOK
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 314
+							add_state_core = 314
+						}
+					}
+				}
+				259 = { #TOK
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 259
+							add_state_core = 259
+						}
+					}
+				}
+				261 = { #TOK
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 261
+							add_state_core = 261
+						}
+					}
+				}
+				254 = { #SII
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 254
+							add_state_core = 254
+						}
+					}
+				}
+				257 = { #SII
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 257
+							add_state_core = 257
+						}
+					}
+				}
+				316 = { #SII
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 316
+							add_state_core = 316
+						}
+					}
+				}
+				253 = { #SII
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 253
+							add_state_core = 253
+						}
+					}
+				}
+				315 = { #OSH
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 315
+							add_state_core = 315
+						}
+					}
+				}
+				317 = { #OSH
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 317
+							add_state_core = 317
+						}
+					}
+				}
+				322 = { #OSH
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						AVC = {
+							transfer_state = 322
+							add_state_core = 322
+						}
+					}
+				}
+			}
 		}
 	}
 	
@@ -3298,11 +3659,151 @@ focus_tree = {
 		x = -11
 		y = 11
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			owns_state = 258
+			258 = {
+				compliance > 69
+				resistance < 49
+			}
+		}
+		
 		completion_reward = {
+			custom_effect_tooltip = AVTtt_penal_colony_cores
+			
+			hidden_effect = {
+				255 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				256 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				285 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				284 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				258 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				260 = { #VAL
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				314 = { #TOK
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				259 = { #TOK
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				261 = { #TOK
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				254 = { #SII
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				257 = { #SII
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				316 = { #SII
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				253 = { #SII
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				315 = { #OSH
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				317 = { #OSH
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+				322 = { #OSH
+					IF = {
+						limit = {
+							is_owned_by = AVT
+						}
+						add_core_of = AVT
+					}
+				}
+			}
 		}
 	}
