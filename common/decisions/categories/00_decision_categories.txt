@@ -78,6 +78,18 @@ decisioncat_avt_elusivepalace = {
 	#}
 }
 
+decisioncat_avt_penalcolony = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = AVT
+	}
+
+	#visible = {
+		#has_completed_focus = AVT_dealing_with_dissent
+	#}
+}
+
 decisioncat_kae_starting_cilarine_trade = {
 	icon = generic_political_actions
 	
