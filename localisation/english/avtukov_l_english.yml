@@ -361,6 +361,8 @@
  AVT_machine_gun_development:0 "Machine Gun Development"
 
 ###IDEA LOCALISATION###
+ AVT_navy_temp_range_increase:0 "Crossing the Pond"
+ 
  AVT_idea_noble_discontent:0 "Discontent in High Places"
  AVT_idea_Patriotism:0 "Triumphant Patriotism"
  AVT_idea_Patriotism_tzar_1:0 "Triumphant Patriotism"
@@ -496,6 +498,14 @@
  AVT_elusive_palace_decision_3:0 "Phase 3 - The Foundations"
  AVT_elusive_palace_decision_4:0 "Phase 4 - The Structure"
  AVT_elusive_palace_decision_5:0 "Phase 5 - The Interior"
+ 
+ decisioncat_avt_penalcolony:0 "Penal Colony Project"
+ decisioncat_avt_penalcolony_desc:0 "§RBe careful! Each decision can only be used once!§!"
+ AVT_elusive_penal_colony_invasion:0 "Secure Overseas Territory"
+ AVT_elusive_colony_exile_peasants:0 "Exile Dissenting Peasants"
+ AVT_elusive_colony_exile_laborers:0 "Exile Dissenting Laborers"
+ AVT_elusive_colony_exile_scholars:0 "Exile Dissenting Scholars"
+ AVT_elusive_colony_exile_soldiers:0 "Exile Dissenting Soldiers"
 
 ###EVENT LOCALISATION - EARLYGAME###
  avt_event.0.t:0 "Winds of Change"
@@ -770,6 +780,8 @@
 ###TOOLTIP LOCALISATION - ELUSIVE###
  AVTtt_all_of_gallund:0 "§YGains claims to all Gallundian starting provinces§!"
  AVTtt_pissed_deets:0 "§YOur new forcibly acquired subjects will not be pleased§!"
+ AVTtt_penal_colony_cores:0 "§YGrants core on any owned state in North-Eastern Traunulu!§!"
+ AVTtt_penal_colony_independence:0 "§YGrand Principality of Northern Traunulu will be formed out of all owned states in North-Eastern Traunulu!§!"
  
  AVTtt_peasant_unrest_increase:0 "§RPeasant Unrest Increase!§!"
  AVTtt_peasant_unrest_decrease:0 "§GPeasant Unrest Decrease!§!"
