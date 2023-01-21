@@ -1977,3 +1977,193 @@ decisioncat_avt_elusivepalace = {
 			set_country_flag = avt_elusive_palace_5_completed
 		}
 	}
+}
+
+decisioncat_avt_penalcolony = {
+
+	AVT_elusive_penal_colony_invasion = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			#has_completed_focus = AVT_dealing_with_dissent
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		#visible = {
+			tag = AVT
+			has_completed_focus = AVT_dealing_with_dissent
+		#}
+		
+		complete_effect = {
+			add_ideas = AVT_navy_temp_range_increase
+			create_wargoal = {
+				type = take_state_focus
+				target = 258.owner
+				generator = { 258 }
+			}
+		}
+	}
+	
+	AVT_elusive_colony_exile_peasants = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_first_wave
+			has_equipment = {
+				convoy > 49
+			}
+			has_equipment = {
+				rifle_equipment > 999
+			}
+			owns_state = 258
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		#visible = {
+			tag = AVT
+			has_completed_focus = AVT_dealing_with_dissent
+		#}
+		
+		remove_effect = {
+		}
+	}
+	
+	AVT_elusive_colony_exile_laborers = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_first_wave
+			has_equipment = {
+				convoy > 49
+			}
+			has_equipment = {
+				rifle_equipment > 999
+			}
+			owns_state = 258
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		#visible = {
+			tag = AVT
+			has_completed_focus = AVT_dealing_with_dissent
+		#}
+		
+		remove_effect = {
+		}
+	}
+	
+	AVT_elusive_colony_exile_scholars = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_first_wave
+			has_equipment = {
+				convoy > 49
+			}
+			has_equipment = {
+				rifle_equipment > 999
+			}
+			owns_state = 258
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		#visible = {
+			tag = AVT
+			has_completed_focus = AVT_dealing_with_dissent
+		#}
+		
+		remove_effect = {
+		}
+	}
+	
+	AVT_elusive_colony_exile_soldiers = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_first_wave
+			has_equipment = {
+				convoy > 49
+			}
+			has_equipment = {
+				rifle_equipment > 999
+			}
+			owns_state = 258
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		#visible = {
+			tag = AVT
+			has_completed_focus = AVT_dealing_with_dissent
+		#}
+		
+		remove_effect = {
+		}
+	}
