@@ -3,7 +3,19 @@ ideas = {
 	country = {
 
 ###STARTING###
-
+		
+		AVT_navy_temp_range_increase = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				NOT = { AVT = owns_state = 258 }
+			}
+				
+			modifier = {
+				navy_max_range_factor = 0.5
+			}
+		}
+		
 		AVT_idea_noble_discontent = {
 			picture = great_depression
 			removal_cost = -1
@@ -928,6 +940,19 @@ ideas = {
 			modifier = {
 				non_core_manpower = 0.05
 				required_garrison_factor = -0.2
+			}
+		}
+		
+		AVT_penal_labor = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				industrial_factory_donations = 2
+				military_factory_donations = 2
 			}
 		}
 		
