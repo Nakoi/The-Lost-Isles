@@ -2781,12 +2781,95 @@ focus_tree = {
 		x = 0
 		y = 10
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			has_war = no
+			owns_state = 453
+			owns_state = 452
+			owns_state = 420
+			owns_state = 451
+			OR = {
+				ESU = {
+					owns_state = 125
+					owns_state = 466
+					owns_state = 457
+					owns_state = 468
+					has_war = no
+				}
+				KAE = {
+					owns_state = 125
+					owns_state = 466
+					owns_state = 457
+					owns_state = 468
+					has_war = no
+				}
+				SUA = {
+					owns_state = 125
+					owns_state = 466
+					owns_state = 457
+					owns_state = 468
+					has_war = no
+				}
+			}
+		}
+		
+		bypass = {
+			NOT = {
+				country_exists = ESU
+				country_exists = KAE
+				country_exists = SUA
+				country_exists = SEN
+				country_exists = AIN
+				country_exists = WAO
+				country_exists = FRE
+				country_exists = ASH
+				country_exists = ONK
+				country_exists = RIN
+				country_exists = UNU
+				country_exists = HRI
+				country_exists = AZE
+				country_exists = WEI
+			}
+		}
+		
 		completion_reward = {
+			ESU = {
+				IF = {
+					limit = {
+						owns_state = 125
+						owns_state = 466
+						owns_state = 457
+						owns_state = 468
+					}
+					country_event = { id = avt_elusiveevent.24 days = 4 }
+				}
+			}
+			KAE = {
+				IF = {
+					limit = {
+						owns_state = 125
+						owns_state = 466
+						owns_state = 457
+						owns_state = 468
+					}
+					country_event = { id = avt_elusiveevent.24 days = 4 }
+				}
+			}
+			SUA = {
+				IF = {
+					limit = {
+						owns_state = 125
+						owns_state = 466
+						owns_state = 457
+						owns_state = 468
+					}
+					country_event = { id = avt_elusiveevent.24 days = 4 }
+				}
+			}
 		}
 	}
 	
@@ -2796,12 +2879,100 @@ focus_tree = {
 		x = -1
 		y = 11
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
+		available = {
+			OR = {
+				LUA = {
+					owns_state = 325
+					NOT = { has_war_with = AVT }
+				}
+				VED = {
+					owns_state = 325
+					NOT = { has_war_with = AVT }
+				}
+				CIL = {
+					owns_state = 325
+					NOT = { has_war_with = AVT }
+				}
+				BOR = {
+					owns_state = 325
+					NOT = { has_war_with = AVT }
+				}
+				CRU = {
+					owns_state = 325
+					NOT = { has_war_with = AVT }
+				}
+				SUN = {
+					owns_state = 325
+					NOT = { has_war_with = AVT }
+				}
+			}
+		}
+		
+		bypass = {
+			NOT = {
+				country_exists = LUA
+				country_exists = VED
+				country_exists = CIL
+				country_exists = BOR
+				country_exists = CRU
+				country_exists = SUN
+			}
+		}
+		
 		completion_reward = {
+			LUA = {
+				IF = {
+					limit = {
+						owns_state = 325
+					}
+					country_event = { id = avt_elusiveevent.25 days = 4 }
+				}
+			}
+			VED = {
+				IF = {
+					limit = {
+						owns_state = 325
+					}
+					country_event = { id = avt_elusiveevent.25 days = 4 }
+				}
+			}
+			CIL = {
+				IF = {
+					limit = {
+						owns_state = 325
+					}
+					country_event = { id = avt_elusiveevent.25 days = 4 }
+				}
+			}
+			BOR = {
+				IF = {
+					limit = {
+						owns_state = 325
+					}
+					country_event = { id = avt_elusiveevent.25 days = 4 }
+				}
+			}
+			CRU = {
+				IF = {
+					limit = {
+						owns_state = 325
+					}
+					country_event = { id = avt_elusiveevent.25 days = 4 }
+				}
+			}
+			SUN = {
+				IF = {
+					limit = {
+						owns_state = 325
+					}
+					country_event = { id = avt_elusiveevent.25 days = 4 }
+				}
+			}
 		}
 	}
 	
@@ -2811,12 +2982,26 @@ focus_tree = {
 		x = 1
 		y = 11
 		relative_position_id = AVT_the_tsarina
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
+		bypass = {
+			OR = {
+				NOT = {
+					country_exists = TYK
+				}
+				TYK = {
+					has_war_with = AVT
+					is_in_faction_with = AVT
+					is_puppet = YES
+				}
+			}
+		}
+		
 		completion_reward = {
+			TYK = {	country_event = { id = avt_elusiveevent.26 days = 4 } }
 		}
 	}
 	
@@ -2833,6 +3018,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			country_event = { id = avt_elusiveevent.27 days = 4 }
 		}
 	}
 	
