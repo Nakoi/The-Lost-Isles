@@ -73,9 +73,9 @@ decisioncat_avt_elusivepalace = {
 		original_tag = AVT
 	}
 
-	#visible = {
-		#has_completed_focus = AVT_palace
-	#}
+	visible = {
+		has_completed_focus = AVT_palace
+	}
 }
 
 decisioncat_avt_penalcolony = {
@@ -85,9 +85,9 @@ decisioncat_avt_penalcolony = {
 		original_tag = AVT
 	}
 
-	#visible = {
-		#has_completed_focus = AVT_dealing_with_dissent
-	#}
+	visible = {
+		has_completed_focus = AVT_dealing_with_dissent
+	}
 }
 
 decisioncat_kae_starting_cilarine_trade = {
