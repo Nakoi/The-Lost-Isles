@@ -1805,20 +1805,19 @@ decisioncat_avt_elusivepalace = {
 			base = 100
 		}
 
-		days_remove = 120
+		days_remove = 60
 
-		#visible = {
+		visible = {
 			tag = AVT
 			has_completed_focus = AVT_palace
-		#}
+		}
 		
 		modifier = {
-			stability_factor = 0.1
 		}
 		
 		remove_effect = {
-			add_stability = 0.1
-			set_country_flag = avt_elusive_palace_1_completed
+			country_event = { id = avt_elusiveevent.23 }
+			set_country_flag = avt_elusive_palace_1_completed_flag
 		}
 	}
 	
@@ -1832,7 +1831,7 @@ decisioncat_avt_elusivepalace = {
 
 		available = {
 			has_completed_focus = AVT_palace
-			has_country_flag = avt_elusive_palace_1_completed
+			has_country_flag = avt_elusive_palace_1_completed_flag
 		}
 
 		cost = 100
@@ -1843,21 +1842,25 @@ decisioncat_avt_elusivepalace = {
 			base = 100
 		}
 
-		days_remove = 120
+		days_remove = 90
 
-		#visible = {
+		visible = {
 			tag = AVT
 			has_completed_focus = AVT_palace
-			has_country_flag = avt_elusive_palace_1_completed
-		#}
+			has_country_flag = avt_elusive_palace_1_completed_flag
+		}
 		
 		modifier = {
-			stability_factor = 0.1
+			consumer_goods_factor = 0.05
+			country_resource_cost_iron = 100
+			country_resource_cost_crystals = 100
+			country_resource_cost_rare_metals = 100
+			
 		}
 		
 		remove_effect = {
-			add_stability = 0.1
-			set_country_flag = avt_elusive_palace_2_completed
+			add_political_power = 25
+			set_country_flag = avt_elusive_palace_2_completed_flag
 		}
 	}
 	
@@ -1871,7 +1874,8 @@ decisioncat_avt_elusivepalace = {
 
 		available = {
 			has_completed_focus = AVT_palace
-			has_country_flag = avt_elusive_palace_2_completed
+			has_country_flag = avt_elusive_palace_2_completed_flag
+			num_of_available_civilian_factories > 9
 		}
 
 		cost = 100
@@ -1884,19 +1888,19 @@ decisioncat_avt_elusivepalace = {
 
 		days_remove = 120
 
-		#visible = {
+		visible = {
 			tag = AVT
 			has_completed_focus = AVT_palace
-			has_country_flag = avt_elusive_palace_2_completed
-		#}
+			has_country_flag = avt_elusive_palace_2_completed_flag
+		}
 		
 		modifier = {
-			stability_factor = 0.1
+			civilian_factory_use = 10
 		}
 		
 		remove_effect = {
-			add_stability = 0.1
-			set_country_flag = avt_elusive_palace_3_completed
+			add_political_power = 25
+			set_country_flag = avt_elusive_palace_3_completed_flag
 		}
 	}
 	
@@ -1910,7 +1914,8 @@ decisioncat_avt_elusivepalace = {
 
 		available = {
 			has_completed_focus = AVT_palace
-			has_country_flag = avt_elusive_palace_3_completed
+			has_country_flag = avt_elusive_palace_3_completed_flag
+			num_of_available_civilian_factories > 19
 		}
 
 		cost = 100
@@ -1923,19 +1928,19 @@ decisioncat_avt_elusivepalace = {
 
 		days_remove = 120
 
-		#visible = {
+		visible = {
 			tag = AVT
 			has_completed_focus = AVT_palace
-			has_country_flag = avt_elusive_palace_3_completed
-		#}
+			has_country_flag = avt_elusive_palace_3_completed_flag
+		}
 		
 		modifier = {
-			stability_factor = 0.1
+			civilian_factory_use = 20
 		}
 		
 		remove_effect = {
-			add_stability = 0.1
-			set_country_flag = avt_elusive_palace_4_completed
+			add_political_power = 25
+			set_country_flag = avt_elusive_palace_4_completed_flag
 		}
 	}
 	
@@ -1949,7 +1954,7 @@ decisioncat_avt_elusivepalace = {
 
 		available = {
 			has_completed_focus = AVT_palace
-			has_country_flag = avt_elusive_palace_4_completed
+			has_country_flag = avt_elusive_palace_4_completed_flag
 		}
 
 		cost = 100
@@ -1962,19 +1967,36 @@ decisioncat_avt_elusivepalace = {
 
 		days_remove = 120
 
-		#visible = {
+		visible = {
 			tag = AVT
 			has_completed_focus = AVT_palace
-			has_country_flag = avt_elusive_palace_4_completed
-		#}
+			has_country_flag = avt_elusive_palace_4_completed_flag
+		}
 		
 		modifier = {
-			stability_factor = 0.1
+			consumer_goods_factor = 0.2
 		}
 		
 		remove_effect = {
-			add_stability = 0.1
-			set_country_flag = avt_elusive_palace_5_completed
+			IF = {
+				limit = {
+					has_country_flag = avt_elusive_palace_magical_flag
+				}
+				add_ideas = AVT_magical_castle
+			}
+			IF = {
+				limit = {
+					has_country_flag = avt_elusive_palace_griffon_flag
+				}
+				add_ideas = AVT_griffon_castle
+			}
+			IF = {
+				limit = {
+					has_country_flag = avt_elusive_palace_4_completed_flag
+				}
+				add_ideas = AVT_equestrian_castle
+			}
+			set_country_flag = avt_elusive_palace_equestrian_flag
 		}
 	}
 }
@@ -2001,10 +2023,10 @@ decisioncat_avt_penalcolony = {
 			base = 100
 		}
 
-		#visible = {
+		visible = {
 			tag = AVT
 			has_completed_focus = AVT_dealing_with_dissent
-		#}
+		}
 		
 		complete_effect = {
 			add_ideas = AVT_navy_temp_range_increase
@@ -2033,6 +2055,11 @@ decisioncat_avt_penalcolony = {
 				rifle_equipment > 999
 			}
 			owns_state = 258
+			OR = {
+				has_idea = AVT_idea_med_public_discontent
+				has_idea = AVT_idea_high_public_discontent
+				has_idea = AVT_idea_veryhigh_public_discontent
+			}
 		}
 
 		cost = 100
@@ -2045,12 +2072,51 @@ decisioncat_avt_penalcolony = {
 
 		days_remove = 30
 
-		#visible = {
+		visible = {
 			tag = AVT
 			has_completed_focus = AVT_dealing_with_dissent
-		#}
+		}
 		
 		remove_effect = {
+			custom_effect_tooltip = AVTtt_peasant_unrest_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_med_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_med_public_discontent
+						add_idea = AVT_idea_low_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_high_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_high_public_discontent
+						add_idea = AVT_idea_med_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_veryhigh_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_veryhigh_public_discontent
+						add_idea = AVT_idea_high_public_discontent
+					}
+				}
+			}
+			add_manpower = -25000
+			258 = {
+				add_manpower = 25000
+				add_resistance = 20
+			}
+			add_timed_idea = {
+				idea = AVT_less_food_retard
+				days = 360
+			}
 		}
 	}
 	
@@ -2071,6 +2137,11 @@ decisioncat_avt_penalcolony = {
 				rifle_equipment > 999
 			}
 			owns_state = 258
+			OR = {
+				has_idea = AVT_idea_med_public_discontent
+				has_idea = AVT_idea_high_public_discontent
+				has_idea = AVT_idea_veryhigh_public_discontent
+			}
 		}
 
 		cost = 100
@@ -2083,12 +2154,51 @@ decisioncat_avt_penalcolony = {
 
 		days_remove = 30
 
-		#visible = {
+		visible = {
 			tag = AVT
 			has_completed_focus = AVT_dealing_with_dissent
-		#}
+		}
 		
 		remove_effect = {
+			custom_effect_tooltip = AVTtt_peasant_unrest_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_med_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_med_public_discontent
+						add_idea = AVT_idea_low_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_high_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_high_public_discontent
+						add_idea = AVT_idea_med_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_veryhigh_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_veryhigh_public_discontent
+						add_idea = AVT_idea_high_public_discontent
+					}
+				}
+			}
+			add_manpower = -25000
+			258 = {
+				add_manpower = 25000
+				add_resistance = 20
+			}
+			add_timed_idea = {
+				idea = AVT_less_industry_retard
+				days = 360
+			}
 		}
 	}
 	
@@ -2109,6 +2219,11 @@ decisioncat_avt_penalcolony = {
 				rifle_equipment > 999
 			}
 			owns_state = 258
+			OR = {
+				has_idea = AVT_idea_med_public_discontent
+				has_idea = AVT_idea_high_public_discontent
+				has_idea = AVT_idea_veryhigh_public_discontent
+			}
 		}
 
 		cost = 100
@@ -2121,12 +2236,51 @@ decisioncat_avt_penalcolony = {
 
 		days_remove = 30
 
-		#visible = {
+		visible = {
 			tag = AVT
 			has_completed_focus = AVT_dealing_with_dissent
-		#}
+		}
 		
 		remove_effect = {
+			custom_effect_tooltip = AVTtt_peasant_unrest_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_med_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_med_public_discontent
+						add_idea = AVT_idea_low_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_high_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_high_public_discontent
+						add_idea = AVT_idea_med_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_veryhigh_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_veryhigh_public_discontent
+						add_idea = AVT_idea_high_public_discontent
+					}
+				}
+			}
+			add_manpower = -25000
+			258 = {
+				add_manpower = 25000
+				add_resistance = 20
+			}
+			add_timed_idea = {
+				idea = AVT_less_smart_people_retard
+				days = 360
+			}
 		}
 	}
 	
@@ -2147,6 +2301,11 @@ decisioncat_avt_penalcolony = {
 				rifle_equipment > 999
 			}
 			owns_state = 258
+			OR = {
+				has_idea = AVT_idea_med_public_discontent
+				has_idea = AVT_idea_high_public_discontent
+				has_idea = AVT_idea_veryhigh_public_discontent
+			}
 		}
 
 		cost = 100
@@ -2159,11 +2318,50 @@ decisioncat_avt_penalcolony = {
 
 		days_remove = 30
 
-		#visible = {
+		visible = {
 			tag = AVT
 			has_completed_focus = AVT_dealing_with_dissent
-		#}
+		}
 		
 		remove_effect = {
+			custom_effect_tooltip = AVTtt_peasant_unrest_decrease
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = AVT_idea_med_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_med_public_discontent
+						add_idea = AVT_idea_low_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_high_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_high_public_discontent
+						add_idea = AVT_idea_med_public_discontent
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = AVT_idea_veryhigh_public_discontent
+					}
+					swap_ideas = {
+						remove_idea = AVT_idea_veryhigh_public_discontent
+						add_idea = AVT_idea_high_public_discontent
+					}
+				}
+			}
+			add_manpower = -25000
+			258 = {
+				add_manpower = 25000
+				add_resistance = 20
+			}
+			add_timed_idea = {
+				idea = AVT_less_soldiers_retard
+				days = 360
+			}
 		}
 	}
