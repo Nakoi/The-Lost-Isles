@@ -943,7 +943,7 @@ ideas = {
 			}
 		}
 		
-		AVT_penal_labor = {
+		AVT_magical_castle = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -951,10 +951,89 @@ ideas = {
 			}
 				
 			modifier = {
-				industrial_factory_donations = 2
-				military_factory_donations = 2
+				political_power_gain = 0.1
+				research_speed_factor = 0.1
+				crypto_strength = 3
 			}
 		}
+		
+		AVT_griffon_castle = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_gain = 0.1
+				conscription_factor = 0.1
+				army_attack_factor = 0.05
+			}
+		}
+		
+		AVT_equestrian_castle = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_gain = 0.3
+				local_resources_factor = 0.1
+			}
+		}
+		
+		AVT_less_food_retard = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				fuel_gain_factor = -0.5
+			}
+		}
+		
+		AVT_less_industry_retard = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				industrial_capacity_factory = -0.25
+				industrial_capacity_factory = -0.25
+			}
+		}
+		
+		AVT_less_smart_people_retard = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				research_speed_factor = -0.2
+			}
+		}
+		
+		AVT_less_soldiers_retard = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				army_org_factor = -0.2
+				max_planning_factor = -0.25
+			}
+		}
+		
 		
 ###ARMY TREE SHIT###
 
