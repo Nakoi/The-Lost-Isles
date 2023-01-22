@@ -32,19 +32,19 @@
 
  AVC_ADJ:0 "Traunulu-Avtukovian"
  
- GAA_ideology_militarism:0 "Principality of Gallund"
- GAA_ideology_imperialism:0 "Principality of Gallund"
- GAA_ideology_visionarism:0 "Principality of Gallund"
- GAA_ideology_solidarism:0 "Principality of Gallund"
- GAA_ideology_continuism:0 "Principality of Gallund"
- GAA_ideology_isolationism:0 "Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_militarism:0 "Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_imperialism:0 "Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_visionarism:0 "Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_solidarism:0 "Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_continuism:0 "Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_isolationism:0 "Principality of Gallund"
  
- GAA_ideology_militarism_DEF:0 "The Principality of Gallund"
- GAA_ideology_imperialism_DEF:0 "The Principality of Gallund"
- GAA_ideology_visionarism_DEF:0 "The Principality of Gallund"
- GAA_ideology_solidarism_DEF:0 "The Principality of Gallund"
- GAA_ideology_continuism_DEF:0 "The Principality of Gallund"
- GAA_ideology_isolationism_DEF:0 "The Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_militarism_DEF:0 "The Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_imperialism_DEF:0 "The Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_visionarism_DEF:0 "The Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_solidarism_DEF:0 "The Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_continuism_DEF:0 "The Principality of Gallund"
+ GAL_elusive_puppet_costag_ideology_isolationism_DEF:0 "The Principality of Gallund"
  
  AVT_faction_panpony:0 "All-Pony League"
 
@@ -437,6 +437,13 @@
  AVT_splendor_idea:0 "Fanciest Uniforms, Shiniest Medals!"
  AVT_investment_fund_flow:0 "Investment Funds Flow"
  AVT_species_solidarity_idea:0 "Species Solidarity"
+ AVT_magical_castle:0 "Fantastical Castle"
+ AVT_griffon_castle:0 "Imposing Fortress"
+ AVT_equestrian_castle:0 "Traditional Palace"
+ AVT_less_food_retard:0 "Decreased Agricultural Production"
+ AVT_less_industry_retard:0 "Decreased Industrial Production"
+ AVT_less_smart_people_retard:0 "Braindrain"
+ AVT_less_soldiers_retard:0 "Chaos in the Army"
  
  AVT_national_pony_army_idea_01:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
@@ -751,6 +758,12 @@
  avt_elusiveevent.22.b:0 "The Aminoffs will put it to good use"
  avt_elusiveevent.22.c:0 "Share it between the minor nobility"
  
+ avt_elusiveevent.23.t:0 "An Ambitious Plan"
+ avt_elusiveevent.23.d:0 "Synopsis: Elusive meets with a group of architects she summoned and discusses her ideas of creating a massive new castle for herself and her court near Tsarigrad. Then she has to choose from a few different designs"
+ avt_elusiveevent.23.a:0 "A fantastical, magical design"
+ avt_elusiveevent.23.b:0 "An imposing, Griffon-style design"
+ avt_elusiveevent.23.c:0 "A traditional, Equestrian design"
+ 
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
  
@@ -799,7 +812,7 @@
  
  avt_peasant_uprising_flag:0 "peasant uprising flag"
  avt_elusive_looking_for_husband_flag:0 "Looking for a Husband"
- avt_elusive_palace_1_completed:0 "Palace Planning Complete"
- avt_elusive_palace_2_completed:0 "Material Acquisition Complete"
- avt_elusive_palace_3_completed:0 "Palace Foundations Complete"
- avt_elusive_palace_4_completed:0 "Palace Interior Complete"
+ avt_elusive_palace_1_completed_flag:0 "Palace Planning Complete"
+ avt_elusive_palace_2_completed_flag:0 "Material Acquisition Complete"
+ avt_elusive_palace_3_completed_flag:0 "Palace Foundations Complete"
+ avt_elusive_palace_4_completed_flag:0 "Palace Interior Complete"
