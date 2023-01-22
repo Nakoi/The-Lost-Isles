@@ -1053,17 +1053,17 @@ country_event = {
 	
 	option = {
 		name = avt_elusiveevent.2.a
-		GAL = { set_cosmetic_tag = GAA }
+		GAL = { set_cosmetic_tag = GAL_elusive_puppet_costag }
 		add_stability = -0.15
 	}
 	option = {
 		name = avt_elusiveevent.2.b
-		GAL = { set_cosmetic_tag = GAA }
+		GAL = { set_cosmetic_tag = GAL_elusive_puppet_costag }
 		add_stability = -0.15
 	}
 	option = {
 		name = avt_elusiveevent.2.c
-		GAL = { set_cosmetic_tag = GAA }
+		GAL = { set_cosmetic_tag = GAL_elusive_puppet_costag }
 		add_stability = -0.15
 	}
 }
@@ -2502,5 +2502,28 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+
+country_event = {
+	id = avt_elusiveevent.23
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_elusiveevent.23"}
+	title = avt_elusiveevent.23.t
+	desc = avt_elusiveevent.23.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_elusiveevent.23.a
+		set_country_flag = avt_elusive_palace_magical_flag
+	}
+	option = {
+		name = avt_elusiveevent.23.b
+		set_country_flag = avt_elusive_palace_griffon_flag
+	}
+	option = {
+		name = avt_elusiveevent.23.c
+		set_country_flag = avt_elusive_palace_equestrian_flag
 	}
 }
