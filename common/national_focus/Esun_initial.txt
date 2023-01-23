@@ -12,7 +12,7 @@ focus_tree = {
 
     default = no
 
-    continuous_focus_position = { x = 50 y = 3000 }
+    continuous_focus_position = { x = 1400 y = 1200 }
 
 	focus = {
 		id = ESU_Upcoming_elections
@@ -1794,11 +1794,13 @@ focus_tree = {
 		}
 	}
 	
+####SANE LATE GAME
+
 	focus = {
 		id = ESU_a_new_dawn
 		icon = ESU_GFX_New_Dawn
-		x = 8
-		y = 8
+		x = -2
+		y = 11
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -1812,38 +1814,14 @@ focus_tree = {
 			country_event = { id = esu_sanelate.3 }
 		}
 	}
-
-#EXPANSION
-	focus = {
-		id = ESU_all_for_the_nation
-		icon = ESU_GFX_All_For_The_Nation
-		prerequisite = { focus = ESU_a_new_dawn }
-		mutually_exclusive = { focus = ESU_an_old_enemy }
-		x = -4
-		y = 1
-		relative_position_id = ESU_a_new_dawn
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_country_flag = esu_hwholesome_1000
-		}
-		
-		completion_reward = {
-			#autocomplete
-		}
-	}
-
+	
 	focus = {
 		id = ESU_noble_workforce
 		icon = ESU_GFX_Noble_Force
-		prerequisite = { focus = ESU_all_for_the_nation }
-		x = -2
-		y = 1
-
-		relative_position_id = ESU_all_for_the_nation
+		prerequisite = { focus = ESU_a_new_dawn }
+		x = -5
+		y = 2
+		relative_position_id = ESU_a_new_dawn
 		cost = 3
 		ai_will_do = {
 			factor = 5
@@ -1856,134 +1834,14 @@ focus_tree = {
 			country_event = { id = esu_sanelate.4 }
 		}
 	}
-
-	focus = {
-		id = ESU_lead_by_example
-		icon = ESU_GFX_Lead_By_example
-		prerequisite = { focus = ESU_all_for_the_nation }
-		x = 2
-		y = 1
-		relative_position_id = ESU_all_for_the_nation
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			country_event = { id = esu_sanelate.5 }
-		}
-	}
-
-	focus = {
-		id = ESU_steampower
-		icon = ESU_GFX_Ootari_Propaganda
-		prerequisite = { focus = ESU_lead_by_example }
-		prerequisite = { focus = ESU_noble_workforce }
-		x = 1
-		y = 2
-		relative_position_id = ESU_all_for_the_nation
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			add_ideas = ESU_ootari_nationalism
-		}
-	}
-
-	focus = {
-		id = ESU_streamline_the_production
-		icon = ESU_GFX_Cannon_Art
-		prerequisite = { focus = ESU_lead_by_example }
-		prerequisite = { focus = ESU_noble_workforce }
-		x = 3
-		y = 2
-		relative_position_id = ESU_all_for_the_nation
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			add_ideas = ESU_streamlined_production
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = industry_industrialprod
-			}
-		}
-	}
-
-	focus = {
-		id = ESU_harbor_expansion
-		icon = ESU_GFX_Boat_Industry
-		prerequisite = { focus = ESU_lead_by_example }
-		prerequisite = { focus = ESU_noble_workforce }
-		x = -1
-		y = 2
-		relative_position_id = ESU_all_for_the_nation
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			122 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-			123 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-			465 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-			480 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
+	
 	focus = {
 		id = ESU_spark_the_factories
 		icon = ESU_GFX_southern_Industry
-		prerequisite = { focus = ESU_lead_by_example }
 		prerequisite = { focus = ESU_noble_workforce }
-		x = -3
-		y = 2
-		relative_position_id = ESU_all_for_the_nation
+		x = -1
+		y = 1
+		relative_position_id = ESU_noble_workforce
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -2045,15 +1903,224 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = ESU_harbor_expansion
+		icon = ESU_GFX_Boat_Industry
+		prerequisite = { focus = ESU_noble_workforce }
+		x = 1
+		y = 1
+		relative_position_id = ESU_noble_workforce
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			122 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			123 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			465 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			480 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = ESU_sience_division
+		icon = ESU_GFX_Best_Education
+		prerequisite = { focus = ESU_spark_the_factories }
+		prerequisite = { focus = ESU_harbor_expansion }
+		x = 0
+		y = 2
+		relative_position_id = ESU_noble_workforce
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	
+	focus = {
+		id = ESU_economic_union
+		icon = ESU_GFX_To_Work_Harder
+		prerequisite = { focus = ESU_sience_division }
+		mutually_exclusive = { focus = ESU_confederacy }
+		x = -1
+		y = 3
+		relative_position_id =  ESU_noble_workforce
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
 
+		available = {
+			has_completed_focus = ESU_noble_workforce
+			has_completed_focus = ESU_lead_by_example
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialengi
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialconstr
+			}
+		}
+	}
+	
+	focus = {
+		id = ESU_confederacy
+		icon = ESU_GFX_To_fight_better
+		prerequisite = { focus = ESU_sience_division }
+		mutually_exclusive = { focus = ESU_economic_union }
+		x = 1
+		y = 3
+		relative_position_id =  ESU_noble_workforce
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_completed_focus = ESU_noble_workforce
+			has_completed_focus = ESU_lead_by_example
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_industrialeq
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_machinegun
+			}
+		}
+	}
+	
+	focus = {
+		id = ESU_faith_in_our_nation
+		icon = ESU_GFX_Religion
+		prerequisite = { focus = ESU_confederacy focus = ESU_economic_union }
+		x = 0
+		y = 4
+		relative_position_id = ESU_noble_workforce
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_eastern_monks_idea
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = racial
+			}
+		}
+	}
+	
+	focus = {
+		id = ESU_worker_tools
+		icon = ESU_GFX_Better_Tools
+		prerequisite = { focus = ESU_economic_union }
+		x = -2
+		y = 4
+		relative_position_id =  ESU_noble_workforce
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry_industrialtools
+			}
+		}
+	}
+	
+	focus = {
+		id = ESU_streamline_the_production
+		icon = ESU_GFX_Cannon_Art
+		prerequisite = { focus = ESU_confederacy }
+		x = 2
+		y = 4
+		relative_position_id =  ESU_noble_workforce
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_streamlined_production
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_industrialprod
+			}
+		}
+	}
+	
 	focus = {
 		id = ESU_economic_boom
 		icon = ESU_GFX_Economic_Boom
-		prerequisite = { focus = ESU_spark_the_factories }
-		prerequisite = { focus = ESU_harbor_expansion }
-		x = -2
-		y = 3
-		relative_position_id = ESU_all_for_the_nation
+		prerequisite = { focus = ESU_faith_in_our_nation }
+		x = 0
+		y = 5
+		relative_position_id =  ESU_noble_workforce
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -2093,71 +2160,132 @@ focus_tree = {
 			}
 		}
 	}
-
+	
 	focus = {
-		id = ESU_mandatory_service
-		icon = ESU_GFX_Universal_Conscription
-		prerequisite = { focus = ESU_streamline_the_production }
-		prerequisite = { focus = ESU_steampower }
-		x = 2
-		y = 3
-		relative_position_id = ESU_all_for_the_nation
-		cost = 5
+		id = ESU_read_the_navy
+		icon = ESU_GFX_Ready_The_Navy
+		prerequisite = { focus = ESU_harbor_expansion }
+		x = 4
+		y = 2
+		relative_position_id = ESU_noble_workforce
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
+			has_navy_size = {
+				size > 9
+				archetype = ship_hull_heavy
+			}
+			has_navy_size = {
+				size > 19
+				archetype = ship_hull_cruiser
+			}
+			has_navy_size = {
+				size > 49
+				archetype = galley_hull
+			}
+			has_navy_size = {
+				size > 24
+				archetype = xebec_hull
+			}
 		}
 		
 		completion_reward = {
-			IF = {
-				limit = {
-					has_idea = recruit_militia_peacetime
-				}
-				swap_ideas = {
-					remove_idea = recruit_militia_peacetime
-					add_idea = recruit_universalcon
-				}
-			}
-			IF = {
-				limit = {
-					has_idea = recruit_militia_wartime
-				}
-				swap_ideas = {
-					remove_idea = recruit_militia_wartime
-					add_idea = recruit_universalcon
-				}
-			}
-			IF = {
-				limit = {
-					has_idea = recruit_volunteer
-				}
-				swap_ideas = {
-					remove_idea = recruit_volunteer
-					add_idea = recruit_universalcon
-				}
-			}
-			IF = {
-				limit = {
-					has_idea = recruit_selectivecon
-				}
-				swap_ideas = {
-					remove_idea = recruit_selectivecon
-					add_idea = recruit_universalcon
-				}
-			}
+		
 		}
 	}
 
 	focus = {
-		id = ESU_sience_division
-		icon = ESU_GFX_Best_Education
-		prerequisite = { focus = ESU_lead_by_example }
-		prerequisite = { focus = ESU_noble_workforce }
-		x = 0
+		id = ESU_naval_offense
+		icon = ESU_GFX_ERWS
+		prerequisite = { focus = ESU_read_the_navy }
+		mutually_exclusive = { focus = ESU_naval_defence }
+		x = 3
 		y = 3
-		relative_position_id = ESU_all_for_the_nation
+		relative_position_id = ESU_noble_workforce
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			IF = {
+				limit = { has_dlc = "Man the Guns" }
+				has_tech = heavy_ship_tech_3
+				has_tech = breech_loaded_cannons
+			}
+			ELSE = {
+				has_tech = heavy_ship_poverty_3
+			}
+		}
+		
+		completion_reward = {
+			IF = {
+				limit = { has_dlc = "Man the Guns" }
+				set_technology = {
+					heavy_ship_tech_4 = 1
+				}
+				set_technology = {
+					modern_naval_gunnery = 1
+				}
+				create_equipment_variant = {
+					name = "Fearless Class"								
+					type = ship_hull_heavy_4
+					modules = {
+						fixed_ship_battery_slot = heavy_naval_battery_4
+						fixed_ship_anti_air_slot = empty
+						fixed_ship_fire_control_system_slot = empty
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = ship_of_the_line_propulsion_4
+						fixed_ship_armor_slot = heavy_planking_4
+						front_1_custom_slot = light_naval_battery_4
+						mid_1_custom_slot = empty
+						mid_3_custom_slot = heavy_naval_battery_4
+						mid_2_custom_slot = heavy_naval_battery_4
+						mid_4_custom_slot = heavy_naval_battery_4
+						rear_1_custom_slot = light_naval_battery_4
+					}
+				}
+			}
+			ELSE = {
+				set_technology = {
+					heavy_ship_poverty_4 = 1
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = ESU_naval_defence
+		icon = ESU_GFX_NavalGrenadier
+		prerequisite = { focus = ESU_read_the_navy }
+		mutually_exclusive = { focus = ESU_naval_offense }
+		x = 5
+		y = 3
+		relative_position_id = ESU_noble_workforce
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_tech = shock_troops_0
+		}
+		
+		completion_reward = {
+			load_oob = ESU_MARINEGREN
+		}
+	}
+
+	focus = {
+		id = ESU_naval_supremecy
+		icon = ESU_GFX_Naval_Supremacy
+		prerequisite = { focus = ESU_naval_offense focus = ESU_naval_defence }
+		x = 4
+		y = 4
+		relative_position_id = ESU_noble_workforce
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -2167,184 +2295,15 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_research_slot = 1
+			add_ideas = ESU_naval_supremacy_idea
 		}
 	}
-
-	focus = {
-		id = ESU_confederacy
-		icon = ESU_GFX_To_fight_better
-		prerequisite = { focus = ESU_economic_boom }
-		prerequisite = { focus = ESU_sience_division }
-		mutually_exclusive = { focus = ESU_economic_union }
-		x = 1
-		y = 4
-		relative_position_id = ESU_all_for_the_nation
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_completed_focus = ESU_noble_workforce
-			has_completed_focus = ESU_lead_by_example
-		}
-		
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = infantry_industrialeq
-			}
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = infantry_machinegun
-			}
-		}
-	}
-
-	focus = {
-		id = ESU_economic_union
-		icon = ESU_GFX_To_Work_Harder
-		prerequisite = { focus = ESU_mandatory_service }
-		prerequisite = { focus = ESU_sience_division }
-		mutually_exclusive = { focus = ESU_confederacy }
-		x = -1
-		y = 4
-		relative_position_id = ESU_all_for_the_nation
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-
-		available = {
-			has_completed_focus = ESU_noble_workforce
-			has_completed_focus = ESU_lead_by_example
-		}
-		
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = industry_industrialengi
-			}
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = industry_industrialconstr
-			}
-		}
-	}
-
-	focus = {
-		id = ESU_steadfast
-		icon = ESU_GFX_Unitited_Ootari_State
-		prerequisite = { focus = ESU_economic_union focus = ESU_confederacy }
-		x = 0
-		y = 5
-		relative_position_id = ESU_all_for_the_nation
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		
-		bypass = {
-			NOT = {
-				country_exists = KAE
-				country_exists = SUA
-			}
-		}
-		
-		available = {
-			has_army_manpower = {
-				size > 399999
-			}
-		}
-		
-		completion_reward = {
-			country_event = { id = esu_sanelate.2 }
-		}
-	}
-
-	focus = {
-		id = ESU_worker_tools
-		icon = ESU_GFX_Better_Tools
-		prerequisite = { focus = ESU_economic_boom }
-		x = -2
-		y = 5
-		relative_position_id = ESU_all_for_the_nation
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 2
-				category = industry_industrialtools
-			}
-		}
-	}
-
-	focus = {
-		id = ESU_faith_in_our_nation
-		icon = ESU_GFX_Religion
-		prerequisite = { focus = ESU_mandatory_service }
-		x = 2
-		y = 5
-		relative_position_id = ESU_all_for_the_nation
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			add_ideas = ESU_eastern_monks_idea
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 3
-				category = racial
-			}
-		}
-	}
-
-	focus = {
-		id = ESU_world_wonder
-		icon = ESU_GFX_Unification
-		prerequisite = { focus = ESU_worker_tools }
-		prerequisite = { focus = ESU_steadfast }
-		prerequisite = { focus = ESU_faith_in_our_nation }
-		x = 0
-		y = 6
-		relative_position_id = ESU_all_for_the_nation
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-
-#IJIKAMI FOCUS TREE
+	
 	focus = {
 		id = ESU_an_old_enemy
 		icon = ESU_GFX_Old_Enemy
 		prerequisite = { focus = ESU_a_new_dawn }
-		mutually_exclusive = { focus = ESU_all_for_the_nation }
-		x = 4
+		x = 5
 		y = 1
 		relative_position_id = ESU_a_new_dawn
 		cost = 1
@@ -2565,150 +2524,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ESU_read_the_navy
-		icon = ESU_GFX_Ready_The_Navy
-		prerequisite = { focus = ESU_Informant_bureau }
-		prerequisite = { focus = ESU_training_plans }
-		x = 0
-		y = 3
-		relative_position_id = ESU_an_old_enemy
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_navy_size = {
-				size > 9
-				archetype = ship_hull_heavy
-			}
-			has_navy_size = {
-				size > 19
-				archetype = ship_hull_cruiser
-			}
-			has_navy_size = {
-				size > 49
-				archetype = galley_hull
-			}
-			has_navy_size = {
-				size > 24
-				archetype = xebec_hull
-			}
-		}
-		
-		completion_reward = {
-		
-		}
-	}
-
-	focus = {
-		id = ESU_naval_defence
-		icon = ESU_GFX_NavalGrenadier
-		prerequisite = { focus = ESU_read_the_navy }
-		mutually_exclusive = { focus = ESU_naval_offense }
-		x = 1
-		y = 4
-		relative_position_id = ESU_an_old_enemy
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_tech = shock_troops_0
-		}
-		
-		completion_reward = {
-			load_oob = ESU_MARINEGREN
-		}
-	}
-
-	focus = {
-		id = ESU_naval_offense
-		icon = ESU_GFX_ERWS
-		prerequisite = { focus = ESU_read_the_navy }
-		mutually_exclusive = { focus = ESU_naval_defence }
-		x = -1
-		y = 4
-		relative_position_id = ESU_an_old_enemy
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			IF = {
-				limit = { has_dlc = "Man the Guns" }
-				has_tech = heavy_ship_tech_3
-				has_tech = breech_loaded_cannons
-			}
-			ELSE = {
-				has_tech = heavy_ship_poverty_3
-			}
-		}
-		
-		completion_reward = {
-			IF = {
-				limit = { has_dlc = "Man the Guns" }
-				set_technology = {
-					heavy_ship_tech_4 = 1
-				}
-				set_technology = {
-					modern_naval_gunnery = 1
-				}
-				create_equipment_variant = {
-					name = "Fearless Class"								
-					type = ship_hull_heavy_4
-					modules = {
-						fixed_ship_battery_slot = heavy_naval_battery_4
-						fixed_ship_anti_air_slot = empty
-						fixed_ship_fire_control_system_slot = empty
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = ship_of_the_line_propulsion_4
-						fixed_ship_armor_slot = heavy_planking_4
-						front_1_custom_slot = light_naval_battery_4
-						mid_1_custom_slot = empty
-						mid_3_custom_slot = heavy_naval_battery_4
-						mid_2_custom_slot = heavy_naval_battery_4
-						mid_4_custom_slot = heavy_naval_battery_4
-						rear_1_custom_slot = light_naval_battery_4
-					}
-				}
-			}
-			ELSE = {
-				set_technology = {
-					heavy_ship_poverty_4 = 1
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = ESU_naval_supremecy
-		icon = ESU_GFX_Naval_Supremacy
-		prerequisite = { focus = ESU_naval_offense focus = ESU_naval_defence }
-		x = 0
-		y = 5
-		relative_position_id = ESU_an_old_enemy
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			add_ideas = ESU_naval_supremacy_idea
-		}
-	}
-
-	focus = {
 		id = ESU_factory_destruction
 		icon = ESU_GFX_Destruction_Iji_factories
 		prerequisite = { focus = ESU_civil_unrest_plans }
-		x = -2
-		y = 5
+		x = -1
+		y = 4
 		relative_position_id = ESU_an_old_enemy
 		cost = 5
 		ai_will_do = {
@@ -2732,8 +2552,8 @@ focus_tree = {
 		id = ESU_ready_force
 		icon = ESU_GFX_Ready_Struggle
 		prerequisite = { focus = ESU_troop_drills }
-		x = 2
-		y = 5
+		x = 1
+		y = 4
 		relative_position_id = ESU_an_old_enemy
 		cost = 5
 		ai_will_do = {
@@ -2771,8 +2591,9 @@ focus_tree = {
 		prerequisite = { focus = ESU_naval_supremecy }
 		prerequisite = { focus = ESU_factory_destruction }
 		prerequisite = { focus = ESU_ready_force }
+		prerequisite = { focus = ESU_world_wonder }
 		x = 0
-		y = 6
+		y = 7
 		relative_position_id = ESU_an_old_enemy
 		cost = 3
 		ai_will_do = {
@@ -2827,4 +2648,149 @@ focus_tree = {
 			}
 		}
 	}
-}
+	
+	focus = {
+		id = ESU_all_for_the_nation
+		icon = ESU_GFX_All_For_The_Nation
+		prerequisite = { focus = ESU_training_plans }
+		x = 5
+		y = 2
+		relative_position_id = ESU_an_old_enemy
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_country_flag = esu_hwholesome_1000
+		}
+		
+		completion_reward = {
+			#autocomplete
+		}
+	}
+
+	focus = {
+		id = ESU_steampower
+		icon = ESU_GFX_Ootari_Propaganda
+		prerequisite = { focus = ESU_all_for_the_nation }
+		x = -1
+		y = 1
+		relative_position_id = ESU_all_for_the_nation
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_ootari_nationalism
+		}
+	}
+
+	focus = {
+		id = ESU_mandatory_service
+		icon = ESU_GFX_Universal_Conscription
+		prerequisite = { focus = ESU_all_for_the_nation }
+		x = 1
+		y = 1
+		relative_position_id = ESU_all_for_the_nation
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			IF = {
+				limit = {
+					has_idea = recruit_militia_peacetime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_wartime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_wartime
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_volunteer
+				}
+				swap_ideas = {
+					remove_idea = recruit_volunteer
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_universalcon
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ESU_steadfast
+		icon = ESU_GFX_Unitited_Ootari_State
+		prerequisite = { focus = ESU_steampower }
+		prerequisite = { focus = ESU_mandatory_service }
+		x = 0
+		y = 2
+		relative_position_id = ESU_all_for_the_nation
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+			NOT = {
+				country_exists = KAE
+				country_exists = SUA
+			}
+		}
+		
+		available = {
+			has_army_manpower = {
+				size > 399999
+			}
+		}
+		
+		completion_reward = {
+			country_event = { id = esu_sanelate.2 }
+		}
+	}
+
+	focus = {
+		id = ESU_world_wonder
+		icon = ESU_GFX_Unification
+		prerequisite = { focus = ESU_steadfast }
+		x = 0
+		y = 3
+		relative_position_id = ESU_all_for_the_nation
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+		}
+	}
