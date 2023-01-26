@@ -51,7 +51,7 @@ focus_tree = {
 		x = -10
 		y = 1
 		relative_position_id = ESU_Upcoming_elections
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -72,7 +72,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = ESU_visionarism
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -95,7 +95,7 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = ESU_visionarism
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -161,7 +161,7 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id = ESU_visionarism
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -196,7 +196,7 @@ focus_tree = {
 		x = -3
 		y = 3
 		relative_position_id = ESU_visionarism
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -231,7 +231,7 @@ focus_tree = {
 		x = -2
 		y = 4
 		relative_position_id = ESU_visionarism
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -344,7 +344,7 @@ focus_tree = {
 		x = 0
 		y = 9
 		relative_position_id = ESU_visionarism
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -404,7 +404,7 @@ focus_tree = {
 					add_idea = genidea_industrial_dev
 					remove_idea = genidea_civilised_dev
 				}
-				country_event = { id = esu_event.9 days = 74 }
+				country_event = { id = esu_event.9 days = 14 }
 			}
 		}	
 	}
@@ -770,7 +770,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = ESU_envoys_to_the_clans
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -795,7 +795,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ESU_envoys_to_the_clans
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -818,7 +818,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = ESU_envoys_to_the_clans
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -843,7 +843,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = ESU_envoys_to_the_clans
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -866,7 +866,7 @@ focus_tree = {
 		x = 0
 		y = -1
 		relative_position_id = ESU_envoys_to_the_clans
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -890,7 +890,7 @@ focus_tree = {
 		x = -4
 		y = 1
 		relative_position_id = ESU_eyes_on_the_clans
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -920,7 +920,7 @@ focus_tree = {
 		x = -5
 		y = 2
 		relative_position_id = ESU_eyes_on_the_clans
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -937,6 +937,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_esu_integration
 			add_stability = -0.05
 			add_manpower = 50000
 		}
@@ -967,6 +968,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_esu_integration
 			add_stability = 0.1
 			483 = { add_manpower = -8000 }
 			496 = { add_manpower = -8000 }
@@ -1113,7 +1115,7 @@ focus_tree = {
 		x = 3
 		y = 2
 		relative_position_id = ESU_eyes_on_the_clans
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1122,6 +1124,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_esu_integration
 			add_ideas = ESU_slavery_meme
 		}
 	}
@@ -1134,7 +1137,7 @@ focus_tree = {
 		x = 5
 		y = 2
 		relative_position_id = ESU_eyes_on_the_clans
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1143,6 +1146,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_esu_integration
 			add_ideas = ESU_redemption_meme
 		}
 	}
@@ -1180,7 +1184,7 @@ focus_tree = {
 		x = 10
 		y = 1
 		relative_position_id = ESU_Upcoming_elections
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -1190,7 +1194,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#add event here
+			#autocomplete
 		}
 	}
 
@@ -1295,7 +1299,7 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id = ESU_militarism
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1422,7 +1426,7 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = ESU_militarism
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1446,7 +1450,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = ESU_militarism
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1501,7 +1505,7 @@ focus_tree = {
 		x = 0
 		y = 6
 		relative_position_id = ESU_militarism
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1525,7 +1529,7 @@ focus_tree = {
 		x = 2
 		y = 6
 		relative_position_id = ESU_militarism
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1695,7 +1699,7 @@ focus_tree = {
 		x = -1
 		y = 9
 		relative_position_id = ESU_militarism
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
