@@ -1801,7 +1801,7 @@ focus_tree = {
 		icon = ESU_GFX_New_Dawn
 		x = -2
 		y = 11
-		cost = 5
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -1810,8 +1810,9 @@ focus_tree = {
 			has_completed_focus = ESU_ideas_of_vengence
 		}
 		
+		#autocompleted
 		completion_reward = {
-			country_event = { id = esu_sanelate.3 }
+			country_event = { id = esu_sanelate.3 days = 4 }
 		}
 	}
 	
@@ -1984,14 +1985,12 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id =  ESU_noble_workforce
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 
 		available = {
-			has_completed_focus = ESU_noble_workforce
-			has_completed_focus = ESU_lead_by_example
 		}
 		
 		completion_reward = {
@@ -2016,14 +2015,12 @@ focus_tree = {
 		x = 1
 		y = 3
 		relative_position_id =  ESU_noble_workforce
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_completed_focus = ESU_noble_workforce
-			has_completed_focus = ESU_lead_by_example
 		}
 		
 		completion_reward = {
@@ -2047,7 +2044,7 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = ESU_noble_workforce
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2096,7 +2093,7 @@ focus_tree = {
 		x = 2
 		y = 4
 		relative_position_id =  ESU_noble_workforce
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2121,7 +2118,7 @@ focus_tree = {
 		x = 0
 		y = 5
 		relative_position_id =  ESU_noble_workforce
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2205,7 +2202,7 @@ focus_tree = {
 		x = 3
 		y = 3
 		relative_position_id = ESU_noble_workforce
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2265,7 +2262,7 @@ focus_tree = {
 		x = 5
 		y = 3
 		relative_position_id = ESU_noble_workforce
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2306,16 +2303,16 @@ focus_tree = {
 		x = 5
 		y = 1
 		relative_position_id = ESU_a_new_dawn
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_country_flag = esu_based_as_fuck_retvrning
 		}
 		
 		completion_reward = {
+			add_war_support = 0.1
 		}
 	}
 
@@ -2510,7 +2507,7 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = ESU_an_old_enemy
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2530,7 +2527,7 @@ focus_tree = {
 		x = -1
 		y = 4
 		relative_position_id = ESU_an_old_enemy
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2555,7 +2552,7 @@ focus_tree = {
 		x = 1
 		y = 4
 		relative_position_id = ESU_an_old_enemy
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2595,7 +2592,7 @@ focus_tree = {
 		x = 0
 		y = 7
 		relative_position_id = ESU_an_old_enemy
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2656,17 +2653,16 @@ focus_tree = {
 		x = 5
 		y = 2
 		relative_position_id = ESU_an_old_enemy
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_country_flag = esu_hwholesome_1000
 		}
 		
 		completion_reward = {
-			#autocomplete
+			#temp
 		}
 	}
 
@@ -2697,7 +2693,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ESU_all_for_the_nation
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2783,7 +2779,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = ESU_all_for_the_nation
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2792,5 +2788,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			#temp
 		}
 	}
