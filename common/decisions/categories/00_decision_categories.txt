@@ -125,6 +125,8 @@ decisioncat_esu_integration = {
 		OR = {
 			has_completed_focus = ESU_amnesty_for_their_soldiers
 			has_completed_focus = ESU_no_forgiveness
+			has_completed_focus = ESU_enslave_them
+			has_completed_focus = ESU_redemption_through_blood
 		}
 	}
 }
