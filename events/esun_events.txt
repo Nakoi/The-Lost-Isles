@@ -239,20 +239,6 @@ country_event = {
 	
 	option = {
 		name = esu_sanelate.3.a
-		set_country_flag = esu_hwholesome_1000
-		complete_national_focus = ESU_all_for_the_nation
-		ai_chance = {
-			base = 0
-		}
-	}
-	
-	option = { 
-		name = esu_sanelate.3.b
-		set_country_flag = esu_based_as_fuck_retvrning
-		complete_national_focus = ESU_an_old_enemy
-		ai_chance = {
-			base = 100
-		}
 	}
 }
 
