@@ -9,10 +9,6 @@ decisioncat_esu_integration = {
 		}
 
 		available = {
-			OR = {
-				has_completed_focus = ESU_amnesty_for_their_soldiers
-				has_completed_focus = ESU_no_forgiveness
-			}
 			ESU = {
 				owns_state = 483
 				owns_state = 496
@@ -38,6 +34,8 @@ decisioncat_esu_integration = {
 			OR = {
 				has_completed_focus = ESU_amnesty_for_their_soldiers
 				has_completed_focus = ESU_no_forgiveness
+				has_completed_focus = ESU_enslave_them
+				has_completed_focus = ESU_redemption_through_blood
 			}
 		}
 		
@@ -61,10 +59,6 @@ decisioncat_esu_integration = {
 		}
 
 		available = {
-			OR = {
-				has_completed_focus = ESU_amnesty_for_their_soldiers
-				has_completed_focus = ESU_no_forgiveness
-			}
 			ESU = {
 				owns_state = 507
 				owns_state = 499
@@ -90,6 +84,8 @@ decisioncat_esu_integration = {
 			OR = {
 				has_completed_focus = ESU_amnesty_for_their_soldiers
 				has_completed_focus = ESU_no_forgiveness
+				has_completed_focus = ESU_enslave_them
+				has_completed_focus = ESU_redemption_through_blood
 			}
 		}
 		
@@ -113,10 +109,6 @@ decisioncat_esu_integration = {
 		}
 
 		available = {
-			OR = {
-				has_completed_focus = ESU_amnesty_for_their_soldiers
-				has_completed_focus = ESU_no_forgiveness
-			}
 			ESU = {
 				owns_state = 469
 				owns_state = 484
@@ -140,6 +132,8 @@ decisioncat_esu_integration = {
 			OR = {
 				has_completed_focus = ESU_amnesty_for_their_soldiers
 				has_completed_focus = ESU_no_forgiveness
+				has_completed_focus = ESU_enslave_them
+				has_completed_focus = ESU_redemption_through_blood
 			}
 		}
 		
@@ -162,10 +156,6 @@ decisioncat_esu_integration = {
 		}
 
 		available = {
-			OR = {
-				has_completed_focus = ESU_amnesty_for_their_soldiers
-				has_completed_focus = ESU_no_forgiveness
-			}
 			ESU = {
 				owns_state = 482
 				owns_state = 477
@@ -189,6 +179,8 @@ decisioncat_esu_integration = {
 			OR = {
 				has_completed_focus = ESU_amnesty_for_their_soldiers
 				has_completed_focus = ESU_no_forgiveness
+				has_completed_focus = ESU_enslave_them
+				has_completed_focus = ESU_redemption_through_blood
 			}
 		}
 		
