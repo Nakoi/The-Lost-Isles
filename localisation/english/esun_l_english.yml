@@ -279,7 +279,11 @@
  ESU_state_militarisation_idea_04:0 "Militarisation of the State"
  
 ###DECISION LOCALISATION###
- 
+ decisioncat_esu_integration:0 "Clan Territory Integration"
+ ESU_core_hriki:0 "Integrate Hriki Family Territory"
+ ESU_core_onki:0 "Integrate Onki Family Territory"
+ ESU_core_waonto:0 "Integrate Waonto Family Territory"
+ ESU_core_azeo:0 "Integrate Azeo Family Territory"
 
 ###EVENT LOCALISATION ###
  esu_start.0.t:0 "good guy intro event"
@@ -340,3 +344,6 @@
 ###TOOLTIP LOCALISATION###
  ESUtt_mare_ethnostate:0 "The Ootari Pony Republic will be formed out of our pony majority states!"
  ESUtt_second_rising:0 "The Second Rising will start in the southern part of the Old Homeland"
+ 
+ esu_sane_victory:0 "Autocompleted via Event"
+ esu_schizo_victory:0 "Autocompleted via Event"
