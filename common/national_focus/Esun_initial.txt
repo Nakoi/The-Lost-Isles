@@ -19,7 +19,7 @@ focus_tree = {
 		icon = ESU_GFX_Upcoming_Elections
 		x = 8
 		y = 0
-		cost = 14.3
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -350,7 +350,7 @@ focus_tree = {
 		}
 		
 		available = {
-			num_of_factories > 69
+			num_of_factories > 79
 			has_political_power > 299
 		}
 		
@@ -634,7 +634,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = ESU_industry_investment
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -671,7 +671,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = ESU_industry_investment
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1810,8 +1810,11 @@ focus_tree = {
 			factor = 5
 		}
 		
+		allow_branch = {
+		}
+		
 		available = {
-			has_completed_focus = ESU_ideas_of_vengence
+			has_country_flag = esu_sane_lategame_tree
 		}
 		
 		#autocompleted
@@ -2194,7 +2197,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 3
+				category = naval_equipment
+			}
 		}
 	}
 
@@ -2666,7 +2673,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			#temp
+			swap_ideas = {
+				add_idea = ESU_ootari_nationalism_2
+				remove_idea = ESU_ootari_nationalism_1
+			}
 		}
 	}
 
@@ -2686,7 +2696,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = ESU_ootari_nationalism
+			swap_ideas = {
+				add_idea = ESU_ootari_nationalism_3
+				remove_idea = ESU_ootari_nationalism_2
+			}
 		}
 	}
 
@@ -2789,9 +2802,22 @@ focus_tree = {
 		}
 		
 		available = {
+			NOT = { country_exists = KAE }
+			NOT = { country_exists = SUA }
+			NOT = { country_exists = AIN }
+			NOT = { country_exists = SEN }
+			NOT = { country_exists = FRE }
+			NOT = { country_exists = WEI }
+			NOT = { country_exists = UNU }
+			NOT = { country_exists = RIN }
+			NOT = { country_exists = ASH }
+			owns_state = 136
+			owns_state = 418
 		}
 		
 		completion_reward = {
-			#temp
+			add_stability = 0.1
+			add_war_support = 0.1
+			remove_ideas = ESU_ootari_nationalism_3
 		}
 	}
