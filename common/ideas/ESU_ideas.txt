@@ -118,7 +118,7 @@ ideas = {
 			}
 		}
 		
-		ESU_ootari_nationalism = {
+		ESU_ootari_nationalism_1 = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -126,7 +126,53 @@ ideas = {
 			}
 			
 			modifier = {
-				
+				stability_weekly = -0.01
+			}
+			
+			targeted_modifier = {
+				tag = KAE
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = SUA
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+		
+		ESU_ootari_nationalism_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = -0.005
+			}
+			
+			targeted_modifier = {
+				tag = KAE
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = SUA
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+		
+		ESU_ootari_nationalism_3 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = -0.001
 			}
 			
 			targeted_modifier = {
