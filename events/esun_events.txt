@@ -176,7 +176,8 @@ country_event = {
 	
 	option = {
 		name = esu_event.9.a
-		load_focus_tree = esun_focus_2
+		set_country_flag = esu_sane_lategame_tree
+		complete_national_focus = ESU_a_new_dawn
 	}
 }
 
@@ -239,6 +240,7 @@ country_event = {
 	
 	option = {
 		name = esu_sanelate.3.a
+		add_ideas = ESU_ootari_nationalism_1
 	}
 }
 
