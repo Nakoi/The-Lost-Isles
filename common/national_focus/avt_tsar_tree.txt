@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = AVT
        }
     }
 
@@ -177,6 +177,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_embrace_deer
+		icon = AVT_GFX_Embrace_The_Deer
 		prerequisite = { focus = AVT_rule_the_north }
 		mutually_exclusive = { focus = AVT_avtukov_nationalism }
 		x = 1
@@ -288,6 +289,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_hegemonic_ambitions
+		icon = AVT_GFX_Ambitions
 		prerequisite = { focus = AVT_avtukov_nationalism focus = AVT_embrace_deer }
 		prerequisite = { focus = AVT_forced_land_appropriation focus = AVT_compesate_nobles }
 		x = 0
@@ -697,6 +699,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_integrate_majority_pony_land
+		icon = AVT_GFX_AVT_GFX_Intergrate_Pony
 		prerequisite = { focus = AVT_hegemonic_ambitions }
 		x = -1
 		y = 6
@@ -810,6 +813,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_pressure_undead
+		icon = AVT_GFX_Pressure_Savinki
 		prerequisite = { focus = AVT_integrate_majority_pony_land }
 		x = -2
 		y = 7
@@ -828,6 +832,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_magical_expertise_exchange
+		icon = AVT_GFX_Magic_Expertise
 		prerequisite = { focus = AVT_pressure_undead }
 		x = -2
 		y = 8
@@ -853,6 +858,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_long_lost_brothers
+		icon = AVT_GFX_Long_Lost_Brothers
 		prerequisite = { focus = AVT_hegemonic_ambitions }
 		x = 1
 		y = 6
@@ -1141,6 +1147,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_state_bilingualism
+		icon = AVT_GFX_State_Biligualism
 		prerequisite = { focus = AVT_long_lost_brothers }
 		x = 0
 		y = 7
@@ -1160,6 +1167,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_unity_propaganda
+		icon = AVT_GFX_Rebuild_Otarii
 		prerequisite = { focus = AVT_long_lost_brothers }
 		x = 2
 		y = 7
@@ -1222,6 +1230,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_subjugate_astaria
+		icon = AVT_GFX_Subjugate_Asteria
 		prerequisite = { focus = AVT_unity_propaganda }
 		x = 3
 		y = 8
@@ -1255,6 +1264,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_united_empire
+		icon = AVT_GFX_United_Empire
 		prerequisite = { focus = AVT_state_bilingualism }
 		prerequisite = { focus = AVT_unity_propaganda }
 		x = 1
@@ -1289,6 +1299,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_kirin_military_specialists
+		icon = AVT_GFX_Kirin_Specialist
 		prerequisite = { focus = AVT_united_empire }
 		x = 1
 		y = 9
@@ -1328,6 +1339,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_invite_foreign_experts
+		icon = AVT_GFX_Invite_forgain_affairs
 		prerequisite = { focus = AVT_the_tzar }
 		x = -6
 		y = 1
@@ -1349,6 +1361,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_land_reform
+		icon = AVT_GFX_Farmland
 		prerequisite = { focus = AVT_invite_foreign_experts }
 		x = -7
 		y = 2
@@ -1427,6 +1440,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_end_serfdom
+		icon = AVT_GFX_End_Serfdom
 		prerequisite = { focus = AVT_land_reform }
 		x = -8
 		y = 3
@@ -1714,6 +1728,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_forced_land_appropriation
+		icon = AVT_GFX_Forced_Land_Ownership
 		prerequisite = { focus = AVT_end_serfdom }
 		prerequisite = { focus = AVT_royal_family_only }
 		x = -7
@@ -2328,6 +2343,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_deindustrialise_south
+		icon = AVT_GFX_Destroy_Factories
 		prerequisite = { focus = AVT_never_another_gerard }
 		x = -2
 		y = 10
@@ -2667,6 +2683,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_fate_of_royals
+		icon = AVT_GFX_Fate_Of_Royals
 		prerequisite = { focus = AVT_never_another_gerard }
 		x = 0
 		y = 10
@@ -2683,6 +2700,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_luana_forever_broken
+		icon = AVT_GFX_Luana_Broken
 		prerequisite = { focus = AVT_deindustrialise_south }
 		prerequisite = { focus = AVT_fate_of_royals }
 		x = -1
