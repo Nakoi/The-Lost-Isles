@@ -1526,6 +1526,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_tribe_unity
+		icon = AVT_GFX_Tribe_unity
 		prerequisite = { focus = AVT_invite_foreign_experts	}
 		x = -5
 		y = 2
@@ -1547,6 +1548,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_royal_family_only
+		icon = AVT_GFX_Royal_Family_only
 		prerequisite = { focus = AVT_tribe_unity }
 		mutually_exclusive = { focus = AVT_reconcile_with_nobles }
 		x = -6
@@ -1661,6 +1663,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_reconcile_with_nobles
+		icon = AVT_GFX_Nobility
 		prerequisite = { focus = AVT_tribe_unity }
 		mutually_exclusive = { focus = AVT_royal_family_only }
 		x = -4
@@ -1793,6 +1796,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_compesate_nobles
+		icon = AVT_GFX_Compensate_Nobels
 		prerequisite = { focus = AVT_end_serfdom }
 		prerequisite = { focus = AVT_reconcile_with_nobles }
 		x = -5
@@ -1855,6 +1859,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_support_new_businesses
+		icon = AVT_GFX_Support_Buisness
 		prerequisite = { focus = AVT_forced_land_appropriation focus = AVT_compesate_nobles }
 		x = -6
 		y = 5
@@ -1922,6 +1927,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_kickstart_industrial_revolution
+		icon = AVT_GFX_Industrial_revolution
 		prerequisite = { focus = AVT_support_new_businesses }
 		x = -6
 		y = 6
@@ -1990,6 +1996,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_advisory_parliament
+		icon = AVT_GFX_Advisory_Parlement
 		prerequisite = { focus = AVT_kickstart_industrial_revolution }
 		mutually_exclusive = { focus = AVT_legislative_parliament }
 		x = -6
@@ -2012,6 +2019,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_legislative_parliament
+		icon = AVT_GFX_Leglesative_Parlement
 		prerequisite = { focus = AVT_kickstart_industrial_revolution }
 		mutually_exclusive = { focus = AVT_advisory_parliament }
 		x = -8
@@ -2079,6 +2087,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_service_guarantees_citizenship
+		icon = AVT_GFX_Passport
 		prerequisite = { focus = AVT_legislative_parliament focus = AVT_advisory_parliament }
 		x = -7
 		y = 8
@@ -2115,6 +2124,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_establish_school_system
+		icon = AVT_GFX_State_Biligualism
 		prerequisite = { focus = AVT_kickstart_industrial_revolution }
 		x = -4
 		y = 7
@@ -2141,6 +2151,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_public_healthcare
+		icon = AVT_GFX_Healthcare
 		prerequisite = { focus = AVT_establish_school_system }
 		x = -4
 		y = 8
