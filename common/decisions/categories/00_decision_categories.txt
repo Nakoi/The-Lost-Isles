@@ -54,6 +54,61 @@ decisioncat_avt_kirin_integration = {
 	}
 }
 
+decisioncat_avt_tsar_colony = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = AVT
+	}
+	
+		highlight_states = {
+			highlight_state_targets = {
+				state = 262
+				state = 263
+				state = 277
+				state = 276
+				state = 275
+				state = 264
+				state = 265
+				state = 266
+				state = 149
+				state = 273
+				state = 267
+				state = 274
+				state = 268
+				
+				state = 315
+				state = 317
+				state = 322
+				state = 314
+				state = 259
+				state = 261
+				state = 324
+				state = 323
+				state = 313
+				state = 311
+				state = 286
+				state = 280
+				state = 298
+				
+				state = 254
+				state = 257
+				state = 316
+				state = 253
+				state = 256
+				state = 255
+				state = 285
+				state = 258
+				state = 260
+				state = 284
+			}
+		}
+		
+	visible = {
+		#has_completed_focus = AVT_the_tzar
+	}
+}
+
 decisioncat_avt_elusivepath = {
 	icon = generic_political_actions
 	
