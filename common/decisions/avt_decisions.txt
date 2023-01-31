@@ -1260,6 +1260,194 @@ decisioncat_avt_kirin_integration = {
 	}
 }
 
+decisioncat_avt_tsar_colony = {
+	
+	AVT_tsar_colony_required_province_highlight = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			always = no
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_expand_empire
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 262
+				state = 263
+				state = 277
+				state = 276
+				state = 275
+				state = 264
+				state = 265
+				state = 266
+				state = 149
+				state = 273
+				state = 267
+				state = 274
+				state = 268
+				
+				state = 315
+				state = 317
+				state = 322
+				state = 314
+				state = 259
+				state = 261
+				state = 324
+				state = 323
+				state = 313
+				state = 311
+				state = 286
+				state = 280
+				state = 298
+				
+				state = 254
+				state = 257
+				state = 316
+				state = 253
+				state = 256
+				state = 255
+				state = 285
+				state = 258
+				state = 260
+				state = 284
+			}
+		}
+
+		complete_effect = {
+		}
+	}
+	
+	AVT_tsar_colony_kill_dogs = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_expand_empire
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_expand_empire
+		}
+		
+		complete_effect = {
+			create_wargoal = {
+				type = take_state_focus
+				target = 324.owner
+				generator = { 324 }
+			}
+			create_wargoal = {
+				type = take_state_focus
+				target = 315.owner
+				generator = { 315 }
+			}
+			create_wargoal = {
+				type = take_state_focus
+				target = 313.owner
+				generator = { 313 }
+			}
+		}
+	}
+	
+	AVT_tsar_colony_kill_hippogriffs = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_expand_empire
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_expand_empire
+		}
+		
+		complete_effect = {
+			create_wargoal = {
+				type = take_state_focus
+				target = 276.owner
+				generator = { 276 }
+			}
+		}
+	}
+	
+	AVT_tsar_colony_kill_deer = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			has_completed_focus = AVT_expand_empire
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_expand_empire
+		}
+		
+		complete_effect = {
+			create_wargoal = {
+				type = take_state_focus
+				target = 254.owner
+				generator = { 254 }
+			}
+		}
+	}
+}
+
+
 decisioncat_avt_elusivepath = {
 
 	AVT_peasant_uprising_mission = {
