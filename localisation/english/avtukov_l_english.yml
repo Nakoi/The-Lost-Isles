@@ -485,6 +485,12 @@
  AVT_integrate_eastern_ootari_decision:0 "Integrate Eastern Ootari"
  AVT_integrate_southern_ootari_decision:0 "Integrate Southern Ootari"
  
+ decisioncat_avt_tsar_colony:0 "Colonial Empire Expansion"
+ AVT_tsar_colony_required_province_highlight:0 "Highlight Required States"
+ AVT_tsar_colony_kill_dogs:0 "Subjugate the Dogs"
+ AVT_tsar_colony_kill_hippogriffs:0 "Subjugate the Hippogriffs"
+ AVT_tsar_colony_kill_deer:0 "Subjugate the Deer"
+ 
  decisioncat_avt_elusivepath:0 "Burden of the Crown"
  AVT_peasant_uprising_mission:0 "Rebellious Peasantry"
  AVT_elusive_tournament_decision:0 "Host a Tournament"
@@ -807,6 +813,9 @@
  AVTtt_kill_griffons:0 "§RDeclares war on all Griffon countries of the South§!"
  AVTtt_literal_griffon_genocide:0 "§YDestroy factories all across the South, gain 20 offmap factories§!"
  AVTtt_holy_shit_ivory:0 "§RThe urban citizenry of Luana will have to go somewhere else...§!"
+ AVTtt_grobimperialismus_west_prerequisites:0 "§YStates required to take this focus are outlined in the §CDecisions tab!§!"
+ AVTtt_grobimperialismus_west_prerequisites_stateowner:0 "The Tsardom of Avtukov owns all highlighted states"
+ AVTtt_grobimperialismus_west_prerequisites_compliance:0 "All highlighted states have 30% or more compliance"
  AVTtt_grobimperialismus_west:0 "§CVGH.......§!"
  
 ###TOOLTIP LOCALISATION - ELUSIVE###
