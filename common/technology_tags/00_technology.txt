@@ -160,6 +160,16 @@ technology_folders = {
 	
 	deer_folder = {
 		ledger = army
+		available = {
+			is_deer_race = yes
+		}
+	}
+
+	kirin_folder = {
+		ledger = army
+		available = {
+			is_kirin_race = yes
+		}
 	}
 	#secret_weapons_folder
 }
