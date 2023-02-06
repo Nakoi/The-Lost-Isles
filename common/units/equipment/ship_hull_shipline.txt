@@ -485,7 +485,7 @@ equipments = {
 		manpower = 1000
 	}
 	
-	battleship_1 = {
+	tli_battleship_1 = {
 		year = 600
 		visual_level = 0
 		archetype = ship_hull_heavy
@@ -586,7 +586,7 @@ equipments = {
 		manpower = 400
 	}
 	
-	battleship_2 = {
+	tli_battleship_2 = {
 		year = 957
 		visual_level = 0
 		archetype = ship_hull_heavy
@@ -700,7 +700,7 @@ equipments = {
 		manpower = 600
 	}
 	
-	battleship_3 = {
+	tli_battleship_3 = {
 		year = 957
 		visual_level = 0
 		archetype = ship_hull_heavy
@@ -826,7 +826,7 @@ equipments = {
 		manpower = 800
 	}
 	
-	battleship_4 = {
+	tli_battleship_4 = {
 		year = 957
 		visual_level = 0
 		archetype = ship_hull_heavy

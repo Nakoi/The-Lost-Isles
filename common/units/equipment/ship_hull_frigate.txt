@@ -413,7 +413,7 @@ equipments = {
 		}
 	}
 	
-	light_cruiser_1 = {
+	tli_light_cruiser_1 = {
 		year = 600
 		visual_level = 0
 		archetype = ship_hull_cruiser
@@ -453,7 +453,7 @@ equipments = {
 		manpower = 200
 	}
 	
-	light_cruiser_2 = {
+	tli_light_cruiser_2 = {
 		year = 957
 		visual_level = 0
 		archetype = ship_hull_cruiser
@@ -553,7 +553,7 @@ equipments = {
 		manpower = 200
 	}
 	
-	light_cruiser_3 = {
+	tli_light_cruiser_3 = {
 		year = 957
 		visual_level = 0
 		archetype = ship_hull_cruiser
@@ -665,7 +665,7 @@ equipments = {
 		manpower = 200
 	}
 	
-	light_cruiser_4 = {
+	tli_light_cruiser_4 = {
 		year = 957
 		visual_level = 0
 		archetype = ship_hull_cruiser
@@ -1078,6 +1078,9 @@ equipments = {
 			rear_1_custom_slot = light_naval_battery_4
 			rear_2_custom_slot = light_naval_battery_4
 		}
+		
+		hg_attack = 72
+		hg_armor_piercing = -26
 		
 		fuel_consumption = 0
 		surface_detection = 20
