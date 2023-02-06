@@ -1159,10 +1159,6 @@ technologies = {
 			leads_to_tech = naval_gunnery_2
 			research_cost_coeff = 1
 		}
-		destroyer = {
-			lg_attack = 0.05
-			hg_attack = 0.05
-		}
 		frigate = {
 			lg_attack = 0.05
 			hg_attack = 0.05
@@ -1211,10 +1207,6 @@ technologies = {
 			leads_to_tech = naval_gunnery_3
 			research_cost_coeff = 1
 		}
-		destroyer = {
-			lg_attack = 0.1
-			hg_attack = 0.1
-		}
 		frigate = {
 			lg_attack = 0.1
 			hg_attack = 0.1
@@ -1259,10 +1251,6 @@ technologies = {
 	naval_gunnery_3 = {
 		
 		research_cost = 2.5
-		destroyer = {
-			lg_attack = 0.2
-			hg_attack = 0.2
-		}
 		frigate = {
 			lg_attack = 0.2
 			hg_attack = 0.2

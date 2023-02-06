@@ -294,7 +294,7 @@ technologies = {
 	medium_ship_poverty = {
 
 		enable_equipments = { 
-			light_cruiser_1
+			tli_light_cruiser_1
 		}
 		
 		path = {
@@ -331,7 +331,7 @@ technologies = {
 	medium_ship_poverty_2 = {
 
 		enable_equipments = { 
-			light_cruiser_2
+			tli_light_cruiser_2
 		}
 		
 		path = {
@@ -365,7 +365,7 @@ technologies = {
 	medium_ship_poverty_3 = {
 
 		enable_equipments = { 
-			light_cruiser_3
+			tli_light_cruiser_3
 		}
 		
 		path = {
@@ -400,7 +400,7 @@ technologies = {
 	medium_ship_poverty_4 = {
 
 		enable_equipments = { 
-			light_cruiser_4
+			tli_light_cruiser_4
 		}
 		
 		research_cost = 2
@@ -534,7 +534,7 @@ technologies = {
 	heavy_ship_poverty = {
 
 		enable_equipments = { 
-			battleship_1
+			tli_battleship_1
 		}
 		
 		path = {
@@ -566,7 +566,7 @@ technologies = {
 	heavy_ship_poverty_2 = {
 
 		enable_equipments = { 
-			battleship_2
+			tli_battleship_2
 		}
 		
 		path = {
@@ -601,7 +601,7 @@ technologies = {
 	heavy_ship_poverty_3 = {
 
 		enable_equipments = {
-			battleship_3
+			tli_battleship_3
 		}
 		
 		path = {
@@ -638,7 +638,7 @@ technologies = {
 	heavy_ship_poverty_4 = {
 
 		enable_equipments = { 
-			battleship_4
+			tli_battleship_4
 		}
 		
 		research_cost = 2
