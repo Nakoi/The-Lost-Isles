@@ -1733,7 +1733,7 @@ technologies = {
         on_research_complete = {
 			modify_building_resources = {
 				building = industrial_complex
-				resource = aluminium
+				resource = luxuries
 				amount = 1
 			}
 		}
@@ -1789,7 +1789,7 @@ technologies = {
         on_research_complete = {
 			modify_building_resources = {
 				building = industrial_complex
-				resource = aluminium
+				resource = luxuries
 				amount = 1
 			}
 		}
@@ -1840,7 +1840,7 @@ technologies = {
         on_research_complete = {
 			modify_building_resources = {
 				building = industrial_complex
-				resource = aluminium
+				resource = luxuries
 				amount = 1
 			}
 		}
