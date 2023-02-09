@@ -277,7 +277,44 @@
  SERVICE_MANPOWER_HEADER:0 "Service Manpower"
  
  ###TLI UNITS###
- ranged_infantry:0 "Regulars"
+ ranged_militia:0 "Militia Battalion"
+ ranged_infantry:0 "Regular Infantry Battalion"
+ armored_infantry:0 "Armored Infantry Battalion"
+ motor_infantry:0 "Motor Infantry Battalion"
+ 
+ tli_sapper_company:0 "Sapper Company"
+ tli_recon_company:0 "Scout Company"
+ tli_maintenance_company:0 "Maintenance Company"
+ tli_military_police_company:0 "Military Police Company"
+ tli_field_hospital_company:0 "Field Hospitals"
+ tli_logistics_company:0 "Logistics Company"
+ 
+ cannon_frontline:0 "Cannon Artillery Battalion"
+ light_artillery_frontline:0 "Light Artillery Battalion"
+ mortar_frontline:0 "Siege Artillery Battalion"
+ howitzer_frontline:0 "Howitzer Artillery Battalion"
+ ballista_frontline:0 "Anti-Air Artillery Battalion"
+ rocket_frontline:0 "Rocket Artillery Battalion"
+ 
+ cannon_support:0 "Cannon Artillery Battery"
+ howitzer_support:0 "Howtizer Artillery Battery"
+ rocket_support:0 "Rocket Artillery Battery"
+ mortar_support:0 "Siege Artillery Battery"
+ ballista_support:0 "Anti-Air Artillery Battery"
+ unit_machine_gun:0 "Machine Gun Company"
+ 
+ sharpshooters:0 "Sharpshooter Battalion"
+ shock_troops:0 "Shock Infantry Battalion"
+ guards:0 "Guard Infantry Battalion"
+ 
+ wind_riders:0 "Wind Rider Battalion"
+ juggernauts:0 "Juggernaut Battalion"
+ pony_mages:0 "Mage Squad"
+ unicorn_support:0 "Support Mage Company"
+ 
+ highlanders:0 "Highlander Battalion"
+ runic_warriors:0 "Runic Warrior Battalion"
+ battle_seer_coven:0 "Battle Seers"
  
  ###idk###
  anti_tank:0 "Support Anti-Tank"
