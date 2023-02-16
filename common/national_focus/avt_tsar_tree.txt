@@ -2750,6 +2750,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_colonial_affairs_office
+		icon = AVT_GFX_Colonial_Affairs
 		prerequisite = { focus = AVT_finish_what_we_started }
 		x = 2
 		y = 2
@@ -2765,6 +2766,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_prepare_navy
+		icon = AVT_GFX_Ready_The_Navy
 		prerequisite = { focus = AVT_colonial_affairs_office }
 		x = 6
 		y = 3
@@ -2793,6 +2795,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_subjugate_primitives
+		icon = AVT_GFX_Subjugate_Primitives
 		prerequisite = { focus = AVT_prepare_navy }
 		mutually_exclusive = { focus = AVT_diplomatic_approach }
 		x = 6
