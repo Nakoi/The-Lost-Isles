@@ -3605,3 +3605,445 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = AVT_avtukovian_shipbuilding
+		x = 19
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_on_our_own
+		prerequisite = { focus = AVT_avtukovian_shipbuilding }
+		mutually_exclusive = { focus = AVT_oac_cooperation focus = AVT_oskil_cooperation }
+		x = 0
+		y = 1
+		relative_position_id = AVT_avtukovian_shipbuilding
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_oac_cooperation
+		prerequisite = { focus = AVT_avtukovian_shipbuilding }
+		mutually_exclusive = { focus = AVT_on_our_own focus = AVT_oskil_cooperation }
+		x = -2
+		y = 1
+		relative_position_id = AVT_avtukovian_shipbuilding
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_oskil_cooperation
+		prerequisite = { focus = AVT_avtukovian_shipbuilding }
+		mutually_exclusive = { focus = AVT_oac_cooperation focus = AVT_on_our_own }
+		x = 2
+		y = 1
+		relative_position_id = AVT_avtukovian_shipbuilding
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_naval_doctrine_studies
+		prerequisite = { focus = AVT_on_our_own focus = AVT_oac_cooperation focus = AVT_oskil_cooperation }
+		x = -1
+		y = 2
+		relative_position_id = AVT_avtukovian_shipbuilding
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_ussumki_dockyard_expansion
+		prerequisite = { focus = AVT_on_our_own focus = AVT_oac_cooperation focus = AVT_oskil_cooperation }
+		x = 1
+		y = 2
+		relative_position_id = AVT_avtukovian_shipbuilding
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_ship_design_competition
+		prerequisite = { focus = AVT_naval_doctrine_studies }
+		prerequisite = { focus = AVT_ussumki_dockyard_expansion }
+		x = 0
+		y = 3
+		relative_position_id = AVT_avtukovian_shipbuilding
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_colonial_marines
+		prerequisite = { focus = AVT_naval_doctrine_studies }
+		prerequisite = { focus = AVT_ussumki_dockyard_expansion }
+		x = -2
+		y = 3
+		relative_position_id = AVT_avtukovian_shipbuilding
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_avtukovian_trade_company
+		prerequisite = { focus = AVT_naval_doctrine_studies }
+		prerequisite = { focus = AVT_ussumki_dockyard_expansion }
+		x = 2
+		y = 3
+		relative_position_id = AVT_avtukovian_shipbuilding
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_dew_lily_boat
+		prerequisite = { focus = AVT_ship_design_competition }
+		x = 0
+		y = 4
+		relative_position_id = AVT_avtukovian_shipbuilding
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_reach_for_the_skies
+		x = 28
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_cloud_bliss_plan
+		prerequisite = { focus = AVT_reach_for_the_skies }
+		mutually_exclusive = { focus = AVT_dazzleflash_plan }
+		x = -1
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_dazzleflash_plan
+		prerequisite = { focus = AVT_reach_for_the_skies }
+		mutually_exclusive = { focus = AVT_cloud_bliss_plan }
+		x = 1
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_sky_carrier_development
+		prerequisite = { focus = AVT_cloud_bliss_plan focus = AVT_dazzleflash_plan }
+		x = 0
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_air_doctrine_studies
+		prerequisite = { focus = AVT_sky_carrier_development }
+		x = 0
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_southern_air_infrastructure
+		prerequisite = { focus = AVT_reach_for_the_skies }
+		x = -3
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_eastern_air_infrastructure
+		prerequisite = { focus = AVT_reach_for_the_skies }
+		x = 3
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_import_bombardiers
+		prerequisite = { focus = AVT_cloud_bliss_plan }
+		mutually_exclusive = { focus = AVT_import_air_frigates }
+		x = -4
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_import_air_frigates
+		prerequisite = { focus = AVT_cloud_bliss_plan }
+		mutually_exclusive = { focus = AVT_import_bombardiers }
+		x = -2
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_aksarino_crystal_mines
+		prerequisite = { focus = AVT_import_bombardiers focus = AVT_import_air_frigates }
+		x = -4
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_airship_design_committee
+		prerequisite = { focus = AVT_import_bombardiers focus = AVT_import_air_frigates }
+		x = -2
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_sky_cruiser_experiments
+		prerequisite = { focus = AVT_aksarino_crystal_mines focus = AVT_airship_design_committee }
+		x = -3
+		y = 4
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_prioritise_air_skirmishers
+		prerequisite = { focus = AVT_dazzleflash_plan }
+		mutually_exclusive = { focus = AVT_prioritise_air_strikers }
+		x = 2
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_prioritise_air_strikers
+		prerequisite = { focus = AVT_dazzleflash_plan }
+		mutually_exclusive = { focus = AVT_prioritise_air_skirmishers }
+		x = 4
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_skirmisher_flight_schools
+		prerequisite = { focus = AVT_prioritise_air_skirmishers focus = AVT_prioritise_air_strikers }
+		x = 2
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_alchemical_stimulants
+		prerequisite = { focus = AVT_prioritise_air_skirmishers focus = AVT_prioritise_air_strikers }
+		x = 4
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_perfected_skirmisher_equipment
+		prerequisite = { focus = AVT_skirmisher_flight_schools focus = AVT_alchemical_stimulants }
+		x = 3
+		y = 4
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	
