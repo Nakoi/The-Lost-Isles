@@ -359,6 +359,28 @@
  AVT_queen_of_battlefield:0 "Queen of the Battlefield"
  AVT_queen_of_battlefield_desc:0 ""
  AVT_machine_gun_development:0 "Machine Gun Development"
+ 
+ ###FOCUS LOCALISATION - NAVY TREE###
+ AVT_avtukovian_shipbuilding:0 "Avtukovian Shipbuilding"
+ AVT_avtukovian_shipbuilding_desc:0 ""
+ AVT_on_our_own:0 "On Our Own"
+ AVT_on_our_own_desc:0 ""
+ AVT_oac_cooperation:0 "Cooperate with the OAC"
+ AVT_oac_cooperation_desc:0 ""
+ AVT_oskil_cooperation:0 "Cooperate with Oskil"
+ AVT_oskil_cooperation_desc:0 ""
+ AVT_naval_doctrine_studies:0 "Naval Doctrine Studies"
+ AVT_naval_doctrine_studies_desc:0 ""
+ AVT_ussumki_dockyard_expansion:0 "Ussumki Dockyard Expansion"
+ AVT_ussumki_dockyard_expansion_desc:0 ""
+ AVT_ship_design_competition:0 "Ship Design Competition"
+ AVT_ship_design_competition_desc:0 ""
+ AVT_colonial_marines:0 "Colonial Marines"
+ AVT_colonial_marines_desc:0 ""
+ AVT_avtukovian_trade_company:0 "Avtukovian Trade Company"
+ AVT_avtukovian_trade_company_desc:0 ""
+ AVT_dew_lily_boat:0 "IANS Dew Lily"
+ AVT_dew_lily_boat_desc:0 ""
 
 ###IDEA LOCALISATION###
  AVT_navy_temp_range_increase:0 "Crossing the Pond"
@@ -376,6 +398,9 @@
  
  AVT_designer_mysticorp:0 "Mysticorp - Magitech"
  AVT_designer_maplewood:0 "Maplewood - Rapid Construction"
+ AVT_designer_gracemare_shipping:0 "Gracemarean Shipping Company - Naval Armor Design"
+ AVT_designer_bacsg:0 "BACSG - High Sea Fleet Design"
+ AVT_designer_oskil_verft:0 "Oskil Verft - Coastal Defence Fleet Design"
  
  
  AVT_idea_traitors_in_the_palace_1:0 "Traitors in the Palace"
@@ -449,6 +474,9 @@
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_03:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_04:0 "Gracemarean Model Army"
+ 
+ AVT_avtukovian_trading_company:0 "Avtukovian Trade Company"
+ 
 
 ###DECISION LOCALISATION###
  decisioncat_avt_civilwartsar:0 "Solidify Control"
