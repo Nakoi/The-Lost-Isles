@@ -133,29 +133,6 @@
  KAE_air_ship_upgrade_02_desc:0 ""
  KAE_airskirmisher_uprade_01:0 "Air Skirmisher Improvements"
  KAE_airskirmisher_uprade_01_desc:0 ""
- KAE_politics:0 "To Achieve Unification"
- KAE_politics_desc:0 ""
- KAE_rightfully_ours:0 "Pacify the Reclaimed Territories"
- KAE_rightfully_ours_desc:0 ""
- KAE_unuo_territories:0 "North-Western Pacification Campaign"
- KAE_unuo_territories_desc:0 ""
- KAE_rinto_territories:0 "Northern Pacification Campaign"
- KAE_rinto_territories_desc:0 ""
- KAE_ashi_territories:0 "North-Eastern Pacification Campaign"
- KAE_ashi_territories_desc:0 ""
- KAE_Envoy_to_esun:0 "Envoy to Esun"
- KAE_Envoy_to_esun_desc:0 ""
- KAE_clan_wai_claims:0 "Test their Mettle"
- KAE_clan_wai_claims_desc:0 ""
- KAE_denounce_sunotia:0 "Denounce the Avian Imperialists"
- KAE_denounce_sunotia_desc:0 ""
- KAE_rally_the_people:0 "Rally the People"
- KAE_rally_the_people_desc:0 ""
- KAE_bring_them_war:0 "Bring them War"
- KAE_Envoy_to_cilarine:0 "Envoy to the Mercenary State"
- KAE_Envoy_to_cilarine_desc:0 ""
- KAE_talks_about_an_allience:0 "Mutual Benefits"
- KAE_talks_about_an_allience_desc:0 ""
 
 ###IDEA LOCALISATION###
  KAE_cucked_gulf_01:0 "Cut Off from the Open Seas"
@@ -177,8 +154,6 @@
  KAE_officer_training_02:0 "Officer Training"
  KAE_officer_training_03:0 "Officer Training"
  KAE_ootari_workshop_idea:0 "The Workshop of Ootari"
- KAE_free_trade_alliance_bonus_KAE:0 "Mutual Benefits"
- KAE_free_trade_alliance_bonus_CIL:0 "Mutual Benefits"
 
 ###DECISION LOCALISATION###
  decisioncat_kae_starting_cilarine_trade:0 "The Negotiations of 957"
@@ -188,11 +163,6 @@
  KAE_buy_cilarine_cannons_decision:0 "Purchase Cannons"
  KAE_hire_cilarine_airskirms_decision:0 "Hire More Mercenaries"
  
- decisioncat_kae_decisions:0 "Pacification Campaign"
- KAE_core_unuo:0 "Integrate the Northwest"
- KAE_core_rinto:0 "Integrate the North"
- KAE_core_ashi:0 "Integrate the Northeast"
-
 ###EVENT LOCALISATION ###
  kae_startevent.0.t:0 "0"
  kae_startevent.0.d:0 ""
