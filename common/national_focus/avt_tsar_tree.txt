@@ -2818,6 +2818,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_colonial_infrastructure
+		icon = AVT_GFX_Colonial_Infrastructure
 		prerequisite = { focus = AVT_subjugate_primitives focus = AVT_diplomatic_approach }
 		x = 6
 		y = 5
@@ -2872,6 +2873,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_avtukovian_administration
+		icon = AVT_GFX_Avtukovian_Administration
 		prerequisite = { focus = AVT_subjugate_primitives focus = AVT_diplomatic_approach }
 		x = 4
 		y = 5
@@ -2900,6 +2902,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_local_collaborators
+		icon = AVT_GFX_Colaborators
 		prerequisite = { focus = AVT_subjugate_primitives focus = AVT_diplomatic_approach }
 		x = 8
 		y = 5
@@ -2925,6 +2928,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_expand_empire
+		icon = AVT_GFX_Expand_Empire
 		prerequisite = { focus = AVT_colonial_infrastructure }
 		x = 6
 		y = 6
@@ -2940,6 +2944,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_mine_expansion
+		icon = AVT_GFX_MineExpansion
 		prerequisite = { focus = AVT_colonial_infrastructure }
 		x = 4
 		y = 6
@@ -2988,6 +2993,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_local_luxuries
+		icon = AVT_GFX_Local_Luxuries
 		prerequisite = { focus = AVT_colonial_infrastructure }
 		x = 8
 		y = 6
@@ -3029,6 +3035,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_underwater_compliance
+		icon = AVT_GFX_Underwater_Question
 		prerequisite = { focus = AVT_expand_empire }
 		x = 5
 		y = 7
@@ -3101,6 +3108,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_leash_the_dogs
+		icon = AVT_GFX_Leash_Dogs
 		prerequisite = { focus = AVT_expand_empire }
 		x = 7
 		y = 7
@@ -3173,6 +3181,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_new_kingdom
+		icon = AVT_GFX_Eternal_Empire
 		prerequisite = { focus = AVT_underwater_compliance }
 		prerequisite = { focus = AVT_leash_the_dogs }
 		x = 6
