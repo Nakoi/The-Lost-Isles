@@ -1,0 +1,11 @@
+units = {
+	fleet = {
+		name = "Dew Lily"			
+		naval_base = 628
+		task_force = {
+			name = "Task Force Dew Lily"
+			location = 628
+			ship = { name = "IANS Dew Lily" definition = ship_of_line start_experience_factor = 0.2 equipment = { ship_hull_heavy_3 = { amount = 1 owner = AVT version_name = "Pioner Class" } } }
+		}
+	}
+}
