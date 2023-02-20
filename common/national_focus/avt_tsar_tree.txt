@@ -1922,6 +1922,7 @@ focus_tree = {
 			}
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = AVT_designer_mysticorp
+			show_ideas_tooltip = AVT_designer_maplewood
 		}
 	}
 	
@@ -3616,7 +3617,22 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			385 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			377 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -3627,13 +3643,15 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = AVT_avtukovian_shipbuilding
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_gracemare_shipping
+			navy_experience = 10
 		}
 	}
 	
@@ -3644,13 +3662,16 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = AVT_avtukovian_shipbuilding
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_bacsg
+			navy_experience = 50
+			add_political_power = -50
 		}
 	}
 	
@@ -3661,13 +3682,15 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = AVT_avtukovian_shipbuilding
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_oskil_verft
+			navy_experience = 25
 		}
 	}
 	
@@ -3683,7 +3706,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 2
+				category = naval_doctrine
+			}
 		}
 	}
 	
@@ -3699,7 +3726,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			382 = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -3716,7 +3750,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = naval_equipment
+			}
 		}
 	}
 	
@@ -3732,8 +3770,12 @@ focus_tree = {
 			factor = 5
 		}
 		
+		available = {
+			has_tech = tech_logistics_company
+		}
+		
 		completion_reward = {
-			
+			load_oob = AVT_COLONIALTROOPS
 		}
 	}
 	
@@ -3750,7 +3792,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_ideas = AVT_avtukovian_trading_company
 		}
 	}
 	
@@ -3765,8 +3807,46 @@ focus_tree = {
 			factor = 5
 		}
 		
+		available = {
+			IF = {
+				limit = { has_dlc = "Man the Guns" }
+				has_tech = heavy_ship_tech_3
+				has_tech = spotting_equipment_2
+				has_tech = breech_loaded_cannons
+				has_tech = gatling_gun
+				has_tech = improved_carronade
+			}
+			ELSE = {
+				has_tech = heavy_ship_poverty_3
+			}
+		}
+		
 		completion_reward = {
-			
+			IF = {
+				limit = { has_dlc = "Man the Guns" }
+				create_equipment_variant = {
+					name = "Dew Lily Class"								
+					type = ship_hull_heavy_3
+					modules = {
+						fixed_ship_battery_slot = heavy_naval_battery_3
+						fixed_ship_anti_air_slot = naval_anti_air_2
+						fixed_ship_fire_control_system_slot = spotting_equipment_2
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = ship_of_the_line_propulsion_3
+						fixed_ship_armor_slot = heavy_planking_3
+						front_1_custom_slot = naval_carronades_2
+						mid_1_custom_slot = heavy_naval_battery_3
+						mid_3_custom_slot = heavy_naval_battery_3
+						mid_2_custom_slot = light_naval_battery_3
+						mid_4_custom_slot = light_naval_battery_3
+						rear_1_custom_slot = naval_anti_air_2
+					}
+				}
+				load_oob = "AVT_IANS_DEW_LILY"
+				
+				ELSE = {
+				}
+			}
 		}
 	}
 	
