@@ -19,8 +19,8 @@ focus_tree = {
 ########################
 
 	focus = {
-		id = GAL_Elections
-		x = 10
+		id = GAL_Crisis
+		x = 0
 		y = 0
 		cost = 2
 		ai_will_do = {
@@ -33,56 +33,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GAL_Democrats_Remain
-		prerequisite = { focus = GAL_Elections }
-		x = 0
-		y = 1
-		relative_position_id = GAL_Elections
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-
-	focus = {
-		id = GAL_Yarl_Influence
-		prerequisite = { focus = GAL_Elections }
-		x = 2
-		y = 1
-		relative_position_id = GAL_Elections
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = GAL_Imperial_Influence
-		prerequisite = { focus = GAL_Elections }
-		x = -2
-		y = 1
-		relative_position_id = GAL_Elections
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-		}
-	}
-
-
-	focus = {
 		id = GAL_Imperial_Expansion
-		prerequisite = { focus = GAL_Imperial_Influence focus = GAL_Democrats_Remain }
+		prerequisite = { focus = GAL_Crisis }
 		mutually_exclusive = { focus = GAL_Continueism_Support }
 		x = -1
-		y = 2
-		relative_position_id = GAL_Elections
+		y = 1
+		relative_position_id = GAL_Crisis
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -94,11 +50,11 @@ focus_tree = {
 
 	focus = {
 		id = GAL_Continueism_Support
-		prerequisite = { focus = GAL_Yarl_Influence focus = GAL_Democrats_Remain }
+		prerequisite = { focus = GAL_Crisis }
 		mutually_exclusive = { focus = GAL_Imperial_Expansion }
 		x = 1
-		y = 2
-		relative_position_id = GAL_Elections
+		y = 1
+		relative_position_id = GAL_Crisis
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -110,12 +66,29 @@ focus_tree = {
 
 #Military Expansion 
 
+
+	focus = {
+		id = GAL_Gallund_Army
+		prerequisite = { focus = GAL_Continueism_Support focus = GAL_Imperial_Expansion }
+		x = -13
+		y = 2
+		relative_position_id = GAL_Crisis
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
 	focus = {
 		id = GAL_Recruit_Posters
-		prerequisite = { focus = GAL_Continueism_Support focus = GAL_Imperial_Expansion }
+		prerequisite = { focus = GAL_Gallund_Army }
 		x = 0
-		y = 3
-		relative_position_id = GAL_Elections
+		y = 1
+		relative_position_id = GAL_Gallund_Army
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -128,10 +101,10 @@ focus_tree = {
 
 	focus = {
 		id = GAL_Fresh_recruits
-		prerequisite = { focus = GAL_Continueism_Support focus = GAL_Imperial_Expansion }
+		prerequisite = { focus = GAL_Gallund_Army }
 		x = 2
-		y = 3
-		relative_position_id = GAL_Elections
+		y = 1
+		relative_position_id = GAL_Gallund_Army
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -143,10 +116,10 @@ focus_tree = {
 
 	focus = {
 		id = GAL_Weapon_Imports
-		prerequisite = { focus = GAL_Continueism_Support focus = GAL_Imperial_Expansion }
+		prerequisite = { focus = GAL_Gallund_Army }
 		x = -2
-		y = 3
-		relative_position_id = GAL_Elections
+		y = 1
+		relative_position_id = GAL_Gallund_Army
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -159,8 +132,8 @@ focus_tree = {
 		id = GAL_Officer_training
 		prerequisite = { focus = GAL_Recruit_Posters focus = GAL_Fresh_recruits focus = GAL_Weapon_Imports }
 		x = 1
-		y = 4
-		relative_position_id = GAL_Elections
+		y = 2
+		relative_position_id = GAL_Gallund_Army
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -175,8 +148,8 @@ focus_tree = {
 		id = GAL_Warrions_spirit
 		prerequisite = { focus = GAL_Recruit_Posters focus = GAL_Fresh_recruits focus = GAL_Weapon_Imports }
 		x = -1
-		y = 4
-		relative_position_id = GAL_Elections
+		y = 2
+		relative_position_id = GAL_Gallund_Army
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -190,8 +163,8 @@ focus_tree = {
 		id = GAL_Deffensive_line
 		prerequisite = { focus = GAL_Warrions_spirit focus = GAL_Officer_training }
 		x = 0
-		y = 5
-		relative_position_id = GAL_Elections
+		y = 3
+		relative_position_id = GAL_Gallund_Army
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -200,14 +173,64 @@ focus_tree = {
 		}
 	}
 
+
+	focus = {
+		id = GAL_Service_Requirement
+		prerequisite = { focus = GAL_Recruit_Posters focus = GAL_Fresh_recruits focus = GAL_Weapon_Imports }
+		x = -3
+		y = 2
+		relative_position_id = GAL_Gallund_Army
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = GAL_Service_Requirement_1
+		prerequisite = { focus = GAL_Service_Requirement }
+		x = -4
+		y = 3
+		relative_position_id = GAL_Gallund_Army
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = GAL_Service_Requirement_2
+		prerequisite = { focus = GAL_Service_Requirement }
+		x = -2
+		y = 3
+		relative_position_id = GAL_Gallund_Army
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+
 #Industry & Buildings
 
 	focus = {
 		id = GAL_Boost_rail_infrastructure
 		prerequisite = { focus = GAL_Imperial_Expansion focus = GAL_Continueism_Support }
-		x = -6
-		y = 3
-		relative_position_id = GAL_Elections
+		x = -7
+		y = 2
+		relative_position_id = GAL_Crisis
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -345,6 +368,22 @@ focus_tree = {
 	}
 
 
+	focus = {
+		id = GAL_Revolution
+		prerequisite = { focus = GAL_Supply_hubs }
+		prerequisite = { focus = GAL_Farming_Investments }
+		x = 0
+		y = 4
+		relative_position_id = GAL_Boost_rail_infrastructure
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
 
 #Politics
 
@@ -352,8 +391,8 @@ focus_tree = {
 		id = GAL_Aggressive_Politics
 		prerequisite = { focus = GAL_Imperial_Expansion focus = GAL_Continueism_Support }
 		x = 6
-		y = 3
-		relative_position_id = GAL_Elections
+		y = 2
+		relative_position_id = GAL_Crisis
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -479,8 +518,8 @@ focus_tree = {
 
 	focus = {
 		id = GAL_Colonial_Sights
-		prerequisite = { focus = GAL_Claim_Oskil_parts}
-		x = 4
+		prerequisite = { focus = GAL_Claim_Oskil_parts  focus = GAL_Plan_The_Offensive}
+		x = -3s
 		y = 3
 		relative_position_id = GAL_Aggressive_Politics
 		cost = 10
@@ -496,9 +535,9 @@ focus_tree = {
 	focus = {
 		id = GAL_Prepare_Our_Navy
 		prerequisite = { focus = GAL_Colonial_Sights}
-		x = 3
-		y = 4
-		relative_position_id = GAL_Aggressive_Politics
+		x = -1
+		y = 1
+		relative_position_id = GAL_Colonial_Sights
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -512,9 +551,9 @@ focus_tree = {
 	focus = {
 		id = GAL_Harbor_Expansion
 		prerequisite = { focus = GAL_Colonial_Sights}
-		x = 5
-		y = 4
-		relative_position_id = GAL_Aggressive_Politics
+		x = 1
+		y = 1
+		relative_position_id = GAL_Colonial_Sights
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -528,9 +567,9 @@ focus_tree = {
 	focus = {
 		id = GAL_Outpost_Construction
 		prerequisite = { focus = GAL_Harbor_Expansion focus = GAL_Prepare_Our_Navy }
-		x = 4
-		y = 5
-		relative_position_id = GAL_Aggressive_Politics
+		x = 0
+		y = 2
+		relative_position_id = GAL_Colonial_Sights
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -542,9 +581,9 @@ focus_tree = {
 	focus = {
 		id = GAL_Settlement_Investments
 		prerequisite = { focus = GAL_Harbor_Expansion focus = GAL_Prepare_Our_Navy }
-		x = 6
-		y = 5
-		relative_position_id = GAL_Aggressive_Politics
+		x = 2
+		y = 2
+		relative_position_id = GAL_Colonial_Sights
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -557,9 +596,9 @@ focus_tree = {
 	focus = {
 		id = GAL_Infrastructure_Planning
 		prerequisite = { focus = GAL_Harbor_Expansion focus = GAL_Prepare_Our_Navy }
-		x = 2
-		y = 5
-		relative_position_id = GAL_Aggressive_Politics
+		x = -2
+		y = 2
+		relative_position_id = GAL_Colonial_Sights
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -572,9 +611,9 @@ focus_tree = {
 	focus = {
 		id = GAL_Plantation_Import
 		prerequisite = { focus = GAL_Settlement_Investments focus = GAL_Outpost_Construction focus = GAL_Infrastructure_Planning}
-		x = 3
-		y = 6
-		relative_position_id = GAL_Aggressive_Politics
+		x = -1
+		y = 3
+		relative_position_id = GAL_Colonial_Sights
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -588,9 +627,9 @@ focus_tree = {
 	focus = {
 		id = GAL_Import_Tax
 		prerequisite = { focus = GAL_Settlement_Investments focus = GAL_Outpost_Construction focus = GAL_Infrastructure_Planning}
-		x = 5
-		y = 6
-		relative_position_id = GAL_Aggressive_Politics
+		x = 1
+		y = 3
+		relative_position_id = GAL_Colonial_Sights
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -602,9 +641,278 @@ focus_tree = {
 	focus = {
 		id = GAL_Colonial_Rule
 		prerequisite = { focus = GAL_Plantation_Import focus = GAL_Import_Tax}
-		x = 4
-		y = 7
-		relative_position_id = GAL_Aggressive_Politics
+		x = 0
+		y = 4
+		relative_position_id = GAL_Colonial_Sights
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+#Navy tree 
+
+	focus = {
+		id = GAL_Navy_focus_01
+		#sprerequisite = { focus = GAL_Plantation_Import focus = GAL_Import_Tax}
+		x = -11
+		y = 6
+		relative_position_id = GAL_Crisis
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GAL_Navy_focus_02
+		prerequisite = { focus = GAL_Navy_focus_01}
+		x = 1
+		y = 1
+		relative_position_id = GAL_Navy_focus_01
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GAL_Navy_focus_03
+		prerequisite = { focus = GAL_Navy_focus_01}
+		x = -1
+		y = 1
+		relative_position_id = GAL_Navy_focus_01
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = GAL_Navy_focus_04
+		prerequisite = { focus = GAL_Navy_focus_01}
+		x = 0
+		y = 2
+		relative_position_id = GAL_Navy_focus_01
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+#Air
+
+	focus = {
+		id = GAL_Air_focus_01
+		#sprerequisite = { focus = GAL_Plantation_Import focus = GAL_Import_Tax}
+		x = -15
+		y = 6
+		relative_position_id = GAL_Crisis
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GAL_Air_focus_02
+		prerequisite = { focus = GAL_Air_focus_01 }
+		x = 1
+		y = 1
+		relative_position_id = GAL_Air_focus_01
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GAL_Air_focus_03
+		prerequisite = { focus = GAL_Air_focus_01}
+		x = -1
+		y = 1
+		relative_position_id = GAL_Air_focus_01
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = GAL_Air_focus_04
+		prerequisite = { focus = GAL_Air_focus_01}
+		x = 0
+		y = 2
+		relative_position_id = GAL_Air_focus_01
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GAL_Central
+		prerequisite = { focus = GAL_Imperial_Expansion}
+		x = 0
+		y = 2
+		relative_position_id = GAL_Crisis
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = GAL_Yarl_Influence
+		prerequisite = { focus = GAL_Central}
+		x = -1
+		y = 3
+		relative_position_id = GAL_Crisis
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = GAL_Imperial_war_propaganda
+		prerequisite = { focus = GAL_Central}
+		x = 1
+		y = 3
+		relative_position_id = GAL_Crisis
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+
+	focus = {
+		id = GAL_Backed_by_the_Companies
+		prerequisite = { focus = GAL_Yarl_Influence}
+		x = -2
+		y = 4
+		relative_position_id = GAL_Crisis
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = GAL_Public_Support
+		prerequisite = { focus = GAL_Yarl_Influence}
+		prerequisite = { focus = GAL_Imperial_war_propaganda}
+		x = 0
+		y = 4
+		relative_position_id = GAL_Crisis
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = GAL_Plan_The_Offensive
+		prerequisite = { focus = GAL_Imperial_war_propaganda}
+		x = 2
+		y = 4
+		relative_position_id = GAL_Crisis
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = GAL_Rally_For_The_Cause
+		prerequisite = { focus = GAL_Backed_by_the_Companies}
+		prerequisite = { focus = GAL_Public_Support}
+		x = -1
+		y = 5
+		relative_position_id = GAL_Crisis
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = GAL_Emergency_Arms_Factories
+		prerequisite = { focus = GAL_Plan_The_Offensive}
+		prerequisite = { focus = GAL_Public_Support}
+		x = 1
+		y = 5
+		relative_position_id = GAL_Crisis
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+
+
+	focus = {
+		id = GAL_Imperial_War
+		prerequisite = { focus = GAL_Emergency_Arms_Factories}
+		prerequisite = { focus = GAL_Rally_For_The_Cause}
+		x = 0
+		y = 6
+		relative_position_id = GAL_Crisis
 		cost = 10
 		ai_will_do = {
 			factor = 5
