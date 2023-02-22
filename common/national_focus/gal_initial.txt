@@ -1,16 +1,17 @@
 focus_tree = {
-    id = generic_focus
+    id = gal_main_focus
 
-    country = {
-        factor = 1
-    }
+	country = {
+			factor = 0
 
-    default = yes
+			modifier = {
+				add = 10
+				tag = GAL
+			}
+		}
+    default = no
     reset_on_civilwar = no
 	
-	initial_show_position = {
-		focus = genfoc_defining_our_future
-	}
 
     continuous_focus_position = { x = 800 y = 1300 }
 	
@@ -435,7 +436,7 @@ focus_tree = {
 
 
 	focus = {
-		id = GAL_Claim_Oskil_parts
+		id = GAL_emergency_divisions
 		prerequisite = { focus = GAL_Gather_Old_Maps focus = GAL_Establish_Our_Intentions}
 		x = 2
 		y = 2
@@ -452,7 +453,7 @@ focus_tree = {
 
 
 	focus = {
-		id = GAL_Avtukov_parts
+		id = GAL_war_factories
 		prerequisite = { focus = GAL_Gather_Old_Maps focus = GAL_Establish_Our_Intentions}
 		x = -2
 		y = 2
@@ -467,7 +468,7 @@ focus_tree = {
 
 
 	focus = {
-		id = GAL_Asteria
+		id = GAL_Fortify_Our_Border
 		prerequisite = { focus = GAL_Gather_Old_Maps focus = GAL_Establish_Our_Intentions}
 
 		x = 0
@@ -483,8 +484,8 @@ focus_tree = {
 
 
 	focus = {
-		id = GAL_Claim_Without_war
-		prerequisite = { focus = GAL_Claim_Oskil_parts focus = GAL_Avtukov_parts  focus = GAL_Asteria}
+		id = GAL_wait_for_the_storm
+		prerequisite = { focus = GAL_emergency_divisions focus = GAL_war_factories  focus = GAL_Fortify_Our_Border}
 		mutually_exclusive = { focus = GAL_Claim_With_War }
 		x = -1
 		y = 3
@@ -500,8 +501,8 @@ focus_tree = {
 
 
 	focus = {
-		id = GAL_Claim_With_War
-		prerequisite = { focus = GAL_Claim_Oskil_parts focus = GAL_Avtukov_parts  focus = GAL_Asteria}
+		id = GAL_engage_the_enemey
+		prerequisite = { focus = GAL_emergency_divisions focus = GAL_war_factories  focus = GAL_Fortify_Our_Border}
 		mutually_exclusive = { focus = GAL_Claim_Without_war }
 		x = 1
 		y = 3
