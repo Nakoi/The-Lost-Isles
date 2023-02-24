@@ -1946,7 +1946,7 @@ focus_tree = {
 
 
 	focus = {
-		id = KAE_wrongful_treatment
+		id = KAE_fixing_commandstructures
 		x = -15
 		y = 6
 		relative_position_id = KAE_negotiations
@@ -1988,140 +1988,11 @@ focus_tree = {
 
 
 	focus = {
-		id = KAE_underground_support
-		prerequisite = { focus = KAE_wrongful_treatment }
-		x = 0
-		y = 1
-		relative_position_id = KAE_wrongful_treatment
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		completion_reward = {
-			country_event = { id = kae_startevent.5 }
-		}
-	}
-
-
-	focus = {
-		id = KAE_contact_rogue_militias
-		prerequisite = { focus = KAE_wrongful_treatment }
-		x = 2
-		y = 1
-		relative_position_id = KAE_wrongful_treatment
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		completion_reward = {
-			country_event = { id = kae_startevent.5 }
-		}
-	}
-
-
-
-	focus = {
-		id = KAE_stolen_supplies
-		prerequisite = { focus = KAE_wrongful_treatment }
-		x = -2
-		y = 1
-		relative_position_id = KAE_wrongful_treatment
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		completion_reward = {
-			country_event = { id = kae_startevent.5 }
-		}
-	}
-
-
-
-	focus = {
-		id = KAE_repair_the_agriculture
-		prerequisite = { focus = KAE_stolen_supplies }
-		x = -2
-		y = 3
-		relative_position_id = KAE_wrongful_treatment
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		completion_reward = {
-			country_event = { id = kae_startevent.5 }
-		}
-	}
-
-
-	focus = {
-		id = KAE_support_the_people
-		prerequisite = { focus = KAE_contact_rogue_militias }
-		x = 2
-		y = 3
-		relative_position_id = KAE_wrongful_treatment
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		completion_reward = {
-			country_event = { id = kae_startevent.5 }
-		}
-	}
-
-
-
-	focus = {
-		id = KAE_request_assistance
-		prerequisite = { focus = KAE_underground_support }
-		x = 1
-		y = 2
-		relative_position_id = KAE_wrongful_treatment
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		completion_reward = {
-			country_event = { id = kae_startevent.5 }
-		}
-	}
-
-
-	focus = {
-		id = KAE_basic_workshops
-		prerequisite = { focus = KAE_underground_support }
+		id = KAE_recover_our_frontlines
+		prerequisite = { focus = KAE_fixing_commandstructures }
 		x = -1
-		y = 2
-		relative_position_id = KAE_wrongful_treatment
+		y = 1
+		relative_position_id = KAE_fixing_commandstructures
 		cost = 3
 		ai_will_do = {
 			factor = 5
@@ -2138,57 +2009,11 @@ focus_tree = {
 
 
 	focus = {
-		id = KAE_militia_support
-		prerequisite = { focus = KAE_basic_workshops }
-		prerequisite = { focus = KAE_request_assistance }
-		x = 0
-		y = 3
-		relative_position_id = KAE_wrongful_treatment
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		completion_reward = {
-			country_event = { id = kae_startevent.5 }
-		}
-	}
-
-	focus = {
-		id = KAE_makeshift_forts
-		prerequisite = { focus = KAE_militia_support }
-		prerequisite = { focus = KAE_repair_the_agriculture }
-		prerequisite = { focus = KAE_support_the_people }
-		x = -1
-		y = 4
-		relative_position_id = KAE_wrongful_treatment
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		completion_reward = {
-			country_event = { id = kae_startevent.5 }
-		}
-	}
-
-
-	focus = {
-		id = KAE_basic_command_structure
-		prerequisite = { focus = KAE_militia_support }
-		prerequisite = { focus = KAE_repair_the_agriculture }
-		prerequisite = { focus = KAE_support_the_people }
+		id = KAE_light_the_war_economy
+		prerequisite = { focus = KAE_fixing_commandstructures }
 		x = 1
-		y = 4
-		relative_position_id = KAE_wrongful_treatment
+		y = 1
+		relative_position_id = KAE_fixing_commandstructures
 		cost = 3
 		ai_will_do = {
 			factor = 5
@@ -2204,13 +2029,180 @@ focus_tree = {
 	}
 
 
+
 	focus = {
-		id = KAE_defense_against_kae
-		prerequisite = { focus = KAE_basic_command_structure }
-		prerequisite = { focus = KAE_makeshift_forts }
+		id = KAE_response_units
+		prerequisite = { focus = KAE_light_the_war_economy }
+		prerequisite = { focus = KAE_recover_our_frontlines }
 		x = 0
-		y = 5
-		relative_position_id = KAE_wrongful_treatment
+		y = 2
+		relative_position_id = KAE_fixing_commandstructures
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_war = no
+		}
+		
+		completion_reward = {
+			country_event = { id = kae_startevent.5 }
+		}
+	}
+
+
+
+
+	focus = {
+		id = KAE_root_out_any_traitors
+		prerequisite = { focus = KAE_light_the_war_economy }
+		prerequisite = { focus = KAE_recover_our_frontlines }
+		x = -2
+		y = 2
+		relative_position_id = KAE_fixing_commandstructures
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_war = no
+		}
+		
+		completion_reward = {
+			country_event = { id = kae_startevent.5 }
+		}
+	}
+
+
+
+	focus = {
+		id = KAE_weapon_supplies
+		prerequisite = { focus = KAE_light_the_war_economy }
+		prerequisite = { focus = KAE_recover_our_frontlines }
+		x = -2
+		y = 2
+		relative_position_id = KAE_fixing_commandstructures
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_war = no
+		}
+		
+		completion_reward = {
+			country_event = { id = kae_startevent.5 }
+		}
+	}
+
+
+
+	focus = {
+		id = KAE_offensive_plans
+		prerequisite = { focus = KAE_light_the_war_economy }
+		prerequisite = { focus = KAE_recover_our_frontlines }
+		x = 2
+		y = 2
+		relative_position_id = KAE_fixing_commandstructures
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_war = no
+		}
+		
+		completion_reward = {
+			country_event = { id = kae_startevent.5 }
+		}
+	}
+
+
+
+
+	focus = {
+		id = KAE_war_propaganda
+		prerequisite = { focus = KAE_root_out_any_traitors }
+		prerequisite = { focus = KAE_weapon_supplies }
+		prerequisite = { focus = KAE_offensive_plans }
+		x = 1
+		y = 3
+		relative_position_id = KAE_fixing_commandstructures
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_war = no
+		}
+		
+		completion_reward = {
+			country_event = { id = kae_startevent.5 }
+		}
+	}
+
+
+
+	focus = {
+		id = KAE_experienced_officers
+		prerequisite = { focus = KAE_root_out_any_traitors }
+		prerequisite = { focus = KAE_weapon_supplies }
+		prerequisite = { focus = KAE_offensive_plans }
+		x = 1
+		y = 3
+		relative_position_id = KAE_fixing_commandstructures
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_war = no
+		}
+		
+		completion_reward = {
+			country_event = { id = kae_startevent.5 }
+		}
+	}
+
+
+
+	focus = {
+		id = KAE_mobilize_the_royal_guards
+		prerequisite = { focus = KAE_root_out_any_traitors }
+		prerequisite = { focus = KAE_weapon_supplies }
+		prerequisite = { focus = KAE_offensive_plans }
+		x = -1
+		y = 3
+		relative_position_id = KAE_fixing_commandstructures
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_war = no
+		}
+		
+		completion_reward = {
+			country_event = { id = kae_startevent.5 }
+		}
+	}
+
+
+
+	focus = {
+		id = KAE_outcome_of_the_wars
+		prerequisite = { focus = KAE_mobilize_the_royal_guards }
+		prerequisite = { focus = KAE_experienced_officers }
+		x = 0
+		y = 4
+		relative_position_id = KAE_fixing_commandstructures
 		cost = 3
 		ai_will_do = {
 			factor = 5
