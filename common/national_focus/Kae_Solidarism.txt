@@ -1038,7 +1038,7 @@ focus_tree = {
 	focus = {
 		id = KAE_Artillery_drills
 		prerequisite = { focus = KAE_duty_calls }	
-		x = -5
+		x = -8
 		y = 1
 		relative_position_id = KAE_duty_calls
 		cost = 10
@@ -1114,7 +1114,7 @@ focus_tree = {
 	focus = {
 		id = KAE_Army_drills
 		prerequisite = { focus = KAE_duty_calls }	
-		x = -9
+		x = -12
 		y = 1
 		relative_position_id = KAE_duty_calls
 		cost = 10
@@ -1186,7 +1186,7 @@ focus_tree = {
 	focus = {
 		id = KAE_navy_drills
 		prerequisite = { focus = KAE_duty_calls }	
-		x = -7
+		x = -10
 		y = 4
 		relative_position_id = KAE_duty_calls
 		cost = 10
@@ -1427,6 +1427,128 @@ focus_tree = {
 			}
 		}
 	}
+
+
+#Mercs
+
+
+	focus = {
+		id = KAE_merc_calls
+		prerequisite = { focus = KAE_put_the_people_to_work }
+		x = -9
+		y = 3
+		relative_position_id = KAE_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_our_duty_01
+		}
+	}
+
+
+
+
+	focus = {
+		id = KAE_merc_divisions
+		prerequisite = { focus = KAE_merc_calls }
+		x = -1
+		y = 1
+		relative_position_id = KAE_merc_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_our_duty_01
+		}
+	}
+
+
+	focus = {
+		id = KAE_merc_supplies
+		prerequisite = { focus = KAE_merc_calls }
+		x = 1
+		y = 1
+		relative_position_id = KAE_merc_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_our_duty_01
+		}
+	}
+
+
+	focus = {
+		id = KAE_merc_contracts
+		prerequisite = { focus = KAE_merc_supplies }
+		prerequisite = { focus = KAE_merc_divisions }
+		x = 0
+		y = 2
+		relative_position_id = KAE_merc_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_our_duty_01
+		}
+	}
+
+
+
+	focus = {
+		id = KAE_merc_air_skirm_pro_bono
+		prerequisite = { focus = KAE_merc_contracts }
+		x = 1
+		y = 3
+		relative_position_id = KAE_merc_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_our_duty_01
+		}
+	}
+
+
+	focus = {
+		id = KAE_merc_air_skirm_equipment
+		prerequisite = { focus = KAE_merc_contracts }
+		x = -1
+		y = 3
+		relative_position_id = KAE_merc_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_our_duty_01
+		}
+	}
+
+
+	focus = {
+		id = KAE_merc_officers_02
+		prerequisite = { focus = KAE_merc_air_skirm_pro_bono }
+		prerequisite = { focus = KAE_merc_air_skirm_equipment }
+		x = 0
+		y = 4
+		relative_position_id = KAE_merc_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_our_duty_01
+		}
+	}
+
+
 
 
 	focus = {
@@ -1988,7 +2110,7 @@ focus_tree = {
 
 
 	focus = {
-		id = KAE_recover_our_frontlines
+		id = KAE_hired_guns
 		prerequisite = { focus = KAE_fixing_commandstructures }
 		x = -1
 		y = 1
@@ -2031,9 +2153,9 @@ focus_tree = {
 
 
 	focus = {
-		id = KAE_response_units
+		id = KAE_hired_airskirmishers
 		prerequisite = { focus = KAE_light_the_war_economy }
-		prerequisite = { focus = KAE_recover_our_frontlines }
+		prerequisite = { focus = KAE_hired_guns }
 		x = 0
 		y = 2
 		relative_position_id = KAE_fixing_commandstructures
@@ -2057,7 +2179,7 @@ focus_tree = {
 	focus = {
 		id = KAE_root_out_any_traitors
 		prerequisite = { focus = KAE_light_the_war_economy }
-		prerequisite = { focus = KAE_recover_our_frontlines }
+		prerequisite = { focus = KAE_hired_guns }
 		x = -2
 		y = 2
 		relative_position_id = KAE_fixing_commandstructures
@@ -2080,7 +2202,7 @@ focus_tree = {
 	focus = {
 		id = KAE_weapon_supplies
 		prerequisite = { focus = KAE_light_the_war_economy }
-		prerequisite = { focus = KAE_recover_our_frontlines }
+		prerequisite = { focus = KAE_hired_guns }
 		x = -2
 		y = 2
 		relative_position_id = KAE_fixing_commandstructures
@@ -2149,7 +2271,7 @@ focus_tree = {
 
 
 	focus = {
-		id = KAE_experienced_officers
+		id = KAE_merc_officers
 		prerequisite = { focus = KAE_root_out_any_traitors }
 		prerequisite = { focus = KAE_weapon_supplies }
 		prerequisite = { focus = KAE_offensive_plans }
@@ -2173,7 +2295,7 @@ focus_tree = {
 
 
 	focus = {
-		id = KAE_mobilize_the_royal_guards
+		id = KAE_conscripts
 		prerequisite = { focus = KAE_root_out_any_traitors }
 		prerequisite = { focus = KAE_weapon_supplies }
 		prerequisite = { focus = KAE_offensive_plans }
@@ -2198,8 +2320,8 @@ focus_tree = {
 
 	focus = {
 		id = KAE_outcome_of_the_wars
-		prerequisite = { focus = KAE_mobilize_the_royal_guards }
-		prerequisite = { focus = KAE_experienced_officers }
+		prerequisite = { focus = KAE_conscripts }
+		prerequisite = { focus = KAE_merc_officers }
 		x = 0
 		y = 4
 		relative_position_id = KAE_fixing_commandstructures
@@ -2216,3 +2338,4 @@ focus_tree = {
 			country_event = { id = kae_startevent.5 }
 		}
 	}
+
