@@ -3869,7 +3869,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_air
+			}
+			air_experience = 25
 		}
 	}
 	
@@ -3880,13 +3885,17 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = AVT_reach_for_the_skies
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 1
+				category = strategic_airship_implementation_tree
+			}
 		}
 	}
 	
@@ -3897,13 +3906,17 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = AVT_reach_for_the_skies
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 1
+				category = air_parity_tree
+			}
 		}
 	}
 	
@@ -3919,7 +3932,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_skycarrier
+			}
 		}
 	}
 	
@@ -3935,7 +3952,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 2
+				category = air_doctrine
+			}
 		}
 	}
 	
@@ -3951,7 +3972,41 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			463 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			456 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			452 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			420 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			462 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -3967,7 +4022,41 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			403 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			411 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			404 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			414 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			412 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -3984,7 +4073,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_bombardier
+			}
 		}
 	}
 	
@@ -4001,7 +4094,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_airfrigate
+			}
 		}
 	}
 	
@@ -4017,7 +4114,17 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			384 = {	
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = crystals
+					amount = 20
+				}
+			}
 		}
 	}
 	
@@ -4033,7 +4140,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_kppd
 		}
 	}
 	
@@ -4049,7 +4157,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = category_skycruiser
+			}
 		}
 	}
 	
@@ -4066,7 +4178,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_air_skirmisher
+			}
 		}
 	}
 	
@@ -4083,7 +4199,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_air_striker
+			}
 		}
 	}
 	
@@ -4099,7 +4219,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_morechny_academy
 		}
 	}
 	
@@ -4115,7 +4236,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_ideas = AVT_straight_up_meth_bro
 		}
 	}
 	
@@ -4131,7 +4252,16 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = category_air_skirmisher
+			}
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = category_air_striker
+			}
 		}
 	}
 	
