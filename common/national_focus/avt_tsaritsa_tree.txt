@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = AVT
+            tag = ZZZ
        }
     }
 
@@ -3990,6 +3990,655 @@ focus_tree = {
 						add_core_of = AVT
 					}
 				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_avtukovian_shipbuilding_elusivetree
+		x = 19
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			385 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			377 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_on_our_own_elusivetree
+		prerequisite = { focus = AVT_avtukovian_shipbuilding_elusivetree }
+		mutually_exclusive = { focus = AVT_oac_cooperation_elusivetree focus = AVT_oskil_cooperation_elusivetree }
+		x = 0
+		y = 1
+		relative_position_id = AVT_avtukovian_shipbuilding_elusivetree
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_gracemare_shipping
+			navy_experience = 10
+		}
+	}
+	
+	focus = {
+		id = AVT_oac_cooperation_elusivetree
+		prerequisite = { focus = AVT_avtukovian_shipbuilding_elusivetree }
+		mutually_exclusive = { focus = AVT_on_our_own_elusivetree focus = AVT_oskil_cooperation_elusivetree }
+		x = -2
+		y = 1
+		relative_position_id = AVT_avtukovian_shipbuilding_elusivetree
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_bacsg
+			navy_experience = 50
+			add_political_power = -50
+		}
+	}
+	
+	focus = {
+		id = AVT_oskil_cooperation_elusivetree
+		prerequisite = { focus = AVT_avtukovian_shipbuilding_elusivetree }
+		mutually_exclusive = { focus = AVT_oac_cooperation_elusivetree focus = AVT_on_our_own_elusivetree }
+		x = 2
+		y = 1
+		relative_position_id = AVT_avtukovian_shipbuilding_elusivetree
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_oskil_verft
+			navy_experience = 25
+		}
+	}
+	
+	focus = {
+		id = AVT_naval_doctrine_studies_elusivetree
+		prerequisite = { focus = AVT_on_our_own_elusivetree focus = AVT_oac_cooperation_elusivetree focus = AVT_oskil_cooperation_elusivetree }
+		x = -1
+		y = 2
+		relative_position_id = AVT_avtukovian_shipbuilding_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_ussumki_dockyard_expansion_elusivetree
+		prerequisite = { focus = AVT_on_our_own_elusivetree focus = AVT_oac_cooperation_elusivetree focus = AVT_oskil_cooperation_elusivetree }
+		x = 1
+		y = 2
+		relative_position_id = AVT_avtukovian_shipbuilding_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			382 = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_ship_design_competition_elusivetree
+		prerequisite = { focus = AVT_naval_doctrine_studies_elusivetree }
+		prerequisite = { focus = AVT_ussumki_dockyard_expansion_elusivetree }
+		x = 0
+		y = 3
+		relative_position_id = AVT_avtukovian_shipbuilding_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = naval_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_colonial_marines_elusivetree
+		prerequisite = { focus = AVT_naval_doctrine_studies_elusivetree }
+		prerequisite = { focus = AVT_ussumki_dockyard_expansion_elusivetree }
+		x = -2
+		y = 3
+		relative_position_id = AVT_avtukovian_shipbuilding
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_tech = tech_logistics_company
+		}
+		
+		completion_reward = {
+			load_oob = AVT_COLONIALTROOPS
+		}
+	}
+	
+	focus = {
+		id = AVT_avtukovian_trade_company_elusivetree
+		prerequisite = { focus = AVT_naval_doctrine_studies_elusivetree }
+		prerequisite = { focus = AVT_ussumki_dockyard_expansion_elusivetree }
+		x = 2
+		y = 3
+		relative_position_id = AVT_avtukovian_shipbuilding_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = AVT_avtukovian_trading_company
+		}
+	}
+	
+	focus = {
+		id = AVT_dew_lily_boat_elusivetree
+		prerequisite = { focus = AVT_ship_design_competition_elusivetree }
+		x = 0
+		y = 4
+		relative_position_id = AVT_avtukovian_shipbuilding_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			IF = {
+				limit = { has_dlc = "Man the Guns" }
+				has_tech = heavy_ship_tech_3
+				has_tech = spotting_equipment_2
+				has_tech = breech_loaded_cannons
+				has_tech = gatling_gun
+				has_tech = improved_carronade
+			}
+			ELSE = {
+				has_tech = heavy_ship_poverty_3
+			}
+		}
+		
+		completion_reward = {
+			IF = {
+				limit = { has_dlc = "Man the Guns" }
+				create_equipment_variant = {
+					name = "Dew Lily Class"								
+					type = ship_hull_heavy_3
+					modules = {
+						fixed_ship_battery_slot = heavy_naval_battery_3
+						fixed_ship_anti_air_slot = naval_anti_air_2
+						fixed_ship_fire_control_system_slot = spotting_equipment_2
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = ship_of_the_line_propulsion_3
+						fixed_ship_armor_slot = heavy_planking_3
+						front_1_custom_slot = naval_carronades_2
+						mid_1_custom_slot = heavy_naval_battery_3
+						mid_3_custom_slot = heavy_naval_battery_3
+						mid_2_custom_slot = light_naval_battery_3
+						mid_4_custom_slot = light_naval_battery_3
+						rear_1_custom_slot = naval_anti_air_2
+					}
+				}
+				load_oob = "AVT_IANS_DEW_LILY"
+				
+				ELSE = {
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_reach_for_the_skies_elusivetree
+		x = 28
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_air
+			}
+			air_experience = 25
+		}
+	}
+	
+	focus = {
+		id = AVT_cloud_bliss_plan_elusivetree
+		prerequisite = { focus = AVT_reach_for_the_skies_elusivetree }
+		mutually_exclusive = { focus = AVT_dazzleflash_plan_elusivetree }
+		x = -1
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 1
+				category = strategic_airship_implementation_tree
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_dazzleflash_plan_elusivetree
+		prerequisite = { focus = AVT_reach_for_the_skies_elusivetree }
+		mutually_exclusive = { focus = AVT_cloud_bliss_plan_elusivetree }
+		x = 1
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 1
+				category = air_parity_tree
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_sky_carrier_development_elusivetree
+		prerequisite = { focus = AVT_cloud_bliss_plan_elusivetree focus = AVT_dazzleflash_plan_elusivetree }
+		x = 0
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_skycarrier
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_air_doctrine_studies_elusivetree
+		prerequisite = { focus = AVT_sky_carrier_development_elusivetree }
+		x = 0
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_southern_air_infrastructure_elusivetree
+		prerequisite = { focus = AVT_reach_for_the_skies_elusivetree }
+		x = -3
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			463 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			456 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			452 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			420 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			462 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_eastern_air_infrastructure_elusivetree
+		prerequisite = { focus = AVT_reach_for_the_skies_elusivetree }
+		x = 3
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			403 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			411 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			404 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			414 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			412 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_import_bombardiers_elusivetree
+		prerequisite = { focus = AVT_cloud_bliss_plan_elusivetree }
+		mutually_exclusive = { focus = AVT_import_air_frigates_elusivetree }
+		x = -4
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_bombardier
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_import_air_frigates_elusivetree
+		prerequisite = { focus = AVT_cloud_bliss_plan_elusivetree }
+		mutually_exclusive = { focus = AVT_import_bombardiers_elusivetree }
+		x = -2
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_airfrigate
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_aksarino_crystal_mines_elusivetree
+		prerequisite = { focus = AVT_import_bombardiers_elusivetree focus = AVT_import_air_frigates_elusivetree }
+		x = -4
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			384 = {	
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = crystals
+					amount = 20
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_airship_design_committee_elusivetree
+		prerequisite = { focus = AVT_import_bombardiers_elusivetree focus = AVT_import_air_frigates_elusivetree }
+		x = -2
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_kppd
+		}
+	}
+	
+	focus = {
+		id = AVT_sky_cruiser_experiments_elusivetree
+		prerequisite = { focus = AVT_aksarino_crystal_mines_elusivetree focus = AVT_airship_design_committee_elusivetree }
+		x = -3
+		y = 4
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = category_skycruiser
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_prioritise_air_skirmishers_elusivetree
+		prerequisite = { focus = AVT_dazzleflash_plan_elusivetree }
+		mutually_exclusive = { focus = AVT_prioritise_air_strikers_elusivetree }
+		x = 2
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_air_skirmisher
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_prioritise_air_strikers_elusivetree
+		prerequisite = { focus = AVT_dazzleflash_plan_elusivetree }
+		mutually_exclusive = { focus = AVT_prioritise_air_skirmishers_elusivetree }
+		x = 4
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_air_striker
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_skirmisher_flight_schools_elusivetree
+		prerequisite = { focus = AVT_prioritise_air_skirmishers_elusivetree focus = AVT_prioritise_air_strikers_elusivetree }
+		x = 2
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_morechny_academy
+		}
+	}
+	
+	focus = {
+		id = AVT_alchemical_stimulants_elusivetree
+		prerequisite = { focus = AVT_prioritise_air_skirmishers_elusivetree focus = AVT_prioritise_air_strikers_elusivetree }
+		x = 4
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = AVT_straight_up_meth_bro
+		}
+	}
+	
+	focus = {
+		id = AVT_perfected_skirmisher_equipment_elusivetree
+		prerequisite = { focus = AVT_skirmisher_flight_schools_elusivetree focus = AVT_alchemical_stimulants_elusivetree }
+		x = 3
+		y = 4
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = category_air_skirmisher
+			}
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = category_air_striker
 			}
 		}
 	}
