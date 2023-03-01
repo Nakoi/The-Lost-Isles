@@ -51,6 +51,14 @@
 ###CHARACTER NAMES###
  AVT_tzar_name:0 "Ivory Spark"
  AVT_tzaritsa_name:0 "Elusive Gem"
+ 
+ AVT_gen_ivy_rain_name:0 "Ivy Rain"
+ AVT_gen_shining_arrow_name:0 "Shining Arrow"
+ AVT_gen_aud_luludottir_name:0 "Aud Luludottir"
+ 
+ AVT_adv_cloud_bliss_name:0 "Cloud Bliss"
+ AVT_adv_dazzleflash_name:0 "Dazzleflash"
+ 
  AVT_adv_orchid_flame_name:0 "Orchid Flame"
  advtrait_avt_orchidtrait:0 "Military Botanics Pioneer"
  AVT_adv_blazing_oak_name:0 "Blazing Oak"
@@ -58,6 +66,7 @@
  AVT_adv_silver_sunset_name:0 "Silver Sunset"
  AVT_adv_asgeir_horaldsson_name:0 "Asgeir Horaldsson"
  advtrait_avt_horaldtrait:0 "Merchant Adventurer"
+ 
  AVT_gen_ivy_rain_name:0 "Ivy Rain"
  AVT_gen_shining_arrow_name:0 "Shining Arrow"
  AVT_gen_aud_luludottir_name:0 "Aud Luludottir"
@@ -360,7 +369,7 @@
  AVT_queen_of_battlefield_desc:0 ""
  AVT_machine_gun_development:0 "Machine Gun Development"
  
- ###FOCUS LOCALISATION - NAVY TREE###
+###FOCUS LOCALISATION - NAVY TREE###
  AVT_avtukovian_shipbuilding:0 "Avtukovian Shipbuilding"
  AVT_avtukovian_shipbuilding_desc:0 ""
  AVT_on_our_own:0 "On Our Own"
@@ -381,6 +390,42 @@
  AVT_avtukovian_trade_company_desc:0 ""
  AVT_dew_lily_boat:0 "IANS Dew Lily"
  AVT_dew_lily_boat_desc:0 ""
+ 
+###FOCUS LOCALISATION - AIR TREE###
+ AVT_reach_for_the_skies:0 "Reaching for the Sky"
+ AVT_reach_for_the_skies_desc:0 ""
+ AVT_cloud_bliss_plan:0 "Cloud Bliss' Plan"
+ AVT_cloud_bliss_plan_desc:0 ""
+ AVT_dazzleflash_plan:0 "Dazzleflash's Plan"
+ AVT_dazzleflash_plan_desc:0 ""
+ AVT_sky_carrier_development:0 "Sky Carrier Development"
+ AVT_sky_carrier_development_desc:0 ""
+ AVT_air_doctrine_studies:0 "Air Doctrine Studies"
+ AVT_southern_air_infrastructure:0 "Southern Air Infrastructure"
+ AVT_southern_air_infrastructure_desc:0 ""
+ AVT_eastern_air_infrastructure:0 "Eastern Air Infrastructure"
+ AVT_eastern_air_infrastructure_desc:0 ""
+ AVT_import_bombardiers:0 "Examine Foreign Bombardiers"
+ AVT_import_bombardiers_desc:0 ""
+ AVT_import_air_frigates:0 "Examine Foreign Air Frigates"
+ AVT_import_air_frigates_desc:0 ""
+ AVT_aksarino_crystal_mines:0 "Askarino Crystal Mines"
+ AVT_aksarino_crystal_mines_desc:0 ""
+ AVT_airship_design_committee:0 "Airship Design Committee"
+ AVT_airship_design_committee_desc:0 ""
+ AVT_sky_cruiser_experiments:0 "Sky Cruiser Experiments"
+ AVT_sky_cruiser_experiments_desc:0 ""
+ AVT_prioritise_air_skirmishers:0 "Prioritise Air Skirmishers"
+ AVT_prioritise_air_skirmishers_desc:0 ""
+ AVT_prioritise_air_strikers:0 "Prioritise Air Strikers"
+ AVT_prioritise_air_strikers_desc:0 ""
+ AVT_skirmisher_flight_schools:0 "Skirmisher Combat Flight Schools"
+ AVT_skirmisher_flight_schools_desc:0 ""
+ AVT_alchemical_stimulants:0 "Chemical Stimulants"
+ AVT_alchemical_stimulants_desc:0 ""
+ AVT_perfected_skirmisher_equipment:0 "Perfected Skirmisher Equipment"
+ AVT_perfected_skirmisher_equipment_desc:0 ""
+
 
 ###IDEA LOCALISATION###
  AVT_navy_temp_range_increase:0 "Crossing the Pond"
@@ -395,12 +440,13 @@
  AVT_idea_tribe_mistrust:0 "Tribe Mistrust"
  AVT_idea_tribe_mistrust_elusive_1:0 "Aristocratic Union"
  
- 
- AVT_designer_mysticorp:0 "Mysticorp - Magitech"
- AVT_designer_maplewood:0 "Maplewood - Rapid Construction"
  AVT_designer_gracemare_shipping:0 "Gracemarean Shipping Company - Naval Armor Design"
  AVT_designer_bacsg:0 "BACSG - High Sea Fleet Design"
  AVT_designer_oskil_verft:0 "Oskil Verft - Coastal Defence Fleet Design"
+ AVT_designer_kppd:0 "KPPD"
+ AVT_designer_morechny_academy:0 "Morechny Flight Academy"
+ AVT_designer_mysticorp:0 "Mysticorp - Magitech"
+ AVT_designer_maplewood:0 "Maplewood - Rapid Construction"
  
  
  AVT_idea_traitors_in_the_palace_1:0 "Traitors in the Palace"
@@ -476,7 +522,7 @@
  AVT_national_pony_army_idea_04:0 "Gracemarean Model Army"
  
  AVT_avtukovian_trading_company:0 "Avtukovian Trade Company"
- 
+ AVT_straight_up_meth_bro:0 "Chemical Stimulants"
 
 ###DECISION LOCALISATION###
  decisioncat_avt_civilwartsar:0 "Solidify Control"
