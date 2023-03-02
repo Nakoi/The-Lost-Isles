@@ -3397,6 +3397,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_gracemarean_army_legacy
+		icon = AVT_GFX_Legacy
 		x = 12
 		y = 0
 		cost = 5
@@ -3416,6 +3417,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_militia_expansion
+		icon = AVT_GFX_Militia_Expansion
 		prerequisite = { focus = AVT_gracemarean_army_legacy }
 		x = 0
 		y = 1
@@ -3432,6 +3434,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_doctrine_modernisation
+		icon = AVT_GFX_Doctrine_Modernasation
 		prerequisite = { focus = AVT_gracemarean_army_legacy }
 		x = 2
 		y = 1
@@ -3452,6 +3455,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_winter_warfare_expertise
+		icon = AVT_GFX_Winter_Expertise
 		prerequisite = { focus = AVT_militia_expansion }
 		prerequisite = { focus = AVT_doctrine_modernisation }
 		x = 1
@@ -3477,6 +3481,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_defensive_war_mastery
+		icon = AVT_GFX_Defensive
 		prerequisite = { focus = AVT_winter_warfare_expertise }
 		mutually_exclusive = { focus = AVT_wave_of_bodies }
 		x = 0
@@ -3497,6 +3502,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_wave_of_bodies
+		icon = AVT_GFX_Wave_Bodies
 		prerequisite = { focus = AVT_winter_warfare_expertise }
 		mutually_exclusive = { focus = AVT_defensive_war_mastery }
 		x = 2
@@ -3517,6 +3523,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_musketry_advancements
+		icon = AVT_GFX_Advancements
 		prerequisite = { focus = AVT_gracemarean_army_legacy }
 		x = -2
 		y = 1
@@ -3542,6 +3549,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_engineer_corps
+		icon = AVT_GFX_Engineer_Corps
 		prerequisite = { focus = AVT_musketry_advancements }
 		x = -2
 		y = 2
@@ -3572,6 +3580,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_queen_of_battlefield
+		icon = AVT_GFX_Queen
 		prerequisite = { focus = AVT_engineer_corps }
 		x = -2
 		y = 3
@@ -3597,6 +3606,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_machine_gun_development
+		icon = AVT_GFX_MachineGun
 		prerequisite = { focus = AVT_queen_of_battlefield }
 		prerequisite = { focus = AVT_defensive_war_mastery focus = AVT_wave_of_bodies }
 		x = 0

@@ -2701,3 +2701,366 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 } 
         }
     }
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Legacy"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Legacy.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Legacy_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Legacy.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Legacy.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Legacy.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Advancements"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Advancements.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Advancements_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Advancements.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Advancements.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Advancements.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Militia_Expansion"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Militia_Expansion.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Militia_Expansion_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Militia_Expansion.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Militia_Expansion.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Militia_Expansion.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Doctrine_Modernasation"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Doctrine_Modernasation.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Doctrine_Modernasation_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Doctrine_Modernasation.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Doctrine_Modernasation.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Doctrine_Modernasation.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Engineer_Corps"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Engineer_Corps.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Engineer_Corps_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Engineer_Corps.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Engineer_Corps.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Engineer_Corps.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Winter_Expertise"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Winter_Expertise.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Winter_Expertise_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Winter_Expertise.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Winter_Expertise.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Winter_Expertise.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Queen"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Queen.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Queen_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Queen.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Queen.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Queen.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Defensive"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Defensive.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Defensive_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Defensive.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Defensive.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Defensive.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Wave_Bodies"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Wave_Bodies.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Wave_Bodies_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Wave_Bodies.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Wave_Bodies.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Wave_Bodies.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_MachineGun"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_MachineGun.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_MachineGun_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_MachineGun.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_MachineGun.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_MachineGun.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
