@@ -3628,6 +3628,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_avtukovian_shipbuilding
+		icon = AVT_GFX_Dockyard
 		x = 19
 		y = 0
 		cost = 10
@@ -3657,6 +3658,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_on_our_own
+		icon = AVT_GFX_On_Our_Own
 		prerequisite = { focus = AVT_avtukovian_shipbuilding }
 		mutually_exclusive = { focus = AVT_oac_cooperation focus = AVT_oskil_cooperation }
 		x = 0
@@ -3676,6 +3678,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_oac_cooperation
+		icon = AVT_GFX_AOC
 		prerequisite = { focus = AVT_avtukovian_shipbuilding }
 		mutually_exclusive = { focus = AVT_on_our_own focus = AVT_oskil_cooperation }
 		x = -2
@@ -3696,6 +3699,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_oskil_cooperation
+		icon = AVT_GFX_Oskil
 		prerequisite = { focus = AVT_avtukovian_shipbuilding }
 		mutually_exclusive = { focus = AVT_oac_cooperation focus = AVT_on_our_own }
 		x = 2
@@ -3715,6 +3719,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_naval_doctrine_studies
+		icon = AVT_GFX_Dockyard_Studies
 		prerequisite = { focus = AVT_on_our_own focus = AVT_oac_cooperation focus = AVT_oskil_cooperation }
 		x = -1
 		y = 2
@@ -3735,6 +3740,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_ussumki_dockyard_expansion
+		icon = AVT_GFX_DockyardExpansion
 		prerequisite = { focus = AVT_on_our_own focus = AVT_oac_cooperation focus = AVT_oskil_cooperation }
 		x = 1
 		y = 2
@@ -3758,6 +3764,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_ship_design_competition
+		icon = AVT_GFX_Design_comp
 		prerequisite = { focus = AVT_naval_doctrine_studies }
 		prerequisite = { focus = AVT_ussumki_dockyard_expansion }
 		x = 0
@@ -3779,6 +3786,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_colonial_marines
+		icon = AVT_GFX_NavyMarines
 		prerequisite = { focus = AVT_naval_doctrine_studies }
 		prerequisite = { focus = AVT_ussumki_dockyard_expansion }
 		x = -2
@@ -3800,6 +3808,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_avtukovian_trade_company
+		icon = AVT_GFX_TradeCompany
 		prerequisite = { focus = AVT_naval_doctrine_studies }
 		prerequisite = { focus = AVT_ussumki_dockyard_expansion }
 		x = 2
@@ -4275,4 +4284,4 @@ focus_tree = {
 		}
 	}
 	
-	
+}
