@@ -3994,9 +3994,154 @@ focus_tree = {
 		}
 	}
 	
+	
+	focus = {
+		id = AVT_aristocratic_army
+		x = 8
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_windrider_gallants
+		prerequisite = { focus = AVT_aristocratic_army }
+		x = -2
+		y = 1
+		relative_position_id = AVT_aristocratic_army
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_support_artillery_development
+		prerequisite = { focus = AVT_windrider_gallants }
+		x = -2
+		y = 2
+		relative_position_id = AVT_aristocratic_army
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_cloud_artillery
+		prerequisite = { focus = AVT_support_artillery_development }
+		x = -2
+		y = 3
+		relative_position_id = AVT_aristocratic_army
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_royal_guard_expansion
+		prerequisite = { focus = AVT_aristocratic_army }
+		x = 1
+		y = 1
+		relative_position_id = AVT_aristocratic_army
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_armored_companions
+		prerequisite = { focus = AVT_royal_guard_expansion }
+		x = 1
+		y = 2
+		relative_position_id = AVT_aristocratic_army
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_help_the_wounded
+		prerequisite = { focus = AVT_armored_companions }
+		x = 0
+		y = 3
+		relative_position_id = AVT_aristocratic_army
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_tip_of_the_spear
+		prerequisite = { focus = AVT_armored_companions }
+		x = 2
+		y = 3
+		relative_position_id = AVT_aristocratic_army
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_motor_infantry_experiments
+		prerequisite = { focus = AVT_cloud_artillery }
+		prerequisite = { focus = AVT_help_the_wounded }
+		prerequisite = { focus = AVT_tip_of_the_spear }
+		x = 0
+		y = 4
+		relative_position_id = AVT_aristocratic_army
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
 	focus = {
 		id = AVT_avtukovian_shipbuilding_elusivetree
-		x = 19
+		x = 15
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -4151,7 +4296,7 @@ focus_tree = {
 		prerequisite = { focus = AVT_ussumki_dockyard_expansion_elusivetree }
 		x = -2
 		y = 3
-		relative_position_id = AVT_avtukovian_shipbuilding
+		relative_position_id = AVT_avtukovian_shipbuilding_elusivetree
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -4239,7 +4384,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_reach_for_the_skies_elusivetree
-		x = 28
+		x = 24
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -4465,7 +4610,7 @@ focus_tree = {
 		mutually_exclusive = { focus = AVT_import_bombardiers_elusivetree }
 		x = -2
 		y = 2
-		relative_position_id = AVT_reach_for_the_skies
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -4485,7 +4630,7 @@ focus_tree = {
 		prerequisite = { focus = AVT_import_bombardiers_elusivetree focus = AVT_import_air_frigates_elusivetree }
 		x = -4
 		y = 3
-		relative_position_id = AVT_reach_for_the_skies
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -4511,7 +4656,7 @@ focus_tree = {
 		prerequisite = { focus = AVT_import_bombardiers_elusivetree focus = AVT_import_air_frigates_elusivetree }
 		x = -2
 		y = 3
-		relative_position_id = AVT_reach_for_the_skies
+		relative_position_id = AVT_reach_for_the_skies_elusivetree
 		cost = 10
 		ai_will_do = {
 			factor = 5
