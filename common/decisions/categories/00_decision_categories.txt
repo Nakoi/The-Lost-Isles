@@ -50,7 +50,7 @@ decisioncat_avt_kirin_integration = {
 	}
 
 	visible = {
-		has_completed_focus = AVT_the_tzar
+		has_completed_focus = AVT_united_empire
 	}
 }
 
@@ -105,7 +105,7 @@ decisioncat_avt_tsar_colony = {
 		}
 		
 	visible = {
-		#has_completed_focus = AVT_the_tzar
+		has_completed_focus = AVT_expand_empire
 	}
 }
 
@@ -139,7 +139,28 @@ decisioncat_avt_penalcolony = {
     allowed = {
 		original_tag = AVT
 	}
-
+	
+	highlight_states = {
+		highlight_state_targets = {
+			state = 315
+			state = 317
+			state = 322
+			state = 314
+			state = 259
+			state = 261
+			state = 254
+			state = 257
+			state = 316
+			state = 253
+			state = 256
+			state = 255
+			state = 285
+			state = 258
+			state = 260
+			state = 284
+		}
+	}
+	
 	visible = {
 		has_completed_focus = AVT_dealing_with_dissent
 	}
