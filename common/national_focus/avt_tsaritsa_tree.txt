@@ -3999,13 +3999,25 @@ focus_tree = {
 		id = AVT_aristocratic_army
 		x = 8
 		y = 0
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			army_experience = 25
+			IF = {
+				limit = {
+					NOT = {
+						AVT = {
+							has_tech = special_forces_concept
+						}
+					}
+				}
+				set_technology = {
+					special_forces_concept = 1
+				}
+			}
 		}
 	}
 	
@@ -4015,13 +4027,17 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = AVT_aristocratic_army
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+                bonus = 0.75
+                uses = 2
+                category = racial
+            }
 		}
 	}
 	
@@ -4031,13 +4047,18 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = AVT_aristocratic_army
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			add_ideas = AVT_aristocratic_arty_01
+			add_tech_bonus = {
+                bonus = 0.75
+                uses = 2
+                category = artillery
+            }
 		}
 	}
 	
@@ -4047,13 +4068,16 @@ focus_tree = {
 		x = -2
 		y = 3
 		relative_position_id = AVT_aristocratic_army
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = AVT_aristocratic_arty_02
+				remove_idea = AVT_aristocratic_arty_01
+			}
 		}
 	}
 	
@@ -4063,13 +4087,13 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = AVT_aristocratic_army
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			add_ideas = AVT_aristocratic_army_01
 		}
 	}
 	
@@ -4079,13 +4103,16 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = AVT_aristocratic_army
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = AVT_aristocratic_army_02
+				remove_idea = AVT_aristocratic_army_01
+			}
 		}
 	}
 	
@@ -4095,13 +4122,22 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = AVT_aristocratic_army
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+                bonus = 0.5
+                uses = 2
+                category = category_hospital
+            }
+			add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                category = science_chemistry
+            }
 		}
 	}
 	
@@ -4111,13 +4147,17 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = AVT_aristocratic_army
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			add_doctrine_cost_reduction =  {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 	
@@ -4129,13 +4169,17 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = AVT_aristocratic_army
-		cost = 1
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+                bonus = 3
+                uses = 1
+                category = infantry_motoreq
+            }
 		}
 	}
 	
