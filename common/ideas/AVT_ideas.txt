@@ -1099,6 +1099,74 @@ ideas = {
 				attrition = -0.1
 			}
 		}
+		
+		AVT_aristocratic_arty_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			equipment_bonus = {
+				cannon_equipment = {
+					soft_attack = 0.10
+					hard_attack = 0.10
+					instant = yes
+				}
+			}
+		}
+		
+		AVT_aristocratic_arty_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				cannon_equipment = {
+					maximum_speed = 1
+					soft_attack = 0.10
+					hard_attack = 0.20
+					ap_attack = 0.25
+					instant = yes
+				}
+			}
+		}
+		
+		AVT_aristocratic_army_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				special_forces_cap = 0.2
+				special_forces_training_time_factor = 0.15
+			}
+		}
+		
+		AVT_aristocratic_army_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				special_forces_cap = 0.2
+				special_forces_training_time_factor = 0.15
+			}
+			
+			equipment_bonus = {
+				rifle_equipment = {
+					soft_attack = 0.2
+					armor_value = 1
+					instant = yes
+				}
+			}
+		}
 	
 ###NAVY/AIR TREE SHIT###
 
