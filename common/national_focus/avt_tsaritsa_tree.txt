@@ -3626,16 +3626,94 @@ focus_tree = {
 		}
 		
 		available = {
-			owns_state = 258
-			258 = {
-				compliance > 69
-				resistance < 49
+			custom_trigger_tooltip = { 
+				tooltip = AVTtt_grobimperialismus_west_prerequisites
+			}
+			custom_trigger_tooltip = { 
+				tooltip = AVTtt_grobimperialismus_west_prerequisites_stateowner
+				AVT = {
+					owns_state = 315
+					owns_state = 317
+					owns_state = 322
+					owns_state = 314
+					owns_state = 259
+					owns_state = 261
+					owns_state = 254
+					owns_state = 257
+					owns_state = 316
+					owns_state = 253
+					owns_state = 256
+					owns_state = 255
+					owns_state = 285
+					owns_state = 258
+					owns_state = 260
+					owns_state = 284
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_grobimperialismus_west_prerequisites_compliance
+				AVT = {
+					315 = { compliance > 29 }
+					317 = { compliance > 29 }
+					322 = { compliance > 29 }
+					314 = { compliance > 29 }
+					259 = { compliance > 29 }
+					261 = { compliance > 29 }
+					254 = { compliance > 29 }
+					257 = { compliance > 29 }
+					316 = { compliance > 29 }
+					253 = { compliance > 29 }
+					256 = { compliance > 29 }
+					255 = { compliance > 29 }
+					285 = { compliance > 29 }
+					258 = { compliance > 29 }
+					260 = { compliance > 29 }
+					284 = { compliance > 29 }
+					
+				}
 			}
 		}
 		
 		completion_reward = {
 			custom_effect_tooltip = AVTtt_penal_colony_independence
 			hidden_effect = {
+				AVC = {
+					transfer_state = 315
+					transfer_state = 317
+					transfer_state = 322
+					transfer_state = 314
+					transfer_state = 259
+					transfer_state = 261
+					transfer_state = 254
+					transfer_state = 257
+					transfer_state = 316
+					transfer_state = 253
+					transfer_state = 256
+					transfer_state = 255
+					transfer_state = 285
+					transfer_state = 258
+					transfer_state = 260
+					transfer_state = 284
+					
+					add_state_core = 315
+					add_state_core = 317
+					add_state_core = 322
+					add_state_core = 314
+					add_state_core = 259
+					add_state_core = 261
+					add_state_core = 254
+					add_state_core = 257
+					add_state_core = 316
+					add_state_core = 253
+					add_state_core = 256
+					add_state_core = 255
+					add_state_core = 285
+					add_state_core = 258
+					add_state_core = 260
+					add_state_core = 284
+				}
+				
 				AVC = {
 					set_capital = { state = 258 }
 					inherit_technology = AVT
@@ -3656,183 +3734,6 @@ focus_tree = {
 						puppet = AVC
 					}
 				}
-				
-				255 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 255
-							add_state_core = 255
-						}
-					}
-				}
-				256 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 256
-							add_state_core = 256
-						}
-					}
-				}
-				285 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 285
-							add_state_core = 285
-						}
-					}
-				}
-				284 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 284
-							add_state_core = 284
-						}
-					}
-				}
-				258 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 258
-							add_state_core = 258
-						}
-					}
-				}
-				260 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 260
-							add_state_core = 260
-						}
-					}
-				}
-				314 = { #TOK
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 314
-							add_state_core = 314
-						}
-					}
-				}
-				259 = { #TOK
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 259
-							add_state_core = 259
-						}
-					}
-				}
-				261 = { #TOK
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 261
-							add_state_core = 261
-						}
-					}
-				}
-				254 = { #SII
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 254
-							add_state_core = 254
-						}
-					}
-				}
-				257 = { #SII
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 257
-							add_state_core = 257
-						}
-					}
-				}
-				316 = { #SII
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 316
-							add_state_core = 316
-						}
-					}
-				}
-				253 = { #SII
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 253
-							add_state_core = 253
-						}
-					}
-				}
-				315 = { #OSH
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 315
-							add_state_core = 315
-						}
-					}
-				}
-				317 = { #OSH
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 317
-							add_state_core = 317
-						}
-					}
-				}
-				322 = { #OSH
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						AVC = {
-							transfer_state = 322
-							add_state_core = 322
-						}
-					}
-				}
 			}
 		}
 	}
@@ -3851,10 +3752,52 @@ focus_tree = {
 		}
 		
 		available = {
-			owns_state = 258
-			258 = {
-				compliance > 69
-				resistance < 49
+			custom_trigger_tooltip = { 
+				tooltip = AVTtt_grobimperialismus_west_prerequisites
+			}
+			custom_trigger_tooltip = { 
+				tooltip = AVTtt_grobimperialismus_west_prerequisites_stateowner
+				AVT = {
+					owns_state = 315
+					owns_state = 317
+					owns_state = 322
+					owns_state = 314
+					owns_state = 259
+					owns_state = 261
+					owns_state = 254
+					owns_state = 257
+					owns_state = 316
+					owns_state = 253
+					owns_state = 256
+					owns_state = 255
+					owns_state = 285
+					owns_state = 258
+					owns_state = 260
+					owns_state = 284
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_grobimperialismus_west_prerequisites_compliance
+				AVT = {
+					315 = { compliance > 29 }
+					317 = { compliance > 29 }
+					322 = { compliance > 29 }
+					314 = { compliance > 29 }
+					259 = { compliance > 29 }
+					261 = { compliance > 29 }
+					254 = { compliance > 29 }
+					257 = { compliance > 29 }
+					316 = { compliance > 29 }
+					253 = { compliance > 29 }
+					256 = { compliance > 29 }
+					255 = { compliance > 29 }
+					285 = { compliance > 29 }
+					258 = { compliance > 29 }
+					260 = { compliance > 29 }
+					284 = { compliance > 29 }
+					
+				}
 			}
 		}
 		
@@ -3862,133 +3805,23 @@ focus_tree = {
 			custom_effect_tooltip = AVTtt_penal_colony_cores
 			
 			hidden_effect = {
-				255 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				256 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				285 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				284 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				258 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				260 = { #VAL
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				314 = { #TOK
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				259 = { #TOK
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				261 = { #TOK
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				254 = { #SII
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				257 = { #SII
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				316 = { #SII
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				253 = { #SII
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				315 = { #OSH
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				317 = { #OSH
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
-				}
-				322 = { #OSH
-					IF = {
-						limit = {
-							is_owned_by = AVT
-						}
-						add_core_of = AVT
-					}
+				AVC = {
+					add_state_core = 315
+					add_state_core = 317
+					add_state_core = 322
+					add_state_core = 314
+					add_state_core = 259
+					add_state_core = 261
+					add_state_core = 254
+					add_state_core = 257
+					add_state_core = 316
+					add_state_core = 253
+					add_state_core = 256
+					add_state_core = 255
+					add_state_core = 285
+					add_state_core = 258
+					add_state_core = 260
+					add_state_core = 284
 				}
 			}
 		}
