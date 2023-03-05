@@ -1,5 +1,11 @@
 ranged_infantry_generic = {
-
+	
+	available_for = {
+		AVT
+		OSK
+		GAL
+	}
+	
 	roles = {
 		ranged_infantry
 	}
@@ -24,7 +30,7 @@ ranged_infantry_generic = {
 			}
 		}
 		
-		target_width = 20.0
+		target_width = 21.0
 		width_weight = 1.0
 		column_swap_factor = 0.5
 		
@@ -70,13 +76,24 @@ ranged_infantry_generic = {
 			weight = 1
 			match_value = 3000.0
 			
+			support = {
+				tli_sapper_company = 1
+				howitzer_frontline = 1
+				ballista_frontline = 1
+			}
+			
 			regiments = {
-				ranged_infantry = 10
+				ranged_infantry = 9
+				cannon_frontline = 1
 			}
 		}
 		
 		allowed_types = {
 			ranged_infantry
+			cannon_frontline
+			tli_sapper_company
+			howitzer_frontline
+			ballista_frontline
 		}
 	}
 }
