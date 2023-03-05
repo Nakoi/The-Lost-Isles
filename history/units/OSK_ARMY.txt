@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Rauhanturvajoukko"
+	name = "Milisregimentet"
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
@@ -13,7 +13,7 @@
 }
 
 division_template = {
-	name = "Sorkkajalkaväenprikaati"
+	name = "Infanteribrigaden"
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
@@ -23,6 +23,27 @@ division_template = {
 		ranged_infantry = { x = 1 y = 0 }
 		ranged_infantry = { x = 1 y = 1 }
 		ranged_infantry = { x = 1 y = 2 }
+		ranged_infantry = { x = 2 y = 0 }
+		ranged_infantry = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 2 }
+	}
+
+	priority = 1
+}
+
+division_template = {
+	name = "Artilleribrigade"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		cannon_frontline = { x = 2 y = 0 }
+		cannon_frontline = { x = 2 y = 1 }
 	}
 
 	priority = 1
@@ -31,44 +52,65 @@ division_template = {
 ### OOB ###
 units = {
 	division = {
-		name = "1. Vartijajääkäriprikaati"
+		name = "1. Infanteribrigaden"
 		location = 2630
-		division_template = "Sorkkajalkaväenprikaati"
-		start_experience_factor = 0.5
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "2. Vartijajääkäriprikaati"
-		location = 4071
-		division_template = "Sorkkajalkaväenprikaati"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "3. Vartijajääkäriprikaati"
+		name = "2. Infanteribrigaden"
 		location = 235
-		division_template = "Sorkkajalkaväenprikaati"
-		start_experience_factor = 0.5
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "4. Vartijajääkäriprikaati"
-		location = 217
-		division_template = "Sorkkajalkaväenprikaati"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "5. Vartijajääkäriprikaati"
+		name = "3. Infanteribrigaden"
 		location = 236
-		division_template = "Sorkkajalkaväenprikaati"
-		start_experience_factor = 0.5
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "6. Vartijajääkäriprikaati"
+		name = "4. Infanteribrigaden"
+		location = 811
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Infanteribrigaden"
+		location = 1270
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Infanteribrigaden"
 		location = 4159
-		division_template = "Sorkkajalkaväenprikaati"
-		start_experience_factor = 0.5
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1. Artilleribrigade"
+		location = 2630
+		division_template = "Artilleribrigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Artilleribrigade"
+		location = 2630
+		division_template = "Artilleribrigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Artilleribrigade"
+		location = 2630
+		division_template = "Artilleribrigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}

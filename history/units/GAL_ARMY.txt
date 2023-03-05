@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Fredsbevarande Styrka"
+	name = "Milisregemente"
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
@@ -10,6 +10,29 @@
 	}
 
 	priority = 0
+}
+
+division_template = {
+	name = "Jägarbrigaden"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		sharpshooters = { x = 0 y = 0 }
+		sharpshooters = { x = 0 y = 1 }
+		sharpshooters = { x = 0 y = 2 }
+		sharpshooters = { x = 1 y = 0 }
+		sharpshooters = { x = 1 y = 1 }
+		sharpshooters = { x = 1 y = 2 }
+		sharpshooters = { x = 2 y = 0 }
+		sharpshooters = { x = 2 y = 1 }
+		sharpshooters = { x = 2 y = 2 }
+	}
+	
+	support = 	{
+		tli_recon_company = { x = 0 y = 0 }
+	}
+
+	priority = 2
 }
 
 division_template = {
@@ -27,45 +50,20 @@ division_template = {
 		ranged_infantry = { x = 2 y = 1 }
 		ranged_infantry = { x = 2 y = 2 }
 		cannon_frontline = { x = 3 y = 0 }
-		cannon_frontline = { x = 3 y = 1 }
 	}
 	
 	support = 	{
 		ballista_support = { x = 0 y = 0 }
 		tli_sapper_company = { x = 0 y = 1 }
-		tli_recon_company = { x = 0 y = 2 }
 	}
 
 	priority = 1
 }
 
-division_template = {
-	name = "Jägarbrigaden"
-	division_names_group = SOV_INF_01
-	
-	regiments = {					
-		sharpshooters = { x = 0 y = 0 }
-		sharpshooters = { x = 0 y = 1 }
-		sharpshooters = { x = 0 y = 2 }
-		sharpshooters = { x = 1 y = 0 }
-		sharpshooters = { x = 1 y = 1 }
-		sharpshooters = { x = 1 y = 2 }
-		ranged_infantry = { x = 2 y = 0 }
-		ranged_infantry = { x = 2 y = 1 }
-		ranged_infantry = { x = 2 y = 2 }
-	}
-	
-	support = 	{
-		tli_recon_company = { x = 0 y = 0 }
-	}
-
-	priority = 2
-}
-
 ### OOB ###
 units = {
 	division = {
-		name = " 1. Brigad, Jägarkår"
+		name = "1. Brigad, Jägarkår"
 		location = 10
 		division_template = "Jägarbrigaden"
 		start_experience_factor = 0.75
@@ -73,6 +71,20 @@ units = {
 	}
 	division = {
 		name = "2. Brigad, Jägarkår"
+		location = 10
+		division_template = "Jägarbrigaden"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Brigad, Jägarkår"
+		location = 10
+		division_template = "Jägarbrigaden"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Brigad, Jägarkår"
 		location = 10
 		division_template = "Jägarbrigaden"
 		start_experience_factor = 0.75
@@ -88,35 +100,21 @@ units = {
 	}
 	division = {
 		name = "2. Brigad, Västra Kåren"
-		location = 3385
+		location = 4602
 		division_template = "Infanteribrigaden"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "3. Brigad, Västra Kåren"
-		location = 4602
+		location = 1526
 		division_template = "Infanteribrigaden"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "4. Brigad, Västra Kåren"
-		location = 4602
-		division_template = "Infanteribrigaden"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "5. Brigad, Västra Kåren"
-		location = 1526
-		division_template = "Infanteribrigaden"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "6. Brigad, Västra Kåren"
-		location = 1526
+		location = 4657
 		division_template = "Infanteribrigaden"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
@@ -131,79 +129,109 @@ units = {
 	}
 	division = {
 		name = "2. Brigad, Östra Kåren"
-		location = 2423
+		location = 4709
 		division_template = "Infanteribrigaden"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "3. Brigad, Östra Kåren"
-		location = 4709
+		location = 2036
 		division_template = "Infanteribrigaden"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "4. Brigad, Östra Kåren"
-		location = 4709
-		division_template = "Infanteribrigaden"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "5. Brigad, Östra Kåren"
-		location = 2036
-		division_template = "Infanteribrigaden"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "6. Brigad, Östra Kåren"
-		location = 2036
+		location = 2937
 		division_template = "Infanteribrigaden"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "1. Brigad, Reservkår"
-		location = 4657
-		division_template = "Infanteribrigaden"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "2. Brigad, Reservkår"
-		location = 4657
-		division_template = "Infanteribrigaden"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "3. Brigad, Reservkår"
+		name = "1. Brigad, Reservarmén"
 		location = 1779
 		division_template = "Infanteribrigaden"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "4. Brigad, Reservkår"
+		name = "2. Brigad, Reservarmén"
 		location = 4586
 		division_template = "Infanteribrigaden"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "5. Brigad, Reservkår"
+		name = "3. Brigad, Reservarmén"
 		location = 2539
 		division_template = "Infanteribrigaden"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "6. Brigad, Reservkår"
+		name = "4. Brigad, Reservarmén"
 		location = 4675
 		division_template = "Infanteribrigaden"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "5. Brigad, Reservarmén"
+		location = 3111
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "6. Brigad, Reservarmén"
+		location = 3111
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "7. Brigad, Reservarmén"
+		location = 2578
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "8. Brigad, Reservarmén"
+		location = 2578
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "9. Brigad, Reservarmén"
+		location = 96
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "10. Brigad, Reservarmén"
+		location = 4135
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "11. Brigad, Reservarmén"
+		location = 332
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "12. Brigad, Reservarmén"
+		location = 3287
+		division_template = "Infanteribrigaden"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}

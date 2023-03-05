@@ -13,51 +13,7 @@
 }
 
 division_template = {
-	name = "Rat' Pekhoty"
-	division_names_group = SOV_INF_01
-	
-	regiments = {					
-		ranged_infantry = { x = 0 y = 0 }
-		ranged_infantry = { x = 0 y = 1 }
-		ranged_infantry = { x = 0 y = 2 }
-		ranged_infantry = { x = 1 y = 0 }
-		ranged_infantry = { x = 1 y = 1 }
-		ranged_infantry = { x = 1 y = 2 }
-	}
-	
-	support = 	{
-		cannon_support = { x = 0 y = 0 }
-	}
-
-	priority = 1
-}
-
-division_template = {
-	name = "Pegazskaya Rat'"
-	division_names_group = SOV_INF_01
-	
-	regiments = {					
-		wind_riders = { x = 0 y = 0 }
-		wind_riders = { x = 0 y = 1 }
-		wind_riders = { x = 0 y = 2 }
-		wind_riders = { x = 0 y = 3 }
-		wind_riders = { x = 0 y = 4 }
-		wind_riders = { x = 1 y = 0 }
-		wind_riders = { x = 1 y = 1 }
-		wind_riders = { x = 1 y = 2 }
-		wind_riders = { x = 1 y = 3 }
-		wind_riders = { x = 1 y = 4 }
-	}
-	
-	support = 	{
-		tli_recon_company = { x = 0 y = 0 }
-	}
-
-	priority = 1
-}
-
-division_template = {
-	name = "Rat' Zashchitnikov Gosudarya"
+	name = "Gvardeyskaya Rat'"
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
@@ -77,274 +33,403 @@ division_template = {
 	support = 	{
 		unicorn_support = { x = 0 y = 0 }
 		tli_sapper_company = { x = 0 y = 1 }
-		tli_recon_company = { x = 0 y = 2 }
 	}
 
 	priority = 2
 }
 
+division_template = {
+	name = "Rat' Greismerskogo Garnizona"
+	is_locked = yes
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		ranged_infantry = { x = 2 y = 0 }
+		ranged_infantry = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 2 }
+		cannon_frontline = { x = 3 y = 0 }
+	}
+	
+	support = 	{
+		tli_sapper_company = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Pegazskaya Rat'"
+	is_locked = yes
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		wind_riders = { x = 0 y = 0 }
+		wind_riders = { x = 0 y = 0 }
+		wind_riders = { x = 0 y = 1 }
+		wind_riders = { x = 0 y = 2 }
+		wind_riders = { x = 1 y = 0 }
+		wind_riders = { x = 1 y = 1 }
+		wind_riders = { x = 1 y = 2 }
+		wind_riders = { x = 2 y = 0 }
+		wind_riders = { x = 2 y = 1 }
+		wind_riders = { x = 2 y = 2 }
+	}
+	
+	support = 	{
+		tli_recon_company = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Kopytnaya Rat'"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		ranged_infantry = { x = 2 y = 0 }
+		ranged_infantry = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 2 }
+	}
+
+	priority = 1
+}
+
+division_template = {
+	name = "Artilleriyskaya Rat'"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		cannon_frontline = { x = 2 y = 0 }
+		cannon_frontline = { x = 2 y = 1 }
+	}
+
+	priority = 1
+}
+
 ### OOB ###
 units = {
 	division = {
-		name = "1. Rat' Zashchitnikov, RZG"
+		name = "1. Gvardeyskaya (1. Greismerskaya) Rat', GvBR"
 		location = 3106
-		division_template = "Rat' Zashchitnikov Gosudarya"
+		division_template = "Gvardeyskaya Rat'"
 		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "2. Rat' Zashchitnikov, RZG"
+		name = "2. Gvardeyskaya (2. Greismerskaya) Rat', GvBR"
 		location = 3106
-		division_template = "Rat' Zashchitnikov Gosudarya"
+		division_template = "Gvardeyskaya Rat'"
 		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "3. Rat' Zashchitnikov, RZG"
+		name = "3. Gvardeyskaya (Olenskaya Yegerskaya) Rat', GvBR"
 		location = 3106
-		division_template = "Rat' Zashchitnikov Gosudarya"
+		division_template = "Gvardeyskaya Rat'"
 		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "4. Rat' Zashchitnikov, RZG"
+		name = "4. Gvardeyskaya (Pegazskaya) Rat', GvBR"
 		location = 3106
-		division_template = "Rat' Zashchitnikov Gosudarya"
-		start_experience_factor = 0.75
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
 	
+	
 	division = {
-		name = "1. Rat' Pekhoty, 1. PBR"
+		name = "1. Kopytnaya Rat', 1. PBR"
 		location = 4475
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "2. Rat' Pekhoty, 1. PBR"
+		name = "2. Kopytnaya Rat', 1. PBR"
 		location = 883
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "3. Rat' Pekhoty, 1. PBR"
+		name = "3. Kopytnaya Rat', 1. PBR"
 		location = 4522
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "4. Rat' Pekhoty, 1. PBR"
+		name = "4. Kopytnaya Rat', 1. PBR"
 		location = 4526
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "5. Rat' Pekhoty, 1. PBR"
+		name = "5. Kopytnaya Rat', 1. PBR"
 		location = 4543
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "6. Rat' Pekhoty, 1. PBR"
+		name = "6. Kopytnaya Rat', 1. PBR"
 		location = 2959
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7. Kopytnaya (Artilleriyskaya) Rat', 1. PBR"
+		location = 3443
+		division_template = "Artilleriyskaya Rat'"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8. Kopytnaya (Artilleriyskaya) Rat', 1. PBR"
+		location = 4480
+		division_template = "Artilleriyskaya Rat'"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9. Kopytnaya (Artilleriyskaya) Rat', 1. PBR"
+		location = 2656
+		division_template = "Artilleriyskaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "1. Rat' Pekhoty, 2. PBR"
+		name = "1. Kopytnaya Rat', 2. PBR"
 		location = 3234
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "2. Rat' Pekhoty, 2. PBR"
+		name = "2. Kopytnaya Rat', 2. PBR"
 		location = 4636
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "3. Rat' Pekhoty, 2. PBR"
+		name = "3. Kopytnaya Rat', 2. PBR"
 		location = 4640
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "4. Rat' Pekhoty, 2. PBR"
+		name = "4. Kopytnaya Rat', 2. PBR"
 		location = 2644
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "5. Rat' Pekhoty, 2. PBR"
+		name = "5. Kopytnaya Rat', 2. PBR"
 		location = 563
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "6. Rat' Pekhoty, 2. PBR"
+		name = "6. Kopytnaya Rat', 2. PBR"
 		location = 4769
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7. Kopytnaya (Artilleriyskaya) Rat', 2. PBR"
+		location = 1266
+		division_template = "Artilleriyskaya Rat'"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8. Kopytnaya (Artilleriyskaya) Rat', 2. PBR"
+		location = 1332
+		division_template = "Artilleriyskaya Rat'"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9. Kopytnaya (Artilleriyskaya) Rat', 2. PBR"
+		location = 2824
+		division_template = "Artilleriyskaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "1. Rat' Pekhoty, 3. PBR"
+		name = "1. Kopytnaya Rat', 3. PBR"
 		location = 1201
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "2. Rat' Pekhoty, 3. PBR"
+		name = "2. Kopytnaya Rat', 3. PBR"
 		location = 4620
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "3. Rat' Pekhoty, 3. PBR"
+		name = "3. Kopytnaya Rat', 3. PBR"
 		location = 1272
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "4. Rat' Pekhoty, 3. PBR"
+		name = "4. Kopytnaya Rat', 3. PBR"
 		location = 3441
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "5. Rat' Pekhoty, 3. PBR"
+		name = "5. Kopytnaya Rat', 3. PBR"
 		location = 2621
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "6. Rat' Pekhoty, 3. PBR"
+		name = "6. Kopytnaya Rat', 3. PBR"
 		location = 2945
-		division_template = "Rat' Pekhoty"
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7. Kopytnaya (Artilleriyskaya) Rat', 3. PBR"
+		location = 1859
+		division_template = "Artilleriyskaya Rat'"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8. Kopytnaya (Artilleriyskaya) Rat', 3. PBR"
+		location = 2873
+		division_template = "Artilleriyskaya Rat'"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9. Kopytnaya (Artilleriyskaya) Rat', 3. PBR"
+		location = 359
+		division_template = "Artilleriyskaya Rat'"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "Udarnaya Rat', GBR"
+		name = "1. Kopytnaya (Greismerskaya) Rat', GrBR"
 		location = 628
-		division_template = "Rat' Zashchitnikov Gosudarya"
+		division_template = "Rat' Greismerskogo Garnizona"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "1. Rat' Pekhoty, GBR"
+		name = "2. Kopytnaya (Greismerskaya) Rat', GrBR"
 		location = 628
-		division_template = "Rat' Pekhoty"
+		division_template = "Rat' Greismerskogo Garnizona"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "2. Rat' Pekhoty, GBR"
+		name = "3. Kopytnaya (Greismerskaya) Rat', GrBR"
 		location = 628
-		division_template = "Rat' Pekhoty"
+		division_template = "Rat' Greismerskogo Garnizona"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "3. Rat' Pekhoty, GBR"
-		location = 628
-		division_template = "Rat' Pekhoty"
+		name = "4. Kopytnaya (Greismerskaya) Rat', GrBR"
+		location = 4201
+		division_template = "Rat' Greismerskogo Garnizona"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "4. Rat' Pekhoty, GBR"
-		location = 628
-		division_template = "Rat' Pekhoty"
+		name = "5. Kopytnaya (Greismerskaya) Rat', GrBR"
+		location = 4201
+		division_template = "Rat' Greismerskogo Garnizona"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "5. Rat' Pekhoty, GBR"
-		location = 628
-		division_template = "Rat' Pekhoty"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "6. Rat' Pekhoty, GBR"
-		location = 628
-		division_template = "Rat' Pekhoty"
+		name = "6. Kopytnaya (Greismerskaya) Rat', GrBR"
+		location = 4201
+		division_template = "Rat' Greismerskogo Garnizona"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "Novoavtukiskaya Pegazskaya Rat'"
+		name = "1. Pegazskaya Rat', Novoavtuhivskaya Sich"
 		location = 4779
 		division_template = "Pegazskaya Rat'"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Yug-Primorskaya Pegazskaya Rat'"
-		location = 4905
+		name = "2. Pegazskaya Rat', Novoavtuhivskaya Sich"
+		location = 2026
 		division_template = "Pegazskaya Rat'"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Starogranitskskaya Pegazskaya Rat'"
+		name = "3. Pegazskaya Rat', Novoavtuhivskaya Sich"
+		location = 1226
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Pegazskaya Rat', Novoavtuhivskaya Sich"
 		location = 557
 		division_template = "Pegazskaya Rat'"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Ditovskaya Pegazskaya Rat'"
-		location = 3560
+		name = "5. Pegazskaya Rat', Novoavtuhivskaya Sich"
+		location = 4905
 		division_template = "Pegazskaya Rat'"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "1. Pogranichskaya Pegazskaya Rat'"
-		location = 1859
-		division_template = "Pegazskaya Rat'"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "2. Pogranichskaya Pegazskaya Rat'"
-		location = 1859
-		division_template = "Pegazskaya Rat'"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Pegazskokraiskaya Pegazskaya Rat'"
-		location = 1367
-		division_template = "Pegazskaya Rat'"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Pegazskaya Rat' Zashchitnikov"
-		location = 1367
+		name = "6. Pegazskaya Rat', Novoavtuhivskaya Sich"
+		location = 2663
 		division_template = "Pegazskaya Rat'"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
