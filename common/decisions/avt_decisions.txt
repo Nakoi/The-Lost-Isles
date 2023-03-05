@@ -2190,7 +2190,57 @@ decisioncat_avt_elusivepalace = {
 }
 
 decisioncat_avt_penalcolony = {
+	
+	AVT_elusive_colony_required_province_highlight = {
 
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = AVT
+		}
+
+		available = {
+			always = no
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		visible = {
+			tag = AVT
+			has_completed_focus = AVT_dealing_with_dissent
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 315
+				state = 317
+				state = 322
+				state = 314
+				state = 259
+				state = 261
+				state = 254
+				state = 257
+				state = 316
+				state = 253
+				state = 256
+				state = 255
+				state = 285
+				state = 258
+				state = 260
+				state = 284
+			}
+		}
+
+		complete_effect = {
+		}
+	}
+	
 	AVT_elusive_penal_colony_invasion = {
 
 		icon = eng_propaganda_campaigns
@@ -2200,7 +2250,7 @@ decisioncat_avt_penalcolony = {
 		}
 
 		available = {
-			#has_completed_focus = AVT_dealing_with_dissent
+			has_completed_focus = AVT_dealing_with_dissent
 		}
 
 		cost = 100
