@@ -41,7 +41,7 @@ focus_tree = {
 		id = AVT_full_speed_ahead
 		icon = AVT_GFX_FullspeedAhead
 		prerequisite = { focus = AVT_the_great_modernisation }
-		mutually_exclusive = ( focus = AVT_the_conspiracy }
+		mutually_exclusive = { focus = AVT_the_conspiracy }
 		x = -4
 		y = 1
 		relative_position_id = AVT_the_great_modernisation
@@ -403,7 +403,7 @@ focus_tree = {
 		id = AVT_the_conspiracy
 		icon = AVT_GFX_The_Conspiracy
 		prerequisite = { focus = AVT_the_great_modernisation }
-		mutually_exclusive = ( focus = AVT_full_speed_ahead }
+		mutually_exclusive = { focus = AVT_full_speed_ahead }
 		x = 4
 		y = 1
 		relative_position_id = AVT_the_great_modernisation
@@ -886,3 +886,4 @@ focus_tree = {
 			remove_ideas = AVT_idea_noble_discontent
 		}
 	}
+}
