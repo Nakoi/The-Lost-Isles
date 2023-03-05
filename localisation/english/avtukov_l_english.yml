@@ -663,6 +663,7 @@
  
  decisioncat_avt_penalcolony:0 "Penal Colony Project"
  decisioncat_avt_penalcolony_desc:0 "§RBe careful! Each decision can only be used once!§!"
+ AVT_elusive_colony_required_province_highlight:0 "Highlight Required States"
  AVT_elusive_penal_colony_invasion:0 "Secure Overseas Territory"
  AVT_elusive_colony_exile_peasants:0 "Exile Dissenting Peasants"
  AVT_elusive_colony_exile_laborers:0 "Exile Dissenting Laborers"
@@ -970,8 +971,8 @@
 ###TOOLTIP LOCALISATION - ELUSIVE###
  AVTtt_all_of_gallund:0 "§YGains claims to all Gallundian starting provinces§!"
  AVTtt_pissed_deets:0 "§YOur new forcibly acquired subjects will not be pleased§!"
- AVTtt_penal_colony_cores:0 "§YGrants core on any owned state in North-Eastern Traunulu!§!"
- AVTtt_penal_colony_independence:0 "§YGrand Principality of Northern Traunulu will be formed out of all owned states in North-Eastern Traunulu!§!"
+ AVTtt_penal_colony_cores:0 "§YGrants core on highlighted states in North-Eastern Traunulu!§!"
+ AVTtt_penal_colony_independence:0 "§YGrand Principality of Northern Traunulu will be formed out of highlighted states in North-Eastern Traunulu!§!"
  
  AVTtt_peasant_unrest_increase:0 "§RPeasant Unrest Increase!§!"
  AVTtt_peasant_unrest_decrease:0 "§GPeasant Unrest Decrease!§!"
