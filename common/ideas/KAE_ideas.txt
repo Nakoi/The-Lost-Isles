@@ -116,6 +116,73 @@ ideas = {
 			}
 		}
 		
+		KAE_militiasalary = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.2
+				war_support_factor = 0.15
+				weekly_manpower = 1000
+			}
+		}
+		
+		KAE_mercenaryunrest = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		KAE_fieldhospitals = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.1
+				war_support_factor = 0.05
+				experience_loss_factor = -0.1
+			}
+		}
+		
+		KAE_militiaprotest_yes = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.20
+				stability_weekly = 0.002
+			}
+		}
+		
+		KAE_militiaprotest_no = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.10
+				stability_factor = -0.3
+				war_support_factor = -0.3
+			}
+		}
+		
 		KAE_Greater_economy_idea = {
 			picture = great_depression
 			removal_cost = -1
