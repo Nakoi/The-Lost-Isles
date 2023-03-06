@@ -13,7 +13,7 @@
 }
 
 division_template = {
-	name = "Gigabgundan"
+	name = "Bobyeong-Yeodan"
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
@@ -32,7 +32,6 @@ division_template = {
 	
 	support = {
 		tli_sapper_company = { x = 0 y = 0 }
-		tli_recon_company = { x = 0 y = 1 }
 	}
 	
 	priority = 1
@@ -40,44 +39,58 @@ division_template = {
 
 units = {
 	division = {
-		name = "1.Gigabgundan"
-		location = 761
-		division_template = "Gigabgundan"
+		name = "1.Yeodan"
+		location = 2461
+		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "2. Gigabgundan"
-		location = 761
-		division_template = "Gigabgundan"
+		name = "2. Yeodan"
+		location = 2461
+		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "3.Gigabgundan"
-		location = 4887
-		division_template = "Gigabgundan"
+		name = "3.Yeodan"
+		location = 3647
+		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "4. Gigabgundan"
-		location = 4887
-		division_template = "Gigabgundan"
+		name = "4. Yeodan"
+		location = 114
+		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "5. Gigabgundan"
-		location = 3162
-		division_template = "Gigabgundan"
+		name = "5. Yeodan"
+		location = 5010
+		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "6. Gigabgundan"
-		location = 3162
-		division_template = "Gigabgundan"
+		name = "6. Yeodan"
+		location = 529
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7. Yeodan"
+		location = 596
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8. Yeodan"
+		location = 3125
+		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.75
 		start_equipment_factor = 1
 	}

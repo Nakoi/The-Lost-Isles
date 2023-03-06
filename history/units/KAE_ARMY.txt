@@ -13,7 +13,7 @@
 }
 
 division_template = {
-	name = "Sigunbudae"
+	name = "Yongbyeong-Yeodan"
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
@@ -32,14 +32,13 @@ division_template = {
 		
 	support = 	{
 		tli_sapper_company = { x = 0 y = 0 }
-		tli_recon_company = { x = 0 y = 1 }
 	}
 	
-	priority = 1
+	priority = 2
 }
 
 division_template = {
-	name = "Pobyeong Budae"
+	name = "Bobyeong-Yeodan"
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
@@ -49,8 +48,9 @@ division_template = {
 		ranged_infantry = { x = 1 y = 0 }
 		ranged_infantry = { x = 1 y = 1 }
 		ranged_infantry = { x = 1 y = 2 }
-		cannon_frontline = { x = 2 y = 0 }
-		rocket_frontline = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 0 }
+		ranged_infantry = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 2 }
 	}
 	
 	priority = 1
@@ -59,45 +59,80 @@ division_template = {
 ### OOB ###
 units = {
 	division = {
-		name = "1. Sigunbudae"
-		location = 2643
-		division_template = "Sigunbudae"
+		name = "1. Yongbyeong-Yeodan"
+		location = 3474
+		division_template = "Yongbyeong-Yeodan"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "2. Sigunbudae"
-		location = 1712
-		division_template = "Sigunbudae"
+		name = "2. Yongbyeong-Yeodan"
+		location = 3223
+		division_template = "Yongbyeong-Yeodan"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "3. Sigunbudae"
-		location = 5139
-		division_template = "Sigunbudae"
+		name = "3. Yongbyeong-Yeodan"
+		location = 1912
+		division_template = "Yongbyeong-Yeodan"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "4. Sigunbudae"
-		location = 3436
-		division_template = "Sigunbudae"
+		name = "4. Yongbyeong-Yeodan"
+		location = 5061
+		division_template = "Yongbyeong-Yeodan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Yongbyeong-Yeodan"
+		location = 384
+		division_template = "Yongbyeong-Yeodan"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	
 	division = {
-		name = "1. Pobyeong Budae"
+		name = "1. Yeodan"
 		location = 2643
-		division_template = "Pobyeong Budae"
-		start_experience_factor = 0.5
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "2. Pobyeong Budae"
+		name = "2. Yeodan"
 		location = 2643
-		division_template = "Pobyeong Budae"
-		start_experience_factor = 0.5
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Yeodan"
+		location = 3436
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Yeodan"
+		location = 3436
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Yeodan"
+		location = 1712
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Yeodan"
+		location = 1712
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
