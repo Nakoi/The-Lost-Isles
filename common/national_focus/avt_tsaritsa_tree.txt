@@ -16,6 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = AVT_the_tsarina
+		icon = AVT_GFX_Coup
 		x = 0
 		y = 0
 		cost = 1
@@ -30,6 +31,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_reconvene_ruling_council
+		icon = AVT_GFX_Reconvene_Council
 		prerequisite = { focus = AVT_the_tsarina }
 		x = 0
 		y = 1
@@ -46,6 +48,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_offer_they_cant_refuse
+		icon = AVT_GFX_An_Offer
 		prerequisite = { focus = AVT_reconvene_ruling_council }
 		mutually_exclusive = { focus = AVT_crush_the_deer }
 		x = -1
@@ -125,6 +128,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_crush_the_deer
+		icon = AVT_GFX_Crush_The_Deer
 		prerequisite = { focus = AVT_reconvene_ruling_council }
 		mutually_exclusive = { focus = AVT_offer_they_cant_refuse }
 		x = 1
@@ -4018,6 +4022,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_avtukovian_shipbuilding_elusivetree
+		icon = AVT_GFX_Dockyard
 		x = 15
 		y = 0
 		cost = 10
@@ -4047,6 +4052,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_on_our_own_elusivetree
+		icon = AVT_GFX_On_Our_Own
 		prerequisite = { focus = AVT_avtukovian_shipbuilding_elusivetree }
 		mutually_exclusive = { focus = AVT_oac_cooperation_elusivetree focus = AVT_oskil_cooperation_elusivetree }
 		x = 0
@@ -4066,6 +4072,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_oac_cooperation_elusivetree
+		icon = AVT_GFX_AOC
 		prerequisite = { focus = AVT_avtukovian_shipbuilding_elusivetree }
 		mutually_exclusive = { focus = AVT_on_our_own_elusivetree focus = AVT_oskil_cooperation_elusivetree }
 		x = -2
@@ -4086,6 +4093,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_oskil_cooperation_elusivetree
+		icon = AVT_GFX_Oskil
 		prerequisite = { focus = AVT_avtukovian_shipbuilding_elusivetree }
 		mutually_exclusive = { focus = AVT_oac_cooperation_elusivetree focus = AVT_on_our_own_elusivetree }
 		x = 2
@@ -4105,6 +4113,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_naval_doctrine_studies_elusivetree
+		icon = AVT_GFX_Dockyard_Studies
 		prerequisite = { focus = AVT_on_our_own_elusivetree focus = AVT_oac_cooperation_elusivetree focus = AVT_oskil_cooperation_elusivetree }
 		x = -1
 		y = 2
@@ -4125,6 +4134,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_ussumki_dockyard_expansion_elusivetree
+		icon = AVT_GFX_DockyardExpansion
 		prerequisite = { focus = AVT_on_our_own_elusivetree focus = AVT_oac_cooperation_elusivetree focus = AVT_oskil_cooperation_elusivetree }
 		x = 1
 		y = 2
@@ -4148,6 +4158,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_ship_design_competition_elusivetree
+		icon = AVT_GFX_Design_comp
 		prerequisite = { focus = AVT_naval_doctrine_studies_elusivetree }
 		prerequisite = { focus = AVT_ussumki_dockyard_expansion_elusivetree }
 		x = 0
@@ -4169,6 +4180,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_colonial_marines_elusivetree
+		icon = AVT_GFX_NavyMarines
 		prerequisite = { focus = AVT_naval_doctrine_studies_elusivetree }
 		prerequisite = { focus = AVT_ussumki_dockyard_expansion_elusivetree }
 		x = -2
@@ -4190,6 +4202,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_avtukovian_trade_company_elusivetree
+		icon = AVT_GFX_TradeCompany
 		prerequisite = { focus = AVT_naval_doctrine_studies_elusivetree }
 		prerequisite = { focus = AVT_ussumki_dockyard_expansion_elusivetree }
 		x = 2
@@ -4207,6 +4220,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_dew_lily_boat_elusivetree
+		icon = AVT_GFX_Lily
 		prerequisite = { focus = AVT_ship_design_competition_elusivetree }
 		x = 0
 		y = 4
@@ -4261,6 +4275,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_reach_for_the_skies_elusivetree
+		icon = AVT_GFX_Reaching_For_Sky
 		x = 24
 		y = 0
 		cost = 10
@@ -4280,6 +4295,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_cloud_bliss_plan_elusivetree
+		icon = AVT_GFX_Bliss
 		prerequisite = { focus = AVT_reach_for_the_skies_elusivetree }
 		mutually_exclusive = { focus = AVT_dazzleflash_plan_elusivetree }
 		x = -1
@@ -4301,6 +4317,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_dazzleflash_plan_elusivetree
+		icon = AVT_GFX_Flash		
 		prerequisite = { focus = AVT_reach_for_the_skies_elusivetree }
 		mutually_exclusive = { focus = AVT_cloud_bliss_plan_elusivetree }
 		x = 1
@@ -4362,6 +4379,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_southern_air_infrastructure_elusivetree
+		icon = AVT_GFX_Air_Infrastructure
 		prerequisite = { focus = AVT_reach_for_the_skies_elusivetree }
 		x = -3
 		y = 1
@@ -4412,6 +4430,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_eastern_air_infrastructure_elusivetree
+		icon = AVT_GFX_Air_Infrastructure_02
 		prerequisite = { focus = AVT_reach_for_the_skies_elusivetree }
 		x = 3
 		y = 1
@@ -4504,6 +4523,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_aksarino_crystal_mines_elusivetree
+		icon = AVT_GFX_CrystalMines
 		prerequisite = { focus = AVT_import_bombardiers_elusivetree focus = AVT_import_air_frigates_elusivetree }
 		x = -4
 		y = 3
@@ -4530,6 +4550,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_airship_design_committee_elusivetree
+		icon = AVT_GFX_Design_Committee
 		prerequisite = { focus = AVT_import_bombardiers_elusivetree focus = AVT_import_air_frigates_elusivetree }
 		x = -2
 		y = 3
@@ -4609,6 +4630,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_skirmisher_flight_schools_elusivetree
+		icon = AVT_GFX_FlightSchools
 		prerequisite = { focus = AVT_prioritise_air_skirmishers_elusivetree focus = AVT_prioritise_air_strikers_elusivetree }
 		x = 2
 		y = 3
@@ -4626,6 +4648,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_alchemical_stimulants_elusivetree
+		icon = AVT_GFX_Chemical_Stimulants
 		prerequisite = { focus = AVT_prioritise_air_skirmishers_elusivetree focus = AVT_prioritise_air_strikers_elusivetree }
 		x = 4
 		y = 3
@@ -4642,6 +4665,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_perfected_skirmisher_equipment_elusivetree
+		icon = AVT_GFX_Perfected_Equipment
 		prerequisite = { focus = AVT_skirmisher_flight_schools_elusivetree focus = AVT_alchemical_stimulants_elusivetree }
 		x = 3
 		y = 4
