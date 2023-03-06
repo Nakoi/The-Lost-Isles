@@ -168,6 +168,13 @@
  KAE_minutekirin_03:0 "On a Minute's Notice"
  KAE_shit_arms_industry:0 "Incompetent Arms Industry"
  KAE_shit_arms_industry_better:0 "Reformed and Retooled"
+ 
+ KAE_militiasalary:0 "Militia Salaries"
+ KAE_mercenaryunrest:0 "Mercenary Contract Payments"
+ KAE_fieldhospitals:0 "Urgent Field Hospital Reform"
+ KAE_militiaprotest_yes:0 "Militia Veteran Movement Appeased"
+ KAE_militiaprotest_no:0 "Militia Veteran Movement Riots"
+ 
  KAE_Greater_economy_idea:0 "The Kirin's Industrial Revolution"
  KAE_poor_living_conditions_01:0 "Poor Living Conditions"
  KAE_poor_living_conditions_02:0 "Poor Living Conditions"
@@ -180,6 +187,8 @@
  KAE_officer_training_02:0 "Officer Training"
  KAE_officer_training_03:0 "Officer Training"
  KAE_ootari_workshop_idea:0 "The Workshop of Ootari"
+ 
+ 
 
 ###DECISION LOCALISATION###
  decisioncat_kae_starting_cilarine_trade:0 "The Negotiations of 957"
@@ -190,20 +199,50 @@
  KAE_hire_cilarine_airskirms_decision:0 "Hire More Mercenaries"
  
 ###EVENT LOCALISATION ###
- kae_startevent.0.t:0 "0"
- kae_startevent.0.d:0 ""
- kae_startevent.0.a:0 ""
+ kae_startevent.0.t:0 "The Cilarine Gulf Negotiations"
+ kae_startevent.0.d:0 "some dickwad mercs are larping as pirates so you can't leave the gulf to actually sell your shit :((((("
+ kae_startevent.0.a:0 "pls stop :("
  
- kae_startevent.1.t:0 "1"
- kae_startevent.1.d:0 ""
- kae_startevent.1.a:0 ""
+ kae_startevent.1.t:0 "Negotiations Successful"
+ kae_startevent.1.d:0 "you gave them enough money to fuck off. now the problem is you gotta keep paying them off"
+ kae_startevent.1.a:0 "at least we can sell shit now :)"
  
- kae_startevent.2.t:0 "2"
- kae_startevent.2.d:0 ""
- kae_startevent.2.a:0 ""
+ kae_startevent.2.t:0 "The Grand Advisor"
+ kae_startevent.2.d:0 "gigachad grand advisor got appointed, time to enact total bandit death!!!"
+ kae_startevent.2.a:0 "kill bandits etcetc"
  
- kae_startevent.5.t:0 "5"
- kae_startevent.5.d:0 ""
- kae_startevent.5.a:0 ""
+ kae_startevent.5.t:0 "Executive Council Elections"
+ kae_startevent.5.d:0 "a bunch of businesskirin got elected idc lmao"
+ kae_startevent.5.a:0 "absolutely nothing fucking changed lol"
+ 
+ kae_startevent.6.t:0 "Salary Woes"
+ kae_startevent.6.d:0 "you're not paying your conscripts apparently it would be epic if you actually did"
+ kae_startevent.6.a:0 "ok"
+ kae_startevent.6.b:0 "no"
+ 
+ kae_startevent.7.t:0 "Conscript-Mercenary Tension"
+ kae_startevent.7.d:0 "a mercenary unit killed a few conscripts, the conscripts' commander sent (you) a letter requesting you to fire them to prevent clashes"
+ kae_startevent.7.a:0 "pay the mercs to go back ig"
+ kae_startevent.7.B:0 "nah they can stay"
+ 
+ kae_startevent.8.t:0 "Disaster in the Hospitals"
+ kae_startevent.8.d:0 "field hospitals overflowing with wounded, you can send help or not idk"
+ kae_startevent.8.a:0 "amputations are now done with clean saws :D"
+ kae_startevent.8.b:0 "meds are overrated we don't need em B)"
+ 
+ kae_militiacrisis.1.t:0 "Angry Veterans"
+ kae_militiacrisis.1.d:0 "Jobless veterans are disgruntled over the lack of support when they were at war and now, during peace. They demand pensions to be paid out to them while they try to find new jobs and reintegrate back into civilian life. The Grand Advisor strongly recommends paying the jobless veteran movement, since having an army of kirins that have nothing to lose may turn out to cause even more financial problems than what would happen if they were simply paid what they deem "fair"."
+ kae_militiacrisis.1.a:0 "If it prevents further bloodshed, so be it."
+ kae_militiacrisis.1.b:0 "No!"
+ 
+ kae_militiacrisis.2.t:0 "Angry Veterans"
+ kae_militiacrisis.2.d:0 "Jobless veterans are disgruntled over the lack of support when they were at war and now, during peace. They demand pensions to be paid out to them while they try to find new jobs and reintegrate back into civilian life. The Grand Advisor strongly recommends paying the jobless veteran movement, since having an army of kirins that have nothing to lose may turn out to cause even more financial problems than what would happen if they were simply paid what they deem "fair".\n\nA post-war review of our leadership's conduct during the Northern Campaign reveal severe bias against our militia, giving mercenaries priority for payment and medical treatment. Therefore, rejecting their demands may lead into more severe consenquences than mere rioting."
+ kae_militiacrisis.2.a:0 "If it prevents further bloodshed, so be it."
+ kae_militiacrisis.2.b:0 "No!"
+ 
+ kae_militiacrisis.3.t:0 "The Veterans' War"
+ kae_militiacrisis.3.d:0 "Tens of thousands of disgruntled veterans have assembled in our new Northern territories! They took up arms and declared war on the "mercenary-occupied" central government! To make matters worse, local garrisons stationed across our northern frontier were sympathetic to the veterans' cause and have defected to their side.\n\nThis is an existential struggle for both sides. Which side are you on?
+ kae_militiacrisis.3.a:0 "Crush the Veterans!"
+ kae_militiacrisis.3.b:0 "Death to the Council!"
  
 ###TOOLTIP LOCALISATION###
