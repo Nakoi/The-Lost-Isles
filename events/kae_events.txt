@@ -1,5 +1,5 @@
 add_namespace = kae_startevent
-add_namespace = kae_event
+add_namespace = kae_militiacrisis
 ###EARLYGAME###
 
 country_event = {
@@ -61,6 +61,342 @@ country_event = {
 	
 	option = {
 		name = kae_startevent.5.a
-		load_focus_tree = kae_main_focus
+	}
+}
+
+country_event = {
+	id = kae_startevent.6
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_startevent.6"}
+	title = kae_startevent.6.t
+	desc = kae_startevent.6.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KAE
+		has_war_with = WEI
+		WEI = { 
+			OR = { 
+				surrender_progress > 0.25
+				has_capitulated = yes
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+		name = kae_startevent.6.a
+		add_timed_idea = { idea = KAE_militiasalary days = 180 }
+	}
+	
+	option = {
+		name = kae_startevent.6.b
+		add_manpower = -7000
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						has_country_flag = kae_militiacrisis_flag_1
+						has_country_flag = kae_militiacrisis_flag_2
+						has_country_flag = kae_militiacrisis_flag_3
+					}
+				}
+			}
+			set_country_flag = kae_militiacrisis_flag_1
+		}
+		if = {
+			limit = {
+				has_country_flag = kae_militiacrisis_flag_1
+			}
+			set_country_flag = kae_militiacrisis_flag_2
+		}
+		if = {
+			limit = {
+				has_country_flag = kae_militiacrisis_flag_2
+			}
+			set_country_flag = kae_militiacrisis_flag_3
+		}
+	}
+}
+
+country_event = {
+	id = kae_startevent.7
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_startevent.7"}
+	title = kae_startevent.7.t
+	desc = kae_startevent.7.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KAE
+		has_war_with = UNU
+		UNU = { 
+			OR = { 
+				surrender_progress > 0.25
+				has_capitulated = yes
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+		name = kae_startevent.7.a
+		add_timed_idea = { idea = KAE_mercenaryunrest days = 365 }
+		add_manpower = -5000
+	}
+	
+	option = {
+		name = kae_startevent.7.b
+	}
+}
+
+country_event = {
+	id = kae_startevent.8
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_startevent.8"}
+	title = kae_startevent.8.t
+	desc = kae_startevent.8.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KAE
+		has_war_with = ASH
+		ASH = { 
+			OR = { 
+				surrender_progress > 0.25
+				has_capitulated = yes
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+		name = kae_startevent.8.a
+		add_manpower = -5000
+		add_timed_idea = { idea = KAE_fieldhospitals days = 180 }
+	}
+	
+	option = {
+		name = kae_startevent.8.b
+		add_manpower = -8000
+	}
+}
+
+country_event = {
+	id = kae_militiacrisis.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_militiacrisis.1"}
+	title = kae_militiacrisis.1.t
+	desc = kae_militiacrisis.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		has_completed_focus = KAE_Claims_Vote
+		has_country_flag = kae_militiacrisis_flag_1
+	}
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+		name = kae_militiacrisis.1.a
+		add_timed_idea = { idea = KAE_militiaprotest_yes days = 365 }
+	}
+	
+	option = {
+		name = kae_militiacrisis.1.b
+		add_timed_idea = { idea = KAE_militiaprotest_no days = 180 }
+	}
+}
+
+country_event = {
+	id = kae_militiacrisis.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_militiacrisis.2"}
+	title = kae_militiacrisis.2.t
+	desc = kae_militiacrisis.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		has_completed_focus = KAE_Claims_Vote
+		OR = {
+			has_country_flag = kae_militiacrisis_flag_2
+			has_country_flag = kae_militiacrisis_flag_3
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+		name = kae_militiacrisis.2.a
+		add_timed_idea = { idea = KAE_militiaprotest_yes days = 365 }
+	}
+	
+	option = {
+		name = kae_militiacrisis.2.b
+		set_country_flag = kae_militiacrisis_its_happening
+		478 = {
+			set_demilitarized_zone = yes
+		}
+		479 = {
+			set_demilitarized_zone = yes
+		}
+		506 = {
+			set_demilitarized_zone = yes
+		}
+		503 = {
+			set_demilitarized_zone = yes
+		}
+		504 = {
+			set_demilitarized_zone = yes
+		}
+		505 = {
+			set_demilitarized_zone = yes
+		}
+		500 = {
+			set_demilitarized_zone = yes
+		}
+		501 = {
+			set_demilitarized_zone = yes
+		}
+		
+	}
+}
+
+country_event = {
+	id = kae_militiacrisis.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_militiacrisis.3"}
+	title = kae_militiacrisis.3.t
+	desc = kae_militiacrisis.3.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = kae_militiacrisis_its_happening
+	}
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+		name = kae_militiacrisis.3.a
+		EAK = {            
+            transfer_state = 478
+            transfer_state = 479
+            transfer_state = 503
+            transfer_state = 506
+            transfer_state = 505
+            transfer_state = 504
+            transfer_state = 501
+            transfer_state = 500
+				
+            add_state_core = 478
+            add_state_core = 479
+            add_state_core = 503
+            add_state_core = 506
+            add_state_core = 505
+            add_state_core = 504
+            add_state_core = 501
+            add_state_core = 500
+			
+			478 = {
+				set_demilitarized_zone = no
+			}
+			479 = {
+				set_demilitarized_zone = no
+			}
+			506 = {
+				set_demilitarized_zone = no
+			}
+			503 = {
+				set_demilitarized_zone = no
+			}
+			504 = {
+				set_demilitarized_zone = no
+			}
+			505 = {
+				set_demilitarized_zone = no
+			}
+			500 = {
+				set_demilitarized_zone = no
+			}
+			501 = {
+				set_demilitarized_zone = no
+			}
+			
+			set_capital = { state = 500 }
+            inherit_technology = KAE
+        }
+		KAE = {
+			complete_national_focus = KAE_fixing_commandstructures
+		}
+	}
+	
+	option = {
+		name = kae_militiacrisis.3.b
+		EAK = {            
+            transfer_state = 478
+            transfer_state = 479
+            transfer_state = 503
+            transfer_state = 506
+            transfer_state = 505
+            transfer_state = 504
+            transfer_state = 501
+            transfer_state = 500
+				
+            add_state_core = 478
+            add_state_core = 479
+            add_state_core = 503
+            add_state_core = 506
+            add_state_core = 505
+            add_state_core = 504
+            add_state_core = 501
+            add_state_core = 500
+            
+			478 = {
+				set_demilitarized_zone = no
+			}
+			479 = {
+				set_demilitarized_zone = no
+			}
+			506 = {
+				set_demilitarized_zone = no
+			}
+			503 = {
+				set_demilitarized_zone = no
+			}
+			504 = {
+				set_demilitarized_zone = no
+			}
+			505 = {
+				set_demilitarized_zone = no
+			}
+			500 = {
+				set_demilitarized_zone = no
+			}
+			501 = {
+				set_demilitarized_zone = no
+			}
+			
+			set_capital = { state = 500 }
+            inherit_technology = KAE
+			change_tag_from = ROOT
+        }
+		KAE = {
+			complete_national_focus = KAE_fixing_commandstructures
+		}
 	}
 }
