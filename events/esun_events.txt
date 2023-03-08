@@ -162,6 +162,10 @@ country_event = {
 			target = WAO
 			type = annex_everything
 		}
+		declare_war_on = {
+			target = AZE
+			type = annex_everything
+		}
 	}
 }
 
