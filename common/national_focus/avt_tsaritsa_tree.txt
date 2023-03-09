@@ -240,6 +240,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_perfect_society
+		icon = AVT_GFX_TowardsPerfectSociety
 		prerequisite = { focus = AVT_offer_they_cant_refuse focus = AVT_crush_the_deer }
 		x = 0
 		y = 3
@@ -259,6 +260,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_integrate_jarls
+		icon = AVT_GFX_Integrate_Yarls
 		prerequisite = { focus = AVT_offer_they_cant_refuse }
 		x = -2
 		y = 3
@@ -293,6 +295,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_destroy_democratic_legacy
+		icon = AVT_GFX_Invite_forgain_affairs
 		prerequisite = { focus = AVT_crush_the_deer }
 		x = 2
 		y = 3

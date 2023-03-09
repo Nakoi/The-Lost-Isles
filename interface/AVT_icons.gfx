@@ -3872,6 +3872,8 @@ spriteTypes = {
     }
 
 
+
+
     SpriteType = { 
         name = "AVT_GFX_Coup"
         texturefile = "gfx/interface/goals/AVT/AVT_GFX_Coup.dds"
@@ -3906,6 +3908,8 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 } 
         }
     }
+
+
 
 
     SpriteType = { 
@@ -3944,40 +3948,6 @@ spriteTypes = {
     }
 
 
-    SpriteType = { 
-        name = "AVT_GFX_Crush_The_Deer"
-        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Crush_The_Deer.dds"
-    }
-
-    SpriteType = { 
-        name = "AVT_GFX_Crush_The_Deer_shine"
-        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Crush_The_Deer.dds"
-        effectFile = "gfx/FX/buttonstate.lua"
-        animation = {
-            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Crush_The_Deer.dds"
-            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-            animationrotation = -90.0
-            animationlooping = no
-            animationtime = 0.75
-            animationdelay = 0
-            animationblendmode = "add"
-            animationtype = "scrolling"
-            animationrotationoffset = { x = 0.0 y = 0.0 }
-            animationtexturescale = { x = 1.0 y = 1.0 } 
-        }
-        animation = {
-            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Crush_The_Deer.dds"
-            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-            animationrotation = 90.0
-            animationlooping = no
-            animationtime = 0.75
-            animationdelay = 0
-            animationblendmode = "add"
-            animationtype = "scrolling"
-            animationrotationoffset = { x = 0.0 y = 0.0 }
-            animationtexturescale = { x = 1.0 y = 1.0 } 
-        }
-    }
 
 
     SpriteType = { 
@@ -4014,3 +3984,120 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 } 
         }
     }
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Crush_The_Deer"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Crush_The_Deer.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Crush_The_Deer_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Crush_The_Deer.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Crush_The_Deer.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Crush_The_Deer.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Integrate_Yarls"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Integrate_Yarls.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Integrate_Yarls_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Integrate_Yarls.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Integrate_Yarls.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Integrate_Yarls.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_TowardsPerfectSociety"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_TowardsPerfectSociety.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_TowardsPerfectSociety_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_TowardsPerfectSociety.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_TowardsPerfectSociety.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_TowardsPerfectSociety.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
