@@ -194,3 +194,178 @@ decisioncat_kae_starting_cilarine_trade = {
 		}
 	}
 }
+
+decisioncat_kae_clan_coring = {
+
+	KAE_core_wei_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_pacification_plans
+			KAE = {
+				owns_state = 478
+				owns_state = 479
+			}
+			478 = { compliance > 50 }
+			479 = { compliance > 50 }
+		}
+
+		cost = 75
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_pacification_plans
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 478
+			add_state_core = 479
+		}
+	}
+	
+	KAE_core_unu_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_pacification_plans
+			KAE = {
+				owns_state = 506
+				owns_state = 503
+			}
+			506 = { compliance > 50 }
+			503 = { compliance > 50 }
+		}
+
+		cost = 75
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_pacification_plans
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 506
+			add_state_core = 503
+		}
+	}
+	
+	KAE_core_rin_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_pacification_plans
+			KAE = {
+				owns_state = 504
+				owns_state = 505
+			}
+			504 = { compliance > 50 }
+			505 = { compliance > 50 }
+		}
+
+		cost = 75
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_pacification_plans
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 504
+			add_state_core = 505
+		}
+	}
+	
+	KAE_core_ash_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_pacification_plans
+			KAE = {
+				owns_state = 500
+				owns_state = 501
+			}
+			500 = { compliance > 50 }
+			501 = { compliance > 50 }
+		}
+
+		cost = 75
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_pacification_plans
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 500
+			add_state_core = 501
+		}
+	}
+}
