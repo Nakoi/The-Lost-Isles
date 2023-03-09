@@ -178,6 +178,18 @@ decisioncat_kae_starting_cilarine_trade = {
 	}
 }
 
+decisioncat_kae_clan_coring = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = KAE
+	}
+
+	visible = {
+		has_completed_focus = KAE_pacification_plans
+	}
+}
+
 decisioncat_esu_integration = {
 	icon = generic_political_actions
 	
