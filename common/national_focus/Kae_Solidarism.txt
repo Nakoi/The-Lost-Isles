@@ -1562,17 +1562,26 @@ focus_tree = {
 		x = -3
 		y = 6
 		relative_position_id = KAE_negotiations
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			KAE = {
+				owns_state = 478
+				owns_state = 479
+				owns_state = 503
+				owns_state = 506
+				owns_state = 505
+				owns_state = 504
+				owns_state = 501
+				owns_state = 500
+			}
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			unlock_decision_category_tooltip = decisioncat_kae_clan_coring
 		}
 	}
 
@@ -1583,17 +1592,23 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = KAE_pacification_plans
-		cost = 3
+		cost = 4
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			owns_state = 478
+			owns_state = 479
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			478 = {
+				add_compliance = 15
+			}
+			479 = {
+				add_compliance = 15
+			}
 		}
 	}
 
@@ -1604,17 +1619,23 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = KAE_pacification_plans
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			owns_state = 503
+			owns_state = 506
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			503 = {
+				add_compliance = 15
+			}
+			506 = {
+				add_compliance = 15
+			}
 		}
 	}
 
@@ -1625,17 +1646,23 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = KAE_pacification_plans
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			owns_state = 504
+			owns_state = 505
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			504 = {
+				add_compliance = 15
+			}
+			505 = {
+				add_compliance = 15
+			}
 		}
 	}
 
@@ -1646,17 +1673,23 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = KAE_pacification_plans
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			owns_state = 501
+			owns_state = 500
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			501 = {
+				add_compliance = 15
+			}
+			500 = {
+				add_compliance = 15
+			}
 		}
 	}
 
@@ -1667,17 +1700,28 @@ focus_tree = {
 		x = 3
 		y = 2
 		relative_position_id = KAE_pacification_plans
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			owns_state = 501
+			owns_state = 500
+			501 = { is_core_of = KAE }
+			500 = { is_core_of = KAE }
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			500 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_manpower = 200000
+			}
 		}
 	}
 
@@ -1690,17 +1734,28 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = KAE_pacification_plans
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			owns_state = 478
+			owns_state = 479
+			478 = { is_core_of = KAE }
+			479 = { is_core_of = KAE }
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			478 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_manpower = 200000
+			}
 		}
 	}
 
@@ -1712,17 +1767,28 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = KAE_pacification_plans
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			owns_state = 503
+			owns_state = 506
+			503 = { is_core_of = KAE }
+			506 = { is_core_of = KAE }
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			506 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_manpower = 200000
+			}
 		}
 	}
 
@@ -1734,17 +1800,28 @@ focus_tree = {
 		x = -3
 		y = 2
 		relative_position_id = KAE_pacification_plans
-		cost = 3
+		cost = 7
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			owns_state = 504
+			owns_state = 505
+			504 = { is_core_of = KAE }
+			505 = { is_core_of = KAE }
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			504 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_manpower = 200000
+			}
 		}
 	}
 
@@ -1756,17 +1833,32 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = KAE_pacification_plans
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			owns_state = 501
+			owns_state = 500
+			501 = { is_core_of = KAE }
+			500 = { is_core_of = KAE }
+			owns_state = 478
+			owns_state = 479
+			478 = { is_core_of = KAE }
+			479 = { is_core_of = KAE }
+			owns_state = 503
+			owns_state = 506
+			503 = { is_core_of = KAE }
+			506 = { is_core_of = KAE }
+			owns_state = 504
+			owns_state = 505
+			504 = { is_core_of = KAE }
+			505 = { is_core_of = KAE }
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			add_ideas = KAE_pacificationxp_idea
 		}
 	}
 
@@ -2108,6 +2200,10 @@ focus_tree = {
 			has_war = no
 		}
 		
+		bypass = {
+			NOT = { country_exists = EAK }
+		}
+		
 		completion_reward = {
 			country_event = { id = kae_startevent.5 }
 		}
@@ -2126,6 +2222,10 @@ focus_tree = {
 		
 		available = {
 			has_war = no
+		}
+		
+		bypass = {
+			NOT = { country_exists = EAK }
 		}
 		
 		completion_reward = {
@@ -2149,6 +2249,10 @@ focus_tree = {
 			has_war = no
 		}
 		
+		bypass = {
+			NOT = { country_exists = EAK }
+		}
+		
 		completion_reward = {
 			country_event = { id = kae_startevent.5 }
 		}
@@ -2167,6 +2271,10 @@ focus_tree = {
 		
 		available = {
 			has_war = no
+		}
+		
+		bypass = {
+			NOT = { country_exists = EAK }
 		}
 		
 		completion_reward = {
@@ -2190,6 +2298,10 @@ focus_tree = {
 			has_war = no
 		}
 		
+		bypass = {
+			NOT = { country_exists = EAK }
+		}
+		
 		completion_reward = {
 			country_event = { id = kae_startevent.5 }
 		}
@@ -2209,6 +2321,10 @@ focus_tree = {
 		
 		available = {
 			has_war = no
+		}
+		
+		bypass = {
+			NOT = { country_exists = EAK }
 		}
 		
 		completion_reward = {
@@ -2232,6 +2348,10 @@ focus_tree = {
 			has_war = no
 		}
 		
+		bypass = {
+			NOT = { country_exists = EAK }
+		}
+		
 		completion_reward = {
 			country_event = { id = kae_startevent.5 }
 		}
@@ -2251,6 +2371,10 @@ focus_tree = {
 		
 		available = {
 			has_war = no
+		}
+		
+		bypass = {
+			NOT = { country_exists = EAK }
 		}
 		
 		completion_reward = {
