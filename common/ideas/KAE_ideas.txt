@@ -183,6 +183,20 @@ ideas = {
 			}
 		}
 		
+		KAE_pacificationxp_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				compliance_gain = 0.25
+				required_garrison_factor = -0.1
+				resistance_damage_to_garrison = -0.15
+			}
+		}
+		
 		KAE_Greater_economy_idea = {
 			picture = great_depression
 			removal_cost = -1

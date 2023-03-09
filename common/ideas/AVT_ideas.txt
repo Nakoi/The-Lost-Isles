@@ -1224,6 +1224,10 @@ ideas = {
 				has_completed_focus = AVT_on_our_own
 			}
 			
+			allowed = {
+				original_tag = AVT
+			}
+			
 			cost = 150
 			removal_cost = 10
 			
@@ -1253,6 +1257,10 @@ ideas = {
 
 			available = {
 				has_completed_focus = AVT_on_our_own
+			}
+			
+			allowed = {
+				original_tag = AVT
 			}
 			
 			cost = 150
@@ -1290,6 +1298,10 @@ ideas = {
 
 			available = {
 				has_completed_focus = AVT_on_our_own
+			}
+			
+			allowed = {
+				original_tag = AVT
 			}
 			
 			cost = 150
@@ -1330,6 +1342,10 @@ ideas = {
 				has_completed_focus = AVT_airship_design_committee
 			}
 			
+			allowed = {
+				original_tag = AVT
+			}
+			
 			cost = 150
 			removal_cost = 10
 			
@@ -1356,6 +1372,10 @@ ideas = {
 
 			available = {
 				has_completed_focus = AVT_skirmisher_flight_schools
+			}
+			
+			allowed = {
+				original_tag = AVT
 			}
 			
 			cost = 150
@@ -1389,6 +1409,10 @@ ideas = {
 				has_completed_focus = AVT_support_new_businesses
 			}
 			
+			allowed = {
+				original_tag = AVT
+			}
+			
 			cost = 150
 			removal_cost = 10
 			
@@ -1420,6 +1444,10 @@ ideas = {
 
 			available = {
 				has_completed_focus = AVT_support_new_businesses
+			}
+			
+			allowed = {
+				original_tag = AVT
 			}
 			
 			cost = 150
