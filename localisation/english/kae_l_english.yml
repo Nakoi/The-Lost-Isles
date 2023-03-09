@@ -175,6 +175,8 @@
  KAE_militiaprotest_yes:0 "Militia Veteran Movement Appeased"
  KAE_militiaprotest_no:0 "Militia Veteran Movement Riots"
  
+ KAE_pacificationxp_idea:0 "Pacification Campaign Experience"
+ 
  KAE_Greater_economy_idea:0 "The Kirin's Industrial Revolution"
  KAE_poor_living_conditions_01:0 "Poor Living Conditions"
  KAE_poor_living_conditions_02:0 "Poor Living Conditions"
@@ -197,6 +199,12 @@
  KAE_buy_cilarine_supporteq_decision:0 "Purchase Support Equipment"
  KAE_buy_cilarine_cannons_decision:0 "Purchase Cannons"
  KAE_hire_cilarine_airskirms_decision:0 "Hire More Mercenaries"
+ 
+ decisioncat_kae_clan_coring:0 "The Pacification Campaign"
+ KAE_core_wei_decision:0 "Integrate Wei Territory"
+ KAE_core_unu_decision:0 "Integrate Unuo Territory"
+ KAE_core_rin_decision:0 "Integrate Rinto Territory"
+ KAE_core_ash_decision:0 "Integrate Ashi Territory"
  
 ###EVENT LOCALISATION ###
  kae_startevent.0.t:0 "The Cilarine Gulf Negotiations"
