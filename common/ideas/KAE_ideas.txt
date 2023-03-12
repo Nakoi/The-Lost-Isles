@@ -5,7 +5,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = PRI
+				country_exists = CIL
 			}
 				
 			modifier = {
@@ -33,19 +33,16 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				OR = {
-					has_idea = recruit_militia_peacetime
-					has_idea = recruit_militia_wartime
-				}
+				always = yes
 			}
 				
 			modifier = {
 				conscription_factor = 0.5
 				mobilization_speed = 10
 				army_org_factor = -0.3
-				army_org_regain = 1
-				army_attack_factor = -0.2
-				army_defence_factor = -0.2
+				army_org_regain = 0.5
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
 			}
 		}
 		
@@ -53,19 +50,16 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				OR = {
-					has_idea = recruit_militia_peacetime
-					has_idea = recruit_militia_wartime
-				}
+				always = yes
 			}
 				
 			modifier = {
 				conscription_factor = 0.35
 				mobilization_speed = 5
-				army_org_factor = -0.15
-				army_org_regain = 0.5
-				army_attack_factor = -0.1
-				army_defence_factor = -0.1
+				army_org_factor = -0.2
+				army_org_regain = 0.3
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
 			}
 		}
 		
@@ -73,10 +67,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				OR = {
-					has_idea = recruit_militia_peacetime
-					has_idea = recruit_militia_wartime
-				}
+				always = yes
 			}
 				
 			modifier = {
@@ -84,6 +75,35 @@ ideas = {
 				mobilization_speed = 1
 				army_org_regain = 0.15
 				army_attack_factor = -0.05
+			}
+		}
+		
+		KAE_minutekirin_merc_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.25
+				mobilization_speed = -0.5
+				army_attack_factor = 0.05
+			}
+		}
+		
+		KAE_minutekirin_merc_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.35
+				mobilization_speed = -0.5
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
 			}
 		}
 		
@@ -247,10 +267,57 @@ ideas = {
 			}
 				
 			modifier = {
-				production_speed_buildings_factor = 0.2
+				production_speed_buildings_factor = 0.15
 				line_change_production_efficiency_factor = 0.1
 				production_factory_max_efficiency_factor = -0.2
 				stability_factor = -0.15
+			}
+		}
+		
+		KAE_poor_living_conditions_04 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				line_change_production_efficiency_factor = 0.15
+				production_factory_max_efficiency_factor = -0.2
+				industrial_capacity_factory = 0.15
+				stability_factor = -0.15
+			}
+		}
+		
+		KAE_poor_living_conditions_03b = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = -0.05
+				stability_factor = -0.05
+			}
+		}
+		
+		KAE_poor_living_conditions_04b = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				line_change_production_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.1
+				stability_weekly = 0.002
 			}
 		}
 
@@ -301,6 +368,55 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.1
 				local_non_core_manpower = 0.05
+			}
+		}
+		
+		
+		KAE_merc_idea_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = -0.1
+				local_non_core_manpower = 0.25
+			}
+		}
+		
+		KAE_merc_idea_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = -0.15
+				local_non_core_manpower = 0.35
+				weekly_manpower = 250
+			}
+		}
+		
+		KAE_merc_idea_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				air_skirmisher_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		
+			modifier = {
+				conscription_factor = -0.15
+				local_non_core_manpower = 0.35
+				weekly_manpower = 250
 			}
 		}
 
