@@ -573,6 +573,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_noble_dominated_army
+		icon = AVT_GFX_Noble_Army
 		prerequisite = { focus = AVT_perfect_society }
 		mutually_exclusive = { focus = AVT_noble_only_army }
 		x = -1
@@ -729,6 +730,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_strict_hierarchy
+		icon = AVT_GFX_Strict_Hirachy
 		prerequisite = { focus = AVT_perfect_society }
 		mutually_exclusive = { focus = AVT_titles_for_the_best }
 		x = 3
@@ -853,6 +855,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_titles_for_the_best
+		icon = AVT_GFX_Titles_For_The_Best
 		prerequisite = { focus = AVT_perfect_society }
 		mutually_exclusive = { focus = AVT_strict_hierarchy }
 		x = 1
@@ -1790,6 +1793,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_buy_commoner_property
+		icon = AVT_GFX_Commener_Property
 		prerequisite = { focus = AVT_titles_for_the_best focus = AVT_strict_hierarchy }
 		mutually_exclusive = { focus = AVT_seize_commoner_property }
 		x = 2
@@ -1907,6 +1911,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_noblesse_oblige
+		icon = AVT_GFX_NoblessOblige
 		prerequisite = { focus = AVT_buy_commoner_property focus = AVT_seize_commoner_property }
 		mutually_exclusive = { focus = AVT_masters_of_life_and_death }
 		x = 2
@@ -2068,6 +2073,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_seize_commoner_property
+		icon = AVT_GFX_Seize_Commener_Property
 		prerequisite = { focus = AVT_titles_for_the_best focus = AVT_strict_hierarchy }
 		mutually_exclusive = { focus = AVT_buy_commoner_property }
 		x = 4
@@ -2187,6 +2193,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_masters_of_life_and_death
+		icon = AVT_GFX_Masters_Life_Death
 		prerequisite = { focus = AVT_buy_commoner_property focus = AVT_seize_commoner_property }
 		mutually_exclusive = { focus = AVT_noblesse_oblige }
 		x = 4
