@@ -417,6 +417,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_noble_only_army
+		icon = AVT_GFX_Nobel_Army
 		prerequisite = { focus = AVT_perfect_society }
 		mutually_exclusive = { focus = AVT_noble_dominated_army }
 		x = -3
@@ -1060,6 +1061,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_spare_the_wealthy
+		icon = AVT_GFX_SpareTheRich
 		prerequisite = { focus = AVT_noble_dominated_army focus = AVT_noble_only_army }
 		mutually_exclusive = { focus = AVT_city_serfdom }
 		x = -2
@@ -1188,6 +1190,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_embrace_rebels
+		icon = AVT_GFX_EmbraceRebels
 		prerequisite = { focus = AVT_spare_the_wealthy focus = AVT_city_serfdom }
 		mutually_exclusive = { focus = AVT_always_a_traitor }
 		x = -2
@@ -1323,6 +1326,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_heritage_studies
+		icon = AVT_GFX_Hiritage
 		prerequisite = { focus = AVT_always_a_traitor focus = AVT_embrace_rebels }
 		mutually_exclusive = { focus = AVT_deal_with_the_scholars }
 		x = -2
@@ -1441,6 +1445,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_city_serfdom
+		icon = AVT_GFX_CitySerfdom
 		prerequisite = { focus = AVT_noble_dominated_army focus = AVT_noble_only_army }
 		mutually_exclusive = { focus = AVT_spare_the_wealthy }
 		x = -4
@@ -1563,6 +1568,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_always_a_traitor
+		icon = AVT_GFX_OnceATraitorAlways
 		prerequisite = { focus = AVT_spare_the_wealthy focus = AVT_city_serfdom }
 		mutually_exclusive = { focus = AVT_embrace_rebels }
 		x = -4
@@ -1676,6 +1682,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_deal_with_the_scholars
+		icon = AVT_GFX_DealScollars
 		prerequisite = { focus = AVT_always_a_traitor focus = AVT_embrace_rebels }
 		mutually_exclusive = { focus = AVT_heritage_studies }
 		x = -4
@@ -2020,6 +2027,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_pony_unity
+		icon = AVT_GFX_PonyUnity
 		prerequisite = { focus = AVT_noblesse_oblige focus = AVT_masters_of_life_and_death }
 		mutually_exclusive = { focus = AVT_aristocrat_unity }
 		x = 2
@@ -2272,6 +2280,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_aristocrat_unity
+		icon = AVT_GFX_Aristocracy
 		prerequisite = { focus = AVT_noblesse_oblige focus = AVT_masters_of_life_and_death }
 		mutually_exclusive = { focus = AVT_pony_unity }
 		x = 4
@@ -2353,6 +2362,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_absolute_rule
+		icon = AVT_GFX_AbsoluteRule
 		prerequisite = { focus = AVT_deal_with_the_scholars focus = AVT_heritage_studies }
 		prerequisite = { focus = AVT_pony_unity focus = AVT_aristocrat_unity }
 		mutually_exclusive = { focus = AVT_empower_council }
@@ -2556,6 +2566,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_empower_council
+		icon = AVT_GFX_EmpoweringCouncil
 		prerequisite = { focus = AVT_deal_with_the_scholars focus = AVT_heritage_studies }
 		prerequisite = { focus = AVT_pony_unity focus = AVT_aristocrat_unity }
 		mutually_exclusive = { focus = AVT_absolute_rule }
@@ -2605,6 +2616,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_towards_perfect_society
+		icon = AVT_GFX_TowardsPerfectSociety
 		prerequisite = { focus = AVT_absolute_rule focus = AVT_empower_council }
 		mutually_exclusive = { focus = AVT_compromise_with_modernity }
 		x = -1
@@ -2727,6 +2739,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_compromise_with_modernity
+		icon = AVT_GFX_CompromiseModernity
 		prerequisite = { focus = AVT_absolute_rule focus = AVT_empower_council }
 		mutually_exclusive = { focus = AVT_towards_perfect_society }
 		x = 1
