@@ -198,7 +198,7 @@ decisioncat_kae_suatoa_coring = {
 	}
 
 	visible = {
-		#has_completed_focus = KAE_mobilise_the_east
+		has_completed_focus = KAE_mobilise_the_east
 	}
 }
 
