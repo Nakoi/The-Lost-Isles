@@ -369,3 +369,407 @@ decisioncat_kae_clan_coring = {
 		}
 	}
 }
+
+decisioncat_kae_suatoa_coring = {
+
+	KAE_kill_astaria_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_mobilise_the_east
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		visible = {
+			tag = KAE
+			#has_completed_focus = KAE_mobilise_the_east
+		}
+		
+		complete_effect = {
+			declare_war_on = {
+				type = annex_everything
+				target = AST
+			}
+		}
+	}
+	
+	KAE_kill_freuji_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_mobilise_the_east
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		visible = {
+			tag = KAE
+			#has_completed_focus = KAE_mobilise_the_east
+		}
+		
+		complete_effect = {
+			declare_war_on = {
+				type = annex_everything
+				target = FRE
+			}
+		}
+	}
+	
+	KAE_kill_sentian_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_mobilise_the_east
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		visible = {
+			tag = KAE
+			#has_completed_focus = KAE_mobilise_the_east
+		}
+		
+		complete_effect = {
+			declare_war_on = {
+				type = annex_everything
+				target = SEN
+			}
+		}
+	}
+	
+	KAE_kill_aing_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_mobilise_the_east
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		visible = {
+			tag = KAE
+			#has_completed_focus = KAE_mobilise_the_east
+		}
+		
+		complete_effect = {
+			declare_war_on = {
+				type = annex_everything
+				target = AIN
+			}
+		}
+	}
+
+	KAE_core_sua_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_mobilise_the_east
+			KAE = {
+				owns_state = 490
+				owns_state = 489
+				owns_state = 487
+				owns_state = 488
+				owns_state = 473
+				owns_state = 418
+			}
+			490 = { compliance > 30 }
+			489 = { compliance > 30 }
+			487 = { compliance > 30 }
+			488 = { compliance > 30 }
+			473 = { compliance > 30 }
+			418 = { compliance > 30 }
+		}
+
+		cost = 75
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			#has_completed_focus = KAE_mobilise_the_east
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 490
+			add_state_core = 489
+			add_state_core = 487
+			add_state_core = 488
+			add_state_core = 473
+			add_state_core = 418
+		}
+	}
+	
+	KAE_core_astaria_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_mobilise_the_east
+			KAE = {
+				owns_state = 126
+				owns_state = 103
+				owns_state = 127
+				owns_state = 128
+				owns_state = 129
+				owns_state = 130
+				owns_state = 131
+				owns_state = 132
+				owns_state = 133
+				owns_state = 327
+				owns_state = 376
+				owns_state = 134
+				owns_state = 139
+				owns_state = 138
+				owns_state = 137
+			}
+			126 = { compliance > 30 }
+			103 = { compliance > 30 }
+			127 = { compliance > 30 }
+			128 = { compliance > 30 }
+			129 = { compliance > 30 }
+			130 = { compliance > 30 }
+			131 = { compliance > 30 }
+			132 = { compliance > 30 }
+			133 = { compliance > 30 }
+			327 = { compliance > 30 }
+			376 = { compliance > 30 }
+			134 = { compliance > 30 }
+			139 = { compliance > 30 }
+			138 = { compliance > 30 }
+			137 = { compliance > 30 }
+		}
+
+		cost = 75
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			#has_completed_focus = KAE_mobilise_the_east
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 126
+			add_state_core = 103
+			add_state_core = 127
+			add_state_core = 128
+			add_state_core = 129
+			add_state_core = 130
+			add_state_core = 131
+			add_state_core = 132
+			add_state_core = 133
+			add_state_core = 327
+			add_state_core = 376
+			add_state_core = 134
+			add_state_core = 139
+			add_state_core = 138
+			add_state_core = 137
+		}
+	}
+	
+	KAE_core_freuji_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_mobilise_the_east
+			KAE = {
+				owns_state = 485
+				owns_state = 486
+				owns_state = 472
+			}
+			485 = { compliance > 30 }
+			486 = { compliance > 30 }
+			472 = { compliance > 30 }
+		}
+
+		cost = 35
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			#has_completed_focus = KAE_mobilise_the_east
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 485
+			add_state_core = 486
+			add_state_core = 472
+		}
+	}
+	
+	KAE_core_sentian_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_mobilise_the_east
+			KAE = {
+				owns_state = 458
+				owns_state = 460
+			}
+			458 = { compliance > 30 }
+			460 = { compliance > 30 }
+		}
+
+		cost = 35
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			#has_completed_focus = KAE_mobilise_the_east
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 458
+			add_state_core = 460
+		}
+	}
+	
+	KAE_core_aing_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_mobilise_the_east
+			KAE = {
+				owns_state = 459
+				owns_state = 471
+			}
+			459 = { compliance > 30 }
+			471 = { compliance > 30 }
+		}
+
+		cost = 35
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			#has_completed_focus = KAE_mobilise_the_east
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 459
+			add_state_core = 471
+		}
+	}
+}
