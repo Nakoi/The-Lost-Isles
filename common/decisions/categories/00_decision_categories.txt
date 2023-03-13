@@ -190,6 +190,18 @@ decisioncat_kae_clan_coring = {
 	}
 }
 
+decisioncat_kae_suatoa_coring = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = KAE
+	}
+
+	visible = {
+		#has_completed_focus = KAE_mobilise_the_east
+	}
+}
+
 decisioncat_esu_integration = {
 	icon = generic_political_actions
 	
