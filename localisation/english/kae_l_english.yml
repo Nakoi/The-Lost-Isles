@@ -79,7 +79,26 @@
  KAE_rin_bonus_desc:0 ""
  KAE_pacification_experience:0 "Pacification Experience"
  KAE_pacification_experience_desc:0 ""
-
+ 
+ KAE_suatoa_battle_plans:0 "Break Out of the Gulf"
+ KAE_suatoa_battle_plans_desc:0 ""
+ KAE_Improve_the_rail_connection:0 "Improve Railway Connection"
+ KAE_Improve_the_rail_connection_desc:0 ""
+ KAE_pirate_tax:0 "Free Ourselves from the Pirate Tax"
+ KAE_pirate_tax_desc:0 ""
+ KAE_mobilise_the_east:0 "Civilise the North-East"
+ KAE_mobilise_the_east_desc:0 ""
+ KAE_early_fortifications:0 "Northern Fortifications"
+ KAE_early_fortifications_desc:0 ""
+ KAE_cannon_supplies:0 "Local Expertise"
+ KAE_cannon_supplies_desc:0 ""
+ KAE_commission_officers:0 "Suatoan-Astarian War Research Commission"
+ KAE_commission_officers_desc:0 ""
+ KAE_fortify_our_north:0 "Middle Ootari Fortifications"
+ KAE_fortify_our_north_desc:0 ""
+ KAE_to_war:0 "To War!"
+ KAE_to_war_desc:0 ""
+ 
 ###FOCUS LOCALISATION - UNIVERSAL ARMY/INDUSTRY TREE###
  KAE_Greater_economy:0 "Help our Industrialists"
  KAE_Greater_economy_desc:0 ""
@@ -256,6 +275,17 @@
  KAE_core_unu_decision:0 "Integrate Unuo Territory"
  KAE_core_rin_decision:0 "Integrate Rinto Territory"
  KAE_core_ash_decision:0 "Integrate Ashi Territory"
+ 
+ decisioncat_kae_suatoa_coring:0 "Civilising the North-East"
+ KAE_core_sua_decision:0 "Civilise Suatoa"
+ KAE_kill_astaria_decision:0 "Conquer the Deer"
+ KAE_kill_freuji_decision:0 "Conquer Clan Freuji"
+ KAE_kill_sentian_decision:0 "Conquer Clan Sentian"
+ KAE_kill_aing_decision:0 "Conquer Clan Aing"
+ KAE_core_astaria_decision:0 "Civilise the Deer"
+ KAE_core_freuji_decision:0 "Civilise Clan Freuji"
+ KAE_core_sentian_decision:0 "Civilise Clan Sentian"
+ KAE_core_aing_decision:0 "Civilise Clan Aing"
  
 ###EVENT LOCALISATION ###
  kae_startevent.0.t:0 "The Cilarine Gulf Negotiations"
