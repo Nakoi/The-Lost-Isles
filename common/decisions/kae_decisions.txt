@@ -394,7 +394,7 @@ decisioncat_kae_suatoa_coring = {
 
 		visible = {
 			tag = KAE
-			#has_completed_focus = KAE_mobilise_the_east
+			has_completed_focus = KAE_mobilise_the_east
 		}
 		
 		complete_effect = {
@@ -427,7 +427,7 @@ decisioncat_kae_suatoa_coring = {
 
 		visible = {
 			tag = KAE
-			#has_completed_focus = KAE_mobilise_the_east
+			has_completed_focus = KAE_mobilise_the_east
 		}
 		
 		complete_effect = {
@@ -460,7 +460,7 @@ decisioncat_kae_suatoa_coring = {
 
 		visible = {
 			tag = KAE
-			#has_completed_focus = KAE_mobilise_the_east
+			has_completed_focus = KAE_mobilise_the_east
 		}
 		
 		complete_effect = {
@@ -493,7 +493,7 @@ decisioncat_kae_suatoa_coring = {
 
 		visible = {
 			tag = KAE
-			#has_completed_focus = KAE_mobilise_the_east
+			has_completed_focus = KAE_mobilise_the_east
 		}
 		
 		complete_effect = {
@@ -542,7 +542,7 @@ decisioncat_kae_suatoa_coring = {
 
 		visible = {
 			tag = KAE
-			#has_completed_focus = KAE_mobilise_the_east
+			has_completed_focus = KAE_mobilise_the_east
 		}
 		
 		modifier = {
@@ -615,7 +615,7 @@ decisioncat_kae_suatoa_coring = {
 
 		visible = {
 			tag = KAE
-			#has_completed_focus = KAE_mobilise_the_east
+			has_completed_focus = KAE_mobilise_the_east
 		}
 		
 		modifier = {
@@ -673,7 +673,7 @@ decisioncat_kae_suatoa_coring = {
 
 		visible = {
 			tag = KAE
-			#has_completed_focus = KAE_mobilise_the_east
+			has_completed_focus = KAE_mobilise_the_east
 		}
 		
 		modifier = {
@@ -717,7 +717,7 @@ decisioncat_kae_suatoa_coring = {
 
 		visible = {
 			tag = KAE
-			#has_completed_focus = KAE_mobilise_the_east
+			has_completed_focus = KAE_mobilise_the_east
 		}
 		
 		modifier = {
@@ -760,7 +760,7 @@ decisioncat_kae_suatoa_coring = {
 
 		visible = {
 			tag = KAE
-			#has_completed_focus = KAE_mobilise_the_east
+			has_completed_focus = KAE_mobilise_the_east
 		}
 		
 		modifier = {
