@@ -594,6 +594,11 @@
  genidea_militia_demob:0 "Militia Demobilisation"
  genidea_army_reorg_timed:0 "Army Reorganisation"
  
+###GENERIC EVENT LOC###
+ generic_militia.1.t:0 "Demobilisation!"
+ generic_militia.1.d:0 "With all threats to the nation vanquished, our humble, though victorious citizen soldiers are trading their weapons for tools of their respective antebellum professions."
+ generic_militia.1.a:0 "We will gladly oblige their yearning for home."
+ 
 ###GENERIC ADVISOR TRAITS###
  advtrait_rural_aristocrat:0 "Rural Aristocrat"
  advtrait_restless_warrior:0 "Restless Warrior"
