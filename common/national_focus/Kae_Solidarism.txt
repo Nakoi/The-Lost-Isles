@@ -925,8 +925,47 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = KAE_equipment_shipment
+		id = KAE_core_esun
 		prerequisite = { focus = KAE_to_war }
+		x = 0
+		y = 2
+		relative_position_id = KAE_to_war
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = KAE_united_ootari
+		prerequisite = { focus = KAE_core_esun }
+		x = 0
+		y = 3
+		relative_position_id = KAE_to_war
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = KAE_mercenary_ootari_bonus
+		prerequisite = { focus = KAE_to_war }
+		mutually_exclusive = { focus = KAE_conscript_ootari_bonus }
 		x = -1
 		y = 2
 		relative_position_id = KAE_fortify_our_north
@@ -936,18 +975,19 @@ focus_tree = {
 		}
 		
 		available = {
-			has_war = no
+			
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			
 		}
 	}
 
 
 	focus = {
-		id = KAE_army_stuff
+		id = KAE_conscript_ootari_bonus
 		prerequisite = { focus = KAE_to_war }
+		mutually_exclusive = { focus = KAE_mercenary_ootari_bonus }
 		x = 1
 		y = 2
 		relative_position_id = KAE_fortify_our_north
@@ -966,8 +1006,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = KAE_draft_routines
+		id = KAE_esun_pone_airskirms
 		prerequisite = { focus = KAE_to_war }
+		prerequisite = { focus = KAE_conscript_ootari_bonus }
 		x = 2
 		y = 3
 		relative_position_id = KAE_fortify_our_north
@@ -977,17 +1018,18 @@ focus_tree = {
 		}
 		
 		available = {
-			has_war = no
+			
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			
 		}
 	}
 
 	focus = {
-		id = KAE_officer_schools
+		id = KAE_ootari_merc_recruitment
 		prerequisite = { focus = KAE_to_war }
+		prerequisite = { focus = KAE_mercenary_ootari_bonus }
 		x = -2
 		y = 3
 		relative_position_id = KAE_fortify_our_north
@@ -997,11 +1039,11 @@ focus_tree = {
 		}
 		
 		available = {
-			has_war = no
+			
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			
 		}
 	}
 
@@ -1900,6 +1942,42 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			IF = {
+				limit = {
+					has_idea = recruit_militia_peacetime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_wartime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_wartime
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_volunteer
+				}
+				swap_ideas = {
+					remove_idea = recruit_volunteer
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_universalcon
+				}
+			}
 			add_war_support = 0.20
 			add_stability = 0.05
 		}
@@ -2013,6 +2091,15 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_wartime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_wartime
 					add_idea = recruit_volunteer
 				}
 			}

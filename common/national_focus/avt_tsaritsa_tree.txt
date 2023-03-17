@@ -462,6 +462,15 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
+					has_idea = recruit_militia_wartime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_wartime
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
 					has_idea = recruit_selectivecon
 				}
 				swap_ideas = {
@@ -614,6 +623,15 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_wartime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_wartime
 					add_idea = recruit_volunteer
 				}
 			}
