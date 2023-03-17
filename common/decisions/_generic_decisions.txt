@@ -116,49 +116,6 @@ gendecision_recruitment = {
 		}
 	}
 	
-	gendecision_militia_demobilise = {
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = gentext_has_mobilised_militia
-				has_idea = recruit_militia_wartime
-			}
-			has_war = no
-		}
-		
-		ai_will_do = {
-			factor = 100
-		}
-		
-		custom_cost_trigger = {
-			command_power > 49
-		}
-		custom_cost_text = gentext_recruitment_decision_cost50
-		
-		visible = {
-    		has_idea = recruit_militia_wartime
-		}
-		
-		days_remove = 365
-		
-  		fire_only_once = no
-
-		complete_effect = {
-			swap_ideas = {
-				remove_idea = recruit_militia_wartime
-				add_idea = recruit_militia_peacetime
-			}
-			add_ideas = genidea_militia_demob
-			hidden_effect = {
-				add_command_power = -50
-			}
-		}
-		
-		remove_effect = {
-			remove_ideas = genidea_militia_demob
-		}
-	}
-	
-	
 	gendecision_militia_volunteer = {
 		available = {
 			custom_trigger_tooltip = {
