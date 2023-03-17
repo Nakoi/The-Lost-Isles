@@ -75,16 +75,18 @@ country_event = {
 	trigger = {
 		tag = KAE
 		has_war_with = WEI
+		
 		WEI = { 
 			OR = { 
 				surrender_progress > 0.25
 				has_capitulated = yes
+				country_exists = WEI
 			}
 		}
 	}
 	
 	mean_time_to_happen = {
-		days = 14
+		days = 1
 	}
 	
 	option = {
@@ -137,12 +139,13 @@ country_event = {
 			OR = { 
 				surrender_progress > 0.25
 				has_capitulated = yes
+				country_exists = UNU
 			}
 		}
 	}
 	
 	mean_time_to_happen = {
-		days = 14
+		days = 1
 	}
 	
 	option = {
@@ -171,12 +174,13 @@ country_event = {
 			OR = { 
 				surrender_progress > 0.25
 				has_capitulated = yes
+				country_exists = ASH
 			}
 		}
 	}
 	
 	mean_time_to_happen = {
-		days = 14
+		days = 1
 	}
 	
 	option = {
