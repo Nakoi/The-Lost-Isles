@@ -4186,7 +4186,7 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = recruit_militia_wartime
-					add_idea = recruit_volunteer
+					add_idea = recruit_selectivecon
 				}
 			}
 			IF = {
