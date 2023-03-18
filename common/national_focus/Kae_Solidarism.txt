@@ -928,25 +928,6 @@ focus_tree = {
 		id = KAE_core_esun
 		prerequisite = { focus = KAE_to_war }
 		x = 0
-		y = 2
-		relative_position_id = KAE_to_war
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			
-		}
-		
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = KAE_united_ootari
-		prerequisite = { focus = KAE_core_esun }
-		x = 0
 		y = 3
 		relative_position_id = KAE_to_war
 		cost = 10
@@ -955,10 +936,21 @@ focus_tree = {
 		}
 		
 		available = {
-			
+			NOT = { country_exists = ESU }
+			NOT = { country_exists = SUA }
+			NOT = { country_exists = AIN }
+			NOT = { country_exists = SEN }
+			NOT = { country_exists = FRE }
+			NOT = { country_exists = WEI }
+			NOT = { country_exists = UNU }
+			NOT = { country_exists = RIN }
+			NOT = { country_exists = ASH }
+			owns_state = 122
+			owns_state = 418
 		}
 		
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_kae_esun_coring
 		}
 	}
 	
@@ -969,17 +961,33 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = KAE_fortify_our_north
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			
+			has_war = yes
+			has_completed_focus = KAE_merc_calls
+		}
+		
+		bypass = {
+			NOT = { country_exists = ESU }
+			NOT = { country_exists = SUA }
+			NOT = { country_exists = AIN }
+			NOT = { country_exists = SEN }
+			NOT = { country_exists = FRE }
+			NOT = { country_exists = WEI }
+			NOT = { country_exists = UNU }
+			NOT = { country_exists = RIN }
+			NOT = { country_exists = ASH }
+			owns_state = 122
+			owns_state = 418
 		}
 		
 		completion_reward = {
-			
+			add_manpower = 150000
+			add_timed_idea = { idea = KAE_mercpayments days = 180 }
 		}
 	}
 
@@ -991,17 +999,33 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = KAE_fortify_our_north
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			has_war = yes
+			has_completed_focus = KAE_duty_calls
+		}
+		
+		bypass = {
+			NOT = { country_exists = ESU }
+			NOT = { country_exists = SUA }
+			NOT = { country_exists = AIN }
+			NOT = { country_exists = SEN }
+			NOT = { country_exists = FRE }
+			NOT = { country_exists = WEI }
+			NOT = { country_exists = UNU }
+			NOT = { country_exists = RIN }
+			NOT = { country_exists = ASH }
+			owns_state = 122
+			owns_state = 418
 		}
 		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			add_manpower = 100000
+			add_stability = -0.05
 		}
 	}
 	
@@ -1012,7 +1036,7 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = KAE_fortify_our_north
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1022,7 +1046,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 0.4
+				uses = 3
+				category = category_air_skirmisher
+			}
 		}
 	}
 
@@ -1033,7 +1061,7 @@ focus_tree = {
 		x = -2
 		y = 3
 		relative_position_id = KAE_fortify_our_north
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -1043,7 +1071,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_timed_idea = { idea = KAE_mercrecruitment days = 720 }
 		}
 	}
 
