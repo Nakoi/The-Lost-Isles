@@ -202,6 +202,18 @@ decisioncat_kae_suatoa_coring = {
 	}
 }
 
+decisioncat_kae_esun_coring = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = KAE
+	}
+
+	visible = {
+		has_completed_focus = KAE_core_esun
+	}
+}
+
 decisioncat_esu_integration = {
 	icon = generic_political_actions
 	
