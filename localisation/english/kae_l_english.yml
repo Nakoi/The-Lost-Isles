@@ -98,6 +98,16 @@
  KAE_fortify_our_north_desc:0 ""
  KAE_to_war:0 "To War!"
  KAE_to_war_desc:0 ""
+ KAE_core_esun:0 "Unite Ootari"
+ KAE_core_esun_desc:0 ""
+ KAE_mercenary_ootari_bonus:0 "Mercenary "Mobilisation""
+ KAE_mercenary_ootari_bonus_desc:0 ""
+ KAE_conscript_ootari_bonus:0 "Astarian Conscription"
+ KAE_conscript_ootari_bonus_desc:0 ""
+ KAE_esun_pone_airskirms:0 "Esun Pegasus Brigades"
+ KAE_esun_pone_airskirms_desc:0 ""
+ KAE_ootari_merc_recruitment:0 "Replenish our Losses"
+ KAE_ootari_merc_recruitment_desc:0 ""
  
 ###FOCUS LOCALISATION - UNIVERSAL ARMY/INDUSTRY TREE###
  KAE_Greater_economy:0 "Help our Industrialists"
@@ -241,6 +251,8 @@
  KAE_militiaprotest_no:0 "Militia Veteran Movement Riots"
  
  KAE_pacificationxp_idea:0 "Pacification Campaign Experience"
+ KAE_mercpayments:0 "Mercenary Payments"
+ KAE_mercrecruitment:0 "Mercenary Recruitment"
  
  KAE_Greater_economy_idea:0 "The Kirin's Industrial Revolution"
  KAE_poor_living_conditions_01:0 "Poor Living Conditions"
@@ -259,8 +271,6 @@
  KAE_officer_training_02:0 "Officer Training"
  KAE_officer_training_03:0 "Officer Training"
  KAE_ootari_workshop_idea:0 "The Workshop of Ootari"
- 
- 
 
 ###DECISION LOCALISATION###
  decisioncat_kae_starting_cilarine_trade:0 "The Negotiations of 957"
@@ -283,9 +293,12 @@
  KAE_kill_sentian_decision:0 "Conquer Clan Sentian"
  KAE_kill_aing_decision:0 "Conquer Clan Aing"
  KAE_core_astaria_decision:0 "Civilise the Deer"
- KAE_core_freuji_decision:0 "Civilise Clan Freuji"
- KAE_core_sentian_decision:0 "Civilise Clan Sentian"
- KAE_core_aing_decision:0 "Civilise Clan Aing"
+ KAE_core_suatoa_interior:0 "Civilise Suatoa's Interior"
+ 
+ decisioncat_kae_esun_coring:0 "Uniting Ootari"
+ KAE_core_esun_proper:0 "Integrate Esun Proper"
+ KAE_core_esun_ponyland:0 "Integrate the Majority Pony Lands"
+ KAE_core_esun_interior:0 "Integrate Esun's Interior"
  
 ###EVENT LOCALISATION ###
  kae_startevent.0.t:0 "The Cilarine Gulf Negotiations"
