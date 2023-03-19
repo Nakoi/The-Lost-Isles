@@ -590,9 +590,13 @@
  gendecision_unicon:0 "Introduce Universal Conscription"
  gendecision_goblinmode:0 "Introduce Mass Conscription"
  gendecision_goblinmode_off:0 "Recover from the War"
+
+ gendecision_airskirms:0 "Air Skirmisher Recruitment"
+ gendecision_airskirm_recruitment:0 "Hire Winged Mercenaries"
  
  genidea_militia_demob:0 "Militia Demobilisation"
  genidea_army_reorg_timed:0 "Army Reorganisation"
+ genidea_wingless_airskirm_recruitment:0 "Mercenary Air Skirmishers"
  
 ###GENERIC EVENT LOC###
  generic_militia.1.t:0 "Demobilisation!"
