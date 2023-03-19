@@ -225,5 +225,22 @@ country = {
 				conscription = 0.03
 			}
 		}
+
+		genidea_wingless_airskirm_recruitment = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				air_skirmisher_equipment = {
+					build_cost_ic = 1 instant = yes
+				}
+				air_striker_equipment = {
+					build_cost_ic = 1 instant = yes
+				}
+			}
+		}
 	}
 }
