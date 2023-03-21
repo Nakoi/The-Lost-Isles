@@ -3058,6 +3058,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_knightly_heritage
+		icon = AVT_GFX_Knightly_Heritage
 		prerequisite = { focus = AVT_towards_perfect_society focus = AVT_compromise_with_modernity }
 		x = 3
 		y = 10
@@ -3083,6 +3084,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_imperial_splendor
+		icon = AVT_GFX_ImperialSplendor
 		prerequisite = { focus = AVT_towards_perfect_society focus = AVT_compromise_with_modernity }
 		x = 5
 		y = 10
@@ -3104,6 +3106,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_palace
+		icon = AVT_GFX_Palace
 		prerequisite = { focus = AVT_imperial_splendor }
 		x = 5
 		y = 11
