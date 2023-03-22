@@ -244,3 +244,15 @@ decisioncat_esu_integration = {
 		}
 	}
 }
+
+decisioncat_esu_ootari_cores = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = ESU
+	}
+
+	visible = {
+		#has_completed_focus = ESU_world_wonder
+	}
+}
