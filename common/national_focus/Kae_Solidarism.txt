@@ -84,6 +84,10 @@ focus_tree = {
 				amount = 160
 				producer = CIL
 			}
+			set_technology = {
+				air_skirmisher = 1
+			}
+			add_ideas = genidea_wingless_airskirm_recruitment
 		}
 	}
 
@@ -1042,10 +1046,15 @@ focus_tree = {
 		}
 		
 		available = {
-			
+			owns_state = 125
+			owns_state = 466
+			owns_state = 470
+			owns_state = 468
+			owns_state = 457
 		}
 		
 		completion_reward = {
+			add_ideas = KAE_conscript_pegasus_skirms
 			add_tech_bonus = {
 				bonus = 0.4
 				uses = 3
@@ -1067,7 +1076,7 @@ focus_tree = {
 		}
 		
 		available = {
-			
+			owns_state = 122
 		}
 		
 		completion_reward = {

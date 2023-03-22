@@ -260,6 +260,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			set_technology = {
+				air_skirmisher = 1
+			}
+			add_ideas = genidea_wingless_airskirm_recruitment
 			add_doctrine_cost_reduction =  {
 				cost_reduction = 0.5
 				uses = 2
@@ -2222,7 +2226,10 @@ focus_tree = {
 			IF = {
 				limit = { has_dlc = "Man the Guns" }
 				has_tech = heavy_ship_tech_3
+				has_tech = spotting_equipment_2
 				has_tech = breech_loaded_cannons
+				has_tech = gatling_gun
+				has_tech = improved_carronade
 			}
 			ELSE = {
 				has_tech = heavy_ship_poverty_3
@@ -2232,34 +2239,27 @@ focus_tree = {
 		completion_reward = {
 			IF = {
 				limit = { has_dlc = "Man the Guns" }
-				set_technology = {
-					heavy_ship_tech_4 = 1
-				}
-				set_technology = {
-					modern_naval_gunnery = 1
-				}
 				create_equipment_variant = {
 					name = "Fearless Class"								
-					type = ship_hull_heavy_4
+					type = ship_hull_heavy_3
 					modules = {
-						fixed_ship_battery_slot = heavy_naval_battery_4
-						fixed_ship_anti_air_slot = empty
-						fixed_ship_fire_control_system_slot = empty
+						fixed_ship_battery_slot = heavy_naval_battery_3
+						fixed_ship_anti_air_slot = naval_anti_air_2
+						fixed_ship_fire_control_system_slot = spotting_equipment_2
 						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = ship_of_the_line_propulsion_4
-						fixed_ship_armor_slot = heavy_planking_4
-						front_1_custom_slot = light_naval_battery_4
-						mid_1_custom_slot = empty
-						mid_3_custom_slot = heavy_naval_battery_4
-						mid_2_custom_slot = heavy_naval_battery_4
-						mid_4_custom_slot = heavy_naval_battery_4
-						rear_1_custom_slot = light_naval_battery_4
+						fixed_ship_engine_slot = ship_of_the_line_propulsion_3
+						fixed_ship_armor_slot = heavy_planking_3
+						front_1_custom_slot = naval_carronades_2
+						mid_1_custom_slot = heavy_naval_battery_3
+						mid_3_custom_slot = heavy_naval_battery_3
+						mid_2_custom_slot = light_naval_battery_3
+						mid_4_custom_slot = light_naval_battery_3
+						rear_1_custom_slot = naval_anti_air_2
 					}
 				}
-			}
-			ELSE = {
-				set_technology = {
-					heavy_ship_poverty_4 = 1
+				load_oob = "ESU_ERWS_FEARLESS"
+				
+				ELSE = {
 				}
 			}
 		}
@@ -2778,11 +2778,11 @@ focus_tree = {
 			}
 		}
 		
-		available = {
-			has_army_manpower = {
+		#available = {
+			#has_army_manpower = {
 				size > 399999
-			}
-		}
+			#}
+		#}
 		
 		completion_reward = {
 			country_event = { id = esu_sanelate.2 }
