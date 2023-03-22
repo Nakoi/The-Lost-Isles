@@ -242,6 +242,25 @@ ideas = {
 			}
 		}
 		
+		KAE_conscript_pegasus_skirms = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				air_skirmisher_equipment = {
+					build_cost_ic = -0.5
+					instant = yes
+				}
+				air_striker_equipment = {
+					build_cost_ic = -0.5
+					instant = yes
+				}
+			}
+		}
+		
 		KAE_Greater_economy_idea = {
 			picture = great_depression
 			removal_cost = -1
@@ -433,7 +452,11 @@ ideas = {
 			
 			equipment_bonus = {
 				air_skirmisher_equipment = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.5
+					instant = yes
+				}
+				air_striker_equipment = {
+					build_cost_ic = -0.5
 					instant = yes
 				}
 			}
