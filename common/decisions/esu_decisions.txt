@@ -194,3 +194,294 @@ decisioncat_esu_integration = {
 		}
 	}
 }
+
+decisioncat_esu_ootari_cores = {
+
+	ESU_core_inner_kae = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = ESU
+		}
+
+		available = {
+			ESU = {
+				owns_state = 478
+				owns_state = 479
+				owns_state = 503
+				owns_state = 506
+				owns_state = 505
+				owns_state = 504
+				owns_state = 500
+				owns_state = 501
+			}
+			478 = { compliance > 30 }
+			479 = { compliance > 30 }
+			503 = { compliance > 30 }
+			506 = { compliance > 30 }
+			505 = { compliance > 30 }
+			504 = { compliance > 30 }
+			500 = { compliance > 30 }
+			501 = { compliance > 30 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = ESU
+			has_completed_focus = ESU_world_wonder
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 478
+			add_state_core = 479
+			add_state_core = 503
+			add_state_core = 506
+			add_state_core = 505
+			add_state_core = 504
+			add_state_core = 500
+			add_state_core = 501
+		}
+	}
+	
+	ESU_core_proper_kae = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = ESU
+		}
+
+		available = {
+			ESU = {
+				owns_state = 495
+				owns_state = 502
+				owns_state = 494
+				owns_state = 493
+				owns_state = 491
+				owns_state = 492
+				owns_state = 136
+			}
+			495 = { compliance > 30 }
+			502 = { compliance > 30 }
+			494 = { compliance > 30 }
+			493 = { compliance > 30 }
+			491 = { compliance > 30 }
+			492 = { compliance > 30 }
+			136 = { compliance > 30 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = ESU
+			has_completed_focus = ESU_world_wonder
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 495
+			add_state_core = 502
+			add_state_core = 494
+			add_state_core = 493
+			add_state_core = 491
+			add_state_core = 492
+			add_state_core = 136
+		}
+	}
+	
+	ESU_core_inner_sua = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = ESU
+		}
+
+		available = {
+			ESU = {
+				owns_state = 485
+				owns_state = 486
+				owns_state = 472
+				owns_state = 459
+				owns_state = 471
+				owns_state = 460
+				owns_state = 458
+			}
+			485 = { compliance > 30 }
+			486 = { compliance > 30 }
+			472 = { compliance > 30 }
+			459 = { compliance > 30 }
+			471 = { compliance > 30 }
+			460 = { compliance > 30 }
+			458 = { compliance > 30 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = ESU
+			has_completed_focus = ESU_world_wonder
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 485
+			add_state_core = 486
+			add_state_core = 472
+			add_state_core = 459
+			add_state_core = 471
+			add_state_core = 460
+			add_state_core = 458
+		}
+	}
+	
+	ESU_core_proper_sua = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = ESU
+		}
+
+		available = {
+			ESU = {
+				owns_state = 418
+				owns_state = 473
+				owns_state = 487
+				owns_state = 488
+				owns_state = 490
+				owns_state = 489
+			}
+			418 = { compliance > 30 }
+			473 = { compliance > 30 }
+			487 = { compliance > 30 }
+			488 = { compliance > 30 }
+			490 = { compliance > 30 }
+			489 = { compliance > 30 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = ESU
+			has_completed_focus = ESU_world_wonder
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 418
+			add_state_core = 473
+			add_state_core = 487
+			add_state_core = 488
+			add_state_core = 490
+			add_state_core = 489
+		}
+	}
+	
+	ESU_avtukov_war = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = ESU
+		}
+
+		available = {
+			date > 965.01.01
+			NOT = { country_exists = KAE }
+			NOT = { country_exists = SUA }
+			NOT = { country_exists = AIN }
+			NOT = { country_exists = SEN }
+			NOT = { country_exists = FRE }
+			NOT = { country_exists = WEI }
+			NOT = { country_exists = UNU }
+			NOT = { country_exists = RIN }
+			NOT = { country_exists = ASH }
+			owns_state = 136
+			owns_state = 418
+		}
+
+		cost = 150
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = ESU
+			has_completed_focus = ESU_world_wonder
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			ESU = {
+  				add_state_claim = 453
+  				add_state_claim = 452
+				add_state_claim = 367
+				add_state_claim = 420
+				add_state_claim = 451
+				add_state_claim = 387
+				add_state_claim = 386
+				add_state_claim = 441
+				add_state_claim = 437
+				declare_war_on = {
+					type = take_state
+					target = AVT
+				}
+			}
+		}
+	}
+}
