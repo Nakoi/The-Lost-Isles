@@ -227,7 +227,35 @@ country_event = {
 			type = annex_everything
 		}
 		declare_war_on = {
+			target = SEN
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = FRE
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = AIN
+			type = annex_everything
+		}
+		declare_war_on = {
 			target = KAE
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = WEI
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = UNU
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = RIN
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = ASH
 			type = annex_everything
 		}
 	}
