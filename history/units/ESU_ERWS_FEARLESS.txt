@@ -1,0 +1,11 @@
+units = {
+	fleet = {
+		name = "Fearless"			
+		naval_base = 3456
+		task_force = {
+			name = "Task Force Fearless"
+			location = 3456
+			ship = { name = "ERWS Fearless" definition = ship_of_line start_experience_factor = 0.2 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ESU version_name = "Fearless Class" } } }
+		}
+	}
+}
