@@ -3012,6 +3012,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_protect_savinki
+		icon = AVT_GFX_Protect_Savinki
 		prerequisite = { focus = AVT_deal_with_kirins }
 		x = 1
 		y = 11
