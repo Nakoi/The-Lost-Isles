@@ -286,6 +286,14 @@
  ESU_core_onki:0 "Integrate Onki Family Territory"
  ESU_core_waonto:0 "Integrate Waonto Family Territory"
  ESU_core_azeo:0 "Integrate Azeo Family Territory"
+ 
+ decisioncat_esu_ootari_cores:0 "Ootari Coring"
+ ESU_core_inner_kae:0 "Integrate Inner Kae Territory"
+ ESU_core_proper_kae:0 "Integrate Kae Proper"
+ ESU_core_inner_sua:0 "Integrate Inner Suatoan Territory"
+ ESU_core_proper_sua:0 "Integrate Suatoa Proper"
+ ESU_avtukov_war:0 "Take Back our Lost Lands"
+ 
 
 ###EVENT LOCALISATION ###
  esu_start.0.t:0 "good guy intro event"
