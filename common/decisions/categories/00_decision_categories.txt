@@ -253,6 +253,6 @@ decisioncat_esu_ootari_cores = {
 	}
 
 	visible = {
-		#has_completed_focus = ESU_world_wonder
+		has_completed_focus = ESU_world_wonder
 	}
 }
