@@ -2822,6 +2822,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_deal_with_kirins
+		icon = AVT_GFX_Deal_With_Kirins
 		prerequisite = { focus = AVT_towards_perfect_society focus = AVT_compromise_with_modernity }
 		x = 0
 		y = 10
@@ -2909,6 +2910,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_reconcile_with_old_foes
+		icon = AVT_GFX_Reconcile_With_Old_Foes
 		prerequisite = { focus = AVT_deal_with_kirins }
 		x = -1
 		y = 11
@@ -3042,6 +3044,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_into_bright_future
+		icon = AVT_GFX_Bright_Future
 		prerequisite = { focus = AVT_reconcile_with_old_foes }
 		prerequisite = { focus = AVT_protect_savinki }
 		x = 0
@@ -3480,6 +3483,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_dealing_with_dissent
+		icon = AVT_GFX_Penal
 		prerequisite = { focus = AVT_perfect_society }
 		x = -11
 		y = 4
