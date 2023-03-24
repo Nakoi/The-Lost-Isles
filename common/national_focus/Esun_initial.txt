@@ -2217,7 +2217,7 @@ focus_tree = {
 		x = 3
 		y = 3
 		relative_position_id = ESU_noble_workforce
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2273,7 +2273,7 @@ focus_tree = {
 		x = 5
 		y = 3
 		relative_position_id = ESU_noble_workforce
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
@@ -2291,6 +2291,7 @@ focus_tree = {
 		id = ESU_naval_supremecy
 		icon = ESU_GFX_Naval_Supremacy
 		prerequisite = { focus = ESU_naval_offense focus = ESU_naval_defence }
+		mutually_exclusive = { focus = ESU_naval_supremecy_quality }
 		x = 4
 		y = 4
 		relative_position_id = ESU_noble_workforce
@@ -2303,7 +2304,136 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = ESU_naval_supremacy_idea
+			add_ideas = ESU_naval_supremacy_quantity_idea
+		}
+	}
+	
+	focus = {
+		id = ESU_naval_supremecy_quality
+		prerequisite = { focus = ESU_naval_offense focus = ESU_naval_defence }
+		mutually_exclusive = { focus = ESU_naval_supremecy }
+		x = 6
+		y = 4
+		relative_position_id = ESU_noble_workforce
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_naval_supremacy_quality_idea
+		}
+	}
+	
+	focus = {
+		id = ESU_air_stuff
+		prerequisite = { focus = ESU_spark_the_factories }
+		x = -4
+		y = 2
+		relative_position_id = ESU_noble_workforce
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 4
+				category = category_airship
+			}
+		}
+	}
+
+	focus = {
+		id = ESU_airship_frigate
+		prerequisite = { focus = ESU_air_stuff }
+		mutually_exclusive = { focus = ESU_airship_cruiser }
+		x = -3
+		y = 3
+		relative_position_id = ESU_noble_workforce
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2
+				uses = 1
+				category = category_airfrigate
+			}
+		}
+	}
+	
+	focus = {
+		id = ESU_airship_cruiser
+		prerequisite = { focus = ESU_air_stuff }
+		mutually_exclusive = { focus = ESU_airship_frigate }
+		x = -5
+		y = 3
+		relative_position_id = ESU_noble_workforce
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2
+				uses = 1
+				category = category_skycarrier
+			}
+		}
+	}
+
+	focus = {
+		id = ESU_airskirms
+		prerequisite = { focus = ESU_airship_frigate focus = ESU_airship_cruiser }
+		x = -4
+		y = 4
+		relative_position_id = ESU_noble_workforce
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_airskirm_spam_idea
+		}
+	}
+	
+	focus = {
+		id = ESU_airship_supremacy
+		prerequisite = { focus = ESU_airship_frigate focus = ESU_airship_cruiser }
+		x = -6
+		y = 4
+		relative_position_id = ESU_noble_workforce
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_ideas = ESU_airship_spam_idea
 		}
 	}
 	
