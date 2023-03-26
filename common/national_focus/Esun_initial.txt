@@ -2005,6 +2005,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = ESU_designer_ozaki_academy
 			add_tech_bonus = {
 				bonus = 1
 				uses = 1
@@ -2035,6 +2037,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = ESU_designer_myosan_arsenal
 			add_tech_bonus = {
 				bonus = 1
 				uses = 1
@@ -2201,6 +2205,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = ESU_designer_eastrefugeboats
 			add_tech_bonus = {
 				bonus = 0.3
 				uses = 3
@@ -2414,6 +2420,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = ESU_designer_yorii_pegasus_school
 			add_ideas = ESU_airskirm_spam_idea
 		}
 	}
@@ -2628,8 +2636,38 @@ focus_tree = {
 		}
 		
 		available = {
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				network_strength = {
+					target = IJI
+					state = 5
+					value > 49
+				}
+				network_strength = {
+					target = IJI
+					state = 4
+					value > 49
+				}
+				network_strength = {
+					target = IJI
+					state = 6
+					value > 49
+				}
+				network_strength = {
+					target = IJI
+					state = 371
+					value > 49
+				}
+				network_strength = {
+					target = IJI
+					state = 7
+					value > 49
+				}
+			}
 		}
-		
+			
 		completion_reward = {
 			IJI = {
 				swap_ideas = {
@@ -2674,6 +2712,36 @@ focus_tree = {
 		}
 		
 		available = {
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				network_strength = {
+					target = IJI
+					state = 5
+					value > 79
+				}
+				network_strength = {
+					target = IJI
+					state = 4
+					value > 79
+				}
+				network_strength = {
+					target = IJI
+					state = 6
+					value > 79
+				}
+				network_strength = {
+					target = IJI
+					state = 371
+					value > 79
+				}
+				network_strength = {
+					target = IJI
+					state = 7
+					value > 79
+				}
+			}
 		}
 		
 		completion_reward = {
@@ -2726,7 +2794,7 @@ focus_tree = {
 	focus = {
 		id = ESU_flames_of_war
 		icon = ESU_GFX_Struggle
-		prerequisite = { focus = ESU_naval_supremecy }
+		prerequisite = { focus = ESU_naval_supremecy focus = ESU_naval_supremecy_quality }
 		prerequisite = { focus = ESU_factory_destruction }
 		prerequisite = { focus = ESU_ready_force }
 		prerequisite = { focus = ESU_world_wonder }
@@ -2739,12 +2807,52 @@ focus_tree = {
 		}
 		
 		available = {
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				network_strength = {
+					target = IJI
+					state = 5
+					value > 89
+				}
+				network_strength = {
+					target = IJI
+					state = 4
+					value > 89
+				}
+				network_strength = {
+					target = IJI
+					state = 6
+					value > 89
+				}
+				network_strength = {
+					target = IJI
+					state = 371
+					value > 89
+				}
+				network_strength = {
+					target = IJI
+					state = 7
+					value > 89
+				}
+			}
 		}
 		
 		completion_reward = {
+			ESU = {
+				declare_war_on = {
+					target = IJI
+					type = annex_everything
+				}
+			}
 			custom_effect_tooltip = ESUtt_second_rising
 			hidden_effect = {
-				UES = {			
+				UES = {
+					declare_war_on = {
+						target = IJI
+						type = annex_everything
+					}
 					transfer_state  = 11
 					transfer_state  = 9
 					transfer_state  = 8
