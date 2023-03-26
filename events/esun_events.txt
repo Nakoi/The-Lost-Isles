@@ -317,3 +317,23 @@ country_event = { #flavor 4
 		name = esu_sanelate.7.a
 	}
 }
+
+country_event = { #second rising army
+	id = esu_event.999
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.999"}
+	title = esu_event.999.t
+	desc = esu_event.999.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.999.a
+		load_oob = "ESU_SECOND_RISING_ARMY"
+		add_equipment_to_stockpile = {
+			type = rifle_equipment_1
+			amount = 20000
+			producer = ESU
+		}
+	}
+}
