@@ -1,0 +1,257 @@
+﻿division_template = {
+	name = "Simingun"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_militia = { x = 0 y = 0 }
+		ranged_militia = { x = 0 y = 1 }
+		ranged_militia = { x = 1 y = 0 }
+		ranged_militia = { x = 1 y = 1 }
+	}					
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Pobyeong-Yeodan"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		ranged_infantry = { x = 2 y = 0 }
+		ranged_infantry = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 2 }
+		ranged_infantry = { x = 3 y = 0 }
+		ranged_infantry = { x = 3 y = 1 }
+		ranged_infantry = { x = 3 y = 2 }
+	}
+	
+	support = 	{
+	
+	}
+	
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1. Pobyeong-Yeodan"
+		location = 773
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "2. Pobyeong-Yeodan"
+		location = 773
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "3. Pobyeong-Yeodan"
+		location = 773
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "4. Pobyeong-Yeodan"
+		location = 773
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "5. Pobyeong-Yeodan"
+		location = 4029
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "6. Pobyeong-Yeodan"
+		location = 4029
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "7. Pobyeong-Yeodan"
+		location = 4029
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "8. Pobyeong-Yeodan"
+		location = 4029
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "9. Pobyeong-Yeodan"
+		location = 385
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "10. Pobyeong-Yeodan"
+		location = 385
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "11. Pobyeong-Yeodan"
+		location = 385
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "12. Pobyeong-Yeodan"
+		location = 385
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "13. Pobyeong-Yeodan"
+		location = 385
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "14. Pobyeong-Yeodan"
+		location = 385
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "15. Pobyeong-Yeodan"
+		location = 5271
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "16. Pobyeong-Yeodan"
+		location = 5271
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "17. Pobyeong-Yeodan"
+		location = 5271
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "18. Pobyeong-Yeodan"
+		location = 5271
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "19. Pobyeong-Yeodan"
+		location = 5271
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "20. Pobyeong-Yeodan"
+		location = 5271
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "21. Pobyeong-Yeodan"
+		location = 5317
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "22. Pobyeong-Yeodan"
+		location = 5317
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "23. Pobyeong-Yeodan"
+		location = 2592
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "24. Pobyeong-Yeodan"
+		location = 2592
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "25. Pobyeong-Yeodan"
+		location = 5283
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "26. Pobyeong-Yeodan"
+		location = 5286
+		division_template = "Pobyeong-Yeodan"
+		force_equipment_variants = { rifle_equipment_4 = { owner = "ESU" } }
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+}
