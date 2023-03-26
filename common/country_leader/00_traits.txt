@@ -28,6 +28,18 @@ leader_traits = {
 		}
 	}
 	
+	### LEADER TRAITS - ESU ###
+	
+	advtrait_esu_einsteintrait = {
+		sprite = 13
+		political_power_cost = 0.25
+		research_speed_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	### TRIBAL TIER TRAITS ###
 	
 	advtrait_rural_aristocrat = {
