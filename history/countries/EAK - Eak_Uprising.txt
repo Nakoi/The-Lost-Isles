@@ -25,12 +25,14 @@ set_popularities = {
 set_convoys = 25
 
 add_ideas = {
-    recruit_militia_peacetime
+    recruit_volunteer
     genidea_civilised_dev
     policy_auth_democracy
     policy_mercantilism
     policy_revolutionary
     race_kirin
+	EAK_fucked_arms_workshops_01
+	EAK_fucked_civvie_workshops_01
 } 
 
 if = {
