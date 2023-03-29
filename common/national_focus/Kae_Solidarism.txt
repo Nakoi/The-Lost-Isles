@@ -2194,6 +2194,11 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 4
+				category = category_air_skirmisher
+			}
 			add_equipment_to_stockpile = {
 				type = air_skirmisher_equipment
 				amount = 200
