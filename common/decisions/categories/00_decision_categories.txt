@@ -228,6 +228,18 @@ decisioncat_kae_esun_coring = {
 	}
 }
 
+decisioncat_eak_civilwarcat = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = EAK
+	}
+
+	visible = {
+		
+	}
+}
+
 decisioncat_esu_integration = {
 	icon = generic_political_actions
 	
