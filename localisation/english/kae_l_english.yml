@@ -109,7 +109,7 @@
  KAE_ootari_merc_recruitment:0 "Replenish our Losses"
  KAE_ootari_merc_recruitment_desc:0 ""
  
-###FOCUS LOCALISATION - UNIVERSAL ARMY/INDUSTRY TREE###
+###FOCUS LOCALISATION - ARMY/INDUSTRY TREE###
  KAE_Greater_economy:0 "Help our Industrialists"
  KAE_Greater_economy_desc:0 ""
  KAE_Living_conditions:0 "Work Houses"
@@ -232,6 +232,22 @@
  KAE_air_ship_upgrade_02_desc:0 ""
  KAE_airskirmisher_uprade_01:0 "Air Skirmisher Improvements"
  KAE_airskirmisher_uprade_01_desc:0 ""
+ 
+###FOCUS LOCALISATION - UPRISING###
+ EAK_uprising:0 "The Uprising"
+ EAK_uprising_desc:0 ""
+ EAK_restoration:0 "Pick up the Pieces"
+ EAK_restoration_desc:0 ""
+ EAK_rebuild_our_infrastructure:0 "Rebuild our Infrastructure"
+ EAK_rebuild_our_infrastructure_desc:0 ""
+ EAK_local_militia:0 "Accept Defecting Conscripts..."
+ EAK_local_militia_desc:0 ""
+ EAK_supply_shipments:0 "And Their Weapons!"
+ EAK_supply_shipments_desc:0 ""
+ EAK_rebuild_railways:0 "The Boiling Sea Trail"
+ EAK_rebuild_railways_desc:0 ""
+ EAK_fortify_strongholds:0 "Defend the Headquarters!"
+ EAK_fortify_strongholds_desc:0 ""
 
 ###IDEA LOCALISATION###
  KAE_cucked_gulf_01:0 "Cut Off from the Open Seas"
@@ -272,6 +288,15 @@
  KAE_officer_training_02:0 "Officer Training"
  KAE_officer_training_03:0 "Officer Training"
  KAE_ootari_workshop_idea:0 "The Workshop of Ootari"
+ 
+ EAK_fucked_arms_workshops_01:0 "Ruined Arms Workshops"
+ EAK_fucked_arms_workshops_02:0 "Ruined Arms Workshops - Rebuilding Efforts Begun"
+ EAK_fucked_arms_workshops_03:0 "Ruined Arms Workshops - Rebuilding Efforts In Progress"
+ EAK_fucked_arms_workshops_04:0 "Ruined Arms Workshops - Rebuilding Efforts Nearing Completion"
+ EAK_fucked_civvie_workshops_01:0 "Ruined Infrastructure"
+ EAK_fucked_civvie_workshops_02:0 "Ruined Infrastructure - Rebuilding Efforts Begun"
+ EAK_fucked_civvie_workshops_03:0 "Ruined Infrastructure - Rebuilding Efforts In Progress"
+ EAK_fucked_civvie_workshops_04:0 "Ruined Infrastructure - Rebuilding Efforts Nearing Completion"
 
 ###DECISION LOCALISATION###
  decisioncat_kae_starting_cilarine_trade:0 "The Negotiations of 957"
@@ -300,6 +325,13 @@
  KAE_core_esun_proper:0 "Integrate Esun Proper"
  KAE_core_esun_ponyland:0 "Integrate the Majority Pony Lands"
  KAE_core_esun_interior:0 "Integrate Esun's Interior"
+ 
+ decisioncat_eak_civilwarcat:0 "The Esun Civil War"
+ EAK_civil_war_mission:0 "Beginning of the Civil War"
+ EAK_rebuild_arms_workshops_1:0 "Aid Military Industry Reconstruction Efforts"
+ EAK_rebuild_arms_workshops_2:0 "Complete Military Industry Reconstruction Efforts"
+ EAK_rebuild_civ_workshops_1:0 "Aid Infrastructure Reconstruction Efforts"
+ EAK_rebuild_civ_workshops_2:0 "Complete Infrastructure Reconstruction Efforts"
  
 ###EVENT LOCALISATION ###
  kae_startevent.0.t:0 "The Cilarine Gulf Negotiations"
