@@ -879,3 +879,189 @@ decisioncat_kae_esun_coring = {
 		}
 	}
 }
+
+decisioncat_eak_civilwarcat = {
+
+	EAK_civil_war_mission = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 30
+
+		fire_only_once = yes
+
+		activation = {
+			tag = EAK
+			country_exists = KAE
+			has_war = no
+		}
+
+		visible = {
+			
+		}
+
+		cancel_if_not_visible = yes
+
+		is_good = yes
+
+		timeout_effect = {
+			KAE = {
+				declare_war_on = {
+					target = EAK
+					type = civil_war
+				}
+			}
+			complete_national_focus = EAK_uprising
+		}
+	}
+	
+	EAK_rebuild_arms_workshops_1 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_completed_focus = EAK_restoration
+		}
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = EAK
+			has_war_with = KAE
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = EAK_fucked_arms_workshops_02
+				add_idea = EAK_fucked_arms_workshops_03
+			}
+		}
+	}
+	
+	EAK_rebuild_arms_workshops_2 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_completed_focus = EAK_rebuild_our_infrastructure
+		}
+
+		cost = 75
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = EAK
+			has_war_with = KAE
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			remove_ideas = EAK_fucked_arms_workshops_04
+		}
+	}
+	
+	EAK_rebuild_civ_workshops_1 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_completed_focus = EAK_restoration
+		}
+
+		cost = 50
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			tag = EAK
+			has_war_with = KAE
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = EAK_fucked_civvie_workshops_02
+				add_idea = EAK_fucked_civvie_workshops_03
+			}
+		}
+	}
+	
+	EAK_rebuild_civ_workshops_2 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_completed_focus = EAK_rebuild_our_infrastructure
+		}
+
+		cost = 75
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 45
+
+		visible = {
+			tag = EAK
+			has_war_with = KAE
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			remove_ideas = EAK_fucked_civvie_workshops_04
+		}
+	}
+}
