@@ -355,6 +355,7 @@ country_event = {
             inherit_technology = KAE
         }
 		EAK = { country_event = { id = kae_militiacrisis.4 days = 3 } }
+		KAE = { country_event = { id = kae_militiacrisis.5 days = 3 } }
 		KAE = {
 			complete_national_focus = KAE_fixing_commandstructures
 		}
