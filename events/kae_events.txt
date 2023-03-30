@@ -275,7 +275,10 @@ country_event = {
 		501 = {
 			set_demilitarized_zone = yes
 		}
-		
+		delete_units = {
+			division_template = "Bobyeong-Yeodan"
+			disband = no
+		}
 	}
 }
 
@@ -348,10 +351,10 @@ country_event = {
 			501 = {
 				set_demilitarized_zone = no
 			}
-			
 			set_capital = { state = 500 }
             inherit_technology = KAE
         }
+		EAK = { country_event = { id = kae_militiacrisis.4 days = 3 } }
 		KAE = {
 			complete_national_focus = KAE_fixing_commandstructures
 		}
@@ -415,8 +418,43 @@ country_event = {
             inherit_technology = KAE
 			change_tag_from = ROOT
         }
+		EAK = { country_event = { id = kae_militiacrisis.4 days = 3 } }
+		KAE = { country_event = { id = kae_militiacrisis.5 days = 3 } }
 		KAE = {
 			complete_national_focus = KAE_fixing_commandstructures
+		}
+	}
+}
+
+country_event = {
+	id = kae_militiacrisis.4
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_militiacrisis.4"}
+	title = kae_militiacrisis.4.t
+	desc = kae_militiacrisis.4.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_militiacrisis.4.a
+		load_oob = "KAE_MILITIA_REBEL_ARMY"
+	}
+}
+
+country_event = {
+	id = kae_militiacrisis.5
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_militiacrisis.5"}
+	title = kae_militiacrisis.5.t
+	desc = kae_militiacrisis.5.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_militiacrisis.5.a
+		swap_ideas = {
+			remove_idea = KAE_minutekirin_01
+			add_idea = KAE_minutekirin_merc_00
 		}
 	}
 }
