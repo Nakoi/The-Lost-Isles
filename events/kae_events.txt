@@ -73,14 +73,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = KAE
-		has_war_with = WEI
-		
-		WEI = { 
-			OR = { 
-				surrender_progress > 0.25
-				has_capitulated = yes
-				country_exists = WEI
+		AND = {
+			tag = KAE
+			has_war_with = WEI
+			WEI = { 
+				OR = { 
+					surrender_progress > 0.25
+					NOT = { country_exists = WEI }
+				}
 			}
 		}
 	}
@@ -133,13 +133,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = KAE
-		has_war_with = UNU
-		UNU = { 
-			OR = { 
-				surrender_progress > 0.25
-				has_capitulated = yes
-				country_exists = UNU
+		AND = {
+			tag = KAE
+			has_war_with = UNU
+			UNU = { 
+				OR = { 
+					surrender_progress > 0.25
+					NOT = { country_exists = UNU }
+				}
 			}
 		}
 	}
@@ -168,13 +169,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = KAE
-		has_war_with = ASH
-		ASH = { 
-			OR = { 
-				surrender_progress > 0.25
-				has_capitulated = yes
-				country_exists = ASH
+		AND = {
+			tag = KAE
+			has_war_with = ASH
+			ASH = { 
+				OR = { 
+					surrender_progress > 0.25
+					NOT = { country_exists = ASH }
+				}
 			}
 		}
 	}
@@ -206,6 +208,12 @@ country_event = {
 	trigger = {
 		has_completed_focus = KAE_Claims_Vote
 		has_country_flag = kae_militiacrisis_flag_1
+		NOT = {
+			OR = {
+				has_country_flag = kae_militiacrisis_flag_2
+				has_country_flag = kae_militiacrisis_flag_3
+			}
+		}
 	}
 	
 	mean_time_to_happen = {
