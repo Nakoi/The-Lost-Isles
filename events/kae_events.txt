@@ -275,6 +275,8 @@ country_event = {
 		501 = {
 			set_demilitarized_zone = yes
 		}
+		retire_character = KAE_General_2
+		retire_character = KAE_General_3
 		delete_units = {
 			division_template = "Bobyeong-Yeodan"
 			disband = no
@@ -439,6 +441,9 @@ country_event = {
 	option = {
 		name = kae_militiacrisis.4.a
 		load_oob = "KAE_MILITIA_REBEL_ARMY"
+		recruit_character = KAE_General_2
+		recruit_character = KAE_General_3
+
 	}
 }
 
@@ -456,6 +461,42 @@ country_event = {
 		swap_ideas = {
 			remove_idea = KAE_minutekirin_01
 			add_idea = KAE_minutekirin_merc_00
+		}
+		IF = {
+			limit = {
+				has_idea = recruit_militia_peacetime
+			}
+			swap_ideas = {
+				remove_idea = recruit_militia_peacetime
+				add_idea = recruit_irregular_army
+			}
+		}			
+		IF = {
+			limit = {
+				has_idea = recruit_militia_wartime
+			}
+			swap_ideas = {
+				remove_idea = recruit_militia_wartime
+				add_idea = recruit_irregular_army
+			}
+		}
+		IF = {
+			limit = {
+				has_idea = recruit_volunteer
+			}
+			swap_ideas = {
+				remove_idea = recruit_volunteer
+				add_idea = recruit_irregular_army
+			}
+		}
+		IF = {
+			limit = {
+				has_idea = recruit_selectivecon
+			}
+			swap_ideas = {
+				remove_idea = recruit_selectivecon
+				add_idea = recruit_irregular_army
+			}
 		}
 	}
 }
