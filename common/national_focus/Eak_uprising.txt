@@ -33,54 +33,11 @@ focus_tree = {
 		}
 	}
 
-
-	focus = {
-		id = EAK_defense
-		prerequisite = { focus = EAK_uprising }
-		mutually_exclusive = { focus = EAK_attack }
-		x = -3
-		y = 1
-		relative_position_id = EAK_uprising
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			
-		}
-		
-		completion_reward = {
-		}
-	}
-
-
-	focus = {
-		id = EAK_attack
-		prerequisite = { focus = EAK_uprising }
-		mutually_exclusive = { focus = EAK_defense }
-		x = 3
-		y = 1
-		relative_position_id = EAK_uprising
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			
-		}
-		
-		completion_reward = {
-		}
-	}
-
-
 	focus = {
 		id = EAK_restoration
-		prerequisite = { focus = EAK_attack focus = EAK_defense }
+		prerequisite = { focus = EAK_uprising }
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = EAK_uprising
 		cost = 3
 		ai_will_do = {
@@ -107,7 +64,7 @@ focus_tree = {
 		id = EAK_rebuild_our_infrastructure
 		prerequisite = { focus = EAK_restoration }
 		x = -1
-		y = 3
+		y = 2
 		relative_position_id = EAK_uprising
 		cost = 3
 		ai_will_do = {
@@ -136,7 +93,7 @@ focus_tree = {
 		id = EAK_local_militia
 		prerequisite = { focus = EAK_restoration }
 		x = 1
-		y = 3
+		y = 2
 		relative_position_id = EAK_uprising
 		cost = 5
 		ai_will_do = {
@@ -157,7 +114,7 @@ focus_tree = {
 		id = EAK_supply_shipments
 		prerequisite = { focus = EAK_local_militia }
 		x = 0
-		y = 4
+		y = 3
 		relative_position_id = EAK_uprising
 		cost = 5
 		ai_will_do = {
@@ -193,7 +150,7 @@ focus_tree = {
 		prerequisite = { focus = EAK_rebuild_our_infrastructure }
 		prerequisite = { focus = EAK_local_militia }
 		x = 2
-		y = 4
+		y = 3
 		relative_position_id = EAK_uprising
 		cost = 3
 		ai_will_do = {
@@ -247,7 +204,7 @@ focus_tree = {
 		prerequisite = { focus = EAK_rebuild_our_infrastructure }
 		prerequisite = { focus = EAK_local_militia }
 		x = -2
-		y = 4
+		y = 3
 		relative_position_id = EAK_uprising
 		cost = 5
 		ai_will_do = {
@@ -285,226 +242,6 @@ focus_tree = {
 		}
 	}
 
-#ATTACK BRANCH
-
-
-
-	focus = {
-		id = EAK_punish_kae
-		prerequisite = { focus = EAK_attack }
-		x = -1
-		y = 1
-		relative_position_id = EAK_attack
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		#national spirit to offense
-		completion_reward = {
-		}
-	}
-
-
-	focus = {
-		id = EAK_no_mercy_to_kea
-		prerequisite = { focus = EAK_attack }
-		x = 1
-		y = 1
-		relative_position_id = EAK_attack
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		#
-		completion_reward = {
-		}
-	}
-
-
-
-	focus = {
-		id = EAK_demand_supplies_from_locals
-		prerequisite = { focus = EAK_no_mercy_to_kea }
-		prerequisite = { focus = EAK_punish_kae }
-		x = 0
-		y = 2
-		relative_position_id = EAK_attack
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		#
-		completion_reward = {
-		}
-	}
-
-
-	focus = {
-		id = EAK_force_the_people_to_work
-		prerequisite = { focus = EAK_no_mercy_to_kea }
-		prerequisite = { focus = EAK_punish_kae }
-		x = 2
-		y = 2
-		relative_position_id = EAK_attack
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		#
-		completion_reward = {
-		}
-	}
-
-
-	focus = {
-		id = EAK_atck1
-		prerequisite = { focus = EAK_force_the_people_to_work }
-		prerequisite = { focus = EAK_demand_supplies_from_locals }
-		prerequisite = { focus = EAK_supply_shipments }
-		prerequisite = { focus = EAK_fortify_strongholds }
-		x = -2
-		y = 4
-		relative_position_id = EAK_attack
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		#
-		completion_reward = {
-		}
-	}
-
-#defensive branch
-
-
-	focus = {
-		id = EAK_strenghten_our_border
-		prerequisite = { focus = EAK_defense }
-		x = 1
-		y = 1
-		relative_position_id = EAK_defense
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		#
-		completion_reward = {
-		}
-	}
-
-
-	focus = {
-		id = EAK_assist_with_rebuilding
-		prerequisite = { focus = EAK_defense }
-		x = -1
-		y = 1
-		relative_position_id = EAK_defense
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		#
-		completion_reward = {
-		}
-	}
-
-
-
-	focus = {
-		id = EAK_request_supplies_from_other_nations
-		prerequisite = { focus = EAK_assist_with_rebuilding }
-		prerequisite = { focus = EAK_strenghten_our_border }
-		x = 0
-		y = 2
-		relative_position_id = EAK_defense
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		#
-		completion_reward = {
-		}
-	}
-
-
-
-
-	focus = {
-		id = EAK_elect_a_leader
-		prerequisite = { focus = EAK_assist_with_rebuilding }
-		prerequisite = { focus = EAK_strenghten_our_border }
-		x = -2
-		y = 2
-		relative_position_id = EAK_defense
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		#
-		completion_reward = {
-		}
-	}
-
-
-	focus = {
-		id = EAK_def1
-		prerequisite = { focus = EAK_elect_a_leader }
-		prerequisite = { focus = EAK_request_supplies_from_other_nations }
-		prerequisite = { focus = EAK_rebuild_railways }
-		prerequisite = { focus = EAK_supply_shipments }
-		x = 2
-		y = 4
-		relative_position_id = EAK_defense
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		#
-		completion_reward = {
-		}
-	}
-
-
 #political
 
 
@@ -512,7 +249,7 @@ focus_tree = {
 		id = EAK_P1
 		prerequisite = { focus = EAK_def1 focus = EAK_atck1}
 		x = 0
-		y = 6
+		y = 4
 		relative_position_id = EAK_uprising
 		cost = 3
 		ai_will_do = {
@@ -520,9 +257,9 @@ focus_tree = {
 		}
 		
 		available = {
-			has_war = no
+			always = no
 		}
-		#
+		
 		completion_reward = {
 		}
 	}

@@ -2648,16 +2648,16 @@ focus_tree = {
 	focus = {
 		id = KAE_hired_guns
 		prerequisite = { focus = KAE_fixing_commandstructures }
-		x = -1
+		x = 1
 		y = 1
 		relative_position_id = KAE_fixing_commandstructures
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			
 		}
 		
 		bypass = {
@@ -2668,20 +2668,118 @@ focus_tree = {
 			add_manpower = 30000
 		}
 	}
-
+	
 	focus = {
-		id = KAE_light_the_war_economy
-		prerequisite = { focus = KAE_fixing_commandstructures }
-		x = 1
-		y = 1
+		id = KAE_merc_officers
+		prerequisite = { focus = KAE_hired_guns }
+		x = 2
+		y = 2
 		relative_position_id = KAE_fixing_commandstructures
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			has_war = no
+			
+		}
+		
+		bypass = {
+			NOT = { country_exists = EAK }
+		}
+		
+		completion_reward = {
+			add_corps_commander_role = {
+				character = KAE_General_Merc_1
+				traits = {}
+				skill = 3
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			add_corps_commander_role = {
+				character = KAE_General_Merc_2
+				traits = {}
+				skill = 3
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+		}
+	}
+
+	focus = {
+		id = KAE_conscripts
+		prerequisite = { focus = KAE_hired_guns }
+		x = 0
+		y = 2
+		relative_position_id = KAE_fixing_commandstructures
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = { country_exists = EAK }
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = recruit_irregular_army
+				add_idea = recruit_selectivecon
+			}
+		}
+	}
+	
+	focus = {
+		id = KAE_hired_airskirmishers
+		prerequisite = { focus = KAE_hired_guns }
+		prerequisite = { focus = KAE_light_the_war_economy }
+		prerequisite = { focus = KAE_conscripts focus = KAE_merc_officers }
+		x = 1
+		y = 3
+		relative_position_id = KAE_fixing_commandstructures
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = { country_exists = EAK }
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = air_skirmisher_equipment
+				amount = 100
+				producer = CIL
+			}
+		}
+	}
+
+	focus = {
+		id = KAE_light_the_war_economy
+		prerequisite = { focus = KAE_fixing_commandstructures }
+		x = -1
+		y = 1
+		relative_position_id = KAE_fixing_commandstructures
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			
 		}
 		
 		bypass = {
@@ -2727,41 +2825,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KAE_hired_airskirmishers
-		prerequisite = { focus = KAE_light_the_war_economy }
-		prerequisite = { focus = KAE_hired_guns }
-		x = 0
-		y = 2
-		relative_position_id = KAE_fixing_commandstructures
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		bypass = {
-			NOT = { country_exists = EAK }
-		}
-		
-		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = air_skirmisher_equipment
-				amount = 100
-				producer = CIL
-			}
-		}
-	}
-
-	focus = {
 		id = KAE_weapon_supplies
-		prerequisite = { focus = KAE_hired_guns }
-		x = -2
-		y = 2
+		prerequisite = { focus = KAE_light_the_war_economy }
+		x = -1
+		y = 3
 		relative_position_id = KAE_fixing_commandstructures
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2784,104 +2853,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = KAE_offensive_plans
-		prerequisite = { focus = KAE_light_the_war_economy }
-		prerequisite = { focus = KAE_recover_our_frontlines }
-		x = 2
-		y = 2
-		relative_position_id = KAE_fixing_commandstructures
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		bypass = {
-			NOT = { country_exists = EAK }
-		}
-		
-		completion_reward = {
-			country_event = { id = kae_startevent.5 }
-		}
-	}
-
-	focus = {
-		id = KAE_merc_officers
-		prerequisite = { focus = KAE_weapon_supplies }
-		prerequisite = { focus = KAE_offensive_plans }
-		x = 1
-		y = 3
-		relative_position_id = KAE_fixing_commandstructures
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		bypass = {
-			NOT = { country_exists = EAK }
-		}
-		
-		completion_reward = {
-			add_corps_commander_role = {
-				character = KAE_General_Merc_1
-				traits = {}
-				skill = 3
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
-			add_corps_commander_role = {
-				character = KAE_General_Merc_2
-				traits = {}
-				skill = 3
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
-		}
-	}
-
-	focus = {
-		id = KAE_conscripts
-		prerequisite = { focus = KAE_weapon_supplies }
-		prerequisite = { focus = KAE_offensive_plans }
-		x = -1
-		y = 3
-		relative_position_id = KAE_fixing_commandstructures
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			has_war = no
-		}
-		
-		bypass = {
-			NOT = { country_exists = EAK }
-		}
-		
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = recruit_irregular_army
-				add_idea = recruit_selectivecon
-			}
-		}
-	}
-
-	focus = {
 		id = KAE_outcome_of_the_wars
-		prerequisite = { focus = KAE_conscripts }
-		prerequisite = { focus = KAE_merc_officers }
+		prerequisite = { focus = KAE_hired_airskirmishers }
+		prerequisite = { focus = KAE_weapon_supplies }
 		x = 0
 		y = 4
 		relative_position_id = KAE_fixing_commandstructures
@@ -2891,15 +2865,27 @@ focus_tree = {
 		}
 		
 		available = {
-			has_war = no
-		}
-		
-		bypass = {
 			NOT = { country_exists = EAK }
 		}
 		
+		bypass = {
+			
+		}
+		
 		completion_reward = {
-			country_event = { id = kae_startevent.5 }
+			add_political_power = 100
+			add_stability = 0.15
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = recruit_irregular_army
+					}
+					swap_ideas = {
+						remove_idea = recruit_irregular_army
+						add_idea = recruit_selectivecon
+					}
+				}
+			}
 		}
 	}
 
