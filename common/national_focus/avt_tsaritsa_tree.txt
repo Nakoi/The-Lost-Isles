@@ -3500,6 +3500,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_first_wave
+		icon = AVT_GFX_First_Wave
 		prerequisite = { focus = AVT_dealing_with_dissent }
 		x = -11
 		y = 5
@@ -3549,6 +3550,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_focus_on_labor
+		icon = AVT_GFX_Focus_On_Labor
 		prerequisite = { focus = AVT_first_wave }
 		mutually_exclusive = { focus = AVT_focus_on_reeducation }
 		x = -12
@@ -3571,6 +3573,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_focus_on_reeducation
+		icon = AVT_GFX_Focus_On_Reeducation
 		prerequisite = { focus = AVT_first_wave }
 		mutually_exclusive = { focus = AVT_focus_on_labor }
 		x = -10
@@ -3622,6 +3625,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_local_noble_collaborators
+		icon = AVT_GFX_Colaborators
 		prerequisite = { focus = AVT_focus_on_labor focus = AVT_focus_on_reeducation }
 		x = -11
 		y = 7
@@ -3791,6 +3795,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_proper_avtukovian_province
+		icon = AVT_GFX_Proper_Avtukovian_Province
 		prerequisite = { focus = AVT_local_noble_collaborators }
 		prerequisite = { focus = AVT_species_solidarity }
 		mutually_exclusive = { focus = AVT_towards_independence }
