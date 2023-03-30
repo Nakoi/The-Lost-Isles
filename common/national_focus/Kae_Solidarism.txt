@@ -2158,9 +2158,23 @@ focus_tree = {
 					add_idea = recruit_volunteer
 				}
 			}
-			swap_ideas = {
-				remove_idea = KAE_minutekirin_03
-				add_idea = KAE_minutekirin_merc_01
+			IF = {
+				limit = {
+					has_idea = KAE_minutekirin_01
+				}
+				swap_ideas = {
+					remove_idea = KAE_minutekirin_01
+					add_idea = KAE_minutekirin_merc_01
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = KAE_minutekirin_merc_00
+				}
+				swap_ideas = {
+					remove_idea = KAE_minutekirin_merc_00
+					add_idea = KAE_minutekirin_merc_01
+				}
 			}
 		}
 	}
