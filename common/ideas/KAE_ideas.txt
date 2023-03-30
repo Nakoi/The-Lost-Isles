@@ -75,6 +75,23 @@ ideas = {
 				mobilization_speed = 1
 				army_org_regain = 0.15
 				army_attack_factor = -0.05
+				army_defence_factor = 0.05
+			}
+		}
+		
+		KAE_minutekirin_merc_00 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = -0.3
+				army_org_factor = 0.25
+				army_org_regain = -0.5
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
 			}
 		}
 		
@@ -86,9 +103,11 @@ ideas = {
 			}
 				
 			modifier = {
-				conscription_factor = 0.25
-				mobilization_speed = -0.5
+				conscription_factor = -0.15
+				army_org_factor = 0.15
+				army_org_regain = -0.3
 				army_attack_factor = 0.05
+				army_defence_factor = 0.05
 			}
 		}
 		
@@ -100,10 +119,10 @@ ideas = {
 			}
 				
 			modifier = {
-				conscription_factor = 0.35
-				mobilization_speed = -0.5
+				conscription_factor = 0.1
+				army_org_factor = 0.1
 				army_attack_factor = 0.1
-				army_defence_factor = 0.1
+				army_defence_factor = 0.05
 			}
 		}
 		
