@@ -255,6 +255,7 @@
  KAE_minutekirin_01:0 "On a Minute's Notice"
  KAE_minutekirin_02:0 "On a Minute's Notice"
  KAE_minutekirin_03:0 "On a Minute's Notice"
+ KAE_minutekirin_merc_00:0 "Provisional Mercenary Security Force"
  KAE_minutekirin_merc_01:0 "On the Council's Payroll"
  KAE_minutekirin_merc_02:0 "On the Council's Payroll"
  KAE_shit_arms_industry:0 "Incompetent Arms Industry"
@@ -376,8 +377,16 @@
  kae_militiacrisis.2.b:0 "No!"
  
  kae_militiacrisis.3.t:0 "The Veterans' War"
- kae_militiacrisis.3.d:0 "Tens of thousands of disgruntled veterans have assembled in our new Northern territories! They took up arms and declared war on the "mercenary-occupied" central government! To make matters worse, local garrisons stationed across our northern frontier were sympathetic to the veterans' cause and have defected to their side.\n\nThis is an existential struggle for both sides. Which side are you on?
+ kae_militiacrisis.3.d:0 "Tens of thousands of disgruntled veterans have assembled in our new Northern territories! They took up arms and declared war on the "mercenary-occupied" central government! To make matters worse, local garrisons stationed across our northern frontier were sympathetic to the veterans' cause and have defected to their side.\n\nThis is an existential struggle for both sides. Which side are you on?"
  kae_militiacrisis.3.a:0 "Crush the Veterans!"
  kae_militiacrisis.3.b:0 "Death to the Council!"
+ 
+ kae_militiacrisis.4.t:0 "Call to Arms"
+ kae_militiacrisis.4.d:0 "Our ranks are formed! The Council trembles as it tries to scrounge up whomever they can find or pay to hold the line against our host! Our will to fight and win is sharpened by the battles and hardships of the Pacification War, followed by hardships back home, when we thought that suffering was behind us.\n\nThe now-former soldiers of the Kae League Volunteer Militia are the best soldiers in the world, and this fact will be known to all, when we push every single mercenary paid to fight us with nothing but old flintlocks and rusty blades!"
+ kae_militiacrisis.4.a:0 "No Mercy to Mercenaries and their Employers!"
+ 
+ kae_militiacrisis.5.t:0 "No Kirin to Command"
+ kae_militiacrisis.5.d:0 "After mass defections of our militia in the first days of the rebellion, the generals that were supposed to lead their soldiers into battle found themselves without anykirin to give orders to! Our militia army now only exists on paper, with only the mercenaries remaining loyal, obviously due to the veterans' clear lack of coin to pay them off. As a result, we will need to radically reform our military in the future, relying more on mercenaries rather than severly underpaid volunteer militia."
+ kae_militiacrisis.5.a:0 "This will hurt our coffers. A lot."
  
 ###TOOLTIP LOCALISATION###
