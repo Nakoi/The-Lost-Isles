@@ -3649,6 +3649,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_species_solidarity
+		icon = AVT_GFX_Species_Solidarity
 		prerequisite = { focus = AVT_towards_perfect_society focus = AVT_compromise_with_modernity }
 		x = -9
 		y = 10
@@ -3670,6 +3671,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_towards_independence
+		icon = AVT_GFX_Towards_Independence
 		prerequisite = { focus = AVT_species_solidarity }
 		mutually_exclusive = { focus = AVT_proper_avtukovian_province }
 		x = -9
