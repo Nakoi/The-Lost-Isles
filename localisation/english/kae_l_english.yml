@@ -233,6 +233,24 @@
  KAE_airskirmisher_uprade_01:0 "Air Skirmisher Improvements"
  KAE_airskirmisher_uprade_01_desc:0 ""
  
+ KAE_fixing_commandstructures:0 "The Nation in Crisis"
+ KAE_fixing_commandstructures_desc:0 ""
+ KAE_hired_guns:0 "Mercenary Replacements"
+ KAE_hired_guns_desc:0 ""
+ KAE_merc_officers:0 "Mercenary Officers"
+ KAE_merc_officers_desc:0 ""
+ KAE_conscripts:0 "Urban Conscription"
+ KAE_conscripts_desc:0 ""
+ KAE_hired_airskirmishers:0 "Hire the Sky Warriors"
+ KAE_hired_airskirmishers_desc:0 ""
+ KAE_light_the_war_economy:0 "Repurpose Failing Businesses"
+ KAE_light_the_war_economy_desc:0 ""
+ KAE_weapon_supplies:0 "Purchase More Weapons"
+ KAE_weapon_supplies_desc:0 ""
+ KAE_outcome_of_the_wars:0 "Back to Normal"
+ KAE_outcome_of_the_wars_desc:0 ""
+ 
+ 
 ###FOCUS LOCALISATION - UPRISING###
  EAK_uprising:0 "The Uprising"
  EAK_uprising_desc:0 ""
@@ -248,6 +266,12 @@
  EAK_rebuild_railways_desc:0 ""
  EAK_fortify_strongholds:0 "Defend the Headquarters!"
  EAK_fortify_strongholds_desc:0 ""
+ EAK_united_front:0 "Coalition Against the Council"
+ EAK_united_front_desc:0 ""
+ EAK_liberation_front:0 "Help the South"
+ EAK_liberation_front_desc:0 ""
+ EAK_victory:0 "Victory!"
+ EAK_victory_desc:0 ""
 
 ###IDEA LOCALISATION###
  KAE_cucked_gulf_01:0 "Cut Off from the Open Seas"
@@ -262,10 +286,10 @@
  KAE_shit_arms_industry_better:0 "Reformed and Retooled"
  
  KAE_militiasalary:0 "Militia Salaries"
- KAE_mercenaryunrest:0 "Mercenary Contract Payments"
  KAE_fieldhospitals:0 "Urgent Field Hospital Reform"
  KAE_militiaprotest_yes:0 "Militia Veteran Movement Appeased"
  KAE_militiaprotest_no:0 "Militia Veteran Movement Riots"
+ KAE_civilwar_nomanpower_idea:0 "Reliance on Mercenaries"
  
  KAE_pacificationxp_idea:0 "Pacification Campaign Experience"
  KAE_mercpayments:0 "Mercenary Payments"
@@ -298,6 +322,9 @@
  EAK_fucked_civvie_workshops_02:0 "Ruined Infrastructure - Rebuilding Efforts Begun"
  EAK_fucked_civvie_workshops_03:0 "Ruined Infrastructure - Rebuilding Efforts In Progress"
  EAK_fucked_civvie_workshops_04:0 "Ruined Infrastructure - Rebuilding Efforts Nearing Completion"
+ EAK_populist_movement_idea:0 "Army of the Downtrodden"
+ EAK_populist_movement_idea_01:0 "Army of the Downtrodden"
+ EAK_populist_movement_idea_02:0 "Army of the Downtrodden"
 
 ###DECISION LOCALISATION###
  decisioncat_kae_starting_cilarine_trade:0 "The Negotiations of 957"
@@ -327,7 +354,7 @@
  KAE_core_esun_ponyland:0 "Integrate the Majority Pony Lands"
  KAE_core_esun_interior:0 "Integrate Esun's Interior"
  
- decisioncat_eak_civilwarcat:0 "The Esun Civil War"
+ decisioncat_eak_civilwarcat:0 "The Veterans' War"
  EAK_civil_war_mission:0 "Beginning of the Civil War"
  EAK_rebuild_arms_workshops_1:0 "Aid Military Industry Reconstruction Efforts"
  EAK_rebuild_arms_workshops_2:0 "Complete Military Industry Reconstruction Efforts"
@@ -352,14 +379,14 @@
  kae_startevent.5.a:0 "absolutely nothing fucking changed lol"
  
  kae_startevent.6.t:0 "Salary Woes"
- kae_startevent.6.d:0 "you're not paying your conscripts apparently it would be epic if you actually did"
- kae_startevent.6.a:0 "ok"
- kae_startevent.6.b:0 "no"
+ kae_startevent.6.d:0 "a bunch of militia kirins lost their civilian jobs upon being called up for service, they demand an increase in salary to compensate for the fact that they're gonna have to find new jobs at the end of the war"
+ kae_startevent.6.a:0 "ok give them money ig"
+ kae_startevent.6.b:0 "no fuck off lmao"
  
- kae_startevent.7.t:0 "Conscript-Mercenary Tension"
- kae_startevent.7.d:0 "a mercenary unit killed a few conscripts, the conscripts' commander sent (you) a letter requesting you to fire them to prevent clashes"
- kae_startevent.7.a:0 "pay the mercs to go back ig"
- kae_startevent.7.B:0 "nah they can stay"
+ kae_startevent.7.t:0 "Battle over Booty"
+ kae_startevent.7.d:0 "After being confronted by a group of militiakirin of the 2nd Military Constabulary Company over seizing confiscated bandit property, a mercenary unit opened fire and killed multiple constabularies.\n\nAs a consenquence, the officers and enlistedkirin of the constabulary unit stormed the mercenary camp in the middle of the night, taking everygriff prisoner without firing a single shot.\n\nIt is now up to the Executive Council Committee on the Conduct of the Pacification Campaign to decide what to do with the offending mercenary unit."
+ kae_startevent.7.a:0 "Bandit-like behaviour is not acceptable, mercenary or not!"
+ kae_startevent.7.b:0 "There isn't anything against looting in the contract..."
  
  kae_startevent.8.t:0 "Disaster in the Hospitals"
  kae_startevent.8.d:0 "field hospitals overflowing with wounded, you can send help or not idk"
