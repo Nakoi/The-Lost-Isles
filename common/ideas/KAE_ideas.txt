@@ -169,18 +169,6 @@ ideas = {
 			}
 		}
 		
-		KAE_mercenaryunrest = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				consumer_goods_factor = 0.05
-			}
-		}
-		
 		KAE_fieldhospitals = {
 			picture = great_depression
 			removal_cost = -1
@@ -219,6 +207,19 @@ ideas = {
 				consumer_goods_factor = 0.10
 				stability_factor = -0.3
 				war_support_factor = -0.3
+			}
+		}
+		
+		KAE_civilwar_nomanpower_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = -0.5
+				weekly_manpower = 1000
 			}
 		}
 		
@@ -645,6 +646,46 @@ ideas = {
 			modifier = {
 				supply_consumption_factor = 0.10
 				civilian_factory_use = 5
+			}
+		}
+		
+		EAK_populist_movement_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = KAE
+			}
+				
+			modifier = {
+				conscription_factor = 1
+			}
+		}
+		
+		EAK_populist_movement_idea_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = KAE
+			}
+				
+			modifier = {
+				conscription_factor = 1.5
+				army_attack_factor = 0.1
+				army_defence_factor = -0.1
+			}
+		}
+		
+		EAK_populist_movement_idea_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = KAE
+			}
+				
+			modifier = {
+				conscription_factor = 0.6
+				army_attack_factor = -0.1
+				army_defence_factor = 0.1
 			}
 		}
 	}
