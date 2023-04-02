@@ -943,10 +943,14 @@ decisioncat_eak_civilwarcat = {
 
 		visible = {
 			tag = EAK
-			has_war_with = KAE
+			OR = {
+				has_idea = EAK_fucked_arms_workshops_01
+				has_idea = EAK_fucked_arms_workshops_02
+			}
 		}
 		
 		modifier = {
+			conscription_factor = -0.3
 		}
 		
 		remove_effect = {
@@ -981,10 +985,14 @@ decisioncat_eak_civilwarcat = {
 
 		visible = {
 			tag = EAK
-			has_war_with = KAE
+			OR = {
+				has_idea = EAK_fucked_arms_workshops_03
+				has_idea = EAK_fucked_arms_workshops_04
+			}
 		}
 		
 		modifier = {
+			conscription_factor = -0.5
 		}
 		
 		remove_effect = {
@@ -1016,10 +1024,14 @@ decisioncat_eak_civilwarcat = {
 
 		visible = {
 			tag = EAK
-			has_war_with = KAE
+			OR = {
+				has_idea = EAK_fucked_civvie_workshops_01
+				has_idea = EAK_fucked_civvie_workshops_02
+			}
 		}
 		
 		modifier = {
+			conscription_factor = -0.3
 		}
 		
 		remove_effect = {
@@ -1054,10 +1066,14 @@ decisioncat_eak_civilwarcat = {
 
 		visible = {
 			tag = EAK
-			has_war_with = KAE
+			OR = {
+				has_idea = EAK_fucked_civvie_workshops_03
+				has_idea = EAK_fucked_civvie_workshops_04
+			}
 		}
 		
 		modifier = {
+			conscription_factor = -0.5
 		}
 		
 		remove_effect = {
