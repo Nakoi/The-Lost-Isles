@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Bobyeong-Yeodan"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		ranged_infantry = { x = 2 y = 0 }
+		ranged_infantry = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 2 }
+	}
+	
+	priority = 1
+}
+
+### OOB ###
+units = {
+	division = {
+		name = "1. Yeodan"
+		location = 5139
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Yeodan"
+		location = 5139
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Yeodan"
+		location = 5139
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "4. Yeodan"
+		location = 2305
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Yeodan"
+		location = 2305
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Yeodan"
+		location = 2305
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "7. Yeodan"
+		location = 3731
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8. Yeodan"
+		location = 3731
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9. Yeodan"
+		location = 3731
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}
