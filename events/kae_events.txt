@@ -75,18 +75,17 @@ country_event = {
 	trigger = {
 		AND = {
 			tag = KAE
-			has_war_with = WEI
-			WEI = { 
-				OR = { 
-					surrender_progress > 0.25
-					NOT = { country_exists = WEI }
-				}
+			OR = {
+				has_war_with = WEI
+				has_war_with = UNU
+				has_war_with = RIN
+				has_war_with = ASH
 			}
 		}
 	}
 	
 	mean_time_to_happen = {
-		days = 1
+		days = 7
 	}
 	
 	option = {
@@ -135,28 +134,50 @@ country_event = {
 	trigger = {
 		AND = {
 			tag = KAE
-			has_war_with = UNU
-			UNU = { 
-				OR = { 
-					surrender_progress > 0.25
-					NOT = { country_exists = UNU }
-				}
+			OR = {
+				has_war_with = WEI
+				has_war_with = UNU
+				has_war_with = RIN
+				has_war_with = ASH
 			}
 		}
 	}
 	
 	mean_time_to_happen = {
-		days = 1
+		days = 21
 	}
 	
 	option = {
 		name = kae_startevent.7.a
-		add_timed_idea = { idea = KAE_mercenaryunrest days = 365 }
-		add_manpower = -5000
+		add_manpower = -500
 	}
 	
 	option = {
 		name = kae_startevent.7.b
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						has_country_flag = kae_militiacrisis_flag_1
+						has_country_flag = kae_militiacrisis_flag_2
+						has_country_flag = kae_militiacrisis_flag_3
+					}
+				}
+			}
+			set_country_flag = kae_militiacrisis_flag_1
+		}
+		if = {
+			limit = {
+				has_country_flag = kae_militiacrisis_flag_1
+			}
+			set_country_flag = kae_militiacrisis_flag_2
+		}
+		if = {
+			limit = {
+				has_country_flag = kae_militiacrisis_flag_2
+			}
+			set_country_flag = kae_militiacrisis_flag_3
+		}
 	}
 }
 
@@ -171,18 +192,17 @@ country_event = {
 	trigger = {
 		AND = {
 			tag = KAE
-			has_war_with = ASH
-			ASH = { 
-				OR = { 
-					surrender_progress > 0.25
-					NOT = { country_exists = ASH }
-				}
+			OR = {
+				has_war_with = WEI
+				has_war_with = UNU
+				has_war_with = RIN
+				has_war_with = ASH
 			}
 		}
 	}
 	
 	mean_time_to_happen = {
-		days = 1
+		days = 42
 	}
 	
 	option = {
@@ -194,6 +214,30 @@ country_event = {
 	option = {
 		name = kae_startevent.8.b
 		add_manpower = -8000
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						has_country_flag = kae_militiacrisis_flag_1
+						has_country_flag = kae_militiacrisis_flag_2
+						has_country_flag = kae_militiacrisis_flag_3
+					}
+				}
+			}
+			set_country_flag = kae_militiacrisis_flag_1
+		}
+		if = {
+			limit = {
+				has_country_flag = kae_militiacrisis_flag_1
+			}
+			set_country_flag = kae_militiacrisis_flag_2
+		}
+		if = {
+			limit = {
+				has_country_flag = kae_militiacrisis_flag_2
+			}
+			set_country_flag = kae_militiacrisis_flag_3
+		}
 	}
 }
 
@@ -451,7 +495,7 @@ country_event = {
 		load_oob = "KAE_MILITIA_REBEL_ARMY"
 		recruit_character = KAE_General_2
 		recruit_character = KAE_General_3
-
+		add_ideas = EAK_populist_movement_idea
 	}
 }
 
@@ -466,6 +510,7 @@ country_event = {
 	
 	option = {
 		name = kae_militiacrisis.5.a
+		add_ideas = KAE_civilwar_nomanpower_idea
 		swap_ideas = {
 			remove_idea = KAE_minutekirin_01
 			add_idea = KAE_minutekirin_merc_00
