@@ -601,7 +601,6 @@ focus_tree = {
 
 	focus = {
 		id = KAE_early_fortifications
-		prerequisite = { focus = KAE_Improve_the_rail_connection }
 		prerequisite = { focus = KAE_mobilise_the_east }
 		x = -1
 		y = 2
@@ -2624,7 +2623,8 @@ focus_tree = {
 
 	focus = {
 		id = KAE_fixing_commandstructures
-		x = -11
+		prerequisite = { focus = KAE_Claims_Vote }
+		x = -10
 		y = 6
 		relative_position_id = KAE_negotiations
 		cost = 1
@@ -2739,8 +2739,6 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_hired_airskirmishers
-		prerequisite = { focus = KAE_hired_guns }
-		prerequisite = { focus = KAE_light_the_war_economy }
 		prerequisite = { focus = KAE_conscripts focus = KAE_merc_officers }
 		x = 1
 		y = 3

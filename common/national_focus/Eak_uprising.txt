@@ -147,7 +147,6 @@ focus_tree = {
 
 	focus = {
 		id = EAK_fortify_strongholds
-		prerequisite = { focus = EAK_rebuild_our_infrastructure }
 		prerequisite = { focus = EAK_local_militia }
 		x = 2
 		y = 3
@@ -241,15 +240,91 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = EAK_united_front
+		prerequisite = { focus = EAK_rebuild_railways focus = EAK_supply_shipments focus = EAK_fortify_strongholds }
+		mutually_exclusive = { focus = EAK_liberation_front }
+		x = -1
+		y = 4
+		relative_position_id = EAK_uprising
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = { country_exists = KAE }
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = EAK_populist_movement_idea_01
+				remove_idea = EAK_populist_movement_idea
+			}
+		}
+	}
+	
+	focus = {
+		id = EAK_liberation_front
+		prerequisite = { focus = EAK_rebuild_railways focus = EAK_supply_shipments focus = EAK_fortify_strongholds }
+		mutually_exclusive = { focus = EAK_united_front }
+		x = 1
+		y = 4
+		relative_position_id = EAK_uprising
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+			NOT = { country_exists = KAE }
+		}
+		
+		completion_reward = {
+			load_oob = "KAE_MILITIA_VIETCONG"
+			swap_ideas = {
+				add_idea = EAK_populist_movement_idea_02
+				remove_idea = EAK_populist_movement_idea
+			}
+		}
+	}
+	
+	focus = {
+		id = EAK_victory
+		prerequisite = { focus = EAK_united_front focus = EAK_liberation_front }
+		x = 0
+		y = 5
+		relative_position_id = EAK_uprising
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+			
+		}
+	}
 
 #political
 
 
 	focus = {
 		id = EAK_P1
-		prerequisite = { focus = EAK_def1 focus = EAK_atck1}
 		x = 0
-		y = 4
+		y = 6
 		relative_position_id = EAK_uprising
 		cost = 3
 		ai_will_do = {
