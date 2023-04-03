@@ -340,3 +340,249 @@ focus_tree = {
 	}
 
 
+
+	focus = {
+		id = EAK_2
+		prerequisite = { focus = EAK_P1 }
+		x = 1
+		y = 1
+		relative_position_id = EAK_P1
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+
+
+	focus = {
+		id = EAK_3
+		prerequisite = { focus = EAK_P1 }
+		x = -1
+		y = 1
+		relative_position_id = EAK_P1
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = EAK_4
+		prerequisite = { focus = EAK_2 focus = EAK_3 }
+		x = 0
+		y = 2
+		relative_position_id = EAK_P1
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = EAK_Navy_Buildup
+		prerequisite = { focus = EAK_2 }
+		x = 3
+		y = 2
+		relative_position_id = EAK_P1
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = EAK_Navy_Buildup_1
+		prerequisite = { focus = EAK_Navy_Buildup }
+		x = 1
+		y = 1
+		relative_position_id = EAK_Navy_Buildup
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = EAK_Navy_Buildup_2
+		prerequisite = { focus = EAK_Navy_Buildup }
+		x = -1
+		y = 1
+		relative_position_id = EAK_Navy_Buildup
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = EAK_Get_Enough_BOATS
+		prerequisite = { focus = EAK_Navy_Buildup_1 }
+		prerequisite = { focus = EAK_Navy_Buildup_2 }
+		x = 0
+		y = 2
+		relative_position_id = EAK_Navy_Buildup
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = EAK_Cilarine_War_Goal
+		prerequisite = { focus = EAK_Get_Enough_BOATS }
+		x = 0
+		y = 2
+		relative_position_id = EAK_Navy_Buildup
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = EAK_Finding_A_Way_Out
+		prerequisite = { focus = EAK_3 }
+		x = -2
+		y = 1
+		relative_position_id = EAK_3
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = EAK_Avtukov_Trade
+		prerequisite = { focus = EAK_Finding_A_Way_Out }
+		x = -1
+		y = 1
+		relative_position_id = EAK_Finding_A_Way_Out
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = EAK_Suatoa_Trade
+		prerequisite = { focus = EAK_Finding_A_Way_Out }
+		x = 1
+		y = 1
+		relative_position_id = EAK_Finding_A_Way_Out
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = EAK_Trade_Decisions
+		prerequisite = { focus = EAK_Avtukov_Trade }
+		prerequisite = { focus = EAK_Suatoa_Trade }
+		x = 0
+		y = 2
+		relative_position_id = EAK_Finding_A_Way_Out
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		}
+	}
