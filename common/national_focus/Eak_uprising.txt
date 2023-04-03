@@ -586,3 +586,1308 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	
+	focus = {
+		id = EAK_Greater_economy
+		x = 24
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_completed_focus = EAK_P1
+		}
+		
+		completion_reward = {
+			IF = {
+				limit = {
+					has_idea = policy_collective
+				}
+				swap_ideas = {
+					remove_idea = policy_collective
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_mercantilism
+				}
+				swap_ideas = {
+					remove_idea = policy_mercantilism
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_feudalism
+				}
+				swap_ideas = {
+					remove_idea = policy_feudalism
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_oligopoly
+				}
+				swap_ideas = {
+					remove_idea = policy_oligopoly
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_laissez_faire
+				}
+				swap_ideas = {
+					remove_idea = policy_laissez_faire
+					add_idea = policy_capitalist
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_Living_conditions
+		prerequisite = { focus = EAK_Greater_economy }
+		x = -2
+		y = 1
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			495 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			494 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			502 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_new_machine_blueprints
+		prerequisite = { focus = EAK_Greater_economy }
+		x = 2
+		y = 1
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_civilizedprod
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_Infrastructure_improvements
+		prerequisite = { focus = EAK_Greater_economy }
+		x = 0
+		y = 1
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			136 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			483 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			484 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			482 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			481 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			478 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			503 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			505 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			501 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_put_the_people_to_work
+		prerequisite = { focus = EAK_Living_conditions }
+		x = -3
+		y = 2
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_Farm_fields
+		prerequisite = { focus = EAK_Living_conditions }
+		x = -1
+		y = 2
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			495 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			502 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+
+	focus = {
+		id = EAK_new_tools
+		prerequisite = { focus = EAK_new_machine_blueprints }
+		x = 1
+		y = 2
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry_civilizedtools
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_Mega_factories
+		prerequisite = { focus = EAK_new_machine_blueprints }
+		x = 3
+		y = 2
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			495 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			494 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			502 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			495 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			494 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			502 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_Mining
+		prerequisite = { focus = EAK_Mega_factories }
+		x = 4
+		y = 3
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_open_the_mines_01
+		}
+	}
+	
+	focus = {
+		id = EAK_improve_living_standard
+		prerequisite = { focus = EAK_put_the_people_to_work }
+		prerequisite = { focus = EAK_Farm_fields }
+		x = -2
+		y = 3
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			num_of_factories > 119
+			has_political_power > 199
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = gentext_civilised_industrial_advancement
+			add_research_slot = 1
+			add_political_power = -200
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = tli_infantry
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = category_support_battalions
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = artillery
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = category_air
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = naval_equipment
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = electronics
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = racial
+			}
+			hidden_effect = { set_technology = { tech_industrialized = 1 } }
+			hidden_effect = {
+				swap_ideas = {
+					add_idea = genidea_industrial_dev
+					remove_idea = genidea_civilised_dev
+				}
+			}
+		}	
+	}
+	
+	focus = {
+		id = EAK_labor_laws
+		prerequisite = { focus = EAK_improve_living_standard }
+		x = -3
+		y = 4
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = EAK_engineering_schools
+		prerequisite = { focus = EAK_Mega_factories }
+		prerequisite = { focus = EAK_new_tools }
+		x = 0
+		y = 3
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry_civilizedconstr
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_kirin_fire_magic_as_coals
+		prerequisite = { focus = EAK_Mega_factories }
+		prerequisite = { focus = EAK_new_tools }
+		x = 2
+		y = 3
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_resource = {
+				type = coal
+				amount = 20
+				state = 136
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_weapon_science
+		prerequisite = { focus = EAK_engineering_schools }
+		prerequisite = { focus = EAK_kirin_fire_magic_as_coals }
+		x = 1
+		y = 4
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category =  tli_infantry
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_industrial_powerhouse
+		prerequisite = { focus = EAK_engineering_schools }
+		x = -1
+		y = 4
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			502 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			495 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			494 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_workshop_of_ootari
+		prerequisite = { focus = EAK_industrial_powerhouse }
+		prerequisite = { focus = EAK_weapon_science }
+		prerequisite = { focus = EAK_improve_living_standard }
+		x = 0
+		y = 5
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_ootari_breadbasket_idea
+			add_research_slot = 1
+		}
+	}
+
+
+	focus = {
+		id = EAK_iron_mines_01
+		prerequisite = { focus = EAK_Mining }
+		x = 5
+		y = 4
+		relative_position_id = EAK_Greater_economy
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_resource = {
+				type = iron
+				amount = 5
+				state = 493
+			}
+			add_resource = {
+				type = iron
+				amount = 5
+				state = 494
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_iron_mines_02
+		prerequisite = { focus = EAK_iron_mines_01 }
+		x = 5
+		y = 5
+		relative_position_id = EAK_Greater_economy
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_resource = {
+				type = iron
+				amount = 10
+				state = 493
+			}
+			add_resource = {
+				type = iron
+				amount = 10
+				state = 494
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_coal_mines_01
+		prerequisite = { focus = EAK_Mining }
+		x = 3
+		y = 4
+		relative_position_id = EAK_Greater_economy
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_resource = {
+				type = coal
+				amount = 5
+				state = 495
+			}
+			add_resource = {
+				type = coal
+				amount = 5
+				state = 502
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_coal_mines_02
+		prerequisite = { focus = EAK_coal_mines_01 }
+		x = 3
+		y = 5
+		relative_position_id = EAK_Greater_economy
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_resource = {
+				type = coal
+				amount = 10
+				state = 495
+			}
+			add_resource = {
+				type = coal
+				amount = 10
+				state = 502
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_mining_force
+		prerequisite = { focus = EAK_iron_mines_02 }
+		prerequisite = { focus = EAK_coal_mines_02 }
+		x = 4
+		y = 6
+		relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+				swap_ideas = {
+					add_idea = KAE_open_the_mines_02
+					remove_idea = KAE_open_the_mines_01
+			}
+		}
+	}
+
+ ##  ###  #   # #   #
+#  # #  # ## ##  # #
+#### ###  # # #   #
+#  # #  # #   #   #
+#  # #  # #   #   #
+
+
+	focus = {
+		id = EAK_duty_calls
+		prerequisite = { focus = EAK_put_the_people_to_work }
+		x = 17
+		y = 3
+		#relative_position_id = EAK_Greater_economy
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_our_duty_01
+		}
+	}
+
+	focus = {
+		id = EAK_service_posters
+		prerequisite = { focus = EAK_duty_calls }
+		x = -1
+		y = 1
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+				swap_ideas = {
+					add_idea = KAE_our_duty_02
+					remove_idea = KAE_our_duty_01
+			}
+			add_manpower = 20000
+		}
+	}
+
+	focus = {
+		id = EAK_schools_for_officers
+		prerequisite = { focus = EAK_duty_calls }
+		x = 1
+		y = 1
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = KAE_officer_training_01
+		}
+	}
+
+	focus = {
+		id = EAK_greater_army_infrastructure
+		prerequisite = { focus = EAK_schools_for_officers }
+		x = 2
+		y = 2
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			army_experience = 50
+			add_war_support = 0.1
+			#recruits new commander
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 3
+				category = category_engineers
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_army_defence_plans
+		prerequisite = { focus = EAK_schools_for_officers }
+		mutually_exclusive = { focus = EAK_army_attack_plans }
+		x = 0
+		y = 2
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = KAE_officer_training_03
+				remove_idea = KAE_officer_training_01
+			}
+			swap_ideas = {
+				add_idea = KAE_minutekirin_02
+				remove_idea = KAE_minutekirin_01
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_army_attack_plans
+		prerequisite = { focus = EAK_schools_for_officers }
+		mutually_exclusive = { focus = EAK_army_defence_plans }
+		x = -2
+		y = 2
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = KAE_officer_training_02
+				remove_idea = KAE_officer_training_01
+			}
+			swap_ideas = {
+				add_idea = KAE_minutekirin_02
+				remove_idea = KAE_minutekirin_01
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_joint_operations
+		prerequisite = { focus = EAK_army_attack_plans focus = EAK_army_defence_plans }
+		prerequisite = { focus = EAK_greater_army_infrastructure }
+		x = 1
+		y = 3
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			army_experience = 50
+			#adds new commader 
+		}
+	}
+
+	focus = {
+		id = EAK_proud_of_our_nation
+		prerequisite = { focus = EAK_service_posters }
+		x = -1
+		y = 3
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			IF = {
+				limit = {
+					has_idea = recruit_militia_peacetime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_wartime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_wartime
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_volunteer
+				}
+				swap_ideas = {
+					remove_idea = recruit_volunteer
+					add_idea = recruit_universalcon
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_universalcon
+				}
+			}
+			add_war_support = 0.20
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = EAK_Army_doctrine
+		prerequisite = { focus = EAK_proud_of_our_nation }
+		prerequisite = { focus = EAK_joint_operations }		
+		x = 0
+		y = 4
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+			swap_ideas = {
+				add_idea = KAE_minutekirin_03
+				remove_idea = KAE_minutekirin_02
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_Artillery_drills
+		prerequisite = { focus = EAK_duty_calls }	
+		x = -7
+		y = 1
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+
+	focus = {
+		id = EAK_Artillery_improvements_01
+		prerequisite = { focus = EAK_Artillery_drills }	
+		x = -1
+		y = 1
+		relative_position_id = EAK_Artillery_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+
+
+	focus = {
+		id = EAK_anti_air_improvements_01
+		prerequisite = { focus = EAK_Artillery_drills }	
+		x = 1
+		y = 1
+		relative_position_id = EAK_Artillery_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category =	artillery_antiair
+			}
+		}
+	}
+
+
+
+	focus = {
+		id = EAK_rocket_improvements_01
+		prerequisite = { focus = EAK_Artillery_drills }	
+		x = 0
+		y = 2
+		relative_position_id = EAK_Artillery_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category =	artillery_rocket
+			}
+		}
+	}
+
+
+	focus = {
+		id = EAK_Army_drills
+		prerequisite = { focus = EAK_duty_calls }	
+		x = -11
+		y = 1
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+
+	focus = {
+		id = EAK_weapon_improvements_01
+		prerequisite = { focus = EAK_Army_drills }	
+		x = 1
+		y = 1
+		relative_position_id = EAK_Army_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category =	infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_uniform_improvements_01
+		prerequisite = { focus = EAK_Army_drills }	
+		x = -1
+		y = 1
+		relative_position_id = EAK_Army_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category =	infantry_armorcat
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_specialization_improvements_01
+		prerequisite = { focus = EAK_Army_drills }	
+		x = 0
+		y = 2
+		relative_position_id = EAK_Army_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category =	infantry_specialunit
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_navy_drills
+		prerequisite = { focus = EAK_duty_calls }	
+		x = -9
+		y = 4
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			navy_experience = 80
+		}
+	}
+
+	focus = {
+		id = EAK_navy_doctrines
+		prerequisite = { focus = EAK_navy_drills }	
+		x = 0
+		y = 1
+		relative_position_id = EAK_navy_drills
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_light_ships_01
+		prerequisite = { focus = EAK_navy_drills }	
+		x = -2
+		y = 1
+		relative_position_id = EAK_navy_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	light_ship_tech
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_medium_ships_01
+		prerequisite = { focus = EAK_navy_drills }	
+		x = 2
+		y = 1
+		relative_position_id = EAK_navy_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	medium_ship_tech
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_blue_water_doctrine
+		prerequisite = { focus = EAK_navy_doctrines }
+		mutually_exclusive = { focus = EAK_brown_water_doctrine }
+		x = 1
+		y = 2
+		relative_position_id = EAK_navy_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = naval_doctrine_blue
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_brown_water_doctrine
+		prerequisite = { focus = EAK_navy_doctrines }
+		mutually_exclusive = { focus = EAK_blue_water_doctrine }
+		x = -1
+		y = 2
+		relative_position_id = EAK_navy_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = naval_doctrine_brown
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_medium_ships_02
+		prerequisite = { focus = EAK_medium_ships_01 }
+		mutually_exclusive = { focus =  EAK_light_ships_02 }
+		x = 2
+		y = 3
+		relative_position_id = EAK_navy_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				ahead_reduction = 2
+				uses = 1
+				category =	medium_ship_tech
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_light_ships_02
+		prerequisite = { focus = EAK_light_ships_01 }
+		mutually_exclusive = { focus =  EAK_medium_ships_02 }
+		x = -2
+		y = 3
+		relative_position_id = EAK_navy_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				ahead_reduction = 2
+				uses = 1
+				category =	light_ship_tech
+			}
+		}
+	}
+
+
+	focus = {
+		id = EAK_heavy_ships_01
+		prerequisite = { focus = EAK_light_ships_02 focus = EAK_medium_ships_02 }	
+		prerequisite = { focus = EAK_brown_water_doctrine focus = EAK_blue_water_doctrine }	
+		x = 0
+		y = 4
+		relative_position_id = EAK_navy_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category =	heavy_ship_tech
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_airship_drills	
+		prerequisite = { focus = EAK_duty_calls focus = EAK_merc_calls }
+		x = -4
+		y = 1
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			air_experience = 80
+		}
+	}
+
+	focus = {
+		id = EAK_air_ship_upgrade_01
+		prerequisite = { focus = EAK_airship_drills }	
+		x = -1
+		y = 2
+		relative_position_id = EAK_airship_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = category_air
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_air_ship_upgrade_02
+		prerequisite = { focus = EAK_airship_drills }	
+		x = 1
+		y = 2
+		relative_position_id = EAK_airship_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction =  {
+				cost_reduction = 0.5
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_airskirmisher_uprade_01
+		prerequisite = { focus = EAK_airship_drills }	
+		x = 0
+		y = 1
+		relative_position_id = EAK_airship_drills
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = category_air_skirmisher
+			}
+		}
+	}

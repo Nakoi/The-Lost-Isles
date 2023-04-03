@@ -1306,7 +1306,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			501 = {
+			495 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = synthetic_refinery
@@ -1314,7 +1314,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			483 = {
+			502 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = synthetic_refinery
@@ -1356,7 +1356,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			136 = {
+			495 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -1364,7 +1364,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			483 = {
+			494 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -1372,7 +1372,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			481 = {
+			502 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -1380,7 +1380,15 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			136 = {
+			495 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			494 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
@@ -1389,14 +1397,6 @@ focus_tree = {
 				}
 			}
 			502 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			485 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
@@ -1627,7 +1627,7 @@ focus_tree = {
 			add_resource = {
 				type = coal
 				amount = 20
-				state = 483
+				state = 136
 			}
 		}
 	}
@@ -1672,7 +1672,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			504 = {
+			495 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -1680,7 +1680,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			506 = {
+			494 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -1724,12 +1724,12 @@ focus_tree = {
 			add_resource = {
 				type = iron
 				amount = 5
-				state = 478
+				state = 493
 			}
 			add_resource = {
 				type = iron
 				amount = 5
-				state = 503
+				state = 494
 			}
 		}
 	}
@@ -1748,12 +1748,12 @@ focus_tree = {
 			add_resource = {
 				type = iron
 				amount = 10
-				state = 503
+				state = 493
 			}
 			add_resource = {
 				type = iron
 				amount = 10
-				state = 478
+				state = 494
 			}
 		}
 	}
@@ -1772,12 +1772,12 @@ focus_tree = {
 			add_resource = {
 				type = coal
 				amount = 5
-				state = 483
+				state = 495
 			}
 			add_resource = {
 				type = coal
 				amount = 5
-				state = 501
+				state = 502
 			}
 		}
 	}
@@ -1796,12 +1796,12 @@ focus_tree = {
 			add_resource = {
 				type = coal
 				amount = 10
-				state = 501
+				state = 495
 			}
 			add_resource = {
 				type = coal
 				amount = 10
-				state = 483
+				state = 502
 			}
 		}
 	}
@@ -1897,8 +1897,8 @@ focus_tree = {
 			add_war_support = 0.1
 			#recruits new commander
 			add_tech_bonus = {
-				bonus = 1
-				uses = 1
+				bonus = 0.3
+				uses = 3
 				category = category_engineers
 			}
 		}
@@ -2254,8 +2254,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
-				category =	artillery
+				uses = 2
+				category = artillery
 			}
 		}
 	}
@@ -2274,7 +2274,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category =	artillery_antiair
 			}
 		}
@@ -2295,7 +2295,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category =	artillery_rocket
 			}
 		}
@@ -2330,7 +2330,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category =	infantry_weapons
 			}
 		}
@@ -2349,7 +2349,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category =	infantry_armorcat
 			}
 		}
@@ -2368,7 +2368,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category =	infantry_specialunit
 			}
 		}
@@ -2402,7 +2402,7 @@ focus_tree = {
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				cost_reduction = 0.5
-				uses = 1
+				uses = 2
 				category = naval_doctrine
 			}
 		}
@@ -2414,7 +2414,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = KAE_navy_drills
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2433,7 +2433,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = KAE_navy_drills
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2493,7 +2493,7 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = KAE_navy_drills
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2513,7 +2513,7 @@ focus_tree = {
 		x = -2
 		y = 3
 		relative_position_id = KAE_navy_drills
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2534,7 +2534,7 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = KAE_navy_drills
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -2575,8 +2575,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
-				category = category_air
+				uses = 2
+				category = category_airship
 			}
 		}
 	}
@@ -2613,7 +2613,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category = category_air_skirmisher
 			}
 		}
