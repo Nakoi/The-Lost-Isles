@@ -967,6 +967,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_reward_heroes
+		icon = AVT_GFX_Reward_The_Heroes
 		prerequisite = { focus = AVT_noble_dominated_army }
 		prerequisite = { focus = AVT_titles_for_the_best }
 		x = 0
@@ -3888,6 +3889,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_aristocratic_army
+		icon = AVT_GFX_Aristocratic_Army
 		x = 8
 		y = 0
 		cost = 5
@@ -3914,6 +3916,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_windrider_gallants
+		icon = AVT_GFX_WindRider_Galants
 		prerequisite = { focus = AVT_aristocratic_army }
 		x = -2
 		y = 1
@@ -3934,6 +3937,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_support_artillery_development
+		icon = AVT_GFX_Support_Equipment_Improvements
 		prerequisite = { focus = AVT_windrider_gallants }
 		x = -2
 		y = 2
@@ -3955,6 +3959,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_cloud_artillery
+		icon = AVT_GFX_CloudArty
 		prerequisite = { focus = AVT_support_artillery_development }
 		x = -2
 		y = 3
