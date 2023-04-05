@@ -126,6 +126,38 @@ ideas = {
 			}
 		}
 		
+		KAE_minutekirin_snek_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.1
+				army_org_factor = -0.15
+				army_org_regain = 0.1
+				army_attack_factor = -0.05
+				army_core_defence_factor = 0.1
+			}
+		}
+		
+		KAE_minutekirin_snek_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.3
+				army_org_factor = 0.15
+				army_org_regain = -0.1
+				army_attack_factor = -0.1
+				army_core_defence_factor = 0.2
+			}
+		}
+		
 		KAE_shit_arms_industry = {
 			picture = great_depression
 			removal_cost = -1
@@ -485,6 +517,60 @@ ideas = {
 				conscription_factor = -0.15
 				local_non_core_manpower = 0.35
 				weekly_manpower = 250
+			}
+		}
+		
+		KAE_dont_step_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.1
+			}
+		}
+		
+		KAE_dont_step_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				rifle_equipment = {
+					build_cost_ic = 0.15
+					reliability = 0.05
+					instant = yes
+				}
+			}
+			
+			modifier = {
+				conscription_factor = 0.15
+			}
+		}
+		
+		KAE_dont_step_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				rifle_equipment = {
+					build_cost_ic = 0.15
+					reliability = 0.05
+					instant = yes
+				}
+			}
+			
+			modifier = {
+				conscription_factor = 0.2
+				stability_factor = 0.05
+				war_support_factor = 0.1
 			}
 		}
 
