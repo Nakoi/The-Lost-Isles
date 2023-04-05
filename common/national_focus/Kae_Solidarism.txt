@@ -1629,6 +1629,11 @@ focus_tree = {
 				amount = 20
 				state = 136
 			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = racial
+			}
 		}
 	}
 

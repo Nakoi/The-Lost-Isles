@@ -1086,6 +1086,11 @@ focus_tree = {
 				amount = 20
 				state = 136
 			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = racial
+			}
 		}
 	}
 
@@ -1291,7 +1296,7 @@ focus_tree = {
 	focus = {
 		id = EAK_duty_calls
 		prerequisite = { focus = EAK_put_the_people_to_work }
-		x = 17
+		x = 18
 		y = 3
 		#relative_position_id = EAK_Greater_economy
 		cost = 10
@@ -1299,14 +1304,14 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_our_duty_01
+			add_ideas = KAE_dont_step
 		}
 	}
 
 	focus = {
 		id = EAK_service_posters
 		prerequisite = { focus = EAK_duty_calls }
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = EAK_duty_calls
 		cost = 10
@@ -1314,15 +1319,233 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-				swap_ideas = {
-					add_idea = KAE_our_duty_02
-					remove_idea = KAE_our_duty_01
+			swap_ideas = {
+				add_idea = KAE_dont_step_02
+				remove_idea = KAE_dont_step_01
 			}
-			add_manpower = 20000
+		}
+	}
+	
+	focus = {
+		id = EAK_do_it_all
+		prerequisite = { focus = EAK_service_posters }
+		prerequisite = { focus = EAK_airship_drills }
+		mutually_exclusive = { focus = EAK_airskirmisher_uprade_01 }
+		mutually_exclusive = { focus = EAK_anti_air_improvements_01 }
+		x = -3
+		y = 2
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 1
+				category = category_air_skirmisher
+			}
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 2
+				category =	artillery_antiair
+			}
+		}
+	}
+	
+	focus = {
+		id = EAK_tricks_of_our_own
+		prerequisite = { focus = EAK_do_it_all focus = EAK_army_defence_plans }
+		x = -2
+		y = 3
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 3
+				category = racial
+			}
+		}
+	}
+	
+	focus = {
+		id = EAK_army_engineers
+		prerequisite = { focus = EAK_army_attack_plans }
+		x = 2
+		y = 3
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 3
+				category = category_engineers
+			}
 		}
 	}
 
 	focus = {
+		id = EAK_army_defence_plans
+		prerequisite = { focus = EAK_service_posters }
+		mutually_exclusive = { focus = EAK_army_attack_plans }
+		x = -1
+		y = 2
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = KAE_minutekirin_snek_01
+			IF = {
+				limit = {
+					has_idea = recruit_irregular_army
+				}
+				swap_ideas = {
+					remove_idea = recruit_irregular_army
+					add_idea = recruit_militia_peacetime
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_volunteer
+				}
+				swap_ideas = {
+					remove_idea = recruit_volunteer
+					add_idea = recruit_militia_peacetime
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_militia_peacetime
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_universalcon
+				}
+				swap_ideas = {
+					remove_idea = recruit_universalcon
+					add_idea = recruit_militia_peacetime
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_army_attack_plans
+		prerequisite = { focus = EAK_service_posters }
+		mutually_exclusive = { focus = EAK_army_defence_plans }
+		x = 1
+		y = 2
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = KAE_minutekirin_snek_02
+			IF = {
+				limit = {
+					has_idea = recruit_irregular_army
+				}
+				swap_ideas = {
+					remove_idea = recruit_irregular_army
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_peacetime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_peacetime
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_militia_wartime
+				}
+				swap_ideas = {
+					remove_idea = recruit_militia_wartime
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_selectivecon
+				}
+				swap_ideas = {
+					remove_idea = recruit_selectivecon
+					add_idea = recruit_volunteer
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = recruit_universalcon
+				}
+				swap_ideas = {
+					remove_idea = recruit_universalcon
+					add_idea = recruit_volunteer
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EAK_proud_of_our_nation
+		prerequisite = { focus = EAK_service_posters }
+		prerequisite = { focus = EAK_army_attack_plans focus = EAK_army_defence_plans }
+		x = 0
+		y = 3
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = KAE_dont_step_03
+				remove_idea = KAE_dont_step_02
+			}
+		}
+	}
+	
+	focus = {
+		id = EAK_Army_doctrine
+		prerequisite = { focus = EAK_proud_of_our_nation }	
+		x = 0
+		y = 4
+		relative_position_id = EAK_duty_calls
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 3
+				category = land_doctrine
+			}
+		}
+	}
+	
+	#focus = {
 		id = EAK_schools_for_officers
 		prerequisite = { focus = EAK_duty_calls }
 		x = 1
@@ -1335,9 +1558,9 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = KAE_officer_training_01
 		}
-	}
+	#}
 
-	focus = {
+	#focus = {
 		id = EAK_greater_army_infrastructure
 		prerequisite = { focus = EAK_schools_for_officers }
 		x = 2
@@ -1357,55 +1580,9 @@ focus_tree = {
 				category = category_engineers
 			}
 		}
-	}
+	#}
 
-	focus = {
-		id = EAK_army_defence_plans
-		prerequisite = { focus = EAK_schools_for_officers }
-		mutually_exclusive = { focus = EAK_army_attack_plans }
-		x = 0
-		y = 2
-		relative_position_id = EAK_duty_calls
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			swap_ideas = {
-				add_idea = KAE_officer_training_03
-				remove_idea = KAE_officer_training_01
-			}
-			swap_ideas = {
-				add_idea = KAE_minutekirin_02
-				remove_idea = KAE_minutekirin_01
-			}
-		}
-	}
-
-	focus = {
-		id = EAK_army_attack_plans
-		prerequisite = { focus = EAK_schools_for_officers }
-		mutually_exclusive = { focus = EAK_army_defence_plans }
-		x = -2
-		y = 2
-		relative_position_id = EAK_duty_calls
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			swap_ideas = {
-				add_idea = KAE_officer_training_02
-				remove_idea = KAE_officer_training_01
-			}
-			swap_ideas = {
-				add_idea = KAE_minutekirin_02
-				remove_idea = KAE_minutekirin_01
-			}
-		}
-	}
-
-	focus = {
+	#focus = {
 		id = EAK_joint_operations
 		prerequisite = { focus = EAK_army_attack_plans focus = EAK_army_defence_plans }
 		prerequisite = { focus = EAK_greater_army_infrastructure }
@@ -1420,89 +1597,12 @@ focus_tree = {
 			army_experience = 50
 			#adds new commader 
 		}
-	}
-
-	focus = {
-		id = EAK_proud_of_our_nation
-		prerequisite = { focus = EAK_service_posters }
-		x = -1
-		y = 3
-		relative_position_id = EAK_duty_calls
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			IF = {
-				limit = {
-					has_idea = recruit_militia_peacetime
-				}
-				swap_ideas = {
-					remove_idea = recruit_militia_peacetime
-					add_idea = recruit_universalcon
-				}
-			}
-			IF = {
-				limit = {
-					has_idea = recruit_militia_wartime
-				}
-				swap_ideas = {
-					remove_idea = recruit_militia_wartime
-					add_idea = recruit_universalcon
-				}
-			}
-			IF = {
-				limit = {
-					has_idea = recruit_volunteer
-				}
-				swap_ideas = {
-					remove_idea = recruit_volunteer
-					add_idea = recruit_universalcon
-				}
-			}
-			IF = {
-				limit = {
-					has_idea = recruit_selectivecon
-				}
-				swap_ideas = {
-					remove_idea = recruit_selectivecon
-					add_idea = recruit_universalcon
-				}
-			}
-			add_war_support = 0.20
-			add_stability = 0.05
-		}
-	}
-
-	focus = {
-		id = EAK_Army_doctrine
-		prerequisite = { focus = EAK_proud_of_our_nation }
-		prerequisite = { focus = EAK_joint_operations }		
-		x = 0
-		y = 4
-		relative_position_id = EAK_duty_calls
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 2
-				category = land_doctrine
-			}
-			swap_ideas = {
-				add_idea = KAE_minutekirin_03
-				remove_idea = KAE_minutekirin_02
-			}
-		}
-	}
+	#}
 
 	focus = {
 		id = EAK_Artillery_drills
 		prerequisite = { focus = EAK_duty_calls }	
-		x = -7
+		x = -8
 		y = 1
 		relative_position_id = EAK_duty_calls
 		cost = 10
@@ -1537,6 +1637,8 @@ focus_tree = {
 	focus = {
 		id = EAK_anti_air_improvements_01
 		prerequisite = { focus = EAK_Artillery_drills }	
+		mutually_exclusive = { focus = EAK_airskirmisher_uprade_01 }
+		mutually_exclusive = { focus = EAK_do_it_all }
 		x = 1
 		y = 1
 		relative_position_id = EAK_Artillery_drills
@@ -1578,7 +1680,7 @@ focus_tree = {
 	focus = {
 		id = EAK_Army_drills
 		prerequisite = { focus = EAK_duty_calls }	
-		x = -11
+		x = -12
 		y = 1
 		relative_position_id = EAK_duty_calls
 		cost = 10
@@ -1650,7 +1752,7 @@ focus_tree = {
 	focus = {
 		id = EAK_navy_drills
 		prerequisite = { focus = EAK_duty_calls }	
-		x = -9
+		x = -10
 		y = 4
 		relative_position_id = EAK_duty_calls
 		cost = 10
@@ -1823,7 +1925,7 @@ focus_tree = {
 	focus = {
 		id = EAK_airship_drills	
 		prerequisite = { focus = EAK_duty_calls focus = EAK_merc_calls }
-		x = -4
+		x = -5
 		y = 1
 		relative_position_id = EAK_duty_calls
 		cost = 10
@@ -1875,9 +1977,30 @@ focus_tree = {
 
 	focus = {
 		id = EAK_airskirmisher_uprade_01
-		prerequisite = { focus = EAK_airship_drills }	
+		prerequisite = { focus = EAK_airship_drills }
+		mutually_exclusive = { focus = EAK_anti_air_improvements_01 }
+		mutually_exclusive = { focus = EAK_do_it_all }
 		x = 0
 		y = 1
+		relative_position_id = EAK_airship_drills
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = category_air_skirmisher
+			}
+		}
+	}
+	
+	focus = {
+		id = EAK_airskirmisher_uprade_02
+		prerequisite = { focus = EAK_airskirmisher_uprade_01 }
+		x = 0
+		y = 3
 		relative_position_id = EAK_airship_drills
 		cost = 5
 		ai_will_do = {
@@ -1886,7 +2009,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category = category_air_skirmisher
 			}
 		}
