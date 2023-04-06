@@ -2174,6 +2174,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_royal_academy
+		icon = AVT_GFX_Royal_Academy
 		prerequisite = { focus = AVT_public_healthcare }
 		prerequisite = { focus = AVT_service_guarantees_citizenship }
 		x = -6
