@@ -3946,6 +3946,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_sky_carrier_development
+		icon = AVT_GFX_Examin_Forgein_Carriers
 		prerequisite = { focus = AVT_cloud_bliss_plan focus = AVT_dazzleflash_plan }
 		x = 0
 		y = 2
@@ -3966,6 +3967,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_air_doctrine_studies
+		icon = AVT_GFX_Air_Doctrine_Studies
 		prerequisite = { focus = AVT_sky_carrier_development }
 		x = 0
 		y = 3
@@ -4088,6 +4090,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_import_bombardiers
+		icon = AVT_GFX_Examin_Forgein_Bombardiers
 		prerequisite = { focus = AVT_cloud_bliss_plan }
 		mutually_exclusive = { focus = AVT_import_air_frigates }
 		x = -4
@@ -4109,6 +4112,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_import_air_frigates
+		icon = AVT_GFX_Examin_Forgein_Frigates
 		prerequisite = { focus = AVT_cloud_bliss_plan }
 		mutually_exclusive = { focus = AVT_import_bombardiers }
 		x = -2
@@ -4196,6 +4200,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_prioritise_air_skirmishers
+		icon = AVT_GFX_AirSkirmisher
 		prerequisite = { focus = AVT_dazzleflash_plan }
 		mutually_exclusive = { focus = AVT_prioritise_air_strikers }
 		x = 2
@@ -4217,6 +4222,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_prioritise_air_strikers
+		icon = AVT_GFX_AirStriker
 		prerequisite = { focus = AVT_dazzleflash_plan }
 		mutually_exclusive = { focus = AVT_prioritise_air_skirmishers }
 		x = 4
@@ -4238,6 +4244,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_skirmisher_flight_schools
+		icon = AVT_GFX_FlightSchools
 		prerequisite = { focus = AVT_prioritise_air_skirmishers focus = AVT_prioritise_air_strikers }
 		x = 2
 		y = 3

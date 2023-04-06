@@ -5852,3 +5852,463 @@ spriteTypes = {
         }
     }
 
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Royal_Guard_Expansion"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Royal_Guard_Expansion.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Royal_Guard_Expansion_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Royal_Guard_Expansion.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Royal_Guard_Expansion.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Royal_Guard_Expansion.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Armored_Companions"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Armored_Companions.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Armored_Companions_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Armored_Companions.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Armored_Companions.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Armored_Companions.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Tip_Of_The_Spear"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Tip_Of_The_Spear.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Tip_Of_The_Spear_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Tip_Of_The_Spear.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Tip_Of_The_Spear.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Tip_Of_The_Spear.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Help_The_Wounded"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Help_The_Wounded.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Help_The_Wounded_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Help_The_Wounded.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Help_The_Wounded.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Help_The_Wounded.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Motorised_Infantry_Experiments"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Motorised_Infantry_Experiments.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Motorised_Infantry_Experiments_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Motorised_Infantry_Experiments.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Motorised_Infantry_Experiments.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Motorised_Infantry_Experiments.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Examin_Forgein_Bombardiers"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Bombardiers.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Examin_Forgein_Bombardiers_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Bombardiers.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Bombardiers.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Bombardiers.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Examin_Forgein_Frigates"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Frigates.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Examin_Forgein_Frigates_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Frigates.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Frigates.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Frigates.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Examin_Forgein_Carriers"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Carriers.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Examin_Forgein_Carriers_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Carriers.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Carriers.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Carriers.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Examin_Forgein_Cruiser"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Cruiser.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Examin_Forgein_Cruiser_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Cruiser.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Cruiser.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Examin_Forgein_Cruiser.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_Air_Doctrine_Studies"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Air_Doctrine_Studies.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_Air_Doctrine_Studies_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_Air_Doctrine_Studies.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Air_Doctrine_Studies.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_Air_Doctrine_Studies.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_AirStriker"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_AirStriker.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_AirStriker_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_AirStriker.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_AirStriker.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_AirStriker.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_AirSkirmisher"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_AirSkirmisher.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_AirSkirmisher_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_AirSkirmisher.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_AirSkirmisher.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_AirSkirmisher.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
