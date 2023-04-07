@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_negotiations
-		icon = GFX_focus_kae_generic
+		icon = KAE_GFX_Negotiate_With_Cilarine
 		x = -5
 		y = 0
 		cost = 3
@@ -31,7 +31,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_relations
-		icon = GFX_focus_kae_generic
+		icon = KAE_GFX_Concede_On_Paying
 		prerequisite = { focus = KAE_negotiations }
 		x = 0
 		y = 1
@@ -93,6 +93,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_weapons
+		icon = KAE_GFX_Purchase_More_Muskets
 		prerequisite = { focus = KAE_negotiations }
 		x = 2
 		y = 1
@@ -158,6 +159,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_claimes_We_are_ready
+		icon = KAE_GFX_Crush_Those_Who_Oppose_Us
 		prerequisite = { focus = KAE_advisor_in_these_times }
 		x = 0
 		y = 4
@@ -1085,6 +1087,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_Greater_economy
+		icon = KAE_GFX_Help_Our_Industrialists
 		x = 22
 		y = 0
 		cost = 10
@@ -1104,6 +1107,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_Living_conditions
+		icon = KAE_GFX_WorkHouses
 		prerequisite = { focus = KAE_Greater_economy }
 		x = -2
 		y = 1
@@ -1143,6 +1147,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_new_machine_blueprints
+		icon = KAE_GFX_City_Patent
 		prerequisite = { focus = KAE_Greater_economy }
 		x = 2
 		y = 1
@@ -1162,6 +1167,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_Infrastructure_improvements
+		icon = KAE_GFX_CobbleStone_Roads
 		prerequisite = { focus = KAE_Greater_economy }
 		x = 0
 		y = 1
@@ -1239,6 +1245,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_put_the_people_to_work
+		icon = KAE_GFX_New_Enterprise
 		prerequisite = { focus = KAE_Living_conditions }
 		x = -3
 		y = 2
@@ -1297,6 +1304,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_Farm_fields
+		icon = KAE_GFX_Mechanized_Agriculture
 		prerequisite = { focus = KAE_Living_conditions }
 		x = -1
 		y = 2
@@ -1328,6 +1336,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_new_tools
+		icon = KAE_GFX_New_Tools
 		prerequisite = { focus = KAE_new_machine_blueprints }
 		x = 1
 		y = 2
@@ -1347,6 +1356,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_Mega_factories
+		icon = KAE_GFX_New_Enterprise
 		prerequisite = { focus = KAE_new_machine_blueprints }
 		x = 3
 		y = 2
@@ -1409,6 +1419,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_Mining
+		icon = KAE_GFX_Mining
 		prerequisite = { focus = KAE_Mega_factories }
 		x = 4
 		y = 3
@@ -1424,6 +1435,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_labor_conditions
+		icon = KAE_GFX_ToarchBearers_Industrial_Revolution
 		prerequisite = { focus = KAE_Farm_fields }
 		prerequisite = { focus = KAE_put_the_people_to_work }
 		mutually_exclusive = { focus = KAE_improve_living_standard }
@@ -1500,6 +1512,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_improve_living_standard
+		icon = KAE_GFX_Living_Improvements
 		prerequisite = { focus = KAE_put_the_people_to_work }
 		prerequisite = { focus = KAE_Farm_fields }
 		mutually_exclusive = { focus = KAE_labor_conditions }
@@ -1576,6 +1589,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_labor_laws
+		icon = KAE_GFX_Safty_Laws
 		prerequisite = { focus = KAE_improve_living_standard }
 		x = -3
 		y = 4
@@ -1594,6 +1608,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_engineering_schools
+		icon = KAE_GFX_Engineering_Schools
 		prerequisite = { focus = KAE_Mega_factories }
 		prerequisite = { focus = KAE_new_tools }
 		x = 0
@@ -1614,6 +1629,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_kirin_fire_magic_as_coals
+		icon = KAE_GFX_Fire_Magic
 		prerequisite = { focus = KAE_Mega_factories }
 		prerequisite = { focus = KAE_new_tools }
 		x = 2
@@ -1639,6 +1655,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_weapon_science
+		icon = KAE_GFX_New_Arms_Designers
 		prerequisite = { focus = KAE_engineering_schools }
 		prerequisite = { focus = KAE_kirin_fire_magic_as_coals }
 		x = 1
@@ -1659,6 +1676,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_industrial_powerhouse
+		icon = KAE_GFX_New_Enterprise
 		#prerequisite = { focus = KAE_labor_conditions }
 		prerequisite = { focus = KAE_engineering_schools }
 		x = -1
@@ -1698,6 +1716,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_workshop_of_ootari
+		icon = KAE_GFX_Workshop_Of_Ootari
 		prerequisite = { focus = KAE_industrial_powerhouse }
 		prerequisite = { focus = KAE_weapon_science }
 		prerequisite = { focus = KAE_labor_laws focus = KAE_labor_conditions }
@@ -1717,6 +1736,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_iron_mines_01
+		icon = KAE_GFX_New_Mines
 		prerequisite = { focus = KAE_Mining }
 		x = 5
 		y = 4
@@ -1741,6 +1761,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_iron_mines_02
+		icon = KAE_GFX_New_Mines
 		prerequisite = { focus = KAE_iron_mines_01 }
 		x = 5
 		y = 5
@@ -1765,6 +1786,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_coal_mines_01
+		icon = KAE_GFX_Coal_Mines
 		prerequisite = { focus = KAE_Mining }
 		x = 3
 		y = 4
@@ -1789,6 +1811,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_coal_mines_02
+		icon = KAE_GFX_Coal_Mines
 		prerequisite = { focus = KAE_coal_mines_01 }
 		x = 3
 		y = 5
@@ -1813,6 +1836,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_mining_force
+		icon = KAE_GFX_Mine_Mechanisation
 		prerequisite = { focus = KAE_iron_mines_02 }
 		prerequisite = { focus = KAE_coal_mines_02 }
 		x = 4

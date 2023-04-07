@@ -2336,6 +2336,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_air_stuff
+		icon = ESU_GFX_The_Esun_Republic_Highfleet
 		prerequisite = { focus = ESU_spark_the_factories }
 		x = -4
 		y = 2
@@ -2359,6 +2360,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_airship_frigate
+		icon = ESU_GFX_Air_Frigate_Supremacy
 		prerequisite = { focus = ESU_air_stuff }
 		mutually_exclusive = { focus = ESU_airship_cruiser }
 		x = -3
@@ -2407,6 +2409,7 @@ focus_tree = {
 
 	focus = {
 		id = ESU_airskirms
+		icon = ESU_GFX_Ponies_led_by_ponies
 		prerequisite = { focus = ESU_airship_frigate focus = ESU_airship_cruiser }
 		x = -4
 		y = 4
@@ -2428,6 +2431,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_airship_supremacy
+		icon = ESU_GFX_Booming_Industry
 		prerequisite = { focus = ESU_airship_frigate focus = ESU_airship_cruiser }
 		x = -6
 		y = 4

@@ -2947,3 +2947,81 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 } 
         }
     }
+
+
+
+
+
+    SpriteType = { 
+        name = "ESU_GFX_The_Esun_Republic_Highfleet"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_The_Esun_Republic_Highfleet.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_The_Esun_Republic_Highfleet_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_The_Esun_Republic_Highfleet.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_The_Esun_Republic_Highfleet.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_The_Esun_Republic_Highfleet.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "ESU_GFX_Air_Frigate_Supremacy"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Air_Frigate_Supremacy.dds"
+    }
+    
+    SpriteType = { 
+        name = "ESU_GFX_Air_Frigate_Supremacy_shine"
+        texturefile = "gfx/interface/goals/ESU/ESU_GFX_Air_Frigate_Supremacy.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Air_Frigate_Supremacy.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ESU/ESU_GFX_Air_Frigate_Supremacy.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
