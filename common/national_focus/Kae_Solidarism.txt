@@ -198,6 +198,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_Claims_Vote
+		icon = KAE_GFX_Council_Elections
 		prerequisite = { focus = KAE_claimes_We_are_ready }
 		x = 0
 		y = 5
