@@ -1900,6 +1900,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_schools_for_officers
+		icon = KAE_GFX_Officer_Schools
 		prerequisite = { focus = KAE_duty_calls }
 		x = 1
 		y = 1
@@ -1915,6 +1916,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_greater_army_infrastructure
+		icon = KAE_GFX_Army_Engineer
 		prerequisite = { focus = KAE_schools_for_officers }
 		x = 2
 		y = 2
@@ -1937,6 +1939,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_army_defence_plans
+		icon = KAE_GFX_Defence_Army_Primacy
 		prerequisite = { focus = KAE_schools_for_officers }
 		mutually_exclusive = { focus = KAE_army_attack_plans }
 		x = 0
@@ -1960,6 +1963,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_army_attack_plans
+		icon = KAE_GFX_Offensive_Army_Primacy
 		prerequisite = { focus = KAE_schools_for_officers }
 		mutually_exclusive = { focus = KAE_army_defence_plans }
 		x = -2
@@ -1983,6 +1987,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_joint_operations
+		icon = KAE_GFX_City_Militia
 		prerequisite = { focus = KAE_army_attack_plans focus = KAE_army_defence_plans }
 		prerequisite = { focus = KAE_greater_army_infrastructure }
 		x = 1
@@ -2000,6 +2005,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_proud_of_our_nation
+		icon = KAE_GFX_National_Pride
 		prerequisite = { focus = KAE_service_posters }
 		x = -1
 		y = 3
@@ -2052,6 +2058,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_Army_doctrine
+		icon = KAE_GFX_Army_Doctrine
 		prerequisite = { focus = KAE_proud_of_our_nation }
 		prerequisite = { focus = KAE_joint_operations }		
 		x = 0
@@ -2093,6 +2100,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_merc_divisions
+		icon = KAE_GFX_Merc_Divisions
 		prerequisite = { focus = KAE_merc_calls }
 		x = -1
 		y = 1
@@ -2133,6 +2141,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_merc_contracts
+		icon = KAE_GFX_Contract_Army
 		prerequisite = { focus = KAE_merc_supplies }
 		prerequisite = { focus = KAE_merc_divisions }
 		x = 0
@@ -2198,6 +2207,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_merc_air_skirm_pro_bono
+		icon = KAE_GFX_Winged_Mercenaries
 		prerequisite = { focus = KAE_merc_contracts }
 		x = 1
 		y = 3
@@ -2216,6 +2226,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_merc_air_skirm_equipment
+		icon = KAE_GFX_Air_Skirmishers_Equipment
 		prerequisite = { focus = KAE_merc_contracts }
 		x = -1
 		y = 3
@@ -2235,6 +2246,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_merc_officers_02
+		icon = KAE_GFX_Merc_High_Command
 		prerequisite = { focus = KAE_merc_air_skirm_pro_bono }
 		prerequisite = { focus = KAE_merc_air_skirm_equipment }
 		x = 0
@@ -2581,6 +2593,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_airship_drills	
+		icon = KAE_GFX_Airship_Drills
 		prerequisite = { focus = KAE_duty_calls focus = KAE_merc_calls }
 		x = -2
 		y = 4
@@ -2596,6 +2609,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_air_ship_upgrade_01
+		icon = KAE_GFX_Air_Ship_Design_Improvements
 		prerequisite = { focus = KAE_airship_drills }	
 		x = -1
 		y = 1
@@ -2615,6 +2629,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_air_ship_upgrade_02
+		icon = KAE_GFX_Airship_Doctrine_Advancements
 		prerequisite = { focus = KAE_airship_drills }	
 		x = 1
 		y = 1
@@ -2634,6 +2649,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_airskirmisher_uprade_01
+		icon = KAE_GFX_Air_Skirmishers_Improvements
 		prerequisite = { focus = KAE_airship_drills }	
 		x = 0
 		y = 2
