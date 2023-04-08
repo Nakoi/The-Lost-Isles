@@ -195,6 +195,101 @@ decisioncat_kae_starting_cilarine_trade = {
 	}
 }
 
+decisioncat_kae_tradefleet = {
+
+	KAE_tradefleet_decision_stage_1 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_rebuild_trade_fleet
+			has_equipment = {
+				convoy > 999
+			}
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_rebuild_trade_fleet
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			add_ideas = KAE_trade_fleet_bonus_idea_01
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = -500
+			}
+		}
+	}
+	
+	KAE_tradefleet_decision_stage_2 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_rebuild_trade_fleet
+			has_equipment = {
+				convoy > 749
+			}
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 14
+
+		visible = {
+			tag = KAE
+			has_completed_focus = KAE_rebuild_trade_fleet
+			has_idea = KAE_trade_fleet_bonus_idea_01
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				add_idea = KAE_trade_fleet_bonus_idea_02
+				remove_idea = KAE_trade_fleet_bonus_idea_01
+			}
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = -500
+			}
+		}
+	}
+	
+	
+}
+
 decisioncat_kae_clan_coring = {
 
 	KAE_core_wei_decision = {
