@@ -2444,6 +2444,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_navy_doctrines
+		icon = KAE_GFX_Navy_Doctrine
 		prerequisite = { focus = KAE_navy_drills }	
 		x = 0
 		y = 1
@@ -2463,6 +2464,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_light_ships_01
+		icon = KAE_GFX_New_Lightships
 		prerequisite = { focus = KAE_navy_drills }	
 		x = -2
 		y = 1
@@ -2541,6 +2543,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_medium_ships_02
+		icon = KAE_GFX_Medium_Ironclads
 		prerequisite = { focus = KAE_medium_ships_01 }
 		mutually_exclusive = { focus =  KAE_light_ships_02 }
 		x = 2
@@ -2561,6 +2564,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_light_ships_02
+		icon = KAE_GFX_Frigate
 		prerequisite = { focus = KAE_light_ships_01 }
 		mutually_exclusive = { focus =  KAE_medium_ships_02 }
 		x = -2
