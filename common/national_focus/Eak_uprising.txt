@@ -491,7 +491,7 @@ focus_tree = {
 		id = EAK_Cilarine_War_Goal
 		prerequisite = { focus = EAK_Get_Enough_BOATS }
 		x = 0
-		y = 2
+		y = 3
 		relative_position_id = EAK_Navy_Buildup
 		cost = 3
 		ai_will_do = {
