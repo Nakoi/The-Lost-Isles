@@ -1880,6 +1880,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_service_posters
+		icon = KAE_GFX_Encourage_Service
 		prerequisite = { focus = KAE_duty_calls }
 		x = -1
 		y = 1
@@ -2107,6 +2108,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_merc_supplies
+		icon = KAE_GFX_Supply_Our_Mercinaries
 		prerequisite = { focus = KAE_merc_calls }
 		x = 1
 		y = 1
