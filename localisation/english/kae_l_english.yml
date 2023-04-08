@@ -86,6 +86,8 @@
  KAE_Improve_the_rail_connection_desc:0 ""
  KAE_pirate_tax:0 "Free Ourselves from the Pirate Tax"
  KAE_pirate_tax_desc:0 ""
+ KAE_rebuild_trade_fleet:0 "Rebuild the Trade Fleet"
+ KAE_rebuild_trade_fleet_desc:0 ""
  KAE_mobilise_the_east:0 "Civilise the North-East"
  KAE_mobilise_the_east_desc:0 ""
  KAE_early_fortifications:0 "Northern Fortifications"
@@ -402,6 +404,9 @@
  KAE_civilwar_nomanpower_idea:0 "Reliance on Mercenaries"
  
  KAE_pacificationxp_idea:0 "Pacification Campaign Experience"
+ KAE_rebuild_trade_fleet_idea:0 "Rebuilding the Trade Fleet"
+ KAE_trade_fleet_bonus_idea_01:0 "The New Trade Fleet"
+ KAE_trade_fleet_bonus_idea_02:0 "The New Trade Fleet"
  KAE_mercpayments:0 "Mercenary Payments"
  KAE_mercrecruitment:0 "Mercenary Recruitment"
  KAE_conscript_pegasus_skirms:0 "Pegasi Volunteers"
@@ -447,6 +452,10 @@
  KAE_buy_cilarine_supporteq_decision:0 "Purchase Support Equipment"
  KAE_buy_cilarine_cannons_decision:0 "Purchase Cannons"
  KAE_hire_cilarine_airskirms_decision:0 "Hire More Mercenaries"
+ 
+ decisioncat_kae_tradefleet:0 "Rebuilding the Trade Fleet"
+ KAE_tradefleet_decision_stage_1:0 "The New Trade Fleet - Stage 1"
+ KAE_tradefleet_decision_stage_2:0 "The New Trade Fleet - Stage 2"
  
  decisioncat_kae_clan_coring:0 "The Pacification Campaign"
  KAE_core_wei_decision:0 "Integrate Wei Territory"
