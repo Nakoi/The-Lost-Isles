@@ -269,6 +269,49 @@ ideas = {
 			}
 		}
 		
+		KAE_rebuild_trade_fleet_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			equipment_bonus = {
+				convoy = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}
+		}
+		
+		KAE_trade_fleet_bonus_idea_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = -0.03
+				min_export = 0.05
+				local_resources_factor = 0.12
+			}
+		}
+		
+		KAE_trade_fleet_bonus_idea_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = -0.06
+				min_export = 0.1
+				local_resources_factor = 0.25
+			}
+		}
+		
 		KAE_mercpayments = {
 			picture = great_depression
 			removal_cost = -1
