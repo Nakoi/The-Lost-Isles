@@ -121,6 +121,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_improved_relations
+		icon = KAE_GFX_Negotiations_Concluded
 		prerequisite = { focus = KAE_air_equipment }
 		prerequisite = { focus = KAE_relations }
 		prerequisite = { focus = KAE_weapons }
@@ -522,6 +523,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_suatoa_battle_plans
+		icon = KAE_GFX_Break_Gulf
 		prerequisite = { focus = KAE_Claims_Vote }
 		x = 3
 		y = 6
@@ -597,6 +599,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_rebuild_trade_fleet
+		icon = KAE_GFX_Rebuild_Trade_Fleet
 		prerequisite = { focus = KAE_pirate_tax }
 		x = 2
 		y = 4
@@ -996,6 +999,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_core_esun
+		icon = KAE_GFX_Unite_Ootarii
 		prerequisite = { focus = KAE_to_war }
 		x = 0
 		y = 3
@@ -2153,6 +2157,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_merc_calls
+		icon = KAE_GFX_Merc_Primacy
 		prerequisite = { focus = KAE_put_the_people_to_work }
 		mutually_exclusive = { focus = KAE_duty_calls }
 		x = -4
@@ -2497,6 +2502,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_navy_drills
+		icon = KAE_GFX_Navy_Drills
 		prerequisite = { focus = KAE_duty_calls }	
 		x = -10
 		y = 4
@@ -2552,6 +2558,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_medium_ships_01
+		icon = KAE_GFX_New_Lightships
 		prerequisite = { focus = KAE_navy_drills }	
 		x = 2
 		y = 1
@@ -2571,6 +2578,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_blue_water_doctrine
+		icon = KAE_GFX_Navy_Blue
 		prerequisite = { focus = KAE_navy_doctrines }
 		mutually_exclusive = { focus = KAE_brown_water_doctrine }
 		x = 1
@@ -2591,6 +2599,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_brown_water_doctrine
+		icon = KAE_GFX_Navy_Brown
 		prerequisite = { focus = KAE_navy_doctrines }
 		mutually_exclusive = { focus = KAE_blue_water_doctrine }
 		x = -1
@@ -2654,6 +2663,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_heavy_ships_01
+		icon = KAE_GFX_New_Heavy_Ships
 		prerequisite = { focus = KAE_light_ships_02 focus = KAE_medium_ships_02 }	
 		prerequisite = { focus = KAE_brown_water_doctrine focus = KAE_blue_water_doctrine }	
 		x = 0
@@ -2988,6 +2998,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_outcome_of_the_wars
+		icon = KAE_GFX_Back_To_Normal
 		prerequisite = { focus = KAE_hired_airskirmishers }
 		prerequisite = { focus = KAE_weapon_supplies }
 		x = 0
