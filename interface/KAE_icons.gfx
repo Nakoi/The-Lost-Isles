@@ -2137,5 +2137,793 @@ spriteTypes = {
 
 
 
+    SpriteType = { 
+        name = "KAE_GFX_Pacify_Rinto"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Rinto.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Pacify_Rinto_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Rinto.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Rinto.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Rinto.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Pacify_Unuo"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Unuo.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Pacify_Unuo_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Unuo.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Unuo.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Unuo.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Pacify_Wei"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Wei.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Pacify_Wei_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Wei.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Wei.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Wei.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Pacify_Ashi"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Ashi.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Pacify_Ashi_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Ashi.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Ashi.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacify_Ashi.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Civil_Ashi"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Ashi.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Civil_Ashi_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Ashi.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Ashi.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Ashi.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Civil_Wei"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Wei.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Civil_Wei_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Wei.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Wei.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Wei.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Civil_Unuo"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Unuo.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Civil_Unuo_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Unuo.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Unuo.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Unuo.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Civil_Rinto"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Rinto.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Civil_Rinto_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Rinto.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Rinto.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Civil_Rinto.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Renew_Contracts"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Renew_Contracts.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Renew_Contracts_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Renew_Contracts.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Renew_Contracts.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Renew_Contracts.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Pacification_Campaign"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacification_Campaign.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Pacification_Campaign_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacification_Campaign.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacification_Campaign.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacification_Campaign.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Pacification_Experience"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacification_Experience.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Pacification_Experience_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pacification_Experience.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacification_Experience.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pacification_Experience.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Purchase_Weapons"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Purchase_Weapons.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Purchase_Weapons_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Purchase_Weapons.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Purchase_Weapons.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Purchase_Weapons.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Hire_Sky_Warriors"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Hire_Sky_Warriors.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Hire_Sky_Warriors_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Hire_Sky_Warriors.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Hire_Sky_Warriors.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Hire_Sky_Warriors.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Ootarii_Fortifications"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Ootarii_Fortifications.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Ootarii_Fortifications_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Ootarii_Fortifications.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Ootarii_Fortifications.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Ootarii_Fortifications.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_To_War"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_To_War.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_To_War_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_To_War.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_To_War.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_To_War.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Asterian_Conscription"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Asterian_Conscription.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Asterian_Conscription_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Asterian_Conscription.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Asterian_Conscription.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Asterian_Conscription.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Pegasus_Brigade"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pegasus_Brigade.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Pegasus_Brigade_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pegasus_Brigade.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pegasus_Brigade.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pegasus_Brigade.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Local_Expertise"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Local_Expertise.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Local_Expertise_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Local_Expertise.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Local_Expertise.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Local_Expertise.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Improve_Rail_Connection"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Improve_Rail_Connection.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Improve_Rail_Connection_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Improve_Rail_Connection.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Improve_Rail_Connection.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Improve_Rail_Connection.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    SpriteType = { 
+        name = "KAE_GFX_Pirate_Tax"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pirate_Tax.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_Pirate_Tax_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_Pirate_Tax.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pirate_Tax.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_Pirate_Tax.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
 
 }

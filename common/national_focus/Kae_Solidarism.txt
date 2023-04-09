@@ -63,6 +63,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_air_equipment
+		icon = KAE_GFX_Renew_Contracts
 		prerequisite = { focus = KAE_negotiations }
 		x = -2
 		y = 1
@@ -219,6 +220,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_pacification_plans
+		icon = KAE_GFX_Pacification_Campaign
 		prerequisite = { focus = KAE_Claims_Vote }
 		x = -3
 		y = 6
@@ -248,6 +250,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_pacification_clans_wei
+		icon = KAE_GFX_Pacify_Wei
 		prerequisite = { focus = KAE_pacification_plans }
 		x = 1
 		y = 1
@@ -274,6 +277,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_pacification_clans_unu
+		icon = KAE_GFX_Pacify_Unuo
 		prerequisite = { focus = KAE_pacification_plans }
 		x = -1
 		y = 1
@@ -300,6 +304,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_pacification_clans_rin
+		icon = KAE_GFX_Pacify_Rinto
 		prerequisite = { focus = KAE_pacification_plans }
 		x = -3
 		y = 1
@@ -326,6 +331,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_pacification_clans_ash
+		icon = KAE_GFX_Pacify_Ashi
 		prerequisite = { focus = KAE_pacification_plans }
 		x = 3
 		y = 1
@@ -352,6 +358,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_ash_bonus
+		icon = KAE_GFX_Civil_Ashi
 		prerequisite = { focus = KAE_pacification_clans_ash }
 		x = 3
 		y = 2
@@ -383,6 +390,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_wei_bonus
+		icon = KAE_GFX_Civil_Wei
 		prerequisite = { focus = KAE_pacification_clans_wei }
 		x = 1
 		y = 2
@@ -414,6 +422,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_unu_bonus
+		icon = KAE_GFX_Civil_Unuo
 		prerequisite = { focus = KAE_pacification_clans_unu }
 		x = -1
 		y = 2
@@ -445,6 +454,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_rin_bonus
+		icon = KAE_GFX_Civil_Rinto
 		prerequisite = { focus = KAE_pacification_clans_rin }
 		x = -3
 		y = 2
@@ -476,6 +486,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_pacification_experience
+		icon = KAE_GFX_Pacification_Experience
 		prerequisite = { focus = KAE_rin_bonus focus = KAE_unu_bonus focus = KAE_wei_bonus focus = KAE_ash_bonus}
 		x = 0
 		y = 3
@@ -535,6 +546,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_Improve_the_rail_connection
+		icon = KAE_GFX_Improve_Rail_Connection
 		prerequisite = { focus = KAE_suatoa_battle_plans }
 		x = 2
 		y = 1
@@ -564,6 +576,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_pirate_tax
+		icon = KAE_GFX_Pirate_Tax
 		prerequisite = { focus = KAE_Improve_the_rail_connection }
 		x = 2
 		y = 3
@@ -629,6 +642,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_mobilise_the_east
+		icon = KAE_GFX_New_Enterprise
 		prerequisite = { focus = KAE_suatoa_battle_plans }
 		x = 0
 		y = 1
@@ -649,6 +663,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_early_fortifications
+		icon = KAE_GFX_Ootarii_Fortifications
 		prerequisite = { focus = KAE_mobilise_the_east }
 		x = -1
 		y = 2
@@ -737,6 +752,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_cannon_supplies
+		icon = KAE_GFX_Local_Expertise
 		#prerequisite = { focus = KAE_Improve_the_rail_connection }
 		prerequisite = { focus = KAE_mobilise_the_east }
 		x = 1
@@ -761,6 +777,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_commission_officers
+		icon = KAE_GFX_Special_Infantry
 		prerequisite = { focus = KAE_early_fortifications focus = KAE_cannon_supplies }
 		x = 0
 		y = 3
@@ -785,6 +802,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_fortify_our_north
+		icon = KAE_GFX_Ootarii_Fortifications
 		prerequisite = { focus = KAE_pirate_tax }
 		prerequisite = { focus = KAE_pacification_experience }
 		x = -3
@@ -954,6 +972,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_to_war
+		icon = KAE_GFX_To_War
 		prerequisite = { focus = KAE_fortify_our_north }
 		x = 0
 		y = 1
@@ -1007,6 +1026,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_mercenary_ootari_bonus
+		icon = KAE_GFX_Merc_Divisions
 		prerequisite = { focus = KAE_to_war }
 		mutually_exclusive = { focus = KAE_conscript_ootari_bonus }
 		x = -1
@@ -1045,6 +1065,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_conscript_ootari_bonus
+		icon = KAE_GFX_Asterian_Conscription
 		prerequisite = { focus = KAE_to_war }
 		mutually_exclusive = { focus = KAE_mercenary_ootari_bonus }
 		x = 1
@@ -1082,6 +1103,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_esun_pone_airskirms
+		icon = KAE_GFX_Pegasus_Brigade
 		prerequisite = { focus = KAE_to_war }
 		prerequisite = { focus = KAE_conscript_ootari_bonus }
 		x = 2
@@ -1112,6 +1134,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_ootari_merc_recruitment
+		icon = KAE_GFX_Contract_Army
 		prerequisite = { focus = KAE_to_war }
 		prerequisite = { focus = KAE_mercenary_ootari_bonus }
 		x = -2
@@ -2729,6 +2752,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_fixing_commandstructures
+		icon = KAE_GFX_Duty_Calls
 		prerequisite = { focus = KAE_Claims_Vote }
 		x = -10
 		y = 6
@@ -2753,6 +2777,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_hired_guns
+		icon = KAE_GFX_Merc_Divisions
 		prerequisite = { focus = KAE_fixing_commandstructures }
 		x = 1
 		y = 1
@@ -2777,6 +2802,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_merc_officers
+		icon = KAE_GFX_Contract_Army
 		prerequisite = { focus = KAE_hired_guns }
 		x = 2
 		y = 2
@@ -2818,6 +2844,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_conscripts
+		icon = KAE_GFX_City_Militia
 		prerequisite = { focus = KAE_hired_guns }
 		x = 0
 		y = 2
@@ -2845,6 +2872,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_hired_airskirmishers
+		icon = KAE_GFX_Hire_Sky_Warriors
 		prerequisite = { focus = KAE_conscripts focus = KAE_merc_officers }
 		x = 1
 		y = 3
@@ -2873,6 +2901,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_light_the_war_economy
+		icon = KAE_GFX_New_Enterprise
 		prerequisite = { focus = KAE_fixing_commandstructures }
 		x = -1
 		y = 1
@@ -2930,6 +2959,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_weapon_supplies
+		icon = KAE_GFX_Purchase_Weapons
 		prerequisite = { focus = KAE_light_the_war_economy }
 		x = -1
 		y = 3
