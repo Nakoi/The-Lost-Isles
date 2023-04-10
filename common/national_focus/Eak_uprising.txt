@@ -310,11 +310,12 @@ focus_tree = {
 		}
 		
 		available = {
-			always = no
+			NOT = { country_exists = KAE }
+			owns_state = 136
 		}
 		
 		completion_reward = {
-			
+			country_event = { id = eak_event.1 days = 4 }
 		}
 	}
 
@@ -326,7 +327,7 @@ focus_tree = {
 		x = 0
 		y = 6
 		relative_position_id = EAK_uprising
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -336,6 +337,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_political_power = 50
 		}
 	}
 
@@ -353,10 +355,11 @@ focus_tree = {
 		}
 		
 		available = {
-			always = no
+			
 		}
 		
 		completion_reward = {
+			add_ideas = EAK_revenge
 		}
 	}
 
@@ -375,10 +378,29 @@ focus_tree = {
 		}
 		
 		available = {
-			always = no
+			
 		}
 		
 		completion_reward = {
+			add_ideas = EAK_economic_relief
+			IF = {
+				limit = {
+					has_idea = EAK_populist_movement_idea_01
+				}
+				swap_ideas = {
+					add_idea = EAK_military_government
+					remove_idea = EAK_populist_movement_idea_01
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = EAK_populist_movement_idea_02
+				}
+				swap_ideas = {
+					add_idea = EAK_military_government
+					remove_idea = EAK_populist_movement_idea_02
+				}
+			}
 		}
 	}
 
@@ -396,7 +418,7 @@ focus_tree = {
 		}
 		
 		available = {
-			always = no
+			
 		}
 		
 		completion_reward = {
@@ -1362,6 +1384,10 @@ focus_tree = {
 				uses = 2
 				category =	artillery_antiair
 			}
+			swap_ideas = {
+				remove_idea = EAK_no_airskirms_idea
+				add_idea = EAK_some_airskirms_idea
+			}
 		}
 	}
 	
@@ -2004,6 +2030,10 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				category = category_air_skirmisher
+			}
+			swap_ideas = {
+				remove_idea = EAK_no_airskirms_idea
+				add_idea = EAK_more_airskirms_idea
 			}
 		}
 	}
