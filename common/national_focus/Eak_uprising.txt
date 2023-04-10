@@ -589,6 +589,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_Greater_economy
+		icon = EAK_GFX_Economic_Reform
 		x = 24
 		y = 0
 		cost = 10
@@ -651,6 +652,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_Living_conditions
+		icon = EAK_GFX_Streets_To_Fields
 		prerequisite = { focus = EAK_Greater_economy }
 		x = -2
 		y = 1
@@ -708,6 +710,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_Infrastructure_improvements
+		icon = EAK_GFX_Cobblestone_Roads
 		prerequisite = { focus = EAK_Greater_economy }
 		x = 0
 		y = 1
@@ -785,6 +788,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_put_the_people_to_work
+		icon = EAK_GFX_New_Enterprise
 		prerequisite = { focus = EAK_Living_conditions }
 		x = -3
 		y = 2
@@ -839,6 +843,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_Farm_fields
+		icon = EAK_GFX_mechanised_Agriculture
 		prerequisite = { focus = EAK_Living_conditions }
 		x = -1
 		y = 2
@@ -870,6 +875,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_new_tools
+		icon = EAK_GFX_New_Tools
 		prerequisite = { focus = EAK_new_machine_blueprints }
 		x = 1
 		y = 2
@@ -889,6 +895,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_Mega_factories
+		icon = EAK_GFX_New_Enterprise
 		prerequisite = { focus = EAK_new_machine_blueprints }
 		x = 3
 		y = 2
@@ -951,6 +958,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_Mining
+		icon = EAK_GFX_New_Mines
 		prerequisite = { focus = EAK_Mega_factories }
 		x = 4
 		y = 3
@@ -1051,6 +1059,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_engineering_schools
+		icon = EAK_GFX_Engineering_Schools
 		prerequisite = { focus = EAK_Mega_factories }
 		prerequisite = { focus = EAK_new_tools }
 		x = 0
@@ -1071,6 +1080,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_kirin_fire_magic_as_coals
+		icon = EAK_GFX_Fire_Coals
 		prerequisite = { focus = EAK_Mega_factories }
 		prerequisite = { focus = EAK_new_tools }
 		x = 2
@@ -1096,6 +1106,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_weapon_science
+		icon = EAK_GFX_Arms_Dealers
 		prerequisite = { focus = EAK_engineering_schools }
 		prerequisite = { focus = EAK_kirin_fire_magic_as_coals }
 		x = 1
@@ -1269,6 +1280,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_mining_force
+		icon = EAK_GFX_Mine_Mechanization
 		prerequisite = { focus = EAK_iron_mines_02 }
 		prerequisite = { focus = EAK_coal_mines_02 }
 		x = 4
