@@ -11,7 +11,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.25
 				consumer_goods_factor = 0.35
-				min_export = 1
+				min_export = -1
 			}
 		}
 		
@@ -25,7 +25,6 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				consumer_goods_factor = 0.05
-				min_export = 0.15
 			}
 		}
 		
@@ -687,6 +686,63 @@ ideas = {
 			}
 		}
 		
+		EAK_no_airskirms_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				air_skirmisher_equipment = {
+					build_cost_ic = 100
+					instant = yes
+				}
+				air_striker_equipment = {
+					build_cost_ic = 100
+					instant = yes
+				}
+			}
+		}
+		
+		EAK_some_airskirms_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				air_skirmisher_equipment = {
+					build_cost_ic = 0.75
+					instant = yes
+				}
+				air_striker_equipment = {
+					build_cost_ic = 0.75
+					instant = yes
+				}
+			}
+		}
+		
+		EAK_more_airskirms_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+			
+			equipment_bonus = {
+				air_skirmisher_equipment = {
+					build_cost_ic = 0.5
+					instant = yes
+				}
+				air_striker_equipment = {
+					build_cost_ic = 0.5
+					instant = yes
+				}
+			}
+		}
+		
 		EAK_fucked_arms_workshops_01 = {
 			picture = great_depression
 			removal_cost = -1
@@ -795,7 +851,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = KAE
+				always = yes
 			}
 				
 			modifier = {
@@ -807,7 +863,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = KAE
+				always = yes
 			}
 				
 			modifier = {
@@ -821,13 +877,74 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = KAE
+				always = yes
 			}
 				
 			modifier = {
 				conscription_factor = 0.6
 				army_attack_factor = -0.1
 				army_defence_factor = 0.1
+			}
+		}
+		
+		EAK_military_government = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = -0.2
+				army_attack_factor = -0.25
+				army_core_attack_factor = 0.25
+				army_defence_factor = 0.15
+				army_core_defence_factor = 0.15
+			}
+		}
+		
+		EAK_gulfcucking_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.4
+				min_export = -1
+			}
+		}
+		
+		EAK_economic_relief = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_weekly = -0.001
+				consumer_goods_factor = -0.1
+				local_resources_factor = 0.15
+				production_speed_buildings_factor = 0.2
+			}
+		}
+		
+		EAK_revenge = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+			
+			modifier = {
+				war_support_factor = 0.15
+			}
+			
+			targeted_modifier = {
+				tag = CIL
+				attack_bonus_against = 0.2
 			}
 		}
 	}
