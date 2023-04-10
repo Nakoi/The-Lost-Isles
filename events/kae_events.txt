@@ -1,5 +1,7 @@
 add_namespace = kae_startevent
 add_namespace = kae_militiacrisis
+add_namespace = eak_event
+
 ###EARLYGAME###
 
 country_event = {
@@ -551,5 +553,20 @@ country_event = {
 				add_idea = recruit_irregular_army
 			}
 		}
+	}
+}
+
+country_event = {
+	id = eak_event.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event eak_event.1"}
+	title = eak_event.1.t
+	desc = eak_event.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = eak_event.1.a
+		complete_national_focus = EAK_P1
 	}
 }
