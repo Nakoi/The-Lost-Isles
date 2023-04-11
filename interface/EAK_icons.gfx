@@ -428,6 +428,782 @@ spriteTypes = {
 
 
 
+    
+    SpriteType = { 
+        name = "EAK_GFX_Infantry_Armor_Improvements"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Infantry_Armor_Improvements.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Infantry_Armor_Improvements_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Infantry_Armor_Improvements.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Infantry_Armor_Improvements.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Infantry_Armor_Improvements.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Infantry_special"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Infantry_special.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Infantry_special_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Infantry_special.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Infantry_special.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Infantry_special.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Rifle_Improvements"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Rifle_Improvements.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Rifle_Improvements_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Rifle_Improvements.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Rifle_Improvements.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Rifle_Improvements.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Army_Drills"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Army_Drills.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Army_Drills_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Army_Drills.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Army_Drills.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Army_Drills.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Rocket_Upgrades"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Rocket_Upgrades.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Rocket_Upgrades_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Rocket_Upgrades.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Rocket_Upgrades.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Rocket_Upgrades.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Anti_Air_Upgrades"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Anti_Air_Upgrades.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Anti_Air_Upgrades_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Anti_Air_Upgrades.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Anti_Air_Upgrades.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Anti_Air_Upgrades.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Cannon_Improvements"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Cannon_Improvements.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Cannon_Improvements_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Cannon_Improvements.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Cannon_Improvements.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Cannon_Improvements.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Arty_Drills"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Arty_Drills.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Arty_Drills_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Arty_Drills.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Arty_Drills.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Arty_Drills.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Our_Guns"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Our_Guns.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Our_Guns_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Our_Guns.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Our_Guns.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Our_Guns.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Coal_Mines"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Coal_Mines.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Coal_Mines_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Coal_Mines.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Coal_Mines.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Coal_Mines.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Iron_Mines"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Iron_Mines.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Iron_Mines_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Iron_Mines.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Iron_Mines.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Iron_Mines.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Air_Skirmisher_Imrpovements"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Air_Skirmisher_Imrpovements.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Air_Skirmisher_Imrpovements_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Air_Skirmisher_Imrpovements.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Air_Skirmisher_Imrpovements.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Air_Skirmisher_Imrpovements.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Air_Jobs"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Air_Jobs.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Air_Jobs_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Air_Jobs.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Air_Jobs.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Air_Jobs.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Airship_Doctrine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Airship_Doctrine.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Airship_Doctrine_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Airship_Doctrine.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Airship_Doctrine.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Airship_Doctrine.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Airship_Design"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Airship_Design.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Airship_Design_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Airship_Design.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Airship_Design.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Airship_Design.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Air_Drills"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Air_Drills.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Air_Drills_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Air_Drills.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Air_Drills.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Air_Drills.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Sappers"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Sappers.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Sappers_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Sappers.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Sappers.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Sappers.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Improve"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Improve.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Improve_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Improve.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Improve.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Improve.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Old_Ways"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Old_Ways.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Old_Ways_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Old_Ways.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Old_Ways.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Old_Ways.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+    
+    SpriteType = { 
+        name = "EAK_GFX_Traditions"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Traditions.dds"
+    }
+    
+    SpriteType = { 
+        name = "EAK_GFX_Traditions_shine"
+        texturefile = "gfx/interface/goals/EAK/EAK_GFX_Traditions.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Traditions.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/EAK/EAK_GFX_Traditions.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+
+
 
 
 

@@ -1422,6 +1422,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_service_posters
+		icon = EAK_GFX_Traditions
 		prerequisite = { focus = EAK_duty_calls }
 		x = 0
 		y = 1
@@ -1490,6 +1491,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_army_engineers
+		icon = EAK_GFX_Sappers
 		prerequisite = { focus = EAK_army_attack_plans }
 		x = 2
 		y = 3
@@ -1509,6 +1511,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_army_defence_plans
+		icon = EAK_GFX_Old_Ways
 		prerequisite = { focus = EAK_service_posters }
 		mutually_exclusive = { focus = EAK_army_attack_plans }
 		x = -1
@@ -1562,6 +1565,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_army_attack_plans
+		icon = EAK_GFX_Improve
 		prerequisite = { focus = EAK_service_posters }
 		mutually_exclusive = { focus = EAK_army_defence_plans }
 		x = 1
@@ -2048,6 +2052,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_airship_drills	
+		icon = EAK_GFX_Air_Drills
 		prerequisite = { focus = EAK_duty_calls focus = EAK_merc_calls }
 		x = -5
 		y = 1
@@ -2063,6 +2068,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_air_ship_upgrade_01
+		icon = EAK_GFX_Airship_Design
 		prerequisite = { focus = EAK_airship_drills }	
 		x = -1
 		y = 2
@@ -2082,6 +2088,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_air_ship_upgrade_02
+		icon = EAK_GFX_Airship_Doctrine
 		prerequisite = { focus = EAK_airship_drills }	
 		x = 1
 		y = 2
@@ -2101,6 +2108,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_airskirmisher_uprade_01
+		icon = EAK_GFX_Air_Jobs
 		prerequisite = { focus = EAK_airship_drills }
 		mutually_exclusive = { focus = EAK_anti_air_improvements_01 }
 		mutually_exclusive = { focus = EAK_do_it_all }
@@ -2126,6 +2134,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_airskirmisher_uprade_02
+		icon = EAK_GFX_Air_Skirmisher_Imrpovements
 		prerequisite = { focus = EAK_airskirmisher_uprade_01 }
 		x = 0
 		y = 3
