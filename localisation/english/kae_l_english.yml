@@ -281,8 +281,11 @@
  EAK_2_desc:0 ""
  EAK_3:0 "Weather the Storm..."
  EAK_3_desc:0 ""
- EAK_4:0 "Our Destiny Fulfilled"
+ EAK_4:0 "The Era of Progress"
  EAK_4_desc:0 ""
+ 
+ EAK_Finding_A_Way_Out:0 "Breaking Out of the Gulf"
+ EAK_Finding_A_Way_Out_desc:0 ""
  
  
 ###FOCUS LOCALISATION - UPRISING INDUSTRY TREE###
@@ -462,6 +465,15 @@
  EAK_military_government:0 "Military Government"
  
  EAK_gulfcucking_01:0 "Cut Off from the Open Seas"
+ EAK_gulfcucking_02:0 "Cut Off from the Open Seas"
+ EAK_gulfcucking_03:0 "Cut Off from the Open Seas"
+ EAK_gulfcucking_04:0 "Cut Off from the Open Seas"
+ EAK_gulfcucking_05:0 "Fighting Our Way Out"
+ EAK_gulfcucking_06:0 "Fighting Our Way Out"
+ EAK_gulfcucking_07:0 "Fighting Our Way Out"
+ EAK_gulfcucking_08:0 "Fighting Our Way Out"
+ EAK_gulfcucking_09:0 "Fighting Our Way Out"
+ 
  EAK_economic_relief:0 "Post-War Economic Crisis Relief"
  EAK_revenge:0 "Desire for Revenge"
 
@@ -503,6 +515,16 @@
  EAK_rebuild_arms_workshops_2:0 "Complete Military Industry Reconstruction Efforts"
  EAK_rebuild_civ_workshops_1:0 "Aid Infrastructure Reconstruction Efforts"
  EAK_rebuild_civ_workshops_2:0 "Complete Infrastructure Reconstruction Efforts"
+ 
+ decisioncat_eak_breakout:0 "Breaking Out of the Gulf"
+ EAK_breakout_decision_0102:0 "Reinforce the Special Escort Fleet"
+ EAK_breakout_decision_0203:0 "Reinforce the Special Escort Fleet"
+ EAK_breakout_decision_0304:0 "Reinforce the Special Escort Fleet"
+ EAK_breakout_decision_0405:0 "Reinforce the Special Escort Fleet"
+ EAK_breakout_decision_0506:0 "Reinforce the Special Escort Fleet"
+ EAK_breakout_decision_0607:0 "Reinforce the Special Escort Fleet"
+ EAK_breakout_decision_0708:0 "Reinforce the Special Escort Fleet"
+ EAK_breakout_decision_0809:0 "Reinforce the Special Escort Fleet"
  
 ###EVENT LOCALISATION ###
  kae_startevent.0.t:0 "The Cilarine Gulf Negotiations"
