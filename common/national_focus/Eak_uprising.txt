@@ -349,7 +349,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = EAK_P1
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -372,7 +372,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = EAK_P1
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -412,16 +412,87 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = EAK_P1
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			
+			OR = {
+				has_idea = EAK_gulfcucking_05
+				NOT = {
+					has_idea = EAK_gulfcucking_01
+					has_idea = EAK_gulfcucking_05
+				}
+			}
+			hidden_trigger = {
+				OR = {
+					has_idea = EAK_gulfcucking_05
+					has_idea = EAK_gulfcucking_06
+					has_idea = EAK_gulfcucking_07
+					has_idea = EAK_gulfcucking_08
+					has_idea = EAK_gulfcucking_09
+					NOT = {
+						has_idea = EAK_gulfcucking_01
+						has_idea = EAK_gulfcucking_02
+						has_idea = EAK_gulfcucking_03
+						has_idea = EAK_gulfcucking_04
+						has_idea = EAK_gulfcucking_05
+						has_idea = EAK_gulfcucking_06
+						has_idea = EAK_gulfcucking_07
+						has_idea = EAK_gulfcucking_08
+						has_idea = EAK_gulfcucking_09
+					}
+				}
+			}
 		}
 		
 		completion_reward = {
+			IF = {
+				limit = {
+					has_idea = policy_collective
+				}
+				swap_ideas = {
+					remove_idea = policy_collective
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_mercantilism
+				}
+				swap_ideas = {
+					remove_idea = policy_mercantilism
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_feudalism
+				}
+				swap_ideas = {
+					remove_idea = policy_feudalism
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_oligopoly
+				}
+				swap_ideas = {
+					remove_idea = policy_oligopoly
+					add_idea = policy_capitalist
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_laissez_faire
+				}
+				swap_ideas = {
+					remove_idea = policy_laissez_faire
+					add_idea = policy_capitalist
+				}
+			}
 		}
 	}
 
@@ -536,16 +607,17 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = EAK_3
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			always = no
+			
 		}
 		
 		completion_reward = {
+			unlock_decision_category_tooltip = decisioncat_eak_breakout
 		}
 	}
 
