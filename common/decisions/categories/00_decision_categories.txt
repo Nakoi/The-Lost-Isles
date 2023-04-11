@@ -252,6 +252,28 @@ decisioncat_eak_civilwarcat = {
 	}
 }
 
+decisioncat_eak_breakout = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = EAK
+	}
+
+	visible = {
+		OR = {
+			has_idea = EAK_gulfcucking_01
+			has_idea = EAK_gulfcucking_02
+			has_idea = EAK_gulfcucking_03
+			has_idea = EAK_gulfcucking_04
+			has_idea = EAK_gulfcucking_05
+			has_idea = EAK_gulfcucking_06
+			has_idea = EAK_gulfcucking_07
+			has_idea = EAK_gulfcucking_08
+			has_idea = EAK_gulfcucking_09
+		}
+	}
+}
+
 decisioncat_esu_integration = {
 	icon = generic_political_actions
 	
