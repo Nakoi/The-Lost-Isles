@@ -1176,3 +1176,387 @@ decisioncat_eak_civilwarcat = {
 		}
 	}
 }
+
+decisioncat_eak_breakout = {
+	
+	EAK_breakout_decision_0102 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_navy_size = {
+				size > 4
+				archetype = ship_hull_cruiser
+			}
+			has_navy_size = {
+				size > 9
+				archetype = galley_hull
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			has_idea = EAK_gulfcucking_01
+			tag = EAK
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = EAK_gulfcucking_01
+				add_idea = EAK_gulfcucking_02
+			}
+		}
+	}
+	
+	EAK_breakout_decision_0203 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_navy_size = {
+				size > 9
+				archetype = ship_hull_cruiser
+			}
+			has_navy_size = {
+				size > 14
+				archetype = galley_hull
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			has_idea = EAK_gulfcucking_02
+			tag = EAK
+		}
+		
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = EAK_gulfcucking_02
+				add_idea = EAK_gulfcucking_03
+			}
+		}
+	}
+	
+	EAK_breakout_decision_0304 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_navy_size = {
+				size > 14
+				archetype = ship_hull_cruiser
+			}
+			has_navy_size = {
+				size > 19
+				archetype = galley_hull
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			has_idea = EAK_gulfcucking_03
+			tag = EAK
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = EAK_gulfcucking_03
+				add_idea = EAK_gulfcucking_04
+			}
+		}
+	}
+	
+	EAK_breakout_decision_0405 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_navy_size = {
+				size > 2
+				archetype = ship_hull_heavy
+			}
+			has_navy_size = {
+				size > 14
+				archetype = ship_hull_cruiser
+			}
+			has_navy_size = {
+				size > 19
+				archetype = galley_hull
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			has_idea = EAK_gulfcucking_04
+			tag = EAK
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = EAK_gulfcucking_04
+				add_idea = EAK_gulfcucking_05
+			}
+		}
+	}
+	
+	EAK_breakout_decision_0506 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_navy_size = {
+				size > 2
+				archetype = ship_hull_heavy
+			}
+			has_navy_size = {
+				size > 17
+				archetype = ship_hull_cruiser
+			}
+			has_navy_size = {
+				size > 23
+				archetype = galley_hull
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			has_idea = EAK_gulfcucking_05
+			tag = EAK
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = EAK_gulfcucking_05
+				add_idea = EAK_gulfcucking_06
+			}
+		}
+	}
+	
+	EAK_breakout_decision_0607 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_navy_size = {
+				size > 2
+				archetype = ship_hull_heavy
+			}
+			has_navy_size = {
+				size > 19
+				archetype = ship_hull_cruiser
+			}
+			has_navy_size = {
+				size > 24
+				archetype = galley_hull
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			has_idea = EAK_gulfcucking_06
+			tag = EAK
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = EAK_gulfcucking_06
+				add_idea = EAK_gulfcucking_07
+			}
+		}
+	}
+	
+	EAK_breakout_decision_0708 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_navy_size = {
+				size > 4
+				archetype = ship_hull_heavy
+			}
+			has_navy_size = {
+				size > 24
+				archetype = ship_hull_cruiser
+			}
+			has_navy_size = {
+				size > 29
+				archetype = galley_hull
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			has_idea = EAK_gulfcucking_07
+			tag = EAK
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = EAK_gulfcucking_07
+				add_idea = EAK_gulfcucking_08
+			}
+		}
+	}
+	
+	EAK_breakout_decision_0809 = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+
+		available = {
+			has_navy_size = {
+				size > 5
+				archetype = ship_hull_heavy
+			}
+			has_navy_size = {
+				size > 25
+				archetype = ship_hull_cruiser
+			}
+			has_navy_size = {
+				size > 31
+				archetype = galley_hull
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 30
+
+		visible = {
+			has_idea = EAK_gulfcucking_08
+			tag = EAK
+		}
+		
+		modifier = {
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = EAK_gulfcucking_08
+				add_idea = EAK_gulfcucking_09
+			}
+		}
+	}
+}
