@@ -916,6 +916,110 @@ ideas = {
 			}
 		}
 		
+		EAK_gulfcucking_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.36
+				min_export = -0.7
+			}
+		}
+		
+		EAK_gulfcucking_03 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.32
+				min_export = -0.7
+			}
+		}
+		
+		EAK_gulfcucking_04 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.28
+				min_export = -0.7
+			}
+		}
+		
+		EAK_gulfcucking_05 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.24
+				min_export = -0.4
+			}
+		}
+		
+		EAK_gulfcucking_06 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.20
+				min_export = -0.4
+			}
+		}
+		
+		EAK_gulfcucking_07 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.16
+				min_export = -0.4
+			}
+		}
+		
+		EAK_gulfcucking_08 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.12
+				min_export = -0.1
+			}
+		}
+		
+		EAK_gulfcucking_09 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = CIL
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.08
+				min_export = -0.1
+			}
+		}
+		
 		EAK_economic_relief = {
 			picture = great_depression
 			removal_cost = -1
