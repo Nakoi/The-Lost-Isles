@@ -785,6 +785,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_new_machine_blueprints
+		icon = EAK_GFX_Invention_Comitee
 		prerequisite = { focus = EAK_Greater_economy }
 		x = 2
 		y = 1
@@ -1068,6 +1069,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_improve_living_standard
+		icon = EAK_GFX_Industralisation_Done_Right
 		prerequisite = { focus = EAK_put_the_people_to_work }
 		prerequisite = { focus = EAK_Farm_fields }
 		x = -2
@@ -1260,6 +1262,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_workshop_of_ootari
+		icon = EAK_GFX_BreadBasket
 		prerequisite = { focus = EAK_industrial_powerhouse }
 		prerequisite = { focus = EAK_weapon_science }
 		prerequisite = { focus = EAK_improve_living_standard }
@@ -1628,6 +1631,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_proud_of_our_nation
+		icon = EAK_GFX_Our_Pride
 		prerequisite = { focus = EAK_service_posters }
 		prerequisite = { focus = EAK_army_attack_plans focus = EAK_army_defence_plans }
 		x = 0
@@ -1879,6 +1883,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_navy_drills
+		icon = EAK_GFX_Navy_Drills
 		prerequisite = { focus = EAK_duty_calls }	
 		x = -10
 		y = 4
@@ -1894,6 +1899,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_navy_doctrines
+		icon = EAK_GFX_Naval_Doctrine
 		prerequisite = { focus = EAK_navy_drills }	
 		x = 0
 		y = 1
@@ -1913,6 +1919,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_light_ships_01
+		icon = EAK_GFX_New_LightShips
 		prerequisite = { focus = EAK_navy_drills }	
 		x = -2
 		y = 1
@@ -1932,6 +1939,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_medium_ships_01
+		icon = EAK_GFX_New_LightShips
 		prerequisite = { focus = EAK_navy_drills }	
 		x = 2
 		y = 1
@@ -1951,6 +1959,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_blue_water_doctrine
+		icon = EAK_GFX_BlueWater
 		prerequisite = { focus = EAK_navy_doctrines }
 		mutually_exclusive = { focus = EAK_brown_water_doctrine }
 		x = 1
@@ -1971,6 +1980,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_brown_water_doctrine
+		icon = EAK_GFX_BrownWater
 		prerequisite = { focus = EAK_navy_doctrines }
 		mutually_exclusive = { focus = EAK_blue_water_doctrine }
 		x = -1
@@ -1991,6 +2001,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_medium_ships_02
+		icon = EAK_GFX_Medium_Ironclads
 		prerequisite = { focus = EAK_medium_ships_01 }
 		mutually_exclusive = { focus =  EAK_light_ships_02 }
 		x = 2
@@ -2011,6 +2022,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_light_ships_02
+		icon = EAK_GFX_Steam_Frigate
 		prerequisite = { focus = EAK_light_ships_01 }
 		mutually_exclusive = { focus =  EAK_medium_ships_02 }
 		x = -2
@@ -2032,6 +2044,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_heavy_ships_01
+		icon = EAK_GFX_New_Heavy_Ships
 		prerequisite = { focus = EAK_light_ships_02 focus = EAK_medium_ships_02 }	
 		prerequisite = { focus = EAK_brown_water_doctrine focus = EAK_blue_water_doctrine }	
 		x = 0
