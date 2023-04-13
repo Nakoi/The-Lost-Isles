@@ -570,3 +570,188 @@ country_event = {
 		complete_national_focus = EAK_P1
 	}
 }
+
+country_event = {
+	id = eak_event.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event eak_event.2"}
+	title = eak_event.2.t
+	desc = eak_event.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = eak_event.2.a
+		EAK = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = tlirelations_generic_small_opinion_increase
+			}
+		}
+		ROOT = {
+			add_opinion_modifier = {
+				target = EAK
+				modifier = tlirelations_generic_small_opinion_increase
+			}
+			add_ideas = KAE_griffon_trade_idea
+		}
+		IF = {
+			limit = {
+				ROOT = {
+					tag = VED
+				}
+			}
+			KAE = { country_event = { id = eak_event.3 } }
+		}
+		IF = {
+			limit = {
+				ROOT = {
+					tag = BOR
+				}
+			}
+			KAE = { country_event = { id = eak_event.4 } }
+		}
+		IF = {
+			limit = {
+				ROOT = {
+					tag = CRU
+				}
+			}
+			KAE = { country_event = { id = eak_event.5 } }
+		}
+		IF = {
+			limit = {
+				ROOT = {
+					tag = SUN
+				}
+			}
+			KAE = { country_event = { id = eak_event.6 } }
+		}
+		IF = {
+			limit = {
+				ROOT = {
+					tag = LUA
+				}
+			}
+			KAE = { country_event = { id = eak_event.7 } }
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = EAK
+					value > 89
+				}	
+			}
+			modifier = {
+				add = 25
+				has_opinion = {
+					target = EAK
+					value > 24
+				}
+			}	
+		}
+	}
+	
+	option = {
+		name = eak_event.2.b
+		EAK = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = tlirelations_generic_small_opinion_decrease
+			}
+		}
+		ROOT = {
+			add_opinion_modifier = {
+				target = EAK
+				modifier = tlirelations_generic_small_opinion_decrease
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = EAK
+					value < -15
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	id = eak_event.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event eak_event.3"}
+	title = eak_event.3.t
+	desc = eak_event.3.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = eak_event.3.a
+		add_offsite_building = { type = industrial_complex level = 2 }
+	}
+}
+
+country_event = {
+	id = eak_event.4
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event eak_event.4"}
+	title = eak_event.4.t
+	desc = eak_event.4.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = eak_event.4.a
+		add_offsite_building = { type = industrial_complex level = 2 }
+	}
+}
+
+country_event = {
+	id = eak_event.5
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event eak_event.5"}
+	title = eak_event.5.t
+	desc = eak_event.5.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = eak_event.5.a
+		add_offsite_building = { type = industrial_complex level = 2 }
+	}
+}
+
+country_event = {
+	id = eak_event.6
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event eak_event.6"}
+	title = eak_event.6.t
+	desc = eak_event.6.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = eak_event.6.a
+		add_offsite_building = { type = industrial_complex level = 2 }
+	}
+}
+
+country_event = {
+	id = eak_event.7
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event eak_event.7"}
+	title = eak_event.7.t
+	desc = eak_event.7.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = eak_event.7.a
+		add_offsite_building = { type = industrial_complex level = 2 }
+	}
+}
