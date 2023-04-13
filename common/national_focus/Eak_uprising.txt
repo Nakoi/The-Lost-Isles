@@ -1539,6 +1539,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_do_it_all
+		icon = EAK_GFX_Open_Minded_Army
 		prerequisite = { focus = EAK_service_posters }
 		prerequisite = { focus = EAK_airship_drills }
 		mutually_exclusive = { focus = EAK_airskirmisher_uprade_01 }
@@ -1569,6 +1570,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_tricks_of_our_own
+		icon = EAK_GFX_Some_Tricks_Of_Our_Own
 		prerequisite = { focus = EAK_do_it_all focus = EAK_army_defence_plans }
 		x = -2
 		y = 3
@@ -1745,6 +1747,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_Army_doctrine
+		icon = EAK_GFX_Army_Doctrine
 		prerequisite = { focus = EAK_proud_of_our_nation }	
 		x = 0
 		y = 4
