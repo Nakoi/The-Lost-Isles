@@ -18,6 +18,14 @@ opinion_modifiers = {
 		value = -50
 	}
 	
+	tlirelations_generic_small_opinion_increase = {
+		value = 25
+	}
+	
+	tlirelations_generic_small_opinion_decrease = {
+		value = -25
+	}
+	
 	tlirelations_generic_huge_opinion_decrease = {
 		value = -100
 	}
