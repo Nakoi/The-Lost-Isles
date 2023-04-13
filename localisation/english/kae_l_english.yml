@@ -286,7 +286,12 @@
  
  EAK_Finding_A_Way_Out:0 "Breaking Out of the Gulf"
  EAK_Finding_A_Way_Out_desc:0 ""
- 
+ EAK_armed_traders:0 "Arm our Merchant Ships"
+ EAK_armed_traders_desc:0 ""
+ EAK_griffon_trade:0 "Relations with the Luanan States"
+ EAK_griffon_trade_desc:0 ""
+ EAK_Trade_Decisions:0 "Proclaim Victory Over the Corsairs"
+ EAK_Trade_Decisions_desc:0 ""
  
 ###FOCUS LOCALISATION - UPRISING INDUSTRY TREE###
  EAK_Greater_economy:0 "Economic Reform"
@@ -472,10 +477,13 @@
  EAK_gulfcucking_06:0 "Fighting Our Way Out"
  EAK_gulfcucking_07:0 "Fighting Our Way Out"
  EAK_gulfcucking_08:0 "Fighting Our Way Out"
- EAK_gulfcucking_09:0 "Fighting Our Way Out"
+ EAK_gulfcucking_09:0 "Untouchable Merchants"
+ EAK_gulfcucking_10:0 "Victory in the Crimson Corsair War"
  
  EAK_economic_relief:0 "Post-War Economic Crisis Relief"
  EAK_revenge:0 "Desire for Revenge"
+ KAE_armed_traders_idea:0 "Armed Merchant Ships"
+ KAE_griffon_trade_idea:0 "Trading with Kae"
 
 ###DECISION LOCALISATION###
  decisioncat_kae_starting_cilarine_trade:0 "The Negotiations of 957"
@@ -580,5 +588,34 @@
  kae_militiacrisis.5.t:0 "No Kirin to Command"
  kae_militiacrisis.5.d:0 "After mass defections of our militia in the first days of the rebellion, the generals that were supposed to lead their soldiers into battle found themselves without anykirin to give orders to! Our militia army now only exists on paper, with only the mercenaries remaining loyal, obviously due to the veterans' clear lack of coin to pay them off. As a result, we will need to radically reform our military in the future, relying more on mercenaries rather than severly underpaid volunteer militia."
  kae_militiacrisis.5.a:0 "This will hurt our coffers. A lot."
+ 
+ eak_event.1.t:0 "Woe to the Wanquished"
+ eak_event.1.d:0 "get fucked lmao"
+ eak_event.1.a:0 "ez"
+ 
+ eak_event.2.t:0 "Envoy from the Kae Republic"
+ eak_event.2.d:0 "wanna buy some manhwa? :))))"
+ eak_event.2.a:0 "yea !!!! :D"
+ eak_event.2.b:0 "no"
+ 
+ eak_event.3.t:0 "Our Offer Was Accepted!"
+ eak_event.3.d:0 "Vederoa has accepted our offer. idk what else to say lmao."
+ eak_event.3.a:0 "yippi!!!!!"
+ 
+ eak_event.4.t:0 "Our Offer Was Accepted!"
+ eak_event.4.d:0 "The Borean State has accepted our offer. idk what else to say lmao."
+ eak_event.4.a:0 "yippi!!!!!"
+ 
+ eak_event.5.t:0 "Our Offer Was Accepted!"
+ eak_event.5.d:0 "Cruaze has accepted our offer. idk what else to say lmao."
+ eak_event.5.a:0 "yippi!!!!!"
+ 
+ eak_event.6.t:0 "Our Offer Was Accepted!"
+ eak_event.6.d:0 "Sunoatia has accepted our offer. idk what else to say lmao."
+ eak_event.6.a:0 "yippi!!!!!"
+ 
+ eak_event.7.t:0 "Our Offer Was Accepted!"
+ eak_event.7.d:0 "Luana has accepted our offer. idk what else to say lmao."
+ eak_event.7.a:0 "yippi!!!!!"
  
 ###TOOLTIP LOCALISATION###
