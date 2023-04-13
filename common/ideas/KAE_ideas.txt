@@ -907,7 +907,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = CIL
+				always = yes
 			}
 				
 			modifier = {
@@ -920,7 +920,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = CIL
+				always = yes
 			}
 				
 			modifier = {
@@ -933,7 +933,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = CIL
+				always = yes
 			}
 				
 			modifier = {
@@ -946,7 +946,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = CIL
+				always = yes
 			}
 				
 			modifier = {
@@ -959,7 +959,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = CIL
+				always = yes
 			}
 				
 			modifier = {
@@ -972,7 +972,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = CIL
+				always = yes
 			}
 				
 			modifier = {
@@ -985,7 +985,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = CIL
+				always = yes
 			}
 				
 			modifier = {
@@ -998,7 +998,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = CIL
+				always = yes
 			}
 				
 			modifier = {
@@ -1011,12 +1011,27 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = CIL
+				always = yes
 			}
 				
 			modifier = {
 				consumer_goods_factor = 0.08
 				min_export = -0.1
+			}
+		}
+		
+		EAK_gulfcucking_10 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.15
+				consumer_goods_factor = -0.05
+				navy_org_factor = 0.1
 			}
 		}
 		
@@ -1049,6 +1064,37 @@ ideas = {
 			targeted_modifier = {
 				tag = CIL
 				attack_bonus_against = 0.2
+			}
+		}
+		
+		KAE_armed_traders_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			equipment_bonus = {
+				convoy = {
+					build_cost_ic = 0.50
+					lg_attack = 15
+					lg_armor_piercing = 14
+					anti_air_attack = 99
+					instant = yes
+				}
+			}
+		}
+		
+		KAE_griffon_trade_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.02
+				production_factory_max_efficiency_factor = 0.05
 			}
 		}
 	}
