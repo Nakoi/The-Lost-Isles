@@ -423,6 +423,7 @@ focus_tree = {
 				NOT = {
 					has_idea = EAK_gulfcucking_01
 					has_idea = EAK_gulfcucking_05
+					has_idea = EAK_gulfcucking_09
 				}
 			}
 			hidden_trigger = {
@@ -448,6 +449,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			remove_ideas = EAK_economic_relief
 			IF = {
 				limit = {
 					has_idea = policy_collective
@@ -493,6 +495,26 @@ focus_tree = {
 					add_idea = policy_capitalist
 				}
 			}
+		}
+	}
+	
+	focus = {
+		id = EAK_end_the_military_government
+		prerequisite = { focus = EAK_4 }
+		x = 0
+		y = 4
+		relative_position_id = EAK_P1
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_idea = EAK_gulfcucking_10
+		}
+		
+		completion_reward = {
+			
 		}
 	}
 
@@ -562,6 +584,7 @@ focus_tree = {
 		id = EAK_Get_Enough_BOATS
 		prerequisite = { focus = EAK_Navy_Buildup_1 }
 		prerequisite = { focus = EAK_Navy_Buildup_2 }
+		prerequisite = { focus = EAK_4 }
 		x = 0
 		y = 2
 		relative_position_id = EAK_Navy_Buildup
@@ -623,61 +646,133 @@ focus_tree = {
 
 
 	focus = {
-		id = EAK_Avtukov_Trade
+		id = EAK_armed_traders
 		prerequisite = { focus = EAK_Finding_A_Way_Out }
 		x = -1
 		y = 1
 		relative_position_id = EAK_Finding_A_Way_Out
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			always = no
+			
 		}
 		
 		completion_reward = {
+			add_ideas = KAE_armed_traders_idea
 		}
 	}
 
 
 	focus = {
-		id = EAK_Suatoa_Trade
+		id = EAK_griffon_trade
 		prerequisite = { focus = EAK_Finding_A_Way_Out }
 		x = 1
 		y = 1
 		relative_position_id = EAK_Finding_A_Way_Out
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			always = no
+			
+		}
+		
+		bypass = {
+			NOT = {
+				country_exists = BOR
+				country_exists = VED
+				country_exists = LUA
+				country_exists = CRU
+				country_exists = SUN
+			}
 		}
 		
 		completion_reward = {
+			BOR = { country_event = { id = eak_event.2 days = 4 } }
+			VED = { country_event = { id = eak_event.2 days = 8 } }
+			CRU = { country_event = { id = eak_event.2 days = 12 } }
+			SUN = { country_event = { id = eak_event.2 days = 16 } }
+			IF = {
+				limit = {
+					LUA = {
+						owns_state = 549
+					}
+				}
+				LUA = { country_event = { id = eak_event.2 days = 20 } }
+			}
 		}
 	}
 
 	focus = {
 		id = EAK_Trade_Decisions
-		prerequisite = { focus = EAK_Avtukov_Trade }
-		prerequisite = { focus = EAK_Suatoa_Trade }
+		prerequisite = { focus = EAK_armed_traders }
+		prerequisite = { focus = EAK_griffon_trade }
+		prerequisite = { focus = EAK_4 }
+		
 		x = 0
 		y = 2
 		relative_position_id = EAK_Finding_A_Way_Out
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			always = no
+			OR = {
+				has_idea = EAK_gulfcucking_09
+				NOT = {
+					has_idea = EAK_gulfcucking_01
+					has_idea = EAK_gulfcucking_05
+					has_idea = EAK_gulfcucking_09
+				}
+			}
+			hidden_trigger = {
+				OR = {
+					has_idea = EAK_gulfcucking_05
+					has_idea = EAK_gulfcucking_06
+					has_idea = EAK_gulfcucking_07
+					has_idea = EAK_gulfcucking_08
+					has_idea = EAK_gulfcucking_09
+					NOT = {
+						has_idea = EAK_gulfcucking_01
+						has_idea = EAK_gulfcucking_02
+						has_idea = EAK_gulfcucking_03
+						has_idea = EAK_gulfcucking_04
+						has_idea = EAK_gulfcucking_05
+						has_idea = EAK_gulfcucking_06
+						has_idea = EAK_gulfcucking_07
+						has_idea = EAK_gulfcucking_08
+						has_idea = EAK_gulfcucking_09
+					}
+				}
+			}
 		}
 		
 		completion_reward = {
+			swap_ideas = {
+				add_idea = EAK_gulfcucking_10
+				remove_idea = EAK_gulfcucking_09
+			}
+			IF = {
+				limit = {
+					NOT = {
+						has_idea = EAK_gulfcucking_01
+						has_idea = EAK_gulfcucking_02
+						has_idea = EAK_gulfcucking_03
+						has_idea = EAK_gulfcucking_04
+						has_idea = EAK_gulfcucking_05
+						has_idea = EAK_gulfcucking_06
+						has_idea = EAK_gulfcucking_07
+						has_idea = EAK_gulfcucking_08
+						has_idea = EAK_gulfcucking_09
+					}
+				}
+				add_idea = EAK_gulfcucking_10
+			}
 		}
 	}
 	
@@ -1419,7 +1514,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_dont_step
+			add_ideas = KAE_dont_step_01
 		}
 	}
 
@@ -1447,7 +1542,6 @@ focus_tree = {
 		prerequisite = { focus = EAK_service_posters }
 		prerequisite = { focus = EAK_airship_drills }
 		mutually_exclusive = { focus = EAK_airskirmisher_uprade_01 }
-		mutually_exclusive = { focus = EAK_anti_air_improvements_01 }
 		x = -3
 		y = 2
 		relative_position_id = EAK_duty_calls
@@ -1764,8 +1858,6 @@ focus_tree = {
 		id = EAK_anti_air_improvements_01
 		icon = EAK_GFX_Anti_Air_Upgrades
 		prerequisite = { focus = EAK_Artillery_drills }	
-		mutually_exclusive = { focus = EAK_airskirmisher_uprade_01 }
-		mutually_exclusive = { focus = EAK_do_it_all }
 		x = 1
 		y = 1
 		relative_position_id = EAK_Artillery_drills
@@ -2123,7 +2215,6 @@ focus_tree = {
 		id = EAK_airskirmisher_uprade_01
 		icon = EAK_GFX_Air_Jobs
 		prerequisite = { focus = EAK_airship_drills }
-		mutually_exclusive = { focus = EAK_anti_air_improvements_01 }
 		mutually_exclusive = { focus = EAK_do_it_all }
 		x = 0
 		y = 1
