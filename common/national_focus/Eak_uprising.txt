@@ -17,6 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_uprising
+		icon = EAK_GFX_The_Uprising
 		x = 0
 		y = 0
 		cost = 1
@@ -35,6 +36,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_restoration
+		icon = EAK_GFX_Pick_Up_The_Pieces
 		prerequisite = { focus = EAK_uprising }
 		x = 0
 		y = 1
@@ -62,6 +64,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_rebuild_our_infrastructure
+		icon = EAK_GFX_New_Enterprise
 		prerequisite = { focus = EAK_restoration }
 		x = -1
 		y = 2
@@ -112,6 +115,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_supply_shipments
+		icon = EAK_GFX_Their_Weapons
 		prerequisite = { focus = EAK_local_militia }
 		x = 0
 		y = 3
@@ -147,6 +151,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_fortify_strongholds
+		icon = EAK_GFX_Defend_HQ
 		prerequisite = { focus = EAK_local_militia }
 		x = 2
 		y = 3
@@ -200,6 +205,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_rebuild_railways
+		icon = EAK_GFX_Train_Rails
 		prerequisite = { focus = EAK_rebuild_our_infrastructure }
 		prerequisite = { focus = EAK_local_militia }
 		x = -2
