@@ -306,6 +306,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_victory
+		icon = EAK_GFX_Victory
 		prerequisite = { focus = EAK_united_front focus = EAK_liberation_front }
 		x = 0
 		y = 5
