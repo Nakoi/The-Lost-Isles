@@ -94,6 +94,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_local_militia
+		icon = EAK_GFX_Improve
 		prerequisite = { focus = EAK_restoration }
 		x = 1
 		y = 2
@@ -249,6 +250,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_united_front
+		icon = EAK_GFX_Coalition
 		prerequisite = { focus = EAK_rebuild_railways focus = EAK_supply_shipments focus = EAK_fortify_strongholds }
 		mutually_exclusive = { focus = EAK_liberation_front }
 		x = -1
@@ -277,6 +279,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_liberation_front
+		icon = EAK_GFX_South
 		prerequisite = { focus = EAK_rebuild_railways focus = EAK_supply_shipments focus = EAK_fortify_strongholds }
 		mutually_exclusive = { focus = EAK_united_front }
 		x = 1
@@ -331,6 +334,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_P1
+		icon = EAK_GFX_Pick_Up_Piece
 		x = 0
 		y = 6
 		relative_position_id = EAK_uprising
@@ -352,6 +356,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_2
+		icon = EAK_GFX_Vengance
 		prerequisite = { focus = EAK_P1 }
 		x = 1
 		y = 1
@@ -375,6 +380,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_3
+		icon = EAK_GFX_Weather_The_Storm
 		prerequisite = { focus = EAK_P1 }
 		x = -1
 		y = 1
@@ -415,6 +421,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_4
+		icon = EAK_GFX_GreenLine_Going_Up
 		prerequisite = { focus = EAK_2 focus = EAK_3 }
 		x = 0
 		y = 2
@@ -633,6 +640,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_Finding_A_Way_Out
+		icon = EAK_GFX_Gulf
 		prerequisite = { focus = EAK_3 }
 		x = -2
 		y = 1
@@ -654,6 +662,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_armed_traders
+		icon = EAK_GFX_Arm_Our_Ships
 		prerequisite = { focus = EAK_Finding_A_Way_Out }
 		x = -1
 		y = 1
