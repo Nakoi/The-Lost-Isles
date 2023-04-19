@@ -535,6 +535,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_settle_north_cilarine
+		icon = EAK_GFX_North_Of_Cillarine
 		prerequisite = { focus = EAK_end_the_military_government }
 		prerequisite = { focus = EAK_Cilarine_War_Goal }
 		x = 2
@@ -562,6 +563,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_hold_elections
+		icon = EAK_GFX_Hold_Elections
 		prerequisite = { focus = EAK_end_the_military_government }
 		x = 0
 		y = 7
@@ -740,6 +742,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_griffon_trade
+		icon = EAK_GFX_Relations
 		prerequisite = { focus = EAK_Finding_A_Way_Out }
 		x = 1
 		y = 1
@@ -781,6 +784,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_Trade_Decisions
+		icon = EAK_GFX_Victory_Corsairs
 		prerequisite = { focus = EAK_armed_traders }
 		prerequisite = { focus = EAK_griffon_trade }
 		prerequisite = { focus = EAK_4 }
