@@ -515,8 +515,9 @@ focus_tree = {
 	focus = {
 		id = EAK_end_the_military_government
 		prerequisite = { focus = EAK_4 }
+		prerequisite = { focus = EAK_Trade_Decisions }
 		x = 0
-		y = 4
+		y = 5
 		relative_position_id = EAK_P1
 		cost = 10
 		ai_will_do = {
@@ -532,7 +533,51 @@ focus_tree = {
 		}
 	}
 
-
+	focus = {
+		id = EAK_settle_north_cilarine
+		prerequisite = { focus = EAK_end_the_military_government }
+		prerequisite = { focus = EAK_Cilarine_War_Goal }
+		x = 2
+		y = 6
+		relative_position_id = EAK_P1
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			tag = EAK
+			NOT = { country_exists = CIL }
+			EAK = {
+				owns_state = 577
+				owns_state = 576
+				owns_state = 575
+			}
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = EAK_hold_elections
+		prerequisite = { focus = EAK_end_the_military_government }
+		x = 0
+		y = 7
+		relative_position_id = EAK_P1
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			
+		}
+	}
 
 	focus = {
 		id = EAK_Navy_Buildup
@@ -608,7 +653,18 @@ focus_tree = {
 		}
 		
 		available = {
-			always = no
+			has_navy_size = {
+				size > 2
+				archetype = ship_hull_heavy
+			}
+			has_navy_size = {
+				size > 17
+				archetype = ship_hull_cruiser
+			}
+			has_navy_size = {
+				size > 23
+				archetype = galley_hull
+			}
 		}
 		
 		completion_reward = {
