@@ -1178,6 +1178,129 @@ decisioncat_eak_civilwarcat = {
 }
 
 decisioncat_eak_breakout = {
+
+	EAK_breakout_cilarine_dead_mission = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 90
+
+		fire_only_once = no
+
+		activation = {
+			tag = EAK
+			NOT = { country_exists = CIL }
+			OR = {
+				has_idea = EAK_gulfcucking_01
+				has_idea = EAK_gulfcucking_02
+				has_idea = EAK_gulfcucking_03
+				has_idea = EAK_gulfcucking_04
+				has_idea = EAK_gulfcucking_05
+				has_idea = EAK_gulfcucking_06
+				has_idea = EAK_gulfcucking_07
+				has_idea = EAK_gulfcucking_08
+				has_idea = EAK_gulfcucking_09
+			}
+		}
+
+		visible = {
+			OR = {
+				has_idea = EAK_gulfcucking_01
+				has_idea = EAK_gulfcucking_02
+				has_idea = EAK_gulfcucking_03
+				has_idea = EAK_gulfcucking_04
+				has_idea = EAK_gulfcucking_05
+				has_idea = EAK_gulfcucking_06
+				has_idea = EAK_gulfcucking_07
+				has_idea = EAK_gulfcucking_08
+				has_idea = EAK_gulfcucking_09
+			}
+			tag = EAK
+		}
+
+		cancel_if_not_visible = no
+
+		is_good = yes
+
+		timeout_effect = {
+			IF = {
+				limit = {
+					has_idea = EAK_gulfcucking_01
+				}
+				swap_ideas = {
+					add_idea = EAK_gulfcucking_02
+					remove_idea = EAK_gulfcucking_01
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = EAK_gulfcucking_02
+				}
+				swap_ideas = {
+					add_idea = EAK_gulfcucking_03
+					remove_idea = EAK_gulfcucking_02
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = EAK_gulfcucking_03
+				}
+				swap_ideas = {
+					add_idea = EAK_gulfcucking_04
+					remove_idea = EAK_gulfcucking_03
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = EAK_gulfcucking_04
+				}
+				swap_ideas = {
+					add_idea = EAK_gulfcucking_05
+					remove_idea = EAK_gulfcucking_04
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = EAK_gulfcucking_05
+				}
+				swap_ideas = {
+					add_idea = EAK_gulfcucking_06
+					remove_idea = EAK_gulfcucking_05
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = EAK_gulfcucking_06
+				}
+				swap_ideas = {
+					add_idea = EAK_gulfcucking_07
+					remove_idea = EAK_gulfcucking_06
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = EAK_gulfcucking_07
+				}
+				swap_ideas = {
+					add_idea = EAK_gulfcucking_08
+					remove_idea = EAK_gulfcucking_07
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = EAK_gulfcucking_08
+				}
+				swap_ideas = {
+					add_idea = EAK_gulfcucking_09
+					remove_idea = EAK_gulfcucking_08
+				}
+			}
+		}
+	}
 	
 	EAK_breakout_decision_0102 = {
 
