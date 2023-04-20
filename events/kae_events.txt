@@ -755,3 +755,17 @@ country_event = {
 		add_offsite_building = { type = industrial_complex level = 2 }
 	}
 }
+
+country_event = {
+	id = eak_event.8
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event eak_event.8"}
+	title = eak_event.8.t
+	desc = eak_event.8.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = eak_event.8.a
+	}
+}
