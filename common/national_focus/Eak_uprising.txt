@@ -514,6 +514,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_end_the_military_government
+		icon = EAK_GFX_No_Military_Government
 		prerequisite = { focus = EAK_4 }
 		prerequisite = { focus = EAK_Trade_Decisions }
 		x = 0
@@ -595,6 +596,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_Navy_Buildup
+		icon = EAK_GFX_Navy_Buildup
 		prerequisite = { focus = EAK_2 }
 		x = 3
 		y = 2
@@ -639,6 +641,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_Navy_Buildup_1
+		icon = EAK_GFX_Navy_Buildup
 		prerequisite = { focus = EAK_Navy_Buildup }
 		x = 1
 		y = 1
@@ -659,6 +662,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_Navy_Buildup_2
+		icon = EAK_GFX_Timber
 		prerequisite = { focus = EAK_Navy_Buildup }
 		x = -1
 		y = 1
@@ -687,6 +691,7 @@ focus_tree = {
 
 	focus = {
 		id = EAK_Cilarine_War_Goal
+		icon = EAK_GFX_Cillarine_War
 		prerequisite = { focus = EAK_Navy_Buildup_1 }
 		prerequisite = { focus = EAK_Navy_Buildup_2 }
 		x = 0
@@ -1338,6 +1343,7 @@ focus_tree = {
 	
 	focus = {
 		id = EAK_labor_laws
+		icon = EAK_GFX_Weather_The_Storm
 		prerequisite = { focus = EAK_improve_living_standard }
 		x = -3
 		y = 4
