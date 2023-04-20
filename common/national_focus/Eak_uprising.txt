@@ -525,11 +525,13 @@ focus_tree = {
 		}
 		
 		available = {
-			has_idea = EAK_gulfcucking_10
 		}
 		
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = EAK_military_government
+				add_idea = EAK_south_ootari_republic_idea
+			}
 		}
 	}
 
@@ -554,10 +556,20 @@ focus_tree = {
 				owns_state = 576
 				owns_state = 575
 			}
+			577 = { compliance > 29 }
+			576 = { compliance > 29 }
+			575 = { compliance > 29 }
 		}
 		
 		completion_reward = {
-			
+			EAK = {
+				add_state_core = 577
+				add_state_core = 576
+				add_state_core = 575
+			}
+			577 = { add_manpower = 49000 }
+			576 = { add_manpower = 52000 }
+			575 = { add_manpower = 55000 }
 		}
 	}
 	
@@ -568,7 +580,7 @@ focus_tree = {
 		x = 0
 		y = 7
 		relative_position_id = EAK_P1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -577,7 +589,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			country_event = { id = eak_event.8 days = 4 }
 		}
 	}
 
@@ -587,16 +599,40 @@ focus_tree = {
 		x = 3
 		y = 2
 		relative_position_id = EAK_P1
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			always = no
+			
 		}
 		
 		completion_reward = {
+			136 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			493 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			491 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -607,16 +643,16 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = EAK_Navy_Buildup
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			always = no
 		}
 		
 		completion_reward = {
+			add_ideas = KAE_cheaper_ships_idea
 		}
 	}
 
@@ -627,25 +663,32 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = EAK_Navy_Buildup
-		cost = 3
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
-			always = no
 		}
 		
 		completion_reward = {
+			add_resource = {
+				type = wood
+				amount = 24
+				state = 506
+			}
+			add_resource = {
+				type = wood
+				amount = 12
+				state = 505
+			}
 		}
 	}
 
-
 	focus = {
-		id = EAK_Get_Enough_BOATS
+		id = EAK_Cilarine_War_Goal
 		prerequisite = { focus = EAK_Navy_Buildup_1 }
 		prerequisite = { focus = EAK_Navy_Buildup_2 }
-		prerequisite = { focus = EAK_4 }
 		x = 0
 		y = 2
 		relative_position_id = EAK_Navy_Buildup
@@ -670,27 +713,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		}
-	}
-
-
-
-	focus = {
-		id = EAK_Cilarine_War_Goal
-		prerequisite = { focus = EAK_Get_Enough_BOATS }
-		x = 0
-		y = 3
-		relative_position_id = EAK_Navy_Buildup
-		cost = 3
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-			always = no
-		}
-		
-		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = CIL
+			}
 		}
 	}
 
