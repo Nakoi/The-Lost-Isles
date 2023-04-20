@@ -283,6 +283,12 @@
  EAK_3_desc:0 ""
  EAK_4:0 "The Era of Progress"
  EAK_4_desc:0 ""
+ EAK_end_the_military_government:0 "End the Military Government"
+ EAK_end_the_military_government_desc:0 ""
+ EAK_settle_north_cilarine:0 "Settle North Cilarine"
+ EAK_settle_north_cilarine_desc:0 ""
+ EAK_hold_elections:0 "Hold Elections"
+ EAK_hold_elections_desc:0 ""
  
  EAK_Finding_A_Way_Out:0 "Breaking Out of the Gulf"
  EAK_Finding_A_Way_Out_desc:0 ""
@@ -292,6 +298,15 @@
  EAK_griffon_trade_desc:0 ""
  EAK_Trade_Decisions:0 "Proclaim Victory Over the Corsairs"
  EAK_Trade_Decisions_desc:0 ""
+ 
+ EAK_Navy_Buildup:0 "Naval Buildup"
+ EAK_Navy_Buildup_desc:0 ""
+ EAK_Navy_Buildup_1:0 "Press Civilian Vessels into Service"
+ EAK_Navy_Buildup_1_desc:0 ""
+ EAK_Navy_Buildup_2:0 "Domestic Timber Production"
+ EAK_Navy_Buildup_2_desc:0 ""
+ EAK_Cilarine_War_Goal:0 "The Cilarine Punitive Expedition"
+ EAK_Cilarine_War_Goal_desc:0 ""
  
 ###FOCUS LOCALISATION - UPRISING INDUSTRY TREE###
  EAK_Greater_economy:0 "Economic Reform"
@@ -468,6 +483,7 @@
  EAK_populist_movement_idea_01:0 "Army of the Downtrodden"
  EAK_populist_movement_idea_02:0 "Army of the Downtrodden"
  EAK_military_government:0 "Military Government"
+ EAK_south_ootari_republic_idea:0 "Republic of South Ootari"
  
  EAK_gulfcucking_01:0 "Cut Off from the Open Seas"
  EAK_gulfcucking_02:0 "Cut Off from the Open Seas"
@@ -484,6 +500,7 @@
  EAK_revenge:0 "Desire for Revenge"
  KAE_armed_traders_idea:0 "Armed Merchant Ships"
  KAE_griffon_trade_idea:0 "Trading with Kae"
+ KAE_cheaper_ships_idea:0 "Cheaper Warhips"
 
 ###DECISION LOCALISATION###
  decisioncat_kae_starting_cilarine_trade:0 "The Negotiations of 957"
@@ -617,5 +634,9 @@
  eak_event.7.t:0 "Our Offer Was Accepted!"
  eak_event.7.d:0 "Luana has accepted our offer. idk what else to say lmao."
  eak_event.7.a:0 "yippi!!!!!"
+ 
+ eak_event.8.t:0 "A Poor Kirin's Vote"
+ eak_event.8.d:0 "something something poor guy votes for first time blah blah blah"
+ eak_event.8.a:0 "so wholesome! ty for playing eak!!!!!!"
  
 ###TOOLTIP LOCALISATION###
