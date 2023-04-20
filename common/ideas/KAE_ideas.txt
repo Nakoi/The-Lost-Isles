@@ -903,6 +903,24 @@ ideas = {
 			}
 		}
 		
+		EAK_south_ootari_republic_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = -0.1
+				army_core_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_core_defence_factor = 0.05
+				ideology_visionarism_drift = 0.1
+				ideology_solidarism_drift = 0.03
+				ideology_militarism_drift = 0.03
+			}
+		}
+		
 		EAK_gulfcucking_01 = {
 			picture = great_depression
 			removal_cost = -1
@@ -1095,6 +1113,32 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.02
 				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		
+		KAE_cheaper_ships_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			equipment_bonus = {
+				ship_hull_heavy = {
+					build_cost_ic = -0.2
+					max_strength = -0.15
+					instant = yes
+				}
+				ship_hull_cruiser = {
+					build_cost_ic = -0.15
+					max_strength = -0.1
+					instant = yes
+				}
+				galley_hull = {
+					build_cost_ic = -0.15
+					max_strength = -0.1
+					instant = yes
+				}
 			}
 		}
 	}
