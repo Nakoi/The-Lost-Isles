@@ -568,6 +568,7 @@ country_event = {
 	option = {
 		name = eak_event.1.a
 		complete_national_focus = EAK_P1
+		EAK = { set_cosmetic_tag = EAK_postcivwar_costag }
 	}
 }
 

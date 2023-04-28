@@ -258,6 +258,92 @@ country_event = {
 			target = ASH
 			type = annex_everything
 		}
+		IF = {
+			limit = {
+				NOT = {
+					EAK = is_puppet_of = ESU 
+				}
+			}
+			declare_war_on = {
+				target = EAK
+				type = annex_everything
+			}
+		}
+		ESU = { set_cosmetic_tag = ESU_unifier_costag }
+	}
+}
+
+country_event = {
+	id = esu_sanelate.22
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.22"}
+	title = esu_event.22.t
+	desc = esu_event.22.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_sanelate.22.a
+		ESU = {
+			add_opinion_modifier = {
+				target = EAK
+				modifier = tlirelations_generic_alliance_accepted
+			}
+			set_autonomy = {
+				target = EAK
+				autonomy_state = autonomy_dominion
+			}
+		}
+		EAK = {
+			add_opinion_modifier = {
+				target = ESU
+				modifier = tlirelations_generic_alliance_accepted
+			}
+			EAK = { set_cosmetic_tag = EAK_esupuppet_costag }
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = ESU
+					value > 89
+				}	
+			}
+			modifier = {
+				add = 25
+				has_opinion = {
+					target = ESU
+					value > 24
+				}
+			}	
+		}
+	}
+	
+	option = {
+		name = esu_sanelate.22.b
+		ESU = {
+			add_opinion_modifier = {
+				target = EAK
+				modifier = tlirelations_generic_alliance_refused
+			}
+		}
+		EAK = {
+			add_opinion_modifier = {
+				target = ESU
+				modifier = tlirelations_generic_alliance_refused
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = AVT
+					value < -15
+				}
+			}	
+		}
 	}
 }
 
