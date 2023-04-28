@@ -3021,6 +3021,15 @@ focus_tree = {
 			}
 		}
 		
+		select_effect = {
+			EAK = {
+				country_event = {
+					id = esu_sanelate.22
+					days = 14
+				}
+			}
+		}
+		
 		#available = {
 			#has_army_manpower = {
 				size > 399999
@@ -3029,6 +3038,7 @@ focus_tree = {
 		
 		completion_reward = {
 			country_event = { id = esu_sanelate.2 }
+			custom_effect_tooltip = ESUtt_eak_alliance
 		}
 	}
 
