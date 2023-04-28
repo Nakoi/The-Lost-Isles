@@ -14,6 +14,20 @@
  KAE_ideology_continuism_DEF:0 "The Kae Trade League"
  KAE_ideology_isolationism_DEF:0 "The Kae Trade League"
  
+ KAE_unifier_costag_ideology_militarism:0 "Merchant Republic of Ootari"
+ KAE_unifier_costag_ideology_imperialism:0 "Merchant Republic of Ootari"
+ KAE_unifier_costag_ideology_visionarism:0 "Merchant Republic of Ootari"
+ KAE_unifier_costag_ideology_solidarism:0 "Merchant Republic of Ootari"
+ KAE_unifier_costag_ideology_continuism:0 "Merchant Republic of Ootari"
+ KAE_unifier_costag_ideology_isolationism:0 "Merchant Republic of Ootari"
+ 
+ KAE_unifier_costag_ideology_militarism_DEF:0 "The Merchant Republic of Ootari"
+ KAE_unifier_costag_ideology_imperialism_DEF:0 "The Merchant Republic of Ootari"
+ KAE_unifier_costag_ideology_visionarism_DEF:0 "The Merchant Republic of Ootari"
+ KAE_unifier_costag_ideology_solidarism_DEF:0 "The Merchant Republic of Ootari"
+ KAE_unifier_costag_ideology_continuism_DEF:0 "The Merchant Republic of Ootari"
+ KAE_unifier_costag_ideology_isolationism_DEF:0 "The Merchant Republic of Ootari"
+ 
  EAK_ideology_militarism:0 "Kae Militia Mutiny"
  EAK_ideology_imperialism:0 "Kae Militia Mutiny"
  EAK_ideology_visionarism:0 "Kae Militia Mutiny"
@@ -27,6 +41,35 @@
  EAK_ideology_solidarism_DEF:0 "The Kae Militia Mutiny"
  EAK_ideology_continuism_DEF:0 "The Kae Militia Mutiny"
  EAK_ideology_isolationism_DEF:0 "The Kae Militia Mutiny"
+ 
+ EAK_postcivwar_costag_ideology_militarism:0 "Republic of Kae"
+ EAK_postcivwar_costag_ideology_imperialism:0 "Republic of Kae"
+ EAK_postcivwar_costag_ideology_visionarism:0 "Republic of Kae"
+ EAK_postcivwar_costag_ideology_solidarism:0 "Republic of Kae"
+ EAK_postcivwar_costag_ideology_continuism:0 "Republic of Kae"
+ EAK_postcivwar_costag_ideology_isolationism:0 "Republic of Kae"
+ 
+ EAK_postcivwar_costag_ideology_militarism_DEF:0 "The Republic of Kae"
+ EAK_postcivwar_costag_ideology_imperialism_DEF:0 "The Republic of Kae"
+ EAK_postcivwar_costag_ideology_visionarism_DEF:0 "The Republic of Kae"
+ EAK_postcivwar_costag_ideology_solidarism_DEF:0 "The Republic of Kae"
+ EAK_postcivwar_costag_ideology_continuism_DEF:0 "The Republic of Kae"
+ EAK_postcivwar_costag_ideology_isolationism_DEF:0 "The Republic of Kae"
+ 
+ EAK_esupuppet_costag_ideology_militarism:0 "United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costag_ideology_imperialism:0 "United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costag_ideology_visionarism:0 "United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costag_ideology_solidarism:0 "United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costag_ideology_continuism:0 "United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costag_ideology_isolationism:0 "United Autonomous Prefectures of South Ootari"
+ 
+ EAK_esupuppet_costag_ideology_militarism_DEF:0 "The United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costag_ideology_imperialism_DEF:0 "The United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costag_ideology_visionarism_DEF:0 "The United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costag_ideology_solidarism_DEF:0 "The United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costagideology_continuism_DEF:0 "The United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costag_ideology_isolationism_DEF:0 "The United Autonomous Prefectures of South Ootari"
+ 
 
 ###CHARACTER NAMES###
  
@@ -483,7 +526,7 @@
  EAK_populist_movement_idea_01:0 "Army of the Downtrodden"
  EAK_populist_movement_idea_02:0 "Army of the Downtrodden"
  EAK_military_government:0 "Military Government"
- EAK_south_ootari_republic_idea:0 "Republic of South Ootari"
+ EAK_south_ootari_republic_idea:0 "Transition to a Civilian Government"
  
  EAK_gulfcucking_01:0 "Cut Off from the Open Seas"
  EAK_gulfcucking_02:0 "Cut Off from the Open Seas"

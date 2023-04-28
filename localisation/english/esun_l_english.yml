@@ -14,6 +14,20 @@
  ESU_ideology_continuism_DEF:0 "The Holy Republic of Esun"
  ESU_ideology_isolationism_DEF:0 "The Holy Republic of Esun"
  
+ ESU_unifier_costag_ideology_militarism:0 "Holy Republic of Ootari"
+ ESU_unifier_costag_ideology_imperialism:0 "Holy Republic of Ootari"
+ ESU_unifier_costag_ideology_visionarism:0 "Holy Republic of Ootari"
+ ESU_unifier_costag_ideology_solidarism:0 "Holy Republic of Ootari"
+ ESU_unifier_costag_ideology_continuism:0 "Holy Republic of Ootari"
+ ESU_unifier_costag_ideology_isolationism:0 "Holy Republic of Ootari"
+ 
+ ESU_unifier_costag_ideology_militarism_DEF:0 "The Holy Republic of Ootari"
+ ESU_unifier_costag_ideology_imperialism_DEF:0 "The Holy Republic of Ootari"
+ ESU_unifier_costag_ideology_visionarism_DEF:0 "The Holy Republic of Ootari"
+ ESU_unifier_costag_ideology_solidarism_DEF:0 "The Holy Republic of Ootari"
+ ESU_unifier_costag_ideology_continuism_DEF:0 "The Holy Republic of Ootari"
+ ESU_unifier_costag_ideology_isolationism_DEF:0 "The Holy Republic of Ootari"
+ 
  UES_ideology_militarism:0 "The Second Rising"
  UES_ideology_imperialism:0 "The Second Rising"
  UES_ideology_visionarism:0 "The Second Rising"
@@ -358,6 +372,11 @@
  esu_sanelate.2.d:0 "let's go kill other kirins!!!"
  esu_sanelate.2.a:0 "yea!"
  
+ esu_sanelate.22.t:0 "A Diplomat from Esun"
+ esu_sanelate.22.d:0 "do u wanna become a puppet of esun????"
+ esu_sanelate.22.a:0 "yea!"
+ esu_sanelate.22.b:0 "nah..."
+ 
  esu_sanelate.3.t:0 "tard wrangling"
  esu_sanelate.3.d:0 "the church has fully taken over the government, but they needed help from the funni nationalists, now they have to be appeased :((("
  esu_sanelate.3.a:0 "aw shit"
@@ -375,8 +394,8 @@
  esu_sanelate.7.a:0 "idk"
   
 ###TOOLTIP LOCALISATION###
- ESUtt_mare_ethnostate:0 "The Ootari Pony Republic will be formed out of our pony majority states!"
- ESUtt_second_rising:0 "The Second Rising will start in the southern part of the Old Homeland"
+ ESUtt_second_rising:0 "§YThe Second Rising will start in the southern part of the Old Homeland.§"
+ ESUtt_eak_alliance:0 "§YWe will attempt to form an alliance with Kae if is controlled by a Visonarist government.§"
  
  esu_sane_victory:0 "Autocompleted via Event"
  esu_schizo_victory:0 "Autocompleted via Event"
