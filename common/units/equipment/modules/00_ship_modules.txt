@@ -583,6 +583,45 @@ equipment_modules = {
 			armor_value = 18
 		}
 	}
+	
+	light_planking_griffon_1 = {
+		category = module_light_armor
+		gfx = ship_armor_thin_8
+		
+		multiply_stats = {
+			build_cost_ic = 0.15
+		}
+		
+		add_stats = {
+			armor_value = 5
+		}
+	}
+	
+	light_planking_griffon_2 = {
+		category = module_light_armor
+		gfx = ship_armor_thin_8
+		
+		multiply_stats = {
+			build_cost_ic = 0.15
+		}
+		
+		add_stats = {
+			armor_value = 11
+		}
+	}
+	
+	light_planking_griffon_3 = {
+		category = module_light_armor
+		gfx = ship_armor_thin_8
+		
+		multiply_stats = {
+			build_cost_ic = 0.15
+		}
+		
+		add_stats = {
+			armor_value = 21
+		}
+	}
 
     heavy_planking_1 = {
 		category = module_heavy_armor
@@ -696,6 +735,51 @@ equipment_modules = {
 		
 		add_stats = {
 			armor_value = 36
+		}
+	}
+	
+	heavy_planking_griffon_1 = {
+		category = module_heavy_armor
+		gfx = ship_armor_cruiser_8
+		
+		multiply_stats = {
+			build_cost_ic = 0.12
+            surface_visibility = 0.08
+			max_strength = 0.05
+		}
+		
+		add_stats = {
+			armor_value = 24
+		}
+	}
+	
+	heavy_planking_griffon_2 = {
+		category = module_heavy_armor
+		gfx = ship_armor_cruiser_8
+		
+		multiply_stats = {
+			build_cost_ic = 0.15
+            surface_visibility = 0.08
+			max_strength = 0.05
+		}
+		
+		add_stats = {
+			armor_value = 36
+		}
+	}
+	
+	heavy_planking_griffon_3 = {
+		category = module_heavy_armor
+		gfx = ship_armor_cruiser_8
+		
+		multiply_stats = {
+			build_cost_ic = 0.15
+            surface_visibility = 0.08
+			max_strength = 0.05
+		}
+		
+		add_stats = {
+			armor_value = 42
 		}
 	}
 
