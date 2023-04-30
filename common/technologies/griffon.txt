@@ -29,6 +29,10 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		consumer_goods_factor = -0.05
+		industrial_capacity_factory = 0.1
+		local_resources_factor = 0.1
+		
 		path = {
 			leads_to_tech = predatorial_fighting
 			research_cost_coeff = 1
@@ -55,6 +59,9 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
+		
+		org_loss_when_moving = -0.1
+		army_speed_factor = 0.1
 		
 		path = {
 			leads_to_tech = trade_mastery
@@ -83,6 +90,9 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		trade_opinion_factor = 0.25
+		local_resources_factor = 0.15
+		
 		path = {
 			leads_to_tech = airborne_logistics
 			research_cost_coeff = 1
@@ -109,6 +119,10 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
+		
+		supply_consumption_factor = -0.25
+		attrition = -0.1
+		army_speed_factor = 0.15
 		
 		path = {
 			leads_to_tech = 
@@ -137,6 +151,8 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
+		
+		industrial_capacity_factory = 0.1
 		
 		path = {
 			leads_to_tech = impossible_architecture
@@ -168,6 +184,9 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
+		
+		production_speed_buildings_factor = 0.25
+		global_building_slots_factor = 0.2
 
 		xor={
 			enchanted_tools
@@ -200,6 +219,11 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		enable_equipment_modules = { 
+			light_planking_griffon_1
+			heavy_planking_griffon_1
+		}
+		
 		path = {
 			leads_to_tech = advanced_naval_artifice
 			research_cost_coeff = 1
@@ -225,6 +249,11 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		enable_equipment_modules = { 
+			light_planking_griffon_2
+			heavy_planking_griffon_2
 		}
 		
 		path = {
@@ -253,6 +282,11 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
+		
+		enable_equipment_modules = { 
+			light_planking_griffon_3
+			heavy_planking_griffon_3
+		}
 
 		research_cost = 2.15
 		start_year = 957
@@ -275,6 +309,9 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
+		
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.15
 
 		xor={
 			impossible_architecture
@@ -307,6 +344,10 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		industrial_capacity_factory = -0.25
+		army_attack_factor = 0.1
+		army_defence_factor = 0.1
+	
 		path = {
 			leads_to_tech = aerial_magitech
 			research_cost_coeff = 1
@@ -332,6 +373,26 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		category_air_bombardier = {
+			air_defence = 0.10
+			air_range = 0.10
+		}
+		
+		category_air_frigate = {
+			air_defence = 0.10
+			air_range = 0.10
+		}
+		
+		category_sky_carrier = {
+			air_defence = 0.10
+			air_range = 0.10
+		}
+		
+		category_sky_cruiser = {
+			air_defence = 0.10
+			air_range = 0.10
 		}
 		
 		path = {
