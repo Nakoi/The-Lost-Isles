@@ -171,6 +171,13 @@ technology_folders = {
 			is_kirin_race = yes
 		}
 	}
+
+	griffon_folder = {
+		ledger = army
+		available = {
+			is_griffon_race = yes
+		}
+	}
 	#secret_weapons_folder
 }
 

@@ -1,0 +1,1525 @@
+technologies = {
+	
+	@1918 = 0
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
+
+	griffon_race = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+	}
+
+
+	economic_talent = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = predatorial_fighting
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 4 y = 0 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	predatorial_fighting = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = trade_mastery
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	trade_mastery = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = airborne_logistics
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airborne_logistics = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	magic_of_artifice = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = impossible_architecture
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = enchanted_tools
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 8 y = 0 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	impossible_architecture = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor={
+			enchanted_tools
+		}
+		
+		path = {
+			leads_to_tech = naval_artifice
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	naval_artifice = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_naval_artifice
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 6 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	advanced_naval_artifice = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = modern_naval_artifice 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 6 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	modern_naval_artifice = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 6 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	enchanted_tools = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor={
+			impossible_architecture
+		}
+		
+		path = {
+			leads_to_tech = style_over_quantity 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 10 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	style_over_quantity = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = aerial_magitech
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 10 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	aerial_magitech = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech =  
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 10 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	griffon_knights = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = mandated_looting
+			research_cost_coeff = 1
+		}			
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 15 y = 0 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	mandated_looting = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = mercenary_knights
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = noble_knights
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 15 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	mercenary_knights = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			noble_knights
+		}
+		
+		path = {
+			leads_to_tech = dirty_tricks
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 13 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dirty_tricks = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = impervious_armor
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 13 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	noble_knights = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			mercenary_knights
+		}
+		
+		path = {
+			leads_to_tech = aristocratic_splendor
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 17 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	aristocratic_splendor = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = impervious_armor
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 17 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	impervious_armor = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = heavy_infantry_tactics
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = shock_infantry_tactics
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 15 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavy_infantry_tactics = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			shock_infantry_tactics
+		}
+		
+		path = {
+			leads_to_tech = harshest_training
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 13 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	shock_infantry_tactics = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			heavy_infantry_tactics	
+		}
+		
+		path = {
+			leads_to_tech = harshest_training
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 17 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	harshest_training = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 15 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	griffon_falcons = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = ambush_tactics
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 20 y = 0 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ambush_tactics = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = high_prio_target_mastery
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 20 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	high_prio_target_mastery = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = anti_armor_musket
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 20 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anti_armor_musket = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = fast_as_hawk
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = deadly_as_eagle
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = anti_armor_breech_loader
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 20 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	fast_as_hawk = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			deadly_as_eagle
+		}
+		
+		path = {
+			leads_to_tech = guerilla_training
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = explosive_ammunition
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 18 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	deadly_as_eagle = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			fast_as_hawk
+		}
+		
+		path = {
+			leads_to_tech = guerilla_training
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = explosive_ammunition
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 22 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	guerilla_training = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			explosive_ammunition
+		}
+		
+		path = {
+			leads_to_tech = magical_bullet_acceleration
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 18 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	explosive_ammunition = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			guerilla_training
+		}
+		
+		path = {
+			leads_to_tech = magical_bullet_acceleration
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 22 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	magical_bullet_acceleration = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 20 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anti_armor_breech_loader = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = anti_armor_bolt_action_rifle
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 24 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anti_armor_bolt_action_rifle = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 24 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	griffon_landschip = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = naval_gunnery_adaption
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = steam_landship
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = sloped_armor
+			research_cost_coeff = 1
+		}			
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 40 y = 0 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	naval_gunnery_adaption = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = heat_shells
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 38 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heat_shells = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = vertical_cannon_stabilisation
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 38 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	vertical_cannon_stabilisation = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 38 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	steam_landship = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = modern_landship
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 40 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	modern_landship = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 40 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	sloped_armor = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = field_repair_kit
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 42 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	field_repair_kit = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = magical_reactive_armor
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 42 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	magical_reactive_armor = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 42 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	spell_cannon = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = split_canister_beam
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = focused_beam
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = advanced_spell_cannon
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 50 y = 0 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	split_canister_beam = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			focused_beam
+		}
+		
+		path = {
+			leads_to_tech = disintegrating_crystal
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = reusable_crystal
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 48 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focused_beam = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			split_canister_beam
+		}
+		
+		path = {
+			leads_to_tech = disintegrating_crystal
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = reusable_crystal
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 52 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	disintegrating_crystal = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			reusable_crystal
+		}
+		
+		path = {
+			leads_to_tech = fireball_shot
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = superheated_beam
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 48 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reusable_crystal = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			disintegrating_crystal
+		}
+		
+		path = {
+			leads_to_tech = fireball_shot
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = superheated_beam
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 52 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	fireball_shot = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			superheated_beam
+		}
+		
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 48 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	superheated_beam = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		xor = {
+			fireball_shot
+		}
+		
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 52 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	advanced_spell_cannon = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = modern_spell_cannon
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 54 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	modern_spell_cannon = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = griffon_folder
+			position = { x = 54 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+}
