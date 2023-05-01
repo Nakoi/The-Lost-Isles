@@ -422,6 +422,17 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		enable_subunits = {
+			griffon_knight_unit
+		}
+		
+		category_griffonknights = {
+			breakthrough = 2.5
+			soft_attack = 1
+			armor_value = 15.0
+			hardness = 49.0
+		}
+		
 		path = {
 			leads_to_tech = mandated_looting
 			research_cost_coeff = 1
@@ -447,6 +458,13 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		category_griffonknights = {
+			breakthrough = 0.1
+			soft_attack = 0.1
+			supply_consumption_factor = -0.25
+			equipment_capture_factor = 0.25
 		}
 		
 		path = {
@@ -478,6 +496,12 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		category_griffonknights = {
+			defense = 0.2
+			army_morale = 0.2
+			supply_consumption_factor = -0.1
 		}
 
 		xor = {
@@ -511,6 +535,12 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		category_griffonknights = {
+			hard_attack = 0.25
+			ap_attack = 0.25
+			equipment_capture_factor = 0.1
+		}
+		
 		path = {
 			leads_to_tech = impervious_armor
 			research_cost_coeff = 1
@@ -537,7 +567,13 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
-
+		
+		category_griffonknights = {
+			breakthrough = 0.1
+			soft_attack = 0.1
+			armor_value = 5
+		}
+		
 		xor = {
 			mercenary_knights
 		}
@@ -569,6 +605,12 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		category_griffonknights = {
+			breakthrough = 0.25
+			soft_attack = 0.5
+			armor_value = 5
+		}
+		
 		path = {
 			leads_to_tech = impervious_armor
 			research_cost_coeff = 1
@@ -594,6 +636,12 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		category_griffonknights = {
+			breakthrough = 0.2
+			defense = 0.2
+			armor_value = 10
 		}
 		
 		path = {
@@ -626,7 +674,13 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
-
+		
+		category_griffonknights = {
+			defense = 0.3
+			soft_attack = 0.1
+			armor_value = 5
+		}
+		
 		xor = {
 			shock_infantry_tactics
 		}
@@ -656,6 +710,13 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		category_griffonknights = {
+			breakthrough = 0.1
+			soft_attack = 0.2
+			maximum_speed = 0.1
+			armor_value = 5
 		}
 
 		xor = {
@@ -687,6 +748,45 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		category_griffonknights = {
+			max_organisation = 10
+		}
+		
+		griffon_knight_unit = {
+			forest = {
+				attack = 0.1
+				movement = 0.1
+			}
+			hills = {
+				attack = 0.1
+				movement = 0.1
+			}
+			mountain = {
+				attack = 0.1
+				movement = 0.1
+			}
+			jungle = {
+				attack = 0.1
+				movement = 0.1
+			}
+			marsh = {
+				attack = 0.1
+				movement = 0.1
+			}
+			urban = {
+				attack = 0.1
+				movement = 0.1
+			}
+			river = {
+				attack = 0.1
+				movement = 0.1
+			}
+			amphibious = {
+				attack = 0.1
+				movement = 0.1
+			}
 		}
 		
 		path = {
