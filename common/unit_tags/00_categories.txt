@@ -20,15 +20,19 @@ sub_unit_categories = {
 	category_hospital # yeah
 	category_logistics # yeah
 	
-	category_special_forces # all racial tech tree units
+	category_special_forces	# all racial tech tree units
+	
 	category_juggernauts
 	category_wind_riders
 	category_unicorn_support
 	category_mages
+	
 	category_highlanders
 	category_rune_warrior
 	category_battle_seers
 	category_vanguards
+	
+	category_griffonknights
 	
 	category_artillery # all artillery
 	category_line_artillery # artillery in front
