@@ -816,6 +816,20 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		enable_subunits = {
+            griffon_falcon_unit
+        }
+		
+		enable_equipments = {
+			anti_armor_inf_equipment_0
+		}
+		
+		category_griffonfalcons = {
+			maximum_speed = 0.5
+			hard_attack = 0.25
+			ap_attack = 0.25
+		}
+		
 		path = {
 			leads_to_tech = ambush_tactics
 			research_cost_coeff = 1
@@ -841,6 +855,11 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		category_griffonfalcons = {
+			max_organisation = 5
+			supply_consumption_factor = 0.1
 		}
 		
 		path = {
@@ -870,6 +889,12 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		category_griffonfalcons = {
+			supply_consumption_factor = 0.1
+			hard_attack = 0.25
+			ap_attack = 0.25
+		}
+		
 		path = {
 			leads_to_tech = anti_armor_musket
 			research_cost_coeff = 1
@@ -895,6 +920,10 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		enable_equipments = {
+			anti_armor_inf_equipment_1
 		}
 		
 		path = {
@@ -931,7 +960,13 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
-
+		
+		category_griffonfalcons = {
+			supply_consumption_factor = 0.1
+			maximum_speed = 0.5
+			army_morale = 0.2
+		}
+		
 		xor = {
 			deadly_as_eagle
 		}
@@ -966,7 +1001,13 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
-
+		
+		category_griffonfalcons = {
+			supply_consumption_factor = 0.1
+			soft_attack = 0.5
+			hard_attack = 0.1
+		}
+		
 		xor = {
 			fast_as_hawk
 		}
@@ -1001,7 +1042,14 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
-
+		
+		category_griffonfalcons = {
+			supply_consumption_factor = 0.1
+			maximum_speed = 0.15
+			ap_attack = 0.15
+			defense = 0.2
+		}
+		
 		xor = {
 			explosive_ammunition
 		}
@@ -1032,7 +1080,13 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
-
+		
+		category_griffonfalcons = {
+			supply_consumption_factor = 0.1
+			hard_attack = 0.25
+			ap_attack = 0.25
+		}
+		
 		xor = {
 			guerilla_training
 		}
@@ -1064,6 +1118,13 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		category_griffonfalcons = {
+			supply_consumption_factor = 0.1
+			hard_attack = 0.15
+			soft_attack = 0.15
+			ap_attack = 0.15
+		}
+		
 		path = {
 			leads_to_tech = 
 			research_cost_coeff = 1
@@ -1089,6 +1150,10 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		enable_equipments = {
+			anti_armor_inf_equipment_2
 		}
 		
 		path = {
@@ -1118,6 +1183,10 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		enable_equipments = {
+			anti_armor_inf_equipment_3
+		}
+		
 		path = {
 			leads_to_tech = 
 			research_cost_coeff = 1
@@ -1144,6 +1213,22 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		enable_subunits = {
+            griffon_landship_unit
+			griffon_landship_support_unit
+        }
+		
+		enable_equipments = {
+			landship_equipment_0
+        }
+		
+		category_griffonlandship_support = {
+			soft_attack = -0.4
+			hard_attack = -0.4
+			breakthrough = -0.4
+			defense = -0.4
 		}
 		
 		path = {
@@ -1181,6 +1266,13 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		category_griffonlandship = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			ap_attack = 0.1
+			supply_consumption_factor = 0.15
+		}
+		
 		path = {
 			leads_to_tech = heat_shells
 			research_cost_coeff = 1
@@ -1206,6 +1298,13 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		category_griffonlandship = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+			ap_attack = 0.15
+			supply_consumption_factor = 0.2
 		}
 		
 		path = {
@@ -1235,6 +1334,13 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		category_griffonlandship = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+			ap_attack = 0.2
+			supply_consumption_factor = 0.25
+		}
+		
 		path = {
 			leads_to_tech = 
 			research_cost_coeff = 1
@@ -1262,6 +1368,10 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		enable_equipments = {
+			landship_equipment_1
+        }
+		
 		path = {
 			leads_to_tech = modern_landship
 			research_cost_coeff = 1
@@ -1271,7 +1381,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 30 y = 2 }
+			position = { x = 30 y = 3 }
 		}
 		
 		categories = {
@@ -1289,6 +1399,10 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		enable_equipments = {
+			landship_equipment_2
+        }
+		
 		path = {
 			leads_to_tech = 
 			research_cost_coeff = 1
@@ -1298,7 +1412,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 30 y = 6 }
+			position = { x = 30 y = 7 }
 		}
 		
 		categories = {
@@ -1314,6 +1428,13 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		category_griffonlandship = {
+			armor_value = 0.1
+			defense = 0.1
+			breakthrough = 0.1
+			supply_consumption_factor = 0.15
 		}
 		
 		path = {
@@ -1343,6 +1464,13 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		category_griffonlandship = {
+			armor_value = 0.15
+			defense = 0.15
+			breakthrough = 0.15
+			supply_consumption_factor = 0.2
+		}
+		
 		path = {
 			leads_to_tech = magical_reactive_armor
 			research_cost_coeff = 1
@@ -1370,6 +1498,13 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		category_griffonlandship = {
+			armor_value = 0.2
+			defense = 0.2
+			breakthrough = 0.2
+			supply_consumption_factor = 0.25
+		}
+		
 		path = {
 			leads_to_tech = 
 			research_cost_coeff = 1
@@ -1395,6 +1530,26 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		enable_subunits = {
+			griffon_crystalcannon_unit
+			griffon_crystalcannon_support_unit
+		}
+		
+		enable_equipments = {
+			spell_cannon_equipment_0
+		}
+		
+		enable_equipment_modules = { 
+			light_naval_battery_griffon_1
+		}
+		
+		category_griffonspellcannon_support = {
+			soft_attack = -0.4
+			hard_attack = -0.4
+			breakthrough = -0.4
+			defense = -0.4
 		}
 		
 		path = {
@@ -1431,7 +1586,12 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
-
+		
+		category_griffonspellcannon = {
+			soft_attack = 0.75
+			supply_consumption_factor = 0.15
+		}
+		
 		xor = {
 			focused_beam
 		}
@@ -1466,7 +1626,13 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
-
+		
+		category_griffonspellcannon = {
+			hard_attack = 0.2
+			ap_attack = 0.2
+			supply_consumption_factor = 0.15
+		}
+		
 		xor = {
 			split_canister_beam
 		}
@@ -1501,7 +1667,14 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
-
+		
+		category_griffonspellcannon = {
+			soft_attack = 0.3
+			hard_attack = 0.2
+			ap_attack = 0.2
+			supply_consumption_factor = 0.3
+		}
+		
 		xor = {
 			reusable_crystal
 		}
@@ -1536,7 +1709,13 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
-
+		
+		category_griffonspellcannon = {
+			soft_attack = 0.25
+			hard_attack = 0.05
+			supply_consumption_factor = -0.6
+		}
+		
 		xor = {
 			disintegrating_crystal
 		}
@@ -1571,7 +1750,13 @@ technologies = {
 		dependencies = {
 			griffon_race = 1
 		}
-
+		
+		category_griffonspellcannon = {
+			soft_attack = 0.75
+			defense = 0.5
+			supply_consumption_factor = 0.3
+		}
+		
 		xor = {
 			superheated_beam
 		}
@@ -1601,6 +1786,13 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		category_griffonspellcannon = {
+			hard_attack = 0.2
+			ap_attack = 0.2
+			air_attack = 0.3
+			supply_consumption_factor = 0.3
 		}
 
 		xor = {
@@ -1634,6 +1826,14 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		enable_equipments = {
+			spell_cannon_equipment_1
+		}
+		
+		enable_equipment_modules = { 
+			light_naval_battery_griffon_2
+		}
+		
 		path = {
 			leads_to_tech = modern_spell_cannon
 			research_cost_coeff = 1
@@ -1659,6 +1859,14 @@ technologies = {
 
 		dependencies = {
 			griffon_race = 1
+		}
+		
+		enable_equipments = {
+			spell_cannon_equipment_2
+		}
+		
+		enable_equipment_modules = { 
+			light_naval_battery_griffon_3
 		}
 		
 		path = {
