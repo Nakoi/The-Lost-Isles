@@ -48,4 +48,308 @@ sub_units = {
 			rifle_equipment = 75
 		}
 	}
+	
+	griffon_falcon_unit = {
+		sprite = light_armor
+		map_icon_category = armored
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		special_forces = yes
+		can_be_parachuted = yes
+		
+		categories = {
+			category_army
+			category_front_line
+			category_all_infantry
+			category_special_forces 
+			category_elite_infantry 
+			category_griffonfalcons
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 12.5
+		max_organisation = 40
+		default_morale = 0.5
+		manpower = 500
+
+		#Misc Abilities
+		training_time = 50
+		suppression = 1
+		weight = 0.25
+		
+		supply_consumption = 0.01
+		
+		forest = {
+			movement = 0.15
+		}
+		
+		hills = {
+			movement = 0.15
+		}
+		
+		mountain = {
+			movement = 0.15
+		}
+
+		jungle = {
+			movement = 0.15
+		}
+		
+		marsh = {
+			movement = 0.15
+		}
+		
+		desert = {
+			movement = 0.15
+		}
+		
+		need = {
+			anti_armor_inf_equipment = 75
+		}
+	}
+	
+	griffon_landship_unit = {
+		sprite = light_armor
+		map_icon_category = armored
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		special_forces = yes
+		can_be_parachuted = yes
+		
+		categories = {
+			category_army
+			category_front_line
+			category_griffonlandship
+		}
+		
+		combat_width = 3
+		
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 8
+		default_morale = 0.2
+		manpower = 250
+
+		#Misc Abilities
+		training_time = 120
+		suppression = 2.5
+		weight = 1
+		
+		supply_consumption = 0.1
+		
+		forest = {
+			attack = -0.3
+			movement = -0.4
+		}
+		hills = {
+			attack = -0.1
+		}
+		mountain = {
+			attack = -0.2
+		}
+		jungle = {
+			attack = -0.4
+			movement = -0.4
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.1
+		}
+		urban = {
+			attack = -0.4
+			defense = -0.1
+			movement = -0.1
+		}
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.8
+		}
+		
+		need = {
+			landship_equipment = 24
+		}
+	}
+	
+	griffon_landship_support_unit = {
+		abbreviation = "INF"
+		sprite = infantry
+		map_icon_category = infantry
+		can_be_parachuted = yes
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			support
+		}
+		
+		group = support
+		special_forces = yes
+		can_be_parachuted = yes
+		
+		categories = {
+			category_army
+			category_support_battalions
+			category_griffonlandship
+			category_griffonlandship_support
+		}
+		
+		combat_width = 0
+		#Size Definitions
+		max_strength = 0.5
+		max_organisation = 8
+		default_morale = 0.2
+		manpower = 125
+
+		#Misc Abilities
+		training_time = 120
+		suppression = 0
+		weight = 0.5
+		
+		supply_consumption = 0.1
+	
+		need = {
+			landship_equipment = 12
+		}
+	}
+	
+	griffon_crystalcannon_unit = {
+		sprite = light_armor
+		map_icon_category = armored
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		special_forces = yes
+		can_be_parachuted = yes
+		
+		categories = {
+			category_army
+			category_front_line
+			category_artillery
+			category_line_artillery
+			category_griffonspellcannon
+		}
+		
+		combat_width = 3
+		
+		#Size Definitions
+		max_strength = 0.3
+		max_organisation = 0
+		default_morale = 0.05
+		manpower = 250
+
+		#Misc Abilities
+		training_time = 40
+		suppression = 0
+		weight = 0.25
+		
+		supply_consumption = 0.1
+		
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+		hills = {
+			movement = -0.05
+		}
+		mountain = {
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.25
+			movement = -0.2
+		}
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.4
+			movement = -0.2
+		}
+		fort = {
+			attack = 0.1
+		}
+		
+		need = {
+			spell_cannon_equipment = 18
+		}
+	}
+	
+	griffon_crystalcannon_support_unit = {
+		abbreviation = "INF"
+		sprite = infantry
+		map_icon_category = infantry
+		can_be_parachuted = yes
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			support
+		}
+		
+		group = support
+		special_forces = yes
+		can_be_parachuted = yes
+		
+		categories = {
+			category_army
+			category_support_battalions
+			category_artillery
+			category_support_artillery
+			category_griffonspellcannon
+			category_griffonspellcannon_support
+		}
+		
+		combat_width = 0
+		#Size Definitions
+		max_strength = 0.1
+		max_organisation = 0
+		default_morale = 0.05
+		manpower = 75
+
+		#Misc Abilities
+		training_time = 40
+		suppression = 0
+		weight = 0.05
+		
+		supply_consumption = 0.1
+	
+		need = {
+			spell_cannon_equipment = 6
+		}
+	}
 }
