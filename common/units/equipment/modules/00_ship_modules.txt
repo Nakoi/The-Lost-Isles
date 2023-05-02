@@ -599,7 +599,7 @@ equipment_modules = {
 	
 	light_planking_griffon_2 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_8
+		gfx = ship_armor_thin_9
 		
 		multiply_stats = {
 			build_cost_ic = 0.15
@@ -612,7 +612,7 @@ equipment_modules = {
 	
 	light_planking_griffon_3 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_8
+		gfx = ship_armor_thin_10
 		
 		multiply_stats = {
 			build_cost_ic = 0.15
@@ -755,7 +755,7 @@ equipment_modules = {
 	
 	heavy_planking_griffon_2 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_8
+		gfx = ship_armor_cruiser_9
 		
 		multiply_stats = {
 			build_cost_ic = 0.15
@@ -770,7 +770,7 @@ equipment_modules = {
 	
 	heavy_planking_griffon_3 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_8
+		gfx = ship_armor_cruiser_10
 		
 		multiply_stats = {
 			build_cost_ic = 0.15
@@ -870,7 +870,7 @@ equipment_modules = {
 			build_cost_ic = 180	
 		}
 		multiply_stats = {
-			naval_speed = -0.2
+			naval_speed = -0.02
 		}
 		add_average_stats = {
 			lg_armor_piercing = 2
@@ -939,6 +939,63 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 20
 		}
+		critical_parts = { damaged_light_guns }
+	}
+	
+	light_naval_battery_griffon_1 = {
+		abbreviation = "saa"
+		category = module_light_lg
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 10
+			build_cost_ic = 370
+		}
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+		add_average_stats = {
+			lg_armor_piercing = 24
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+	
+	light_naval_battery_griffon_2 = {
+		abbreviation = "saa"
+		category = module_light_lg
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 24
+			build_cost_ic = 700
+		}
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+		add_average_stats = {
+			lg_armor_piercing = 36
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+	
+	light_naval_battery_griffon_3 = {
+		abbreviation = "saa"
+		category = module_light_lg
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 32
+			build_cost_ic = 1500
+		}
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+		add_average_stats = {
+			lg_armor_piercing = 42
+		}
+
 		critical_parts = { damaged_light_guns }
 	}
 
