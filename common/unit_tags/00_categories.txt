@@ -5,7 +5,7 @@ sub_unit_categories = {
 	category_army # all army
 	category_front_line # all front units 
 	
-	category_all_infantry # all infantry
+	category_tli_all_infantry # all infantry
 	category_regular_infantry # normal infantry specific
 	category_militia # militia specific
 	category_armored_infantry # armored infantry specific
