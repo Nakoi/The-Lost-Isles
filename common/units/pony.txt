@@ -24,9 +24,7 @@ sub_units = {
 			category_army
 			category_front_line
 			category_all_infantry
-			category_special_forces 
-			category_ranged  
-			category_elite_infantry 
+			category_all_racial_units 
 			category_juggernauts
 		}
 		
@@ -43,7 +41,7 @@ sub_units = {
 		suppression = 1
 		weight = 0.5
 		
-		supply_consumption = -0.02
+		supply_consumption = 0.01
 	
 		need = {
 			rifle_equipment = 75
@@ -81,7 +79,8 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_special_forces
+			category_all_infantry
+			category_all_racial_units 
 			category_wind_riders
 		}
 		
@@ -98,7 +97,7 @@ sub_units = {
 		suppression = 1
 		weight = 0.5
 		
-		supply_consumption = -0.01
+		supply_consumption = 0.01
 	
 		need = {
 			gunlance_equipment = 70
@@ -155,7 +154,6 @@ sub_units = {
 			category_army
 			category_support_battalions
 			category_unicorn_support
-
 		}
 		
 		combat_width = 0
@@ -171,7 +169,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.5
 		
-		supply_consumption = -0.1
+		supply_consumption = 0.03
 	
 		need = {
 			magical_equipment = 40
@@ -198,9 +196,9 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_special_forces
+			category_all_infantry
+			category_all_racial_units 
 			category_mages
-
 		}
 		
 		combat_width = 0

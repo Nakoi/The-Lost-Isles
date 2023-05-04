@@ -24,8 +24,7 @@ sub_units = {
 			category_army
 			category_front_line
 			category_all_infantry
-			category_special_forces 
-			category_elite_infantry 
+			category_all_racial_units 
 			category_griffonknights
 		}
 		
@@ -69,8 +68,7 @@ sub_units = {
 			category_army
 			category_front_line
 			category_all_infantry
-			category_special_forces 
-			category_elite_infantry 
+			category_all_racial_units 
 			category_griffonfalcons
 		}
 		
@@ -137,6 +135,8 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
+			category_artillery
+			category_line_artillery 
 			category_griffonlandship
 		}
 		
@@ -208,9 +208,11 @@ sub_units = {
 		special_forces = yes
 		can_be_parachuted = yes
 		
-		categories = {
+		categories = {	
 			category_army
 			category_support_battalions
+			category_artillery
+			category_support_artillery
 			category_griffonlandship
 			category_griffonlandship_support
 		}
@@ -227,7 +229,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.5
 		
-		supply_consumption = 0.1
+		supply_consumption = 0.05
 	
 		need = {
 			landship_equipment = 12
@@ -254,7 +256,7 @@ sub_units = {
 			category_army
 			category_front_line
 			category_artillery
-			category_line_artillery
+			category_line_artillery 
 			category_griffonspellcannon
 		}
 		
@@ -325,7 +327,7 @@ sub_units = {
 		special_forces = yes
 		can_be_parachuted = yes
 		
-		categories = {
+		categories = {	
 			category_army
 			category_support_battalions
 			category_artillery
@@ -346,7 +348,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.1
+		supply_consumption = 0.05
 	
 		need = {
 			spell_cannon_equipment = 6
