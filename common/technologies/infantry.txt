@@ -133,7 +133,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -244,7 +244,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -297,7 +297,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -410,7 +410,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             hard_attack = 0.1
             breakthrough = 0.1
 			supply_consumption = 0.02
@@ -518,7 +518,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             soft_attack = 0.1
             breakthrough = 0.1
         }
@@ -579,7 +579,7 @@ technologies = {
         #    <type> = <float>
         #}
         
-        category_all_infantry = {
+        category_tli_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -632,7 +632,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             soft_attack = 0.1
             ap_attack = 0.1
             supply_consumption = 0.02
@@ -746,7 +746,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -798,7 +798,7 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
-        category_all_infantry = {
+        category_tli_all_infantry = {
             soft_attack = 0.1
             ap_attack = 0.05
         }
@@ -852,7 +852,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             soft_attack = 0.1
             ap_attack = 0.1
             supply_consumption = 0.02
@@ -1176,7 +1176,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             hard_attack = 0.15
             ap_attack = 0.15
             supply_consumption = 0.03
@@ -1230,7 +1230,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             hard_attack = 0.15
             ap_attack = 0.15
         }
@@ -1283,7 +1283,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             hard_attack = 0.15
             ap_attack = 0.15
         }
@@ -1331,7 +1331,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             hard_attack = 0.25
             ap_attack = 0.25
         }
@@ -1385,7 +1385,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -1433,7 +1433,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             soft_attack = 0.1
         }
     }
@@ -1486,7 +1486,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             ap_attack = 0.1 
             hard_attack = 0.1  
         }
@@ -1535,7 +1535,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             ap_attack = 0.1 
             hard_attack = 0.1
         }
@@ -1588,7 +1588,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.1
             breakthrough = 0.1
         }
@@ -1646,7 +1646,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -1715,7 +1715,7 @@ technologies = {
             supply_consumption = 0.04
         }
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -1779,7 +1779,7 @@ technologies = {
             defense = 0.05
             hardness = 3
         }
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -1841,7 +1841,7 @@ technologies = {
             defense = 0.05
             hardness = 3
         }
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -1903,7 +1903,7 @@ technologies = {
             defense = 0.05
             hardness = 3
         }
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -1960,7 +1960,7 @@ technologies = {
             defense = 0.05
             hardness = 3
         }
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -2020,7 +2020,7 @@ technologies = {
         #    <type> = <float>
         #}
         
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -2079,7 +2079,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -2138,7 +2138,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
         }
@@ -2197,7 +2197,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
             hardness = 3
@@ -2247,7 +2247,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        category_all_infantry = {
+        category_tli_all_infantry = {
             defense = 0.25
             breakthrough = 0.25
             hardness = 4
