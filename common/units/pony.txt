@@ -23,7 +23,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_all_infantry
+			category_tli_all_infantry
 			category_all_racial_units 
 			category_juggernauts
 		}
@@ -79,7 +79,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_all_infantry
+			category_tli_all_infantry
 			category_all_racial_units 
 			category_wind_riders
 		}
@@ -196,7 +196,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_all_infantry
+			category_tli_all_infantry
 			category_all_racial_units 
 			category_mages
 		}

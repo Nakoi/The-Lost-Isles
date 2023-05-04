@@ -34,7 +34,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_all_infantry
+			category_tli_all_infantry
 			category_regular_infantry
 		}
 		
@@ -82,7 +82,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_all_infantry
+			category_tli_all_infantry
 			category_militia
 		}
 		
@@ -190,7 +190,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_all_infantry
+			category_tli_all_infantry
 			category_armored_infantry
 		}
 		
@@ -240,7 +240,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_all_infantry
+			category_tli_all_infantry
 			category_motorized
 		}
 		
@@ -771,7 +771,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_all_infantry
+			category_tli_all_infantry
 			category_elite_infantry
 		}
 
@@ -848,7 +848,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_all_infantry
+			category_tli_all_infantry
 			category_elite_infantry
 		}
 
@@ -927,7 +927,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_all_infantry
+			category_tli_all_infantry
 			category_elite_infantry
 		}
 
