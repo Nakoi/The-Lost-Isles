@@ -13,6 +13,7 @@ sub_unit_categories = {
 	category_elite_infantry # the three special infantry types everyone gets
 	
 	category_support_battalions # all support units
+	category_machineguns
 	category_engineers # yeah
 	category_recon # yeah
 	category_maintenance # yeah
@@ -20,7 +21,7 @@ sub_unit_categories = {
 	category_hospital # yeah
 	category_logistics # yeah
 	
-	category_special_forces	# all racial tech tree units
+	category_all_racial_units	# all racial tech tree units
 	
 	category_juggernauts
 	category_wind_riders
@@ -48,10 +49,6 @@ sub_unit_categories = {
 	category_light_artillery #light arty specific 
 	category_howitzer # howitzer arty specific
 	category_rocket # rocket arty specific
-	
-	#category_light_cannon # spotten 1 instance - light arty
-	#category_ranged # none spotted
-	#category_heavy_infantry # spotten 1 instance - armored infantry
 	
 	category_air_frigate
 	category_air_bombardier
