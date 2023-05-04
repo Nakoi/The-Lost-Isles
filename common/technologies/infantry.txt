@@ -413,7 +413,7 @@ technologies = {
         category_tli_all_infantry = {
             hard_attack = 0.1
             breakthrough = 0.1
-			supply_consumption = 0.02
+			supply_consumption = 0.03
         }
     }
 
@@ -1179,7 +1179,7 @@ technologies = {
         category_tli_all_infantry = {
             hard_attack = 0.15
             ap_attack = 0.15
-            supply_consumption = 0.03
+            supply_consumption = 0.04
         }
     }
 
@@ -1712,7 +1712,7 @@ technologies = {
             breakthrough = 1
             defense = 0.1
             hardness = 14
-            supply_consumption = 0.04
+            supply_consumption = 0.03
         }
 
         category_tli_all_infantry = {
@@ -1721,6 +1721,11 @@ technologies = {
         }
         
         category_elite_infantry = {
+            armor_value = 5
+            breakthrough = 0.25
+        }
+		
+		category_all_racial_infantry = {
             armor_value = 5
             breakthrough = 0.25
         }
@@ -1786,6 +1791,10 @@ technologies = {
         category_elite_infantry = {
             armor_value = 3
         }
+		
+		category_all_racial_infantry = {
+            armor_value = 3
+        }
     }
 
     infantry_armor_upgrade_2 = {
@@ -1846,6 +1855,10 @@ technologies = {
             breakthrough = 0.2
         }
         category_elite_infantry = {
+            armor_value = 3
+        }
+		
+		category_all_racial_infantry = {
             armor_value = 3
         }
     }
@@ -1910,6 +1923,10 @@ technologies = {
         category_elite_infantry = {
             armor_value = 3
         }
+		
+		category_all_racial_infantry = {
+            armor_value = 3
+        }
     }
 
     infantry_armor_upgrade_4 = {
@@ -1965,6 +1982,9 @@ technologies = {
             breakthrough = 0.2
         }
         category_elite_infantry = {
+            armor_value = 3
+        }
+		category_all_racial_infantry = {
             armor_value = 3
         }
     }
@@ -2030,6 +2050,12 @@ technologies = {
             hardness = 10
             defense = 0.1
         }
+		category_all_racial_infantry = {
+            armor_value = 10
+            breakthrough = 0.5
+            hardness = 10
+            defense = 0.1
+        }
     }
 
     elite_armor_upgrade_1 = {
@@ -2089,6 +2115,12 @@ technologies = {
             hardness = 5
             defense = 0.05
         }
+		category_all_racial_infantry = {
+            armor_value = 7
+            breakthrough = 0.2
+            hardness = 5
+            defense = 0.05
+        }
     }
 
     elite_armor_upgrade_2 = {
@@ -2143,6 +2175,12 @@ technologies = {
             breakthrough = 0.2
         }
         category_elite_infantry = {
+            armor_value = 7
+            breakthrough = 0.2
+            hardness = 5
+            defense = 0.05
+        }
+		category_all_racial_infantry = {
             armor_value = 7
             breakthrough = 0.2
             hardness = 5
@@ -3140,9 +3178,13 @@ technologies = {
         enable_equipments = {
             motorized_equipment_1
         }
-
+		
         enable_subunits = {
             motor_infantry
+        }
+		
+		motor_infantry = {
+            supply_consumption = 0.04
         }
 
         dependencies = {
@@ -3231,9 +3273,9 @@ technologies = {
         #    <type> = <float>
         #}
 
-        motorized_infantry = {
+        motor_infantry = {
             armor_value = 10
-            supply_consumption = 0.15
+            supply_consumption = -0.02
         }
     }
 }
