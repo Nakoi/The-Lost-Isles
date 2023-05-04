@@ -208,7 +208,7 @@ sub_units = {
 		suppression = 1
 		weight = 0.5
 
-		supply_consumption = 0.06
+		supply_consumption = 0.01
 	
 		need = {
 			rifle_equipment = 80
@@ -256,7 +256,7 @@ sub_units = {
 		suppression = 1.5
 		weight = 0.4
 		
-		supply_consumption = 0.1
+		supply_consumption = 0.03
 		
 		transport = motorized_equipment
 		
@@ -343,7 +343,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.1
+		supply_consumption = 0.03
 	
 		need = {
 			machinegun_equipment = 12
@@ -416,7 +416,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.1
+		supply_consumption = 0.05
 	
 		need = {
 			rifle_equipment = 10
@@ -491,7 +491,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.1
+		supply_consumption = 0.05
 	
 		need = {
 			rifle_equipment = 30
@@ -573,7 +573,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.1
+		supply_consumption = 0.05
 		reliability_factor = 0.05
 		equipment_capture_factor = 0.05
 
@@ -622,7 +622,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.1
+		supply_consumption = 0.05
 		reliability_factor = 0.05
 		equipment_capture_factor = 0.05
 
@@ -672,7 +672,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.1
+		supply_consumption = 0.05
 		reliability_factor = 0.05
 		equipment_capture_factor = 0.05
 
