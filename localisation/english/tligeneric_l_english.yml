@@ -603,6 +603,41 @@
  generic_militia.1.d:0 "With all threats to the nation vanquished, our humble, though victorious citizen soldiers are trading their weapons for tools of their respective antebellum professions."
  generic_militia.1.a:0 "We will gladly oblige their yearning for home."
  
+###GENERAL TRAITS###
+ tli_bgtrait_buffoon:0 "Absolute Buffoon"
+ tli_bgtrait_buffoon_desc:0 "I personally wouldn't trust this general with a spoon, let alone an entire army corps. You have been warned."
+ tli_bgtrait_corrupt:0 "Corrupt"
+ tli_bgtrait_corrupt_desc:0 "Supplies seem to keep getting "lost" under this general's watch. At least they're competent enough to handle garrison command."
+ tli_bgtrait_aristocrat:0 "Aristocrat"
+ tli_bgtrait_aristocrat_desc:0 "This general has been born with a silver spoon readily available at any point in their life."
+ tli_bgtrait_butcher:0 "Butcher"
+ tli_bgtrait_butcher_desc:0 "This general seems to believe that 90% of reckless frontal assaults fail right before the defenders give up themselves."
+ tli_bgtrait_eccentric_genius:0 "Eccentric Genius"
+ tli_bgtrait_eccentric_genius_desc:0 "If you ignore this general's ramblings about hairless apes from an imported Equestrian fiction piece, they actually come up with pretty great ideas to overcome the enemy!"
+ tli_bgtrait_elderly:0 "Elderly"
+ tli_bgtrait_elderly_desc:0 "This general is a shadow of their former selves. They can defend just fine, however, chasing the enemy should be a job given to a different general."
+ tli_bgtrait_fanatic:0 "Fanatic"
+ tli_bgtrait_fanatic_desc:0 "This general is willing to sacrifice the lives of their soldiers for ideological or religious goals."
+ tli_bgtrait_gifted_administrator:0 "Gifted Administrator"
+ tli_bgtrait_gifted_administrator_desc:0 "This general can effectively lead more units due to their experience or just plain talent."
+ tli_bgtrait_innovative_tactician:0 "Innovative Tactician"
+ tli_bgtrait_innovative_tactician_desc:0 "This general knows what they're doing, especially on the defensive."
+ tli_bgtrait_insane:0 "Insane"
+ tli_bgtrait_insane_desc:0 "While this general is able to lead their corps just fine in peacetime, in battle they're a mess! They usually issue contradictory orders to their subordinates, in the proccess causing more damage to his side than to the enemy. At least they're willing to lead suicidal frontal assaults if asked of them."
+ tli_bgtrait_natural_leader:0 "Natural Leader"
+ tli_bgtrait_natural_leader_desc:0 "This general is a perfect fit for the job! However, I'd watch out if they get any... ambitious ideas."
+ tli_bgtrait_old_school:0 "Old School"
+ tli_bgtrait_old_school_desc:0 "This General has been taught the art of war, as it was written by an ancient Kirin Empire general from at least two millenia ago. Their abilites should not be underestimated, however."
+ tli_bgtrait_priest:0 "Priest"
+ tli_bgtrait_priest_desc:0 "This general is extremely religious. There isn't a moment where they aren't either fighting or praying."
+ tli_bgtrait_professor:0 "Professor"
+ tli_bgtrait_professor_desc:0 "This general is very good with numbers. They are able to effortlessly allocate just the right amount of supplies to the units under their command."
+ tli_bgtrait_uncommonly_young:0 "Uncommonly Young"
+ tli_bgtrait_uncommonly_young_desc:0 "This general is quite young and energetic compared to their peers. You can trust them to chase after the enemy, never giving them a chance to breathe!"
+ tli_bgtrait_war_hero:0 "War Hero"
+ tli_bgtrait_war_hero_desc:0 "This general has been graciously awarded their position due to their heroic actions. After going through a crash course in being a corps commander, I'm sure they'd do just fine!"
+ 
+ 
 ###GENERIC ADVISOR TRAITS###
  advtrait_rural_aristocrat:0 "Rural Aristocrat"
  advtrait_restless_warrior:0 "Restless Warrior"
@@ -840,3 +875,6 @@
  tlirelations_generic_small_opinion_decrease:0 "Minor Decrease in Opinion"
  tlirelations_generic_huge_opinion_decrease:0 "Decrease in Opinion"
  tlirelations_pan_pony_sentiment:0 "Pan-Pony Sentiment"
+ 
+###SHITS AND GIGGLES###
+ IAR_grisha_name:0 "Grisha"
