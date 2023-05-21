@@ -50,67 +50,277 @@
 #	new_commander_weight = {} # weight
 #	enable_ability = ability_key
 #}
+
 leader_traits = {
-
 	
+###################
+#BACKGROUND TRAITS#
+###################
 
-	old_guard = { 
+	tli_bgtrait_buffoon = { 
 		type = land
 		trait_type = personality_trait
 		
 		modifier = {
-			max_dig_in = 1
-		}
-		
-		non_shared_modifier = {
-			experience_gain_factor = -0.25
+			army_org_factor = -0.5
 		}
 
 		new_commander_weight = {
-			factor = 1
-
-			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
-				factor = 0
-			}
-			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
-				factor = 0
-			}
-			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
-				factor = 0
-			}
+			factor = 0 #assigned manually
 		}
-		
 	}
 	
-
-
-	old_guard_navy = { 
-		type = navy
+	tli_bgtrait_corrupt = { 
+		type = land
 		trait_type = personality_trait
 		
 		modifier = {
-			experience_gain_factor = -0.25 
+			army_org_factor = -0.1
+			supply_consumption_factor = 0.15
 		}
+
 		new_commander_weight = {
-			factor = 1  
-			modifier = {
-				FROM = { has_idea = best_of_the_best_naval_academy_spirit }
-				factor = 0
-			}
-			modifier = {
-				FROM = { has_idea = naval_academy_scholarships_spirit }
-				factor = 0
-			}
-			modifier = { #Purged Junior Navy Officers
-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
-				factor = 0
-			}
+			factor = 0 #assigned manually
 		}
+	}
+	
+	tli_bgtrait_aristocrat = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			promote_cost_factor = -0.9
+			experience_gain_factor = 0.1
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_butcher = { 
+		type = land
+		trait_type = personality_trait
+		
+		attack_skill = 5
+		
+		modifier = {
+			experience_loss_factor = 0.25
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_eccentric_genius = { 
+		type = land
+		trait_type = personality_trait
+		
+		planning_skill = 5
+		
+		modifier = {
+			army_org_factor = 0.1
+			army_morale_factor = -0.05
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_elderly = { 
+		type = land
+		trait_type = personality_trait
+		
+		defense_skill = 3
+		planning_skill = 3
+		
+		modifier = {
+			army_speed_factor = -0.15
+			planning_speed = -0.2
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_fanatic = { 
+		type = land
+		trait_type = personality_trait
+		
+		attack_skill = 2
+		
+		modifier = {
+			army_org_factor = 0.2
+			army_morale_factor = -0.1
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_gifted_administrator = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			army_org_factor = 0.1
+		}
+		
+		corps_commander_modifier = {
+			max_commander_army_size = 3
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_innovative_tactician = { 
+		type = land
+		trait_type = personality_trait
+		
+		defense_skill = 3
+		
+		modifier = {
+			planning_speed = 0.33
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_insane = { 
+		type = land
+		trait_type = personality_trait
+		
+		attack_skill = 3
+		
+		modifier = {
+			army_org_factor = -0.25
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_natural_leader = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			army_org_factor = 0.15
+			army_morale_factor = 0.15
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_old_school = { 
+		type = land
+		trait_type = personality_trait
+		
+		attack_skill = 2
+		defense_skill = 2
+		
+		modifier = {
+			experience_gain_factor = -0.33
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_priest = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			army_morale_factor = 0.1
+			land_reinforce_rate = 0.1
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_professor = { 
+		type = land
+		trait_type = personality_trait
+		
+		logistics_skill = 5
+		planning_skill = 2
+		
+		modifier = {
+			
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_uncommonly_young = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			experience_gain_factor = 0.25
+			army_speed_factor = 0.15
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+	tli_bgtrait_war_hero = { 
+		type = land
+		trait_type = personality_trait
+		
+		attack_skill = 1
+		defense_skill = 1
+		
+		modifier = {
+			promote_cost_factor = -0.5
+			reassignment_duration_factor = 0.5
+			army_org_factor = 0.1
+		}
+
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+	
+####################
+#PERSONALITY TRAITS#
+####################
+	
+	tli_pertrait_cautious = { 
+		type = corps_commander
+		
+		modifier = {
+			army_speed_factor = -0.15
+			army_defence_factor = 0.15
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
+		
+		new_commander_weight = {
+			factor = 1
+		}
+		
+		gui_row = 1
 	}
 }
