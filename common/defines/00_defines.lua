@@ -354,7 +354,15 @@ NCountry = {
 	CONVOYS_BEING_RAIDED_WEEKLY_WAR_SUPPORT_PENALTY_DECAY = 0.001,	-- Weekly decay of trade convoy raided war support penalty
 	MAX_CONVOYS_BEING_RAIDED_WAR_SUPPORT_IMPACT = -0.5,				-- Max total penalty from trade convoy raided
 
-
+	FEMALE_UNIT_LEADER_BASE_CHANCE = {
+		-- applies as a factor to female unit leader randomization
+		-- the values needs to be zero if you don't actually have random portraits
+		0, -- country leaders
+		0, -- army leaders
+		0, -- navy leaders
+		0, -- air leaders
+		0, -- operatives
+	},
 
 	CONVOYS_SUNK_MULTIPLIER_FOR_WAR_SUPPORT = 0.2,	-- once a trade convoy ship sunk, you will get a larger negative impact on your war support
 	CONVOYS_BEING_RAIDED_DAILY_WAR_SUPPORT_IMPACT_FROM_OVERSEA_STATES = 0.2,	-- resource transfer convoys convoys from our states being raided will give a daily war support penalty depending on how important that resource is and how inefficent convoys are
@@ -683,7 +691,7 @@ NMilitary = {
 	DIVISIONAL_COMMANDER_TRAIT_XP_REQUIREMENT = 600.0,	--Get a trait if any valid options & xp gained >= this
 	NUM_DAYS_FOR_OPERATION_ENTRY = 60,					--Number of days that a unit must have been on a particular active order instance to receive a history entry.
 	MAX_LEADERS_TO_SHOW = 50,							--Max officers to show in field officers list, sorted by field EXP. Divisions with awardable entries will potentially supercede this limit
-	BASE_FEMALE_DIVISIONAL_COMMANDER_CHANCE = 1,		--Chance to receive a female divisonal commander. This is set to zero in the base game, as we do not have generic female portraits for many graphical culture groups.
+	BASE_FEMALE_DIVISIONAL_COMMANDER_CHANCE = 0,		--Chance to receive a female divisonal commander. This is set to zero in the base game, as we do not have generic female portraits for many graphical culture groups.
 														--this expects a value between 0 and 1 and is added to by female_divisional_commander_chance. If you don't have female generic portraits defined, you -will- get silhouettes.
 
 	DIVISIONAL_COMMANDER_RANK_XP_THRESHOLD = { 		-- XP thresholds for divisional commander ranks. [TAG]_DIVISION_EXPERIENCE_TITLE_ARMY_EXPERIENCE_[array index]
@@ -1034,11 +1042,13 @@ NMilitary = {
 	HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS = 336, -- minimum hours required for units to rejoin border wars
 
 	NEW_COMMANDER_RANDOM_PERSONALITY_TRAIT_CHANCES = {  -- chances to gain a personality trait for new generals
-		0.5, -- 50% for first trait
-		0.15  -- 15% for second trait after that
+		1,
+		1,
 	},
 
 	NEW_COMMANDER_RANDOM_BASIC_TRAIT_CHANCES = {  -- chances to gain a basic trait for new generals
+		1,
+		0.5,
 	},
 
 	NEW_COMMANDER_RANDOM_STATUS_TRAIT_CHANCES = {  -- chances to gain a status trait for new generals
