@@ -540,7 +540,7 @@ technologies = {
 	air_frigate_upgrade_alt1= {
 
 		category_air_frigate = {
-			 air_ground_attack = 0.10
+			 air_attack = 0.15
 		}
 		
 		path = {
@@ -749,7 +749,7 @@ technologies = {
 	air_frigate_upgrade_alt3 = {
 
 		category_air_frigate = {
-			air_defence = 0.10
+			 air_defence = 0.15
 		}
 		
 		path = {
@@ -829,7 +829,7 @@ technologies = {
 	air_frigate_upgrade_alt4 = {
 
 		category_air_frigate = {
-			air_ground_attack = 0.10
+			air_attack  = 0.10
 		}
 
 		path = {
@@ -948,7 +948,6 @@ technologies = {
 	reliable_loadout = {
 
 		category_sky_cruiser = {
-			air_ground_attack = 0.05
 			air_bombing = 0.05
 			air_attack = 0.05
 			reliability = 0.05
@@ -992,7 +991,6 @@ technologies = {
 	experimental_loadout = {
 
 		category_sky_cruiser = {
-			air_ground_attack = 0.15
 			air_bombing = 0.15 
 			air_attack = 0.15
 			reliability = -0.10
@@ -1119,7 +1117,7 @@ technologies = {
 	sky_carrier_upgrade1 = {
 
 		category_sky_carrier = {
-			air_ground_attack = 0.10
+			air_bombing = 0.10
 		}
 		
 		path = {
@@ -1406,7 +1404,7 @@ technologies = {
 	sky_carrier_upgrade4 = {
 
 		category_sky_carrier = {
-			air_ground_attack = 0.15 
+			air_bombing = 0.15
 		}
 
 		path = {
