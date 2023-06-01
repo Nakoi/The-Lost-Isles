@@ -255,7 +255,7 @@ technologies = {
 	tech_engineers4 = {
 
 		tli_sapper_company = {
-			entrenchment  = 5
+			entrenchment  = 6
 		}
 
 		path = {
@@ -1073,8 +1073,8 @@ technologies = {
 		}
 
 			tli_field_hospital_company = {
-				casualty_trickleback = 0.10
-				experience_loss_factor = -0.10
+				casualty_trickleback = 0.05
+				experience_loss_factor = -0.05
 			}
 		
 		path = {
@@ -1115,8 +1115,8 @@ technologies = {
 	tech_field_hospital2 = {
 
 		tli_field_hospital_company = {
-			casualty_trickleback = 0.15
-			experience_loss_factor = -0.15
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
 		}
 		
 		path = {
@@ -1156,8 +1156,8 @@ technologies = {
 	tech_field_hospital3 = {
 
 		tli_field_hospital_company = {
-			casualty_trickleback = 0.15
-			experience_loss_factor = -0.15
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.1
 		}
 
 		path = {
@@ -1196,8 +1196,8 @@ technologies = {
 	tech_field_hospital4 = {
 
 		tli_field_hospital_company = {
-			casualty_trickleback = 0.20
-			experience_loss_factor = -0.20
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.1
 		}
 		
 		dependencies = {

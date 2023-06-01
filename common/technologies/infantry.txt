@@ -316,8 +316,9 @@ technologies = {
         }
         
         path = {
-			leads_to_tech = gunpowder
+			leads_to_tech = crossbow1
 			research_cost_coeff = 1
+		
 		}
         
 		dependencies = {
@@ -363,15 +364,15 @@ technologies = {
 
     gunpowder = {
         research_cost = 1.8 # Cost in time, where 1 is the default research time length.
-        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
+        start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
-			leads_to_tech = infantry_weapons3
+			leads_to_tech = crossbow1
 			research_cost_coeff = 1
         }
 		
 		dependencies = {
-            tech_civilized = 1
+            tech_primitive = 1
         }
 		
         # Controls which folder (tab) the technology appears under.
@@ -381,7 +382,7 @@ technologies = {
             # Position in the tech tree interface
             position = { 
                 x = 0
-                y = @800
+                y = @600
             }
         }
         
@@ -1465,7 +1466,7 @@ technologies = {
         }
 
         path = {
-			leads_to_tech = crossbow1
+			leads_to_tech = gunpowder
 			research_cost_coeff = 1
         }
         
@@ -1494,7 +1495,7 @@ technologies = {
 
     crossbow1 = {
         research_cost = 1.8 # Cost in time, where 1 is the default research time length.
-        start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
+        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
         
 		dependencies = {
             tech_primitive = 1
@@ -1507,7 +1508,7 @@ technologies = {
             # Position in the tech tree interface
             position = { 
                 x = 0
-                y = @600
+                y = @800
             }
         }
         
@@ -1516,6 +1517,11 @@ technologies = {
             tli_infantry
 			infantry_weapons
 			infantry_primitiveeq
+        }
+		
+		path = {
+			leads_to_tech = infantry_weapons3
+			research_cost_coeff = 1
         }
         
         # Weighting for the AI to pick the technology
