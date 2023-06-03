@@ -1309,15 +1309,15 @@ decisioncat_eak_breakout = {
 		allowed = {
 			tag = EAK
 		}
-
+		
 		available = {
 			has_navy_size = {
-				size > 4
-				archetype = ship_hull_cruiser
+				size > 3
+				type = capital_ship
 			}
 			has_navy_size = {
-				size > 9
-				archetype = galley_hull
+				size > 7
+				type = screen_ship
 			}
 		}
 
@@ -1354,15 +1354,15 @@ decisioncat_eak_breakout = {
 		allowed = {
 			tag = EAK
 		}
-
+		
 		available = {
 			has_navy_size = {
-				size > 9
-				archetype = ship_hull_cruiser
+				size > 5
+				type = capital_ship
 			}
 			has_navy_size = {
-				size > 14
-				archetype = galley_hull
+				size > 11
+				type = screen_ship
 			}
 		}
 
@@ -1400,15 +1400,15 @@ decisioncat_eak_breakout = {
 		allowed = {
 			tag = EAK
 		}
-
+		
 		available = {
 			has_navy_size = {
-				size > 14
-				archetype = ship_hull_cruiser
+				size > 7
+				type = capital_ship
 			}
 			has_navy_size = {
-				size > 19
-				archetype = galley_hull
+				size > 15
+				type = screen_ship
 			}
 		}
 
@@ -1451,13 +1451,15 @@ decisioncat_eak_breakout = {
 				size > 2
 				archetype = ship_hull_heavy
 			}
+		}
+		available = {
 			has_navy_size = {
-				size > 14
-				archetype = ship_hull_cruiser
+				size > 7
+				type = capital_ship
 			}
 			has_navy_size = {
-				size > 19
-				archetype = galley_hull
+				size > 15
+				type = screen_ship
 			}
 		}
 
@@ -1500,13 +1502,15 @@ decisioncat_eak_breakout = {
 				size > 2
 				archetype = ship_hull_heavy
 			}
+		}
+		available = {
 			has_navy_size = {
-				size > 17
-				archetype = ship_hull_cruiser
+				size > 9
+				type = capital_ship
 			}
 			has_navy_size = {
-				size > 23
-				archetype = galley_hull
+				size > 19
+				type = screen_ship
 			}
 		}
 
@@ -1543,19 +1547,21 @@ decisioncat_eak_breakout = {
 		allowed = {
 			tag = EAK
 		}
-
+		
 		available = {
 			has_navy_size = {
 				size > 2
 				archetype = ship_hull_heavy
 			}
+		}
+		available = {
 			has_navy_size = {
-				size > 19
-				archetype = ship_hull_cruiser
+				size > 11
+				type = capital_ship
 			}
 			has_navy_size = {
-				size > 24
-				archetype = galley_hull
+				size > 23
+				type = screen_ship
 			}
 		}
 
@@ -1592,19 +1598,21 @@ decisioncat_eak_breakout = {
 		allowed = {
 			tag = EAK
 		}
-
+		
 		available = {
 			has_navy_size = {
-				size > 4
+				size > 5
 				archetype = ship_hull_heavy
 			}
+		}
+		available = {
 			has_navy_size = {
-				size > 24
-				archetype = ship_hull_cruiser
+				size > 11
+				type = capital_ship
 			}
 			has_navy_size = {
-				size > 29
-				archetype = galley_hull
+				size > 23
+				type = screen_ship
 			}
 		}
 
@@ -1641,19 +1649,21 @@ decisioncat_eak_breakout = {
 		allowed = {
 			tag = EAK
 		}
-
+		
 		available = {
 			has_navy_size = {
 				size > 5
 				archetype = ship_hull_heavy
 			}
+		}
+		available = {
 			has_navy_size = {
-				size > 25
-				archetype = ship_hull_cruiser
+				size > 15
+				type = capital_ship
 			}
 			has_navy_size = {
 				size > 31
-				archetype = galley_hull
+				type = screen_ship
 			}
 		}
 
