@@ -1021,7 +1021,13 @@ technologies = {
             ap_attack = 0.2
             air_attack = 0.75
             entrenchment = 1
+			need = {
+			    machinegun_equipment = 6
+			}
         }
+		on_research_complete = {
+			custom_effect_tooltip = gentext_machinegun_need
+		}
     }
 
     machine_gun_upgrade_2 = {
@@ -1076,7 +1082,13 @@ technologies = {
             ap_attack = 0.2
             air_attack = 0.75
             entrenchment = 1
+			need = {
+			    machinegun_equipment = 6
+			}
         }
+		on_research_complete = {
+			custom_effect_tooltip = gentext_machinegun_need
+		}
     }
 
     machine_gun_upgrade_3 = {
@@ -1127,7 +1139,13 @@ technologies = {
             ap_attack = 0.2
             air_attack = 0.75
             entrenchment = 1
+			need = {
+			    machinegun_equipment = 6
+			}
         }
+		on_research_complete = {
+			custom_effect_tooltip = gentext_machinegun_need
+		}
     }
 
     grenades_1 = {

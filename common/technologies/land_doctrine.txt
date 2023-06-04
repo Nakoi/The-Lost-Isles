@@ -19,8 +19,8 @@ technologies = {
             research_cost_coeff = 1
         }
 		
-		category_army = {
-			max_organisation = 0.15
+		category_tli_all_infantry = {
+			max_organisation = 5
 		}
 		
         minimum_training_level = -0.05
@@ -35,7 +35,6 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		ai_will_do = {
@@ -73,7 +72,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -103,7 +101,7 @@ technologies = {
 		
         melee_equipment_cost = -0.10
 
-        category_army = {
+        category_tli_all_infantry = {
             defense = 0.10
             breakthrough = 0.10
         }
@@ -114,7 +112,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -157,7 +154,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -185,8 +181,8 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 50
 		
-		category_army = {
-			combat_width = -0.05
+		ranged_infantry = {
+			combat_width = -0.5
 		}
 		
         land_reinforce_rate = 0.10
@@ -197,7 +193,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -245,7 +240,7 @@ technologies = {
 		
 		category_artillery = {
 			soft_attack = 0.10
-            max_organisation = 0.20
+            max_organisation = 10
 		}
 
 		doctrine = yes	
@@ -258,7 +253,6 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		ai_will_do = {
@@ -300,7 +294,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -331,10 +324,20 @@ technologies = {
 		category_artillery = {
             soft_attack = 0.15
             hard_attack = 0.10
-			Fort = {
+		}
+		cannon_frontline = {
+			fort = {
                 attack = 0.25
             }
-            Urban = {
+            urban = {
+                attack = 0.25
+            }
+		}
+		mortar_frontline = {
+			fort = {
+                attack = 0.25
+            }
+            urban = {
                 attack = 0.25
             }
 		}
@@ -345,7 +348,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -373,7 +375,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 50
 		
-		category_army = {
+		ranged_infantry = {
 			defense = 0.15
 		}
         dig_in_speed_factor = 0.10
@@ -390,7 +392,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -422,14 +423,12 @@ technologies = {
 			soft_attack = 0.10
             hard_attack = 0.10
 		}
-
 		
 		doctrine = yes	
 		research_cost = 4.5
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -475,12 +474,14 @@ technologies = {
             research_cost_coeff = 1
         }
 		
-		category_army = {
+		category_tli_all_infantry = {
 			defense = 0.10
-            max_organisation = 0.10
-            breakthrough = 0.10
 		}
-
+		ranged_infantry = {
+			breakthrough = 0.10
+			max_organisation = 5
+		}
+		
 		doctrine = yes	
 		research_cost = 2.25
 
@@ -491,7 +492,6 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		ai_will_do = {
@@ -514,9 +514,9 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 50
 		
-		category_army = {
+		ranged_infantry = {
 			maximum_speed = 0.15
-            max_organisation = 0.10
+			max_organisation = 5
 		}
 		
 		path = {
@@ -531,7 +531,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -559,7 +558,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 50
 		
-		category_army = {
+		ranged_infantry = {
 			soft_attack = 0.10
             ap_attack = 0.10
 		}
@@ -570,7 +569,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -598,7 +596,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 50
 		
-		category_army = {
+		ranged_infantry = {
 			defense = 0.10
             breakthrough = 0.10
 		}
@@ -615,7 +613,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -644,9 +641,10 @@ technologies = {
 		xp_unlock_cost = 50
 		
 		category_support_battalions = {
-			max_organisation = 0.10
+			max_organisation = 10
 		}
-        category_line_artillery = {
+		
+        category_support_artillery = {
             soft_attack = 0.15
         }
 
@@ -656,7 +654,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -702,8 +699,11 @@ technologies = {
             research_cost_coeff = 1
         }
 		
-		category_special_forces = {
-			max_organisation = 0.05
+		category_elite_infantry = {
+			max_organisation = 5
+		}
+		category_all_racial_infantry = {
+			max_organisation = 5
 		}
         special_forces_cap = 0.20
 
@@ -717,7 +717,6 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		ai_will_do = {
@@ -740,7 +739,10 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 50
 		
-		category_special_forces = {
+		category_elite_infantry = {
+			defense = 0.10
+		}
+		category_all_racial_infantry = {
 			defense = 0.10
 		}
 		
@@ -756,7 +758,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -784,7 +785,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 50
 		
-		category_special_forces = {
+		category_elite_infantry = {
+			soft_attack = 0.10
+            maximum_speed = 0.10
+		}
+		category_all_racial_infantry = {
 			soft_attack = 0.10
             maximum_speed = 0.10
 		}
@@ -795,7 +800,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -823,7 +827,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 50
 		
-		category_special_forces = {
+		category_elite_infantry = {
+			soft_attack = 0.10
+            breakthrough = 0.10
+		}
+		category_all_racial_infantry = {
 			soft_attack = 0.10
             breakthrough = 0.10
 		}
@@ -840,7 +848,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -868,7 +875,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 50
 		
-		category_special_forces = {
+		category_elite_infantry = {
+			acclimatization_hot_climate_gain_factor = 0.20
+            acclimatization_cold_climate_gain_factor = 0.20
+		}
+		category_all_racial_infantry = {
 			acclimatization_hot_climate_gain_factor = 0.20
             acclimatization_cold_climate_gain_factor = 0.20
 		}
@@ -880,7 +891,6 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
 		
 		folder = {
@@ -926,7 +936,7 @@ technologies = {
             research_cost_coeff = 1
         }
 		
-		category_special_forces = {
+		ranged_infantry = {
 			Forest = {
                 movement = 0.10
             }
@@ -963,7 +973,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		ai_will_do = {
@@ -986,10 +996,10 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 50
 		
-		category_special_forces = {
-			minimum_training_level = 0.20
+		category_tli_all_infantry = {
             soft_attack = 0.15
 		}
+		minimum_training_level = -0.1
 		
 		path = {
 			leads_to_tech = raiding_parties 
@@ -1003,7 +1013,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1031,8 +1041,8 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 50
 		
-		category_special_forces = {
-			max_organisation = 0.10
+		ranged_infantry = {
+            max_organisation = 10
 		}
         no_supply_grace = 72
 
@@ -1042,7 +1052,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1074,6 +1084,10 @@ technologies = {
 			max_organisation = 0.15
             supply_consumption_factor = 0.30
 		}
+		category_tli_all_infantry = {
+            defense = 0.15
+			supply_consumption_factor = -0.3
+		}
 		
 		path = {
 			leads_to_tech = hit_and_run_doctrinisation 
@@ -1087,7 +1101,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1113,19 +1127,13 @@ technologies = {
     hit_and_run_doctrinisation = {
 
 		xp_research_type = army
-		xp_unlock_cost = 100
-		
-		
-		land_reinforce_rate = 0.02
+		xp_unlock_cost = 50
 
-        category_special_forces = {
-            land_reinforce_rate = 0.05
+		category_tli_all_infantry = {
             maximum_speed = 0.15
             breakthrough = 0.10
-        }
-		
-		
-		enable_tactic = tactic_delay
+			army_morale_factor = 0.33
+		}
 
 		
 		doctrine = yes	
@@ -1133,7 +1141,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1177,7 +1185,7 @@ technologies = {
             research_cost_coeff = 1
         }
 		
-		category_army = {
+		category_tli_all_infantry = {
 			defense = 0.15
             soft_attack = 0.05
 		}
@@ -1192,8 +1200,12 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
 		
 		ai_will_do = {
 			factor = 20 
@@ -1215,12 +1227,12 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
-			casualty_trickleback = -0.25
+		category_tli_all_infantry = {
             ap_attack = -0.50
             soft_attack = 0.40
             initiative = 0.20
 		}
+		experience_loss_factor = 0.2
         conscription = 0.02
 		
 		path = {
@@ -1250,7 +1262,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1278,10 +1290,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
-			soft_attack = 0.20
-            max_organisation = 0.10
+		category_tli_all_infantry = {
+            soft_attack = 0.20
+            max_organisation = 10
 		}
+        conscription = 0.01
 
         path = {
 			leads_to_tech = advanced_light_infantry_training 
@@ -1310,7 +1323,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1338,10 +1351,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_special_forces = {
-            soft_attack = 0.10
-            defense = 0.10
-            maximum_speed = 0.10
+		sharpshooters = {
 			Forest = {
                 attack = 0.10
                 defence = 0.10
@@ -1415,7 +1425,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1443,11 +1453,10 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_special_forces = {
+		shock_troops = {
 			armor_value = 2.0
             hard_attack = 0.25
 		}
-		
 		
 		enable_tactic = shock_troops_tech
 		
@@ -1494,7 +1503,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1522,11 +1531,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_line_artillery = {
+		light_artillery_frontline = {
 			defense = -0.10
             ap_attack = 0.10
             soft_attack = 0.10
-            land_reinforce_rate = 0.02
+            army_morale_factor = 0.33
 		}
 		
 		
@@ -1575,7 +1584,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1603,7 +1612,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
+		guards = {
 			breakthrough = 0.30
             soft_attack = 0.20
 		}
@@ -1654,7 +1663,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1686,7 +1695,7 @@ technologies = {
 			supply_consumption_factor = -0.25
 		}
         no_supply_grace = 168
-        resistance_growth = 0.10
+        resistance_growth = 0.25
 
         xor = { prohibition_of_forage }
 		
@@ -1695,7 +1704,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1724,7 +1733,7 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_army = {
-			supply_consumption_factor = 0.20
+			supply_consumption_factor = 0.1
 		}
         resistance_growth = -0.20
         local_non_core_manpower = 0.04
@@ -1737,7 +1746,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1765,8 +1774,8 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
-			max_organisation = 0.20
+		category_tli_all_infantry = {
+			max_organisation = 10
             initiative = 0.20
             defense = 0.10
 		}
@@ -1783,7 +1792,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1811,7 +1820,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-        conscription = 0.05
+        conscription = 0.03
 		
 		path = {
 			leads_to_tech = strategic_mobility 
@@ -1831,7 +1840,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1859,11 +1868,11 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
+		category_armored_infantry = {
 			maximum_speed = 0.25
             armor_value = 5.0
             defense = 0.10
-            breakthrough = 1.20
+            breakthrough = 0.15
 		}
 		
 		path = {
@@ -1878,7 +1887,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1918,7 +1927,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1946,12 +1955,12 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
-			max_organisation = 0.30
+		category_tli_all_infantry = {
+			max_organisation = 10
             soft_attack = 0.10
-            minimum_training_level = -0.15
+			army_morale_factor = 0.2
+            minimum_training_level = 0.15
 		}
-		land_reinforce_rate = 0.02
 
         xor = { grand_batteries }
 		
@@ -1960,7 +1969,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -1988,7 +1997,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
+		category_tli_all_infantry = {
 			maximum_speed = 0.20
 		}
 
@@ -2014,7 +2023,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -2042,8 +2051,8 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
-			max_organisation = 0.20
+		category_tli_all_infantry = {
+			max_organisation = 10
 		}
         max_planning = 0.40
         planning_speed = -0.10
@@ -2070,7 +2079,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -2097,7 +2106,11 @@ technologies = {
 
 		xp_research_type = army
 		xp_unlock_cost = 200
-
+		
+		category_tli_all_infantry = {
+			max_organisation = 10
+		}
+		
         planning_speed = 0.70
         max_planning = -0.50
 
@@ -2106,13 +2119,17 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		xor = { killing_grounds orders_above_all artillery_supremacy }
+		
 		doctrine = yes	
 		research_cost = 4.5
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		folder = {
 			name = land_doctrine_folder
@@ -2156,15 +2173,17 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        xor = { killing_grounds }
+		xor = { killing_grounds orders_above_all flexible_command_structure }
 		
 		doctrine = yes	
 		research_cost = 4.5
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		folder = {
 			name = land_doctrine_folder
@@ -2191,10 +2210,10 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 200
 		
-		category_army = {
+		category_tli_all_infantry = {
 			defense = 0.20
 		}
-        max_dig_in = 6
+        max_dig_in = 4
 
         path = {
 			leads_to_tech = infantry_firepower_superiority 
@@ -2206,15 +2225,17 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        xor = { artillery_supremacy }
+        xor = { artillery_supremacy orders_above_all flexible_command_structure }
 		
 		doctrine = yes	
 		research_cost = 4.5
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		folder = {
 			name = land_doctrine_folder
@@ -2241,9 +2262,9 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 200
 		
-		category_army = {
-			max_organisation = 0.20
-            initiative = -0.20
+		category_tli_all_infantry = {
+			max_organisation = 10
+			initiative = -0.20
 		}
         max_planning = 0.40
 
@@ -2252,13 +2273,17 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		xor = { killing_grounds flexible_command_structure artillery_supremacy }
+		
 		doctrine = yes	
 		research_cost = 4.5
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
 		}
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		folder = {
 			name = land_doctrine_folder
@@ -2285,7 +2310,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 200
 
-        local_non_core_manpower = 0.18
+        local_non_core_manpower = 0.25
 
         path = {
 			leads_to_tech = mobile_warfare 
@@ -2296,23 +2321,13 @@ technologies = {
 			leads_to_tech = superior_firepower 
 			research_cost_coeff = 1
 		}
-
-        path = {
-			leads_to_tech = trench_warfare 
-			research_cost_coeff = 1
-		}
-
-        path = {
-			leads_to_tech = mass_assault 
-			research_cost_coeff = 1
-		}
 		
 		doctrine = yes	
 		research_cost = 4.5
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -2340,10 +2355,17 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 200
 		
-		category_army = {
-			defense = 1.00
+		unit_machine_gun = {
+			defense = 1
             breakthrough = 0.40
             soft_attack = 0.30
+			need = {
+			    machinegun_equipment = 6
+			}
+		}
+		
+		on_research_complete = {
+			custom_effect_tooltip = gentext_machinegun_need
 		}
 
         path = {
@@ -2361,11 +2383,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-        path = {
-			leads_to_tech = mass_assault 
-			research_cost_coeff = 1
-		}
-
         xor = { infantry_firepower_superiority }
 		
 		doctrine = yes	
@@ -2373,7 +2390,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -2401,15 +2418,10 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 200
 		
-		category_army = {
+		category_tli_all_infantry = {
 			ap_attack = 1.25
             hard_attack = 0.10
             soft_attack = 0.10
-		}
-
-        path = {
-			leads_to_tech = mobile_warfare 
-			research_cost_coeff = 1
 		}
 
         path = {
@@ -2434,7 +2446,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -2462,27 +2474,20 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 200
 		
-		category_special_forces = {
+		category_elite_infantry = {
+			defense = 0.40
+            armor_value = 3.00
+		}
+		category_all_racial_infantry = {
 			defense = 0.40
             armor_value = 3.00
 		}
         category_army = {
-            recon = -3
-            defense = -0.10
-            land_reinforce_rate = 0.02
-            mobilization_speed = 0.25
+            defense = -0.1
+			breakthrough = -0.1
         }
+		army_morale_factor = 0.2
         max_dig_in = -2
-
-        path = {
-			leads_to_tech = mobile_warfare 
-			research_cost_coeff = 1
-		}
-
-        path = {
-			leads_to_tech = superior_firepower 
-			research_cost_coeff = 1
-		}
 
         path = {
 			leads_to_tech = trench_warfare 
@@ -2499,7 +2504,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -2527,7 +2532,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 200
 		
-		motorized_equipment = {
+		motor_infantry = {
             breakthrough = 0.40
             max_organisation = 20
 		}
@@ -2542,7 +2547,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -2581,7 +2586,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -2610,9 +2615,9 @@ technologies = {
 		xp_unlock_cost = 200
 		
 		category_army = {
-			max_organisation = 0.40
+			max_organisation = 20
 		}
-        max_dig_in = 30
+        max_dig_in = 10
         dig_in_speed_factor = 0.50
 
         xor = { mobile_warfare superior_firepower mass_assault }
@@ -2622,7 +2627,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
@@ -2650,10 +2655,10 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 200
 		
-		category_army = {
-			combat_width = -0.4
+		ranged_infantry = {
+			combat_width = -0.5
 		}
-		minimum_training_level = 0.19
+		minimum_training_level = -0.1
         conscription = 0.05
 
         xor = { mobile_warfare superior_firepower trench_warfare }
@@ -2663,7 +2668,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			
 		}
 		
 		folder = {
