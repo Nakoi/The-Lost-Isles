@@ -57,7 +57,7 @@ country_event = {
 	title = generic_militia.1.t
 	desc = generic_militia.1.d
 	picture = GFX_news_event_chinese_soldiers_march
-	fire_only_once = yes
+	fire_only_once = no
 	
 	trigger = {
 		has_idea = recruit_militia_wartime
