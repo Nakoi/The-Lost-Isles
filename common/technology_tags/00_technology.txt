@@ -88,17 +88,12 @@ technology_categories = {
 	naval_mines
 	tp_tech
 	
-	air_parity_tree #misc doctrine bullshit
+	#misc doctrine bullshit
 	cat_air_parity
-	strategic_airship_implementation_tree
 	cat_strategic_airship_implementation
-	battlefield_destruction_tree
 	cat_battlefield_destruction
-	brown_water_navy_tree
-	cat_brown_water_navy
-	line_of_battle_tree
-	cat_line_of_battle
-	cat_mobile_warfare 
+	naval_doctrine_brown
+	naval_doctrine_blue
 }
 
 technology_folders = {
