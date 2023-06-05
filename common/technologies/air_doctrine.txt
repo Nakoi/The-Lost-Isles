@@ -24,7 +24,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
 		
@@ -46,7 +45,21 @@ technologies = {
     superior_armaments = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_air_frigate = {
+			 air_attack = 0.10
+		}
+		category_sky_cruiser = {
+			air_attack = 0.10
+		}
+		category_air_skirmisher = {
+			air_attack = 0.20 
+		}
+		category_sky_carrier = {
+			air_bombing = 0.1
+		}
+		category_air_bombardier = {
+			air_ground_attack = 0.1
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -66,7 +79,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
 		
@@ -89,7 +101,9 @@ technologies = {
     air_skirmisher_primacy = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_air_skirmisher = {
+			air_agility = 0.2
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -106,9 +120,12 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
+		
+		dependencies = {
+            air_skirmisher = 1
+        }
 		
 		folder = {
 			name = air_doctrine_folder
@@ -129,7 +146,9 @@ technologies = {
     battlefield_support = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_air_skirmisher = {
+			air_ground_attack = 0.2
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -144,7 +163,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
 		
@@ -167,7 +185,8 @@ technologies = {
     air_reconnaisance = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_superiority_detect_factor = 0.15
+		air_interception_detect_factor = 0.15
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -182,7 +201,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
 		
@@ -205,7 +223,9 @@ technologies = {
     logistics_disruption = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_air_skirmisher = {
+			air_ground_attack = 0.25
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -220,7 +240,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
 		
@@ -243,7 +262,7 @@ technologies = {
     swarm_tactics = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_superiority_efficiency = 0.25
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -253,7 +272,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
 		
@@ -276,7 +294,7 @@ technologies = {
     battlefield_observers = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_mission_xp_gain_factor = 0.33
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -293,7 +311,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
 		
@@ -316,7 +333,18 @@ technologies = {
     extra_safety_protocols = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_air_frigate = {
+			 air_defence = 0.1
+		}
+		category_sky_cruiser = {
+			 air_defence = 0.1
+		}
+		category_sky_carrier = {
+			air_defence = 0.1
+		}
+		category_air_bombardier = {
+			air_defence = 0.1
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -335,7 +363,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
 		
@@ -348,7 +375,18 @@ technologies = {
     aerial_hit_and_run = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_air_frigate = {
+			air_agility = 0.3
+		}
+		category_sky_cruiser = {
+			air_agility = 0.3
+		}
+		category_sky_carrier = {
+			air_agility = 0.3
+		}
+		category_air_bombardier = {
+			air_agility = 0.3
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -363,7 +401,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
 		
@@ -386,7 +423,8 @@ technologies = {
     small_formation_flying = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_interception_detect_factor = 0.2
+		air_intercept_efficiency = 0.1
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -401,7 +439,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
 		
@@ -424,7 +461,13 @@ technologies = {
     divide_and_destroy = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_air_frigate = {
+			air_attack = 0.15
+		}
+		category_sky_cruiser = {
+			air_attack = 0.15
+		}
+		air_superiority_detect_factor = 0.1
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -434,7 +477,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			air_parity_tree
 			cat_air_parity
 		}
 		
@@ -467,8 +509,9 @@ technologies = {
 		xp_research_type = air
 		
 		# EFFECT ########
-		air_superiority_detect_factor = 0.15
-		air_mission_xp_gain_factor = 0.05
+		category_sky_carrier = {
+			air_bombing = 0.15
+		}
 		###########
 		
 		path = {
@@ -482,7 +525,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_airship_implementation_tree
 			cat_strategic_airship_implementation
 		}
 		
@@ -504,7 +546,7 @@ technologies = {
     flexible_formations = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_escort_efficiency = 0.5
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -524,7 +566,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_airship_implementation_tree
 			cat_strategic_airship_implementation
 		}
 		
@@ -547,7 +588,12 @@ technologies = {
     precise_bombing = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_sky_carrier = {
+			air_bombing = 0.2
+		}
+		category_air_bombardier = {
+			air_ground_attack = 0.2
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -564,7 +610,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_airship_implementation_tree
 			cat_strategic_airship_implementation
 		}
 		
@@ -587,7 +632,7 @@ technologies = {
     high_altitude_bombing = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_strategic_bomber_defence_factor = 0.25
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -604,7 +649,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_airship_implementation_tree
 			cat_strategic_airship_implementation
 		}
 		
@@ -627,7 +671,8 @@ technologies = {
     interception_techniques = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_interception_detect_factor = 0.1
+		air_interception_attack_factor = 0.2
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -642,7 +687,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_airship_implementation_tree
 			cat_strategic_airship_implementation
 		}
 		
@@ -665,7 +709,7 @@ technologies = {
     nap_of_the_clouds = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		strategic_bomb_visibility = -0.5
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -689,7 +733,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_airship_implementation_tree
 			cat_strategic_airship_implementation
 		}
 		
@@ -712,7 +755,8 @@ technologies = {
     magical_presence_detection = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_superiority_detect_factor = 0.5
+		air_interception_detect_factor = 0.5
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -729,7 +773,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_airship_implementation_tree
 			cat_strategic_airship_implementation
 		}
 		
@@ -752,7 +795,18 @@ technologies = {
     magical_shield_generators = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_air_frigate = {
+			air_defence = 0.25
+		}
+		category_sky_cruiser = {
+			air_defence = 0.25
+		}
+		category_sky_carrier = {
+			air_defence = 0.25
+		}
+		category_air_bombardier = {
+			air_defence = 0.25
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -769,7 +823,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_airship_implementation_tree
 			cat_strategic_airship_implementation
 		}
 		
@@ -792,7 +845,9 @@ technologies = {
     perfecting_strategic_bombing = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_sky_carrier = {
+			air_bombing = 0.3
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -802,7 +857,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			strategic_airship_implementation_tree
 			cat_strategic_airship_implementation
 		}
 		
@@ -835,8 +889,9 @@ technologies = {
 		xor = { strategic_airship_implementation }
 
 		# EFFECT ########
-		air_interception_detect_factor = 0.20
-		air_mission_xp_gain_factor = 0.05
+		category_air_bombardier = {
+			air_ground_attack = 0.2
+		}
 		###########
 		
 		path = {
@@ -850,7 +905,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_destruction_tree
 			cat_battlefield_destruction
 		}
 		
@@ -867,7 +921,18 @@ technologies = {
     damage_control = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_air_bombardier = {
+			air_defence = 0.15
+		}
+		category_air_frigate = {
+			air_defence = 0.15
+		}
+		category_sky_carrier = {
+			air_defence = 0.15
+		}
+		category_sky_cruiser = {
+			air_defence = 0.15
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -882,7 +947,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_destruction_tree
 			cat_battlefield_destruction
 		}
 		
@@ -905,7 +969,7 @@ technologies = {
     aerial_invasion_support = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_superiority_efficiency = 0.25
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -925,7 +989,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_destruction_tree
 			cat_battlefield_destruction
 		}
 		
@@ -948,7 +1011,7 @@ technologies = {
     naval_hunting_tactics = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_nav_efficiency = 0.25
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -965,7 +1028,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_destruction_tree
 			cat_battlefield_destruction
 		}
 		
@@ -988,7 +1050,7 @@ technologies = {
     precision_strikes = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_cas_efficiency = 0.25
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -1005,7 +1067,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_destruction_tree
 			cat_battlefield_destruction
 		}
 		
@@ -1028,6 +1089,9 @@ technologies = {
     long_range_precision = {
 
 		# EFFECT ########
+		category_air_bombardier = {
+			air_agility = 0.2
+		}
 		air_cas_present_factor = 0.1
 		###########
 		xp_research_type = air
@@ -1052,7 +1116,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_destruction_tree
 			cat_battlefield_destruction
 		}
 		
@@ -1075,7 +1138,11 @@ technologies = {
     pride_of_the_air_fleet = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_sky_cruiser = {
+			air_agility = 0.2
+			air_attack = 0.1
+			air_bombing = 0.1
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -1090,7 +1157,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_destruction_tree
 			cat_battlefield_destruction
 		}
 		
@@ -1113,7 +1179,9 @@ technologies = {
     small_bombardier_primacy = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		category_air_bombardier = {
+			air_agility = 0.25
+		}
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -1128,7 +1196,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_destruction_tree
 			cat_battlefield_destruction
 		}
 		
@@ -1151,7 +1218,7 @@ technologies = {
     night_spotting_equipment = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.1
+		air_strategic_bomber_night_penalty = -0.5
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -1161,7 +1228,6 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_destruction_tree
 			cat_battlefield_destruction
 		}
 		

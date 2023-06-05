@@ -20,6 +20,14 @@ technologies = {
 			max_organisation = 10
 			surface_visibility = -0.10			
 		}
+		frigate = {
+			max_organisation = 10
+			surface_visibility = -0.10			
+		}
+		heavy_cruiser = {
+			max_organisation = 10
+			surface_visibility = -0.10			
+		}
 		naval_enemy_fleet_size_ratio_penalty_factor = 0.10
 		#####
 
@@ -38,8 +46,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			brown_water_navy_tree
-			cat_brown_water_navy
+			naval_doctrine_brown
 		}
 		
 		folder = {
@@ -83,8 +90,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			brown_water_navy_tree
-			cat_brown_water_navy
+			naval_doctrine_brown
 		}
 		
 		folder = {
@@ -127,6 +133,9 @@ technologies = {
 		frigate = {
 			max_organisation = 10
 		}
+		heavy_cruiser = {
+			max_organisation = 10		
+		}
 		naval_retreat_chance = 0.25
 		########
 
@@ -142,8 +151,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			brown_water_navy_tree
-			cat_brown_water_navy
+			naval_doctrine_brown
 		}
 		
 		folder = {
@@ -177,8 +185,8 @@ technologies = {
     capital_ship_preservation = {
 		# EFFECT #############
 		ship_of_line = {
-			max_organisation = 10
-			reliability = 0.10
+			max_organisation = 15
+			max_strength = 0.15
 		}
 		naval_retreat_chance = 0.10
 		########
@@ -195,8 +203,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			brown_water_navy_tree
-			cat_brown_water_navy
+			naval_doctrine_brown
 		}
 		
 		folder = {
@@ -231,12 +238,12 @@ technologies = {
 		# EFFECT #############
 		xebec = {
 			max_organisation = 10
+			max_strength = 0.1
 		}
 		galley = {
 			max_organisation = 10
+			max_strength = 0.1
 		}
-		convoy_raiding_efficiency_factor = 0.15
-		strike_force_movement_org_loss = -0.2
 		########
 
 		path = {
@@ -255,8 +262,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			brown_water_navy_tree
-			cat_brown_water_navy
+			naval_doctrine_brown
 		}
 		
 		folder = {
@@ -305,8 +311,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			brown_water_navy_tree
-			cat_brown_water_navy
+			naval_doctrine_brown
 		}
 		
 		folder = {
@@ -346,7 +351,6 @@ technologies = {
 			max_organisation = 10
 		}
 		convoy_raiding_efficiency_factor = 0.15
-		strike_force_movement_org_loss = -0.2
 		########
 		
 		xp_research_type = navy
@@ -356,8 +360,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			brown_water_navy_tree
-			cat_brown_water_navy
+			naval_doctrine_brown
 		}
 		
 		folder = {
@@ -406,7 +409,11 @@ technologies = {
 		frigate = {
 			max_organisation = 20
 		}
-		navy_screen_attack_factor = 0.10
+		heavy_cruiser = {
+			max_organisation = 20		
+		}
+		navy_capital_ship_attack_factor = 0.1
+		navy_screen_attack_factor = 0.1
 		#####
 
 
@@ -429,8 +436,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			line_of_battle_tree
-			cat_line_of_battle
+			naval_doctrine_blue
 		}
 		
 		folder = {
@@ -474,8 +480,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			line_of_battle_tree
-			cat_line_of_battle
+			naval_doctrine_blue
 		}
 		
 		folder = {
@@ -531,8 +536,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			line_of_battle_tree
-			cat_line_of_battle
+			naval_doctrine_blue
 		}
 		
 		folder = {
@@ -573,6 +577,10 @@ technologies = {
 			max_organisation = 10
 			naval_speed = 0.20
 		}
+		heavy_cruiser = {
+			max_organisation = 10
+			naval_speed = 0.20		
+		}
 		########
 
 		path = {
@@ -587,8 +595,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			line_of_battle_tree
-			cat_line_of_battle
+			naval_doctrine_blue
 		}
 		
 		folder = {
@@ -627,6 +634,9 @@ technologies = {
 		frigate = {
 			max_organisation = 10
 		}
+		heavy_cruiser = {
+			max_organisation = 10	
+		}
 		navy_capital_ship_attack_factor = 0.20
 		########
 
@@ -644,8 +654,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			line_of_battle_tree
-			cat_line_of_battle
+			naval_doctrine_blue
 		}
 		
 		folder = {
@@ -680,12 +689,14 @@ technologies = {
 		# EFFECT #############
 		ship_of_line = {
 			max_organisation = 10
-			naval_speed = 0.10
 		}
 		frigate = {
 			max_organisation = 10
-			naval_speed = 0.10
 		}
+		heavy_cruiser = {
+			max_organisation = 10	
+		}
+		navy_screen_attack_factor = 0.1
 		########
 
 		path = {
@@ -700,8 +711,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			line_of_battle_tree
-			cat_line_of_battle
+			naval_doctrine_blue
 		}
 		
 		folder = {
@@ -740,6 +750,9 @@ technologies = {
 		frigate = {
 			max_organisation = 10
 		}
+		heavy_cruiser = {
+			max_organisation = 10	
+		}
 		navy_capital_ship_attack_factor = 0.15
 		########
 
@@ -755,8 +768,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			line_of_battle_tree
-			cat_line_of_battle
+			naval_doctrine_blue
 		}
 		
 		folder = {
@@ -805,6 +817,10 @@ technologies = {
 			max_organisation = 15
 			naval_speed = 0.20
 		}
+		heavy_cruiser = {
+			max_organisation = 15
+			naval_speed = 0.20	
+		}
 		########
 
 		path = {
@@ -823,8 +839,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			line_of_battle_tree
-			cat_line_of_battle
+			naval_doctrine_blue
 		}
 		
 		folder = {
@@ -873,6 +888,10 @@ technologies = {
 			max_organisation = 10
 			naval_range = 0.25
 		}
+		heavy_cruiser = {
+			max_organisation = 10
+			naval_range = 0.25	
+		}
 		########
 
 		path = {
@@ -891,8 +910,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			line_of_battle_tree
-			cat_line_of_battle
+			naval_doctrine_blue
 		}
 		
 		folder = {
@@ -945,6 +963,11 @@ technologies = {
 			sub_detection = 0.15
 			surface_detection = 0.15
 		}
+		heavy_cruiser = {
+			max_organisation = 10
+			sub_detection = 0.15
+			surface_detection = 0.15	
+		}
 		########
         
         xor = { big_guns_never_tire }
@@ -956,8 +979,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			line_of_battle_tree
-			cat_line_of_battle
+			naval_doctrine_blue
 		}
 		
 		folder = {
@@ -992,8 +1014,8 @@ technologies = {
 		# EFFECT #############
 		ship_of_line = {
 			max_organisation = 25
-			navy_capital_ship_attack_factor = 0.25
 		}
+		navy_capital_ship_attack_factor = 0.25
 		########
 
         xor = { fleet_in_being }
@@ -1005,8 +1027,7 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			line_of_battle_tree
-			cat_line_of_battle
+			naval_doctrine_blue
 		}
 		
 		folder = {
