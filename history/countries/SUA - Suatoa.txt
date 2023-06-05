@@ -121,3 +121,8 @@ set_technology = {
 #politics
 	give_guarantee = ESU
 	give_guarantee = KAE
+	
+declare_war_on = {
+	target = AST
+	type = annex_everything
+}
