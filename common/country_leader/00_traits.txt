@@ -434,7 +434,7 @@ leader_traits = {
 	
 	chieftrait_offense_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.2
 		army_attack_factor = 0.05
 		
 		ai_will_do = {
@@ -444,7 +444,7 @@ leader_traits = {
 	
 	chieftrait_offense_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.3
 		army_attack_factor = 0.15
 		
 		ai_will_do = {
@@ -454,7 +454,7 @@ leader_traits = {
 	
 	chieftrait_offense_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.4
 		army_attack_factor = 0.25
 		
 		ai_will_do = {
@@ -464,7 +464,7 @@ leader_traits = {
 	
 	chieftrait_defense_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.1
 		army_defence_factor = 0.05
 		
 		ai_will_do = {
@@ -474,7 +474,7 @@ leader_traits = {
 	
 	chieftrait_defense_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.2
 		army_defence_factor = 0.15
 		
 		ai_will_do = {
@@ -484,7 +484,7 @@ leader_traits = {
 	
 	chieftrait_defense_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.3
 		army_defence_factor = 0.25
 		
 		ai_will_do = {
@@ -494,7 +494,7 @@ leader_traits = {
 	
 	chieftrait_drill_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.2
 		training_time_factor = -0.05
 		
 		ai_will_do = {
@@ -504,7 +504,7 @@ leader_traits = {
 	
 	chieftrait_drill_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.3
 		training_time_factor = -0.15
 		
 		ai_will_do = {
@@ -514,7 +514,7 @@ leader_traits = {
 	
 	chieftrait_drill_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.4
 		training_time_factor = -0.25
 		
 		ai_will_do = {
@@ -524,7 +524,7 @@ leader_traits = {
 	
 	chieftrait_organisation_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.2
 		army_org_factor = 0.05
 		
 		ai_will_do = {
@@ -534,7 +534,7 @@ leader_traits = {
 	
 	chieftrait_organisation_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.3
 		army_org_factor = 0.1
 		
 		ai_will_do = {
@@ -544,7 +544,7 @@ leader_traits = {
 	
 	chieftrait_organisation_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.4
 		army_org_factor = 0.15
 		
 		ai_will_do = {
@@ -554,7 +554,7 @@ leader_traits = {
 	
 	chieftrait_planning_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.2
 		max_planning_factor = 0.1
 		
 		ai_will_do = {
@@ -564,7 +564,7 @@ leader_traits = {
 	
 	chieftrait_planning_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.3
 		max_planning_factor = 0.2
 		
 		ai_will_do = {
@@ -574,7 +574,7 @@ leader_traits = {
 	
 	chieftrait_planning_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.4
 		max_planning_factor = 0.3
 		
 		ai_will_do = {
@@ -584,7 +584,7 @@ leader_traits = {
 	
 	chieftrait_morale_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.2
 		army_morale_factor = 0.05
 		
 		ai_will_do = {
@@ -594,7 +594,7 @@ leader_traits = {
 	
 	chieftrait_morale_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.3
 		army_morale_factor = 0.1
 		
 		ai_will_do = {
@@ -604,7 +604,7 @@ leader_traits = {
 	
 	chieftrait_morale_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.4
 		army_morale_factor = 0.2
 		
 		ai_will_do = {
@@ -614,7 +614,7 @@ leader_traits = {
 	
 	chieftrait_maneuver_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.2
 		army_speed_factor = 0.05
 		
 		ai_will_do = {
@@ -624,7 +624,7 @@ leader_traits = {
 	
 	chieftrait_maneuver_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.3
 		army_speed_factor = 0.15
 		
 		ai_will_do = {
@@ -634,7 +634,7 @@ leader_traits = {
 	
 	chieftrait_maneuver_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.4
 		army_speed_factor = 0.25
 		
 		ai_will_do = {
@@ -644,7 +644,7 @@ leader_traits = {
 	
 	chieftrait_logistics_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.2
 		supply_consumption_factor = -0.05
 		
 		ai_will_do = {
@@ -654,7 +654,7 @@ leader_traits = {
 	
 	chieftrait_logistics_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.3
 		supply_consumption_factor = -0.15
 		
 		ai_will_do = {
@@ -664,7 +664,7 @@ leader_traits = {
 	
 	chieftrait_logistics_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.4
 		supply_consumption_factor = -0.25
 		
 		ai_will_do = {
@@ -674,7 +674,7 @@ leader_traits = {
 	
 	chieftrait_privateering_1 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.2
 		convoy_raiding_efficiency_factor = 0.1
 		
 		ai_will_do = {
@@ -684,7 +684,7 @@ leader_traits = {
 	
 	chieftrait_privateering_2 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.3
 		convoy_raiding_efficiency_factor = 0.2
 		
 		ai_will_do = {
@@ -694,7 +694,7 @@ leader_traits = {
 	
 	chieftrait_privateering_3 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.4
 		convoy_raiding_efficiency_factor = 0.3
 		
 		ai_will_do = {
@@ -704,7 +704,7 @@ leader_traits = {
 	
 	chieftrait_grandbattle_1 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.2
 		navy_screen_attack_factor = 0.1
 		navy_screen_defence_factor = 0.1
 		navy_capital_ship_attack_factor = 0.1
@@ -717,7 +717,7 @@ leader_traits = {
 	
 	chieftrait_grandbattle_2 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.3
 		navy_screen_attack_factor = 0.2
 		navy_screen_defence_factor = 0.2
 		navy_capital_ship_attack_factor = 0.2
@@ -730,7 +730,7 @@ leader_traits = {
 	
 	chieftrait_grandbattle_3 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.4
 		navy_screen_attack_factor = 0.3
 		navy_screen_defence_factor = 0.3
 		navy_capital_ship_attack_factor = 0.3
@@ -743,7 +743,7 @@ leader_traits = {
 	
 	chieftrait_boatmaneuver_1 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.2
 		naval_speed_factor = 0.1
 		
 		ai_will_do = {
@@ -753,7 +753,7 @@ leader_traits = {
 	
 	chieftrait_boatmaneuver_2 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.3
 		naval_speed_factor = 0.2
 		
 		ai_will_do = {
@@ -763,7 +763,7 @@ leader_traits = {
 	
 	chieftrait_boatmaneuver_3 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.4
 		naval_speed_factor = 0.3
 		
 		ai_will_do = {
@@ -773,7 +773,7 @@ leader_traits = {
 	
 	chieftrait_weather_1 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.2
 		air_weather_penalty = -0.15
 		
 		ai_will_do = {
@@ -783,7 +783,7 @@ leader_traits = {
 	
 	chieftrait_weather_2 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.3
 		air_weather_penalty = -0.3
 		
 		ai_will_do = {
@@ -793,7 +793,7 @@ leader_traits = {
 	
 	chieftrait_weather_3 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.4
 		air_weather_penalty = -0.45
 		
 		ai_will_do = {
@@ -803,7 +803,7 @@ leader_traits = {
 	
 	chieftrait_nightops_1 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.2
 		air_night_penalty = -0.15
 		
 		ai_will_do = {
@@ -813,7 +813,7 @@ leader_traits = {
 	
 	chieftrait_nightops_2 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.3
 		air_night_penalty = -0.3
 		
 		ai_will_do = {
@@ -823,7 +823,7 @@ leader_traits = {
 	
 	chieftrait_nightops_3 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.4
 		air_night_penalty = -0.45
 		
 		ai_will_do = {
@@ -833,7 +833,7 @@ leader_traits = {
 	
 	chieftrait_airsupport_1 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.2
 		air_cas_present_factor = 0.1
 		
 		ai_will_do = {
@@ -843,7 +843,7 @@ leader_traits = {
 	
 	chieftrait_airsupport_2 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.3
 		air_cas_present_factor = 0.2
 		
 		ai_will_do = {
@@ -853,7 +853,7 @@ leader_traits = {
 	
 	chieftrait_airsupport_3 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.4
 		air_cas_present_factor = 0.3
 		
 		ai_will_do = {
@@ -863,7 +863,7 @@ leader_traits = {
 	
 	chieftrait_airmaint_1 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.2
 		air_accidents_factor = -0.1
 		
 		ai_will_do = {
@@ -873,7 +873,7 @@ leader_traits = {
 	
 	chieftrait_airmaint_2 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.3
 		air_accidents_factor = -0.2
 		
 		ai_will_do = {
@@ -883,7 +883,7 @@ leader_traits = {
 	
 	chieftrait_airmaint_3 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.4
 		air_accidents_factor = -0.3
 		
 		ai_will_do = {
@@ -895,7 +895,6 @@ leader_traits = {
 	
 	armyadvtrait_lineinf_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
 		modifier_army_sub_unit_ranged_infantry_attack_factor = 0.1
 		modifier_army_sub_unit_ranged_infantry_defence_factor = 0.1
 		modifier_army_sub_unit_ranged_militia_attack_factor = 0.1
@@ -909,7 +908,6 @@ leader_traits = {
 	
 	armyadvtrait_lineinf_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
 		modifier_army_sub_unit_ranged_infantry_attack_factor = 0.2
 		modifier_army_sub_unit_ranged_infantry_defence_factor = 0.2
 		modifier_army_sub_unit_ranged_militia_attack_factor = 0.2
@@ -922,7 +920,7 @@ leader_traits = {
 	
 	armyadvtrait_lineinf_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_ranged_infantry_attack_factor = 0.3
 		modifier_army_sub_unit_ranged_infantry_defence_factor = 0.3
 		modifier_army_sub_unit_ranged_militia_attack_factor = 0.3
@@ -935,7 +933,7 @@ leader_traits = {
 	
 	armyadvtrait_aggressive_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_armored_infantry_attack_factor = 0.15
 		modifier_army_sub_unit_armored_infantry_defence_factor = 0.05
 		modifier_army_sub_unit_shock_troops_attack_factor = 0.15
@@ -948,7 +946,7 @@ leader_traits = {
 	
 	armyadvtrait_aggressive_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_armored_infantry_attack_factor = 0.30
 		modifier_army_sub_unit_armored_infantry_defence_factor = 0.05
 		modifier_army_sub_unit_shock_troops_attack_factor = 0.30
@@ -961,7 +959,7 @@ leader_traits = {
 	
 	armyadvtrait_aggressive_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_armored_infantry_attack_factor = 0.40
 		modifier_army_sub_unit_armored_infantry_defence_factor = 0.10
 		modifier_army_sub_unit_shock_troops_attack_factor = 0.40
@@ -974,7 +972,7 @@ leader_traits = {
 	
 	armyadvtrait_elite_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_guards_attack_factor = 0.1
 		modifier_army_sub_unit_guards_defence_factor = 0.1
 	
@@ -985,7 +983,7 @@ leader_traits = {
 	
 	armyadvtrait_elite_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_guards_attack_factor = 0.2
 		modifier_army_sub_unit_guards_defence_factor = 0.2
 		
@@ -996,7 +994,7 @@ leader_traits = {
 	
 	armyadvtrait_elite_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_guards_attack_factor = 0.3
 		modifier_army_sub_unit_guards_defence_factor = 0.3
 		
@@ -1007,7 +1005,7 @@ leader_traits = {
 	
 	armyadvtrait_arty_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_cannon_frontline_attack_factor = 0.1
 		modifier_army_sub_unit_cannon_frontline_defence_factor = 0.1
 		modifier_army_sub_unit_smoll_gun_attack_factor = 0.1
@@ -1024,7 +1022,7 @@ leader_traits = {
 	
 	armyadvtrait_arty_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_cannon_frontline_attack_factor = 0.15
 		modifier_army_sub_unit_cannon_frontline_defence_factor = 0.15
 		modifier_army_sub_unit_smoll_gun_attack_factor = 0.15
@@ -1041,7 +1039,7 @@ leader_traits = {
 	
 	armyadvtrait_arty_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_cannon_frontline_attack_factor = 0.2
 		modifier_army_sub_unit_cannon_frontline_defence_factor = 0.2
 		modifier_army_sub_unit_smoll_gun_attack_factor = 0.2
@@ -1058,7 +1056,7 @@ leader_traits = {
 	
 	armyadvtrait_guerilla_1 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_sharpshooters_attack_factor = 0.1
 		modifier_army_sub_unit_sharpshooters_defence_factor = 0.1
 	
@@ -1069,7 +1067,7 @@ leader_traits = {
 	
 	armyadvtrait_guerilla_2 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_sharpshooters_attack_factor = 0.2
 		modifier_army_sub_unit_sharpshooters_defence_factor = 0.2
 	
@@ -1080,7 +1078,7 @@ leader_traits = {
 	
 	armyadvtrait_guerilla_3 = {
 		sprite = 14
-		experience_gain_army = 0.02
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_sharpshooters_attack_factor = 0.3
 		modifier_army_sub_unit_sharpshooters_defence_factor = 0.3
 	
@@ -1091,7 +1089,7 @@ leader_traits = {
 	
 	armyadvtrait_boatschool_1 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		experience_gain_navy_factor = 0.1
 		
 		ai_will_do = {
@@ -1101,7 +1099,7 @@ leader_traits = {
 	
 	armyadvtrait_boatschool_2 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		experience_gain_navy_factor = 0.2
 		
 		ai_will_do = {
@@ -1111,7 +1109,7 @@ leader_traits = {
 	
 	armyadvtrait_boatschool_3 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		experience_gain_navy_factor = 0.3
 		
 		ai_will_do = {
@@ -1121,7 +1119,7 @@ leader_traits = {
 	
 	armyadvtrait_navlanding_1 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		amphibious_invasion = 0.15
 		
 		ai_will_do = {
@@ -1131,7 +1129,7 @@ leader_traits = {
 	
 	armyadvtrait_navlanding_2 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		amphibious_invasion = 0.3
 		
 		ai_will_do = {
@@ -1141,7 +1139,7 @@ leader_traits = {
 	
 	armyadvtrait_navlanding_3 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		amphibious_invasion = 0.45
 		
 		ai_will_do = {
@@ -1151,7 +1149,7 @@ leader_traits = {
 	
 	armyadvtrait_navlogi_1 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		navy_max_range_factor = 0.15
 		
 		ai_will_do = {
@@ -1161,7 +1159,7 @@ leader_traits = {
 	
 	armyadvtrait_navlogi_2 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		navy_max_range_factor = 0.3
 		
 		ai_will_do = {
@@ -1171,7 +1169,7 @@ leader_traits = {
 	
 	armyadvtrait_navlogi_3 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		navy_max_range_factor = 0.45
 		
 		ai_will_do = {
@@ -1181,7 +1179,7 @@ leader_traits = {
 	
 	armyadvtrait_smallboat_1 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		navy_screen_attack_factor = 0.1
 		navy_screen_defence_factor = 0.1
 
@@ -1192,7 +1190,7 @@ leader_traits = {
 	
 	armyadvtrait_smallboat_2 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		navy_screen_attack_factor = 0.2
 		navy_screen_defence_factor = 0.2
 		
@@ -1203,7 +1201,7 @@ leader_traits = {
 	
 	armyadvtrait_smallboat_3 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		navy_screen_attack_factor = 0.3
 		navy_screen_defence_factor = 0.3
 		
@@ -1214,7 +1212,7 @@ leader_traits = {
 	
 	armyadvtrait_bigboat_1 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		navy_capital_ship_attack_factor = 0.1
 		navy_capital_ship_defence_factor = 0.1
 
@@ -1225,7 +1223,7 @@ leader_traits = {
 	
 	armyadvtrait_bigboat_2 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		navy_capital_ship_attack_factor = 0.2
 		navy_capital_ship_defence_factor = 0.2
 		
@@ -1236,7 +1234,7 @@ leader_traits = {
 	
 	armyadvtrait_bigboat_3 = {
 		sprite = 14
-		experience_gain_navy = 0.02
+		experience_gain_navy = 0.05
 		navy_capital_ship_attack_factor = 0.3
 		navy_capital_ship_defence_factor = 0.3
 		
@@ -1247,7 +1245,7 @@ leader_traits = {
 	
 	armyadvtrait_airboatschool_1 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		experience_gain_air_factor = 0.1
 		
 		ai_will_do = {
@@ -1257,7 +1255,7 @@ leader_traits = {
 	
 	armyadvtrait_airboatschool_2 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		experience_gain_air_factor = 0.2
 		
 		ai_will_do = {
@@ -1267,7 +1265,7 @@ leader_traits = {
 	
 	armyadvtrait_airboatschool_3 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		experience_gain_air_factor = 0.3
 		
 		ai_will_do = {
@@ -1277,7 +1275,7 @@ leader_traits = {
 	
 	armyadvtrait_airskirm_1 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_skirmisher_equipment = {
 				air_agility = 0.1
@@ -1293,7 +1291,7 @@ leader_traits = {
 	
 	armyadvtrait_airskirm_2 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_skirmisher_equipment = {
 				air_agility = 0.2
@@ -1309,7 +1307,7 @@ leader_traits = {
 	
 	armyadvtrait_airskirm_3 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_skirmisher_equipment = {
 				air_agility = 0.3
@@ -1325,7 +1323,7 @@ leader_traits = {
 	
 	armyadvtrait_airstriker_1 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_striker_equipment = {
 				air_ground_attack = 0.1
@@ -1341,7 +1339,7 @@ leader_traits = {
 	
 	armyadvtrait_airstriker_2 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_striker_equipment = {
 				air_ground_attack = 0.2
@@ -1357,7 +1355,7 @@ leader_traits = {
 	
 	armyadvtrait_airstriker_3 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_striker_equipment = {
 				air_ground_attack = 0.3
@@ -1373,7 +1371,7 @@ leader_traits = {
 	
 	armyadvtrait_airboats_1 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_frigate_equipment = {
 				air_attack = 0.1
@@ -1394,7 +1392,7 @@ leader_traits = {
 	
 	armyadvtrait_airboats_2 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_frigate_equipment = {
 				air_attack = 0.2
@@ -1415,7 +1413,7 @@ leader_traits = {
 	
 	armyadvtrait_airboats_3 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_frigate_equipment = {
 				air_attack = 0.3
@@ -1436,7 +1434,7 @@ leader_traits = {
 	
 	armyadvtrait_stratairboat_1 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_bombardier_equipment = {
 				air_defence = 0.1
@@ -1457,7 +1455,7 @@ leader_traits = {
 	
 	armyadvtrait_stratairboat_2 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_bombardier_equipment = {
 				air_defence = 0.2
@@ -1478,7 +1476,7 @@ leader_traits = {
 	
 	armyadvtrait_stratairboat_3 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		equipment_bonus = {
 			air_bombardier_equipment = {
 				air_defence = 0.3
@@ -1499,7 +1497,7 @@ leader_traits = {
 	
 	armyadvtrait_airassault_1 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		air_paradrop_attack_factor = 0.15
 		paradrop_organization_factor = 0.35
 		
@@ -1510,7 +1508,7 @@ leader_traits = {
 	
 	armyadvtrait_airassault_2 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		air_paradrop_attack_factor = 0.25
 		paradrop_organization_factor = 0.50
 		
@@ -1521,7 +1519,7 @@ leader_traits = {
 	
 	armyadvtrait_airassault_3 = {
 		sprite = 14
-		experience_gain_air = 0.02
+		experience_gain_air = 0.05
 		air_paradrop_attack_factor = 0.35
 		paradrop_organization_factor = 0.75
 		
