@@ -1,26 +1,26 @@
-ranged_infantry_generic = {
+infantry_generic = {
 
 	roles = {
-		ranged_infantry
+		infantry
 	}
 	
 	upgrade_prio = {
-		factor = 1
+		factor = 2
 
 		modifier = {
-			factor = 100
+			factor = 5
 		}
 	}
 
-	match_to_count = 1
+	match_to_count = 0.10
 	
-	ranged_infantry_default = {
+	infantry_default = {
 	
 		upgrade_prio = {
-			factor = 1
+			factor = 2
 
 			modifier = {
-				factor = 100
+				factor = 1
 			}
 		}
 		
@@ -67,54 +67,29 @@ ranged_infantry_generic = {
 		}
 		
 		target_template = {
-			weight = 1
+			weight = 0.9
 			match_value = 3000.0
 			
+			support = {
+				tli_sapper_company = 1
+				tli_recon_company = 1
+				tli_field_hospital_company = 1
+				cannon_support = 1
+			}
+			
 			regiments = {
-				ranged_infantry = 10
+				ranged_infantry = 7
+				cannon_frontline = 2
 			}
 		}
 		
 		allowed_types = {
 			ranged_infantry
+			cannon_frontline
+			cannon_support	
+			tli_sapper_company
+			tli_recon_company
+			tli_field_hospital_company
 		}
 	}
 }
-
-# REGIMENTS:
-#ranged_infantry
-#light_armor
-#super_heavy_armor
-#modern_armor
-#heavy_armor
-#medium_armor
-#light_armor
-#anti_tank
-#cavalry
-#motorized
-#mechanized
-#marine
-#mountaineers
-#paratrooper
-#rocket_artillery
-#light_tank_destroyer
-#medium_tank_destroyer_brigade
-#heavy_tank_destroyer_brigade
-#super_heavy_tank_destroyer_brigade
-#modern_tank_destroyer_brigade
-#anti_air
-#artillery
-
-# SUPPORT:
-#engineer
-#recon
-#signal_company
-#maintenance_company
-#anti_tank_brigade
-#anti_air_brigade
-#artillery_brigade
-#field_hospital
-#logistics_company
-#military_police
-#light_sp_anti_air_brigade
-#light_sp_artillery_brigade
