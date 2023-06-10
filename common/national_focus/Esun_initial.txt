@@ -263,7 +263,12 @@ focus_tree = {
 			set_technology = {
 				air_skirmisher = 1
 			}
-			add_ideas = genidea_wingless_airskirm_recruitment
+			IF = {
+				limit = {
+					NOT = { has_idea = genidea_wingless_airskirm_recruitment }
+				}
+				add_ideas = genidea_wingless_airskirm_recruitment
+			}
 			add_doctrine_cost_reduction =  {
 				cost_reduction = 0.5
 				uses = 2
