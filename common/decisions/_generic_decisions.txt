@@ -497,6 +497,7 @@ gendecision_airskirms = {
 		days_remove = 180
 
 		complete_effect = {
+			add_ideas = genidea_wingless_airskirm_recruitment
 			hidden_effect = {
 				add_command_power = -100
 			}
@@ -510,6 +511,5 @@ gendecision_airskirms = {
 			set_technology = {
 				air_skirmisher = 1
 			}
-			add_ideas = genidea_wingless_airskirm_recruitment
 		}
 	}
