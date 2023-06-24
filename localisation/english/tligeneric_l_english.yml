@@ -874,6 +874,7 @@
  designer_siege_artillery_industrial:0 "Siege Artillery Design Company"
  designer_aa_artillery_industrial:0 "Anti-Air Artillery Design Company"
  
+ tli_naval_manufacturer:0 "Naval Designer"
  designer_navy_primitive:0 "Shipwrights' Guild"
  designer_coast_navy_civilised:0 "Coastal Defense Design Commission"
  designer_big_navy_civilised:0 "High Seas Fleet Design Commission"
@@ -893,6 +894,7 @@
  designer_air_bombing_industrial:0 "Bombing Equipment Design Company"
  designer_skycruiser_industrial:0 "Sky Cruiser Design Company"
  
+ tli_materiel_manufacturer:0 "Materiel Designer"
  designer_infantry_primitive:0 "Blacksmiths' Guild"
  designer_infantry_civilised:0 "Musket Manufacturer"
  designer_infarmor_civilised:0 "Infantry Armor Manufacturer"
@@ -901,6 +903,7 @@
  designer_grenades_industrial:0 "Grenade Manufacturer"
  designer_machinegun_industrial:0 "Machine Gun Manufacturer"
  
+ tli_industrial_concern:0 "Industrial Concern"
  designer_construction_primitive:0 "Architects' Guild"
  designer_extraction_civilised:0 "Extraction Company"
  designer_agriculture_civilised:0 "Agricultural Company"
