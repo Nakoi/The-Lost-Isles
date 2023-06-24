@@ -52,10 +52,10 @@ idea_categories = {
 	
 	research_production = {
 		slot = cannon_manufacturer
-		slot = naval_manufacturer
+		slot = tli_naval_manufacturer
 		slot = airship_manufacturer
-		slot = materiel_manufacturer
-		slot = industrial_concern
+		slot = tli_materiel_manufacturer
+		slot = tli_industrial_concern
 		character_slot = theorist
 
 		ledger = civilian
