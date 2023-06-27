@@ -85,7 +85,7 @@ technologies = {
     }
 
     infantry_upgrade = {
-        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
         start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
 		
 		path = {
@@ -139,7 +139,7 @@ technologies = {
     }
 
     infantry_weapons1 = {
-        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+       research_cost = 1.2 # Cost in time, where 1 is the default research time length.
         start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
@@ -197,7 +197,7 @@ technologies = {
     }
 
     infantry_upgrade1 = {
-        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
         start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
         
 		dependencies = {
@@ -250,7 +250,7 @@ technologies = {
     }
 
     infantry_upgrade2 = {
-        research_cost = 1.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
         start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
         
 		dependencies = {
@@ -303,7 +303,7 @@ technologies = {
     }
 
     infantry_weapons2 = {
-        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
         start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
@@ -363,7 +363,7 @@ technologies = {
     }
 
     gunpowder = {
-        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
         start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -528,7 +528,7 @@ technologies = {
     }
 
     ranged_infantry_upgrade_2 = {
-        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -586,7 +586,7 @@ technologies = {
     }
 
     ranged_infantry_upgrade_3 = {
-        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 961     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -641,7 +641,7 @@ technologies = {
     }
 
     breech_loading_rifles = {
-        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
@@ -700,7 +700,7 @@ technologies = {
     }
 
     ranged_infantry_upgrade_4 = {
-        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -753,7 +753,7 @@ technologies = {
     }
 
     ranged_infantry_upgrade_5 = {
-        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -806,7 +806,7 @@ technologies = {
     }
 
     ranged_infantry_upgrade_6 = {
-        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -861,7 +861,7 @@ technologies = {
     }
 
     bolt_action_rifles = {
-        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
@@ -909,7 +909,7 @@ technologies = {
     }
 
     machine_gun = {
-        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
         
         enable_equipments = {
@@ -969,7 +969,7 @@ technologies = {
     }
 
     machine_gun_upgrade_1 = {
-        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -1031,7 +1031,7 @@ technologies = {
     }
 
     machine_gun_upgrade_2 = {
-        research_cost = 4.2 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -1092,7 +1092,7 @@ technologies = {
     }
 
     machine_gun_upgrade_3 = {
-        research_cost = 4.2 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
 		
 		dependencies = {
@@ -1149,7 +1149,7 @@ technologies = {
     }
 
     grenades_1 = {
-        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -1203,7 +1203,7 @@ technologies = {
     }
 
     grenades_2 = {
-        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -1256,7 +1256,7 @@ technologies = {
     }
 
     grenades_3 = {
-        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -1309,7 +1309,7 @@ technologies = {
     }
 
     grenade_rifles = {
-        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
 		
 		dependencies = {
@@ -1357,7 +1357,7 @@ technologies = {
     }
 
     infantry_upgrade3 = {
-        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
         start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
         
 		dependencies = {
@@ -1410,7 +1410,7 @@ technologies = {
     }
 
     infantry_upgrade4 = {
-        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
         start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
         
 		dependencies = {
@@ -1458,7 +1458,7 @@ technologies = {
     }
 
     crossbow = {
-        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
         start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
         
 		dependencies = {
@@ -1512,7 +1512,7 @@ technologies = {
     }
 
     crossbow1 = {
-        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
         start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
         
 		dependencies = {
@@ -1677,7 +1677,7 @@ technologies = {
     }
 
    infantry_armor = {
-        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -1756,7 +1756,7 @@ technologies = {
     }
 
     infantry_armor_upgrade_1 = {
-        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -1822,7 +1822,7 @@ technologies = {
     }
 
     infantry_armor_upgrade_2 = {
-        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 961     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -1888,7 +1888,7 @@ technologies = {
     }
 
     infantry_armor_upgrade_3 = {
-        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -1954,7 +1954,7 @@ technologies = {
     }
 
     infantry_armor_upgrade_4 = {
-        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
 		
 		dependencies = {
@@ -2014,7 +2014,7 @@ technologies = {
     }
 
     elite_armor = {
-        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -2083,7 +2083,7 @@ technologies = {
     }
 
     elite_armor_upgrade_1 = {
-        research_cost = 2 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -2148,7 +2148,7 @@ technologies = {
     }
 
     elite_armor_upgrade_2 = {
-        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 961     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -2213,7 +2213,7 @@ technologies = {
     }
 
     elite_armor_upgrade_3 = {
-        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -2268,7 +2268,7 @@ technologies = {
     }
 
     elite_armor_upgrade_4 = {
-        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
 		
 		dependencies = {
@@ -2318,7 +2318,7 @@ technologies = {
     }
 #Special Forces Tree
     special_forces_concept = {
-        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -2379,7 +2379,7 @@ technologies = {
     }
 
     shock_troops_0 = {
-        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -2437,7 +2437,7 @@ technologies = {
     }
 
     shock_troops_1 = {
-        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -2491,7 +2491,7 @@ technologies = {
     }
 
     shock_troops_2 = {
-        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -2545,7 +2545,7 @@ technologies = {
     }
 
     shock_troops_3 = {
-        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -2599,7 +2599,7 @@ technologies = {
     }
 
     shock_troops_4 = {
-        research_cost = 4.2 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
         
 		dependencies = {
@@ -2648,7 +2648,7 @@ technologies = {
     }
 
     sharpshooters_0 = {
-        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -2705,7 +2705,7 @@ technologies = {
     }
 
     sharpshooters_1 = {
-        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -2758,7 +2758,7 @@ technologies = {
     }
 
     sharpshooters_2 = {
-        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -2811,7 +2811,7 @@ technologies = {
     }
 
     sharpshooters_3 = {
-        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -2864,7 +2864,7 @@ technologies = {
     }
 
     sharpshooters_4 = {
-        research_cost = 4.2 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
         
 		dependencies = {
@@ -2912,7 +2912,7 @@ technologies = {
     }
 
     guards_0 = {
-        research_cost = 2.5 # Cost in time, where 1 is the default research time length.
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
         start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -2971,7 +2971,7 @@ technologies = {
     }
 
     guards_1 = {
-        research_cost = 3 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -3027,7 +3027,7 @@ technologies = {
     }
 
     guards_2 = {
-        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -3083,7 +3083,7 @@ technologies = {
     }
 
     guards_3 = {
-        research_cost = 3.4 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
 
         path = {
@@ -3139,7 +3139,7 @@ technologies = {
     }
 
     guards_4 = {
-        research_cost = 4.2 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
 		
 		dependencies = {
@@ -3191,7 +3191,7 @@ technologies = {
 
 #Motorized Tree
     early_motorized = {
-        research_cost = 4.1 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
@@ -3252,7 +3252,7 @@ technologies = {
     }
 
     improved_motorized = {
-        research_cost = 4.1 # Cost in time, where 1 is the default research time length.
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
 
         enable_equipments = {

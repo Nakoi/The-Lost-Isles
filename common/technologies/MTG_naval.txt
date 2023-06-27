@@ -33,7 +33,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -73,7 +73,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.8
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -122,7 +122,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.7
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -161,7 +161,7 @@ technologies = {
 			xebec_propulsion_4
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.7
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -208,7 +208,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -242,7 +242,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.8
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -284,7 +284,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.7
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -323,7 +323,7 @@ technologies = {
 			galley_propulsion_4
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.7
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -371,7 +371,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -407,7 +407,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.8
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -450,7 +450,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.7
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -490,7 +490,7 @@ technologies = {
 			light_planking_4
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.7
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -538,7 +538,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -574,7 +574,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.8
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
@@ -617,7 +617,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.7
 		dependencies = {
             tech_industrialized = 1
 			steam_engine = 1
@@ -656,7 +656,7 @@ technologies = {
 			heavy_planking_4
 		}
 		
-		research_cost = 1.5
+		research_cost = 2.7
 		dependencies = {
             tech_industrialized = 1
 			steam_engine = 1
@@ -695,7 +695,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1.2
 		start_year = 600
 		xp_research_type = navy
 		xp_boost_cost = 50
@@ -727,7 +727,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 1.8
 		start_year = 957
 		xp_research_type = navy
 		xp_boost_cost = 50
@@ -767,7 +767,7 @@ technologies = {
 		amphibious_invasion = 0.30
 		naval_invasion_capacity = 24
 
-		research_cost = 2
+		research_cost = 2.7
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -801,7 +801,7 @@ technologies = {
 		amphibious_invasion_defence = 0.50
 		naval_invasion_capacity = 12
 
-		research_cost = 2
+		research_cost = 2.7
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -838,7 +838,7 @@ technologies = {
 
 	damage_control_1 = {
 		
-		research_cost = 2.5
+		research_cost = 1.8
 		path = {
 			leads_to_tech = damage_control_2
 			research_cost_coeff = 1
@@ -872,7 +872,7 @@ technologies = {
 
 	damage_control_2 = {
 		
-		research_cost = 2.5
+		research_cost = 2.7
 		path = {
 			leads_to_tech = damage_control_3
 			research_cost_coeff = 1
@@ -907,7 +907,7 @@ technologies = {
 
 	damage_control_3 = {
 		
-		research_cost = 2.5
+		research_cost = 2.7
 		critical_receive_chance = -0.2
 		naval_critical_effect_factor = -0.2
 		xp_research_type = navy
@@ -942,9 +942,24 @@ technologies = {
 			spotting_equipment_1
 		}
 		
-		naval_retreat_speed = 0.1
+		frigate = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		galley = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		ship_of_line = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		xebec = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
 		
-		research_cost = 2.5
+		research_cost = 1.2
 		path = {
 			leads_to_tech = spotting_equipment_2
 			research_cost_coeff = 1
@@ -980,9 +995,24 @@ technologies = {
 			spotting_equipment_2
 		}
 		
-		naval_retreat_speed = 0.1
+		frigate = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		galley = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		ship_of_line = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		xebec = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
 		
-		research_cost = 2.5
+		research_cost = 1.2
 		path = {
 			leads_to_tech = spotting_equipment_3
 			research_cost_coeff = 1
@@ -1019,9 +1049,24 @@ technologies = {
 			spotting_equipment_3
 		}
 		
-		naval_retreat_speed = 0.1
+		frigate = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		galley = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		ship_of_line = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		xebec = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
 		
-		research_cost = 2.5
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1054,7 +1099,9 @@ technologies = {
 			navigation_equipment_1
 		}
 		
-		research_cost = 2.5
+		naval_retreat_speed = 0.1
+		
+		research_cost = 1.2
 		path = {
 			leads_to_tech = navigation_equipment_2
 			research_cost_coeff = 1
@@ -1090,7 +1137,9 @@ technologies = {
 			navigation_equipment_2
 		}
 		
-		research_cost = 2.5
+		naval_retreat_speed = 0.1
+		
+		research_cost = 1.2
 		path = {
 			leads_to_tech = navigation_equipment_3
 			research_cost_coeff = 1
@@ -1126,7 +1175,9 @@ technologies = {
 			navigation_equipment_3
 		}
 		
-		research_cost = 2.5
+		naval_retreat_speed = 0.1
+		
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1154,7 +1205,7 @@ technologies = {
 
 	naval_gunnery_1 = {
 		
-		research_cost = 2.5
+		research_cost = 1.8
 		path = {
 			leads_to_tech = naval_gunnery_2
 			research_cost_coeff = 1
@@ -1202,7 +1253,7 @@ technologies = {
 
 	naval_gunnery_2 = {
 		
-		research_cost = 2.5
+		research_cost = 2.7
 		path = {
 			leads_to_tech = naval_gunnery_3
 			research_cost_coeff = 1
@@ -1250,7 +1301,7 @@ technologies = {
 
 	naval_gunnery_3 = {
 		
-		research_cost = 2.5
+		research_cost = 2.7
 		frigate = {
 			lg_attack = 0.2
 			hg_attack = 0.2
@@ -1305,7 +1356,7 @@ technologies = {
 			heavy_naval_battery_2
 		}
 		
-		research_cost = 1
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1354,7 +1405,7 @@ technologies = {
 			heavy_naval_battery_3
 		}
 		
-		research_cost = 1
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1397,7 +1448,7 @@ technologies = {
 			heavy_naval_battery_4
 		}
 		
-		research_cost = 1
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1430,7 +1481,7 @@ technologies = {
 
 	naval_mortars = {
 		
-		research_cost = 1
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1478,7 +1529,7 @@ technologies = {
 
 	naval_rockets = {
 		
-		research_cost = 1
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1520,7 +1571,7 @@ technologies = {
 
 	advanced_naval_rockets = {
 		
-		research_cost = 1
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1557,7 +1608,7 @@ technologies = {
 
 	puckle_gun = {
 		
-		research_cost = 1
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1605,7 +1656,7 @@ technologies = {
 
 	gatling_gun = {
 		
-		research_cost = 1
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1647,7 +1698,7 @@ technologies = {
 
 	pom_pom = {
 		
-		research_cost = 1
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1684,7 +1735,7 @@ technologies = {
 
 	carronade = {
 		
-		research_cost = 1
+		research_cost = 1.2
 		dependencies = {
             tech_civilized = 1
         }
@@ -1731,7 +1782,7 @@ technologies = {
 
 	improved_carronade = {
 		
-		research_cost = 1
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1777,7 +1828,7 @@ technologies = {
  #   ##  #  # #    ### ###   ##  
 	early_torpedo = {
 		
-		research_cost = 2.0
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1821,7 +1872,7 @@ technologies = {
 
 	early_mines = {
 		
-		research_cost = 2
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1859,7 +1910,7 @@ technologies = {
 
 	mine_sweeping_equipment = {
 		
-		research_cost = 2
+		research_cost = 1.2
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
