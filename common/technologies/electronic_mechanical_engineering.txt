@@ -35,7 +35,7 @@ technologies = {
             tech_primitive = 1
         }
 		
-		research_cost = 1.15
+		research_cost = 0.1
 		start_year = 100
 		folder = {
 			name = electronics_folder
@@ -70,7 +70,7 @@ technologies = {
             tech_primitive = 1
         }
 		
-		research_cost = 1.15
+		research_cost = 1.2
 		start_year = 400
 		folder = {
 			name = electronics_folder
@@ -113,7 +113,7 @@ technologies = {
             tech_primitive = 1
         }
 		
-		research_cost = 1.15
+		research_cost = 1.2
 		start_year = 600
 		folder = {
 			name = electronics_folder
@@ -152,7 +152,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 2.49
+		research_cost = 1.8
 		start_year = 800
 		folder = {
 			name = electronics_folder
@@ -196,7 +196,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 2.49
+		research_cost = 1.8
 		start_year = 850
 		folder = {
 			name = electronics_folder
@@ -231,7 +231,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 2.49
+		research_cost = 1.8
 		start_year = 957
 		folder = {
 			name = electronics_folder
@@ -274,7 +274,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 2.49
+		research_cost = 1.8
 		start_year = 959
 		folder = {
 			name = electronics_folder
@@ -309,7 +309,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 2.49
+		research_cost = 1.8
 		start_year = 961
 		folder = {
 			name = electronics_folder
@@ -352,7 +352,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 3
+		research_cost = 2.7
 		start_year = 963
 		folder = {
 			name = electronics_folder
@@ -388,7 +388,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 3
+		research_cost = 2.7
 		start_year = 965
 		folder = {
 			name = electronics_folder
@@ -431,7 +431,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 3
+		research_cost = 2.7
 		start_year = 967
 		folder = {
 			name = electronics_folder
@@ -466,7 +466,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 3.6
+		research_cost = 2.7
 		start_year = 969
 		folder = {
 			name = electronics_folder
@@ -505,7 +505,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 3.6
+		research_cost = 2.7
 		start_year = 971
 		folder = {
 			name = electronics_folder
@@ -535,7 +535,7 @@ technologies = {
             tech_primitive = 1
         }
 		
-		research_cost = 1.26
+		research_cost = 1.2
 		start_year = 600
 		folder = {
 			name = electronics_folder
@@ -565,7 +565,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 1.5
+		research_cost = 1.2
 		start_year = 850
 		folder = {
 			name = electronics_folder
@@ -595,7 +595,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 1.74
+		research_cost = 1.2
 		start_year = 959
 		folder = {
 			name = electronics_folder
@@ -625,7 +625,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 2.11
+		research_cost = 1.2
 		start_year = 963
 		folder = {
 			name = electronics_folder
@@ -655,7 +655,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 2.11
+		research_cost = 1.2
 		start_year = 967
 		folder = {
 			name = electronics_folder
@@ -685,7 +685,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 2.54
+		research_cost = 1.2
 		start_year = 971
 		folder = {
 			name = electronics_folder
@@ -715,7 +715,7 @@ technologies = {
             tech_primitive = 1
         }
 		
-		research_cost = 1.26
+		research_cost = 1.2
 		start_year = 600
 		folder = {
 			name = electronics_folder
@@ -745,7 +745,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 1.5
+		research_cost = 1.2
 		start_year = 850
 		folder = {
 			name = electronics_folder
@@ -775,7 +775,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 1.74
+		research_cost = 1.2
 		start_year = 959
 		folder = {
 			name = electronics_folder
@@ -805,7 +805,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 2.11
+		research_cost = 1.2
 		start_year = 963
 		folder = {
 			name = electronics_folder
@@ -835,7 +835,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 2.11
+		research_cost = 1.2
 		start_year = 967
 		folder = {
 			name = electronics_folder
@@ -865,7 +865,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 2.54
+		research_cost = 1.2
 		start_year = 971
 		folder = {
 			name = electronics_folder
@@ -904,7 +904,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 2.49
+		research_cost = 1.8
 		start_year = 850
 		folder = {
 			name = electronics_folder
@@ -943,7 +943,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 3
+		research_cost = 1.8
 		start_year = 959
 		folder = {
 			name = electronics_folder
@@ -982,7 +982,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 3.76
+		research_cost = 2.7
 		start_year = 963
 		folder = {
 			name = electronics_folder
@@ -1021,7 +1021,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 3.76
+		research_cost = 2.7
 		start_year = 967
 		folder = {
 			name = electronics_folder
@@ -1054,7 +1054,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 4.21
+		research_cost = 2.7
 		start_year = 971
 		folder = {
 			name = electronics_folder
@@ -1126,7 +1126,7 @@ technologies = {
             tech_primitive = 1
         }
 		
-		research_cost = 2.49
+		research_cost = 1.8
 		start_year = 400
 		folder = {
 			name = electronics_folder
@@ -1198,7 +1198,7 @@ technologies = {
             tech_primitive = 1
         }
 		
-		research_cost = 2.49
+		research_cost = 1.8
 		start_year = 600
 		folder = {
 			name = electronics_folder
@@ -1270,7 +1270,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 3
+		research_cost = 2.7
 		start_year = 850
 		folder = {
 			name = electronics_folder
@@ -1342,7 +1342,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 3.43
+		research_cost = 2.7
 		start_year = 959
 		folder = {
 			name = electronics_folder
@@ -1381,7 +1381,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 4.21
+		research_cost = 2.7
 		start_year = 963
 		folder = {
 			name = electronics_folder
@@ -1447,7 +1447,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 4.21
+		research_cost = 2.7
 		start_year = 967
 		folder = {
 			name = electronics_folder
@@ -1509,7 +1509,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 4.21
+		research_cost = 2.7
 		start_year = 971
 		folder = {
 			name = electronics_folder
@@ -1546,7 +1546,7 @@ technologies = {
             tech_primitive = 1
         }
 		
-		research_cost = 2.49
+		research_cost = 1.8
 		start_year = 400
 		folder = {
 			name = electronics_folder
@@ -1583,7 +1583,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 3
+		research_cost = 2.7
 		start_year = 800
 		folder = {
 			name = electronics_folder
@@ -1620,7 +1620,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 3
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = electronics_folder
@@ -1657,7 +1657,7 @@ technologies = {
             tech_civilized = 1
         }
 		
-		research_cost = 3.44
+		research_cost = 2.7
 		start_year = 961
 		folder = {
 			name = electronics_folder
@@ -1694,7 +1694,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 4.21
+		research_cost = 2.7
 		start_year = 965
 		folder = {
 			name = electronics_folder
@@ -1726,7 +1726,7 @@ technologies = {
             tech_industrialized = 1
         }
 		
-		research_cost = 4.94
+		research_cost = 2.7
 		start_year = 969
 		folder = {
 			name = electronics_folder
