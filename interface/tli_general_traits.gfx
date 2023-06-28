@@ -1,0 +1,62 @@
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_trait_tli_bgtrait_professor"
+		texturefile = "gfx\interface\traits\trait_professor.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_bgtrait_priest"
+		texturefile = "gfx\interface\traits\trait_priest.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_bgtrait_butcher"
+		texturefile = "gfx\interface\traits\trait_butcher.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_bgtrait_insane"
+		texturefile = "gfx\interface\traits\trait_insane.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_bgtrait_war_hero"
+		texturefile = "gfx\interface\traits\trait_war_hero.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_bgtrait_elderly"
+		texturefile = "gfx\interface\traits\trait_elderly.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_bgtrait_natural_leader"
+		texturefile = "gfx\interface\traits\trait_natural_leader.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_bgtrait_fanatic"
+		texturefile = "gfx\interface\traits\trait_fanatic.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_bgtrait_uncommonly_young"
+		texturefile = "gfx\interface\traits\trait_uncommonly_young.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_bgtrait_aristocrat"
+		texturefile = "gfx\interface\traits\trait_aristocrat.dds"
+		legacy_lazy_load = no
+	}
+}
