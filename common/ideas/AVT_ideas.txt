@@ -24,11 +24,9 @@ ideas = {
 			}
 				
 			modifier = {
-				minimum_training_level = 1
-				training_time_factor = 10
+				custom_modifier_tooltip = SPR_military_disloyalty_tt
                 political_power_factor = -0.1
                 stability_factor = -0.2
-
 			}
 		}
 
