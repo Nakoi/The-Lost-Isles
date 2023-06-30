@@ -427,6 +427,260 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.0.a
+		AVT = { load_focus_tree = generic_focus }
+		custom_effect_tooltip = AVTtt_civil_war_shtf
+		remove_ideas = AVT_idea_noble_discontent
+		set_country_flag = avt_civil_war_shtf_flag
+		delete_units = {
+			division_template = "Rat' Greismerskogo Garnizona"
+			disband = no
+		}
+		delete_units = {
+			division_template = "Pegazskaya Rat'"
+			disband = no
+		}
+		hidden_effect = {
+			set_division_template_lock = {
+				division_template = "Polk Gorodskogo Opolcheniya"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Gvardeyskaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Kopytnaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Artilleriyskaya Rat'"
+				is_locked = no
+			}
+		}
+		hidden_effect = {
+			###MUDPONE TURF
+			378 = {
+				set_demilitarized_zone = yes
+			}
+			381 = {
+				set_demilitarized_zone = yes
+			}
+			377 = {
+				set_demilitarized_zone = yes
+			}
+			380 = {
+				set_demilitarized_zone = yes
+			}
+			389 = {
+				set_demilitarized_zone = yes
+			}
+			388 = {
+				set_demilitarized_zone = yes
+			}
+			390 = {
+				set_demilitarized_zone = yes
+			}
+			421 = {
+				set_demilitarized_zone = yes
+			}
+			422 = {
+				set_demilitarized_zone = yes
+			}
+			423 = {
+				set_demilitarized_zone = yes
+			}
+			379 = {
+				set_demilitarized_zone = yes
+			}
+			382 = {
+				set_demilitarized_zone = yes
+			}
+			436 = {
+				set_demilitarized_zone = yes
+			}
+			439 = {
+				set_demilitarized_zone = yes
+			}
+			440 = {
+				set_demilitarized_zone = yes
+			}
+			438 = {
+				set_demilitarized_zone = yes
+			}
+			441 = {
+				set_demilitarized_zone = yes
+			}
+			443 = {
+				set_demilitarized_zone = yes
+			}
+			444 = {
+				set_demilitarized_zone = yes
+			}
+			451 = {
+				set_demilitarized_zone = yes
+			}
+			384 = {
+				set_demilitarized_zone = yes
+			}
+			385 = {
+				set_demilitarized_zone = yes
+			}
+			435 = {
+				set_demilitarized_zone = yes
+			}
+			386 = {
+				set_demilitarized_zone = yes
+			}
+			437 = {
+				set_demilitarized_zone = yes
+			}
+			387 = {
+				set_demilitarized_zone = yes
+			}
+			367 = {
+				set_demilitarized_zone = yes
+			}
+			420 = {
+				set_demilitarized_zone = yes
+			}
+			452 = {
+				set_demilitarized_zone = yes
+			}
+			453 = {
+				set_demilitarized_zone = yes
+			}
+			###UNICORN TURF
+			349 = {
+				set_demilitarized_zone = yes
+			}
+			392 = {
+				set_demilitarized_zone = yes
+			}
+			391 = {
+				set_demilitarized_zone = yes
+			}
+			425 = {
+				set_demilitarized_zone = yes
+			}
+			393 = {
+				set_demilitarized_zone = yes
+			}
+			424 = {
+				set_demilitarized_zone = yes
+			}
+			442 = {
+				set_demilitarized_zone = yes
+			}
+			426 = {
+				set_demilitarized_zone = yes
+			}
+			427 = {
+				set_demilitarized_zone = yes
+			}
+			394 = {
+				set_demilitarized_zone = yes
+			}
+			428 = {
+				set_demilitarized_zone = yes
+			}
+			395 = {
+				set_demilitarized_zone = yes
+			}
+			432 = {
+				set_demilitarized_zone = yes
+			}
+			429 = {
+				set_demilitarized_zone = yes
+			}
+			446 = {
+				set_demilitarized_zone = yes
+			}
+			445 = {
+				set_demilitarized_zone = yes
+			}
+			454 = {
+				set_demilitarized_zone = yes
+			}
+			###PEGASUS TURF
+			396 = {
+				set_demilitarized_zone = yes
+			}
+			397 = {
+				set_demilitarized_zone = yes
+			}
+			398 = {
+				set_demilitarized_zone = yes
+			}
+			400 = {
+				set_demilitarized_zone = yes
+			}
+			431 = {
+				set_demilitarized_zone = yes
+			}
+			399 = {
+				set_demilitarized_zone = yes
+			}
+			430 = {
+				set_demilitarized_zone = yes
+			}
+			448 = {
+				set_demilitarized_zone = yes
+			}
+			401 = {
+				set_demilitarized_zone = yes
+			}
+			402 = {
+				set_demilitarized_zone = yes
+			}
+			416 = {
+				set_demilitarized_zone = yes
+			}
+			403 = {
+				set_demilitarized_zone = yes
+			}
+			433 = {
+				set_demilitarized_zone = yes
+			}
+			417 = {
+				set_demilitarized_zone = yes
+			}
+			411 = {
+				set_demilitarized_zone = yes
+			}
+			413 = {
+				set_demilitarized_zone = yes
+			}
+			404 = {
+				set_demilitarized_zone = yes
+			}
+			414 = {
+				set_demilitarized_zone = yes
+			}
+			415 = {
+				set_demilitarized_zone = yes
+			}
+			412 = {
+				set_demilitarized_zone = yes
+			}
+			405 = {
+				set_demilitarized_zone = yes
+			}
+			406 = {
+				set_demilitarized_zone = yes
+			}
+			407 = {
+				set_demilitarized_zone = yes
+			}
+			408 = {
+				set_demilitarized_zone = yes
+			}
+			409 = {
+				set_demilitarized_zone = yes
+			}
+			410 = {
+				set_demilitarized_zone = yes
+			}
+		}
 	}
 }
 
@@ -441,6 +695,649 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.1.a
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.11
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.11"}
+	title = avt_civwarevent.11.t
+	desc = avt_civwarevent.11.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = avt_civil_war_shtf_flag
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = avt_civwarevent.11.a
+		custom_effect_tooltip = AVTtt_civil_war_vorony_secesh
+		hidden_effect = {
+			AVE = {            
+				transfer_state = 378
+				transfer_state = 381
+				transfer_state = 377
+				transfer_state = 380
+				transfer_state = 389
+				transfer_state = 388
+				transfer_state = 390
+				transfer_state = 421
+				transfer_state = 422
+				transfer_state = 423
+				transfer_state = 379
+				transfer_state = 382
+				transfer_state = 436
+				transfer_state = 439
+				transfer_state = 440
+				transfer_state = 438
+				transfer_state = 441
+				transfer_state = 443
+				transfer_state = 444
+				transfer_state = 451
+				transfer_state = 384
+				transfer_state = 385
+				transfer_state = 435
+				transfer_state = 386
+				transfer_state = 437
+				transfer_state = 387
+				transfer_state = 367
+				transfer_state = 420
+				transfer_state = 452
+				transfer_state = 453
+					
+				add_state_core = 349
+				add_state_core = 392
+				add_state_core = 391
+				add_state_core = 425
+				add_state_core = 393
+				add_state_core = 424
+				add_state_core = 442
+				add_state_core = 426
+				add_state_core = 427
+				add_state_core = 394
+				add_state_core = 428
+				add_state_core = 395
+				add_state_core = 432
+				add_state_core = 429
+				add_state_core = 446
+				add_state_core = 445
+				add_state_core = 454
+				
+				add_state_core = 378
+				add_state_core = 381
+				add_state_core = 377
+				add_state_core = 380
+				add_state_core = 389
+				add_state_core = 388
+				add_state_core = 390
+				add_state_core = 421
+				add_state_core = 422
+				add_state_core = 423
+				add_state_core = 379
+				add_state_core = 382
+				add_state_core = 436
+				add_state_core = 439
+				add_state_core = 440
+				add_state_core = 438
+				add_state_core = 441
+				add_state_core = 443
+				add_state_core = 444
+				add_state_core = 451
+				add_state_core = 384
+				add_state_core = 385
+				add_state_core = 435
+				add_state_core = 386
+				add_state_core = 437
+				add_state_core = 387
+				add_state_core = 367
+				add_state_core = 420
+				add_state_core = 452
+				add_state_core = 453
+				
+				add_state_core = 396
+				add_state_core = 397
+				add_state_core = 398
+				add_state_core = 400
+				add_state_core = 431
+				add_state_core = 399
+				add_state_core = 430
+				add_state_core = 448
+				add_state_core = 401
+				add_state_core = 402
+				add_state_core = 416
+				add_state_core = 403
+				add_state_core = 433
+				add_state_core = 417
+				add_state_core = 411
+				add_state_core = 413
+				add_state_core = 404
+				add_state_core = 414
+				add_state_core = 415
+				add_state_core = 412
+				add_state_core = 405
+				add_state_core = 406
+				add_state_core = 407
+				add_state_core = 408
+				add_state_core = 409
+				add_state_core = 410
+				
+				add_state_core = 456
+				add_state_core = 447
+				add_state_core = 455
+				add_state_core = 450
+				add_state_core = 449
+				add_state_core = 434
+				add_state_core = 464
+				add_state_core = 461
+				add_state_core = 462
+				add_state_core = 463
+				add_state_core = 419
+				
+				set_capital = { state = 380 }
+				inherit_technology = AVT
+			}
+			378 = {
+				set_demilitarized_zone = no
+			}
+			381 = {
+				set_demilitarized_zone = no
+			}
+			377 = {
+				set_demilitarized_zone = no
+			}
+			380 = {
+				set_demilitarized_zone = no
+			}
+			389 = {
+				set_demilitarized_zone = no
+			}
+			388 = {
+				set_demilitarized_zone = no
+			}
+			390 = {
+				set_demilitarized_zone = no
+			}
+			421 = {
+				set_demilitarized_zone = no
+			}
+			422 = {
+				set_demilitarized_zone = no
+			}
+			423 = {
+				set_demilitarized_zone = no
+			}
+			379 = {
+				set_demilitarized_zone = no
+			}
+			382 = {
+				set_demilitarized_zone = no
+			}
+			436 = {
+				set_demilitarized_zone = no
+			}
+			439 = {
+				set_demilitarized_zone = no
+			}
+			440 = {
+				set_demilitarized_zone = no
+			}
+			438 = {
+				set_demilitarized_zone = no
+			}
+			441 = {
+				set_demilitarized_zone = no
+			}
+			443 = {
+				set_demilitarized_zone = no
+			}
+			444 = {
+				set_demilitarized_zone = no
+			}
+			451 = {
+				set_demilitarized_zone = no
+			}
+			384 = {
+				set_demilitarized_zone = no
+			}
+			385 = {
+				set_demilitarized_zone = no
+			}
+			435 = {
+				set_demilitarized_zone = no
+			}
+			386 = {
+				set_demilitarized_zone = no
+			}
+			437 = {
+				set_demilitarized_zone = no
+			}
+			387 = {
+				set_demilitarized_zone = no
+			}
+			367 = {
+				set_demilitarized_zone = no
+			}
+			420 = {
+				set_demilitarized_zone = no
+			}
+			452 = {
+				set_demilitarized_zone = no
+			}
+			453 = {
+				set_demilitarized_zone = no
+			}
+        }
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.12
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.12"}
+	title = avt_civwarevent.12.t
+	desc = avt_civwarevent.12.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = avt_civil_war_shtf_flag
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = avt_civwarevent.12.a
+		custom_effect_tooltip = AVTtt_civil_war_unicorn_secesh
+		hidden_effect = {
+			AVU = {            
+				transfer_state = 349
+				transfer_state = 392
+				transfer_state = 391
+				transfer_state = 425
+				transfer_state = 393
+				transfer_state = 424
+				transfer_state = 442
+				transfer_state = 426
+				transfer_state = 427
+				transfer_state = 394
+				transfer_state = 428
+				transfer_state = 395
+				transfer_state = 432
+				transfer_state = 429
+				transfer_state = 446
+				transfer_state = 445
+				transfer_state = 454
+					
+				add_state_core = 349
+				add_state_core = 392
+				add_state_core = 391
+				add_state_core = 425
+				add_state_core = 393
+				add_state_core = 424
+				add_state_core = 442
+				add_state_core = 426
+				add_state_core = 427
+				add_state_core = 394
+				add_state_core = 428
+				add_state_core = 395
+				add_state_core = 432
+				add_state_core = 429
+				add_state_core = 446
+				add_state_core = 445
+				add_state_core = 454
+				
+				add_state_core = 378
+				add_state_core = 381
+				add_state_core = 377
+				add_state_core = 380
+				add_state_core = 389
+				add_state_core = 388
+				add_state_core = 390
+				add_state_core = 421
+				add_state_core = 422
+				add_state_core = 423
+				add_state_core = 379
+				add_state_core = 382
+				add_state_core = 436
+				add_state_core = 439
+				add_state_core = 440
+				add_state_core = 438
+				add_state_core = 441
+				add_state_core = 443
+				add_state_core = 444
+				add_state_core = 451
+				add_state_core = 384
+				add_state_core = 385
+				add_state_core = 435
+				add_state_core = 386
+				add_state_core = 437
+				add_state_core = 387
+				add_state_core = 367
+				add_state_core = 420
+				add_state_core = 452
+				add_state_core = 453
+				
+				add_state_core = 396
+				add_state_core = 397
+				add_state_core = 398
+				add_state_core = 400
+				add_state_core = 431
+				add_state_core = 399
+				add_state_core = 430
+				add_state_core = 448
+				add_state_core = 401
+				add_state_core = 402
+				add_state_core = 416
+				add_state_core = 403
+				add_state_core = 433
+				add_state_core = 417
+				add_state_core = 411
+				add_state_core = 413
+				add_state_core = 404
+				add_state_core = 414
+				add_state_core = 415
+				add_state_core = 412
+				add_state_core = 405
+				add_state_core = 406
+				add_state_core = 407
+				add_state_core = 408
+				add_state_core = 409
+				add_state_core = 410
+				
+				add_state_core = 456
+				add_state_core = 447
+				add_state_core = 455
+				add_state_core = 450
+				add_state_core = 449
+				add_state_core = 434
+				add_state_core = 464
+				add_state_core = 461
+				add_state_core = 462
+				add_state_core = 463
+				add_state_core = 419
+				
+				set_capital = { state = 394 }
+				inherit_technology = AVT
+			}
+			349 = {
+				set_demilitarized_zone = no
+			}
+			392 = {
+				set_demilitarized_zone = no
+			}
+			391 = {
+				set_demilitarized_zone = no
+			}
+			425 = {
+				set_demilitarized_zone = no
+			}
+			393 = {
+				set_demilitarized_zone = no
+			}
+			424 = {
+				set_demilitarized_zone = no
+			}
+			442 = {
+				set_demilitarized_zone = no
+			}
+			426 = {
+				set_demilitarized_zone = no
+			}
+			427 = {
+				set_demilitarized_zone = no
+			}
+			394 = {
+				set_demilitarized_zone = no
+			}
+			428 = {
+				set_demilitarized_zone = no
+			}
+			395 = {
+				set_demilitarized_zone = no
+			}
+			432 = {
+				set_demilitarized_zone = no
+			}
+			429 = {
+				set_demilitarized_zone = no
+			}
+			446 = {
+				set_demilitarized_zone = no
+			}
+			445 = {
+				set_demilitarized_zone = no
+			}
+			454 = {
+				set_demilitarized_zone = no
+			}
+        }
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.13
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.13"}
+	title = avt_civwarevent.13.t
+	desc = avt_civwarevent.13.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = avt_civil_war_shtf_flag
+	}
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+		name = avt_civwarevent.13.a
+		custom_effect_tooltip = AVTtt_civil_war_pegasus_secesh
+		hidden_effect = {
+			AVP = {            
+				transfer_state = 396
+				transfer_state = 397
+				transfer_state = 398
+				transfer_state = 400
+				transfer_state = 431
+				transfer_state = 399
+				transfer_state = 430
+				transfer_state = 448
+				transfer_state = 401
+				transfer_state = 402
+				transfer_state = 416
+				transfer_state = 403
+				transfer_state = 433
+				transfer_state = 417
+				transfer_state = 411
+				transfer_state = 413
+				transfer_state = 404
+				transfer_state = 414
+				transfer_state = 415
+				transfer_state = 412
+				transfer_state = 405
+				transfer_state = 406
+				transfer_state = 407
+				transfer_state = 408
+				transfer_state = 409
+				transfer_state = 410
+					
+				add_state_core = 349
+				add_state_core = 392
+				add_state_core = 391
+				add_state_core = 425
+				add_state_core = 393
+				add_state_core = 424
+				add_state_core = 442
+				add_state_core = 426
+				add_state_core = 427
+				add_state_core = 394
+				add_state_core = 428
+				add_state_core = 395
+				add_state_core = 432
+				add_state_core = 429
+				add_state_core = 446
+				add_state_core = 445
+				add_state_core = 454
+				
+				add_state_core = 378
+				add_state_core = 381
+				add_state_core = 377
+				add_state_core = 380
+				add_state_core = 389
+				add_state_core = 388
+				add_state_core = 390
+				add_state_core = 421
+				add_state_core = 422
+				add_state_core = 423
+				add_state_core = 379
+				add_state_core = 382
+				add_state_core = 436
+				add_state_core = 439
+				add_state_core = 440
+				add_state_core = 438
+				add_state_core = 441
+				add_state_core = 443
+				add_state_core = 444
+				add_state_core = 451
+				add_state_core = 384
+				add_state_core = 385
+				add_state_core = 435
+				add_state_core = 386
+				add_state_core = 437
+				add_state_core = 387
+				add_state_core = 367
+				add_state_core = 420
+				add_state_core = 452
+				add_state_core = 453
+				
+				add_state_core = 396
+				add_state_core = 397
+				add_state_core = 398
+				add_state_core = 400
+				add_state_core = 431
+				add_state_core = 399
+				add_state_core = 430
+				add_state_core = 448
+				add_state_core = 401
+				add_state_core = 402
+				add_state_core = 416
+				add_state_core = 403
+				add_state_core = 433
+				add_state_core = 417
+				add_state_core = 411
+				add_state_core = 413
+				add_state_core = 404
+				add_state_core = 414
+				add_state_core = 415
+				add_state_core = 412
+				add_state_core = 405
+				add_state_core = 406
+				add_state_core = 407
+				add_state_core = 408
+				add_state_core = 409
+				add_state_core = 410
+				
+				add_state_core = 456
+				add_state_core = 447
+				add_state_core = 455
+				add_state_core = 450
+				add_state_core = 449
+				add_state_core = 434
+				add_state_core = 464
+				add_state_core = 461
+				add_state_core = 462
+				add_state_core = 463
+				add_state_core = 419
+				
+				set_capital = { state = 402 }
+				inherit_technology = AVT
+			}
+			396 = {
+				set_demilitarized_zone = no
+			}
+			397 = {
+				set_demilitarized_zone = no
+			}
+			398 = {
+				set_demilitarized_zone = no
+			}
+			400 = {
+				set_demilitarized_zone = no
+			}
+			431 = {
+				set_demilitarized_zone = no
+			}
+			399 = {
+				set_demilitarized_zone = no
+			}
+			430 = {
+				set_demilitarized_zone = no
+			}
+			448 = {
+				set_demilitarized_zone = no
+			}
+			401 = {
+				set_demilitarized_zone = no
+			}
+			402 = {
+				set_demilitarized_zone = no
+			}
+			416 = {
+				set_demilitarized_zone = no
+			}
+			403 = {
+				set_demilitarized_zone = no
+			}
+			433 = {
+				set_demilitarized_zone = no
+			}
+			417 = {
+				set_demilitarized_zone = no
+			}
+			411 = {
+				set_demilitarized_zone = no
+			}
+			413 = {
+				set_demilitarized_zone = no
+			}
+			404 = {
+				set_demilitarized_zone = no
+			}
+			414 = {
+				set_demilitarized_zone = no
+			}
+			415 = {
+				set_demilitarized_zone = no
+			}
+			412 = {
+				set_demilitarized_zone = no
+			}
+			405 = {
+				set_demilitarized_zone = no
+			}
+			406 = {
+				set_demilitarized_zone = no
+			}
+			407 = {
+				set_demilitarized_zone = no
+			}
+			408 = {
+				set_demilitarized_zone = no
+			}
+			409 = {
+				set_demilitarized_zone = no
+			}
+			410 = {
+				set_demilitarized_zone = no
+			}
+        }
 	}
 }
 
