@@ -1,7 +1,3 @@
-EAK = {
-    color = rgb { 134 149 81 }
-    color_ui = rgb { 136 151 83 }
-}
 
 AVT = {
     color = rgb { 97 25 65 }
@@ -14,18 +10,33 @@ AVC = {
 }
 
 AVE = {
-    color = rgb { 107 33 74 }
-    color_ui = rgb { 100 31 70 }
+    color = rgb { 114 54 86 }
+    color_ui = rgb { 129 61 98 }
+}
+
+EVA = {
+     color = rgb { 97 25 65 }
+    color_ui = rgb { 91 23 61 }
 }
 
 AVU = {
-    color = rgb { 107 33 74 }
-    color_ui = rgb { 100 31 70 }
+    color = rgb { 71 10 47 }
+    color_ui = rgb { 82 31 70 }
+}
+
+UVA = {
+    color = rgb { 97 25 65 }
+    color_ui = rgb { 91 23 61 }
 }
 
 AVP = {
-    color = rgb { 107 33 74 }
-    color_ui = rgb { 100 31 70 }
+    color = rgb { 135 29 78 }
+    color_ui = rgb { 146 31 85 }
+}
+
+PVA = {
+     color = rgb { 97 25 65 }
+    color_ui = rgb { 91 23 61 }
 }
 
 OSK = {
@@ -108,11 +119,14 @@ PRI = {
     color_ui = rgb { 42 58 60 }
 }
 
-
-
 KAE = {
     color = rgb { 234 215 25 }
     color_ui = rgb { 235 214 8 }
+}
+
+EAK = {
+    color = rgb { 134 149 81 }
+    color_ui = rgb { 136 151 83 }
 }
 
 AST = {
