@@ -458,6 +458,10 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			AVT = { country_event = { id = avt_civwarevent.14 days = 7 } }
+			AVT = { country_event = { id = avt_civwarevent.15 days = 11 } }
+			AVT = { country_event = { id = avt_civwarevent.16 days = 15 } }
+			AVT = { country_event = { id = avt_civwarevent.17 days = 30 } }
 			###MUDPONE TURF
 			378 = {
 				set_demilitarized_zone = yes
@@ -711,7 +715,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 7
+		days = 1
 	}
 	
 	option = {
@@ -948,7 +952,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 10
+		days = 1
 	}
 	
 	option = {
@@ -1133,7 +1137,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 14
+		days = 1
 	}
 	
 	option = {
@@ -1336,6 +1340,248 @@ country_event = {
 			}
 			410 = {
 				set_demilitarized_zone = no
+			}
+        }
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.14
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.14"}
+	title = avt_civwarevent.14.t
+	desc = avt_civwarevent.14.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_civwarevent.14.a
+		custom_effect_tooltip = AVTtt_civil_war_gracemarean_league_forming
+		AVT = {	add_to_faction = EVA } 
+		hidden_effect = {
+			EVA = {            
+				transfer_state = 379
+				transfer_state = 382
+				transfer_state = 436
+				transfer_state = 384
+				transfer_state = 435
+				transfer_state = 385
+				transfer_state = 437
+				transfer_state = 386
+				transfer_state = 387
+				transfer_state = 438
+				transfer_state = 441
+				
+				add_state_core = 378
+				add_state_core = 381
+				add_state_core = 377
+				add_state_core = 380
+				add_state_core = 389
+				add_state_core = 388
+				add_state_core = 390
+				add_state_core = 421
+				add_state_core = 422
+				add_state_core = 423
+				add_state_core = 379
+				add_state_core = 382
+				add_state_core = 436
+				add_state_core = 439
+				add_state_core = 440
+				add_state_core = 438
+				add_state_core = 441
+				add_state_core = 443
+				add_state_core = 444
+				add_state_core = 451
+				add_state_core = 384
+				add_state_core = 385
+				add_state_core = 435
+				add_state_core = 386
+				add_state_core = 437
+				add_state_core = 387
+				add_state_core = 367
+				add_state_core = 420
+				add_state_core = 452
+				add_state_core = 453
+				
+				set_capital = { state = 379 }
+				inherit_technology = AVT
+			}
+        }
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.15
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.15"}
+	title = avt_civwarevent.15.t
+	desc = avt_civwarevent.15.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_civwarevent.15.a
+		custom_effect_tooltip = AVTtt_civil_war_loyal_mages_forming
+		AVT = {	add_to_faction = UVA } 
+		hidden_effect = {
+			UVA = {            
+				transfer_state = 442
+				transfer_state = 424
+				transfer_state = 427
+				transfer_state = 426
+				transfer_state = 349
+				transfer_state = 392
+				transfer_state = 391
+				transfer_state = 425
+				transfer_state = 393
+					
+				add_state_core = 349
+				add_state_core = 392
+				add_state_core = 391
+				add_state_core = 425
+				add_state_core = 393
+				add_state_core = 424
+				add_state_core = 442
+				add_state_core = 426
+				add_state_core = 427
+				add_state_core = 394
+				add_state_core = 428
+				add_state_core = 395
+				add_state_core = 432
+				add_state_core = 429
+				add_state_core = 446
+				add_state_core = 445
+				add_state_core = 454
+				
+				set_capital = { state = 442 }
+				inherit_technology = AVT
+			}
+        }
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.16
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.16"}
+	title = avt_civwarevent.16.t
+	desc = avt_civwarevent.16.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_civwarevent.16.a
+		custom_effect_tooltip = AVTtt_civil_war_loyal_pegasi_forming
+		AVT = {	add_to_faction = PVA } 
+		hidden_effect = {
+			PVA = {            
+				transfer_state = 410
+				transfer_state = 409
+				transfer_state = 408
+				transfer_state = 407
+				transfer_state = 405
+				transfer_state = 406
+				transfer_state = 404
+				transfer_state = 413
+				transfer_state = 412
+					
+				add_state_core = 396
+				add_state_core = 397
+				add_state_core = 398
+				add_state_core = 400
+				add_state_core = 431
+				add_state_core = 399
+				add_state_core = 430
+				add_state_core = 448
+				add_state_core = 401
+				add_state_core = 402
+				add_state_core = 416
+				add_state_core = 403
+				add_state_core = 433
+				add_state_core = 417
+				add_state_core = 411
+				add_state_core = 413
+				add_state_core = 404
+				add_state_core = 414
+				add_state_core = 415
+				add_state_core = 412
+				add_state_core = 405
+				add_state_core = 406
+				add_state_core = 407
+				add_state_core = 408
+				add_state_core = 409
+				add_state_core = 410
+				
+				set_capital = { state = 410 }
+				inherit_technology = AVT
+			}
+        }
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.17
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.17"}
+	title = avt_civwarevent.17.t
+	desc = avt_civwarevent.17.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_civwarevent.17.a
+		AVE = {
+			declare_war_on = {
+				target = AVT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = EVA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = UVA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PVA
+				type = annex_everything
+			}
+        }
+		AVU = {
+			declare_war_on = {
+				target = AVT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = EVA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = UVA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PVA
+				type = annex_everything
+			}
+        }
+		AVP = {
+			declare_war_on = {
+				target = AVT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = EVA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = UVA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PVA
+				type = annex_everything
 			}
         }
 	}
