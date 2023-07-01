@@ -16,6 +16,102 @@
 
  AVT_ADJ:0 "Avtukovian"
  
+ AVU_ideology_militarism:0 "Mage Rebellion"
+ AVU_ideology_imperialism:0 "Mage Rebellion"
+ AVU_ideology_visionarism:0 "Mage Rebellion"
+ AVU_ideology_solidarism:0 "Mage Rebellion"
+ AVU_ideology_continuism:0 "Mage Rebellion"
+ AVU_ideology_isolationism:0 "Mage Rebellion"
+
+ AVU_ideology_militarism_DEF:0 "The Mage Rebellion"
+ AVU_ideology_imperialism_DEF:0 "The Mage Rebellion"
+ AVU_ideology_visionarism_DEF:0 "The Mage Rebellion"
+ AVU_ideology_solidarism_DEF:0 "The Mage Rebellion"
+ AVU_ideology_continuism_DEF:0 "The Mage Rebellion"
+ AVU_ideology_isolationism_DEF:0 "The Mage Rebellion"
+
+ AVU_ADJ:0 "Avtukovian"
+ 
+ UVA_ideology_militarism:0 "Tsarist Mage Coalition"
+ UVA_ideology_imperialism:0 "Tsarist Mage Coalition"
+ UVA_ideology_visionarism:0 "Tsarist Mage Coalition"
+ UVA_ideology_solidarism:0 "Tsarist Mage Coalition"
+ UVA_ideology_continuism:0 "Tsarist Mage Coalition"
+ UVA_ideology_isolationism:0 "Tsarist Mage Coalition"
+
+ UVA_ideology_militarism_DEF:0 "The Tsarist Mage Coalition"
+ UVA_ideology_imperialism_DEF:0 "The Tsarist Mage Coalition"
+ UVA_ideology_visionarism_DEF:0 "The Tsarist Mage Coalition"
+ UVA_ideology_solidarism_DEF:0 "The Tsarist Mage Coalition"
+ UVA_ideology_continuism_DEF:0 "The Tsarist Mage Coalition"
+ UVA_ideology_isolationism_DEF:0 "The Tsarist Mage Coalition"
+
+ UVA_ADJ:0 "Avtukovian"
+ 
+ AVE_ideology_militarism:0 "Vorony Rebellion"
+ AVE_ideology_imperialism:0 "Vorony Rebellion"
+ AVE_ideology_visionarism:0 "Vorony Rebellion"
+ AVE_ideology_solidarism:0 "Vorony Rebellion"
+ AVE_ideology_continuism:0 "Vorony Rebellion"
+ AVE_ideology_isolationism:0 "Vorony Rebellion"
+
+ AVE_ideology_militarism_DEF:0 "The Vorony Rebellion"
+ AVE_ideology_imperialism_DEF:0 "The Vorony Rebellion"
+ AVE_ideology_visionarism_DEF:0 "The Vorony Rebellion"
+ AVE_ideology_solidarism_DEF:0 "The Vorony Rebellion"
+ AVE_ideology_continuism_DEF:0 "The Vorony Rebellion"
+ AVE_ideology_isolationism_DEF:0 "The Vorony Rebellion"
+
+ AVE_ADJ:0 "Avtukovian"
+ 
+ EVA_ideology_militarism:0 "Gracemarean League"
+ EVA_ideology_imperialism:0 "Gracemarean League"
+ EVA_ideology_visionarism:0 "Gracemarean League"
+ EVA_ideology_solidarism:0 "Gracemarean League"
+ EVA_ideology_continuism:0 "Gracemarean League"
+ EVA_ideology_isolationism:0 "Gracemarean League"
+
+ EVA_ideology_militarism_DEF:0 "The Gracemarean League"
+ EVA_ideology_imperialism_DEF:0 "The Gracemarean League"
+ EVA_ideology_visionarism_DEF:0 "The Gracemarean League"
+ EVA_ideology_solidarism_DEF:0 "The Gracemarean League"
+ EVA_ideology_continuism_DEF:0 "The Gracemarean League"
+ EVA_ideology_isolationism_DEF:0 "The Gracemarean League"
+
+ EVA_ADJ:0 "Avtukovian"
+ 
+ AVP_ideology_militarism:0 "Swiftguard Rebellion"
+ AVP_ideology_imperialism:0 "Swiftguard Rebellion"
+ AVP_ideology_visionarism:0 "Swiftguard Rebellion"
+ AVP_ideology_solidarism:0 "Swiftguard Rebellion"
+ AVP_ideology_continuism:0 "Swiftguard Rebellion"
+ AVP_ideology_isolationism:0 "Swiftguard Rebellion"
+
+ AVP_ideology_militarism_DEF:0 "The Swiftguard Rebellion"
+ AVP_ideology_imperialism_DEF:0 "The Swiftguard Rebellion"
+ AVP_ideology_visionarism_DEF:0 "The Swiftguard Rebellion"
+ AVP_ideology_solidarism_DEF:0 "The Swiftguard Rebellion"
+ AVP_ideology_continuism_DEF:0 "The Swiftguard Rebellion"
+ AVP_ideology_isolationism_DEF:0 "The Swiftguard Rebellion"
+
+ AVP_ADJ:0 "Avtukovian"
+ 
+ PVA_ideology_militarism:0 "Winged Hundreds"
+ PVA_ideology_imperialism:0 "Winged Hundreds"
+ PVA_ideology_visionarism:0 "Winged Hundreds"
+ PVA_ideology_solidarism:0 "Winged Hundreds"
+ PVA_ideology_continuism:0 "Winged Hundreds"
+ PVA_ideology_isolationism:0 "Winged Hundreds"
+
+ PVA_ideology_militarism_DEF:0 "The Winged Hundreds"
+ PVA_ideology_imperialism_DEF:0 "The Winged Hundreds"
+ PVA_ideology_visionarism_DEF:0 "The Winged Hundreds"
+ PVA_ideology_solidarism_DEF:0 "The Winged Hundreds"
+ PVA_ideology_continuism_DEF:0 "The Winged Hundreds"
+ PVA_ideology_isolationism_DEF:0 "The Winged Hundreds"
+
+ PVA_ADJ:0 "Avtukovian"
+ 
  AVC_ideology_militarism:0 "Grand Principality of Northern Traunulu"
  AVC_ideology_imperialism:0 "Grand Principality of Northern Traunulu"
  AVC_ideology_visionarism:0 "Grand Principality of Northern Traunulu"
@@ -753,6 +849,34 @@
  avt_civwarevent.1.d:0 "BLYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
  avt_civwarevent.1.a:0 "најебо си мајмунчино икс де"
  
+ avt_civwarevent.11.t:0 ""
+ avt_civwarevent.11.d:0 ""
+ avt_civwarevent.11.a:0 ""
+ 
+ avt_civwarevent.12.t:0 ""
+ avt_civwarevent.12.d:0 ""
+ avt_civwarevent.12.a:0 ""
+ 
+ avt_civwarevent.13.t:0 ""
+ avt_civwarevent.13.d:0 ""
+ avt_civwarevent.13.a:0 ""
+ 
+ avt_civwarevent.14.t:0 ""
+ avt_civwarevent.14.d:0 ""
+ avt_civwarevent.14.a:0 ""
+ 
+ avt_civwarevent.15.t:0 ""
+ avt_civwarevent.15.d:0 ""
+ avt_civwarevent.15.a:0 ""
+ 
+ avt_civwarevent.16.t:0 ""
+ avt_civwarevent.16.d:0 ""
+ avt_civwarevent.16.a:0 ""
+ 
+ avt_civwarevent.17.t:0 ""
+ avt_civwarevent.17.d:0 ""
+ avt_civwarevent.17.a:0 ""
+
  
  avt_tsarevent.0.t:0 "A New Dawn"
  avt_tsarevent.0.d:0 "the tsar won :DDDDDDD"
@@ -956,6 +1080,9 @@
  AVTtt_civil_war_vorony_secesh:0 "§RThe traitorous Vorony Trade Council secedes!§!"
  AVTtt_civil_war_unicorn_secesh:0 "§Rsomething something unicorns betrayed us or whatever idk!§!"
  AVTtt_civil_war_pegasus_secesh:0 "§Rsomething something pegasi betrayed us or whatever idk!§!"
+ AVTtt_civil_war_gracemarean_league_forming:0 "§GGracemare takes up arms for the Sovereign!§!"
+ AVTtt_civil_war_loyal_mages_forming:0 "§GMages loyal to the Tsar answer the call!§!"
+ AVTtt_civil_war_loyal_pegasi_forming:0 "§GPegasi loyal to the Tsar answer the call!§!"
 
 ###TOOLTIP LOCALISATION - TSAR###
  AVTtt_kirins_killed:0 "All Kirin countries on our borders §Rdefeated§!"
