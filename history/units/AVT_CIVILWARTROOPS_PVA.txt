@@ -1,0 +1,152 @@
+﻿division_template = {
+	name = "Pegazskaya Rat'"
+	is_locked = yes
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		wind_riders = { x = 0 y = 0 }
+		wind_riders = { x = 0 y = 0 }
+		wind_riders = { x = 0 y = 1 }
+		wind_riders = { x = 0 y = 2 }
+		wind_riders = { x = 1 y = 0 }
+		wind_riders = { x = 1 y = 1 }
+		wind_riders = { x = 1 y = 2 }
+		wind_riders = { x = 2 y = 0 }
+		wind_riders = { x = 2 y = 1 }
+		wind_riders = { x = 2 y = 2 }
+	}
+	
+	support = 	{
+		tli_recon_company = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Pegazskoye Opolchenie"
+	is_locked = yes
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		wind_riders = { x = 0 y = 0 }
+		wind_riders = { x = 0 y = 1 }
+		wind_riders = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		ranged_infantry = { x = 2 y = 0 }
+		ranged_infantry = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 2 }
+	}
+
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "1. Pegazskaya Rat'"
+		location = 4905
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Pegazskaya Rat'"
+		location = 4905
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Pegazskaya Rat'"
+		location = 4905
+		division_template = "Pegazskaya Rat'"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4889
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4845
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 2706
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 3350
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4789
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4818
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1021
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Opolchenie"
+		location = 996
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 996
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 2621
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 710
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4723
+		division_template = "Pegazskoye Opolchenie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}

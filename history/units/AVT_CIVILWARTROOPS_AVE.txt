@@ -1,0 +1,354 @@
+﻿division_template = {
+	name = "Kopytnaya Rat'"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
+		ranged_infantry = { x = 2 y = 0 }
+		ranged_infantry = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 2 }
+	}
+
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Opolchenie"
+		location = 318
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 318
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 879
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 879
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4187
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4187
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1154
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1154
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4214
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4214
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1322
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1322
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4249
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4249
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1430
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1430
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 2060
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 2060
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1435
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1435
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Opolchenie"
+		location = 4475
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 3443
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4456
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1178
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4440
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4437
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 771
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 502
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 502
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 502
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Opolchenie"
+		location = 261
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 261
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4188
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4188
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Opolchenie"
+		location = 3652
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1365
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1365
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4338
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 3102
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 3102
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 1650
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 2874
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Opolchenie"
+		location = 4581
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4581
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 3234
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 3234
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Opolchenie"
+		location = 4631
+		division_template = "Kopytnaya Rat'"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
