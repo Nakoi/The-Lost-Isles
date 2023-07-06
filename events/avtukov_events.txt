@@ -430,7 +430,6 @@ country_event = {
 		AVT = { load_focus_tree = generic_focus }
 		custom_effect_tooltip = AVTtt_civil_war_shtf
 		remove_ideas = AVT_idea_noble_discontent
-		set_country_flag = avt_civil_war_shtf_flag
 		delete_units = {
 			division_template = "Rat' Greismerskogo Garnizona"
 			disband = no
@@ -458,9 +457,13 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			AVT = { country_event = { id = avt_civwarevent.11 days = 3 } }
+			AVT = { country_event = { id = avt_civwarevent.12 days = 3 } }
+			AVT = { country_event = { id = avt_civwarevent.13 days = 3 } }
 			AVT = { country_event = { id = avt_civwarevent.14 days = 7 } }
 			AVT = { country_event = { id = avt_civwarevent.15 days = 11 } }
 			AVT = { country_event = { id = avt_civwarevent.16 days = 15 } }
+			AVT = { country_event = { id = avt_civwarevent.18 days = 20 } }
 			AVT = { country_event = { id = avt_civwarevent.17 days = 30 } }
 			###MUDPONE TURF
 			378 = {
@@ -708,15 +711,8 @@ country_event = {
 	title = avt_civwarevent.11.t
 	desc = avt_civwarevent.11.d
 	picture = GFX_news_event_chinese_soldiers_march
-	fire_only_once = yes
-	
-	trigger = {
-		has_country_flag = avt_civil_war_shtf_flag
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
+	major = no
 	
 	option = {
 		name = avt_civwarevent.11.a
@@ -945,15 +941,8 @@ country_event = {
 	title = avt_civwarevent.12.t
 	desc = avt_civwarevent.12.d
 	picture = GFX_news_event_chinese_soldiers_march
-	fire_only_once = yes
-	
-	trigger = {
-		has_country_flag = avt_civil_war_shtf_flag
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
+	major = no
 	
 	option = {
 		name = avt_civwarevent.12.a
@@ -1130,15 +1119,8 @@ country_event = {
 	title = avt_civwarevent.13.t
 	desc = avt_civwarevent.13.d
 	picture = GFX_news_event_chinese_soldiers_march
-	fire_only_once = yes
-	
-	trigger = {
-		has_country_flag = avt_civil_war_shtf_flag
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
+	major = no
 	
 	option = {
 		name = avt_civwarevent.13.a
@@ -1531,6 +1513,7 @@ country_event = {
 	option = {
 		name = avt_civwarevent.17.a
 		AVE = {
+			set_country_flag = avt_civil_war_flag
 			declare_war_on = {
 				target = AVT
 				type = annex_everything
@@ -1549,6 +1532,7 @@ country_event = {
 			}
         }
 		AVU = {
+			set_country_flag = avt_civil_war_flag
 			declare_war_on = {
 				target = AVT
 				type = annex_everything
@@ -1567,6 +1551,7 @@ country_event = {
 			}
         }
 		AVP = {
+			set_country_flag = avt_civil_war_flag
 			declare_war_on = {
 				target = AVT
 				type = annex_everything
@@ -1584,6 +1569,194 @@ country_event = {
 				type = annex_everything
 			}
         }
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.18
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.18"}
+	title = avt_civwarevent.18.t
+	desc = avt_civwarevent.18.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_civwarevent.18.a
+		EVA = { load_oob = "AVT_CIVILWARTROOPS_EVA" }
+		EVA = { add_manpower = 100000 add_command_power = 100 }
+		UVA = { load_oob = "AVT_CIVILWARTROOPS_UVA" }
+		UVA = { add_manpower = 100000 add_command_power = 100 }
+		PVA = { load_oob = "AVT_CIVILWARTROOPS_PVA" }
+		PVA = { add_manpower = 100000 add_command_power = 100 }
+		AVE = { load_oob = "AVT_CIVILWARTROOPS_AVE" }
+		AVE = { add_manpower = 100000 add_command_power = 100 }
+		AVU = { load_oob = "AVT_CIVILWARTROOPS_AVU" }
+		AVU = { add_manpower = 100000 add_command_power = 100 }
+		AVP = { load_oob = "AVT_CIVILWARTROOPS_AVP" }
+		AVP = { add_manpower = 100000 add_command_power = 100 }
+	}
+	
+}
+
+country_event = {
+	id = avt_civwarevent.19
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.19.a}
+	title = avt_civwarevent.19.t
+	desc = avt_civwarevent.19.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AVT
+		has_war = no
+		country_exists = EVA
+		country_exists = UVA
+		country_exists = PVA
+		NOT = {
+			country_exists = AVE
+			country_exists = AVU
+			country_exists = AVP
+		}
+	}
+	
+	option = {
+		name = avt_civwarevent.19.a
+		annex_country = {
+			target = EVA
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = UVA
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = PVA
+			transfer_troops = yes
+		}
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.20
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.20.a}
+	title = avt_civwarevent.20.t
+	desc = avt_civwarevent.20.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			AVE = { 
+				has_country_flag = avt_civil_war_flag
+				has_war = no
+			}
+			AVU = { 
+				has_country_flag = avt_civil_war_flag
+				has_war = no
+			}
+			AVP = { 
+				has_country_flag = avt_civil_war_flag
+				has_war = no
+			}
+		}
+	}
+	
+	option = {
+		name = avt_civwarevent.20.a
+		AVE = {
+			declare_war_on = {
+				target = AVU
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AVP
+				type = annex_everything
+			}
+        }
+		AVU = {
+			declare_war_on = {
+				target = AVE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AVP
+				type = annex_everything
+			}
+        }
+		AVP = {
+			declare_war_on = {
+				target = AVE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AVU
+				type = annex_everything
+			}
+		}
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.21
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.21.a}
+	title = avt_civwarevent.21.t
+	desc = avt_civwarevent.21.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AVE
+		NOT = {
+			country_exists = AVU
+			country_exists = AVP
+		}
+	}
+	
+	option = {
+		name = avt_civwarevent.21.a
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.22
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.22.a}
+	title = avt_civwarevent.22.t
+	desc = avt_civwarevent.22.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AVU
+		NOT = {
+			country_exists = AVE
+			country_exists = AVP
+		}
+	}
+	
+	option = {
+		name = avt_civwarevent.22.a
+	}
+}
+
+country_event = {
+	id = avt_civwarevent.23
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.23.a}
+	title = avt_civwarevent.23.t
+	desc = avt_civwarevent.23.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AVP
+		NOT = {
+			country_exists = AVE
+			country_exists = AVU
+		}
+	}
+	
+	option = {
+		name = avt_civwarevent.23.a
 	}
 }
 
