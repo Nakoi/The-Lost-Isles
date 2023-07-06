@@ -22,6 +22,48 @@ characters={
             }
         }
     }
+	
+	AVT_cherry_cupcake={
+        name=AVT_cherry_cupcake_name
+        #portraits={
+            civilian={
+                large="GFX/leaders/AVT/AVT_Tsar.tga"
+            }
+        #}
+        country_leader={
+            ideology=visionarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	 AVT_violet_rain={
+        name=AVT_violet_rain_name
+        #portraits={
+            civilian={
+                large="GFX/leaders/AVT/AVT_Tsar.tga"
+            }
+        #}
+        country_leader={
+            ideology=militarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	 AVT_emerald_mask={
+        name=AVT_emerald_mask_name
+        #portraits={
+            civilian={
+                large="GFX/leaders/AVT/AVT_Tsar.tga"
+            }
+        #}
+        country_leader={
+            ideology=isolationism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
 
     AVT_General_1={
         name=AVT_General_1_name
@@ -31,7 +73,8 @@ characters={
             }	
         }
         field_marshal={
-            traits = {}
+            traits = {
+			}
             skill = 1
             attack_skill = 1
             defense_skill = 1
