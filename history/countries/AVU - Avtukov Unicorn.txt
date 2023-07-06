@@ -12,12 +12,14 @@ navy_experience = 30
 
 air_experience = 30
 
+recruit_character = AVT_emerald_mask
+
 set_politics = {
-	ruling_party = ideology_visionarism
+	ruling_party = ideology_isolationism
 }
 
 set_popularities = {
-	ideology_visionarism = 100
+	ideology_isolationism = 100
 }
 
 set_convoys = 25

@@ -12,12 +12,14 @@ navy_experience = 30
 
 air_experience = 30
 
+recruit_character = AVT_violet_rain
+
 set_politics = {
-	ruling_party = ideology_visionarism
+	ruling_party = ideology_militarism
 }
 
 set_popularities = {
-	ideology_visionarism = 100
+	ideology_militarism = 100
 }
 
 set_convoys = 25
