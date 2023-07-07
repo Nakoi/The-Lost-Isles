@@ -1,0 +1,139 @@
+focus_tree = {
+    id = avtukov_swiftguard_civwar_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = AVP
+       }
+    }
+
+    default = no
+
+    continuous_focus_position = { x = 50 y = 3000 }
+
+	focus = {
+		id = AVT_swiftguard_civwar_focus
+		x = 0
+		y = 0
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_swiftguard_civwar_gunlance_armories
+		prerequisite = { focus = AVT_swiftguard_civwar_focus }
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_swiftguard_civwar_knightly_weapons
+		prerequisite = { focus = AVT_swiftguard_civwar_gunlance_armories }
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_swiftguard_civwar_windrider_recruitment
+		prerequisite = { focus = AVT_swiftguard_civwar_focus }
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_swiftguard_civwar_pegasi_militias
+		prerequisite = { focus = AVT_swiftguard_civwar_windrider_recruitment }
+		x = -2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_swiftguard_civwar_military_workshops
+		prerequisite = { focus = AVT_swiftguard_civwar_focus }
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_swiftguard_civwar_production_quotas
+		prerequisite = { focus = AVT_swiftguard_civwar_military_workshops }
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_swiftguard_civwar_may_the_strongest_win
+		prerequisite = { focus = AVT_swiftguard_civwar_production_quotas focus = AVT_swiftguard_civwar_pegasi_militias focus = AVT_swiftguard_civwar_knightly_weapons }
+		x = 0
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	

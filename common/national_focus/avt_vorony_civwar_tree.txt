@@ -1,0 +1,139 @@
+focus_tree = {
+    id = avtukov_vorony_civwar_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = AVE
+       }
+    }
+
+    default = no
+
+    continuous_focus_position = { x = 50 y = 3000 }
+
+	focus = {
+		id = AVT_vorony_civwar_focus
+		x = 0
+		y = 0
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_vorony_civwar_arms_trade
+		prerequisite = { focus = AVT_vorony_civwar_focus }
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_vorony_civwar_cast_iron_barrels
+		prerequisite = { focus = AVT_vorony_civwar_arms_trade }
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_vorony_civwar_grand_army
+		prerequisite = { focus = AVT_vorony_civwar_focus }
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_vorony_civwar_hire_mercenaries
+		prerequisite = { focus = AVT_vorony_civwar_grand_army }
+		x = -2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_vorony_civwar_industrial_might
+		prerequisite = { focus = AVT_vorony_civwar_focus }
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_vorony_civwar_machinery_imports
+		prerequisite = { focus = AVT_vorony_civwar_industrial_might }
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_vorony_civwar_down_with_avtukov
+		prerequisite = { focus = AVT_vorony_civwar_machinery_imports focus = AVT_vorony_civwar_hire_mercenaries focus = AVT_vorony_civwar_cast_iron_barrels }
+		x = 0
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	

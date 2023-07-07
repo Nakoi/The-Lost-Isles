@@ -1,0 +1,139 @@
+focus_tree = {
+    id = avtukov_mage_civwar_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = AVU
+       }
+    }
+
+    default = no
+
+    continuous_focus_position = { x = 50 y = 3000 }
+
+	focus = {
+		id = AVT_mage_civwar_focus
+		x = 0
+		y = 0
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_mage_civwar_weapon_caches
+		prerequisite = { focus = AVT_mage_civwar_focus }
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_mage_civwar_arms_replication
+		prerequisite = { focus = AVT_mage_civwar_weapon_caches }
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_mage_civwar_deploy_apprentices
+		prerequisite = { focus = AVT_mage_civwar_focus }
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_mage_civwar_summon_legion
+		prerequisite = { focus = AVT_mage_civwar_deploy_apprentices }
+		x = -2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_mage_civwar_magic_industry
+		prerequisite = { focus = AVT_mage_civwar_focus }
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_mage_civwar_magic_industry_2
+		prerequisite = { focus = AVT_mage_civwar_magic_industry }
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = AVT_mage_civwar_magic_makes_us_strong
+		prerequisite = { focus = AVT_mage_civwar_magic_industry_2 focus = AVT_mage_civwar_summon_legion focus = AVT_mage_civwar_arms_replication }
+		x = 0
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
