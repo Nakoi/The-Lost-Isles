@@ -97,4 +97,42 @@ spriteTypes = {
 		texturefile = "gfx\interface\traits\honorable_commander.dds"
 		legacy_lazy_load = no
 	}
+	
+	
+	spriteType = {
+		name = "GFX_trait_tli_pertrait_disciplined"
+		texturefile = "gfx\interface\traits\disciplined_medal.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_skilled_staffer"
+		texturefile = "gfx\interface\traits\skilled_staffer.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_focused"
+		texturefile = "gfx\interface\traits\focused.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_trait_tli_pertrait_glory_hound"
+		texturefile = "gfx\interface\traits\glory_hound.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_infantry_commander"
+		texturefile = "gfx\interface\traits\infantry_commander.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_lead_by_example"
+		texturefile = "gfx\interface\traits\exemplary_leader.dds"
+		legacy_lazy_load = no
+	}
 }
