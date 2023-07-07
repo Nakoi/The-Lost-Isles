@@ -14,7 +14,7 @@
  AVT_ideology_continuism_DEF:0 "The Tsardom of Avtukov"
  AVT_ideology_isolationism_DEF:0 "The Tsardom of Avtukov"
 
- AVT_ADJ:0 "Avtukovian"
+ AVT_ADJ:0 "Avtukian"
  
  AVU_ideology_militarism:0 "Mage Rebellion"
  AVU_ideology_imperialism:0 "Mage Rebellion"
@@ -30,7 +30,7 @@
  AVU_ideology_continuism_DEF:0 "The Mage Rebellion"
  AVU_ideology_isolationism_DEF:0 "The Mage Rebellion"
 
- AVU_ADJ:0 "Avtukovian"
+ AVU_ADJ:0 "Avtukian"
  
  UVA_ideology_militarism:0 "Tsarist Mage Coalition"
  UVA_ideology_imperialism:0 "Tsarist Mage Coalition"
@@ -46,7 +46,7 @@
  UVA_ideology_continuism_DEF:0 "The Tsarist Mage Coalition"
  UVA_ideology_isolationism_DEF:0 "The Tsarist Mage Coalition"
 
- UVA_ADJ:0 "Avtukovian"
+ UVA_ADJ:0 "Avtukian"
  
  AVE_ideology_militarism:0 "Vorony Rebellion"
  AVE_ideology_imperialism:0 "Vorony Rebellion"
@@ -62,7 +62,7 @@
  AVE_ideology_continuism_DEF:0 "The Vorony Rebellion"
  AVE_ideology_isolationism_DEF:0 "The Vorony Rebellion"
 
- AVE_ADJ:0 "Avtukovian"
+ AVE_ADJ:0 "Avtukian"
  
  EVA_ideology_militarism:0 "Gracemarean League"
  EVA_ideology_imperialism:0 "Gracemarean League"
@@ -78,7 +78,7 @@
  EVA_ideology_continuism_DEF:0 "The Gracemarean League"
  EVA_ideology_isolationism_DEF:0 "The Gracemarean League"
 
- EVA_ADJ:0 "Avtukovian"
+ EVA_ADJ:0 "Avtukian"
  
  AVP_ideology_militarism:0 "Swiftguard Rebellion"
  AVP_ideology_imperialism:0 "Swiftguard Rebellion"
@@ -94,7 +94,7 @@
  AVP_ideology_continuism_DEF:0 "The Swiftguard Rebellion"
  AVP_ideology_isolationism_DEF:0 "The Swiftguard Rebellion"
 
- AVP_ADJ:0 "Avtukovian"
+ AVP_ADJ:0 "Avtukian"
  
  PVA_ideology_militarism:0 "Winged Hundreds"
  PVA_ideology_imperialism:0 "Winged Hundreds"
@@ -110,7 +110,7 @@
  PVA_ideology_continuism_DEF:0 "The Winged Hundreds"
  PVA_ideology_isolationism_DEF:0 "The Winged Hundreds"
 
- PVA_ADJ:0 "Avtukovian"
+ PVA_ADJ:0 "Avtukian"
  
  AVC_ideology_militarism:0 "Grand Principality of Northern Traunulu"
  AVC_ideology_imperialism:0 "Grand Principality of Northern Traunulu"
@@ -126,7 +126,7 @@
  AVC_ideology_continuism_DEF:0 "The Grand Principality of Northern Traunulu"
  AVC_ideology_isolationism_DEF:0 "The Grand Principality of Northern Traunulu"
 
- AVC_ADJ:0 "Traunulu-Avtukovian"
+ AVC_ADJ:0 "Traunulu-Avtukian"
  
  GAL_elusive_puppet_costag_ideology_militarism:0 "Principality of Gallund"
  GAL_elusive_puppet_costag_ideology_imperialism:0 "Principality of Gallund"
@@ -169,17 +169,17 @@
  
 ###POLITICAL PARTIES###
  AVT_tsar_parliament_militarism_party:0 "The Radicals"
- AVT_tsar_parliament_militarism_party_long:0 "The All-Avtukovian Radical Party - "Bayonet" Facion"
+ AVT_tsar_parliament_militarism_party_long:0 "The All-Avtukian Radical Party - "Bayonet" Facion"
  AVT_tsar_parliament_imperialism_party:0 "The Sovereign"
  AVT_tsar_parliament_imperialism_party_long:0 "The Representatives of the Sovereign"
  AVT_tsar_parliament_visonarism_party:0 "The Celestians"
- AVT_tsar_parliament_visonarism_party_long:0 "The All-Avtukovian Equestrian Harmonist Party"
+ AVT_tsar_parliament_visonarism_party_long:0 "The All-Avtukian Equestrian Harmonist Party"
  AVT_tsar_parliament_solidarism_party:0 "The Radicals"
- AVT_tsar_parliament_solidarism_party_long:0 "The All-Avtukovian Radical Party"
+ AVT_tsar_parliament_solidarism_party_long:0 "The All-Avtukian Radical Party"
  AVT_tsar_parliament_continuism_party:0 "The Traditionalists"
- AVT_tsar_parliament_continuism_party_long:0 "The All-Avtukovian Traditionalist Movement - "Roots""
+ AVT_tsar_parliament_continuism_party_long:0 "The All-Avtukian Traditionalist Movement - "Roots""
  AVT_tsar_parliament_isolationism_party:0 "The Unicorns"
- AVT_tsar_parliament_isolationism_party_long:0 "The All-Avtukovian Unicorn Interest Party"
+ AVT_tsar_parliament_isolationism_party_long:0 "The All-Avtukian Unicorn Interest Party"
 
 ###FOCUS LOCALISATION - EARLYGAME###
  AVT_the_great_modernisation:0 "The Great Modernisation"
@@ -244,7 +244,7 @@
  AVT_strike_dragons_desc:0 ""
  AVT_rule_the_north:0 "To Rule the North"
  AVT_rule_the_north_desc:0 ""
- AVT_avtukov_nationalism:0 "Promote Avtukovian Nationalism"
+ AVT_avtukov_nationalism:0 "Promote Avtukian Nationalism"
  AVT_avtukov_nationalism_desc:0 ""
  AVT_embrace_deer:0 "Embrace the Deer"
  AVT_embrace_deer_desc:0 ""
@@ -322,7 +322,7 @@
  AVT_diplomatic_approach_desc:0 ""
  AVT_colonial_infrastructure:0 "Colonial Infrastructure"
  AVT_colonial_infrastructure_desc:0 ""
- AVT_avtukovian_administration:0 "Avtukovian Administration"
+ AVT_avtukovian_administration:0 "Avtukian Administration"
  AVT_avtukovian_administration_desc:0 ""
  AVT_local_collaborators:0 "Local Collaborators"
  AVT_local_collaborators_desc:0 ""
@@ -440,7 +440,7 @@
  AVT_species_solidarity_desc:0 ""
  AVT_towards_independence:0 "Towards Independence"
  AVT_towards_independence_desc:0 ""
- AVT_proper_avtukovian_province:0 "Proper Avtukovian Province"
+ AVT_proper_avtukovian_province:0 "Proper Avtukian Province"
  AVT_proper_avtukovian_province_desc:0 ""
  
  
@@ -486,7 +486,7 @@
  AVT_motor_infantry_experiments_desc:0 ""
  
 ###FOCUS LOCALISATION - NAVY TREE###
- AVT_avtukovian_shipbuilding:0 "Avtukovian Shipbuilding"
+ AVT_avtukovian_shipbuilding:0 "Avtukian Shipbuilding"
  AVT_avtukovian_shipbuilding_desc:0 ""
  AVT_on_our_own:0 "On Our Own"
  AVT_on_our_own_desc:0 ""
@@ -502,12 +502,12 @@
  AVT_ship_design_competition_desc:0 ""
  AVT_colonial_marines:0 "Colonial Marines"
  AVT_colonial_marines_desc:0 ""
- AVT_avtukovian_trade_company:0 "Avtukovian Trade Company"
+ AVT_avtukovian_trade_company:0 "Avtukian Trade Company"
  AVT_avtukovian_trade_company_desc:0 ""
  AVT_dew_lily_boat:0 "IANS Dew Lily"
  AVT_dew_lily_boat_desc:0 ""
  
- AVT_avtukovian_shipbuilding_elusivetree:0 "Avtukovian Shipbuilding"
+ AVT_avtukovian_shipbuilding_elusivetree:0 "Avtukian Shipbuilding"
  AVT_avtukovian_shipbuilding_elusivetree_desc:0 ""
  AVT_on_our_own_elusivetree:0 "On Our Own"
  AVT_on_our_own_elusivetree_desc:0 ""
@@ -523,7 +523,7 @@
  AVT_ship_design_competition_elusivetree_desc:0 ""
  AVT_colonial_marines_elusivetree:0 "Colonial Marines"
  AVT_colonial_marines_elusivetree_desc:0 ""
- AVT_avtukovian_trade_company_elusivetree:0 "Avtukovian Trade Company"
+ AVT_avtukovian_trade_company_elusivetree:0 "Avtukian Trade Company"
  AVT_avtukovian_trade_company_elusivetree_desc:0 ""
  AVT_dew_lily_boat_elusivetree:0 "IANS Dew Lily"
  AVT_dew_lily_boat_elusivetree_desc:0 ""
@@ -696,7 +696,7 @@
  AVT_aristocratic_arty_02:0 "Knightly Artillery"
  AVT_aristocratic_army_01:0 "Aristocratic Army"
  AVT_aristocratic_army_02:0 "Aristocratic Army"
- AVT_avtukovian_trading_company:0 "Avtukovian Trade Company"
+ AVT_avtukovian_trading_company:0 "Avtukian Trade Company"
  AVT_straight_up_meth_bro:0 "Chemical Stimulants"
 
 ###DECISION LOCALISATION###
@@ -937,7 +937,7 @@
  avt_tsarevent.5.c:0 "They deserve nothing but death."
  
  avt_tsarevent.6.t:0 "le invitation"
- avt_tsarevent.6.d:0 "damn bro these avtukovian niggaz want us to join their faction :flushed: :flushed:"
+ avt_tsarevent.6.d:0 "damn bro these Avtukian niggaz want us to join their faction :flushed: :flushed:"
  avt_tsarevent.6.a:0 "He'll Yeah Niggah!!!"
  avt_tsarevent.6.b:0 "He'll Nah Niggah!!!"
  
@@ -960,7 +960,7 @@
  avt_elusiveevent.1.b:0 "They'll never take our freedom!"
  
  avt_elusiveevent.2.t:0 "One Last Election"
- avt_elusiveevent.2.d:0 "Synopsis: Having accepted their fate, the citizens of Gallund choose a Jarl family to rule as their new monarchs under the watchful eye of Avtukovian officials."
+ avt_elusiveevent.2.d:0 "Synopsis: Having accepted their fate, the citizens of Gallund choose a Jarl family to rule as their new monarchs under the watchful eye of Avtukian officials."
  avt_elusiveevent.2.a:0 "(Jarl A) will lead us in these troubling times"
  avt_elusiveevent.2.b:0 "(Jarl B) shall be our leader"
  avt_elusiveevent.2.c:0 "We can trust (Jarl C)"
@@ -1092,7 +1092,7 @@
  avt_elusiveevent.27.a:0 "No regrets."
  
 ###TOOLTIP LOCALISATION - EARLYGAME###
- AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukovia, Grand Duchess of Oskil ascends to the throne!§!"
+ AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukia, Grand Duchess of Oskil ascends to the throne!§!"
  
  avt_tax_evaders_flag:0 "§OConspiracy led by Cherry Cupcake§!"
  avt_car_bombers_flag:0 "§PConspiracy led by Emerald Mask§!"
@@ -1111,6 +1111,8 @@
  AVTtt_civil_war_gracemarean_league_forming:0 "§GGracemare takes up arms for the Sovereign!§!"
  AVTtt_civil_war_loyal_mages_forming:0 "§GMages loyal to the Tsar answer the call!§!"
  AVTtt_civil_war_loyal_pegasi_forming:0 "§GPegasi loyal to the Tsar answer the call!§!"
+ AVTtt_civil_war_oskil_leaving_faction:0 "§YThe Grand Duchy of Oskil will remain neutral thorought the civil war, and will rejoin upon its conclusion!§!"
+ AVTtt_civil_war_begins_in_a_week:0 "§RThe civil war starts in one week!§!"
 
 ###TOOLTIP LOCALISATION - TSAR###
  AVTtt_kirins_killed:0 "All Kirin countries on our borders §Rdefeated§!"
