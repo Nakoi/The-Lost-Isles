@@ -1684,7 +1684,9 @@ country_event = {
 			autonomous_state = autonomy_puppet
 			freedom_level = 0.35
 		}
-		AVT = {	add_to_faction = OSK } 
+		add_to_faction = OSK
+		load_focus_tree = avtukov_tsar_focus
+		complete_national_focus = AVT_the_tzar
 		annex_country = {
 			target = EVA
 			transfer_troops = yes
@@ -1778,6 +1780,7 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.21.a
+		load_focus_tree = generic_focus
 		set_autonomy = {
 			target = OSK
 			autonomous_state = autonomy_puppet
@@ -1804,6 +1807,7 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.22.a
+		load_focus_tree = generic_focus
 		set_autonomy = {
 			target = OSK
 			autonomous_state = autonomy_puppet
@@ -1830,6 +1834,7 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.23.a
+		load_focus_tree = generic_focus
 		set_autonomy = {
 			target = OSK
 			autonomous_state = autonomy_puppet
