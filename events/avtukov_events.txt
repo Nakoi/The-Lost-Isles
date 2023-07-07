@@ -1583,18 +1583,61 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.18.a
-		EVA = { load_oob = "AVT_CIVILWARTROOPS_EVA" }
-		EVA = { add_manpower = 100000 add_command_power = 100 }
+		AVT = {add_ideas = AVT_idea_civil_war_tsar }
+		EVA = { load_oob = "AVT_CIVILWARTROOPS_EVA"  }
+		EVA = { add_manpower = add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
 		UVA = { load_oob = "AVT_CIVILWARTROOPS_UVA" }
-		UVA = { add_manpower = 100000 add_command_power = 100 }
+		UVA = { add_manpower = add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
 		PVA = { load_oob = "AVT_CIVILWARTROOPS_PVA" }
-		PVA = { add_manpower = 100000 add_command_power = 100 }
+		PVA = { add_manpower = add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
 		AVE = { load_oob = "AVT_CIVILWARTROOPS_AVE" }
-		AVE = { add_manpower = 100000 add_command_power = 100 }
+		AVE = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel }
+		AVE = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment
+				amount = 5000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+			}
+			add_equipment_to_stockpile = {
+				type = cannon_equipment
+				amount = 250
+			}
+		}
 		AVU = { load_oob = "AVT_CIVILWARTROOPS_AVU" }
-		AVU = { add_manpower = 100000 add_command_power = 100 }
+		AVU = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel }
+		AVE = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment
+				amount = 5000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+			}
+			add_equipment_to_stockpile = {
+				type = cannon_equipment
+				amount = 250
+			}
+		}
 		AVP = { load_oob = "AVT_CIVILWARTROOPS_AVP" }
-		AVP = { add_manpower = 100000 add_command_power = 100 }
+		AVP = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel }
+		AVE = {
+			add_equipment_to_stockpile = {
+				type = rifle_equipment
+				amount = 5000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+			}
+			add_equipment_to_stockpile = {
+				type = cannon_equipment
+				amount = 250
+			}
+		}
 	}
 	
 }
