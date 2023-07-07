@@ -153,7 +153,51 @@ ideas = {
 		}
 
 ###EARLYGAME+TSAR###
-
+		
+		AVT_idea_civil_war_tsar = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				tag = AVT
+				country_exists = AVE
+				country_exists = AVU
+				country_exists = AVP
+			}
+				
+			modifier = {
+				ai_focus_defense_factor = 1
+				army_org_factor = -0.2
+				army_morale_factor = -0.1
+				army_attack_factor = -0.15
+			}
+		}
+		
+		AVT_idea_civil_war_rebel = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = AVT
+			}
+				
+			modifier = {
+				ai_focus_aggressive_factor = 1
+			}
+		}
+		
+		AVT_idea_civil_war_loyal = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = AVE
+				country_exists = AVU
+				country_exists = AVP
+			}
+				
+			modifier = {
+				ai_focus_defense_factor = 1
+			}
+		}
+		
 		AVT_idea_traitors_in_the_palace_1 = {
 			picture = great_depression
 			removal_cost = -1
