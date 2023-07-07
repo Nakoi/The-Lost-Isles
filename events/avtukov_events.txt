@@ -427,7 +427,7 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.0.a
-		AVT = { load_focus_tree = generic_focus }
+		AVT = { load_focus_tree = avtukov_tsar_civwar_focus }
 		custom_effect_tooltip = AVTtt_civil_war_shtf
 		remove_ideas = AVT_idea_noble_discontent
 		delete_units = {
@@ -1583,63 +1583,77 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.18.a
-		AVT = {add_ideas = AVT_idea_civil_war_tsar }
-		EVA = { load_oob = "AVT_CIVILWARTROOPS_EVA"  }
-		EVA = { add_manpower = add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
-		UVA = { load_oob = "AVT_CIVILWARTROOPS_UVA" }
-		UVA = { add_manpower = add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
-		PVA = { load_oob = "AVT_CIVILWARTROOPS_PVA" }
-		PVA = { add_manpower = add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
-		AVE = { load_oob = "AVT_CIVILWARTROOPS_AVE" }
-		AVE = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel }
-		AVE = {
-			add_equipment_to_stockpile = {
-				type = rifle_equipment
-				amount = 5000
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 500
-			}
-			add_equipment_to_stockpile = {
-				type = cannon_equipment
-				amount = 250
+		custom_effect_tooltip = AVTtt_civil_war_oskil_leaving_faction
+		hidden_effect = {
+			OSK = { leave_faction = yes }
+			set_autonomy = {
+				target = OSK
+				autonomy_state = autonomy_free
 			}
 		}
-		AVU = { load_oob = "AVT_CIVILWARTROOPS_AVU" }
-		AVU = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel }
-		AVE = {
-			add_equipment_to_stockpile = {
-				type = rifle_equipment
-				amount = 5000
+		custom_effect_tooltip = AVTtt_civil_war_begins_in_a_week
+		hidden_effect = {
+			AVT = { add_ideas = AVT_idea_civil_war_tsar complete_national_focus = AVT_tsar_civwar_focus }
+			EVA = { load_oob = "AVT_CIVILWARTROOPS_EVA" }
+			EVA = { add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
+			UVA = { load_oob = "AVT_CIVILWARTROOPS_UVA" }
+			UVA = { add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
+			PVA = { load_oob = "AVT_CIVILWARTROOPS_PVA" }
+			PVA = { add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
+			AVE = { load_oob = "AVT_CIVILWARTROOPS_AVE" }
+			AVE = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel complete_national_focus = AVT_vorony_civwar_focus }
+			AVE = {
+				add_equipment_to_stockpile = {
+					type = rifle_equipment
+					amount = 5000
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 500
+				}
+				add_equipment_to_stockpile = {
+					type = cannon_equipment
+					amount = 250
+				}
 			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 500
+			AVU = { load_oob = "AVT_CIVILWARTROOPS_AVU" }
+			AVU = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel complete_national_focus = AVT_mage_civwar_focus }
+			AVU = {
+				add_equipment_to_stockpile = {
+					type = rifle_equipment
+					amount = 5000
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 500
+				}
+				add_equipment_to_stockpile = {
+					type = cannon_equipment
+					amount = 250
+				}
 			}
-			add_equipment_to_stockpile = {
-				type = cannon_equipment
-				amount = 250
-			}
-		}
-		AVP = { load_oob = "AVT_CIVILWARTROOPS_AVP" }
-		AVP = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel }
-		AVE = {
-			add_equipment_to_stockpile = {
-				type = rifle_equipment
-				amount = 5000
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 500
-			}
-			add_equipment_to_stockpile = {
-				type = cannon_equipment
-				amount = 250
+			AVP = { load_oob = "AVT_CIVILWARTROOPS_AVP" }
+			AVP = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel complete_national_focus = AVT_swiftguard_civwar_focus }
+			AVP = {
+				add_equipment_to_stockpile = {
+					type = rifle_equipment
+					amount = 5000
+				}
+				add_equipment_to_stockpile = {
+					type = gunlance_equipment
+					amount = 3000
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 500
+				}
+				add_equipment_to_stockpile = {
+					type = cannon_equipment
+					amount = 250
+				}
 			}
 		}
 	}
-	
 }
 
 country_event = {
@@ -1665,6 +1679,12 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.19.a
+		set_autonomy = {
+			target = OSK
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.35
+		}
+		AVT = {	add_to_faction = OSK } 
 		annex_country = {
 			target = EVA
 			transfer_troops = yes
@@ -1758,6 +1778,11 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.21.a
+		set_autonomy = {
+			target = OSK
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.35
+		}
 	}
 }
 
@@ -1779,6 +1804,11 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.22.a
+		set_autonomy = {
+			target = OSK
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.35
+		}
 	}
 }
 
@@ -1800,6 +1830,11 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.23.a
+		set_autonomy = {
+			target = OSK
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.35
+		}
 	}
 }
 
