@@ -59,4 +59,42 @@ spriteTypes = {
 		texturefile = "gfx\interface\traits\trait_aristocrat.dds"
 		legacy_lazy_load = no
 	}
+	
+	
+	spriteType = {
+		name = "GFX_trait_tli_pertrait_cautious"
+		texturefile = "gfx\interface\traits\cautious_medal.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_artyofficer"
+		texturefile = "gfx\interface\traits\artillery_officer.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_thorough_planner"
+		texturefile = "gfx\interface\traits\thorough_planner.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_trait_tli_pertrait_chivalrous"
+		texturefile = "gfx\interface\traits\chivalrous_medal.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_elite_commander"
+		texturefile = "gfx\interface\traits\elite_commander.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_honorable_commander"
+		texturefile = "gfx\interface\traits\honorable_commander.dds"
+		legacy_lazy_load = no
+	}
 }
