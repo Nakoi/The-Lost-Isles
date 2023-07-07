@@ -54,7 +54,6 @@ decisioncat_sua_astaria_war = {
 		visible = {
 			tag = SUA
 			has_war_with = AST
-			AST = { surrender_progress > 0.1 }
 		}
 
 		cancel_if_not_visible = yes
@@ -89,7 +88,6 @@ decisioncat_sua_astaria_war = {
 		visible = {
 			tag = SUA
 			has_war_with = AST
-			SUA = { surrender_progress > 0.1 }
 		}
 
 		cancel_if_not_visible = yes
