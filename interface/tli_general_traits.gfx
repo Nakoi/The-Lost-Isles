@@ -135,4 +135,23 @@ spriteTypes = {
 		texturefile = "gfx\interface\traits\exemplary_leader.dds"
 		legacy_lazy_load = no
 	}
+	
+	
+	spriteType = {
+		name = "GFX_trait_tli_pertrait_merciful"
+		texturefile = "gfx\interface\traits\merciful_medal.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_medic"
+		texturefile = "gfx\interface\traits\medic.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_relaxed_leader"
+		texturefile = "gfx\interface\traits\relaxed_leader.dds"
+		legacy_lazy_load = no
+	}
 }
