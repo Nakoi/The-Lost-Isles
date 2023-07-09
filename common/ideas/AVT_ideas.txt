@@ -172,6 +172,22 @@ ideas = {
 			}
 		}
 		
+		AVT_idea_civil_war_tsar_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				tag = AVT
+				country_exists = AVE
+				country_exists = AVU
+				country_exists = AVP
+			}
+				
+			modifier = {
+				army_org_factor = 0.2
+				army_attack_factor = 0.2
+			}
+		}
+		
 		AVT_idea_civil_war_rebel = {
 			picture = great_depression
 			removal_cost = -1
@@ -181,6 +197,73 @@ ideas = {
 				
 			modifier = {
 				ai_focus_aggressive_factor = 1
+			}
+		}
+		
+		AVT_idea_civil_war_rebel_vorony_final = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = AVT
+			}
+				
+			modifier = {
+				ai_focus_aggressive_factor = 1
+				industrial_capacity_factory = 0.1
+				weekly_manpower = 250
+				army_defence_factor = 0.2
+			}
+		}
+		
+		AVT_idea_civil_war_rebel_mage_final = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = AVT
+			}
+				
+			modifier = {
+				ai_focus_aggressive_factor = 1
+				research_speed_factor = 0.15
+				army_morale_factor = 0.1
+				army_defence_factor = 0.2
+			}
+		}
+		
+		AVT_idea_civil_war_vorony_machinery = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = AVT
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = 1
+				consumer_goods_factor = -0.05
+				political_power_factor = -0.3
+			}
+		}
+		
+		AVT_idea_civil_war_mages_gun_replication = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = AVT
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+			
+			equipment_bonus = {
+				rifle_equipment = {
+					build_cost_ic = -0.5
+					instant = yes
+				}
+				magical_equipment = {
+					build_cost_ic = -0.5
+					instant = yes
+				}
 			}
 		}
 		
