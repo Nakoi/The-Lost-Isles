@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = AVT
        }
     }
 
@@ -23,13 +23,13 @@ focus_tree = {
 			factor = 5
 		}
 		
-		available = {
+		#available = {
 			always = no
-		}
+		#}
 		
 		#AUTOCOMPLETED VIA EVENT
 		completion_reward = {
-			
+		
 		}
 	}
 	
@@ -44,7 +44,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_4
+				amount = 1500
+			}
 		}
 	}
 	
@@ -59,7 +62,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = rifle_equipment_3
+				amount = 2500
+			}
 		}
 	}
 	
@@ -74,7 +80,49 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = AVTtt_tsar_civwar_divisions_1
+			hidden_effect = {
+				450 = { 
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+					division = "name = \"Opolchenie\" division_template = \"Kopytnaya Rat'\" start_experience_factor = 0.1" 
+						owner = AVT
+						prioritize_location = 3106
+					}
+				}
+				450 = { 
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+					division = "name = \"Opolchenie\" division_template = \"Kopytnaya Rat'\" start_experience_factor = 0.1" 
+						owner = AVT
+						prioritize_location = 3106
+					}
+				}
+				450 = { 
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+					division = "name = \"Opolchenie\" division_template = \"Kopytnaya Rat'\" start_experience_factor = 0.1" 
+						owner = AVT
+						prioritize_location = 3106
+					}
+				}
+				450 = { 
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+					division = "name = \"Opolchenie\" division_template = \"Kopytnaya Rat'\" start_experience_factor = 0.1" 
+						owner = AVT
+						prioritize_location = 3106
+					}
+				}
+				450 = { 
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+					division = "name = \"Opolchenie\" division_template = \"Kopytnaya Rat'\" start_experience_factor = 0.1" 
+						owner = AVT
+						prioritize_location = 3106
+					}
+				}
+			}
 		}
 	}
 	
@@ -89,7 +137,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_manpower = 40000
 		}
 	}
 	
@@ -104,7 +152,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			450 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -119,7 +174,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			450 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -134,7 +196,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = AVT_idea_civil_war_tsar_2
+				remove_idea = AVT_idea_civil_war_tsar
+			}
 		}
 	}
 	
