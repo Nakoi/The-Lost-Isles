@@ -154,4 +154,80 @@ spriteTypes = {
 		texturefile = "gfx\interface\traits\relaxed_leader.dds"
 		legacy_lazy_load = no
 	}
+	
+	
+	spriteType = {
+		name = "GFX_trait_tli_pertrait_intelligent"
+		texturefile = "gfx\interface\traits\intelligent_medal.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_quartermaster"
+		texturefile = "gfx\interface\traits\quartermaster.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_sapper"
+		texturefile = "gfx\interface\traits\sapper.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_trait_tli_pertrait_merciless"
+		texturefile = "gfx\interface\traits\merciless.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_disciplinarian"
+		texturefile = "gfx\interface\traits\disciplinarian.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_murderer"
+		texturefile = "gfx\interface\traits\murderer.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_trait_tli_pertrait_reckless"
+		texturefile = "gfx\interface\traits\reckless.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_mobile"
+		texturefile = "gfx\interface\traits\mobile.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_impulsive"
+		texturefile = "gfx\interface\traits\impulsive.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_trait_tli_pertrait_trickster"
+		texturefile = "gfx\interface\traits\trickster.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_ambusher"
+		texturefile = "gfx\interface\traits\ambusher.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_asstrait_one_step_ahead"
+		texturefile = "gfx\interface\traits\one_step_ahead.dds"
+		legacy_lazy_load = no
+	}
 }
