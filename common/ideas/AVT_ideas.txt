@@ -230,6 +230,34 @@ ideas = {
 			}
 		}
 		
+		AVT_idea_civil_war_rebel_swiftguard_state = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = -0.35
+				special_forces_min = 240
+			}
+		}
+		
+		AVT_idea_civil_war_rebel_swiftguard_final = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				country_exists = AVT
+			}
+				
+			modifier = {
+				ai_focus_aggressive_factor = 1
+				no_supply_grace = 24
+				army_speed_factor = 0.1
+				org_loss_when_moving = -0.2
+			}
+		}
+		
 		AVT_idea_civil_war_vorony_machinery = {
 			picture = great_depression
 			removal_cost = -1
