@@ -286,6 +286,23 @@
  AVT_mage_civwar_magic_makes_us_strong:0 "Magic Makes Us Strong!"
  AVT_mage_civwar_magic_makes_us_strong_desc:0 ""
  
+ AVT_swiftguard_civwar_focus:0 "The Civil War"
+ AVT_swiftguard_civwar_focus_desc:0 ""
+ AVT_swiftguard_civwar_gunlance_armories:0 "Gunlance Armories"
+ AVT_swiftguard_civwar_gunlance_armories_desc:0 ""
+ AVT_swiftguard_civwar_knightly_weapons:0 "Knightly Weapons"
+ AVT_swiftguard_civwar_knightly_weapons_desc:0 ""
+ AVT_swiftguard_civwar_windrider_recruitment:0 "Militia Windrider Recruitment"
+ AVT_swiftguard_civwar_windrider_recruitment_desc:0 ""
+ AVT_swiftguard_civwar_pegasi_militias:0 "Emergency Recruitment"
+ AVT_swiftguard_civwar_pegasi_militias_desc:0 ""
+ AVT_swiftguard_civwar_military_workshops:0 "Hire New Weaponsmiths"
+ AVT_swiftguard_civwar_military_workshops_desc:0 ""
+ AVT_swiftguard_civwar_production_quotas:0 "Expand Military Industry"
+ AVT_swiftguard_civwar_production_quotas_desc:0 ""
+ AVT_swiftguard_civwar_may_the_strongest_win:0 "May The Strongest Win!"
+ AVT_swiftguard_civwar_may_the_strongest_win_desc:0 ""
+ 
 ###FOCUS LOCALISATION - TSAR PATH###
  AVT_the_tzar:0 "Reformed Empire"
  AVT_the_tzar_desc:0 ""
@@ -675,6 +692,8 @@
  AVT_idea_civil_war_rebel:0 "On to Tsarigrad!"
  AVT_idea_civil_war_rebel_vorony_final:0 "Down with the Avtukovs!"
  AVT_idea_civil_war_rebel_mage_final:0 "Magic Makes Us Strong!"
+ AVT_idea_civil_war_rebel_swiftguard_state:0 "The Swiftguard State"
+ AVT_idea_civil_war_rebel_swiftguard_final:0 "May The Strongest Win!"
  AVT_idea_civil_war_vorony_machinery:0 "Foreign Machinery Imports"
  AVT_idea_civil_war_mages_gun_replication:0 "Magical Weapon Replication"
  AVT_idea_civil_war_loyal:0 "Loyalist Stronghold"
@@ -1171,8 +1190,10 @@
  AVTtt_civil_war_begins_in_a_week:0 "§RThe civil war starts in one week!§!"
  
  AVTtt_tsar_civwar_divisions_1:0 "Deploys five regular divisions in the capital!"
- AVTtt_mage_civwar_apprentices:0 "The Apprentices of the War Magic Academy will be deployed as a support company in §YKopytnaya Rat'§! divisions!"
+ AVTtt_mage_civwar_apprentices:0 "The Apprentices of the War Magic Academy will be deployed in unicorn support companies across all §YKopytnaya Rat'§! divisions!"
  AVTtt_mage_civwar_undead_legion:0 "Summons six divisions' worth of undead soldiers to fight for us in the capital!"
+ AVTtt_pegasus_windrider_deployment_1:0 "An additional windrider battalion will be deployed to each §YPegazskoye Opolchenie§! division!"
+ AVTtt_pegasus_windrider_deployment_2:0 "Deploys one §YPegazskaya Rat'§! division along with four §YPegazskoye Opolchenie§! divisions in the capital!"
 
 ###TOOLTIP LOCALISATION - TSAR###
  AVTtt_kirins_killed:0 "All Kirin countries on our borders §Rdefeated§!"
