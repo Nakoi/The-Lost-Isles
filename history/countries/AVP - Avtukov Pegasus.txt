@@ -26,12 +26,13 @@ set_convoys = 25
 
 add_ideas = {
     limited_exports
-	recruit_selectivecon
+	recruit_universalcon
 	genidea_civilised_dev
 	race_pone
 	policy_aristocracy
 	policy_feudalism
 	policy_reactionary
+	AVT_idea_civil_war_rebel_swiftguard_state
 } 
 
 set_technology = { 
