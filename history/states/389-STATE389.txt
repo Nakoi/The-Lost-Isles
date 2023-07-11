@@ -3,19 +3,22 @@ state = {
 	name = "STATE_389"
 	manpower = 251216
 
-	state_category = city
+	state_category = large_city
 
 	resources={
 		luxuries=22.000
-	
 	}
+	
 
 	history = {
 		owner = AVT
 		add_core_of = AVT
 		victory_points = { 4177 10 }
-#		buildings = {
-#		}
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 3
+		}
 	}
 
 	provinces = {
