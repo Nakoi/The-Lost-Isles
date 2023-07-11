@@ -4,13 +4,16 @@ state={
 	provinces={
 		2097 2213 2768 3748 4276 4277 4286 
 	}
-	manpower=194843
-	state_category = city
+	manpower=234843
+	state_category = large_city
 	history = {
 				owner = AVT
 				add_core_of = AVT
 		#		victory_points = { 4277 10 }
-		#		buildings = {
-		#		}
+				buildings = {
+					infrastructure = 3
+					industrial_complex = 2
+					arms_factory = 1
+				}
 	}
 }

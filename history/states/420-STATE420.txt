@@ -1,9 +1,9 @@
 state = {
 	id = 420
 	name = "STATE_420"
-	manpower = 264179
+	manpower = 164179
 
-	state_category = city
+	state_category = town
 
 	resources={
 		wheat=2.000
@@ -16,7 +16,7 @@ state = {
 		add_core_of = AVT
 		victory_points = { 502 10 }
 		buildings = {
-			synthetic_refinery = 2
+			synthetic_refinery = 3
 		}
 	}
 
