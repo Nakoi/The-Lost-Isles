@@ -1775,6 +1775,7 @@ country_event = {
 		NOT = {
 			country_exists = AVU
 			country_exists = AVP
+			country_exists = AVT
 		}
 	}
 	
@@ -1802,6 +1803,7 @@ country_event = {
 		NOT = {
 			country_exists = AVE
 			country_exists = AVP
+			country_exists = AVT
 		}
 	}
 	
@@ -1829,6 +1831,7 @@ country_event = {
 		NOT = {
 			country_exists = AVE
 			country_exists = AVU
+			country_exists = AVT
 		}
 	}
 	
