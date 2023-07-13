@@ -435,17 +435,6 @@ decisioncat_esu_ootari_cores = {
 
 		available = {
 			date > 965.01.01
-			NOT = { country_exists = KAE }
-			NOT = { country_exists = SUA }
-			NOT = { country_exists = AIN }
-			NOT = { country_exists = SEN }
-			NOT = { country_exists = FRE }
-			NOT = { country_exists = WEI }
-			NOT = { country_exists = UNU }
-			NOT = { country_exists = RIN }
-			NOT = { country_exists = ASH }
-			owns_state = 136
-			owns_state = 418
 		}
 
 		cost = 150
