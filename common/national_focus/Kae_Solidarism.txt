@@ -1015,17 +1015,90 @@ focus_tree = {
 		}
 		
 		available = {
-			NOT = { country_exists = ESU }
-			NOT = { country_exists = SUA }
-			NOT = { country_exists = AIN }
-			NOT = { country_exists = SEN }
-			NOT = { country_exists = FRE }
-			NOT = { country_exists = WEI }
-			NOT = { country_exists = UNU }
-			NOT = { country_exists = RIN }
-			NOT = { country_exists = ASH }
-			owns_state = 122
-			owns_state = 418
+			OR = {
+				NOT = { 
+					country_exists = ESU
+				}
+				ESU = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = EAK
+				}
+				EAK = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = SUA
+				}
+				SUA = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = AIN
+				}
+				AIN = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = SEN
+				}
+				SEN = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = FRE
+				}
+				FRE = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = WEI
+				}
+				WEI = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = UNU
+				}
+				UNU = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = RIN
+				}
+				RIN = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = ASH
+				}
+				ASH = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = AZE
+				}
+				AZE = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = HRI
+				}
+				HRI = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = ONK
+				}
+				ONK = { is_puppet_of = KAE }
+			}
+			OR = {
+				NOT = { 
+					country_exists = WAO
+				}
+				WAO = { is_puppet_of = KAE }
+			}
 		}
 		
 		completion_reward = {
@@ -1089,6 +1162,10 @@ focus_tree = {
 		available = {
 			has_war = yes
 			has_completed_focus = KAE_duty_calls
+			owns_state = 489
+			owns_state = 488
+			owns_state = 376
+			owns_state = 327
 		}
 		
 		bypass = {
@@ -1101,8 +1178,6 @@ focus_tree = {
 			NOT = { country_exists = UNU }
 			NOT = { country_exists = RIN }
 			NOT = { country_exists = ASH }
-			owns_state = 122
-			owns_state = 418
 		}
 		
 		completion_reward = {

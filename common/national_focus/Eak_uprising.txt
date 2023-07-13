@@ -434,11 +434,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_idea = EAK_gulfcucking_05
-				NOT = {
-					has_idea = EAK_gulfcucking_01
-					has_idea = EAK_gulfcucking_05
-					has_idea = EAK_gulfcucking_09
-				}
+				has_idea = EAK_gulfcucking_09
 			}
 			hidden_trigger = {
 				OR = {
@@ -447,17 +443,6 @@ focus_tree = {
 					has_idea = EAK_gulfcucking_07
 					has_idea = EAK_gulfcucking_08
 					has_idea = EAK_gulfcucking_09
-					NOT = {
-						has_idea = EAK_gulfcucking_01
-						has_idea = EAK_gulfcucking_02
-						has_idea = EAK_gulfcucking_03
-						has_idea = EAK_gulfcucking_04
-						has_idea = EAK_gulfcucking_05
-						has_idea = EAK_gulfcucking_06
-						has_idea = EAK_gulfcucking_07
-						has_idea = EAK_gulfcucking_08
-						has_idea = EAK_gulfcucking_09
-					}
 				}
 			}
 		}
@@ -551,7 +536,10 @@ focus_tree = {
 		
 		available = {
 			tag = EAK
-			NOT = { country_exists = CIL }
+			OR = {
+				NOT = { country_exists = CIL }
+				CIL = { is_puppet = yes }
+			}
 			EAK = {
 				owns_state = 577
 				owns_state = 576
@@ -703,6 +691,7 @@ focus_tree = {
 		}
 		
 		available = {
+			is_puppet = no
 			has_navy_size = {
 				size > 2
 				archetype = ship_hull_heavy
@@ -831,56 +820,13 @@ focus_tree = {
 		}
 		
 		available = {
-			OR = {
-				has_idea = EAK_gulfcucking_09
-				NOT = {
-					has_idea = EAK_gulfcucking_01
-					has_idea = EAK_gulfcucking_05
-					has_idea = EAK_gulfcucking_09
-				}
-			}
-			hidden_trigger = {
-				OR = {
-					has_idea = EAK_gulfcucking_05
-					has_idea = EAK_gulfcucking_06
-					has_idea = EAK_gulfcucking_07
-					has_idea = EAK_gulfcucking_08
-					has_idea = EAK_gulfcucking_09
-					NOT = {
-						has_idea = EAK_gulfcucking_01
-						has_idea = EAK_gulfcucking_02
-						has_idea = EAK_gulfcucking_03
-						has_idea = EAK_gulfcucking_04
-						has_idea = EAK_gulfcucking_05
-						has_idea = EAK_gulfcucking_06
-						has_idea = EAK_gulfcucking_07
-						has_idea = EAK_gulfcucking_08
-						has_idea = EAK_gulfcucking_09
-					}
-				}
-			}
+			has_idea = EAK_gulfcucking_09
 		}
 		
 		completion_reward = {
 			swap_ideas = {
 				add_idea = EAK_gulfcucking_10
 				remove_idea = EAK_gulfcucking_09
-			}
-			IF = {
-				limit = {
-					NOT = {
-						has_idea = EAK_gulfcucking_01
-						has_idea = EAK_gulfcucking_02
-						has_idea = EAK_gulfcucking_03
-						has_idea = EAK_gulfcucking_04
-						has_idea = EAK_gulfcucking_05
-						has_idea = EAK_gulfcucking_06
-						has_idea = EAK_gulfcucking_07
-						has_idea = EAK_gulfcucking_08
-						has_idea = EAK_gulfcucking_09
-					}
-				}
-				add_idea = EAK_gulfcucking_10
 			}
 		}
 	}

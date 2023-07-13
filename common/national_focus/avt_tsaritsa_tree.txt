@@ -3139,7 +3139,7 @@ focus_tree = {
 		}
 		
 		available = {
-			num_of_factories > 124
+			num_of_factories > 199
 			has_political_power > 299
 		}
 		
@@ -3315,7 +3315,7 @@ focus_tree = {
 		}
 		
 		available = {
-			num_of_factories > 199
+			num_of_factories > 249
 		}
 		
 		completion_reward = {
@@ -3492,6 +3492,10 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		
+		available = {
+			ROOT = { is_ai = no }
 		}
 		
 		completion_reward = {

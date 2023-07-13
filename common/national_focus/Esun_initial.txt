@@ -3058,17 +3058,90 @@ focus_tree = {
 		}
 		
 		available = {
-			NOT = { country_exists = KAE }
-			NOT = { country_exists = SUA }
-			NOT = { country_exists = AIN }
-			NOT = { country_exists = SEN }
-			NOT = { country_exists = FRE }
-			NOT = { country_exists = WEI }
-			NOT = { country_exists = UNU }
-			NOT = { country_exists = RIN }
-			NOT = { country_exists = ASH }
-			owns_state = 136
-			owns_state = 418
+			OR = {
+				NOT = { 
+					country_exists = KAE
+				}
+				KAE = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = EAK
+				}
+				EAK = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = SUA
+				}
+				SUA = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = AIN
+				}
+				AIN = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = SEN
+				}
+				SEN = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = FRE
+				}
+				FRE = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = WEI
+				}
+				WEI = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = UNU
+				}
+				UNU = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = RIN
+				}
+				RIN = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = ASH
+				}
+				ASH = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = AZE
+				}
+				AZE = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = HRI
+				}
+				HRI = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = ONK
+				}
+				ONK = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = WAO
+				}
+				WAO = { is_puppet_of = ESU }
+			}
 		}
 		
 		completion_reward = {

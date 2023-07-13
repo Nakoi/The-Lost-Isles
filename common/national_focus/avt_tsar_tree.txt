@@ -50,7 +50,7 @@ focus_tree = {
 				add_state_claim = 343
 				add_state_claim = 342
 				declare_war_on = {
-					type = take_state
+					type = annex_everything
 					target = GAL
 				}
 			}
@@ -300,9 +300,7 @@ focus_tree = {
 			factor = 5
 		}
 		available = {
-			has_army_manpower ={
-				size > 300000
-			}
+			date > 963.1.1
 		}
 		completion_reward = {
 			custom_effect_tooltip = AVTtt_kill_kirins
@@ -797,10 +795,10 @@ focus_tree = {
 			}
 		}
 		owns_state = 125
-		owns_state = 124
-		owns_state = 123
-		owns_state = 465
-		owns_state = 480
+		owns_state = 466
+		owns_state = 470
+		owns_state = 468
+		owns_state = 457
 		}
 		completion_reward = {
 			add_state_core = 125
@@ -1938,7 +1936,7 @@ focus_tree = {
 			factor = 5
 		}
 		available = {
-			num_of_factories > 125
+			num_of_factories > 199
 			has_political_power > 299
 		}
 		completion_reward = {
@@ -2807,6 +2805,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			ROOT = { is_ai = no }
+		}
+		
 		completion_reward = {
 			add_ideas = AVT_navy_temp_range_increase
 			create_wargoal = {
