@@ -86,18 +86,18 @@ country_event = {
 		}
 	}
 	
-	mean_time_to_happen = {
-		days = 7
-	}
-	
 	option = {
 		name = kae_startevent.6.a
 		add_timed_idea = { idea = KAE_militiasalary days = 180 }
+		country_event = { id = kae_startevent.7 days = 21 }
+		country_event = { id = kae_startevent.8 days = 42 }
 	}
 	
 	option = {
 		name = kae_startevent.6.b
 		add_manpower = -7000
+		country_event = { id = kae_startevent.7 days = 21 }
+		country_event = { id = kae_startevent.8 days = 42 }
 		if = {
 			limit = {
 				NOT = {
@@ -131,23 +131,8 @@ country_event = {
 	title = kae_startevent.7.t
 	desc = kae_startevent.7.d
 	picture = GFX_news_event_chinese_soldiers_march
-	fire_only_once = yes
-	
-	trigger = {
-		AND = {
-			tag = KAE
-			OR = {
-				has_war_with = WEI
-				has_war_with = UNU
-				has_war_with = RIN
-				has_war_with = ASH
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 21
-	}
+	is_triggered_only = yes
+	major = no
 	
 	option = {
 		name = kae_startevent.7.a
@@ -189,23 +174,8 @@ country_event = {
 	title = kae_startevent.8.t
 	desc = kae_startevent.8.d
 	picture = GFX_news_event_chinese_soldiers_march
-	fire_only_once = yes
-	
-	trigger = {
-		AND = {
-			tag = KAE
-			OR = {
-				has_war_with = WEI
-				has_war_with = UNU
-				has_war_with = RIN
-				has_war_with = ASH
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 42
-	}
+	is_triggered_only = yes
+	major = no
 	
 	option = {
 		name = kae_startevent.8.a
@@ -255,15 +225,17 @@ country_event = {
 		has_completed_focus = KAE_Claims_Vote
 		has_country_flag = kae_militiacrisis_flag_1
 		NOT = {
+			country_exists = WEI
+			country_exists = UNU
+			country_exists = RIN
+			country_exists = ASH
+		}
+		NOT = {
 			OR = {
 				has_country_flag = kae_militiacrisis_flag_2
 				has_country_flag = kae_militiacrisis_flag_3
 			}
 		}
-	}
-	
-	mean_time_to_happen = {
-		days = 14
 	}
 	
 	option = {
@@ -291,10 +263,12 @@ country_event = {
 			has_country_flag = kae_militiacrisis_flag_2
 			has_country_flag = kae_militiacrisis_flag_3
 		}
-	}
-	
-	mean_time_to_happen = {
-		days = 14
+		NOT = {
+			country_exists = WEI
+			country_exists = UNU
+			country_exists = RIN
+			country_exists = ASH
+		}
 	}
 	
 	option = {

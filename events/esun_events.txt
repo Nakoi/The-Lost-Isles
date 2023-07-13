@@ -270,6 +270,7 @@ country_event = {
 			}
 		}
 		ESU = { set_cosmetic_tag = ESU_unifier_costag }
+		EAK = { complete_national_focus = EAK_end_the_military_government }
 	}
 }
 
