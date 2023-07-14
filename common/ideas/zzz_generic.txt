@@ -5,7 +5,45 @@ ideas = {
 ##################################
 #GENERIC GOVERNMENT SECTION IDEAS#
 ##################################
-
+		
+		genidea_trench_warfare = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				dont_lose_dig_in_on_attack = 1
+			}
+			equipment_bonus = {
+				rifle_equipment = {
+					breakthrough = -0.5
+					instant = yes
+				}
+				cannon_equipment = {
+					breakthrough = 1
+					instant = yes
+				}
+				fuckshit_one = {
+					breakthrough = 0.5
+					instant = yes
+				}
+				howitzer_equipment = {
+					breakthrough = 1
+					instant = yes
+				}
+				rocket_equipment = {
+					breakthrough = 1
+					instant = yes
+				}
+				mortar_equipment = {
+					breakthrough = 3
+					instant = yes
+				}
+			}
+		}
+		
 		genidea_militarism_buff_1 = {
 			picture = great_depression
 			removal_cost = -1
