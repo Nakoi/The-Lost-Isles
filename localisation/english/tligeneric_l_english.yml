@@ -603,6 +603,14 @@
  generic_militia.1.d:0 "With all threats to the nation vanquished, our humble, though victorious citizen soldiers are trading their weapons for tools of their respective antebellum professions."
  generic_militia.1.a:0 "We will gladly oblige their yearning for home."
  
+ generic_trenchwarfare.1.t:0 "Trench Warfare"
+ generic_trenchwarfare.1.d:0 "oh god oh fuck they also have rifles dig a hole and hide in it!!!"
+ generic_trenchwarfare.1.a:0 "well fuck..."
+ 
+ generic_trenchwarfare.2.t:0 "Trench Warfare - End of the War"
+ generic_trenchwarfare.2.d:0 "uhhh idk what to type here"
+ generic_trenchwarfare.2.a:0 "Sample Text"
+ 
 ###GENERAL TRAITS###
  tli_bgtrait_buffoon:0 "Absolute Buffoon"
  tli_bgtrait_buffoon_desc:0 "I personally wouldn't trust this general with a spoon, let alone an entire army corps. You have been warned."
@@ -940,6 +948,8 @@
  gentext_thank_you:0 "§GThank you for playing The Lost Isles!§!"
  gentext_machinegun_need:0 "§YMG Support Companies will require 6 more guns per company!§!"
  genflag_chill_the_fuck_out:0 "At least a year has passed since our last conquest."
+ genidea_trench_warfare:0 "Trench Warfare"
+ genflag_trench_warfare:0 "Trench Warfare"
  
 ###OPINION MODIFIERS###
  tlirelations_generic_alliance_accepted:0 "Alliance Accepted"
