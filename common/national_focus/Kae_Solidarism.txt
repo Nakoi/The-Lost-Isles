@@ -1015,89 +1015,92 @@ focus_tree = {
 		}
 		
 		available = {
-			OR = {
-				NOT = { 
-					country_exists = ESU
+			custom_trigger_tooltip = {
+				tooltip = ESUtt_ootari_united
+				OR = {
+					NOT = { 
+						country_exists = ESU
+					}
+					ESU = { is_puppet_of = KAE }
 				}
-				ESU = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = EAK
+				OR = {
+					NOT = { 
+						country_exists = EAK
+					}
+					EAK = { is_puppet_of = KAE }
 				}
-				EAK = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = SUA
+				OR = {
+					NOT = { 
+						country_exists = SUA
+					}
+					SUA = { is_puppet_of = KAE }
 				}
-				SUA = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = AIN
+				OR = {
+					NOT = { 
+						country_exists = AIN
+					}
+					AIN = { is_puppet_of = KAE }
 				}
-				AIN = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = SEN
+				OR = {
+					NOT = { 
+						country_exists = SEN
+					}
+					SEN = { is_puppet_of = KAE }
 				}
-				SEN = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = FRE
+				OR = {
+					NOT = { 
+						country_exists = FRE
+					}
+					FRE = { is_puppet_of = KAE }
 				}
-				FRE = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = WEI
+				OR = {
+					NOT = { 
+						country_exists = WEI
+					}
+					WEI = { is_puppet_of = KAE }
 				}
-				WEI = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = UNU
+				OR = {
+					NOT = { 
+						country_exists = UNU
+					}
+					UNU = { is_puppet_of = KAE }
 				}
-				UNU = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = RIN
+				OR = {
+					NOT = { 
+						country_exists = RIN
+					}
+					RIN = { is_puppet_of = KAE }
 				}
-				RIN = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = ASH
+				OR = {
+					NOT = { 
+						country_exists = ASH
+					}
+					ASH = { is_puppet_of = KAE }
 				}
-				ASH = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = AZE
+				OR = {
+					NOT = { 
+						country_exists = AZE
+					}
+					AZE = { is_puppet_of = KAE }
 				}
-				AZE = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = HRI
+				OR = {
+					NOT = { 
+						country_exists = HRI
+					}
+					HRI = { is_puppet_of = KAE }
 				}
-				HRI = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = ONK
+				OR = {
+					NOT = { 
+						country_exists = ONK
+					}
+					ONK = { is_puppet_of = KAE }
 				}
-				ONK = { is_puppet_of = KAE }
-			}
-			OR = {
-				NOT = { 
-					country_exists = WAO
+				OR = {
+					NOT = { 
+						country_exists = WAO
+					}
+					WAO = { is_puppet_of = KAE }
 				}
-				WAO = { is_puppet_of = KAE }
 			}
 		}
 		

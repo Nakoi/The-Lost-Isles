@@ -190,23 +190,16 @@ focus_tree = {
 		available = {
 			OR = {
 				GAL = {
-				is_subject_of = AVT
+					is_subject_of = AVT
 				}
 				NOT = { country_exists = GAL }
 			}
-			owns_state = 348
-			owns_state = 347
-			owns_state = 344
-			owns_state = 345
-			owns_state = 346
-			owns_state = 343
-			owns_state = 342
 		}
 		completion_reward = {
 			custom_effect_tooltip = AVTtt_embrace_deer
 			
 			hidden_effect = {
-				348 = {
+				344 = {
 					add_compliance = 15
 					add_resistance = -15
 					add_state_modifier = {
@@ -228,7 +221,7 @@ focus_tree = {
 						}
 					}
 				}
-				344 = {
+				348 = {
 					add_compliance = 15
 					add_resistance = -15
 					add_state_modifier = {
@@ -261,6 +254,17 @@ focus_tree = {
 						}
 					}
 				}
+				342 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
 				343 = {
 					add_compliance = 15
 					add_resistance = -15
@@ -272,7 +276,150 @@ focus_tree = {
 						}
 					}
 				}
-				342 = {
+				341 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				339 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				336 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				340 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				337 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				338 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				335 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				334 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				333 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				332 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				329 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				331 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				330 = {
+					add_compliance = 15
+					add_resistance = -15
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.1
+							local_factories = 0.1
+							local_resources = 0.1
+						}
+					}
+				}
+				328 = {
 					add_compliance = 15
 					add_resistance = -15
 					add_state_modifier = {
@@ -707,98 +854,104 @@ focus_tree = {
 			factor = 5
 		}
 		available = {
-		custom_trigger_tooltip = {
-			tooltip = AVTtt_kirins_killed
-			OR = {
-				ESU = {
-					is_subject_of = AVT
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_kirins_killed
+				OR = {
+					NOT = { 
+						country_exists = ESU
+					}
+					ESU = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = ESU }
-			}
-			OR = {
-				AZE = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = KAE
+					}
+					KAE = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = AZE }
-			}
-			OR = {
-				HRI = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = EAK
+					}
+					EAK = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = HRI }
-			}
-			OR = {
-				ONK = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = SUA
+					}
+					SUA = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = ONK }
-			}
-			OR = {
-				WAO = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = AIN
+					}
+					AIN = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = WAO }
-			}
-			OR = {
-				AIN = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = SEN
+					}
+					SEN = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = AIN }
-			}
-			OR = {
-				SEN = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = FRE
+					}
+					FRE = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = SEN }
-			}
-			OR = {
-				FRE = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = WEI
+					}
+					WEI = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = FRE }
-			}
-			OR = {
-				SUA = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = UNU
+					}
+					UNU = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = SUA }
-			}
-			OR = {
-				ASH = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = RIN
+					}
+					RIN = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = ASH }
-			}
-			OR = {
-				RIN = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = ASH
+					}
+					ASH = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = RIN }
-			}
-			OR = {
-				UNU = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = AZE
+					}
+					AZE = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = UNU }
-			}
-			OR = {
-				WEI = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = HRI
+					}
+					HRI = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = WEI }
-			}
-			OR = {
-				KAE = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = ONK
+					}
+					ONK = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = KAE }
+				OR = {
+					NOT = { 
+						country_exists = WAO
+					}
+					WAO = { is_puppet_of = AVT }
+				}
 			}
-		}
-		owns_state = 125
-		owns_state = 466
-		owns_state = 470
-		owns_state = 468
-		owns_state = 457
+			owns_state = 125
+			owns_state = 466
+			owns_state = 470
+			owns_state = 468
+			owns_state = 457
 		}
 		completion_reward = {
 			add_state_core = 125
@@ -868,92 +1021,99 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = AVTtt_kirins_killed
-			OR = {
-				ESU = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = ESU
+					}
+					ESU = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = ESU }
-			}
-			OR = {
-				AZE = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = KAE
+					}
+					KAE = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = AZE }
-			}
-			OR = {
-				HRI = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = EAK
+					}
+					EAK = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = HRI }
-			}
-			OR = {
-				ONK = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = SUA
+					}
+					SUA = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = ONK }
-			}
-			OR = {
-				WAO = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = AIN
+					}
+					AIN = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = WAO }
-			}
-			OR = {
-				AIN = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = SEN
+					}
+					SEN = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = AIN }
-			}
-			OR = {
-				SEN = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = FRE
+					}
+					FRE = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = SEN }
-			}
-			OR = {
-				FRE = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = WEI
+					}
+					WEI = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = FRE }
-			}
-			OR = {
-				SUA = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = UNU
+					}
+					UNU = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = SUA }
-			}
-			OR = {
-				ASH = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = RIN
+					}
+					RIN = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = ASH }
-			}
-			OR = {
-				RIN = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = ASH
+					}
+					ASH = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = RIN }
-			}
-			OR = {
-				UNU = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = AZE
+					}
+					AZE = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = UNU }
-			}
-			OR = {
-				WEI = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = HRI
+					}
+					HRI = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = WEI }
-			}
-			OR = {
-				KAE = {
-					is_subject_of = AVT
+				OR = {
+					NOT = { 
+						country_exists = ONK
+					}
+					ONK = { is_puppet_of = AVT }
 				}
-				NOT = { country_exists = KAE }
-			}
+				OR = {
+					NOT = { 
+						country_exists = WAO
+					}
+					WAO = { is_puppet_of = AVT }
+				}
 			}
 		}
+		
 		completion_reward = {
 			add_political_power = 100
 			custom_effect_tooltip = AVTtt_pacify_kirins

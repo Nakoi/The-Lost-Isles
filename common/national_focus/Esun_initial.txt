@@ -2645,31 +2645,12 @@ focus_tree = {
 		available = {
 			if = {
 				limit = {
+					ROOT = { is_ai = no }
 					has_dlc = "La Resistance"
 				}
 				network_strength = {
 					target = IJI
 					state = 5
-					value > 49
-				}
-				network_strength = {
-					target = IJI
-					state = 4
-					value > 49
-				}
-				network_strength = {
-					target = IJI
-					state = 6
-					value > 49
-				}
-				network_strength = {
-					target = IJI
-					state = 371
-					value > 49
-				}
-				network_strength = {
-					target = IJI
-					state = 7
 					value > 49
 				}
 			}
@@ -2721,32 +2702,13 @@ focus_tree = {
 		available = {
 			if = {
 				limit = {
+					ROOT = { is_ai = no }
 					has_dlc = "La Resistance"
 				}
 				network_strength = {
 					target = IJI
 					state = 5
-					value > 79
-				}
-				network_strength = {
-					target = IJI
-					state = 4
-					value > 79
-				}
-				network_strength = {
-					target = IJI
-					state = 6
-					value > 79
-				}
-				network_strength = {
-					target = IJI
-					state = 371
-					value > 79
-				}
-				network_strength = {
-					target = IJI
-					state = 7
-					value > 79
+					value > 49
 				}
 			}
 		}
@@ -2816,41 +2778,27 @@ focus_tree = {
 		available = {
 			if = {
 				limit = {
+					ROOT = { is_ai = no }
 					has_dlc = "La Resistance"
 				}
 				network_strength = {
 					target = IJI
 					state = 5
-					value > 89
-				}
-				network_strength = {
-					target = IJI
-					state = 4
-					value > 89
-				}
-				network_strength = {
-					target = IJI
-					state = 6
-					value > 89
-				}
-				network_strength = {
-					target = IJI
-					state = 371
-					value > 89
-				}
-				network_strength = {
-					target = IJI
-					state = 7
-					value > 89
+					value > 49
 				}
 			}
 		}
 		
 		completion_reward = {
-			ESU = {
-				declare_war_on = {
-					target = IJI
-					type = annex_everything
+			if = {
+				limit = {
+					ROOT = { is_ai = no }
+				}
+				ESU = {
+					declare_war_on = {
+						target = IJI
+						type = annex_everything
+					}
 				}
 			}
 			custom_effect_tooltip = ESUtt_second_rising
@@ -3058,89 +3006,92 @@ focus_tree = {
 		}
 		
 		available = {
-			OR = {
-				NOT = { 
-					country_exists = KAE
+			custom_trigger_tooltip = {
+				tooltip = ESUtt_ootari_united
+				OR = {
+					NOT = { 
+						country_exists = KAE
+					}
+					KAE = { is_puppet_of = ESU }
 				}
-				KAE = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = EAK
+				OR = {
+					NOT = { 
+						country_exists = EAK
+					}
+					EAK = { is_puppet_of = ESU }
 				}
-				EAK = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = SUA
+				OR = {
+					NOT = { 
+						country_exists = SUA
+					}
+					SUA = { is_puppet_of = ESU }
 				}
-				SUA = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = AIN
+				OR = {
+					NOT = { 
+						country_exists = AIN
+					}
+					AIN = { is_puppet_of = ESU }
 				}
-				AIN = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = SEN
+				OR = {
+					NOT = { 
+						country_exists = SEN
+					}
+					SEN = { is_puppet_of = ESU }
 				}
-				SEN = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = FRE
+				OR = {
+					NOT = { 
+						country_exists = FRE
+					}
+					FRE = { is_puppet_of = ESU }
 				}
-				FRE = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = WEI
+				OR = {
+					NOT = { 
+						country_exists = WEI
+					}
+					WEI = { is_puppet_of = ESU }
 				}
-				WEI = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = UNU
+				OR = {
+					NOT = { 
+						country_exists = UNU
+					}
+					UNU = { is_puppet_of = ESU }
 				}
-				UNU = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = RIN
+				OR = {
+					NOT = { 
+						country_exists = RIN
+					}
+					RIN = { is_puppet_of = ESU }
 				}
-				RIN = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = ASH
+				OR = {
+					NOT = { 
+						country_exists = ASH
+					}
+					ASH = { is_puppet_of = ESU }
 				}
-				ASH = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = AZE
+				OR = {
+					NOT = { 
+						country_exists = AZE
+					}
+					AZE = { is_puppet_of = ESU }
 				}
-				AZE = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = HRI
+				OR = {
+					NOT = { 
+						country_exists = HRI
+					}
+					HRI = { is_puppet_of = ESU }
 				}
-				HRI = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = ONK
+				OR = {
+					NOT = { 
+						country_exists = ONK
+					}
+					ONK = { is_puppet_of = ESU }
 				}
-				ONK = { is_puppet_of = ESU }
-			}
-			OR = {
-				NOT = { 
-					country_exists = WAO
+				OR = {
+					NOT = { 
+						country_exists = WAO
+					}
+					WAO = { is_puppet_of = ESU }
 				}
-				WAO = { is_puppet_of = ESU }
 			}
 		}
 		
