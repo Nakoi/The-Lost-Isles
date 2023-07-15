@@ -230,4 +230,42 @@ spriteTypes = {
 		texturefile = "gfx\interface\traits\one_step_ahead.dds"
 		legacy_lazy_load = no
 	}
+	
+	
+	spriteType = {
+		name = "GFX_trait_tli_fmtrait_superior_logistics"
+		texturefile = "gfx\interface\traits\garrison_medal.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_fmtrait_decisive_battle"
+		texturefile = "gfx\interface\traits\frontline_marshal.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_fmtrait_expert_delegator"
+		texturefile = "gfx\interface\traits\expert_delegator.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_fmtrait_only_the_best"
+		texturefile = "gfx\interface\traits\only_the_best.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_fmtrait_offensive_doctrine"
+		texturefile = "gfx\interface\traits\offensive_doctrine.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tli_fmtrait_defensive_doctrine"
+		texturefile = "gfx\interface\traits\defensive_doctrine.dds"
+		legacy_lazy_load = no
+	}
+	
 }
