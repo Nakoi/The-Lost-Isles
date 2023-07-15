@@ -2002,4 +2002,102 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Ship_of_the_line_3.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_mtg_transport_medium"
+		texturefile = "gfx/interface/technologies/rowboat_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_mtg_naval_invasion_buff_1_medium"
+		texturefile = "gfx/interface/technologies/rowboat_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_mtg_naval_invasion_buff_2_medium"
+		texturefile = "gfx/interface/technologies/rowboat_3.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_mtg_naval_invasion_buff_3_medium"
+		texturefile = "gfx/interface/technologies/rowboat_4.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_damage_control_1_medium"
+		texturefile = "gfx/interface/technologies/damage_control_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_damage_control_2_medium"
+		texturefile = "gfx/interface/technologies/damage_control_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_damage_control_3_medium"
+		texturefile = "gfx/interface/technologies/damage_control_3.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_spotting_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/spotting_eq_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_spotting_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/spotting_eq_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_spotting_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/spotting_eq_3.dds"
+	}
+
+
+		SpriteType = {
+		name = "GFX_navigation_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/nav_eq_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_navigation_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/nav_eq_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_navigation_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/nav_eq_3.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_naval_gunnery_1_medium"
+		texturefile = "gfx/interface/technologies/naval_gunnery_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_naval_gunnery_2_medium"
+		texturefile = "gfx/interface/technologies/naval_gunnery_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_naval_gunnery_3_medium"
+		texturefile = "gfx/interface/technologies/naval_gunnery_3.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_improved_gun_carriers_medium"
+		texturefile = "gfx/interface/technologies/improved_gun_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_breech_loaded_cannons_medium"
+		texturefile = "gfx/interface/technologies/improved_gun_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_modern_naval_gunnery_medium"
+		texturefile = "gfx/interface/technologies/improved_gun_3.dds"
+	}
+
+
+
 }
