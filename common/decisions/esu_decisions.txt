@@ -14,9 +14,9 @@ decisioncat_esu_integration = {
 				owns_state = 496
 				owns_state = 497
 			}
-			483 = { compliance > 50 }
-			496 = { compliance > 50 }
-			497 = { compliance > 50 }
+			483 = { compliance > 29 }
+			496 = { compliance > 29 }
+			497 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -64,9 +64,9 @@ decisioncat_esu_integration = {
 				owns_state = 499
 				owns_state = 498
 			}
-			507 = { compliance > 50 }
-			499 = { compliance > 50 }
-			498 = { compliance > 50 }
+			507 = { compliance > 29 }
+			499 = { compliance > 29 }
+			498 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -113,8 +113,8 @@ decisioncat_esu_integration = {
 				owns_state = 469
 				owns_state = 484
 			}
-			469 = { compliance > 50 }
-			484 = { compliance > 50 }
+			469 = { compliance > 29 }
+			484 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -160,8 +160,8 @@ decisioncat_esu_integration = {
 				owns_state = 482
 				owns_state = 477
 			}
-			482 = { compliance > 50 }
-			477 = { compliance > 50 }
+			482 = { compliance > 29 }
+			477 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -216,14 +216,14 @@ decisioncat_esu_ootari_cores = {
 				owns_state = 500
 				owns_state = 501
 			}
-			478 = { compliance > 30 }
-			479 = { compliance > 30 }
-			503 = { compliance > 30 }
-			506 = { compliance > 30 }
-			505 = { compliance > 30 }
-			504 = { compliance > 30 }
-			500 = { compliance > 30 }
-			501 = { compliance > 30 }
+			478 = { compliance > 29 }
+			479 = { compliance > 29 }
+			503 = { compliance > 29 }
+			506 = { compliance > 29 }
+			505 = { compliance > 29 }
+			504 = { compliance > 29 }
+			500 = { compliance > 29 }
+			501 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -275,13 +275,13 @@ decisioncat_esu_ootari_cores = {
 				owns_state = 492
 				owns_state = 136
 			}
-			495 = { compliance > 30 }
-			502 = { compliance > 30 }
-			494 = { compliance > 30 }
-			493 = { compliance > 30 }
-			491 = { compliance > 30 }
-			492 = { compliance > 30 }
-			136 = { compliance > 30 }
+			495 = { compliance > 29 }
+			502 = { compliance > 29 }
+			494 = { compliance > 29 }
+			493 = { compliance > 29 }
+			491 = { compliance > 29 }
+			492 = { compliance > 29 }
+			136 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -332,13 +332,13 @@ decisioncat_esu_ootari_cores = {
 				owns_state = 460
 				owns_state = 458
 			}
-			485 = { compliance > 30 }
-			486 = { compliance > 30 }
-			472 = { compliance > 30 }
-			459 = { compliance > 30 }
-			471 = { compliance > 30 }
-			460 = { compliance > 30 }
-			458 = { compliance > 30 }
+			485 = { compliance > 29 }
+			486 = { compliance > 29 }
+			472 = { compliance > 29 }
+			459 = { compliance > 29 }
+			471 = { compliance > 29 }
+			460 = { compliance > 29 }
+			458 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -388,12 +388,12 @@ decisioncat_esu_ootari_cores = {
 				owns_state = 490
 				owns_state = 489
 			}
-			418 = { compliance > 30 }
-			473 = { compliance > 30 }
-			487 = { compliance > 30 }
-			488 = { compliance > 30 }
-			490 = { compliance > 30 }
-			489 = { compliance > 30 }
+			418 = { compliance > 29 }
+			473 = { compliance > 29 }
+			487 = { compliance > 29 }
+			488 = { compliance > 29 }
+			490 = { compliance > 29 }
+			489 = { compliance > 29 }
 		}
 
 		cost = 75

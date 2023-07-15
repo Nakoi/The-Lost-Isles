@@ -306,8 +306,8 @@ decisioncat_kae_clan_coring = {
 				owns_state = 478
 				owns_state = 479
 			}
-			478 = { compliance > 50 }
-			479 = { compliance > 50 }
+			478 = { compliance > 29 }
+			479 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -349,8 +349,8 @@ decisioncat_kae_clan_coring = {
 				owns_state = 506
 				owns_state = 503
 			}
-			506 = { compliance > 50 }
-			503 = { compliance > 50 }
+			506 = { compliance > 29 }
+			503 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -392,8 +392,8 @@ decisioncat_kae_clan_coring = {
 				owns_state = 504
 				owns_state = 505
 			}
-			504 = { compliance > 50 }
-			505 = { compliance > 50 }
+			504 = { compliance > 29 }
+			505 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -435,8 +435,8 @@ decisioncat_kae_clan_coring = {
 				owns_state = 500
 				owns_state = 501
 			}
-			500 = { compliance > 50 }
-			501 = { compliance > 50 }
+			500 = { compliance > 29 }
+			501 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -617,12 +617,12 @@ decisioncat_kae_suatoa_coring = {
 				owns_state = 473
 				owns_state = 418
 			}
-			490 = { compliance > 30 }
-			489 = { compliance > 30 }
-			487 = { compliance > 30 }
-			488 = { compliance > 30 }
-			473 = { compliance > 30 }
-			418 = { compliance > 30 }
+			490 = { compliance > 29 }
+			489 = { compliance > 29 }
+			487 = { compliance > 29 }
+			488 = { compliance > 29 }
+			473 = { compliance > 29 }
+			418 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -673,13 +673,13 @@ decisioncat_kae_suatoa_coring = {
 				owns_state = 459
 				owns_state = 471
 			}
-			485 = { compliance > 30 }
-			486 = { compliance > 30 }
-			472 = { compliance > 30 }
-			458 = { compliance > 30 }
-			460 = { compliance > 30 }
-			459 = { compliance > 30 }
-			471 = { compliance > 30 }
+			485 = { compliance > 29 }
+			486 = { compliance > 29 }
+			472 = { compliance > 29 }
+			458 = { compliance > 29 }
+			460 = { compliance > 29 }
+			459 = { compliance > 29 }
+			471 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -739,21 +739,21 @@ decisioncat_kae_suatoa_coring = {
 				owns_state = 138
 				owns_state = 137
 			}
-			126 = { compliance > 30 }
-			103 = { compliance > 30 }
-			127 = { compliance > 30 }
-			128 = { compliance > 30 }
-			129 = { compliance > 30 }
-			130 = { compliance > 30 }
-			131 = { compliance > 30 }
-			132 = { compliance > 30 }
-			133 = { compliance > 30 }
-			327 = { compliance > 30 }
-			376 = { compliance > 30 }
-			134 = { compliance > 30 }
-			139 = { compliance > 30 }
-			138 = { compliance > 30 }
-			137 = { compliance > 30 }
+			126 = { compliance > 59 }
+			103 = { compliance > 59 }
+			127 = { compliance > 59 }
+			128 = { compliance > 59 }
+			129 = { compliance > 59 }
+			130 = { compliance > 59 }
+			131 = { compliance > 59 }
+			132 = { compliance > 59 }
+			133 = { compliance > 59 }
+			327 = { compliance > 59 }
+			376 = { compliance > 59 }
+			134 = { compliance > 59 }
+			139 = { compliance > 59 }
+			138 = { compliance > 59 }
+			137 = { compliance > 59 }
 		}
 
 		cost = 75
@@ -816,13 +816,13 @@ decisioncat_kae_esun_coring = {
 				owns_state = 480
 				owns_state = 481
 			}
-			122 = { compliance > 30 }
-			124 = { compliance > 30 }
-			123 = { compliance > 30 }
-			465 = { compliance > 30 }
-			467 = { compliance > 30 }
-			480 = { compliance > 30 }
-			481 = { compliance > 30 }
+			122 = { compliance > 29 }
+			124 = { compliance > 29 }
+			123 = { compliance > 29 }
+			465 = { compliance > 29 }
+			467 = { compliance > 29 }
+			480 = { compliance > 29 }
+			481 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -872,11 +872,11 @@ decisioncat_kae_esun_coring = {
 				owns_state = 468
 				owns_state = 470
 			}
-			125 = { compliance > 30 }
-			466 = { compliance > 30 }
-			457 = { compliance > 30 }
-			468 = { compliance > 30 }
-			470 = { compliance > 30 }
+			125 = { compliance > 29 }
+			466 = { compliance > 29 }
+			457 = { compliance > 29 }
+			468 = { compliance > 29 }
+			470 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -929,16 +929,16 @@ decisioncat_kae_esun_coring = {
 				owns_state = 484
 				owns_state = 469
 			}
-			482 = { compliance > 30 }
-			477 = { compliance > 30 }
-			483 = { compliance > 30 }
-			496 = { compliance > 30 }
-			497 = { compliance > 30 }
-			498 = { compliance > 30 }
-			499 = { compliance > 30 }
-			507 = { compliance > 30 }
-			484 = { compliance > 30 }
-			469 = { compliance > 30 }
+			482 = { compliance > 29 }
+			477 = { compliance > 29 }
+			483 = { compliance > 29 }
+			496 = { compliance > 29 }
+			497 = { compliance > 29 }
+			498 = { compliance > 29 }
+			499 = { compliance > 29 }
+			507 = { compliance > 29 }
+			484 = { compliance > 29 }
+			469 = { compliance > 29 }
 		}
 
 		cost = 75
