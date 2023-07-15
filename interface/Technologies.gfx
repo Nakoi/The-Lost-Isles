@@ -2099,5 +2099,60 @@ spriteTypes = {
 	}
 
 
+		SpriteType = {
+		name = "GFX_naval_mortars_medium"
+		texturefile = "gfx/interface/technologies/naval_mortar_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_naval_rockets_medium"
+		texturefile = "gfx/interface/technologies/naval_mortar_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_advanced_naval_rockets_medium"
+		texturefile = "gfx/interface/technologies/naval_mortar_3.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_carronade_medium"
+		texturefile = "gfx/interface/technologies/buckle_gun_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_improved_carronade_medium"
+		texturefile = "gfx/interface/technologies/buckle_gun_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_puckle_gun_medium"
+		texturefile = "gfx/interface/technologies/AAA_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_gatling_gun_medium"
+		texturefile = "gfx/interface/technologies/AAA_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pom_pom_medium"
+		texturefile = "gfx/interface/technologies/AAA_3.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_early_torpedo_medium"
+		texturefile = "gfx/interface/technologies/torpedo.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_early_mines_medium"
+		texturefile = "gfx/interface/technologies/mines.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_mine_sweeping_equipment_medium"
+		texturefile = "gfx/interface/technologies/anti_mines.dds"
+	}
+
 
 }
