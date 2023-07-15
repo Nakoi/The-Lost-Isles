@@ -11,39 +11,15 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 	#GROUND
  	ai_strategy = {
 		type = role_ratio
-		id = ranged_infantry
+		id = infantry
 		value = 100
-	}
-
- 	ai_strategy = {
-		type = role_ratio
-		id = ranged_militia
-		value = 0
-	}
-
- 	ai_strategy = {
-		type = role_ratio
-		id = armored_infantry
-		value = 50
-	}
-
- 	ai_strategy = {
-		type = role_ratio
-		id = motor_infantry
-		value = 50
 	}
 
 	#equipment
 	ai_strategy = {
 		type = equipment_production_factor
-		id = air_frigate
-		value = 25
-	}
-
-	ai_strategy = {
-		type = equipment_production_factor
 		id = ranged_infantry
-		value = 50
+		value = 40
 	}
 
 	ai_strategy = {
