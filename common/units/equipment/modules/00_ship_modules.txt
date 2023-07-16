@@ -11,6 +11,7 @@ equipment_modules = {
 	xebec_propulsion_1 = {
 		category = module_xebec_sails
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_1
 
 		
 		add_stats = {
@@ -34,6 +35,7 @@ equipment_modules = {
 		category = module_xebec_sails
 		parent = xebec_propulsion_1
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_2
 
 		
 		add_stats = {
@@ -58,6 +60,7 @@ equipment_modules = {
 		category = module_xebec_sails
 		parent = xebec_propulsion_2
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_3
 
 		
 		add_stats = {
@@ -83,6 +86,7 @@ equipment_modules = {
 		category = module_xebec_sails
 		parent = xebec_propulsion_3
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_4
 
 		
 		add_stats = {
@@ -108,6 +112,7 @@ equipment_modules = {
     galley_propulsion_1 = {
 		category = module_galley_sails
 		sfx = sfx_ui_sd_module_engine
+		gfx = galley_propulsion
 
 		
 		add_stats = {
@@ -132,6 +137,7 @@ equipment_modules = {
 		category = module_galley_sails
 		parent = galley_propulsion_1
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_2
 
 		 
 		add_stats = {
@@ -155,6 +161,7 @@ equipment_modules = {
 		category = module_galley_sails
 		parent = galley_propulsion_2
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_3
 
 		
 		add_stats = {
@@ -180,6 +187,7 @@ equipment_modules = {
 		category = module_galley_sails
 		parent = galley_propulsion_3
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_4
 
 		
 		add_stats = {
@@ -204,6 +212,7 @@ equipment_modules = {
     frigate_propulsion_1 = {
 		category = module_frigate_sails
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_1
 
 		
 		add_stats = {
@@ -228,6 +237,7 @@ equipment_modules = {
 		category = module_frigate_sails
 		parent = frigate_propulsion_1
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_2
 
 		
 		add_stats = {
@@ -252,6 +262,7 @@ equipment_modules = {
 		category = module_frigate_sails
 		parent = frigate_propulsion_2
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_3
 
 		
 		add_stats = {
@@ -277,6 +288,7 @@ equipment_modules = {
 		category = module_frigate_sails
 		parent = frigate_propulsion_3
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_4
 
 		
 		add_stats = {
@@ -301,6 +313,7 @@ equipment_modules = {
     ship_of_the_line_propulsion_1 = {
 		category = module_mareowar_sails
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_1
 
 		
 		add_stats = {
@@ -325,6 +338,7 @@ equipment_modules = {
 		category = module_mareowar_sails
 		parent = ship_of_the_line_propulsion_1
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_2
 
 		
 		add_stats = {
@@ -349,6 +363,7 @@ equipment_modules = {
 		category = module_mareowar_sails
 		parent = ship_of_the_line_propulsion_2
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_3
 
 		
 		add_stats = {
@@ -374,6 +389,7 @@ equipment_modules = {
 		category = module_mareowar_sails
 		parent = ship_of_the_line_propulsion_3
 		sfx = sfx_ui_sd_module_engine
+		gfx = all_ship_propulsion_4
 
 		
 		add_stats = {
@@ -485,7 +501,6 @@ equipment_modules = {
 
     light_planking_1 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_1
 		
 		multiply_stats = {
 			build_cost_ic = 0.1
@@ -499,7 +514,6 @@ equipment_modules = {
 
 	light_planking_2 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_2
 		
 		multiply_stats = {
 			build_cost_ic = 0.1
@@ -513,7 +527,6 @@ equipment_modules = {
 
 	light_planking_3 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_3
 		
 		multiply_stats = {
 			build_cost_ic = 0.1
@@ -527,7 +540,6 @@ equipment_modules = {
 
 	light_planking_4 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_4
 		
 		multiply_stats = {
 			build_cost_ic = 0.1
@@ -541,7 +553,6 @@ equipment_modules = {
 
 	light_planking_pony_1 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_5
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -556,7 +567,6 @@ equipment_modules = {
 
 	light_planking_pony_2 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_6
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -571,7 +581,6 @@ equipment_modules = {
 
 	light_planking_pony_3 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_7
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -586,7 +595,6 @@ equipment_modules = {
 	
 	light_planking_griffon_1 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_8
 		
 		multiply_stats = {
 			build_cost_ic = 0.15
@@ -599,7 +607,6 @@ equipment_modules = {
 	
 	light_planking_griffon_2 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_9
 		
 		multiply_stats = {
 			build_cost_ic = 0.15
@@ -612,7 +619,6 @@ equipment_modules = {
 	
 	light_planking_griffon_3 = {
 		category = module_light_armor
-		gfx = ship_armor_thin_10
 		
 		multiply_stats = {
 			build_cost_ic = 0.15
@@ -625,7 +631,6 @@ equipment_modules = {
 
     heavy_planking_1 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_1
 		
 		multiply_stats = {
 			build_cost_ic = 0.1
@@ -641,7 +646,6 @@ equipment_modules = {
 
 	heavy_planking_2 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_2
 		
 		multiply_stats = {
 			build_cost_ic = 0.1
@@ -657,7 +661,6 @@ equipment_modules = {
 
 	heavy_planking_3 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_3
 		
 		multiply_stats = {
 			build_cost_ic = 0.1
@@ -673,7 +676,6 @@ equipment_modules = {
 
 	heavy_planking_4 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_4
 		
 		multiply_stats = {
 			build_cost_ic = 0.1
@@ -689,7 +691,6 @@ equipment_modules = {
 
 	heavy_planking_pony_1 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_5
 		
 		multiply_stats = {
 			build_cost_ic = 0.16
@@ -706,7 +707,6 @@ equipment_modules = {
 
 	heavy_planking_pony_2 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_6
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -723,7 +723,6 @@ equipment_modules = {
 
 	heavy_planking_pony_3 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_7
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -740,7 +739,6 @@ equipment_modules = {
 	
 	heavy_planking_griffon_1 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_8
 		
 		multiply_stats = {
 			build_cost_ic = 0.12
@@ -755,7 +753,6 @@ equipment_modules = {
 	
 	heavy_planking_griffon_2 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_9
 		
 		multiply_stats = {
 			build_cost_ic = 0.15
@@ -770,7 +767,6 @@ equipment_modules = {
 	
 	heavy_planking_griffon_3 = {
 		category = module_heavy_armor
-		gfx = ship_armor_cruiser_10
 		
 		multiply_stats = {
 			build_cost_ic = 0.15
@@ -818,7 +814,6 @@ equipment_modules = {
 		abbreviation = "scj"
 		category = module_minelayer
 		gui_category = ship_mine_warfare
-		gfx = ship_mine_layer
 		
 		add_stats = {
 			mines_planting = 1
@@ -840,7 +835,6 @@ equipment_modules = {
 	ship_mine_sweeper_1 = {
 		abbreviation = "scl"
 		category = module_minesweeper
-		gfx = ship_mine_sweeper
 		
 		add_stats = {
 			mines_sweeping = 1
@@ -1232,7 +1226,6 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_carronades
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			hg_attack = 36
@@ -1252,7 +1245,6 @@ equipment_modules = {
 		category = module_carronades
 		parent = naval_carronades_1
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			hg_attack = 64
@@ -1273,7 +1265,6 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_boarding
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			torpedo_attack = 3
@@ -1290,7 +1281,6 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_boarding
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			torpedo_attack = 6
@@ -1307,7 +1297,6 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_boarding
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			torpedo_attack = 8
@@ -1324,7 +1313,6 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_boarding
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			torpedo_attack = 9
@@ -1342,7 +1330,6 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_boarding
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			torpedo_attack = 18
@@ -1359,7 +1346,6 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_boarding
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			torpedo_attack = 22
@@ -1376,7 +1362,6 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_boarding
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			torpedo_attack = 24
@@ -1394,7 +1379,6 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_boarding
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			torpedo_attack = 27
@@ -1411,7 +1395,6 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_boarding
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			torpedo_attack = 30
@@ -1428,7 +1411,6 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_boarding
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_heavy_battery_5
 		
 		add_stats = {
 			torpedo_attack = 32
