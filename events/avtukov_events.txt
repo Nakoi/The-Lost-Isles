@@ -1242,7 +1242,7 @@ country_event = {
 				add_state_core = 463
 				add_state_core = 419
 				
-				set_capital = { state = 402 }
+				set_capital = { state = 431 }
 				inherit_technology = AVT
 			}
 			396 = {
@@ -1413,9 +1413,7 @@ country_event = {
 				transfer_state = 426
 				transfer_state = 349
 				transfer_state = 392
-				transfer_state = 391
 				transfer_state = 425
-				transfer_state = 393
 					
 				add_state_core = 349
 				add_state_core = 392
