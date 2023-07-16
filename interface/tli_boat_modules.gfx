@@ -1,0 +1,240 @@
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_SMI_light_naval_battery_1"
+		texturefile = "gfx\interface\boatmodules\module_light_battery_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_light_naval_battery_2"
+		texturefile = "gfx\interface\boatmodules\module_light_battery_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_light_naval_battery_3"
+		texturefile = "gfx\interface\boatmodules\module_light_battery_3.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_light_naval_battery_4"
+		texturefile = "gfx\interface\boatmodules\module_light_battery_4.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_SMI_heavy_naval_battery_1"
+		texturefile = "gfx\interface\boatmodules\module_heavy_battery_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_heavy_naval_battery_2"
+		texturefile = "gfx\interface\boatmodules\module_heavy_battery_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_heavy_naval_battery_3"
+		texturefile = "gfx\interface\boatmodules\module_heavy_battery_3.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_heavy_naval_battery_4"
+		texturefile = "gfx\interface\boatmodules\module_heavy_battery_4.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_SMI_naval_carronades_1"
+		texturefile = "gfx\interface\boatmodules\module_carronades_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_naval_carronades_2"
+		texturefile = "gfx\interface\boatmodules\module_carronades_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_SMI_naval_mortars_1"
+		texturefile = "gfx\interface\boatmodules\module_mortar_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_naval_mortars_2"
+		texturefile = "gfx\interface\boatmodules\module_mortar_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_naval_mortars_3"
+		texturefile = "gfx\interface\boatmodules\module_mortar_3.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_SMI_naval_anti_air_1"
+		texturefile = "gfx\interface\boatmodules\module_anti_air_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_naval_anti_air_2"
+		texturefile = "gfx\interface\boatmodules\module_anti_air_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_naval_anti_air_3"
+		texturefile = "gfx\interface\boatmodules\module_anti_air_3.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_SMI_ship_mine_layer_1"
+		texturefile = "gfx\interface\boatmodules\module_mine_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_mine_sweeper_1"
+		texturefile = "gfx\interface\boatmodules\module_mine_sweeper_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_1"
+		texturefile = "gfx\interface\boatmodules\module_torpedo_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_SMI_spotting_equipment_1"
+		texturefile = "gfx\interface\boatmodules\module_spotting_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_spotting_equipment_2"
+		texturefile = "gfx\interface\boatmodules\module_spotting_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_spotting_equipment_3"
+		texturefile = "gfx\interface\boatmodules\module_spotting_3.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_navigation_equipment_1"
+		texturefile = "gfx\interface\boatmodules\module_navigation_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_navigation_equipment_2"
+		texturefile = "gfx\interface\boatmodules\module_navigation_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_navigation_equipment_3"
+		texturefile = "gfx\interface\boatmodules\module_navigation_3.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_SMI_all_ship_propulsion_1"
+		texturefile = "gfx\interface\boatmodules\module_propulsion_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_galley_propulsion"
+		texturefile = "gfx\interface\boatmodules\module_gally_propulsion_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_all_ship_propulsion_2"
+		texturefile = "gfx\interface\boatmodules\module_propulsion_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_all_ship_propulsion_3"
+		texturefile = "gfx\interface\boatmodules\module_propulsion_3.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_all_ship_propulsion_4"
+		texturefile = "gfx\interface\boatmodules\module_propulsion_4.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_SMI_light_planking_1"
+		texturefile = "gfx\interface\boatmodules\module_light_planking_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_light_planking_2"
+		texturefile = "gfx\interface\boatmodules\module_light_planking_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_light_planking_3"
+		texturefile = "gfx\interface\boatmodules\module_light_planking_3.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_light_planking_4"
+		texturefile = "gfx\interface\boatmodules\module_light_planking_4.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_heavy_planking_1"
+		texturefile = "gfx\interface\boatmodules\module_heavy_planking_1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_heavy_planking_2"
+		texturefile = "gfx\interface\boatmodules\module_heavy_planking_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_heavy_planking_3"
+		texturefile = "gfx\interface\boatmodules\module_heavy_planking_3.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_heavy_planking_4"
+		texturefile = "gfx\interface\boatmodules\module_heavy_planking_4.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	
