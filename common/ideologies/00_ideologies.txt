@@ -187,14 +187,14 @@ ideologies = {
 			join_faction_tension = 0.8
 			lend_lease_tension = 0.2
 			send_volunteers_tension = 0.3
-			guarantee_tension = 0.9
+			guarantee_tension = 1
 			annex_cost_factor = 0
 		}
 		
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50
 		}
-		ai_democratic = yes
+		ai_neutral = yes
 	}
 	
 	ideology_continuism = {
