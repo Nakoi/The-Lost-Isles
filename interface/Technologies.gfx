@@ -2154,5 +2154,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/anti_mines.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_organised_conscription_medium"
+		texturefile = "gfx/interface/doctrines/organised_conscription.dds"
+	}
+
+
+		SpriteType = {
+		name = "GFX_organised_supply_system_medium"
+		texturefile = "gfx/interface/doctrines/organised_supply_system.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_the_banner_system_medium"
+		texturefile = "gfx/interface/doctrines/the_banner_system.dds"
+	}
+
+
 
 }
