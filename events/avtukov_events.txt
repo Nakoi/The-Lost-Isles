@@ -1339,7 +1339,14 @@ country_event = {
 	option = {
 		name = avt_civwarevent.14.a
 		custom_effect_tooltip = AVTtt_civil_war_gracemarean_league_forming
-		AVT = {	add_to_faction = EVA } 
+		AVT = {
+			add_to_faction = EVA 
+			set_autonomy = {
+				target = EVA
+				autonomous_state = autonomy_puppet
+				freedom_level = 0.35
+			}
+		}
 		hidden_effect = {
 			EVA = {            
 				transfer_state = 379
@@ -1404,7 +1411,14 @@ country_event = {
 	option = {
 		name = avt_civwarevent.15.a
 		custom_effect_tooltip = AVTtt_civil_war_loyal_mages_forming
-		AVT = {	add_to_faction = UVA } 
+		AVT = {
+			add_to_faction = UVA 
+			set_autonomy = {
+				target = UVA
+				autonomous_state = autonomy_puppet
+				freedom_level = 0.35
+			}
+		}
 		hidden_effect = {
 			UVA = {            
 				transfer_state = 442
@@ -1452,7 +1466,14 @@ country_event = {
 	option = {
 		name = avt_civwarevent.16.a
 		custom_effect_tooltip = AVTtt_civil_war_loyal_pegasi_forming
-		AVT = {	add_to_faction = PVA } 
+		AVT = {
+			add_to_faction = PVA 
+			set_autonomy = {
+				target = PVA
+				autonomous_state = autonomy_puppet
+				freedom_level = 0.35
+			}
+		}
 		hidden_effect = {
 			PVA = {            
 				transfer_state = 410
@@ -1462,7 +1483,6 @@ country_event = {
 				transfer_state = 405
 				transfer_state = 406
 				transfer_state = 404
-				transfer_state = 413
 				transfer_state = 412
 					
 				add_state_core = 396
@@ -1613,6 +1633,8 @@ country_event = {
 					type = cannon_equipment
 					amount = 250
 				}
+				give_military_access = AVU
+				give_military_access = AVP
 			}
 			AVU = { load_oob = "AVT_CIVILWARTROOPS_AVU" }
 			AVU = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel complete_national_focus = AVT_mage_civwar_focus }
@@ -1629,6 +1651,8 @@ country_event = {
 					type = cannon_equipment
 					amount = 250
 				}
+				give_military_access = AVE
+				give_military_access = AVP
 			}
 			AVP = { load_oob = "AVT_CIVILWARTROOPS_AVP" }
 			AVP = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel complete_national_focus = AVT_swiftguard_civwar_focus }
@@ -1649,6 +1673,8 @@ country_event = {
 					type = cannon_equipment
 					amount = 250
 				}
+				give_military_access = AVU
+				give_military_access = AVE
 			}
 		}
 	}
@@ -1710,19 +1736,20 @@ country_event = {
 	
 	trigger = {
 		OR = {
-			AVE = { 
-				has_country_flag = avt_civil_war_flag
-				has_war = no
-			}
-			AVU = { 
-				has_country_flag = avt_civil_war_flag
-				has_war = no
-			}
-			AVP = { 
-				has_country_flag = avt_civil_war_flag
-				has_war = no
-			}
+			tag = AVE
+			tag = AVU
+			tag = AVP
 		}
+		AVE = { 
+			has_country_flag = avt_civil_war_flag
+		}
+		AVU = { 
+			has_country_flag = avt_civil_war_flag
+		}
+		AVP = { 
+			has_country_flag = avt_civil_war_flag
+		}
+		NOT = { country_exists = AVT }
 	}
 	
 	option = {
@@ -1732,9 +1759,19 @@ country_event = {
 				target = AVU
 				type = annex_everything
 			}
+			diplomatic_relation = {
+				target = AVU
+				relation = military_access
+				active = no
+			}
 			declare_war_on = {
 				target = AVP
 				type = annex_everything
+			}
+			diplomatic_relation = {
+				target = AVP
+				relation = military_access
+				active = no
 			}
         }
 		AVU = {
@@ -1742,9 +1779,19 @@ country_event = {
 				target = AVE
 				type = annex_everything
 			}
+			diplomatic_relation = {
+				target = AVE
+				relation = military_access
+				active = no
+			}
 			declare_war_on = {
 				target = AVP
 				type = annex_everything
+			}
+			diplomatic_relation = {
+				target = AVP
+				relation = military_access
+				active = no
 			}
         }
 		AVP = {
@@ -1752,9 +1799,19 @@ country_event = {
 				target = AVE
 				type = annex_everything
 			}
+			diplomatic_relation = {
+				target = AVE
+				relation = military_access
+				active = no
+			}
 			declare_war_on = {
 				target = AVU
 				type = annex_everything
+			}
+			diplomatic_relation = {
+				target = AVU
+				relation = military_access
+				active = no
 			}
 		}
 	}

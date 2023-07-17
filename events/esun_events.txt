@@ -293,6 +293,7 @@ country_event = {
 			set_autonomy = {
 				target = EAK
 				autonomy_state = autonomy_dominion
+				freedom_level = 0.35
 			}
 		}
 		EAK = {
