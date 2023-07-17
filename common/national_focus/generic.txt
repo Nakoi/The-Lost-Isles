@@ -47,7 +47,7 @@ focus_tree = {
 				is_subject = yes
 				has_war = yes
 				has_government = ideology_isolationism				
-				is_ai = yes
+				#is_ai = yes
 			}
 			NOT = {
 				has_country_flag = genflag_chill_the_fuck_out
@@ -93,7 +93,7 @@ focus_tree = {
 				has_war = yes
 				has_government = ideology_isolationism
 				has_government = ideology_solidarism
-				is_ai = yes
+				#is_ai = yes
 			}
 			NOT = {
 				has_country_flag = genflag_chill_the_fuck_out
@@ -140,7 +140,7 @@ focus_tree = {
 				has_government = ideology_isolationism
 				has_government = ideology_solidarism
 				has_government = ideology_continuism
-				is_ai = yes
+				#is_ai = yes
 			}
 			NOT = {
 				has_country_flag = genflag_chill_the_fuck_out
