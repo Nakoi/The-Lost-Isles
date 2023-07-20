@@ -2170,6 +2170,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/doctrines/the_banner_system.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_standardised_equipment_medium"
+		texturefile = "gfx/interface/doctrines/Standardized_equipment.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_attrition_warfare_medium"
+		texturefile = "gfx/interface/doctrines/attrition.dds"
+	}
+
 
 
 }
