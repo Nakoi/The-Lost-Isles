@@ -68,13 +68,13 @@ default_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 30
+		value = 5
 	}
 
 	ai_strategy = {
 		type = unit_ratio
 		id = screen_ship
-		value = 60
+		value = 50
 	}
 
 	ai_strategy = {
@@ -112,13 +112,31 @@ default_role_ratios = {
 	ai_strategy = {
 		type = role_ratio
 		id = naval_capital
-		value = 100
+		value = 5
 	}
-
+	
 	ai_strategy = {
 		type = role_ratio
-		id = naval_screen
-		value = 100
+		id = naval_capital_cruiser
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen_cruiser
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = naval_escort
+		value = 35
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = naval_interdiction
+		value = 70
 	}
 }
 
