@@ -1,63 +1,145 @@
 
 ai_focus_defense = {
 	research = {
-		defensive = 5.0	
-		radar_tech = 1.0
-		construction_tech = 2.0
-		artillery = 2.0
+		defensive = 5.0
+		science_armyorg = 10.0
+		industry_primitiveengi = 5.0
+		industry_civilizedengi = 5.0
+		industry_industrialengi = 5.0
+		industry_primitiveprod = 5.0
+		industry_civilizedprod = 5.0
+		industry_industrialprod = 5.0
+		industry_primitiveconstr = 5.0
+		industry_civilizedconstr = 5.0
+		industry_industrialconstr = 5.0
+		industry_fort = 5.0
+		artillery_medium = 5.0
+		artillery_antiair = 5.0
+		artillery_rocket = 5.0
+		artillery_siege = 5.0
+		artillery_howitzer = 5.0
+		artillery_light = 5.0
 	}
 }
 
 ai_focus_aggressive = {
 	research = {
 		offensive = 5.0
-		synth_resources = 1.0
-		motorized_equipment = 2.0
-		armor = 2.0
+		science_armyorg = 10.0
+		industry_primitiveengi = 5.0
+		industry_civilizedengi = 5.0
+		industry_industrialengi = 5.0
+		industry_primitiveprod = 5.0
+		industry_civilizedprod = 5.0
+		industry_industrialprod = 5.0
+		industry_primitivetools = 5.0
+		industry_civilizedtools = 5.0
+		industry_industrialtools = 5.0
+		infantry_primitiveeq = 5.0
+		infantry_civilizedeq = 5.0
+		infantry_industrialeq = 5.0
+		infantry_grenade = 5.0
 	}
 }
 
 ai_focus_war_production = {
 	research = {
-		industry = 10.0
-		construction_tech = 2.0
-		electronics = 2.0
-		computing_tech = 2.0	
+		industry_primitiveprod = 10.0
+		industry_civilizedprod = 10.0
+		industry_industrialprod = 10.0
+		industry_primitivetools = 10.0
+		industry_civilizedtools = 10.0
+		industry_industrialtools = 10.0
+		industry_primitiveconstr = 5.0
+		industry_civilizedconstr = 5.0
+		industry_industrialconstr = 5.0	
 	}
 }
 
 ai_focus_military_equipment = {
 	research = {
-		infantry_weapons = 50.0
-		infantry_tech = 15.0
-		artillery = 8.0
-		support_tech = 6.5
+		infantry_primitiveeq = 15.0
+		infantry_civilizedeq = 15.0
+		infantry_industrialeq = 15.0
+		infantry_grenade = 10.0
+		infantry_machinegun = 10.0
+		infantry_armorcat = 10.0
+		artillery_medium = 15.0
+		artillery_antiair = 10.0
+		artillery_rocket = 10.0
+		artillery_siege = 10.0
+		artillery_howitzer = 10.0
+		artillery_light = 10.0
+		category_engineers = 15.0
+		category_recon = 10.0
+		category_maintenance = 10.0
+		category_mp = 10.0
+		category_hospital = 10.0
+		category_logistics = 10.0
 	}
 }
 
 ai_focus_military_advancements = {
 	research = {
-		armor = 10.0
-		jet_technology = 5.0
 		land_doctrine = 100.0
-		rocketry = 7.5
-		radar_tech = 3.0
-		encryption_tech = 7.5
-		decryption_tech = 7.5
-		synth_resources = 3.0
-		motorized_equipment = 4.0
-		nuclear = 5.0
-		night_vision = 5.0
-		train_tech = 5.0
+		science_armyorg = 10.0
+		infantry_primitiveeq = 10.0
+		infantry_civilizedeq = 10.0
+		infantry_industrialeq = 10.0
+		infantry_armorcat = 10.0
+		infantry_grenade = 5.0
+		infantry_machinegun = 5.0
+		infantry_armorcat = 5.0
+		infantry_motoreq = 5.0
+		infantry_specialunit = 5.0
+		artillery_medium = 10.0
+		artillery_antiair = 5.0
+		artillery_rocket = 5.0
+		artillery_siege = 5.0
+		artillery_howitzer = 5.0
+		artillery_light = 5.0
+		category_engineers = 10.0
+		category_recon = 5.0
+		category_maintenance = 5.0
+		category_mp = 5.0
+		category_hospital = 5.0
+		category_logistics = 5.0
+		category_airfrigate = 5.0
+		category_air_skirmisher = 5.0
+		category_air_striker = 5.0	
 	}
 }
 
 ai_focus_peaceful = {
 	research = {
-		industry = 15.0
-		construction_tech = 5.0
-		electronics = 10.0
-		computing_tech = 10.0
+		industry_primitivetools = 15.0
+		industry_civilizedtools = 15.0
+		industry_industrialtools = 15.0
+		industry_primitiveengi = 15.0
+		industry_civilizedengi = 15.0
+		industry_industrialengi = 15.0
+		industry_primitiveprod = 15.0
+		industry_civilizedprod = 15.0
+		industry_industrialprod = 15.0
+		industry_primitiveconstr = 15.0
+		industry_civilizedconstr = 15.0
+		industry_industrialconstr = 15.0
+		industry_primitiveagri = 15.0
+		industry_civilizedagri = 15.0
+		industry_industrialagri = 15.0
+		industry_primitiveeco = 15.0
+		industry_civilizedeco = 15.0
+		industry_industrialeco = 15.0
+		industry_logi = 5.0
+		industry_luxury = 5.0
+		industry_fort = 5.0
+		science_primitiveresearch = 10.0
+		science_civilizedresearch = 10.0
+		science_industrialresearch = 10.0
+		science_education = 10.0
+		science_crypto = 10.0
+		science_chemistry = 10.0
+		science_armyorg = 10.0
 	}
 }
 
@@ -65,37 +147,28 @@ ai_focus_naval = {
 	research = {
 		naval_equipment = 5.0
 		naval_doctrine = 100.0
-		marine_tech = 10.0
-		dd_tech = 3.0
-		cl_tech = 3.0
-		ca_tech = 3.0
-		bc_tech = 3.0
-		bb_tech = 3.0
-		shbb_tech = 3.0
-		tp_tech = 3.0
-		cv_tech = 3.0
-		ss_tech = 3.0
+		xebec_tech = 3.0
+		light_ship_tech = 3.0
+		medium_ship_tech = 3.0
+		heavy_ship_tech = 3.0
 	}
 }
 
-ai_focus_naval_air = {
-	research = {
-		naval_air = 4.0
-		naval_bomber = 3.0
-	}
-}
+#ai_focus_naval_air = {
+#	research = {
+#		naval_air = 4.0
+#		naval_bomber = 3.0
+#	}
+#}
 
 ai_focus_aviation = {
 	research = {
 		air_doctrine = 50.0
-		light_air = 20.0
-		light_fighter = 20.0
-		jet_technology = 1.0
-		cas_bomber = 2.0		
-		medium_air = 4.0
-		tactical_bomber = 5.0
-		heavy_air = 1.5
-		air_equipment = 5.0
-		para_tech = 10
+		category_airfrigate = 20.0
+		category_bombardier = 5.0
+		category_skycarrier = 5.0
+		category_skycruiser = 1.0
+		category_air_skirmisher = 20.0
+		category_air_striker = 10.0
 	}
 }
