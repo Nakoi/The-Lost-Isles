@@ -52,15 +52,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "100.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -104,15 +102,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "400.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -158,15 +154,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "600.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -211,15 +205,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "800.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -263,16 +255,14 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+         ai_will_do = {
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "850.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -317,15 +307,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "957.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -370,15 +358,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -427,16 +413,14 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+		ai_will_do = {
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -481,16 +465,14 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+       ai_will_do = {
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -535,15 +517,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -588,15 +568,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -641,15 +619,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -689,15 +665,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -740,16 +714,14 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+		ai_will_do = {
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "400.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -793,15 +765,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "850.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -850,16 +820,14 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+       ai_will_do = {
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -908,15 +876,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -963,16 +929,14 @@ technologies = {
         }
 		
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+		ai_will_do = {
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1015,15 +979,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1072,15 +1034,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "100.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1126,15 +1086,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "400.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1182,16 +1140,14 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+		ai_will_do = {
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "850.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1239,15 +1195,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1295,16 +1249,14 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+		ai_will_do = {
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1352,15 +1304,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1403,15 +1353,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1465,15 +1413,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 25
+			
+			modifier = {
+				factor = 10
+				date > "100.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1536,15 +1482,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 25
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1595,15 +1539,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 25
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1649,15 +1591,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 25
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1708,15 +1648,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 25
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1764,15 +1702,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 25
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1815,15 +1751,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 25
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1871,15 +1805,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "100.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1928,15 +1860,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "400.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -1980,15 +1910,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "600.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2034,15 +1962,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "800.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2086,15 +2012,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "850.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2139,15 +2063,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "957.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2191,15 +2113,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2244,15 +2164,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2297,15 +2215,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2350,15 +2266,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2402,15 +2316,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2455,15 +2367,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2502,15 +2412,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 100
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2555,15 +2463,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 25
+			
+			modifier = {
+				factor = 10
+				date > "600.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2613,15 +2519,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 25
+			
+			modifier = {
+				factor = 10
+				date > "850.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2671,15 +2575,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 25
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2724,15 +2626,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 25
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2781,16 +2681,14 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+		ai_will_do = {
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "100.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2833,15 +2731,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "400.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2896,15 +2792,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "600.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -2950,15 +2844,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "800.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3012,16 +2904,14 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+		ai_will_do = {
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "850.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3064,15 +2954,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "957.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3125,15 +3013,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3176,16 +3062,14 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+		ai_will_do = {
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3239,15 +3123,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3291,15 +3173,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3352,15 +3232,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3404,15 +3282,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3460,15 +3336,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3513,15 +3387,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "400.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3564,15 +3436,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "600.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3616,15 +3486,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "800.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3668,15 +3536,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "850.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3719,15 +3585,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "957.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3771,15 +3635,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3822,15 +3684,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3873,15 +3733,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3924,15 +3782,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -3976,15 +3832,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -4026,15 +3880,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
@@ -4073,15 +3925,13 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-            factor = 1
-            
-            # Conditional modifier to the factor.
-            #modifier = {
-            #    factor = <float>
-            #    
-            #    <triggers>
-            #}
-        }
+			factor = 50
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
         #ai_research_weights = {
