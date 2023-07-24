@@ -1,2129 +1,3189 @@
 technologies = {
-	
-	@1918 = 0
-	@1936 = 2
-	@1938 = 4
-	@1939 = 6
-	@1940 = 8
-	@1941 = 10
-	@1942 = 12
-	@1943 = 14
-	@1944 = 16
-	@1945 = 18
-	@1946 = 20
 
-	infantry_weapons = {
-
-		enable_equipments = {
-			infantry_equipment_0
-		}
-
-		enable_equipment_modules = {
-			tank_heavy_machine_gun
-			secondary_turret_hmg
-			additional_machine_guns
-		}
+	@100 = 0
+	@400 = 2
+	@600 = 4
+	@800 = 6
+	@850 = 8
+	@957 = 10
+	@959 = 12
+	@961 = 14
+	@963 = 16
+	@965 = 18
+	@967 = 20
+	@969 = 22
+    @971 = 24
+    
+#Infantry Tree
+    infantry_weapons = {
+        research_cost = 0.1 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        enable_equipments = {
+			rifle_equipment_1
+        }
 		
-		enable_subunits = {
-			infantry
+        enable_subunits = {
+            ranged_infantry
+            ranged_militia
+        }
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+		path = {
+			leads_to_tech = infantry_upgrade
+			research_cost_coeff = 1
+        }
+
+        path = {
+			leads_to_tech = lamellar_armor
+			research_cost_coeff = 1
+        }
+        
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 6
+                y = @100
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_weapons
+			infantry_primitiveeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "100.1.1"
+			}
 		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_militia = {
+            soft_attack = -0.4
+            hard_attack = -0.4
+            breakthrough = -0.2
+        }
+    }
+
+    infantry_upgrade = {
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
 		
 		path = {
 			leads_to_tech = infantry_weapons1
 			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = -1 }
-		}
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
 		
-		categories = {
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4
+                y = @100
+            }
+        
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	infantry_weapons1 = {
-
-		enable_equipments = {
-			infantry_equipment_1
-		}
-				
-		path = {
-			leads_to_tech = infantry_weapons2
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1936 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
+			infantry_primitiveeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
 			modifier = {
 				factor = 10
-				tag = CHI
-				
-				OR = {
-					date > "1937.1.1"
-					JAP = { is_ai = no }
-				}
+				date > "100.1.1"
 			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            soft_attack = 0.1
+        }
+    }
+
+    infantry_weapons1 = {
+       research_cost = 1.2 # Cost in time, where 1 is the default research time length.
+        start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        enable_equipments = {
+			rifle_equipment_2
+		}
+
+		path = {
+			leads_to_tech = infantry_upgrade1
+			research_cost_coeff = 1
+        }
+        
+        path = {
+			leads_to_tech = crossbow
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @100
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_weapons
+			infantry_primitiveeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
 			modifier = {
 				factor = 10
-				date > "1936.1.3"
+				date > "100.1.1"
 			}
 		}
-	}	
-	
-	infantry_weapons2 = {
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
 
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
+    infantry_upgrade1 = {
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
+        start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_primitive = 1
+        }
 		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
-		motorized = {
-			soft_attack = 0.05
-		}
-		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
-		}
-		
-		path = {
-			leads_to_tech = improved_infantry_weapons
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @400
+            }
+        }
+
+        path = {
+            leads_to_tech = infantry_upgrade2
 			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1938
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1938 }
-		}
-		
-		categories = {
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 2
+			infantry_primitiveeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
-			modifier = {
-				factor = 5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
-	}
-	
-	improved_infantry_weapons = {
-
-		enable_equipments = {
-			infantry_equipment_2
-		}
-		
-		path = {
-			leads_to_tech = improved_infantry_weapons_2
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = infantry_at
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 2
-		start_year = 1939
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1939 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 3
-						
 			modifier = {
 				factor = 10
-				date > "1939.1.1"
+				date > "400.1.1"
 			}
-			modifier = {
-				num_of_military_factories < 50
-				factor = 0.5
-			}
-			#modifier = {
-			#	factor = 0
-			#	tag = SOV
-			#	OR = {
-			#		date < "1944.1.1" # stock up on lots of rifles, we got the manpower
-			#		AND = {
-			#			date > "1943.1.1"
-			#			surrender_progress < 0.1 # if we arent losing badly its ok
-			#		}
-			#	}
-			#}
 		}
-	}
-	improved_infantry_weapons_2 = {
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
+        category_tli_all_infantry = {
+            soft_attack = 0.1
+        }
+    }
+
+    infantry_upgrade2 = {
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
+        start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_primitive = 1
+        }
 		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
-		motorized = {
-			soft_attack = 0.05
-		}
-		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
-		}
-		
-		path = {
-			leads_to_tech = advanced_infantry_weapons
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @600
+            }
+        }
+
+        path = {
+            leads_to_tech = infantry_weapons2
 			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1940 }
-		}
-		
-		categories = {
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
+			infantry_primitiveeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
 			modifier = {
-				factor = 2
-				date > "1940.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1942.1.1"
+				factor = 10
+				date > "600.1.1"
 			}
 		}
-	}
-	
-	infantry_at = {
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-		category_all_infantry = {
-			hard_attack = 0.25
-			ap_attack = 1
+        category_tli_all_infantry = {
+            soft_attack = 0.1
+        }
+    }
+
+    infantry_weapons2 = {
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
+        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        enable_equipments = {
+			rifle_equipment_3
 		}
-		
+
 		path = {
-			leads_to_tech = infantry_at2
+			leads_to_tech = infantry_upgrade3
 			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1942 }
-		}
+        }
+        
+        path = {
+			leads_to_tech = crossbow1
+			research_cost_coeff = 1
 		
-		categories = {
+		}
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @800
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
+			infantry_primitiveeq
+			infantry_civilizedeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
 			modifier = {
-				factor = 2
-				date > "1942.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1944.1.1"
+				factor = 10
+				date > "800.1.1"
 			}
 		}
-	}
-	
-	infantry_at2 = {
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
 
-		category_all_infantry = {
-			hard_attack = 0.25
-			ap_attack = 1
-		}
+    gunpowder = {
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
+        start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = crossbow1
+			research_cost_coeff = 1
+        }
 		
-		research_cost = 1.5
-		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1943 }
-		}
+		dependencies = {
+            tech_primitive = 1
+        }
 		
-		categories = {
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @600
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
+			infantry_primitiveeq
+			infantry_civilizedeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
 			modifier = {
-				factor = 2
-				date > "1943.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1944.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1945.1.1"
+				factor = 10
+				date > "600.1.1"
 			}
 		}
-	}
-	
-	advanced_infantry_weapons = {
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-		enable_equipments = {
-			infantry_equipment_3
-		}	
-		
+        category_tli_all_infantry = {
+            hard_attack = 0.1
+            breakthrough = 0.1
+			supply_consumption = 0.03
+        }
+    }
+
+    infantry_weapons3 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        enable_equipments = {
+			rifle_equipment_4
+        }
+
 		path = {
-			leads_to_tech = advanced_infantry_weapons2
+			leads_to_tech = ranged_infantry_upgrade_1
 			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1942 }
-		}
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
 		
-		categories = {
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
 			infantry_weapons
-		}
-		
+			infantry_civilizedeq
+        }
+        
+        # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 0.8
-			
-			
-			modifier = {
-				tag = GER
-				factor = 2.5
-			}
-			modifier = {
-				num_of_military_factories > 150
-				factor = 2.5
-			}
+			factor = 40
 			
 			modifier = {
-				num_of_military_factories < 50
-				factor = 0.5
+				factor = 10
+				date > "850.1.1"
 			}
 		}
-	}
-	
-	advanced_infantry_weapons2 = {
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
 
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
-		cavalry = {
-			soft_attack = 0.1
-		}		
-
-
-		motorized = {
-			soft_attack = 0.1
-		}
-		mechanized = {
-			soft_attack = 0.1
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.1
-		}		
-
-		research_cost = 1.5
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1944 }
-		}
+    ranged_infantry_upgrade_1 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = ranged_infantry_upgrade_2
+			research_cost_coeff = 1
+        }
 		
-		categories = {
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @957
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
+			infantry_civilizedeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
 			modifier = {
-				factor = 2
-				date > "1944.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1945.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1946.1.1"
+				factor = 10
+				date > "957.1.1"
 			}
 		}
-	}
-	
-	paratroopers = {
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-		enable_subunits = {
-			paratrooper
-		}
+        category_tli_all_infantry = {
+            soft_attack = 0.1
+            breakthrough = 0.1
+        }
+
+
+    }
+
+    ranged_infantry_upgrade_2 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = ranged_infantry_upgrade_3
+			research_cost_coeff = 1
+        }
+
+        path = {
+			leads_to_tech = grenades_1
+			research_cost_coeff = 1
+        }
 		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_weapons
+			infantry_civilizedeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+        
+        category_tli_all_infantry = {
+            soft_attack = 0.1
+        }
+    }
+
+    ranged_infantry_upgrade_3 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 961     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = breech_loading_rifles
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @961
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_weapons
+			infantry_civilizedeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            soft_attack = 0.1
+            ap_attack = 0.1
+            supply_consumption = 0.02
+        }
+    }
+
+    breech_loading_rifles = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        enable_equipments = {
+			rifle_equipment_5
+		}
+
 		path = {
-			leads_to_tech = paratroopers2
+			leads_to_tech = ranged_infantry_upgrade_4
 			research_cost_coeff = 1
-		}
+        }
 
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1936 }
-		}
+        path = {
+			leads_to_tech = machine_gun
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
-		on_research_complete_limit = {
-			NOT = {
-				has_template_containing_unit = paratrooper
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_weapons
+			infantry_civilizedeq
+			infantry_industrialeq
+        }
+        
+        # Weighting for the AI to pick the technology
+		ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
 			}
 		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+
+    ranged_infantry_upgrade_4 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = ranged_infantry_upgrade_5
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @965
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_weapons
+			infantry_industrialeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            soft_attack = 0.1
+        }
+    }
+
+    ranged_infantry_upgrade_5 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = ranged_infantry_upgrade_6
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_weapons
+			infantry_industrialeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+        category_tli_all_infantry = {
+            soft_attack = 0.1
+            ap_attack = 0.05
+        }
+    }
+
+    ranged_infantry_upgrade_6 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = bolt_action_rifles
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @969
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_weapons
+			infantry_industrialeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            soft_attack = 0.1
+            ap_attack = 0.1
+            supply_consumption = 0.02
+        }
+    }
+
+    bolt_action_rifles = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        enable_equipments = {
+			rifle_equipment_6
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_weapons
+			infantry_industrialeq
+        }
+        
+        # Weighting for the AI to pick the technology
+		ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+
+    machine_gun = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        enable_equipments = {
+            machinegun_equipment_1
+        }
+
+        enable_subunits = {
+            unit_machine_gun
+        }
+
+        path = {
+			leads_to_tech = machine_gun_upgrade_1
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -2
+                y = @965
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_machinegun
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 20
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        unit_machine_gun = {
+            entrenchment = 1
+        }
+    }
+
+    machine_gun_upgrade_1 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = machine_gun_upgrade_2
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -2
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_machinegun
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 20
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        unit_machine_gun = {
+            defense = 0.1
+            soft_attack = 0.1
+            ap_attack = 0.2
+            air_attack = 0.75
+            entrenchment = 1
+			need = {
+			    machinegun_equipment = 6
+			}
+        }
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_paratroopers"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			custom_effect_tooltip = gentext_machinegun_need
 		}
-		
-		categories = {
-			para_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-		}
-	}
-	
-	paratroopers2 = {
+    }
 
-		paratrooper = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-		
-		path = {
-			leads_to_tech = paratroopers3
+    machine_gun_upgrade_2 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = machine_gun_upgrade_3
 			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1939
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1939 }
-		}
+        }
 		
-		categories = {
-			para_tech
-			cat_special_forces_generic
-		}
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
-		ai_will_do = {
-			factor = 0.5
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -2
+                y = @969
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_machinegun
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 20
 			
 			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
+				factor = 10
+				date > "969.1.1"
 			}
 		}
-	}
-
-	paratroopers3 = {
-
-		paratrooper = {
-			max_organisation = 5
-		}
-		
-
-		research_cost = 2.0
-		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1943 }
-		}
-		
-		categories = {
-			para_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 2
-				tag = USA
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+        unit_machine_gun = {
+            defense = 0.1
+            soft_attack = 0.1
+            ap_attack = 0.2
+            air_attack = 0.75
+            entrenchment = 1
+			need = {
+			    machinegun_equipment = 6
 			}
-			
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-		}
-	}
-	
-	marines = {
-
-		enable_subunits = {
-			marine
-		}
-		
-		on_research_complete_limit = {
-			NOT = {
-				has_template_containing_unit = marine
-			}
-		}
+        }
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_marines"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			custom_effect_tooltip = gentext_machinegun_need
 		}
+    }
 
-		path = {
-			leads_to_tech = marines2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 3 y = @1936 }
-		}
+    machine_gun_upgrade_3 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
 		
-		categories = {
-			marine_tech
-			cat_special_forces_generic
-		}
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
-		ai_will_do = {
-			factor = 0.7
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -2
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_machinegun
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 20
 			
 			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
+				factor = 10
+				date > "971.1.1"
 			}
 		}
-	}
-	
-	marines2 = {
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-		marine = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-		path = {
-			leads_to_tech = marines3
-			research_cost_coeff = 1
-		}
-		
-
-		research_cost = 1.5
-		start_year = 1939
-		folder = {
-			name = infantry_folder
-			position = { x = 3 y = @1939 }
-		}
-		
-		categories = {
-			marine_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
+        unit_machine_gun = {
+            defense = 0.2
+            soft_attack = 0.1
+            ap_attack = 0.2
+            air_attack = 0.75
+            entrenchment = 1
+			need = {
+			    machinegun_equipment = 6
 			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
-		}
-	}
-	
-	marines3 = {
-
-		marine = {
-			max_organisation = 5
-		}
-
-		research_cost = 2.0
-		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = { x = 3 y = @1943 }
-		}
-		
-		categories = {
-			marine_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
-		}
-	}	
-	
-	tech_mountaineers = {
-
-		enable_subunits = {
-			mountaineers
-		}
-
-		on_research_complete_limit = {
-			NOT = {
-				has_template_containing_unit = mountaineers
-			}
-		}
+        }
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_mountineers"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			custom_effect_tooltip = gentext_machinegun_need
 		}
-		
-		path = {
-			leads_to_tech = tech_mountaineers2
+    }
+
+    grenades_1 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = grenades_2
 			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 5 y = @1936 }
-		}
+        }
 		
-		categories = {
-			infantry_tech
-			mountaineers_tech
-			cat_special_forces_generic
-		}
+		dependencies = {
+            tech_civilized = 1
+        }
 		
-		ai_will_do = {
-			factor = 0.7
-		}
-	}
-	
-	tech_mountaineers2 = {
-
-		mountaineers = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-		path = {
-			leads_to_tech = tech_mountaineers3
-			research_cost_coeff = 1
-		}
-
-
-		research_cost = 1.5
-		start_year = 1939
-		folder = {
-			name = infantry_folder
-			position = { x = 5 y = @1939 }
-		}
-		
-		categories = {
-			infantry_tech
-			mountaineers_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
-	}
-	
-	tech_mountaineers3 = {	
-		mountaineers = {
-			max_organisation = 5
-		}
-
-		research_cost = 2.0
-		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = { x = 5 y = @1943 }
-		}
-		
-		categories = {
-			infantry_tech
-			mountaineers_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
-	}
-
-	tech_special_forces = {
-		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.05
-			acclimatization_cold_climate_gain_factor = 0.05
-		}
-		
-		#dependencies = {
-		#	OR = {
-		#		marines = 1
-		#		paratrooper = 1
-		#		mountaineer = 1
-		#	}
-		#}
-
-		path = {
-			leads_to_tech = advanced_special_forces
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = improved_special_forces
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1938
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1938 }
-		}
-		
-		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
-	}
-
-
-	advanced_special_forces = {
-		xor={
-			improved_special_forces
-		}
-
-		category_special_forces = {
-			max_organisation = 5
-			defense = 0.05
-		}
-
-		special_forces_training_time_factor = 0.1
-		
-		path = {
-			leads_to_tech = extreme_environment_training
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 3 y = @1940 }
-		}
-		
-		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
-	}
-
-	improved_special_forces = {
-		xor={
-			advanced_special_forces
-		}
-
-		special_forces_cap = 0.05
-		special_forces_training_time_factor = -0.1
-		
-		path = {
-			leads_to_tech = survival_training
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 5 y = @1940 }
-		}
-		
-		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
-	}
-
-
-	extreme_environment_training = {
-
-		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.50
-			acclimatization_cold_climate_gain_factor = 0.50
-		}
-		
-		special_forces_no_supply_grace = 48
-		special_forces_training_time_factor = 0.1
-		
-		path = {
-			leads_to_tech = elite_forces
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = 3 y = @1942 }
-		}
-		
-		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
-	}
-
-
-	survival_training = {
-
-		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.20
-			acclimatization_cold_climate_gain_factor = 0.20
-		}
-		
-		special_forces_out_of_supply_factor = -0.1
-		
-		path = {
-			leads_to_tech = elite_forces
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = 5 y = @1942 }
-		}
-		
-		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
-	}
-
-
-	elite_forces = {
-		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.20
-			acclimatization_cold_climate_gain_factor = 0.20
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-		
-		special_forces_no_supply_grace = 48
-
-		research_cost = 2
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1944 }
-		}
-		
-		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
-	}
-
-	jungle_warfare = {
-
-		research_cost = 1
-
-		# only from focus!!! #####
-		allow = {
-			always = no
-		}
-
-
-		#If you change these
-		#Change the custom tooltip too: RAJ_jungle_training_effect
-		marine = {
-			jungle = {
-				attack = 0.05 
-				movement = 0.1
-			}
-		}
-
-		mountaineers = {
-			jungle = {
-				attack = 0.05
-				movement = 0.1
-			}
-		}
-
-		paratrooper = {
-			jungle = {
-				attack = 0.05
-				movement = 0.1
-			}
-		}
-
-	}
-
-	SWI_mountaineer_paratroopers_tech = { #Unlocked in Swiss Focus SWI_mountaneer_paratroopers
-
-		research_cost = 1
-
-		allow = {
-			always = no
-		}
-
-		paratrooper = {  # CHANGE TOOLTIP WHEN NEEDED
-			mountain = {
-				attack = 0.35
-				defence = 0.1
-				movement = 0.2
-			}
-			hills = {
-				attack = 0.2
-				defence = 0.05
-				movement = 0.1
-			}
-		}
-
-	}
-
-	HUN_light_infantry_tech = {
-
-		research_cost = 1
-
-		# only from focus!!! #####
-		allow = {
-			always = no
-		}
-
-
-		#If you change these
-		#Change the custom tooltip too: HUN_light_infantry_divisions_doctrine_effect
-		infantry = {
-			forest = {
-				attack = 0.02
-				movement = 0.05
-			}
-
-			urban = {
-				attack = 0.05 
-				movement = 0.05
-			}
-		}
-	}
-
-	mountain_warfare = {
-
-		research_cost = 1
-
-		# only from focus!
-		allow = {
-			always = no
-		}
-
-
-		#If you change these
-		#Change the custom tooltip too: GRE_mountain_training_effect
-		infantry = {
-			mountain = {
-				defence = 0.05
-				movement = 0.05
-			}
-		}
-
-		marine = {
-			mountain = {
-				attack = 0.05 
-				movement = 0.1
-			}
-		}
-
-		mountaineers = {
-			mountain = {
-				attack = 0.05
-				defence = 0.05
-				movement = 0.1
-			}
-		}
-
-		paratrooper = {
-			mountain = {
-				attack = 0.05
-				movement = 0.1
-			}
-		}
-
-	}
-
-	night_vision = {
-
-		land_night_attack = 0.1
-		
-		path = {
-			leads_to_tech = night_vision2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.5
-		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1943 }
-		}
-		
-		categories = {
-			night_vision
-		}
-		
-		ai_will_do = {
-			factor = 4
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_grenade
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
 			modifier = {
-				factor = 2
-				date > "1942.1.9"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1943.1.6"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1946.1.1"
+				factor = 10
+				date > "959.1.1"
 			}
 		}
-	}
-	
-	night_vision2 = {
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-		land_night_attack = 0.15	
+        category_tli_all_infantry = {
+            hard_attack = 0.15
+            ap_attack = 0.15
+            supply_consumption = 0.04
+        }
+    }
 
-		research_cost = 2
-		start_year = 1946
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1946 }
-		}
-		
-		categories = {
-			night_vision
-		}
-		
-		ai_will_do = {
-			factor = 4
-			
-			modifier = {
-				factor = 2
-				date > "1945.1.9"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1946.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1946.1.6"
-			}
-		}
-	}
-	
-	support_weapons = {
-
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		bicycle_battalion = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		mountaineers = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		paratrooper = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		marine = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		amphibious_mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		
-		path = {
-			leads_to_tech = support_weapons2
+    grenades_2 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = grenades_3
 			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1918 }
-		}
+        }
 		
-		categories = {
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_grenade
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            hard_attack = 0.15
+            ap_attack = 0.15
+        }
+    }
+
+    grenades_3 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = grenade_rifles
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_grenade
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            hard_attack = 0.15
+            ap_attack = 0.15
+        }
+    }
+
+    grenade_rifles = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_grenade
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            hard_attack = 0.25
+            ap_attack = 0.25
+        }
+    }
+
+    infantry_upgrade3 = {
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @850
+            }
+        }
+
+        path = {
+            leads_to_tech = infantry_upgrade4
+			research_cost_coeff = 1
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 15
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
+			infantry_civilizedeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
 			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
+				factor = 10
+				date > "850.1.1"
 			}
 		}
-	}
-	
-	support_weapons2 = {
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		bicycle_battalion = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		mountaineers = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		paratrooper = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		marine = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		amphibious_mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		
-		path = {
-			leads_to_tech = support_weapons3
-			research_cost_coeff = 1
-		}
+        category_tli_all_infantry = {
+            soft_attack = 0.1
+        }
+    }
 
-		research_cost = 1.5
-		start_year = 1938
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1938 }
-		}
+    infantry_upgrade4 = {
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
+        start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+           tech_primitive = 1
+        }
 		
-		categories = {
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 2
+                y = @957
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
+			infantry_civilizedeq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
 			modifier = {
-				factor = 5
+				factor = 10
+				date > "957.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-			modifier = {
-				factor = 2
-				date > "1938.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1940.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.1"
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-		}
-	}
-	
-	support_weapons3 = {
+        category_tli_all_infantry = {
+            soft_attack = 0.1
+        }
+    }
 
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		bicycle_battalion = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		mountaineers = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		paratrooper = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		marine = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		amphibious_mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+    crossbow = {
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
+        start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_primitive = 1
+        }
 		
-		path = {
-			leads_to_tech = support_weapons4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1940 }
-		}
-		
-		categories = {
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @400
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1940.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1942.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1943.1.1"
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-		}
-	}
-	
-	support_weapons4 = {
+			infantry_primitiveeq
+        }
 
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
+        path = {
+			leads_to_tech = gunpowder
+			research_cost_coeff = 1
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "400.1.1"
+			}
 		}
-		bicycle_battalion = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		mountaineers = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		paratrooper = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		marine = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		amphibious_mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            ap_attack = 0.1 
+            hard_attack = 0.1  
+        }
+    }
+
+    crossbow1 = {
+        research_cost = 1.2 # Cost in time, where 1 is the default research time length.
+        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_primitive = 1
+        }
 		
-		research_cost = 1.5
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1942 }
-		}
-		
-		categories = {
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = @800
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1942.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1944.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1945.1.1"
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-		}
-	}
-	
-	motorised_infantry = {
-
-		enable_subunits = {
-			motorized
-		}
-
-		enable_equipments = {
-			motorized_equipment_1
-		}
-
-		enable_equipment_modules = {
-			tank_wheeled_suspension
-		}
-
-		on_research_complete_limit = {
-			NOT = {
-				has_template_containing_unit = motorized
-			}
-		}
-		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_motorized"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
+			infantry_primitiveeq
+        }
 		
 		path = {
-			leads_to_tech = mechanised_infantry
+			leads_to_tech = infantry_weapons3
 			research_cost_coeff = 1
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "800.1.1"
+			}
 		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-		path = {
-			leads_to_tech = armored_car1
+        category_tli_all_infantry = {
+            ap_attack = 0.1 
+            hard_attack = 0.1
+        }
+    }
+
+    lamellar_armor = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 400     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = plate_armor
 			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1936 }
-		}
+        }
 		
-		folder = {
-			name = support_folder
-			position = { x = 7 y = 9 }
-		}
+		dependencies = {
+            tech_primitive = 1
+        }
 		
-		sub_technologies = {
-			motorized_rocket_unit
-		}
-		
-		categories = {
-			motorized_equipment
-			infantry_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 6
+                y = @400
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
 			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			modifier = {
-				is_major = no
-				factor = 0.5
+				factor = 10
+				date > "400.1.1"
 			}
 		}
-	}
-	motorized_rocket_unit = {
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-		enable_subunits = {
-			motorized_rocket_brigade
-		}
-		enable_equipments = {
-			motorized_rocket_equipment_1
-		}
-	
-		research_cost = 1.5
-		start_year = 1939
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-		
-		categories = {
-			mot_rockets
-		}
-	}
-	
-	armored_car1 = {
+        category_tli_all_infantry = {
+            defense = 0.1
+            breakthrough = 0.1
+        }
+    }
 
-		enable_subunits = {
-			armored_car
-		}
-
-		enable_equipments = {
-			gw_armored_car_equipment
-		}
-		allow_branch = { has_dlc = "La Resistance" }
-		path = {
-			leads_to_tech = armored_car2
+    plate_armor = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 600     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = infantry_armor
 			research_cost_coeff = 1
-		}
+        }
 
-		research_cost = 2
-		start_year = 1914
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1936 }
-		}
-		
-		categories = {
-			motorized_equipment
-			armor
-			cat_armored_cars
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			modifier = {
-				is_major = no
-				factor = 0.5
-			}
-		}
-	}
-
-	armored_car2 = {
-
-		enable_equipments = {
-			armored_car_equipment_1
-		}
-		
-		path = {
-			leads_to_tech = armored_car3
+        path = {
+			leads_to_tech = elite_armor
 			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1940 }
-		}
+        }
 		
-		categories = {
-			motorized_equipment
-			armor
-			cat_armored_cars
-		}
+		dependencies = {
+            tech_primitive = 1
+        }
 		
-		ai_will_do = {
-			factor = 1
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 6
+                y = @600
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
 			
 			modifier = {
-				factor = 2
-				date > "1940.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1942.1.1"
-			}
-			modifier = {
-				is_major = no
-				factor = 0.5
+				factor = 10
+				date > "600.1.1"
 			}
 		}
-	}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-	armored_car3 = {
+        category_tli_all_infantry = {
+            defense = 0.2
+            breakthrough = 0.2
+        }
+    }
 
-		enable_equipments = {
-			armored_car_equipment_2
-		}
-
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1942 }
-		}
-		
-		categories = {
-			motorized_equipment
-			armor
-			cat_armored_cars
-		}
-		
-		sub_technologies = {
-			armored_car_at_upgrade
-		}
-
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1942.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1944.1.1"
-			}
-			modifier = {
-				is_major = no
-				factor = 0.5
-			}
-		}
-	}
-
-	armored_car_at_upgrade = {
-
-		enable_equipments = {
-			armored_car_at_equipment
-		}
-
-		research_cost = 1
-		start_year = 1942
-		sub_tech_index = 1
-		
-		categories = {
-			motorized_equipment
-			armor
-			cat_armored_cars
-		}
-
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1942.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1944.1.1"
-			}
-			modifier = {
-				is_major = no
-				factor = 0.5
-			}
-		}
-	}
-
-	mechanised_infantry = {
-
-		enable_equipments = {
-			mechanized_equipment_1
-		}
-
-		enable_equipment_modules = {
-			tank_half_track_suspension
-		}
-		
-		motorized = {
-			hardness = 1.0
-		}
-		mot_artillery_brigade = {
-			hardness = 1.0
-		}
-		mot_anti_tank_brigade = {
-			hardness = 1.0
-		}
-		mot_anti_air_brigade = {
-			hardness = 1.0
-		}
-		mot_rocket_artillery_brigade = {
-			hardness = 1.0
-		}
-
-		path = {
-			leads_to_tech = mechanised_infantry2
+   infantry_armor = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = infantry_armor_upgrade_1
 			research_cost_coeff = 1
-		}
+        }
 
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry
-			research_cost_coeff = 1
-		}
+        enable_subunits = {
+            armored_infantry
+        }
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 5
+                y = @800
+            }
+        }
 
-		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1940 }
-		}
-		
-		categories = {
-			motorized_equipment
-			infantry_tech
-			cat_mechanized_equipment
-		}
-		
-		ai_will_do = {
-			factor = 2
+        XOR = {
+            elite_armor
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
 			modifier = {
-				tag = USA
-				factor = 2
+				factor = 10
+				date > "800.1.1"
 			}
 		}
-	}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-	amphibious_mechanized_infantry = {
+        category_armored_infantry  = {
+            armor_value = 9
+            breakthrough = 1
+            defense = 0.1
+            hardness = 14
+            supply_consumption = 0.03
+        }
 
-		enable_equipments = {
-			amphibious_mechanized_equipment_1
-		}
+        category_tli_all_infantry = {
+            defense = 0.2
+            breakthrough = 0.2
+        }
+        
+        category_elite_infantry = {
+            armor_value = 5
+            breakthrough = 0.25
+        }
+		
+		category_all_racial_infantry = {
+            armor_value = 5
+            breakthrough = 0.25
+        }
+    }
 
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
-		enable_subunits = {
-			amphibious_mechanized
-		}
-
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry_2
+    infantry_armor_upgrade_1 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = infantry_armor_upgrade_2
 			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1941
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1941 }
-		}
+        }
 		
-		categories = {
-			motorized_equipment
-			infantry_tech
-			cat_mechanized_equipment
-			tp_tech
-		}
+		dependencies = {
+            tech_civilized = 1
+        }
 		
-		ai_will_do = {
-			factor = 2
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 5
+                y = @957
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
 			modifier = {
-				tag = USA
-				factor = 2
+				factor = 10
+				date > "957.1.1"
 			}
 		}
-	}
-
-	amphibious_mechanized_infantry_2 = {
-
-		enable_equipments = {
-			amphibious_mechanized_equipment_2
-		}
-
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 		
+        category_armored_infantry = {
+            armor_value = 5
+            breakthrough = 0.25
+            defense = 0.05
+            hardness = 3
+        }
+        category_tli_all_infantry = {
+            defense = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 3
+        }
+		
+		category_all_racial_infantry = {
+            armor_value = 3
+        }
+    }
 
-		research_cost = 2
-		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1943 }
-		}
-		
-		categories = {
-			motorized_equipment
-			infantry_tech
-			cat_mechanized_equipment
-			tp_tech
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-	mechanised_infantry2 = {
-
-		enable_equipments = {
-			mechanized_equipment_2
-		}
-		
-		path = {
-			leads_to_tech = mechanised_infantry3
+    infantry_armor_upgrade_2 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 961     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = infantry_armor_upgrade_3
 			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1942 }
-		}
+        }
 		
-		categories = {
-			motorized_equipment
-			infantry_tech
-			cat_mechanized_equipment
-		}
+		dependencies = {
+            tech_civilized = 1
+        }
 		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	mechanised_infantry3 = {
-
-		enable_equipments = {
-			mechanized_equipment_3
-		}
-
-		mechanized = {
-			soft_attack = 0.15
-			hard_attack = 0.15
-		}
-
-		research_cost = 3
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1944 }
-		}
-		
-		categories = {
-			motorized_equipment
-			infantry_tech
-			cat_mechanized_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	######### FROM JAPANESE FOCUS ##########
-	bicycle_infantry = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			bicycle_battalion
-		}
-	}
-
-	camelry = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			camelry
-		}		
-	}
-
-	######### FROM SOVIET FOCUS ##########
-	penal_infantry = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			penal_battalion
-		}
-	}
-
-	######### FROM ITALIAN FOCUS ##########
-	blackshirt_assault_battalion_tech = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			blackshirt_assault_battalion
-		}
-	}
-
-	mountain_warfare_militias_tech = { #Hidden tech showed as part of ITA_grande_rivolta_rurale_ns national spirit
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		militia = {
-			hills = {
-				attack = 0.05 
-				movement = 0.1
-			}
-			mountain = {
-				attack = 0.05 
-				movement = 0.1
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 5
+                y = @961
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
 			}
 		}
-	}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
 
-	### Improved Irregular Infantry Organization 
+        category_armored_infantry = {
+            armor_value = 5
+            breakthrough = 0.25
+            defense = 0.05
+            hardness = 3
+        }
+        category_tli_all_infantry = {
+            defense = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 3
+        }
+		
+		category_all_racial_infantry = {
+            armor_value = 3
+        }
+    }
 
-	ETH_improved_irregular_infantry_tech = {
-		research_cost = 1
-		# only from focus!!! #####
-		allow = {
-			always = no
+    infantry_armor_upgrade_3 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = infantry_armor_upgrade_4
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 5
+                y = @965
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
 		}
-		irregular_infantry = {
-			max_organisation = 10
-			maximum_speed = 1.25 #TODO_TA for testing only, remove
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_armored_infantry = {
+            armor_value = 6
+            breakthrough = 0.5
+            defense = 0.05
+            hardness = 3
+        }
+        category_tli_all_infantry = {
+            defense = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 3
+        }
+		
+		category_all_racial_infantry = {
+            armor_value = 3
+        }
+    }
+
+    infantry_armor_upgrade_4 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 5
+                y = @969
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
 		}
-	}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_armored_infantry = {
+            armor_value = 6
+            breakthrough = 0.5
+            defense = 0.05
+            hardness = 3
+        }
+        category_tli_all_infantry = {
+            defense = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 3
+        }
+		category_all_racial_infantry = {
+            armor_value = 3
+        }
+    }
+
+    elite_armor = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = elite_armor_upgrade_1
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 7
+                y = @800
+            }
+        }
+
+        XOR = {
+            infantry_armor
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "800.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+        
+        category_tli_all_infantry = {
+            defense = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 10
+            breakthrough = 0.5
+            hardness = 10
+            defense = 0.1
+        }
+		category_all_racial_infantry = {
+            armor_value = 10
+            breakthrough = 0.5
+            hardness = 10
+            defense = 0.1
+        }
+    }
+
+    elite_armor_upgrade_1 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 957     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = elite_armor_upgrade_2
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 7
+                y = @957
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "957.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            defense = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 7
+            breakthrough = 0.2
+            hardness = 5
+            defense = 0.05
+        }
+		category_all_racial_infantry = {
+            armor_value = 7
+            breakthrough = 0.2
+            hardness = 5
+            defense = 0.05
+        }
+    }
+
+    elite_armor_upgrade_2 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 961     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = elite_armor_upgrade_3
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 7
+                y = @961
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            defense = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 7
+            breakthrough = 0.2
+            hardness = 5
+            defense = 0.05
+        }
+		category_all_racial_infantry = {
+            armor_value = 7
+            breakthrough = 0.2
+            hardness = 5
+            defense = 0.05
+        }
+    }
+
+    elite_armor_upgrade_3 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 965     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = elite_armor_upgrade_4
+			research_cost_coeff = 1
+        }
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 7
+                y = @965
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            defense = 0.2
+            breakthrough = 0.2
+            hardness = 3
+            armor_value = 4
+        }
+    }
+
+    elite_armor_upgrade_4 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 7
+                y = @969
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_armorcat
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        category_tli_all_infantry = {
+            defense = 0.25
+            breakthrough = 0.25
+            hardness = 4
+            armor_value = 5
+        }
+    }
+#Special Forces Tree
+    special_forces_concept = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 800     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = shock_troops_0
+			research_cost_coeff = 1
+        }
+
+        path = {
+			leads_to_tech = sharpshooters_0
+			research_cost_coeff = 1
+        }
+
+        path = {
+			leads_to_tech = guards_0
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @800
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "800.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+		
+		special_forces_min = 36
+        special_forces_cap = 0.25
+    }
+
+    shock_troops_0 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = shock_troops_1
+			research_cost_coeff = 1
+        }
+
+        enable_subunits = {
+            shock_troops
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "850.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+        shock_troops = {
+            breakthrough = 2
+            armor_value = 10
+            ap_attack = 1
+            hard_attack = 2
+        }
+    }
+
+    shock_troops_1 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = shock_troops_2
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        shock_troops = {
+            max_organisation = 5
+            armor_value = 2
+            breakthrough = 0.1
+        }
+    }
+
+    shock_troops_2 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = shock_troops_3
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        shock_troops = {
+            max_organisation = 5
+            armor_value = 1
+            breakthrough = 0.1
+        }
+    }
+
+    shock_troops_3 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = shock_troops_4
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        shock_troops = {
+            max_organisation = 5
+            armor_value = 1
+            breakthrough = 0.1
+        }
+    }
+
+    shock_troops_4 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        shock_troops = {
+            max_organisation = 5
+            armor_value = 1
+            breakthrough = 0.1
+        }
+    }
+
+    sharpshooters_0 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = sharpshooters_1
+			research_cost_coeff = 1
+        }
+
+        enable_subunits = {
+            sharpshooters
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "850.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        sharpshooters = {
+            soft_attack = 1
+            defense = -0.1
+        }
+    }
+
+    sharpshooters_1 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = sharpshooters_2
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        sharpshooters = {
+            soft_attack = 0.2
+            max_organisation = 3
+        }
+    }
+
+    sharpshooters_2 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = sharpshooters_3
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        sharpshooters = {
+            soft_attack = 0.2
+            max_organisation = 3
+        }
+    }
+
+    sharpshooters_3 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = sharpshooters_4
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        sharpshooters = {
+            soft_attack = 0.2
+            max_organisation = 3
+        }
+    }
+
+    sharpshooters_4 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 14
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        sharpshooters = {
+            soft_attack = 0.2
+            max_organisation = 3
+        }
+    }
+
+    guards_0 = {
+        research_cost = 1.8 # Cost in time, where 1 is the default research time length.
+        start_year = 850     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = guards_1
+			research_cost_coeff = 1
+        }
+        
+        enable_subunits = {
+            guards
+        }
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 16
+                y = @850
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "850.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+        guards = {
+            soft_attack = 0.25
+            defense = 0.25
+            armor_value  = 5
+            breakthrough = 0.25
+            max_organisation = 5
+        }
+    }
+
+    guards_1 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 959     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = guards_2
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 16
+                y = @959
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        guards = {
+            soft_attack = 0.05
+            defense = 0.05
+            armor_value = 0.5
+            breakthrough = 0.05
+            max_organisation = 5
+        }
+    }
+
+    guards_2 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 963     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = guards_3
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 16
+                y = @963
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        guards = {
+            soft_attack = 0.05
+            defense = 0.05
+            armor_value = 0.5
+            breakthrough = 0.05
+            max_organisation = 5
+        }
+    }
+
+    guards_3 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 967     # Which year this technology stops receiving ahead-of-time penalities.
+
+        path = {
+			leads_to_tech = guards_4
+			research_cost_coeff = 1
+        }
+        
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 16
+                y = @967
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        guards = {
+            soft_attack = 0.05
+            defense = 0.05
+            armor_value = 0.5
+            breakthrough = 0.05
+            max_organisation = 5
+        }
+    }
+
+    guards_4 = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 16
+                y = @971
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_specialunit
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        guards = {
+            soft_attack = 0.05
+            defense = 0.05
+            armor_value = 0.5
+            breakthrough = 0.05
+            max_organisation = 5
+        }
+    }
+
+#Motorized Tree
+    early_motorized = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        path = {
+			leads_to_tech = improved_motorized
+			research_cost_coeff = 1
+        }
+
+        enable_equipments = {
+            motorized_equipment_1
+        }
+		
+        enable_subunits = {
+            motor_infantry
+        }
+		
+		motor_infantry = {
+            supply_consumption = 0.04
+        }
+
+        dependencies = {
+            internal_combustion_engine = 1
+			tech_industrialized = 1
+        }
+
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = @969
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_motoreq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+    }
+
+    improved_motorized = {
+        research_cost = 2.7 # Cost in time, where 1 is the default research time length.
+        start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
+
+        enable_equipments = {
+            motorized_equipment_2
+        }
+		
+		dependencies = {
+			tech_industrialized = 1
+        }
+		
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = infantry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 10
+                y = 25
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            tli_infantry
+			infantry_motoreq
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        #ai_research_weights = {
+        #    <type> = <float>
+        #}
+
+        motor_infantry = {
+            armor_value = 10
+            supply_consumption = -0.02
+        }
+    }
 }

@@ -1,1438 +1,2216 @@
 technologies = {
+	
+	@400 = 0
+	@500 = 2
+	@850 = 4
+	@957 = 6
+	@959 = 8
+	@961 = 10
+	@963 = 12
+	@965 = 14
+	@967 = 16
+	@969 = 18
+	@971 = 20
 
-	gw_artillery = {
+	### Primitive Artillery Tech ###
 
-		enable_equipments = {
-			artillery_equipment_1
-		}
+	catapult = {
 
-		path = {
-			leads_to_tech = interwar_artillery
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = interwar_antitank
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = interwar_antiair
-			research_cost_coeff = 1
-		}
-		enable_equipment_modules = {
-			ship_anti_air_1
-			tank_small_cannon
-			secondary_turret_small_cannon
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 0 }
-		}
-
-		categories = {
-			artillery
-		}
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
-	}
-
-	interwar_artillery = {
-
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		light_sp_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		medium_sp_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		heavy_sp_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		modern_sp_artillery_brigade= {
-			soft_attack = 0.15
-		}
-
-		enable_equipment_modules = {
-			tank_small_cannon_2
-			tank_close_support_gun
-			secondary_turret_close_support_gun
-		}
-
-		path = {
-			leads_to_tech = artillery1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		start_year = 1936
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 2 }
-		}
-
-		categories = {
-			artillery
-		}
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
-	}
-
-	artillery1 = {
 
 		enable_equipments = {
-			artillery_equipment_2
+			cannon_equipment_1
 		}
-
-		enable_equipment_modules = {
-			tank_medium_howitzer
-			tank_medium_cannon
+		enable_equipment_modules = { 
+			light_naval_battery_1
+			heavy_naval_battery_1
 		}
-
+		enable_subunits = {
+			cannon_frontline
+			cannon_support
+			
+		}
+	
 		path = {
-			leads_to_tech = artillery2
+			leads_to_tech = catapult_upgrade 
 			research_cost_coeff = 1
 		}
-
-		research_cost = 1
-
-		start_year = 1939
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 4 }
+		path = {
+			leads_to_tech = trebuchet 
+			research_cost_coeff = 1
 		}
-
+		
+		dependencies = {
+			basic_engineering = 1
+            tech_primitive = 1
+        }
+		
 		categories = {
 			artillery
+			artillery_medium
+        }
+		
+		research_cost = 1.2
+		start_year = 400
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = @400 }
 		}
 
 		ai_will_do = {
-			factor = 2
-
+			factor = 40
+			
 			modifier = {
-				factor = 2
-				date > "1938.1.9"
+				factor = 10
+				date > "400.1.1"
 			}
-
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1939.1.6"
-			}
+		}
+		
+		categories = {
+			#armor
 		}
 	}
 
-	artillery2 = {
+	catapult_upgrade = {
 
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		light_sp_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		medium_sp_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		heavy_sp_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		modern_sp_artillery_brigade= {
-			soft_attack = 0.1
+		category_medium_artillery = {
+			soft_attack = 0.10
 		}
 
 		path = {
-			leads_to_tech = artillery3
+			leads_to_tech = cannon
 			research_cost_coeff = 1
 		}
-
-		path = {
-			leads_to_tech = rocket_artillery
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1940
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
+		research_cost = 1.2
+		start_year = 500
 
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 6 }
+			position = { x = 1 y = @500 }
 		}
-
-		categories = {
-			artillery
-		}
-
+		
 		ai_will_do = {
-			factor = 2
-
+			factor = 40
+			
 			modifier = {
-				factor = 2
-				date > "1940.1.6"
+				factor = 10
+				date > "500.1.1"
 			}
-
-			modifier = {
-				factor = 2
-				date > "1941.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1942.1.1"
-			}
+		}
+		
+		categories = {
+			#armor
 		}
 	}
 
-	artillery3 = {
+	### Modern Artillery Tech ###
 
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		light_sp_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		medium_sp_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		modern_sp_artillery_brigade= {
-			soft_attack = 0.05
-		}
-
-		enable_equipment_modules = {
-			tank_medium_howitzer_2
-		}
-		path = {
-			leads_to_tech = artillery4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1941
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 8 }
-		}
-
-		categories = {
-			artillery
-		}
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				date > "1941.1.6"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1942.1.1"
-			}
-		}
-	}
-
-	artillery4 = {
+	cannon = {
 
 		enable_equipments = {
-			artillery_equipment_3
-		}
-		enable_equipment_modules = {
-			tank_medium_cannon_2
+			cannon_equipment_2
 		}
 
+		enable_equipment_modules = { 
+			ship_light_gun
+			ship_heavy_gun
+		}
+	
 		path = {
-			leads_to_tech = artillery5
+			leads_to_tech = standard_charges
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
-
-		start_year = 1942
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 10 }
+		path = {
+			leads_to_tech = mortar
+			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = light_artillery
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+			gunpowder = 1
+        }
+		
 		categories = {
 			artillery
+			artillery_medium
+        }
+		
+		research_cost = 1.8
+		start_year = 850
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = @850 }
 		}
-
+		
 		ai_will_do = {
-			factor = 2
-
+			factor = 40
+			
 			modifier = {
-				factor = 2
-				date > "1941.1.9"
+				factor = 10
+				date > "850.1.1"
 			}
-
-			modifier = {
-				factor = 2
-				date > "1942.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1942.1.6"
-			}
+		}
+		
+		categories = {
+			#armor
 		}
 	}
 
-	artillery5 = {
+	standard_charges = {
 
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		light_sp_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		medium_sp_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		modern_sp_artillery_brigade= {
-			soft_attack = 0.05
+		category_medium_artillery = {
+			hard_attack = 0.10
+			ap_attack = 0.10
+			supply_consumption = 0.01
 		}
 
-		enable_equipment_modules = {
-			auto_loader
-			tank_heavy_howitzer
+		path = {
+			leads_to_tech = canister_shot
+			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		path = {
+			leads_to_tech = anti_air_cannon
+			research_cost_coeff = 1
+		}
 
-		start_year = 1943
+		path = {
+			leads_to_tech = rocket_cannon
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
+		research_cost = 1.8
+		start_year = 957
 
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 12 }
+			position = { x = 1 y = @957 }
+		}
+		
+		ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "957.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+	
+	canister_shot = {
+
+		category_medium_artillery = {
+			soft_attack = 0.10
+			supply_consumption = 0.01
 		}
 
+		path = {
+			leads_to_tech = friction_primer
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
 		categories = {
 			artillery
+			artillery_medium
+        }
+		
+		research_cost = 1.8
+		start_year = 959
+
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = @959 }
 		}
-
+		
 		ai_will_do = {
-			factor = 2
-
+			factor = 40
+			
 			modifier = {
-				factor = 2
-				date > "1943.1.6"
+				factor = 10
+				date > "959.1.1"
 			}
-
-			modifier = {
-				factor = 2
-				date > "1944.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1945.1.1"
-			}
+		}
+		
+		categories = {
+			#armor
 		}
 	}
 
-	mountain_gun = {
+	friction_primer = {
 
-		research_cost = 1
+		category_medium_artillery = {
+			hard_attack = 0.15
+			ap_attack = 0.15
+			supply_consumption = 0.02
+		}
 
-		# only from focus!!! #####
+		path = {
+			leads_to_tech = improved_cannon
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
+		research_cost = 1.8
+		start_year = 961
+
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
+		categories = {
+			#armor
+		}
+	}
+
+	improved_cannon = {
+
+		enable_equipments = {
+			cannon_equipment_3
+		}
+	
+		path = {
+			leads_to_tech = conical_shells
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
+		research_cost = 1.8
+		start_year = 963
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	conical_shells = {
+
+		category_medium_artillery = {
+			hard_attack = 0.15
+			ap_attack = 0.15
+			supply_consumption = 0.01
+		}
+
+		path = {
+			leads_to_tech = breach_loading_mechanism
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
+		research_cost = 1.8
+		start_year = 965
+
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	breach_loading_mechanism = {
+
+		category_medium_artillery = {
+			soft_attack = 0.20
+			supply_consumption = 0.01
+		}
+
+		path = {
+			leads_to_tech = brass_shells
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
+		research_cost = 1.8
+		start_year = 967
+
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	brass_shells = {
+
+		category_medium_artillery = {
+			hard_attack = 0.20
+			ap_attack = 0.20
+			supply_consumption = 0.02
+		}
+
+		path = {
+			leads_to_tech = modern_cannon
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
+		research_cost = 1.8
+		start_year = 969
+
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	modern_cannon = {
+
+		enable_equipments = {
+			cannon_equipment_4
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_medium
+        }
+		
+		research_cost = 1.8
+		start_year = 971
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 40
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	### Anti-Air Tech ###
+
+	anti_air_cannon = {
+
+		enable_equipments = {
+			ballista_equipment_2
+		}
+
+		path = {
+			leads_to_tech = crystal_gunpowder_mixture
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
+		research_cost = 1.8
+		start_year = 959
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @959 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	crystal_gunpowder_mixture = {
+
+		category_anti_air = {
+			air_attack = 0.10
+			hard_attack = 0.10
+			supply_consumption = 0.01
+		}
+
+		path = {
+			leads_to_tech = percussion_lock_mechanism
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
+		research_cost = 1.8
+		start_year = 961
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	percussion_lock_mechanism = {
+
+		category_anti_air = {
+			air_attack = 0.15
+			supply_consumption = 0.01
+		}
+
+		path = {
+			leads_to_tech = tracer_projectiles
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
+		research_cost = 2.7
+		start_year = 963
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	tracer_projectiles = {
+
+		category_anti_air = {
+			hard_attack = 0.20
+			ap_attack = 0.20
+			supply_consumption = 0.02
+		}
+
+		path = {
+			leads_to_tech = improved_anti_air_cannon
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
+		research_cost = 2.7
+		start_year = 965
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	improved_anti_air_cannon = {
+
+		enable_equipments = {
+			ballista_equipment_3
+		}
+
+		path = {
+			leads_to_tech = brass_cartridges
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
+		research_cost = 2.7
+		start_year = 967
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	brass_cartridges = {
+
+		category_anti_air = {
+			air_attack = 0.20
+			supply_consumption = 0.01
+		}
+
+		path = {
+			leads_to_tech = shrapnel_projectiles
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
+		research_cost = 2.7
+		start_year = 969
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	shrapnel_projectiles = {
+
+		category_anti_air = {
+			air_attack = 0.25
+			supply_consumption = 0.03
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
+		research_cost = 2.7
+		start_year = 971
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	### Rocket Artillery Tech ###
+
+	rocket_cannon = {
+
+		enable_equipments = {
+			rocket_equipment_1
+		}
+
+		enable_subunits = {
+			rocket_frontline
+			rocket_support
+		}
+
+		path = {
+			leads_to_tech = explosive_rockets
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
+		research_cost = 1.8
+		start_year = 961
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	explosive_rockets = {
+
+		category_rocket = {
+			soft_attack = 0.10
+			entrenchment = 1
+			supply_consumption = 0.01
+		}
+
+		path = {
+			leads_to_tech = incendiary_rockets
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
+		research_cost = 2.7
+		start_year = 963
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	incendiary_rockets = {
+
+		category_rocket = {
+			defense = 0.15
+			supply_consumption = 0.02
+		}
+
+		path = {
+			leads_to_tech = flight_stabilisation
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
+		research_cost = 2.7
+		start_year = 965
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	flight_stabilisation = {
+
+		category_rocket = {
+			soft_attack = 0.20
+			entrenchment = 1
+			supply_consumption = 0.02
+		}
+
+		path = {
+			leads_to_tech = improved_rocket_cannon
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
+		research_cost = 2.7
+		start_year = 967
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	improved_rocket_cannon = {
+
+		enable_equipments = {
+			rocket_equipment_2
+		}
+
+		path = {
+			leads_to_tech = modern_rockets
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
+		research_cost = 2.7
+		start_year = 969
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	modern_rockets = {
+
+		category_rocket = {
+			defense = 0.20
+			entrenchment = 1
+			supply_consumption = 0.03
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_rocket
+        }
+		
+		research_cost = 2.7
+		start_year = 971
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	### Mortar Artillery Tech ###
+
+	mortar = {
+
+		enable_equipments = {
+			mortar_equipment_1
+		}
+
+		path = {
+			leads_to_tech = elevation_screws
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
+		research_cost = 1.8
+		start_year = 957
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @957 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "957.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	elevation_screws = {
+
+		category_siege_artillery = {
+			soft_attack = 0.15
+			supply_consumption = 0.01
+		}
+
+		path = {
+			leads_to_tech = explosive_shells
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = howitzer
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
+		research_cost = 1.8
+		start_year = 959
+
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @959 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "959.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	explosive_shells = {
+
+		category_siege_artillery = {
+			soft_attack = 0.15
+			ap_attack = 0.10
+			supply_consumption = 0.01
+		}
+
+		path = {
+			leads_to_tech = standardised_powder_charges
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
+		research_cost = 1.8
+		start_year = 961
+
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	standardised_powder_charges = {
+
+		category_siege_artillery = {
+			breakthrough = 0.25
+			supply_consumption = 0.02
+		}
+		mortar_frontline = {
+			fort = {
+				attack = 0.15
+			}
+			urban = {
+				attack = 0.15
+			}
+		}
+		
+		path = {
+			leads_to_tech = improved_mortar
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
+		research_cost = 2.7
+		start_year = 963
+
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	improved_mortar = {
+
+		enable_equipments = {
+			mortar_equipment_2
+		}
+
+		path = {
+			leads_to_tech = mortar_weight_reduction
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
+		research_cost = 2.7
+		start_year = 965
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	mortar_weight_reduction = {
+
+		category_siege_artillery = {
+			soft_attack = 0.15
+			supply_consumption = 0.01
+		}
+
+		path = {
+			leads_to_tech = modern_mortar_bombs
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
+		research_cost = 2.7
+		start_year = 967
+
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	modern_mortar_bombs = {
+
+		category_siege_artillery = {
+			soft_attack = 0.20
+			ap_attack = 0.10
+			supply_consumption = 0.01
+		}
+
+		path = {
+			leads_to_tech = trench_mortars
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
+		research_cost = 2.7
+		start_year = 969
+
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	trench_mortars = {
+
+		category_siege_artillery = {
+			breakthrough = 0.25
+			supply_consumption = 0.02
+		}
+		mortar_frontline = {
+			fort = {
+				attack = 0.15
+			}
+			urban = {
+				attack = 0.15
+			}
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
+		research_cost = 2.7
+		start_year = 971
+
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	### Howitzer Artillery Tech ###
+
+	howitzer = {
+
+		enable_equipments = {
+			howitzer_equipment_1
+		}
+
+		enable_subunits = {
+			howitzer_frontline
+			howitzer_support
+		}
+
+		path = {
+			leads_to_tech = indirect_fire
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
+		research_cost = 1.8
+		start_year = 961
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	indirect_fire = {
+
+		category_howitzer = {
+			soft_attack = 0.15
+			supply_consumption = 0.01
+		}
+
+		path = {
+			leads_to_tech = gun_howitzers
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
+		research_cost = 2.7
+		start_year = 963
+
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = @963 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "963.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	gun_howitzers = {
+
+		category_howitzer = {
+			soft_attack = 0.20
+			supply_consumption = 0.02
+		}
+
+		path = {
+			leads_to_tech = case_shot
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
+		research_cost = 2.7
+		start_year = 965
+
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "965.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	case_shot = {
+
+		category_howitzer = {
+			soft_attack = 0.20
+			supply_consumption = 0.02
+		}
+
+		path = {
+			leads_to_tech = improved_howitzer
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
+		research_cost = 2.7
+		start_year = 967
+
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = @967 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "967.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	improved_howitzer = {
+
+		enable_equipments = {
+			howitzer_equipment_2
+		}
+
+		path = {
+			leads_to_tech = recoil_management
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
+		research_cost = 2.7
+		start_year = 969
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	recoil_management = {
+
+		category_howitzer = {
+			soft_attack = 0.20
+			supply_consumption = 0.03
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_howitzer
+        }
+		
+		research_cost = 2.7
+		start_year = 971
+
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = @971 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "971.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	### Light Artillery Tech ###
+
+	light_artillery = {
+
+		enable_equipments = {
+			fuckshit_one_1
+		}
+
+		enable_subunits = {
+			light_artillery_frontline
+		}
+
+		path = {
+			leads_to_tech = light_artillery_upgrade_1
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_light
+        }
+		
+		research_cost = 1.8
+		start_year = 957
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = @957 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "957.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	light_artillery_upgrade_1 = {
+
+		category_light_artillery = {
+			soft_attack = 0.20
+			hard_attack = 0.20
+			supply_consumption = 0.02
+		}
+
+		path = {
+			leads_to_tech = improved_light_artillery
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_civilized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_light
+        }
+		
+		research_cost = 1.8
+		start_year = 961
+
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = @961 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	improved_light_artillery = {
+
+		enable_equipments = {
+			fuckshit_one_2
+		}
+		
+		path = {
+			leads_to_tech = light_artillery_upgrade_2
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_light
+        }
+		
+		research_cost = 2.7
+		start_year = 965
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = @965 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "961.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	light_artillery_upgrade_2 = {
+
+		category_light_artillery = {
+			soft_attack = 0.30
+			hard_attack = 0.30
+			supply_consumption = 0.02
+		}
+		
+		dependencies = {
+            tech_industrialized = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_light
+        }
+		
+		research_cost = 2.7
+		start_year = 969
+
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = @969 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "969.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	### Trebuchet Artillery Tech ###
+
+	trebuchet = {
+
+		enable_equipments = {
+			mortar_equipment_0
+		}
+
+
+		enable_subunits = {
+			mortar_frontline
+			mortar_support
+		}
+
+		path = {
+			leads_to_tech = stationary_artillery
+			leads_to_tech = mortar
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_siege
+        }
+		
+		research_cost = 1.2
+		start_year = 500
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @500 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "500.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+	### Stationary Artillery Tech  - deleted ###
+	
+
+
+	Ballista = {
+
+
+		enable_equipments = {
+			ballista_equipment_1
+		}
+		enable_subunits = {
+			ballista_frontline
+			ballista_support
+		}
+
+		path = {
+			leads_to_tech = Ballista_upgrade
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+            tech_primitive = 1
+			basic_engineering = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
+		research_cost = 1.2
+		start_year = 400
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @400 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "400.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+
+	Ballista_upgrade = {
+
+		category_anti_air = {
+			air_attack = 0.25
+			hard_attack = 0.10
+			ap_attack = 0.10
+		}
+		
+		dependencies = {
+            tech_primitive = 1
+        }
+		
+		categories = {
+			artillery
+			artillery_antiair
+        }
+		
+		research_cost = 1.2
+		start_year = 500
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @500 }
+		}
+
+		path = {
+			leads_to_tech = anti_air_cannon
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 10
+				date > "500.1.1"
+			}
+		}
+		
+		categories = {
+			#armor
+		}
+	}
+
+
+
+
+
+
+
+
+
+####DO NOT DELETE. Game needs train tech for No Step Back to work######
+	### Trains ###
+	basic_train = {
+		enable_equipments = {
+			train_equipment_1
+		}
+		
 		allow = {
-			always = no
-		}
-
-		artillery_brigade = {
-			mountain = {
-				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect ROM_modern_at_guns_tech_tt
-			}
-		}
-
-		anti_tank_brigade = {
-			mountain = {
-				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect ROM_modern_at_guns_tech_tt
-			}
-		}
-	}
-
-	rocket_artillery = {
-
-		enable_equipments = {
-			rocket_artillery_equipment_1
-		}
-#		enable_subunits = {
-#			rocket_artillery_brigade
-#		}
-
-		enable_equipment_modules = {
-			tank_rocket_launcher
-			rocket_rails
-		}
-
-		path = {
-			leads_to_tech = rocket_artillery2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-
-		start_year = 1940
-
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 6 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-
-		categories = {
-			rocketry
-		}
-	}
-
-	rocket_artillery2 = {
-
-		rocket_artillery = {
-			soft_attack = 0.15
-		}
-		rocket_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		mot_rocket_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.15
-		}
-
-		path = {
-			leads_to_tech = rocket_artillery3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1941
-
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-
-		categories = {
-			rocketry
-		}
-	}
-
-	rocket_artillery3 = {
-
-		rocket_artillery = {
-			soft_attack = 0.15
-		}
-		rocket_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		mot_rocket_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.15
-		}
-
-		path = {
-			leads_to_tech = rocket_artillery4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1942
-
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 10 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-
-		categories = {
-			rocketry
-		}
-	}
-
-	rocket_artillery4 = {
-
-		enable_equipments = {
-			rocket_artillery_equipment_2
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.3
-		}
-		enable_equipment_modules = {
-			tank_rocket_launcher_2
-		}
-		research_cost = 1
-
-		start_year = 1943
-
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 12 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-
-		categories = {
-			rocketry
-		}
-	}
-
-	interwar_antiair = {
-
-		enable_equipments = {
-			anti_air_equipment_1
-		}
-
-		enable_equipment_modules = {
-			ship_anti_air_2
-			tank_auto_cannon
-			tank_anti_air_cannon
-			tank_heavy_cannon
-		}
-
-		enable_building = {
-			building = anti_air_building
-			level = 5
-		}
-
-		path = {
-			leads_to_tech = antiair1
-			research_cost_coeff = 1
-		}
-
+            date > 1007.1.1
+        }
+		
 		research_cost = 1.5
-
-		start_year = 1936
-
+		start_year = 981
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 2 }
+			position = { x = 0 y = @989 }
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 0.5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_air
-		}
-	}
-
-	antiair1 = {
-
-		anti_air = {
-			air_attack = 0.1
-		}
-		anti_air_brigade = {
-			air_attack = 0.1
-		}
-		mot_anti_air_brigade = {
-			air_attack = 0.1
-		}
-
-		tech_air_damage_factor = -0.02
 
 		path = {
-			leads_to_tech = antiair2
+			leads_to_tech = wartime_train
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		path = {
+			leads_to_tech = armored_train
+			research_cost_coeff = 1
+		}
 
-		start_year = 1939
-
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 4 }
+		categories = {
 		}
 
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
+				num_of_factories > 25
+				factor = 100 #might wanna get on that
 			}
-		}
+			modifier = {
+				factor = 1.2
+				date > "1235.1.1"
+			}
 
-		categories = {
-			artillery
-			cat_anti_air
+			modifier = {
+				factor = 1.2
+				date > "1236.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1237.1.1"
+			}
 		}
 	}
 
-	antiair2 = {
-
+	railway_gun = {
 		enable_equipments = {
-			anti_air_equipment_2
+			railway_gun_equipment_1
 		}
-
-		static_anti_air_damage_factor = 0.1
-
-		enable_equipment_modules = {
-			ship_anti_air_3
-			tank_auto_cannon_2
-			tank_anti_air_cannon_2
-		}
-
-		path = {
-			leads_to_tech = antiair3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1940
-
+		
+		allow = {
+            date > 1007.1.1
+        }
+		
+		research_cost = 1.5
+		start_year = 1240
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 6 }
+			position = { x = 4 y = 3 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				is_major = yes
+				factor = 2
+			}
+
+		}
+	}
+
+	wartime_train = {
+		#enable_equipments = {
+		#	train_equipment_2
+		#}
+		
+		allow = {
+            date > 1007.1.1
+        }
+		
+		research_cost = 1.5
+		start_year = 1238
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = @1010 }
+		}
+
+		categories = {
 		}
 
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
-		}
 
-		categories = {
-			artillery
-			cat_anti_air
+			modifier = {
+				has_war = yes
+				factor = 20
+			}
+			modifier = {
+				factor = 1.2
+				date > "1240.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1241.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1242.1.1"
+			}
 		}
 	}
 
-	antiair3 = {
-
-		anti_air = {
-			air_attack = 0.1
-		}
-		anti_air_brigade = {
-			air_attack = 0.1
-		}
-		mot_anti_air_brigade = {
-			air_attack = 0.1
-		}
-
-		enable_equipment_modules = {
-			tank_heavy_cannon_2
-		}
-
-		tech_air_damage_factor = -0.02
-
-		path = {
-			leads_to_tech = antiair4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1941
-
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_air
-		}
-	}
-
-	antiair4 = {
-
-		anti_air = {
-			air_attack = 0.1
-		}
-		anti_air_brigade = {
-			air_attack = 0.1
-		}
-		mot_anti_air_brigade = {
-			air_attack = 0.1
-		}
-
-		tech_air_damage_factor = -0.02
-
-		path = {
-			leads_to_tech = antiair5
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1942
-
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 10 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_air
-		}
-	}
-
-	antiair5 = {
-
+	armored_train = {
 		enable_equipments = {
-			anti_air_equipment_3
+			train_equipment_3
+		}
+		
+		allow = {
+            date > 1007.1.1
+        }
+		
+		allow_branch = {
+			has_dlc = "No Step Back"
 		}
 
-		static_anti_air_damage_factor = 0.1
-
-		enable_equipment_modules = {
-			ship_anti_air_4
-			tank_heavy_cannon_3
-			tank_anti_air_cannon_3
-			auto_loader
-		}
-
-		research_cost = 1
-
-		start_year = 1943
-
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 12 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_air
-		}
-	}
-
-	interwar_antitank = {
-
-		enable_equipments = {
-			anti_tank_equipment_1
-		}
-		enable_equipment_modules = {
-			tank_high_velocity_cannon
-			tank_heavy_cannon
-			tank_buster_1
-		}
 		path = {
-			leads_to_tech = antitank1
+			leads_to_tech = railway_gun
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
-
-		start_year = 1936
-
+		start_year = 1236
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 2 }
+			position = { x = 2 y = 3 }
+		}
+
+		categories = {
 		}
 
 		ai_will_do = {
 			factor = 1
 
 			modifier = {
-				factor = 0.2
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
+				has_war = yes
+				factor = 20
 			}
 			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-
-			modifier = {
+				tag = CHN
 				factor = 5
-				date > "1938.1.1"
+			}
+			modifier = {
+				factor = 1.2
+				date > "1237.1.1"
 			}
 
 			modifier = {
-				factor = 5
-				date > "1939.1.1"
+				factor = 1.2
+				date > "1238.1.1"
 			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 30
-						}
-					}
-				}
-			}
-		}
 
-		categories = {
-			artillery
-			cat_anti_tank
+			modifier = {
+				factor = 1.2
+				date > "1239.1.1"
+			}
 		}
 	}
-
-	antitank1 = {
-
-		anti_tank = {
-			hard_attack = 0.1
-			ap_attack = 0.2
-		}
-		anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.2
-		}
-		mot_anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.2
-		}
-		light_tank_destroyer_brigade = {
-			hard_attack = 0.15
-			ap_attack = 0.2
-		}
-		medium_tank_destroyer_brigade = {
-			hard_attack = 0.15
-			ap_attack = 0.2
-		}
-		heavy_tank_destroyer_brigade = {
-			hard_attack = 0.15
-			ap_attack = 0.2
-		}
-		super_heavy_tank_destroyer_brigade = {
-			hard_attack = 0.15
-			ap_attack = 0.2
-		}
-		modern_tank_destroyer_brigade = {
-			hard_attack = 0.15
-			ap_attack = 0.2
-		}
-
-		enable_equipment_modules = {
-			tank_medium_cannon
-			squeezebore_adaptor
-		}
-		path = {
-			leads_to_tech = antitank2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1939
-
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 4 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 30
-						}
-					}
-				}
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1939.1.6"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1940.1.1"
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
-
-	antitank2 = {
-
-		mot_anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
-
-		enable_equipments = {
-			anti_tank_equipment_2
-		}
-		enable_equipment_modules = {
-			tank_heavy_cannon_2
-			tank_buster_2
-		}
-		path = {
-			leads_to_tech = antitank3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1940
-
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 6 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				date > "1939.1.9"
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1940.1.1"
-			}
-			modifier = {
-				tag = USA
-				has_War = no
-				factor = 0.5 #this tank nonsense will never catch on
-			}
-			modifier = {
-				factor = 5
-				date > "1940.1.6"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 32
-						}
-					}
-				}
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
-
-	antitank3 = {
-		enable_equipment_modules = {
-			tank_medium_cannon_2
-		}
-		anti_tank = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
-		anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
-		mot_anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
-		light_tank_destroyer_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.05
-		}
-		medium_tank_destroyer_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.05
-		}
-		heavy_tank_destroyer_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.05
-		}
-		super_heavy_tank_destroyer_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.05
-		}
-		modern_tank_destroyer_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.05
-		}
-
-		path = {
-			leads_to_tech = antitank4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1941
-
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				date > "1941.1.6"
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1942.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1943.1.1"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 32
-						}
-					}
-				}
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
-
-	antitank4 = {
-		enable_equipment_modules = {
-			tank_high_velocity_cannon_2
-		}
-		anti_tank = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
-		anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
-		mot_anti_tank_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.1
-		}
-		light_tank_destroyer_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.05
-		}
-		medium_tank_destroyer_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.05
-		}
-		heavy_tank_destroyer_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.05
-		}
-		super_heavy_tank_destroyer_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.05
-		}
-		modern_tank_destroyer_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.05
-		}
-
-		path = {
-			leads_to_tech = antitank5
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1942
-
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 10 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				date > "1942.1.6"
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 5
-				date > "1943.1.1"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 35
-						}
-					}
-				}
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
-
-	antitank5 = {
-
-		enable_equipments = {
-			anti_tank_equipment_3
-		}
-		enable_equipment_modules = {
-			tank_high_velocity_cannon_3
-			tank_heavy_cannon_3
-			auto_loader
-		}
-		research_cost = 1
-
-		start_year = 1943
-
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 12 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				date > "1942.1.9"
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1943.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1943.1.6"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 35
-						}
-					}
-				}
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
-
 }
