@@ -45,7 +45,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "600.1.1"
+			}
 		}
 		
 		categories = {
@@ -88,11 +93,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -138,11 +143,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -177,11 +182,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -220,7 +225,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "600.1.1"
+			}
 		}
 		
 		categories = {
@@ -257,11 +267,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -300,11 +310,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -339,11 +349,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -383,8 +393,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
-
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "600.1.1"
+			}
 		}
 		
 		categories = {
@@ -422,11 +436,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -466,11 +480,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -506,11 +520,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -550,8 +564,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
+			modifier = {
+				factor = -1000
+				date < "600.1.1"
+			}
 		}
 		
 		categories = {
@@ -589,11 +607,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -632,11 +650,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -671,11 +689,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -706,8 +724,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
+			modifier = {
+				factor = -1000
+				date < "600.1.1"
+			}
 		}
 		
 		categories = {
@@ -741,13 +763,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 10
 			
 			modifier = {
-				factor = 0.5
-				has_war = no
+				factor = -1000
+				date < "957.1.1"
 			}
-
 		}
 		
 		categories = {
@@ -781,11 +802,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 10
 			
 			modifier = {
-				factor = 0.5
-				has_war = no
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -815,13 +836,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 10
 			
 			modifier = {
-				factor = 0.5
-				has_war = no
+				factor = -1000
+				date < "969.1.1"
 			}
-			
 		}
 		
 		categories = {
@@ -858,10 +878,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -892,11 +913,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -923,11 +944,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -976,11 +997,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -1030,11 +1051,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -1080,11 +1101,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -1119,11 +1140,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 10
 			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -1156,11 +1177,11 @@ technologies = {
             tech_industrialized = 1
         }
 		ai_will_do = {
-			factor = 3
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -1190,11 +1211,11 @@ technologies = {
             tech_industrialized = 1
         }
 		ai_will_do = {
-			factor = 3
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -1238,11 +1259,11 @@ technologies = {
             tech_civilized = 1
         }
 		ai_will_do = {
-			factor = 3
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -1286,11 +1307,11 @@ technologies = {
             tech_industrialized = 1
         }
 		ai_will_do = {
-			factor = 3
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -1330,11 +1351,11 @@ technologies = {
             tech_industrialized = 1
         }
 		ai_will_do = {
-			factor = 3
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -1381,15 +1402,11 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				OR = {
-					has_tech = xebec_hull_tech
-					has_tech = light_gunboat_hull_tech
-					has_tech = galley_hull_tech
-					has_tech = early_ship_of_the_line_hull_tech
-				}
-				factor = 500
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 
@@ -1429,10 +1446,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				has_tech = improved_xebec_hull_tech
-				factor = 20
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -1467,10 +1485,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				has_tech = improved_ship_hull_light
-				factor = 20
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -1510,15 +1529,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				OR = {
-					has_tech = xebec_hull_tech
-					has_tech = light_gunboat_hull_tech
-					has_tech = galley_hull_tech
-					has_tech = early_ship_hull_heavy
-				}
-				factor = 500
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -1557,10 +1572,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				has_tech = improved_xebec_hull_tech
-				factor = 20
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -1594,10 +1610,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				has_tech = improved_ship_hull_light
-				factor = 20
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -1637,15 +1654,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				OR = {
-					has_tech = xebec_hull_tech
-					has_tech = light_gunboat_hull_tech
-					has_tech = galley_hull_tech
-					has_tech = early_ship_hull_heavy
-				}
-				factor = 500
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -1684,10 +1697,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				has_tech = improved_xebec_hull_tech
-				factor = 20
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -1721,10 +1735,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				has_tech = improved_ship_hull_light
-				factor = 20
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -1763,15 +1778,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				OR = {
-					has_tech = xebec_hull_tech
-					has_tech = light_gunboat_hull_tech
-					has_tech = galley_hull_tech
-					has_tech = early_ship_hull_heavy
-				}
-				factor = 500
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -1810,10 +1821,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				has_tech = improved_xebec_hull_tech
-				factor = 20
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -1851,11 +1863,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 3
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -1891,15 +1903,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
-
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 2
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -1929,14 +1937,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
 			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 2
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
 		
@@ -1944,4 +1949,4 @@ technologies = {
 			naval_equipment
 		}
 	}
- }
+}

@@ -62,11 +62,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 40
+			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "400.1.1"
+				factor = -1000
+				date < "400.1.1"
 			}
 		}
 	}
@@ -146,12 +146,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "600.1.1"
-			}	
+			factor = 1
 		}
 	}
 	
@@ -195,12 +190,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "850.1.1"
-			}
+			factor = 1
 		}
 	}
 	
@@ -243,11 +233,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
 	}
@@ -283,11 +273,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
 	}
@@ -333,11 +323,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
 	}
@@ -376,11 +366,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
 	}
@@ -449,8 +439,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "600.1.1"
+				factor = -1000
+				date < "600.1.1"
 			}
 		}
 	}
@@ -489,8 +479,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "850.1.1"
+				factor = -1000
+				date < "850.1.1"
 			}
 		}
 	}
@@ -529,8 +519,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
 	}
@@ -568,8 +558,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
 	}
@@ -608,8 +598,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
 	}
@@ -642,8 +632,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
 	}
@@ -688,8 +678,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "850.1.1"
+				factor = -1000
+				date < "850.1.1"
 			}
 		}
 	}
@@ -729,8 +719,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
 	}
@@ -770,8 +760,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
 	}
@@ -811,8 +801,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
 	}
@@ -846,8 +836,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
 	}
@@ -893,8 +883,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				has_war = yes
+				factor = -1000
+				date < "850.1.1"
 			}
 		}
 	}
@@ -935,8 +925,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				has_war = yes
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
 	}
@@ -977,8 +967,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				has_war = yes
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
 	}
@@ -1019,8 +1009,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				has_war = yes
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
 	}
@@ -1055,8 +1045,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				has_war = yes
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
 	}
@@ -1101,8 +1091,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
 	}
@@ -1142,8 +1132,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
 	}
@@ -1183,8 +1173,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
 	}
@@ -1218,8 +1208,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
 	}
@@ -1264,8 +1254,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
 	}
@@ -1305,8 +1295,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
 	}
@@ -1346,8 +1336,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
 	}
@@ -1381,8 +1371,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
 	}

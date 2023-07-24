@@ -52,12 +52,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "100.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -101,13 +96,8 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "400.1.1"
-			}
+		ai_will_do = {
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -154,12 +144,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "600.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -205,12 +190,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "800.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -255,13 +235,8 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-         ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "850.1.1"
-			}
+        ai_will_do = {
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -307,12 +282,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "957.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -358,11 +328,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
         
@@ -414,11 +384,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "961.1.1"
+				factor = -1000
+				date < "961.1.1"
 			}
 		}
         
@@ -465,12 +435,12 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-       ai_will_do = {
-			factor = 80
+		ai_will_do = {
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
         
@@ -517,11 +487,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "965.1.1"
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
         
@@ -568,11 +538,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
         
@@ -619,11 +589,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "969.1.1"
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
         
@@ -665,11 +635,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
         
@@ -715,12 +685,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "400.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -765,12 +730,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "850.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -820,12 +780,12 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-       ai_will_do = {
-			factor = 40
+		ai_will_do = {
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
         
@@ -876,11 +836,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
         
@@ -930,11 +890,11 @@ technologies = {
 		
         # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
         
@@ -979,11 +939,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
         
@@ -1034,12 +994,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "100.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -1086,12 +1041,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "400.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -1141,12 +1091,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "850.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -1195,11 +1140,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
         
@@ -1250,11 +1195,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
         
@@ -1304,11 +1249,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
         
@@ -1353,11 +1298,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
         
@@ -1413,12 +1358,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 10
-			
-			modifier = {
-				factor = 10
-				date > "100.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -1482,11 +1422,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 10
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "961.1.1"
+				factor = -1000
+				date < "961.1.1"
 			}
 		}
         
@@ -1539,11 +1479,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 10
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "965.1.1"
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
         
@@ -1591,11 +1531,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 10
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "969.1.1"
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
         
@@ -1651,8 +1591,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
         
@@ -1705,8 +1645,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
         
@@ -1754,8 +1694,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
         
@@ -1805,12 +1745,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "100.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -1860,12 +1795,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "400.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -1910,12 +1840,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "600.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -1962,12 +1887,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "800.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -2012,12 +1932,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "850.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -2063,12 +1978,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
-			
-			modifier = {
-				factor = 10
-				date > "957.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -2113,11 +2023,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
         
@@ -2164,11 +2074,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "961.1.1"
+				factor = -1000
+				date < "961.1.1"
 			}
 		}
         
@@ -2214,12 +2124,12 @@ technologies = {
         }
         
         # Weighting for the AI to pick the technology
-        ai_will_do = {
-			factor = 80
+       ai_will_do = {
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
         
@@ -2266,11 +2176,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "965.1.1"
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
         
@@ -2316,11 +2226,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
         
@@ -2367,11 +2277,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "969.1.1"
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
         
@@ -2412,11 +2322,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 80
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
         
@@ -2463,12 +2373,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 10
-			
-			modifier = {
-				factor = 10
-				date > "600.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -2519,12 +2424,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 10
-			
-			modifier = {
-				factor = 10
-				date > "850.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -2578,8 +2478,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
         
@@ -2629,8 +2529,8 @@ technologies = {
 			factor = 10
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
         
@@ -2682,12 +2582,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "100.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -2731,12 +2626,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "400.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -2792,12 +2682,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "600.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -2844,12 +2729,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "800.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -2905,12 +2785,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "850.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -2954,12 +2829,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "957.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -3013,11 +2883,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
         
@@ -3063,11 +2933,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "961.1.1"
+				factor = -1000
+				date < "961.1.1"
 			}
 		}
         
@@ -3123,11 +2993,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
         
@@ -3173,11 +3043,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "965.1.1"
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
         
@@ -3232,11 +3102,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
         
@@ -3282,11 +3152,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "969.1.1"
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
         
@@ -3336,11 +3206,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
         
@@ -3387,12 +3257,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "400.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -3436,12 +3301,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "600.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -3486,12 +3346,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "800.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -3536,12 +3391,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "850.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -3585,12 +3435,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
-			
-			modifier = {
-				factor = 10
-				date > "957.1.1"
-			}
+			factor = 1
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -3635,11 +3480,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "959.1.1"
+				factor = -1000
+				date < "959.1.1"
 			}
 		}
         
@@ -3684,11 +3529,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "961.1.1"
+				factor = -1000
+				date < "961.1.1"
 			}
 		}
         
@@ -3733,11 +3578,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "963.1.1"
+				factor = -1000
+				date < "963.1.1"
 			}
 		}
         
@@ -3782,11 +3627,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "965.1.1"
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
         
@@ -3832,11 +3677,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "967.1.1"
+				factor = -1000
+				date < "967.1.1"
 			}
 		}
         
@@ -3880,11 +3725,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "969.1.1"
+				factor = -1000
+				date < "969.1.1"
 			}
 		}
         
@@ -3925,11 +3770,11 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 40
+			factor = 1
 			
 			modifier = {
-				factor = 10
-				date > "971.1.1"
+				factor = -1000
+				date < "971.1.1"
 			}
 		}
         

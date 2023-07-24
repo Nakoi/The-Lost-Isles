@@ -26,11 +26,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				factor = 2
-				tag = ENG
+				factor = -1000
+				date < "600.1.1"
 			}
 		}
 		
@@ -68,11 +68,11 @@ technologies = {
         }
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				factor = 2
-				tag = ENG
+				factor = -1000
+				date < "957.1.1"
 			}
 		}
 		
@@ -110,11 +110,11 @@ technologies = {
         }
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
 			modifier = {
-				factor = 2
-				tag = ENG
+				factor = -1000
+				date < "965.1.1"
 			}
 		}
 		
@@ -147,8 +147,12 @@ technologies = {
         }
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 		
 		categories = {
@@ -181,7 +185,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "600.1.1"
+			}
 		}
 		
 		categories = {
@@ -215,7 +224,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "957.1.1"
+			}
 		}
 		
 		categories = {
@@ -250,7 +264,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 		
 		categories = {
@@ -281,7 +300,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 		
 		categories = {
@@ -319,7 +343,12 @@ technologies = {
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "600.1.1"
+			}
 		}
 		
 		categories = {
@@ -347,9 +376,13 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 100
 		xp_research_bonus = 1.50
-		folder = {
-			name = naval_folder
-			position = { x = 1 y = 7 }
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "957.1.1"
+			}
 		}
 		
 		ai_will_do = {
@@ -388,7 +421,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 		
 		categories = {
@@ -418,7 +456,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 		
 		categories = {
@@ -455,7 +498,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "957.1.1"
+			}
 		}
 		
 		categories = {
@@ -491,7 +539,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 		
 		categories = {
@@ -522,7 +575,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 		
 		categories = {
@@ -554,7 +612,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "600.1.1"
+			}
 		}
 		
 		categories = {
@@ -589,7 +652,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "957.1.1"
+			}
 		}
 		
 		categories = {
@@ -625,7 +693,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 		
 		categories = {
@@ -657,7 +730,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 		
 		categories = {
@@ -693,6 +771,15 @@ technologies = {
 			position = { x = 3 y = 1 }
 		}
 		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "600.1.1"
+			}
+		}
+		
 		categories = {
 			naval_equipment
 			tp_tech
@@ -718,6 +805,15 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 3 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "957.1.1"
+			}
 		}
 		
 		categories = {
@@ -747,6 +843,15 @@ technologies = {
 			position = { x = 3 y = 13 }
 		}
 		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+		}
+
 		categories = {
 			naval_equipment
 			tp_tech
@@ -764,6 +869,15 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 3 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 		
 		categories = {
