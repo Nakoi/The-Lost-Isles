@@ -37,7 +37,7 @@ equipments = {
 		resources = {
 			wood = 2
 		}
-		fuel_consumption = 0.13
+		fuel_consumption = 0.5
 	}
     #catapult
     cannon_equipment_1 = {
@@ -83,7 +83,7 @@ equipments = {
 			chemicals = 1
 			rare_metals = 1
 		}
-		fuel_consumption = 0.13
+		fuel_consumption = 0.5
 	}
 
     #Improved Cannon
@@ -120,7 +120,7 @@ equipments = {
 			chemicals = 2
 			rare_metals = 1
 		}
-		fuel_consumption = 0.13
+		fuel_consumption = 0.5
 	}
 
     #Modern Cannon
@@ -157,7 +157,7 @@ equipments = {
 			chemicals = 3
 			rare_metals = 1
 		}
-		fuel_consumption = 0.13
+		fuel_consumption = 0.5
 	}
 
 

@@ -36,7 +36,7 @@ equipments = {
 		resources = {
 			wood = 2
 		}
-		fuel_consumption = 0.13
+		fuel_consumption = 0.5
 	}
 	
     #catapult
@@ -74,7 +74,7 @@ equipments = {
 			rare_metals = 1
 			crystals = 2
 		}
-		fuel_consumption = 0.13
+		fuel_consumption = 0.5
 	}
 	
 	ballista_equipment_3 = {
@@ -102,7 +102,7 @@ equipments = {
 			rare_metals = 1
 			crystals = 3
 		}
-		fuel_consumption = 0.13
+		fuel_consumption = 0.5
 	}
 
 }

@@ -20,7 +20,7 @@ equipments = {
 		maximum_speed = 5
 
 		#Defensive Abilities
-		defense = 105
+		defense = 64
 		breakthrough = 6
 		hardness = 0.01
 		armor_value = 1
@@ -40,7 +40,7 @@ equipments = {
 			chemicals = 2
 		}
 
-		fuel_consumption = 0.1
+		fuel_consumption = 0.5
 		#food
 	}
 
