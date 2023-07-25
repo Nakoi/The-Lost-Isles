@@ -23,9 +23,9 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_all_infantry
-			category_special_forces 
-			category_elite_infantry
+			category_tli_all_infantry
+			category_all_racial_units 
+			category_all_racial_infantry
 			category_highlanders 
 		}
 		
@@ -79,7 +79,9 @@ sub_units = {
 		categories = {
 			category_army
 			category_front_line
-			category_special_forces 
+			category_tli_all_infantry
+			category_all_racial_units 
+			category_all_racial_infantry
 			category_rune_warrior
 		}
 		
@@ -121,8 +123,7 @@ sub_units = {
 		
 		categories = {
 			category_army
-			category_support_battalions
-			category_special_forces 
+			category_support_battalions 
 			category_battle_seers
 		}
 		
@@ -145,9 +146,4 @@ sub_units = {
 			magical_equipment = 40
 		}
 	}
-
-
-	
-
-
 }
