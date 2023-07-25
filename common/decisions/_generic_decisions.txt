@@ -49,7 +49,6 @@ gendecision_recruitment = {
 			NOT = {
 				has_idea = genidea_army_reorg_timed
 			}
-			is_ai = no
 		}
 		
 		custom_cost_trigger = {
@@ -94,10 +93,10 @@ gendecision_recruitment = {
 			factor = 100
 		}
   
-		custom_cost_trigger = {
-			command_power > 49
-		}
-		custom_cost_text = gentext_recruitment_decision_cost50
+		#custom_cost_trigger = {
+		#	command_power > 49
+		#}
+		#custom_cost_text = gentext_recruitment_decision_cost50
 		
 		visible = {
     		has_idea = recruit_militia_peacetime
@@ -110,9 +109,9 @@ gendecision_recruitment = {
 				remove_idea = recruit_militia_peacetime
 				add_idea = recruit_militia_wartime
 			}
-			hidden_effect = {
-				add_command_power = -50
-			}
+			#hidden_effect = {
+			#	add_command_power = -50
+			#}
 		}
 	}
 	
@@ -166,7 +165,6 @@ gendecision_recruitment = {
 			NOT = {
 				has_idea = genidea_army_reorg_timed
 			}
-			is_ai = no
 		}
 		
 		custom_cost_trigger = {
@@ -373,10 +371,10 @@ gendecision_recruitment = {
 			factor = 100
 		}
 		
-		custom_cost_trigger = {
-			command_power > 49
-		}
-		custom_cost_text = gentext_recruitment_decision_cost50
+		#custom_cost_trigger = {
+		#	command_power > 49
+		#}
+		#custom_cost_text = gentext_recruitment_decision_cost50
 		
 		visible = {
     		has_war = yes
@@ -430,9 +428,9 @@ gendecision_recruitment = {
 					add_idea = recruit_masscon
 				}
 			}
-			hidden_effect = {
+			#hidden_effect = {
 				add_command_power = -50
-			}
+			#}
 		}
 	}
 	
@@ -449,10 +447,10 @@ gendecision_recruitment = {
 			factor = 100
 		}
 		
-		custom_cost_trigger = {
-			command_power > 49
-		}
-		custom_cost_text = gentext_recruitment_decision_cost50
+		#custom_cost_trigger = {
+		#	command_power > 49
+		#}
+		#custom_cost_text = gentext_recruitment_decision_cost50
 		
 		visible = {
     		has_idea = recruit_masscon
@@ -465,9 +463,9 @@ gendecision_recruitment = {
 				remove_idea = recruit_masscon
 				add_idea = recruit_universalcon
 			}
-			hidden_effect = {
+			#hidden_effect = {
 				add_command_power = -50
-			}
+			#}
 		}
 	}
 }

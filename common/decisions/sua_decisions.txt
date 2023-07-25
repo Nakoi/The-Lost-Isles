@@ -30,6 +30,7 @@ decisioncat_sua_astaria_war = {
 
 		timeout_effect = {
 			white_peace = AST
+			set_country_flag = sua_astaria_war_over_flag
 		}
 	}
 	
@@ -49,6 +50,11 @@ decisioncat_sua_astaria_war = {
 			tag = SUA
 			has_war_with = AST
 			AST = { surrender_progress > 0.1 }
+			NOT = {
+				ROOT = {
+					has_country_flag = sua_astaria_war_over_flag
+				}
+			}
 		}
 
 		visible = {
@@ -64,6 +70,7 @@ decisioncat_sua_astaria_war = {
 			white_peace = AST
 			376 = { transfer_state_to = SUA }
 			327 = { transfer_state_to = SUA }
+			set_country_flag = sua_astaria_war_over_flag
 		}
 	}
 	
@@ -83,6 +90,11 @@ decisioncat_sua_astaria_war = {
 			tag = SUA
 			has_war_with = AST
 			SUA = { surrender_progress > 0.1 }
+			NOT = {
+				ROOT = {
+					has_country_flag = sua_astaria_war_over_flag
+				}
+			}
 		}
 
 		visible = {
@@ -98,6 +110,7 @@ decisioncat_sua_astaria_war = {
 			white_peace = AST
 			488 = { transfer_state_to = AST }
 			489 = { transfer_state_to = AST }
+			set_country_flag = sua_astaria_war_over_flag
 		}
 	}
 }
