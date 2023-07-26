@@ -40,9 +40,9 @@ sub_units = {
 		
 		combat_width = 2
 		#Size Definitions
-		max_strength = 12.5
-		max_organisation = 40
-		default_morale = 0.1
+		max_strength = 40
+		max_organisation = 60
+		default_morale = 0.3
 		manpower = 500
 
 		#Misc Abilities
@@ -88,9 +88,9 @@ sub_units = {
 		
 		combat_width = 2
 		#Size Definitions
-		max_strength = 6.25
+		max_strength = 20
 		max_organisation = 30
-		default_morale = 0.1
+		default_morale = 0.5
 		manpower = 500
 
 		#Misc Abilities
@@ -197,10 +197,10 @@ sub_units = {
 		combat_width = 2
 		maximum_speed = -0.33
 		#Size Definitions
-		max_strength = 12.5
+		max_strength = 40
 		
-		max_organisation = 40
-		default_morale = 0.1
+		max_organisation = 60
+		default_morale = 0.3
 		manpower = 500
 
 		#Misc Abilities
@@ -246,9 +246,9 @@ sub_units = {
 		
 		combat_width = 2
 		#Size Definitions
-		max_strength = 12.5
-		max_organisation = 40
-		default_morale = 0.1
+		max_strength = 40
+		max_organisation = 60
+		default_morale = 0.3
 		manpower = 600
 
 		#Misc Abilities
@@ -333,9 +333,9 @@ sub_units = {
 		
 		combat_width = 0
 		#Size Definitions
-		max_strength = 0.1
-		max_organisation = 0
-		default_morale = 0.05
+		max_strength = 5
+		max_organisation = 15
+		default_morale = 0.1
 		manpower = 100
 
 		#Misc Abilities
@@ -406,9 +406,9 @@ sub_units = {
 		
 		combat_width = 0
 		#Size Definitions
-		max_strength = 1
+		max_strength = 5
 		max_organisation = 15
-		default_morale = 0.05
+		default_morale = 0.1
 		manpower = 250
 
 		#Misc Abilities
@@ -481,9 +481,9 @@ sub_units = {
 		
 		combat_width = 0
 		#Size Definitions
-		max_strength = 1
+		max_strength = 5
 		max_organisation = 15
-		default_morale = 0.05
+		default_morale = 0.1
 		manpower = 250
 
 		#Misc Abilities
@@ -563,9 +563,9 @@ sub_units = {
 		
 		combat_width = 0
 		#Size Definitions
-		max_strength = 1
+		max_strength = 5
 		max_organisation = 15
-		default_morale = 0.05
+		default_morale = 0.1
 		manpower = 250
 
 		#Misc Abilities
@@ -612,9 +612,9 @@ sub_units = {
 		
 		combat_width = 0
 		#Size Definitions
-		max_strength = 1
-		max_organisation = 0
-		default_morale = 0.05
+		max_strength = 5
+		max_organisation = 15
+		default_morale = 0.1
 		manpower = 250
 
 		#Misc Abilities
@@ -662,9 +662,9 @@ sub_units = {
 		
 		combat_width = 0
 		#Size Definitions
-		max_strength = 1
+		max_strength = 5
 		max_organisation = 15
-		default_morale = 0.05
+		default_morale = 0.1
 		manpower = 250
 
 		#Misc Abilities
@@ -712,9 +712,9 @@ sub_units = {
 		
 		combat_width = 0
 		#Size Definitions
-		max_strength = 1
-		max_organisation = 5
-		default_morale = 0.05
+		max_strength = 5
+		max_organisation = 15
+		default_morale = 0.1
 		manpower = 250
 		supply_consumption = -0.1
 
@@ -777,9 +777,9 @@ sub_units = {
 
 		combat_width = 2
 		#Size Definitions
-		max_strength = 12.5
-		max_organisation = 45
-		default_morale = 0.04
+		max_strength = 30
+		max_organisation = 40
+		default_morale = 0.34
 		manpower = 500
 
 		#Misc Abilities
@@ -787,10 +787,10 @@ sub_units = {
 		suppression = 1
 		weight = 0.5
 		
-		armor_value = 10
-        breakthrough = 2
+		#armor_value = 10
+        #breakthrough = 2
 		#armor piercing
-		hardness = 14
+		#hardness = 14
 
 		supply_consumption = 0.01
 	
@@ -854,9 +854,9 @@ sub_units = {
 		combat_width = 2
 		maximum_speed = 0.34
 		#Size Definitions
-		max_strength = 12.5
-		max_organisation = 35
-		default_morale = 0.4
+		max_strength = 30
+		max_organisation = 40
+		default_morale = 0.34
 		manpower = 500
 
 		#Misc Abilities
@@ -864,10 +864,10 @@ sub_units = {
 		suppression = 1.25
 		weight = 0.4
 		
-		armor_value = 5 
-        breakthrough = 2
+		#armor_value = 5 
+        #breakthrough = 2
 		#armor piercing
-		hardness = 14
+		#hardness = 14
 
 		supply_consumption = 0.01
 	
@@ -934,9 +934,9 @@ sub_units = {
 		combat_width = 2
 		maximum_speed = -0.33
 		#Size Definitions
-		max_strength = 12.5
-		max_organisation = 50
-		default_morale = 0.5
+		max_strength = 40
+		max_organisation = 60
+		default_morale = 0.3
 		manpower = 500
 
 		#Misc Abilities
@@ -944,10 +944,10 @@ sub_units = {
 		suppression = 1.75
 		weight = 0.25
 		
-		soft_attack = 0.25
-		armor_value = 5 
-		defense = 0.25
-        breakthrough = 0.25
+		#soft_attack = 0.25
+		#armor_value = 5 
+		#defense = 0.25
+        #breakthrough = 0.25
 
 		supply_consumption = 0.01
 	
@@ -1058,8 +1058,8 @@ sub_units = {
 		manpower = 250
 		training_time = 40
 		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.3
+		default_morale = 0.1
+		max_strength = 10
 		weight = 0.25
 		combat_width = 3
 		supply_consumption = 0.05
@@ -1132,8 +1132,8 @@ sub_units = {
 		manpower = 250
 		training_time = 40
 		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.3
+		default_morale = 0.1
+		max_strength = 10
 		weight = 0.25
 		combat_width = 3
 		supply_consumption = 0.05
@@ -1207,8 +1207,8 @@ sub_units = {
 		manpower = 250
 		training_time = 40
 		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.3
+		default_morale = 0.1
+		max_strength = 10
 		weight = 0.25
 		combat_width = 3
 		supply_consumption = 0.05
@@ -1281,8 +1281,8 @@ sub_units = {
 		manpower = 250
 		training_time = 40
 		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.3
+		default_morale = 0.1
+		max_strength = 10
 		weight = 0.25
 		combat_width = 3
 		supply_consumption = 0.05
@@ -1358,8 +1358,8 @@ sub_units = {
 		manpower = 250
 		training_time = 40
 		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.3
+		default_morale = 0.1
+		max_strength = 10
 		weight = 0.25
 		combat_width = 3
 		supply_consumption = 0.05
@@ -1433,8 +1433,8 @@ sub_units = {
 		manpower = 250
 		training_time = 40
 		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.3
+		default_morale = 0.1
+		max_strength = 10
 		weight = 0.25
 		combat_width = 2
 		supply_consumption = 0.05
@@ -1516,9 +1516,9 @@ sub_units = {
 		}
 		manpower = 75
 		training_time = 40
-		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.1
+		max_organisation = 15
+		default_morale = 0.1
+		max_strength = 5
 		weight = 0.05
 		
 		supply_consumption = 0.03
@@ -1564,9 +1564,9 @@ sub_units = {
 		}
 		manpower = 75
 		training_time = 40
-		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.1
+		max_organisation = 15
+		default_morale = 0.1
+		max_strength = 5
 		weight = 0.05
 		
 		supply_consumption = 0.03
@@ -1612,9 +1612,9 @@ sub_units = {
 		}
 		manpower = 75
 		training_time = 40
-		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.1
+		max_organisation = 15
+		default_morale = 0.1
+		max_strength = 5
 		weight = 0.05
 		
 		supply_consumption = 0.03
@@ -1659,9 +1659,9 @@ sub_units = {
 		}
 		manpower = 75
 		training_time = 40
-		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.1
+		max_organisation = 15
+		default_morale = 0.1
+		max_strength = 5
 		weight = 0.05
 		
 		supply_consumption = 0.03
@@ -1706,9 +1706,9 @@ sub_units = {
 		}
 		manpower = 75
 		training_time = 40
-		max_organisation = 0
-		default_morale = 0.05
-		max_strength = 0.1
+		max_organisation = 15
+		default_morale = 0.1
+		max_strength = 5
 		weight = 0.05
 		
 		supply_consumption = 0.03
