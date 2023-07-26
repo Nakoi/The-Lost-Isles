@@ -577,6 +577,8 @@
  genidea_peaceful_and_prosperous:0 "Peaceful and Prosperous"
  genidea_geared_for_war:0 "Geared for War"
  
+ ootarigeneric_warlord_recruitment:0 "Unrecognized Warlord State"
+ 
 ###GNERIC DECISIONS###
  gendecision_recruitment:0 "Conscription Law"
  gendecision_volunteer_militia:0 "Reduce the Regular Army"
@@ -945,6 +947,7 @@
  gentext_has_volarmy:0 "Volunteer Army"
  gentext_has_conscription:0 "Conscript Army"
  gentext_has_massconscription:0 "Has Conscripted Everyone"
+ gentext_masscon_blocked:0 "Mass Conscription Allowed"
  gentext_thank_you:0 "§GThank you for playing The Lost Isles!§!"
  gentext_machinegun_need:0 "§YMG Support Companies will require 6 more guns per company!§!"
  genflag_chill_the_fuck_out:0 "At least a year has passed since our last conquest."
