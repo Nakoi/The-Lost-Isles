@@ -1016,7 +1016,7 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.05
 		supply_consumption_factor = 0.05
-		army_morale_factor = 0.5
+		land_reinforce_rate = 0.02
 		training_time_army = 10
 
 		ranged_militia = {
@@ -1084,7 +1084,7 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.10
 		supply_consumption_factor = 0.05
-		army_morale_factor = 0.5
+		land_reinforce_rate = 0.02
 		training_time_army = 15
 		
 		ranged_militia = {
@@ -1152,7 +1152,7 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.05
 		supply_consumption_factor = 0.05
-		army_morale_factor = 0.5
+		land_reinforce_rate = 0.02
 		training_time_army = 15
 		
 		ranged_militia = {
@@ -1220,7 +1220,7 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.10
 		supply_consumption_factor = 0.10
-		army_morale_factor = 0.5
+		land_reinforce_rate = 0.02
 		training_time_army = 20
 		
 		ranged_militia = {
@@ -1293,7 +1293,7 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.05
 		supply_consumption_factor = 0.05
-		army_morale_factor = 0.5
+		land_reinforce_rate = 0.02
 		training_time_army = 15
 		
 		path = {
@@ -1333,7 +1333,7 @@ technologies = {
 		max_planning = 0.075
 		army_org_factor = 0.10
 		supply_consumption_factor = 0.10
-		army_morale_factor = 0.5
+		land_reinforce_rate = 0.02
 		training_time_army = 15
 		
 		ranged_militia = {
@@ -1401,7 +1401,7 @@ technologies = {
 		planning_speed = 0.05
 		army_org_factor = 0.10
 		supply_consumption_factor = 0.10
-		army_morale_factor = 0.5
+		land_reinforce_rate = 0.02
 		training_time_army = 15
 		
 		ranged_militia = {
