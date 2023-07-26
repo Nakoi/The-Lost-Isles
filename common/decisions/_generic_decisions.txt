@@ -365,6 +365,12 @@ gendecision_recruitment = {
 				has_idea = recruit_selectivecon
 				has_idea = recruit_universalcon
 			}
+			custom_trigger_tooltip = {
+				tooltip = gentext_masscon_blocked
+				NOT = {
+					has_idea = ootarigeneric_warlord_recruitment
+				}
+			}
 		}
 		
 		ai_will_do = {
@@ -429,7 +435,7 @@ gendecision_recruitment = {
 				}
 			}
 			#hidden_effect = {
-				add_command_power = -50
+			#	add_command_power = -50
 			#}
 		}
 	}
@@ -464,7 +470,7 @@ gendecision_recruitment = {
 				add_idea = recruit_universalcon
 			}
 			#hidden_effect = {
-				add_command_power = -50
+			#	add_command_power = -50
 			#}
 		}
 	}
