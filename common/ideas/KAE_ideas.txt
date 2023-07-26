@@ -38,10 +38,10 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.5
 				mobilization_speed = 10
-				army_org_factor = -0.3
-				army_org_regain = 0.5
-				army_attack_factor = -0.05
-				army_defence_factor = -0.05
+				army_org_factor = -0.33
+				army_attack_factor = -0.15
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.1
 			}
 		}
 		
@@ -56,9 +56,9 @@ ideas = {
 				conscription_factor = 0.35
 				mobilization_speed = 5
 				army_org_factor = -0.2
-				army_org_regain = 0.3
 				army_attack_factor = -0.05
-				army_defence_factor = -0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
 			}
 		}
 		
@@ -72,9 +72,9 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.15
 				mobilization_speed = 1
-				army_org_regain = 0.15
-				army_attack_factor = -0.05
+				army_attack_factor = 0.05
 				army_defence_factor = 0.05
+				army_core_defence_factor = 0.05
 			}
 		}
 		
@@ -88,7 +88,6 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.3
 				army_org_factor = 0.25
-				army_org_regain = -0.5
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
 			}
@@ -103,8 +102,7 @@ ideas = {
 				
 			modifier = {
 				conscription_factor = -0.15
-				army_org_factor = 0.15
-				army_org_regain = -0.3
+				army_org_factor = 0.1
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
 			}
@@ -119,8 +117,7 @@ ideas = {
 				
 			modifier = {
 				conscription_factor = 0.1
-				army_org_factor = 0.1
-				army_attack_factor = 0.1
+				army_attack_factor = 0.05
 				army_defence_factor = 0.05
 			}
 		}
@@ -134,9 +131,9 @@ ideas = {
 				
 			modifier = {
 				conscription_factor = 0.1
-				army_org_factor = -0.15
-				army_org_regain = 0.1
-				army_attack_factor = -0.05
+				army_org_factor = -0.1
+				army_attack_factor = -0.1
+				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
 			}
 		}
@@ -150,10 +147,10 @@ ideas = {
 				
 			modifier = {
 				conscription_factor = 0.3
-				army_org_factor = 0.15
-				army_org_regain = -0.1
+				army_org_factor = -0.15
 				army_attack_factor = -0.1
-				army_core_defence_factor = 0.2
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
 			}
 		}
 		
