@@ -1,9 +1,9 @@
 state = {
 	id = 122
 	name = "STATE_122"
-	manpower = 862472
+	manpower = 1862472
 
-	state_category = city
+	state_category = megalopolis
 
 	history = {
 		owner = ESU
@@ -11,10 +11,9 @@ state = {
 		victory_points = { 3456 20 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 1
-			synthetic_refinery = 1
-			dockyard = 2
+			arms_factory = 3
+			industrial_complex = 5
+			dockyard = 3
 			3456={
 				naval_base = 1
 			}
