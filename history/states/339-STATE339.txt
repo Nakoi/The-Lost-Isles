@@ -1,18 +1,18 @@
 state = {
 	id = 339
 	name = "STATE_339"
-	manpower = 261791
+	manpower = 361791
 
-	state_category = city
+	state_category = large_city
 
 	history = {
 		owner = GAL 
 		add_core_of = GAL 
-#		victory_points = { 2058 10 }
+		victory_points = { 2058 10 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 3
-			industrial_complex = 2
+			arms_factory = 2
+			industrial_complex = 3
 			dockyard = 1
 		}
 	}

@@ -1,9 +1,9 @@
 state = {
 	id = 340
 	name = "STATE_340"
-	manpower = 234773
+	manpower = 734773
 
-	state_category = megalopolis
+	state_category = metropolis
 
 	history = {
 		owner = GAL 
@@ -12,8 +12,7 @@ state = {
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3
-			industrial_complex = 7
-			synthetic_refinery = 3
+			industrial_complex = 5
 		}
 	}
 

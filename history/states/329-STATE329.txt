@@ -3,14 +3,15 @@ state = {
 	name = "STATE_329"
 	manpower = 149164
 
-	state_category = city
+	state_category = town
 
 	history = {
 		owner = GAL 
 		add_core_of = GAL 
 		victory_points = { 4135 10 }
-#		buildings = {
-#		}
+		buildings = {
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {
