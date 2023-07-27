@@ -1,7 +1,7 @@
 state = {
 	id = 136
 	name = "STATE_136"
-	manpower = 1197347
+	manpower = 1597347
 
 	state_category = megalopolis
 
@@ -18,8 +18,7 @@ state = {
 		buildings = {
 			infrastructure = 3
 			arms_factory = 4
-			industrial_complex = 3
-			synthetic_refinery = 1
+			industrial_complex = 5
 			dockyard =3
 			2643= {
 				naval_base = 1

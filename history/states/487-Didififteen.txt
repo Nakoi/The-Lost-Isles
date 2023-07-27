@@ -3,7 +3,7 @@ state = {
 	name = "STATE_487"
 	manpower = 593741
 
-	state_category = city
+	state_category = large_city
 
 	resources={
 		wood=33.000
@@ -16,8 +16,8 @@ state = {
 		victory_points = { 2884 10 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 2
+			arms_factory = 3
+			industrial_complex = 4
 		}
 	}
 
