@@ -2222,11 +2222,6 @@ spriteTypes = {
 
 		SpriteType = {
 		name = "GFX_wall_of_steel_medium"
-		texturefile = "gfx/interface/doctrines/phalanx.dds"
-	}
-
-		SpriteType = {
-		name = "GFX_wall_of_steel_medium"
 		texturefile = "gfx/interface/doctrines/standardized_equipment.dds"
 	}
 
@@ -2285,7 +2280,75 @@ spriteTypes = {
 		texturefile = "gfx/interface/doctrines/raiding_parties.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_evolving_military_medium"
+		texturefile = "gfx/interface/doctrines/evolving_military.dds"
+	}
 
+		SpriteType = {
+		name = "GFX_primacy_of_the_bayonet_medium"
+		texturefile = "gfx/interface/doctrines/primacy_of_the_bayonet.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_primacy_of_musketry_medium"
+		texturefile = "gfx/interface/doctrines/primacy_of_shot.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_advanced_light_infantry_training_medium"
+		texturefile = "gfx/interface/doctrines/draconic_discipline.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_dedicated_grenadier_regiments_medium"
+		texturefile = "gfx/interface/doctrines/raiding_parties.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_batteries_of_the_brave_medium"
+		texturefile = "gfx/interface/doctrines/batteries_of_the_brave.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_veteran_regiments_medium"
+		texturefile = "gfx/interface/doctrines/elite_infantry.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_primacy_of_forage_medium"
+		texturefile = "gfx/interface/doctrines/primacy_of_forage.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_prohibition_of_forage_medium"
+		texturefile = "gfx/interface/doctrines/organised_supply_system.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_superior_training_medium"
+		texturefile = "gfx/interface/doctrines/superior_training.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_modern_levy_medium"
+		texturefile = "gfx/interface/doctrines/organised_conscription.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_heavy_armor_adaptation_medium"
+		texturefile = "gfx/interface/doctrines/standardized_equipment.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_grand_batteries_medium"
+		texturefile = "gfx/interface/doctrines/field_assembly.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_iron_discipline_medium"
+		texturefile = "gfx/interface/doctrines/iron_discipline.dds"
+	}
 
 
 }
