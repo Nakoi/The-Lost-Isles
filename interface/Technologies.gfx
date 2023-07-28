@@ -2172,13 +2172,119 @@ spriteTypes = {
 
 		SpriteType = {
 		name = "GFX_standardised_equipment_medium"
-		texturefile = "gfx/interface/doctrines/Standardized_equipment.dds"
+		texturefile = "gfx/interface/doctrines/standardized_equipment.dds"
 	}
 
 		SpriteType = {
 		name = "GFX_attrition_warfare_medium"
 		texturefile = "gfx/interface/doctrines/attrition.dds"
 	}
+
+		SpriteType = {
+		name = "GFX_siege_mastery_medium"
+		texturefile = "gfx/interface/doctrines/siege_mastery.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_field_artillery_assembly_medium"
+		texturefile = "gfx/interface/doctrines/field_assembly.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_fortress_busting_medium"
+		texturefile = "gfx/interface/doctrines/bunker_busting.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_defensive_infantry_medium"
+		texturefile = "gfx/interface/doctrines/defensive_infantry.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_overwhelming_barrage_medium"
+		texturefile = "gfx/interface/doctrines/overwhelming_barrage.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_elite_infantry_medium"
+		texturefile = "gfx/interface/doctrines/elite_infantry.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_draconian_discipline_medium"
+		texturefile = "gfx/interface/doctrines/draconic_discipline.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_the_phalanx_medium"
+		texturefile = "gfx/interface/doctrines/phalanx.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_wall_of_steel_medium"
+		texturefile = "gfx/interface/doctrines/phalanx.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_wall_of_steel_medium"
+		texturefile = "gfx/interface/doctrines/standardized_equipment.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_integrated_support_units_medium"
+		texturefile = "gfx/interface/doctrines/integrated_support.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_nobile_heritage_medium"
+		texturefile = "gfx/interface/doctrines/noble_heritage.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_in_shining_armor_medium"
+		texturefile = "gfx/interface/doctrines/shining_armor.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_thirst_for_glory_medium"
+		texturefile = "gfx/interface/doctrines/thrist_for_glory.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_glorious_charge_medium"
+		texturefile = "gfx/interface/doctrines/glorious_chrage.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_forged_in_battle_medium"
+		texturefile = "gfx/interface/doctrines/forged_in_battle.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_tribal_terrain_mastery_medium"
+		texturefile = "gfx/interface/doctrines/tribal_terrain_mastery.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_one_with_nature_medium"
+		texturefile = "gfx/interface/doctrines/one_with_nature.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_hit_and_run_doctrinisation_medium"
+		texturefile = "gfx/interface/doctrines/hit_and_run.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_warrior_culture_medium"
+		texturefile = "gfx/interface/doctrines/warrior_culture.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_raiding_parties_medium"
+		texturefile = "gfx/interface/doctrines/raiding_parties.dds"
+	}
+
 
 
 
