@@ -3,8 +3,12 @@ state = {
 	name = "STATE_484"
 	manpower = 230498
 
-	state_category = city
-
+	state_category = town
+	
+	resources={
+		wheat = 4
+	}
+	
 	history = {
 		owner = WAO
 		add_core_of = WAO
@@ -12,7 +16,7 @@ state = {
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 1
 			synthetic_refinery = 1
 		}
 	}

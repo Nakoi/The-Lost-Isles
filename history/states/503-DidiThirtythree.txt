@@ -1,8 +1,8 @@
 state = {
 	id = 503
 	name = "STATE_503"
-	manpower = 31493
-	state_category = city
+	manpower = 231493
+	state_category = town
 
 	history = {
 		owner = UNU
@@ -10,8 +10,8 @@ state = {
 		victory_points = { 2463 10 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 2
+			arms_factory = 1
+			industrial_complex = 1
 			synthetic_refinery = 1
 		}
 	}
