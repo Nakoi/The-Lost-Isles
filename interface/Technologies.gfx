@@ -2350,5 +2350,78 @@ spriteTypes = {
 		texturefile = "gfx/interface/doctrines/iron_discipline.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_strategic_mobility_medium"
+		texturefile = "gfx/interface/doctrines/draconic_discipline.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_no_orders_no_action_medium"
+		texturefile = "gfx/interface/doctrines/no_orders_no_action.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_flexible_command_structure_medium"
+		texturefile = "gfx/interface/doctrines/flexible_command_structure.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_orders_above_all_medium"
+		texturefile = "gfx/interface/doctrines/orders_above_all.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_artillery_supremacy_medium"
+		texturefile = "gfx/interface/doctrines/artillery_suppremacy.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_point_defense_system_medium"
+		texturefile = "gfx/interface/doctrines/point_defence_system.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_killing_grounds_medium"
+		texturefile = "gfx/interface/doctrines/attrition.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_trench_warfare_medium"
+		texturefile = "gfx/interface/doctrines/trench_warfrare.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_foreign_recruitment_medium"
+		texturefile = "gfx/interface/doctrines/foreign_recruitment.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_infantry_firepower_superiority_medium"
+		texturefile = "gfx/interface/doctrines/infantry_firepower_superiority.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_mass_assault_medium"
+		texturefile = "gfx/interface/doctrines/mass_assault.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_superior_firepower_medium"
+		texturefile = "gfx/interface/doctrines/primacy_of_shot.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_prestige_over_principality_medium"
+		texturefile = "gfx/interface/doctrines/fashion_over_convention.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_mobile_warfare_medium"
+		texturefile = "gfx/interface/doctrines/mobile_warfare.dds"
+	}
+
+
+
+
 
 }
