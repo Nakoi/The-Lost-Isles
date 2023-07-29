@@ -1,9 +1,9 @@
 state = {
 	id = 138
 	name = "STATE_138"
-	manpower = 423982
+	manpower = 223982
 
-	state_category = city
+	state_category = town
 
 	resources={
 		wood=29.000
@@ -14,8 +14,11 @@ state = {
 		owner = AST
 		add_core_of = AST
 #		victory_points = { 854 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {

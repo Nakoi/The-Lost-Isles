@@ -3,20 +3,18 @@ state = {
 	name = "STATE_126"
 	manpower = 20354
 
-	state_category = city
+	state_category = small_island
 
 	resources={
 		wheat=2.000
-
-		
 	}
 
 	history = {
 		owner = AST
 		add_core_of = AST
 		victory_points = { 5184 10 }
-#		buildings = {
-#		}
+		buildings = {
+		}
 	}
 
 	provinces = {
