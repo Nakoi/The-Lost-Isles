@@ -3286,6 +3286,27 @@ guiTypes = {
             	slotsize = { width = 70 height = 70 }
             	format = "UP"
         		}
+
+        		gridboxtype = {
+            	name = "kirin_infernal_fury_tree"
+            	position = { x = 140 y = 210 }
+            	slotsize = { width = 70 height = 70 }
+            	format = "UP"
+        		}
+
+        		gridboxtype = {
+            	name = "kirin_blazing_qing_tree"
+            	position = { x = 140 y = 210 }
+            	slotsize = { width = 70 height = 70 }
+            	format = "UP"
+        		}
+
+        		gridboxtype = {
+            	name = "kirin_replicas_tree"
+            	position = { x = 140 y = 210 }
+            	slotsize = { width = 70 height = 70 }
+            	format = "UP"
+        		}
 		}
 
 		containerWindowType = {

@@ -174,6 +174,10 @@ technologies = {
 		dependencies = {
 		}
 
+		enable_equipments = {
+			shock_equipment_1
+		}
+
 		path = {
 			leads_to_tech = kirin_shotgun_mastery
 			research_cost_coeff = 1
@@ -181,6 +185,11 @@ technologies = {
 
 		path = {
 			leads_to_tech = kirin_smoke_screen
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = kirin_breech_shotgun
 			research_cost_coeff = 1
 		}
 		
@@ -208,6 +217,12 @@ technologies = {
 
 		xor={
 			kirin_smoke_screen
+		}
+
+		category_vanguards = {
+			soft_attack = 0.15
+			ap_attack = 0.2
+			supply_consumption_factor = 0.1
 		}
 
 		path = {
@@ -246,6 +261,11 @@ technologies = {
 			kirin_shotgun_mastery
 		}
 
+		category_vanguards = {
+			breakthrough = 0.25
+			default_morale = 0.1
+		}
+
 		path = {
 			leads_to_tech = kirin_trail_destruction
 			research_cost_coeff = 1
@@ -282,6 +302,11 @@ technologies = {
 			kirin_cauterize_wounds
 		}
 
+		category_vanguards = {
+			defense = -0.15
+			soft_attack = 0.2
+		}
+
 		path = {
 			leads_to_tech = kirin_supernova
 			research_cost_coeff = 1
@@ -312,6 +337,11 @@ technologies = {
 			kirin_trail_destruction
 		}
 
+		category_vanguards = {
+			max_strength = 0.2
+			breakthrough = 0.2
+		}
+
 		path = {
 			leads_to_tech = kirin_supernova
 			research_cost_coeff = 1
@@ -338,6 +368,13 @@ technologies = {
 		dependencies = {
 		}
 
+		category_vanguards = {
+			defense = -0.2
+			soft_attack = 0.25
+			hard_attack = 0.25
+			ap_attack = 0.25
+		}
+
 		research_cost = 2.15
 		start_year = 957
 		folder = {
@@ -354,6 +391,643 @@ technologies = {
 		}
 	}
 
+
+	kirin_breech_shotgun = {
+
+		dependencies = {
+		}
+
+		enable_equipments = {
+			shock_equipment_2
+		}
+
+		path = {
+			leads_to_tech = kirin_repeating_shotgun
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 10 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_repeating_shotgun = {
+
+		dependencies = {
+		}
+
+		enable_equipments = {
+			shock_equipment_3
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 10 y = 12 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+	kirin_infernal_fury = {
+
+		dependencies = {
+		}
+
+		category_army = {
+			max_organisation = 5
+			soft_attack = 0.1
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = kirin_scorched_earth
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 14 y = 0 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_scorched_earth = {
+
+		dependencies = {
+		}
+
+		industry_repair_factor = 0.5
+
+		path = {
+			leads_to_tech = kirin_blazing_barrier
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 14 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_blazing_barrier = {
+
+		dependencies = {
+		}
+
+		production_speed_bunker_factor = 0.1
+		production_speed_coastal_bunker_factor = 0.1
+
+		path = {
+			leads_to_tech = kirin_honor_glory
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 14 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_honor_glory = {
+
+		dependencies = {
+		}
+
+		attrition = 0.15
+
+		category_army = {
+			max_organisation = 10
+			breakthrough = 0.15
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 14 y = 12 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	kirin_blazing_qing = {
+
+		dependencies = {
+		}
+
+		path = {
+			leads_to_tech = kirin_advanced_blazing_qing
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = kirin_crane_spin
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 16 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_advanced_blazing_qing = {
+
+		dependencies = {
+		}
+
+		path = {
+			leads_to_tech = kirin_modern_blazing_qing
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 16 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_modern_blazing_qing = {
+
+		dependencies = {
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 16 y = 12 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_crane_spin = {
+
+		dependencies = {
+		}
+
+		path = {
+			leads_to_tech = kirin_rocket_ramming
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 20 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_rocket_ramming = {
+
+		dependencies = {
+		}
+
+		path = {
+			leads_to_tech = kirin_explosive_ramming
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 20 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_explosive_ramming = {
+
+		dependencies = {
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 20 y = 12 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_replicas = {
+
+		dependencies = {
+		}
+
+		enable_subunits = {
+			replicas
+		}
+
+		enable_equipments = {
+			replica_equipment_0
+		}
+
+		path = {
+			leads_to_tech = kirin_reinforced_wood
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = kirin_one_with_wood
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 28 y = 0 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_reinforced_wood = {
+
+		dependencies = {
+		}
+
+		category_replicas = {
+			defense = 0.1
+			breakthrough = 0.1
+		}
+		
+		xor = { 
+			kirin_one_with_wood
+		}
+
+		path = {
+			leads_to_tech = kirin_replica_restoration
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 26 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_one_with_wood = {
+
+		dependencies = {
+		}
+
+		replicas = {
+
+			forest = {
+				defence = 0.15
+				movement = 0.15
+			}
+			jungle = {
+				defence = 0.15
+				movement = 0.15
+			}
+			marsh = {
+				defence = 0.15
+				movement = 0.15
+			}
+		}
+		
+		xor = {
+			kirin_reinforced_wood
+		}
+
+		path = {
+			leads_to_tech = kirin_mastery_of_nature
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 30 y = 2 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_replica_restoration = {
+
+		dependencies = {
+		}
+
+		category_replicas = {
+			max_strength = 0.2
+			default_morale = 0.2
+		}
+
+		path = {
+			leads_to_tech = kirin_advanced_replicas
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 26 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_mastery_of_nature = {
+
+		dependencies = {
+		}
+
+		replicas = {
+
+			forest = {
+				attack = 0.3
+			}
+			jungle = {
+				attack = 0.3
+			}
+			marsh = {
+				attack = 0.3
+			}
+		}
+
+		path = {
+			leads_to_tech = kirin_advanced_replicas
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 30 y = 4 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_advanced_replicas = {
+
+		dependencies = {
+		}
+
+		enable_equipments = {
+			replica_equipment_1
+		}
+
+		path = {
+			leads_to_tech = kirin_explosive_seeds
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 28 y = 6 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_explosive_seeds = {
+
+		dependencies = {
+		}
+
+		category_replicas = {
+			hard_attack = 0.15
+			ap_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = kirin_intelligent_replicas
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 28 y = 8 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_intelligent_replicas = {
+
+		dependencies = {
+		}
+
+		category_replicas = {
+			max_organisation = 15
+			defense = 0.1
+			reliability = 0.1
+		}
+
+		path = {
+			leads_to_tech = kirin_modern_replicas
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 28 y = 10 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kirin_modern_replicas = {
+
+		dependencies = {
+		}
+
+		enable_equipments = {
+			replica_equipment_2
+		}
+
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.15
+		start_year = 957
+		folder = {
+			name = kirin_folder
+			position = { x = 28 y = 12 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 
 
