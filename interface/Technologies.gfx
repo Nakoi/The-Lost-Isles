@@ -2420,6 +2420,29 @@ spriteTypes = {
 		texturefile = "gfx/interface/doctrines/mobile_warfare.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_naval_invasion_buff_1_medium"
+		texturefile = "gfx/interface/technologies/rowboat_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_naval_invasion_buff_2_medium"
+		texturefile = "gfx/interface/technologies/rowboat_3.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_naval_invasion_buff_3_medium"
+		texturefile = "gfx/interface/technologies/rowboat_4.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_transport_ship_medium"
+		texturefile = "gfx/interface/technologies/rowboat_1.dds"
+	}
+
+
+
+
 
 
 
