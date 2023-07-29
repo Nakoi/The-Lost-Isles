@@ -3,7 +3,7 @@ state = {
 	name = "STATE_589"
 	manpower = 126791
 
-	state_category = city
+	state_category = rural
 
 	resources={
 		luxuries=17.000
@@ -17,7 +17,6 @@ state = {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
-			dockyard = 1
 		}
 	}
 
