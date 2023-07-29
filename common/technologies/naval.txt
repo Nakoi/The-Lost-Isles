@@ -368,6 +368,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		folder = {
+			name = naval_folder
+			position = { x = 1 y = 7 }
+		}
+		
 		research_cost = 1.8
 		dependencies = {
             tech_civilized = 1
@@ -469,7 +474,6 @@ technologies = {
 			medium_ship_tech
 		}
 	}
-	
 	
 	siege_frigate_ship = {
 
