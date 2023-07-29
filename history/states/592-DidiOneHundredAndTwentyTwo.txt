@@ -1,9 +1,9 @@
 state = {
 	id = 592
 	name = "STATE_592"
-	manpower = 313749
+	manpower = 213749
 
-	state_category = city
+	state_category = town
 
 	resources={
 		luxuries=15.000
@@ -14,8 +14,10 @@ state = {
 		owner = CAI
 		add_core_of = CAI
 		victory_points = { 2987 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
 	}
 
 	provinces = {
