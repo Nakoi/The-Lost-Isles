@@ -1,14 +1,12 @@
 state = {
 	id = 544
 	name = "STATE_544"
-	manpower = 263871
+	manpower = 463871
 
-	state_category = city
+	state_category = large_city
 
 	resources={
 		wheat=2.000
-
-		
 	}
 
 	history = {
@@ -16,6 +14,10 @@ state = {
 		add_core_of = SUN 
 		victory_points = { 1474 10 }
 		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 4
 			1474={
 				naval_base = 1
 			}
