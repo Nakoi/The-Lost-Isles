@@ -1,7 +1,7 @@
 state = {
 	id = 523
 	name = "STATE_523"
-	manpower = 213941
+	manpower = 343941
 
 	state_category = city
 
@@ -9,8 +9,15 @@ state = {
 		owner = TYK
 		add_core_of = TYK
 		victory_points = { 3011 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			3011={
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces = {

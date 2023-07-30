@@ -1,16 +1,23 @@
 state = {
 	id = 520
 	name = "STATE_520"
-	manpower = 192191
+	manpower = 292191
 
 	state_category = city
 
 	history = {
 		owner = TYK
 		add_core_of = TYK
-#		victory_points = { 3644 10 }
-#		buildings = {
-#		}
+		victory_points = { 3644 10 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 1
+			dockyard = 1
+			3644={
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces = {

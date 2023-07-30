@@ -3,17 +3,14 @@ state = {
 	name = "STATE_508"
 	manpower = 213491
 
-	state_category = city
+	state_category = rural
 
 	history = {
 		owner = TYK
 		add_core_of = TYK
 #		victory_points = { 2322 10 }
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 3
-			synthetic_refinery = 2
+			synthetic_refinery = 1
 		}
 	}
 
