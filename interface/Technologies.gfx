@@ -2475,6 +2475,55 @@ spriteTypes = {
 		texturefile = "gfx/interface/doctrines/trade_interdiction.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_line_of_battle_medium"
+		texturefile = "gfx/interface/doctrines/line_of_battle.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_fleet_distribution_medium"
+		texturefile = "gfx/interface/doctrines/fleet_distribution.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_privateer_contracts_medium"
+		texturefile = "gfx/interface/doctrines/privateers_contracts.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_rapid_response_fleet_medium"
+		texturefile = "gfx/interface/doctrines/rapid_respond_fleet.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_fleet_concentration_medium"
+		texturefile = "gfx/interface/doctrines/fleet_concentration.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_overwhelming_firepower_medium"
+		texturefile = "gfx/interface/doctrines/overwhelming_firepower.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_ascendance_of_steam_medium"
+		texturefile = "gfx/interface/doctrines/acendance_of_steam.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_logistics_ships_medium"
+		texturefile = "gfx/interface/doctrines/logistic_ships.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_fleet_in_being_medium"
+		texturefile = "gfx/interface/doctrines/fleet_in_being.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_big_guns_never_tire_medium"
+		texturefile = "gfx/interface/doctrines/big_guns_never_tire.dds"
+	}
 
 
 
