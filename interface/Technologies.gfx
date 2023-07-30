@@ -2440,7 +2440,40 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/rowboat_1.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_brown_water_navy_medium"
+		texturefile = "gfx/interface/doctrines/brown_water_navy.dds"
+	}
 
+		SpriteType = {
+		name = "GFX_coastal_patrols_medium"
+		texturefile = "gfx/interface/doctrines/coastal_patrols.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_retreat_maneuvers_medium"
+		texturefile = "gfx/interface/doctrines/retreat_manouvers.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_capital_ship_preservation_medium"
+		texturefile = "gfx/interface/doctrines/capitalship_preservation.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_know_thy_enemy_medium"
+		texturefile = "gfx/interface/doctrines/know_thy_enemy.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_naval_skirmishing_medium"
+		texturefile = "gfx/interface/doctrines/naval_skirmashing.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_trade_interdiction_medium"
+		texturefile = "gfx/interface/doctrines/trade_interdiction.dds"
+	}
 
 
 
