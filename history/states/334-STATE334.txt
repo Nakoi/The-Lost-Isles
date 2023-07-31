@@ -8,11 +8,15 @@ state = {
 	history = {
 		owner = GAL 
 		add_core_of = GAL 
-		victory_points = { 3287 10 }
+		victory_points = { 3287 20 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 3
+			air_base = 2
+			3287 ={
+				naval_base = 3
+			}
 		}
 	}
 

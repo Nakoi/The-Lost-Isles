@@ -8,10 +8,11 @@ state = {
 	history = {
 		owner = AVT
 		add_core_of = AVT
-		victory_points = { 771 10 }
+		victory_points = { 771 20 }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
+			air_base = 1
 		}
 	}
 

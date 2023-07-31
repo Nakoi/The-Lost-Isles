@@ -13,11 +13,15 @@ state = {
 	history = {
 		owner = OSK
 		add_core_of = OSK
-		victory_points = { 2630 20 }
+		victory_points = { 2630 30 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 4
 			industrial_complex = 6
+			air_base = 4
+			2630 = {
+				naval_base = 7
+			}
 		}
 	}
 
