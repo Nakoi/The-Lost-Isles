@@ -3,14 +3,17 @@ state = {
 	name = "STATE_602"
 	manpower = 213494
 
-	state_category = city
+	state_category = town
 
 	history = {
 		owner = BOR
 		add_core_of = BOR
 		victory_points = { 5103 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {
