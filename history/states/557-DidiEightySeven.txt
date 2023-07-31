@@ -3,7 +3,7 @@ state = {
 	name = "STATE_557"
 	manpower = 231489
 
-	state_category = city
+	state_category = town
 
 	resources={
 		luxuries=8.000
@@ -14,8 +14,11 @@ state = {
 		owner = VED
 		add_core_of = VED
 		victory_points = { 1862 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {
