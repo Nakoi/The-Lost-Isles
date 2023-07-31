@@ -3,7 +3,7 @@ state = {
 	name = "STATE_570"
 	manpower = 243694
 
-	state_category = city
+	state_category = town
 
 	resources={
 		coal=35.000
@@ -14,8 +14,11 @@ state = {
 		owner = CIL
 		add_core_of = CIL
 #		victory_points = { 5294 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {
