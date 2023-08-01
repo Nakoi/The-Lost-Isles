@@ -109,15 +109,15 @@
  
  ESU_eyes_on_the_clans:0 "Eyes on the Interior"
  ESU_eyes_on_the_clans_desc:0 ""
- ESU_envoys_to_the_clans:0 "An Ultimatum"
+ ESU_envoys_to_the_clans:0 "Bring Forth Civilisation"
  ESU_envoys_to_the_clans_desc:0 ""
- ESU_talks_with_Hriki:0 "Secure the Central Dark Soil Plain"
+ ESU_talks_with_Hriki:0 "Civilise Clan Hriki Territory"
  ESU_talks_with_Hriki_desc:0 ""
- ESU_talks_with_Waonto:0 "Clear out the Great Unburnable Forest"
+ ESU_talks_with_Waonto:0 "Civilise Clan Waonto Territory"
  ESU_talks_with_Waonto_desc:0 ""
- ESU_talks_with_onki:0 "Secure our Southern Border"
+ ESU_talks_with_onki:0 "Civilise Clan Onki Territory"
  ESU_talks_with_onki_desc:0 ""
- ESU_talks_with_azeo:0 "Secure our Western Border"
+ ESU_talks_with_azeo:0 "Civilise Clan Azeo Territory"
  ESU_talks_with_azeo_desc:0 "
  ESU_acquire_weapons:0 "Acquire Weapons"
  ESU_acquire_weapons_desc:0 ""
@@ -340,24 +340,23 @@
  esu_start.1.t:0 "bad guy intro event"
  esu_start.1.d:0 "Synopsis: The leader of the bad guys party, alongside a mob of their supporters lead a political rally against pony ownership of business in the capital. After being stopped by the police from trashing a pony-owned shop, the leader speaks up, saying that the kirins are their gods' chosen people, and that there is no place for ponies in their holy domain. The crowd cheers."
  esu_start.1.a:0 "Go back North!"
+ 
+ esu_start.2.t:0 "The Yorii Street War"
+ esu_start.2.d:0 "rebirth movement is using paramilitary formations to prevent ponies from voting, starting a fight with the local OON paramilitary formations along with the local police force and pony locals."
+ esu_start.2.a:0 "the good guys win ofcofc"
+ esu_start.2.b:0 "the bad guys win somehow idk"
   
  esu_event.0.t:0 "the election !!!!!"
- esu_event.0.d:0 "holy shit bro did you vote???????????"
- esu_event.0.a:0 "united russia"
- esu_event.0.b:0 "ldpr"
+ esu_event.0.d:0 "bro the good guys won!!"
+ esu_event.0.a:0 "epic!"
+ 
+ esu_event.00.t:0 "the election !!!!!"
+ esu_event.00.d:0 "the evil guys couped the government,,,"
+ esu_event.00.a:0 "uhoh :((("
   
  esu_event.1.t:0 "Slicing the Pie"
- esu_event.1.d:0 "After long and deep discussion betwen Kae, Suatoa and Esun leaders of each country came into a compromise that will satisfy every side. Kae Trade Leauge will recive the territory of Unuo, Rinto and Ashi Clans, Principality of Suatoa will recive the territory of Freuji, Sentian and Aing Clans while Holy Republic of Esun will recive Hriki, Waonto and Okni Clans."
+ esu_event.1.d:0 "ayo these clans a pain in the ass fr no cap!! gotta cap the opps ngl frfr.... (my mental stability has degraded severly by writing this)"
  esu_event.1.a:0 "map painting time"
-  
- esu_event.2.t:0 "Ultimatum from Esun"
- esu_event.2.d:0 "get annexed or us and die or fucking die"
- esu_event.2.a:0 "get annexed and die"
- esu_event.2.b:0 "fucking die"
-  
- esu_event.3.t:0 "They Refuse!"
- esu_event.3.d:0 "The local clan leader has refused our ultimatum! We shall crush these barbarians with our professional military might!"
- esu_event.3.a:0 "Forward!"
   
  esu_event.9.t:0 "live leak logo"
  esu_event.9.d:0 "Today (leader name) was visiting and checking working conditions in one of our coal mines and while checking the safety of the tunnels in front of the press, a coal dust explosion had occured in close proximity of our leader. After a hours-long rescue mission workers found only the lifeless cadaver of our leader, along with those of the journalists surrounding him, and the unfortunate miners that could not evacuvate before passing from asphyxiation."
@@ -394,6 +393,7 @@
  esu_sanelate.7.a:0 "idk"
   
 ###TOOLTIP LOCALISATION###
+ ESUtt_election_tooltip:0 "The §YElection Cycle§! of the §Y285th Year of the Ootari Republic§! will be concluded!"
  ESUtt_second_rising:0 "§YThe Second Rising§! will start in the southern part of the §YOld Homeland.§!"
  ESUtt_eak_alliance:0 "We will attempt to form an alliance with §YKae§! if is controlled by a §YVisonarist§! government."
  ESUtt_ootari_united:0 "All other nations of Ootari have been §Rdefeated§!"
