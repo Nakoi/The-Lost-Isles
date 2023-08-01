@@ -27,19 +27,38 @@ focus_tree = {
 		select_effect = {
 			country_event = {
 				id = esu_start.0
-				days = 28
+				days = 14
 			}
 		}
 		
 		select_effect = {
 			country_event = {
 				id = esu_start.1
-				days = 56
+				days = 28
+			}
+		}
+		
+		select_effect = {
+			country_event = {
+				id = esu_start.2
+				days = 77
 			}
 		}
 		
 		completion_reward = {
-			country_event = { id = esu_event.0 days = 4 }
+			custom_effect_tooltip = ESUtt_election_tooltip
+			IF = {
+				limit = {
+					has_country_flag = esu_sane_victory
+				}
+				country_event = { id = esu_event.0 }
+			}
+			IF = {
+				limit = {
+					has_country_flag = esu_schizo_victory
+				}
+				country_event = { id = esu_event.00 }
+			}
 		}
 	}
 
@@ -57,7 +76,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_country_flag = esu_sane_victory
+			always = no
 		}
 		
 		completion_reward = {
@@ -92,6 +111,7 @@ focus_tree = {
 		id = ESU_give_them_jobs
 		icon = ESU_GFX_Give_Them_Jobs
 		prerequisite = { focus = ESU_pony_rights }
+		prerequisite = { focus = ESU_old_relations }
 		x = -2
 		y = 2
 		relative_position_id = ESU_visionarism
@@ -128,26 +148,26 @@ focus_tree = {
 		
 		completion_reward = {
 			122 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
 			123 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
 			124 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -158,6 +178,7 @@ focus_tree = {
 		id = ESU_pony_work_acceptance
 		icon = ESU_GFX_Pony_Work_acceptance
 		prerequisite = { focus = ESU_give_them_jobs }
+		prerequisite = { focus = ESU_booming_industry }
 		x = -1
 		y = 3
 		relative_position_id = ESU_visionarism
@@ -193,6 +214,7 @@ focus_tree = {
 		id = ESU_pony_education
 		icon = ESU_GFX_Pony_eductation
 		prerequisite = { focus = ESU_give_them_jobs }
+		prerequisite = { focus = ESU_booming_industry }
 		x = -3
 		y = 3
 		relative_position_id = ESU_visionarism
@@ -500,26 +522,26 @@ focus_tree = {
 		
 		completion_reward = {
 			466 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
 			470 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
 			468 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -764,10 +786,22 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			HRI = { country_event = { id = esu_event.2 days = 6 } }
-			ONK = { country_event = { id = esu_event.2 days = 6 } }
-			WAO = { country_event = { id = esu_event.2 days = 6 } }
-			AZE = { country_event = { id = esu_event.2 days = 6 } }
+			declare_war_on = {
+				target = HRI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ONK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = WAO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AZE
+				type = annex_everything
+			}
 		}
 	}
 
@@ -1199,7 +1233,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_country_flag = esu_schizo_victory
+			always = no
 		}
 		
 		completion_reward = {
@@ -2753,7 +2787,7 @@ focus_tree = {
 					has_idea = ESU_homecoming_idea_3_quality
 				}
 				swap_ideas = {
-					remove_idea = ESU_homecoming_idea_4_quality_milspend
+					remove_idea = ESU_homecoming_idea_3_quality
 					add_idea = ESU_homecoming_idea_4_quantity_milspend
 				}
 			}
