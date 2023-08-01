@@ -31,6 +31,35 @@ country_event = {
 }
 
 country_event = {
+	id = esu_start.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_start.2"}
+	title = esu_start.2.t
+	desc = esu_start.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_start.2.a
+		set_country_flag = esu_sane_victory
+		add_manpower = -534
+		466 = { add_manpower = -730 }
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = esu_start.2.b
+		set_country_flag = esu_schizo_victory
+		add_manpower = -878
+		466 = { add_manpower = -673 }
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = {
 	id = esu_event.0
 	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.0"}
 	title = esu_event.0.t
@@ -43,18 +72,22 @@ country_event = {
 		name = esu_event.0.a
 		set_country_flag = esu_sane_victory
 		complete_national_focus = ESU_visionarism
-		ai_chance = {
-			base = 100
-		}
 	}
+}
+
+country_event = {
+	id = esu_event.00
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.00"}
+	title = esu_event.00.t
+	desc = esu_event.00.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
 	
 	option = {
-		name = esu_event.0.b
+		name = esu_event.00.b
 		set_country_flag = esu_schizo_victory
 		complete_national_focus = ESU_militarism
-		ai_chance = {
-			base = 0
-		}
 	}
 }
 
@@ -99,72 +132,6 @@ country_event = {
 			add_state_claim = 472
 			add_state_claim = 485
 			add_state_claim = 486
-		}
-	}
-}
-
-country_event = {
-	id = esu_event.2
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.2"}
-	title = esu_event.2.t
-	desc = esu_event.2.d
-	picture = GFX_news_event_chinese_soldiers_march
-	is_triggered_only = yes
-	major = no
-	
-	option = {
-		name = esu_event.2.a
-		ESU = {
-			annex_country = {
-				target = ROOT
-				transfer_troops = yes
-			}
-		}
-		ai_chance = {
-			base = 0
-		}
-	}
-	
-	option = {
-		name = esu_event.2.b
-		ESU = {
-			country_event = { 
-				id = esu_event.3
-				days = 14
-			}
-		}
-		ai_chance = {
-			base = 100
-		}
-	}
-}
-
-country_event = {
-	id = esu_event.3
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.3"}
-	title = esu_event.3.t
-	desc = esu_event.3.d
-	picture = GFX_news_event_chinese_soldiers_march
-	is_triggered_only = yes
-	major = no
-	
-	option = {
-		name = esu_event.3.a
-		declare_war_on = {
-			target = HRI
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = ONK
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = WAO
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = AZE
-			type = annex_everything
 		}
 	}
 }
