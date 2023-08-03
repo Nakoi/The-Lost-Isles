@@ -34,13 +34,6 @@ add_ideas = {
 	ootarigeneric_warlord_recruitment
 }
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		xebec_hull_tech = 1
-	}
-}
-
 set_technology = { 
 	infantry_weapons = 1
 	infantry_upgrade = 1
@@ -58,8 +51,6 @@ set_technology = {
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
-	air_frigate = 1
-	sky_carrier = 1
 	written_language = 1
 	basic_mathematics = 1
 	printing_press = 1
@@ -106,10 +97,147 @@ set_technology = {
 	Ballista = 1
 	Ballista_upgrade = 1
 	cannon = 1
-	standard_charges = 1
 	rocket_cannon = 1
 	development = 1
 	tech_primitive = 1
 	tech_civilized = 1
+}
+
+####AIR SHIT####
+set_technology = {
+	air_frigate = 1
+}
+
+####NAVAL SHIT####
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		xebec_hull_tech = 1
+		improved_xebec_hull_tech = 1
+		galley_hull_tech = 1
+		sloop_of_war_hull_tech = 1
+		medium_ship_tech = 1
+		medium_ship_tech_2 = 1
+		heavy_ship_tech = 1
+		heavy_ship_tech_2 = 1
+		mtg_transport = 1
+		spotting_equipment_1 = 1
+		navigation_equipment_1 = 1
+		improved_gun_carriers = 1
+		carronade = 1
+		naval_mortars = 1
+	}
+}
+
+if = {
+	limit = { NOT = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_xebec_ship = 1
+		improved_xebec_ship = 1
+		galley_ship = 1
+		sloop_of_war_ship = 1
+		medium_ship_poverty = 1
+		medium_ship_poverty_2 = 1
+		siege_frigate_ship = 1
+		heavy_ship_poverty = 1
+		heavy_ship_poverty_2 = 1
+		transport_ship = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	# Xebecs #
+	create_equipment_variant = {
+		name = "Xebec"
+		type = xebec_hull_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = light_naval_battery_2
+			fixed_ship_engine_slot = xebec_propulsion_2
+			rear_1_custom_slot = light_naval_battery_2
+		}
+	}
+	# Light Ships #
+	create_equipment_variant = {
+		name = "Sloop"
+		type = galley_hull_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = light_naval_battery_2
+			fixed_ship_anti_air_slot = naval_anti_air_1
+			fixed_ship_fire_control_system_slot = spotting_equipment_1
+			fixed_ship_engine_slot = galley_propulsion_2
+			mid_1_custom_slot = light_naval_battery_2
+			rear_1_custom_slot = light_naval_battery_2
+		}
+	}
+	# Medium Ships #
+	create_equipment_variant = {
+		name = "Light Frigate"
+		type = ship_hull_cruiser_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = light_naval_battery_2
+			fixed_ship_anti_air_slot = naval_anti_air_1
+			fixed_ship_fire_control_system_slot = navigation_equipment_1
+			fixed_ship_armor_slot = light_planking_2
+			fixed_ship_engine_slot = frigate_propulsion_2
+			front_1_custom_slot = light_naval_battery_2
+			mid_1_custom_slot = light_naval_battery_2
+			mid_2_custom_slot = light_naval_battery_2
+			rear_1_custom_slot = light_naval_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Carronade Frigate"
+		type = ship_hull_cruiser_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = light_naval_battery_2
+			fixed_ship_anti_air_slot = naval_anti_air_1
+			fixed_ship_fire_control_system_slot = navigation_equipment_1
+			fixed_ship_armor_slot = light_planking_2
+			fixed_ship_engine_slot = frigate_propulsion_2
+			front_1_custom_slot = light_naval_battery_2
+			mid_1_custom_slot = naval_carronades_1
+			mid_2_custom_slot = naval_carronades_1
+			rear_1_custom_slot = light_naval_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Siege Frigate"
+		type = ship_hull_cruiser_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = naval_mortars_1
+			fixed_ship_anti_air_slot = naval_anti_air_1
+			fixed_ship_fire_control_system_slot = navigation_equipment_1
+			fixed_ship_armor_slot = light_planking_2
+			fixed_ship_engine_slot = frigate_propulsion_2
+			front_1_custom_slot = light_naval_battery_2
+			mid_1_custom_slot = light_naval_battery_2
+			mid_2_custom_slot = light_naval_battery_2
+			rear_1_custom_slot = light_naval_battery_2
+		}
+	}
+	# Heavy Ships #
+	create_equipment_variant = {
+		name = "Ship of the Line"
+		type = ship_hull_heavy_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = heavy_naval_battery_2
+			fixed_ship_anti_air_slot = naval_anti_air_1
+			fixed_ship_fire_control_system_slot = navigation_equipment_1
+			fixed_ship_engine_slot = ship_of_the_line_propulsion_2
+			fixed_ship_armor_slot = heavy_planking_2
+			front_1_custom_slot = light_naval_battery_2
+			mid_1_custom_slot = heavy_naval_battery_2
+			mid_2_custom_slot = heavy_naval_battery_2
+			mid_3_custom_slot = heavy_naval_battery_2
+			rear_1_custom_slot = light_naval_battery_2
+		}
+	}
 }
 
