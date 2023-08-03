@@ -32,13 +32,6 @@ add_ideas = {
 	race_dragon
 }
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		xebec_hull_tech = 1
-	}
-}
-
 set_technology = { 
 	infantry_weapons = 1
 	tech_support = 1
