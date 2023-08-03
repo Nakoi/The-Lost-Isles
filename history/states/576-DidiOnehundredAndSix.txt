@@ -13,14 +13,15 @@ state = {
 	history = {
 		owner = CIL
 		add_core_of = CIL
-		victory_points = { 5223 10 }
+		victory_points = { 5223 20 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
 			dockyard = 1
+			air_base = 4
 			5223 ={
-				naval_base = 1
+				naval_base = 5
 			}
 		}
 	}

@@ -8,14 +8,15 @@ state = {
 	history = {
 		owner = VED
 		add_core_of = VED
-		victory_points = { 171 20 }
+		victory_points = { 171 30 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 4
 			dockyard = 3
+			air_base = 6
 			171={
-				naval_base = 1
+				naval_base = 6
 			}
 		}
 	}

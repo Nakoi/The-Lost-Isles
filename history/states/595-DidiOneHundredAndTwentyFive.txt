@@ -8,14 +8,14 @@ state = {
 	history = {
 		owner = BOR
 		add_core_of = BOR
-#		victory_points = { 907 10 }
+		victory_points = { 907 20 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 2
 			dockyard = 4
 			907={
-				naval_base = 1
+				naval_base = 6
 			}
 		}
 	}

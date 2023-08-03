@@ -16,15 +16,16 @@ state = {
 	history = {
 		owner = LUA
 		add_core_of = LUA
-		victory_points = { 5333 20 }
+		victory_points = { 5333 30 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 4
 			industrial_complex = 5
 			synthetic_refinery = 1
 			dockyard = 3
+			air_base = 10
 			5333={
-				naval_base = 1
+				naval_base = 10
 			}
 		}
 	}
