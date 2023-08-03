@@ -8,14 +8,15 @@ state = {
 	history = {
 		owner = TYK
 		add_core_of = TYK
-		victory_points = { 4744 10 }
+		victory_points = { 4744 20 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 3
 			dockyard = 3
+			air_base = 2
 			4744={
-				naval_base = 1
+				naval_base = 5
 			}
 		}
 	}

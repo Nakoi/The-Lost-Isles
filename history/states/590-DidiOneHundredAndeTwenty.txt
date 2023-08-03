@@ -8,14 +8,15 @@ state = {
 	history = {
 		owner = CAI
 		add_core_of = CAI
-		victory_points = { 4733 20 }
+		victory_points = { 4733 30 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 2
 			dockyard = 3
+			air_base = 5
 			4733={
-				naval_base = 1
+				naval_base = 8
 			}
 		}
 	}
