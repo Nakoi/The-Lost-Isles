@@ -2,269 +2,269 @@
 spriteTypes = {	
 	spriteType = {
 		name = "GFX_trait_tli_bgtrait_professor"
-		texturefile = "gfx\interface\traits\trait_professor.dds"
+		texturefile = "gfx/interface/traits/trait_professor.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_bgtrait_priest"
-		texturefile = "gfx\interface\traits\trait_priest.dds"
+		texturefile = "gfx/interface/traits/trait_priest.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_bgtrait_butcher"
-		texturefile = "gfx\interface\traits\trait_butcher.dds"
+		texturefile = "gfx/interface/traits/trait_butcher.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_bgtrait_insane"
-		texturefile = "gfx\interface\traits\trait_insane.dds"
+		texturefile = "gfx/interface/traits/trait_insane.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_bgtrait_war_hero"
-		texturefile = "gfx\interface\traits\trait_war_hero.dds"
+		texturefile = "gfx/interface/traits/trait_war_hero.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_bgtrait_elderly"
-		texturefile = "gfx\interface\traits\trait_elderly.dds"
+		texturefile = "gfx/interface/traits/trait_elderly.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_bgtrait_natural_leader"
-		texturefile = "gfx\interface\traits\trait_natural_leader.dds"
+		texturefile = "gfx/interface/traits/trait_natural_leader.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_bgtrait_fanatic"
-		texturefile = "gfx\interface\traits\trait_fanatic.dds"
+		texturefile = "gfx/interface/traits/trait_fanatic.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_bgtrait_uncommonly_young"
-		texturefile = "gfx\interface\traits\trait_uncommonly_young.dds"
+		texturefile = "gfx/interface/traits/trait_uncommonly_young.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_bgtrait_aristocrat"
-		texturefile = "gfx\interface\traits\trait_aristocrat.dds"
+		texturefile = "gfx/interface/traits/trait_aristocrat.dds"
 		legacy_lazy_load = no
 	}
 	
 	
 	spriteType = {
 		name = "GFX_trait_tli_pertrait_cautious"
-		texturefile = "gfx\interface\traits\cautious_medal.dds"
+		texturefile = "gfx/interface/traits/cautious_medal.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_artyofficer"
-		texturefile = "gfx\interface\traits\artillery_officer.dds"
+		texturefile = "gfx/interface/traits/artillery_officer.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_thorough_planner"
-		texturefile = "gfx\interface\traits\thorough_planner.dds"
+		texturefile = "gfx/interface/traits/thorough_planner.dds"
 		legacy_lazy_load = no
 	}
 	
 	
 	spriteType = {
 		name = "GFX_trait_tli_pertrait_chivalrous"
-		texturefile = "gfx\interface\traits\chivalrous_medal.dds"
+		texturefile = "gfx/interface/traits/chivalrous_medal.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_elite_commander"
-		texturefile = "gfx\interface\traits\elite_commander.dds"
+		texturefile = "gfx/interface/traits/elite_commander.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_honorable_commander"
-		texturefile = "gfx\interface\traits\honorable_commander.dds"
+		texturefile = "gfx/interface/traits/honorable_commander.dds"
 		legacy_lazy_load = no
 	}
 	
 	
 	spriteType = {
 		name = "GFX_trait_tli_pertrait_disciplined"
-		texturefile = "gfx\interface\traits\disciplined_medal.dds"
+		texturefile = "gfx/interface/traits/disciplined_medal.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_skilled_staffer"
-		texturefile = "gfx\interface\traits\skilled_staffer.dds"
+		texturefile = "gfx/interface/traits/skilled_staffer.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_focused"
-		texturefile = "gfx\interface\traits\focused.dds"
+		texturefile = "gfx/interface/traits/focused.dds"
 		legacy_lazy_load = no
 	}
 	
 	
 	spriteType = {
 		name = "GFX_trait_tli_pertrait_glory_hound"
-		texturefile = "gfx\interface\traits\glory_hound.dds"
+		texturefile = "gfx/interface/traits/glory_hound.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_infantry_commander"
-		texturefile = "gfx\interface\traits\infantry_commander.dds"
+		texturefile = "gfx/interface/traits/infantry_commander.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_lead_by_example"
-		texturefile = "gfx\interface\traits\exemplary_leader.dds"
+		texturefile = "gfx/interface/traits/exemplary_leader.dds"
 		legacy_lazy_load = no
 	}
 	
 	
 	spriteType = {
 		name = "GFX_trait_tli_pertrait_merciful"
-		texturefile = "gfx\interface\traits\merciful_medal.dds"
+		texturefile = "gfx/interface/traits/merciful_medal.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_medic"
-		texturefile = "gfx\interface\traits\medic.dds"
+		texturefile = "gfx/interface/traits/medic.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_relaxed_leader"
-		texturefile = "gfx\interface\traits\relaxed_leader.dds"
+		texturefile = "gfx/interface/traits/relaxed_leader.dds"
 		legacy_lazy_load = no
 	}
 	
 	
 	spriteType = {
 		name = "GFX_trait_tli_pertrait_intelligent"
-		texturefile = "gfx\interface\traits\intelligent_medal.dds"
+		texturefile = "gfx/interface/traits/intelligent_medal.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_quartermaster"
-		texturefile = "gfx\interface\traits\quartermaster.dds"
+		texturefile = "gfx/interface/traits/quartermaster.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_sapper"
-		texturefile = "gfx\interface\traits\sapper.dds"
+		texturefile = "gfx/interface/traits/sapper.dds"
 		legacy_lazy_load = no
 	}
 	
 	
 	spriteType = {
 		name = "GFX_trait_tli_pertrait_merciless"
-		texturefile = "gfx\interface\traits\merciless.dds"
+		texturefile = "gfx/interface/traits/merciless.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_disciplinarian"
-		texturefile = "gfx\interface\traits\disciplinarian.dds"
+		texturefile = "gfx/interface/traits/disciplinarian.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_murderer"
-		texturefile = "gfx\interface\traits\murderer.dds"
+		texturefile = "gfx/interface/traits/murderer.dds"
 		legacy_lazy_load = no
 	}
 	
 	
 	spriteType = {
 		name = "GFX_trait_tli_pertrait_reckless"
-		texturefile = "gfx\interface\traits\reckless.dds"
+		texturefile = "gfx/interface/traits/reckless.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_mobile"
-		texturefile = "gfx\interface\traits\mobile.dds"
+		texturefile = "gfx/interface/traits/mobile.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_impulsive"
-		texturefile = "gfx\interface\traits\impulsive.dds"
+		texturefile = "gfx/interface/traits/impulsive.dds"
 		legacy_lazy_load = no
 	}
 	
 	
 	spriteType = {
 		name = "GFX_trait_tli_pertrait_trickster"
-		texturefile = "gfx\interface\traits\trickster.dds"
+		texturefile = "gfx/interface/traits/trickster.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_ambusher"
-		texturefile = "gfx\interface\traits\ambusher.dds"
+		texturefile = "gfx/interface/traits/ambusher.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_asstrait_one_step_ahead"
-		texturefile = "gfx\interface\traits\one_step_ahead.dds"
+		texturefile = "gfx/interface/traits/one_step_ahead.dds"
 		legacy_lazy_load = no
 	}
 	
 	
 	spriteType = {
 		name = "GFX_trait_tli_fmtrait_superior_logistics"
-		texturefile = "gfx\interface\traits\garrison_medal.dds"
+		texturefile = "gfx/interface/traits/garrison_medal.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_fmtrait_decisive_battle"
-		texturefile = "gfx\interface\traits\frontline_marshal.dds"
+		texturefile = "gfx/interface/traits/frontline_marshal.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_fmtrait_expert_delegator"
-		texturefile = "gfx\interface\traits\expert_delegator.dds"
+		texturefile = "gfx/interface/traits/expert_delegator.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_fmtrait_only_the_best"
-		texturefile = "gfx\interface\traits\only_the_best.dds"
+		texturefile = "gfx/interface/traits/only_the_best.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_fmtrait_offensive_doctrine"
-		texturefile = "gfx\interface\traits\offensive_doctrine.dds"
+		texturefile = "gfx/interface/traits/offensive_doctrine.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_trait_tli_fmtrait_defensive_doctrine"
-		texturefile = "gfx\interface\traits\defensive_doctrine.dds"
+		texturefile = "gfx/interface/traits/defensive_doctrine.dds"
 		legacy_lazy_load = no
 	}
 	
