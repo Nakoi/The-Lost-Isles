@@ -2530,6 +2530,66 @@ spriteTypes = {
 		texturefile = "gfx/interface/doctrines/big_guns_never_tire.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_air_parity_medium"
+		texturefile = "gfx/interface/doctrines/air_parity.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_superior_armaments_medium"
+		texturefile = "gfx/interface/doctrines/superior_armaments.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_air_skirmisher_primacy_medium"
+		texturefile = "gfx/interface/doctrines/air_skirmisher_primacy.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_battlefield_support_medium"
+		texturefile = "gfx/interface/doctrines/battlefield_support.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_air_reconnaisance_medium"
+		texturefile = "gfx/interface/doctrines/air_reconaisance.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_logistics_disruption_medium"
+		texturefile = "gfx/interface/doctrines/logistic_disruption.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_swarm_tactics_medium"
+		texturefile = "gfx/interface/doctrines/swarm_tactics.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_battlefield_observers_medium"
+		texturefile = "gfx/interface/doctrines/battlefield_observers.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_extra_safety_protocols_medium"
+		texturefile = "gfx/interface/doctrines/safety_protocol.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_aerial_hit_and_run_medium"
+		texturefile = "gfx/interface/doctrines/airial_hit_and_run.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_small_formation_flying_medium"
+		texturefile = "gfx/interface/doctrines/small_formation_flying.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_divide_and_destroy_medium"
+		texturefile = "gfx/interface/doctrines/divide_and_destroy.dds"
+	}
+
 
 
 
