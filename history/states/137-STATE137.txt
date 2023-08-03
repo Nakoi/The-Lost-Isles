@@ -8,12 +8,15 @@ state = {
 	history = {
 		owner = AST
 		add_core_of = AST
-		victory_points = { 2726 10 }
+		victory_points = { 2726 20 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 3
 			dockyard = 2
+			2726 ={
+				naval_base = 3
+			}
 		}
 	}
 

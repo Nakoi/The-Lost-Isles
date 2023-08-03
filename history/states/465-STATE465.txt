@@ -8,12 +8,16 @@ state = {
 	history = {
 		owner = ESU
 		add_core_of = ESU
-		victory_points = { 1746 10 }
+		victory_points = { 1746 20 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3
 			industrial_complex = 2
 			dockyard = 2
+			air_base = 1
+			1746={
+				naval_base = 5
+			}
 		}
 	}
 

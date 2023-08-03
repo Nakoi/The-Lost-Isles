@@ -8,14 +8,15 @@ state = {
 	history = {
 		owner = SUA
 		add_core_of = SUA
-		victory_points = { 2461 20 }
+		victory_points = { 2461 30 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3
 			industrial_complex = 4
 			dockyard = 2
+			air_base = 3
 			2461={
-				naval_base = 1
+				naval_base = 5
 			}
 		}
 	}

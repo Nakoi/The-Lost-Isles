@@ -14,13 +14,13 @@ state = {
 		owner = SUA
 		add_core_of = SUA
 		add_core_of = AST
-		victory_points = { 3134 10 }
+		victory_points = { 3134 20 }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			dockyard = 3
 			3134={
-				naval_base = 1
+				naval_base = 2
 			}
 		}
 	}
