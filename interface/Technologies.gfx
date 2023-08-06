@@ -2590,6 +2590,96 @@ spriteTypes = {
 		texturefile = "gfx/interface/doctrines/divide_and_destroy.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_strategic_airship_implementation_medium"
+		texturefile = "gfx/interface/doctrines/strategic_airship_implementation.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_flexible_formations_medium"
+		texturefile = "gfx/interface/doctrines/flexible_formations.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_precise_bombing_medium"
+		texturefile = "gfx/interface/doctrines/precise_bombing.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_high_altitude_bombing_medium"
+		texturefile = "gfx/interface/doctrines/high_altitude_bombing.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_interception_techniques_medium"
+		texturefile = "gfx/interface/doctrines/interception_techniques.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_nap_of_the_clouds_medium"
+		texturefile = "gfx/interface/doctrines/scraping_the_clouds.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_magical_presence_detection_medium"
+		texturefile = "gfx/interface/doctrines/magical_presence_detection.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_magical_shield_generators_medium"
+		texturefile = "gfx/interface/doctrines/magical_shield_generators.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_perfecting_strategic_bombing_medium"
+		texturefile = "gfx/interface/doctrines/perfect_strategic_bombing.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_battlefield_destruction_medium"
+		texturefile = "gfx/interface/doctrines/battlefield_destruction.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_damage_control_medium"
+		texturefile = "gfx/interface/doctrines/damage_control.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_aerial_invasion_support_medium"
+		texturefile = "gfx/interface/doctrines/areal_invasion_support.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_naval_hunting_tactics_medium"
+		texturefile = "gfx/interface/doctrines/naval_hunting_tactics.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_precision_strikes_medium"
+		texturefile = "gfx/interface/doctrines/battlefield_destruction.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_long_range_precision_medium"
+		texturefile = "gfx/interface/doctrines/battlefield_observers.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pride_of_the_air_fleet_medium"
+		texturefile = "gfx/interface/doctrines/pride_of_the_airfleet.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_small_bombardier_primacy_medium"
+		texturefile = "gfx/interface/doctrines/small_bombardier_primacy.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_night_spotting_equipment_medium"
+		texturefile = "gfx/interface/doctrines/night_spotting_equipment.dds"
+	}
+
 
 
 
