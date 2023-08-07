@@ -2680,6 +2680,51 @@ spriteTypes = {
 		texturefile = "gfx/interface/doctrines/night_spotting_equipment.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_pony_juggernaut_medium"
+		texturefile = "gfx/interface/race/pony_jug.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_pioneers_medium"
+		texturefile = "gfx/interface/race/pony_pioneers.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_mountain_training_medium"
+		texturefile = "gfx/interface/race/pony_mountain_training.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_heaviest_armour_medium"
+		texturefile = "gfx/interface/race/pony_heaviest_armor.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_iron_wall_medium"
+		texturefile = "gfx/interface/race/pony_iron_wall.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_crystalline_shielding_medium"
+		texturefile = "gfx/interface/race/pony_crystal_shielding.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_reinforced_trenches_medium"
+		texturefile = "gfx/interface/race/pony_reinforced_trenches.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_sapper_training_medium"
+		texturefile = "gfx/interface/race/pony_sapper_training.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_dynamite_utilisation_medium"
+		texturefile = "gfx/interface/race/pony_dynamite_utilisation.dds"
+	}
+
 
 
 
