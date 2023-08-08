@@ -2770,6 +2770,86 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/pony_cloud_cover.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_pony_infantry_disruption_training_medium"
+		texturefile = "gfx/interface/race/pony_infantry_distruption_training.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_anti_armor_medium"
+		texturefile = "gfx/interface/race/pony_anti_armor.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_gunlance_medium"
+		texturefile = "gfx/interface/race/pony_gunlance_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_gunlance_equipment_1_medium"
+		texturefile = "gfx/interface/race/pony_gunlance_2.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_weaponized_storm_clouds_medium"
+		texturefile = "gfx/interface/race/pony_weaponized_stormclouds.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_tornado_strike_medium"
+		texturefile = "gfx/interface/race/pony_tornado_strike.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_air_skirmishing_training_medium"
+		texturefile = "gfx/interface/race/pony_airs_kirmishing_training.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_perfected_hit_and_run_medium"
+		texturefile = "gfx/interface/race/pony_hit_and_run.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_Breech_loaded_gunlance_medium"
+		texturefile = "gfx/interface/race/pony_gunlance_3.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_gunlance_equipment_2_medium"
+		texturefile = "gfx/interface/race/pony_gunlance_3.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_aerial_reconaissance_medium"
+		texturefile = "gfx/interface/race/pony_aerial_reconaissance.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_weather_control_medium"
+		texturefile = "gfx/interface/race/pony_weather_control.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_home_in_skies_medium"
+		texturefile = "gfx/interface/race/pony_home_in_skies.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_artillery_wind_medium"
+		texturefile = "gfx/interface/race/pony_artillery_wind.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_revolving_gunlance_medium"
+		texturefile = "gfx/interface/race/pony_revolving_gunlance.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_gunlance_equipment_3_medium"
+		texturefile = "gfx/interface/race/pony_revolving_gunlance.dds"
+	}
+
 
 
 
