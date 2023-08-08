@@ -2725,6 +2725,51 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/pony_dynamite_utilisation.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_pony_the_terex_medium"
+		texturefile = "gfx/interface/race/pony_terex.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_agricultural_mastery_medium"
+		texturefile = "gfx/interface/race/pony_agricultural_mastery.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_magic_construction_medium"
+		texturefile = "gfx/interface/race/pony_magic_construction.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_magic_mining_medium"
+		texturefile = "gfx/interface/race/pony_magic_mining.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_industrial_talent_medium"
+		texturefile = "gfx/interface/race/pony_industrial_talent.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_wind_riders_medium"
+		texturefile = "gfx/interface/race/pony_gunlance_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_gunlance_equipment_0_medium"
+		texturefile = "gfx/interface/race/pony_gunlance_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_gunlance_equipment_0_medium"
+		texturefile = "gfx/interface/race/pony_gunlance_1.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_cloud_cover_medium"
+		texturefile = "gfx/interface/race/pony_cloud_cover.dds"
+	}
+
 
 
 
