@@ -88,7 +88,7 @@
  KAE_weapons_desc:0 ""
  KAE_improved_relations:0 "Negotiations Concluded"
  KAE_improved_relations_desc:0 ""
- KAE_advisor_in_these_times:0 "A New Grand Advisor"
+ KAE_advisor_in_these_times:0 "Form the Pacification Campaign Committee"
  KAE_advisor_in_these_times_desc:0 ""
  KAE_talks_with_rinto:0 "Negotiate with the Rinto Family"
  KAE_talks_with_rinto_desc:0 ""
@@ -98,7 +98,7 @@
  KAE_talks_with_Ashi_desc:0 ""
  KAE_claimes_We_are_ready:0 "Crush Those who Oppose us"
  KAE_claimes_We_are_ready_desc:0 ""
- KAE_Claims_Vote:0 "The Executive Council Elections"
+ KAE_Claims_Vote:0 "The End of the Cilarine Emergency"
  KAE_Claims_Vote_desc:0 ""
  
 ###FOCUS LOCALISATION - COUNCIL PATH###
@@ -605,13 +605,17 @@
  kae_startevent.1.d:0 "you gave them enough money to fuck off. now the problem is you gotta keep paying them off"
  kae_startevent.1.a:0 "at least we can sell shit now :)"
  
- kae_startevent.2.t:0 "The Grand Advisor"
- kae_startevent.2.d:0 "gigachad grand advisor got appointed, time to enact total bandit death!!!"
+ kae_startevent.2.t:0 "The Committee on the Conduct of the Pacification Campaign"
+ kae_startevent.2.d:0 "time to enact total bandit death!!! (look at the Joint Committee on the Conduct of the War from the american civil war as a reference)"
  kae_startevent.2.a:0 "kill bandits etcetc"
  
- kae_startevent.5.t:0 "Executive Council Elections"
- kae_startevent.5.d:0 "a bunch of businesskirin got elected idc lmao"
- kae_startevent.5.a:0 "absolutely nothing fucking changed lol"
+ kae_startevent.22.t:0 "A New Grand Advisor"
+ kae_startevent.22.d:0 "the old grand advisor died of old age, a new one was selected among the registered citizens of the free cities by multiplying net worth of a citizen with their age. some 60-something year old farmer who inherited a huge amount of wealth just a week ago was selected to be the new grand advisor to the exectutive council"
+ kae_startevent.22.a:0 "real."
+ 
+ kae_startevent.5.t:0 "The End of the Emergency"
+ kae_startevent.5.d:0 "we made peace with the cilarine mercenaries and wiped out the bandits from the unorganized territories, we can finally hold the elections that were on hold for like 2 years xd"
+ kae_startevent.5.a:0 ""
  
  kae_startevent.6.t:0 "Salary Woes"
  kae_startevent.6.d:0 "a bunch of militia kirins lost their civilian jobs upon being called up for service, they demand an increase in salary to compensate for the fact that they're gonna have to find new jobs at the end of the war"
@@ -650,6 +654,11 @@
  kae_militiacrisis.5.t:0 "No Kirin to Command"
  kae_militiacrisis.5.d:0 "After mass defections of our militia in the first days of the rebellion, the generals that were supposed to lead their soldiers into battle found themselves without anykirin to give orders to! Our militia army now only exists on paper, with only the mercenaries remaining loyal, obviously due to the veterans' clear lack of coin to pay them off. As a result, we will need to radically reform our military in the future, relying more on mercenaries rather than severly underpaid volunteer militia."
  kae_militiacrisis.5.a:0 "This will hurt our coffers. A lot."
+ 
+ kae_event.1.t:0 "A Demand from Kae"
+ kae_event.1.d:0 "(suatoa pov) kae demands total and unconditional rights to use the port in kwangip to avoid paying the toll imposed by the cilarine mercenaries. while accepting the demand may result in our nation becoming subservient to the kae merchants, refusing will most definitely result in war between us and kae"
+ kae_event.1.a:0 "aight fuck it sure"
+ kae_event.1.b:0 "fuck off you BITCH!!!!!!"
  
  eak_event.1.t:0 "Woe to the Wanquished"
  eak_event.1.d:0 "get fucked lmao"
