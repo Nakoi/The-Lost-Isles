@@ -111,7 +111,7 @@ focus_tree = {
 		id = ESU_give_them_jobs
 		icon = ESU_GFX_Give_Them_Jobs
 		prerequisite = { focus = ESU_pony_rights }
-		prerequisite = { focus = ESU_old_relations }
+		#prerequisite = { focus = ESU_old_relations }
 		x = -2
 		y = 2
 		relative_position_id = ESU_visionarism
@@ -214,7 +214,7 @@ focus_tree = {
 		id = ESU_pony_education
 		icon = ESU_GFX_Pony_eductation
 		prerequisite = { focus = ESU_give_them_jobs }
-		prerequisite = { focus = ESU_booming_industry }
+		#prerequisite = { focus = ESU_booming_industry }
 		x = -3
 		y = 3
 		relative_position_id = ESU_visionarism
@@ -470,6 +470,20 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			465 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			480 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 			124 = {
 				add_building_construction = {
 					type = infrastructure
@@ -484,22 +498,29 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			122 = {
+			466 = {
 				add_building_construction = {
-					type = supply_node
+					type = infrastructure
 					level = 1
 					instant_build = yes
-					province = 3456
 				}
 			}
-			124 = {
-				add_building_construction = {
-					type = supply_node
-					level = 1
-					instant_build = yes
-					province = 469
-				}
-			}
+			#122 = {
+			#	add_building_construction = {
+			#		type = supply_node
+			#		level = 1
+			#		instant_build = yes
+			#		province = 3456
+			#	}
+			#}
+			#124 = {
+			#	add_building_construction = {
+			#		type = supply_node
+			#		level = 1
+			#		instant_build = yes
+			#		province = 469
+			#	}
+			#}
 		}
 	}
 
@@ -981,6 +1002,7 @@ focus_tree = {
 		
 		completion_reward = {
 			unlock_decision_category_tooltip = decisioncat_esu_integration
+			country_event = { id = esu_event.3 days = 3 }
 			add_stability = -0.05
 			add_manpower = 50000
 		}
@@ -1012,6 +1034,7 @@ focus_tree = {
 		
 		completion_reward = {
 			unlock_decision_category_tooltip = decisioncat_esu_integration
+			country_event = { id = esu_event.4 days = 3 }
 			add_stability = 0.1
 			483 = { add_manpower = -8000 }
 			496 = { add_manpower = -8000 }
