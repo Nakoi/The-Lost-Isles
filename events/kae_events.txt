@@ -562,6 +562,23 @@ country_event = {
 				autonomy_state = autonomy_dominion
 			}
 		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = KAE
+					value > 89
+				}	
+			}
+			modifier = {
+				add = 25
+				has_opinion = {
+					target = KAE
+					value > 24
+				}
+			}	
+		}
 	}
 	
 	option = {
@@ -571,6 +588,16 @@ country_event = {
 				type = annex_everything
 				target = SUA
 			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 50
+				has_opinion = {
+					target = KAE
+					value < -15
+				}
+			}	
 		}
 	}
 }
