@@ -159,6 +159,13 @@ focus_tree = {
 			factor = 5
 		}
 		
+		select_effect = {
+			country_event = {
+				id = kae_startevent.22
+				days = 14
+			}
+		
+		}
 		completion_reward = {
 			country_event = { id = kae_startevent.2 }
 		}
@@ -389,7 +396,7 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-				add_manpower = 200000
+				add_manpower = 20000
 			}
 		}
 	}
@@ -421,7 +428,7 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-				add_manpower = 200000
+				add_manpower = 20000
 			}
 		}
 	}
@@ -453,7 +460,7 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-				add_manpower = 200000
+				add_manpower = 20000
 			}
 		}
 	}
@@ -485,7 +492,7 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-				add_manpower = 200000
+				add_manpower = 20000
 			}
 		}
 	}
@@ -543,11 +550,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			create_wargoal = {
-				type = take_state_focus
-				target = 418.owner
-				generator = { 418 }
-			}
+			SUA = { country_event = { id = kae_event.1 } }
 		}
 	}
 	
@@ -564,11 +567,35 @@ focus_tree = {
 		}
 		
 		available = {
-			owns_state = 491
-			owns_state = 490
-			owns_state = 487
-			owns_state = 473
-			owns_state = 418
+			#owns_state = 491
+			#owns_state = 490
+			#owns_state = 487
+			#owns_state = 473
+			#owns_state = 418
+			OR = {
+				NOT = { 
+					country_exists = SUA
+				}
+				SUA = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = AIN
+				}
+				AIN = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = SEN
+				}
+				SEN = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = FRE
+				}
+				FRE = { is_puppet_of = ESU }
+			}
 		}
 		
 		completion_reward = {
@@ -594,7 +621,7 @@ focus_tree = {
 		}
 		
 		available = {
-			owns_state = 418
+			
 		}
 		
 		completion_reward = {
@@ -661,7 +688,30 @@ focus_tree = {
 		}
 		
 		available = {
-			owns_state = 418
+			OR = {
+				NOT = { 
+					country_exists = SUA
+				}
+				SUA = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = AIN
+				}
+				AIN = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = SEN
+				}
+				SEN = { is_puppet_of = ESU }
+			}
+			OR = {
+				NOT = { 
+					country_exists = FRE
+				}
+				FRE = { is_puppet_of = ESU }
+			}
 		}
 		
 		completion_reward = {
@@ -1253,7 +1303,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_completed_focus = KAE_Claims_Vote
+			has_completed_focus = KAE_claimes_We_are_ready
 		}
 		
 		completion_reward = {
@@ -2268,7 +2318,10 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = KAE_merc_idea_02
+			swap_ideas = {
+				remove_idea = KAE_merc_idea_01
+				add_idea = KAE_merc_idea_02
+			}
 		}
 	}
 
@@ -2957,6 +3010,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			remove_ideas = KAE_civilwar_nomanpower_idea
 			swap_ideas = {
 				remove_idea = recruit_irregular_army
 				add_idea = recruit_selectivecon
@@ -3105,6 +3159,7 @@ focus_tree = {
 			add_political_power = 100
 			add_stability = 0.15
 			hidden_effect = {
+				remove_ideas = KAE_civilwar_nomanpower_idea
 				IF = {
 					limit = {
 						has_idea = recruit_irregular_army
