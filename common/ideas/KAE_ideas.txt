@@ -848,11 +848,11 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				always = yes
+				country_exists = KAE
 			}
 				
 			modifier = {
-				conscription_factor = 1
+				conscription_factor = 0.35
 			}
 		}
 		
@@ -860,11 +860,11 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				always = yes
+				country_exists = KAE
 			}
 				
 			modifier = {
-				conscription_factor = 1.5
+				conscription_factor = 0.6
 				army_attack_factor = 0.1
 				army_defence_factor = -0.1
 			}
@@ -874,11 +874,11 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				always = yes
+				country_exists = KAE
 			}
 				
 			modifier = {
-				conscription_factor = 0.6
+				conscription_factor = 0.1
 				army_attack_factor = -0.1
 				army_defence_factor = 0.1
 			}
