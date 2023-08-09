@@ -41,6 +41,7 @@ country_event = {
 	
 	option = {
 		name = esu_start.2.a
+		hidden_effect = { ESU = { country_event = { id = esu_event.2 days = 42 } } }
 		set_country_flag = esu_sane_victory
 		add_manpower = -534
 		466 = { add_manpower = -730 }
@@ -137,6 +138,56 @@ country_event = {
 }
 
 country_event = {
+	id = esu_event.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.2"}
+	title = esu_event.2.t
+	desc = esu_event.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.2.a
+	}
+}
+
+country_event = {
+	id = esu_event.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.3"}
+	title = esu_event.3.t
+	desc = esu_event.3.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.3.a
+		add_manpower = 56
+	}
+	option = {
+		name = esu_event.3.b
+		add_manpower = -9
+		499 = { add_manpower = -52 }
+	}
+}
+
+country_event = {
+	id = esu_event.4
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.4"}
+	title = esu_event.4.t
+	desc = esu_event.4.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.4.a
+		add_manpower = -34
+		499 = { add_manpower = -6 }
+	}
+}
+
+country_event = {
 	id = esu_event.9
 	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.9"}
 	title = esu_event.9.t
@@ -148,9 +199,26 @@ country_event = {
 	option = {
 		name = esu_event.9.a
 		set_country_flag = esu_sane_lategame_tree
+		country_event = { id = esu_event.10 days = 14 }
+		#complete_national_focus = ESU_a_new_dawn
+	}
+}
+
+country_event = {
+	id = esu_event.10
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.10"}
+	title = esu_event.10.t
+	desc = esu_event.10.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = esu_event.10.a
 		complete_national_focus = ESU_a_new_dawn
 	}
 }
+
 
 country_event = {
 	id = esu_sanelate.0
