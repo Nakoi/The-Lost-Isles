@@ -265,7 +265,7 @@
  ESU_homecoming_idea_3_quantity:0 "The Spirit of Homecoming"
  ESU_homecoming_idea_3_quality:0 "The Spirit of Homecoming"
  ESU_homecoming_idea_4_quantity_milspend:0 "The Spirit of Homecoming"
- ESU_homecoming_idea_4_quantity_milspend:0 "The Spirit of Homecoming"
+ ESU_homecoming_idea_4_quality_milspend:0 "The Spirit of Homecoming"
  ESU_ootari_nationalism_1:0 "Ootari Nationalists Unhappy"
  ESU_ootari_nationalism_2:0 "The Birthplace of Ootari Nationalism"
  ESU_ootari_nationalism_3:0 "The Birthplace of Ootari Nationalism"
@@ -333,16 +333,16 @@
  
 
 ###EVENT LOCALISATION ###
- esu_start.0.t:0 "good guy intro event"
- esu_start.0.d:0 "Synopsis: The leader of the good guys party speaks at a temple of the central god to the gathered kirins, and presents their ideas, arguing how they and the ponies have simmilar experiences of being exiled for their desire for freedom, and it would be an affront to the central god to treat them any worse. They state how they believe firmly in the principles of their revolution, and how only through reconciliation, can they achieve peace. At the end, they urge the gathered to vote for them in the upcoming elections. Should also show the other important party members as accompanying the leader."
+ esu_start.0.t:0 "liberty movement intro event"
+ esu_start.0.d:0 "Synopsis: The leader of the liberty movement speaks at a temple of the central god to the gathered kirins, and presents their ideas, arguing how they and the ponies have simmilar experiences of being exiled for their desire for freedom, and it would be an affront to the central god to treat them any worse. They state how they believe firmly in the principles of their revolution, and how only through reconciliation, can they achieve peace. At the end, they urge the gathered to vote for them in the upcoming elections. Should also show the other important party members as accompanying the leader."
  esu_start.0.a:0 "For the true principles!"
   
- esu_start.1.t:0 "bad guy intro event"
- esu_start.1.d:0 "Synopsis: The leader of the bad guys party, alongside a mob of their supporters lead a political rally against pony ownership of business in the capital. After being stopped by the police from trashing a pony-owned shop, the leader speaks up, saying that the kirins are their gods' chosen people, and that there is no place for ponies in their holy domain. The crowd cheers."
+ esu_start.1.t:0 "rebirth movement intro event"
+ esu_start.1.d:0 "Synopsis: The leader of the rebirth movement, alongside a mob of their supporters lead a political rally against pony ownership of business in the capital. After being stopped by the police from trashing a pony-owned shop, the leader speaks up, saying that the kirins are their gods' chosen people, and that there is no place for ponies in their holy domain. The crowd cheers."
  esu_start.1.a:0 "Go back North!"
  
  esu_start.2.t:0 "The Yorii Street War"
- esu_start.2.d:0 "rebirth movement is using paramilitary formations to prevent ponies from voting, starting a fight with the local OON paramilitary formations along with the local police force and pony locals."
+ esu_start.2.d:0 "rebirth movement is using paramilitary formations to prevent ponies from voting, starting a fight with the paramilitary formations of the organization of ootari nationalists' paramilitary formations along with the local police force and pony locals."
  esu_start.2.a:0 "the good guys win ofcofc"
  esu_start.2.b:0 "the bad guys win somehow idk"
   
@@ -355,13 +355,30 @@
  esu_event.00.a:0 "uhoh :((("
   
  esu_event.1.t:0 "Slicing the Pie"
- esu_event.1.d:0 "ayo these clans a pain in the ass fr no cap!! gotta cap the opps ngl frfr.... (my mental stability has degraded severly by writing this)"
+ esu_event.1.d:0 "ayo these clans a pain in the ass fr no cap!! gotta cap the opps ngl frfr.... (my mental stability has degraded severly by writing this) as the entire central unorganized territory is legally supposed to be under our jurisdiction, we will cede swathes of land under our de jure control to the kae trade league and the principality of suatoa to make things easier for us."
  esu_event.1.a:0 "map painting time"
+ 
+ esu_event.2.t:0 "holy shit bad guys exposed"
+ esu_event.2.d:0 "after failing in starting a civil war, being crushed in the aftermath of the yorii street war, the leader of the rebirth movement goes on an unhinged rant during her trial, revealing the plot to start a civil war between kirins and ponies, and using the subsequent bloodshed as a blood sacrifice to a forgotten evil deity. she also reveals that the rebirth movement was founded as a front for her secret society, and the rampant assasinations of political figures during the first two centuries of the ootari republic up until the period of luanan occupation were the doing of the very same secret society."
+ esu_event.2.a:0 "ain't no way.."
+ 
+ esu_event.3.t:0 "The Amnesty"
+ esu_event.3.d:0 "a kirin dressed in civilian attire escorted by a half-dozen soldiers waltzes into a bandit camp under a flag of truce. the civilian then proceeds to read out the offer of amnesty to all who took up arms against the central government, available to every kirin that stops fighting and surrenders immediately."
+ esu_event.3.a:0 "the bandits accept the offer."
+ esu_event.3.b:0 "the bandits refuse the offer."
+ 
+ esu_event.4.t:0 "The Punishment"
+ esu_event.4.d:0 "a bunch of bandits on the run have their last stand in an abandoned war-torn farmhouse near etsuu. the leader and a few others wore suits of iron that were effective in blocking and deflecting bullets fired at them. after a few hours of exchanging fire, the armored kirin advance in order to distract the army to allow their unarmored comrades to escape. the armored kirin perish after the army start firing at them with canister shot from the three cannons they received as reinforcements."
+ esu_event.4.a:0 "We will catch up with the rest soon enough."
   
  esu_event.9.t:0 "live leak logo"
- esu_event.9.d:0 "Today (leader name) was visiting and checking working conditions in one of our coal mines and while checking the safety of the tunnels in front of the press, a coal dust explosion had occured in close proximity of our leader. After a hours-long rescue mission workers found only the lifeless cadaver of our leader, along with those of the journalists surrounding him, and the unfortunate miners that could not evacuvate before passing from asphyxiation."
+ esu_event.9.d:0 "Today (leader name) was visiting and checking working conditions in one of our coal mines and while checking the safety of the tunnels in front of the press, a coal dust explosion had occured in close proximity of our leader. After a hours-long rescue mission workers found only the lifeless corpse of our leader, along with those of the journalists surrounding him, and the unfortunate miners that could not evacuvate before passing from asphyxiation."
  esu_event.9.a:0 "uhh fuck..."
-  
+ 
+ esu_event.10.t:0 "The New Government"
+ esu_event.10.d:0 "the supreme judiciary has ruled that the leader of the party representing the new believer clergy (new believer party) is to take over the presidency in the wake of the untimely death of the liberty movement leader. the liberty movement's seats in the parliament were redistrubuted among the remaining parties, making a majority coalition between the new believer party and the ootari national unity movement possible."
+ esu_event.10.a:0 "what could go wrong??"
+ 
  esu_sanelate.0.t:0 "le quality or quantity choice event!!!"
  esu_sanelate.0.d:0 "Now that our nation is finally able to make the Homecoming a reality, kirins at home wish to serve in the military and want to help write history. We can accept them all, of course, however that will mean quality of the training will be lower since our current military infrastructure is incapable of training such a high amount of raw recruits at once."
  esu_sanelate.0.a:0 "quantity"
@@ -376,12 +393,12 @@
  esu_sanelate.22.a:0 "yea!"
  esu_sanelate.22.b:0 "nah..."
  
- esu_sanelate.3.t:0 "tard wrangling"
- esu_sanelate.3.d:0 "the church has fully taken over the government, but they needed help from the funni nationalists, now they have to be appeased :((("
+ esu_sanelate.3.t:0 "The New Coalition"
+ esu_sanelate.3.d:0 "the new believer party has fully taken over the government, with the ootari national unity movement becoming the second most important party in the parliament. the leadership of the ootari national unity movement expect the new believer party to satisfy their demands for a "unification war" with the rest of ootari in exchange for unconditional support in the parliament."
  esu_sanelate.3.a:0 "aw shit"
  
  esu_sanelate.4.t:0 "flavor 1"
- esu_sanelate.4.d:0 "It's been a while since economical reforms and support for worker's rights has been implemented in our country. We have seen a great economical growth over those past few years as a great growth in stability and prosperity of our nation. In honor of our past leader, we shall introduce extensive safety regulations to make sure no kirin or pony suffers the same fate."
+ esu_sanelate.4.d:0 "event about a law limiting the work day to 10 hours being passed by the new believer and nationalist majority coalition. the leader of the new believer party cites various religious philosophy texts that emphasize the importance of spare time for a kirin's spiritual health."
  esu_sanelate.4.a:0 "idk"
  
  esu_sanelate.6.t:0 "flavor 3"
