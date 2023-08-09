@@ -1,5 +1,6 @@
 add_namespace = kae_startevent
 add_namespace = kae_militiacrisis
+add_namespace = kae_event
 add_namespace = eak_event
 
 ###EARLYGAME###
@@ -49,6 +50,20 @@ country_event = {
 	
 	option = {
 		name = kae_startevent.2.a
+	}
+}
+
+country_event = {
+	id = kae_startevent.22
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_startevent.22"}
+	title = kae_startevent.22.t
+	desc = kae_startevent.22.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_startevent.22.a
 	}
 }
 
@@ -525,6 +540,36 @@ country_event = {
 			swap_ideas = {
 				remove_idea = recruit_selectivecon
 				add_idea = recruit_irregular_army
+			}
+		}
+	}
+}
+
+country_event = {
+	id = kae_event.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_event.1"}
+	title = kae_event.1.t
+	desc = kae_event.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_event.1.a
+		KAE = {
+			set_autonomy = {
+				target = SUA
+				autonomy_state = autonomy_dominion
+			}
+		}
+	}
+	
+	option = {
+		name = kae_event.1.b
+		KAE = {
+			create_wargoal = {
+				type = annex_everything
+				target = SUA
 			}
 		}
 	}
