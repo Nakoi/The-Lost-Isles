@@ -1,5 +1,4 @@
-### Continents ###
-
+### LUANSERVY ###
 
 ESU = {
 	army = {
@@ -111,7 +110,230 @@ ESU = {
 			}
 		}
 	}
+}
 
+UES = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_01.tga"
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_04.tga"
+		#}
+		#female = {
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_02.tga"
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_03.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_01.tga"
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_04.tga"
+		#}
+		#female = {
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_02.tga"
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_03.tga"
+		}
+	}
+	operative = {
+		male = {
+			"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+		#}
+		#female = {
+			"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+	}
+}
+
+KAE = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_01.tga"
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_04.tga"
+		#}
+		#female = {
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_02.tga"
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_03.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_01.tga"
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_04.tga"
+		#}
+		#female = {
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_02.tga"
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_03.tga"
+		}
+	}
+	operative = {
+		male = {
+			"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+		#}
+		#female = {
+			"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+	}
 }
 
 EAK = {
@@ -224,7 +446,118 @@ EAK = {
 			}
 		}
 	}
+}
 
+SUA = {
+	army = {
+		male = {
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_01.tga"
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_04.tga"
+		#}
+		#female = {
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_02.tga"
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_03.tga"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_01.tga"
+			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_04.tga"
+		#}
+		Vfemale = {
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_02.tga"
+			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_03.tga"
+		}
+	}
+	operative = {
+		male = {
+			"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+		#}
+		#female = {
+			"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+		}
+	}
+
+	political = {
+		ideology_militarism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_imperialism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_visionarism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_solidarism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_continuism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+		ideology_isolationism = {
+			male = {
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
+				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
+
+			#}
+			#female = {
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
+				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
+			}
+		}
+	}
 }
 
 AZE = {
@@ -1467,234 +1800,9 @@ SEN = {
 			}
 		}
 	}
-
 }
 
-KAE = {
-	army = {
-		male = {
-			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_01.tga"
-			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_04.tga"
-		#}
-		#female = {
-			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_02.tga"
-			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_03.tga"
-		}
-	}
-	navy = {
-		male = {
-			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_01.tga"
-			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_04.tga"
-		#}
-		#female = {
-			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_02.tga"
-			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_03.tga"
-		}
-	}
-	operative = {
-		male = {
-			"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-		#}
-		#female = {
-			"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-		}
-	}
-
-	political = {
-		ideology_militarism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-		ideology_imperialism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-		ideology_visionarism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-		ideology_solidarism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-		ideology_continuism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-		ideology_isolationism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-	}
-
-}
-
-SUA = {
-	army = {
-		male = {
-			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_01.tga"
-			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_04.tga"
-		#}
-		#female = {
-			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_02.tga"
-			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_03.tga"
-		}
-	}
-	navy = {
-		male = {
-			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_01.tga"
-			"gfx/leaders/Generic/Kirin_Male_Korean_Army_leader_04.tga"
-		#}
-		Vfemale = {
-			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_02.tga"
-			"gfx/leaders/Generic/Kirin_Female_Korean_Army_leader_03.tga"
-		}
-	}
-	operative = {
-		male = {
-			"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-		#}
-		#female = {
-			"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-		}
-	}
-
-	political = {
-		ideology_militarism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-		ideology_imperialism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-		ideology_visionarism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-		ideology_solidarism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-		ideology_continuism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-		ideology_isolationism = {
-			male = {
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_01.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Royal_03.tga"
-				"gfx/leaders/Generic/Kirin_Male_Korean_Politician_01.tga"
-
-			#}
-			#female = {
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_04.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Royal_02.tga"
-				"gfx/leaders/Generic/Kirin_Female_Korean_Politician_02.tga"
-			}
-		}
-	}
-
-}
+### TRAUNULU ###
 
 IJI = {
 	army = {
@@ -1806,5 +1914,4 @@ IJI = {
 			}
 		}
 	}
-
 }
