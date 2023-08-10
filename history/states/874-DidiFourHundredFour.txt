@@ -1,7 +1,7 @@
 state = {
 	id = 874
 	name = "STATE_874"
-	manpower = 231895
+	manpower = 341895
 
 	state_category = city
 
@@ -9,8 +9,10 @@ state = {
 		owner = RAN
 		add_core_of = RAN
 		victory_points = { 5379 10 }
-#		buildings = {
-#		}
+		buildings = {
+			industrial_complex = 2
+			dockyard = 1
+		}
 	}
 
 	provinces = {

@@ -1,14 +1,14 @@
 state = {
 	id = 865
 	name = "STATE_865"
-	manpower = 223169
+	manpower = 73169
 
-	state_category = city
+	state_category = rural
 
 	history = {
 		owner = RAN
 		add_core_of = RAN
-		victory_points = { 281 10 }
+		#victory_points = { 281 10 }
 #		buildings = {
 #		}
 	}

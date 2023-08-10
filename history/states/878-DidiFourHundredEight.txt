@@ -8,10 +8,15 @@ state = {
 	history = {
 		owner = RAN
 		add_core_of = RAN
-#		victory_points = { 1350 10 }
+		victory_points = { 1350 10 }
 		buildings = {
-			3470={
-				naval_base = 1
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			1350={
+				naval_base = 2
 			}
 		}
 	}

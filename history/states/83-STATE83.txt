@@ -1,19 +1,16 @@
 state = {
 	id = 83
 	name = "STATE_83"
-	manpower = 123892
+	manpower = 63892
 
-	state_category = city
+	state_category = small_island
 
 	history = {
 		owner = RAN
 		add_core_of = RAN
-		victory_points = { 3984 10 }
+		#victory_points = { 3984 10 }
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			dockyard = 1
+			synthetic_refinery = 1
 		}
 	}
 

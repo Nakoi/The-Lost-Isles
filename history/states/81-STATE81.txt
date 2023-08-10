@@ -1,16 +1,17 @@
 state = {
 	id = 81
 	name = "STATE_81"
-	manpower = 173652
+	manpower = 73652
 
-	state_category = city
+	state_category = small_island
 
 	history = {
 		owner = RAN
 		add_core_of = RAN
-		victory_points = { 1789 10 }
-#		buildings = {
-#		}
+		#victory_points = { 1789 10 }
+		buildings = {
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

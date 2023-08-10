@@ -3,16 +3,16 @@ state = {
 	name = "STATE_861"
 	manpower = 213452
 
-	state_category = city
+	state_category = town
 
 	history = {
 		owner = RAN
 		add_core_of = RAN
 #		victory_points = { 3166 10 }
 		buildings = {
-			3166 ={
-				naval_base = 1
-			}
+			infrastructure = 3
+			industrial_complex = 1
+			synthetic_refinery = 2
 		}
 	}
 
