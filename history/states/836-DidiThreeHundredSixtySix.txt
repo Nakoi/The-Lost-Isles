@@ -1,7 +1,7 @@
 state = {
 	id = 836
 	name = "STATE_836"
-	manpower = 683165
+	manpower = 983165
 
 	state_category = metropolis
 
@@ -14,14 +14,15 @@ state = {
 	history = {
 		owner = KLI
 		add_core_of = KLI
-		victory_points = { 834 20 }
+		victory_points = { 834 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
+			arms_factory = 4
 			industrial_complex = 5
 			dockyard = 2
+			air_base = 5
 			834={
-				naval_base = 1
+				naval_base = 4
 			}
 		}
 	}
