@@ -1,21 +1,22 @@
 state = {
 	id = 887
 	name = "STATE_887"
-	manpower = 573654
+	manpower = 1073654
 
-	state_category = large_city
+	state_category = metropolis
 
 	history = {
 		owner = WEL
 		add_core_of = WEL
-		victory_points = { 5474 20 }
+		victory_points = { 5474 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 3
-			dockyard = 3
+			arms_factory = 3
+			industrial_complex = 5
+			dockyard = 1
+			air_base = 6
 			5474={
-				naval_base = 1
+				naval_base = 5
 			}
 		}
 	}
