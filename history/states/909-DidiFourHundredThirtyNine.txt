@@ -1,16 +1,19 @@
 state = {
 	id = 909
 	name = "STATE_909"
-	manpower = 301694
+	manpower = 211694
 
-	state_category = city
+	state_category = town
 
 	history = {
 		owner = SEP
 		add_core_of = SEP
-#		victory_points = { 4046 10 }
-#		buildings = {
-#		}
+		victory_points = { 6058 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {
