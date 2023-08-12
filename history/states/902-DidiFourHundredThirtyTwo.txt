@@ -3,7 +3,7 @@ state = {
 	name = "STATE_902"
 	manpower = 1034976
 
-	state_category = city
+	state_category = metropolis
 
 	resources={
 		wheat=4.000
@@ -14,14 +14,15 @@ state = {
 	history = {
 		owner = AVH
 		add_core_of = AVH
-		victory_points = { 5718 20 }
+		victory_points = { 5718 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
+			arms_factory = 3
+			industrial_complex = 4
 			dockyard = 1
+			air_base = 1
 			5718={
-				naval_base = 1
+				naval_base = 3
 			}
 		}
 	}

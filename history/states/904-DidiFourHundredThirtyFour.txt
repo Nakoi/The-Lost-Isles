@@ -1,9 +1,9 @@
 state = {
 	id = 904
 	name = "STATE_904"
-	manpower = 1018933
+	manpower = 1718933
 
-	state_category = large_city
+	state_category = megalopolis
 
 	resources={
 		chemicals=58.000
@@ -13,15 +13,15 @@ state = {
 	history = {
 		owner = NAB
 		add_core_of = NAB
-		victory_points = { 770 10 }
+		victory_points = { 770 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 4
-			synthetic_refinery = 1
-			dockyard = 1
+			arms_factory = 3
+			industrial_complex = 5
+			dockyard = 2
+			air_base = 2
 			770={
-				naval_base = 1
+				naval_base = 9
 			}
 		}
 	}
