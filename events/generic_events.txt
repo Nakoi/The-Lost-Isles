@@ -1,6 +1,7 @@
 add_namespace = puppet
 add_namespace = generic_militia
 add_namespace = generic_trenchwarfare
+add_namespace = debug
 
 country_event = {
  	id = puppet.1
@@ -79,53 +80,77 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = generic_trenchwarfare.1
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event generic_trenchwarfare.1"}
-	title = generic_trenchwarfare.1.t
-	desc = generic_trenchwarfare.1.d
-	picture = GFX_news_event_chinese_soldiers_march
-	fire_only_once = no
-	
-	trigger = {
-		ROOT = {
-			has_idea = genidea_industrial_dev
-		}
-		any_country = {
-			has_war_with = ROOT
-			has_idea = genidea_industrial_dev
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = generic_trenchwarfare.1.a
-		set_country_flag = genflag_trench_warfare
-		add_ideas = genidea_trench_warfare
-	}
-}
-
-country_event = {
-	id = generic_trenchwarfare.2
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event generic_trenchwarfare.2"}
-	title = generic_trenchwarfare.2.t
-	desc = generic_trenchwarfare.2.d
-	picture = GFX_news_event_chinese_soldiers_march
-	fire_only_once = no
-	
-	trigger = {
-		ROOT = {
-			has_war = no
-			has_country_flag = genflag_trench_warfare
-			has_idea = genidea_trench_warfare
-		}
-	}
-	
-	option = {
-		name = generic_trenchwarfare.2.a
-		remove_ideas = genidea_trench_warfare
-	}
-}
+#country_event = {
+#	id = generic_trenchwarfare.1
+#	#immediate = {log = "[GetDateText]: [Root.GetName]: event generic_trenchwarfare.1"}
+#	title = generic_trenchwarfare.1.t
+#	desc = generic_trenchwarfare.1.d
+#	picture = GFX_news_event_chinese_soldiers_march
+#	fire_only_once = no
+#	
+#	trigger = {
+#		ROOT = {
+#			has_idea = genidea_industrial_dev
+#		}
+#		any_country = {
+#			has_war_with = ROOT
+#			has_idea = genidea_industrial_dev
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = generic_trenchwarfare.1.a
+#		set_country_flag = genflag_trench_warfare
+#		add_ideas = genidea_trench_warfare
+#	}
+#}
+#
+#country_event = {
+#	id = generic_trenchwarfare.2
+#	#immediate = {log = "[GetDateText]: [Root.GetName]: event generic_trenchwarfare.2"}
+#	title = generic_trenchwarfare.2.t
+#	desc = generic_trenchwarfare.2.d
+#	picture = GFX_news_event_chinese_soldiers_march
+#	fire_only_once = no
+#	
+#	trigger = {
+#		ROOT = {
+#			has_war = no
+#			has_country_flag = genflag_trench_warfare
+#			has_idea = genidea_trench_warfare
+#		}
+#	}
+#	
+#	option = {
+#		name = generic_trenchwarfare.2.a
+#		remove_ideas = genidea_trench_warfare
+#	}
+#}
+#
+#
+#country_event = {
+#	id = debug.1
+#	#immediate = {log = "[GetDateText]: [Root.GetName]: event debug.1"}
+#	title = debug.1.t
+#	desc = debug.1.d
+#	picture = GFX_news_event_chinese_soldiers_march
+#	fire_only_once = no
+#	
+#	trigger = {
+#		ROOT = {
+#			has_idea = race_zebra
+#		}
+#	}
+#	
+# 	option = {
+#		name = debug.1.a
+#		declare_war_on = {
+#			target = IAR
+#			type = annex_everything
+#		}
+#	}
+#}
