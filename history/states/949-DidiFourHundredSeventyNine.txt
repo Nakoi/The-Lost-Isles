@@ -1,9 +1,9 @@
 state = {
 	id = 949
 	name = "STATE_949"
-	manpower = 346942
+	manpower = 546942
 
-	state_category = city
+	state_category = large_city
 
 	resources={
 		wood=52.000
@@ -14,15 +14,14 @@ state = {
 	history = {
 		owner = AKN
 		add_core_of = AKN
-		victory_points = { 3732 10 }
+		victory_points = { 3732 20 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 2
-			synthetic_refinery = 2
-			dockyard = 1
+			dockyard = 3
 			3732={
-				naval_base = 1
+				naval_base = 7
 			}
 		}
 	}

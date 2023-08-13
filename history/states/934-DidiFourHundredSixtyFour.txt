@@ -1,9 +1,9 @@
 state = {
 	id = 934
 	name = "STATE_934"
-	manpower = 321189
+	manpower = 621189
 
-	state_category = city
+	state_category = large_city
 
 	resources={	
 		crystals=48.000
@@ -14,12 +14,12 @@ state = {
 	history = {
 		owner = NAS
 		add_core_of = NAS
-		victory_points = { 5982 10 }
+		victory_points = { 5982 20 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
-			synthetic_refinery = 2
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
 		}
 	}
 
