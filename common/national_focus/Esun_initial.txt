@@ -2292,10 +2292,6 @@ focus_tree = {
 			IF = {
 				limit = { has_dlc = "Man the Guns" }
 				has_tech = heavy_ship_tech_3
-				has_tech = spotting_equipment_2
-				has_tech = breech_loaded_cannons
-				has_tech = gatling_gun
-				has_tech = improved_carronade
 			}
 			ELSE = {
 				has_tech = heavy_ship_poverty_3
@@ -2315,17 +2311,23 @@ focus_tree = {
 						fixed_ship_radar_slot = empty
 						fixed_ship_engine_slot = ship_of_the_line_propulsion_3
 						fixed_ship_armor_slot = heavy_planking_3
-						front_1_custom_slot = naval_carronades_2
+						front_1_custom_slot = light_naval_battery_3
 						mid_1_custom_slot = heavy_naval_battery_3
 						mid_3_custom_slot = heavy_naval_battery_3
-						mid_2_custom_slot = light_naval_battery_3
-						mid_4_custom_slot = light_naval_battery_3
-						rear_1_custom_slot = naval_anti_air_2
+						mid_2_custom_slot = heavy_naval_battery_3
+						mid_4_custom_slot = heavy_naval_battery_3
+						rear_1_custom_slot = light_naval_battery_3
 					}
 				}
-				load_oob = "ESU_ERWS_FEARLESS"
-				
+				custom_effect_tooltip = ESUtt_erws_fearless_tooltip
+				hidden_effect = {
+					load_oob = "ESU_ERWS_FEARLESS"
+				}
 				ELSE = {
+					custom_effect_tooltip = ESUtt_erws_fearless_tooltip
+					hidden_effect = {
+						load_oob = "ESU_ERWS_FEARLESS"
+					}
 				}
 			}
 		}
@@ -2349,7 +2351,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			load_oob = ESU_MARINEGREN
+			custom_effect_tooltip = ESUtt_marinegren_tooltip
+			hidden_effect = {
+				load_oob = "ESU_MARINEGREN"
+			}
 		}
 	}
 
@@ -2635,14 +2640,14 @@ focus_tree = {
 		
 		available = {
 			has_equipment = {
-				rifle_equipment > 9999
+				rifle_equipment > 49999
 			}
 		}
 		
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = rifle_equipment
-				amount = -10000
+				amount = -50000
 			}
 			IJI = {
 				add_timed_idea = { 
@@ -2668,14 +2673,14 @@ focus_tree = {
 		
 		available = {
 			has_equipment = {
-				support_equipment >249
+				support_equipment >2499
 			}
 		}
 		
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = support_equipment
-				amount = -250
+				amount = -2500
 			}
 			IJI = {
 				add_timed_idea = { 
@@ -2699,19 +2704,19 @@ focus_tree = {
 			factor = 5
 		}
 		
-		available = {
-			if = {
-				limit = {
-					ROOT = { is_ai = no }
-					has_dlc = "La Resistance"
-				}
-				network_strength = {
-					target = IJI
-					state = 5
-					value > 49
-				}
-			}
-		}
+		#available = {
+		#	if = {
+		#		limit = {
+		#			ROOT = { is_ai = no }
+		#			has_dlc = "La Resistance"
+		#		}
+		#		network_strength = {
+		#			target = IJI
+		#			state = 5
+		#			value > 49
+		#		}
+		#	}
+		#}
 			
 		completion_reward = {
 			IJI = {
@@ -2756,19 +2761,19 @@ focus_tree = {
 			factor = 5
 		}
 		
-		available = {
-			if = {
-				limit = {
-					ROOT = { is_ai = no }
-					has_dlc = "La Resistance"
-				}
-				network_strength = {
-					target = IJI
-					state = 5
-					value > 49
-				}
-			}
-		}
+		#available = {
+		#	if = {
+		#		limit = {
+		#			ROOT = { is_ai = no }
+		#			has_dlc = "La Resistance"
+		#		}
+		#		network_strength = {
+		#			target = IJI
+		#			state = 5
+		#			value > 49
+		#		}
+		#	}
+		#}
 		
 		completion_reward = {
 			IJI = {
@@ -2832,19 +2837,19 @@ focus_tree = {
 			factor = 5
 		}
 		
-		available = {
-			if = {
-				limit = {
-					ROOT = { is_ai = no }
-					has_dlc = "La Resistance"
-				}
-				network_strength = {
-					target = IJI
-					state = 5
-					value > 49
-				}
-			}
-		}
+		#available = {
+		#	if = {
+		#		limit = {
+		#			ROOT = { is_ai = no }
+		#			has_dlc = "La Resistance"
+		#		}
+		#		network_strength = {
+		#			target = IJI
+		#			state = 5
+		#			value > 49
+		#		}
+		#	}
+		#}
 		
 		completion_reward = {
 			if = {
@@ -2865,7 +2870,7 @@ focus_tree = {
 						target = IJI
 						type = annex_everything
 					}
-					country_event = { id = esu_event.999 days = 3 }
+					country_event = { id = esu_event.999 }
 					transfer_state  = 11
 					transfer_state  = 9
 					transfer_state  = 8
