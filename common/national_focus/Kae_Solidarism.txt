@@ -576,25 +576,25 @@ focus_tree = {
 				NOT = { 
 					country_exists = SUA
 				}
-				SUA = { is_puppet_of = ESU }
+				SUA = { is_puppet_of = KAE }
 			}
 			OR = {
 				NOT = { 
 					country_exists = AIN
 				}
-				AIN = { is_puppet_of = ESU }
+				AIN = { is_puppet_of = KAE }
 			}
 			OR = {
 				NOT = { 
 					country_exists = SEN
 				}
-				SEN = { is_puppet_of = ESU }
+				SEN = { is_puppet_of = KAE }
 			}
 			OR = {
 				NOT = { 
 					country_exists = FRE
 				}
-				FRE = { is_puppet_of = ESU }
+				FRE = { is_puppet_of = KAE }
 			}
 		}
 		
@@ -692,25 +692,25 @@ focus_tree = {
 				NOT = { 
 					country_exists = SUA
 				}
-				SUA = { is_puppet_of = ESU }
+				SUA = { is_puppet_of = KAE }
 			}
 			OR = {
 				NOT = { 
 					country_exists = AIN
 				}
-				AIN = { is_puppet_of = ESU }
+				AIN = { is_puppet_of = KAE }
 			}
 			OR = {
 				NOT = { 
 					country_exists = SEN
 				}
-				SEN = { is_puppet_of = ESU }
+				SEN = { is_puppet_of = KAE }
 			}
 			OR = {
 				NOT = { 
 					country_exists = FRE
 				}
-				FRE = { is_puppet_of = ESU }
+				FRE = { is_puppet_of = KAE }
 			}
 		}
 		
