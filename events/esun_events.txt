@@ -73,6 +73,9 @@ country_event = {
 		name = esu_event.0.a
 		set_country_flag = esu_sane_victory
 		complete_national_focus = ESU_visionarism
+		add_ideas = ESU_new_believer_party_opinion_mid
+		add_ideas = ESU_nationalist_party_opinion_mid
+		add_ideas = ESU_minor_party_opinion_mid
 	}
 }
 
@@ -237,6 +240,18 @@ country_event = {
 	option = {
 		name = esu_event.10.a
 		complete_national_focus = ESU_a_new_dawn
+		add_ideas = ESU_believer_nationalist_grand_coalition_idea_1
+		hidden_effect = {
+			remove_ideas = ESU_new_believer_party_opinion_low
+			remove_ideas = ESU_new_believer_party_opinion_mid
+			remove_ideas = ESU_new_believer_party_opinion_high
+			remove_ideas = ESU_nationalist_party_opinion_low
+			remove_ideas = ESU_nationalist_party_opinion_mid
+			remove_ideas = ESU_nationalist_party_opinion_high
+			remove_ideas = ESU_minor_party_opinion_low
+			remove_ideas = ESU_minor_party_opinion_mid
+			remove_ideas = ESU_minor_party_opinion_high
+		}
 	}
 }
 

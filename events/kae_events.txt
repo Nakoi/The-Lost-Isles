@@ -563,21 +563,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			base = 50
-			modifier = {
-				add = 50
-				has_opinion = {
-					target = KAE
-					value > 89
-				}	
-			}
-			modifier = {
-				add = 25
-				has_opinion = {
-					target = KAE
-					value > 24
-				}
-			}	
+			base = 0	
 		}
 	}
 	
@@ -590,14 +576,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			base = 50
-			modifier = {
-				add = 50
-				has_opinion = {
-					target = KAE
-					value < -15
-				}
-			}	
+			base = 100
 		}
 	}
 }
