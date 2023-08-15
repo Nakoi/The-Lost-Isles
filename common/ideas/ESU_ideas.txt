@@ -118,75 +118,6 @@ ideas = {
 			}
 		}
 		
-		ESU_ootari_nationalism_1 = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			modifier = {
-				stability_weekly = -0.01
-			}
-			
-			targeted_modifier = {
-				tag = KAE
-				attack_bonus_against = 0.05
-				defense_bonus_against = 0.05
-			}
-			targeted_modifier = {
-				tag = SUA
-				attack_bonus_against = 0.05
-				defense_bonus_against = 0.05
-			}
-		}
-		
-		ESU_ootari_nationalism_2 = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			modifier = {
-				stability_weekly = -0.005
-			}
-			
-			targeted_modifier = {
-				tag = KAE
-				attack_bonus_against = 0.05
-				defense_bonus_against = 0.05
-			}
-			targeted_modifier = {
-				tag = SUA
-				attack_bonus_against = 0.05
-				defense_bonus_against = 0.05
-			}
-		}
-		
-		ESU_ootari_nationalism_3 = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-			
-			modifier = {
-				stability_weekly = -0.001
-			}
-			
-			targeted_modifier = {
-				tag = KAE
-				attack_bonus_against = 0.05
-				defense_bonus_against = 0.05
-			}
-			targeted_modifier = {
-				tag = SUA
-				attack_bonus_against = 0.05
-				defense_bonus_against = 0.05
-			}
-		}
-		
 		ESU_pone_problem_idea_01 = {
 			picture = great_depression
 			removal_cost = -1
@@ -341,6 +272,234 @@ ideas = {
 			}
 		}
 		
+		ESU_new_believer_party_opinion_low = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = -0.15
+				industrial_capacity_factory = 0.2
+				production_factory_max_efficiency_factor = -0.10
+				
+			}
+		}
+		
+		ESU_new_believer_party_opinion_mid = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.1
+				#production_factory_max_efficiency_factor = -0.05
+			}
+		}
+		
+		ESU_new_believer_party_opinion_high = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = 0.10
+				industrial_capacity_factory = -0.1
+				production_factory_max_efficiency_factor = 0.10
+			}
+		}
+		
+		ESU_nationalist_party_opinion_low = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.25
+				conscription_factor = -0.2
+			}
+		}
+		
+		ESU_nationalist_party_opinion_mid = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				#conscription_factor = 0.05
+			}
+		}
+		
+		ESU_nationalist_party_opinion_high = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				#stability_factor = 0.05
+				war_support_factor = 0.15
+				conscription_factor = 0.1
+			}
+		}
+		
+		ESU_minor_party_opinion_low = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_weekly = -0.001
+				political_power_factor = -0.15
+				consumer_goods_factor = 0.07
+			}
+		}
+		
+		ESU_minor_party_opinion_mid = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_weekly = 0.001
+				#political_power_factor = -0.15
+				consumer_goods_factor = 0.02
+			}
+		}
+		
+		ESU_minor_party_opinion_high = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_weekly = 0.001
+				stability_factor = 0.05
+				political_power_factor = 0.1
+				consumer_goods_factor = -0.03
+			}
+		}
+		
+		ESU_believer_nationalist_grand_coalition_idea_1 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				industrial_capacity_factory = 0.1
+				conscription_factor = 0.05
+			}
+		}
+		
+		ESU_believer_nationalist_grand_coalition_idea_01 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				war_support_weekly = 0.001
+				industrial_capacity_factory = 0.1
+				conscription_factor = 0.05
+			}
+		}
+		
+		ESU_believer_nationalist_grand_coalition_idea_02 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.1
+				war_support_weekly = 0.001
+				industrial_capacity_factory = 0.1
+				conscription_factor = 0.1
+			}
+		}
+		
+		ESU_believer_nationalist_grand_coalition_idea_10 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = 0.07
+				stability_weekly = 0.001
+				war_support_factor = 0.05
+				industrial_capacity_factory = -0.05
+				consumer_goods_factor = 0.05
+				conscription_factor = 0.05
+			}
+		}
+		
+		ESU_believer_nationalist_grand_coalition_idea_11 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = 0.07
+				stability_weekly = 0.001
+				war_support_factor = 0.05
+				war_support_weekly = 0.001
+				industrial_capacity_factory = -0.05
+				consumer_goods_factor = 0.05
+				conscription_factor = 0.05
+			}
+		}
+		
+		ESU_believer_nationalist_grand_coalition_idea_12 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				stability_factor = 0.07
+				stability_weekly = 0.001
+				war_support_factor = 0.1
+				war_support_weekly = 0.001
+				industrial_capacity_factory = -0.05
+				consumer_goods_factor = 0.05
+				conscription_factor = 0.1
+			}
+		}
+		
 		ESU_equal_officers_01 = {
 			picture = great_depression
 			removal_cost = -1
@@ -474,47 +633,19 @@ ideas = {
 			}
 		}
 		
-		ESU_eastern_monks_idea = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				consumer_goods_factor = 0.05
-				industrial_capacity_factory = -0.1
-				stability_weekly = 0.001
-			}
-		}
-		
-		ESU_kae_cooperation = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				consumer_goods_factor = -0.03
-				industrial_capacity_factory = 0.05
-				stability_weekly = -0.001
-			}
-		}
-		
-		ESU_sua_cooperation = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				stability_factor = 0.05
-				war_support_factor = 0.05
-				conscription_factor = 0.02
-			}
-		}
+		#ESU_eastern_monks_idea = {
+		#	picture = great_depression
+		#	removal_cost = -1
+		#	available = {
+		#		always = yes
+		#	}
+		#		
+		#	modifier = {
+		#		consumer_goods_factor = 0.05
+		#		industrial_capacity_factory = -0.1
+		#		stability_weekly = 0.001
+		#	}
+		#}
 		
 		ESU_iji_sabotage_1 = {
 			picture = great_depression
@@ -787,7 +918,7 @@ ideas = {
 				consumer_goods_factor = 0.15
 				research_speed_factor = -0.1
 				stability_weekly = 0.003
-				war_stability_factor = 0.15
+				stability_factor = 0.15
 				war_support_factor = 0.25
 				surrender_limit = 1
 			}
