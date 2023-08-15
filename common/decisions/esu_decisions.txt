@@ -1,3 +1,198 @@
+decisioncat_esu_politics = {
+	
+	ESU_appease_newbelievers_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = ESU
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = esu_party_relations_improvement_in_progress_flag
+				NOT = { has_country_flag = esu_party_relations_improvement_in_progress_flag }
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 180
+
+		visible = {
+			tag = ESU
+			has_completed_focus = ESU_visionarism
+			OR = {
+				has_idea = ESU_new_believer_party_opinion_low
+				has_idea = ESU_new_believer_party_opinion_mid
+			}
+		}
+		
+		modifier = {
+		}
+		
+		complete_effect = {
+			set_country_flag = esu_party_relations_improvement_in_progress_flag
+		}
+		
+		remove_effect = {
+			clr_country_flag = esu_party_relations_improvement_in_progress_flag
+			IF = {
+				limit = {
+					has_idea = ESU_new_believer_party_opinion_low
+				}
+				swap_ideas = {
+					remove_idea = ESU_new_believer_party_opinion_low
+					add_idea = ESU_new_believer_party_opinion_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = ESU_new_believer_party_opinion_mid
+				}
+				swap_ideas = {
+					remove_idea = ESU_new_believer_party_opinion_mid
+					add_idea = ESU_new_believer_party_opinion_high
+				}
+			}
+		}
+	}
+	
+	ESU_appease_nationalists_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = ESU
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = esu_party_relations_improvement_in_progress_flag
+				NOT = { has_country_flag = esu_party_relations_improvement_in_progress_flag }
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 180
+
+		visible = {
+			tag = ESU
+			has_completed_focus = ESU_visionarism
+			OR = {
+				has_idea = ESU_nationalist_party_opinion_low
+				has_idea = ESU_nationalist_party_opinion_mid
+			}
+		}
+		
+		modifier = {
+		}
+		
+		complete_effect = {
+			set_country_flag = esu_party_relations_improvement_in_progress_flag
+		}
+		
+		remove_effect = {
+			clr_country_flag = esu_party_relations_improvement_in_progress_flag
+			IF = {
+				limit = {
+					has_idea = ESU_nationalist_party_opinion_low
+				}
+				swap_ideas = {
+					remove_idea = ESU_nationalist_party_opinion_low
+					add_idea = ESU_nationalist_party_opinion_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = ESU_nationalist_party_opinion_mid
+				}
+				swap_ideas = {
+					remove_idea = ESU_nationalist_party_opinion_mid
+					add_idea = ESU_nationalist_party_opinion_high
+				}
+			}
+		}
+	}
+	
+	ESU_appease_minorparties_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = ESU
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = esu_party_relations_improvement_in_progress_flag
+				NOT = { has_country_flag = esu_party_relations_improvement_in_progress_flag }
+			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 180
+
+		visible = {
+			tag = ESU
+			has_completed_focus = ESU_visionarism
+			OR = {
+				has_idea = ESU_minor_party_opinion_low
+				has_idea = ESU_minor_party_opinion_mid
+			}
+		}
+		
+		modifier = {
+		}
+		
+		complete_effect = {
+			set_country_flag = esu_party_relations_improvement_in_progress_flag
+		}
+		
+		remove_effect = {
+			clr_country_flag = esu_party_relations_improvement_in_progress_flag
+			IF = {
+				limit = {
+					has_idea = ESU_minor_party_opinion_low
+				}
+				swap_ideas = {
+					remove_idea = ESU_minor_party_opinion_low
+					add_idea = ESU_minor_party_opinion_mid
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = ESU_minor_party_opinion_mid
+				}
+				swap_ideas = {
+					remove_idea = ESU_minor_party_opinion_mid
+					add_idea = ESU_minor_party_opinion_high
+				}
+			}
+		}
+	}
+}
+	
 decisioncat_esu_integration = {
 
 	ESU_core_hriki = {
