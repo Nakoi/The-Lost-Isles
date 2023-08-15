@@ -275,6 +275,20 @@ decisioncat_eak_breakout = {
 	}
 }
 
+decisioncat_esu_politics = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = ESU
+	}
+
+	visible = {
+		tag = ESU
+		has_completed_focus = ESU_visionarism
+		NOT = { has_completed_focus = ESU_a_new_dawn }
+	}
+}
+
 decisioncat_esu_integration = {
 	icon = generic_political_actions
 	
