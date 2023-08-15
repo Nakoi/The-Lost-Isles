@@ -267,9 +267,6 @@
  ESU_homecoming_idea_3_quality:0 "The Spirit of Homecoming"
  ESU_homecoming_idea_4_quantity_milspend:0 "The Spirit of Homecoming"
  ESU_homecoming_idea_4_quality_milspend:0 "The Spirit of Homecoming"
- ESU_ootari_nationalism_1:0 "Ootari Nationalists Unhappy"
- ESU_ootari_nationalism_2:0 "The Birthplace of Ootari Nationalism"
- ESU_ootari_nationalism_3:0 "The Birthplace of Ootari Nationalism"
  
  ESU_pone_problem_idea_01:0 "The Pony Issue"
  ESU_pone_problem_idea_01_desc:0 "Ponies long-ago established themselves as an entrenched minority within our nation. Be it through natural settlement or those seeking refuge from our eastern neighbor, their population has only continued to grow overtime. This has always caused some societal tension, but things have begun to turn for the worse as of late due in no small part to the growing international concern towards Avtukov. The official stance of our Republic remains one of friendship and reconciliation towards them. However, several influential kirin within our nation have taken to blaming ponykind for most of the problems we face today and have found considerable support through calling for action to be taken instead in order to curb what they claim to be a growing threat to our way of life."
@@ -281,6 +278,23 @@
  ESU_pone_problem_idea_07:0 "The Great Cleansing"
  ESU_pone_problem_idea_08:0 "The Great Cleansing"
  ESU_pone_problem_idea_09:0 "The Great Cleansing"
+ 
+ ESU_new_believer_party_opinion_low:0 "New Believer Party Relations - Low"
+ ESU_new_believer_party_opinion_mid:0 "New Believer Party Relations - Mediocre"
+ ESU_new_believer_party_opinion_high:0 "New Believer Party Relations - High"
+ ESU_nationalist_party_opinion_low:0 "Ootari National Unity Party Relations - Low"
+ ESU_nationalist_party_opinion_mid:0 "Ootari National Unity Party Relations - Mediocre"
+ ESU_nationalist_party_opinion_high:0 "Ootari National Unity Party Relations - High"
+ ESU_minor_party_opinion_low:0 "Minor Coalition Party Relations - Low"
+ ESU_minor_party_opinion_mid:0 "Minor Coalition Party Relations - Mediocre"
+ ESU_minor_party_opinion_high:0 "Minor Coalition Party Relations - High"
+ 
+ ESU_believer_nationalist_grand_coalition_idea_1:0 "The Grand Coalition"
+ ESU_believer_nationalist_grand_coalition_idea_01:0 "The Grand Coalition"
+ ESU_believer_nationalist_grand_coalition_idea_02:0 "The Grand Coalition"
+ ESU_believer_nationalist_grand_coalition_idea_10:0 "The Grand Coalition"
+ ESU_believer_nationalist_grand_coalition_idea_11:0 "The Grand Coalition"
+ ESU_believer_nationalist_grand_coalition_idea_12:0 "The Grand Coalition"
  
  ESU_equal_officers_01:0 "The New Army"
  ESU_equal_officers_02:0 "The New Army"
@@ -320,13 +334,18 @@
  ESU_state_militarisation_idea_04:0 "Militarisation of the State"
  
 ###DECISION LOCALISATION###
+ decisioncat_esu_politics:0 "The Parliament of the Presidency of the 285th Year"
+ ESU_appease_newbelievers_decision:0 "Appease the New Believer Party"
+ ESU_appease_nationalists_decision:0 "Appease the Ootari National Unity Party"
+ ESU_appease_minorparties_decision:0 "Appease the Minor Parties"
+ 
  decisioncat_esu_integration:0 "Clan Territory Integration"
  ESU_core_hriki:0 "Integrate Hriki Family Territory"
  ESU_core_onki:0 "Integrate Onki Family Territory"
  ESU_core_waonto:0 "Integrate Waonto Family Territory"
  ESU_core_azeo:0 "Integrate Azeo Family Territory"
  
- decisioncat_esu_ootari_cores:0 "Ootari Coring"
+ decisioncat_esu_ootari_cores:0 "Ootari Unification"
  ESU_core_inner_kae:0 "Integrate Inner Kae Territory"
  ESU_core_proper_kae:0 "Integrate Kae Proper"
  ESU_core_inner_sua:0 "Integrate Inner Suatoan Territory"
@@ -416,6 +435,16 @@
  esu_sanelate.7.a:0 "idk"
   
 ###TOOLTIP LOCALISATION###
+ ESUtt_new_believer_party_opinion_decrease_tooltip:0 "§RNew Believer Party Opinion Decrease!§!"
+ ESUtt_new_believer_party_opinion_increase_tooltip:0 "§GNew Believer Party Opinion Increase!§!"
+ ESUtt_nationalist_party_opinion_decrease_tooltip:0 "§ROotari National Unity Party Opinion Decrease!§!"
+ ESUtt_nationalist_party_opinion_increase_tooltip:0 "§GOotari National Unity Party Opinion Increase!§!"
+ ESUtt_minor_party_opinion_decrease_tooltip:0 "§RMinor Coalition Party Opinion Decrease!§!"
+ ESUtt_minor_party_opinion_increase_tooltip:0 "§GMinor Coalition Party Party Opinion Increase!§!"
+ 
+ #ESUtt_needs_two_party_support:0 "§RRequires high levels of support from two parties in the Parliament!§!"
+ esu_party_relations_improvement_in_progress_flag:0 "§YIs not currently improving relations with another party.§!"
+ 
  ESUtt_election_tooltip:0 "The §YElection Cycle§! of the §Y285th Year of the Ootari Republic§! will be concluded!"
  ESUtt_second_rising:0 "§YThe Second Rising§! will start in the southern part of the §YOld Homeland.§!"
  ESUtt_eak_alliance:0 "We will attempt to form an alliance with §YKae§! if is controlled by a §YVisonarist§! government."
