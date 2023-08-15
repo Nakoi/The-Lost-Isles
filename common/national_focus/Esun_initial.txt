@@ -121,6 +121,12 @@ focus_tree = {
 		}
 		
 		available = {
+			OR = {
+				hidden_trigger = { ROOT = { is_ai = yes } }
+				has_idea = ESU_new_believer_party_opinion_high
+				has_idea = ESU_nationalist_party_opinion_high
+				has_idea = ESU_minor_party_opinion_high
+			}
 		}
 		
 		completion_reward = {
@@ -188,7 +194,23 @@ focus_tree = {
 		}
 		
 		available = {
-			
+			OR = {
+				hidden_trigger = { ROOT = { is_ai = yes } }
+				OR = {
+					AND = {
+						has_idea = ESU_new_believer_party_opinion_high
+						has_idea = ESU_nationalist_party_opinion_high
+					}
+					AND = {
+						has_idea = ESU_new_believer_party_opinion_high
+						has_idea = ESU_minor_party_opinion_high
+					}
+					AND = {
+						has_idea = ESU_nationalist_party_opinion_high
+						has_idea = ESU_minor_party_opinion_high
+					}
+				}
+			}
 		}
 		
 		completion_reward = {
@@ -224,6 +246,23 @@ focus_tree = {
 		}
 		
 		available = {
+			OR = {
+				hidden_trigger = { ROOT = { is_ai = yes } }
+				OR = {
+					AND = {
+						has_idea = ESU_new_believer_party_opinion_high
+						has_idea = ESU_nationalist_party_opinion_high
+					}
+					AND = {
+						has_idea = ESU_new_believer_party_opinion_high
+						has_idea = ESU_minor_party_opinion_high
+					}
+					AND = {
+						has_idea = ESU_nationalist_party_opinion_high
+						has_idea = ESU_minor_party_opinion_high
+					}
+				}
+			}
 		}
 		
 		completion_reward = {
@@ -259,6 +298,23 @@ focus_tree = {
 		}
 		
 		available = {
+			OR = {
+				hidden_trigger = { ROOT = { is_ai = yes } }
+				OR = {
+					AND = {
+						has_idea = ESU_new_believer_party_opinion_high
+						has_idea = ESU_nationalist_party_opinion_high
+					}
+					AND = {
+						has_idea = ESU_new_believer_party_opinion_high
+						has_idea = ESU_minor_party_opinion_high
+					}
+					AND = {
+						has_idea = ESU_nationalist_party_opinion_high
+						has_idea = ESU_minor_party_opinion_high
+					}
+				}
+			}
 		}
 		
 		completion_reward = {
@@ -363,6 +419,27 @@ focus_tree = {
 			add_stability = 0.1
 			add_war_support = 0.05
 			add_political_power = 150
+			custom_effect_tooltip = ESUtt_minor_party_opinion_increase_tooltip
+			#hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = ESU_minor_party_opinion_low
+					}
+					swap_ideas = {
+						remove_idea = ESU_minor_party_opinion_low
+						add_idea = ESU_minor_party_opinion_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = ESU_minor_party_opinion_mid
+					}
+					swap_ideas = {
+						remove_idea = ESU_minor_party_opinion_mid
+						add_idea = ESU_minor_party_opinion_high
+					}
+				}
+			#}
 		}
 	}
 
@@ -381,7 +458,7 @@ focus_tree = {
 		}
 		
 		available = {
-			num_of_factories > 79
+			num_of_factories > 89
 			has_political_power > 299
 		}
 		
@@ -528,7 +605,7 @@ focus_tree = {
 		id = ESU_biger_workforce
 		icon = ESU_GFX_Pony_Industries
 		prerequisite = { focus = ESU_Infrastructure_rework }
-		prerequisite = { focus = ESU_pony_work_acceptance }
+		prerequisite = { focus = ESU_give_them_jobs }
 		x = 0
 		y = 4
 		relative_position_id = ESU_visionarism
@@ -788,6 +865,27 @@ focus_tree = {
 		
 		completion_reward = {
 			country_event = { id = esu_event.1 }
+			custom_effect_tooltip = ESUtt_nationalist_party_opinion_decrease_tooltip
+			#hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = ESU_nationalist_party_opinion_mid
+					}
+					swap_ideas = {
+						remove_idea = ESU_nationalist_party_opinion_mid
+						add_idea = ESU_nationalist_party_opinion_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = ESU_nationalist_party_opinion_high
+					}
+					swap_ideas = {
+						remove_idea = ESU_nationalist_party_opinion_high
+						add_idea = ESU_nationalist_party_opinion_mid
+					}
+				}
+			#}
 		}
 	}
 
@@ -1005,6 +1103,48 @@ focus_tree = {
 			country_event = { id = esu_event.3 days = 3 }
 			add_stability = -0.05
 			add_manpower = 50000
+			custom_effect_tooltip = ESUtt_nationalist_party_opinion_decrease_tooltip
+			#hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = ESU_nationalist_party_opinion_mid
+					}
+					swap_ideas = {
+						remove_idea = ESU_nationalist_party_opinion_mid
+						add_idea = ESU_nationalist_party_opinion_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = ESU_nationalist_party_opinion_high
+					}
+					swap_ideas = {
+						remove_idea = ESU_nationalist_party_opinion_high
+						add_idea = ESU_nationalist_party_opinion_mid
+					}
+				}
+			#}
+			custom_effect_tooltip = ESUtt_new_believer_party_opinion_increase_tooltip
+			#hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = ESU_new_believer_party_opinion_low
+					}
+					swap_ideas = {
+						remove_idea = ESU_new_believer_party_opinion_low
+						add_idea = ESU_new_believer_party_opinion_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = ESU_new_believer_party_opinion_mid
+					}
+					swap_ideas = {
+						remove_idea = ESU_new_believer_party_opinion_mid
+						add_idea = ESU_new_believer_party_opinion_high
+					}
+				}
+			#}
 		}
 	}
 	
@@ -1044,6 +1184,48 @@ focus_tree = {
 			507 = { add_manpower = -8000 }
 			499 = { add_manpower = -8000 }
 			498 = { add_manpower = -8000 }
+			custom_effect_tooltip = ESUtt_nationalist_party_opinion_increase_tooltip
+			#hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = ESU_nationalist_party_opinion_low
+					}
+					swap_ideas = {
+						remove_idea = ESU_nationalist_party_opinion_low
+						add_idea = ESU_nationalist_party_opinion_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = ESU_nationalist_party_opinion_mid
+					}
+					swap_ideas = {
+						remove_idea = ESU_nationalist_party_opinion_mid
+						add_idea = ESU_nationalist_party_opinion_high
+					}
+				}
+			#}
+			custom_effect_tooltip = ESUtt_new_believer_party_opinion_decrease_tooltip
+			#hidden_effect = {
+				IF = {
+					limit = {
+						has_idea = ESU_new_believer_party_opinion_mid
+					}
+					swap_ideas = {
+						remove_idea = ESU_new_believer_party_opinion_mid
+						add_idea = ESU_new_believer_party_opinion_low
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = ESU_new_believer_party_opinion_high
+					}
+					swap_ideas = {
+						remove_idea = ESU_new_believer_party_opinion_high
+						add_idea = ESU_new_believer_party_opinion_mid
+					}
+				}
+			#}
 		}
 	}
 	
@@ -2130,7 +2312,33 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = ESU_eastern_monks_idea
+			IF = {
+				limit = {
+					has_idea = ESU_believer_nationalist_grand_coalition_idea_1
+				}
+				swap_ideas = {
+					remove_idea = ESU_believer_nationalist_grand_coalition_idea_1
+					add_idea = ESU_believer_nationalist_grand_coalition_idea_10
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = ESU_believer_nationalist_grand_coalition_idea_01
+				}
+				swap_ideas = {
+					remove_idea = ESU_believer_nationalist_grand_coalition_idea_01
+					add_idea = ESU_believer_nationalist_grand_coalition_idea_11
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = ESU_believer_nationalist_grand_coalition_idea_02
+				}
+				swap_ideas = {
+					remove_idea = ESU_believer_nationalist_grand_coalition_idea_02
+					add_idea = ESU_believer_nationalist_grand_coalition_idea_12
+				}
+			}
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 3
@@ -2249,17 +2457,11 @@ focus_tree = {
 		
 		available = {
 			has_navy_size = {
-				size > 7
+				size > 9
 				archetype = ship_hull_heavy
 			}
-		}
-		available = {
 			has_navy_size = {
-				size > 23
-				type = capital_ship
-			}
-			has_navy_size = {
-				size > 47
+				size > 49
 				type = screen_ship
 			}
 		}
@@ -2816,7 +3018,7 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = ESU_homecoming_idea_3_quality
-					add_idea = ESU_homecoming_idea_4_quantity_milspend
+					add_idea = ESU_homecoming_idea_4_quality_milspend
 				}
 			}
 		}
@@ -2852,15 +3054,10 @@ focus_tree = {
 		#}
 		
 		completion_reward = {
-			if = {
-				limit = {
-					ROOT = { is_ai = no }
-				}
-				ESU = {
-					declare_war_on = {
-						target = IJI
-						type = annex_everything
-					}
+			ESU = {
+				declare_war_on = {
+					target = IJI
+					type = annex_everything
 				}
 			}
 			custom_effect_tooltip = ESUtt_second_rising
@@ -2929,9 +3126,23 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				add_idea = ESU_ootari_nationalism_2
-				remove_idea = ESU_ootari_nationalism_1
+			IF = {
+				limit = {
+					has_idea = ESU_believer_nationalist_grand_coalition_idea_1
+				}
+				swap_ideas = {
+					remove_idea = ESU_believer_nationalist_grand_coalition_idea_1
+					add_idea = ESU_believer_nationalist_grand_coalition_idea_01
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = ESU_believer_nationalist_grand_coalition_idea_10
+				}
+				swap_ideas = {
+					remove_idea = ESU_believer_nationalist_grand_coalition_idea_10
+					add_idea = ESU_believer_nationalist_grand_coalition_idea_11
+				}
 			}
 		}
 	}
@@ -2952,9 +3163,23 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				add_idea = ESU_ootari_nationalism_3
-				remove_idea = ESU_ootari_nationalism_2
+			IF = {
+				limit = {
+					has_idea = ESU_believer_nationalist_grand_coalition_idea_01
+				}
+				swap_ideas = {
+					remove_idea = ESU_believer_nationalist_grand_coalition_idea_01
+					add_idea = ESU_believer_nationalist_grand_coalition_idea_02
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = ESU_believer_nationalist_grand_coalition_idea_11
+				}
+				swap_ideas = {
+					remove_idea = ESU_believer_nationalist_grand_coalition_idea_11
+					add_idea = ESU_believer_nationalist_grand_coalition_idea_12
+				}
 			}
 		}
 	}
@@ -3160,6 +3385,5 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.1
 			add_war_support = 0.1
-			remove_ideas = ESU_ootari_nationalism_3
 		}
 	}
