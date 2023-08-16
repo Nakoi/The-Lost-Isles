@@ -2850,6 +2850,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/pony_revolving_gunlance.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_pony_magical_equipment_medium"
+		texturefile = "gfx/interface/race/pony_magical_equipment_0.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_magical_equipment_0_medium"
+		texturefile = "gfx/interface/race/pony_magical_equipment_0.dds"
+	}
+
 
 
 
