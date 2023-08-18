@@ -2965,6 +2965,96 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/pony_chronomancy.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_pony_pyrokinesis_medium"
+		texturefile = "gfx/interface/race/pony_pyrokinesis.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_pyrokinesis_MTG_medium"
+		texturefile = "gfx/interface/race/pony_pyrokinesis.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_hydrosphy_medium"
+		texturefile = "gfx/interface/race/Pony_Hydro.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_pony_hydrosphy_MTG_medium"
+		texturefile = "gfx/interface/race/Pony_Hydro.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_hydrosphy_MTG_medium"
+		texturefile = "gfx/interface/race/Pony_Hydro.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_geomancy_MTG_medium"
+		texturefile = "gfx/interface/race/pony_geomancy.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_geomancy_medium"
+		texturefile = "gfx/interface/race/pony_geomancy.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_aerotheurgy_MTG_medium"
+		texturefile = "gfx/interface/race/pony_aerotheurgy.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_aerotheurgy_medium"
+		texturefile = "gfx/interface/race/pony_aerotheurgy.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_conjuration_MTG_medium"
+		texturefile = "gfx/interface/race/Pony_conjuration.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_conjuration_medium"
+		texturefile = "gfx/interface/race/Pony_conjuration.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_witchcraft_medium"
+		texturefile = "gfx/interface/race/pony_witchcraft.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_mindbending_medium"
+		texturefile = "gfx/interface/race/pony_mindbending.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_necromancy_medium"
+		texturefile = "gfx/interface/race/pony_necromancy.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_economic_talent_medium"
+		texturefile = "gfx/interface/race/griffon_economic_talent.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_predatorial_fighting_medium"
+		texturefile = "gfx/interface/race/griffon_predatorial_fighting.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_trade_mastery_medium"
+		texturefile = "gfx/interface/race/griffon_trade_mastery.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_airborne_logistics_medium"
+		texturefile = "gfx/interface/race/griffon_airborne_logistics.dds"
+	}
+
 
 
 
