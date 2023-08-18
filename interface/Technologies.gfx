@@ -3055,6 +3055,61 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/griffon_airborne_logistics.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_magic_of_artifice_medium"
+		texturefile = "gfx/interface/race/griffon_magic_of_artifice.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_impossible_architecture_medium"
+		texturefile = "gfx/interface/race/griffon_impossible_architecture.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_naval_artifice_medium"
+		texturefile = "gfx/interface/race/griffon_naval_artifice.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_advanced_naval_artifice_medium"
+		texturefile = "gfx/interface/race/griffon_advanced_naval_artifice.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_modern_naval_artifice_medium"
+		texturefile = "gfx/interface/race/griffon_modern_naval_artifice.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_enchanted_tools_medium"
+		texturefile = "gfx/interface/race/griffon_enchanted_tools.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_style_over_quantity_medium"
+		texturefile = "gfx/interface/race/griffon_style_over_quantity.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_aerial_magitech_medium"
+		texturefile = "gfx/interface/race/griffon_aerial_magitech.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_naval_magic_medium"
+		texturefile = "gfx/interface/race/pony_naval_magic.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_advanced_naval_magic_medium"
+		texturefile = "gfx/interface/race/pony_advanced_naval_magic.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_modern_naval_magic_medium"
+		texturefile = "gfx/interface/race/pony_modern_naval_magic.dds"
+	}
+
 
 
 
