@@ -129,7 +129,8 @@ if = {
 	}
 }
 
-set_technology = { 
+set_technology = {
+	deer_race = 1
 	pone_race = 1
 	kirin_race = 1
 	griffon_race = 1
