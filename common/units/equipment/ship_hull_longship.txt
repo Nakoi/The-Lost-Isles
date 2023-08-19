@@ -95,7 +95,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { module_boarding module_carronades }
+				allowed_module_categories = { module_boarding module_light_lg module_carronades }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -154,7 +154,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { module_boarding module_carronades }
+				allowed_module_categories = { module_boarding module_light_lg module_carronades }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -187,6 +187,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					module_boarding
+					module_light_lg
 					module_carronades
 					module_naval_aa
 				}
@@ -225,7 +226,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { module_boarding module_carronades }
+				allowed_module_categories = { module_boarding module_light_lg module_carronades }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -266,6 +267,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					module_boarding
+					module_light_lg
 					module_carronades
 					module_naval_aa
 				}
@@ -333,7 +335,7 @@ equipments = {
 		parent = longship_1
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = naval_carronades_1
+			fixed_ship_battery_slot = light_naval_battery_2
 			fixed_ship_anti_air_slot = naval_anti_air_1
 			fixed_ship_engine_slot = galley_propulsion_2
 			fixed_ship_fire_control_system_slot = navigation_equipment_2
@@ -366,7 +368,7 @@ equipments = {
 		parent = longship_2
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = naval_carronades_2
+			fixed_ship_battery_slot = light_naval_battery_3
 			fixed_ship_anti_air_slot = naval_anti_air_2
 			fixed_ship_engine_slot = galley_propulsion_3
 			fixed_ship_fire_control_system_slot = navigation_equipment_3
@@ -400,7 +402,7 @@ equipments = {
 		parent = longship_3
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = heavy_naval_battery_4
+			fixed_ship_battery_slot = light_naval_battery_4
 			fixed_ship_anti_air_slot = naval_anti_air_3
 			fixed_ship_engine_slot = galley_propulsion_4
 			fixed_ship_fire_control_system_slot = navigation_equipment_3
