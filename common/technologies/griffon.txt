@@ -42,7 +42,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 4 y = 0 }
+			position = { x = 2 y = 0 }
 		}
 		
 		categories = {
@@ -72,7 +72,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 4 y = 2 }
+			position = { x = 2 y = 4 }
 		}
 		
 		categories = {
@@ -102,7 +102,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 4 y = 4 }
+			position = { x = 2 y = 8 }
 		}
 		
 		categories = {
@@ -133,7 +133,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 4 y = 6 }
+			position = { x = 2 y = 12 }
 		}
 		
 		categories = {
@@ -167,7 +167,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 9 y = 0 }
+			position = { x = 8 y = 0 }
 		}
 		
 		categories = {
@@ -187,9 +187,10 @@ technologies = {
 		
 		production_speed_buildings_factor = 0.25
 		global_building_slots_factor = 0.2
-
-		xor={
-			enchanted_tools
+		
+		path = {
+			leads_to_tech = style_over_quantity 
+			research_cost_coeff = 1
 		}
 		
 		path = {
@@ -201,7 +202,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 7 y = 2 }
+			position = { x = 6 y = 4 }
 		}
 		
 		categories = {
@@ -219,6 +220,10 @@ technologies = {
 			griffon_race = 1
 		}
 		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
 		enable_equipment_modules = { 
 			light_planking_griffon_1
 			heavy_planking_griffon_1
@@ -233,7 +238,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 7 y = 4 }
+			position = { x = 4 y = 6 }
 		}
 		
 		categories = {
@@ -265,7 +270,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 7 y = 6 }
+			position = { x = 4 y = 8 }
 		}
 		
 		categories = {
@@ -292,7 +297,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 7 y = 8 }
+			position = { x = 4 y = 10 }
 		}
 		
 		categories = {
@@ -312,10 +317,6 @@ technologies = {
 		
 		production_factory_max_efficiency_factor = 0.1
 		production_factory_efficiency_gain_factor = 0.15
-
-		xor={
-			impossible_architecture
-		}
 		
 		path = {
 			leads_to_tech = style_over_quantity 
@@ -326,7 +327,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 11 y = 2 }
+			position = { x = 10 y = 4 }
 		}
 		
 		categories = {
@@ -357,7 +358,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 11 y = 4 }
+			position = { x = 8 y = 8 }
 		}
 		
 		categories = {
@@ -404,7 +405,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 11 y = 6 }
+			position = { x = 8 y = 12 }
 		}
 		
 		categories = {
@@ -839,7 +840,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 22 y = 0 }
+			position = { x = 24 y = 0 }
 		}
 		
 		categories = {
@@ -871,7 +872,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 22 y = 2 }
+			position = { x = 24 y = 2 }
 		}
 		
 		categories = {
@@ -904,7 +905,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 22 y = 4 }
+			position = { x = 24 y = 4 }
 		}
 		
 		categories = {
@@ -943,7 +944,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 22 y = 6 }
+			position = { x = 24 y = 6 }
 		}
 		
 		categories = {
@@ -984,7 +985,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 20 y = 8 }
+			position = { x = 22 y = 8 }
 		}
 		
 		categories = {
@@ -1025,7 +1026,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 24 y = 8 }
+			position = { x = 26 y = 8 }
 		}
 		
 		categories = {
@@ -1063,7 +1064,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 20 y = 10 }
+			position = { x = 22 y = 10 }
 		}
 		
 		categories = {
@@ -1100,7 +1101,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 24 y = 10 }
+			position = { x = 26 y = 10 }
 		}
 		
 		categories = {
@@ -1134,7 +1135,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 22 y = 12 }
+			position = { x = 24 y = 12 }
 		}
 		
 		categories = {
@@ -1165,7 +1166,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 26 y = 8 }
+			position = { x = 28 y = 8 }
 		}
 		
 		categories = {
@@ -1196,7 +1197,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 26 y = 10 }
+			position = { x = 28 y = 12 }
 		}
 		
 		categories = {
@@ -1248,7 +1249,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 30 y = 0 }
+			position = { x = 34 y = 6 }
 		}
 		
 		categories = {
@@ -1282,7 +1283,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 28 y = 2 }
+			position = { x = 32 y = 8 }
 		}
 		
 		categories = {
@@ -1316,7 +1317,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 28 y = 4 }
+			position = { x = 32 y = 10 }
 		}
 		
 		categories = {
@@ -1350,7 +1351,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 28 y = 6 }
+			position = { x = 32 y = 12 }
 		}
 		
 		categories = {
@@ -1381,7 +1382,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 30 y = 3 }
+			position = { x = 34 y = 8 }
 		}
 		
 		categories = {
@@ -1412,7 +1413,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 30 y = 7 }
+			position = { x = 34 y = 12 }
 		}
 		
 		categories = {
@@ -1446,7 +1447,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 32 y = 2 }
+			position = { x = 36 y = 8 }
 		}
 		
 		categories = {
@@ -1480,7 +1481,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 32 y = 4 }
+			position = { x = 36 y = 10 }
 		}
 		
 		categories = {
@@ -1514,7 +1515,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 32 y = 6 }
+			position = { x = 36 y = 12 }
 		}
 		
 		categories = {
@@ -1569,7 +1570,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 36 y = 0 }
+			position = { x = 42 y = 6 }
 		}
 		
 		categories = {
@@ -1609,7 +1610,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 34 y = 2 }
+			position = { x = 40 y = 8 }
 		}
 		
 		categories = {
@@ -1650,7 +1651,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 38 y = 2 }
+			position = { x = 44 y = 8 }
 		}
 		
 		categories = {
@@ -1692,7 +1693,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 34 y = 4 }
+			position = { x = 40 y = 10 }
 		}
 		
 		categories = {
@@ -1733,7 +1734,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 38 y = 4 }
+			position = { x = 44 y = 10 }
 		}
 		
 		categories = {
@@ -1770,7 +1771,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 34 y = 6 }
+			position = { x = 40 y = 12 }
 		}
 		
 		categories = {
@@ -1808,7 +1809,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 38 y = 6 }
+			position = { x = 44 y = 12 }
 		}
 		
 		categories = {
@@ -1843,7 +1844,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 40 y = 2 }
+			position = { x = 46 y = 8 }
 		}
 		
 		categories = {
@@ -1878,7 +1879,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = griffon_folder
-			position = { x = 40 y = 6 }
+			position = { x = 46 y = 12 }
 		}
 		
 		categories = {
