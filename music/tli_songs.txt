@@ -1,0 +1,27 @@
+
+music_station = "tli"
+
+music = {
+	song = "Lone Ruler"
+	chance = {
+		modifier = {
+			factor = 2
+		}		
+	}
+}
+
+music = {
+    song = "Stand For Royalty"
+
+    chance = {
+        factor = 2
+    }
+}
+
+music = {
+    song = "Prepare The Nation"
+
+    chance = {
+        factor = 2
+    }
+}
