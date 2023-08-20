@@ -93,4 +93,50 @@ sub_units = {
 			replica_equipment = 100
 		}
 	}
+
+	tranquils = {
+		sprite = light_armor
+		map_icon_category = armored
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		special_forces = yes
+		can_be_parachuted = yes
+		
+		categories = {
+			category_army
+			category_front_line
+			category_tli_all_infantry
+			category_all_racial_units 
+			category_all_racial_infantry
+			category_tranquils
+		}
+		
+		combat_width = 0
+		
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.05
+		manpower = 250
+
+		#Misc Abilities
+		training_time = 60
+		suppression = 0
+		weight = 0.05
+		
+		supply_consumption = 0.02
+	
+		need = {
+			rifle_equipment = 20
+			support_equipment = 20
+		}
+	}
 }

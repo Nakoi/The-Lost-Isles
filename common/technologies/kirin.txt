@@ -1029,6 +1029,9 @@ technologies = {
 		dependencies = {
 		}
 
+		production_speed_buildings_factor = 0.25
+		industry_air_damage_factor = 1
+
 		path = {
 			leads_to_tech = kirin_corrosive_munitions
 			research_cost_coeff = 1
@@ -1053,6 +1056,11 @@ technologies = {
 	kirin_corrosive_munitions = {
 
 		dependencies = {
+		}
+
+		category_artillery = {
+			hard_attack = 0.10
+			ap_attack = 0.10
 		}
 
 		path = {
@@ -1086,6 +1094,8 @@ technologies = {
 		dependencies = {
 		}
 
+		monthly_population = 0.10
+
 		path = {
 			leads_to_tech = kirin_telepathic_communication
 			research_cost_coeff = 1
@@ -1110,6 +1120,11 @@ technologies = {
 	kirin_telepathic_communication = {
 
 		dependencies = {
+		}
+
+		category_army = {
+			initiative = 0.1
+			recon = 2
 		}
 
 		research_cost = 2.15
@@ -1206,6 +1221,12 @@ technologies = {
 		dependencies = {
 		}
 
+		category_army = {
+			defense = 0.1
+			breakthrough = 0.1
+			acclimatization_hot_climate_gain_factor = 0.5
+		}
+
 		path = {
 			leads_to_tech = kirin_natural_luck
 			research_cost_coeff = 1
@@ -1230,6 +1251,11 @@ technologies = {
 	kirin_natural_luck = {
 
 		dependencies = {
+		}
+
+		category_army = {
+			ap_attack = 0.15
+			initiative = 0.05
 		}
 
 		path = {
@@ -1258,6 +1284,8 @@ technologies = {
 		dependencies = {
 		}
 
+		political_power_gain = 0.15
+
 		path = {
 			leads_to_tech = kirin_fools_luck
 			research_cost_coeff = 1
@@ -1284,6 +1312,8 @@ technologies = {
 		dependencies = {
 		}
 
+		local_resources_factor = 0.25
+
 		research_cost = 2.15
 		start_year = 957
 		folder = {
@@ -1303,6 +1333,14 @@ technologies = {
 	kirin_tranquils = {
 
 		dependencies = {
+		}
+
+		enable_subunits = {
+			tranquils
+		}
+
+		category_tranquils = {
+			defense = 0.4
 		}
 
 		path = {
@@ -1329,6 +1367,10 @@ technologies = {
 	kirin_peace_of_mind = {
 
 		dependencies = {
+		}
+
+		category_tranquils = {
+			max_organisation = 30
 		}
 
 		path = {
@@ -1362,6 +1404,11 @@ technologies = {
 		dependencies = {
 		}
 
+		category_tranquils = {
+			entrenchment = 5
+			defense = 0.2
+		}
+
 		xor = {
 			kirin_offensive_nature_magic
 		}
@@ -1390,6 +1437,11 @@ technologies = {
 	kirin_offensive_nature_magic = {
 
 		dependencies = {
+		}
+
+		category_tranquils = {
+			soft_attack = 0.3
+			hard_attack = 0.1
 		}
 
 		xor = {
@@ -1422,6 +1474,11 @@ technologies = {
 		dependencies = {
 		}
 
+		category_tranquils = {
+			breakthrough = 0.2
+			entrenchment = 2
+		}
+
 		path = {
 			leads_to_tech = kirin_make_not_take
 			research_cost_coeff = 1
@@ -1446,6 +1503,34 @@ technologies = {
 	kirin_path_through_wilderness = {
 
 		dependencies = {
+		}
+
+		tranquils = {
+
+			forest = {
+				attack = 0.1
+				movement = 0.2
+			}
+			hills = {
+				attack = 0.1
+				movement = 0.2
+			}
+			mountain = {
+				attack = 0.1
+				movement = 0.2
+			}
+			jungle = {
+				attack = 0.1
+				movement = 0.2
+			}
+			marsh = {
+				attack = 0.1
+				movement = 0.2
+			}
+			river = {
+				attack = 0.1
+				movement = 0.2
+			}
 		}
 
 		path = {
@@ -1474,6 +1559,11 @@ technologies = {
 		dependencies = {
 		}
 
+		category_tranquils = {
+			supply_consumption_factor = -0.2
+			army_fuel_consumption_factor = -0.25
+		}
+
 		path = {
 			leads_to_tech = kirin_natural_pallisade
 			research_cost_coeff = 1
@@ -1498,6 +1588,11 @@ technologies = {
 	kirin_natural_pallisade = {
 
 		dependencies = {
+		}
+
+		category_tranquils = {
+			army_morale = 0.5
+			defense = 0.1
 		}
 
 		path = {
@@ -1530,6 +1625,11 @@ technologies = {
 		dependencies = {
 		}
 
+		category_tranquils = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+		}
+
 		xor={
 			kirin_corrosion_magic
 		}
@@ -1553,6 +1653,11 @@ technologies = {
 	kirin_corrosion_magic = {
 
 		dependencies = {
+		}
+
+		category_tranquils = {
+			hard_attack = 0.2
+			ap_attack = 0.2
 		}
 
 		xor={
