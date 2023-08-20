@@ -3235,6 +3235,106 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/griffon_anti_armor_bolt_action_rifle.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_griffon_landschip_medium"
+		texturefile = "gfx/interface/race/griffon_landschip.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_landship_equipment_0_medium"
+		texturefile = "gfx/interface/race/griffon_landschip.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_steam_landship_medium"
+		texturefile = "gfx/interface/race/griffon_steam_landship.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_landship_equipment_1_medium"
+		texturefile = "gfx/interface/race/griffon_steam_landship.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_modern_landship_medium"
+		texturefile = "gfx/interface/race/griffon_modern_landship.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_landship_equipment_2_medium"
+		texturefile = "gfx/interface/race/griffon_modern_landship.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_naval_gunnery_adaption_medium"
+		texturefile = "gfx/interface/race/griffon_naval_gunnery_adaption.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_heat_shells_medium"
+		texturefile = "gfx/interface/race/griffon_heat_shells.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_vertical_cannon_stabilisation_medium"
+		texturefile = "gfx/interface/race/griffon_vertical_cannon_stabilisation.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_sloped_armor_medium"
+		texturefile = "gfx/interface/race/griffon_sloped_armor.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_field_repair_kit_medium"
+		texturefile = "gfx/interface/race/griffon_field_repair_kit.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_magical_reactive_armor_medium"
+		texturefile = "gfx/interface/race/griffon_magical_reactive_armor.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_spell_cannon_medium"
+		texturefile = "gfx/interface/race/griffon_spell_cannon.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_spell_cannon_equipment_0_medium"
+		texturefile = "gfx/interface/race/griffon_spell_cannon.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_split_canister_beam_medium"
+		texturefile = "gfx/interface/race/griffon_split_canister_beam.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_focused_beam_medium"
+		texturefile = "gfx/interface/race/griffon_focused_beam.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_reusable_crystal_medium"
+		texturefile = "gfx/interface/race/griffon_reusable_crystal.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_disintegrating_crystal_medium"
+		texturefile = "gfx/interface/race/griffon_disintegrating_crystal.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_fireball_shot_medium"
+		texturefile = "gfx/interface/race/griffon_fireball_shot.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_superheated_beam_medium"
+		texturefile = "gfx/interface/race/griffon_superheated_beam.dds"
+	}
+
 
 
 
