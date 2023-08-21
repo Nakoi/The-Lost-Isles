@@ -3365,6 +3365,80 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/pony_malignancy.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_kirin_vanguards_medium"
+		texturefile = "gfx/interface/race/kirin_vanguards.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_shock_equipment_0_medium"
+		texturefile = "gfx/interface/race/kirin_vanguards.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_soul_mind_medium"
+		texturefile = "gfx/interface/race/kirin_soul_mind.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_fast_furious_medium"
+		texturefile = "gfx/interface/race/kirin_fast_furious.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_fiery_body_medium"
+		texturefile = "gfx/interface/race/kirin_fiery_body.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_buckshot_musket_medium"
+		texturefile = "gfx/interface/race/kirin_buckshot_musket.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_shock_equipment_1_medium"
+		texturefile = "gfx/interface/race/kirin_buckshot_musket.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_breech_shotgun_medium"
+		texturefile = "gfx/interface/race/kirin_breech_shotgun.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_shock_equipment_2_medium"
+		texturefile = "gfx/interface/race/kirin_breech_shotgun.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_repeating_shotgun_medium"
+		texturefile = "gfx/interface/race/kirin_repeating_shotgun.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_shotgun_mastery_medium"
+		texturefile = "gfx/interface/race/kirin_shotgun_mastery.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_smoke_screen_medium"
+		texturefile = "gfx/interface/race/kirin_smoke_screen.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_trail_destruction_medium"
+		texturefile = "gfx/interface/race/kirin_trail_destruction.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_cauterize_wounds_medium"
+		texturefile = "gfx/interface/race/kirin_cauterize_wounds.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_supernova_medium"
+		texturefile = "gfx/interface/race/kirin_supernova.dds"
+	}
 
 
 
