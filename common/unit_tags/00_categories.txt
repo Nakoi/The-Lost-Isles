@@ -32,9 +32,6 @@ sub_unit_categories = {
 	category_highlanders
 	category_rune_warrior
 	category_battle_seers
-	category_vanguards
-	category_replicas
-	category_tranquils
 	
 	category_griffonknights
 	category_griffonfalcons
@@ -42,6 +39,11 @@ sub_unit_categories = {
 	category_griffonlandship_support
 	category_griffonspellcannon
 	category_griffonspellcannon_support
+	
+	category_blazing_qing
+	category_vanguards
+	category_replicas
+	category_tranquils
 	
 	category_artillery # all artillery
 	category_line_artillery # artillery in front
