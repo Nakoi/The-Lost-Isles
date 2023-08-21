@@ -1604,6 +1604,7 @@ technologies = {
             breakthrough = 1
             defense = 0.1
             hardness = 14
+			maximum_speed = -0.33
             supply_consumption = 0.03
         }
 
@@ -2275,10 +2276,11 @@ technologies = {
         #    <type> = <float>
         #}
         shock_troops = {
-            breakthrough = 2
+            breakthrough = 1
             armor_value = 10
-            ap_attack = 1
-            hard_attack = 2
+            ap_attack = 0.5
+            hard_attack = 1
+			maximum_speed = -0.33
         }
     }
 
@@ -2329,6 +2331,7 @@ technologies = {
 
         shock_troops = {
             max_organisation = 5
+			hard_attack = 0.25
             armor_value = 2
             breakthrough = 0.1
         }
@@ -2381,6 +2384,7 @@ technologies = {
 
         shock_troops = {
             max_organisation = 5
+			hard_attack = 0.25
             armor_value = 1
             breakthrough = 0.1
         }
@@ -2433,6 +2437,7 @@ technologies = {
 
         shock_troops = {
             max_organisation = 5
+			hard_attack = 0.25
             armor_value = 1
             breakthrough = 0.1
         }
@@ -2480,6 +2485,7 @@ technologies = {
 
         shock_troops = {
             max_organisation = 5
+			hard_attack = 0.25
             armor_value = 1
             breakthrough = 0.1
         }
@@ -2535,8 +2541,9 @@ technologies = {
         #}
 
         sharpshooters = {
-            soft_attack = 1
-            defense = -0.1
+            soft_attack = 0.5
+            defense = -0.2
+			maximum_speed = 0.33
         }
     }
 
@@ -2586,8 +2593,8 @@ technologies = {
         #}
 
         sharpshooters = {
-            soft_attack = 0.2
-            max_organisation = 3
+            soft_attack = 0.25
+            max_organisation = 5
         }
     }
 
@@ -2637,8 +2644,8 @@ technologies = {
         #}
 
         sharpshooters = {
-            soft_attack = 0.2
-            max_organisation = 3
+            soft_attack = 0.25
+            max_organisation = 5
         }
     }
 
@@ -2688,8 +2695,8 @@ technologies = {
         #}
 
         sharpshooters = {
-            soft_attack = 0.2
-            max_organisation = 3
+            soft_attack = 0.25
+            max_organisation = 5
         }
     }
 
@@ -2734,8 +2741,8 @@ technologies = {
         #}
 
         sharpshooters = {
-            soft_attack = 0.2
-            max_organisation = 3
+            soft_attack = 0.25
+            max_organisation = 5
         }
     }
 
@@ -2788,11 +2795,10 @@ technologies = {
         #    <type> = <float>
         #}
         guards = {
-            soft_attack = 0.25
+            soft_attack = 0.1
             defense = 0.25
             armor_value  = 5
             breakthrough = 0.25
-            max_organisation = 5
         }
     }
 

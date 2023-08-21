@@ -550,11 +550,10 @@ technologies = {
 		}
 
 		category_wind_riders = {
-			recon = 2
 			defense = 0.25
 			breakthrough = 0.25
 			maximum_speed = 1.0	
-
+			air_attack = 1.5
 		}
 		
 		path = {
@@ -581,7 +580,6 @@ technologies = {
 	pony_cloud_cover = {
 
 		category_wind_riders = {
-			recon = 1
 			max_organisation = 5
 			default_morale = 0.1
 			breakthrough = 0.3
@@ -918,10 +916,9 @@ technologies = {
 			pone_race = 1
 		}
 
-		category_army = {
+		tli_recon_company = {
 			recon = 2
-			initiative = 0.02
-			
+			initiative = 0.05
 		}
 
 		path = {
@@ -2064,7 +2061,6 @@ technologies = {
 		
 		category_mages = {
 			combat_width = 1.0
-			recon = 5.0
 			breakthrough = 3.0
 			hard_attack = 1.5
 			ap_attack = 0.5
@@ -2165,7 +2161,6 @@ technologies = {
 		
 		category_mages = {
 			combat_width = 1.0
-			recon = 5.0
 			breakthrough = 3.0
 			hard_attack = 1.5
 			ap_attack = 0.5

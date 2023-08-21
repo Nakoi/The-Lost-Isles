@@ -28,11 +28,7 @@ technologies = {
 		}
 
 		convoy_escort_efficiency = 0.2
-		destroyer = {
-			lg_attack = 0.1
-			hg_attack = 0.1
-		}
-		frigate = {
+		xebec = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
@@ -40,11 +36,19 @@ technologies = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
-		ship_of_line = {
+		deer_longship = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
-		xebec = {
+		frigate = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+		}
+		siege_frigate = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+		}
+		ship_of_line = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
@@ -480,15 +484,27 @@ technologies = {
 	at_home_in_mountains = {
 
 		ranged_militia = {
-
 			hills = {
 				attack = 0.25
-				defence = 0.25
+				defence = 0.35
 				movement = 0.25
 			}
 			mountain = {
 				attack = 0.25
-				defence = 0.25
+				defence = 0.35
+				movement = 0.25
+			}
+		}
+		
+		ranged_infantry = {
+			hills = {
+				attack = 0.1
+				defence = 0.15
+				movement = 0.25
+			}
+			mountain = {
+				attack = 0.1
+				defence = 0.15
 				movement = 0.25
 			}
 		}
@@ -521,11 +537,9 @@ technologies = {
 
 	guerilla_warfare_expertise = {
 
-		category_army = { 
-			defense = 0.1
-			entrenchment = 3
-		}
-		dig_in_speed = 0.2
+		dig_in_speed = 0.25
+		resistance_decay_on_our_occupied_states = -0.33
+		resistance_target_on_our_occupied_states = 0.25
 
 		dependencies = {
 			tech_civilized = 1
@@ -664,10 +678,9 @@ technologies = {
 
 	deer_field_recon= {
 
-		category_highlanders = {
+		tli_recon_company = {
 			recon = 3
 			initiative = 0.15
-			maximum_speed = 0.10
 		}
 
 		dependencies = {
@@ -957,8 +970,7 @@ technologies = {
 	pioneers_of_camouflage= {
 
 		category_highlanders = {
-			entrenchment = 5
-			defense = 0.1
+			defense = 0.25
 		}
 
 		dependencies = {
@@ -1218,7 +1230,7 @@ technologies = {
 		dependencies = {
 		}
 
-		stability_weekly = 0.02
+		stability_weekly = 0.001
 		industrial_capacity_factory	= 0.1
 
 		path = {
@@ -1314,7 +1326,7 @@ technologies = {
 		}
 
 		category_rune_warrior = {
-			air_attack = -0.5
+			air_attack = -0.9
 			defense = 0.5
 			breakthrough = 0.2
 		}

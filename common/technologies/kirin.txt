@@ -67,8 +67,8 @@ technologies = {
 		}
 
 		category_vanguards = {
-			max_organisation = 25
-			default_morale = 0.2
+			max_organisation = 5
+			default_morale = 0.25
 		}
 
 		path = {
@@ -139,8 +139,8 @@ technologies = {
 		}
 
 		category_vanguards = {
-			max_strength = 0.2
-			breakthrough = 0.2
+			max_strength = 0.25
+			breakthrough = 0.25
 		}
 
 		xor={
@@ -338,8 +338,8 @@ technologies = {
 		}
 
 		category_vanguards = {
-			max_strength = 0.2
-			breakthrough = 0.2
+			max_strength = 0.25
+			defense = 0.5
 		}
 
 		path = {
@@ -410,7 +410,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 10 y = 8 }
+			position = { x = 8 y = 8 }
 		}
 		
 		categories = {
@@ -435,7 +435,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 10 y = 12 }
+			position = { x = 8 y = 12 }
 		}
 		
 		categories = {
@@ -469,7 +469,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 14 y = 0 }
+			position = { x = 12 y = 0 }
 		}
 		
 		categories = {
@@ -497,7 +497,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 14 y = 4 }
+			position = { x = 12 y = 4 }
 		}
 		
 		categories = {
@@ -526,7 +526,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 14 y = 8 }
+			position = { x = 12 y = 8 }
 		}
 		
 		categories = {
@@ -543,7 +543,7 @@ technologies = {
 		dependencies = {
 		}
 
-		attrition = 0.15
+		experience_loss_factor = 0.2
 
 		category_army = {
 			max_organisation = 10
@@ -554,7 +554,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 14 y = 12 }
+			position = { x = 12 y = 12 }
 		}
 		
 		categories = {
@@ -579,6 +579,10 @@ technologies = {
 		path = {
 			leads_to_tech = kirin_crane_spin
 			research_cost_coeff = 1
+		}
+		
+		enable_equipments = {
+			blazing_qing_equipment_1
 		}
 
 		research_cost = 2.15
@@ -606,6 +610,10 @@ technologies = {
 			leads_to_tech = kirin_modern_blazing_qing
 			research_cost_coeff = 1
 		}
+		
+		enable_equipments = {
+			blazing_qing_equipment_2
+		}
 
 		research_cost = 2.15
 		start_year = 957
@@ -627,6 +635,10 @@ technologies = {
 
 		dependencies = {
 		}
+		
+		enable_equipments = {
+			blazing_qing_equipment_3
+		}
 
 		research_cost = 2.15
 		start_year = 957
@@ -645,7 +657,12 @@ technologies = {
 	}
 
 	kirin_crane_spin = {
-
+		
+		category_blazing_qing = {
+			air_agility = 0.2
+			air_defence = 0.10
+		}
+		
 		dependencies = {
 		}
 
@@ -671,7 +688,12 @@ technologies = {
 	}
 
 	kirin_rocket_ramming = {
-
+		
+		category_blazing_qing = {
+			air_attack = 0.1
+			maximum_speed = 0.1
+		}
+		
 		dependencies = {
 		}
 
@@ -697,7 +719,12 @@ technologies = {
 	}
 
 	kirin_explosive_ramming = {
-
+		
+		category_blazing_qing = {
+			air_attack = 0.1
+			reliability = -0.05
+		}
+		
 		dependencies = {
 		}
 
@@ -743,7 +770,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 28 y = 0 }
+			position = { x = 26 y = 0 }
 		}
 		
 		categories = {
@@ -778,7 +805,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 26 y = 2 }
+			position = { x = 24 y = 2 }
 		}
 		
 		categories = {
@@ -798,16 +825,19 @@ technologies = {
 		replicas = {
 
 			forest = {
-				defence = 0.15
-				movement = 0.15
+				defence = 0.25
+				attack = 0.25 
+				movement = 0.1
 			}
 			jungle = {
-				defence = 0.15
-				movement = 0.15
+				defence = 0.25
+				attack = 0.25 
+				movement = 0.1
 			}
 			marsh = {
 				defence = 0.15
-				movement = 0.15
+				attack = 0.15 
+				movement = 0.1
 			}
 		}
 		
@@ -824,7 +854,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 30 y = 2 }
+			position = { x = 28 y = 2 }
 		}
 		
 		categories = {
@@ -842,8 +872,8 @@ technologies = {
 		}
 
 		category_replicas = {
-			max_strength = 0.2
-			default_morale = 0.2
+			max_strength = 0.25
+			default_morale = 0.5
 		}
 
 		path = {
@@ -855,7 +885,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 26 y = 4 }
+			position = { x = 24 y = 4 }
 		}
 		
 		categories = {
@@ -875,13 +905,13 @@ technologies = {
 		replicas = {
 
 			forest = {
-				attack = 0.3
+				attack = 0.25
 			}
 			jungle = {
-				attack = 0.3
+				attack = 0.25
 			}
 			marsh = {
-				attack = 0.3
+				attack = 0.15
 			}
 		}
 
@@ -894,7 +924,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 30 y = 4 }
+			position = { x = 28 y = 4 }
 		}
 		
 		categories = {
@@ -924,7 +954,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 28 y = 6 }
+			position = { x = 26 y = 6 }
 		}
 		
 		categories = {
@@ -955,7 +985,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 28 y = 8 }
+			position = { x = 26 y = 8 }
 		}
 		
 		categories = {
@@ -973,7 +1003,7 @@ technologies = {
 		}
 
 		category_replicas = {
-			max_organisation = 15
+			max_organisation = 10
 			defense = 0.1
 			reliability = 0.1
 		}
@@ -987,7 +1017,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 28 y = 10 }
+			position = { x = 26 y = 10 }
 		}
 		
 		categories = {
@@ -1012,7 +1042,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 28 y = 12 }
+			position = { x = 26 y = 12 }
 		}
 		
 		categories = {
@@ -1122,7 +1152,7 @@ technologies = {
 		dependencies = {
 		}
 
-		category_army = {
+		tli_recon_company = {
 			initiative = 0.1
 			recon = 2
 		}
@@ -1144,7 +1174,14 @@ technologies = {
 	}
 
 	kirin_living_ship_armor = {
-
+		
+		enable_equipment_modules = { 
+			light_planking_kirin_1
+		}
+		enable_equipment_modules = { 
+			heavy_planking_kirin_1
+		}
+		
 		dependencies = {
 		}
 
@@ -1152,12 +1189,16 @@ technologies = {
 			leads_to_tech = kirin_adv_living_ship_armor
 			research_cost_coeff = 1
 		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
 
 		research_cost = 2.15
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 36 y = 8 }
+			position = { x = 34 y = 8 }
 		}
 		
 		categories = {
@@ -1170,7 +1211,14 @@ technologies = {
 	}
 
 	kirin_adv_living_ship_armor = {
-
+		
+		enable_equipment_modules = { 
+			light_planking_kirin_2
+		}
+		enable_equipment_modules = { 
+			heavy_planking_kirin_2
+		}
+		
 		dependencies = {
 		}
 
@@ -1183,7 +1231,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 36 y = 10 }
+			position = { x = 34 y = 10 }
 		}
 		
 		categories = {
@@ -1196,7 +1244,14 @@ technologies = {
 	}
 
 	kirin_modern_living_ship_armor = {
-
+		
+		enable_equipment_modules = { 
+			light_planking_kirin_3
+		}
+		enable_equipment_modules = { 
+			heavy_planking_kirin_3
+		}
+		
 		dependencies = {
 		}
 
@@ -1204,7 +1259,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 36 y = 12 }
+			position = { x = 34 y = 12 }
 		}
 		
 		categories = {
@@ -1223,7 +1278,6 @@ technologies = {
 
 		category_army = {
 			defense = 0.1
-			breakthrough = 0.1
 			acclimatization_hot_climate_gain_factor = 0.5
 		}
 
@@ -1236,7 +1290,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 40 y = 0 }
+			position = { x = 36 y = 0 }
 		}
 		
 		categories = {
@@ -1254,8 +1308,7 @@ technologies = {
 		}
 
 		category_army = {
-			ap_attack = 0.15
-			initiative = 0.05
+			ap_attack = 0.2
 		}
 
 		path = {
@@ -1267,7 +1320,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 40 y = 4 }
+			position = { x = 36 y = 4 }
 		}
 		
 		categories = {
@@ -1295,7 +1348,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 40 y = 8 }
+			position = { x = 36 y = 8 }
 		}
 		
 		categories = {
@@ -1318,7 +1371,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 40 y = 12 }
+			position = { x = 36 y = 12 }
 		}
 		
 		categories = {
@@ -1340,7 +1393,7 @@ technologies = {
 		}
 
 		category_tranquils = {
-			defense = 0.4
+			defense = 0.5
 		}
 
 		path = {
@@ -1352,7 +1405,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 48 y = 0 }
+			position = { x = 42 y = 0 }
 		}
 		
 		categories = {
@@ -1387,7 +1440,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 48 y = 2 }
+			position = { x = 42 y = 2 }
 		}
 		
 		categories = {
@@ -1422,7 +1475,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 46 y = 4 }
+			position = { x = 40 y = 4 }
 		}
 		
 		categories = {
@@ -1457,7 +1510,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 50 y = 4 }
+			position = { x = 44 y = 4 }
 		}
 		
 		categories = {
@@ -1488,7 +1541,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 46 y = 6 }
+			position = { x = 40 y = 6 }
 		}
 		
 		categories = {
@@ -1509,27 +1562,27 @@ technologies = {
 
 			forest = {
 				attack = 0.1
-				movement = 0.2
+				movement = 0.33
 			}
 			hills = {
 				attack = 0.1
-				movement = 0.2
+				movement = 0.33
 			}
 			mountain = {
 				attack = 0.1
-				movement = 0.2
+				movement = 0.33
 			}
 			jungle = {
 				attack = 0.1
-				movement = 0.2
+				movement = 0.33
 			}
 			marsh = {
 				attack = 0.1
-				movement = 0.2
+				movement = 0.33
 			}
 			river = {
 				attack = 0.1
-				movement = 0.2
+				movement = 0.33
 			}
 		}
 
@@ -1542,7 +1595,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 50 y = 6 }
+			position = { x = 44 y = 6 }
 		}
 		
 		categories = {
@@ -1558,10 +1611,11 @@ technologies = {
 
 		dependencies = {
 		}
+		
+		army_fuel_consumption_factor = -0.25
 
 		category_tranquils = {
 			supply_consumption_factor = -0.2
-			army_fuel_consumption_factor = -0.25
 		}
 
 		path = {
@@ -1573,7 +1627,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 48 y = 8 }
+			position = { x = 42 y = 8 }
 		}
 		
 		categories = {
@@ -1591,8 +1645,8 @@ technologies = {
 		}
 
 		category_tranquils = {
-			army_morale = 0.5
 			defense = 0.1
+			entrenchment = 3
 		}
 
 		path = {
@@ -1608,7 +1662,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 48 y = 10 }
+			position = { x = 42 y = 10 }
 		}
 		
 		categories = {
@@ -1638,7 +1692,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 46 y = 12 }
+			position = { x = 40 y = 12 }
 		}
 		
 		categories = {
@@ -1668,7 +1722,7 @@ technologies = {
 		start_year = 957
 		folder = {
 			name = kirin_folder
-			position = { x = 50 y = 12 }
+			position = { x = 44 y = 12 }
 		}
 		
 		categories = {
