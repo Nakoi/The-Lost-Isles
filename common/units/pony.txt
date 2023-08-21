@@ -32,8 +32,8 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 17.5
-		max_organisation = 45
+		max_strength = 30.0
+		max_organisation = 40
 		default_morale = 0.3
 		manpower = 500
 
@@ -89,8 +89,8 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 11
-		max_organisation = 40
+		max_strength = 25
+		max_organisation = 35
 		default_morale = 0.4
 		manpower = 500
 
@@ -161,8 +161,8 @@ sub_units = {
 		combat_width = 0
 		
 		#Size Definitions
-		max_strength = 0.1
-		max_organisation = 35
+		max_strength = 5
+		max_organisation = 15
 		default_morale = 0.4
 		manpower = 100
 
@@ -207,8 +207,8 @@ sub_units = {
 		combat_width = 0
 		
 		#Size Definitions
-		max_strength = 0.4
-		max_organisation = 15
+		max_strength = 1
+		max_organisation = 10
 		default_morale = 0.05
 		manpower = 5
 
@@ -220,7 +220,7 @@ sub_units = {
 		supply_consumption = 0.1
 	
 		need = {
-			magical_equipment = 80
+			magical_equipment = 100
 		}
 
 	}

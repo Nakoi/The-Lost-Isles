@@ -29,6 +29,16 @@ sub_units = {
 		categories = { category_air_frigate }
 		land_air_wing_size = 12
 	}
+	
+	blazing_qing = {
+		sprite = light_plane
+		priority = 3
+		active = yes
+		type = { fighter }
+		need = { blazing_qing_equipment = 1 }
+		categories = { category_blazing_qing }
+		land_air_wing_size = 12
+	}
 
 	air_bombardier = {
 		sprite = light_plane
