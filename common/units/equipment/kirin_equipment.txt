@@ -17,7 +17,7 @@ equipments = {
 		
 		#Misc Abilities
 		reliability = 0.90
-		maximum_speed = 8
+		maximum_speed = 6
 
 		#Defensive Abilities
 		defense = 1
@@ -39,7 +39,7 @@ equipments = {
 			iron = 2
 		}
 
-		fuel_consumption = 0.25
+		fuel_consumption = 1
 		
 	}
 
@@ -201,7 +201,7 @@ equipments = {
 		visual_level = 1
 
 		#Misc Abilities
-		maximum_speed = 7
+		maximum_speed = 6
 		reliability = 0.8
 
 		#Defensive Abilities
@@ -253,6 +253,117 @@ equipments = {
 			iron = 2
 			wood = 1
 			coal = 2
+		}
+	}
+
+	blazing_qing_equipment = {
+		year = 1936
+	
+		is_archetype = yes
+		is_convertable = yes
+		is_buildable = yes
+		picture = blazing_qing_equipment
+		type = fighter
+		allow_mission_type = {
+			training
+			air_superiority
+			interception
+			recon
+			naval_patrol
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		sprite = light_plane
+		air_map_icon_frame = 1
+		interface_category = interface_category_air
+		
+		interface_overview_category_index = 1
+		#Misc Abilities
+		reliability = 0.85
+		maximum_speed = 70
+		manpower = 200
+		air_range = 550
+
+		air_agility = 20
+		air_attack = 100
+		air_defence = 400
+		air_superiority = 20
+
+		## Air vs Navy - high damage / low hit chance / hard to hurt
+		#naval_strike_attack = 5
+		#naval_strike_targetting = 20
+
+		#Space taken in convoy
+		lend_lease_cost = 90
+		
+		build_cost_ic = 860
+		resources = {
+			wood = 2
+			crystals = 2
+		}
+
+		fuel_consumption = 0.2
+		#food
+	}
+
+	blazing_qing_equipment_1 = {
+		year = 1936
+	
+		archetype = blazing_qing_equipment
+		active = no
+		priority = 5
+	}
+	
+	blazing_qing_equipment_2 = {
+		year = 1936
+	
+		archetype = blazing_qing_equipment
+		parent = blazing_qing_equipment_1
+		priority = 5
+		
+		#Misc Abilities
+		maximum_speed = 90
+		air_range = 750
+
+		air_agility = 24
+		air_attack = 180
+		air_defence = 780
+
+		#Space taken in convoy
+		lend_lease_cost = 90
+		
+		build_cost_ic = 1650
+		resources = {
+			wood = 2
+			crystals = 3
+			coal = 1
+		}
+	}
+	
+	blazing_qing_equipment_3 = {
+		year = 1936
+	
+		archetype = blazing_qing_equipment
+		parent = blazing_qing_equipment_2
+		priority = 5
+		
+		#Misc Abilities
+		maximum_speed = 125
+		air_range = 900
+
+		air_agility = 30
+		air_attack = 390
+		air_defence = 1350
+
+		#Space taken in convoy
+		lend_lease_cost = 90
+		
+		build_cost_ic = 3400
+		resources = {
+			wood = 4
+			crystals = 3
+			rare_metals = 2
 		}
 	}
 
