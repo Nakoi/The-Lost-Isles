@@ -3345,6 +3345,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/griffon_advanced_spell_cannon.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_modern_spell_cannon_medium"
+		texturefile = "gfx/interface/race/griffon_modern_spell_cannon.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_spell_cannon_equipment_2_medium"
+		texturefile = "gfx/interface/race/griffon_modern_spell_cannon.dds"
+	}
+
 
 
 
