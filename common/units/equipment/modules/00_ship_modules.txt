@@ -628,6 +628,48 @@ equipment_modules = {
 			armor_value = 21
 		}
 	}
+	
+	light_planking_kirin_1 = {
+		category = module_light_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.1
+			naval_speed = -0.04
+			max_strength = 0.2
+		}
+		
+		add_stats = {
+			armor_value = 4
+		}
+	}
+	
+	light_planking_kirin_2 = {
+		category = module_light_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.1
+			naval_speed = -0.05
+			max_strength = 0.2
+		}
+		
+		add_stats = {
+			armor_value = 7
+		}
+	}
+	
+	light_planking_kirin_3 = {
+		category = module_light_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.1
+			naval_speed = -0.05
+			max_strength = 0.2
+		}
+		
+		add_stats = {
+			armor_value = 18
+		}
+	}
 
     heavy_planking_1 = {
 		category = module_heavy_armor
@@ -776,6 +818,51 @@ equipment_modules = {
 		
 		add_stats = {
 			armor_value = 42
+		}
+	}
+	
+	heavy_planking_kirin_1 = {
+		category = module_light_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.08
+			surface_visibility = 0.08
+			naval_speed = -0.1
+			max_strength = 0.3
+		}
+		
+		add_stats = {
+			armor_value = 20
+		}
+	}
+	
+	heavy_planking_kirin_2 = {
+		category = module_light_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.1
+			surface_visibility = 0.08
+			naval_speed = -0.1
+			max_strength = 0.3
+		}
+		
+		add_stats = {
+			armor_value = 30
+		}
+	}
+	
+	heavy_planking_kirin_3 = {
+		category = module_light_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.1
+			surface_visibility = 0.08
+			naval_speed = -0.1
+			max_strength = 0.3
+		}
+		
+		add_stats = {
+			armor_value = 36
 		}
 	}
 
