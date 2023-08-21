@@ -3355,6 +3355,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/griffon_modern_spell_cannon.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_pony_flebotomy_medium"
+		texturefile = "gfx/interface/race/pony_flebotomy.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pony_malignancy_medium"
+		texturefile = "gfx/interface/race/pony_malignancy.dds"
+	}
+
 
 
 
