@@ -3440,6 +3440,71 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/kirin_supernova.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_kirin_honor_glory_medium"
+		texturefile = "gfx/interface/race/kirin_honor_glory.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_infernal_fury_medium"
+		texturefile = "gfx/interface/race/kirin_supernova.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_scorched_earth_medium"
+		texturefile = "gfx/interface/race/kirin_trail_destruction.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_blazing_barrier_medium"
+		texturefile = "gfx/interface/race/kirin_blazing_barrier.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_blazing_qing_medium"
+		texturefile = "gfx/interface/race/kirin_blazing_qing.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_blazing_qing_equipment_1_medium"
+		texturefile = "gfx/interface/race/kirin_blazing_qing.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_advanced_blazing_qing_medium"
+		texturefile = "gfx/interface/race/kirin_advanced_blazing_qing.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_blazing_qing_equipment_2_medium"
+		texturefile = "gfx/interface/race/kirin_advanced_blazing_qing.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_modern_blazing_qing_medium"
+		texturefile = "gfx/interface/race/kirin_modern_blazing_qing.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_blazing_qing_equipment_3_medium"
+		texturefile = "gfx/interface/race/kirin_modern_blazing_qing.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_crane_spin_medium"
+		texturefile = "gfx/interface/race/kirin_crane_spin.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_rocket_ramming_medium"
+		texturefile = "gfx/interface/race/kirin_rocket_ramming.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_explosive_ramming_medium"
+		texturefile = "gfx/interface/race/kirin_explosive_ramming.dds"
+	}
+
 
 
 
