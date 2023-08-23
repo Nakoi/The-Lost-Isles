@@ -36,6 +36,32 @@ add_ideas = {
 	race_dragon
 }
 
+##diplomacy##
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = BRV
+		autonomous_state = autonomy_puppet
+	}
+
+	set_autonomy = {
+		target = KER
+		autonomous_state = autonomy_puppet
+	}
+
+	else = {
+		puppet = BRV
+		puppet = KER
+	}
+}
+
+
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
