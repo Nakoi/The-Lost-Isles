@@ -13,6 +13,7 @@ ai_focus_aggressive = {
 
 ai_focus_generic_research = {
 	research = {
+		racial = 10.0
 		land_doctrine = 100.0
 		naval_doctrine = 100.0
 		air_doctrine = 50.0
@@ -79,6 +80,7 @@ ai_focus_generic_research = {
 
 ai_focus_military_equipment = {
 	research = {
+		racial = 10.0
 		land_doctrine = 100.0
 		naval_doctrine = 100.0
 		air_doctrine = 50.0
@@ -145,6 +147,7 @@ ai_focus_military_equipment = {
 
 ai_focus_military_advancements = {
 	research = {
+		racial = 10.0
 		land_doctrine = 100.0
 		naval_doctrine = 100.0
 		air_doctrine = 50.0
@@ -211,6 +214,7 @@ ai_focus_military_advancements = {
 
 ai_focus_peaceful = {
 	research = {
+		racial = 10.0
 		land_doctrine = 100.0
 		naval_doctrine = 100.0
 		air_doctrine = 50.0
@@ -277,6 +281,7 @@ ai_focus_peaceful = {
 
 ai_focus_naval = {
 	research = {
+		racial = 10.0
 		land_doctrine = 100.0
 		naval_doctrine = 100.0
 		air_doctrine = 50.0
@@ -343,6 +348,7 @@ ai_focus_naval = {
 
 ai_focus_naval_air = {
 	research = {
+		racial = 10.0
 		land_doctrine = 100.0
 		naval_doctrine = 100.0
 		air_doctrine = 50.0
@@ -409,6 +415,7 @@ ai_focus_naval_air = {
 
 ai_focus_aviation = {
 	research = {
+		racial = 10.0
 		land_doctrine = 100.0
 		naval_doctrine = 100.0
 		air_doctrine = 50.0
