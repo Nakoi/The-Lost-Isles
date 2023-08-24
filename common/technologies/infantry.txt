@@ -62,7 +62,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -111,7 +111,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -166,7 +166,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -208,7 +208,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -254,7 +254,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -311,7 +311,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -354,7 +354,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -406,7 +406,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -448,7 +448,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 		}
         
         # Adjusts weighting depending on taken technology (uses technology tags)
@@ -502,7 +502,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -553,7 +553,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -616,7 +616,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -663,7 +663,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -714,7 +714,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -765,7 +765,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
         ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -817,7 +817,7 @@ technologies = {
         
         # Weighting for the AI to pick the technology
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000

@@ -58,7 +58,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		
 		categories = {
@@ -95,7 +95,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		
 		categories = {
@@ -150,7 +150,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		
 		categories = {
@@ -199,7 +199,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		
 		categories = {
@@ -237,7 +237,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -281,7 +281,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -313,7 +313,7 @@ technologies = {
 			artillery_medium
         }
 		
-		research_cost = 1.8
+		research_cost = 2.7
 		start_year = 963
 		
 		folder = {
@@ -322,7 +322,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -366,7 +366,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -409,7 +409,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -453,7 +453,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000
@@ -490,7 +490,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			
 			modifier = {
 				factor = -1000

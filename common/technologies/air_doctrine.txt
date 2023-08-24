@@ -190,6 +190,9 @@ technologies = {
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		path = {
 			leads_to_tech = logistics_disruption
@@ -390,6 +393,9 @@ technologies = {
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		path = {
 			leads_to_tech = small_formation_flying
@@ -713,6 +719,9 @@ technologies = {
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		path = {
 			leads_to_tech = magical_presence_detection
@@ -1096,6 +1105,9 @@ technologies = {
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
+		dependencies = {
+            tech_industrialized = 1
+        }
 		
 		path = {
 			leads_to_tech = pride_of_the_air_fleet

@@ -47,9 +47,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 4.0
-		}
+		
 	}
 	
 	organised_supply_system = {
@@ -89,9 +87,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     standardised_equipment = {
@@ -129,9 +125,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     the_banner_system = {
@@ -171,9 +165,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     attrition_warfare = {
@@ -182,7 +174,7 @@ technologies = {
 		xp_unlock_cost = 50
 		
 		ranged_infantry = {
-			combat_width = -0.5
+			combat_width = -0.2
 		}
 		
         land_reinforce_rate = 0.10
@@ -210,9 +202,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     ############################
@@ -265,9 +255,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 4.0
-		}
+		
 	}
 	
 	field_artillery_assembly = {
@@ -311,9 +299,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     fortress_busting = {
@@ -365,9 +351,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     defensive_infantry = {
@@ -409,9 +393,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     overwhelming_barrage = {
@@ -446,9 +428,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     ############################
@@ -504,9 +484,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 4.0
-		}
+		
 	}
 	
 	draconian_discipline = {
@@ -548,9 +526,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     the_phalanx = {
@@ -586,9 +562,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     wall_of_steel = {
@@ -630,9 +604,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     integrated_support_units = {
@@ -671,9 +643,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     ############################
@@ -729,9 +699,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 4.0
-		}
+		
 	}
 	
 	in_shining_armor = {
@@ -775,9 +743,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     thirst_for_glory = {
@@ -817,9 +783,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     glorious_charge = {
@@ -865,9 +829,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     forged_in_battle = {
@@ -908,9 +870,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     ############################
@@ -986,9 +946,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 4.0
-		}
+		
 	}
 	
 	warrior_culture = {
@@ -1031,9 +989,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     raiding_parties = {
@@ -1070,9 +1026,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     one_with_nature = {
@@ -1119,9 +1073,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     hit_and_run_doctrinisation = {
@@ -1159,9 +1111,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     ############################
@@ -1217,9 +1167,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 4.0
-		}
+		
 	}
 	
 	primacy_of_the_bayonet = {
@@ -1280,9 +1228,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     primacy_of_musketry = {
@@ -1341,9 +1287,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     advanced_light_infantry_training = {
@@ -1352,29 +1296,30 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		sharpshooters = {
+            soft_attack = 0.25
 			Forest = {
                 attack = 0.10
-                defence = 0.10
+                defence = 0.15
                 movement = 0.10
             }
             Mountain = {
                 attack = 0.10
-                defence = 0.10
+                defence = 0.15
                 movement = 0.10
             }
             Jungle = {
                 attack = 0.10
-                defence = 0.10
+                defence = 0.15
                 movement = 0.10
             }
             Marsh = {
                 attack = 0.10
-                defence = 0.10
+                defence = 0.15
                 movement = 0.10
             }
             River = {
                 attack = 0.10
-                defence = 0.10
+                defence = 0.15
                 movement = 0.10
             }
 		}
@@ -1443,9 +1388,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     dedicated_grenadier_regiments = {
@@ -1521,9 +1464,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     batteries_of_the_brave = {
@@ -1602,9 +1543,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     veteran_regiments = {
@@ -1681,9 +1620,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     primacy_of_forage = {
@@ -1722,9 +1659,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     prohibition_of_forage = {
@@ -1764,9 +1699,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     superior_training = {
@@ -1810,9 +1743,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     modern_levy = {
@@ -1858,9 +1789,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     heavy_armor_adaptation = {
@@ -1905,9 +1834,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     grand_batteries = {
@@ -1945,9 +1872,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     iron_discipline = {
@@ -1987,9 +1912,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     strategic_mobility = {
@@ -2041,9 +1964,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     no_orders_no_action = {
@@ -2097,15 +2018,13 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     flexible_command_structure = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
 			max_organisation = 10
@@ -2146,15 +2065,13 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     artillery_supremacy = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		
 		category_line_artillery = {
 			soft_attack = 0.30
@@ -2200,15 +2117,13 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     killing_grounds = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
 			defense = 0.20
@@ -2252,15 +2167,13 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     orders_above_all = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
 			max_organisation = 10
@@ -2300,15 +2213,13 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     foreign_recruitment = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 
         local_non_core_manpower = 0.25
 
@@ -2345,15 +2256,13 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     point_defense_system = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		
 		unit_machine_gun = {
 			defense = 1
@@ -2408,15 +2317,13 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     infantry_firepower_superiority = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
 			ap_attack = 1.25
@@ -2464,15 +2371,13 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     prestige_over_principality = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		
 		category_elite_infantry = {
 			defense = 0.40
@@ -2522,15 +2427,13 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     mobile_warfare = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		
 		motor_infantry = {
             breakthrough = 0.40
@@ -2565,15 +2468,13 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     superior_firepower = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		
 		category_army = {
 			soft_attack = 0.25
@@ -2604,15 +2505,13 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     trench_warfare = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		
 		category_army = {
 			max_organisation = 20
@@ -2645,18 +2544,16 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 
     mass_assault = {
 
 		xp_research_type = army
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		
 		ranged_infantry = {
-			combat_width = -0.5
+			combat_width = -0.4
 		}
 		minimum_training_level = -0.1
         conscription = 0.05
@@ -2686,8 +2583,6 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			armor = 3.0
-		}
+		
 	}
 }

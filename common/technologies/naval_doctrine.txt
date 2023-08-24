@@ -16,15 +16,15 @@ technologies = {
 			max_organisation = 20
 			surface_visibility = -0.20			
 		}
-		frigate = {
-			max_organisation = 10
-			surface_visibility = -0.10			
+		deer_longship = {
+			max_organisation = 20
+			surface_visibility = -0.20
 		}
 		frigate = {
 			max_organisation = 10
 			surface_visibility = -0.10			
 		}
-		heavy_cruiser = {
+		siege_frigate = {
 			max_organisation = 10
 			surface_visibility = -0.10			
 		}
@@ -58,11 +58,7 @@ technologies = {
 			factor = 2
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.0
-		}
+		
 	}
 	
 	coastal_patrols = {
@@ -72,6 +68,10 @@ technologies = {
 			surface_detection = 0.15
 		}
 		galley = {
+			max_organisation = 10
+			surface_detection = 0.15
+		}
+		deer_longship = {
 			max_organisation = 10
 			surface_detection = 0.15
 		}
@@ -105,7 +105,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -114,11 +114,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     retreat_maneuvers = {
@@ -130,11 +126,14 @@ technologies = {
 		galley = {
 			max_organisation = 10
 		}
+		deer_longship = {
+			max_organisation = 10
+		}
 		frigate = {
 			max_organisation = 10
 		}
-		heavy_cruiser = {
-			max_organisation = 10		
+		siege_frigate = {
+			max_organisation = 10
 		}
 		naval_retreat_chance = 0.25
 		########
@@ -166,7 +165,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -175,11 +174,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     capital_ship_preservation = {
@@ -218,7 +213,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -227,11 +222,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     know_thy_enemy = {
@@ -241,6 +232,10 @@ technologies = {
 			max_strength = 0.1
 		}
 		galley = {
+			max_organisation = 10
+			max_strength = 0.1
+		}
+		deer_longship = {
 			max_organisation = 10
 			max_strength = 0.1
 		}
@@ -256,7 +251,7 @@ technologies = {
         }
 		
 		xp_research_type = navy
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -277,7 +272,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -286,11 +281,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     naval_skirmishing = {
@@ -305,7 +296,7 @@ technologies = {
 		}
 		
 		xp_research_type = navy
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -326,7 +317,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -335,11 +326,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     trade_interdiction = {
@@ -348,6 +335,9 @@ technologies = {
 			max_organisation = 10
 		}
 		galley = {
+			max_organisation = 10
+		}
+		deer_longship = {
 			max_organisation = 10
 		}
 		convoy_raiding_efficiency_factor = 0.15
@@ -375,7 +365,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -384,11 +374,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     ####################################
@@ -409,8 +395,8 @@ technologies = {
 		frigate = {
 			max_organisation = 20
 		}
-		heavy_cruiser = {
-			max_organisation = 20		
+		siege_frigate = {
+			max_organisation = 20	
 		}
 		navy_capital_ship_attack_factor = 0.1
 		navy_screen_attack_factor = 0.1
@@ -448,11 +434,7 @@ technologies = {
 			factor = 2
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.0
-		}
+		
 	}
 	
 	fleet_distribution = {
@@ -462,6 +444,9 @@ technologies = {
 		}
 		frigate = {
 			max_organisation = 10
+		}
+		siege_frigate = {
+			max_organisation = 10	
 		}
 		strike_force_movement_org_loss = -0.2
 		########
@@ -495,7 +480,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -504,11 +489,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     privateer_contracts = {
@@ -518,6 +499,10 @@ technologies = {
 			surface_detection = 0.10
 		}
 		galley = {
+			max_organisation = 10
+			surface_detection = 0.10
+		}
+		deer_longship = {
 			max_organisation = 10
 			surface_detection = 0.10
 		}
@@ -551,7 +536,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -560,11 +545,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     rapid_response_fleet = {
@@ -577,9 +558,9 @@ technologies = {
 			max_organisation = 10
 			naval_speed = 0.20
 		}
-		heavy_cruiser = {
+		siege_frigate = {
 			max_organisation = 10
-			naval_speed = 0.20		
+			naval_speed = 0.20	
 		}
 		########
 
@@ -610,7 +591,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -619,11 +600,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     fleet_concentration = {
@@ -634,8 +611,8 @@ technologies = {
 		frigate = {
 			max_organisation = 10
 		}
-		heavy_cruiser = {
-			max_organisation = 10	
+		siege_frigate = {
+			max_organisation = 10
 		}
 		navy_capital_ship_attack_factor = 0.20
 		########
@@ -669,7 +646,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -678,11 +655,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     improved_screen_organisation = {
@@ -693,8 +666,8 @@ technologies = {
 		frigate = {
 			max_organisation = 10
 		}
-		heavy_cruiser = {
-			max_organisation = 10	
+		siege_frigate = {
+			max_organisation = 10
 		}
 		navy_screen_attack_factor = 0.1
 		########
@@ -726,7 +699,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -735,11 +708,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     overwhelming_firepower = {
@@ -750,8 +719,8 @@ technologies = {
 		frigate = {
 			max_organisation = 10
 		}
-		heavy_cruiser = {
-			max_organisation = 10	
+		siege_frigate = {
+			max_organisation = 10
 		}
 		navy_capital_ship_attack_factor = 0.15
 		########
@@ -783,7 +752,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -792,11 +761,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     ascendance_of_steam = {
@@ -809,11 +774,19 @@ technologies = {
 			max_organisation = 15
 			naval_speed = 0.20
 		}
+		deer_longship = {
+			max_organisation = 15
+			naval_speed = 0.20
+		}
 		ship_of_line = {
 			max_organisation = 15
 			naval_speed = 0.20
 		}
 		frigate = {
+			max_organisation = 15
+			naval_speed = 0.20
+		}
+		siege_frigate = {
 			max_organisation = 15
 			naval_speed = 0.20
 		}
@@ -833,7 +806,7 @@ technologies = {
         }
 		
 		xp_research_type = navy
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -854,7 +827,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -863,11 +836,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     logistics_ships = {
@@ -880,11 +849,19 @@ technologies = {
 			max_organisation = 10
 			naval_range = 0.25
 		}
+		deer_longship = {
+			max_organisation = 10
+			naval_range = 0.25
+		}
 		ship_of_line = {
 			max_organisation = 10
 			naval_range = 0.25
 		}
 		frigate = {
+			max_organisation = 10
+			naval_range = 0.25
+		}
+		siege_frigate = {
 			max_organisation = 10
 			naval_range = 0.25
 		}
@@ -904,7 +881,7 @@ technologies = {
         }
 		
 		xp_research_type = navy
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -925,7 +902,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -934,11 +911,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     fleet_in_being = {
@@ -953,12 +926,22 @@ technologies = {
 			sub_detection = 0.15
 			surface_detection = 0.15
 		}
+		deer_longship = {
+			max_organisation = 10
+			sub_detection = 0.15
+			surface_detection = 0.15
+		}
 		ship_of_line = {
 			max_organisation = 10
 			sub_detection = 0.15
 			surface_detection = 0.15
 		}
 		frigate = {
+			max_organisation = 10
+			sub_detection = 0.15
+			surface_detection = 0.15
+		}
+		siege_frigate = {
 			max_organisation = 10
 			sub_detection = 0.15
 			surface_detection = 0.15
@@ -973,7 +956,7 @@ technologies = {
         xor = { big_guns_never_tire }
 		
 		xp_research_type = navy
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -994,7 +977,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -1003,11 +986,7 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 
     big_guns_never_tire = {
@@ -1021,7 +1000,7 @@ technologies = {
         xor = { fleet_in_being }
 		
 		xp_research_type = navy
-		xp_unlock_cost = 200
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1042,7 +1021,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ENG
+				tag = ZZZ
 				factor = 2
 			}
 			modifier = {
@@ -1051,10 +1030,6 @@ technologies = {
 			}
 		}
 		
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			battleship = 1.0
-			cruiser = 1.5
-		}
+		
 	}
 }
