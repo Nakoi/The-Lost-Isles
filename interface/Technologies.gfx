@@ -3620,6 +3620,56 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/kirin_fools_luck.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_kirin_tranquils_medium"
+		texturefile = "gfx/interface/race/kirin_tranquils.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_peace_of_mind_medium"
+		texturefile = "gfx/interface/race/kirin_peace_of_mind.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_defense_nature_magic_medium"
+		texturefile = "gfx/interface/race/kirin_defense_nature_magic.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_mobile_cover_creation_medium"
+		texturefile = "gfx/interface/race/kirin_mobile_cover_creation.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_offensive_nature_magic_medium"
+		texturefile = "gfx/interface/race/kirin_offensive_nature_magic.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_path_through_wilderness_medium"
+		texturefile = "gfx/interface/race/kirin_path_through_wilderness.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_make_not_take_medium"
+		texturefile = "gfx/interface/race/kirin_make_not_take.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_natural_pallisade_medium"
+		texturefile = "gfx/interface/race/kirin_natural_pallisade.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_hallucinogenic_growth_medium"
+		texturefile = "gfx/interface/race/kirin_hallucinogenic_growth.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_kirin_corrosion_magic_medium"
+		texturefile = "gfx/interface/race/kirin_corrosion_magic.dds"
+	}
+
 
 
 
