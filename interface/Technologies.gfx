@@ -3670,6 +3670,95 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/kirin_corrosion_magic.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_seafaring_traditions_medium"
+		texturefile = "gfx/interface/race/deer_seafaring_traditions.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_longship_deer_MTG_medium"
+		texturefile = "gfx/interface/race/deer_longship_deer_MTG.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_longship_hull_1_medium"
+		texturefile = "gfx/interface/race/deer_longship_deer_MTG.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_assault_ship_deer_MTG_medium"
+		texturefile = "gfx/interface/race/deer_assault_ship_deer_MTG.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_longship_hull_2_medium"
+		texturefile = "gfx/interface/race/deer_assault_ship_deer_MTG.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_steam_assault_ship_deer_MTG_medium"
+		texturefile = "gfx/interface/race/deer_steam_assault_ship_deer_MTG.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_longship_hull_3_medium"
+		texturefile = "gfx/interface/race/deer_steam_assault_ship_deer_MTG.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_modern_assault_ship_deer_MTG_medium"
+		texturefile = "gfx/interface/race/deer_modern_assault_ship_deer_MTG.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_longship_hull_4_medium"
+		texturefile = "gfx/interface/race/deer_modern_assault_ship_deer_MTG.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_boarding_parties_deer_MTG_medium"
+		texturefile = "gfx/interface/race/deer_boarding_parties_deer_MTG.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_boarding_parties_deer_2_MTG_medium"
+		texturefile = "gfx/interface/race/deer_boarding_parties_deer_2_MTG.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_boarding_parties_deer_3_MTG_medium"
+		texturefile = "gfx/interface/race/deer_boarding_parties_deer_3_MTG.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_cold_climate_mastery_medium"
+		texturefile = "gfx/interface/race/deer_cold_climate_mastery.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_at_home_in_mountains_medium"
+		texturefile = "gfx/interface/race/deer_at_home_in_mountains.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_guerilla_warfare_expertise_medium"
+		texturefile = "gfx/interface/race/deer_guerilla_warfare_expertise.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_trade_connections_medium"
+		texturefile = "gfx/interface/race/deer_trade_connections.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_modern_pirates_medium"
+		texturefile = "gfx/interface/race/pony_malignancy.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_skilled_shipbuilders_medium"
+		texturefile = "gfx/interface/race/deer_skilled_shipbuilders.dds"
+	}
 
 
 
