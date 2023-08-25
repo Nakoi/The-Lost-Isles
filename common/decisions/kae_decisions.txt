@@ -312,7 +312,7 @@ decisioncat_kae_clan_coring = {
 
 		cost = 75
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -355,7 +355,7 @@ decisioncat_kae_clan_coring = {
 
 		cost = 75
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -398,7 +398,7 @@ decisioncat_kae_clan_coring = {
 
 		cost = 75
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -441,7 +441,7 @@ decisioncat_kae_clan_coring = {
 
 		cost = 75
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -490,6 +490,7 @@ decisioncat_kae_suatoa_coring = {
 		visible = {
 			tag = KAE
 			has_completed_focus = KAE_mobilise_the_east
+			country_exists = AST
 		}
 		
 		complete_effect = {
@@ -523,6 +524,7 @@ decisioncat_kae_suatoa_coring = {
 		visible = {
 			tag = KAE
 			has_completed_focus = KAE_mobilise_the_east
+			country_exists = FRE
 		}
 		
 		complete_effect = {
@@ -556,6 +558,7 @@ decisioncat_kae_suatoa_coring = {
 		visible = {
 			tag = KAE
 			has_completed_focus = KAE_mobilise_the_east
+			country_exists = SEN
 		}
 		
 		complete_effect = {
@@ -589,6 +592,7 @@ decisioncat_kae_suatoa_coring = {
 		visible = {
 			tag = KAE
 			has_completed_focus = KAE_mobilise_the_east
+			country_exists = AIN
 		}
 		
 		complete_effect = {
@@ -611,23 +615,43 @@ decisioncat_kae_suatoa_coring = {
 			has_completed_focus = KAE_mobilise_the_east
 			KAE = {
 				owns_state = 490
-				owns_state = 489
 				owns_state = 487
-				owns_state = 488
 				owns_state = 473
 				owns_state = 418
 			}
 			490 = { compliance > 29 }
-			489 = { compliance > 29 }
 			487 = { compliance > 29 }
-			488 = { compliance > 29 }
 			473 = { compliance > 29 }
 			418 = { compliance > 29 }
+			IF = {
+				KAE = {
+					owns_state = 489
+				}
+				489 = { compliance > 29 }
+			}
+			IF = {
+				KAE = {
+					owns_state = 488
+				}
+				488 = { compliance > 29 }
+			}
+			IF = {
+				KAE = {
+					owns_state = 327
+				}
+				327 = { compliance > 29 }
+			}
+			IF = {
+				KAE = {
+					owns_state = 376
+				}
+				376 = { compliance > 29 }
+			}
 		}
 
 		cost = 75
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -646,11 +670,33 @@ decisioncat_kae_suatoa_coring = {
 		
 		remove_effect = {
 			add_state_core = 490
-			add_state_core = 489
 			add_state_core = 487
-			add_state_core = 488
 			add_state_core = 473
 			add_state_core = 418
+			IF = {
+				KAE = {
+					owns_state = 489
+				}
+				add_state_core = 489
+			}
+			IF = {
+				KAE = {
+					owns_state = 488
+				}
+				add_state_core = 488
+			}
+			IF = {
+				KAE = {
+					owns_state = 327
+				}
+				add_state_core = 327
+			}
+			IF = {
+				KAE = {
+					owns_state = 376
+				}
+				add_state_core = 376
+			}
 		}
 	}
 	
@@ -684,7 +730,7 @@ decisioncat_kae_suatoa_coring = {
 
 		cost = 75
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -712,8 +758,8 @@ decisioncat_kae_suatoa_coring = {
 		}
 	}
 	
-	KAE_core_astaria_decision = {
-
+	KAE_core_astaria_decision = { ###SCRAPPED UNTIL FURTHER NOTICE 25/08/23
+	
 		icon = eng_propaganda_campaigns
 
 		allowed = {
@@ -758,7 +804,7 @@ decisioncat_kae_suatoa_coring = {
 
 		cost = 75
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -768,7 +814,7 @@ decisioncat_kae_suatoa_coring = {
 
 		visible = {
 			tag = KAE
-			has_completed_focus = KAE_mobilise_the_east
+			always = no
 		}
 		
 		modifier = {
@@ -827,7 +873,7 @@ decisioncat_kae_esun_coring = {
 
 		cost = 75
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -881,7 +927,7 @@ decisioncat_kae_esun_coring = {
 
 		cost = 75
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
@@ -943,7 +989,7 @@ decisioncat_kae_esun_coring = {
 
 		cost = 75
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		ai_will_do = {
 			base = 100
