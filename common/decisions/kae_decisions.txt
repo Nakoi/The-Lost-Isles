@@ -467,7 +467,7 @@ decisioncat_kae_clan_coring = {
 
 decisioncat_kae_suatoa_coring = {
 
-	KAE_kill_astaria_decision = {
+	KAE_kill_astaria_decision = { ###SCRAPPED UNTIL FURTHER NOTICE 25/08/23
 
 		icon = eng_propaganda_campaigns
 
@@ -491,6 +491,7 @@ decisioncat_kae_suatoa_coring = {
 			tag = KAE
 			has_completed_focus = KAE_mobilise_the_east
 			country_exists = AST
+			always = no
 		}
 		
 		complete_effect = {
@@ -623,30 +624,6 @@ decisioncat_kae_suatoa_coring = {
 			487 = { compliance > 29 }
 			473 = { compliance > 29 }
 			418 = { compliance > 29 }
-			IF = {
-				KAE = {
-					owns_state = 489
-				}
-				489 = { compliance > 29 }
-			}
-			IF = {
-				KAE = {
-					owns_state = 488
-				}
-				488 = { compliance > 29 }
-			}
-			IF = {
-				KAE = {
-					owns_state = 327
-				}
-				327 = { compliance > 29 }
-			}
-			IF = {
-				KAE = {
-					owns_state = 376
-				}
-				376 = { compliance > 29 }
-			}
 		}
 
 		cost = 75
@@ -673,30 +650,6 @@ decisioncat_kae_suatoa_coring = {
 			add_state_core = 487
 			add_state_core = 473
 			add_state_core = 418
-			IF = {
-				KAE = {
-					owns_state = 489
-				}
-				add_state_core = 489
-			}
-			IF = {
-				KAE = {
-					owns_state = 488
-				}
-				add_state_core = 488
-			}
-			IF = {
-				KAE = {
-					owns_state = 327
-				}
-				add_state_core = 327
-			}
-			IF = {
-				KAE = {
-					owns_state = 376
-				}
-				add_state_core = 376
-			}
 		}
 	}
 	

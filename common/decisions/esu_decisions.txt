@@ -576,19 +576,15 @@ decisioncat_esu_ootari_cores = {
 
 		available = {
 			ESU = {
-				owns_state = 418
-				owns_state = 473
-				owns_state = 487
-				owns_state = 488
 				owns_state = 490
-				owns_state = 489
+				owns_state = 487
+				owns_state = 473
+				owns_state = 418
 			}
-			418 = { compliance > 29 }
-			473 = { compliance > 29 }
-			487 = { compliance > 29 }
-			488 = { compliance > 29 }
 			490 = { compliance > 29 }
-			489 = { compliance > 29 }
+			487 = { compliance > 29 }
+			473 = { compliance > 29 }
+			418 = { compliance > 29 }
 		}
 
 		cost = 75
@@ -611,12 +607,10 @@ decisioncat_esu_ootari_cores = {
 		}
 		
 		remove_effect = {
-			add_state_core = 418
-			add_state_core = 473
-			add_state_core = 487
-			add_state_core = 488
 			add_state_core = 490
-			add_state_core = 489
+			add_state_core = 487
+			add_state_core = 473
+			add_state_core = 418
 		}
 	}
 	
