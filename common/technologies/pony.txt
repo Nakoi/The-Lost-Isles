@@ -1225,6 +1225,7 @@ technologies = {
 
 		dependencies = {
 			pone_race = 1
+            tech_primitive = 1
 		}
 
 		enable_equipments = {
@@ -1248,8 +1249,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 100
 		folder = {
 			name = pony_folder
 			position = { x = 36 y = 0 }
@@ -1265,7 +1266,12 @@ technologies = {
 	}
 
 	pony_arcane_intellect = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
 		category_unicorn_support = {
 			max_organisation = 5
 			default_morale = 0.1
@@ -1284,8 +1290,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.6
-		start_year = 957
+		research_cost = 1.8
+		start_year = 400
 		folder = {
 			name = pony_folder
 			position = { x = 30 y = 2 }
@@ -1301,7 +1307,12 @@ technologies = {
 	}
 
 	pony_magic_missile = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
 		category_unicorn_support = {
 			soft_attack = 0.25
 			breakthrough = 0.50
@@ -1320,8 +1331,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.6
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = pony_folder
 			position = { x = 28 y = 4 }
@@ -1347,7 +1358,12 @@ technologies = {
 	}
 
 	pony_magic_beam = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
 		category_unicorn_support = {
 			hard_attack = 0.15
 			ap_attack = 0.25
@@ -1366,8 +1382,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.6
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = pony_folder
 			position = { x = 32 y = 4 }
@@ -1393,15 +1409,16 @@ technologies = {
 	}
 
 	pony_flicker = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
 		category_unicorn_support = {
 			defense = 3.0
 			default_morale = 0.2
 		}
-
-		dependencies = {
-            tech_civilized = 1
-        }
 
 		xor={
 			pony_bubble_shield
@@ -1416,7 +1433,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = pony_folder
@@ -1444,14 +1461,15 @@ technologies = {
 
 	pony_bubble_shield = {
 
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
 		category_unicorn_support = {
 			hardness = 4.0
 			armor_value = 10.0
 		}
-
-		dependencies = {
-            tech_civilized = 1
-        }
 
 		xor={
 			pony_flicker
@@ -1466,7 +1484,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = pony_folder
@@ -1493,15 +1511,16 @@ technologies = {
 	}
 
 	pony_blinding_beam = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
 		category_unicorn_support = {
 			soft_attack = 0.15
 			breakthrough = 0.5
 		}
-
-		dependencies = {
-            tech_civilized = 1
-        }
 
 		xor={
 			pony_healing_magic
@@ -1516,8 +1535,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.68
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = pony_folder
 			position = { x = 28 y = 8 }
@@ -1532,6 +1551,11 @@ technologies = {
 			
 			modifier = {
 				factor = -1000
+				date < "961.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
 				has_tech = pony_healing_magic
 			}
 			
@@ -1543,15 +1567,16 @@ technologies = {
 	}
 
 	pony_healing_magic = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
 		category_unicorn_support = {
 			max_strength = 1
 			casualty_trickleback = 0.1
 		}
-
-		dependencies = {
-            tech_civilized = 1
-        }
 
 		xor={
 			pony_blinding_beam
@@ -1566,8 +1591,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.68
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = pony_folder
 			position = { x = 32 y = 8 }
@@ -1582,6 +1607,11 @@ technologies = {
 			
 			modifier = {
 				factor = -1000
+				date < "961.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
 				has_tech = pony_blinding_beam
 			}
 			
@@ -1593,15 +1623,16 @@ technologies = {
 	}
 
 	pony_magnetize_ray = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
 		category_unicorn_support = {
 			soft_attack = 0.1
 			hard_attack = 0.2
 		}
-
-		dependencies = {
-            tech_civilized = 1
-        }
 
 		xor={
 			pony_combat_telekinesis
@@ -1616,8 +1647,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.68
-		start_year = 957
+		research_cost = 2.7
+		start_year = 965
 		folder = {
 			name = pony_folder
 			position = { x = 28 y = 10 }
@@ -1632,6 +1663,11 @@ technologies = {
 			
 			modifier = {
 				factor = -1000
+				date < "965.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
 				has_tech = pony_combat_telekinesis
 			}
 			
@@ -1643,15 +1679,16 @@ technologies = {
 	}
 
 	pony_combat_telekinesis = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
 		category_unicorn_support = {
 			defense = 0.5
 			max_organisation = 5
 		}
-
-		dependencies = {
-            tech_civilized = 1
-        }
 
 		xor={
 			pony_magnetize_ray
@@ -1666,8 +1703,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.68
-		start_year = 957
+		research_cost = 2.7
+		start_year = 965
 		folder = {
 			name = pony_folder
 			position = { x = 32 y = 10 }
@@ -1682,6 +1719,11 @@ technologies = {
 			
 			modifier = {
 				factor = -1000
+				date < "965.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
 				has_tech = pony_magnetize_ray
 			}
 			
@@ -1693,22 +1735,23 @@ technologies = {
 	}
 
 	pony_teleportation = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
 		category_unicorn_support = {
 			maximum_speed = 1.0
 			recon = 2
 		}
 
-		dependencies = {
-            tech_civilized = 1
-        }
-
 		xor={
 			pony_magical_mine
 		}
 
-		research_cost = 3.22
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = pony_folder
 			position = { x = 28 y = 12 }
@@ -1720,6 +1763,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 			
 			modifier = {
 				factor = -1000
@@ -1735,22 +1783,23 @@ technologies = {
 
 	pony_magical_mine = {
 		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
 		category_unicorn_support = {
 			default_morale = 0.2
 			defense = 1
 			entrenchment  = 5
 		}
 
-		dependencies = {
-            tech_civilized = 1
-        }
-
 		xor={
 			pony_teleportation
 		}
 
-		research_cost = 3.22
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = pony_folder
 			position = { x = 32 y = 12 }
@@ -1765,6 +1814,11 @@ technologies = {
 			
 			modifier = {
 				factor = -1000
+				date < "969.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
 				has_tech = pony_teleportation
 			}
 			
@@ -1776,14 +1830,15 @@ technologies = {
 	}
 
 	pony_advanced_magical_equipment = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
 		enable_equipments = {
 			magical_equipment_1
 		}
-
-		dependencies = {
-            tech_civilized = 1
-        }
 
 		path = {
 			leads_to_tech = pony_modern_magical_equipment
@@ -1794,7 +1849,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.68
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = pony_folder
@@ -1811,17 +1866,18 @@ technologies = {
 	}
 
 	pony_modern_magical_equipment = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
 		enable_equipments = {
 			magical_equipment_2
 		}
 
-		dependencies = {
-            tech_civilized = 1
-        }
-
-		research_cost = 3.22
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = pony_folder
 			position = { x = 36 y = 12 }
@@ -1833,19 +1889,26 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	pony_naval_magic = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+			medium_ship_tech_2 = 1
+			heavy_ship_tech_2 = 1
+		}
+		
 		path = {
 			leads_to_tech = pony_advanced_naval_magic
 			research_cost_coeff = 1
 		}
-
-		dependencies = {
-            tech_civilized = 1
-        }
 
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -1856,8 +1919,8 @@ technologies = {
 			heavy_planking_pony_1
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 1.2
+		start_year = 957
 		folder = {
 			name = pony_folder
 			position = { x = 34 y = 6 }
@@ -1873,23 +1936,26 @@ technologies = {
 	}
 
 	pony_advanced_naval_magic = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+			medium_ship_tech_3 = 1
+			heavy_ship_tech_3 = 1
+		}
+		
 		path = {
 			leads_to_tech = pony_modern_naval_magic
 			research_cost_coeff = 1
 		}
-
-		dependencies = {
-            tech_civilized = 1
-        }
 
 		enable_equipment_modules = { 
 			light_planking_pony_2
 			heavy_planking_pony_2
 		}
 
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 1.2
+		start_year = 965
 		folder = {
 			name = pony_folder
 			position = { x = 34 y = 8 }
@@ -1901,22 +1967,29 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
 	pony_modern_naval_magic = {
-
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+			medium_ship_tech_4 = 1
+			heavy_ship_tech_4 = 1
+		}
+		
 		enable_equipment_modules = { 
 			light_planking_pony_3
 			heavy_planking_pony_3
 		}
 
-		dependencies = {
-            tech_civilized = 1
-        }
-
-		research_cost = 1.7
-		start_year = 1936
+		research_cost = 1.2
+		start_year = 969
 		folder = {
 			name = pony_folder
 			position = { x = 34 y = 10 }
@@ -1928,11 +2001,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	pony_magic_unleashed = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_primitive = 1
+            pony_magic_unleashed = 1
+		}
+		
 		enable_subunits = {
 			pony_mages
 		}
@@ -1950,8 +2033,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 400
 		folder = {
 			name = pony_folder
 			position = { x = 44 y = 2 }
@@ -1967,7 +2050,12 @@ technologies = {
 	}
 
 	pony_abjuration = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_primitive = 1
+		}
+		
 		category_mages = {
 			breakthrough = 1.0
 			defense = 5.0
@@ -1988,8 +2076,8 @@ technologies = {
 			pony_witchcraft
 		}
 
-		research_cost = 2.68
-		start_year = 957
+		research_cost = 2.7
+		start_year = 800
 		folder = {
 			name = pony_folder
 			position = { x = 40 y = 4 }
@@ -2025,23 +2113,24 @@ technologies = {
 	}
 
 	pony_illusion = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
 		category_mages = {
 			breakthrough = 8.0
 			defense = 4.0
 			supply_consumption_factor = 0.15
 		}
 
-		dependencies = {
-            tech_industrialized = 1
-        }
-
 		path = {
 			leads_to_tech = pony_vivomancy
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.22
+		research_cost = 3.6
 		start_year = 957
 		folder = {
 			name = pony_folder
@@ -2058,24 +2147,25 @@ technologies = {
 	}
 
 	pony_vivomancy = {
-
-		category_mages = {
-		defense = 2.0
-		max_strength = 9.0
-		supply_consumption_factor = 0.15
-		}
-
+		
 		dependencies = {
-            tech_industrialized = 1
-        }
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
+		category_mages = {
+			defense = 2.0
+			max_strength = 9.0
+			supply_consumption_factor = 0.15
+		}
 
 		path = {
 			leads_to_tech = pony_negation
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.22
-		start_year = 957
+		research_cost = 3.6
+		start_year = 961
 		folder = {
 			name = pony_folder
 			position = { x = 40 y = 8 }
@@ -2087,11 +2177,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	pony_negation = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
 		category_mages = {
 		soft_attack = 0.5
 		hard_attack = 0.5
@@ -2099,17 +2199,13 @@ technologies = {
 		supply_consumption_factor = 0.15
 		}
 
-		dependencies = {
-            tech_industrialized = 1
-        }
-
 		path = {
 			leads_to_tech = pony_chronomancy 
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.69
-		start_year = 957
+		research_cost = 3.6
+		start_year = 965
 		folder = {
 			name = pony_folder
 			position = { x = 40 y = 10 }
@@ -2121,10 +2217,20 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
 	pony_chronomancy = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
 		
 		category_mages = {
 			initiative = 0.5
@@ -2133,12 +2239,8 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
-		dependencies = {
-            tech_industrialized = 1
-        }
-
-		research_cost = 3.69
-		start_year = 957
+		research_cost = 3.6
+		start_year = 969
 		folder = {
 			name = pony_folder
 			position = { x = 40 y = 12 }
@@ -2150,11 +2252,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	pony_pyrokinesis = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_primitive = 1
+		}
+		
 		category_mages = {
 			soft_attack = 1.5
 			hard_attack = 0.5
@@ -2178,8 +2290,8 @@ technologies = {
 			pony_witchcraft
 		}
 		
-		research_cost = 2.68
-		start_year = 957
+		research_cost = 2.7
+		start_year = 800
 		folder = {
 			name = pony_folder
 			position = { x = 44 y = 4 }
@@ -2215,14 +2327,15 @@ technologies = {
 	}
 
 	pony_hydrosphy = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
 		category_mages = {
 			supply_consumption_factor = 0.15
 		}
-
-		dependencies = {
-            tech_industrialized = 1
-        }
 
 		pony_mages = {
 			marsh = {
@@ -2249,7 +2362,7 @@ technologies = {
 			NOT = { has_dlc = "Man the Guns" }
 		}
 		
-		research_cost = 3.22
+		research_cost = 3.6
 		start_year = 957
 		folder = {
 			name = pony_folder
@@ -2266,14 +2379,15 @@ technologies = {
 	}
 
 	pony_hydrosphy_MTG = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
 		category_mages = {
 			supply_consumption_factor = 0.15
 		}
-
-		dependencies = {
-            tech_industrialized = 1
-        }
 
 		pony_mages = {
 			marsh = {
@@ -2302,7 +2416,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 		
-		research_cost = 3.22
+		research_cost = 3.6
 		start_year = 957
 		folder = {
 			name = pony_folder
@@ -2319,7 +2433,12 @@ technologies = {
 	}
 
 	pony_geomancy_MTG = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
 		category_mages = {
 			defense = 7.0
 			hardness = 4.0
@@ -2327,18 +2446,14 @@ technologies = {
 			ap_attack = 1.0
 			supply_consumption_factor = 0.15
 		}
-
-		dependencies = {
-            tech_industrialized = 1
-        }
 
 		path = {
 			leads_to_tech = pony_aerotheurgy_MTG
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.22
-		start_year = 957
+		research_cost = 3.6
+		start_year = 961
 		folder = {
 			name = pony_folder
 			position = { x = 44 y = 8 }
@@ -2350,11 +2465,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	pony_aerotheurgy_MTG = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
 		category_mages = {
 			ap_attack = 3.0
 			breakthrough = 1.0
@@ -2363,17 +2488,13 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
-		dependencies = {
-            tech_industrialized = 1
-        }
-
 		path = {
 			leads_to_tech = pony_conjuration_MTG
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.69
-		start_year = 957
+		research_cost = 3.6
+		start_year = 965
 		folder = {
 			name = pony_folder
 			position = { x = 44 y = 10 }
@@ -2385,10 +2506,20 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
 	pony_conjuration_MTG = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
 		
 		category_mages = {
 			combat_width = 1.0
@@ -2398,12 +2529,8 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
-		dependencies = {
-            tech_industrialized = 1
-        }
-
-		research_cost = 3.69
-		start_year = 957
+		research_cost = 3.6
+		start_year = 969
 		folder = {
 			name = pony_folder
 			position = { x = 44 y = 12 }
@@ -2415,11 +2542,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	pony_geomancy = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
 		category_mages = {
 			defense = 7.0
 			hardness = 4.0
@@ -2428,17 +2565,13 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
-		dependencies = {
-            tech_industrialized = 1
-        }
-
 		path = {
 			leads_to_tech = pony_aerotheurgy
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.22
-		start_year = 957
+		research_cost = 3.6
+		start_year = 961
 		folder = {
 			name = pony_folder
 			position = { x = 44 y = 8 }
@@ -2450,11 +2583,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	pony_aerotheurgy = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
 		category_mages = {
 			ap_attack = 3.0
 			breakthrough = 1.0
@@ -2463,17 +2606,13 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
-		dependencies = {
-            tech_industrialized = 1
-        }
-
 		path = {
 			leads_to_tech = pony_conjuration
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.69
-		start_year = 957
+		research_cost = 3.6
+		start_year = 965
 		folder = {
 			name = pony_folder
 			position = { x = 44 y = 10 }
@@ -2485,10 +2624,20 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
 	pony_conjuration = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
 		
 		category_mages = {
 			combat_width = 1.0
@@ -2498,12 +2647,8 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
-		dependencies = {
-            tech_industrialized = 1
-        }
-
-		research_cost = 3.69
-		start_year = 957
+		research_cost = 3.6
+		start_year = 969
 		folder = {
 			name = pony_folder
 			position = { x = 44 y = 12 }
@@ -2515,11 +2660,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	pony_witchcraft = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_primitive = 1
+		}
+		
 		category_mages = {
 			soft_attack = 1.5
 			max_organisation = 20
@@ -2539,8 +2694,8 @@ technologies = {
 			pony_abjuration
 		}
 		
-		research_cost = 2.68
-		start_year = 957
+		research_cost = 2.7
+		start_year = 800
 		folder = {
 			name = pony_folder
 			position = { x = 48 y = 4 }
@@ -2576,17 +2731,18 @@ technologies = {
 	}
 
 	pony_mindbending = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
 		category_mages = {
 			breakthrough = 7.0
 			maximum_speed = 0.5
 			ap_attack = 2.0
 			supply_consumption_factor = 0.15
 		}
-
-		dependencies = {
-            tech_industrialized = 1
-        }
 		
 		pony_mages = {
 			equipment_capture_factor = 0.10
@@ -2597,7 +2753,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.22
+		research_cost = 3.6
 		start_year = 957
 		folder = {
 			name = pony_folder
@@ -2614,7 +2770,12 @@ technologies = {
 	}
 
 	pony_necromancy = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
 		category_mages = {
 			defense = 6.0
 			max_strength = 1.0
@@ -2622,17 +2783,13 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
-		dependencies = {
-            tech_industrialized = 1
-        }
-
 		path = {
 			leads_to_tech = pony_flebotomy
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.22
-		start_year = 957
+		research_cost = 3.6
+		start_year = 961
 		folder = {
 			name = pony_folder
 			position = { x = 48 y = 8 }
@@ -2644,11 +2801,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	pony_flebotomy = {
-
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
 		category_mages = {
 			defense = 2.0
 			ap_attack = 1.0
@@ -2658,17 +2825,13 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
-		dependencies = {
-            tech_industrialized = 1
-        }
-
 		path = {
 			leads_to_tech = pony_malignancy
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.69
-		start_year = 957
+		research_cost = 3.6
+		start_year = 965
 		folder = {
 			name = pony_folder
 			position = { x = 48 y = 10 }
@@ -2680,10 +2843,20 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
 	pony_malignancy = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
 		
 		category_mages = {
 			ap_attack = 1.0
@@ -2692,12 +2865,8 @@ technologies = {
 			supply_consumption_factor = 0.15
 		}
 
-		dependencies = {
-            tech_industrialized = 1
-        }
-
-		research_cost = 3.69
-		start_year = 957
+		research_cost = 3.6
+		start_year = 969
 		folder = {
 			name = pony_folder
 			position = { x = 48 y = 12 }
@@ -2709,8 +2878,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
-
-
 }
