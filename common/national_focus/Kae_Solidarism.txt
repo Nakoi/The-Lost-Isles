@@ -602,8 +602,8 @@ focus_tree = {
 			build_railway = {
 				level = 2
 				path = { 1712 5064 3179 2384 2884 }
-				start_province = 491
-				target_province = 418
+				start_province = 1712
+				target_province = 2884
 			}
 		}
 	}
@@ -835,7 +835,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_commission_officers
-		icon = KAE_GFX_Special_Infantry
+		icon = KAE_GFX_Asterian_Conscription
 		prerequisite = { focus = KAE_early_fortifications focus = KAE_cannon_supplies }
 		x = 0
 		y = 3
@@ -1193,15 +1193,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_manpower = 150000
-			add_timed_idea = { idea = KAE_mercpayments days = 180 }
+			add_timed_idea = { idea = KAE_mercrecruitment days = 500 }
 		}
 	}
 
 
 	focus = {
 		id = KAE_conscript_ootari_bonus
-		icon = KAE_GFX_Asterian_Conscription
+		icon = KAE_GFX_Contract_Army
 		prerequisite = { focus = KAE_to_war }
 		mutually_exclusive = { focus = KAE_mercenary_ootari_bonus }
 		x = 1
@@ -1288,7 +1287,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_timed_idea = { idea = KAE_mercrecruitment days = 720 }
+			add_timed_idea = { idea = KAE_mercrecruitment days = 500 }
 		}
 	}
 
