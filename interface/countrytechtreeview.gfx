@@ -25,14 +25,25 @@ spriteTypes = {
 		textureFile = "gfx//interface//wonderweapons_bg.dds"
 	}
 	corneredTileSpriteType = {
-		name = "GFX_tiled_research_bg"
+		name = "GFX_tiled_research_bg_civilized"
 		size= { x=96 y=96 }
-		textureFile = "gfx//interface//tiles//tiled_research_bg.dds"
+		textureFile = "gfx//interface//tiled_research_bg_civilized.dds"
 		borderSize = { x=32 y=32 }
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 		alwaystransparent = yes	
 	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg_advanced"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiled_research_bg_advanced.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes	
+	}
+
 
 	corneredTileSpriteType = {
 		name = "GFX_techtree_stripes"
