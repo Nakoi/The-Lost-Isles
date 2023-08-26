@@ -3760,6 +3760,56 @@ spriteTypes = {
 		texturefile = "gfx/interface/race/deer_skilled_shipbuilders.dds"
 	}
 
+		SpriteType = {
+		name = "GFX_deer_highlanders_medium"
+		texturefile = "gfx/interface/race/deer_highlanders.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_deer_field_recon_medium"
+		texturefile = "gfx/interface/race/deer_field_recon.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_advanced_mountain_gear_medium"
+		texturefile = "gfx/interface/race/deer_advanced_mountain_gear.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_heirs_of_jaris_medium"
+		texturefile = "gfx/interface/race/deer_heirs_of_jaris.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_heirs_of_vikings_medium"
+		texturefile = "gfx/interface/race/deer_heirs_of_vikings.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_demolitions_training_medium"
+		texturefile = "gfx/interface/race/deer_demolitions_training.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_light_infantry_expertise_medium"
+		texturefile = "gfx/interface/race/deer_light_infantry_expertise.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_heroes_of_people_medium"
+		texturefile = "gfx/interface/race/deer_heroes_of_people.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_heroes_of_myth_medium"
+		texturefile = "gfx/interface/race/deer_heroes_of_myth.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_pioneers_of_camouflage_medium"
+		texturefile = "gfx/interface/race/deer_pioneers_of_camouflage.dds"
+	}
+
 
 
 
