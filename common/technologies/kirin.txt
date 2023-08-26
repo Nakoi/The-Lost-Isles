@@ -25,6 +25,8 @@ technologies = {
 	kirin_vanguards = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		enable_subunits = {
@@ -45,15 +47,15 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 100
 		folder = {
 			name = kirin_folder
 			position = { x = 4 y = 0 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -64,6 +66,8 @@ technologies = {
 	kirin_soul_mind = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		category_vanguards = {
@@ -81,15 +85,15 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 400
 		folder = {
 			name = kirin_folder
 			position = { x = 4 y = 2 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -100,6 +104,8 @@ technologies = {
 	kirin_fast_furious = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		xor={
@@ -117,25 +123,37 @@ technologies = {
 		}
 		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = kirin_folder
 			position = { x = 2 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_fiery_body
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_fiery_body
+			}
 		}
 	}
 
 	kirin_fiery_body = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		category_vanguards = {
@@ -153,25 +171,37 @@ technologies = {
 		}
 		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = kirin_folder
 			position = { x = 6 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_fast_furious
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_fast_furious
+			}
 		}
 	}
 
 	kirin_buckshot_musket = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		enable_equipments = {
@@ -194,7 +224,7 @@ technologies = {
 		}
 		
 
-		research_cost = 2.15
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = kirin_folder
@@ -202,7 +232,7 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -213,6 +243,8 @@ technologies = {
 	kirin_shotgun_mastery = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		xor={
@@ -236,25 +268,42 @@ technologies = {
 		}
 		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = kirin_folder
 			position = { x = 2 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_smoke_screen
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_smoke_screen
+			}
 		}
 	}
 
 	kirin_smoke_screen = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		xor={
@@ -277,25 +326,42 @@ technologies = {
 		}
 		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = kirin_folder
 			position = { x = 6 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_shotgun_mastery
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_shotgun_mastery
+			}
 		}
 	}
 
 	kirin_trail_destruction = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		xor={
@@ -312,25 +378,42 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 965
 		folder = {
 			name = kirin_folder
 			position = { x = 2 y = 10 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_cauterize_wounds
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_cauterize_wounds
+			}
 		}
 	}
 
 	kirin_cauterize_wounds = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		xor={
@@ -347,25 +430,42 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 965
 		folder = {
 			name = kirin_folder
 			position = { x = 6 y = 10 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_trail_destruction
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_trail_destruction
+			}
 		}
 	}
 
 	kirin_supernova = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		category_vanguards = {
@@ -375,19 +475,24 @@ technologies = {
 			ap_attack = 0.25
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = kirin_folder
 			position = { x = 4 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
@@ -395,6 +500,8 @@ technologies = {
 	kirin_breech_shotgun = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		enable_equipments = {
@@ -406,44 +513,56 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = kirin_folder
 			position = { x = 8 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	kirin_repeating_shotgun = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		enable_equipments = {
 			shock_equipment_3
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = kirin_folder
 			position = { x = 8 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
@@ -452,6 +571,8 @@ technologies = {
 	kirin_infernal_fury = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		category_army = {
@@ -465,15 +586,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 100
 		folder = {
 			name = kirin_folder
 			position = { x = 12 y = 0 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -484,6 +605,8 @@ technologies = {
 	kirin_scorched_earth = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		industry_repair_factor = 0.5
@@ -493,15 +616,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = kirin_folder
 			position = { x = 12 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -512,6 +635,8 @@ technologies = {
 	kirin_blazing_barrier = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		production_speed_bunker_factor = 0.1
@@ -522,25 +647,32 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = kirin_folder
 			position = { x = 12 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	kirin_honor_glory = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		experience_loss_factor = 0.2
@@ -550,19 +682,24 @@ technologies = {
 			breakthrough = 0.15
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = kirin_folder
 			position = { x = 12 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
@@ -570,6 +707,9 @@ technologies = {
 	kirin_blazing_qing = {
 
 		dependencies = {
+			kirin_race = 1
+			hot_air_balloon = 1
+            tech_civilized = 1
 		}
 
 		path = {
@@ -585,7 +725,7 @@ technologies = {
 			blazing_qing_equipment_1
 		}
 
-		research_cost = 2.15
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = kirin_folder
@@ -593,7 +733,7 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -604,6 +744,8 @@ technologies = {
 	kirin_advanced_blazing_qing = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		path = {
@@ -615,44 +757,56 @@ technologies = {
 			blazing_qing_equipment_2
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = kirin_folder
 			position = { x = 16 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	kirin_modern_blazing_qing = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 		
 		enable_equipments = {
 			blazing_qing_equipment_3
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = kirin_folder
 			position = { x = 16 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
@@ -664,6 +818,8 @@ technologies = {
 		}
 		
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		path = {
@@ -671,19 +827,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = kirin_folder
 			position = { x = 20 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
@@ -695,6 +856,8 @@ technologies = {
 		}
 		
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		path = {
@@ -702,19 +865,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 965
 		folder = {
 			name = kirin_folder
 			position = { x = 20 y = 10 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
@@ -726,27 +894,37 @@ technologies = {
 		}
 		
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = kirin_folder
 			position = { x = 20 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	kirin_replicas = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
+			kirin_replicas = 1
 		}
 
 		enable_subunits = {
@@ -766,15 +944,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 100
 		folder = {
 			name = kirin_folder
 			position = { x = 26 y = 0 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -785,8 +963,10 @@ technologies = {
 	kirin_reinforced_wood = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
-
+		
 		category_replicas = {
 			defense = 0.1
 			breakthrough = 0.1
@@ -801,25 +981,37 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 400
 		folder = {
 			name = kirin_folder
 			position = { x = 24 y = 2 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_one_with_wood
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_one_with_wood
+			}
 		}
 	}
 
 	kirin_one_with_wood = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		replicas = {
@@ -850,25 +1042,37 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 400
 		folder = {
 			name = kirin_folder
 			position = { x = 28 y = 2 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_reinforced_wood
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_reinforced_wood
+			}
 		}
 	}
 
 	kirin_replica_restoration = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		category_replicas = {
@@ -881,15 +1085,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 800
 		folder = {
 			name = kirin_folder
 			position = { x = 24 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -900,6 +1104,8 @@ technologies = {
 	kirin_mastery_of_nature = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		replicas = {
@@ -920,15 +1126,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 800
 		folder = {
 			name = kirin_folder
 			position = { x = 28 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -939,6 +1145,8 @@ technologies = {
 	kirin_advanced_replicas = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		enable_equipments = {
@@ -950,7 +1158,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
+		research_cost = 3.6
 		start_year = 957
 		folder = {
 			name = kirin_folder
@@ -958,7 +1166,7 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -969,6 +1177,8 @@ technologies = {
 	kirin_explosive_seeds = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		category_replicas = {
@@ -981,25 +1191,32 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 961
 		folder = {
 			name = kirin_folder
 			position = { x = 26 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	kirin_intelligent_replicas = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		category_replicas = {
@@ -1013,50 +1230,64 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 965
 		folder = {
 			name = kirin_folder
 			position = { x = 26 y = 10 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
 	kirin_modern_replicas = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		enable_equipments = {
 			replica_equipment_2
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 969
 		folder = {
 			name = kirin_folder
 			position = { x = 26 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	kirin_natural_architecture = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		production_speed_buildings_factor = 0.25
@@ -1067,15 +1298,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 100
 		folder = {
 			name = kirin_folder
 			position = { x = 32 y = 0 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1086,6 +1317,8 @@ technologies = {
 	kirin_corrosive_munitions = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		category_artillery = {
@@ -1103,15 +1336,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = kirin_folder
 			position = { x = 32 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1122,6 +1355,8 @@ technologies = {
 	kirin_magic_life = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		monthly_population = 0.10
@@ -1131,25 +1366,32 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = kirin_folder
 			position = { x = 32 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	kirin_telepathic_communication = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		tli_recon_company = {
@@ -1157,19 +1399,24 @@ technologies = {
 			recon = 2
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = kirin_folder
 			position = { x = 32 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
@@ -1183,6 +1430,10 @@ technologies = {
 		}
 		
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
+			medium_ship_tech_2 = 1
+			heavy_ship_tech_2 = 1
 		}
 
 		path = {
@@ -1194,7 +1445,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 
-		research_cost = 2.15
+		research_cost = 1.2
 		start_year = 957
 		folder = {
 			name = kirin_folder
@@ -1202,7 +1453,7 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1220,6 +1471,10 @@ technologies = {
 		}
 		
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
+			medium_ship_tech_3 = 1
+			heavy_ship_tech_3 = 1
 		}
 
 		path = {
@@ -1227,19 +1482,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.2
+		start_year = 965
 		folder = {
 			name = kirin_folder
 			position = { x = 34 y = 10 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
@@ -1253,27 +1513,38 @@ technologies = {
 		}
 		
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
+			medium_ship_tech_4 = 1
+			heavy_ship_tech_4 = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.2
+		start_year = 969
 		folder = {
 			name = kirin_folder
 			position = { x = 34 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	kirin_draconic_resilience = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		category_army = {
@@ -1286,15 +1557,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 100
 		folder = {
 			name = kirin_folder
 			position = { x = 36 y = 0 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1305,6 +1576,8 @@ technologies = {
 	kirin_natural_luck = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		category_army = {
@@ -1316,15 +1589,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = kirin_folder
 			position = { x = 36 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1335,6 +1608,8 @@ technologies = {
 	kirin_artistic_society = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		political_power_gain = 0.15
@@ -1344,48 +1619,63 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = kirin_folder
 			position = { x = 36 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	kirin_fools_luck = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		local_resources_factor = 0.25
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = kirin_folder
 			position = { x = 36 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	kirin_tranquils = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
+			kirin_tranquils = 1
 		}
 
 		enable_subunits = {
@@ -1401,15 +1691,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 100
 		folder = {
 			name = kirin_folder
 			position = { x = 42 y = 0 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1420,6 +1710,8 @@ technologies = {
 	kirin_peace_of_mind = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		category_tranquils = {
@@ -1436,15 +1728,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 400
 		folder = {
 			name = kirin_folder
 			position = { x = 42 y = 2 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1455,6 +1747,8 @@ technologies = {
 	kirin_defense_nature_magic = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		category_tranquils = {
@@ -1471,25 +1765,37 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 800
 		folder = {
 			name = kirin_folder
 			position = { x = 40 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_offensive_nature_magic
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_offensive_nature_magic
+			}
 		}
 	}
 
 	kirin_offensive_nature_magic = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_primitive = 1
 		}
 
 		category_tranquils = {
@@ -1506,25 +1812,37 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 800
 		folder = {
 			name = kirin_folder
 			position = { x = 44 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_defense_nature_magic
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_defense_nature_magic
+			}
 		}
 	}
 
 	kirin_mobile_cover_creation = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		category_tranquils = {
@@ -1537,7 +1855,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
+		research_cost = 3.6
 		start_year = 957
 		folder = {
 			name = kirin_folder
@@ -1545,7 +1863,7 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1556,6 +1874,8 @@ technologies = {
 	kirin_path_through_wilderness = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 
 		tranquils = {
@@ -1591,7 +1911,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
+		research_cost = 3.6
 		start_year = 957
 		folder = {
 			name = kirin_folder
@@ -1599,7 +1919,7 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1610,6 +1930,8 @@ technologies = {
 	kirin_make_not_take = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_civilized = 1
 		}
 		
 		army_fuel_consumption_factor = -0.25
@@ -1623,25 +1945,32 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 961
 		folder = {
 			name = kirin_folder
 			position = { x = 42 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	kirin_natural_pallisade = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		category_tranquils = {
@@ -1658,25 +1987,32 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 965
 		folder = {
 			name = kirin_folder
 			position = { x = 42 y = 10 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
 	kirin_hallucinogenic_growth = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		category_tranquils = {
@@ -1688,25 +2024,42 @@ technologies = {
 			kirin_corrosion_magic
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 969
 		folder = {
 			name = kirin_folder
 			position = { x = 40 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_corrosion_magic
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_corrosion_magic
+			}
 		}
 	}
 
 	kirin_corrosion_magic = {
 
 		dependencies = {
+			kirin_race = 1
+            tech_industrialized = 1
 		}
 
 		category_tranquils = {
@@ -1718,19 +2071,34 @@ technologies = {
 			kirin_hallucinogenic_growth
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 969
 		folder = {
 			name = kirin_folder
 			position = { x = 44 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = kirin_hallucinogenic_growth
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = kirin_hallucinogenic_growth
+			}
 		}
 	}
 
