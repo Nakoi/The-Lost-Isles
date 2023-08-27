@@ -73,7 +73,10 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_unicorn_support_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/unicorn_support_icon.dds" noOfFrames = 2 }
 
 	spriteType = { name = "GFX_unit_replicas_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/replica_small_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_vanguards_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/vanguards_small_icon.dds" noOfFrames = 2 }
 	
+	spriteType = { name = "GFX_unit_griffon_falcon_unit_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_large/griffon_falcon_small_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_griffon_landship_unit_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_large/griffon_landship_small_icon.dds" noOfFrames = 2 }
 
 
 	###########################################
