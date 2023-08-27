@@ -56,6 +56,8 @@ spriteTypes = {
 	
 	####################################################
 	### Small images for DIVISIONS (On-map-counters) ###
+	spriteType = { name = "GFX_unit_no_intel_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_no_intel_icon.dds" noOfFrames = 2}
+	
 	spriteType = { name = "GFX_unit_ranged_infantry_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_ranged_infantry_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_guards_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/unit_Guard_icon_small.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_shock_troops_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/unit_shock_troops_icon_small.dds" noOfFrames = 2 }
