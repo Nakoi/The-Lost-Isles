@@ -141,10 +141,26 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_idea_race_griffon"
+		texturefile = "gfx/interface/ideas/GriffonRaceIcon.dds"	
+	}
+	
+	SpriteType = {
 		name = "GFX_idea_race_deet"
 		texturefile = "gfx/interface/ideas/deerraceicon.dds"	
 	}
-	
+
+	SpriteType = {
+		name = "GFX_idea_race_hippogriff"
+		texturefile = "gfx/interface/ideas/hippogriff_RaceIcon.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_race_kirin"
+		texturefile = "gfx/interface/ideas/kirin_RaceIcon.dds"	
+	}
+		
+
 	###TECH LEVEL###
 	
 	SpriteType = {
@@ -161,3 +177,7 @@ spriteTypes = {
 		name = "GFX_idea_genidea_industrial_dev"
 		texturefile = "gfx/interface/ideas/industrial.dds"	
 	}
+
+
+
+}
