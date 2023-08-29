@@ -137,7 +137,7 @@
  KAE_early_fortifications_desc:0 ""
  KAE_cannon_supplies:0 "Local Expertise"
  KAE_cannon_supplies_desc:0 ""
- KAE_commission_officers:0 "Suatoan-Astarian War Research Commission"
+ KAE_commission_officers:0 "A Pre-emptive Strike"
  KAE_commission_officers_desc:0 ""
  KAE_fortify_our_north:0 "Middle Ootari Fortifications"
  KAE_fortify_our_north_desc:0 ""
@@ -460,8 +460,10 @@
  EAK_airskirmisher_uprade_02_desc:0 ""
 
 ###IDEA LOCALISATION###
+ KAE_negotiations_pp_debuff:0 "Negotiations in Progress"
  KAE_cucked_gulf_01:0 "Cut Off from the Open Seas"
  KAE_cucked_gulf_02:0 "Situation Improved"
+ KAE_minutekirin_00:0 "Dysfunctional Militia System"
  KAE_minutekirin_01:0 "On a Minute's Notice"
  KAE_minutekirin_02:0 "On a Minute's Notice"
  KAE_minutekirin_03:0 "On a Minute's Notice"
@@ -694,3 +696,4 @@
  eak_event.8.a:0 "so wholesome! ty for playing eak!!!!!!"
  
 ###TOOLTIP LOCALISATION###
+ kae_militiacrisis_its_happening:0 "The Militia Veteran Crisis hasn't occured"
