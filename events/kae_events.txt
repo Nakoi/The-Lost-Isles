@@ -31,11 +31,6 @@ country_event = {
 	option = {
 		name = kae_startevent.1.a
 		complete_national_focus = KAE_improved_relations
-		remove_ideas = KAE_shit_arms_industry
-		add_timed_idea = {
-			idea = KAE_shit_arms_industry_better
-			days = 360
-		}
 	}
 }
 
@@ -78,6 +73,10 @@ country_event = {
 	
 	option = {
 		name = kae_startevent.5.a
+		swap_ideas = {
+			add_idea = KAE_minutekirin_01
+			remove_idea = KAE_minutekirin_00
+		}
 	}
 }
 
@@ -104,15 +103,15 @@ country_event = {
 	option = {
 		name = kae_startevent.6.a
 		add_timed_idea = { idea = KAE_militiasalary days = 180 }
-		country_event = { id = kae_startevent.7 days = 21 }
-		country_event = { id = kae_startevent.8 days = 42 }
+		country_event = { id = kae_startevent.7 days = 10 }
+		country_event = { id = kae_startevent.8 days = 20 }
 	}
 	
 	option = {
 		name = kae_startevent.6.b
 		add_manpower = -7000
-		country_event = { id = kae_startevent.7 days = 21 }
-		country_event = { id = kae_startevent.8 days = 42 }
+		country_event = { id = kae_startevent.7 days = 10 }
+		country_event = { id = kae_startevent.8 days = 20 }
 		if = {
 			limit = {
 				NOT = {
@@ -320,10 +319,10 @@ country_event = {
 		}
 		retire_character = KAE_General_2
 		retire_character = KAE_General_3
-		delete_units = {
-			division_template = "Bobyeong-Yeodan"
-			disband = no
-		}
+		#delete_units = {
+		#	division_template = "Bobyeong-Yeodan"
+		#	disband = no
+		#}
 	}
 }
 
@@ -573,6 +572,18 @@ country_event = {
 			create_wargoal = {
 				type = annex_everything
 				target = SUA
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = FRE
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AIN
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = SEN
 			}
 		}
 		ai_chance = {

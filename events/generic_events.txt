@@ -76,7 +76,7 @@ country_event = {
 				remove_idea = recruit_militia_wartime
 				add_idea = recruit_militia_peacetime
 			}
-		add_timed_idea = { idea = genidea_militia_demob days = 365 }
+		#add_timed_idea = { idea = genidea_militia_demob days = 365 }
 	}
 }
 
