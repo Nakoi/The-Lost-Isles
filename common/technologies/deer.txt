@@ -25,6 +25,8 @@ technologies = {
 	seafaring_traditions = {
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}
 
 		convoy_escort_efficiency = 0.2
@@ -72,15 +74,15 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 100
 		folder = {
 			name = deer_folder
 			position = { x = 6 y = 0 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -91,6 +93,8 @@ technologies = {
 	longship_deer_MTG = {
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}
 
 		enable_equipments = {
@@ -113,15 +117,15 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 600
 		folder = {
 			name = deer_folder
 			position = { x = 4 y = 3 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -132,7 +136,8 @@ technologies = {
 	boarding_parties_deer_MTG = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}
 
 		enable_equipment_modules = { 
@@ -150,7 +155,7 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 2.15
+		research_cost = 1.2
 		start_year = 957
 		folder = {
 			name = deer_folder
@@ -158,7 +163,7 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -169,7 +174,8 @@ technologies = {
 	boarding_parties_deer_2_MTG = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}
 
 		enable_equipment_modules = { 
@@ -187,26 +193,32 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.2
+		start_year = 965
 		folder = {
 			name = deer_folder
 			position = { x = 2 y = 9 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
 	boarding_parties_deer_3_MTG = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}
 
 		enable_equipment_modules = { 
@@ -219,26 +231,32 @@ technologies = {
 			module_demolition_boarding_3
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.2
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 2 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	assault_ship_deer_MTG = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}
 
 		enable_equipments = {
@@ -250,7 +268,7 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 2.15
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = deer_folder
@@ -258,7 +276,7 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -269,7 +287,8 @@ technologies = {
 	steam_assault_ship_deer_MTG = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}
 
 		enable_equipments = {
@@ -281,51 +300,64 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 965
 		folder = {
 			name = deer_folder
 			position = { x = 4 y = 9 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
 	modern_assault_ship_deer_MTG = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}	
 
 		enable_equipments = {
 			longship_hull_4
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 4 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	longship_deer = {
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}
 
 		enable_equipments = { 
@@ -345,15 +377,15 @@ technologies = {
 			NOT = { has_dlc = "Man the Guns" }
 		}		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 600
 		folder = {
 			name = deer_folder
 			position = { x = 4 y = 3 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -364,7 +396,8 @@ technologies = {
 	assault_ship_deer = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}
 
 		enable_equipments = { 
@@ -376,7 +409,7 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 2.15
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = deer_folder
@@ -384,7 +417,7 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -395,7 +428,8 @@ technologies = {
 	steam_assault_ship_deer = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}
 
 		enable_equipments = { 
@@ -407,45 +441,56 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 965
 		folder = {
 			name = deer_folder
 			position = { x = 4 y = 9 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
 	modern_assault_ship_deer = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}
 
 		enable_equipments = { 
 			longship_4
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 4 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
@@ -458,6 +503,8 @@ technologies = {
 		attrition = -0.1
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}
 
 		path = {
@@ -465,15 +512,15 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = deer_folder
 			position = { x = 8 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -485,13 +532,13 @@ technologies = {
 
 		ranged_militia = {
 			hills = {
-				attack = 0.25
-				defence = 0.35
+				attack = 0.1
+				defence = 0.15
 				movement = 0.25
 			}
 			mountain = {
-				attack = 0.25
-				defence = 0.35
+				attack = 0.1
+				defence = 0.15
 				movement = 0.25
 			}
 		}
@@ -511,7 +558,8 @@ technologies = {
 
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}	
 
 		path = {
@@ -519,19 +567,24 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = deer_folder
 			position = { x = 8 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
@@ -542,22 +595,28 @@ technologies = {
 		resistance_target_on_our_occupied_states = 0.25
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized	= 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 8 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
@@ -567,6 +626,8 @@ technologies = {
 		trade_opinion_factor = 0.15
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}	
 
 		path = {
@@ -574,15 +635,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = deer_folder
 			position = { x = 10 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -597,7 +658,8 @@ technologies = {
 		invasion_preparation = -0.15
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}	
 
 		path = {
@@ -605,19 +667,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = deer_folder
 			position = { x = 10 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
@@ -626,22 +693,28 @@ technologies = {
 		industrial_capacity_dockyard = 0.3
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 10 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
@@ -653,6 +726,8 @@ technologies = {
 		}
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}	
 
 		path = {
@@ -660,15 +735,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 100
 		folder = {
 			name = deer_folder
 			position = { x = 16 y = 0 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -684,6 +759,8 @@ technologies = {
 		}
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}	
 
 		path = {
@@ -691,15 +768,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 400
 		folder = {
 			name = deer_folder
 			position = { x = 16 y = 2 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -728,6 +805,8 @@ technologies = {
 		}
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}	
 
 		path = {
@@ -739,15 +818,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = deer_folder
 			position = { x = 16 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -765,7 +844,8 @@ technologies = {
 		xor = { heirs_of_vikings }
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}	
 
 		path = {
@@ -773,7 +853,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = deer_folder
@@ -781,11 +861,21 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = heirs_of_vikings
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = heirs_of_vikings
+			}
 		}
 	}
 
@@ -798,7 +888,8 @@ technologies = {
 		}
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}	
 
 		path = {
@@ -806,19 +897,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = deer_folder
 			position = { x = 14 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
@@ -832,7 +928,8 @@ technologies = {
 		}
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}	
 
 		path = {
@@ -840,19 +937,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 965
 		folder = {
 			name = deer_folder
 			position = { x = 14 y = 10 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
@@ -877,7 +979,8 @@ technologies = {
 		xor = { heirs_of_jaris }
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}	
 
 		path = {
@@ -885,7 +988,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = deer_folder
@@ -893,11 +996,21 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = heirs_of_jaris
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = heirs_of_jaris
+			}
 		}
 	}
 
@@ -910,7 +1023,8 @@ technologies = {
 		}
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}	
 
 		path = {
@@ -918,19 +1032,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = deer_folder
 			position = { x = 18 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
@@ -943,7 +1062,8 @@ technologies = {
 		}
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}	
 
 		path = {
@@ -951,19 +1071,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 965
 		folder = {
 			name = deer_folder
 			position = { x = 18 y = 10 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
 		}
 	}
 
@@ -974,22 +1099,28 @@ technologies = {
 		}
 
 		dependencies = {
-			tech_civilized = 1
-		}	
+			deer_race = 1
+		    tech_industrialized = 1
+		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 16 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
@@ -999,6 +1130,8 @@ technologies = {
 		research_speed_factor = 0.07
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}	
 
 		path = {
@@ -1014,19 +1147,19 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = runic_warriors
+			leads_to_tech = runic_warriors_tech
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 100
 		folder = {
 			name = deer_folder
 			position = { x = 24 y = 0 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1037,6 +1170,8 @@ technologies = {
 	thuriaz_rune = {
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}
 
 		category_army = {
@@ -1051,15 +1186,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = deer_folder
 			position = { x = 22 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1070,7 +1205,8 @@ technologies = {
 	eihwaz_rune = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}
 
 		category_army = {
@@ -1085,26 +1221,32 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = deer_folder
 			position = { x = 22 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	raido_rune = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}
 
 		category_army = {
@@ -1114,25 +1256,32 @@ technologies = {
 			maximum_speed = 0.1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 22 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	isaz_rune = {
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}
 
 		category_army = {
@@ -1144,15 +1293,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = deer_folder
 			position = { x = 24 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1163,7 +1312,8 @@ technologies = {
 	sowlio_rune = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}
 
 		category_army = {
@@ -1178,26 +1328,32 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = deer_folder
 			position = { x = 24 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	cen_rune = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}
 
 		category_army = {
@@ -1209,25 +1365,32 @@ technologies = {
 			ap_attack = 0.1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 24 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	magic_of_belief = {
 
 		dependencies = {
+			deer_race = 1
+		    tech_primitive = 1
 		}
 
 		stability_weekly = 0.001
@@ -1238,15 +1401,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = deer_folder
 			position = { x = 26 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1257,7 +1420,8 @@ technologies = {
 	cult_of_personality = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_civilized = 1
 		}
 
 		political_power_gain = 0.25
@@ -1268,26 +1432,32 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = deer_folder
 			position = { x = 26 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	faith_in_victory = {
 
 		dependencies = {
-			tech_civilized = 1
+			deer_race = 1
+		    tech_industrialized = 1
 		}
 
 		org_loss_when_moving = -0.1	
@@ -1296,26 +1466,33 @@ technologies = {
 			soft_attack = 0.2
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 26 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
-	runic_warriors = {
+	runic_warriors_tech = {
 
 		dependencies = {
-            tech_industrialized = 1
+			deer_race = 1
+            tech_primitive = 1
+			runic_warriors_tech = 1
         }
 
 		enable_subunits = {
@@ -1328,7 +1505,7 @@ technologies = {
 		category_rune_warrior = {
 			air_attack = -0.9
 			defense = 0.5
-			breakthrough = 0.2
+			breakthrough = 0.33
 		}
 
 		path = {
@@ -1341,15 +1518,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 1.8
+		start_year = 800
 		folder = {
 			name = deer_folder
 			position = { x = 30 y = 3 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1360,8 +1537,9 @@ technologies = {
 	peorth_rune = {
 
 		dependencies = {
-            tech_industrialized = 1
-        }
+			deer_race = 1
+            tech_civilized = 1
+		}
 
 		category_rune_warrior = {
 			soft_attack = 0.2
@@ -1374,7 +1552,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = deer_folder
@@ -1382,19 +1560,21 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+
 		}
 	}
 
 	terror_tactics = {
 
 		dependencies = {
-            tech_industrialized = 1
-        }
+			deer_race = 1
+            tech_civilized = 1
+		}
 
 		category_rune_warrior = {
 			maximum_speed = 0.2
@@ -1406,27 +1586,33 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = deer_folder
 			position = { x = 32 y = 9 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	runic_invocation = {
 
 		dependencies = {
+			deer_race = 1
             tech_industrialized = 1
-        }
+		}
 
 		category_rune_warrior = {
 			defense = 0.15
@@ -1434,27 +1620,33 @@ technologies = {
 			soft_attack = 0.1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 32 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	deer_gunlance = {
 
 		dependencies = {
-            tech_industrialized = 1
-        }
+			deer_race = 1
+            tech_civilized = 1
+		}
 
 		enable_equipments = {
 			gunlance_equipment_1
@@ -1465,7 +1657,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
+		research_cost = 2.7
 		start_year = 957
 		folder = {
 			name = deer_folder
@@ -1473,7 +1665,7 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1488,27 +1680,33 @@ technologies = {
 		}
 
 		dependencies = {
-            tech_industrialized = 1
-        }
+			deer_race = 1
+            tech_civilized = 1
+		}
 
 		path = {
 			leads_to_tech = deer_revolving_gunlance
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 961
 		folder = {
 			name = deer_folder
 			position = { x = 30 y = 9 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
@@ -1519,30 +1717,38 @@ technologies = {
 		}
 
 		dependencies = {
+			deer_race = 1
             tech_industrialized = 1
-        }
+		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 30 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	battle_seers = {
 
 		dependencies = {
-            tech_industrialized = 1
-        }
+			deer_race = 1
+            tech_primitive = 1
+			battle_seers = 1
+		}
 
 		enable_subunits = {
 			battle_seer_coven
@@ -1565,15 +1771,15 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 100
 		folder = {
 			name = deer_folder
 			position = { x = 40 y = 0 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1584,8 +1790,9 @@ technologies = {
 	battlefield_coordination = {
 
 		dependencies = {
-            tech_industrialized = 1
-        }
+			deer_race = 1
+            tech_primitive = 1
+		}
 
 		coordination_bonus = 0.2
 
@@ -1596,27 +1803,38 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 400
 		folder = {
 			name = deer_folder
 			position = { x = 38 y = 2 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = high_command_seer_attache
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = high_command_seer_attache
+			}
 		}
 	}
 
 	high_command_seer_attache = {
 
 		dependencies = {
-            tech_industrialized = 1
-        }
+			deer_race = 1
+            tech_primitive = 1
+		}
 
 		max_planning = 0.2
 		planning_speed = 0.2
@@ -1628,27 +1846,38 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 400
 		folder = {
 			name = deer_folder
 			position = { x = 42 y = 2 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = battlefield_coordination
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = battlefield_coordination
+			}
 		}
 	}
 
 	battle_divination = {
 
 		dependencies = {
-            tech_industrialized = 1
-        }
+			deer_race = 1
+            tech_primitive = 1
+		}
 
 		category_battle_seers = {
 			defense = 1
@@ -1665,15 +1894,15 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 2.7
+		start_year = 800
 		folder = {
 			name = deer_folder
 			position = { x = 40 y = 4 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1684,8 +1913,9 @@ technologies = {
 	precognitive_reconnaissance = {
 
 		dependencies = {
-            tech_industrialized = 1
-        }
+			deer_race = 1
+            tech_civilized = 1
+		}
 
 		category_battle_seers = {
 			defense = 1
@@ -1697,7 +1927,7 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 2.15
+		research_cost = 3.6
 		start_year = 957
 		folder = {
 			name = deer_folder
@@ -1705,7 +1935,7 @@ technologies = {
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
@@ -1716,8 +1946,9 @@ technologies = {
 	dance_with_death = {
 
 		dependencies = {
-            tech_industrialized = 1
-        }
+			deer_race = 1
+            tech_civilized = 1
+		}
 
 		category_battle_seers = {
 			max_strength = 1
@@ -1734,27 +1965,33 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 961
 		folder = {
 			name = deer_folder
 			position = { x = 40 y = 8 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
 		}
 	}
 
 	magic_of_frost = {
 
 		dependencies = {
+			deer_race = 1
             tech_industrialized = 1
-        }
+		}
 
 		category_battle_seers = {
 			hard_attack = 0.5
@@ -1768,27 +2005,43 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 965
 		folder = {
 			name = deer_folder
 			position = { x = 38 y = 10 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = visions_of_glory
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = visions_of_glory
+			}
 		}
 	}
 
 	visions_of_glory = {
 
 		dependencies = {
+			deer_race = 1
             tech_industrialized = 1
-        }
+		}
 
 		category_battle_seers = {
 			max_organisation = 30
@@ -1801,54 +2054,76 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 965
 		folder = {
 			name = deer_folder
 			position = { x = 42 y = 10 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = magic_of_frost
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = magic_of_frost
+			}
 		}
 	}
 
 	stormcalling = {
 
 		dependencies = {
+			deer_race = 1
             tech_industrialized = 1
-        }
+		}
 
 		category_battle_seers = {
 			soft_attack = 1
 			ap_attack = 0.5
 		}	
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 38 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
 	battle_meditation = {
 
 		dependencies = {
+			deer_race = 1
             tech_industrialized = 1
-        }
+		}
 
 		coordination_bonus = 0.05
 		category_battle_seers = {
@@ -1856,19 +2131,24 @@ technologies = {
 			defense = 1
 		}
 
-		research_cost = 2.15
-		start_year = 957
+		research_cost = 3.6
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 42 y = 12 }
 		}
 		
 		categories = {
-			
+			racial
 		}
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
@@ -1879,15 +2159,16 @@ technologies = {
 		}
 
 		dependencies = {
-            tech_industrialized = 1
-        }
+			deer_race = 1
+            tech_civilized = 1
+		}
 
 		path = {
 			leads_to_tech = deer_modern_magical_equipment
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.68
+		research_cost = 3.6
 		start_year = 957
 		folder = {
 			name = deer_folder
@@ -1910,11 +2191,12 @@ technologies = {
 		}
 
 		dependencies = {
+			deer_race = 1
             tech_industrialized = 1
-        }
+		}
 
-		research_cost = 3.22
-		start_year = 957
+		research_cost = 3.6
+		start_year = 969
 		folder = {
 			name = deer_folder
 			position = { x = 36 y = 12 }
@@ -1926,6 +2208,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
 		}
 	}
 
