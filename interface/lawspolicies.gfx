@@ -159,7 +159,43 @@ spriteTypes = {
 		name = "GFX_idea_race_kirin"
 		texturefile = "gfx/interface/ideas/kirin_RaceIcon.dds"	
 	}
+
+	SpriteType = {
+		name = "GFX_idea_race_parrot"
+		texturefile = "gfx/interface/ideas/ParrotRaceIcon.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_race_dragon"
+		texturefile = "gfx/interface/ideas/DragonRaceIcon.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_race_dog"
+		texturefile = "gfx/interface/ideas/DogRaceIcon.dds"	
+	}
+			
+	SpriteType = {
+		name = "GFX_idea_race_bug"
+		texturefile = "gfx/interface/ideas/ChangelingRaceIcon.dds"	
+	}
+			
+	SpriteType = {
+		name = "GFX_idea_race_zebra"
+		texturefile = "gfx/interface/ideas/ZebraRaceIcon.dds"	
+	}
+			
+	SpriteType = {
+		name = "GFX_idea_race_donk"
+		texturefile = "gfx/interface/ideas/DonkyRaceIcon.dds"	
+	}
+			
+	SpriteType = {
+		name = "GFX_idea_race_horse"
+		texturefile = "gfx/interface/ideas/HorseRaceIcon.dds"	
+	}
 		
+
 
 	###TECH LEVEL###
 	
