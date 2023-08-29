@@ -126,7 +126,7 @@ ideas = {
 			}
 				
 			modifier = {
-				political_power_factor = -0.2
+				political_power_factor = -0.1
 				stability_factor = -0.25 
 				conscription_factor = -0.3
 				research_speed_factor = -0.15
@@ -144,7 +144,7 @@ ideas = {
 			}
 				
 			modifier = {
-				political_power_factor = -0.1
+				political_power_factor = -0.05
 				stability_factor = -0.125
 				conscription_factor = -0.3
 				research_speed_factor = -0.15
@@ -162,7 +162,6 @@ ideas = {
 			}
 				
 			modifier = {
-				political_power_factor = -0.05
 				stability_factor = -0.075
 				conscription_factor = -0.3
 				research_speed_factor = -0.15
@@ -180,7 +179,6 @@ ideas = {
 			}
 				
 			modifier = {
-				political_power_factor = -0.05
 				stability_factor = -0.075
 				conscription_factor = -0.3
 				production_factory_max_efficiency_factor = -0.10
@@ -197,7 +195,6 @@ ideas = {
 			}
 				
 			modifier = {
-				political_power_factor = -0.05
 				stability_factor = -0.075
 				conscription_factor = -0.3
 				research_speed_factor = -0.15
@@ -212,7 +209,6 @@ ideas = {
 			}
 				
 			modifier = {
-				political_power_factor = -0.05
 				stability_factor = -0.075
 				conscription_factor = -0.3
 			}

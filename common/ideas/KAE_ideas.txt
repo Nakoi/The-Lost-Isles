@@ -1,6 +1,20 @@
 ideas = {	
 	country = {
 		
+		KAE_negotiations_pp_debuff = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				NOT = {
+					has_completed_focus = KAE_improved_relations
+				}
+			}
+				
+			modifier = {
+				political_power_factor = -0.5
+			}
+		}
+		
 		KAE_cucked_gulf_01 = {
 			picture = great_depression
 			removal_cost = -1
@@ -28,6 +42,22 @@ ideas = {
 			}
 		}
 		
+		KAE_minutekirin_00 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				#custom_modifier_tooltip = SPR_military_disloyalty_tt
+				conscription = 0.01
+				army_attack_factor = -0.15
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.1
+			}
+		}
+		
 		KAE_minutekirin_01 = {
 			picture = great_depression
 			removal_cost = -1
@@ -36,9 +66,7 @@ ideas = {
 			}
 				
 			modifier = {
-				conscription_factor = 0.5
-				mobilization_speed = 10
-				army_org_factor = -0.33
+				conscription = 0.005
 				army_attack_factor = -0.15
 				army_core_attack_factor = 0.15
 				army_core_defence_factor = 0.1
@@ -53,9 +81,8 @@ ideas = {
 			}
 				
 			modifier = {
-				conscription_factor = 0.35
-				mobilization_speed = 5
-				army_org_factor = -0.2
+				conscription = 0.005
+				conscription_factor = 0.1
 				army_attack_factor = -0.05
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
@@ -70,8 +97,7 @@ ideas = {
 			}
 				
 			modifier = {
-				conscription_factor = 0.15
-				mobilization_speed = 1
+				conscription_factor = 0.2
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
 				army_core_defence_factor = 0.05
@@ -101,7 +127,7 @@ ideas = {
 			}
 				
 			modifier = {
-				conscription_factor = -0.15
+				conscription_factor = -0.1
 				army_org_factor = 0.1
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
@@ -117,8 +143,8 @@ ideas = {
 				
 			modifier = {
 				conscription_factor = 0.1
-				army_attack_factor = 0.05
-				army_defence_factor = 0.05
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
 			}
 		}
 		
@@ -131,8 +157,7 @@ ideas = {
 				
 			modifier = {
 				conscription_factor = 0.1
-				army_org_factor = -0.1
-				army_attack_factor = -0.1
+				army_attack_factor = -0.05
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
 			}
@@ -146,11 +171,10 @@ ideas = {
 			}
 				
 			modifier = {
-				conscription_factor = 0.3
-				army_org_factor = -0.15
-				army_attack_factor = -0.1
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
+				conscription_factor = 0.2
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_core_defence_factor = 0.05
 			}
 		}
 		
