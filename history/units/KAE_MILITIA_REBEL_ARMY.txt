@@ -54,43 +54,43 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "4. Yeodan"
-		location = 1718
+		location = 4993
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
 	}
+	
 	division = {
 		name = "5. Yeodan"
 		location = 1718
 		division_template = "Bobyeong-Yeodan"
-		start_experience_factor = 0.7
+		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "6. Yeodan"
 		location = 1718
 		division_template = "Bobyeong-Yeodan"
-		start_experience_factor = 0.7
+		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "7. Yeodan"
-		location = 3228
+		location = 1718
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "8. Yeodan"
-		location = 3228
+		location = 1718
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
+	
 	division = {
 		name = "9. Yeodan"
 		location = 3228
@@ -98,23 +98,51 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
-	
 	division = {
 		name = "10. Yeodan"
-		location = 280
+		location = 3228
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "11. Yeodan"
-		location = 280
+		location = 3228
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "12. Yeodan"
+		location = 3228
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "13. Yeodan"
+		location = 280
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "14. Yeodan"
+		location = 280
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "15. Yeodan"
+		location = 280
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "16. Yeodan"
 		location = 280
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.1
@@ -122,21 +150,28 @@ units = {
 	}
 	
 	division = {
-		name = "13. Yeodan"
+		name = "17. Yeodan"
 		location = 651
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "14. Yeodan"
+		name = "18. Yeodan"
 		location = 651
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "15. Yeodan"
+		name = "19. Yeodan"
+		location = 651
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "20. Yeodan"
 		location = 651
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.1

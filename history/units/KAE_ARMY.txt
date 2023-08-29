@@ -14,6 +14,7 @@
 
 division_template = {
 	name = "Yongbyeong-Yeodan"
+	is_locked = no
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
@@ -39,7 +40,7 @@ division_template = {
 
 division_template = {
 	name = "Bobyeong-Yeodan"
-	is_locked = yes
+	is_locked = no
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
@@ -82,7 +83,7 @@ units = {
 	}
 	division = {
 		name = "4. Yongbyeong-Yeodan"
-		location = 5061
+		location = 5075
 		division_template = "Yongbyeong-Yeodan"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
@@ -90,6 +91,13 @@ units = {
 	division = {
 		name = "5. Yongbyeong-Yeodan"
 		location = 384
+		division_template = "Yongbyeong-Yeodan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6. Yongbyeong-Yeodan"
+		location = 5061
 		division_template = "Yongbyeong-Yeodan"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
@@ -111,27 +119,50 @@ units = {
 	}
 	division = {
 		name = "3. Yeodan"
-		location = 3436
+		location = 2643
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
+	
 	division = {
 		name = "4. Yeodan"
-		location = 3436
+		location = 5139
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "5. Yeodan"
-		location = 1712
+		location = 5139
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "6. Yeodan"
+		location = 5139
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "7. Yeodan"
+		location = 1712
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8. Yeodan"
+		location = 1712
+		division_template = "Bobyeong-Yeodan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9. Yeodan"
 		location = 1712
 		division_template = "Bobyeong-Yeodan"
 		start_experience_factor = 0.3
