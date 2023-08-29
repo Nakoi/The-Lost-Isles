@@ -25,6 +25,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			unlock_decision_category_tooltip = decisioncat_kae_starting_cilarine_trade
+			add_ideas = KAE_negotiations_pp_debuff
 			country_event = { id = kae_startevent.0 }
 		}
 	}
@@ -567,14 +568,17 @@ focus_tree = {
 		}
 		
 		available = {
-			#owns_state = 491
-			#owns_state = 490
-			#owns_state = 487
-			#owns_state = 473
-			#owns_state = 418
 			OR = {
-				NOT = { 
-					country_exists = SUA
+				AND = {
+					KAE = {
+						owns_state = 490
+						owns_state = 487
+						owns_state = 473
+						owns_state = 418
+					}
+					NOT = { 
+						country_exists = SUA
+					}
 				}
 				SUA = { is_puppet_of = KAE }
 			}
@@ -612,8 +616,8 @@ focus_tree = {
 		id = KAE_pirate_tax
 		icon = KAE_GFX_Pirate_Tax
 		prerequisite = { focus = KAE_Improve_the_rail_connection }
-		x = 2
-		y = 3
+		x = 3
+		y = 2
 		relative_position_id = KAE_suatoa_battle_plans
 		cost = 10
 		ai_will_do = {
@@ -634,7 +638,7 @@ focus_tree = {
 		icon = KAE_GFX_Rebuild_Trade_Fleet
 		prerequisite = { focus = KAE_pirate_tax }
 		x = 2
-		y = 4
+		y = 3
 		relative_position_id = KAE_suatoa_battle_plans
 		cost = 10
 		ai_will_do = {
@@ -689,8 +693,16 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				NOT = { 
-					country_exists = SUA
+				AND = {
+					KAE = {
+						owns_state = 490
+						owns_state = 487
+						owns_state = 473
+						owns_state = 418
+					}
+					NOT = { 
+						country_exists = SUA
+					}
 				}
 				SUA = { is_puppet_of = KAE }
 			}
@@ -849,11 +861,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+			declare_war_on = {
+				target = AST
+				type = annex_everything
 			}
 		}
 	}
@@ -861,7 +871,7 @@ focus_tree = {
 	focus = {
 		id = KAE_fortify_our_north
 		icon = KAE_GFX_Ootarii_Fortifications
-		prerequisite = { focus = KAE_pirate_tax }
+		prerequisite = { focus = KAE_early_fortifications }
 		prerequisite = { focus = KAE_pacification_experience }
 		x = -3
 		y = 4
@@ -1324,6 +1334,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = KAE_poor_living_conditions_01
+			remove_ideas = KAE_shit_arms_industry
+			add_timed_idea = {
+				idea = KAE_shit_arms_industry_better
+				days = 360
+			}
 			random_owned_controlled_state = {	
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -1460,6 +1475,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_completed_focus = KAE_Claims_Vote
+		}
+		
 		completion_reward = {
 			swap_ideas = {
 				add_idea = KAE_poor_living_conditions_02
@@ -1571,6 +1591,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_completed_focus = KAE_Claims_Vote
+		}
+		
 		completion_reward = {
 			495 = {
 				add_extra_state_shared_building_slots = 1
@@ -1634,6 +1659,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_completed_focus = KAE_pirate_tax
+		}
+		
 		completion_reward = {
 			add_ideas = KAE_open_the_mines_01
 		}
@@ -1648,13 +1678,13 @@ focus_tree = {
 		x = -2
 		y = 3
 		relative_position_id = KAE_Greater_economy
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
 		
 			available = {
-				num_of_factories > 69
+				num_of_factories > 99
 				has_political_power > 299
 			}
 		
@@ -1732,7 +1762,7 @@ focus_tree = {
 		
 		available = {
 			num_of_factories > 119
-			has_political_power > 199
+			has_political_power > 299
 		}
 		
 		completion_reward = {
@@ -2079,6 +2109,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_completed_focus = KAE_Claims_Vote
+			NOT = { has_country_flag = kae_militiacrisis_its_happening }
+		}
+		
 		completion_reward = {
 			add_ideas = KAE_our_duty_01
 		}
@@ -2300,6 +2336,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_completed_focus = KAE_Claims_Vote
+		}
+		
 		completion_reward = {
 			add_ideas = KAE_merc_idea_01
 		}
@@ -2505,6 +2546,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_completed_focus = KAE_pirate_tax
+		}
+		
 		completion_reward = {
 			army_experience = 30
 		}
@@ -2585,6 +2631,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_completed_focus = KAE_pirate_tax
+		}
+		
 		completion_reward = {
 			army_experience = 30
 		}

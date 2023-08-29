@@ -1100,7 +1100,7 @@ focus_tree = {
 		
 		completion_reward = {
 			unlock_decision_category_tooltip = decisioncat_esu_integration
-			country_event = { id = esu_event.3 days = 3 }
+			ESU = { country_event = { id = esu_event.3 days = 3 } }
 			add_stability = -0.05
 			add_manpower = 50000
 			custom_effect_tooltip = ESUtt_nationalist_party_opinion_decrease_tooltip
@@ -1174,7 +1174,7 @@ focus_tree = {
 		
 		completion_reward = {
 			unlock_decision_category_tooltip = decisioncat_esu_integration
-			country_event = { id = esu_event.4 days = 3 }
+			ESU = { country_event = { id = esu_event.4 days = 3 } }
 			add_stability = 0.1
 			483 = { add_manpower = -8000 }
 			496 = { add_manpower = -8000 }
