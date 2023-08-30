@@ -24,8 +24,8 @@ ideas = {
 				
 			modifier = {
 				stability_factor = -0.25
-				consumer_goods_factor = 0.35
-				min_export = -1
+				consumer_goods_factor = 0.3
+				min_export = -0.5
 			}
 		}
 		
@@ -313,12 +313,11 @@ ideas = {
 				
 			modifier = {
 				consumer_goods_factor = -0.03
-				min_export = 0.05
-				local_resources_factor = 0.12
+				local_resources_factor = 0.1
 			}
 		}
 		
-		KAE_trade_fleet_bonus_idea_02 = {
+		KAE_trade_fleet_bonus_idea_02a = { #protected merchants
 			picture = great_depression
 			removal_cost = -1
 			available = {
@@ -326,9 +325,21 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = -0.06
-				min_export = 0.1
-				local_resources_factor = 0.25
+				consumer_goods_factor = -0.07
+				local_resources_factor = 0.15
+			}
+		}
+		
+		KAE_trade_fleet_bonus_idea_02b = { #armed merchants
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.1
 			}
 		}
 		
@@ -950,8 +961,8 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.4
-				min_export = -1
+				consumer_goods_factor = 0.3
+				min_export = -0.5
 			}
 		}
 		
@@ -963,8 +974,8 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.36
-				min_export = -0.7
+				consumer_goods_factor = 0.27
+				min_export = -0.33
 			}
 		}
 		
@@ -976,8 +987,8 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.32
-				min_export = -0.7
+				consumer_goods_factor = 0.24
+				min_export = -0.33
 			}
 		}
 		
@@ -989,8 +1000,8 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.28
-				min_export = -0.7
+				consumer_goods_factor = 0.21
+				min_export = -0.33
 			}
 		}
 		
@@ -1002,8 +1013,8 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.24
-				min_export = -0.4
+				consumer_goods_factor = 0.18
+				min_export = -0.15
 			}
 		}
 		
@@ -1015,8 +1026,8 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.20
-				min_export = -0.4
+				consumer_goods_factor = 0.15
+				min_export = -0.15
 			}
 		}
 		
@@ -1028,8 +1039,8 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.16
-				min_export = -0.4
+				consumer_goods_factor = 0.12
+				min_export = -0.15
 			}
 		}
 		
@@ -1041,8 +1052,8 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.12
-				min_export = -0.1
+				consumer_goods_factor = 0.1
+				min_export = -0.15
 			}
 		}
 		
@@ -1054,8 +1065,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.08
-				min_export = -0.1
+				consumer_goods_factor = 0.05
 			}
 		}
 		
@@ -1102,7 +1112,7 @@ ideas = {
 			
 			targeted_modifier = {
 				tag = CIL
-				attack_bonus_against = 0.2
+				attack_bonus_against = 0.05
 			}
 		}
 		
@@ -1119,6 +1129,25 @@ ideas = {
 					lg_attack = 15
 					lg_armor_piercing = 14
 					anti_air_attack = 99
+					instant = yes
+				}
+			}
+		}
+		
+		KAE_protected_traders_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			equipment_bonus = {
+				ship_hull_cruiser = {
+					build_cost_ic = 0.1
+					instant = yes
+				}
+				galley_hull = {
+					build_cost_ic = 0.15
 					instant = yes
 				}
 			}
