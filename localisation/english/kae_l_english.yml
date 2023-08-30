@@ -28,6 +28,34 @@
  KAE_unifier_costag_ideology_continuism_DEF:0 "The Merchant Republic of Ootari"
  KAE_unifier_costag_ideology_isolationism_DEF:0 "The Merchant Republic of Ootari"
  
+ KAE_ring_costag_ideology_militarism:0 "Republic of the Golden Ring"
+ KAE_ring_costag_ideology_imperialism:0 "Republic of the Golden Ring"
+ KAE_ring_costag_ideology_visionarism:0 "Republic of the Golden Ring"
+ KAE_ring_costag_ideology_solidarism:0 "Republic of the Golden Ring"
+ KAE_ring_costag_ideology_continuism:0 "Republic of the Golden Ring"
+ KAE_ring_costag_ideology_isolationism:0 "Republic of the Golden Ring"
+ 
+ KAE_ring_costag_ideology_militarism_DEF:0 "The Republic of the Golden Ring"
+ KAE_ring_costag_ideology_imperialism_DEF:0 "The Republic of the Golden Ring"
+ KAE_ring_costag_ideology_visionarism_DEF:0 "The Republic of the Golden Ring"
+ KAE_ring_costag_ideology_solidarism_DEF:0 "The Republic of the Golden Ring"
+ KAE_ring_costag_ideology_continuism_DEF:0 "The Republic of the Golden Ring"
+ KAE_ring_costag_ideology_isolationism_DEF:0 "The Republic of the Golden Ring"
+ 
+ ESU_ringpuppet_costag_ideology_militarism:0 "North Ootari Protectorate"
+ ESU_ringpuppet_costag_ideology_imperialism:0 "North Ootari Protectorate"
+ ESU_ringpuppet_costag_ideology_visionarism:0 "North Ootari Protectorate"
+ ESU_ringpuppet_costag_ideology_solidarism:0 "North Ootari Protectorate"
+ ESU_ringpuppet_costag_ideology_continuism:0 "North Ootari Protectorate"
+ ESU_ringpuppet_costag_ideology_isolationism:0 "North Ootari Protectorate"
+ 
+ ESU_ringpuppet_costag_ideology_militarism_DEF:0 "The North Ootari Protectorate"
+ ESU_ringpuppet_costag_ideology_imperialism_DEF:0 "The North Ootari Protectorate"
+ ESU_ringpuppet_costag_ideology_visionarism_DEF:0 "The North Ootari Protectorate"
+ ESU_ringpuppet_costag_ideology_solidarism_DEF:0 "The North Ootari Protectorate"
+ ESU_ringpuppet_costag_ideology_continuism_DEF:0 "The North Ootari Protectorate"
+ ESU_ringpuppet_costag_ideology_isolationism_DEF:0 "The North Ootari Protectorate"
+ 
  EAK_ideology_militarism:0 "Kae Militia Mutiny"
  EAK_ideology_imperialism:0 "Kae Militia Mutiny"
  EAK_ideology_visionarism:0 "Kae Militia Mutiny"
@@ -139,6 +167,17 @@
  KAE_cannon_supplies_desc:0 ""
  KAE_commission_officers:0 "A Pre-emptive Strike"
  KAE_commission_officers_desc:0 ""
+ KAE_golden_ring_concept:0 "The Golden Ring Concept"
+ KAE_golden_ring_concept_desc:0 ""
+ KAE_armed_merchants:0 "Armed Merchant Ships"
+ KAE_armed_merchants_desc:0 ""
+ KAE_protected_merchants:0 "Protected Merchant Convoys"
+ KAE_protected_merchants_desc:0 ""
+ KAE_golden_ring_republic:0 "Proclamation of the Golden Ring Republic"
+ KAE_golden_ring_republic_desc:0 ""
+ KAE_maintain_golden_ring:0 "Maintain the Golden Ring"
+ KAE_maintain_golden_ring_desc:0 ""
+ 
  KAE_fortify_our_north:0 "Middle Ootari Fortifications"
  KAE_fortify_our_north_desc:0 ""
  KAE_to_war:0 "To War!"
@@ -461,6 +500,7 @@
 
 ###IDEA LOCALISATION###
  KAE_negotiations_pp_debuff:0 "Negotiations in Progress"
+ 
  KAE_cucked_gulf_01:0 "Cut Off from the Open Seas"
  KAE_cucked_gulf_02:0 "Situation Improved"
  KAE_minutekirin_00:0 "Dysfunctional Militia System"
@@ -484,7 +524,8 @@
  KAE_pacificationxp_idea:0 "Pacification Campaign Experience"
  KAE_rebuild_trade_fleet_idea:0 "Rebuilding the Trade Fleet"
  KAE_trade_fleet_bonus_idea_01:0 "The New Trade Fleet"
- KAE_trade_fleet_bonus_idea_02:0 "The New Trade Fleet"
+ KAE_trade_fleet_bonus_idea_02a:0 "The New Trade Fleet"
+ KAE_trade_fleet_bonus_idea_02b:0 "The New Trade Fleet"
  KAE_mercpayments:0 "Mercenary Payments"
  KAE_mercrecruitment:0 "Mercenary Recruitment"
  KAE_conscript_pegasus_skirms:0 "Pegasi Volunteers"
@@ -544,6 +585,7 @@
  EAK_economic_relief:0 "Post-War Economic Crisis Relief"
  EAK_revenge:0 "Desire for Revenge"
  KAE_armed_traders_idea:0 "Armed Merchant Ships"
+ KAE_protected_traders_idea:0 "Diverted Warship Production"
  KAE_griffon_trade_idea:0 "Trading with Kae"
  KAE_cheaper_ships_idea:0 "Cheaper Warhips"
 
@@ -559,6 +601,12 @@
  KAE_tradefleet_decision_stage_1:0 "The New Trade Fleet - Stage 1"
  KAE_tradefleet_decision_stage_2:0 "The New Trade Fleet - Stage 2"
  
+ decisioncat_kae_golden_ring:0 "The Golden Ring"
+ KAE_golden_ring_province_highlight:0 "Golden Ring Required States Highlight"
+ KAE_core_astaria_decision:0 "Civilise the Deer"
+ KAE_core_cilarine_decision:0 "Colonise North Cilarine"
+ KAE_core_esun_interior_ring:0 "Integrate Esun's Interior"
+ 
  decisioncat_kae_clan_coring:0 "The Pacification Campaign"
  KAE_core_wei_decision:0 "Integrate Wei Territory"
  KAE_core_unu_decision:0 "Integrate Unuo Territory"
@@ -571,7 +619,6 @@
  KAE_kill_freuji_decision:0 "Conquer Clan Freuji"
  KAE_kill_sentian_decision:0 "Conquer Clan Sentian"
  KAE_kill_aing_decision:0 "Conquer Clan Aing"
- KAE_core_astaria_decision:0 "Civilise the Deer"
  KAE_core_suatoa_interior:0 "Civilise Suatoa's Interior"
  
  decisioncat_kae_esun_coring:0 "Uniting Ootari"
@@ -696,4 +743,5 @@
  eak_event.8.a:0 "so wholesome! ty for playing eak!!!!!!"
  
 ###TOOLTIP LOCALISATION###
+ KAEtt_esu_ring_puppet_forming:0 "The North Ootari Protectorate will be formed out of Esun's starting states."
  kae_militiacrisis_its_happening:0 "The Militia Veteran Crisis hasn't occured"
