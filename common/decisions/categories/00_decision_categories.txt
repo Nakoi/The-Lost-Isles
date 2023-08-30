@@ -204,6 +204,66 @@ decisioncat_kae_tradefleet = {
 	}
 }
 
+decisioncat_kae_golden_ring = {
+	icon = generic_political_actions
+	
+    allowed = {
+		original_tag = KAE
+	}
+	
+	highlight_states = {
+		highlight_state_targets = {
+			state = 136
+			state = 493
+			state = 491
+			state = 492
+			state = 494
+			state = 495
+			state = 502
+			
+			state = 478
+			state = 479
+			state = 506
+			state = 503
+			state = 504
+			state = 505
+			state = 500
+			state = 501
+			
+			state = 490
+			state = 487
+			state = 473
+			state = 418
+			
+			state = 489
+			state = 488
+			state = 327
+			state = 376
+			
+			state = 132
+			state = 133
+			state = 131
+			state = 127
+			state = 128
+			state = 129
+			
+			state = 135
+			state = 568
+			state = 567
+			
+			state = 577
+			state = 576
+			state = 575
+			state = 570
+			state = 569
+		}
+	}
+	
+	visible = {
+		has_completed_focus = KAE_golden_ring_concept
+	}
+}
+
 decisioncat_kae_clan_coring = {
 	icon = generic_political_actions
 	
