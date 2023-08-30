@@ -249,10 +249,114 @@ decisioncat_kae_tradefleet = {
 		}
 
 		available = {
-			has_completed_focus = KAE_rebuild_trade_fleet
-			has_equipment = {
-				convoy > 749
+			has_idea = KAE_trade_fleet_bonus_idea_01
+			OR = {
+				has_completed_focus = KAE_armed_merchants
+				has_completed_focus = KAE_protected_merchants
 			}
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 180
+
+		visible = {
+			tag = KAE
+			has_idea = KAE_trade_fleet_bonus_idea_01
+			has_completed_focus = KAE_rebuild_trade_fleet
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			IF = {
+				limit = {
+					has_completed_focus = KAE_armed_merchants
+				}
+				swap_ideas = {
+					remove_idea = KAE_trade_fleet_bonus_idea_01
+					add_idea = KAE_trade_fleet_bonus_idea_02b
+				}
+			}
+			IF = {
+				limit = {
+					has_completed_focus = KAE_protected_merchants
+				}
+				swap_ideas = {
+					remove_idea = KAE_trade_fleet_bonus_idea_01
+					add_idea = KAE_trade_fleet_bonus_idea_02a
+				}
+			}
+			
+			IF = {
+				limit = {
+					has_idea = policy_collective
+				}
+				swap_ideas = {
+					remove_idea = policy_collective
+					add_idea = policy_mercantilism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_feudalism
+				}
+				swap_ideas = {
+					remove_idea = policy_feudalism
+					add_idea = policy_mercantilism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_oligopoly
+				}
+				swap_ideas = {
+					remove_idea = policy_oligopoly
+					add_idea = policy_mercantilism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_capitalist
+				}
+				swap_ideas = {
+					remove_idea = policy_capitalist
+					add_idea = policy_mercantilism
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = policy_laissez_faire
+				}
+				swap_ideas = {
+					remove_idea = policy_laissez_faire
+					add_idea = policy_mercantilism
+				}
+			}
+		}
+	}
+}
+
+decisioncat_kae_golden_ring = {
+
+	KAE_golden_ring_province_highlight = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			always = no
 		}
 
 		cost = 25
@@ -267,8 +371,55 @@ decisioncat_kae_tradefleet = {
 
 		visible = {
 			tag = KAE
-			has_completed_focus = KAE_rebuild_trade_fleet
-			has_idea = KAE_trade_fleet_bonus_idea_01
+			#has_completed_focus = KAE_golden_ring_concept
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 136
+				state = 493
+				state = 491
+				state = 492
+				state = 494
+				state = 495
+				state = 502
+				
+				state = 478
+				state = 479
+				state = 506
+				state = 503
+				state = 504
+				state = 505
+				state = 500
+				state = 501
+				
+				state = 490
+				state = 487
+				state = 473
+				state = 418
+				
+				state = 489
+				state = 488
+				state = 327
+				state = 376
+				
+				state = 132
+				state = 133
+				state = 131
+				state = 127
+				state = 128
+				state = 129
+				
+				state = 135
+				state = 568
+				state = 567
+				
+				state = 577
+				state = 576
+				state = 575
+				state = 570
+				state = 569
+			}
 		}
 		
 		modifier = {
@@ -276,18 +427,216 @@ decisioncat_kae_tradefleet = {
 		}
 		
 		remove_effect = {
-			swap_ideas = {
-				add_idea = KAE_trade_fleet_bonus_idea_02
-				remove_idea = KAE_trade_fleet_bonus_idea_01
-			}
-			add_equipment_to_stockpile = {
-				type = convoy
-				amount = -500
-			}
 		}
 	}
 	
+	KAE_core_astaria_decision = {
 	
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_golden_ring_concept
+			KAE = {
+				owns_state = 126
+				owns_state = 103
+				owns_state = 127
+				owns_state = 128
+				owns_state = 129
+				owns_state = 130
+				owns_state = 131
+				owns_state = 132
+				owns_state = 133
+				owns_state = 327
+				owns_state = 376
+				owns_state = 134
+				owns_state = 139
+				owns_state = 138
+				owns_state = 137
+			}
+			126 = { compliance > 59 }
+			103 = { compliance > 59 }
+			127 = { compliance > 59 }
+			128 = { compliance > 59 }
+			129 = { compliance > 59 }
+			130 = { compliance > 59 }
+			131 = { compliance > 59 }
+			132 = { compliance > 59 }
+			133 = { compliance > 59 }
+			327 = { compliance > 59 }
+			376 = { compliance > 59 }
+			134 = { compliance > 59 }
+			139 = { compliance > 59 }
+			138 = { compliance > 59 }
+			137 = { compliance > 59 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 126
+			add_state_core = 103
+			add_state_core = 127
+			add_state_core = 128
+			add_state_core = 129
+			add_state_core = 130
+			add_state_core = 131
+			add_state_core = 132
+			add_state_core = 133
+			add_state_core = 327
+			add_state_core = 376
+			add_state_core = 134
+			add_state_core = 139
+			add_state_core = 138
+			add_state_core = 137
+		}
+	}
+	
+	KAE_core_cilarine_decision = {
+	
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_golden_ring_concept
+			KAE = {
+				owns_state = 577
+				owns_state = 576
+				owns_state = 575
+				owns_state = 570
+				owns_state = 569
+				owns_state = 135
+				owns_state = 568
+				owns_state = 567
+			}
+			577 = { compliance > 59 }
+			576 = { compliance > 59 }
+			575 = { compliance > 59 }
+			570 = { compliance > 59 }
+			569 = { compliance > 59 }
+			135 = { compliance > 59 }
+			568 = { compliance > 59 }
+			567 = { compliance > 59 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 577
+			add_state_core = 576
+			add_state_core = 575
+			add_state_core = 570
+			add_state_core = 569
+			add_state_core = 135
+			add_state_core = 568
+			add_state_core = 567
+		}
+	}
+	
+	KAE_core_esun_interior_ring = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = KAE
+		}
+
+		available = {
+			has_completed_focus = KAE_golden_ring_concept
+			KAE = {
+				owns_state = 482
+				owns_state = 477
+				owns_state = 483
+				owns_state = 496
+				owns_state = 497
+				owns_state = 498
+				owns_state = 499
+				owns_state = 507
+				owns_state = 484
+				owns_state = 469
+			}
+			482 = { compliance > 29 }
+			477 = { compliance > 29 }
+			483 = { compliance > 29 }
+			496 = { compliance > 29 }
+			497 = { compliance > 29 }
+			498 = { compliance > 29 }
+			499 = { compliance > 29 }
+			507 = { compliance > 29 }
+			484 = { compliance > 29 }
+			469 = { compliance > 29 }
+		}
+
+		cost = 75
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 60
+
+		visible = {
+			tag = KAE
+			#has_completed_focus = KAE_maintain_golden_ring
+		}
+		
+		modifier = {
+			political_power_factor = -0.25
+		}
+		
+		remove_effect = {
+			add_state_core = 482
+			add_state_core = 477
+			add_state_core = 483
+			add_state_core = 496
+			add_state_core = 497
+			add_state_core = 498
+			add_state_core = 499
+			add_state_core = 507
+			add_state_core = 484
+			add_state_core = 469
+		}
+	}
 }
 
 decisioncat_kae_clan_coring = {
@@ -708,88 +1057,6 @@ decisioncat_kae_suatoa_coring = {
 			add_state_core = 460
 			add_state_core = 459
 			add_state_core = 471
-		}
-	}
-	
-	KAE_core_astaria_decision = { ###SCRAPPED UNTIL FURTHER NOTICE 25/08/23
-	
-		icon = eng_propaganda_campaigns
-
-		allowed = {
-			tag = KAE
-		}
-
-		available = {
-			has_completed_focus = KAE_mobilise_the_east
-			KAE = {
-				owns_state = 126
-				owns_state = 103
-				owns_state = 127
-				owns_state = 128
-				owns_state = 129
-				owns_state = 130
-				owns_state = 131
-				owns_state = 132
-				owns_state = 133
-				owns_state = 327
-				owns_state = 376
-				owns_state = 134
-				owns_state = 139
-				owns_state = 138
-				owns_state = 137
-			}
-			126 = { compliance > 59 }
-			103 = { compliance > 59 }
-			127 = { compliance > 59 }
-			128 = { compliance > 59 }
-			129 = { compliance > 59 }
-			130 = { compliance > 59 }
-			131 = { compliance > 59 }
-			132 = { compliance > 59 }
-			133 = { compliance > 59 }
-			327 = { compliance > 59 }
-			376 = { compliance > 59 }
-			134 = { compliance > 59 }
-			139 = { compliance > 59 }
-			138 = { compliance > 59 }
-			137 = { compliance > 59 }
-		}
-
-		cost = 75
-
-		fire_only_once = yes
-
-		ai_will_do = {
-			base = 100
-		}
-
-		days_remove = 60
-
-		visible = {
-			tag = KAE
-			always = no
-		}
-		
-		modifier = {
-			political_power_factor = -0.25
-		}
-		
-		remove_effect = {
-			add_state_core = 126
-			add_state_core = 103
-			add_state_core = 127
-			add_state_core = 128
-			add_state_core = 129
-			add_state_core = 130
-			add_state_core = 131
-			add_state_core = 132
-			add_state_core = 133
-			add_state_core = 327
-			add_state_core = 376
-			add_state_core = 134
-			add_state_core = 139
-			add_state_core = 138
-			add_state_core = 137
 		}
 	}
 }
