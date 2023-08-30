@@ -371,7 +371,7 @@ decisioncat_kae_golden_ring = {
 
 		visible = {
 			tag = KAE
-			#has_completed_focus = KAE_golden_ring_concept
+			has_completed_focus = KAE_golden_ring_concept
 		}
 		
 		highlight_states = {
@@ -486,6 +486,7 @@ decisioncat_kae_golden_ring = {
 
 		visible = {
 			tag = KAE
+			has_completed_focus = KAE_golden_ring_concept
 		}
 		
 		modifier = {
@@ -553,6 +554,7 @@ decisioncat_kae_golden_ring = {
 
 		visible = {
 			tag = KAE
+			has_completed_focus = KAE_golden_ring_concept
 		}
 		
 		modifier = {
@@ -617,7 +619,7 @@ decisioncat_kae_golden_ring = {
 
 		visible = {
 			tag = KAE
-			#has_completed_focus = KAE_maintain_golden_ring
+			has_completed_focus = KAE_maintain_golden_ring
 		}
 		
 		modifier = {
