@@ -1,0 +1,32 @@
+spriteTypes = {	
+
+	###CANNON ICONS###
+	
+	SpriteType = {
+		name = "GFX_idea_designer_artillery_primitive"
+		texturefile = "gfx/interface/ideas/designer/siege_engineers_guild.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_designer_norm_artillery_civilised"
+		texturefile = "gfx/interface/ideas/designer/cannon_design_commission.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_designer_exp_artillery_civilised"
+		texturefile = "gfx/interface/ideas/designer/Experimental_artillery_design_commission.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_siege_artillery_civilised"
+		texturefile = "gfx/interface/ideas/designer/siege_artillery_design_commission.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_norm_artillery_industrial"
+		texturefile = "gfx/interface/ideas/designer/cannon_design_company.dds"	
+	}
+
+
+
+}
