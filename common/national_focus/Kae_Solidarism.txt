@@ -1133,6 +1133,7 @@ focus_tree = {
 					
 					set_capital = { state = 122 }
 					inherit_technology = KAE
+					load_focus_tree = generic_focus
 				}
 				KAE = {
 					IF = {
