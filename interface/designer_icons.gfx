@@ -27,6 +27,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/designer/cannon_design_company.dds"	
 	}
 
+	SpriteType = {
+		name = "GFX_idea_designer_exp_artillery_industrial"
+		texturefile = "gfx/interface/ideas/designer/experimental_artillery_design_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_siege_artillery_industrial"
+		texturefile = "gfx/interface/ideas/designer/siege_artillery_design_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_aa_artillery_industrial"
+		texturefile = "gfx/interface/ideas/designer/anti_air_artillery_design_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_aa_navy_industrial"
+		texturefile = "gfx/interface/ideas/designer/anti_air_artillery_design_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_navy_primitive"
+		texturefile = "gfx/interface/ideas/designer/shipwrights_guild.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_coast_navy_civilised"
+		texturefile = "gfx/interface/ideas/designer/coastal_defence_commission.dds"	
+	}
+
 
 
 }
