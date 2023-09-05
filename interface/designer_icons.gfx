@@ -57,6 +57,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/designer/coastal_defence_commission.dds"	
 	}
 
+	SpriteType = {
+		name = "GFX_idea_designer_big_navy_civilised"
+		texturefile = "gfx/interface/ideas/designer/high_sees_fleet_design_commission.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_stronk_navy_civilised"
+		texturefile = "gfx/interface/ideas/designer/battlefleet_design_commission.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_engine_navy_industrial"
+		texturefile = "gfx/interface/ideas/designer/naval_engine_design_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_torpedo_navy_industrial"
+		texturefile = "gfx/interface/ideas/designer/torpedo_design_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_armor_navy_industrial"
+		texturefile = "gfx/interface/ideas/designer/naval_armor_design_company.dds"	
+	}
+
 
 
 }
