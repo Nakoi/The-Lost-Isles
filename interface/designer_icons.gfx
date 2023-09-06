@@ -82,6 +82,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/designer/naval_armor_design_company.dds"	
 	}
 
+	SpriteType = {
+		name = "GFX_idea_designer_airskirm_civilised"
+		texturefile = "gfx/interface/ideas/designer/air_skirmisher_equipement_design_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_airfrig_civilised"
+		texturefile = "gfx/interface/ideas/designer/air_frigate_design_commission.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_airbomb_civilised"
+		texturefile = "gfx/interface/ideas/designer/bombardier_design_commission.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_skycarrier_civilised"
+		texturefile = "gfx/interface/ideas/designer/sky_carrier_design_commission.dds"	
+	}
+
 
 
 }
