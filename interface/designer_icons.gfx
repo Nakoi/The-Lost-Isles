@@ -102,6 +102,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/designer/sky_carrier_design_commission.dds"	
 	}
 
+	SpriteType = {
+		name = "GFX_idea_designer_air_durability_industrial"
+		texturefile = "gfx/interface/ideas/designer/durable_airship_design_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_air_to_air_industrial"
+		texturefile = "gfx/interface/ideas/designer/air_to_air_weapon_design_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_air_bombing_industrial"
+		texturefile = "gfx/interface/ideas/designer/bombing_equipment_design_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_skycruiser_industrial"
+		texturefile = "gfx/interface/ideas/designer/sky_cruiser_design_company.dds"	
+	}
+
 
 
 }
