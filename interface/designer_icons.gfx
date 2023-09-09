@@ -122,6 +122,41 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/designer/sky_cruiser_design_company.dds"	
 	}
 
+	SpriteType = {
+		name = "GFX_idea_designer_infantry_primitive"
+		texturefile = "gfx/interface/ideas/designer/blacksmithsguild.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_infantry_civilised"
+		texturefile = "gfx/interface/ideas/designer/musket_manufacturer.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_infarmor_civilised"
+		texturefile = "gfx/interface/ideas/designer/infantry_armor_manufacturer.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_supporteq_civilised"
+		texturefile = "gfx/interface/ideas/designer/auxillary_equipment_manufacturer.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_trucks_industrial"
+		texturefile = "gfx/interface/ideas/designer/truck_manufacturer.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_grenades_industrial"
+		texturefile = "gfx/interface/ideas/designer/grenade_manufacturer.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_machinegun_industrial"
+		texturefile = "gfx/interface/ideas/designer/air_to_air_weapon_design_company.dds"	
+	}
+
 
 
 }
