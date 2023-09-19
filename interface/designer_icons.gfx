@@ -157,6 +157,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/designer/air_to_air_weapon_design_company.dds"	
 	}
 
+	SpriteType = {
+		name = "GFX_idea_designer_construction_primitive"
+		texturefile = "gfx/interface/ideas/designer/architects_guild.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_extraction_civilised"
+		texturefile = "gfx/interface/ideas/designer/extraction_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_agriculture_civilised"
+		texturefile = "gfx/interface/ideas/designer/agricultural_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_finance_civilised"
+		texturefile = "gfx/interface/ideas/designer/financial_company.dds"	
+	}
+
 
 
 }
