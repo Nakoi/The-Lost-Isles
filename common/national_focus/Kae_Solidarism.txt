@@ -1580,7 +1580,7 @@ focus_tree = {
 		}
 		
 		available = {
-			owns_state = 122
+			NOT = { has_idea = KAE_mercrecruitment }
 		}
 		
 		completion_reward = {
@@ -2093,8 +2093,15 @@ focus_tree = {
 		}
 		
 		available = {
-			num_of_factories > 119
+			num_of_factories > 99
 			has_political_power > 299
+		}
+		
+		select_effect = {
+			country_event = {
+				id = kae_event.3
+				days = 56
+			}
 		}
 		
 		completion_reward = {
@@ -2211,7 +2218,23 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			IF = {
+				limit = {
+					has_country_flag = kae_child_labor_lobby_xd_flag
+				}
+				has_political_power = 300
+			}
+		}
+			
 		completion_reward = {
+			IF = {
+				limit = {
+					has_country_flag = kae_child_labor_lobby_xd_flag
+				}
+				add_political_power = -300
+			}
 			swap_ideas = {
 				add_idea = KAE_poor_living_conditions_04b
 				remove_idea = KAE_poor_living_conditions_03b
