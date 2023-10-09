@@ -593,6 +593,90 @@ country_event = {
 }
 
 country_event = {
+	id = kae_event.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_event.2"}
+	title = kae_event.2.t
+	desc = kae_event.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = KAE
+		OR = {
+			focus_progress = {
+				focus = KAE_rin_bonus
+				progress > 0.1
+			}
+			focus_progress = {
+				focus = KAE_unu_bonus
+				progress > 0.1
+			}
+			focus_progress = {
+				focus = KAE_wei_bonus
+				progress > 0.1
+			}
+			focus_progress = {
+				focus = KAE_ash_bonus
+				progress > 0.1
+			}
+		}
+	}
+	
+	option = {
+		name = kae_event.2.a
+		506 = {	
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	
+	option = {
+		name = kae_event.2.b
+		506 = {	
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	
+	option = {
+		name = kae_event.2.c
+		506 = {	
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = synthetic_refinery
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = kae_event.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_event.3"}
+	title = kae_event.3.t
+	desc = kae_event.3.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_event.3.a
+		custom_effect_tooltip = KAEtt_child_labor_lobby
+		set_country_flag = kae_child_labor_lobby_xd_flag
+	}
+}
+
+country_event = {
 	id = eak_event.1
 	#immediate = {log = "[GetDateText]: [Root.GetName]: event eak_event.1"}
 	title = eak_event.1.t
