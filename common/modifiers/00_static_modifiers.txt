@@ -305,16 +305,18 @@ free_license = {
 
 # applies when stability > 50%
 stability_good_modifier = {
-	industrial_capacity_factory = 0.5
-	industrial_capacity_dockyard = 0.5
-	consumer_goods_factor = -0.05
+	industrial_capacity_factory = 0.25
+	industrial_capacity_dockyard = 0.25
+	consumer_goods_expected_value = -0.05
 	political_power_factor = 0.1
 }
 
 # applies when stability < 50%
 stability_bad_modifier = {
-	consumer_goods_factor = 0.05
-	political_power_factor = -0.5
+	consumer_goods_expected_value = 0.05
+	industrial_capacity_factory = -0.25
+	industrial_capacity_dockyard = -0.25
+	political_power_factor = -0.25
 }
 
 war_support_good_modifier = {
