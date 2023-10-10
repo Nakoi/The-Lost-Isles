@@ -1100,7 +1100,7 @@ focus_tree = {
 		
 		completion_reward = {
 			unlock_decision_category_tooltip = decisioncat_esu_integration
-			ESU = { country_event = { id = esu_event.3 days = 3 } }
+			#ESU = { country_event = { id = esu_event.3 days = 3 } }
 			add_stability = -0.05
 			add_manpower = 50000
 			custom_effect_tooltip = ESUtt_nationalist_party_opinion_decrease_tooltip
@@ -1174,7 +1174,7 @@ focus_tree = {
 		
 		completion_reward = {
 			unlock_decision_category_tooltip = decisioncat_esu_integration
-			ESU = { country_event = { id = esu_event.4 days = 3 } }
+			#ESU = { country_event = { id = esu_event.4 days = 3 } }
 			add_stability = 0.1
 			483 = { add_manpower = -8000 }
 			496 = { add_manpower = -8000 }
@@ -2398,46 +2398,56 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_economic_boom
-		icon = ESU_GFX_Economic_Boom
+		#icon = 
 		prerequisite = { focus = ESU_faith_in_our_nation }
 		x = 0
 		y = 5
 		relative_position_id =  ESU_noble_workforce
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		available = {
+			has_tech = kirin_vanguards
 		}
 		
 		completion_reward = {
-			add_ideas = ESU_economic_boom_idea
-			IF = {
-				limit = {
-					has_idea = export_focus
+			custom_effect_tooltip = ESUtt_warrior_monk_recruitment
+			hidden_effect = {
+				division_template = {
+					name = "Warrior Monk Brigade"
+					priority = 2
+					regiments = {
+						vanguards = { x = 0 y = 0 }
+						vanguards = { x = 0 y = 1 }
+						vanguards = { x = 0 y = 2 }
+						vanguards = { x = 0 y = 3 }
+						vanguards = { x = 1 y = 0 }
+						vanguards = { x = 1 y = 1 }
+						vanguards = { x = 1 y = 2 }
+						vanguards = { x = 1 y = 3 }
+						vanguards = { x = 2 y = 0 }
+						vanguards = { x = 2 y = 1 }
+						vanguards = { x = 2 y = 2 }
+						vanguards = { x = 2 y = 3 }
+					}
 				}
-				swap_ideas = {
-					remove_idea = export_focus
-					add_idea = free_trade
+				122 = { 
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"1. Vanguard Monk Brigade\" division_template = \"Warrior Monk Brigade\" start_experience_factor = 0.75" 
+						owner = ESU
+						prioritize_location = 3456
+					}
 				}
-			}
-			IF = {
-				limit = {
-					has_idea = limited_exports
-				}
-				swap_ideas = {
-					remove_idea = limited_exports
-					add_idea = free_trade
-				}
-			}
-			IF = {
-				limit = {
-					has_idea = closed_economy
-				}
-				swap_ideas = {
-					remove_idea = closed_economy
-					add_idea = free_trade
+				122 = { 
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"2. Vanguard Monk Brigade\" division_template = \"Warrior Monk Brigade\" start_experience_factor = 0.75" 
+						owner = ESU
+						prioritize_location = 3456
+					}
 				}
 			}
 		}
@@ -2643,8 +2653,8 @@ focus_tree = {
 		
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 2
-				uses = 1
+				bonus = 0.25
+				uses = 4
 				category = category_airfrigate
 			}
 		}
@@ -2669,7 +2679,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 2
 				uses = 1
-				category = category_skycarrier
+				category = category_skycruiser
 			}
 		}
 	}
