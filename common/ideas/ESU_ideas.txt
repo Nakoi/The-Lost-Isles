@@ -615,34 +615,6 @@ ideas = {
 			}
 		}
 		
-		ESU_economic_boom_idea = {
-			picture = great_depression
-			removal_cost = -1
-			available = {
-				always = yes
-			}
-				
-			modifier = {
-				consumer_goods_factor = -0.05
-				trade_opinion_factor = 0.33
-				local_resources_factor = 0.33
-			}
-		}
-		
-		#ESU_eastern_monks_idea = {
-		#	picture = great_depression
-		#	removal_cost = -1
-		#	available = {
-		#		always = yes
-		#	}
-		#		
-		#	modifier = {
-		#		consumer_goods_factor = 0.05
-		#		industrial_capacity_factory = -0.1
-		#		stability_weekly = 0.001
-		#	}
-		#}
-		
 		ESU_iji_sabotage_1 = {
 			picture = great_depression
 			removal_cost = -1
