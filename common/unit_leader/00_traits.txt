@@ -321,7 +321,7 @@ leader_traits = {
 			factor = 1
 		}
 		
-		gui_row = 2
+		gui_row = 1
 	}
 	
 	tli_pertrait_chivalrous = { 
@@ -340,7 +340,7 @@ leader_traits = {
 			factor = 1
 		}
 		
-		gui_row = 5
+		gui_row = 4
 	}
 	
 	tli_pertrait_disciplined = { 
@@ -359,7 +359,7 @@ leader_traits = {
 			factor = 1
 		}
 		
-		gui_row = 8
+		gui_row = 7
 	}
 	
 	tli_pertrait_glory_hound = { 
@@ -378,7 +378,7 @@ leader_traits = {
 			factor = 1
 		}
 		
-		gui_row = 11
+		gui_row = 10
 	}
 	
 	tli_pertrait_intelligent = { 
@@ -397,7 +397,7 @@ leader_traits = {
 			factor = 1
 		}
 		
-		gui_row = 14
+		gui_row = 13
 	}
 	
 	tli_pertrait_merciful = { 
@@ -416,7 +416,7 @@ leader_traits = {
 			factor = 1
 		}
 		
-		gui_row = 17
+		gui_row = 16
 	}
 	
 	tli_pertrait_merciless = { 
@@ -435,7 +435,7 @@ leader_traits = {
 			factor = 1
 		}
 		
-		gui_row = 20
+		gui_row = 19
 	}
 	
 	tli_pertrait_reckless = { 
@@ -455,7 +455,7 @@ leader_traits = {
 			factor = 1
 		}
 		
-		gui_row = 23
+		gui_row = 22
 	}
 	
 	tli_pertrait_trickster = { 
@@ -474,7 +474,7 @@ leader_traits = {
 			factor = 1
 		}
 		
-		gui_row = 26
+		gui_row = 25
 	}
 	
 ###################
@@ -505,11 +505,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_cautious
+		any_parent = { tli_pertrait_cautious }
 		
 		mutually_exclusive = tli_asstrait_thorough_planner
 		
-		gui_row = 1
+		gui_row = 0
 	}
 	
 	tli_asstrait_thorough_planner = { 
@@ -531,11 +531,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_cautious
+		any_parent = { tli_pertrait_cautious }
 		
 		mutually_exclusive = tli_asstrait_artyofficer
 		
-		gui_row = 3
+		gui_row = 2
 	}
 	
 	tli_asstrait_elite_commander = { 
@@ -561,11 +561,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_chivalrous
+		any_parent = { tli_pertrait_chivalrous }
 		
 		mutually_exclusive = tli_asstrait_honorable_commander
 		
-		gui_row = 4
+		gui_row = 3
 	}
 	
 	tli_asstrait_honorable_commander = { 
@@ -587,11 +587,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_chivalrous
+		any_parent = { tli_pertrait_chivalrous }
 		
 		mutually_exclusive = tli_asstrait_elite_commander
 		
-		gui_row = 6
+		gui_row = 5
 	}
 	
 	tli_asstrait_skilled_staffer = { 
@@ -612,11 +612,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_disciplined
+		any_parent = { tli_pertrait_disciplined }
 		
 		mutually_exclusive = tli_asstrait_focused
 		
-		gui_row = 7
+		gui_row = 6
 	}
 	
 	tli_asstrait_focused = { 
@@ -638,11 +638,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_disciplined
+		any_parent = { tli_pertrait_disciplined }
 		
 		mutually_exclusive = tli_asstrait_skilled_staffer
 		
-		gui_row = 9
+		gui_row = 8
 	}
 	
 	tli_asstrait_infantry_commander = { 
@@ -662,11 +662,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_glory_hound
+		any_parent = { tli_pertrait_glory_hound }
 		
 		mutually_exclusive = tli_asstrait_lead_by_example
 		
-		gui_row = 10
+		gui_row = 9
 	}
 	
 	tli_asstrait_lead_by_example = { 
@@ -687,11 +687,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_glory_hound
+		any_parent = { tli_pertrait_glory_hound }
 		
 		mutually_exclusive = tli_asstrait_infantry_commander
 		
-		gui_row = 12
+		gui_row = 11
 	}
 	
 	tli_asstrait_quartermaster = { 
@@ -712,11 +712,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_intelligent
+		any_parent = { tli_pertrait_intelligent }
 		
 		mutually_exclusive = tli_asstrait_sapper
 		
-		gui_row = 13
+		gui_row = 12
 	}
 	
 	tli_asstrait_sapper = { 
@@ -740,11 +740,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_intelligent
+		any_parent = { tli_pertrait_intelligent }
 		
 		mutually_exclusive = tli_asstrait_quartermaster
 		
-		gui_row = 15
+		gui_row = 14
 	}
 	
 	tli_asstrait_medic = { 
@@ -765,11 +765,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_merciful
+		any_parent = { tli_pertrait_merciful }
 		
 		mutually_exclusive = tli_asstrait_relaxed_leader
 		
-		gui_row = 16
+		gui_row = 15
 	}
 	
 	tli_asstrait_relaxed_leader = { 
@@ -790,11 +790,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_merciful
+		any_parent = { tli_pertrait_merciful }
 		
 		mutually_exclusive = tli_asstrait_medic
 		
-		gui_row = 18
+		gui_row = 17
 	}
 	
 	tli_asstrait_disciplinarian = { 
@@ -817,11 +817,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_merciless
+		any_parent = { tli_pertrait_merciless }
 		
 		mutually_exclusive = tli_asstrait_murderer
 		
-		gui_row = 19
+		gui_row = 18
 	}
 	
 	tli_asstrait_murderer = { 
@@ -842,11 +842,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_merciless
+		any_parent = { tli_pertrait_merciless }
 		
 		mutually_exclusive = tli_asstrait_disciplinarian
 		
-		gui_row = 21
+		gui_row = 20
 	}
 	
 	tli_asstrait_mobile = { 
@@ -867,11 +867,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_reckless
+		any_parent = { tli_pertrait_reckless }
 		
 		mutually_exclusive = tli_asstrait_impulsive
 		
-		gui_row = 22
+		gui_row = 21
 	}
 	
 	tli_asstrait_impulsive = { 
@@ -892,11 +892,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_reckless
+		any_parent = { tli_pertrait_reckless }
 		
 		mutually_exclusive = tli_asstrait_mobile
 		
-		gui_row = 24
+		gui_row = 23
 	}
 	
 	tli_asstrait_ambusher = { 
@@ -917,11 +917,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_trickster
+		any_parent = { tli_pertrait_trickster }
 		
 		mutually_exclusive = tli_asstrait_one_step_ahead
 		
-		gui_row = 25
+		gui_row = 24
 	}
 	
 	tli_asstrait_one_step_ahead = { 
@@ -942,11 +942,11 @@ leader_traits = {
 		}
 		
 		trait_type = assignable_trait
-		parent = tli_pertrait_trickster
+		any_parent = { tli_pertrait_trickster }
 		
 		mutually_exclusive = tli_asstrait_ambusher
 		
-		gui_row = 27
+		gui_row = 26
 	}
 	
 ######################
@@ -1314,14 +1314,14 @@ leader_traits = {
 		trait_type = assignable_terrain_trait
 		gui_row = 3
 				
-		parent = desert_fox
-		parent = swamp_fox
-		parent = trait_mountaineer
-		parent = hill_fighter
-		parent = jungle_rat
-		parent = ranger
-		parent = urban_assault_specialist
-		parent = winter_specialist
+		any_parent = { desert_fox }
+		any_parent = { swamp_fox }
+		any_parent = { trait_mountaineer }
+		any_parent = { hill_fighter }
+		any_parent = { jungle_rat }
+		any_parent = { ranger }
+		any_parent = { urban_assault_specialist }
+		any_parent = { winter_specialist }
 		
 		num_parents_needed = 2
 	}
@@ -1341,7 +1341,7 @@ leader_traits = {
 			factor = 1
 		}
 		
-		parent = winter_specialist
+		any_parent = { winter_specialist }
 
 		trait_type = assignable_terrain_trait
 		gui_row = 7
