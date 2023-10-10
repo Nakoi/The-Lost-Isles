@@ -1,9 +1,9 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "1936.1.1.12",
-	END_DATE = "1949.1.1.1",
-	MAP_SCALE_PIXEL_TO_KM = 7.114,					-- Yes, we did the math
+	START_DATE = "957.1.1.12",
+	END_DATE = "1007.1.1.1",
+	MAP_SCALE_PIXEL_TO_KM = 3,					-- Yes, we did the math
 	SAVE_VERSION = 20,								-- 1.13.0 (TAAT)
 	CHECKSUM_SALT = "zwOdv5d9wm9uDSOT",				-- Data to modify generated checksum when game binaries have changed but not any content files.
 	LAG_DAYS_FOR_LOWER_SPEED = 10,					-- Days of client lag for decrease of gamespeed
@@ -172,7 +172,7 @@ NDiplomacy = {
 	PEACE_SCORE_MINOR_BOOST_FRACTION = 0.05,        -- Low-scoring winners are boosted by receiving more of their score earlier. This value, multiplied by the total score distributed this turn, is the minimum score they will receive (up until their total allocated score).
 	-- Example: If 2000 score is distributed to winners this turn and this value is set to 0.05, each winner will receive a minimum of 100 score (clamped by the max score they will receive over the cource of the conference).
 
-	PEACE_SCORE_DISTRIBUTION = { 0.2, 0.2, 0.2, 0.2, 0.2 }, -- How much of the total peace conference score you get during the first n turns.
+	PEACE_SCORE_DISTRIBUTION = { 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 }, -- How much of the total peace conference score you get during the first n turns.
 	-- More explanation of the peace score distribution above:
 	-- {1.0} would give you all the score on the first turn.
 	-- {0.5, 0.5, 0.5} would give you 50 % of the total score on each of the first three turns (in this case resulting in receiving 150 % of the total score).
@@ -1096,11 +1096,13 @@ NMilitary = {
 	HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS = 336, -- minimum hours required for units to rejoin border wars
 
 	NEW_COMMANDER_RANDOM_PERSONALITY_TRAIT_CHANCES = {  -- chances to gain a personality trait for new generals
-		0.5, -- 50% for first trait
-		0.15  -- 15% for second trait after that
+		1,
+		0.5,
 	},
 
 	NEW_COMMANDER_RANDOM_BASIC_TRAIT_CHANCES = {  -- chances to gain a basic trait for new generals
+		1,
+		1,
 	},
 
 	NEW_COMMANDER_RANDOM_STATUS_TRAIT_CHANCES = {  -- chances to gain a status trait for new generals
@@ -1233,9 +1235,9 @@ NAir = {
 
 	AI_ALLOWED_PLANES_KEPT_IN_RESERVE = 0.10,			--AI allowed planes is reduced by this percentage. Overflow will be distributed to the next valid order. Worst case, this will result in this % of planes no being assigned any order.
 
-	ACCIDENT_CHANCE_BASE = 0.1,							-- Base chance % (0 - 100) for accident to happen. Reduced with higher reliability stat.
-	ACCIDENT_CHANCE_CARRIER_MULT = 1.5,					-- The total accident chance is scaled up when it happens on the carrier ship.
-	ACCIDENT_CHANCE_BALANCE_MULT = 1,					-- Multiplier for balancing how often the air accident really happens. The higher mult, the more often.
+	ACCIDENT_CHANCE_BASE = 0,							-- Base chance % (0 - 100) for accident to happen. Reduced with higher reliability stat.
+	ACCIDENT_CHANCE_CARRIER_MULT = 0,					-- The total accident chance is scaled up when it happens on the carrier ship.
+	ACCIDENT_CHANCE_BALANCE_MULT = 0,					-- Multiplier for balancing how often the air accident really happens. The higher mult, the more often.
 	ACCIDENT_EFFECT_MULT = 0.007,						-- Multiplier for balancing the effect of accidents
 	ACE_DEATH_CHANCE_BASE = 0.005,						-- Base chance % for ace pilot die when an airplane is shot down in the Ace wing.
 	ACE_DEATH_BY_OTHER_ACE_CHANCE = 1.0,				-- chance to an ace dying by another ace if it was hit by ace in combat
@@ -1302,7 +1304,7 @@ NAir = {
 	AIR_WING_XP_RECON_MISSION_COMPLETED_GAIN = 0.05, 					--recon mission
 
 	AIR_WING_COUNTRY_XP_FROM_TRAINING_FACTOR = 0.003, 					--Factor on country Air XP gained from wing training
-	AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 1.2, 				--Training exercises cause more accidents
+	AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0, 				--Training exercises cause more accidents
 	AIR_WING_XP_LOSS_REDUCTION_OVER_FRIENDLY_TERRITORY_FACTOR = 0.3, 	--Reduction on XP loss over friendly territory
 
 	DISRUPTION_FACTOR = 4.0,									-- multiplier on disruption damage to scale its effects on planes
@@ -2241,8 +2243,8 @@ NAI = {
 
 	AI_CHAIN_CALLS_ALLIES = true,				-- with this enabled the AI will automatically call AI allies when called into a war (which in turn generates a single popup, this circumvents some potential modfiable scripts with the call ally diplo action, which might be a cause to disable it in some mods
 
-	MIN_AI_UNITS_PER_TILE_FOR_STANDARD_COHESION = 1.5,	-- How many units should we have for each tile along a front in order to switch to standard cohesion (less moving around)
-	MIN_FRONT_SIZE_TO_CONSIDER_STANDARD_COHESION = 12,	-- How long should fronts be before we consider switching to standard cohesion (under this, standard cohesion fronts will switch back to relaxed)
+	MIN_AI_UNITS_PER_TILE_FOR_STANDARD_COHESION = 1,	-- How many units should we have for each tile along a front in order to switch to standard cohesion (less moving around)
+	MIN_FRONT_SIZE_TO_CONSIDER_STANDARD_COHESION = 1,	-- How long should fronts be before we consider switching to standard cohesion (under this, standard cohesion fronts will switch back to relaxed)
 
 	JOIN_ALLY_BASE_DESIRE = 20,					-- exactly what it says
 	JOIN_ALLY_DEMOCRATIC_DESIRE = 50,			-- Desire to join ally added for democratic AI
@@ -2472,7 +2474,7 @@ NAI = {
 	WANTED_UNITS_THREAT_MAX = 6.0,                             -- Normalized threat is clamped to this
 	WANTED_UNITS_WAR_THREAT_FACTOR = 1.15,                       -- Factor threat with this if country is at war. this value is overriden by the value in ideology database if that value exceedes this.
 	WANTED_UNITS_DANGEROUS_NEIGHBOR_FACTOR = 1.15,              -- Factor if has dangerous neighbor
-	WANTED_UNITS_MANPOWER_DIVISOR = 21000,                      -- Normalizing divisor for AI manpower. (for each x max available manpower, they want one division)
+	WANTED_UNITS_MANPOWER_DIVISOR = 15000,                      -- Normalizing divisor for AI manpower. (for each x max available manpower, they want one division)
 	WANTED_UNITS_WEIGHT_FRONTS_WANT = 0.35,                      -- Weight of front needs when computing final nr wanted units
 	WANTED_UNITS_WEIGHT_FACTORIES = 0.45,                        -- Weight of military factories when computing final nr wanted units
 	WANTED_UNITS_WEIGHT_MANPOWER = 0.3,                         -- Weight of manpower availability when computing final nr wanted units
