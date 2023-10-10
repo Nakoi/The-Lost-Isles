@@ -160,8 +160,15 @@ country_event = {
 	title = esu_event.3.t
 	desc = esu_event.3.d
 	picture = GFX_news_event_chinese_soldiers_march
-	is_triggered_only = yes
-	major = no
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ESU
+		focus_progress = {
+			focus = ESU_amnesty_for_their_soldiers
+			progress > 0.1
+		}
+	}
 	
 	option = {
 		name = esu_event.3.a
@@ -180,8 +187,15 @@ country_event = {
 	title = esu_event.4.t
 	desc = esu_event.4.d
 	picture = GFX_news_event_chinese_soldiers_march
-	is_triggered_only = yes
-	major = no
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ESU
+		focus_progress = {
+			focus = ESU_no_forgiveness
+			progress > 0.1
+		}
+	}
 	
 	option = {
 		name = esu_event.4.a
