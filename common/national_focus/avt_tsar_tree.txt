@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = AVT
        }
     }
 
@@ -4081,7 +4081,7 @@ focus_tree = {
 			add_doctrine_cost_reduction = {
 				cost_reduction = 0.75
 				uses = 1
-				category = strategic_airship_implementation_tree
+				category = cat_strategic_airship_implementation
 			}
 		}
 	}
@@ -4103,7 +4103,7 @@ focus_tree = {
 			add_doctrine_cost_reduction = {
 				cost_reduction = 0.75
 				uses = 1
-				category = air_parity_tree
+				category = cat_air_parity
 			}
 		}
 	}
