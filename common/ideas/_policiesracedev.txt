@@ -499,7 +499,7 @@ ideas = {
 		
 			modifier = {
 				min_export = 0.15
-				consumer_goods_factor = -0.10
+				consumer_goods_expected_value = -0.10
 				subjects_autonomy_gain = -0.5
 			}
 		}
@@ -560,7 +560,7 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = 0.1
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				research_speed_factor = 0.03
 			}
 		}

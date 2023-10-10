@@ -20,7 +20,7 @@ ideas = {
 			modifier = {
 				conscription = 0.05
 				army_org_factor = -0.15
-				consumer_goods_factor = 0.25
+				consumer_goods_expected_value = 0.25
 			}
 			
 			default = yes
@@ -47,7 +47,7 @@ ideas = {
 				army_defence_factor = 0.2
 				army_org_factor = 0.2
 				minimum_training_level = 0.3
-				consumer_goods_factor = 0.35
+				consumer_goods_expected_value = 0.35
 				production_speed_industrial_complex_factor = 0.25
 				production_speed_arms_factory_factor = -0.25
 				industrial_capacity_factory = 0.15
@@ -78,7 +78,7 @@ ideas = {
 				training_time_factor = -0.5
 				army_org_factor = 0.1
 				mobilization_speed = 3
-				consumer_goods_factor = 0.45
+				consumer_goods_expected_value = 0.45
 				production_speed_industrial_complex_factor = -0.75
 				production_speed_arms_factory_factor = 0.5
 			}
@@ -107,7 +107,7 @@ ideas = {
 				minimum_training_level = 0.75
 				training_time_factor = 0.4
 				army_speed_factor = 0.1
-				consumer_goods_factor = 0.35
+				consumer_goods_expected_value = 0.35
 				research_speed_factor = 0.05
 				production_speed_buildings_factor = 0.2
 			}
@@ -132,7 +132,7 @@ ideas = {
 				conscription = 0.05
 				army_attack_factor = 0.1
 				army_defence_factor = 0.1
-				consumer_goods_factor = 0.4
+				consumer_goods_expected_value = 0.4
 				production_speed_industrial_complex_factor = 0.15
 				production_speed_arms_factory_factor = 0.25
 				research_speed_factor = 0.05
@@ -157,7 +157,7 @@ ideas = {
 			modifier = {
 				conscription = 0.12
 				training_time_factor = 0.2
-				consumer_goods_factor = 0.45
+				consumer_goods_expected_value = 0.45
 			}
 			
 			cancel_if_invalid = no
@@ -179,7 +179,7 @@ ideas = {
 			modifier = {
 				conscription = 0.3
 				training_time_factor = 0.70
-				consumer_goods_factor = 0.6
+				consumer_goods_expected_value = 0.6
 				research_speed_factor = -0.15
 				industrial_capacity_factory = -0.7
 				industrial_capacity_dockyard = -0.7

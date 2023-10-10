@@ -24,7 +24,7 @@ ideas = {
 				
 			modifier = {
 				stability_factor = -0.25
-				consumer_goods_factor = 0.3
+				consumer_goods_expected_value = 0.3
 				min_export = -0.5
 			}
 		}
@@ -38,7 +38,7 @@ ideas = {
 				
 			modifier = {
 				stability_factor = -0.05
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 			}
 		}
 		
@@ -201,7 +201,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.07
+				consumer_goods_expected_value = 0.07
 				industrial_capacity_factory = -0.2
 				production_factory_max_efficiency_factor = -0.2
 			}
@@ -215,7 +215,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.2
+				consumer_goods_expected_value = 0.2
 				war_support_factor = 0.15
 				weekly_manpower = 1000
 			}
@@ -229,7 +229,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				war_support_factor = 0.05
 				experience_loss_factor = -0.1
 			}
@@ -243,7 +243,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.20
+				consumer_goods_expected_value = 0.20
 				stability_weekly = 0.002
 			}
 		}
@@ -256,7 +256,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.10
+				consumer_goods_expected_value = 0.10
 				stability_factor = -0.3
 				war_support_factor = -0.3
 			}
@@ -312,7 +312,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = -0.03
+				consumer_goods_expected_value = -0.03
 				local_resources_factor = 0.1
 			}
 		}
@@ -325,7 +325,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = -0.07
+				consumer_goods_expected_value = -0.07
 				local_resources_factor = 0.15
 			}
 		}
@@ -338,7 +338,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_expected_value = -0.05
 				local_resources_factor = 0.1
 			}
 		}
@@ -351,7 +351,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 			}
 		}
 		
@@ -363,7 +363,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				weekly_manpower = 2000
 			}
 		}
@@ -961,7 +961,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.3
+				consumer_goods_expected_value = 0.3
 				min_export = -0.5
 			}
 		}
@@ -974,7 +974,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.27
+				consumer_goods_expected_value = 0.27
 				min_export = -0.33
 			}
 		}
@@ -987,7 +987,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.24
+				consumer_goods_expected_value = 0.24
 				min_export = -0.33
 			}
 		}
@@ -1000,7 +1000,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.21
+				consumer_goods_expected_value = 0.21
 				min_export = -0.33
 			}
 		}
@@ -1013,7 +1013,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.18
+				consumer_goods_expected_value = 0.18
 				min_export = -0.15
 			}
 		}
@@ -1026,7 +1026,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_expected_value = 0.15
 				min_export = -0.15
 			}
 		}
@@ -1039,7 +1039,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.12
+				consumer_goods_expected_value = 0.12
 				min_export = -0.15
 			}
 		}
@@ -1052,7 +1052,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				min_export = -0.15
 			}
 		}
@@ -1065,7 +1065,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 			}
 		}
 		
@@ -1079,7 +1079,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.1
 				war_support_factor = 0.15
-				consumer_goods_factor = -0.05
+				consumer_goods_expected_value = -0.05
 				navy_org_factor = 0.1
 			}
 		}
@@ -1093,7 +1093,7 @@ ideas = {
 				
 			modifier = {
 				stability_weekly = -0.001
-				consumer_goods_factor = -0.1
+				consumer_goods_expected_value = -0.1
 				local_resources_factor = 0.15
 				production_speed_buildings_factor = 0.2
 			}
@@ -1161,7 +1161,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.02
+				consumer_goods_expected_value = 0.02
 				production_factory_max_efficiency_factor = 0.05
 			}
 		}

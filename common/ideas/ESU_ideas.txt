@@ -88,7 +88,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_expected_value = 0.15
 				stability_factor = -0.25
 				war_support_factor = 0.2
 				conscription_factor = 0.5
@@ -105,7 +105,7 @@ ideas = {
 			}
 			
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				stability_factor = -0.15
 				war_support_factor = 0.25
 				conscription_factor = 0.2
@@ -363,7 +363,7 @@ ideas = {
 			modifier = {
 				stability_weekly = -0.001
 				political_power_factor = -0.15
-				consumer_goods_factor = 0.07
+				consumer_goods_expected_value = 0.07
 			}
 		}
 		
@@ -377,7 +377,7 @@ ideas = {
 			modifier = {
 				stability_weekly = 0.001
 				#political_power_factor = -0.15
-				consumer_goods_factor = 0.02
+				consumer_goods_expected_value = 0.02
 			}
 		}
 		
@@ -392,7 +392,7 @@ ideas = {
 				stability_weekly = 0.001
 				stability_factor = 0.05
 				political_power_factor = 0.1
-				consumer_goods_factor = -0.03
+				consumer_goods_expected_value = -0.03
 			}
 		}
 		
@@ -455,7 +455,7 @@ ideas = {
 				stability_weekly = 0.001
 				war_support_factor = 0.05
 				industrial_capacity_factory = -0.05
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				conscription_factor = 0.05
 			}
 		}
@@ -473,7 +473,7 @@ ideas = {
 				war_support_factor = 0.05
 				war_support_weekly = 0.001
 				industrial_capacity_factory = -0.05
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				conscription_factor = 0.05
 			}
 		}
@@ -491,7 +491,7 @@ ideas = {
 				war_support_factor = 0.1
 				war_support_weekly = 0.001
 				industrial_capacity_factory = -0.05
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				conscription_factor = 0.1
 			}
 		}
@@ -623,7 +623,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				civilian_factory_use = 12
 			}
 		}
@@ -637,7 +637,7 @@ ideas = {
 				
 			modifier = {
 				stability_factor = -0.1
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				civilian_factory_use = 12
 			}
 		}
@@ -652,7 +652,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.1
 				industrial_capacity_factory = -0.35
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				civilian_factory_use = 12
 			}
 		}
@@ -665,7 +665,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				stability_weekly = -0.002
 			}
 		}
@@ -782,7 +782,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_expected_value = -0.05
 				production_speed_buildings_factor = 0.1
 				local_resources_factor = 0.2
 				stability_factor = -0.05
@@ -813,7 +813,7 @@ ideas = {
 				
 			modifier = {
 				production_speed_buildings_factor = 0.1
-				consumer_goods_factor = -0.1
+				consumer_goods_expected_value = -0.1
 				stability_weekly = -0.002
 			}
 		}
@@ -826,7 +826,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				stability_weekly = 0.001
 			}
 		}
@@ -839,7 +839,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				research_speed_factor = -0.1
 				stability_weekly = 0.002
 				war_support_factor = 0.05
@@ -854,7 +854,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_expected_value = 0.15
 				stability_weekly = 0.002
 				war_support_factor = 0.05
 			}
@@ -868,7 +868,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_expected_value = 0.15
 				research_speed_factor = -0.1
 				stability_weekly = 0.003
 				war_support_factor = 0.1
@@ -883,7 +883,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_expected_value = 0.15
 				research_speed_factor = -0.1
 				stability_weekly = 0.003
 				stability_factor = 0.15
@@ -942,7 +942,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				industrial_capacity_factory = 0.2
 				industrial_capacity_dockyard = 0.2
 				war_support_weekly = 0.005

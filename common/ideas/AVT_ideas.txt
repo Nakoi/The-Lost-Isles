@@ -39,7 +39,7 @@ ideas = {
 				
 			modifier = {
 				surrender_limit = 0.2
-				consumer_goods_factor = 0.2
+				consumer_goods_expected_value = 0.2
                 army_core_defence_factor = 0.1
                 attrition = -0.05
 			}
@@ -54,7 +54,7 @@ ideas = {
 				
 			modifier = {
 				surrender_limit = 0.2
-				consumer_goods_factor = 0.10
+				consumer_goods_expected_value = 0.10
                 army_core_defence_factor = 0.1
 				non_core_manpower = 0.1
                 attrition = -0.1
@@ -69,7 +69,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.10
+				consumer_goods_expected_value = 0.10
 				conscription_factor = -0.6
 				army_attack_factor = 0.4
                 army_defence_factor = 0.4
@@ -86,7 +86,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_expected_value = 0.15
 				conscription_factor = -0.4
 				army_attack_factor = 0.15
                 army_defence_factor = 0.15
@@ -131,7 +131,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
                 industrial_capacity_factory = -0.2
                 industrial_capacity_dockyard = -0.2
                 conscription_factor = -0.1
@@ -269,7 +269,7 @@ ideas = {
 				
 			modifier = {
 				production_speed_buildings_factor = 1
-				consumer_goods_factor = -0.05
+				consumer_goods_expected_value = -0.05
 				political_power_factor = -0.3
 			}
 		}
@@ -282,7 +282,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 			}
 			
 			equipment_bonus = {
@@ -358,7 +358,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_expected_value = 0.15
 			}
 		}
 
@@ -397,7 +397,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				political_power_gain = -0.2
 			}
 		}
@@ -440,7 +440,7 @@ ideas = {
 			modifier = {
 				monthly_population = 0.15
 				conscription_factor = 0.1
-				consumer_goods_factor = 0.03
+				consumer_goods_expected_value = 0.03
 			}
 			
 			research_bonus = {
@@ -622,7 +622,7 @@ ideas = {
 			modifier = {
 				ideology_continuism_drift = -0.1
 				political_power_gain = -0.15
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 			}
 		}
 		
@@ -648,7 +648,7 @@ ideas = {
 			modifier = {
 				ideology_continuism_drift = 0.02
 				political_power_gain = 0.1
-				consumer_goods_factor = -0.05
+				consumer_goods_expected_value = -0.05
 			}
 		}
 		
@@ -662,7 +662,7 @@ ideas = {
 			modifier = {
 				ideology_continuism_drift = 0.05
 				political_power_gain = 0.2
-				consumer_goods_factor = -0.1
+				consumer_goods_expected_value = -0.1
 			}
 		}
 		
@@ -881,7 +881,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 			}
 		}
 		
@@ -893,7 +893,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.2
+				consumer_goods_expected_value = 0.2
 			}
 		}
 		
@@ -905,7 +905,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.2
+				consumer_goods_expected_value = 0.2
 			}
 		}
 		
@@ -917,7 +917,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.2
+				consumer_goods_expected_value = 0.2
 			}
 		}
 		
@@ -971,7 +971,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				stability_weekly = 0.002
 				ideology_solidarism_drift = -0.03
 			}
@@ -985,7 +985,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_expected_value = -0.05
 				stability_weekly = -0.002
 				ideology_solidarism_drift = 0.03
 				industrial_capacity_factory = 0.2
@@ -1079,7 +1079,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = -0.1
+				consumer_goods_expected_value = -0.1
 				production_speed_buildings_factor = 0.3
 				political_power_gain = -0.7
 			}
@@ -1348,7 +1348,7 @@ ideas = {
 			}
 				
 			modifier = {
-				consumer_goods_factor = 0.03
+				consumer_goods_expected_value = 0.03
 			}
 			
 			equipment_bonus = {
