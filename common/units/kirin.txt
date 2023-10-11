@@ -32,9 +32,9 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 25
-		max_organisation = 35
-		default_morale = 0.5
+		max_strength = 20
+		max_organisation = 30
+		default_morale = 0.1
 		manpower = 500
 
 		#Misc Abilities
@@ -77,9 +77,9 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 50
+		max_strength = 40
 		max_organisation = 10
-		default_morale = 0.3
+		default_morale = 0.1
 		manpower = 10
 
 		#Misc Abilities
@@ -87,7 +87,7 @@ sub_units = {
 		suppression = 1
 		weight = 1
 		
-		supply_consumption = 0.02
+		supply_consumption = 0.01
 	
 		need = {
 			replica_equipment = 100
@@ -120,8 +120,8 @@ sub_units = {
 		combat_width = 0
 		
 		#Size Definitions
-		max_strength = 1
-		max_organisation = 10
+		max_strength = 0
+		max_organisation = 15
 		default_morale = 0.05
 		manpower = 25
 
@@ -130,7 +130,7 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.02
+		supply_consumption = 0.1
 	
 		need = {
 			rifle_equipment = 25

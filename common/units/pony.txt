@@ -32,9 +32,9 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 30.0
-		max_organisation = 40
-		default_morale = 0.3
+		max_strength = 20.0
+		max_organisation = 30
+		default_morale = 0.1
 		manpower = 500
 
 		#Misc Abilities
@@ -89,9 +89,9 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 25
-		max_organisation = 35
-		default_morale = 0.4
+		max_strength = 15
+		max_organisation = 25
+		default_morale = 0.1
 		manpower = 500
 
 		#Misc Abilities
@@ -155,15 +155,16 @@ sub_units = {
 		categories = {
 			category_army
 			category_support_battalions
+			category_all_racial_units
 			category_unicorn_support
 		}
 		
 		combat_width = 0
 		
 		#Size Definitions
-		max_strength = 5
+		max_strength = 0
 		max_organisation = 15
-		default_morale = 0.4
+		default_morale = 0.1
 		manpower = 100
 
 		#Misc Abilities
@@ -207,9 +208,9 @@ sub_units = {
 		combat_width = 0
 		
 		#Size Definitions
-		max_strength = 1
+		max_strength = 0
 		max_organisation = 10
-		default_morale = 0.05
+		default_morale = 0.1
 		manpower = 5
 
 		#Misc Abilities
