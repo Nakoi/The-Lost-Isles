@@ -1,230 +1,2900 @@
-# options for map_icon_category:
-# For land units: infantry,armored,other
-# For sea units: ship,transport,uboat
-
-sub_units = {
-
-	juggernauts = {
-		sprite = light_armor
-		map_icon_category = armored
-		
-		priority = 600
-		ai_priority = 200
-		active = no
-
-		type = {
-			armor
-		}
-		
-		group = armor
-		special_forces = yes
-		can_be_parachuted = yes
-		
-		categories = {
-			category_army
-			category_front_line
-			category_tli_all_infantry
-			category_all_racial_units 
-			category_all_racial_infantry
-			category_juggernauts
-		}
-		
-		combat_width = 2
-		
-		#Size Definitions
-		max_strength = 20.0
-		max_organisation = 30
-		default_morale = 0.1
-		manpower = 500
-
-		#Misc Abilities
-		training_time = 50
-		suppression = 1
-		weight = 0.5
-		
-		supply_consumption = 0.01
+technologies = {
 	
-		need = {
-			rifle_equipment = 75
-		}
+	@1918 = 0
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
 
-		hills = {
-			attack = 0.15
-			defence = 0.1
-			movement = 0.3
-		}
-		mountain = {
-			attack = 0.2
-			defence = 0.1
-			movement = 0.6
-		}
-	}
+	pone_race = {
 
+		research_cost = 1
 
-	wind_riders = {
-		sprite = light_armor
-		map_icon_category = armored
-		
-		priority = 600
-		ai_priority = 200
-		active = no
-
-		type = {
-			armor
-		}
-		
-		group = armor
-		special_forces = yes
-		can_be_parachuted = yes
-		
-		categories = {
-			category_army
-			category_front_line
-			category_tli_all_infantry
-			category_all_racial_units 
-			category_all_racial_infantry
-			category_wind_riders
-		}
-		
-		combat_width = 2
-		
-		#Size Definitions
-		max_strength = 15
-		max_organisation = 25
-		default_morale = 0.1
-		manpower = 500
-
-		#Misc Abilities
-		training_time = 50
-		suppression = 1
-		weight = 0.5
-		
-		supply_consumption = 0.01
-	
-		need = {
-			gunlance_equipment = 70
-		}
-
-		forest = {
-			movement = 0.5
-		}
-		hills = {
-			movement = 0.5
-		}
-		mountain = {
-			movement = 1.0
-		}
-		urban = {
-			movement = 0.2
-		}
-		jungle = {
-			movement = 0.5
-		}
-		marsh = {
-			movement = 1.0
-		}
-		desert = {
-			movement = 0.05
-		}
-		river = {
-			defence = 0.3
-			movement = 0.25
-		}
-		amphibious = {
-			defence = 0.7
+		allow = {
+			always = no
 		}
 
 	}
 
-	unicorn_support = {
-		sprite = light_armor
-		map_icon_category = armored
-		
-		priority = 600
-		ai_priority = 200
-		active = no
+	###Earth Pony branch###
 
-		type = {
-			support
-			armor
+	pony_juggernaut = {
+
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+
+		enable_subunits = {
+			juggernauts
+		}
+
+		category_juggernauts = {
+			defense = 0.5
+			armor_value = 10.0
+			hardness = 19.0
 		}
 		
-		group = support
-		can_be_parachuted = yes
+		path = {
+			leads_to_tech = pony_pioneers
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.8
+		start_year = 100
+		folder = {
+			name = pony_folder
+			position = { x = 4 y = 0 }
+		}
 		
 		categories = {
-			category_army
-			category_support_battalions
-			category_all_racial_units
-			category_unicorn_support
+			racial
 		}
 		
-		combat_width = 0
-		
-		#Size Definitions
-		max_strength = 0
-		max_organisation = 15
-		default_morale = 0.1
-		manpower = 100
-
-		#Misc Abilities
-		training_time = 100
-		suppression = 0
-		weight = 0.5
-		
-		supply_consumption = 0.03
-	
-		need = {
-			magical_equipment = 40
+		ai_will_do = {
+			factor = 1
 		}
-
-	}
-
-	pony_mages = {
-		sprite = light_armor
-		map_icon_category = armored
-		
-		priority = 600
-		ai_priority = 200
-		active = no
-
-		type = {
-			armor
-		}
-		
-		group = armor
-		special_forces = yes
-		can_be_parachuted = yes
-		
-		categories = {
-			category_army
-			category_front_line
-			category_tli_all_infantry
-			category_all_racial_units 
-			category_all_racial_infantry
-			category_mages
-		}
-		
-		combat_width = 0
-		
-		#Size Definitions
-		max_strength = 0
-		max_organisation = 10
-		default_morale = 0.1
-		manpower = 5
-
-		#Misc Abilities
-		training_time = 150
-		suppression = 0
-		weight = 0
-		
-		supply_consumption = 0.1
-	
-		need = {
-			magical_equipment = 100
-		}
-
 	}
 
 
+	pony_pioneers = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
+		tli_sapper_company = {
+			max_organisation = 10
+			entrenchment = 5
+		}
+		
+		category_juggernauts = {
+			defense = 0.2
+			supply_consumption_factor = 0.05
+		}
+		
+		path = {
+			leads_to_tech = pony_mountain_training
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.8
+		start_year = 400
+		folder = {
+			name = pony_folder
+			position = { x = 4 y = 2}
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	pony_mountain_training = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
+		category_juggernauts = {
+			supply_consumption_factor = 0.05
+		}
+
+		juggernauts = {
+			hills = {
+				attack = 0.10
+				defence = 0.1
+				movement = 0.1
+			}
+			mountain = {
+				attack = 0.1
+				defence = 0.1
+				movement = 0.2
+			}
+		}
+		
+		
+		path = {
+			leads_to_tech = pony_heaviest_armour
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.8
+		start_year = 800
+		folder = {
+			name = pony_folder
+			position = { x = 4 y = 4}
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+	pony_heaviest_armour = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		category_juggernauts = {
+			max_organisation = 5
+			hardness = 5.0
+			defense = 0.25
+			breakthrough = 0.25
+			armor_value = 20.0
+			supply_consumption_factor = 0.1
+		}
+
+		path = {
+			leads_to_tech = pony_iron_wall
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = pony_sapper_training
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 4 y = 6}
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	pony_iron_wall = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		tli_sapper_company = {
+			max_organisation = 10
+			entrenchment = 2
+		}
+		
+		category_juggernauts = {
+			supply_consumption_factor = 0.1
+			hardness = 3
+			defense = 0.15
+		}
+
+		xor={
+			pony_sapper_training
+		}
+
+		path = {
+			leads_to_tech = pony_crystalline_shielding
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 2 y = 8}
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_sapper_training
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_sapper_training
+			}
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+		}
+	}
+
+
+	pony_crystalline_shielding = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		tli_sapper_company = {
+			entrenchment = 2
+		}
+		
+		category_juggernauts = {
+			hardness = 3
+			defense = 0.15
+			supply_consumption_factor = 0.15
+		}
+
+		
+		path = {
+			leads_to_tech = pony_reinforced_trenches
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 965
+		folder = {
+			name = pony_folder
+			position = { x = 2 y = 10}
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+		}
+	}
+
+	pony_reinforced_trenches = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		tli_sapper_company = {
+			entrenchment = 2
+		}
+		
+		category_juggernauts = {
+			hardness = 3
+			defense = 0.15
+			supply_consumption_factor = 0.15
+		}
+		
+		research_cost = 2.7
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 2 y = 12}
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+		}
+	}
+
+
+	pony_sapper_training = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		category_juggernauts = {
+			supply_consumption_factor = 0.1
+			max_organisation = 3
+			breakthrough = 0.15
+		}
+
+		juggernauts = {
+
+			fort = {
+				attack = 0.15
+			}
+			urban = {
+				attack = 0.15
+			}
+		}
+
+		xor={
+			pony_iron_wall
+		}
+
+		path = {
+			leads_to_tech = pony_dynamite_utilisation
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 6 y = 8}
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_iron_wall
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_iron_wall
+			}
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+		}
+	}
+
+
+	pony_dynamite_utilisation = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		category_juggernauts = {
+			max_organisation = 3
+			hard_attack = 0.25
+			soft_attack = 0.15
+			ap_attack = 0.25 
+			supply_consumption_factor = 0.15
+		}
+		
+		path = {
+			leads_to_tech = pony_the_terex
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 965
+		folder = {
+			name = pony_folder
+			position = { x = 6 y = 10}
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+		}
+	}
+
+
+	pony_the_terex = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		category_juggernauts = {
+			max_organisation = 3
+			supply_consumption_factor = 0.6
+			breakthrough = 0.25
+		}
+
+		juggernauts = {
+
+			fort = {
+				attack = 0.15
+			}
+			urban = {
+				attack = 0.15
+			}
+			hills = {
+				attack = 0.15
+				movement = 0.1
+			}
+			mountain = {
+				attack = 0.15
+				movement = 0.2
+			}
+		}
+		org_loss_when_moving = -0.15
+
+		research_cost = 2.7
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 6 y = 12}
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+		}
+	}
+
+	pony_agricultural_mastery = {
+
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = wheat
+				amount = 1
+			}
+		}
+
+		fuel_gain_from_states = 22
+		monthly_population = 0.25
+		production_speed_synthetic_refinery_factor = 0.20	
+
+		path = {
+			leads_to_tech = pony_magic_construction
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.8
+		start_year = 100
+		folder = {
+			name = pony_folder
+			position = { x = 10 y = 0 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_magic_construction = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
+		production_speed_buildings_factor = 0.25
+		industry_air_damage_factor = -0.2
+
+		path = {
+			leads_to_tech = pony_magic_mining
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.15
+		start_year = 800
+		folder = {
+			name = pony_folder
+			position = { x = 10 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_magic_mining = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		production_speed_infrastructure_factor = 0.15
+		local_resources_factor = 0.15
+
+		path = {
+			leads_to_tech = pony_industrial_talent
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.7
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 10 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+		}
+	}
+
+	pony_industrial_talent = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		production_factory_efficiency_gain_factor = 0.20
+		production_factory_max_efficiency_factor = 0.10
+		production_factory_start_efficiency_factor = 0.10 		
+
+		research_cost = 2.68
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 10 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+		}
+	}
+
+	###Pegasi Branch###
+
+	pony_wind_riders = {
+
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+
+		enable_subunits = {
+			wind_riders
+		}
+
+		enable_equipments = {
+			gunlance_equipment_0
+		}
+
+		category_wind_riders = {
+			maximum_speed = 1.0	
+			air_attack = 9
+		}
+		
+		path = {
+			leads_to_tech = pony_cloud_cover
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.8
+		start_year = 100
+		folder = {
+			name = pony_folder
+			position = { x = 16 y = 0 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_cloud_cover = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
+		category_wind_riders = {
+			max_organisation = -5
+			default_morale = 0.05
+			breakthrough = 0.25
+		}
+		
+		path = {
+			leads_to_tech = pony_infantry_disruption_training
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = pony_anti_armor
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.8
+		start_year = 400
+		folder = {
+			name = pony_folder
+			position = { x = 16 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_infantry_disruption_training = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
+		category_wind_riders = {
+			soft_attack = 0.2
+			supply_consumption_factor = 0.1
+		}
+
+		xor={
+			pony_anti_armor
+		}
+		
+		path = {
+			leads_to_tech = pony_gunlance
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.8
+		start_year = 800
+		folder = {
+			name = pony_folder
+			position = { x = 14 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_anti_armor
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_anti_armor
+			}
+		}
+	}
+
+	pony_anti_armor = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
+		category_wind_riders = {
+			hard_attack = 0.2
+			ap_attack = 0.20 
+			supply_consumption_factor = 0.1
+		}
+
+		xor={
+			pony_infantry_disruption_training
+		}
+		
+		path = {
+			leads_to_tech = pony_gunlance
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.8
+		start_year = 800
+		folder = {
+			name = pony_folder
+			position = { x = 18 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_infantry_disruption_training
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_infantry_disruption_training
+			}
+		}
+	}
+
+	pony_gunlance = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		enable_equipments = {
+			gunlance_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = pony_weaponized_storm_clouds
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = pony_Breech_loaded_gunlance
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.7
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 16 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_weaponized_storm_clouds = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		category_wind_riders = {
+			defense = -0.1
+			soft_attack = 0.2
+			supply_consumption_factor = 0.1
+		}
+
+		path = {
+			leads_to_tech = pony_tornado_strike
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.7
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 16 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+		}
+	}
+
+	pony_tornado_strike = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		category_wind_riders = {
+			defense = -0.2
+			hard_attack = 0.2
+			breakthrough = 0.2
+			supply_consumption_factor = 0.1
+		}
+
+		path = {
+			leads_to_tech = pony_air_skirmishing_training
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = pony_perfected_hit_and_run
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.7
+		start_year = 965
+		folder = {
+			name = pony_folder
+			position = { x = 16 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+		}
+	}
+
+	pony_air_skirmishing_training = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		category_wind_riders = {
+			max_organisation = 10
+			defense = 0.5
+			air_attack = 15
+			supply_consumption_factor = 0.15
+			
+		}
+		
+		xor = {
+			pony_perfected_hit_and_run
+		}
+
+		research_cost = 2.7
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 14 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_perfected_hit_and_run
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_perfected_hit_and_run
+			}
+		}
+	}
+
+	pony_perfected_hit_and_run = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		category_wind_riders = {
+			max_organisation = -5
+			maximum_speed = 1
+			default_morale = 0.15
+			breakthrough = 0.25
+			supply_consumption_factor = 0.15
+			
+		}
+		xor = {
+			pony_air_skirmishing_training
+		}	
+
+		research_cost = 2.7
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 18 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_air_skirmishing_training
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_air_skirmishing_training
+			}
+		}
+	}
+
+	pony_Breech_loaded_gunlance = {
+
+		enable_equipments = {
+			gunlance_equipment_2
+		}
+
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+
+		
+		path = {
+			leads_to_tech = pony_revolving_gunlance
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 2.7
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 20 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+		}
+	}
+
+	pony_revolving_gunlance = {
+
+		enable_equipments = {
+			gunlance_equipment_3
+		}
+
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+
+		research_cost = 3.69
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 20 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+		}
+	}
+
+	pony_aerial_reconaissance = {
+
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+
+		tli_recon_company = {
+			recon = 2
+			initiative = 0.05
+		}
+
+		path = {
+			leads_to_tech = pony_weather_control
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.8
+		start_year = 100
+		folder = {
+			name = pony_folder
+			position = { x = 24 y = 0 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_weather_control = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
+		air_weather_penalty = -0.25
+		attrition = -0.20
+
+		path = {
+			leads_to_tech = pony_home_in_skies
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.8
+		start_year = 800
+		folder = {
+			name = pony_folder
+			position = { x = 24 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_home_in_skies = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		category_air_skirmisher = {
+			air_agility = 0.25
+			air_defence = 0.25
+			maximum_speed = 0.25
+			air_range = 0.25
+		}
+
+		path = {
+			leads_to_tech = pony_artillery_wind
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 24 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+		}
+	}
+
+	pony_artillery_wind = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		category_artillery = {
+			hard_attack = 0.25
+			ap_attack = 0.25 
+		}
+
+		research_cost = 2.7
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 24 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+		}
+	}
+
+
+	pony_magical_equipment = {
+
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+
+		enable_equipments = {
+			magical_equipment_0
+		}
+
+		enable_subunits = {
+			unicorn_support
+		}
+
+		path = {
+			leads_to_tech = pony_arcane_intellect
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_advanced_magical_equipment
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_magic_unleashed
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.8
+		start_year = 100
+		folder = {
+			name = pony_folder
+			position = { x = 36 y = 0 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_arcane_intellect = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
+		category_unicorn_support = {
+			max_organisation = 5
+			default_morale = 0.1
+		}
+
+		unicorn_support = {
+			training_time = -5
+		}
+
+		path = {
+			leads_to_tech = pony_magic_missile
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_magic_beam
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.8
+		start_year = 400
+		folder = {
+			name = pony_folder
+			position = { x = 30 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_magic_missile = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
+		category_unicorn_support = {
+			soft_attack = 0.25
+			breakthrough = 0.50
+		}
+
+		xor={
+			pony_magic_beam
+		}
+
+		path = {
+			leads_to_tech = pony_flicker
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_bubble_shield
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.8
+		start_year = 800
+		folder = {
+			name = pony_folder
+			position = { x = 28 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_magic_beam
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_magic_beam
+			}
+		}
+	}
+
+	pony_magic_beam = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_primitive = 1
+		}
+		
+		category_unicorn_support = {
+			hard_attack = 0.15
+			ap_attack = 0.25
+		}
+
+		xor={
+			pony_magic_missile
+		}
+
+		path = {
+			leads_to_tech = pony_flicker
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_bubble_shield
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.8
+		start_year = 800
+		folder = {
+			name = pony_folder
+			position = { x = 32 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_magic_missile
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_magic_missile
+			}
+		}
+	}
+
+	pony_flicker = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		category_unicorn_support = {
+			defense = 3.0
+			default_morale = 0.2
+		}
+
+		xor={
+			pony_bubble_shield
+		}
+
+		path = {
+			leads_to_tech = pony_blinding_beam
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_healing_magic
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 28 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_bubble_shield
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_bubble_shield
+			}
+		}
+	}
+
+	pony_bubble_shield = {
+
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		category_unicorn_support = {
+			hardness = 4.0
+			armor_value = 10.0
+		}
+
+		xor={
+			pony_flicker
+		}
+
+		path = {
+			leads_to_tech = pony_blinding_beam
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_healing_magic
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 32 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_flicker
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_flicker
+			}
+		}
+	}
+
+	pony_blinding_beam = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		category_unicorn_support = {
+			soft_attack = 0.15
+			breakthrough = 0.5
+		}
+
+		xor={
+			pony_healing_magic
+		}
+
+		path = {
+			leads_to_tech = pony_magnetize_ray
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_combat_telekinesis
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 28 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_healing_magic
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_healing_magic
+			}
+		}
+	}
+
+	pony_healing_magic = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		category_unicorn_support = {
+			max_strength = 1
+			casualty_trickleback = 0.1
+		}
+
+		xor={
+			pony_blinding_beam
+		}
+
+		path = {
+			leads_to_tech = pony_magnetize_ray
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_combat_telekinesis
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 32 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_blinding_beam
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_blinding_beam
+			}
+		}
+	}
+
+	pony_magnetize_ray = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		category_unicorn_support = {
+			soft_attack = 0.1
+			hard_attack = 0.2
+		}
+
+		xor={
+			pony_combat_telekinesis
+		}
+
+		path = {
+			leads_to_tech = pony_teleportation
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_magical_mine
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 965
+		folder = {
+			name = pony_folder
+			position = { x = 28 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_combat_telekinesis
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_combat_telekinesis
+			}
+		}
+	}
+
+	pony_combat_telekinesis = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		category_unicorn_support = {
+			defense = 0.5
+			max_organisation = 5
+		}
+
+		xor={
+			pony_magnetize_ray
+		}
+
+		path = {
+			leads_to_tech = pony_teleportation
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_magical_mine
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 965
+		folder = {
+			name = pony_folder
+			position = { x = 32 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_magnetize_ray
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_magnetize_ray
+			}
+		}
+	}
+
+	pony_teleportation = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		category_unicorn_support = {
+			maximum_speed = 1.0
+			recon = 2
+		}
+
+		xor={
+			pony_magical_mine
+		}
+
+		research_cost = 2.7
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 28 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_magical_mine
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_magical_mine
+			}
+		}
+	}
+
+	pony_magical_mine = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		category_unicorn_support = {
+			default_morale = 0.2
+			defense = 1
+			entrenchment  = 5
+		}
+
+		xor={
+			pony_teleportation
+		}
+
+		research_cost = 2.7
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 32 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_teleportation
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_teleportation
+			}
+		}
+	}
+
+	pony_advanced_magical_equipment = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+		}
+		
+		enable_equipments = {
+			magical_equipment_1
+		}
+
+		path = {
+			leads_to_tech = pony_modern_magical_equipment
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_naval_magic
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 36 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_modern_magical_equipment = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_industrialized = 1
+		}
+		
+		enable_equipments = {
+			magical_equipment_2
+		}
+
+		research_cost = 2.7
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 36 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+		}
+	}
+
+	pony_naval_magic = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+			medium_ship_tech_2 = 1
+			heavy_ship_tech_2 = 1
+		}
+		
+		path = {
+			leads_to_tech = pony_advanced_naval_magic
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		enable_equipment_modules = { 
+			light_planking_pony_1
+			heavy_planking_pony_1
+		}
+
+		research_cost = 1.2
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 34 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_advanced_naval_magic = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+			medium_ship_tech_3 = 1
+			heavy_ship_tech_3 = 1
+		}
+		
+		path = {
+			leads_to_tech = pony_modern_naval_magic
+			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = { 
+			light_planking_pony_2
+			heavy_planking_pony_2
+		}
+
+		research_cost = 1.2
+		start_year = 965
+		folder = {
+			name = pony_folder
+			position = { x = 34 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+		}
+	}
+
+	pony_modern_naval_magic = {
+		
+		dependencies = {
+			pone_race = 1
+            tech_civilized = 1
+			medium_ship_tech_4 = 1
+			heavy_ship_tech_4 = 1
+		}
+		
+		enable_equipment_modules = { 
+			light_planking_pony_3
+			heavy_planking_pony_3
+		}
+
+		research_cost = 1.2
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 34 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+		}
+	}
+
+	pony_magic_unleashed = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_primitive = 1
+            pony_magic_unleashed = 1
+		}
+		
+		enable_subunits = {
+			pony_mages
+		}
+
+		path = {
+			leads_to_tech = pony_abjuration
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_pyrokinesis
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_witchcraft
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.7
+		start_year = 400
+		folder = {
+			name = pony_folder
+			position = { x = 44 y = 2 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_abjuration = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_primitive = 1
+		}
+		
+		category_mages = {
+			breakthrough = 1.0
+			defense = 5.0
+			hardness = 14.0
+			armor_value = 25.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_illusion
+			research_cost_coeff = 1
+		}
+
+		xor={
+			pony_pyrokinesis
+		}
+		xor={
+			pony_witchcraft
+		}
+
+		research_cost = 2.7
+		start_year = 800
+		folder = {
+			name = pony_folder
+			position = { x = 40 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_pyrokinesis
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_pyrokinesis
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_witchcraft
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_witchcraft
+			}
+		}
+	}
+
+	pony_illusion = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
+		category_mages = {
+			breakthrough = 8.0
+			defense = 4.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_vivomancy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 40 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_vivomancy = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
+		category_mages = {
+			defense = 2.0
+			max_strength = 15.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_negation
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 40 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+		}
+	}
+
+	pony_negation = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
+		category_mages = {
+		soft_attack = 0.5
+		hard_attack = 0.5
+		ap_attack = 1.0
+		supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_chronomancy 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 965
+		folder = {
+			name = pony_folder
+			position = { x = 40 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+		}
+	}
+
+	pony_chronomancy = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
+		category_mages = {
+			initiative = 0.5
+			maximum_speed = 2.0
+			default_morale = 1
+			supply_consumption_factor = 0.15
+		}
+
+		research_cost = 3.6
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 40 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+		}
+	}
+
+	pony_pyrokinesis = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_primitive = 1
+		}
+		
+		category_mages = {
+			soft_attack = 1.5
+			hard_attack = 0.5
+			breakthrough = 9.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_hydrosphy
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pony_hydrosphy_MTG
+			research_cost_coeff = 1
+		}
+
+		xor={
+			pony_abjuration
+		}
+		xor={
+			pony_witchcraft
+		}
+		
+		research_cost = 2.7
+		start_year = 800
+		folder = {
+			name = pony_folder
+			position = { x = 44 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_abjuration
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_abjuration
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_witchcraft
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_witchcraft
+			}
+		}
+	}
+
+	pony_hydrosphy = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
+		category_mages = {
+			supply_consumption_factor = 0.15
+		}
+
+		pony_mages = {
+			marsh = {
+				attack = 0.5
+				movement = 0.5
+			}
+			river = {
+				attack = 0.5
+				movement = 0.5
+			}
+			amphibious = {
+				attack = 0.8
+			}
+		}
+
+		naval_speed_factor = 0.15
+
+		path = {
+			leads_to_tech = pony_geomancy
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			NOT = { has_dlc = "Man the Guns" }
+		}
+		
+		research_cost = 3.6
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 44 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_hydrosphy_MTG = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
+		category_mages = {
+			supply_consumption_factor = 0.15
+		}
+
+		pony_mages = {
+			marsh = {
+				attack = 0.5
+				movement = 0.5
+			}
+			river = {
+				attack = 0.5
+				movement = 0.5
+			}
+			amphibious = {
+				attack = 0.8
+			}
+		}
+
+		enable_equipment_modules = { 
+			navigation_equipment_pony_1
+		}
+
+		path = {
+			leads_to_tech = pony_geomancy_MTG
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 3.6
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 44 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_geomancy_MTG = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
+		category_mages = {
+			defense = 7.0
+			hardness = 4.0
+			armor_value = 10.0
+			ap_attack = 1.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_aerotheurgy_MTG
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 44 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+		}
+	}
+
+	pony_aerotheurgy_MTG = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
+		category_mages = {
+			ap_attack = 3.0
+			breakthrough = 1.0
+			soft_attack = 0.5
+			hard_attack = 1.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_conjuration_MTG
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 965
+		folder = {
+			name = pony_folder
+			position = { x = 44 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+		}
+	}
+
+	pony_conjuration_MTG = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
+		category_mages = {
+			combat_width = 1.0
+			breakthrough = 3.0
+			hard_attack = 1.5
+			ap_attack = 0.5
+			supply_consumption_factor = 0.15
+		}
+
+		research_cost = 3.6
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 44 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+		}
+	}
+
+	pony_geomancy = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
+		category_mages = {
+			defense = 7.0
+			hardness = 4.0
+			armor_value = 10.0
+			ap_attack = 1.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_aerotheurgy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 44 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+		}
+	}
+
+	pony_aerotheurgy = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
+		category_mages = {
+			ap_attack = 3.0
+			breakthrough = 1.0
+			soft_attack = 0.5
+			hard_attack = 1.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_conjuration
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 965
+		folder = {
+			name = pony_folder
+			position = { x = 44 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+		}
+	}
+
+	pony_conjuration = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
+		category_mages = {
+			combat_width = 1.0
+			breakthrough = 3.0
+			hard_attack = 1.5
+			ap_attack = 0.5
+			supply_consumption_factor = 0.15
+		}
+
+		research_cost = 3.6
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 44 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+		}
+	}
+
+	pony_witchcraft = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_primitive = 1
+		}
+		
+		category_mages = {
+			soft_attack = 1.5
+			max_organisation = 20
+			ap_attack = 1.5
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_mindbending
+			research_cost_coeff = 1
+		}
+
+		xor={
+			pony_pyrokinesis
+		}
+		xor={
+			pony_abjuration
+		}
+		
+		research_cost = 2.7
+		start_year = 800
+		folder = {
+			name = pony_folder
+			position = { x = 48 y = 4 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_pyrokinesis
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_pyrokinesis
+			}
+			
+			modifier = {
+				factor = -1000
+				has_tech = pony_abjuration
+			}
+			
+			modifier = {
+				factor = -1000
+				is_researching_technology = pony_abjuration
+			}
+		}
+	}
+
+	pony_mindbending = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
+		category_mages = {
+			breakthrough = 7.0
+			maximum_speed = 0.5
+			ap_attack = 2.0
+			supply_consumption_factor = 0.15
+		}
+		
+		pony_mages = {
+			equipment_capture_factor = 0.10
+		}
+
+		path = {
+			leads_to_tech = pony_necromancy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 957
+		folder = {
+			name = pony_folder
+			position = { x = 48 y = 6 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pony_necromancy = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_civilized = 1
+		}
+		
+		category_mages = {
+			defense = 6.0
+			max_strength = 10
+			breakthrough = 2.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_flebotomy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 961
+		folder = {
+			name = pony_folder
+			position = { x = 48 y = 8 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "961.1.1"
+			}
+		}
+	}
+
+	pony_flebotomy = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
+		category_mages = {
+			defense = 2.0
+			ap_attack = 1.0
+			hard_attack = 1.0
+			armor_value = 15.0
+			hardness = 5.0
+			supply_consumption_factor = 0.15
+		}
+
+		path = {
+			leads_to_tech = pony_malignancy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3.6
+		start_year = 965
+		folder = {
+			name = pony_folder
+			position = { x = 48 y = 10 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "965.1.1"
+			}
+		}
+	}
+
+	pony_malignancy = {
+		
+		dependencies = {
+			pone_race = 1
+			tech_industrialized = 1
+		}
+		
+		category_mages = {
+			ap_attack = 1.0
+			soft_attack = 1.0
+			hard_attack = 1.0
+			supply_consumption_factor = 0.15
+		}
+
+		research_cost = 3.6
+		start_year = 969
+		folder = {
+			name = pony_folder
+			position = { x = 48 y = 12 }
+		}
+		
+		categories = {
+			racial
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = -1000
+				date < "969.1.1"
+			}
+		}
+	}
 }
