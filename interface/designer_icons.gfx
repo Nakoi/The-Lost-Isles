@@ -177,6 +177,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/designer/financial_company.dds"	
 	}
 
+	SpriteType = {
+		name = "GFX_idea_designer_trains_industrial"
+		texturefile = "gfx/interface/ideas/designer/designer_train_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_science_industrial"
+		texturefile = "gfx/interface/ideas/designer/designer_sience_company.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_designer_engine_industrial"
+		texturefile = "gfx/interface/ideas/designer/truck_manufacturer.dds"	
+	}
+
 
 
 }
