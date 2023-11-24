@@ -1601,7 +1601,7 @@ technologies = {
 
         category_armored_infantry  = {
             armor_value = 9
-            breakthrough = 1
+            breakthrough = 0.25
             defense = 0.1
             hardness = 19
 			maximum_speed = -0.33
@@ -1615,12 +1615,12 @@ technologies = {
         
         category_elite_infantry = {
             armor_value = 5
-            breakthrough = 0.25
+			hardness = 4
         }
 		
 		category_all_racial_infantry = {
             armor_value = 5
-            breakthrough = 0.25
+			hardness = 4
         }
     }
 
@@ -1671,8 +1671,6 @@ technologies = {
 		
         category_armored_infantry = {
             armor_value = 5
-            breakthrough = 0.25
-            defense = 0.05
             hardness = 3
         }
         category_tli_all_infantry = {
@@ -1681,10 +1679,12 @@ technologies = {
         }
         category_elite_infantry = {
             armor_value = 3
+			hardness = 2.5
         }
 		
 		category_all_racial_infantry = {
             armor_value = 3
+			hardness = 2.5
         }
     }
 
@@ -1735,8 +1735,6 @@ technologies = {
 
         category_armored_infantry = {
             armor_value = 5
-            breakthrough = 0.25
-            defense = 0.05
             hardness = 3
         }
         category_tli_all_infantry = {
@@ -1745,10 +1743,12 @@ technologies = {
         }
         category_elite_infantry = {
             armor_value = 3
+			hardness = 2.5
         }
 		
 		category_all_racial_infantry = {
             armor_value = 3
+			hardness = 2.5
         }
     }
 
@@ -1799,8 +1799,6 @@ technologies = {
 
         category_armored_infantry = {
             armor_value = 6
-            breakthrough = 0.5
-            defense = 0.05
             hardness = 3
         }
         category_tli_all_infantry = {
@@ -1809,10 +1807,12 @@ technologies = {
         }
         category_elite_infantry = {
             armor_value = 3
+			hardness = 2.5
         }
 		
 		category_all_racial_infantry = {
             armor_value = 3
+			hardness = 2.5
         }
     }
 
@@ -1858,8 +1858,6 @@ technologies = {
 
         category_armored_infantry = {
             armor_value = 6
-            breakthrough = 0.5
-            defense = 0.05
             hardness = 3
         }
         category_tli_all_infantry = {
@@ -1868,9 +1866,11 @@ technologies = {
         }
         category_elite_infantry = {
             armor_value = 3
+			hardness = 2.5
         }
 		category_all_racial_infantry = {
             armor_value = 3
+			hardness = 2.5
         }
     }
 
@@ -1934,15 +1934,11 @@ technologies = {
         }
         category_elite_infantry = {
             armor_value = 10
-            breakthrough = 0.5
             hardness = 9
-            defense = 0.1
         }
 		category_all_racial_infantry = {
             armor_value = 10
-            breakthrough = 0.5
             hardness = 9
-            defense = 0.1
         }
     }
 
@@ -1997,15 +1993,11 @@ technologies = {
         }
         category_elite_infantry = {
             armor_value = 7
-            breakthrough = 0.2
-            hardness = 2.5
-            defense = 0.05
+            hardness = 5
         }
 		category_all_racial_infantry = {
             armor_value = 7
-            breakthrough = 0.2
-            hardness = 2.5
-            defense = 0.05
+            hardness = 5
         }
     }
 
@@ -2060,15 +2052,11 @@ technologies = {
         }
         category_elite_infantry = {
             armor_value = 7
-            breakthrough = 0.2
-            hardness = 2.5
-            defense = 0.05
+            hardness = 5
         }
 		category_all_racial_infantry = {
             armor_value = 7
-            breakthrough = 0.2
-            hardness = 2.5
-            defense = 0.05
+            hardness = 5
         }
     }
 
@@ -2120,8 +2108,14 @@ technologies = {
         category_tli_all_infantry = {
             defense = 0.2
             breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 7
             hardness = 5
-            armor_value = 4
+        }
+		category_all_racial_infantry = {
+            armor_value = 7
+            hardness = 5
         }
     }
 
@@ -2166,10 +2160,16 @@ technologies = {
         #}
 
         category_tli_all_infantry = {
-            defense = 0.25
-            breakthrough = 0.25
+            defense = 0.2
+            breakthrough = 0.2
+        }
+        category_elite_infantry = {
+            armor_value = 7
             hardness = 5
-            armor_value = 5
+        }
+		category_all_racial_infantry = {
+            armor_value = 7
+            hardness = 5
         }
     }
 #Special Forces Tree
