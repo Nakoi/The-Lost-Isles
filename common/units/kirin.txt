@@ -32,8 +32,8 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 20
-		max_organisation = 30
+		max_strength = 15
+		max_organisation = 25
 		default_morale = 0.1
 		manpower = 500
 
@@ -77,8 +77,8 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 40
-		max_organisation = 10
+		max_strength = 30
+		max_organisation = 40
 		default_morale = 0.1
 		manpower = 10
 
@@ -122,7 +122,7 @@ sub_units = {
 		#Size Definitions
 		max_strength = 0
 		max_organisation = 15
-		default_morale = 0.05
+		default_morale = 0.1
 		manpower = 25
 
 		#Misc Abilities
@@ -130,7 +130,9 @@ sub_units = {
 		suppression = 0
 		weight = 0.05
 		
-		supply_consumption = 0.1
+		supply_consumption = -0.1
+		supply_consumption_factor = -0.1
+		fuel_consumption_factor -0.05
 	
 		need = {
 			rifle_equipment = 25
