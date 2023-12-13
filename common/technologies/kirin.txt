@@ -37,10 +37,10 @@ technologies = {
 			shock_equipment_0
 		}
 
-		category_vanguards = {
-			soft_attack = 0.25
-			breakthrough = 0.25
-		}
+		#category_vanguards = {
+			#breakthrough = 0.25
+			#defense = -0.15
+		#}
 
 		path = {
 			leads_to_tech = kirin_soul_mind
@@ -71,8 +71,8 @@ technologies = {
 		}
 
 		category_vanguards = {
-			max_organisation = 5
-			default_morale = 0.25
+			max_organisation = -5
+			default_morale = 0.1
 		}
 
 		path = {
@@ -114,7 +114,7 @@ technologies = {
 
 		category_vanguards = {
 			maximum_speed = 0.35
-			soft_attack = 0.1
+			max_organisation = -5
 		}
 
 		path = {
@@ -157,8 +157,8 @@ technologies = {
 		}
 
 		category_vanguards = {
-			max_strength = 0.25
 			breakthrough = 0.25
+			max_strength = -0.33
 		}
 
 		xor={
@@ -252,8 +252,9 @@ technologies = {
 		}
 
 		category_vanguards = {
-			soft_attack = 0.15
-			ap_attack = 0.2
+			soft_attack = 0.1
+			hard_attack = 5
+			ap_attack = 10
 			supply_consumption_factor = 0.1
 		}
 
@@ -312,7 +313,7 @@ technologies = {
 
 		category_vanguards = {
 			breakthrough = 0.25
-			default_morale = 0.1
+			default_morale = -0.05
 		}
 
 		path = {
@@ -369,8 +370,8 @@ technologies = {
 		}
 
 		category_vanguards = {
-			defense = -0.15
-			soft_attack = 0.2
+			defense = -0.60
+			soft_attack = 0.15
 		}
 
 		path = {
@@ -422,7 +423,8 @@ technologies = {
 
 		category_vanguards = {
 			max_strength = 0.25
-			defense = 0.5
+			defense = 0.2
+			default_morale = -0.05
 		}
 
 		path = {
@@ -469,10 +471,10 @@ technologies = {
 		}
 
 		category_vanguards = {
-			defense = -0.2
-			soft_attack = 0.25
-			hard_attack = 0.25
-			ap_attack = 0.25
+			defense = -0.40
+			soft_attack = 0.1
+			hard_attack = 3
+			ap_attack = 5
 		}
 
 		research_cost = 2.7
@@ -678,7 +680,6 @@ technologies = {
 		experience_loss_factor = 0.2
 
 		category_army = {
-			max_organisation = 10
 			breakthrough = 0.15
 		}
 
@@ -968,8 +969,8 @@ technologies = {
 		}
 		
 		category_replicas = {
-			defense = 0.1
-			breakthrough = 0.1
+			defense = 0.15
+			breakthrough = 0.15
 		}
 		
 		xor = { 
@@ -1077,7 +1078,7 @@ technologies = {
 
 		category_replicas = {
 			max_strength = 0.25
-			default_morale = 0.5
+			default_morale = 0.05
 		}
 
 		path = {
@@ -1182,8 +1183,8 @@ technologies = {
 		}
 
 		category_replicas = {
-			hard_attack = 0.15
-			ap_attack = 0.15
+			hard_attack = 0.25
+			ap_attack = 0.1
 		}
 
 		path = {
@@ -1220,8 +1221,8 @@ technologies = {
 		}
 
 		category_replicas = {
-			max_organisation = 10
-			defense = 0.1
+			max_organisation = -10
+			defense = 1.5
 			reliability = 0.1
 		}
 
@@ -1715,7 +1716,7 @@ technologies = {
 		}
 
 		category_tranquils = {
-			max_organisation = 30
+			max_organisation = 50
 		}
 
 		path = {
@@ -1753,7 +1754,7 @@ technologies = {
 
 		category_tranquils = {
 			entrenchment = 5
-			defense = 0.2
+			defense = 0.25
 		}
 
 		xor = {
@@ -1846,7 +1847,7 @@ technologies = {
 		}
 
 		category_tranquils = {
-			breakthrough = 0.2
+			breakthrough = 1
 			entrenchment = 2
 		}
 
