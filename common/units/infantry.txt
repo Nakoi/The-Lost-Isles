@@ -208,7 +208,7 @@ sub_units = {
 		suppression = 1
 		weight = 0.5
 
-		supply_consumption = 0.01
+		supply_consumption = 0.04
 	
 		need = {
 			rifle_equipment = 80
@@ -792,7 +792,7 @@ sub_units = {
 		#armor piercing
 		#hardness = 14
 
-		supply_consumption = 0.01
+		supply_consumption = 0.04
 	
 		need = {
 			rifle_equipment = 70
@@ -869,7 +869,7 @@ sub_units = {
 		#armor piercing
 		#hardness = 14
 
-		supply_consumption = 0.01
+		supply_consumption = 0.04
 	
 		need = {
 			rifle_equipment = 70
@@ -949,7 +949,7 @@ sub_units = {
 		#defense = 0.25
         #breakthrough = 0.25
 
-		supply_consumption = 0.01
+		supply_consumption = 0.04
 	
 		need = {
 			rifle_equipment = 70
@@ -1211,7 +1211,7 @@ sub_units = {
 		max_strength = 0
 		weight = 0.25
 		combat_width = 3
-		supply_consumption = 0.05
+		supply_consumption = 0.12
 
 		forest = {
 			attack = -0.2
@@ -1362,7 +1362,7 @@ sub_units = {
 		max_strength = 0
 		weight = 0.25
 		combat_width = 3
-		supply_consumption = 0.05
+		supply_consumption = 0.12
 
 		forest = {
 			attack = -0.2
@@ -1521,7 +1521,7 @@ sub_units = {
 		max_strength = 0
 		weight = 0.05
 		
-		supply_consumption = 0.03
+		supply_consumption = 0.01
 
 		# Support nerfs to combat abilities
 		defense = -0.4
@@ -1569,7 +1569,7 @@ sub_units = {
 		max_strength = 0
 		weight = 0.05
 		
-		supply_consumption = 0.03
+		supply_consumption = 0.01
 
 		# Support nerfs to combat abilities
 		defense = -0.4
@@ -1617,7 +1617,7 @@ sub_units = {
 		max_strength = 0
 		weight = 0.05
 		
-		supply_consumption = 0.03
+		supply_consumption = 0.01
 
 		# Support nerfs to combat abilities
 		defense = -0.4
@@ -1664,7 +1664,7 @@ sub_units = {
 		max_strength = 0
 		weight = 0.05
 		
-		supply_consumption = 0.03
+		supply_consumption = 0.01
 
 		# Support nerfs to combat abilities
 		defense = -0.4
@@ -1711,7 +1711,7 @@ sub_units = {
 		max_strength = 0
 		weight = 0.05
 		
-		supply_consumption = 0.03
+		supply_consumption = 0.01
 
 		# Support nerfs to combat abilities
 		defense = -0.4
