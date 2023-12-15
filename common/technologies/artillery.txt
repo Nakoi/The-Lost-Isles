@@ -115,7 +115,11 @@ technologies = {
 			ship_light_gun
 			ship_heavy_gun
 		}
-	
+		
+		category_medium_artillery = {
+			supply_consumption = 0.05
+		}
+		
 		path = {
 			leads_to_tech = standard_charges
 			research_cost_coeff = 1
@@ -163,7 +167,6 @@ technologies = {
 		category_medium_artillery = {
 			hard_attack = 0.10
 			ap_attack = 0.10
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -211,7 +214,6 @@ technologies = {
 
 		category_medium_artillery = {
 			soft_attack = 0.10
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -255,7 +257,6 @@ technologies = {
 		category_medium_artillery = {
 			hard_attack = 0.15
 			ap_attack = 0.15
-			supply_consumption = 0.02
 		}
 
 		path = {
@@ -298,7 +299,11 @@ technologies = {
 		enable_equipments = {
 			cannon_equipment_3
 		}
-	
+		
+		category_medium_artillery = {
+			supply_consumption = 0.05
+		}
+		
 		path = {
 			leads_to_tech = conical_shells
 			research_cost_coeff = 1
@@ -340,7 +345,6 @@ technologies = {
 		category_medium_artillery = {
 			hard_attack = 0.15
 			ap_attack = 0.15
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -383,7 +387,6 @@ technologies = {
 
 		category_medium_artillery = {
 			soft_attack = 0.20
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -427,7 +430,6 @@ technologies = {
 		category_medium_artillery = {
 			hard_attack = 0.20
 			ap_attack = 0.20
-			supply_consumption = 0.02
 		}
 
 		path = {
@@ -472,6 +474,10 @@ technologies = {
 			cannon_equipment_4
 		}
 		
+		category_medium_artillery = {
+			supply_consumption = 0.05
+		}
+		
 		dependencies = {
             tech_industrialized = 1
         }
@@ -510,7 +516,11 @@ technologies = {
 		enable_equipments = {
 			ballista_equipment_2
 		}
-
+		
+		category_anti_air = {
+			supply_consumption = 0.07
+		}
+		
 		path = {
 			leads_to_tech = crystal_gunpowder_mixture
 			research_cost_coeff = 1
@@ -552,7 +562,6 @@ technologies = {
 		category_anti_air = {
 			air_attack = 0.10
 			hard_attack = 0.10
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -595,7 +604,6 @@ technologies = {
 
 		category_anti_air = {
 			air_attack = 0.15
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -639,7 +647,6 @@ technologies = {
 		category_anti_air = {
 			hard_attack = 0.20
 			ap_attack = 0.20
-			supply_consumption = 0.02
 		}
 
 		path = {
@@ -683,7 +690,11 @@ technologies = {
 		enable_equipments = {
 			ballista_equipment_3
 		}
-
+		
+		category_anti_air = {
+			supply_consumption = 0.07
+		}
+		
 		path = {
 			leads_to_tech = brass_cartridges
 			research_cost_coeff = 1
@@ -724,7 +735,6 @@ technologies = {
 
 		category_anti_air = {
 			air_attack = 0.20
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -767,7 +777,6 @@ technologies = {
 
 		category_anti_air = {
 			air_attack = 0.25
-			supply_consumption = 0.03
 		}
 		
 		dependencies = {
@@ -808,7 +817,7 @@ technologies = {
 		enable_equipments = {
 			rocket_equipment_1
 		}
-
+		
 		enable_subunits = {
 			rocket_frontline
 			rocket_support
@@ -854,8 +863,6 @@ technologies = {
 
 		category_rocket = {
 			soft_attack = 0.10
-			entrenchment = 1
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -898,7 +905,6 @@ technologies = {
 
 		category_rocket = {
 			defense = 0.15
-			supply_consumption = 0.02
 		}
 
 		path = {
@@ -941,8 +947,6 @@ technologies = {
 
 		category_rocket = {
 			soft_attack = 0.20
-			entrenchment = 1
-			supply_consumption = 0.02
 		}
 
 		path = {
@@ -986,7 +990,11 @@ technologies = {
 		enable_equipments = {
 			rocket_equipment_2
 		}
-
+		
+		category_rocket = {
+			supply_consumption = 0.10
+		}
+		
 		path = {
 			leads_to_tech = modern_rockets
 			research_cost_coeff = 1
@@ -1027,8 +1035,6 @@ technologies = {
 
 		category_rocket = {
 			defense = 0.20
-			entrenchment = 1
-			supply_consumption = 0.03
 		}
 		
 		dependencies = {
@@ -1069,7 +1075,11 @@ technologies = {
 		enable_equipments = {
 			mortar_equipment_1
 		}
-
+		
+		category_siege_artillery = {
+			supply_consumption = 0.07
+		}
+		
 		path = {
 			leads_to_tech = elevation_screws
 			research_cost_coeff = 1
@@ -1110,7 +1120,6 @@ technologies = {
 
 		category_siege_artillery = {
 			soft_attack = 0.15
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -1159,7 +1168,6 @@ technologies = {
 		category_siege_artillery = {
 			soft_attack = 0.15
 			ap_attack = 0.10
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -1202,7 +1210,6 @@ technologies = {
 
 		category_siege_artillery = {
 			breakthrough = 0.25
-			supply_consumption = 0.02
 		}
 		mortar_frontline = {
 			fort = {
@@ -1254,7 +1261,11 @@ technologies = {
 		enable_equipments = {
 			mortar_equipment_2
 		}
-
+		
+		category_siege_artillery = {
+			supply_consumption = 0.07
+		}
+		
 		path = {
 			leads_to_tech = mortar_weight_reduction
 			research_cost_coeff = 1
@@ -1295,7 +1306,6 @@ technologies = {
 
 		category_siege_artillery = {
 			soft_attack = 0.15
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -1339,7 +1349,6 @@ technologies = {
 		category_siege_artillery = {
 			soft_attack = 0.20
 			ap_attack = 0.10
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -1382,7 +1391,6 @@ technologies = {
 
 		category_siege_artillery = {
 			breakthrough = 0.25
-			supply_consumption = 0.02
 		}
 		mortar_frontline = {
 			fort = {
@@ -1477,7 +1485,6 @@ technologies = {
 
 		category_howitzer = {
 			soft_attack = 0.15
-			supply_consumption = 0.01
 		}
 
 		path = {
@@ -1520,7 +1527,6 @@ technologies = {
 
 		category_howitzer = {
 			soft_attack = 0.20
-			supply_consumption = 0.02
 		}
 
 		path = {
@@ -1563,7 +1569,6 @@ technologies = {
 
 		category_howitzer = {
 			soft_attack = 0.20
-			supply_consumption = 0.02
 		}
 
 		path = {
@@ -1607,7 +1612,11 @@ technologies = {
 		enable_equipments = {
 			howitzer_equipment_2
 		}
-
+		
+		category_howitzer = {
+			supply_consumption = 0.10
+		}
+		
 		path = {
 			leads_to_tech = recoil_management
 			research_cost_coeff = 1
@@ -1648,7 +1657,6 @@ technologies = {
 
 		category_howitzer = {
 			soft_attack = 0.20
-			supply_consumption = 0.03
 		}
 		
 		dependencies = {
@@ -1735,7 +1743,7 @@ technologies = {
 		category_light_artillery = {
 			soft_attack = 0.20
 			hard_attack = 0.20
-			supply_consumption = 0.02
+			supply_consumption = 0.03
 		}
 
 		path = {
@@ -1780,6 +1788,10 @@ technologies = {
 			fuckshit_one_2
 		}
 		
+		category_light_artillery = {
+			supply_consumption = 0.06
+		}
+		
 		path = {
 			leads_to_tech = light_artillery_upgrade_2
 			research_cost_coeff = 1
@@ -1821,7 +1833,7 @@ technologies = {
 		category_light_artillery = {
 			soft_attack = 0.30
 			hard_attack = 0.30
-			supply_consumption = 0.02
+			supply_consumption = 0.03
 		}
 		
 		dependencies = {

@@ -245,7 +245,8 @@ technologies = {
 	tech_engineers4 = {
 
 		tli_sapper_company = {
-			entrenchment  = 6
+			entrenchment = 6
+			supply_consumption = 0.05
 		}
 
 		path = {
@@ -528,6 +529,7 @@ technologies = {
 
 		tli_recon_company = {
 			recon = 2
+			supply_consumption = 0.05
 		}
 
 		path = {
@@ -730,6 +732,7 @@ technologies = {
 		tli_maintenance_company = {
 			reliability_factor = 0.075
 			equipment_capture_factor = 0.075
+			supply_consumption = 0.05
 		}
 
 		path = {
@@ -937,6 +940,7 @@ technologies = {
 			suppression_factor = 0.2
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
+			supply_consumption = 0.05
 		}
 
 		path = {
@@ -1102,6 +1106,7 @@ technologies = {
 		tli_field_hospital_company = {
 			casualty_trickleback = 0.05
 			experience_loss_factor = -0.05
+			supply_consumption = 0.05
 		}
 		
 		path = {
