@@ -127,3 +127,31 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
+	division = {
+		name = "14. Infanteri Brigade"
+		location = 5076
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "15. Infanteri Brigade"
+		location = 5033
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "16. Infanteri Brigade"
+		location = 4974
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "17. Infanteri Brigade"
+		location = 2148
+		division_template = "Infanteri Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}

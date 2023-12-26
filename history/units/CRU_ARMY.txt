@@ -23,6 +23,29 @@ division_template = {
 		ranged_infantry = { x = 1 y = 0 }
 		ranged_infantry = { x = 1 y = 1 }
 		ranged_infantry = { x = 1 y = 2 }
+		ranged_infantry = { x = 2 y = 0 }
+		ranged_infantry = { x = 2 y = 1 }
+		ranged_infantry = { x = 2 y = 2 }
+		cannon_frontline = { x = 3 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Brigada de Artilleria"
+	division_names_group = SOV_INF_01
+	
+	regiments = {					
+		ranged_infantry = { x = 0 y = 0 }
+		ranged_infantry = { x = 0 y = 1 }
+		ranged_infantry = { x = 0 y = 2 }
+		ranged_infantry = { x = 1 y = 0 }
+		ranged_infantry = { x = 1 y = 1 }
+		ranged_infantry = { x = 1 y = 2 }
 		cannon_frontline = { x = 2 y = 0 }
 		mortar_frontline = { x = 2 y = 1 }
 	}
@@ -110,6 +133,35 @@ units = {
 		name = "11. Brigada de Mosqueters"
 		location = 3178
 		division_template = "Brigada de Mosqueters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "1. Brigada de Artilleria"
+		location = 899
+		division_template = "Brigada de Artilleria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Brigada de Mosqueters"
+		location = 899
+		division_template = "Brigada de Artilleria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Brigada de Artilleria"
+		location = 3178
+		division_template = "Brigada de Artilleria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Brigada de Mosqueters"
+		location = 3178
+		division_template = "Brigada de Artilleria"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}

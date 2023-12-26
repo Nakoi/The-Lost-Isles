@@ -13,7 +13,7 @@
 }
 
 division_template = {
-	name = "Brigada de Infantería Vederoana"
+	name = "Brigada de Infantería"
 	division_names_group = SOV_INF_01
 	
 	regiments = {					
@@ -26,7 +26,7 @@ division_template = {
 	}
 	
 	support = {
-		mortar_support = { x = 0 y = 0 }
+		cannon_support = { x = 0 y = 0 }
 	}
 	
 	priority = 1
@@ -36,140 +36,140 @@ units = {
 	division = {
 		name = "1. Brigada de Infantería"
 		location = 1740
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "2. Brigada de Infantería"
 		location = 1740
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "3. Brigada de Infantería"
 		location = 1740
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "4. Brigada de Infantería"
 		location = 1740
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "5. Brigada de Infantería"
 		location = 5250
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "6. Brigada de Infantería"
 		location = 5250
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "7. Brigada de Infantería"
 		location = 5250
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "8. Brigada de Infantería"
 		location = 5250
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "9. Brigada de Infantería"
 		location = 171
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "10. Brigada de Infantería"
 		location = 171
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "11. Brigada de Infantería"
 		location = 171
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "12. Brigada de Infantería"
 		location = 171
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "13. Brigada de Infantería"
 		location = 1710
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "14. Brigada de Infantería"
 		location = 1710
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "15. Brigada de Infantería"
 		location = 1710
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "16. Brigada de Infantería"
 		location = 1710
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "17. Brigada de Infantería"
 		location = 1061
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "18. Brigada de Infantería"
 		location = 1061
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "19. Brigada de Infantería"
 		location = 1061
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "20. Brigada de Infantería"
 		location = 1061
-		division_template = "Brigada de Infantería Vederoana"
+		division_template = "Brigada de Infantería"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
