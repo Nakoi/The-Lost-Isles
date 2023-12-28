@@ -13,8 +13,14 @@ default_unit_production = {
 	#GROUND
  	ai_strategy = {
 		type = role_ratio
-		id = infantry
-		value = 100
+		id = normal_infantry
+		value = 70
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = improved_infantry
+		value = 30
 	}
 
 	#equipment
