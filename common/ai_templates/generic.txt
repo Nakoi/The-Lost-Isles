@@ -1,7 +1,7 @@
 infantry_generic = {
 
 	roles = {
-		infantry
+		normal_infantry
 	}
 	
 	upgrade_prio = {
@@ -24,7 +24,7 @@ infantry_generic = {
 			}
 		}
 		
-		target_width = 19.0
+		target_width = 30.0
 		width_weight = 1.0
 		column_swap_factor = 0.5
 		
@@ -75,8 +75,8 @@ infantry_generic = {
 			}
 			
 			regiments = {
-				ranged_infantry = 8
-				cannon_frontline = 1
+				ranged_infantry = 12
+				cannon_frontline = 2
 			}
 		}
 		
@@ -84,6 +84,21 @@ infantry_generic = {
 			ranged_infantry
 			cannon_frontline
 			cannon_support	
+		}
+	}
+}
+
+infantry_improved = {
+
+	roles = {
+		improved_infantry
+	}
+	
+	upgrade_prio = {
+		factor = 2
+
+		modifier = {
+			factor = 5
 		}
 	}
 	
@@ -97,7 +112,7 @@ infantry_generic = {
 			}
 		}
 		
-		target_width = 19.0
+		target_width = 30.0
 		width_weight = 1.0
 		column_swap_factor = 0.5
 		
@@ -148,8 +163,8 @@ infantry_generic = {
 			}
 			
 			regiments = {
-				armored_infantry = 8
-				cannon_frontline = 1
+				armored_infantry = 12
+				cannon_frontline = 2
 			}
 		}
 		
