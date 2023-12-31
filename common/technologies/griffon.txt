@@ -382,7 +382,7 @@ technologies = {
 		    tech_civilized = 1
 		}
 		
-		industrial_capacity_factory = -0.25
+		industrial_capacity_factory = -0.40
 		army_attack_factor = 0.1
 		army_defence_factor = 0.1
 	
@@ -478,9 +478,8 @@ technologies = {
 		
 		category_griffonknights = {
 			breakthrough = 1
-			soft_attack = 0.2
 			armor_value = 20.0
-			hardness = 49.0
+			hardness = 29.0
 		}
 		
 		path = {
@@ -512,10 +511,13 @@ technologies = {
 		}
 		
 		category_griffonknights = {
-			breakthrough = 0.1
-			soft_attack = 0.1
-			supply_consumption_factor = -0.25
-			equipment_capture_factor = 0.25
+			equipment_capture_factor = 0.03
+		}
+		
+		tli_logistics_company = {
+			supply_consumption_factor = -0.15
+			fuel_consumption_factor = -0.10
+			equipment_capture_factor = 0.20
 		}
 		
 		path = {
@@ -552,10 +554,8 @@ technologies = {
 		
 		category_griffonknights = {
 			defense = -0.1
-			breakthrough = -0.1
+			breakthrough = -0.25
 			soft_attack = 0.2
-			army_morale = 0.2
-			supply_consumption_factor = -0.1
 		}
 
 		xor = {
@@ -601,10 +601,10 @@ technologies = {
 		}
 		
 		category_griffonknights = {
-			hard_attack = 0.25
+			hard_attack = 0.5
 			soft_attack = 0.1
 			ap_attack = 0.25
-			equipment_capture_factor = 0.1
+			equipment_capture_factor = 0.2
 		}
 		
 		path = {
@@ -636,8 +636,8 @@ technologies = {
 		}
 		
 		category_griffonknights = {
-			breakthrough = 0.1
-			soft_attack = -0.1
+			breakthrough = 0.2
+			soft_attack = -0.15
 			armor_value = 5
 		}
 		
@@ -721,6 +721,7 @@ technologies = {
 			breakthrough = 0.2
 			defense = 0.2
 			armor_value = 10
+			hardness = 10
 		}
 		
 		path = {
@@ -949,8 +950,6 @@ technologies = {
 		
 		category_griffonfalcons = {
 			maximum_speed = 0.5
-			hard_attack = 0.25
-			ap_attack = 0.25
 		}
 		
 		path = {
@@ -982,8 +981,8 @@ technologies = {
 		}
 		
 		category_griffonfalcons = {
-			max_organisation = 5
-			supply_consumption_factor = 0.1
+			soft_attack = 0.2
+			defense = 0.15
 		}
 		
 		path = {
@@ -1015,8 +1014,7 @@ technologies = {
 		}
 		
 		category_griffonfalcons = {
-			supply_consumption_factor = 0.1
-			hard_attack = 0.25
+			hard_attack = 0.10
 			ap_attack = 0.25
 		}
 		
@@ -1089,9 +1087,7 @@ technologies = {
 		}
 		
 		category_griffonfalcons = {
-			supply_consumption_factor = 0.1
 			maximum_speed = 0.5
-			army_morale = 0.2
 		}
 		
 		xor = {
@@ -1146,8 +1142,7 @@ technologies = {
 		}
 		
 		category_griffonfalcons = {
-			supply_consumption_factor = 0.1
-			soft_attack = 0.5
+			soft_attack = 0.2
 			hard_attack = 0.1
 		}
 		
@@ -1203,9 +1198,6 @@ technologies = {
 		}
 		
 		category_griffonfalcons = {
-			supply_consumption_factor = 0.1
-			maximum_speed = 0.15
-			ap_attack = 0.15
 			defense = 0.2
 		}
 		
@@ -1257,8 +1249,7 @@ technologies = {
 		}
 		
 		category_griffonfalcons = {
-			supply_consumption_factor = 0.1
-			hard_attack = 0.25
+			hard_attack = 0.15
 			ap_attack = 0.25
 		}
 		
@@ -1310,10 +1301,8 @@ technologies = {
 		}
 		
 		category_griffonfalcons = {
-			supply_consumption_factor = 0.1
 			hard_attack = 0.15
-			soft_attack = 0.15
-			ap_attack = 0.15
+			ap_attack = 0.25
 		}
 		
 		path = {
