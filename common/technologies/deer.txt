@@ -787,20 +787,15 @@ technologies = {
 	advanced_mountain_gear= {
 
 		category_highlanders = {
-			supply_consumption_factor = 0.05
-			max_organisation = 10
+			max_organisation = 5
 		}
 
 		highlanders = {
 			hills = {
-				attack = 0.15
-				defence = 0.15
-				movement = 0.15
+				attack = 0.1
 			}
 			mountain = {
-				attack = 0.15
-				defence = 0.15
-				movement = 0.25
+				attack = 0.1
 			}
 		}
 
@@ -838,8 +833,9 @@ technologies = {
 	heirs_of_jaris= {
 
 		category_highlanders = {
-			defense = 0.10
-			max_organisation = 10
+			breakthrough = 0.5
+			max_organisation = -5
+			default_morale = 0.05
 		}
 		xor = { heirs_of_vikings }
 
@@ -882,8 +878,8 @@ technologies = {
 	demolitions_training= {
 
 		category_highlanders = {
-			hard_attack = 0.25
-			ap_attack = 0.3
+			hard_attack = 0.5
+			ap_attack = 0.25
 			supply_consumption_factor = 0.05
 		}
 
@@ -921,9 +917,9 @@ technologies = {
 	heroes_of_myth= {
 
 		category_highlanders = {
-			max_organisation = 10
-			soft_attack = 0.15
-			breakthrough = 0.1
+			max_organisation = -5
+			soft_attack = 0.2
+			breakthrough = 0.25
 			supply_consumption_factor = 0.1
 		}
 
@@ -960,20 +956,14 @@ technologies = {
 
 	heirs_of_vikings= {
 
-		category_highlanders = {
-			defense = 0.1
-		}
-
 		highlanders = {
 			river = {
-				attack = 0.20
-				defence = 0.10
-				movement = 0.20
+				attack = 0.15
+				movement = 0.25
 			}
 			amphibious = {
 				attack = 0.20
-				defence = 0.10
-				movement = 0.20
+				movement = 0.25
 			}
 		}
 		xor = { heirs_of_jaris }
@@ -1017,8 +1007,8 @@ technologies = {
 	light_infantry_expertise = {
 
 		category_highlanders = {
-			defense = 0.15
-			maximum_speed = 0.10
+			defense = 0.1
+			maximum_speed = 0.20
 			supply_consumption_factor = -0.15
 		}
 
@@ -1056,9 +1046,8 @@ technologies = {
 	heroes_of_people= {
 
 		category_highlanders = {
-			max_organisation = 5
-			max_strength = 0.1
-			defense = 0.1
+			max_strength = 0.25
+			defense = 0.2
 		}
 
 		dependencies = {
@@ -1095,7 +1084,9 @@ technologies = {
 	pioneers_of_camouflage= {
 
 		category_highlanders = {
-			defense = 0.25
+			soft_attack = 0.1
+			hard_attack = 0.25
+			defense = 0.1
 		}
 
 		dependencies = {
@@ -1175,10 +1166,7 @@ technologies = {
 		}
 
 		category_army = {
-			defense = 0.15
-		}
-		category_rune_warrior = {
-			defense = 0.15
+			defense = 0.1
 		}	
 
 		path = {
@@ -1212,9 +1200,6 @@ technologies = {
 		category_army = {
 			reliability_factor = 0.1
 		}
-		category_rune_warrior = {
-			reliability_factor = 0.05
-		}	
 
 		path = {
 			leads_to_tech = raido_rune
@@ -1250,9 +1235,6 @@ technologies = {
 		}
 
 		category_army = {
-			maximum_speed = 0.1
-		}
-		category_rune_warrior = {
 			maximum_speed = 0.1
 		}	
 
@@ -1319,9 +1301,6 @@ technologies = {
 		category_army = {
 			max_strength = 0.15
 		}
-		category_rune_warrior = {
-			max_strength = 0.15
-		}	
 
 		path = {
 			leads_to_tech = cen_rune
@@ -1360,10 +1339,6 @@ technologies = {
 			soft_attack = 0.15
 			ap_attack = 0.15
 		}
-		category_rune_warrior = {
-			soft_attack = 0.1
-			ap_attack = 0.1
-		}
 
 		research_cost = 2.7
 		start_year = 969
@@ -1393,8 +1368,7 @@ technologies = {
 		    tech_primitive = 1
 		}
 
-		stability_weekly = 0.001
-		industrial_capacity_factory	= 0.1
+		industrial_capacity_factory	= 0.15
 
 		path = {
 			leads_to_tech = cult_of_personality
@@ -1463,7 +1437,6 @@ technologies = {
 		org_loss_when_moving = -0.1	
 		category_army = {
 			breakthrough = 0.2
-			soft_attack = 0.2
 		}
 
 		research_cost = 2.7

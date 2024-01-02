@@ -344,7 +344,6 @@ technologies = {
 		
 		category_juggernauts = {
 			supply_consumption_factor = 0.1
-			max_organisation = 3
 			breakthrough = 0.15
 		}
 
@@ -407,7 +406,6 @@ technologies = {
 		}
 		
 		category_juggernauts = {
-			max_organisation = 3
 			hard_attack = 0.25
 			soft_attack = 0.15
 			ap_attack = 0.25 
@@ -449,7 +447,6 @@ technologies = {
 		}
 		
 		category_juggernauts = {
-			max_organisation = 3
 			supply_consumption_factor = 0.6
 			breakthrough = 0.25
 		}
