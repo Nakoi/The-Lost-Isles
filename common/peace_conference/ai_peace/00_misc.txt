@@ -1,0 +1,78 @@
+# Scripted AI desire for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_ai_desires = {
+    take_our_cores = {
+        peace_action_type = { take_states }
+        enable = {
+            ROOT = { tag = ROOT.FROM } #We are negotiating for ourselves
+            ROOT.FROM.FROM.FROM = { is_core_of = ROOT.FROM } #It is ours
+        }
+        ai_desire = 100
+    }
+	
+	take_our_claims = {
+        peace_action_type = { take_states }
+        enable = {
+            ROOT = { tag = ROOT.FROM } #We are negotiating for ourselves
+            ROOT.FROM.FROM.FROM = { is_claimed_by = ROOT.FROM } #It is ours
+        }
+        ai_desire = 100
+    }
+	
+	take_controlled_stuff = {
+        peace_action_type = { take_states }
+        enable = {
+            ROOT = { tag = ROOT.FROM } #We are negotiating for ourselves
+            ROOT.FROM.FROM.FROM = { is_controlled_by = ROOT.FROM } #It is ours
+        }
+        ai_desire = 100
+    }
+	
+	dont_grab_exclaves = {
+        peace_action_type = { take_states }
+        enable = {
+            ROOT.FROM.FROM.FROM = {
+                NOT = {
+                    OR = {
+                        is_claimed_by = ROOT.FROM
+                        any_neighbor_state = {
+                            OR = {
+                                is_owned_by = ROOT.FROM
+                                pc_is_state_claimed_by = ROOT.FROM
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ai_desire = -100
+    }
+	
+	dont_puppet = {
+        peace_action_type = { puppet }
+
+        enable = {
+            always = yes
+        }
+        ai_desire = -200
+    }
+	
+	dont_liberate = {
+        peace_action_type = { liberate }
+
+        enable = {
+            always = yes
+        }
+        ai_desire = -200
+    }
+	
+	dont_force_government = {
+        peace_action_type = { force_government }
+
+        enable = {
+            always = yes
+        }
+        ai_desire = -200
+    }
+}
