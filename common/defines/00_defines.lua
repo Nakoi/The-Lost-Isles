@@ -3886,17 +3886,17 @@ NSupply = {
 	-- a supply reach >= 1.0 considered "perfect" and will be able to fully support units on that particular province (assuming you are not over capacity)
 	CAPITAL_INITIAL_SUPPLY_FLOW = 5.0, -- starting supply from
 	CAPITAL_STARTING_PENALTY_PER_PROVINCE = 0.5, -- starting penalty that will be added as supply moves away from its origin (modified by stuff like terrain)
-	CAPITAL_ADDED_PENALTY_PER_PROVINCE = 1.2, -- added penalty as we move away from origin
+	CAPITAL_ADDED_PENALTY_PER_PROVINCE = 0.5, -- added penalty as we move away from origin
 
 	-- defines that are used for supply reach for built nodes
-	NODE_INITIAL_SUPPLY_FLOW = 2.8,
-	NODE_STARTING_PENALTY_PER_PROVINCE = 0.50,
-	NODE_ADDED_PENALTY_PER_PROVINCE = 0.70,
+	NODE_INITIAL_SUPPLY_FLOW = 2.5,
+	NODE_STARTING_PENALTY_PER_PROVINCE = 0.25,
+	NODE_ADDED_PENALTY_PER_PROVINCE = 0.25,
 
 	-- defines that are used for supply reach for dockyards
-	NAVAL_BASE_INITIAL_SUPPLY_FLOW = 3.3,
-	NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.84,
-	NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.1,
+	NAVAL_BASE_INITIAL_SUPPLY_FLOW = 3,
+	NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.3,
+	NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 0.3,
 
 	-- Node Flow (i.e. province caps) increase by this amount per railway level of the node's bottleneck
 	NODE_FLOW_BONUS_PER_RAIL_LEVEL = 0.34,
