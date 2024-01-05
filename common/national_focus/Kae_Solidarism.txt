@@ -2218,13 +2218,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
-		
-		available = {
-			IF = {
-				limit = {
-					has_country_flag = kae_child_labor_lobby_xd_flag
-			}
-		}
 			
 		completion_reward = {
 			IF = {
