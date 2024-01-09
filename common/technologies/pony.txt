@@ -77,7 +77,6 @@ technologies = {
 		
 		category_juggernauts = {
 			defense = 0.2
-			supply_consumption_factor = 0.05
 		}
 		
 		path = {
@@ -107,10 +106,6 @@ technologies = {
 		dependencies = {
 			pone_race = 1
             tech_primitive = 1
-		}
-		
-		category_juggernauts = {
-			supply_consumption_factor = 0.05
 		}
 
 		juggernauts = {
@@ -163,7 +158,6 @@ technologies = {
 			defense = 0.25
 			breakthrough = 0.25
 			armor_value = 20.0
-			supply_consumption_factor = 0.1
 		}
 
 		path = {
@@ -206,7 +200,7 @@ technologies = {
 		}
 		
 		category_juggernauts = {
-			supply_consumption_factor = 0.1
+			supply_consumption = 0.03
 			hardness = 3
 			defense = 0.15
 		}
@@ -266,7 +260,6 @@ technologies = {
 		category_juggernauts = {
 			hardness = 3
 			defense = 0.15
-			supply_consumption_factor = 0.15
 		}
 
 		
@@ -310,7 +303,6 @@ technologies = {
 		category_juggernauts = {
 			hardness = 3
 			defense = 0.15
-			supply_consumption_factor = 0.15
 		}
 		
 		research_cost = 2.7
@@ -343,7 +335,7 @@ technologies = {
 		}
 		
 		category_juggernauts = {
-			supply_consumption_factor = 0.1
+			supply_consumption = 0.02
 			breakthrough = 0.15
 		}
 
@@ -406,10 +398,11 @@ technologies = {
 		}
 		
 		category_juggernauts = {
+			supply_consumption = 0.01
+			breakthrough = 0.15
 			hard_attack = 0.25
 			soft_attack = 0.15
-			ap_attack = 0.25 
-			supply_consumption_factor = 0.15
+			ap_attack = 0.25
 		}
 		
 		path = {
@@ -447,7 +440,7 @@ technologies = {
 		}
 		
 		category_juggernauts = {
-			supply_consumption_factor = 0.6
+			supply_consumption = 0.01
 			breakthrough = 0.25
 		}
 
@@ -720,7 +713,7 @@ technologies = {
 		
 		category_wind_riders = {
 			soft_attack = 0.2
-			supply_consumption_factor = 0.1
+			supply_consumption = 0.01
 		}
 
 		xor={
@@ -768,7 +761,7 @@ technologies = {
 		category_wind_riders = {
 			hard_attack = 0.2
 			ap_attack = 0.20 
-			supply_consumption_factor = 0.1
+			supply_consumption = 0.01
 		}
 
 		xor={
@@ -853,7 +846,7 @@ technologies = {
 		category_wind_riders = {
 			defense = -0.1
 			soft_attack = 0.2
-			supply_consumption_factor = 0.1
+			supply_consumption = 0.01
 		}
 
 		path = {
@@ -892,7 +885,7 @@ technologies = {
 			defense = -0.2
 			hard_attack = 0.2
 			breakthrough = 0.2
-			supply_consumption_factor = 0.1
+			supply_consumption = 0.01
 		}
 
 		path = {
@@ -936,7 +929,6 @@ technologies = {
 			max_organisation = 10
 			defense = 0.5
 			air_attack = 15
-			supply_consumption_factor = 0.15
 			
 		}
 		
@@ -987,7 +979,6 @@ technologies = {
 			maximum_speed = 1
 			default_morale = 0.15
 			breakthrough = 0.25
-			supply_consumption_factor = 0.15
 			
 		}
 		xor = {
@@ -2070,7 +2061,6 @@ technologies = {
 			defense = 5.0
 			hardness = 14.0
 			armor_value = 25.0
-			supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2131,7 +2121,6 @@ technologies = {
 		category_mages = {
 			breakthrough = 8.0
 			defense = 4.0
-			supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2165,7 +2154,6 @@ technologies = {
 		category_mages = {
 			defense = 2.0
 			max_strength = 15.0
-			supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2205,7 +2193,6 @@ technologies = {
 		soft_attack = 0.5
 		hard_attack = 0.5
 		ap_attack = 1.0
-		supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2245,7 +2232,6 @@ technologies = {
 			initiative = 0.5
 			maximum_speed = 2.0
 			default_morale = 1
-			supply_consumption_factor = 0.15
 		}
 
 		research_cost = 3.6
@@ -2280,7 +2266,6 @@ technologies = {
 			soft_attack = 1.5
 			hard_attack = 0.5
 			breakthrough = 9.0
-			supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2341,10 +2326,6 @@ technologies = {
 			pone_race = 1
 			tech_civilized = 1
 		}
-		
-		category_mages = {
-			supply_consumption_factor = 0.15
-		}
 
 		pony_mages = {
 			marsh = {
@@ -2392,10 +2373,6 @@ technologies = {
 		dependencies = {
 			pone_race = 1
 			tech_civilized = 1
-		}
-		
-		category_mages = {
-			supply_consumption_factor = 0.15
 		}
 
 		pony_mages = {
@@ -2453,7 +2430,6 @@ technologies = {
 			hardness = 4.0
 			armor_value = 10.0
 			ap_attack = 1.0
-			supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2494,7 +2470,6 @@ technologies = {
 			breakthrough = 1.0
 			soft_attack = 0.5
 			hard_attack = 1.0
-			supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2535,7 +2510,6 @@ technologies = {
 			breakthrough = 3.0
 			hard_attack = 1.5
 			ap_attack = 0.5
-			supply_consumption_factor = 0.15
 		}
 
 		research_cost = 3.6
@@ -2571,7 +2545,6 @@ technologies = {
 			hardness = 4.0
 			armor_value = 10.0
 			ap_attack = 1.0
-			supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2612,7 +2585,6 @@ technologies = {
 			breakthrough = 1.0
 			soft_attack = 0.5
 			hard_attack = 1.0
-			supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2653,7 +2625,6 @@ technologies = {
 			breakthrough = 3.0
 			hard_attack = 1.5
 			ap_attack = 0.5
-			supply_consumption_factor = 0.15
 		}
 
 		research_cost = 3.6
@@ -2688,7 +2659,6 @@ technologies = {
 			soft_attack = 1.5
 			max_organisation = 20
 			ap_attack = 1.5
-			supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2750,7 +2720,6 @@ technologies = {
 			breakthrough = 7.0
 			maximum_speed = 0.5
 			ap_attack = 2.0
-			supply_consumption_factor = 0.15
 		}
 		
 		pony_mages = {
@@ -2789,7 +2758,6 @@ technologies = {
 			defense = 6.0
 			max_strength = 10
 			breakthrough = 2.0
-			supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2831,7 +2799,6 @@ technologies = {
 			hard_attack = 1.0
 			armor_value = 15.0
 			hardness = 5.0
-			supply_consumption_factor = 0.15
 		}
 
 		path = {
@@ -2871,7 +2838,6 @@ technologies = {
 			ap_attack = 1.0
 			soft_attack = 1.0
 			hard_attack = 1.0
-			supply_consumption_factor = 0.15
 		}
 
 		research_cost = 3.6
