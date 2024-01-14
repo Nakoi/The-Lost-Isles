@@ -836,6 +836,7 @@ technologies = {
 			breakthrough = 0.5
 			max_organisation = -5
 			default_morale = 0.05
+			supply_consumption = 0.02
 		}
 		xor = { heirs_of_vikings }
 
@@ -880,7 +881,7 @@ technologies = {
 		category_highlanders = {
 			hard_attack = 0.5
 			ap_attack = 0.25
-			supply_consumption_factor = 0.05
+			supply_consumption = 0.01
 		}
 
 		dependencies = {
@@ -920,7 +921,7 @@ technologies = {
 			max_organisation = -5
 			soft_attack = 0.2
 			breakthrough = 0.25
-			supply_consumption_factor = 0.1
+			supply_consumption = 0.01
 		}
 
 		dependencies = {
@@ -966,6 +967,11 @@ technologies = {
 				movement = 0.25
 			}
 		}
+		
+		category_highlanders = {
+			supply_consumption = 0.01
+		}
+		
 		xor = { heirs_of_jaris }
 
 		dependencies = {
@@ -1009,7 +1015,7 @@ technologies = {
 		category_highlanders = {
 			defense = 0.1
 			maximum_speed = 0.20
-			supply_consumption_factor = -0.15
+			supply_consumption = 0.01
 		}
 
 		dependencies = {
@@ -1048,6 +1054,7 @@ technologies = {
 		category_highlanders = {
 			max_strength = 0.25
 			defense = 0.2
+			supply_consumption = 0.01
 		}
 
 		dependencies = {
@@ -1517,6 +1524,7 @@ technologies = {
 		category_rune_warrior = {
 			soft_attack = 0.2
 			hard_attack = 0.2
+			supply_consumption = 0.01
 		}
 
 
@@ -1552,6 +1560,7 @@ technologies = {
 		category_rune_warrior = {
 			maximum_speed = 0.2
 			breakthrough = 0.2
+			supply_consumption = 0.01
 		}
 
 		path = {
@@ -1591,6 +1600,7 @@ technologies = {
 			defense = 0.15
 			ap_attack = 0.25
 			soft_attack = 0.1
+			supply_consumption = 0.01
 		}
 
 		research_cost = 2.7

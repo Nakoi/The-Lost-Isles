@@ -556,6 +556,7 @@ technologies = {
 			defense = -0.1
 			breakthrough = -0.25
 			soft_attack = 0.2
+			supply_consumption = 0.01
 		}
 
 		xor = {
@@ -605,6 +606,7 @@ technologies = {
 			soft_attack = 0.1
 			ap_attack = 0.25
 			equipment_capture_factor = 0.02
+			supply_consumption = 0.01
 		}
 		
 		path = {
@@ -639,6 +641,7 @@ technologies = {
 			breakthrough = 0.2
 			soft_attack = -0.15
 			armor_value = 5
+			supply_consumption = 0.02
 		}
 		
 		xor = {
@@ -687,6 +690,7 @@ technologies = {
 			breakthrough = 0.15
 			soft_attack = -0.1
 			armor_value = 10
+			supply_consumption = 0.02
 		}
 		
 		path = {
@@ -722,6 +726,7 @@ technologies = {
 			defense = 0.2
 			armor_value = 10
 			hardness = 10
+			supply_consumption = 0.01
 		}
 		
 		path = {
@@ -1016,6 +1021,7 @@ technologies = {
 		category_griffonfalcons = {
 			hard_attack = 0.10
 			ap_attack = 0.25
+			supply_consumption = 0.01
 		}
 		
 		path = {
@@ -1088,6 +1094,7 @@ technologies = {
 		
 		category_griffonfalcons = {
 			maximum_speed = 0.5
+			supply_consumption = 0.01
 		}
 		
 		xor = {
@@ -1144,6 +1151,7 @@ technologies = {
 		category_griffonfalcons = {
 			soft_attack = 0.2
 			hard_attack = 0.1
+			supply_consumption = 0.01
 		}
 		
 		xor = {
@@ -1199,6 +1207,7 @@ technologies = {
 		
 		category_griffonfalcons = {
 			defense = 0.2
+			supply_consumption = 0.01
 		}
 		
 		xor = {
@@ -1251,6 +1260,7 @@ technologies = {
 		category_griffonfalcons = {
 			hard_attack = 0.15
 			ap_attack = 0.25
+			supply_consumption = 0.01
 		}
 		
 		xor = {
@@ -1470,7 +1480,7 @@ technologies = {
 			soft_attack = 0.1
 			hard_attack = 0.1
 			ap_attack = 0.1
-			supply_consumption_factor = 0.15
+			supply_consumption = 0.01
 		}
 		
 		path = {
@@ -1510,7 +1520,7 @@ technologies = {
 			soft_attack = 0.15
 			hard_attack = 0.15
 			ap_attack = 0.15
-			supply_consumption_factor = 0.2
+			supply_consumption = 0.01
 		}
 		
 		path = {
@@ -1550,7 +1560,7 @@ technologies = {
 			soft_attack = 0.2
 			hard_attack = 0.2
 			ap_attack = 0.2
-			supply_consumption_factor = 0.25
+			supply_consumption = 0.01
 		}
 		
 		path = {
@@ -1590,6 +1600,10 @@ technologies = {
 			landship_equipment_1
         }
 		
+		category_griffonlandship = {
+			supply_consumption = 0.05
+		}
+		
 		path = {
 			leads_to_tech = modern_landship
 			research_cost_coeff = 1
@@ -1626,6 +1640,10 @@ technologies = {
 		enable_equipments = {
 			landship_equipment_2
         }
+		
+		category_griffonlandship = {
+			supply_consumption = 0.05
+		}
 		
 		path = {
 			leads_to_tech = 
@@ -1664,7 +1682,7 @@ technologies = {
 			armor_value = 0.1
 			defense = 0.1
 			breakthrough = 0.1
-			supply_consumption_factor = 0.15
+			supply_consumption = 0.01
 		}
 		
 		path = {
@@ -1704,7 +1722,7 @@ technologies = {
 			armor_value = 0.15
 			defense = 0.15
 			breakthrough = 0.15
-			supply_consumption_factor = 0.2
+			supply_consumption = 0.01
 		}
 		
 		path = {
@@ -1744,7 +1762,7 @@ technologies = {
 			armor_value = 0.2
 			defense = 0.2
 			breakthrough = 0.2
-			supply_consumption_factor = 0.25
+			supply_consumption = 0.01
 		}
 		
 		path = {
@@ -1839,7 +1857,7 @@ technologies = {
 		
 		category_griffonspellcannon = {
 			soft_attack = 0.75
-			supply_consumption_factor = 0.15
+			supply_consumption = 0.01
 		}
 		
 		xor = {
@@ -1896,7 +1914,7 @@ technologies = {
 		category_griffonspellcannon = {
 			hard_attack = 0.2
 			ap_attack = 0.2
-			supply_consumption_factor = 0.15
+			supply_consumption = 0.01
 		}
 		
 		xor = {
@@ -1954,7 +1972,7 @@ technologies = {
 			soft_attack = 0.3
 			hard_attack = 0.2
 			ap_attack = 0.2
-			supply_consumption_factor = 0.3
+			supply_consumption = 0.01
 		}
 		
 		xor = {
@@ -2011,7 +2029,7 @@ technologies = {
 		category_griffonspellcannon = {
 			soft_attack = 0.25
 			hard_attack = 0.05
-			supply_consumption_factor = -0.6
+			supply_consumption = -0.05
 		}
 		
 		xor = {
@@ -2068,7 +2086,7 @@ technologies = {
 		category_griffonspellcannon = {
 			soft_attack = 0.75
 			defense = 0.5
-			supply_consumption_factor = 0.3
+			supply_consumption = 0.01
 		}
 		
 		xor = {
@@ -2122,7 +2140,7 @@ technologies = {
 			hard_attack = 0.2
 			ap_attack = 0.2
 			air_attack = 0.3
-			supply_consumption_factor = 0.3
+			supply_consumption = 0.01
 		}
 
 		xor = {
@@ -2176,6 +2194,10 @@ technologies = {
 			spell_cannon_equipment_1
 		}
 		
+		category_griffonspellcannon = {
+			supply_consumption = 0.05
+		}
+		
 		enable_equipment_modules = { 
 			light_naval_battery_griffon_2
 		}
@@ -2215,6 +2237,10 @@ technologies = {
 		
 		enable_equipments = {
 			spell_cannon_equipment_2
+		}
+		
+		category_griffonspellcannon = {
+			supply_consumption = 0.05
 		}
 		
 		enable_equipment_modules = { 
