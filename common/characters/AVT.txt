@@ -64,7 +64,24 @@ characters={
             id=-1
         }
     }
-
+	
+	AVT_General_9={
+        name=AVT_General_9_name
+        portraits={
+            army={
+                large="GFX/leaders/AVT/AVT_Army_leader_09.tga"
+            }
+        }
+	    field_marshal={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+	
     AVT_General_1={
         name=AVT_General_1_name
         portraits={
@@ -82,7 +99,7 @@ characters={
             logistics_skill = 1
         }
     }
-
+	
     AVT_General_2={
         name=AVT_General_2_name
         portraits={
@@ -193,23 +210,6 @@ characters={
             }
         }
 	    corps_commander={
-            traits = {}
-            skill = 1
-            attack_skill = 1
-            defense_skill = 1
-            planning_skill = 1
-            logistics_skill = 1
-        }
-    }
-
-    AVT_General_9={
-        name=AVT_General_9_name
-        portraits={
-            army={
-                large="GFX/leaders/AVT/portrait_avt_tsaritsa_blossom.tga"
-            }
-        }
-	    field_marshal={
             traits = {}
             skill = 1
             attack_skill = 1
