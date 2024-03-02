@@ -235,6 +235,32 @@ country_event = {
 		add_political_power = 100
 		load_focus_tree = avtukov_tsaritsa_focus
 		remove_ideas = AVT_idea_noble_discontent
+		hidden_effect = {
+			set_division_template_lock = {
+				division_template = "Polk Gorodskogo Opolcheniya"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Rat' Greismerskogo Garnizona"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Pegazskaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Gvardeyskaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Kopytnaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Artilleriyskaya Rat'"
+				is_locked = no
+			}
+		}
 		add_ideas = AVT_idea_low_public_discontent
 		complete_national_focus = AVT_the_tsarina
 		add_popularity = {
@@ -254,6 +280,32 @@ country_event = {
 		add_political_power = 170
 		load_focus_tree = avtukov_tsaritsa_focus
 		remove_ideas = AVT_idea_noble_discontent
+		hidden_effect = {
+			set_division_template_lock = {
+				division_template = "Polk Gorodskogo Opolcheniya"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Rat' Greismerskogo Garnizona"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Pegazskaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Gvardeyskaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Kopytnaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Artilleriyskaya Rat'"
+				is_locked = no
+			}
+		}
 		add_ideas = AVT_idea_low_public_discontent
 		complete_national_focus = AVT_the_tsarina
 		add_popularity = {
@@ -274,6 +326,32 @@ country_event = {
 		add_political_power = 200
 		load_focus_tree = avtukov_tsaritsa_focus
 		remove_ideas = AVT_idea_noble_discontent
+		hidden_effect = {
+			set_division_template_lock = {
+				division_template = "Polk Gorodskogo Opolcheniya"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Rat' Greismerskogo Garnizona"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Pegazskaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Gvardeyskaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Kopytnaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Artilleriyskaya Rat'"
+				is_locked = no
+			}
+		}
 		add_ideas = AVT_idea_low_public_discontent
 		complete_national_focus = AVT_the_tsarina
 		add_popularity = {
@@ -1917,6 +1995,32 @@ country_event = {
 		add_political_power = 150
 		load_focus_tree = avtukov_tsar_focus
 		remove_ideas = AVT_idea_noble_discontent
+		hidden_effect = {
+			set_division_template_lock = {
+				division_template = "Polk Gorodskogo Opolcheniya"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Rat' Greismerskogo Garnizona"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Pegazskaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Gvardeyskaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Kopytnaya Rat'"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Artilleriyskaya Rat'"
+				is_locked = no
+			}
+		}
 		complete_national_focus = AVT_the_tzar
 	}
 }
