@@ -542,9 +542,9 @@ every_possible_country = {
 		advisor = {
 			slot = theorist
 			traits = { theotrait_massmob }
-			cost = 200
+			cost = 100
 			ai_will_do = {
-				factor = 0
+				factor = 100
 			}
 		}
 		portraits = { 
@@ -559,7 +559,7 @@ every_possible_country = {
 		advisor = {
 			slot = theorist
 			traits = { theotrait_firepower }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -576,7 +576,7 @@ every_possible_country = {
 		advisor = {
 			slot = theorist
 			traits = { theotrait_discipline }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -593,7 +593,7 @@ every_possible_country = {
 		advisor = {
 			slot = theorist
 			traits = { theotrait_mobility }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -610,7 +610,7 @@ every_possible_country = {
 		advisor = {
 			slot = theorist
 			traits = { theotrait_smolboat }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -627,7 +627,7 @@ every_possible_country = {
 		advisor = {
 			slot = theorist
 			traits = { theotrait_bigboat }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -644,7 +644,7 @@ every_possible_country = {
 		advisor = {
 			slot = theorist
 			traits = { theotrait_airskirm }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -661,7 +661,7 @@ every_possible_country = {
 		advisor = {
 			slot = theorist
 			traits = { theotrait_airbomb }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -678,7 +678,7 @@ every_possible_country = {
 		advisor = {
 			slot = theorist
 			traits = { theotrait_aircas }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -701,7 +701,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_offense_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -718,9 +718,9 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_defense_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
-				factor = 0
+				factor = 100
 			}
 		}
 		portraits = { 
@@ -735,7 +735,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_drill_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -752,7 +752,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_organisation_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -769,7 +769,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_planning_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -786,7 +786,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_morale_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -803,7 +803,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_maneuver_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -820,7 +820,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_logistics_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -831,13 +831,19 @@ every_possible_country = {
 			}
 		}
 	}
+}
+
+every_possible_country = {
+	limit = {
+		always = no
+	}
 	
 	generate_character = {
 		token_base = achieftrait_offense_2 # token will be TAG_token_base
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_offense_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -854,7 +860,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_defense_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -871,7 +877,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_drill_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -888,7 +894,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_organisation_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -905,7 +911,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_planning_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -922,7 +928,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_morale_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -939,7 +945,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_maneuver_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -956,7 +962,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_logistics_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -973,7 +979,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_offense_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -990,7 +996,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_defense_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1007,7 +1013,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_drill_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1024,7 +1030,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_organisation_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1041,7 +1047,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_planning_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1058,7 +1064,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_morale_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1075,7 +1081,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_maneuver_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1092,7 +1098,7 @@ every_possible_country = {
 		advisor = {
 			slot = army_chief
 			traits = { chieftrait_logistics_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1115,7 +1121,7 @@ every_possible_country = {
 		advisor = {
 			slot = navy_chief
 			traits = { chieftrait_privateering_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1132,9 +1138,9 @@ every_possible_country = {
 		advisor = {
 			slot = navy_chief
 			traits = { chieftrait_grandbattle_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
-				factor = 0
+				factor = 100
 			}
 		}
 		portraits = { 
@@ -1149,7 +1155,7 @@ every_possible_country = {
 		advisor = {
 			slot = navy_chief
 			traits = { chieftrait_boatmaneuver_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1160,13 +1166,19 @@ every_possible_country = {
 			}
 		}
 	}
+}
+	
+every_possible_country = {
+	limit = {
+		always = no
+	}
 	
 	generate_character = {
 		token_base = achieftrait_privateering_2 # token will be TAG_token_base
 		advisor = {
 			slot = navy_chief
 			traits = { chieftrait_privateering_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1183,7 +1195,7 @@ every_possible_country = {
 		advisor = {
 			slot = navy_chief
 			traits = { chieftrait_grandbattle_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1200,7 +1212,7 @@ every_possible_country = {
 		advisor = {
 			slot = navy_chief
 			traits = { chieftrait_boatmaneuver_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1217,7 +1229,7 @@ every_possible_country = {
 		advisor = {
 			slot = navy_chief
 			traits = { chieftrait_privateering_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1234,7 +1246,7 @@ every_possible_country = {
 		advisor = {
 			slot = navy_chief
 			traits = { chieftrait_grandbattle_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1251,7 +1263,7 @@ every_possible_country = {
 		advisor = {
 			slot = navy_chief
 			traits = { chieftrait_boatmaneuver_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1274,7 +1286,7 @@ every_possible_country = {
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_weather_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1291,7 +1303,7 @@ every_possible_country = {
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_nightops_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1308,9 +1320,9 @@ every_possible_country = {
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_airsupport_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
-				factor = 0
+				factor = 100
 			}
 		}
 		portraits = { 
@@ -1325,7 +1337,7 @@ every_possible_country = {
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_airmaint_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1336,13 +1348,19 @@ every_possible_country = {
 			}
 		}
 	}
+}
+
+every_possible_country = {
+	limit = {
+		always = no
+	}
 	
 	generate_character = {
 		token_base = achieftrait_weather_2 # token will be TAG_token_base
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_weather_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1359,7 +1377,7 @@ every_possible_country = {
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_nightops_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1376,7 +1394,7 @@ every_possible_country = {
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_airsupport_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1393,7 +1411,7 @@ every_possible_country = {
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_airmaint_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1410,7 +1428,7 @@ every_possible_country = {
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_weather_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1427,7 +1445,7 @@ every_possible_country = {
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_nightops_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1444,7 +1462,7 @@ every_possible_country = {
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_airsupport_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1461,7 +1479,7 @@ every_possible_country = {
 		advisor = {
 			slot = air_chief
 			traits = { chieftrait_airmaint_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -1484,9 +1502,9 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_lineinf_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
-				factor = 0
+				factor = 100
 			}
 		}
 		portraits = { 
@@ -1501,7 +1519,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_aggressive_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1518,7 +1536,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_elite_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1535,7 +1553,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_arty_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1552,7 +1570,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_guerilla_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1569,7 +1587,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_boatschool_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1586,7 +1604,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_navlanding_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1603,7 +1621,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_navlogi_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1620,9 +1638,9 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_smallboat_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
-				factor = 0
+				factor = 100
 			}
 		}
 		portraits = { 
@@ -1637,9 +1655,9 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_bigboat_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
-				factor = 0
+				factor = 100
 			}
 		}
 		portraits = { 
@@ -1654,7 +1672,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airboatschool_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1671,7 +1689,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airskirm_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1688,7 +1706,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airstriker_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1705,7 +1723,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airboats_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1722,7 +1740,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_stratairboat_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1739,7 +1757,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airassault_1 }
-			cost = 150
+			cost = 50
 			ai_will_do = {
 				factor = 0
 			}
@@ -1750,13 +1768,19 @@ every_possible_country = {
 			}
 		}
 	}
+}
+
+every_possible_country = {
+	limit = {
+		always = no
+	}
 	
 	generate_character = {
 		token_base = aarmyadvtrait_lineinf_2 # token will be TAG_token_base
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_lineinf_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1773,7 +1797,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_aggressive_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1790,7 +1814,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_elite_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1807,7 +1831,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_arty_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1824,7 +1848,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_guerilla_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1841,7 +1865,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_boatschool_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1858,7 +1882,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_navlanding_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1875,7 +1899,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_navlogi_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1892,7 +1916,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_smallboat_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1909,7 +1933,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_bigboat_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1926,7 +1950,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airboatschool_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1943,7 +1967,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airskirm_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1960,7 +1984,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airstriker_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1977,7 +2001,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airboats_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -1994,7 +2018,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_stratairboat_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -2011,7 +2035,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airassault_2 }
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 0
 			}
@@ -2028,7 +2052,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_lineinf_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2045,7 +2069,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_aggressive_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2062,7 +2086,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_elite_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2079,7 +2103,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_arty_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2096,7 +2120,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_guerilla_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2113,7 +2137,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_boatschool_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2130,7 +2154,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_navlanding_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2147,7 +2171,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_navlogi_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2164,7 +2188,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_smallboat_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2181,7 +2205,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_bigboat_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2198,7 +2222,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airboatschool_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2215,7 +2239,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airskirm_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2232,7 +2256,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airstriker_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2249,7 +2273,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airboats_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2266,7 +2290,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_stratairboat_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
@@ -2283,7 +2307,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = { armyadvtrait_airassault_3 }
-			cost = 250
+			cost = 150
 			ai_will_do = {
 				factor = 0
 			}
