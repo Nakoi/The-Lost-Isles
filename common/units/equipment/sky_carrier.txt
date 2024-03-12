@@ -36,7 +36,7 @@ equipments = {
 		air_attack = 30
 		air_defence = 400
 		air_bombing = 24
-		air_superiority = 5
+		air_superiority = 1
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 20
@@ -81,6 +81,7 @@ equipments = {
 		air_attack = 70
 		air_defence = 800
 		air_bombing = 52
+		air_superiority = 1.5
 		
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 48
@@ -118,6 +119,7 @@ equipments = {
 		air_attack = 180
 		air_defence = 1400
 		air_bombing = 150
+		air_superiority = 2
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 90

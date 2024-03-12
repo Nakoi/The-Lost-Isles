@@ -281,7 +281,7 @@ equipments = {
 		air_agility = 20
 		air_attack = 100
 		air_defence = 400
-		air_superiority = 20
+		air_superiority = 5
 
 		## Air vs Navy - high damage / low hit chance / hard to hurt
 		#naval_strike_attack = 5
@@ -322,6 +322,7 @@ equipments = {
 		air_agility = 24
 		air_attack = 180
 		air_defence = 780
+		air_superiority = 8
 
 		#Space taken in convoy
 		lend_lease_cost = 90
@@ -348,6 +349,7 @@ equipments = {
 		air_agility = 30
 		air_attack = 390
 		air_defence = 1350
+		air_superiority = 10
 
 		#Space taken in convoy
 		lend_lease_cost = 90
