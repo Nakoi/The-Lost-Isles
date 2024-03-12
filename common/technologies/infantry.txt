@@ -1610,12 +1610,12 @@ technologies = {
         
         category_elite_infantry = {
             armor_value = 5
-			hardness = 4
+			hardness = 5
         }
 		
 		category_all_racial_infantry = {
             armor_value = 5
-			hardness = 4
+			hardness = 5
         }
     }
 
@@ -1929,11 +1929,11 @@ technologies = {
         }
         category_elite_infantry = {
             armor_value = 10
-            hardness = 9
+            hardness = 10
         }
 		category_all_racial_infantry = {
             armor_value = 10
-            hardness = 9
+            hardness = 10
         }
     }
 
@@ -2219,7 +2219,7 @@ technologies = {
         #}
 		
 		special_forces_min = 36
-        special_forces_cap = 0.25
+        special_forces_cap = 0.05
     }
 
     shock_troops_0 = {
