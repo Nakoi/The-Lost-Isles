@@ -464,7 +464,7 @@ leader_traits = {
 	
 	chieftrait_defense_1 = {
 		sprite = 14
-		experience_gain_army = 0.1
+		experience_gain_army = 0.2
 		army_defence_factor = 0.05
 		
 		ai_will_do = {
@@ -474,7 +474,7 @@ leader_traits = {
 	
 	chieftrait_defense_2 = {
 		sprite = 14
-		experience_gain_army = 0.2
+		experience_gain_army = 0.3
 		army_defence_factor = 0.15
 		
 		ai_will_do = {
@@ -484,7 +484,7 @@ leader_traits = {
 	
 	chieftrait_defense_3 = {
 		sprite = 14
-		experience_gain_army = 0.3
+		experience_gain_army = 0.4
 		army_defence_factor = 0.25
 		
 		ai_will_do = {
@@ -895,6 +895,7 @@ leader_traits = {
 	
 	armyadvtrait_lineinf_1 = {
 		sprite = 14
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_ranged_infantry_attack_factor = 0.1
 		modifier_army_sub_unit_ranged_infantry_defence_factor = 0.1
 		modifier_army_sub_unit_ranged_militia_attack_factor = 0.1
@@ -908,6 +909,7 @@ leader_traits = {
 	
 	armyadvtrait_lineinf_2 = {
 		sprite = 14
+		experience_gain_army = 0.05
 		modifier_army_sub_unit_ranged_infantry_attack_factor = 0.2
 		modifier_army_sub_unit_ranged_infantry_defence_factor = 0.2
 		modifier_army_sub_unit_ranged_militia_attack_factor = 0.2
