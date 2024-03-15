@@ -3841,7 +3841,7 @@ technologies = {
         start_year = 100     # Which year this technology stops receiving ahead-of-time penalities.
 		
 		path = {
-			leads_to_tech = tech_civilized
+			leads_to_tech = finished_primitive_land_doctrine
 			research_cost_coeff = 1
         }
 		
@@ -3858,6 +3858,48 @@ technologies = {
             position = { 
                 x = 20
                 y = @600
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            industry
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = 1
+            
+            # Conditional modifier to the factor.
+            #modifier = {
+            #    factor = <float>
+            #    
+            #    <triggers>
+            #}
+        }
+	}
+	
+	finished_primitive_land_doctrine = {
+        research_cost = 100 # Cost in time, where 1 is the default research time length.
+        start_year = 100  # Which year this technology stops receiving ahead-of-time penalities.
+		
+		path = {
+			leads_to_tech = tech_civilized
+			research_cost_coeff = 1
+		}
+		
+		allow = {
+            date > 1007.1.1
+        }
+        
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = industry_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 20
+                y = @800
             }
         }
         

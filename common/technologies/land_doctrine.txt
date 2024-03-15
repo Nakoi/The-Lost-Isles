@@ -5,7 +5,7 @@ technologies = {
 		doctrine_name = "ORGANISED_CONSCRIPTION_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		
 		xor = { siege_mastery elite_infantry nobile_heritage tribal_terrain_mastery } 
 
@@ -19,11 +19,8 @@ technologies = {
             research_cost_coeff = 1
         }
 		
-		category_tli_all_infantry = {
-			max_organisation = 5
-		}
-		
-        minimum_training_level = -0.05
+        minimum_training_level = -0.1
+		conscription_factor = 0.10
 
 		doctrine = yes	
 		research_cost = 2.25
@@ -53,10 +50,10 @@ technologies = {
 	organised_supply_system = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
         supply_consumption_factor = -0.10
-        land_reinforce_rate = 0.05
+        land_reinforce_rate = 0.02
 		
 		path = {
 			leads_to_tech = standardised_equipment 
@@ -93,15 +90,23 @@ technologies = {
     standardised_equipment = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
         melee_equipment_cost = -0.10
 
-        category_tli_all_infantry = {
+        ranged_infantry = {
             defense = 0.10
             breakthrough = 0.10
         }
-
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_technology = {
+					finished_primitive_land_doctrine = 1
+					popup = no
+				}
+			}
+		}
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -131,10 +136,9 @@ technologies = {
     the_banner_system = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 
-        special_forces_cap = 0.10
-        conscription_factor = 0.10
+        special_forces_cap = 0.05
 		
 		path = {
 			leads_to_tech = attrition_warfare 
@@ -171,14 +175,22 @@ technologies = {
     attrition_warfare = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		ranged_infantry = {
 			combat_width = -0.2
 		}
 		
-        land_reinforce_rate = 0.10
-
+        land_reinforce_rate = 0.02
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_technology = {
+					finished_primitive_land_doctrine = 1
+					popup = no
+				}
+			}
+		}
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -214,7 +226,7 @@ technologies = {
 		doctrine_name = "SIEGE_MASTERY_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		
 		xor = { organised_conscription elite_infantry nobile_heritage tribal_terrain_mastery } 
 
@@ -229,8 +241,7 @@ technologies = {
         }
 		
 		category_artillery = {
-			soft_attack = 0.10
-            max_organisation = 10
+			entrenchment = 1
 		}
 
 		doctrine = yes	
@@ -261,11 +272,10 @@ technologies = {
 	field_artillery_assembly = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		category_artillery = {
 			maximum_speed = 0.20
-            supply_consumption_factor = -0.10
 		}
 		
 		
@@ -305,7 +315,7 @@ technologies = {
     fortress_busting = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		category_artillery = {
             soft_attack = 0.15
@@ -326,6 +336,15 @@ technologies = {
             urban = {
                 attack = 0.25
             }
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_technology = {
+					finished_primitive_land_doctrine = 1
+					popup = no
+				}
+			}
 		}
 
 		
@@ -357,7 +376,7 @@ technologies = {
     defensive_infantry = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		ranged_infantry = {
 			defense = 0.15
@@ -399,11 +418,20 @@ technologies = {
     overwhelming_barrage = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		category_artillery = {
 			soft_attack = 0.10
             hard_attack = 0.10
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_technology = {
+					finished_primitive_land_doctrine = 1
+					popup = no
+				}
+			}
 		}
 		
 		doctrine = yes	
@@ -440,7 +468,7 @@ technologies = {
 		doctrine_name = "ELITE_INFANTRY_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		
 		xor = { organised_conscription siege_mastery nobile_heritage tribal_terrain_mastery } 
 
@@ -454,12 +482,9 @@ technologies = {
             research_cost_coeff = 1
         }
 		
-		category_tli_all_infantry = {
-			defense = 0.10
-		}
 		ranged_infantry = {
 			breakthrough = 0.10
-			max_organisation = 5
+			defense = 0.10
 		}
 		
 		doctrine = yes	
@@ -490,12 +515,13 @@ technologies = {
 	draconian_discipline = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		ranged_infantry = {
 			maximum_speed = 0.15
 			max_organisation = 5
 		}
+		experience_loss_factor = 0.1
 		
 		path = {
 			leads_to_tech = the_phalanx 
@@ -532,13 +558,21 @@ technologies = {
     the_phalanx = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		ranged_infantry = {
 			soft_attack = 0.10
             ap_attack = 0.10
 		}
-
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_technology = {
+					finished_primitive_land_doctrine = 1
+					popup = no
+				}
+			}
+		}
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -568,7 +602,7 @@ technologies = {
     wall_of_steel = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		ranged_infantry = {
 			defense = 0.10
@@ -610,7 +644,7 @@ technologies = {
     integrated_support_units = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		category_support_battalions = {
 			max_organisation = 10
@@ -619,7 +653,16 @@ technologies = {
         category_support_artillery = {
             soft_attack = 0.15
         }
-
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_technology = {
+					finished_primitive_land_doctrine = 1
+					popup = no
+				}
+			}
+		}
+		
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -655,7 +698,7 @@ technologies = {
 		doctrine_name = "NOBILE_HERITAGE_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		
 		xor = { organised_conscription siege_mastery elite_infantry tribal_terrain_mastery } 
 
@@ -669,13 +712,7 @@ technologies = {
             research_cost_coeff = 1
         }
 		
-		category_elite_infantry = {
-			max_organisation = 5
-		}
-		category_all_racial_infantry = {
-			max_organisation = 5
-		}
-        special_forces_cap = 0.20
+        special_forces_min = 24
 
 		doctrine = yes	
 		research_cost = 2.25
@@ -705,7 +742,7 @@ technologies = {
 	in_shining_armor = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		category_elite_infantry = {
 			defense = 0.10
@@ -749,7 +786,7 @@ technologies = {
     thirst_for_glory = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		category_elite_infantry = {
 			soft_attack = 0.10
@@ -760,6 +797,14 @@ technologies = {
             maximum_speed = 0.10
 		}
 
+		on_research_complete = {
+			hidden_effect = {
+				set_technology = {
+					finished_primitive_land_doctrine = 1
+					popup = no
+				}
+			}
+		}
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -789,7 +834,7 @@ technologies = {
     glorious_charge = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		category_elite_infantry = {
 			soft_attack = 0.10
@@ -835,7 +880,7 @@ technologies = {
     forged_in_battle = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		category_elite_infantry = {
 			acclimatization_hot_climate_gain_factor = 0.20
@@ -847,6 +892,14 @@ technologies = {
 		}
         special_forces_training_time_factor = -0.20
 
+		on_research_complete = {
+			hidden_effect = {
+				set_technology = {
+					finished_primitive_land_doctrine = 1
+					popup = no
+				}
+			}
+		}
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -882,7 +935,7 @@ technologies = {
 		doctrine_name = "TRIBAL_TERRAIN_MASTERY_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		
 		xor = { organised_conscription siege_mastery elite_infantry nobile_heritage } 
 
@@ -952,7 +1005,7 @@ technologies = {
 	warrior_culture = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		category_tli_all_infantry = {
             soft_attack = 0.15
@@ -995,13 +1048,21 @@ technologies = {
     raiding_parties = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
 		ranged_infantry = {
-            max_organisation = 10
+            max_organisation = 5
 		}
         no_supply_grace = 72
 
+		on_research_complete = {
+			hidden_effect = {
+				set_technology = {
+					finished_primitive_land_doctrine = 1
+					popup = no
+				}
+			}
+		}
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -1032,15 +1093,24 @@ technologies = {
     one_with_nature = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 		
-		category_special_forces = {
-			max_organisation = 0.15
-            supply_consumption_factor = 0.30
-		}
-		category_tli_all_infantry = {
-            defense = 0.15
-			supply_consumption_factor = -0.3
+		ranged_infantry = {
+			Forest = {
+                defence = 0.1
+            }
+            Hills = {
+                defence = 0.1
+            }
+            Mountain = {
+                defence = 0.1
+            }
+            Jungle = {
+                defence = 0.1
+            }
+            Marsh = {
+                defence = 0.1
+            }
 		}
 		
 		path = {
@@ -1079,7 +1149,7 @@ technologies = {
     hit_and_run_doctrinisation = {
 
 		xp_research_type = army
-		xp_unlock_cost = 50
+		xp_unlock_cost = 25
 
 		category_tli_all_infantry = {
             maximum_speed = 0.15
@@ -1087,6 +1157,14 @@ technologies = {
 			army_morale_factor = 0.33
 		}
 
+		on_research_complete = {
+			hidden_effect = {
+				set_technology = {
+					finished_primitive_land_doctrine = 1
+					popup = no
+				}
+			}
+		}
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -1123,7 +1201,7 @@ technologies = {
 		doctrine_name = "EVOLVING_MILITARY_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 1
 
 		path = {
 			leads_to_tech = primacy_of_the_bayonet 
@@ -1135,10 +1213,10 @@ technologies = {
             research_cost_coeff = 1
         }
 		
-		category_tli_all_infantry = {
+		#category_tli_all_infantry = {
 			defense = 0.15
             soft_attack = 0.05
-		}
+		#}
 
 		doctrine = yes	
 		research_cost = 2.25
@@ -1155,6 +1233,7 @@ technologies = {
 		
 		dependencies = {
             tech_civilized = 1
+			finished_primitive_land_doctrine = 1
         }
 		
 		ai_will_do = {
@@ -1176,9 +1255,7 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
-            ap_attack = -0.50
-            soft_attack = 0.40
-            initiative = 0.20
+            soft_attack = 0.2
 		}
 		experience_loss_factor = 0.2
         conscription = 0.02
@@ -1237,8 +1314,8 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
-            soft_attack = 0.20
-            max_organisation = 10
+            soft_attack = 0.1
+			hard_attack = 0.1
 		}
         conscription = 0.01
 
@@ -1628,9 +1705,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
-			supply_consumption_factor = -0.25
-		}
+		supply_consumption_factor = -0.2
         no_supply_grace = 168
         resistance_growth = 0.25
 
@@ -1667,9 +1742,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
-			supply_consumption_factor = 0.1
-		}
+		supply_consumption_factor = 0.1
         resistance_growth = -0.20
         local_non_core_manpower = 0.04
         
@@ -1708,8 +1781,8 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
-			max_organisation = 10
-            initiative = 0.20
+			max_organisation = 5
+            breakthrough = 0.20
             defense = 0.10
 		}
 		
@@ -1798,10 +1871,9 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_armored_infantry = {
-			maximum_speed = 0.25
             armor_value = 5.0
             defense = 0.10
-            breakthrough = 0.15
+            breakthrough = 0.2
 		}
 		
 		path = {
@@ -1845,6 +1917,7 @@ technologies = {
 		category_artillery = {
 			soft_attack = 0.10
             hard_attack = 0.10
+			max_strength = 10
 		}
 
         xor = { iron_discipline }
@@ -1881,10 +1954,8 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
-			max_organisation = 10
+			max_organisation = 5
             soft_attack = 0.10
-			army_morale_factor = 0.2
-            minimum_training_level = 0.15
 		}
 
         xor = { grand_batteries }
@@ -1972,10 +2043,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_tli_all_infantry = {
-			max_organisation = 10
-		}
-        max_planning = 0.40
+        max_planning = 0.25
         planning_speed = -0.10
 
         path = {
@@ -2027,10 +2095,10 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
-			max_organisation = 10
+			max_organisation = 5
 		}
 		
-        planning_speed = 0.70
+        planning_speed = 1
         max_planning = -0.50
 
         path = {
@@ -2074,11 +2142,10 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_line_artillery = {
-			soft_attack = 0.30
-            ap_attack = 0.40
-            hard_attack = 0.30
-            supply_consumption_factor = 0.40
+			soft_attack = 0.25
+            hard_attack = 0.25
 		}
+		supply_consumption_factor = 0.2
 
         path = {
 			leads_to_tech = point_defense_system 
@@ -2176,10 +2243,10 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
-			max_organisation = 10
-			initiative = -0.20
+			breakthrough = -0.25
+			maximum_speed = -0.15
 		}
-        max_planning = 0.40
+        max_planning = 0.25
 
         path = {
 			leads_to_tech = prestige_over_principality 
@@ -2326,7 +2393,7 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
-			ap_attack = 1.25
+			ap_attack = 1
             hard_attack = 0.10
             soft_attack = 0.10
 		}
@@ -2513,9 +2580,6 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_army = {
-			max_organisation = 20
-		}
         max_dig_in = 10
         dig_in_speed_factor = 0.50
 

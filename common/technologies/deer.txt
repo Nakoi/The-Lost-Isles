@@ -1273,9 +1273,7 @@ technologies = {
 		    tech_primitive = 1
 		}
 
-		category_army = {
-			supply_consumption_factor = -0.25
-		}	
+		supply_consumption_factor = -0.25
 
 		path = {
 			leads_to_tech = sowlio_rune
