@@ -1820,10 +1820,11 @@ decisioncat_avt_elusivepath = {
 			tag = AVT
 			has_completed_focus = AVT_perfect_society
 			has_country_flag = avt_elusive_looking_for_husband_flag
+			NOT = { has_country_flag = avt_elusive_no_polyamory }
 		}
 		
-		modifier = {
-			
+		complete_effect = {
+			set_country_flag = avt_elusive_no_polyamory
 		}
 		
 		remove_effect = {
@@ -1880,10 +1881,11 @@ decisioncat_avt_elusivepath = {
 			tag = AVT
 			has_completed_focus = AVT_perfect_society
 			has_country_flag = avt_elusive_looking_for_husband_flag
+			NOT = { has_country_flag = avt_elusive_no_polyamory }
 		}
 		
-		modifier = {
-			
+		complete_effect = {
+			set_country_flag = avt_elusive_no_polyamory
 		}
 		
 		remove_effect = {
@@ -1940,10 +1942,11 @@ decisioncat_avt_elusivepath = {
 			tag = AVT
 			has_completed_focus = AVT_perfect_society
 			has_country_flag = avt_elusive_looking_for_husband_flag
+			NOT = { has_country_flag = avt_elusive_no_polyamory }
 		}
 		
-		modifier = {
-			
+		complete_effect = {
+			set_country_flag = avt_elusive_no_polyamory
 		}
 		
 		remove_effect = {
