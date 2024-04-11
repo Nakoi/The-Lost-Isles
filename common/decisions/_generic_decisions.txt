@@ -474,6 +474,47 @@ gendecision_recruitment = {
 			#}
 		}
 	}
+	
+	gendecision_ai_template_unfucker_9000 = {
+		
+		available = {
+			is_ai = yes
+			has_tech = catapult
+		}
+		
+		visible = {
+    		is_ai = yes
+		}
+
+  		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		complete_effect = {
+			division_template = {
+				name = "Infantry Division (AI)"
+				priority = 2
+				regiments = {
+					ranged_infantry = { x = 0 y = 0 }
+					ranged_infantry = { x = 0 y = 1 }
+					ranged_infantry = { x = 0 y = 2 }
+					ranged_infantry = { x = 0 y = 3 }
+					ranged_infantry = { x = 1 y = 0 }
+					ranged_infantry = { x = 1 y = 1 }
+					ranged_infantry = { x = 1 y = 2 }
+					ranged_infantry = { x = 1 y = 3 }
+					ranged_infantry = { x = 2 y = 0 }
+					ranged_infantry = { x = 2 y = 1 }
+					ranged_infantry = { x = 2 y = 2 }
+					ranged_infantry = { x = 2 y = 3 }
+					cannon_frontline = { x = 3 y = 0 }
+					cannon_frontline = { x = 3 y = 1 }
+				}
+			}
+		}
+	}
 }
 
 gendecision_airskirms = {
