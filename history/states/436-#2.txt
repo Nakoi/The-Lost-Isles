@@ -5,15 +5,14 @@ state={
 		2097 2213 2768 3748 4276 4277 4286 
 	}
 	manpower=234843
-	state_category = large_city
+	state_category = town
 	history = {
-				owner = AVT
-				add_core_of = AVT
-		#		victory_points = { 4277 10 }
-				buildings = {
-					infrastructure = 3
-					industrial_complex = 2
-					arms_factory = 1
-				}
+		owner = AVT
+		add_core_of = AVT
+		buildings = {
+			arms_factory = 1
+			synthetic_refinery = 2
+			infrastructure = 3
+		}
 	}
 }

@@ -10,7 +10,8 @@ state = {
 		add_core_of = AVT
 #		victory_points = { 1339 10 }
 		buildings = {
-			industrial_complex = 2
+			industrial_complex = 1
+			synthetic_refinery = 2
 			infrastructure = 3
 		}
 	}

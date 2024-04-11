@@ -3,7 +3,7 @@ state = {
 	name = "STATE_447"
 	manpower = 296467
 
-	state_category = large_city
+	state_category = city
 
 	resources={
 		luxuries=25.000
@@ -13,10 +13,9 @@ state = {
 	history = {
 		owner = AVT
 		add_core_of = AVT
-#		victory_points = { 4563 10 }
+		victory_points = { 3189 10 }
 		buildings = {
-			arms_factory = 2
-			industrial_complex = 3
+			industrial_complex = 5
 			infrastructure = 3
 		}
 	}
