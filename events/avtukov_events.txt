@@ -916,7 +916,7 @@ country_event = {
 				add_state_core = 463
 				add_state_core = 419
 				
-				set_capital = { state = 380 }
+				set_capital = { state = 377 }
 				inherit_technology = AVT
 			}
 			378 = {
@@ -1691,11 +1691,11 @@ country_event = {
 		hidden_effect = {
 			AVT = { add_ideas = AVT_idea_civil_war_tsar complete_national_focus = AVT_tsar_civwar_focus }
 			EVA = { load_oob = "AVT_CIVILWARTROOPS_EVA" }
-			EVA = { add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
+			EVA = { add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal add_offsite_building = { type = arms_factory level = 1 } }
 			UVA = { load_oob = "AVT_CIVILWARTROOPS_UVA" }
-			UVA = { add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
+			UVA = { add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal add_offsite_building = { type = arms_factory level = 1 } }
 			PVA = { load_oob = "AVT_CIVILWARTROOPS_PVA" }
-			PVA = { add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal }
+			PVA = { add_command_power = 100 add_ideas = AVT_idea_civil_war_loyal add_offsite_building = { type = arms_factory level = 1 } }
 			AVE = { load_oob = "AVT_CIVILWARTROOPS_AVE" }
 			AVE = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel complete_national_focus = AVT_vorony_civwar_focus }
 			AVE = {
@@ -1769,9 +1769,11 @@ country_event = {
 	trigger = {
 		tag = AVT
 		has_war = no
-		country_exists = EVA
-		country_exists = UVA
-		country_exists = PVA
+		OR = {
+			country_exists = EVA
+			country_exists = UVA
+			country_exists = PVA
+		}
 		NOT = {
 			country_exists = AVE
 			country_exists = AVU
