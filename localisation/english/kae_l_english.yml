@@ -14,12 +14,21 @@
  KAE_ideology_continuism_DEF:0 "The Kae Trade League"
  KAE_ideology_isolationism_DEF:0 "The Kae Trade League"
  
+ KAE_ADJ:0 "Kae"
+ 
  KAE_unifier_costag_ideology_militarism:0 "Merchant Republic of Ootari"
  KAE_unifier_costag_ideology_imperialism:0 "Merchant Republic of Ootari"
  KAE_unifier_costag_ideology_visionarism:0 "Merchant Republic of Ootari"
  KAE_unifier_costag_ideology_solidarism:0 "Merchant Republic of Ootari"
  KAE_unifier_costag_ideology_continuism:0 "Merchant Republic of Ootari"
  KAE_unifier_costag_ideology_isolationism:0 "Merchant Republic of Ootari"
+ 
+ KAE_unifier_costag_ideology_militarism_ADJ:0 "Ootari"
+ KAE_unifier_costag_ideology_imperialism_ADJ:0 "Ootari"
+ KAE_unifier_costag_ideology_visionarism_ADJ:0 "Ootari"
+ KAE_unifier_costag_ideology_solidarism_ADJ:0 "Ootari"
+ KAE_unifier_costag_ideology_continuism_ADJ:0 "Ootari"
+ KAE_unifier_costag_ideology_isolationism_ADJ:0 "Ootari"
  
  KAE_unifier_costag_ideology_militarism_DEF:0 "The Merchant Republic of Ootari"
  KAE_unifier_costag_ideology_imperialism_DEF:0 "The Merchant Republic of Ootari"
@@ -69,6 +78,8 @@
  EAK_ideology_solidarism_DEF:0 "The Kae Militia Mutiny"
  EAK_ideology_continuism_DEF:0 "The Kae Militia Mutiny"
  EAK_ideology_isolationism_DEF:0 "The Kae Militia Mutiny"
+ 
+ EAK_ADJ:0 "Kae"
  
  EAK_postcivwar_costag_ideology_militarism:0 "Republic of Kae"
  EAK_postcivwar_costag_ideology_imperialism:0 "Republic of Kae"

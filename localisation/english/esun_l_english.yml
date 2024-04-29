@@ -14,6 +14,8 @@
  ESU_ideology_continuism_DEF:0 "The Holy Republic of Esun"
  ESU_ideology_isolationism_DEF:0 "The Holy Republic of Esun"
  
+ ESU_ADJ:0 "Esun"
+ 
  ESU_unifier_costag_ideology_militarism:0 "Holy Republic of Ootari"
  ESU_unifier_costag_ideology_imperialism:0 "Holy Republic of Ootari"
  ESU_unifier_costag_ideology_visionarism:0 "Holy Republic of Ootari"
@@ -27,6 +29,13 @@
  ESU_unifier_costag_ideology_solidarism_DEF:0 "The Holy Republic of Ootari"
  ESU_unifier_costag_ideology_continuism_DEF:0 "The Holy Republic of Ootari"
  ESU_unifier_costag_ideology_isolationism_DEF:0 "The Holy Republic of Ootari"
+ 
+ ESU_unifier_costag_ideology_militarism_ADJ:0 "Ootari"
+ ESU_unifier_costag_ideology_imperialism_ADJ:0 "Ootari"
+ ESU_unifier_costag_ideology_visionarism_ADJ:0 "Ootari"
+ ESU_unifier_costag_ideology_solidarism_ADJ:0 "Ootari"
+ ESU_unifier_costag_ideology_continuism_ADJ:0 "Ootari"
+ ESU_unifier_costag_ideology_isolationism_ADJ:0 "Ootari"
  
  UES_ideology_militarism:0 "The Second Rising"
  UES_ideology_imperialism:0 "The Second Rising"
@@ -42,6 +51,8 @@
  UES_ideology_continuism_DEF:0 "The Second Rising"
  UES_ideology_isolationism_DEF:0 "The Second Rising"
  
+ UES_ADJ:0 "New Believer Rebel"
+ 
  ESP_ideology_militarism:0 "Ootari Pony Republic"
  ESP_ideology_imperialism:0 "Ootari Pony Republic"
  ESP_ideology_visionarism:0 "Ootari Pony Republic"
@@ -55,8 +66,12 @@
  ESP_ideology_solidarism_DEF:0 "The Ootari Pony Republic"
  ESP_ideology_continuism_DEF:0 "The Ootari Pony Republic"
  ESP_ideology_isolationism_DEF:0 "The Ootari Pony Republic"
+ 
+ ESP_ADJ:0 "Ootari Pony"
 
 ###CHARACTER NAMES###
+ ESU_president_name:0 "Apple Forest"
+ 
  ESU_adv_fucking_einstein_name:0 "Smoldering Stone"
  advtrait_esu_einsteintrait:0 "Unhinged Genius"
  ESU_adv_skyadmiralmare_name:0 "Burning Sky"
