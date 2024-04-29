@@ -25,11 +25,11 @@ characters={
 	
 	AVT_cherry_cupcake={
         name=AVT_cherry_cupcake_name
-        #portraits={
+        portraits={
             civilian={
-                large="GFX/leaders/AVT/AVT_Tsar.tga"
+                large="GFX/leaders/AVT/AVT_cherry_cupcake.tga"
             }
-        #}
+        }
         country_leader={
             ideology=visionarism_thing
             expire="1984.1.1.1"

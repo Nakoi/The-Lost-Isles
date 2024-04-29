@@ -1,4 +1,19 @@
 characters={
+	
+	KAE_council ={
+        name= KAE_council_name
+        portraits={
+            civilian={
+                large="GFX/leaders/KAE/KAE_council.tga"
+            }
+        }
+        country_leader={
+            ideology=solidarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
     KAE_General_1={
         name=KAE_General_1_name
         portraits={

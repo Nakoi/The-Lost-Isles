@@ -1,19 +1,34 @@
 characters={
-SUA_Army_leader_01={
-        name=SUA_Army_leader_01_name
+
+    SUA_prince ={
+        name= SUA_prince_name
         portraits={
-            army={
-		large="GFX/leaders/SUA/SUA_Army_leader_01.tga"
-            }	
+            civilian={
+                large="GFX/leaders/SUA/SUA_prince.tga"
+            }
         }
-	field_marshal={
-            traits = {}
-            skill = 1
-            attack_skill = 1
-            defense_skill = 1
-            planning_skill = 1
-            logistics_skill = 1
+        country_leader={
+            ideology=imperialism_thing
+            expire="1984.1.1.1"
+            id=-1
         }
     }
+	
+	SUA_Army_leader_01={
+			name=SUA_Army_leader_01_name
+			portraits={
+				army={
+			large="GFX/leaders/SUA/SUA_Army_leader_01.tga"
+				}	
+			}
+		field_marshal={
+				traits = {}
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+		}
 
-}
+	}

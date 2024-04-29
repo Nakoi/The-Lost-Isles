@@ -1,4 +1,19 @@
 characters={
+
+ESU_president ={
+        name= ESU_president_name
+        portraits={
+            civilian={
+                large="GFX/leaders/esu/ESU_president.tga"
+            }
+        }
+        country_leader={
+            ideology=visionarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
 ESU_Army_leader_01={
         name=ESU_Army_leader_01_name
         portraits={
@@ -88,32 +103,6 @@ ESU_adv_fucking_einstein = {
 			}
 			available = {
 				has_completed_focus = ESU_sience_division
-			}
-		}
-	}
-}
-
-ESU_adv_skyadmiralmare = {
-        name = ESU_adv_skyadmiralmare_name
-		gender = female
-		
-        portraits = {
-            army = {
-				small = "gfx/interface/ideas/AdvisorMarePlaceholder.dds"
-            }
-		}
-		
-		advisor = {
-			cost = 150
-			slot = air_chief
-			allowed  = {
-				original_tag = ESU
-			}
-			traits = {
-				chieftrait_airsupport_3
-			}
-			available = {
-				has_completed_focus = ESU_air_stuff
 			}
 		}
 	}
