@@ -95,23 +95,24 @@
  EAK_postcivwar_costag_ideology_continuism_DEF:0 "The Republic of Kae"
  EAK_postcivwar_costag_ideology_isolationism_DEF:0 "The Republic of Kae"
  
- EAK_esupuppet_costag_ideology_militarism:0 "United Autonomous Prefectures of South Ootari"
- EAK_esupuppet_costag_ideology_imperialism:0 "United Autonomous Prefectures of South Ootari"
- EAK_esupuppet_costag_ideology_visionarism:0 "United Autonomous Prefectures of South Ootari"
- EAK_esupuppet_costag_ideology_solidarism:0 "United Autonomous Prefectures of South Ootari"
- EAK_esupuppet_costag_ideology_continuism:0 "United Autonomous Prefectures of South Ootari"
- EAK_esupuppet_costag_ideology_isolationism:0 "United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costag_ideology_militarism:0 "Republic of South Ootari"
+ EAK_esupuppet_costag_ideology_imperialism:0 "Republic of South Ootari"
+ EAK_esupuppet_costag_ideology_visionarism:0 "Republic of South Ootari"
+ EAK_esupuppet_costag_ideology_solidarism:0 "Republic of South Ootari"
+ EAK_esupuppet_costag_ideology_continuism:0 "Republic of South Ootari"
+ EAK_esupuppet_costag_ideology_isolationism:0 "Republic of South Ootari"
  
- EAK_esupuppet_costag_ideology_militarism_DEF:0 "The United Autonomous Prefectures of South Ootari"
- EAK_esupuppet_costag_ideology_imperialism_DEF:0 "The United Autonomous Prefectures of South Ootari"
- EAK_esupuppet_costag_ideology_visionarism_DEF:0 "The United Autonomous Prefectures of South Ootari"
- EAK_esupuppet_costag_ideology_solidarism_DEF:0 "The United Autonomous Prefectures of South Ootari"
- EAK_esupuppet_costagideology_continuism_DEF:0 "The United Autonomous Prefectures of South Ootari"
- EAK_esupuppet_costag_ideology_isolationism_DEF:0 "The United Autonomous Prefectures of South Ootari"
+ EAK_esupuppet_costag_ideology_militarism_DEF:0 "The Republic of South Ootari"
+ EAK_esupuppet_costag_ideology_imperialism_DEF:0 "The Republic of South Ootari"
+ EAK_esupuppet_costag_ideology_visionarism_DEF:0 "The Republic of South Ootari"
+ EAK_esupuppet_costag_ideology_solidarism_DEF:0 "The Republic of South Ootari"
+ EAK_esupuppet_costagideology_continuism_DEF:0 "The Republic of South Ootari"
+ EAK_esupuppet_costag_ideology_isolationism_DEF:0 "The Republic of South Ootari"
  
 
 ###CHARACTER NAMES###
- 
+ KAE_council_name:0 "The Executive Council"
+ KAE_mutineer_mare_name:0 "Boiling Lake"
  
 ###POLITICAL PARTIES###
 
@@ -357,7 +358,7 @@
  EAK_local_militia_desc:0 ""
  EAK_supply_shipments:0 "And Their Weapons!"
  EAK_supply_shipments_desc:0 ""
- EAK_rebuild_railways:0 "The Boiling Sea Trail"
+ EAK_rebuild_railways:0 "The Boiling Lake Trail"
  EAK_rebuild_railways_desc:0 ""
  EAK_fortify_strongholds:0 "Defend the Headquarters!"
  EAK_fortify_strongholds_desc:0 ""
@@ -370,11 +371,12 @@
  
  EAK_P1:0 "Pick up the Pieces..."
  EAK_P1_desc:0 ""
- EAK_2:0 "...And Plot our Vengeance"
+ EAK_2:0 "...And Plot our Vengeance?"
  EAK_2_desc:0 ""
- EAK_3:0 "Weather the Storm..."
+ EAK_3:0 "...And Weather the Storm?"
  EAK_3_desc:0 ""
- EAK_4:0 "The Era of Progress"
+ 
+ EAK_4:0 "Help from the Ootari National Unity Movement"
  EAK_4_desc:0 ""
  EAK_end_the_military_government:0 "End the Military Government"
  EAK_end_the_military_government_desc:0 ""
@@ -382,6 +384,10 @@
  EAK_settle_north_cilarine_desc:0 ""
  EAK_hold_elections:0 "Hold Elections"
  EAK_hold_elections_desc:0 ""
+ EAK_adopt_central_govt_laws:0 "Adopt Central Government Laws"
+ EAK_adopt_central_govt_laws_desc:0 ""
+ EAK_south_ootari:0 "The Sister Republic Emerges!"
+ EAK_south_ootari_desc:0 ""
  
  EAK_Finding_A_Way_Out:0 "Breaking Out of the Gulf"
  EAK_Finding_A_Way_Out_desc:0 ""
@@ -593,7 +599,7 @@
  EAK_gulfcucking_09:0 "Untouchable Merchants"
  EAK_gulfcucking_10:0 "Victory in the Crimson Corsair War"
  
- EAK_economic_relief:0 "Post-War Economic Crisis Relief"
+ EAK_economic_relief:0 "Economic Crisis Relief from Esun"
  EAK_revenge:0 "Desire for Revenge"
  KAE_armed_traders_idea:0 "Armed Merchant Ships"
  KAE_protected_traders_idea:0 "Diverted Warship Production"
