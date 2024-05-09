@@ -320,7 +320,10 @@ decisioncat_eak_breakout = {
 	}
 
 	visible = {
-		has_completed_focus = EAK_Finding_A_Way_Out
+		OR = {
+			has_completed_focus = EAK_Finding_A_Way_Out
+			has_completed_focus = EAK_4
+		}
 		OR = {
 			has_idea = EAK_gulfcucking_01
 			has_idea = EAK_gulfcucking_02
