@@ -299,10 +299,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			load_oob = "KAE_MILITIA_VIETCONG"
 			swap_ideas = {
 				add_idea = EAK_populist_movement_idea_02
 				remove_idea = EAK_populist_movement_idea
+			}
+			custom_effect_tooltip = KAEtt_vietcong_oob
+			hidden_effect = { 
+				load_oob = "KAE_MILITIA_VIETCONG"
 			}
 		}
 	}
@@ -358,7 +361,8 @@ focus_tree = {
 		id = EAK_2
 		icon = EAK_GFX_Vengance
 		prerequisite = { focus = EAK_P1 }
-		x = 1
+		mutually_exclusive = { focus = EAK_3 }
+		x = -1
 		y = 1
 		relative_position_id = EAK_P1
 		cost = 5
@@ -367,11 +371,29 @@ focus_tree = {
 		}
 		
 		available = {
-			
+			always = no
 		}
 		
 		completion_reward = {
 			add_ideas = EAK_revenge
+			IF = {
+				limit = {
+					has_idea = EAK_populist_movement_idea_01
+				}
+				swap_ideas = {
+					add_idea = EAK_military_government
+					remove_idea = EAK_populist_movement_idea_01
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = EAK_populist_movement_idea_02
+				}
+				swap_ideas = {
+					add_idea = EAK_military_government
+					remove_idea = EAK_populist_movement_idea_02
+				}
+			}
 		}
 	}
 
@@ -382,7 +404,8 @@ focus_tree = {
 		id = EAK_3
 		icon = EAK_GFX_Weather_The_Storm
 		prerequisite = { focus = EAK_P1 }
-		x = -1
+		mutually_exclusive = { focus = EAK_2 }
+		x = 1
 		y = 1
 		relative_position_id = EAK_P1
 		cost = 5
@@ -391,7 +414,7 @@ focus_tree = {
 		}
 		
 		available = {
-			
+			always = no
 		}
 		
 		completion_reward = {
@@ -422,8 +445,8 @@ focus_tree = {
 	focus = {
 		id = EAK_4
 		icon = EAK_GFX_GreenLine_Going_Up
-		prerequisite = { focus = EAK_2 focus = EAK_3 }
-		x = 0
+		prerequisite = { focus = EAK_3 }
+		x = 3
 		y = 2
 		relative_position_id = EAK_P1
 		cost = 10
@@ -432,68 +455,10 @@ focus_tree = {
 		}
 		
 		available = {
-			OR = {
-				has_idea = EAK_gulfcucking_05
-				has_idea = EAK_gulfcucking_09
-			}
-			hidden_trigger = {
-				OR = {
-					has_idea = EAK_gulfcucking_05
-					has_idea = EAK_gulfcucking_06
-					has_idea = EAK_gulfcucking_07
-					has_idea = EAK_gulfcucking_08
-					has_idea = EAK_gulfcucking_09
-				}
-			}
 		}
 		
 		completion_reward = {
-			remove_ideas = EAK_economic_relief
-			IF = {
-				limit = {
-					has_idea = policy_collective
-				}
-				swap_ideas = {
-					remove_idea = policy_collective
-					add_idea = policy_capitalist
-				}
-			}
-			IF = {
-				limit = {
-					has_idea = policy_mercantilism
-				}
-				swap_ideas = {
-					remove_idea = policy_mercantilism
-					add_idea = policy_capitalist
-				}
-			}
-			IF = {
-				limit = {
-					has_idea = policy_feudalism
-				}
-				swap_ideas = {
-					remove_idea = policy_feudalism
-					add_idea = policy_capitalist
-				}
-			}
-			IF = {
-				limit = {
-					has_idea = policy_oligopoly
-				}
-				swap_ideas = {
-					remove_idea = policy_oligopoly
-					add_idea = policy_capitalist
-				}
-			}
-			IF = {
-				limit = {
-					has_idea = policy_laissez_faire
-				}
-				swap_ideas = {
-					remove_idea = policy_laissez_faire
-					add_idea = policy_capitalist
-				}
-			}
+			unlock_decision_category_tooltip = decisioncat_eak_breakout
 		}
 	}
 	
@@ -501,10 +466,9 @@ focus_tree = {
 		id = EAK_end_the_military_government
 		icon = EAK_GFX_No_Military_Government
 		prerequisite = { focus = EAK_4 }
-		prerequisite = { focus = EAK_Trade_Decisions }
 		x = 0
-		y = 5
-		relative_position_id = EAK_P1
+		y = 1
+		relative_position_id = EAK_4
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -520,13 +484,99 @@ focus_tree = {
 			}
 		}
 	}
-
+	
+	focus = {
+		id = EAK_hold_elections
+		icon = EAK_GFX_Hold_Elections
+		prerequisite = { focus = EAK_end_the_military_government }
+		x = -1
+		y = 2
+		relative_position_id = EAK_4
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			country_event = { id = eak_event.8 days = 4 }
+			add_war_support = 0.25
+			add_popularity = {
+				ideology = ideology_visionarism
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = ideology_isolationism
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.05
+			}
+		}
+	}
+	
+	focus = {
+		id = EAK_adopt_central_govt_laws
+		#icon = 
+		prerequisite = { focus = EAK_end_the_military_government }
+		x = 1
+		y = 2
+		relative_position_id = EAK_4
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			add_stability = -0.2
+			add_timed_idea = { idea = EAK_disorganised_government_idea days = 365 }
+		}
+	}
+	
+	focus = {
+		id = EAK_south_ootari
+		icon = EAK_GFX_Hold_Elections
+		prerequisite = { focus = EAK_adopt_central_govt_laws }
+		prerequisite = { focus = EAK_hold_elections }
+		x = 0
+		y = 3
+		relative_position_id = EAK_4
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = EAK_south_ootari_republic_idea
+				add_idea = EAK_south_ootari_republic_idea_2
+			}
+			ESU = {
+				set_autonomy = {
+					target = EAK
+					autonomy_state = autonomy_puppet
+					freedom_level = 0.2
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+		}
+	}
+	
 	focus = {
 		id = EAK_settle_north_cilarine
 		icon = EAK_GFX_North_Of_Cillarine
-		prerequisite = { focus = EAK_end_the_military_government }
 		prerequisite = { focus = EAK_Cilarine_War_Goal }
-		x = 2
+		x = -6
 		y = 6
 		relative_position_id = EAK_P1
 		cost = 10
@@ -561,33 +611,13 @@ focus_tree = {
 			575 = { add_manpower = 55000 }
 		}
 	}
-	
-	focus = {
-		id = EAK_hold_elections
-		icon = EAK_GFX_Hold_Elections
-		prerequisite = { focus = EAK_end_the_military_government }
-		x = 0
-		y = 7
-		relative_position_id = EAK_P1
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		available = {
-		}
-		
-		completion_reward = {
-			country_event = { id = eak_event.8 days = 4 }
-		}
-	}
 
 	focus = {
 		id = EAK_Navy_Buildup
 		icon = EAK_GFX_Navy_Buildup
-		prerequisite = { focus = EAK_2 }
-		x = 3
-		y = 2
+		prerequisite = { focus = EAK_Finding_A_Way_Out }
+		x = -6
+		y = 3
 		relative_position_id = EAK_P1
 		cost = 10
 		ai_will_do = {
@@ -721,8 +751,8 @@ focus_tree = {
 	focus = {
 		id = EAK_Finding_A_Way_Out
 		icon = EAK_GFX_Gulf
-		prerequisite = { focus = EAK_3 }
-		x = -2
+		prerequisite = { focus = EAK_2 }
+		x = -4
 		y = 1
 		relative_position_id = EAK_3
 		cost = 10
@@ -809,7 +839,6 @@ focus_tree = {
 		icon = EAK_GFX_Victory_Corsairs
 		prerequisite = { focus = EAK_armed_traders }
 		prerequisite = { focus = EAK_griffon_trade }
-		prerequisite = { focus = EAK_4 }
 		
 		x = 0
 		y = 2
