@@ -883,7 +883,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = KAE
+				always = yes
 			}
 				
 			modifier = {
@@ -895,7 +895,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = KAE
+				always = yes
 			}
 				
 			modifier = {
@@ -909,7 +909,7 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				country_exists = KAE
+				always = yes
 			}
 				
 			modifier = {
@@ -930,7 +930,7 @@ ideas = {
 				conscription_factor = -0.2
 				army_attack_factor = -0.25
 				army_core_attack_factor = 0.25
-				army_defence_factor = 0.15
+				army_defence_factor = -0.15
 				army_core_defence_factor = 0.15
 			}
 		}
@@ -944,12 +944,55 @@ ideas = {
 				
 			modifier = {
 				conscription_factor = -0.1
+				army_attack_factor = -0.1
 				army_core_attack_factor = 0.1
-				army_defence_factor = 0.1
+				army_defence_factor = -0.1
+				army_core_defence_factor = 0.1
+				ideology_visionarism_drift = 0.1
+				ideology_solidarism_drift = 0.03
+				ideology_militarism_drift = 0.03
+			}
+		}
+		
+		EAK_south_ootari_republic_idea_2 = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				army_core_attack_factor = 0.05
 				army_core_defence_factor = 0.05
 				ideology_visionarism_drift = 0.1
 				ideology_solidarism_drift = 0.03
 				ideology_militarism_drift = 0.03
+			}
+		}
+		
+		EAK_gulfcucking_austerity_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_expected_value = -0.1
+				political_power_factor = -0.2
+			}
+		}
+		
+		EAK_disorganised_government_idea = {
+			picture = great_depression
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				political_power_cost = 0.25
+				stability_weekly = 0.005
 			}
 		}
 		
@@ -1088,7 +1131,12 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				always = yes
+				OR = {
+					has_idea = EAK_gulfcucking_01
+					has_idea = EAK_gulfcucking_02
+					has_idea = EAK_gulfcucking_03
+					has_idea = EAK_gulfcucking_04
+				}
 			}
 				
 			modifier = {
@@ -1112,7 +1160,7 @@ ideas = {
 			
 			targeted_modifier = {
 				tag = CIL
-				attack_bonus_against = 0.05
+				attack_bonus_against = 0.1
 			}
 		}
 		
