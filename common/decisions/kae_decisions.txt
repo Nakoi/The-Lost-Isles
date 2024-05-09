@@ -1696,6 +1696,51 @@ decisioncat_eak_breakout = {
 		}
 	}
 	
+	EAK_breakout_wartime_austerity_decision = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = EAK
+		}
+		
+		available = {
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 100
+		}
+
+		days_remove = 70
+
+		visible = {
+			OR = {
+				has_idea = EAK_gulfcucking_01
+				has_idea = EAK_gulfcucking_02
+				has_idea = EAK_gulfcucking_03
+				has_idea = EAK_gulfcucking_04
+				has_idea = EAK_gulfcucking_05
+				has_idea = EAK_gulfcucking_06
+				has_idea = EAK_gulfcucking_07
+				has_idea = EAK_gulfcucking_08
+				has_idea = EAK_gulfcucking_09
+			}
+			tag = EAK
+		}
+		
+		modifier = {
+			stability_weekly = -0.005
+		}
+		
+		remove_effect = {
+			add_timed_idea = { idea = EAK_gulfcucking_austerity_idea days = 180 }
+		}
+	}
+	
 	EAK_breakout_decision_0102 = {
 
 		icon = eng_propaganda_campaigns
@@ -1706,12 +1751,7 @@ decisioncat_eak_breakout = {
 		
 		available = {
 			has_navy_size = {
-				size > 3
-				type = capital_ship
-			}
-			has_navy_size = {
-				size > 7
-				type = screen_ship
+				size > 9
 			}
 		}
 
@@ -1751,12 +1791,7 @@ decisioncat_eak_breakout = {
 		
 		available = {
 			has_navy_size = {
-				size > 5
-				type = capital_ship
-			}
-			has_navy_size = {
-				size > 11
-				type = screen_ship
+				size > 15
 			}
 		}
 
@@ -1797,12 +1832,7 @@ decisioncat_eak_breakout = {
 		
 		available = {
 			has_navy_size = {
-				size > 7
-				type = capital_ship
-			}
-			has_navy_size = {
-				size > 15
-				type = screen_ship
+				size > 23
 			}
 		}
 
@@ -1842,18 +1872,7 @@ decisioncat_eak_breakout = {
 
 		available = {
 			has_navy_size = {
-				size > 2
-				archetype = ship_hull_heavy
-			}
-		}
-		available = {
-			has_navy_size = {
-				size > 7
-				type = capital_ship
-			}
-			has_navy_size = {
-				size > 15
-				type = screen_ship
+				size > 31
 			}
 		}
 
@@ -1893,18 +1912,7 @@ decisioncat_eak_breakout = {
 
 		available = {
 			has_navy_size = {
-				size > 2
-				archetype = ship_hull_heavy
-			}
-		}
-		available = {
-			has_navy_size = {
-				size > 9
-				type = capital_ship
-			}
-			has_navy_size = {
-				size > 19
-				type = screen_ship
+				size > 39
 			}
 		}
 
@@ -1944,18 +1952,7 @@ decisioncat_eak_breakout = {
 		
 		available = {
 			has_navy_size = {
-				size > 2
-				archetype = ship_hull_heavy
-			}
-		}
-		available = {
-			has_navy_size = {
-				size > 11
-				type = capital_ship
-			}
-			has_navy_size = {
-				size > 23
-				type = screen_ship
+				size > 47
 			}
 		}
 
@@ -1995,18 +1992,7 @@ decisioncat_eak_breakout = {
 		
 		available = {
 			has_navy_size = {
-				size > 5
-				archetype = ship_hull_heavy
-			}
-		}
-		available = {
-			has_navy_size = {
-				size > 11
-				type = capital_ship
-			}
-			has_navy_size = {
-				size > 23
-				type = screen_ship
+				size > 55
 			}
 		}
 
@@ -2046,18 +2032,7 @@ decisioncat_eak_breakout = {
 		
 		available = {
 			has_navy_size = {
-				size > 5
-				archetype = ship_hull_heavy
-			}
-		}
-		available = {
-			has_navy_size = {
-				size > 15
-				type = capital_ship
-			}
-			has_navy_size = {
-				size > 31
-				type = screen_ship
+				size > 63
 			}
 		}
 
