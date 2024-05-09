@@ -587,6 +587,8 @@
  EAK_populist_movement_idea_02:0 "Army of the Downtrodden"
  EAK_military_government:0 "Military Government"
  EAK_south_ootari_republic_idea:0 "Transition to a Civilian Government"
+ EAK_south_ootari_republic_idea_2:0 "The Sister Republic"
+ EAK_disorganised_government_idea:0 "Confusion in the Government"
  
  EAK_gulfcucking_01:0 "Cut Off from the Open Seas"
  EAK_gulfcucking_02:0 "Cut Off from the Open Seas"
@@ -598,6 +600,7 @@
  EAK_gulfcucking_08:0 "Fighting Our Way Out"
  EAK_gulfcucking_09:0 "Untouchable Merchants"
  EAK_gulfcucking_10:0 "Victory in the Crimson Corsair War"
+ EAK_gulfcucking_austerity_idea:0 "Austerity Measures"
  
  EAK_economic_relief:0 "Economic Crisis Relief from Esun"
  EAK_revenge:0 "Desire for Revenge"
@@ -651,6 +654,7 @@
  EAK_rebuild_civ_workshops_2:0 "Complete Infrastructure Reconstruction Efforts"
  
  decisioncat_eak_breakout:0 "Breaking Out of the Gulf"
+ EAK_breakout_wartime_austerity_decision:0 "Encourage Austerity"
  EAK_breakout_decision_0102:0 "Reinforce the Special Escort Fleet"
  EAK_breakout_decision_0203:0 "Reinforce the Special Escort Fleet"
  EAK_breakout_decision_0304:0 "Reinforce the Special Escort Fleet"
@@ -767,9 +771,15 @@
  
  eak_event.8.t:0 "A Poor Kirin's Vote"
  eak_event.8.d:0 "something something poor guy votes for first time blah blah blah"
- eak_event.8.a:0 "so wholesome! ty for playing eak!!!!!!"
+ eak_event.8.a:0 "so wholesome! :DDDD"
+ 
+ eak_event.10.t:0 "path change thing"
+ eak_event.10.d:0 "do we want to juche or do we want an actual functioning country?"
+ eak_event.10.a:0 "Damn everykirin else! Our revenge will be complete!"
+ eak_event.10.b:0 "There is nothing we can do. We will submit to the Kurida government."
  
 ###TOOLTIP LOCALISATION###
  KAEtt_esu_ring_puppet_forming:0 "The North Ootari Protectorate will be formed out of Esun's starting states."
  KAEtt_child_labor_lobby:0 "§RThe Labor Safety Laws national focus will now require 300 Political Power!§!"
+ KAEtt_vietcong_oob:0 "Several brigades of §YSouthern sympathisers§! will be formed!"
  kae_militiacrisis_its_happening:0 "The Militia Veteran Crisis hasn't occured"
