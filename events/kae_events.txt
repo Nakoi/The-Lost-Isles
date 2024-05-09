@@ -689,6 +689,17 @@ country_event = {
 		name = eak_event.1.a
 		complete_national_focus = EAK_P1
 		EAK = { set_cosmetic_tag = EAK_postcivwar_costag }
+		IF = {
+			limit = {
+				ESU = {
+					has_same_ideology = yes
+				}
+			}
+			ROOT = { country_event = { id = eak_event.10 days = 7 } }
+		}
+		ELSE = {
+			ROOT = { complete_national_focus = EAK_2 }
+		}
 	}
 }
 
@@ -799,6 +810,26 @@ country_event = {
 				}
 			}	
 		}
+	}
+}
+
+country_event = {
+	id = eak_event.10
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event eak_event.10"}
+	title = eak_event.10.t
+	desc = eak_event.10.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = eak_event.10.a #total hippogriff death
+		complete_national_focus = EAK_2
+	}
+	
+	option = {
+		name = eak_event.10.b #esun puppet
+		complete_national_focus = EAK_3
 	}
 }
 
