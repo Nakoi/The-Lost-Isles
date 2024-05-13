@@ -551,6 +551,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = KAEtt_starting_ootari_brotherswar
 			SUA = { country_event = { id = kae_event.1 } }
 		}
 	}
