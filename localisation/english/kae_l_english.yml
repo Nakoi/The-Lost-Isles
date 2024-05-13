@@ -730,6 +730,19 @@
  kae_event.1.a:0 "aight fuck it sure"
  kae_event.1.b:0 "fuck off you BITCH!!!!!!"
  
+ kae_ootariwar.1.t:0 "As Expected"
+ kae_ootariwar.1.d:0 "The Suatoans were warned, and leave us no other choice. Our economy cannot truly recover without an alternate route into the open seas, and we are now compelled to pave the way with steel and lead."
+ kae_ootariwar.1.a:0 "But... what about Esun?"
+ 
+ kae_ootariwar.2.t:0 "The Impossible"
+ kae_ootariwar.2.d:0 "Surprisingly, the Suatoan mentality to prevent bloodshed was strong enough for them to submit, rather than fight back. The nation will live to see its golden age yet!"
+ kae_ootariwar.2.a:0 "Huzzah!"
+ 
+ kae_ootariwar.3.t:0 "Crisis in the South"
+ kae_ootariwar.3.d:0 "The Executive Council of Kae had deemed it neccessary to invade Suatoa. This stunt ended the decades-long, so-called "Concert of Ootari" on a low note, once again thrusting our wayward kin into the chaos and desctruction of war, an unfortunately common occurance that we had hoped to have eradicated with decades of diplomacy.\n\nAlas, war has come to Ootari yet again. The Ootari Nationalist Movement insists on completely securing our territorial integrity by means of intervention, while other parties in Parliament abstain from making their stances known."
+ kae_ootariwar.3.a:0 "The Nationalists are right! It is our duty to intervene in this war, and settle only for unconditional surrender!"
+ kae_ootariwar.3.b:0 "We cannot afford a war. Let the backwaters of Ootari settle it between one another."
+ 
  kae_event.2.t:0 "Businesskirin's Paradise"
  kae_event.2.d:0 "the government is auctioning away land in the new northern territories for extremely cheap. rich businesskirin are fiercly competing over each and every parcel of land that is up for auction. a sizeable plot of land in sebut is contested by (war profiteer kirin) and (civilian industrialist kirin) at the foremost, while local farmers are putting together everything they can spare in hopes of buying back their wrongly confiscated land."
  kae_event.2.a:0 "war profiteer kirin wins the bid"
@@ -779,6 +792,9 @@
  eak_event.10.b:0 "There is nothing we can do. We will submit to the Kurida government."
  
 ###TOOLTIP LOCALISATION###
+ KAEtt_starting_ootari_brotherswar:0 "This political stunt may well lead to the §ROotari Brother's War!§!\n\nIf §YEsun§! is controlled by a §YVisionarist§! government, they may §Rintervene!§!"
+ KAEtt_ootari_brotherswar_esun_intervention:0 "§REsun is almost guaranteed to intervene in 3 weeks' time!§!"
+ 
  KAEtt_esu_ring_puppet_forming:0 "The North Ootari Protectorate will be formed out of Esun's starting states."
  KAEtt_child_labor_lobby:0 "§RThe Labor Safety Laws national focus will now require 300 Political Power!§!"
  KAEtt_vietcong_oob:0 "Several brigades of §YSouthern sympathisers§! will be formed!"
