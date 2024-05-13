@@ -1,6 +1,7 @@
 add_namespace = kae_startevent
 add_namespace = kae_militiacrisis
 add_namespace = kae_event
+add_namespace = kae_ootariwar
 add_namespace = eak_event
 
 ###EARLYGAME###
@@ -556,10 +557,7 @@ country_event = {
 	option = {
 		name = kae_event.1.a
 		KAE = {
-			set_autonomy = {
-				target = SUA
-				autonomy_state = autonomy_dominion
-			}
+			country_event = { id = kae_ootariwar.2 days = 3 }
 		}
 		ai_chance = {
 			base = 0	
@@ -569,25 +567,141 @@ country_event = {
 	option = {
 		name = kae_event.1.b
 		KAE = {
+			country_event = { id = kae_ootariwar.1 days = 3 }
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+
+country_event = {
+	id = kae_ootariwar.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_ootariwar.1"}
+	title = kae_ootariwar.1.t
+	desc = kae_ootariwar.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_ootariwar.1.a
+		KAE = {
+			create_wargoal = {
+				type = annex_everything
+				target = SUA
+			}
+		}
+		custom_effect_tooltip = KAEtt_ootari_brotherswar_esun_intervention
+		ESU = { country_event = { id = kae_ootariwar.3 days = 21 } }
+		ESU = {
+			diplomatic_relation = {
+				country = SUA
+				relation = guarantee
+				active = no
+			}
+			diplomatic_relation = {
+				country = KAE
+				relation = guarantee
+				active = no
+			}
+		}
+		KAE = {
+			diplomatic_relation = {
+				country = SUA
+				relation = guarantee
+				active = no
+			}
+			diplomatic_relation = {
+				country = ESU
+				relation = guarantee
+				active = no
+			}
+		}
+		SUA = {
+			diplomatic_relation = {
+				country = ESU
+				relation = guarantee
+				active = no
+			}
+			diplomatic_relation = {
+				country = KAE
+				relation = guarantee
+				active = no
+			}
+		}
+	}
+}
+
+country_event = {
+	id = kae_ootariwar.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_ootariwar.2"}
+	title = kae_ootariwar.2.t
+	desc = kae_ootariwar.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_ootariwar.1.a
+		KAE = {
+			set_autonomy = {
+				target = SUA
+				autonomy_state = autonomy_dominion
+			}
+		}
+	}
+}
+
+country_event = {
+	id = kae_ootariwar.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_ootariwar.3"}
+	title = kae_ootariwar.3.t
+	desc = kae_ootariwar.3.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = kae_ootariwar.3.a
+		ESU = {
+			custom_effect_tooltip = ESUtt_nationalist_party_opinion_increase_tooltip
+				IF = {
+					limit = {
+						has_idea = ESU_nationalist_party_opinion_low
+					}
+					swap_ideas = {
+						remove_idea = ESU_nationalist_party_opinion_low
+						add_idea = ESU_nationalist_party_opinion_mid
+					}
+				}
+				IF = {
+					limit = {
+						has_idea = ESU_nationalist_party_opinion_mid
+					}
+					swap_ideas = {
+						remove_idea = ESU_nationalist_party_opinion_mid
+						add_idea = ESU_nationalist_party_opinion_high
+					}
+				}
 			create_wargoal = {
 				type = annex_everything
 				target = SUA
 			}
 			create_wargoal = {
 				type = annex_everything
-				target = FRE
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = AIN
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = SEN
+				target = KAE
 			}
 		}
 		ai_chance = {
-			base = 100
+			base = 100	
+		}
+	}
+	option = {
+		name = kae_ootariwar.3.b
+		ai_chance = {
+			base = 0	
 		}
 	}
 }

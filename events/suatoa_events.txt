@@ -1,0 +1,33 @@
+add_namespace = sua_tempevent
+
+
+country_event = {
+ 	id = sua_tempevent.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event kae_startevent.6"}
+ 	title = sua_tempevent.1.title
+ 	desc = sua_tempevent.1.desc
+	picture = GFX_news_event_chinese_soldiers_march
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SUA
+		date > 958.2.1
+	}
+ 	option = {
+		name = sua_tempevent.1.a
+		SUA = {
+			create_wargoal = {
+				type = annex_everything
+				target = FRE
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = SEN
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AIN
+			}
+		}	
+	}
+}
