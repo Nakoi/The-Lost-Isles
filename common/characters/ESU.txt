@@ -1,6 +1,6 @@
 characters={
 
-ESU_president ={
+	ESU_president ={
         name= ESU_president_name
         portraits={
             civilian={
@@ -11,6 +11,38 @@ ESU_president ={
             ideology=visionarism_thing
             expire="1984.1.1.1"
             id=-1
+        }
+    }
+	
+	ESU_presidentmare ={
+        name= ESU_presidentmare_name
+        portraits={
+            civilian={
+                large="GFX/leaders/esu/ESU_FaithFlame.tga"
+            }
+        }
+    }
+	
+	ESU_evilmare ={
+        name= ESU_evilmare_name
+        portraits={
+            civilian={
+                large="GFX/leaders/esu/ESU_LeafBlaze.tga"
+            }
+        }
+		country_leader={
+            ideology=militarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	ESU_moeruhoshi ={
+        name= ESU_moeruhoshi_name
+        portraits={
+            civilian={
+                large="GFX/leaders/esu/ESU_MoeruHoshi.tga"
+            }
         }
     }
 	
