@@ -80,18 +80,26 @@ country_event = {
 }
 
 country_event = {
-	id = esu_event.00
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.00"}
-	title = esu_event.00.t
-	desc = esu_event.00.d
+	id = esu_event.100
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event esu_event.100"}
+	title = esu_event.100.t
+	desc = esu_event.100.d
 	picture = GFX_news_event_chinese_soldiers_march
 	is_triggered_only = yes
 	major = no
 	
 	option = {
-		name = esu_event.00.b
+		name = esu_event.100.a
 		set_country_flag = esu_schizo_victory
 		complete_national_focus = ESU_militarism
+		set_politics = {
+			ruling_party = ideology_militarism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = ideology_militarism
+			popularity = 0.35
+		}
 	}
 }
 
@@ -236,9 +244,20 @@ country_event = {
 	
 	option = {
 		name = esu_event.9.a
-		set_country_flag = esu_sane_lategame_tree
 		country_event = { id = esu_event.10 days = 14 }
-		#complete_national_focus = ESU_a_new_dawn
+		custom_effect_tooltip = ESUtt_first_president_death
+		hidden_effect = {
+            kill_country_leader = yes
+            add_country_leader_role = {
+                character = ESU_presidentmare
+                promote_leader = yes
+                country_leader = {
+                    ideology = visionarism_thing
+                    expire = "1965.1.1"
+                    id=-1
+                }
+            }
+        }
 	}
 }
 
@@ -266,6 +285,7 @@ country_event = {
 			remove_ideas = ESU_minor_party_opinion_mid
 			remove_ideas = ESU_minor_party_opinion_high
 		}
+		
 	}
 }
 
