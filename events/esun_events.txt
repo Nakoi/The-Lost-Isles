@@ -76,6 +76,18 @@ country_event = {
 		add_ideas = ESU_new_believer_party_opinion_mid
 		add_ideas = ESU_nationalist_party_opinion_mid
 		add_ideas = ESU_minor_party_opinion_mid
+		hidden_effect = {
+            retire_country_leader = yes
+            add_country_leader_role = {
+                character = ESU_president
+                promote_leader = yes
+                country_leader = {
+                    ideology = visionarism_thing
+                    expire = "1965.1.1"
+                    id=-1
+                }
+            }
+        }
 	}
 }
 
@@ -285,7 +297,6 @@ country_event = {
 			remove_ideas = ESU_minor_party_opinion_mid
 			remove_ideas = ESU_minor_party_opinion_high
 		}
-		
 	}
 }
 
