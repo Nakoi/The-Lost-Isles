@@ -1,4 +1,19 @@
 characters={
+
+	GAL_president ={
+        name= GAL_president_name
+        portraits={
+            civilian={
+                large="GFX/leaders/GAL/GAL_president.tga"
+            }
+        }
+        country_leader={
+            ideology=continuism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
 GAL_Army_leader_01={
         name=GAL_Army_leader_01_name
         portraits={

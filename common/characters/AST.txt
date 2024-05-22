@@ -1,0 +1,16 @@
+characters={
+	
+	AST_queen ={
+        name= AST_queen_name
+        portraits={
+            civilian={
+                large="GFX/leaders/AST/AST_queen.tga"
+            }
+        }
+        country_leader={
+            ideology=isolationism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}

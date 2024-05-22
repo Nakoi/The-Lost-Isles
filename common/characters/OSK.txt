@@ -1,4 +1,19 @@
 characters={
+
+	OSK_cherry_ribbons ={
+        name= OSK_cherry_ribbons_name
+        portraits={
+            civilian={
+                large="GFX/leaders/OSK/OSK_cherry_ribbons.tga"
+            }
+        }
+        country_leader={
+            ideology=continuism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
 OSK_Army_leader_01={
         name=OSK_Army_leader_01_name
         portraits={
