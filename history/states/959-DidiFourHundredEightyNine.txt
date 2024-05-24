@@ -3,14 +3,16 @@ state = {
 	name = "STATE_959"
 	manpower = 276945
 
-	state_category = city
+	state_category = town
 
 	history = {
 		owner = NAC
 		add_core_of = NAC
 		victory_points = { 810 10 }
-#		buildings = {
-#		}
+		buildings = {
+			industrial_complex = 1
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {
