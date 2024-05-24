@@ -1,0 +1,16 @@
+characters={
+	
+	BOR_papiez ={
+        name= BOR_papiez_name
+        portraits={
+            civilian={
+                large="GFX/leaders/BOR/BOR_papiez.tga"
+            }
+        }
+        country_leader={
+            ideology=militarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}

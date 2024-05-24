@@ -1,0 +1,16 @@
+characters={
+	
+	OAC_garios_gabinus ={
+        name= OAC_garios_gabinus_name
+        portraits={
+            civilian={
+                large="GFX/leaders/OAC/OAC_garios_gabinus.tga"
+            }
+        }
+        country_leader={
+            ideology=imperialism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}

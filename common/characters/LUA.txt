@@ -1,4 +1,19 @@
 characters={
+
+	LUA_prime_ministress ={
+        name= LUA_prime_ministress_name
+        portraits={
+            civilian={
+                large="GFX/leaders/LUA/LUA_prime_ministress.tga"
+            }
+        }
+        country_leader={
+            ideology=imperialism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
 LUA_Army_leader_01={
         name=LUA_Army_leader_01_name
         portraits={
