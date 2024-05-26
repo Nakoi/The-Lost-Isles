@@ -3,14 +3,15 @@ state = {
 	name = "STATE_968"
 	manpower = 253498
 
-	state_category = city
+	state_category = town
 
 	history = {
 		owner = MAK
 		add_core_of = MAK
 		victory_points = { 5408 10 }
-#		buildings = {
-#		}
+		buildings = {
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {

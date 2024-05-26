@@ -1,16 +1,17 @@
 state = {
 	id = 977
 	name = "STATE_977"
-	manpower = 263149
+	manpower = 163149
 
-	state_category = city
+	state_category = rural
 
 	history = {
 		owner = MAK
 		add_core_of = MAK
 #		victory_points = { 3003 10 }
-#		buildings = {
-#		}
+		buildings = {
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

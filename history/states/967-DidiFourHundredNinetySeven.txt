@@ -9,8 +9,14 @@ state = {
 		owner = VAK
 		add_core_of = VAK
 		victory_points = { 1694 10 }
-#		buildings = {
-#		}
+		buildings = {
+			arms_factory = 1
+			dockyard = 1
+			industrial_complex = 2
+			1694={
+				naval_base = 3
+			}
+		}
 	}
 
 	provinces = {

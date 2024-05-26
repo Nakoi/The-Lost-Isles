@@ -1,9 +1,9 @@
 state = {
 	id = 976
 	name = "STATE_976"
-	manpower = 313965
+	manpower = 113965
 
-	state_category = city
+	state_category = rural
 
 	resources={
 		wood=17.000
@@ -15,8 +15,9 @@ state = {
 		owner = MAK
 		add_core_of = MAK
 #		victory_points = { 3182 10 }
-#		buildings = {
-#		}
+		buildings = {
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {
