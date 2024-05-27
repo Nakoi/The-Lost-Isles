@@ -1,25 +1,26 @@
 state = {
 	id = 923
 	name = "STATE_923"
-	manpower = 534489
+	manpower = 1534489
 
-	state_category = city
+	state_category = megalopolis
 
 	history = {
 		owner = IGU
 		add_core_of = IGU
 
 		victory_points = {
-		2151 20
+		2151 30
 		}
 
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			dockyard = 2
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 3
+			air_base = 3
 			2151={
-				naval_base = 1
+				naval_base = 8
 			}
 		}
 	}

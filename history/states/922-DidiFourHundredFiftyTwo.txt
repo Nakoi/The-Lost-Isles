@@ -1,32 +1,26 @@
 state = {
 	id = 922
 	name = "STATE_922"
-	manpower = 376964
+	manpower = 346964
 
 	state_category = city
 
 	resources={
-		chemicals=4.000
-		luxuries=4.000
 		wood=4.000
-		rare_metals=4.000
-		wheat=4.000
-		iron=4.000	
-		crystals=4.000
-		coal=4.000
-		
 	}
 
 	history = {
 		owner = IGU
 		add_core_of = IGU
-#		victory_points = { 1961 10 }
+		victory_points = { 295 10 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
-			synthetic_refinery = 1
-			dockyard = 1
+			dockyard = 2
+			295={
+				naval_base = 3
+			}
 		}
 	}
 

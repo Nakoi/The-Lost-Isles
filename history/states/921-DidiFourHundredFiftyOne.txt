@@ -3,7 +3,7 @@ state = {
 	name = "STATE_921"
 	manpower = 256584
 
-	state_category = city
+	state_category = town
 
 	history = {
 		owner = IGU
@@ -11,9 +11,7 @@ state = {
 #		victory_points = { 3981 10 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			synthetic_refinery = 1
+			synthetic_refinery = 3
 		}
 	}
 

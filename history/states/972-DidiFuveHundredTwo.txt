@@ -1,9 +1,9 @@
 state = {
 	id = 972
 	name = "STATE_972"
-	manpower = 354469
+	manpower = 284469
 
-	state_category = city
+	state_category = large_town
 
 	resources={
 		coal=37.000
@@ -14,9 +14,11 @@ state = {
 	history = {
 		owner = IGU
 		add_core_of = IGU
-#		victory_points = { 5761 10 }
-#		buildings = {
-#		}
+		victory_points = { 5761 10 }
+		buildings = {
+			synthetic_refinery = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {
