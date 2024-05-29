@@ -14,6 +14,12 @@ air_experience = 30
 
 set_oob = "CRU_ARMY"
 
+recruit_character = CRU_king
+
+recruit_character = CRU_army_leader_01
+recruit_character = CRU_army_leader_02
+recruit_character = CRU_army_leader_03
+
 set_politics = {
 	ruling_party = ideology_solidarism
 }

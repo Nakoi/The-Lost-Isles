@@ -16,6 +16,10 @@ set_oob = "BOR_ARMY"
 
 recruit_character = BOR_papiez
 
+recruit_character = BOR_Army_leader_01
+recruit_character = BOR_Army_leader_02
+recruit_character = BOR_Army_leader_03
+
 set_politics = {
 	ruling_party = ideology_militarism
 }
