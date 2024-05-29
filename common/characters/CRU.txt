@@ -1,24 +1,24 @@
 characters={
 	
-	BOR_papiez ={
-        name= BOR_papiez_name
+	CRU_king ={
+        name= CRU_king_name
         portraits={
             civilian={
-                large="GFX/leaders/BOR/BOR_papiez.tga"
+                large="GFX/leaders/CRU/CRU_king.tga"
             }
         }
         country_leader={
-            ideology=militarism_thing
+            ideology=solidarism_thing
             expire="1984.1.1.1"
             id=-1
         }
     }
 	
-	BOR_Army_leader_01={
-        name=BOR_Army_leader_01_name
+	CRU_army_leader_01={
+        name=CRU_army_leader_01_name
         portraits={
             army={
-                large="GFX/leaders/BOR/BOR_Army_leader_01.tga"
+                large="GFX/leaders/CRU/CRU_army_leader_01.tga"
             }
         }
 	    field_marshal={
@@ -31,11 +31,11 @@ characters={
         }
     }
 	
-	BOR_Army_leader_02={
-        name=BOR_Army_leader_02_name
+	CRU_army_leader_02={
+        name=CRU_army_leader_02_name
         portraits={
             army={
-                large="GFX/leaders/BOR/BOR_Army_leader_02.tga"
+                large="GFX/leaders/CRU/CRU_army_leader_02.tga"
             }
         }
 	    corps_commander={
@@ -48,11 +48,11 @@ characters={
         }
     }
 	
-	BOR_Army_leader_03={
-        name=BOR_Army_leader_03_name
+	CRU_army_leader_03={
+        name=CRU_army_leader_name
         portraits={
             army={
-                large="GFX/leaders/BOR/BOR_Army_leader_03.tga"
+                large="GFX/leaders/CRU/CRU_army_leader_03.tga"
             }
         }
 	    corps_commander={
