@@ -16,6 +16,10 @@ set_oob = "AST_ARMY"
 
 recruit_character = AST_queen
 
+recruit_character = AST_army_leader_01
+recruit_character = AST_army_leader_02
+recruit_character = AST_army_leader_03
+
 set_politics = {
 	ruling_party = ideology_isolationism
 }

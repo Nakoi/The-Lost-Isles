@@ -16,6 +16,10 @@ set_oob = "VED_ARMY"
 
 recruit_character = VED_duke
 
+recruit_character = VED_army_leader_01
+recruit_character = VED_army_leader_02
+recruit_character = VED_army_leader_03
+
 set_politics = {
 	ruling_party = ideology_militarism
 }
