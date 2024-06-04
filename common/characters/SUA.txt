@@ -30,5 +30,38 @@ characters={
 				logistics_skill = 1
 			}
 		}
-
-	}
+	
+	SUA_army_leader_02={
+        name=SUA_army_leader_01_name
+        portraits={
+            army={
+                large="GFX/leaders/SUA/SUA_army_leader_02.tga"
+            }
+        }
+	    corps_commander ={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+	
+	SUA_army_leader_03={
+        name=SUA_army_leader_02_name
+        portraits={
+            army={
+                large="GFX/leaders/SUA/SUA_army_leader_03.tga"
+            }
+        }
+	    corps_commander ={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+}

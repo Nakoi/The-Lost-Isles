@@ -13,4 +13,55 @@ characters={
             id=-1
         }
     }
+	
+	AST_army_leader_01={
+        name=AST_army_leader_01_name
+        portraits={
+            army={
+                large="GFX/leaders/AST/AST_army_leader_01.tga"
+            }
+        }
+	    corps_commander ={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+	
+	AST_army_leader_02={
+        name=AST_army_leader_02_name
+        portraits={
+            army={
+                large="GFX/leaders/AST/AST_army_leader_02.tga"
+            }
+        }
+	    corps_commander ={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+	
+	AST_army_leader_03={
+        name=AST_army_leader_03_name
+        portraits={
+            army={
+                large="GFX/leaders/AST/AST_army_leader_03.tga"
+            }
+        }
+	    field_marshal ={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
 }
