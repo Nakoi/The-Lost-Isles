@@ -45,7 +45,6 @@ ideas = {
 		}
 		
 		genidea_militarism_buff_1 = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -80,7 +79,6 @@ ideas = {
 		}
 		
 		genidea_imperialism_buff_1 = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -2559,3 +2557,4 @@ ideas = {
 			}
 		}
 	}
+}
