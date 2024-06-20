@@ -1,27 +1,36 @@
 characters={
-
-	TYK_queen ={
-        name= TYK_queen_name
+	
+	CIL_leader ={
+        name= CIL_leader_name
         portraits={
             civilian={
-                large="GFX/leaders/TYK/TYK_queen.tga"
+                large="GFX/leaders/CIL/CIL_leader.tga"
             }
         }
         country_leader={
-            ideology=isolationism_thing
+            ideology=continuism_thing
             expire="1984.1.1.1"
             id=-1
         }
+		
+		field_marshal={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
     }
 	
-TYK_Army_leader_01={
-        name=TYK_Army_leader_01_name
+	CIL_army_leader_01={
+        name=VED_army_leader_01_name
         portraits={
             army={
-		large="GFX/leaders/TYK/Pony_Male_Savinki_Army_leader_01.tga"
-            }	
+                large="GFX/leaders/CIL/CIL_army_leader_01.tga"
+            }
         }
-	field_marshal={
+	    corps_commander ={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -30,15 +39,15 @@ TYK_Army_leader_01={
             logistics_skill = 1
         }
     }
-
-TYK_Army_leader_02={
-        name=TYK_Army_leader_02_name
+	
+	CIL_army_leader_02={
+        name=VED_army_leader_02_name
         portraits={
             army={
-		large="GFX/leaders/TYK/Pony_Female_Savinki_Army_leader_02.tga"
-            }	
+                large="GFX/leaders/CIL/CIL_army_leader_02.tga"
+            }
         }
-	corps_commander={
+	    corps_commander ={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -47,15 +56,15 @@ TYK_Army_leader_02={
             logistics_skill = 1
         }
     }
-
-TYK_Army_leader_03={
-        name=TYK_Army_leader_03_name
+	
+	CIL_army_leader_03={
+        name=VED_army_leader_03_name
         portraits={
             army={
-		large="GFX/leaders/TYK/Pony_Male_Savinki_Army_leader_03.tga"
-            }	
+                large="GFX/leaders/CIL/CIL_army_leader_03.tga"
+            }
         }
-	corps_commander={
+	    corps_commander ={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -64,15 +73,15 @@ TYK_Army_leader_03={
             logistics_skill = 1
         }
     }
-
-TYK_Army_leader_04={
-        name=TYK_Army_leader_04_name
+	
+	CIL_army_leader_04={
+        name=VED_army_leader_04_name
         portraits={
             army={
-		large="GFX/leaders/TYK/Pony_Female_Savinki_Army_leader_04.tga"
-            }	
+                large="GFX/leaders/CIL/CIL_army_leader_04.tga"
+            }
         }
-	corps_commander={
+	    corps_commander ={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -81,15 +90,15 @@ TYK_Army_leader_04={
             logistics_skill = 1
         }
     }
-
-TYK_Army_leader_05={
-        name=TYK_Army_leader_05_name
+	
+	CIL_army_leader_05={
+        name=VED_army_leader_05_name
         portraits={
             army={
-		large="GFX/leaders/TYK/Pony_Female_Savinki_Army_leader_05.tga"
-            }	
+                large="GFX/leaders/CIL/CIL_army_leader_05.tga"
+            }
         }
-	corps_commander={
+	    corps_commander ={
             traits = {}
             skill = 1
             attack_skill = 1
@@ -98,5 +107,4 @@ TYK_Army_leader_05={
             logistics_skill = 1
         }
     }
-
 }

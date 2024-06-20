@@ -1,0 +1,66 @@
+characters={
+	
+	CAI_captain ={
+        name= CAI_captain_name
+        portraits={
+            civilian={
+                large="GFX/leaders/CAI/CAI_captain.tga"
+            }
+        }
+        country_leader={
+            ideology=continuism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	CAI_army_leader_01={
+        name=CAI_army_leader_01_name
+        portraits={
+            army={
+                large="GFX/leaders/CAI/CAI_army_leader_1.tga"
+            }
+        }
+	    field_marshal={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+	
+	CAI_army_leader_02={
+        name=CAI_army_leader_02_name
+        portraits={
+            army={
+                large="GFX/leaders/CAI/CAI_army_leader_2.tga"
+            }
+        }
+	    corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+	
+	CAI_army_leader_03={
+        name=CAI_army_leader_03_name
+        portraits={
+            army={
+                large="GFX/leaders/CAI/CAI_army_leader_3.tga"
+            }
+        }
+	    corps_commander={
+            traits = {}
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
