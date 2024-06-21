@@ -1,23 +1,59 @@
 spriteTypes = {	
 
+
+#MILITARISM
 	SpriteType = {
 		name = "GFX_idea_genidea_militarism_buff_1"
 		texturefile = "gfx/interface/ideas/generic/genidea_militarism_buff_1.dds"
 	}
 
 	SpriteType = {
+		name = "GFX_idea_genidea_militarism_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_militarism_buff_1.dds"
+	}
+
+#IMPERIALISM
+	SpriteType = {
 		name = "GFX_idea_genidea_imperialism_buff_1"
 		texturefile = "gfx/interface/ideas/generic/genidea_imperialism_buff_1.dds"
 	}
-	
+
+	SpriteType = {
+		name = "GFX_idea_genidea_imperialism_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_imperialism_buff_1.dds"
+	}
+
+#VISIONARISM
 	SpriteType = {
 		name = "GFX_idea_genidea_visionarism_buff_1"
 		texturefile = "gfx/interface/ideas/generic/genidea_visionarism_buff_1.dds"
 	}
 
 	SpriteType = {
+		name = "GFX_idea_genidea_visionarism_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_visionarism_buff_1.dds"
+	}
+
+#SOLIDARISM
+	SpriteType = {
 		name = "GFX_idea_genidea_solidarism_buff_1"
 		texturefile = "gfx/interface/ideas/generic/genidea_solidarism_buff_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_genidea_solidarism_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_solidarism_buff_1.dds"
+	}
+
+#CONTINUISM
+	SpriteType = {
+		name = "GFX_idea_genidea_continuism_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_continuism_buff_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_genidea_continuism_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_continuism_buff_1.dds"
 	}
 }
 	
