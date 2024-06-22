@@ -1,9 +1,9 @@
 state = {
 	id = 820
 	name = "STATE_820"
-	manpower = 299481
+	manpower = 499481
 
-	state_category = city
+	state_category = large_city
 
 	resources={
 		chemicals=75.000
@@ -13,9 +13,11 @@ state = {
 	history = {
 		owner = AFL
 		add_core_of = AFL
-#		victory_points = { 6256 10 }
-#		buildings = {
-#		}
+		victory_points = { 2441 20 }
+		buildings = {
+			arms_factory = 3
+			dockyard = 2
+		}
 	}
 
 	provinces = {

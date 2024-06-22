@@ -9,8 +9,10 @@ state = {
 		owner = AFL
 		add_core_of = AFL
 		victory_points = { 1602 10 }
-#		buildings = {
-#		}
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 3
+		}
 	}
 
 	provinces = {

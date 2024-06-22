@@ -1,18 +1,16 @@
 state = {
 	id = 806
 	name = "STATE_806"
-	manpower = 313195
+	manpower = 113195
 
-	state_category = city
+	state_category = rural
 
 	history = {
 		owner = NEF
 		add_core_of = NEF
 #		victory_points = { 6084 10 }
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
+			
 		}
 	}
 
