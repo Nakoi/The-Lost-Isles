@@ -3,7 +3,7 @@ state = {
 	name = "STATE_829"
 	manpower = 231489
 
-	state_category = city
+	state_category = town
 
 	resources={	
 		crystals=58.000
@@ -14,9 +14,10 @@ state = {
 	history = {
 		owner = GRU
 		add_core_of = GRU
-#		victory_points = { 427 10 }
-#		buildings = {
-#		}
+#		victory_points = { 6237 10 }
+		buildings = {
+			synthetic_refinery = 3
+		}
 	}
 
 	provinces = {

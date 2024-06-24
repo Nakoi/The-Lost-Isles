@@ -1,7 +1,7 @@
 state = {
 	id = 815
 	name = "STATE_815"
-	manpower = 286723
+	manpower = 386723
 
 	state_category = city
 
@@ -13,9 +13,15 @@ state = {
 	history = {
 		owner = GRU
 		add_core_of = GRU
-#		victory_points = { 6280 10 }
-#		buildings = {
-#		}
+		victory_points = { 6280 10 }
+		buildings = {
+			dockyard = 1
+			industrial_complex = 2
+			arms_factory = 1
+			6280 = {
+				naval_base = 2
+			}
+		}
 	}
 
 	provinces = {
