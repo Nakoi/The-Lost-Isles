@@ -55,6 +55,18 @@ spriteTypes = {
 		name = "GFX_idea_genidea_continuism_buff_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_continuism_buff_1.dds"
 	}
+
+#ISOLATIONISM
+	SpriteType = {
+		name = "GFX_idea_genidea_isolationism_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_isolationism_buff_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_genidea_isolationism_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_isolationism_buff_1.dds"
+	}
+
 }
 	
 	
