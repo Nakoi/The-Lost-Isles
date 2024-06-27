@@ -125,6 +125,15 @@ spriteTypes = {
 		name = "GFX_idea_genidea_anarchy_buff_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_anarchy_buff_1.dds"
 	}
+#REGRESSIVE
+	SpriteType = {
+		name = "GFX_idea_genidea_regressive_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_regressive_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_regressive_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_regressive_buff_1.dds"
+	}
 }
 	
 	
