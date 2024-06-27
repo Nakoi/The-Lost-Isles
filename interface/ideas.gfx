@@ -87,6 +87,25 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic/genidea_democracy_buff_1.dds"
 	}
 
+#OLIGARCHY
+	SpriteType = {
+		name = "GFX_idea_genidea_oligarchy_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_oligarchy_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_oligarchy_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_oligarchy_buff_1.dds"
+	}
+
+#ARISTOCRACY
+	SpriteType = {
+		name = "GFX_idea_genidea_aristocracy_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_aristocracy_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_aristocracy_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_aristocracy_buff_1.dds"
+	}
 }
 	
 	
