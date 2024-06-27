@@ -67,6 +67,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic/genidea_isolationism_buff_1.dds"
 	}
 
+#DESPOTISM
+	SpriteType = {
+		name = "GFX_idea_genidea_despotism_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_despotism_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_despotism_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_despotism_buff_1.dds"
+	}
+
+#DEMOCRACY
+	SpriteType = {
+		name = "GFX_idea_genidea_democracy_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_democracy_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_democracy_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_democracy_buff_1.dds"
+	}
+
 }
 	
 	
