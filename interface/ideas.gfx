@@ -106,6 +106,17 @@ spriteTypes = {
 		name = "GFX_idea_genidea_aristocracy_buff_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_aristocracy_buff_1.dds"
 	}
+
+#AUTH DEMOCRACY
+	SpriteType = {
+		name = "GFX_idea_genidea_auth_democracy_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_auth_democracy_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_auth_democracy_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_auth_democracy_buff_1.dds"
+	}
+
 }
 	
 	
