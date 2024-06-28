@@ -134,6 +134,34 @@ spriteTypes = {
 		name = "GFX_idea_genidea_regressive_buff_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_regressive_buff_1.dds"
 	}
+
+#CONSERVATIVE
+	SpriteType = {
+		name = "GFX_idea_genidea_conservative_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_conservative_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_conservative_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_conservative_buff_1.dds"
+	}
+#PROGRESSIVE
+	SpriteType = {
+		name = "GFX_idea_genidea_progressive_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_progressive_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_progressive_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_progressive_buff_1.dds"
+	}
+#REACTIONARY
+	SpriteType = {
+		name = "GFX_idea_genidea_reactionary_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_reactionary_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_reactionary_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_reactionary_buff_1.dds"
+	}
 }
 	
 	
