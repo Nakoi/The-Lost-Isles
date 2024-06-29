@@ -200,6 +200,24 @@ spriteTypes = {
 		name = "GFX_idea_genidea_mercantilism_buff_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_mercantilism_buff_1.dds"
 	}
+#FEUDALISM
+	SpriteType = {
+		name = "GFX_idea_genidea_feudalism_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_feudalism_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_feudalism_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_feudalism_buff_1.dds"
+	}
+#ECO-OLIGARCHY
+	SpriteType = {
+		name = "GFX_idea_genidea_eco_oligarchy_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_eco_oligarchy_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_eco_oligarchy_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_eco_oligarchy_buff_1.dds"
+	}
 }
 	
 	
