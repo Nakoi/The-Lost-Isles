@@ -181,6 +181,16 @@ spriteTypes = {
 		name = "GFX_idea_genidea_futurist_buff_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_futurist_buff_1.dds"
 	}
+
+#FUTURIST
+	SpriteType = {
+		name = "GFX_idea_genidea_collective_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_collective_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_collective_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_collective_buff_1.dds"
+	}
 }
 	
 	
