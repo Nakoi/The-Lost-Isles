@@ -162,6 +162,15 @@ spriteTypes = {
 		name = "GFX_idea_genidea_reactionary_buff_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_reactionary_buff_1.dds"
 	}
+#REVOLUTIONARY
+	SpriteType = {
+		name = "GFX_idea_genidea_revolutionary_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_revolutionary_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_revolutionary_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_revolutionary_buff_1.dds"
+	}
 }
 	
 	
