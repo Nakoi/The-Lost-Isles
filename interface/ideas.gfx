@@ -191,6 +191,15 @@ spriteTypes = {
 		name = "GFX_idea_genidea_collective_buff_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_collective_buff_1.dds"
 	}
+#MERCANTILISM
+	SpriteType = {
+		name = "GFX_idea_genidea_mercantilism_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_mercantilism_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_mercantilism_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_mercantilism_buff_1.dds"
+	}
 }
 	
 	
