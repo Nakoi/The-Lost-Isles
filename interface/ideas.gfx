@@ -218,6 +218,16 @@ spriteTypes = {
 		name = "GFX_idea_genidea_eco_oligarchy_buff_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_eco_oligarchy_buff_1.dds"
 	}
+#CAPITALISM
+	SpriteType = {
+		name = "GFX_idea_genidea_capitalism_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_capitalism_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_capitalism_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_capitalism_buff_1.dds"
+	}
+
 }
 	
 	
