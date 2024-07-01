@@ -227,7 +227,15 @@ spriteTypes = {
 		name = "GFX_idea_genidea_capitalism_buff_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_capitalism_buff_1.dds"
 	}
-
+#LAISSEZ_FAIRE
+	SpriteType = {
+		name = "GFX_idea_genidea_laissez_faire_buff_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_laissez_faire_buff_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_laissez_faire_buff_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_laissez_faire_buff_1.dds"
+	}	
 }
 	
 	
