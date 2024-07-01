@@ -241,6 +241,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_path_of_conqueror"
 		texturefile = "gfx/interface/ideas/generic/genidea_path_of_conqueror.dds"
 	}
+#PATH OF THE SUBJUGATOR
+	SpriteType = {
+		name = "GFX_idea_genidea_path_of_subjugator"
+		texturefile = "gfx/interface/ideas/generic/genidea_path_of_subjugator.dds"
+	}
 }
 	
 	
