@@ -236,6 +236,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_laissez_faire_buff_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_laissez_faire_buff_1.dds"
 	}	
+#PATH OF THE CONQUEROR
+	SpriteType = {
+		name = "GFX_idea_genidea_path_of_conqueror"
+		texturefile = "gfx/interface/ideas/generic/genidea_path_of_conqueror.dds"
+	}
 }
 	
 	
