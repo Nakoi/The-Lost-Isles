@@ -246,6 +246,15 @@ spriteTypes = {
 		name = "GFX_idea_genidea_path_of_subjugator"
 		texturefile = "gfx/interface/ideas/generic/genidea_path_of_subjugator.dds"
 	}
+#PRIDE OF ARMY
+	SpriteType = {
+		name = "GFX_idea_genidea_pride_of_army_1"
+		texturefile = "gfx/interface/ideas/generic/genidea_pride_of_army_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_genidea_pride_of_army_2"
+		texturefile = "gfx/interface/ideas/generic/genidea_pride_of_army_1.dds"
+	}
 }
 	
 	
