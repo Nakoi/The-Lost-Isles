@@ -1,14 +1,13 @@
 state = {
 	id = 98
 	name = "STATE_98"
-	manpower = 193652
+	manpower = 23652
 
-	state_category = city
+	state_category = small_island
 
 	history = {
 		owner = ALT
 		add_core_of = ALT
-		victory_points = { 2831 10 }
 #		buildings = {
 #		}
 	}
