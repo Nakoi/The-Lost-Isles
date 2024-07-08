@@ -255,6 +255,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_pride_of_army_2"
 		texturefile = "gfx/interface/ideas/generic/genidea_pride_of_army_1.dds"
 	}
+#SCHOOLING INVESTMENT
+	SpriteType = {
+		name = "GFX_idea_genidea_schooling_investment"
+		texturefile = "gfx/interface/ideas/generic/genidea_schooling_investment.dds"
+	}
 }
 	
 	
