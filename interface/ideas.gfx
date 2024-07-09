@@ -270,6 +270,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_expand_resource_extraction"
 		texturefile = "gfx/interface/ideas/generic/genidea_expand_resource_extraction.dds"
 	}
+#CONNECT THE NATION
+	SpriteType = {
+		name = "GFX_idea_genidea_connect_the_nation"
+		texturefile = "gfx/interface/ideas/generic/genidea_connect_the_nation.dds"
+	}
 }
 	
 	
