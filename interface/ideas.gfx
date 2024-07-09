@@ -260,6 +260,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_schooling_investment"
 		texturefile = "gfx/interface/ideas/generic/genidea_schooling_investment.dds"
 	}
+#BOOMING TRADE
+	SpriteType = {
+		name = "GFX_idea_genidea_booming_trade"
+		texturefile = "gfx/interface/ideas/generic/genidea_booming_trade.dds"
+	}
 }
 	
 	
