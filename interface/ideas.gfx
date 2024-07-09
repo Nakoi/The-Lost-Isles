@@ -265,6 +265,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_booming_trade"
 		texturefile = "gfx/interface/ideas/generic/genidea_booming_trade.dds"
 	}
+#EXPAND RESOURCE EXTRACTION
+	SpriteType = {
+		name = "GFX_idea_genidea_expand_resource_extraction"
+		texturefile = "gfx/interface/ideas/generic/genidea_expand_resource_extraction.dds"
+	}
 }
 	
 	
