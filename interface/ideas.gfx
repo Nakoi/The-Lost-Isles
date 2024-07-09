@@ -275,6 +275,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_connect_the_nation"
 		texturefile = "gfx/interface/ideas/generic/genidea_connect_the_nation.dds"
 	}
+#FEED THE NATION
+	SpriteType = {
+		name = "GFX_idea_genidea_feed_the_nation"
+		texturefile = "gfx/interface/ideas/generic/genidea_feed_the_nation.dds"
+	}
 }
 	
 	
