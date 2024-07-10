@@ -280,6 +280,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_feed_the_nation"
 		texturefile = "gfx/interface/ideas/generic/genidea_feed_the_nation.dds"
 	}
+#NEW CONSTRUCTION TECHNIQUES
+	SpriteType = {
+		name = "GFX_idea_genidea_new_construction_techniques"
+		texturefile = "gfx/interface/ideas/generic/genidea_new_construction_techniques.dds"
+	}
 }
 	
 	
