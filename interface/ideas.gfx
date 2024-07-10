@@ -290,6 +290,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_proto_industrialization"
 		texturefile = "gfx/interface/ideas/generic/genidea_proto_industrialization.dds"
 	}
+#BOOMING SHIP CONSTRUCTION
+	SpriteType = {
+		name = "GFX_idea_genidea_booming_ship_construction"
+		texturefile = "gfx/interface/ideas/generic/genidea_booming_ship_construction.dds"
+	}
 }
 	
 	
