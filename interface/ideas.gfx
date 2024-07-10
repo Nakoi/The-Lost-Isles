@@ -285,6 +285,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_new_construction_techniques"
 		texturefile = "gfx/interface/ideas/generic/genidea_new_construction_techniques.dds"
 	}
+#PROTO INDUSTRIALIZATION
+	SpriteType = {
+		name = "GFX_idea_genidea_proto_industrialization"
+		texturefile = "gfx/interface/ideas/generic/genidea_proto_industrialization.dds"
+	}
 }
 	
 	
