@@ -305,6 +305,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_grand_air_fleet"
 		texturefile = "gfx/interface/ideas/generic/genidea_grand_air_fleet.dds"
 	}
+#FORTIFY THE BORDER
+	SpriteType = {
+		name = "GFX_idea_genidea_fortify_the_border"
+		texturefile = "gfx/interface/ideas/generic/genidea_fortify_the_border.dds"
+	}
 }
 	
 	
