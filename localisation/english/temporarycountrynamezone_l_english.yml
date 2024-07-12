@@ -14,6 +14,8 @@ GAL_ideology_solidarism_DEF:0 "The Republic of Gallund"
 GAL_ideology_continuism_DEF:0 "The Republic of Gallund"
 GAL_ideology_isolationism_DEF:0 "The Republic of Gallund"
 
+GAL_ADJ:0 "Gallundian"
+
 
 SCO_ideology_militarism:0 "Dragon Kingdom of Sconya"
 SCO_ideology_imperialism:0 "Dragon Kingdom of Sconya"
@@ -28,6 +30,8 @@ SCO_ideology_visionarism_DEF:0 "The Dragon Kingdom of Sconya"
 SCO_ideology_solidarism_DEF:0 "The Dragon Kingdom of Sconya"
 SCO_ideology_continuism_DEF:0 "The Dragon Kingdom of Sconya"
 SCO_ideology_isolationism_DEF:0 "The Dragon Kingdom of Sconya"
+
+SCO_ADJ:0 "Sconyan"
 
 
 AST_ideology_militarism:0 "Kingdom of Astaria"
@@ -44,6 +48,7 @@ AST_ideology_solidarism_DEF:0 "The Kingdom of Astaria"
 AST_ideology_continuism_DEF:0 "The Kingdom of Astaria"
 AST_ideology_isolationism_DEF:0 "The Kingdom of Astaria"
 
+AST_ADJ:0 "Astarian"
 
 AIN_ideology_militarism:0 "Clan Aing"
 AIN_ideology_imperialism:0 "Clan Aing"
@@ -58,6 +63,8 @@ AIN_ideology_visionarism_DEF:0 "Clan Aing"
 AIN_ideology_solidarism_DEF:0 "Clan Aing"
 AIN_ideology_continuism_DEF:0 "Clan Aing"
 AIN_ideology_isolationism_DEF:0 "Clan Aing"
+
+AIN_ADJ:0 "Aing"
 
 
 SEN_ideology_militarism:0 "Clan Sentian"
@@ -74,6 +81,8 @@ SEN_ideology_solidarism_DEF:0 "Clan Sentian"
 SEN_ideology_continuism_DEF:0 "Clan Sentian"
 SEN_ideology_isolationism_DEF:0 "Clan Sentian"
 
+SEN_ADJ:0 "Sentian"
+
 
 WAO_ideology_militarism:0 "Clan Waonto"
 WAO_ideology_imperialism:0 "Clan Waonto"
@@ -88,6 +97,8 @@ WAO_ideology_visionarism_DEF:0 "Clan Waonto"
 WAO_ideology_solidarism_DEF:0 "Clan Waonto"
 WAO_ideology_continuism_DEF:0 "Clan Waonto"
 WAO_ideology_isolationism_DEF:0 "Clan Waonto"
+
+WAO_ADJ:0 "Waonto"
 
 
 FRE_ideology_militarism:0 "Clan Freuji"
@@ -104,6 +115,8 @@ FRE_ideology_solidarism_DEF:0 "Clan Freuji"
 FRE_ideology_continuism_DEF:0 "Clan Freuji"
 FRE_ideology_isolationism_DEF:0 "Clan Freuji"
 
+FRE_ADJ:0 "Freujian"
+
 
 HRI_ideology_militarism:0 "Clan Hriki"
 HRI_ideology_imperialism:0 "Clan Hriki"
@@ -119,6 +132,7 @@ HRI_ideology_solidarism_DEF:0 "Clan Hriki"
 HRI_ideology_continuism_DEF:0 "Clan Hriki"
 HRI_ideology_isolationism_DEF:0 "Clan Hriki"
 
+HRI_ADJ:0 "Hrikan"
 
 ONK_ideology_militarism:0 "Clan Onki"
 ONK_ideology_imperialism:0 "Clan Onki"
@@ -134,6 +148,7 @@ ONK_ideology_solidarism_DEF:0 "Clan Onki"
 ONK_ideology_continuism_DEF:0 "Clan Onki"
 ONK_ideology_isolationism_DEF:0 "Clan Onki"
 
+ONK_ADJ:0 "Onkian"
 
 ASH_ideology_militarism:0 "Clan Ashi"
 ASH_ideology_imperialism:0 "Clan Ashi"
@@ -149,6 +164,7 @@ ASH_ideology_solidarism_DEF:0 "Clan Ashi"
 ASH_ideology_continuism_DEF:0 "Clan Ashi"
 ASH_ideology_isolationism_DEF:0 "Clan Ashi"
 
+ASH_ADJ:0 "Ashian"
 
 RIN_ideology_militarism:0 "Clan Rinto"
 RIN_ideology_imperialism:0 "Clan Rinto"
@@ -163,6 +179,8 @@ RIN_ideology_visionarism_DEF:0 "Clan Rinto"
 RIN_ideology_solidarism_DEF:0 "Clan Rinto"
 RIN_ideology_continuism_DEF:0 "Clan Rinto"
 RIN_ideology_isolationism_DEF:0 "Clan Rinto"
+
+RIN_ADJ:0 "Rinto"
 
 
 UNU_ideology_militarism:0 "Clan Unuo"
@@ -179,6 +197,7 @@ UNU_ideology_solidarism_DEF:0 "Clan Unuo"
 UNU_ideology_continuism_DEF:0 "Clan Unuo"
 UNU_ideology_isolationism_DEF:0 "Clan Unuo"
 
+UNU_ADJ:0 "Unuo"
 
 AZE_ideology_militarism:0 "Clan Azeo"
 AZE_ideology_imperialism:0 "Clan Azeo"
@@ -194,6 +213,7 @@ AZE_ideology_solidarism_DEF:0 "Clan Azeo"
 AZE_ideology_continuism_DEF:0 "Clan Azeo"
 AZE_ideology_isolationism_DEF:0 "Clan Azeo"
 
+AZE_ADJ:0 "Azeo"
 
 WEI_ideology_militarism:0 "Clan Wei"
 WEI_ideology_imperialism:0 "Clan Wei"
@@ -208,6 +228,8 @@ WEI_ideology_visionarism_DEF:0 "Clan Wei"
 WEI_ideology_solidarism_DEF:0 "Clan Wei"
 WEI_ideology_continuism_DEF:0 "Clan Wei"
 WEI_ideology_isolationism_DEF:0 "Clan Wei"
+
+WEI_ADJ:0 "Weian"
 
 
 SUN_ideology_militarism:0 "Kingdom of Sunotia"
@@ -224,6 +246,8 @@ SUN_ideology_solidarism_DEF:0 "The Kingdom of Sunotia"
 SUN_ideology_continuism_DEF:0 "The Kingdom of Sunotia"
 SUN_ideology_isolationism_DEF:0 "The Kingdom of Sunotia"
 
+SUN_ADJ:0 "Sunotian"
+
 
 TYK_ideology_militarism:0 "Kingdom of Savinki"
 TYK_ideology_imperialism:0 "Kingdom of Savinki"
@@ -238,6 +262,8 @@ TYK_ideology_visionarism_DEF:0 "The Kingdom of Savinki"
 TYK_ideology_solidarism_DEF:0 "The Kingdom of Savinki"
 TYK_ideology_continuism_DEF:0 "The Kingdom of Savinki"
 TYK_ideology_isolationism_DEF:0 "The Kingdom of Savinki"
+
+TYK_ADJ:0 "Savinkian"
 
 
 CRU_ideology_militarism:0 "Kingdom of Cruaze"
@@ -254,6 +280,8 @@ CRU_ideology_solidarism_DEF:0 "The Kingdom of Cruaze"
 CRU_ideology_continuism_DEF:0 "The Kingdom of Cruaze"
 CRU_ideology_isolationism_DEF:0 "The Kingdom of Cruaze"
 
+CRU_ADJ:0 "Cruazan"
+
 
 CAI_ideology_militarism:0 "Pirate Republic of Caida"
 CAI_ideology_imperialism:0 "Pirate Republic of Caida"
@@ -269,6 +297,7 @@ CAI_ideology_solidarism_DEF:0 "The Pirate Republic of Caida"
 CAI_ideology_continuism_DEF:0 "The Pirate Republic of Caida"
 CAI_ideology_isolationism_DEF:0 "The Pirate Republic of Caida"
 
+CAI_ADJ:0 "Caidan"
 
 BOR_ideology_militarism:0 "Blessed Borean State"
 BOR_ideology_imperialism:0 "Blessed Borean State"
@@ -283,6 +312,8 @@ BOR_ideology_visionarism_DEF:0 "The Blessed Borean State"
 BOR_ideology_solidarism_DEF:0 "The Blessed Borean State"
 BOR_ideology_continuism_DEF:0 "The Blessed Borean State"
 BOR_ideology_isolationism_DEF:0 "The Blessed Borean State"
+
+BOR_ADJ:0 "Borean"
 
 
 LUA_ideology_militarism:0 "Empire of Luana"
@@ -299,6 +330,8 @@ LUA_ideology_solidarism_DEF:0 "The Empire of Luana"
 LUA_ideology_continuism_DEF:0 "The Empire of Luana" 
 LUA_ideology_isolationism_DEF:0 "The Empire of Luana"
 
+LUA_ADJ:0 "Luanan"
+
 
 VED_ideology_militarism:0 "Duchy of Vederoa"
 VED_ideology_imperialism:0 "Duchy of Vederoa"
@@ -313,6 +346,8 @@ VED_ideology_visionarism_DEF:0 "Duchy of Vederoa"
 VED_ideology_solidarism_DEF:0 "Duchy of Vederoa"
 VED_ideology_continuism_DEF:0 "Duchy of Vederoa"
 VED_ideology_isolationism_DEF:0 "Duchy of Vederoa"
+
+VED_ADJ:0 "Vederoan"
 
 
 CIL_ideology_militarism:0 "Cilarine Mercenary State"
@@ -329,6 +364,8 @@ CIL_ideology_solidarism_DEF:0 "The Cilarine Mercenary State"
 CIL_ideology_continuism_DEF:0 "The Cilarine Mercenary State"
 CIL_ideology_isolationism_DEF:0 "The Cilarine Mercenary State"
 
+CIL_ADJ:0 "Cilarinan"
+
 
 PRI_ideology_militarism:0 "Dragon Kingdom of Prisis"
 PRI_ideology_imperialism:0 "Dragon Kingdom of Prisis"
@@ -343,6 +380,8 @@ PRI_ideology_visionarism_DEF:0 "The Dragon Kingdom of Prisis"
 PRI_ideology_solidarism_DEF:0 "The Dragon Kingdom of Prisis"
 PRI_ideology_continuism_DEF:0 "The Dragon Kingdom of Prisis"
 PRI_ideology_isolationism_DEF:0 "The Dragon Kingdom of Prisis"
+
+PRI_ADJ:0 "Prisan"
 
 
 IAR_ideology_militarism:0 "Chiefdom of Iarira"
@@ -359,6 +398,8 @@ IAR_ideology_solidarism_DEF:0 "The Chiefdom of Iarira"
 IAR_ideology_continuism_DEF:0 "The Chiefdom of Iarira"
 IAR_ideology_isolationism_DEF:0 "The Chiefdom of Iarira"
 
+IAR_ADJ:0 "Iariran"
+
 
 IJI_ideology_militarism:0 "Eternal Empire of the Great Ijikami"
 IJI_ideology_imperialism:0 "Eternal Empire of the Great Ijikami"
@@ -374,6 +415,7 @@ IJI_ideology_solidarism_DEF:0 "The Eternal Empire of the Great Ijikami"
 IJI_ideology_continuism_DEF:0 "The Eternal Empire of the Great Ijikami"
 IJI_ideology_isolationism_DEF:0 "The Eternal Empire of the Great Ijikami"
 
+IJI_ADJ:0 "Ijikamian"
 
 TEL_ideology_militarism:0 "Republic of Telivos"
 TEL_ideology_imperialism:0 "Republic of Telivos"
@@ -388,6 +430,8 @@ TEL_ideology_visionarism_DEF:0 "The Republic of Telivos"
 TEL_ideology_solidarism_DEF:0 "The Republic of Telivos"
 TEL_ideology_continuism_DEF:0 "The Republic of Telivos"
 TEL_ideology_isolationism_DEF:0 "The Republic of Telivos"
+
+TEL_ADJ:0 "Telivos"
 
 
 NAG_ideology_militarism:0 "Chiefdom of Nagovia"
@@ -404,6 +448,8 @@ NAG_ideology_solidarism_DEF:0 "The Chiefdom of Nagovia"
 NAG_ideology_continuism_DEF:0 "The Chiefdom of Nagovia"
 NAG_ideology_isolationism_DEF:0 "The Chiefdom of Nagovia"
 
+NAG_ADJ:0 "Nagovian"
+
 
 ARK_ideology_militarism:0 "Great Khanate of Arkimas"
 ARK_ideology_imperialism:0 "Great Khanate of Arkimas"
@@ -419,20 +465,23 @@ ARK_ideology_solidarism_DEF:0 "The Great Khanate of Arkimas"
 ARK_ideology_continuism_DEF:0 "The Great Khanate of Arkimas"
 ARK_ideology_isolationism_DEF:0 "The Great Khanate of Arkimas"
 
+ARK_ADJ:0 "Arkimas"
 
-SAL_ideology_militarism:0 "Empire of Salkinovski"
-SAL_ideology_imperialism:0 "Empire of Salkinovski"
-SAL_ideology_visionarism:0 "Empire of Salkinovski"
-SAL_ideology_solidarism:0 "Empire of Salkinovski"
-SAL_ideology_continuism:0 "Empire of Salkinovski"
-SAL_ideology_isolationism:0 "Empire of Salkinovski"
+SAL_ideology_militarism:0 "Grand Duchy of Livada"
+SAL_ideology_imperialism:0 "Grand Duchy of Livada"
+SAL_ideology_visionarism:0 "Grand Duchy of Livada"
+SAL_ideology_solidarism:0 "Grand Duchy of Livada"
+SAL_ideology_continuism:0 "Grand Duchy of Livada"
+SAL_ideology_isolationism:0 "Grand Duchy of Livada"
 
-SAL_ideology_militarism_DEF:0 "The Empire of Salkinovski"
-SAL_ideology_imperialism_DEF:0 "The Empire of Salkinovski"
-SAL_ideology_visionarism_DEF:0 "The Empire of Salkinovski"
-SAL_ideology_solidarism_DEF:0 "The Empire of Salkinovski"
-SAL_ideology_continuism_DEF:0 "The Empire of Salkinovski"
-SAL_ideology_isolationism_DEF:0 "The Empire of Salkinovski"
+SAL_ideology_militarism_DEF:0 "The Grand Duchy of Livada"
+SAL_ideology_imperialism_DEF:0 "The Grand Duchy of Livada"
+SAL_ideology_visionarism_DEF:0 "The Grand Duchy of Livada"
+SAL_ideology_solidarism_DEF:0 "The Grand Duchy of Livada"
+SAL_ideology_continuism_DEF:0 "The Grand Duchy of Livada"
+SAL_ideology_isolationism_DEF:0 "The Grand Duchy of Livada"
+
+SAL_ADJ:0 "Livadan"
 
 
 TAB_ideology_militarism:0 "Grand Horde of Tabnayh"
@@ -449,21 +498,24 @@ TAB_ideology_solidarism_DEF:0 "The Grand Horde of Tabnayh"
 TAB_ideology_continuism_DEF:0 "The Grand Horde of Tabnayh"
 TAB_ideology_isolationism_DEF:0 "The Grand Horde of Tabnayh"
 
+TAB_ADJ:0 "Tabnayh"
 
-BRV_ideology_militarism:0 "Grand Duchy of Brveski"
-BRV_ideology_imperialism:0 "Grand Duchy of Brveski"
-BRV_ideology_visionarism:0 "Grand Duchy of Brveski"
-BRV_ideology_solidarism:0 "Grand Duchy of Brveski"
-BRV_ideology_continuism:0 "Grand Duchy of Brveski"
-BRV_ideology_isolationism:0 "Grand Duchy of Brveski"
 
-BRV_ideology_militarism_DEF:0 "The Grand Duchy of Brveski"
-BRV_ideology_imperialism_DEF:0 "The Grand Duchy of Brveski"
-BRV_ideology_visionarism_DEF:0 "The Grand Duchy of Brveski"
-BRV_ideology_solidarism_DEF:0 "The Grand Duchy of Brveski"
-BRV_ideology_continuism_DEF:0 "The Grand Duchy of Brveski"
-BRV_ideology_isolationism_DEF:0 "The Grand Duchy of Brveski"
+BRV_ideology_militarism:0 "Duchy of Brveski"
+BRV_ideology_imperialism:0 "Duchy of Brveski"
+BRV_ideology_visionarism:0 "Duchy of Brveski"
+BRV_ideology_solidarism:0 "Duchy of Brveski"
+BRV_ideology_continuism:0 "Duchy of Brveski"
+BRV_ideology_isolationism:0 "Duchy of Brveski"
 
+BRV_ideology_militarism_DEF:0 "The Duchy of Brveski"
+BRV_ideology_imperialism_DEF:0 "The Duchy of Brveski"
+BRV_ideology_visionarism_DEF:0 "The Duchy of Brveski"
+BRV_ideology_solidarism_DEF:0 "The Duchy of Brveski"
+BRV_ideology_continuism_DEF:0 "The Duchy of Brveski"
+BRV_ideology_isolationism_DEF:0 "The Duchy of Brveski"
+
+BRV_ADJ:0 "Brveskan"
 
 AMA_ideology_militarism:0 "Sultanate of Amaman"
 AMA_ideology_imperialism:0 "Sultanate of Amaman"
@@ -478,6 +530,8 @@ AMA_ideology_visionarism_DEF:0 "The Sultanate of Amaman"
 AMA_ideology_solidarism_DEF:0 "The Sultanate of Amaman"
 AMA_ideology_continuism_DEF:0 "The Sultanate of Amaman"
 AMA_ideology_isolationism_DEF:0 "The Sultanate of Amaman"
+
+AMA_ADJ:0 "Amanan"
 
 
 VOI_ideology_militarism:0 "Dragon Empire of Voiselk"
@@ -494,6 +548,8 @@ VOI_ideology_solidarism_DEF:0 "The Dragon Empire of Voiselk"
 VOI_ideology_continuism_DEF:0 "The Dragon Empire of Voiselk"
 VOI_ideology_isolationism_DEF:0 "The Dragon Empire of Voiselk"
 
+VOI_ADJ:0 "Voiselk"
+
 
 KER_ideology_militarism:0 "High Kingdom of Keravi"
 KER_ideology_imperialism:0 "High Kingdom of Keravi"
@@ -508,6 +564,8 @@ KER_ideology_visionarism_DEF:0 "The High Kingdom of Keravi"
 KER_ideology_solidarism_DEF:0 "The High Kingdom of Keravi"
 KER_ideology_continuism_DEF:0 "The High Kingdom of Keravi"
 KER_ideology_isolationism_DEF:0 "The High Kingdom of Keravi"
+
+KER_ADJ:0 "Keravian"
 
 
 SHI_ideology_militarism:0 "Kingdom of Shizuma"
@@ -524,6 +582,8 @@ SHI_ideology_solidarism_DEF:0 "The Kingdom of Shizuma"
 SHI_ideology_continuism_DEF:0 "The Kingdom of Shizuma"
 SHI_ideology_isolationism_DEF:0 "The Kingdom of Shizuma"
 
+SHI_ADJ:0 "Shizuman"
+
 
 TOK_ideology_militarism:0 "Kingdom of Toknong"
 TOK_ideology_imperialism:0 "Kingdom of Toknong"
@@ -539,6 +599,7 @@ TOK_ideology_solidarism_DEF:0 "The Kingdom of Toknong"
 TOK_ideology_continuism_DEF:0 "The Kingdom of Toknong"
 TOK_ideology_isolationism_DEF:0 "The Kingdom of Toknong"
 
+TOK_ADJ:0 "Tokongese"
 
 VAL_ideology_militarism:0 "Free Cities of Valkovsi"
 VAL_ideology_imperialism:0 "Free Cities of Valkovsi"
@@ -553,6 +614,8 @@ VAL_ideology_visionarism_DEF:0 "The Free Cities of Valkovsi"
 VAL_ideology_solidarism_DEF:0 "The Free Cities of Valkovsi"
 VAL_ideology_continuism_DEF:0 "The Free Cities of Valkovsi"
 VAL_ideology_isolationism_DEF:0 "The Free Cities of Valkovsi"
+
+VAL_ADJ:0 "Valkovsian"
 
 
 VEN_ideology_militarism:0 "Venidisian Thassallocracy"
@@ -569,6 +632,8 @@ VEN_ideology_solidarism_DEF:0 " The Venidisian Thassallocracy"
 VEN_ideology_continuism_DEF:0 "The Venidisian Thassallocracy"
 VEN_ideology_isolationism_DEF:0 "The Venidisian Thassallocracy"
 
+VEN_ADJ:0 "Venidisian"
+
 
 SII_ideology_militarism:0 "Jarldom of Siilovpu"
 SII_ideology_imperialism:0 "Jarldom of Siilovpu"
@@ -583,6 +648,8 @@ SII_ideology_visionarism_DEF:0 "The Jarldom of Siilovpu"
 SII_ideology_solidarism_DEF:0 "The Jarldom of Siilovpu"
 SII_ideology_continuism_DEF:0 "The Jarldom of Siilovpu"
 SII_ideology_isolationism_DEF:0 "The Jarldom of Siilovpu"
+
+SII_ADJ:0 "Siilovpu"
 
 
 OSH_ideology_militarism:0 "Order of Oshurg"
@@ -599,6 +666,8 @@ OSH_ideology_solidarism_DEF:0 "The Order of Oshurg"
 OSH_ideology_continuism_DEF:0 "The Order of Oshurg"
 OSH_ideology_isolationism_DEF:0 "The Order of Oshurg"
 
+OSH_ADJ:0 "Oshurg"
+
 
 ZHE_ideology_militarism:0 "Zhenzhou Hive"
 ZHE_ideology_imperialism:0 "Zhenzhou Hive"
@@ -613,6 +682,8 @@ ZHE_ideology_visionarism_DEF:0 "The Zhenzhou Hive"
 ZHE_ideology_solidarism_DEF:0 "The Zhenzhou Hive"
 ZHE_ideology_continuism_DEF:0 "The Zhenzhou Hive"
 ZHE_ideology_isolationism_DEF:0 "The Zhenzhou Hive"
+
+ZHE_ADJ:0 "Zhenzhou"
 
 
 YAN_ideology_militarism:0 "Yangok Hive"
@@ -629,6 +700,7 @@ YAN_ideology_solidarism_DEF:0 "The Yangok Hive"
 YAN_ideology_continuism_DEF:0 "The Yangok Hive"
 YAN_ideology_isolationism_DEF:0 "The Yangok Hive"
 
+YAN_ADJ:0 "Yangok"
 
 GLO_ideology_militarism:0 "Gloji Hive"
 GLO_ideology_imperialism:0 "Gloji Hive"
@@ -643,6 +715,8 @@ GLO_ideology_visionarism_DEF:0 "The Gloji Hive"
 GLO_ideology_solidarism_DEF:0 "The Gloji Hive"
 GLO_ideology_continuism_DEF:0 "The Gloji Hive"
 GLO_ideology_isolationism_DEF:0 "The Gloji Hive"
+
+GLO_ADJ:0 "Gloji"
 
 
 ALK_ideology_militarism:0 "Alkon Hive"
@@ -659,36 +733,41 @@ ALK_ideology_solidarism_DEF:0 "The Alkon Hive"
 ALK_ideology_continuism_DEF:0 "The Alkon Hive"
 ALK_ideology_isolationism_DEF:0 "The Alkon Hive"
 
-
-SAV_ideology_militarism:0 "Aristocratic League of Savjevac"
-SAV_ideology_imperialism:0 "Aristocratic League of Savjevac"
-SAV_ideology_visionarism:0 "Aristocratic League of Savjevac"
-SAV_ideology_solidarism:0 "Aristocratic League of Savjevac"
-SAV_ideology_continuism:0 "Aristocratic League of Savjevac"
-SAV_ideology_isolationism:0 "Aristocratic League of Savjevac"
-
-SAV_ideology_militarism_DEF:0 "The Aristocratic League of Savjevac"
-SAV_ideology_imperialism_DEF:0 "The Aristocratic League of Savjevac"
-SAV_ideology_visionarism_DEF:0 "The Aristocratic League of Savjevac"
-SAV_ideology_solidarism_DEF:0 "The Aristocratic League of Savjevac"
-SAV_ideology_continuism_DEF:0 "The Aristocratic League of Savjevac"
-SAV_ideology_isolationism_DEF:0 "The Aristocratic League of Savjevac"
+ALK_ADJ:0 "Alkon"
 
 
-JEV_ideology_militarism:0 "Jevnskirov Principality"
-JEV_ideology_imperialism:0 "Jevnskirov Principality"
-JEV_ideology_visionarism:0 "Jevnskirov Principality"
-JEV_ideology_solidarism:0 "Jevnskirov Principality"
-JEV_ideology_continuism:0 "Jevnskirov Principality"
-JEV_ideology_isolationism:0 "Jevnskirov Principality"
+SAV_ideology_militarism:0 "Aristocratic League of Ditrau"
+SAV_ideology_imperialism:0 "Aristocratic League of Ditrau"
+SAV_ideology_visionarism:0 "Aristocratic League of Ditrau"
+SAV_ideology_solidarism:0 "Aristocratic League of Ditrau"
+SAV_ideology_continuism:0 "Aristocratic League of Ditrau"
+SAV_ideology_isolationism:0 "Aristocratic League of Ditrau"
 
-JEV_ideology_militarism_DEF:0 "The Jevnskirov Principality"
-JEV_ideology_imperialism_DEF:0 "The Jevnskirov Principality"
-JEV_ideology_visionarism_DEF:0 "The Jevnskirov Principality"
-JEV_ideology_solidarism_DEF:0 "The Jevnskirov Principality"
-JEV_ideology_continuism_DEF:0 "The Jevnskirov Principality"
-JEV_ideology_isolationism_DEF:0 "The Jevnskirov Principality"
+SAV_ideology_militarism_DEF:0 "The Aristocratic League of Ditrau"
+SAV_ideology_imperialism_DEF:0 "The Aristocratic League of Ditrau"
+SAV_ideology_visionarism_DEF:0 "The Aristocratic League of Ditrau"
+SAV_ideology_solidarism_DEF:0 "The Aristocratic League of Ditrau"
+SAV_ideology_continuism_DEF:0 "The Aristocratic League of Ditrau"
+SAV_ideology_isolationism_DEF:0 "The Aristocratic League of Ditrau"
 
+SAV_ADJ:0 "Ditrau"
+
+
+JEV_ideology_militarism:0 "Certeze Principality"
+JEV_ideology_imperialism:0 "Certeze Principality"
+JEV_ideology_visionarism:0 "Certeze Principality"
+JEV_ideology_solidarism:0 "Certeze Principality"
+JEV_ideology_continuism:0 "Certeze Principality"
+JEV_ideology_isolationism:0 "Certeze Principality"
+
+JEV_ideology_militarism_DEF:0 "The Certeze Principality"
+JEV_ideology_imperialism_DEF:0 "The Certeze Principality"
+JEV_ideology_visionarism_DEF:0 "The Certeze Principality"
+JEV_ideology_solidarism_DEF:0 "The Certeze Principality"
+JEV_ideology_continuism_DEF:0 "The Certeze Principality"
+JEV_ideology_isolationism_DEF:0 "The Certeze Principality"
+
+JEV_ADJ:0 "Certezan"
 
 NUX_ideology_militarism:0 "Emirate of Nuxwar"
 NUX_ideology_imperialism:0 "Emirate of Nuxwar"
@@ -703,6 +782,8 @@ NUX_ideology_visionarism_DEF:0 "The Emirate of Nuxwar"
 NUX_ideology_solidarism_DEF:0 "The Emirate of Nuxwar"
 NUX_ideology_continuism_DEF:0 "The Emirate of Nuxwar"
 NUX_ideology_isolationism_DEF:0 "The Emirate of Nuxwar"
+
+NUX_ADJ:0 "Nuxwaran"
 
 
 IMI_ideology_militarism:0 "Imina League"
@@ -719,7 +800,7 @@ IMI_ideology_solidarism_DEF:0 "The Imina League"
 IMI_ideology_continuism_DEF:0 "The Imina League"
 IMI_ideology_isolationism_DEF:0 "The Imina League"
 
-
+IMI_ADJ:0 "Iminan"
 
 ADA_ideology_militarism:0 "Merchant Republic of Aday"
 ADA_ideology_imperialism:0 "Merchant Republic of Aday"
@@ -734,6 +815,8 @@ ADA_ideology_visionarism_DEF:0 "The Merchant Republic of Aday"
 ADA_ideology_solidarism_DEF:0 "The Merchant Republic of Aday"
 ADA_ideology_continuism_DEF:0 "The Merchant Republic of Aday"
 ADA_ideology_isolationism_DEF:0 "The Merchant Republic of Aday"
+
+ADA_ADJ:0 "Aday"
 
 
 THA_ideology_militarism:0 "Sultanate of Thalvith"
@@ -750,6 +833,8 @@ THA_ideology_solidarism_DEF:0 "The Sultanate of Thalvith"
 THA_ideology_continuism_DEF:0 "The Sultanate of Thalvith"
 THA_ideology_isolationism_DEF:0 "The Sultanate of Thalvith"
 
+THA_ADJ:0 "Thalvith"
+
 
 MIT_ideology_militarism:0 "Emirate of Mitria"
 MIT_ideology_imperialism:0 "Emirate of Mitria"
@@ -765,6 +850,7 @@ MIT_ideology_solidarism_DEF:0 "The Emirate of Mitria"
 MIT_ideology_continuism_DEF:0 "The Emirate of Mitria"
 MIT_ideology_isolationism_DEF:0 "The Emirate of Mitria"
 
+MIT_ADJ:0 "Mitrian"
 
 KOR_ideology_militarism:0 "Emirate of Korar"
 KOR_ideology_imperialism:0 "Emirate of Korar"
@@ -779,6 +865,8 @@ KOR_ideology_visionarism_DEF:0 "The Emirate of Korar"
 KOR_ideology_solidarism_DEF:0 "The Emirate of Korar"
 KOR_ideology_continuism_DEF:0 "The Emirate of Korar"
 KOR_ideology_isolationism_DEF:0 "The Emirate of Korar"
+
+KOR_ADJ:0 "Koraran"
 
 
 KOR_ideology_militarism:0 "Emirate of Korar"
@@ -810,6 +898,8 @@ HAK_ideology_solidarism_DEF:0 "The Raiders of Hakaz"
 HAK_ideology_continuism_DEF:0 "The Raiders of Hakaz"
 HAK_ideology_isolationism_DEF:0 "The Raiders of Hakaz"
 
+HAK_ADJ:0 "Hakazan"
+
 
 JAC_ideology_militarism:0 "Sultanate of Jaclanis"
 JAC_ideology_imperialism:0 "Sultanate of Jaclanis"
@@ -824,6 +914,8 @@ JAC_ideology_visionarism_DEF:0 "The Sultanate of Jaclanis"
 JAC_ideology_solidarism_DEF:0 "The Sultanate of Jaclanis"
 JAC_ideology_continuism_DEF:0 "The Sultanate of Jaclanis"
 JAC_ideology_isolationism_DEF:0 "The Sultanate of Jaclanis"
+
+JAC_ADJ:0 "Jalcanise"
 
 
 HEL_ideology_militarism:0 "Republic of Helaa"
@@ -840,6 +932,8 @@ HEL_ideology_solidarism_DEF:0 "The Republic of Helaa"
 HEL_ideology_continuism_DEF:0 "The Republic of Helaa"
 HEL_ideology_isolationism_DEF:0 "The Republic of Helaa"
 
+HEL_ADJ:0 "Helaan"
+
 
 FED_ideology_militarism:0 "Kingdom of Fedusa"
 FED_ideology_imperialism:0 "Kingdom of Fedusa"
@@ -854,6 +948,8 @@ FED_ideology_visionarism_DEF:0 "The Kingdom of Fedusa"
 FED_ideology_solidarism_DEF:0 "The Kingdom of Fedusa"
 FED_ideology_continuism_DEF:0 "The Kingdom of Fedusa"
 FED_ideology_isolationism_DEF:0 "The Kingdom of Fedusa"
+
+FED_ADJ:0 "Fedusan"
 
 
 FED_ideology_militarism:0 "Kingdom of Fedusa"
@@ -885,6 +981,8 @@ BUL_ideology_solidarism_DEF:0 "The Bulmarian Democracy"
 BUL_ideology_continuism_DEF:0 "The Bulmarian Democracy"
 BUL_ideology_isolationism_DEF:0 "The Bulmarian Democracy"
 
+BUL_ADJ:0 "Bulmarian"
+
 
 CAR_ideology_militarism:0 "Diarchy of Carran"
 CAR_ideology_imperialism:0 "Diarchy of Carran"
@@ -899,6 +997,8 @@ CAR_ideology_visionarism_DEF:0 "The Diarchy of Carran"
 CAR_ideology_solidarism_DEF:0 "The Diarchy of Carran"
 CAR_ideology_continuism_DEF:0 "The Diarchy of Carran"
 CAR_ideology_isolationism_DEF:0 "The Diarchy of Carran"
+
+CAR_ADJ:0 "Carran"
 
 
 ELE_ideology_militarism:0 "Kingdom of Eletes"
@@ -915,6 +1015,8 @@ ELE_ideology_solidarism_DEF:0 "The Kingdom of Eletes"
 ELE_ideology_continuism_DEF:0 "The Kingdom of Eletes"
 ELE_ideology_isolationism_DEF:0 "The Kingdom of Eletes"
 
+ELE_ADJ:0 "Eletan"
+
 
 KEZ_ideology_militarism:0 "Empire of Kezig"
 KEZ_ideology_imperialism:0 "Empire of Kezig"
@@ -929,6 +1031,8 @@ KEZ_ideology_visionarism_DEF:0 "The Empire of Kezig"
 KEZ_ideology_solidarism_DEF:0 "The Empire of Kezig"
 KEZ_ideology_continuism_DEF:0 "The Empire of Kezig"
 KEZ_ideology_isolationism_DEF:0 "The Empire of Kezig"
+
+KEZ_ADJ:0 "Kezig"
 
 
 JES_ideology_militarism:0 "Army of Jesmya"
@@ -945,6 +1049,8 @@ JES_ideology_solidarism_DEF:0 "The Army of Jesmya"
 JES_ideology_continuism_DEF:0 "The Army of Jesmya"
 JES_ideology_isolationism_DEF:0 "The Army of Jesmya"
 
+JES_ADJ:0 "Jesmyan"
+
 
 STA_ideology_militarism:0 "Army of Stax"
 STA_ideology_imperialism:0 "Army of Stax"
@@ -959,6 +1065,8 @@ STA_ideology_visionarism_DEF:0 "The Army of Stax"
 STA_ideology_solidarism_DEF:0 "The Army of Stax"
 STA_ideology_continuism_DEF:0 "The Army of Stax"
 STA_ideology_isolationism_DEF:0 "The Army of Stax"
+
+STA_ADJ:0 "Stax"
 
 
 ISL_ideology_militarism:0 "Islivalian Hegemony"
@@ -975,6 +1083,7 @@ ISL_ideology_solidarism_DEF:0 "The Islivalian Hegemony"
 ISL_ideology_continuism_DEF:0 "The Islivalian Hegemony"
 ISL_ideology_isolationism_DEF:0 "The Islivalian Hegemony"
 
+ISL_ADJ:0 "Islivalian"
 
 CRA_ideology_militarism:0 "Crala Tribe"
 CRA_ideology_imperialism:0 "Crala Tribe"
@@ -989,6 +1098,8 @@ CRA_ideology_visionarism_DEF:0 "The Crala Tribe"
 CRA_ideology_solidarism_DEF:0 "The Crala Tribe"
 CRA_ideology_continuism_DEF:0 "The Crala Tribe"
 CRA_ideology_isolationism_DEF:0 "The Crala Tribe"
+
+CRA_ADJ:0 "Crala"
 
 
 ENN_ideology_militarism:0 "Cult of Enn"
@@ -1005,6 +1116,8 @@ ENN_ideology_solidarism_DEF:0 "The Cult of Enn"
 ENN_ideology_continuism_DEF:0 "The Cult of Enn"
 ENN_ideology_isolationism_DEF:0 "The Cult of Enn"
 
+ENN_ADJ:0 "Enn"
+
 
 ILR_ideology_militarism:0 "Ilria Tribe"
 ILR_ideology_imperialism:0 "Ilria Tribe"
@@ -1019,6 +1132,8 @@ ILR_ideology_visionarism_DEF:0 "The Ilria Tribe"
 ILR_ideology_solidarism_DEF:0 "The Ilria Tribe"
 ILR_ideology_continuism_DEF:0 "The Ilria Tribe"
 ILR_ideology_isolationism_DEF:0 "The Ilria Tribe"
+
+ILR_ADJ:0 "Ilrian"
 
 
 GYR_ideology_militarism:0 "Gyren Tribe"
@@ -1035,6 +1150,8 @@ GYR_ideology_solidarism_DEF:0 "The Gyren Tribe"
 GYR_ideology_continuism_DEF:0 "The Gyren Tribe"
 GYR_ideology_isolationism_DEF:0 "The Gyren Tribe"
 
+GYR_ADJ:0 "Gyrenian"
+
 
 ETR_ideology_militarism:0 "Etrye Tribe"
 ETR_ideology_imperialism:0 "Etrye Tribe"
@@ -1050,6 +1167,8 @@ ETR_ideology_solidarism_DEF:0 "The Etrye Tribe"
 ETR_ideology_continuism_DEF:0 "The Etrye Tribe"
 ETR_ideology_isolationism_DEF:0 "The Etrye Tribe"
 
+ETR_ADJ:0 "Etryan"
+
 LEC_ideology_militarism:0 "Lecit Tribe"
 LEC_ideology_imperialism:0 "Lecit Tribe"
 LEC_ideology_visionarism:0 "Lecit Tribe"
@@ -1064,6 +1183,7 @@ LEC_ideology_solidarism_DEF:0 "The Lecit Tribe"
 LEC_ideology_continuism_DEF:0 "The Lecit Tribe"
 LEC_ideology_isolationism_DEF:0 "The Lecit Tribe"
 
+LEC_ADJ:0 "Lecit"
 
 TAI_ideology_militarism:0 "Taira Tribe"
 TAI_ideology_imperialism:0 "Taira Tribe"
@@ -1078,6 +1198,8 @@ TAI_ideology_visionarism_DEF:0 "The Taira Tribe"
 TAI_ideology_solidarism_DEF:0 "The Taira Tribe"
 TAI_ideology_continuism_DEF:0 "The Taira Tribe"
 TAI_ideology_isolationism_DEF:0 "The Taira Tribe"
+
+TAI_ADJ:0 "Tairan"
 
 
 KYH_ideology_militarism:0 "Order of Kyhun"
@@ -1094,6 +1216,8 @@ KYH_ideology_solidarism_DEF:0 "The Order of Kyhun"
 KYH_ideology_continuism_DEF:0 "The Order of Kyhun"
 KYH_ideology_isolationism_DEF:0 "The Order of Kyhun"
 
+KYH_ADJ:0 "Kyhun"
+
 
 MAH_ideology_militarism:0 "Confederation of Mahalaga"
 MAH_ideology_imperialism:0 "Confederation of Mahalaga"
@@ -1108,6 +1232,8 @@ MAH_ideology_visionarism_DEF:0 "The Confederation of Mahalaga"
 MAH_ideology_solidarism_DEF:0 "The Confederation of Mahalaga"
 MAH_ideology_continuism_DEF:0 "The Confederation of Mahalaga"
 MAH_ideology_isolationism_DEF:0 "The Confederation of Mahalaga"
+
+MAH_ADJ:0 "Malahagan"
 
 
 PHE_ideology_militarism:0 "Shahdom of Pheyraya"
@@ -1124,6 +1250,8 @@ PHE_ideology_solidarism_DEF:0 "The Shahdom of Pheyraya"
 PHE_ideology_continuism_DEF:0 "The Shahdom of Pheyraya"
 PHE_ideology_isolationism_DEF:0 "The Shahdom of Pheyraya"
 
+PHE_ADJ:0 "Pheyrayan"
+
 
 DAN_ideology_militarism:0 "Aristocratic Republic of Danman"
 DAN_ideology_imperialism:0 "Aristocratic Republic of Danman"
@@ -1139,6 +1267,7 @@ DAN_ideology_solidarism_DEF:0 "The Aristocratic Republic of Danman"
 DAN_ideology_continuism_DEF:0 "The Aristocratic Republic of Danman"
 DAN_ideology_isolationism_DEF:0 "The Aristocratic Republic of Danman"
 
+DAN_ADJ:0 "Danman"
 
 ARR_ideology_militarism:0 "Shahdom of Arria"
 ARR_ideology_imperialism:0 "Shahdom of Arria"
@@ -1153,6 +1282,8 @@ ARR_ideology_visionarism_DEF:0 "The Shahdom of Arria"
 ARR_ideology_solidarism_DEF:0 "The Shahdom of Arria"
 ARR_ideology_continuism_DEF:0 "The Shahdom of Arria"
 ARR_ideology_isolationism_DEF:0 "The Shahdom of Arria"
+
+ARR_ADJ:0 "Arrian"
 
 
 GAP_ideology_militarism:0 "Gapurian Confederation"
@@ -1169,6 +1300,7 @@ GAP_ideology_solidarism_DEF:0 "The Gapurian Confederation"
 GAP_ideology_continuism_DEF:0 "The Gapurian Confederation"
 GAP_ideology_isolationism_DEF:0 "The Gapurian Confederation"
 
+GAP_ADJ:0 "Gapurian"
 
 LAD_ideology_militarism:0 "Kingdom of Ladrus"
 LAD_ideology_imperialism:0 "Kingdom of Ladrus"
@@ -1183,6 +1315,8 @@ LAD_ideology_visionarism_DEF:0 "The Kingdom of Ladrus"
 LAD_ideology_solidarism_DEF:0 "The Kingdom of Ladrus"
 LAD_ideology_continuism_DEF:0 "The Kingdom of Ladrus"
 LAD_ideology_isolationism_DEF:0 "The Kingdom of Ladrus"
+
+LAD_ADJ:0 "Ladran"
 
 
 GIL_ideology_militarism:0 "Serene Shahdom of Gilsa"
@@ -1199,6 +1333,8 @@ GIL_ideology_solidarism_DEF:0 "The Serene Shahdom of Gilsa"
 GIL_ideology_continuism_DEF:0 "The Serene Shahdom of Gilsa"
 GIL_ideology_isolationism_DEF:0 "The Serene Shahdom of Gilsa"
 
+GIL_ADJ:0 "Gilsan"
+
 
 BYI_ideology_militarism:0 "Blessed State of Byiroa"
 BYI_ideology_imperialism:0 "Blessed State of Byiroa"
@@ -1207,12 +1343,14 @@ BYI_ideology_solidarism:0 "Blessed State of Byiroa"
 BYI_ideology_continuism:0 "Blessed State of Byiroa"
 BYI_ideology_isolationism:0 "Blessed State of Byiroa"
 
-BYI_ideology_militarism_DEF:0 "Blessed State of the Island of Byiroa"
-BYI_ideology_imperialism_DEF:0 "Blessed State of the Island of Byiroa"
-BYI_ideology_visionarism_DEF:0 "Blessed State of the Island of Byiroa"
-BYI_ideology_solidarism_DEF:0 "Blessed State of the Island of Byiroa"
-BYI_ideology_continuism_DEF:0 "Blessed State of the Island of Byiroa"
-BYI_ideology_isolationism_DEF:0 "Blessed State of the Island of Byiroa"
+BYI_ideology_militarism_DEF:0 "The Blessed State of the Island of Byiroa"
+BYI_ideology_imperialism_DEF:0 "The Blessed State of the Island of Byiroa"
+BYI_ideology_visionarism_DEF:0 "The Blessed State of the Island of Byiroa"
+BYI_ideology_solidarism_DEF:0 "The Blessed State of the Island of Byiroa"
+BYI_ideology_continuism_DEF:0 "The Blessed State of the Island of Byiroa"
+BYI_ideology_isolationism_DEF:0 "The Blessed State of the Island of Byiroa"
+
+BYI_ADJ:0 "Byiroan"
 
 
 MAK_ideology_militarism:0 "Kingdom of Makuya"
@@ -1229,6 +1367,8 @@ MAK_ideology_solidarism_DEF:0 "The Kingdom of Makuya"
 MAK_ideology_continuism_DEF:0 "The Kingdom of Makuya"
 MAK_ideology_isolationism_DEF:0 "The Kingdom of Makuya"
 
+MAK_ADJ:0 "Makuyan"
+
 
 VAK_ideology_militarism:0 "Holy Council of Vakitro"
 VAK_ideology_imperialism:0 "Holy Council of Vakitro"
@@ -1243,6 +1383,8 @@ VAK_ideology_visionarism_DEF:0 "The Holy Council of Vakitro"
 VAK_ideology_solidarism_DEF:0 "The Holy Council of Vakitro"
 VAK_ideology_continuism_DEF:0 "The Holy Council of Vakitro"
 VAK_ideology_isolationism_DEF:0 "The Holy Council of Vakitro"
+
+VAK_ADJ:0 "Vakitro"
 
 
 NAC_ideology_militarism:0 "Tribal Confederation of Nachek"
@@ -1259,6 +1401,8 @@ NAC_ideology_solidarism_DEF:0 "The Tribal Confederation of Nachek"
 NAC_ideology_continuism_DEF:0 "The Tribal Confederation of Nachek"
 NAC_ideology_isolationism_DEF:0 "The Tribal Confederation of Nachek"
 
+NAC_ADJ:0 "Nachek"
+
 
 ARE_ideology_militarism:0 "High Kingdom of Aresit"
 ARE_ideology_imperialism:0 "High Kingdom of Aresit"
@@ -1274,6 +1418,7 @@ ARE_ideology_solidarism_DEF:0 "The High Kingdom of Aresit"
 ARE_ideology_continuism_DEF:0 "The High Kingdom of Aresit"
 ARE_ideology_isolationism_DEF:0 "The High Kingdom of Aresit"
 
+ARE_ADJ:0 "Aresit"
 
 IGU_ideology_militarism:0 "Kingdom of Igunru"
 IGU_ideology_imperialism:0 "Kingdom of Igunru"
@@ -1288,6 +1433,8 @@ IGU_ideology_visionarism_DEF:0 "Kingdom of Igunru"
 IGU_ideology_solidarism_DEF:0 "Kingdom of Igunru"
 IGU_ideology_continuism_DEF:0 "Kingdom of Igunru"
 IGU_ideology_isolationism_DEF:0 "Kingdom of Igunru"
+
+IGU_ADJ:0 "Igunru"
 
 
 AKN_ideology_militarism:0 "Aknaru Free State"
@@ -1304,6 +1451,8 @@ AKN_ideology_solidarism_DEF:0 "The Aknaru Free State"
 AKN_ideology_continuism_DEF:0 "The Aknaru Free State"
 AKN_ideology_isolationism_DEF:0 "The Aknaru Free State"
 
+AKN_ADJ:0 "Aknaru"
+
 
 TJE_ideology_militarism:0 "Tjeris Dynasty"
 TJE_ideology_imperialism:0 "Tjeris Dynasty"
@@ -1318,6 +1467,8 @@ TJE_ideology_visionarism_DEF:0 "The Tjeris Dynasty"
 TJE_ideology_solidarism_DEF:0 "The Tjeris Dynasty"
 TJE_ideology_continuism_DEF:0 "The Tjeris Dynasty"
 TJE_ideology_isolationism_DEF:0 "The Tjeris Dynasty"
+
+TJE_ADJ:0 "Tjeris"
 
 
 NAP_ideology_militarism:0 "Naprust Dynasty"
@@ -1334,6 +1485,8 @@ NAP_ideology_solidarism_DEF:0 "The Naprust Dynasty"
 NAP_ideology_continuism_DEF:0 "The Naprust Dynasty"
 NAP_ideology_isolationism_DEF:0 "The Naprust Dynasty"
 
+NAP_ADJ:0 "Naprust"
+
 
 DEC_ideology_militarism:0 "Chiefdom of Decmeru"
 DEC_ideology_imperialism:0 "Chiefdom of Decmeru"
@@ -1348,6 +1501,8 @@ DEC_ideology_visionarism_DEF:0 "The Chiefdom of Decmeru"
 DEC_ideology_solidarism_DEF:0 "The Chiefdom of Decmeru"
 DEC_ideology_continuism_DEF:0 "The Chiefdom of Decmeru"
 DEC_ideology_isolationism_DEF:0 "The Chiefdom of Decmeru"
+
+DEC_ADJ:0 "Decmeru"
 
 
 NEF_ideology_militarism:0 "Kingdom of Neflar"
@@ -1364,6 +1519,7 @@ NEF_ideology_solidarism_DEF:0 "The Kingdom of Neflaru"
 NEF_ideology_continuism_DEF:0 "The Kingdom of Neflar"
 NEF_ideology_isolationism_DEF:0 "The Kingdom of Neflar"
 
+NEF_ADJ:0 "Neflaran"
 
 AFL_ideology_militarism:0 "Khanate of Aflal"
 AFL_ideology_imperialism:0 "Khanate of Aflal"
@@ -1378,6 +1534,8 @@ AFL_ideology_visionarism_DEF:0 "The Khanate of Aflal"
 AFL_ideology_solidarism_DEF:0 "The Khanate of Aflal"
 AFL_ideology_continuism_DEF:0 "The Khanate of Aflal"
 AFL_ideology_isolationism_DEF:0 "The Khanate of Aflal"
+
+AFL_ADJ:0 "Aflal"
 
 
 GRU_ideology_militarism:0 "Khanate of Grusork"
@@ -1394,6 +1552,8 @@ GRU_ideology_solidarism_DEF:0 "The Khanate of Grusork"
 GRU_ideology_continuism_DEF:0 "The Khanate of Grusork"
 GRU_ideology_isolationism_DEF:0 "The Khanate of Grusork"
 
+GRU_ADJ:0 "Grusork"
+
 
 NAS_ideology_militarism:0 "Naspta Dynasty"
 NAS_ideology_imperialism:0 "Naspta Dynasty"
@@ -1408,6 +1568,8 @@ NAS_ideology_visionarism_DEF:0 "The Naspta Dynasty"
 NAS_ideology_solidarism_DEF:0 "The Naspta Dynasty"
 NAS_ideology_continuism_DEF:0 "The Naspta Dynasty"
 NAS_ideology_isolationism_DEF:0 "The Naspta Dynasty"
+
+NAS_ADJ:0 "Nasptan"
 
 
 SEP_ideology_militarism:0 "Eternal Kingdom of Sepsta"
@@ -1424,6 +1586,8 @@ SEP_ideology_solidarism_DEF:0 "The Eternal Kingdom of Sepsta"
 SEP_ideology_continuism_DEF:0 "The Eternal Kingdom of Sepsta"
 SEP_ideology_isolationism_DEF:0 "The Eternal Kingdom of Sepsta"
 
+SEP_ADJ:0 "Sepstan"
+
 
 AVH_ideology_militarism:0 "Avhme Dynasty"
 AVH_ideology_imperialism:0 "Avhme Dynasty"
@@ -1438,6 +1602,8 @@ AVH_ideology_visionarism_DEF:0 "The Avhme Dynasty"
 AVH_ideology_solidarism_DEF:0 "The Avhme Dynasty"
 AVH_ideology_continuism_DEF:0 "The Avhme Dynasty"
 AVH_ideology_isolationism_DEF:0 "The Avhme Dynasty"
+
+AVH_ADJ:0 "Avhman"
 
 
 MEP_ideology_militarism:0 "Mepthis Dynasty"
@@ -1454,6 +1620,8 @@ MEP_ideology_solidarism_DEF:0 "The Mepthis Dynasty"
 MEP_ideology_continuism_DEF:0 "The Mepthis Dynasty"
 MEP_ideology_isolationism_DEF:0 "The Mepthis Dynasty"
 
+MEP_ADJ:0 "Mepthan"
+
 NAB_ideology_militarism:0 "Nabu Dynasty"
 NAB_ideology_imperialism:0 "Nabu Dynasty"
 NAB_ideology_visionarism:0 "Nabu Dynasty"
@@ -1467,6 +1635,8 @@ NAB_ideology_visionarism_DEF:0 "The Nabu Dynasty"
 NAB_ideology_solidarism_DEF:0 "The Nabu Dynasty"
 NAB_ideology_continuism_DEF:0 "The Nabu Dynasty"
 NAB_ideology_isolationism_DEF:0 "The Nabu Dynasty"
+
+NAB_ADJ:0 "Nabu"
 
 
 KLI_ideology_militarism:0 "Peasant Republic of Klizina"
@@ -1483,6 +1653,7 @@ KLI_ideology_solidarism_DEF:0 "The Peasant Republic of Klizina"
 KLI_ideology_continuism_DEF:0 "The Peasant Republic of Klizina"
 KLI_ideology_isolationism_DEF:0 "The Peasant Republic of Klizina"
 
+KLI_ADJ:0 "Klizinan"
 
 ROG_ideology_militarism:0 "Rognian Magocracy"
 ROG_ideology_imperialism:0 "Rognian Magocracy"
@@ -1497,6 +1668,8 @@ ROG_ideology_visionarism_DEF:0 "The Rognian Magocracy"
 ROG_ideology_solidarism_DEF:0 "The Rognian Magocracy"
 ROG_ideology_continuism_DEF:0 "The Rognian Magocracy"
 ROG_ideology_isolationism_DEF:0 "The Rognian Magocracy"
+
+ROG_ADJ:0 "Rognian"
 
 
 WEL_ideology_militarism:0 "Welernian Commonwealth"
@@ -1513,6 +1686,8 @@ WEL_ideology_solidarism_DEF:0 "The Welernian Commonwealth"
 WEL_ideology_continuism_DEF:0 "The Welernian Commonwealth"
 WEL_ideology_isolationism_DEF:0 "The Welernian Commonwealth"
 
+WEL_ADJ:0 "Welerenian"
+
 
 RAN_ideology_militarism:0 "Holy Empire of Raynaya"
 RAN_ideology_imperialism:0 "Holy Empire of Raynaya"
@@ -1527,6 +1702,8 @@ RAN_ideology_visionarism_DEF:0 "The Holy Empire of Raynaya"
 RAN_ideology_solidarism_DEF:0 "The Holy Empire of Raynaya"
 RAN_ideology_continuism_DEF:0 "The Holy Empire of Raynaya"
 RAN_ideology_isolationism_DEF:0 "The Holy Empire of Raynaya"
+
+RAN_ADJ:0 "Raynayan"
 
 
 ALT_ideology_militarism:0 "Free Republic of Altanuvo"
@@ -1543,6 +1720,8 @@ ALT_ideology_solidarism_DEF:0 "The Free Republic of Altanuvo"
 ALT_ideology_continuism_DEF:0 "The Free Republic of Altanuvo"
 ALT_ideology_isolationism_DEF:0 "The Free Republic of Altanuvo"
 
+ALT_ADJ:0 "Altanuvo"
+
 
 RED_ideology_militarism:0 "Redama Company"
 RED_ideology_imperialism:0 "Redama Company"
@@ -1557,6 +1736,8 @@ RED_ideology_visionarism_DEF:0 "The Redama Company"
 RED_ideology_solidarism_DEF:0 "The Redama Company"
 RED_ideology_continuism_DEF:0 "The Redama Company"
 RED_ideology_isolationism_DEF:0 "The Redama Company"
+
+RED_ADJ:0 "Redaman"
 
 
 KAT_ideology_militarism:0 "Katrama Military Government"
@@ -1573,6 +1754,8 @@ KAT_ideology_solidarism_DEF:0 "The Katrama Military Government"
 KAT_ideology_continuism_DEF:0 "The Katrama Military Government"
 KAT_ideology_isolationism_DEF:0 "The Katrama Military Government"
 
+KAT_ADJ:0 "Katraman"
+
 
 SOV_ideology_militarism:0 "Heavenly Empire of Sovjok"
 SOV_ideology_imperialism:0 "Heavenly Empire of Sovjok"
@@ -1587,6 +1770,8 @@ SOV_ideology_visionarism_DEF:0 "The Heavenly Empire of Sovjok"
 SOV_ideology_solidarism_DEF:0 "The Heavenly Empire of Sovjok"
 SOV_ideology_continuism_DEF:0 "The Heavenly Empire of Sovjok"
 SOV_ideology_isolationism_DEF:0 "The Heavenly Empire of Sovjok"
+
+SOV_ADJ:0 "Sovjokish"
 
 
 LES_ideology_militarism:0 "Lesini Kratocracy"
@@ -1603,6 +1788,8 @@ LES_ideology_solidarism_DEF:0 "The Lesini Kratocracy"
 LES_ideology_continuism_DEF:0 "The Lesini Kratocracy"
 LES_ideology_isolationism_DEF:0 "The Lesini Kratocracy"
 
+LES_ADJ:0 "Lesinian"
+
 
 LIO_ideology_militarism:0 "Kingdom of Liogne"
 LIO_ideology_imperialism:0 "Kingdom of Liogne"
@@ -1617,6 +1804,8 @@ LIO_ideology_visionarism_DEF:0 "The Kingdom of Liogne"
 LIO_ideology_solidarism_DEF:0 "The Kingdom of Liogne"
 LIO_ideology_continuism_DEF:0 "The Kingdom of Liogne"
 LIO_ideology_isolationism_DEF:0 "The Kingdom of Liogne"
+
+LIO_ADJ:0 "Liognan"
 
 
 ZIK_ideology_militarism:0 "Duchy of Zikrov"
@@ -1633,6 +1822,8 @@ ZIK_ideology_solidarism_DEF:0 "The Duchy of Zikrov"
 ZIK_ideology_continuism_DEF:0 "The Duchy of Zikrov"
 ZIK_ideology_isolationism_DEF:0 "The Duchy of Zikrov"
 
+ZIK_ADJ:0 "Zikrov"
+
 
 VRA_ideology_militarism:0 "Queendom of Vralion"
 VRA_ideology_imperialism:0 "Queendom of Vralion"
@@ -1647,6 +1838,8 @@ VRA_ideology_visionarism_DEF:0 "The Queendom of Vralion"
 VRA_ideology_solidarism_DEF:0 "The Queendom of Vralion"
 VRA_ideology_continuism_DEF:0 "The Queendom of Vralion"
 VRA_ideology_isolationism_DEF:0 "The Queendom of Vralion"
+
+VRA_ADJ:0 "Vralion"
 
 
 UBR_ideology_militarism:0 "United Emirates of Ubril"
@@ -1663,6 +1856,8 @@ UBR_ideology_solidarism_DEF:0 "The United Emirates of Ubril"
 UBR_ideology_continuism_DEF:0 "The United Emirates of Ubril"
 UBR_ideology_isolationism_DEF:0 "The United Emirates of Ubril"
 
+UBR_ADJ:0 "Ubril"
+
 
 GIR_ideology_militarism:0 "Dragon Kingdom of Girnas"
 GIR_ideology_imperialism:0 "Dragon Kingdom of Girnas"
@@ -1677,6 +1872,8 @@ GIR_ideology_visionarism_DEF:0 "The Dragon Kingdom of Girnas"
 GIR_ideology_solidarism_DEF:0 "The Dragon Kingdom of Girnas"
 GIR_ideology_continuism_DEF:0 "The Dragon Kingdom of Girnas"
 GIR_ideology_isolationism_DEF:0 "The Dragon Kingdom of Girnas"
+
+GIR_ADJ:0 "Girnas"
 
 
 MON_ideology_militarism:0 "Kingdom of Montisier"
@@ -1693,6 +1890,8 @@ MON_ideology_solidarism_DEF:0 "The Kingdom of Montisier"
 MON_ideology_continuism_DEF:0 "The Kingdom of Montisier"
 MON_ideology_isolationism_DEF:0 "The Kingdom of Montisier"
 
+MON_ADJ:0 "Montisieran"
+
 
 FRI_ideology_militarism:0 "Hive Federation of Freemount"
 FRI_ideology_imperialism:0 "Hive Federation of Freemount"
@@ -1707,6 +1906,8 @@ FRI_ideology_visionarism_DEF:0 "The Hive Federation of Freemount"
 FRI_ideology_solidarism_DEF:0 "The Hive Federation of Freemount"
 FRI_ideology_continuism_DEF:0 "The Hive Federation of Freemount"
 FRI_ideology_isolationism_DEF:0 "The Hive Federation of Freemount"
+
+FRI_ADJ:0 "Freemount"
 
 
 CLA_ideology_militarism:0 "Kingdom of Clamion"
@@ -1723,6 +1924,8 @@ CLA_ideology_solidarism_DEF:0 "The Kingdom of Clamion"
 CLA_ideology_continuism_DEF:0 "The Kingdom of Clamion"
 CLA_ideology_isolationism_DEF:0 "The Kingdom of Clamion"
 
+CLA_ADJ:0 "Clamionese"
+
 
 HIL_ideology_militarism:0 "Queendom of Hillbrook"
 HIL_ideology_imperialism:0 "Queendom of Hillbrook"
@@ -1738,35 +1941,24 @@ HIL_ideology_solidarism_DEF:0 "The Queendom of Hillbrook"
 HIL_ideology_continuism_DEF:0 "The Queendom of Hillbrook"
 HIL_ideology_isolationism_DEF:0 "The Queendom of Hillbrook"
 
-
-COL_ideology_militarism:0 "Emirate of Coldport"
-COL_ideology_imperialism:0 "Emirate of Coldport"
-COL_ideology_visionarism:0 "Emirate of Coldport"
-COL_ideology_solidarism:0 "Emirate of Coldport"
-COL_ideology_continuism:0 "Emirate of Coldport"
-COL_ideology_isolationism:0 "Emirate of Coldport"
-
-COL_ideology_militarism_DEF:0 "The Emirate of Coldport"
-COL_ideology_imperialism_DEF:0 "The Emirate of Coldport"
-COL_ideology_visionarism_DEF:0 "The Emirate of Coldport"
-COL_ideology_solidarism_DEF:0 "The Emirate of Coldport"
-COL_ideology_continuism_DEF:0 "The Emirate of Coldport"
-COL_ideology_isolationism_DEF:0 "The Emirate of Coldport"
+HIL_ADJ:0 "Hillbrook"
 
 
-MON_ideology_militarism:0 "Kingdom of Monsitten"
-MON_ideology_imperialism:0 "Kingdom of Monsitten"
-MON_ideology_visionarism:0 "Kingdom of Monsitten"
-MON_ideology_solidarism:0 "Kingdom of Monsitten"
-MON_ideology_continuism:0 "Kingdom of Monsitten"
-MON_ideology_isolationism:0 "Kingdom of Monsitten"
+COL_ideology_militarism:0 "Emirate of Yaralli"
+COL_ideology_imperialism:0 "Emirate of Yaralli"
+COL_ideology_visionarism:0 "Emirate of Yaralli"
+COL_ideology_solidarism:0 "Emirate of Yaralli"
+COL_ideology_continuism:0 "Emirate of Yaralli"
+COL_ideology_isolationism:0 "Emirate of Yaralli"
 
-MON_ideology_militarism_DEF:0 "The Kingdom of Monsitten"
-MON_ideology_imperialism_DEF:0 "The Kingdom of Monsitten"
-MON_ideology_visionarism_DEF:0 "The Kingdom of Monsitten"
-MON_ideology_solidarism_DEF:0 "The Kingdom of Monsitten"
-MON_ideology_continuism_DEF:0 "The Kingdom of Monsitten"
-MON_ideology_isolationism_DEF:0 "The Kingdom of Monsitten"
+COL_ideology_militarism_DEF:0 "The Emirate of Yaralli"
+COL_ideology_imperialism_DEF:0 "The Emirate of Yaralli"
+COL_ideology_visionarism_DEF:0 "The Emirate of Yaralli"
+COL_ideology_solidarism_DEF:0 "The Emirate of Yaralli"
+COL_ideology_continuism_DEF:0 "The Emirate of Yaralli"
+COL_ideology_isolationism_DEF:0 "The Emirate of Yaralli"
+
+COL_ADJ:0 "Yarallian"
 
 
 KUL_ideology_militarism:0 "Republic of Kullarq"
@@ -1783,47 +1975,54 @@ KUL_ideology_solidarism_DEF:0 "The Republic of Kullarq"
 KUL_ideology_continuism_DEF:0 "The Republic of Kullarq"
 KUL_ideology_isolationism_DEF:0 "The Republic of Kullarq"
 
-
-GUT_ideology_militarism:0 "Peasant Republic of Guttvone"
-GUT_ideology_imperialism:0 "Peasant Republic of Guttvone"
-GUT_ideology_visionarism:0 "Peasant Republic of Guttvone"
-GUT_ideology_solidarism:0 "Peasant Republic of Guttvone"
-GUT_ideology_continuism:0 "Peasant Republic of Guttvone"
-GUT_ideology_isolationism:0 "Peasant Republic of Guttvone"
-
-GUT_ideology_militarism_DEF:0 "The Peasant Republic of Guttvone"
-GUT_ideology_imperialism_DEF:0 "The Peasant Republic of Guttvone"
-GUT_ideology_visionarism_DEF:0 "The Peasant Republic of Guttvone"
-GUT_ideology_solidarism_DEF:0 "The Peasant Republic of Guttvone"
-GUT_ideology_continuism_DEF:0 "The Peasant Republic of Guttvone"
-GUT_ideology_isolationism_DEF:0 "The Peasant Republic of Guttvone"
+KUL_ADJ:0 "Kullarq"
 
 
-AFR_ideology_militarism:0 "Sultanate of Afrija"
-AFR_ideology_imperialism:0 "Sultanate of Afrija"
-AFR_ideology_visionarism:0 "Sultanate of Afrija"
-AFR_ideology_solidarism:0 "Sultanate of Afrija"
-AFR_ideology_continuism:0 "Sultanate of Afrija"
-AFR_ideology_isolationism:0 "Sultanate of Afrija"
+GUT_ideology_militarism:0 "Peasant Republic of Visp"
+GUT_ideology_imperialism:0 "Peasant Republic of Visp"
+GUT_ideology_visionarism:0 "Peasant Republic of Visp"
+GUT_ideology_solidarism:0 "Peasant Republic of Visp"
+GUT_ideology_continuism:0 "Peasant Republic of Visp"
+GUT_ideology_isolationism:0 "Peasant Republic of Visp"
 
-AFR_ideology_militarism_DEF:0 "The Sultanate of Afrija"
-AFR_ideology_imperialism_DEF:0 "The Sultanate of Afrija"
-AFR_ideology_visionarism_DEF:0 "The Sultanate of Afrija"
-AFR_ideology_solidarism_DEF:0 "The Sultanate of Afrija"
-AFR_ideology_continuism_DEF:0 "The Sultanate of Afrija"
-AFR_ideology_isolationism_DEF:0 "The Sultanate of Afrija"
+GUT_ideology_militarism_DEF:0 "The Peasant Republic of Visp"
+GUT_ideology_imperialism_DEF:0 "The Peasant Republic of Visp"
+GUT_ideology_visionarism_DEF:0 "The Peasant Republic of Visp"
+GUT_ideology_solidarism_DEF:0 "The Peasant Republic of Visp"
+GUT_ideology_continuism_DEF:0 "The Peasant Republic of Visp"
+GUT_ideology_isolationism_DEF:0 "The Peasant Republic of Visp"
+
+GUT_ADJ:0 "Visp"
 
 
-MOK_ideology_militarism:0 "Kingdom of Montisier"
-MOK_ideology_imperialism:0 "Kingdom of Montisier"
-MOK_ideology_visionarism:0 "Kingdom of Montisier"
-MOK_ideology_solidarism:0 "Kingdom of Montisier"
-MOK_ideology_continuism:0 "Kingdom of Montisier"
-MOK_ideology_isolationism:0 "Kingdom of Montisier"
+AFR_ideology_militarism:0 "Sultanate of Jinat"
+AFR_ideology_imperialism:0 "Sultanate of Jinat"
+AFR_ideology_visionarism:0 "Sultanate of Jinat"
+AFR_ideology_solidarism:0 "Sultanate of Jinat"
+AFR_ideology_continuism:0 "Sultanate of Jinat"
+AFR_ideology_isolationism:0 "Sultanate of Jinat"
 
-MOK_ideology_militarism_DEF:0 "The Kingdom of Montisier"
-MOK_ideology_imperialism_DEF:0 "The Kingdom of Montisier"
-MOK_ideology_visionarism_DEF:0 "The Kingdom of Montisier"
-MOK_ideology_solidarism_DEF:0 "The Kingdom of Montisier"
-MOK_ideology_continuism_DEF:0 "The Kingdom of Montisier"
-MOK_ideology_isolationism_DEF:0 "The Kingdom of Montisier"
+AFR_ideology_militarism_DEF:0 "The Sultanate of Jinat"
+AFR_ideology_imperialism_DEF:0 "The Sultanate of Jinat"
+AFR_ideology_visionarism_DEF:0 "The Sultanate of Jinat"
+AFR_ideology_solidarism_DEF:0 "The Sultanate of Jinat"
+AFR_ideology_continuism_DEF:0 "The Sultanate of Jinat"
+AFR_ideology_isolationism_DEF:0 "The Sultanate of Jinat"
+
+AFR_ADJ:0 "Jinatan"
+
+MOK_ideology_militarism:0 "Kingdom of Berisal"
+MOK_ideology_imperialism:0 "Kingdom of Berisal"
+MOK_ideology_visionarism:0 "Kingdom of Berisal"
+MOK_ideology_solidarism:0 "Kingdom of Berisal"
+MOK_ideology_continuism:0 "Kingdom of Berisal"
+MOK_ideology_isolationism:0 "Kingdom of Berisal"
+
+MOK_ideology_militarism_DEF:0 "The Kingdom of Berisal"
+MOK_ideology_imperialism_DEF:0 "The Kingdom of Berisal"
+MOK_ideology_visionarism_DEF:0 "The Kingdom of Berisal"
+MOK_ideology_solidarism_DEF:0 "The Kingdom of Berisal"
+MOK_ideology_continuism_DEF:0 "The Kingdom of Berisal"
+MOK_ideology_isolationism_DEF:0 "The Kingdom of Berisal"
+
+MOK_ADJ:0 "Berisalish"
