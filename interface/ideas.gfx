@@ -310,6 +310,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_fortify_the_border"
 		texturefile = "gfx/interface/ideas/generic/genidea_fortify_the_border.dds"
 	}
+#FIND LOYAL ALLIES
+	SpriteType = {
+		name = "GFX_idea_genidea_find_loyal_allies"
+		texturefile = "gfx/interface/ideas/generic/genidea_find_loyal_allies.dds"
+	}
 }
 	
 	
