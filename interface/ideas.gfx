@@ -315,6 +315,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_find_loyal_allies"
 		texturefile = "gfx/interface/ideas/generic/genidea_find_loyal_allies.dds"
 	}
+#OVER SEAS EXPANSION
+	SpriteType = {
+		name = "GFX_idea_genidea_overseas_expansion"
+		texturefile = "gfx/interface/ideas/generic/genidea_overseas_expansion.dds"
+	}
 }
 	
 	
