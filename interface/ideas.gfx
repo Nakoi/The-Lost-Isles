@@ -320,6 +320,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_overseas_expansion"
 		texturefile = "gfx/interface/ideas/generic/genidea_overseas_expansion.dds"
 	}
+#OVER SEAS EXPANSION
+	SpriteType = {
+		name = "GFX_idea_genidea_worldwide_cotender"
+		texturefile = "gfx/interface/ideas/generic/genidea_worldwide_cotender.dds"
+	}
 }
 	
 	
