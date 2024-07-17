@@ -325,6 +325,11 @@ spriteTypes = {
 		name = "GFX_idea_genidea_worldwide_cotender"
 		texturefile = "gfx/interface/ideas/generic/genidea_worldwide_cotender.dds"
 	}
+#CONTINENTAL CONQUEST
+	SpriteType = {
+		name = "GFX_idea_genidea_continental_conquest1"
+		texturefile = "gfx/interface/ideas/generic/genidea_continental_conquest1.dds"
+	}
 }
 	
 	
