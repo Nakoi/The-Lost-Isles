@@ -3,7 +3,7 @@ state = {
 	name = "STATE_764"
 	manpower = 194352
 
-	state_category = city
+	state_category = town
 
 
 	resources={
@@ -15,8 +15,9 @@ state = {
 		owner = KAT
 		add_core_of = KAT
 		victory_points = { 5867 10 }
-#		buildings = {
-#		}
+		buildings = {
+			synthetic_refinery = 3
+		}
 	}
 
 	provinces = {
