@@ -1,9 +1,9 @@
 state = {
 	id = 804
 	name = "STATE_804"
-	manpower = 376324
+	manpower = 246324
 
-	state_category = city
+	state_category = town
 
 	resources={
 		wood=24.000
@@ -16,12 +16,11 @@ state = {
 	history = {
 		owner = SOV
 		add_core_of = SOV
-#		victory_points = { 404 10 }
+		victory_points = { 404 10 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			synthetic_refinery = 1
+			industrial_complex = 1
+			synthetic_refinery = 2
 		}
 	}
 

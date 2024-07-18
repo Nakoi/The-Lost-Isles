@@ -1,9 +1,9 @@
 state = {
 	id = 791
 	name = "STATE_791"
-	manpower = 443812
+	manpower = 293812
 
-	state_category = city
+	state_category = large_town
 
 
 	resources={
@@ -15,8 +15,12 @@ state = {
 		owner = SOV
 		add_core_of = SOV
 		victory_points = { 2093 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {

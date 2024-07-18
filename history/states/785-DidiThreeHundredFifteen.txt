@@ -3,7 +3,7 @@ state = {
 	name = "STATE_785"
 	manpower = 131652
 
-	state_category = city
+	state_category = rural
 
 	resources={
 		rare_metals=101.000
@@ -15,8 +15,8 @@ state = {
 		owner = SOV
 		add_core_of = SOV
 		victory_points = { 3517 10 }
-#		buildings = {
-#		}
+		buildings = {
+		}
 	}
 
 	provinces = {

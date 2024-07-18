@@ -1,16 +1,19 @@
 state = {
 	id = 780
 	name = "STATE_780"
-	manpower = 59321
+	manpower = 359321
 
 	state_category = city
 
 	history = {
 		owner = SOV
 		add_core_of = SOV
-#		victory_points = { 1933 10 }
-#		buildings = {
-#		}
+		victory_points = { 1933 10 }
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 2
+		}
 	}
 
 	provinces = {
