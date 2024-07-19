@@ -358,5 +358,10 @@ spriteTypes = {
 		name = "GFX_idea_genidea_grand_alliance2"
 		texturefile = "gfx/interface/ideas/generic/genidea_grand_alliance1.dds"	
 	}
+#AIRFIELD EXPANSION
+	SpriteType = {
+		name = "GFX_idea_genidea_airfield_expansion"
+		texturefile = "gfx/interface/ideas/generic/genidea_airfield_expansion.dds"	
+	}
 }
 	
