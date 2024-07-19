@@ -363,5 +363,10 @@ spriteTypes = {
 		name = "GFX_idea_genidea_airfield_expansion"
 		texturefile = "gfx/interface/ideas/generic/genidea_airfield_expansion.dds"	
 	}
+#AIRSHIP CRYSTALS
+	SpriteType = {
+		name = "GFX_idea_genidea_airship_crystals"
+		texturefile = "gfx/interface/ideas/generic/genidea_airship_crystals.dds"	
+	}
 }
 	
