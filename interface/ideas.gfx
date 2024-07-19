@@ -347,6 +347,16 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_genidea_go_do_a_crime"
 		texturefile = "gfx/interface/ideas/generic/genidea_go_do_a_crime.dds"	
+	}
+#GRAND ALLIANCE
+	SpriteType = {
+		name = "GFX_idea_genidea_grand_alliance1"
+		texturefile = "gfx/interface/ideas/generic/genidea_grand_alliance1.dds"	
+	}
+#GRAND ALLIANCE
+	SpriteType = {
+		name = "GFX_idea_genidea_grand_alliance2"
+		texturefile = "gfx/interface/ideas/generic/genidea_grand_alliance1.dds"	
+	}
 }
-	
 	
