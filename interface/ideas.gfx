@@ -378,5 +378,10 @@ spriteTypes = {
 		name = "GFX_idea_genidea_army_raremetals"
 		texturefile = "gfx/interface/ideas/generic/genidea_army_raremetals.dds"	
 	}
+#ARMY CHECMICALS
+	SpriteType = {
+		name = "GFX_idea_genidea_army_chemicals"
+		texturefile = "gfx/interface/ideas/generic/genidea_army_chemicals.dds"	
+	}
 }
 	
