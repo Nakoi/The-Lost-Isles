@@ -383,5 +383,20 @@ spriteTypes = {
 		name = "GFX_idea_genidea_army_chemicals"
 		texturefile = "gfx/interface/ideas/generic/genidea_army_chemicals.dds"	
 	}
+#BIG ARMY
+	SpriteType = {
+		name = "GFX_idea_genidea_big_army"
+		texturefile = "gfx/interface/ideas/generic/genidea_militarism_buff_1.dds"	
+	}
+#WORKSHOP OF THE WORLD
+	SpriteType = {
+		name = "GFX_idea_genidea_workshop_of_the_world"
+		texturefile = "gfx/interface/ideas/generic/genidea_proto_industrialization.dds"	
+	}
+#LOVE SCIENCE
+	SpriteType = {
+		name = "GFX_idea_genidea_i_fucking_love_science"
+		texturefile = "gfx/interface/ideas/generic/genidea_i_fucking_love_science.dds"	
+	}
 }
 	
