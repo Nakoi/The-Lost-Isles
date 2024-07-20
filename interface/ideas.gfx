@@ -368,5 +368,15 @@ spriteTypes = {
 		name = "GFX_idea_genidea_airship_crystals"
 		texturefile = "gfx/interface/ideas/generic/genidea_airship_crystals.dds"	
 	}
+#PORT EXPANSION
+	SpriteType = {
+		name = "GFX_idea_genidea_port_expansion"
+		texturefile = "gfx/interface/ideas/generic/genidea_booming_ship_construction.dds"	
+	}
+#ARMY RAREMETALS
+	SpriteType = {
+		name = "GFX_idea_genidea_army_raremetals"
+		texturefile = "gfx/interface/ideas/generic/genidea_army_raremetals.dds"	
+	}
 }
 	
