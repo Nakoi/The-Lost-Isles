@@ -1,9 +1,9 @@
 state = {
 	id = 797
 	name = "STATE_797"
-	manpower = 443491
+	manpower = 1443491
 
-	state_category = city
+	state_category = metropolis
 
 	resources={
 		luxuries=15.000
@@ -14,10 +14,14 @@ state = {
 	history = {
 		owner = LIO
 		add_core_of = LIO
-		victory_points = { 842 10 }
+		victory_points = { 842 30 }
 		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 2
 			842={
-				naval_base = 1
+				naval_base = 8
 			}
 		}
 	}

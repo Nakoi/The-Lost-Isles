@@ -3,14 +3,17 @@ state = {
 	name = "STATE_673"
 	manpower = 297371
 
-	state_category = city
+	state_category = large_town
 
 	history = {
 		owner = MON
 		add_core_of = MON
 		victory_points = { 139 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			synthetic_refinery = 3
+		}
 	}
 
 	provinces = {
