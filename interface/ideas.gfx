@@ -413,5 +413,10 @@ spriteTypes = {
 		name = "GFX_idea_genidea_peaceful_and_prosperous"
 		texturefile = "gfx/interface/ideas/generic/genidea_peaceful_and_prosperous.dds"	
 	}
+#PEACEFUL AND PROSPEROUS
+	SpriteType = {
+		name = "GFX_idea_genidea_geared_for_war"
+		texturefile = "gfx/interface/ideas/generic/genidea_geared_for_war.dds"	
+	}
 }
 	
