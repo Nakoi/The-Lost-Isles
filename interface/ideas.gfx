@@ -403,5 +403,15 @@ spriteTypes = {
 		name = "GFX_idea_genidea_modern_agriculture"
 		texturefile = "gfx/interface/ideas/generic/genidea_modern_agriculture.dds"	
 	}
+#LOVE TRAINS
+	SpriteType = {
+		name = "GFX_idea_genidea_i_fucking_love_trains"
+		texturefile = "gfx/interface/ideas/generic/genidea_connect_the_nation.dds"	
+	}
+#PEACEFUL AND PROSPEROUS
+	SpriteType = {
+		name = "GFX_idea_genidea_peaceful_and_prosperous"
+		texturefile = "gfx/interface/ideas/generic/genidea_peaceful_and_prosperous.dds"	
+	}
 }
 	
