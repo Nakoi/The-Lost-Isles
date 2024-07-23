@@ -2398,7 +2398,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_economic_boom
-		#icon = 
+		icon = ESU_GFX_Economic_Boom
 		prerequisite = { focus = ESU_faith_in_our_nation }
 		x = 0
 		y = 5
@@ -2593,6 +2593,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_naval_supremecy_quality
+		icon = ESU_GFX_naval_supremecy_quality
 		prerequisite = { focus = ESU_naval_offense focus = ESU_naval_defence }
 		mutually_exclusive = { focus = ESU_naval_supremecy }
 		x = 6
@@ -2662,6 +2663,7 @@ focus_tree = {
 	
 	focus = {
 		id = ESU_airship_cruiser
+		icon = ESU_GFX_Air_Cruiser_Primacy
 		prerequisite = { focus = ESU_air_stuff }
 		mutually_exclusive = { focus = ESU_airship_frigate }
 		x = -5
