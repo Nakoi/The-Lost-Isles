@@ -1,9 +1,9 @@
 state = {
 	id = 684
 	name = "STATE_684"
-	manpower = 433654
+	manpower = 133654
 
-	state_category = city
+	state_category = rural
 
 	resources={
 		luxuries=17.000
@@ -16,9 +16,6 @@ state = {
 		add_core_of = CLA
 #		victory_points = { 5404 10 }
 		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			synthetic_refinery = 2
 		}
 	}
 
