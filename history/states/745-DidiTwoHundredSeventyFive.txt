@@ -3,17 +3,20 @@ state = {
 	name = "STATE_745"
 	manpower = 492791
 
-	state_category = city
+	state_category = large_city
 
 	history = {
 		owner = FRI
 		add_core_of = FRI
-		victory_points = { 3697 10 }
+		victory_points = { 3697 20 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 3
-			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 4
+			367={
+				naval_base = 5
+			}
 		}
 	}
 

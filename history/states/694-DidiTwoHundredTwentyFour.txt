@@ -3,7 +3,7 @@ state = {
 	name = "STATE_694"
 	manpower = 543975
 
-	state_category = city
+	state_category = large_city
 
 	resources={
 		crystals=43.000
@@ -14,11 +14,12 @@ state = {
 	history = {
 		owner = FRI
 		add_core_of = FRI
-		victory_points = { 5708 10 }
+		victory_points = { 5708 20 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 2
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 4
 		}
 	}
 
