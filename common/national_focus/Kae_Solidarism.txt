@@ -1,6 +1,5 @@
 focus_tree = {
     id = kae_main_focus
-
     country = {
         factor = 0
 
@@ -151,6 +150,7 @@ focus_tree = {
 
 	focus = {
 		id = KAE_advisor_in_these_times
+		icon = KAE_GFX_advisor_in_these_times
 		prerequisite = { focus = KAE_improved_relations }
 		x = 0
 		y = 3
@@ -891,7 +891,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_armed_merchants
-		#icon =
+		icon = KAE_GFX_armed_merchants
 		prerequisite = { focus = KAE_golden_ring_concept }
 		mutually_exclusive = { focus = KAE_protected_merchants }
 		x = 0
@@ -912,7 +912,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_protected_merchants
-		#icon =
+		icon = KAE_GFX_protected_merchants
 		prerequisite = { focus = KAE_golden_ring_concept }
 		mutually_exclusive = { focus = KAE_armed_merchants }
 		x = 2
