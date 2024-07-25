@@ -871,7 +871,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_golden_ring_concept
-		#icon =
+		icon = KAE_GFX_golden_ring_concept
 		prerequisite = { focus = KAE_commission_officers focus = KAE_rebuild_trade_fleet }
 		x = 1
 		y = 4
@@ -933,7 +933,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_golden_ring_republic
-		#icon =
+		icon = KAE_GFX_golden_ring_republic
 		prerequisite = { focus = KAE_protected_merchants focus = KAE_armed_merchants }
 		x = 1
 		y = 6

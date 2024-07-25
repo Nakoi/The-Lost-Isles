@@ -3417,5 +3417,75 @@ spriteTypes = {
     }
 
 
+    SpriteType = { 
+        name = "KAE_GFX_golden_ring_concept"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_golden_ring_concept.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_golden_ring_concept_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_golden_ring_concept.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_golden_ring_concept.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_golden_ring_concept.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+    SpriteType = { 
+        name = "KAE_GFX_golden_ring_republic"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_golden_ring_republic.dds"
+    }
+    
+    SpriteType = { 
+        name = "KAE_GFX_golden_ring_republic_shine"
+        texturefile = "gfx/interface/goals/KAE/KAE_GFX_golden_ring_republic.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_golden_ring_republic.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/KAE/KAE_GFX_golden_ring_republic.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
 
 }
