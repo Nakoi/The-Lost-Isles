@@ -1,9 +1,9 @@
 state = {
 	id = 626
 	name = "STATE_626"
-	manpower = 321652
+	manpower = 221652
 
-	state_category = city
+	state_category = town
 
 	resources={
 		rare_metals=29.000
@@ -15,8 +15,10 @@ state = {
 		owner = LES
 		add_core_of = LES
 		victory_points = { 6023 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			synthetic_refinery = 3
+		}
 	}
 
 	provinces = {

@@ -1,16 +1,18 @@
 state = {
 	id = 653
 	name = "STATE_653"
-	manpower = 321652
+	manpower = 221652
 
-	state_category = city
+	state_category = town
 
 	history = {
 		owner = UBR
 		add_core_of = UBR
 		victory_points = { 2103 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			synthetic_refinery = 3
+		}
 	}
 
 	provinces = {

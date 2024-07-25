@@ -1,9 +1,9 @@
 state = {
 	id = 632
 	name = "STATE_632"
-	manpower = 534652
+	manpower = 1534652
 
-	state_category = large_city
+	state_category = metropolis
 
 	resources={
 		wood=12.000
@@ -14,12 +14,16 @@ state = {
 	history = {
 		owner = LES
 		add_core_of = LES
-		victory_points = { 2330 20 }
+		victory_points = { 2330 30 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3
-			industrial_complex = 2
-			dockyard = 2
+			industrial_complex = 5
+			dockyard = 3
+			air_base = 4
+			2330 = {
+				naval_base = 7
+			}
 		}
 	}
 
