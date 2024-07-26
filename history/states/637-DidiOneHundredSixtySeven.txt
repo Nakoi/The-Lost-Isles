@@ -1,9 +1,9 @@
 state = {
 	id = 637
 	name = "STATE_637"
-	manpower = 213985
+	manpower = 613985
 
-	state_category = metropolis
+	state_category = large_city
 
 	resources={
 		coal=27.000
@@ -13,11 +13,11 @@ state = {
 	history = {
 		owner = HIL
 		add_core_of = HIL
-		victory_points = { 2041 10 }
+		victory_points = { 2041 20 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 4
-			industrial_complex = 3
+			arms_factory = 2
+			industrial_complex = 4
 			synthetic_refinery = 2
 		}
 	}

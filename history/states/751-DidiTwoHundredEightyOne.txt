@@ -1,7 +1,7 @@
 state = {
 	id = 751
 	name = "STATE_751"
-	manpower = 331917
+	manpower = 631917
 
 	state_category = city
 
@@ -9,8 +9,11 @@ state = {
 		owner = HIL
 		add_core_of = HIL
 		victory_points = { 851 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+		}
 	}
 
 	provinces = {

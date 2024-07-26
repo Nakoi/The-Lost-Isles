@@ -1,9 +1,9 @@
 state = {
 	id = 647
 	name = "STATE_647"
-	manpower = 453581
+	manpower = 253581
 
-	state_category = city
+	state_category = large_town
 
 	resources={
 		iron=53.000	
@@ -14,8 +14,11 @@ state = {
 		owner = VRA
 		add_core_of = VRA
 		victory_points = { 2681 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastrucutre = 3
+			synthetic_refinery = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces = {

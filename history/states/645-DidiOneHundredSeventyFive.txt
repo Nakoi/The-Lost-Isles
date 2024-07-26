@@ -1,7 +1,7 @@
 state = {
 	id = 645
 	name = "STATE_645"
-	manpower = 631945
+	manpower = 2031945
 
 	state_category = metropolis
 
@@ -14,14 +14,15 @@ state = {
 	history = {
 		owner = VRA
 		add_core_of = VRA
-		victory_points = { 618 20 }
+		victory_points = { 618 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
+			arms_factory = 3
 			industrial_complex = 5
-			dockyard = 2
+			dockyard = 3
+			air_base = 7
 			618={
-				naval_base = 1
+				naval_base = 6
 			}
 		}
 	}
