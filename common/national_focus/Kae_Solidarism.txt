@@ -997,7 +997,7 @@ focus_tree = {
 	
 	focus = {
 		id = KAE_maintain_golden_ring
-		#icon =
+		icon = KAE_GFX_maintain_golden_ring
 		prerequisite = { focus = KAE_golden_ring_republic }
 		mutually_exclusive = { focus = KAE_core_esun }
 		x = 1
