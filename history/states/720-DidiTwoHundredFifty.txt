@@ -1,9 +1,9 @@
 state = {
 	id = 720
 	name = "STATE_720"
-	manpower = 431698
+	manpower = 171698
 
-	state_category = city
+	state_category = rural
 
 	resources={
 		wood=24.000
@@ -15,8 +15,9 @@ state = {
 		owner = KUL
 		add_core_of = KUL
 #		victory_points = { 1356 10 }
-#		buildings = {
-#		}
+		buildings = {
+			
+		}
 	}
 
 	provinces = {
