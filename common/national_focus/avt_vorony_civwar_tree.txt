@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = AVE
+            tag = AVT
        }
     }
 
@@ -16,6 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = AVT_vorony_civwar_focus
+		icon = AVT_GFX_civwar_focus
 		x = 0
 		y = 0
 		cost = 0.2
@@ -34,6 +35,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_vorony_civwar_arms_trade
+		icon = AVT_GFX_vorony_civwar_arms_trade
 		prerequisite = { focus = AVT_vorony_civwar_focus }
 		x = 0
 		y = 1
@@ -53,6 +55,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_vorony_civwar_cast_iron_barrels
+		icon = AVT_GFX_vorony_civwar_cast_iron_barrels
 		prerequisite = { focus = AVT_vorony_civwar_arms_trade }
 		x = 0
 		y = 2
@@ -75,6 +78,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_vorony_civwar_grand_army
+		icon = AVT_GFX_vorony_civwar_grand_army
 		prerequisite = { focus = AVT_vorony_civwar_focus }
 		x = -2
 		y = 1
@@ -132,6 +136,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_vorony_civwar_hire_mercenaries
+		icon = AVT_GFX_vorony_civwar_hire_mercenaries
 		prerequisite = { focus = AVT_vorony_civwar_grand_army }
 		x = -2
 		y = 2
@@ -151,6 +156,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_vorony_civwar_industrial_might
+		icon = AVT_GFX_vorony_civwar_industrial_might
 		prerequisite = { focus = AVT_vorony_civwar_focus }
 		x = 2
 		y = 1
@@ -189,6 +195,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_vorony_civwar_machinery_imports
+		icon = AVT_GFX_vorony_civwar_machinery_imports
 		prerequisite = { focus = AVT_vorony_civwar_industrial_might }
 		x = 2
 		y = 2
@@ -204,6 +211,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_vorony_civwar_down_with_avtukov
+		icon = AVT_GFX_vorony_civwar_down_with_avtukov
 		prerequisite = { focus = AVT_vorony_civwar_machinery_imports focus = AVT_vorony_civwar_hire_mercenaries focus = AVT_vorony_civwar_cast_iron_barrels }
 		x = 0
 		y = 3
