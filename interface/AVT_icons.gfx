@@ -6645,3 +6645,150 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 } 
         }
     }
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_swiftguard_civwar_production_quotas"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_production_quotas.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_swiftguard_civwar_production_quotas_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_production_quotas.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_production_quotas.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_production_quotas.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_swiftguard_civwar_pegasi_militias"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_pegasi_militias.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_swiftguard_civwar_pegasi_militias_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_pegasi_militias.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_pegasi_militias.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_pegasi_militias.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+    SpriteType = { 
+        name = "AVT_GFX_swiftguard_civwar_windrider_recruitment"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_windrider_recruitment.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_swiftguard_civwar_windrider_recruitment_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_windrider_recruitment.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_windrider_recruitment.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_windrider_recruitment.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }
+
+
+
+    SpriteType = { 
+        name = "AVT_GFX_swiftguard_civwar_military_workshops"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_military_workshops.dds"
+    }
+
+    SpriteType = { 
+        name = "AVT_GFX_swiftguard_civwar_military_workshops_shine"
+        texturefile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_military_workshops.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_military_workshops.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/AVT/AVT_GFX_swiftguard_civwar_military_workshops.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+    }

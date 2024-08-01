@@ -16,6 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = AVT_swiftguard_civwar_focus
+		icon = AVT_GFX_vorony_civwar_down_with_avtukov
 		x = 0
 		y = 0
 		cost = 0.2
@@ -34,6 +35,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_swiftguard_civwar_gunlance_armories
+		icon = AVT_GFX_vorony_civwar_arms_trade
 		prerequisite = { focus = AVT_swiftguard_civwar_focus }
 		x = 0
 		y = 1
@@ -56,6 +58,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_swiftguard_civwar_knightly_weapons
+		icon = AVT_GFX_Tip_Of_The_Spear
 		prerequisite = { focus = AVT_swiftguard_civwar_gunlance_armories }
 		x = 0
 		y = 2
@@ -78,6 +81,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_swiftguard_civwar_windrider_recruitment
+		icon = AVT_GFX_swiftguard_civwar_windrider_recruitment
 		prerequisite = { focus = AVT_swiftguard_civwar_focus }
 		x = -2
 		y = 1
@@ -106,6 +110,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_swiftguard_civwar_pegasi_militias
+		icon = AVT_GFX_swiftguard_civwar_pegasi_militias
 		prerequisite = { focus = AVT_swiftguard_civwar_windrider_recruitment }
 		x = -2
 		y = 2
@@ -163,6 +168,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_swiftguard_civwar_military_workshops
+		icon = AVT_GFX_swiftguard_civwar_military_workshops
 		prerequisite = { focus = AVT_swiftguard_civwar_focus }
 		x = 2
 		y = 1
@@ -193,6 +199,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_swiftguard_civwar_production_quotas
+		icon = AVT_GFX_swiftguard_civwar_production_quotas
 		prerequisite = { focus = AVT_swiftguard_civwar_military_workshops }
 		x = 2
 		y = 2
@@ -223,6 +230,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_swiftguard_civwar_may_the_strongest_win
+		icon = AVT_GFX_civwar_focus
 		prerequisite = { focus = AVT_swiftguard_civwar_production_quotas focus = AVT_swiftguard_civwar_pegasi_militias focus = AVT_swiftguard_civwar_knightly_weapons }
 		x = 0
 		y = 3
