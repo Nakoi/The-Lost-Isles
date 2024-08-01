@@ -1,9 +1,9 @@
 state = {
     id = 621
     name = "STATE_621"
-    manpower = 321964
+    manpower = 121
 
-    state_category = city
+    state_category = rural
 
 	resources={
 		rare_metals=28.000
@@ -14,14 +14,9 @@ state = {
     history = {
         owner = GIR
         add_core_of = GIR
-#        victory_points = { 2659 10 }
-	buildings = {
-		infrastructure = 3
-		arms_factory = 1
-		industrial_complex = 1
-		synthetic_refinery = 2
-		dockyard = 2
-	}
+#       victory_points = { 2659 10 }
+		buildings = {
+		}
     }
 
     provinces = {
