@@ -16,6 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = AVT_mage_civwar_focus
+		icon = AVT_GFX_vorony_civwar_down_with_avtukov
 		x = 0
 		y = 0
 		cost = 0.2
@@ -34,6 +35,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_mage_civwar_weapon_caches
+		icon = AVT_GFX_vorony_civwar_arms_trade
 		prerequisite = { focus = AVT_mage_civwar_focus }
 		x = 0
 		y = 1
@@ -56,6 +58,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_mage_civwar_arms_replication
+		icon = AVT_GFX_mage_civwar_arms_replication
 		prerequisite = { focus = AVT_mage_civwar_weapon_caches }
 		x = 0
 		y = 2
@@ -71,6 +74,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_mage_civwar_deploy_apprentices
+		icon = AVT_GFX_swiftguard_civwar_windrider_recruitment
 		prerequisite = { focus = AVT_mage_civwar_focus }
 		x = -2
 		y = 1
@@ -99,6 +103,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_mage_civwar_summon_legion
+		icon = AVT_GFX_mage_civwar_summon_legion
 		prerequisite = { focus = AVT_mage_civwar_deploy_apprentices }
 		x = -2
 		y = 2
@@ -164,6 +169,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_mage_civwar_magic_industry
+		icon = AVT_GFX_swiftguard_civwar_production_quotas
 		prerequisite = { focus = AVT_mage_civwar_focus }
 		x = 2
 		y = 1
@@ -186,6 +192,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_mage_civwar_magic_industry_2
+		icon = AVT_GFX_mage_civwar_magic_industry_2
 		prerequisite = { focus = AVT_mage_civwar_magic_industry }
 		x = 2
 		y = 2
@@ -232,6 +239,7 @@ focus_tree = {
 	
 	focus = {
 		id = AVT_mage_civwar_magic_makes_us_strong
+		icon = AVT_GFX_mage_civwar_magic_makes_us_strong
 		prerequisite = { focus = AVT_mage_civwar_magic_industry_2 focus = AVT_mage_civwar_summon_legion focus = AVT_mage_civwar_arms_replication }
 		x = 0
 		y = 3
