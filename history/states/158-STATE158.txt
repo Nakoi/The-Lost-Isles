@@ -1,9 +1,9 @@
 state = {
 	id = 158
 	name = "STATE_158"
-	manpower = 359421
+	manpower = 559421
 
-	state_category = city
+	state_category = large_city
 
 	resources={
 		luxuries=87.000
@@ -14,12 +14,15 @@ state = {
 	history = {
 		owner = OAC
 		add_core_of = OAC
-		victory_points = { 1046 10 }
+		victory_points = { 1046 20 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 2
-			synthetic_refinery = 2
+			industrial_complex = 3
+			dockyard = 1
+			5552 = {
+				naval_base = 5
+			}
 		}
 	}
 

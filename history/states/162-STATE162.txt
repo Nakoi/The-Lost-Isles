@@ -1,19 +1,22 @@
 state = {
 	id = 162
 	name = "STATE_162"
-	manpower = 294561
+	manpower = 334561
 
 	state_category = city
 
 	history = {
 		owner = OAC
 		add_core_of = OAC
-#		victory_points = { 942 10 }
+		victory_points = { 942 10 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 2
-			dockyard = 2
+			dockyard = 1
+			942 = {
+				naval_base = 3
+			}
 		}
 	}
 
