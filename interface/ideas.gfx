@@ -413,10 +413,102 @@ spriteTypes = {
 		name = "GFX_idea_genidea_peaceful_and_prosperous"
 		texturefile = "gfx/interface/ideas/generic/genidea_peaceful_and_prosperous.dds"	
 	}
-#PEACEFUL AND PROSPEROUS
+#GEARED FOR WAR
 	SpriteType = {
 		name = "GFX_idea_genidea_geared_for_war"
 		texturefile = "gfx/interface/ideas/generic/genidea_geared_for_war.dds"	
+	}
+
+#  #   ##    ####
+# #   #  #   #
+##    ####   ###
+# #   #  #   #
+# #   #  #   ####
+
+#NEGOTIATIONS DEBUFF
+	SpriteType = {
+		name = "GFX_idea_KAE_negotiations_pp_debuff"
+		texturefile = "gfx/interface/ideas/generic/KAE_negotiations_pp_debuff.dds"	
+	}
+#CUCKED GULF
+	SpriteType = {
+		name = "GFX_idea_KAE_cucked_gulf_01"
+		texturefile = "gfx/interface/ideas/generic/KAE_cucked_gulf_01.dds"	
+	}
+#CUCKED GULF
+	SpriteType = {
+		name = "GFX_idea_KAE_cucked_gulf_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_cucked_gulf_01.dds"	
+	}
+#MINUTE KIRIN
+	SpriteType = {
+		name = "GFX_idea_KAE_minutekirin_00"
+		texturefile = "gfx/interface/ideas/generic/KAE_minutekirin_00.dds"	
+	}
+#MINUTE KIRIN
+	SpriteType = {
+		name = "GFX_idea_KAE_minutekirin_01"
+		texturefile = "gfx/interface/ideas/generic/genidea_militarism_buff_1.dds"	
+	}
+#MINUTE KIRIN
+	SpriteType = {
+		name = "GFX_idea_KAE_minutekirin_02"
+		texturefile = "gfx/interface/ideas/generic/genidea_militarism_buff_1.dds"	
+	}
+#MINUTE KIRIN
+	SpriteType = {
+		name = "GFX_idea_KAE_minutekirin_03"
+		texturefile = "gfx/interface/ideas/generic/genidea_militarism_buff_1.dds"	
+	}
+#MINUTE KIRIN
+	SpriteType = {
+		name = "GFX_idea_KAE_minutekirin_merc_00"
+		texturefile = "gfx/interface/ideas/generic/KAE_minutekirin_merc_00.dds"	
+	}
+#MINUTE KIRIN
+	SpriteType = {
+		name = "GFX_idea_KAE_minutekirin_merc_01"
+		texturefile = "gfx/interface/ideas/generic/KAE_minutekirin_merc_00.dds"	
+	}
+#MINUTE KIRIN
+	SpriteType = {
+		name = "GFX_idea_KAE_minutekirin_merc_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_minutekirin_merc_00.dds"	
+	}
+#SNEK KIRIN
+	SpriteType = {
+		name = "GFX_idea_KAE_minutekirin_snek_01"
+		texturefile = "gfx/interface/ideas/generic/genidea_militarism_buff_1.dds"	
+	}
+#SNEK KIRIN
+	SpriteType = {
+		name = "GFX_idea_KAE_minutekirin_snek_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_minutekirin_merc_00.dds"	
+	}
+#SHIT ARMS INDUSTRY
+	SpriteType = {
+		name = "GFX_idea_KAE_shit_arms_industry"
+		texturefile = "gfx/interface/ideas/generic/KAE_shit_arms_industry.dds"	
+	}
+#SHIT ARMS INDUSTRY BETTER
+	SpriteType = {
+		name = "GFX_idea_KAE_shit_arms_industry_better"
+		texturefile = "gfx/interface/ideas/generic/KAE_shit_arms_industry_better.dds"	
+	}
+#MILITIA SALARY
+	SpriteType = {
+		name = "GFX_idea_KAE_militiasalary"
+		texturefile = "gfx/interface/ideas/generic/KAE_militiasalary.dds"	
+	}
+#MILITIAPROTEST YES
+	SpriteType = {
+		name = "GFX_idea_KAE_militiaprotest_yes"
+		texturefile = "gfx/interface/ideas/generic/genidea_the_sun_never_sets1.dds"	
+	}
+#MILITIAPROTEST NO
+	SpriteType = {
+		name = "GFX_idea_KAE_militiaprotest_no"
+		texturefile = "gfx/interface/ideas/generic/KAE_militiaprotest_no.dds"	
 	}
 }
 	
