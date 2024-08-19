@@ -24,7 +24,8 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = no
-
+		affects_speed = yes
+		
 		type = {
 			infantry
 		}
@@ -72,6 +73,7 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = no
+		affects_speed = yes
 
 		type = {
 			infantry
@@ -181,7 +183,8 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = no
-
+		affects_speed = yes
+		
 		type = {
 			infantry
 		}
@@ -230,7 +233,8 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = no
-
+		affects_speed = yes
+		
 		type = {
 			infantry
 		}
@@ -318,7 +322,7 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = no
-
+		affects_speed = no
 		type = {
 			support
 		}
@@ -391,6 +395,7 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = no
+		affects_speed = no
 
 		type = {
 			support
@@ -466,6 +471,7 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = no
+		affects_speed = no
 
 		type = {
 			support
@@ -548,6 +554,7 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = no
+		affects_speed = no
 
 		type = {
 			support
@@ -597,6 +604,7 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = no
+		affects_speed = no
 
 		type = {
 			support
@@ -647,6 +655,7 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = no
+		affects_speed = no
 
 		type = {
 			support
@@ -697,6 +706,7 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = no
+		affects_speed = no
 
 		type = {
 			support
@@ -757,6 +767,7 @@ sub_units = {
 		special_forces = yes
 		can_be_parachuted = yes
 		mountaineers = no
+		affects_speed = yes
 
 		priority = 601
 		ai_priority = 200
@@ -833,6 +844,7 @@ sub_units = {
 		special_forces = yes
 		can_be_parachuted = yes
 		mountaineers = no
+		affects_speed = yes
 
 		priority = 601
 		ai_priority = 200
@@ -913,6 +925,7 @@ sub_units = {
 		special_forces = yes
 		can_be_parachuted = yes
 		mountaineers = no
+		affects_speed = yes
 
 		priority = 601
 		ai_priority = 200
@@ -1057,7 +1070,7 @@ sub_units = {
 		}
 		manpower = 250
 		training_time = 40
-		max_organisation = 10
+		max_organisation = -10
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -1131,7 +1144,7 @@ sub_units = {
 		}
 		manpower = 250
 		training_time = 40
-		max_organisation = 10
+		max_organisation = -15
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -1206,7 +1219,7 @@ sub_units = {
 		}
 		manpower = 250
 		training_time = 40
-		max_organisation = 10
+		max_organisation = -20
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -1280,7 +1293,7 @@ sub_units = {
 		}
 		manpower = 250
 		training_time = 40
-		max_organisation = 10
+		max_organisation = -20
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -1357,7 +1370,7 @@ sub_units = {
 		}
 		manpower = 250
 		training_time = 40
-		max_organisation = 10
+		max_organisation = -15
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -1432,7 +1445,7 @@ sub_units = {
 
 		manpower = 250
 		training_time = 40
-		max_organisation = 10
+		max_organisation = -10
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -1516,7 +1529,7 @@ sub_units = {
 		}
 		manpower = 75
 		training_time = 40
-		max_organisation = 15
+		max_organisation = -10
 		default_morale = 0
 		max_strength = 0
 		weight = 0.05
@@ -1564,7 +1577,7 @@ sub_units = {
 		}
 		manpower = 75
 		training_time = 40
-		max_organisation = 15
+		max_organisation = -10
 		default_morale = 0
 		max_strength = 0
 		weight = 0.05
@@ -1612,7 +1625,7 @@ sub_units = {
 		}
 		manpower = 75
 		training_time = 40
-		max_organisation = 15
+		max_organisation = -10
 		default_morale = 0
 		max_strength = 0
 		weight = 0.05
@@ -1659,7 +1672,7 @@ sub_units = {
 		}
 		manpower = 75
 		training_time = 40
-		max_organisation = 15
+		max_organisation = -10
 		default_morale = 0
 		max_strength = 0
 		weight = 0.05
@@ -1706,7 +1719,7 @@ sub_units = {
 		}
 		manpower = 75
 		training_time = 40
-		max_organisation = 15
+		max_organisation = -10
 		default_morale = 0
 		max_strength = 0
 		weight = 0.05
