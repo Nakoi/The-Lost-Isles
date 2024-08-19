@@ -1,9 +1,9 @@
 state = {
 	id = 165
 	name = "STATE_165"
-	manpower = 534498
+	manpower = 1234498
 
-	state_category = city
+	state_category = metropolis
 
 	resources={
 		iron=31.000	
@@ -17,15 +17,15 @@ state = {
 	history = {
 		owner = THA
 		add_core_of = THA
-		victory_points = { 6117 20 }
+		victory_points = { 6117 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			synthetic_refinery = 1
+			arms_factory = 3
+			industrial_complex = 4
 			dockyard = 2
+			air_base = 3
 			6117={
-				naval_base = 1
+				naval_base = 5
 			}
 		}
 	}
