@@ -510,5 +510,89 @@ spriteTypes = {
 		name = "GFX_idea_KAE_militiaprotest_no"
 		texturefile = "gfx/interface/ideas/generic/KAE_militiaprotest_no.dds"	
 	}
-}
-	
+#MCIV WAR NO MANPOWER
+	SpriteType = {
+		name = "GFX_idea_KAE_civilwar_nomanpower_idea"
+		texturefile = "gfx/interface/ideas/generic/KAE_civilwar_nomanpower_idea.dds"	
+	}
+#KAE PACIFICATION
+	SpriteType = {
+		name = "GFX_idea_KAE_pacificationxp_idea"
+		texturefile = "gfx/interface/ideas/generic/genidea_peaceful_and_prosperous.dds"	
+	}
+#REBUILD THE KAE TRADE FLEET
+	SpriteType = {
+		name = "GFX_idea_KAE_rebuild_trade_fleet_idea"
+		texturefile = "gfx/interface/ideas/generic/genidea_booming_ship_construction.dds"	
+	}
+#TRADE FLEET
+	SpriteType = {
+		name = "GFX_idea_KAE_trade_fleet_bonus_idea_01"
+		texturefile = "gfx/interface/ideas/generic/genidea_mercantilism_buff_1.dds"	
+	}
+#TRADE FLEET BONUS
+	SpriteType = {
+		name = "GFX_idea_KAE_trade_fleet_bonus_idea_02a"
+		texturefile = "gfx/interface/ideas/generic/genidea_mercantilism_buff_1.dds"	
+	}
+#TRADE FLEET BONUS
+	SpriteType = {
+		name = "GFX_idea_KAE_trade_fleet_bonus_idea_02b"
+		texturefile = "gfx/interface/ideas/generic/genidea_mercantilism_buff_1.dds"	
+	}
+#MERC PAYMENTS
+	SpriteType = {
+		name = "GFX_idea_KAE_mercpayments"
+		texturefile = "gfx/interface/ideas/generic/KAE_militiasalary.dds"	
+	}
+#MERC RECRUITMENT
+	SpriteType = {
+		name = "GFX_idea_KAE_mercrecruitment"
+		texturefile = "gfx/interface/ideas/generic/KAE_mercrecruitment.dds"	
+	}
+#CONSCRIPT PEGASUS
+	SpriteType = {
+		name = "GFX_idea_KAE_conscript_pegasus_skirms"
+		texturefile = "gfx/interface/ideas/generic/KAE_conscript_pegasus_skirms.dds"	
+	}
+#GEATER ECONOMY 
+	SpriteType = {
+		name = "GFX_idea_KAE_Greater_economy_idea"
+		texturefile = "gfx/interface/ideas/generic/KAE_Greater_economy_idea.dds"	
+	}
+#OPEN THE MINES
+	SpriteType = {
+		name = "GFX_idea_KAE_open_the_mines_01"
+		texturefile = "gfx/interface/ideas/generic/genidea_expand_resource_extraction.dds"	
+	}
+#OPEN THE MINES
+	SpriteType = {
+		name = "GFX_idea_KAE_open_the_mines_02"
+		texturefile = "gfx/interface/ideas/generic/genidea_expand_resource_extraction.dds"	
+	}
+#OUR DUTY
+	SpriteType = {
+		name = "GFX_idea_KAE_our_duty_01"
+		texturefile = "gfx/interface/ideas/generic/genidea_the_sun_never_sets1.dds"	
+	}
+#OUR DUTY
+	SpriteType = {
+		name = "GFX_idea_KAE_our_duty_02"
+		texturefile = "gfx/interface/ideas/generic/genidea_the_sun_never_sets1.dds"	
+	}
+#DON'T STEP
+	SpriteType = {
+		name = "GFX_idea_KAE_dont_step_01"
+		texturefile = "gfx/interface/ideas/generic/KAE_dont_step_01.dds"	
+	}
+#DON'T STEP
+	SpriteType = {
+		name = "GFX_idea_KAE_dont_step_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_dont_step_01.dds"	
+	}
+#DON'T STEP
+	SpriteType = {
+		name = "GFX_idea_KAE_dont_step_03"
+		texturefile = "gfx/interface/ideas/generic/KAE_dont_step_01.dds"	
+	}
+}	
