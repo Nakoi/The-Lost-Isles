@@ -595,4 +595,74 @@ spriteTypes = {
 		name = "GFX_idea_KAE_dont_step_03"
 		texturefile = "gfx/interface/ideas/generic/KAE_dont_step_01.dds"	
 	}
+#OFFICER TRAINING
+	SpriteType = {
+		name = "GFX_idea_KAE_officer_training_01"
+		texturefile = "gfx/interface/ideas/generic/KAE_officer_training_01.dds"	
+	}
+#OFFICER TRAINING
+	SpriteType = {
+		name = "GFX_idea_KAE_officer_training_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_officer_training_02.dds"	
+	}
+#OFFICER TRAINING
+	SpriteType = {
+		name = "GFX_idea_KAE_officer_training_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_officer_training_02.dds"	
+	}
+#OFFICER TRAINING
+	SpriteType = {
+		name = "GFX_idea_KAE_officer_training_03"
+		texturefile = "gfx/interface/ideas/generic/KAE_officer_training_03.dds"	
+	}
+#OOTARI WORKSHOP
+	SpriteType = {
+		name = "GFX_idea_KAE_ootari_workshop_idea"
+		texturefile = "gfx/interface/ideas/generic/genidea_proto_industrialization.dds"	
+	}
+#BREADBASKET
+	SpriteType = {
+		name = "GFX_idea_KAE_ootari_breadbasket_idea"
+		texturefile = "gfx/interface/ideas/generic/genidea_feed_the_nation.dds"	
+	}
+#FUCKED ARMS WORKSHOP
+	SpriteType = {
+		name = "GFX_idea_EAK_fucked_arms_workshops_01"
+		texturefile = "gfx/interface/ideas/generic/KAE_shit_arms_industry.dds"	
+	}
+#FUCKED ARMS WORKSHOP
+	SpriteType = {
+		name = "GFX_idea_EAK_fucked_arms_workshops_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_shit_arms_industry.dds"	
+	}
+#FUCKED ARMS WORKSHOP
+	SpriteType = {
+		name = "GFX_idea_EAK_fucked_arms_workshops_03"
+		texturefile = "gfx/interface/ideas/generic/KAE_shit_arms_industry.dds"	
+	}
+#FUCKED ARMS WORKSHOP
+	SpriteType = {
+		name = "GFX_idea_EAK_fucked_arms_workshops_04"
+		texturefile = "gfx/interface/ideas/generic/KAE_shit_arms_industry.dds"	
+	}
+#FUCKED CIV WORKSHOP
+	SpriteType = {
+		name = "GFX_idea_EAK_fucked_civvie_workshops_01"
+		texturefile = "gfx/interface/ideas/generic/KAE_shit_arms_industry.dds"	
+	}
+#FUCKED CIV WORKSHOP
+	SpriteType = {
+		name = "GFX_idea_EAK_fucked_civvie_workshops_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_shit_arms_industry.dds"	
+	}
+#FUCKED CIV WORKSHOP
+	SpriteType = {
+		name = "GFX_idea_EAK_fucked_civvie_workshops_03"
+		texturefile = "gfx/interface/ideas/generic/KAE_shit_arms_industry.dds"
+	}
+#FUCKED CIV WORKSHOP
+	SpriteType = {
+		name = "GFX_idea_EAK_fucked_civvie_workshops_04"
+		texturefile = "gfx/interface/ideas/generic/KAE_shit_arms_industry.dds"
+	}
 }	
