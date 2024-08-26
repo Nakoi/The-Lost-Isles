@@ -1,9 +1,9 @@
 state = {
 	id = 206
 	name = "STATE_206"
-	manpower = 691494
+	manpower = 291494
 
-	state_category = city
+	state_category = large_town
 
 	resources={
 		luxuries=23.000
@@ -17,12 +17,11 @@ state = {
 		victory_points = { 6309 10 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
 			industrial_complex = 1
-			synthetic_refinery = 1
-			dockyard = 2
+			synthetic_refinery = 2
+			dockyard = 1
 			6309={
-				naval_base = 1
+				naval_base = 2
 			}
 		}
 	}
