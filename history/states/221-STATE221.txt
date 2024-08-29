@@ -3,7 +3,7 @@ state = {
 	name = "STATE_221"
 	manpower = 253971
 
-	state_category = city
+	state_category = town
 
 	resources={
 		luxuries=12.000
@@ -17,8 +17,8 @@ state = {
 		victory_points = { 3142 10 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
 			industrial_complex = 1
+			synthetic_refinery = 2
 		}
 	}
 

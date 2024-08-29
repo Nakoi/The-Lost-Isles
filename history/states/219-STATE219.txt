@@ -1,9 +1,9 @@
 state = {
 	id = 219
 	name = "STATE_219"
-	manpower = 1178951
+	manpower = 2378951
 
-	state_category = city
+	state_category = megalopolis
 
 
 	resources={
@@ -17,12 +17,12 @@ state = {
 	history = {
 		owner = KYH
 		add_core_of = KYH
-		victory_points = { 999 20 }
+		victory_points = { 999 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			synthetic_refinery = 1
+			arms_factory = 5
+			industrial_complex = 6
+			air_base = 4
 		}
 	}
 

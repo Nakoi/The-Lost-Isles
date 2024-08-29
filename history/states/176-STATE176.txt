@@ -1,9 +1,9 @@
 state = {
 	id = 176
 	name = "STATE_176"
-	manpower = 592419
+	manpower = 292419
 
-	state_category = city
+	state_category = town
 
 	history = {
 		owner = ARR
@@ -11,9 +11,7 @@ state = {
 #		victory_points = { 703 10 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			synthetic_refinery = 1
+			synthetic_refinery = 3
 		}
 	}
 
