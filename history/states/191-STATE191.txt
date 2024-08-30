@@ -9,8 +9,11 @@ state = {
 		owner = CAR
 		add_core_of = CAR
 		victory_points = { 1395 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastucture = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
 	}
 
 	provinces = {

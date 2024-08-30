@@ -3,7 +3,7 @@ state = {
 	name = "STATE_145"
 	manpower = 126194
 
-	state_category = city
+	state_category = small_island
 
 	resources={
 		luxuries=86.000
@@ -16,9 +16,6 @@ state = {
 		add_core_of = KEZ
 		victory_points = { 5696 10 }
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
 		}
 	}
 
