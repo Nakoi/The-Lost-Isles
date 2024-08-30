@@ -790,4 +790,9 @@ spriteTypes = {
 		name = "GFX_idea_KAE_cheaper_ships_idea"
 		texturefile = "gfx/interface/ideas/generic/genidea_booming_ship_construction.dds"
 	}
+#KAE_fieldhospitals
+	SpriteType = {
+		name = "GFX_idea_KAE_fieldhospitals"
+		texturefile = "gfx/interface/ideas/generic/KAE_fieldhospitals.dds"
+	}
 }	
