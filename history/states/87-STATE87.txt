@@ -1,9 +1,9 @@
 state = {
 	id = 87
 	name = "STATE_87"
-	manpower = 431492
+	manpower = 931492
 
-	state_category = city
+	state_category = metropolis
 
 	history = {
 		owner = GIL
@@ -11,12 +11,12 @@ state = {
 		victory_points = { 6329 20 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
-			synthetic_refinery = 2
-			dockyard = 1
+			arms_factory = 3
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 3
 			6329={
-				naval_base = 1
+				naval_base = 3
 			}
 		}
 	}

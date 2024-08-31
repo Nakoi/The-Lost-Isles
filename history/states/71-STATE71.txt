@@ -1,9 +1,9 @@
 state = {
 	id = 71
 	name = "STATE_71"
-	manpower = 953789
+	manpower = 253789
 
-	state_category = city
+	state_category = town
 
 	resources={
 		iron=31.000	
@@ -19,9 +19,10 @@ state = {
 		victory_points = { 3143 10 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			synthetic_refinery = 1
+			synthetic_refinery = 3
+			3143 = {
+				naval_base = 1
+			}
 		}
 	}
 

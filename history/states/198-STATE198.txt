@@ -1,9 +1,9 @@
 state = {
 	id = 198
 	name = "STATE_198"
-	manpower = 491153
+	manpower = 191153
 
-	state_category = city
+	state_category = rural
 
 	resources={
 		chemicals=9.000
@@ -16,8 +16,6 @@ state = {
 		add_core_of = HEL
 		victory_points = { 802 10 }
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
 		}
 	}
 

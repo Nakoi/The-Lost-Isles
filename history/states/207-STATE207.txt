@@ -1,7 +1,7 @@
 state = {
 	id = 207
 	name = "STATE_207"
-	manpower = 443212
+	manpower = 543212
 
 	state_category = large_city
 
@@ -19,8 +19,8 @@ state = {
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 3
-			synthetic_refinery = 2
+			industrial_complex = 4
+			air_base = 3
 		}
 	}
 
