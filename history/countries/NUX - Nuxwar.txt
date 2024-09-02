@@ -35,13 +35,6 @@ add_ideas = {
 	race_horse
 }
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		xebec_hull_tech = 1
-	}
-}
-
 set_technology = { 
 	infantry_weapons = 1
 	tech_support = 1
@@ -69,5 +62,86 @@ set_technology = {
 	Ballista = 1
 	metal_tools = 1
 	construction_1 = 1
+}
+
+####NAVAL SHIT####
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		xebec_hull_tech = 1
+		galley_hull_tech = 1
+		medium_ship_tech = 1
+		heavy_ship_tech = 1
+		mtg_transport = 1
+	}
+}
+
+if = {
+	limit = { NOT = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_xebec_ship = 1
+		galley_ship = 1
+		medium_ship_poverty = 1
+		heavy_ship_poverty = 1
+		transport_ship = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	# Xebecs #
+	create_equipment_variant = {
+		name = "Early Xebec"
+		type = xebec_hull_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = light_naval_battery_1
+			fixed_ship_engine_slot = xebec_propulsion_1
+			rear_1_custom_slot = light_naval_battery_1
+		}
+	}
+	# Light Ships #
+	create_equipment_variant = {
+		name = "Galley"
+		type = galley_hull_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = light_naval_battery_1
+			fixed_ship_engine_slot = galley_propulsion_1
+			mid_1_custom_slot = light_naval_battery_1
+			rear_1_custom_slot = light_naval_battery_1
+		}
+	}
+	# Medium Ships #
+	create_equipment_variant = {
+		name = "Early Frigate"
+		type = ship_hull_cruiser_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = light_naval_battery_1
+			fixed_ship_armor_slot = light_planking_1
+			fixed_ship_engine_slot = frigate_propulsion_1
+			front_1_custom_slot = light_naval_battery_1
+			mid_1_custom_slot = light_naval_battery_1
+			mid_2_custom_slot = light_naval_battery_1
+			rear_1_custom_slot = light_naval_battery_1
+		}
+	}
+	# Heavy Ships #
+	create_equipment_variant = {
+		name = "Early Ship of the Line"
+		type = ship_hull_heavy_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = heavy_naval_battery_1
+			fixed_ship_engine_slot = ship_of_the_line_propulsion_1
+			fixed_ship_armor_slot = heavy_planking_1
+			front_1_custom_slot = light_naval_battery_1
+			mid_1_custom_slot = heavy_naval_battery_1
+			mid_2_custom_slot = heavy_naval_battery_1
+			mid_3_custom_slot = heavy_naval_battery_1
+			rear_1_custom_slot = light_naval_battery_1
+		}
+	}
 }
 
