@@ -48,7 +48,16 @@ set_technology = {
 	agriculture_0 = 1
 	development = 1
 	tech_primitive = 1
+}
+
+####AIR SHIT####
+set_technology = {
 	air_skirmisher = 1
+}
+add_equipment_to_stockpile = {
+    type = air_skirmisher_equipment_1
+    amount = 210
+    producer = NEF
 }
 
 ####NAVAL SHIT####
