@@ -281,12 +281,12 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_early_motorized_medium"
+		name = "GFX_early_trucks_medium"
 		texturefile = "gfx/interface/technologies/truck_1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_improved_motorized_medium"
+		name = "GFX_improved_trucks_medium"
 		texturefile = "gfx/interface/technologies/truck_2.dds"
 	}
 
