@@ -45,7 +45,8 @@ sub_units = {
 		supply_consumption = 0.01
 	
 		need = {
-			rifle_equipment = 75
+			rifle_equipment = 120
+			support_equipment = 25
 		}
 	}
 	
@@ -114,7 +115,7 @@ sub_units = {
 		}
 		
 		need = {
-			anti_armor_inf_equipment = 75
+			anti_armor_inf_equipment = 100
 		}
 	}
 	

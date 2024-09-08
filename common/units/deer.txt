@@ -45,7 +45,8 @@ sub_units = {
 		supply_consumption = 0.01
 	
 		need = {
-			rifle_equipment = 75
+			rifle_equipment = 120
+			support_equipment = 25
 		}
 
 		hills = {
@@ -99,7 +100,7 @@ sub_units = {
 		supply_consumption = 0.01
 	
 		need = {
-			gunlance_equipment = 70
+			gunlance_equipment = 100
 		}
 	}
 
