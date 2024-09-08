@@ -3001,24 +3001,24 @@ technologies = {
     }
 
 #Motorized Tree
-    early_motorized = {
+    early_trucks = {
         research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 969     # Which year this technology stops receiving ahead-of-time penalities.
         
         path = {
-			leads_to_tech = improved_motorized
+			leads_to_tech = improved_trucks
 			research_cost_coeff = 1
         }
 
         enable_equipments = {
-            motorized_equipment_1
+            truck_equipment_1
         }
 		
         enable_subunits = {
-            motor_infantry
+            truck_infantry
         }
 		
-		motor_infantry = {
+		truck_infantry = {
             supply_consumption = 0.04
         }
 
@@ -3060,12 +3060,12 @@ technologies = {
         #}
     }
 
-    improved_motorized = {
+    improved_trucks = {
         research_cost = 2.7 # Cost in time, where 1 is the default research time length.
         start_year = 971     # Which year this technology stops receiving ahead-of-time penalities.
 
         enable_equipments = {
-            motorized_equipment_2
+            truck_equipment_2
         }
 		
 		dependencies = {
@@ -3104,7 +3104,7 @@ technologies = {
         #    <type> = <float>
         #}
 
-        motor_infantry = {
+        truck_infantry = {
             armor_value = 10
             supply_consumption = -0.02
         }
