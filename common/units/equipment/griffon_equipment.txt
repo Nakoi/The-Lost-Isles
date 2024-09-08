@@ -153,21 +153,21 @@ equipments = {
 		maximum_speed = 4
 
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 50
-		hardness = 0.9
+		defense = 12
+		breakthrough = 24
+		hardness = 1
 		armor_value = 32
 
 		#Offensive Abilities
-		soft_attack = 52
-		hard_attack = 38
+		soft_attack = 25
+		hard_attack = 25
 		ap_attack = 35
 		air_attack = 0
 
 		#Space taken in convoy
 		lend_lease_cost = 10
 		
-		build_cost_ic = 50
+		build_cost_ic = 32
 		resources = {
 			wood = 2
 			crystals = 2
@@ -199,17 +199,17 @@ equipments = {
 		maximum_speed = 8
 
 		#Defensive Abilities
-		defense = 11
-		breakthrough = 80
-		hardness = 0.95
-		armor_value = 45
+		defense = 18
+		breakthrough = 42
+		hardness = 1
+		armor_value = 65
 
 		#Offensive Abilities
-		soft_attack = 90
-		hard_attack = 55
+		soft_attack = 45
+		hard_attack = 60
 		ap_attack = 50
 		
-		build_cost_ic = 90
+		build_cost_ic = 64
 
 		resources = {
 			iron = 1
@@ -231,14 +231,14 @@ equipments = {
 		maximum_speed = 10
 
 		#Defensive Abilities
-		defense = 14
-		breakthrough = 120
+		defense = 25
+		breakthrough = 90
 		hardness = 1
-		armor_value = 85
+		armor_value = 140
 
 		#Offensive Abilities
-		soft_attack = 150
-		hard_attack = 90
+		soft_attack = 80
+		hard_attack = 80
 		ap_attack = 90
 		
 		build_cost_ic = 200
@@ -265,24 +265,24 @@ equipments = {
 		
 		#Misc Abilities
 		reliability = 0.6
-		maximum_speed = 5
+		maximum_speed = 4
 
 		#Defensive Abilities
 		defense = 9
-		breakthrough = 6
-		hardness = 0.01
+		breakthrough = 8
+		hardness = 0.6
 		armor_value = 1
 
 		#Offensive Abilities
-		soft_attack = 10
-		hard_attack = 44
-		ap_attack = 44
+		soft_attack = 12
+		hard_attack = 30
+		ap_attack = 45
 		air_attack = 10
 
 		#Space taken in convoy
 		lend_lease_cost = 4
 		
-		build_cost_ic = 30
+		build_cost_ic = 32
 		resources = {
 			chemicals = 1
 			crystals = 2
@@ -315,16 +315,16 @@ equipments = {
 		reliability = 0.65
 
 		#Defensive Abilities
-		defense = 15
-		breakthrough = 10
+		defense = 10
+		breakthrough = 14
 
 		#Offensive Abilities
-		soft_attack = 18
+		soft_attack = 20
 		hard_attack = 75
-		ap_attack = 75
-		air_attack = 18
+		ap_attack = 90
+		air_attack = 20
 		
-		build_cost_ic = 50
+		build_cost_ic = 48
 		resources = {
 			chemicals = 1
 			crystals = 3
@@ -342,18 +342,19 @@ equipments = {
 		visual_level = 1
 		
 		#Misc Abilities
-		reliability = 0.7
+		reliability = 0.65
 
 		#Defensive Abilities
-		defense = 22
+		defense = 20
+		breakthrough = 30
 
 		#Offensive Abilities
-		soft_attack = 25
-		hard_attack = 135
-		ap_attack = 135
-		air_attack = 25
+		soft_attack = 40
+		hard_attack = 90
+		ap_attack = 160
+		air_attack = 50
 		
-		build_cost_ic = 90
+		build_cost_ic = 64
 		resources = {
 			chemicals = 2
 			crystals = 3
