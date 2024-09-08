@@ -225,7 +225,7 @@ sub_units = {
 #   #  ##    #    ##  #  # ### ##### ### ###
 
 
-	motor_infantry = {
+	truck_infantry = {
 		abbreviation = "INF"
 		sprite = infantry
 		map_icon_category = infantry
@@ -262,10 +262,10 @@ sub_units = {
 		
 		supply_consumption = 0.03
 		
-		transport = motorized_equipment
+		transport = truck_equipment
 		
 		need = {
-			motorized_equipment = 30
+			truck_equipment = 30
 			rifle_equipment = 50
 		}
 
