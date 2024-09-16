@@ -795,4 +795,64 @@ spriteTypes = {
 		name = "GFX_idea_KAE_fieldhospitals"
 		texturefile = "gfx/interface/ideas/generic/KAE_fieldhospitals.dds"
 	}
+#KAE_poor_living_conditions_01
+	SpriteType = {
+		name = "GFX_idea_KAE_poor_living_conditions_01"
+		texturefile = "gfx/interface/ideas/generic/KAE_poor_living_conditions_01.dds"
+	}
+#KAE_poor_living_conditions_02
+	SpriteType = {
+		name = "GFX_idea_KAE_poor_living_conditions_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_poor_living_conditions_02.dds"
+	}
+#KAE_poor_living_conditions_03
+	SpriteType = {
+		name = "GFX_idea_KAE_poor_living_conditions_03"
+		texturefile = "gfx/interface/ideas/generic/KAE_poor_living_conditions_03.dds"
+	}
+#KAE_poor_living_conditions_04
+	SpriteType = {
+		name = "GFX_idea_KAE_poor_living_conditions_04"
+		texturefile = "gfx/interface/ideas/generic/KAE_poor_living_conditions_04.dds"
+	}
+#KAE_poor_living_conditions_03b
+	SpriteType = {
+		name = "GFX_idea_KAE_poor_living_conditions_03b"
+		texturefile = "gfx/interface/ideas/generic/KAE_poor_living_conditions_03.dds"
+	}
+#KAE_poor_living_conditions_04b
+	SpriteType = {
+		name = "GFX_idea_KAE_poor_living_conditions_04b"
+		texturefile = "gfx/interface/ideas/generic/KAE_poor_living_conditions_04.dds"
+	}
+#KAE_merc_idea_01
+	SpriteType = {
+		name = "GFX_idea_KAE_merc_idea_01"
+		texturefile = "gfx/interface/ideas/generic/KAE_militiasalary.dds"
+	}
+#KAE_merc_idea_01
+	SpriteType = {
+		name = "GFX_idea_KAE_merc_idea_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_militiasalary.dds"
+	}
+#KAE_merc_idea_01
+	SpriteType = {
+		name = "GFX_idea_KAE_merc_idea_03"
+		texturefile = "gfx/interface/ideas/generic/KAE_militiasalary.dds"
+	}
+#EAK_no_airskirms_idea
+	SpriteType = {
+		name = "GFX_idea_EAK_no_airskirms_idea"
+		texturefile = "gfx/interface/ideas/generic/EAK_airskirms_idea.dds"
+	}
+#EAK_some_airskirms_idea
+	SpriteType = {
+		name = "GFX_idea_EAK_some_airskirms_idea"
+		texturefile = "gfx/interface/ideas/generic/EAK_airskirms_idea.dds"
+	}
+#EAK_more_airskirms_idea
+	SpriteType = {
+		name = "GFX_idea_EAK_more_airskirms_idea"
+		texturefile = "gfx/interface/ideas/generic/EAK_airskirms_idea.dds"
+	}
 }	
