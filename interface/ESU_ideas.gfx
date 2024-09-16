@@ -1,0 +1,128 @@
+spriteTypes = {	
+
+#ESU_equal_officers_01
+	SpriteType = {
+		name = "GFX_idea_ESU_equal_officers_01"
+		texturefile = "gfx/interface/ideas/generic/KAE_officer_training_01.dds"
+	}
+#ESU_equal_officers_02
+	SpriteType = {
+		name = "GFX_idea_ESU_equal_officers_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_officer_training_02.dds"
+	}
+#ESU_equal_officers_03
+	SpriteType = {
+		name = "GFX_idea_ESU_equal_officers_03"
+		texturefile = "gfx/interface/ideas/generic/KAE_officer_training_03.dds"
+	}
+#ESU_equal_officers_04
+	SpriteType = {
+		name = "GFX_idea_ESU_equal_officers_04"
+		texturefile = "gfx/interface/ideas/generic/KAE_officer_training_03.dds"
+	}
+#ESU_streamlined_production
+	SpriteType = {
+		name = "GFX_idea_ESU_streamlined_production"
+		texturefile = "gfx/interface/ideas/generic/genidea_proto_industrialization.dds"
+	}
+#ESU_naval_supremacy_quantity_idea
+	SpriteType = {
+		name = "GFX_idea_ESU_naval_supremacy_quantity_idea"
+		texturefile = "gfx/interface/ideas/generic/genidea_grand_fleet.dds"
+	}
+#ESU_naval_supremacy_quality_idea
+	SpriteType = {
+		name = "GFX_idea_ESU_naval_supremacy_quality_idea"
+		texturefile = "gfx/interface/ideas/generic/genidea_grand_fleet.dds"
+	}
+#ESU_nationalist_party_opinion_low
+	SpriteType = {
+		name = "GFX_idea_ESU_nationalist_party_opinion_low"
+		texturefile = "gfx/interface/ideas/generic/ESU_nationalist_party.dds"
+	}
+#ESU_nationalist_party_opinion_mid
+	SpriteType = {
+		name = "GFX_idea_ESU_nationalist_party_opinion_mid"
+		texturefile = "gfx/interface/ideas/generic/ESU_nationalist_party.dds"
+	}
+#ESU_nationalist_party_opinion_high
+	SpriteType = {
+		name = "GFX_idea_ESU_nationalist_party_opinion_high"
+		texturefile = "gfx/interface/ideas/generic/ESU_nationalist_party.dds"
+	}
+#ESU_minor_party_opinion_low
+	SpriteType = {
+		name = "GFX_idea_ESU_minor_party_opinion_low"
+		texturefile = "gfx/interface/ideas/generic/ESU_minor_party_opinion.dds"
+	}
+#ESU_minor_party_opinion_mid
+	SpriteType = {
+		name = "GFX_idea_ESU_minor_party_opinion_mid"
+		texturefile = "gfx/interface/ideas/generic/ESU_minor_party_opinion.dds"
+	}
+#ESU_minor_party_opinion_high
+	SpriteType = {
+		name = "GFX_idea_ESU_minor_party_opinion_high"
+		texturefile = "gfx/interface/ideas/generic/ESU_minor_party_opinion.dds"
+	}
+#ESU_new_believer_party_opinion_low
+	SpriteType = {
+		name = "GFX_idea_ESU_new_believer_party_opinion_low"
+		texturefile = "gfx/interface/ideas/generic/ESU_new_believer_party_opinion.dds"
+	}
+#ESU_new_believer_party_opinion_mid
+	SpriteType = {
+		name = "GFX_idea_ESU_new_believer_party_opinion_mid"
+		texturefile = "gfx/interface/ideas/generic/ESU_new_believer_party_opinion.dds"
+	}
+#ESU_new_believer_party_opinion_high
+	SpriteType = {
+		name = "GFX_idea_ESU_new_believer_party_opinion_high"
+		texturefile = "gfx/interface/ideas/generic/ESU_new_believer_party_opinion.dds"
+	}
+#ESU_believer_nationalist_grand_coalition_idea_1
+	SpriteType = {
+		name = "GFX_idea_ESU_believer_nationalist_grand_coalition_idea_1"
+		texturefile = "gfx/interface/ideas/generic/ESU_believer_nationalist_grand_coalition_idea.dds"
+	}
+#ESU_believer_nationalist_grand_coalition_idea_01
+	SpriteType = {
+		name = "GFX_idea_ESU_believer_nationalist_grand_coalition_idea_01"
+		texturefile = "gfx/interface/ideas/generic/ESU_believer_nationalist_grand_coalition_idea.dds"
+	}
+#ESU_believer_nationalist_grand_coalition_idea_02
+	SpriteType = {
+		name = "GFX_idea_ESU_believer_nationalist_grand_coalition_idea_02"
+		texturefile = "gfx/interface/ideas/generic/ESU_believer_nationalist_grand_coalition_idea.dds"
+	}
+#ESU_believer_nationalist_grand_coalition_idea_10
+	SpriteType = {
+		name = "GFX_idea_ESU_believer_nationalist_grand_coalition_idea_10"
+		texturefile = "gfx/interface/ideas/generic/ESU_believer_nationalist_grand_coalition_idea.dds"
+	}
+#ESU_believer_nationalist_grand_coalition_idea_11
+	SpriteType = {
+		name = "GFX_idea_ESU_believer_nationalist_grand_coalition_idea_11"
+		texturefile = "gfx/interface/ideas/generic/ESU_believer_nationalist_grand_coalition_idea.dds"
+	}
+#ESU_believer_nationalist_grand_coalition_idea_12
+	SpriteType = {
+		name = "GFX_idea_ESU_believer_nationalist_grand_coalition_idea_12"
+		texturefile = "gfx/interface/ideas/generic/ESU_believer_nationalist_grand_coalition_idea.dds"
+	}
+#ESU_eyes_on_clans_idea_01
+	SpriteType = {
+		name = "GFX_idea_ESU_eyes_on_clans_idea_01"
+		texturefile = "gfx/interface/ideas/generic/KAE_minutekirin_00.dds"
+	}
+#ESU_eyes_on_clans_idea_02
+	SpriteType = {
+		name = "GFX_idea_ESU_eyes_on_clans_idea_02"
+		texturefile = "gfx/interface/ideas/generic/KAE_minutekirin_00.dds"
+	}
+#ESU_iji_commoners_with_guns
+	SpriteType = {
+		name = "GFX_idea_ESU_iji_commoners_with_guns"
+		texturefile = "gfx/interface/ideas/generic/EAK_airskirms_idea.dds"
+	}
+}	
