@@ -1,9 +1,9 @@
 state = {
 	id = 314
 	name = "STATE_314"
-	manpower = 2034486
+	manpower = 1634486
 
-	state_category = city
+	state_category = metropolis
 
 	resources={
 		iron=14.000	
@@ -16,12 +16,12 @@ state = {
 	history = {
 		owner = TOK
 		add_core_of = TOK
-		victory_points = { 4460 20 }
+		victory_points = { 4460 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 1
-			synthetic_refinery = 2
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 3
 		}
 	}
 
