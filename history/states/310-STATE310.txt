@@ -3,7 +3,7 @@ state = {
 	name = "STATE_310"
 	manpower = 351793
 
-	state_category = city
+	state_category = large_town
 
 	resources={
 		iron=38.000	
@@ -15,8 +15,12 @@ state = {
 		owner = AMA
 		add_core_of = AMA
 		victory_points = { 1647 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			synthetic_refinery = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
 	}
 
 	provinces = {

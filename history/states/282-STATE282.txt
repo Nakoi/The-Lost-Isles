@@ -8,9 +8,12 @@ state = {
 	history = {
 		owner = AMA
 		add_core_of = AMA
-#		victory_points = { 4044 10 }
-#		buildings = {
-#		}
+		victory_points = { 4044 20 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
 	}
 
 	provinces = {

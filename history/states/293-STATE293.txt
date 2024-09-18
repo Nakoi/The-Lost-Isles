@@ -1,9 +1,9 @@
 state = {
 	id = 293
 	name = "STATE_293"
-	manpower = 451751
+	manpower = 251751
 
-	state_category = city
+	state_category = large_town
 
 	resources={
 		wheat=23.000
@@ -14,9 +14,12 @@ state = {
 	history = {
 		owner = TAB
 		add_core_of = TAB
-#		victory_points = { 977 10 }
-#		buildings = {
-#		}
+		victory_points = { 977 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			synthetic_refinery = 1
+		}
 	}
 
 	provinces = {
