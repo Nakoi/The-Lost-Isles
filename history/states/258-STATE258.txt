@@ -1,9 +1,9 @@
 state = {
 	id = 258
 	name = "STATE_258"
-	manpower = 318362
+	manpower = 1318362
 
-	state_category = city
+	state_category = megalopolis
 
 	resources={
 		luxuries=27.000
@@ -14,14 +14,15 @@ state = {
 	history = {
 		owner = VAL
 		add_core_of = VAL
-		victory_points = { 4291 10 }
+		victory_points = { 4291 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
-			dockyard = 1
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 4
+			air_base = 7
 			4291={
-				naval_base = 1
+				naval_base = 7
 			}
 		}
 	}

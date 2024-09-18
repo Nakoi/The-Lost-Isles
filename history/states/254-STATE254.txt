@@ -1,9 +1,9 @@
 state = {
 	id = 254
 	name = "STATE_254"
-	manpower = 734492
+	manpower = 1734492
 
-	state_category = city
+	state_category = megalopolis
 
 	resources={
 		wood=39.000
@@ -17,12 +17,12 @@ state = {
 		victory_points = { 1000 20 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			synthetic_refinery = 1
-			dockyard = 2
+			arms_factory = 3
+			industrial_complex = 4
+			dockyard = 3
+			air_base = 3
 			1000={
-				naval_base = 1
+				naval_base = 7
 			}
 		}
 	}
