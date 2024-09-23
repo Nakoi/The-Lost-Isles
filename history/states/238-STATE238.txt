@@ -1,7 +1,7 @@
 state = {
 	id = 238
 	name = "STATE_238"
-	manpower = 643954
+	manpower = 343954
 
 	state_category = city
 
@@ -15,8 +15,11 @@ state = {
 		owner = BRV
 		add_core_of = BRV
 		victory_points = { 4406 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+				arms_factory = 3
+				industrial_complex = 2
+		}
 	}
 
 	provinces = {

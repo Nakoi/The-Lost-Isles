@@ -3,14 +3,21 @@ state = {
 	name = "STATE_245"
 	manpower = 368161
 
-	state_category = city
+	state_category = large_town
 
 	history = {
 		owner = KER
 		add_core_of = KER
 		victory_points = { 2196 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			synthetic_refinery = 2
+			2196 = {
+				naval_base = 2
+			}
+		}
 	}
 
 	provinces = {

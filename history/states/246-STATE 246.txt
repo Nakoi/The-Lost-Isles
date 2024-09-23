@@ -1,9 +1,9 @@
 state = {
 	id = 246
 	name = "STATE_246"
-	manpower = 341489
+	manpower = 241489
 
-	state_category = city
+	state_category = town
 
 	resources={
 		luxuries=48.000
@@ -16,6 +16,8 @@ state = {
 		add_core_of = KER
 		victory_points = { 4185 10 }
 		buildings = {
+			infrastructure = 3
+			synthetic_refinery = 3
 			4185={
 				naval_base = 1
 			}

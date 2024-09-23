@@ -1,9 +1,9 @@
 state = {
 	id = 248
 	name = "STATE_248"
-	manpower = 431379
+	manpower = 431
 
-	state_category = city
+	state_category = large_town
 
 	resources={
 		iron=29.000	
@@ -11,16 +11,16 @@ state = {
 		
 	}
 
-
-
-
-
 	history = {
 		owner = VOI
 		add_core_of = VOI
 		victory_points = { 4242 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			synthetic_refinery = 2
+		}
 	}
 
 	provinces = {

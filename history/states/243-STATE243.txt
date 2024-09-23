@@ -1,9 +1,9 @@
 state = {
 	id = 243
 	name = "STATE_243"
-	manpower = 291489
+	manpower = 591489
 
-	state_category = city
+	state_category = large_city
 
 	resources={
 		luxuries=45.000
@@ -14,13 +14,15 @@ state = {
 	history = {
 		owner = KER
 		add_core_of = KER
-		victory_points = { 354 10 }
+		victory_points = { 1370 20 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 1
-			synthetic_refinery = 1
-			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+			354 = {
+				naval_base = 4
+			}
 		}
 	}
 

@@ -1,9 +1,9 @@
 state = {
 	id = 236
 	name = "STATE_236"
-	manpower = 653469
+	manpower = 1655
 
-	state_category = city
+	state_category = metropolis
 
 	resources={
 		luxuries=48.000
@@ -14,15 +14,15 @@ state = {
 	history = {
 		owner = VOI
 		add_core_of = VOI
-		victory_points = { 4266 20 }
+		victory_points = { 4266 30 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 2
-			synthetic_refinery = 1
-			dockyard = 1
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 6
 			4266={
-				naval_base = 1
+				naval_base = 8
 			}
 		}
 	}

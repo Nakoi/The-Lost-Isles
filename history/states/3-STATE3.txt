@@ -1,22 +1,22 @@
 state = {
 	id = 3
 	name = "STATE_3"
-	manpower = 621387
+	manpower = 1621387
 
 	state_category = megalopolis
 
 	history = {
 		owner = TEL
 		add_core_of = TEL
-		victory_points = { 1524 20 }
+		victory_points = { 1524 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 5
-			synthetic_refinery = 1
+			arms_factory = 3
+			industrial_complex = 4
 			dockyard = 3
+			air_base = 4
 			1524={
-				naval_base = 1
+				naval_base = 8
 			}
 		}
 	}
