@@ -843,16 +843,16 @@ spriteTypes = {
 #EAK_no_airskirms_idea
 	SpriteType = {
 		name = "GFX_idea_EAK_no_airskirms_idea"
-		texturefile = "gfx/interface/ideas/generic/EAK_airskirms_idea.dds"
+		texturefile = "gfx/interface/ideas/generic/ESU_airskirm_spam_idea.dds"
 	}
 #EAK_some_airskirms_idea
 	SpriteType = {
 		name = "GFX_idea_EAK_some_airskirms_idea"
-		texturefile = "gfx/interface/ideas/generic/EAK_airskirms_idea.dds"
+		texturefile = "gfx/interface/ideas/generic/ESU_airskirm_spam_idea.dds"
 	}
 #EAK_more_airskirms_idea
 	SpriteType = {
 		name = "GFX_idea_EAK_more_airskirms_idea"
-		texturefile = "gfx/interface/ideas/generic/EAK_airskirms_idea.dds"
+		texturefile = "gfx/interface/ideas/generic/ESU_airskirm_spam_idea.dds"
 	}
 }	

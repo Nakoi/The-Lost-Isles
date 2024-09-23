@@ -125,4 +125,14 @@ spriteTypes = {
 		name = "GFX_idea_ESU_iji_commoners_with_guns"
 		texturefile = "gfx/interface/ideas/generic/EAK_airskirms_idea.dds"
 	}
+#ESU_airskirm_spam_idea
+	SpriteType = {
+		name = "GFX_idea_ESU_airskirm_spam_idea"
+		texturefile = "gfx/interface/ideas/generic/ESU_airskirm_spam_idea.dds"
+	}
+#ESU_airship_spam_idea
+	SpriteType = {
+		name = "GFX_idea_ESU_airship_spam_idea"
+		texturefile = "gfx/interface/ideas/generic/ESU_airship_spam_idea.dds"
+	}
 }	
