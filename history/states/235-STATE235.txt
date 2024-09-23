@@ -1,9 +1,9 @@
 state = {
 	id = 235
 	name = "STATE_235"
-	manpower = 1069161
+	manpower = 869161
 
-	state_category = city
+	state_category = metropolis
 
 	resources={
 		luxuries=21.000
@@ -14,15 +14,15 @@ state = {
 	history = {
 		owner = BRV
 		add_core_of = BRV
-		victory_points = { 125 20 }
+		victory_points = { 125 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			synthetic_refinery = 1
-			dockyard = 1
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 5
 			125={
-				naval_base = 1
+				naval_base = 7
 			}
 		}
 	}

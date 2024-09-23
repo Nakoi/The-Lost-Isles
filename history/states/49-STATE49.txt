@@ -1,7 +1,7 @@
 state = {
 	id = 49
 	name = "STATE_49"
-	manpower = 513187
+	manpower = 913187
 
 	state_category = metropolis
 
@@ -18,11 +18,11 @@ state = {
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 3
-			synthetic_refinery = 2
+			industrial_complex = 4
 			dockyard = 2
+			air_base = 5
 			3222={
-				naval_base = 1
+				naval_base = 8
 			}
 		}
 	}
