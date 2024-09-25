@@ -1,0 +1,16 @@
+characters={
+	
+	IJI_emperor ={
+        name= IJI_emperor_name
+        portraits={
+            civilian={
+                large="GFX/leaders/IJI/IJI_emperor.tga"
+            }
+        }
+        country_leader={
+            ideology=continuism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}

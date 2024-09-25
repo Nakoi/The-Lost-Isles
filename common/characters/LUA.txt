@@ -78,4 +78,21 @@ LUA_Army_leader_04={
             logistics_skill = 1
         }
     }
+
+LUA_general_voss={
+        name=LUA_general_voss_name
+        portraits={
+            army={
+		large="GFX/leaders/LUA/LUA_general_voss.tga"
+            }	
+        }
+       corps_commander={
+            traits = {}
+            skill = 2
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
 }
