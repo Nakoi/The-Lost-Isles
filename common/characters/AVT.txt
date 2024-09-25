@@ -53,11 +53,11 @@ characters={
 	
 	AVT_emerald_mask={
         name=AVT_emerald_mask_name
-        #portraits={
+        portraits={
             civilian={
-                large="GFX/leaders/AVT/AVT_Tsar.tga"
+                large="GFX/leaders/AVT/AVT_emerald_mask.tga"
             }
-        #}
+        }
         country_leader={
             ideology=isolationism_thing
             expire="1984.1.1.1"
