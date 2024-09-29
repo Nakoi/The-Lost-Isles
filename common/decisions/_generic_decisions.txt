@@ -515,7 +515,443 @@ gendecision_recruitment = {
 			}
 		}
 	}
+	
+	gendecision_debug_release = {
+		
+		available = {
+			tag = IJI
+			IJI = { is_ai = no }
+			is_debug = yes
+		}
+		
+		visible = {
+			tag = IJI
+    		IJI = { is_ai = no }
+			is_debug = yes
+		}
+
+  		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				IJA = {            
+					transfer_state = 368
+					transfer_state = 46
+					transfer_state = 47
+					transfer_state = 50
+					transfer_state = 369
+						
+					add_state_core = 368
+					add_state_core = 46
+					add_state_core = 47
+					add_state_core = 50
+					add_state_core = 369
+					
+					set_capital = { state = 368 }
+					inherit_technology = IJI
+				}
+				368 = {
+					set_demilitarized_zone = no
+				}
+				46 = {
+					set_demilitarized_zone = no
+				}
+				47 = {
+					set_demilitarized_zone = no
+				}
+				50 = {
+					set_demilitarized_zone = no
+				}
+				369 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJB = {            
+					transfer_state = 61
+					transfer_state = 51
+					transfer_state = 60
+						
+					add_state_core = 61
+					add_state_core = 51
+					add_state_core = 60
+					
+					set_capital = { state = 61 }
+					inherit_technology = IJI
+				}
+				61 = {
+					set_demilitarized_zone = no
+				}
+				51 = {
+					set_demilitarized_zone = no
+				}
+				60 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJC = {            
+					transfer_state = 57
+					transfer_state = 56
+					transfer_state = 58
+					transfer_state = 59
+						
+					add_state_core = 57
+					add_state_core = 56
+					add_state_core = 58
+					add_state_core = 59
+					
+					set_capital = { state = 57 }
+					inherit_technology = IJI
+				}
+				57 = {
+					set_demilitarized_zone = no
+				}
+				56 = {
+					set_demilitarized_zone = no
+				}
+				58 = {
+					set_demilitarized_zone = no
+				}
+				59 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJD = {            
+					transfer_state = 39
+					transfer_state = 45
+					transfer_state = 44
+					transfer_state = 370
+						
+					add_state_core = 39
+					add_state_core = 45
+					add_state_core = 44
+					add_state_core = 370
+					
+					set_capital = { state = 39 }
+					inherit_technology = IJI
+				}
+				39 = {
+					set_demilitarized_zone = no
+				}
+				45 = {
+					set_demilitarized_zone = no
+				}
+				44 = {
+					set_demilitarized_zone = no
+				}
+				370 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJE = {            
+					transfer_state = 52
+					transfer_state = 43
+					transfer_state = 62
+					transfer_state = 55
+					transfer_state = 54
+						
+					add_state_core = 52
+					add_state_core = 43
+					add_state_core = 62
+					add_state_core = 55
+					add_state_core = 54
+					
+					set_capital = { state = 52 }
+					inherit_technology = IJI
+				}
+				52 = {
+					set_demilitarized_zone = no
+				}
+				43 = {
+					set_demilitarized_zone = no
+				}
+				62 = {
+					set_demilitarized_zone = no
+				}
+				55 = {
+					set_demilitarized_zone = no
+				}
+				54 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJF = {            
+					transfer_state = 35
+					transfer_state = 36
+					transfer_state = 37
+					transfer_state = 374
+					transfer_state = 33
+					transfer_state = 34
+						
+					add_state_core = 35
+					add_state_core = 36
+					add_state_core = 37
+					add_state_core = 374
+					add_state_core = 33
+					add_state_core = 34
+					
+					set_capital = { state = 35 }
+					inherit_technology = IJI
+				}
+				35 = {
+					set_demilitarized_zone = no
+				}
+				36 = {
+					set_demilitarized_zone = no
+				}
+				37 = {
+					set_demilitarized_zone = no
+				}
+				374 = {
+					set_demilitarized_zone = no
+				}
+				33 = {
+					set_demilitarized_zone = no
+				}
+				34 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJJ = {            
+					transfer_state = 32
+					transfer_state = 38
+					transfer_state = 375
+					transfer_state = 27
+						
+					add_state_core = 32
+					add_state_core = 38
+					add_state_core = 375
+					add_state_core = 27
+					
+					set_capital = { state = 32 }
+					inherit_technology = IJI
+				}
+				32 = {
+					set_demilitarized_zone = no
+				}
+				38 = {
+					set_demilitarized_zone = no
+				}
+				375 = {
+					set_demilitarized_zone = no
+				}
+				27 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJK = {            
+					transfer_state = 373
+					transfer_state = 42
+					transfer_state = 372
+						
+					add_state_core = 373
+					add_state_core = 42
+					add_state_core = 372
+					
+					set_capital = { state = 373 }
+					inherit_technology = IJI
+				}
+				373 = {
+					set_demilitarized_zone = no
+				}
+				42 = {
+					set_demilitarized_zone = no
+				}
+				372 = {
+					set_demilitarized_zone = no 
+				}
+				
+				IJL = {            
+					transfer_state = 30
+					transfer_state = 31
+					transfer_state = 25
+					transfer_state = 26
+						
+					add_state_core = 30
+					add_state_core = 31
+					add_state_core = 25
+					add_state_core = 26
+					
+					set_capital = { state = 30 }
+					inherit_technology = IJI
+				}
+				30 = {
+					set_demilitarized_zone = no
+				}
+				31 = {
+					set_demilitarized_zone = no
+				}
+				25 = {
+					set_demilitarized_zone = no
+				}
+				26 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJN = {            
+					transfer_state = 23
+					transfer_state = 22
+						
+					add_state_core = 23
+					add_state_core = 22
+					
+					set_capital = { state = 23 }
+					inherit_technology = IJI
+				}
+				23 = {
+					set_demilitarized_zone = no
+				}
+				22 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJM = {            
+					transfer_state = 19
+					transfer_state = 15
+					transfer_state = 24
+					transfer_state = 29
+						
+					add_state_core = 19
+					add_state_core = 15
+					add_state_core = 24
+					add_state_core = 29
+					
+					set_capital = { state = 19 }
+					inherit_technology = IJI
+				}
+				19 = {
+					set_demilitarized_zone = no
+				}
+				15 = {
+					set_demilitarized_zone = no
+				}
+				24 = {
+					set_demilitarized_zone = no
+				}
+				29 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJO = {            
+					transfer_state = 14
+					transfer_state = 18
+					transfer_state = 13
+						
+					add_state_core = 14
+					add_state_core = 18
+					add_state_core = 13
+					
+					set_capital = { state = 14 }
+					inherit_technology = IJI
+				}
+				14 = {
+					set_demilitarized_zone = no
+				}
+				18 = {
+					set_demilitarized_zone = no
+				}
+				13 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJP = {            
+					transfer_state = 17
+					transfer_state = 20
+					transfer_state = 21
+					transfer_state = 16
+					transfer_state = 12
+						
+					add_state_core = 17
+					add_state_core = 20
+					add_state_core = 21
+					add_state_core = 16
+					add_state_core = 12
+					
+					set_capital = { state = 17 }
+					inherit_technology = IJI
+				}
+				17 = {
+					set_demilitarized_zone = no
+				}
+				20 = {
+					set_demilitarized_zone = no
+				}
+				21 = {
+					set_demilitarized_zone = no
+				}
+				16 = {
+					set_demilitarized_zone = no
+				}
+				12 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJR = {            
+					transfer_state = 11
+					transfer_state = 10
+					transfer_state = 9
+					transfer_state = 7
+					transfer_state = 8
+					transfer_state = 371
+						
+					add_state_core = 11
+					add_state_core = 10
+					add_state_core = 9
+					add_state_core = 7
+					add_state_core = 8
+					add_state_core = 371
+					
+					set_capital = { state = 11 }
+					inherit_technology = IJI
+				}
+				11 = {
+					set_demilitarized_zone = no
+				}
+				10 = {
+					set_demilitarized_zone = no
+				}
+				9 = {
+					set_demilitarized_zone = no
+				}
+				7 = {
+					set_demilitarized_zone = no
+				}
+				8 = {
+					set_demilitarized_zone = no
+				}
+				371 = {
+					set_demilitarized_zone = no
+				}
+				
+				IJS = {            
+					transfer_state = 5
+					transfer_state = 4
+					transfer_state = 6
+						
+					add_state_core = 5
+					add_state_core = 4
+					add_state_core = 6
+					
+					set_capital = { state = 5 }
+					inherit_technology = IJI
+				}
+				5 = {
+					set_demilitarized_zone = no
+				}
+				4 = {
+					set_demilitarized_zone = no
+				}
+				6 = {
+					set_demilitarized_zone = no
+				}
+			}
+		}
+	}
 }
+
 
 gendecision_airskirms = {
 	
