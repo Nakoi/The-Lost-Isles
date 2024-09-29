@@ -135,4 +135,34 @@ spriteTypes = {
 		name = "GFX_idea_ESU_airship_spam_idea"
 		texturefile = "gfx/interface/ideas/generic/ESU_airship_spam_idea.dds"
 	}
+#ESU_homecoming_idea
+	SpriteType = {
+		name = "GFX_idea_ESU_homecoming_idea"
+		texturefile = "gfx/interface/ideas/generic/ESU_homecoming_idea.dds"
+	}
+#ESU_homecoming_idea
+	SpriteType = {
+		name = "GFX_idea_ESU_homecoming_idea_2"
+		texturefile = "gfx/interface/ideas/generic/ESU_homecoming_idea.dds"
+	}
+#ESU_homecoming_idea
+	SpriteType = {
+		name = "GFX_idea_ESU_homecoming_idea_3_quantity"
+		texturefile = "gfx/interface/ideas/generic/ESU_homecoming_idea.dds"
+	}
+#ESU_homecoming_idea
+	SpriteType = {
+		name = "GFX_idea_ESU_homecoming_idea_3_quality"
+		texturefile = "gfx/interface/ideas/generic/ESU_homecoming_idea.dds"
+	}
+#ESU_homecoming_idea
+	SpriteType = {
+		name = "GFX_idea_ESU_homecoming_idea_4_quantity_milspend"
+		texturefile = "gfx/interface/ideas/generic/ESU_homecoming_idea.dds"
+	}
+#ESU_homecoming_idea
+	SpriteType = {
+		name = "GFX_idea_ESU_homecoming_idea_4_quality_milspend"
+		texturefile = "gfx/interface/ideas/generic/ESU_homecoming_idea.dds"
+	}
 }	
