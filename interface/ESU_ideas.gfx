@@ -165,4 +165,34 @@ spriteTypes = {
 		name = "GFX_idea_ESU_homecoming_idea_4_quality_milspend"
 		texturefile = "gfx/interface/ideas/generic/ESU_homecoming_idea.dds"
 	}
+#ESU_pone_problem_idea_01
+	SpriteType = {
+		name = "GFX_idea_ESU_pone_problem_idea_01"
+		texturefile = "gfx/interface/ideas/generic/ESU_pone_problem_idea_01.dds"
+	}
+#ESU_pone_problem_idea_02
+	SpriteType = {
+		name = "GFX_idea_ESU_pone_problem_idea_02"
+		texturefile = "gfx/interface/ideas/generic/ESU_pone_problem_idea_01.dds"
+	}
+#ESU_pone_problem_idea_03
+	SpriteType = {
+		name = "GFX_idea_ESU_pone_problem_idea_03"
+		texturefile = "gfx/interface/ideas/generic/ESU_pone_problem_idea_03.dds"
+	}
+#ESU_pone_problem_idea_04
+	SpriteType = {
+		name = "GFX_idea_ESU_pone_problem_idea_04"
+		texturefile = "gfx/interface/ideas/generic/ESU_pone_problem_idea_03.dds"
+	}
+#ESU_pone_problem_idea_05
+	SpriteType = {
+		name = "GFX_idea_ESU_pone_problem_idea_05"
+		texturefile = "gfx/interface/ideas/generic/ESU_pone_problem_idea_06.dds"
+	}
+#ESU_pone_problem_idea_06
+	SpriteType = {
+		name = "GFX_idea_ESU_pone_problem_idea_06"
+		texturefile = "gfx/interface/ideas/generic/ESU_pone_problem_idea_06.dds"
+	}
 }	
