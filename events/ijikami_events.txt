@@ -276,7 +276,7 @@ country_event = {
 					add_state_core = 60
 					
 					set_capital = { state = 61 }
-					inherit_technology = IJI
+					inherit_technology = ARK
 				}
 				61 = {
 					set_demilitarized_zone = no
@@ -495,7 +495,7 @@ country_event = {
 					add_state_core = 22
 					
 					set_capital = { state = 23 }
-					inherit_technology = IJI
+					inherit_technology = SAV
 				}
 				23 = {
 					set_demilitarized_zone = no
