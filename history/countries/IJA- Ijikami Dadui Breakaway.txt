@@ -1,4 +1,4 @@
-capital = 53
+capital = 368
 
 set_research_slots = 2
 
@@ -12,8 +12,6 @@ navy_experience = 30
 
 air_experience = 30
 
-recruit_character = IJI_emperor
-
 set_oob = "IJI_ARMY"
 
 set_politics = {
@@ -21,12 +19,7 @@ set_politics = {
 }
 
 set_popularities = {
-	ideology_militarism = 16
-	ideology_continuism = 4
-	ideology_isolationism = 25
-	ideology_visionarism = 20
-	ideology_solidarism = 15
-	ideology_imperialism = 20
+	ideology_continuism = 100
 }
 
 set_convoys = 125
@@ -34,14 +27,11 @@ set_convoys = 125
 add_ideas = {
 	limited_exports
 	genidea_primitive_dev
-	policy_aristocracy
-	policy_reactionary
-	policy_feudalism
+	policy_oligarchy
+	policy_oligopoly
+	policy_conservative
 	race_kirin
 }
-
-create_faction = "Heavenly Realm of Ijikami"
-add_to_faction = IJI
 
 set_technology = { 
 	kirin_race = 1
