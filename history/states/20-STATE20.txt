@@ -1,9 +1,9 @@
 state = {
 	id = 20
 	name = "STATE_20"
-	manpower = 593421
+	manpower = 93421
 
-	state_category = city
+	state_category = rural
 
 	resources={
 		luxuries=52.000
@@ -14,12 +14,8 @@ state = {
 	history = {
 		owner = IJI
 		add_core_of = IJI
-		victory_points = { 5293 10 }
+#		victory_points = { 5293 10 }
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
-			dockyard = 1
 		}
 	}
 
