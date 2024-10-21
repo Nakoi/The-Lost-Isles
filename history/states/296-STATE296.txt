@@ -1,16 +1,20 @@
 state = {
 	id = 296
 	name = "STATE_296"
-	manpower = 197468
+	manpower = 597468
 
-	state_category = city
+	state_category = large_city
 
 	history = {
 		owner = ARK
 		add_core_of = ARK
-#		victory_points = { 4747 10 }
-#		buildings = {
-#		}
+		victory_points = { 4747 20 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 4
+		}
 	}
 
 	provinces = {

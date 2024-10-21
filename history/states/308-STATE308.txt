@@ -1,9 +1,9 @@
 state = {
 	id = 308
 	name = "STATE_308"
-	manpower = 372951
+	manpower = 252951
 
-	state_category = city
+	state_category = large_town
 
 
 	resources={
@@ -15,8 +15,11 @@ state = {
 		owner = ARK
 		add_core_of = ARK
 		victory_points = { 1766 10 }
-#		buildings = {
-#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
 	}
 
 	provinces = {

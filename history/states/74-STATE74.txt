@@ -1,19 +1,21 @@
 state = {
 	id = 74
 	name = "STATE_74"
-	manpower = 291489
+	manpower = 491489
 
 	state_category = city
 
 	history = {
 		owner = ARK
 		add_core_of = ARK
-		victory_points = { 1099 10 }
+		victory_points = { 1099 20 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 3
-			dockyard = 1
+			industrial_complex = 2
+			dockyard = 3
+			1099 = {
+				naval_base = 6
+			}
 		}
 	}
 

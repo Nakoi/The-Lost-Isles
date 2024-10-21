@@ -1,9 +1,9 @@
 state = {
 	id = 289
 	name = "STATE_289"
-	manpower = 493891
+	manpower = 993891
 
-	state_category = city
+	state_category = metropolis
 
 	resources={
 	
@@ -15,12 +15,12 @@ state = {
 	history = {
 		owner = ARK
 		add_core_of = ARK
-		victory_points = { 4872 20 }
+		victory_points = { 4872 30 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			synthetic_refinery = 1
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 4
 		}
 	}
 
