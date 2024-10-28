@@ -1,9 +1,9 @@
 state = {
 	id = 40
 	name = "STATE_40"
-	manpower = 437561
+	manpower = 637561
 
-	state_category = city
+	state_category = large_city
 
 	resources={
 		luxuries=39.000
@@ -15,11 +15,15 @@ state = {
 	history = {
 		owner = IJI
 		add_core_of = IJI
-		victory_points = { 5186 10 }
+		victory_points = { 5186 20 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			arms_factory = 2
+			industrial_complex = 3
 			dockyard = 1
+			5186 = {
+				naval_base = 2
+			}
 		}
 	}
 
