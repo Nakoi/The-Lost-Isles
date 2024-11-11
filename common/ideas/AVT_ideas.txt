@@ -17,7 +17,6 @@ ideas = {
 		}
 		
 		AVT_idea_noble_discontent = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -31,7 +30,6 @@ ideas = {
 		}
 
 		AVT_idea_Patriotism = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -46,7 +44,6 @@ ideas = {
 		}
 		
 		AVT_idea_Patriotism_tzar_1 = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -62,7 +59,6 @@ ideas = {
 		}
 		
 		AVT_idea_Patriotism_elusive_1 = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -79,7 +75,6 @@ ideas = {
 		}
 		
 		AVT_idea_Patriotism_elusive_2 = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -96,7 +91,6 @@ ideas = {
 		}
 
 		AVT_idea_stagnant_society = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -110,7 +104,6 @@ ideas = {
 		}
 		
 		AVT_idea_stagnant_society_elusive_1 = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -124,7 +117,6 @@ ideas = {
 		}
         
 		AVT_idea_tribe_mistrust = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -139,7 +131,6 @@ ideas = {
 		}
 		
 		AVT_idea_tribe_mistrust_elusive_1 = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -157,7 +148,6 @@ ideas = {
 ###EARLYGAME+TSAR###
 		
 		AVT_idea_civil_war_tsar = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				tag = AVT
@@ -175,7 +165,6 @@ ideas = {
 		}
 		
 		AVT_idea_civil_war_tsar_2 = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				tag = AVT
@@ -191,7 +180,6 @@ ideas = {
 		}
 		
 		AVT_idea_civil_war_rebel = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				country_exists = AVT
@@ -203,7 +191,6 @@ ideas = {
 		}
 		
 		AVT_idea_civil_war_rebel_vorony_final = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				country_exists = AVT
@@ -218,7 +205,6 @@ ideas = {
 		}
 		
 		AVT_idea_civil_war_rebel_mage_final = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				country_exists = AVT
@@ -233,7 +219,6 @@ ideas = {
 		}
 		
 		AVT_idea_civil_war_rebel_swiftguard_state = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -246,7 +231,6 @@ ideas = {
 		}
 		
 		AVT_idea_civil_war_rebel_swiftguard_final = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				country_exists = AVT
@@ -261,7 +245,6 @@ ideas = {
 		}
 		
 		AVT_idea_civil_war_vorony_machinery = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				country_exists = AVT
@@ -275,7 +258,6 @@ ideas = {
 		}
 		
 		AVT_idea_civil_war_mages_gun_replication = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				country_exists = AVT
@@ -298,7 +280,6 @@ ideas = {
 		}
 		
 		AVT_idea_civil_war_loyal = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				country_exists = AVE
@@ -312,7 +293,6 @@ ideas = {
 		}
 		
 		AVT_idea_traitors_in_the_palace_1 = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -324,7 +304,6 @@ ideas = {
 		}
 		
 		AVT_idea_traitors_in_the_palace_2 = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -338,7 +317,6 @@ ideas = {
 		}
 
 		AVT_idea_rebellious_nobility = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
@@ -351,7 +329,6 @@ ideas = {
 		}
 
 		AVT_idea_decreased_tax_revenue = {
-			picture = great_depression
 			removal_cost = -1
 			available = {
 				always = yes
