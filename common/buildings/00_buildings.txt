@@ -6,7 +6,8 @@ buildings = {
 
 
 	infrastructure = {
-		base_cost = 4800
+		base_cost = 3600
+		per_level_extra_cost = 1200
 		icon_frame = 3
 		infrastructure = yes
 		max_level = 15
@@ -21,8 +22,8 @@ buildings = {
 
 	arms_factory = {
 		show_on_map = 6
-		base_cost = 11520
-		base_cost_conversion = 6400
+		base_cost = 12000
+		base_cost_conversion = 6000
 		military_production = 1
 		icon_frame = 2
 		max_level = 25
@@ -33,8 +34,8 @@ buildings = {
 
 	industrial_complex = {
 		show_on_map = 6
-		base_cost = 17280
-		base_cost_conversion = 14400
+		base_cost = 14400
+		base_cost_conversion = 7200
 		general_production = 1
 		icon_frame = 1
 		max_level = 25
@@ -45,7 +46,8 @@ buildings = {
 
 	air_base = {
 		show_on_map = 1
-		base_cost = 2000
+		base_cost = 1200
+		per_level_extra_cost = 1200
 		icon_frame = 5
 		air_base = yes
 		max_level = 10
@@ -57,7 +59,7 @@ buildings = {
 
 	supply_node = {
 		show_on_map = 1
-		base_cost = 9000
+		base_cost = 6000
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 15
@@ -71,8 +73,8 @@ buildings = {
 	}	
 	
 	rail_way = {
-		base_cost = 200
-		per_level_extra_cost = 200
+		base_cost = 400
+		per_level_extra_cost = 400
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 16
@@ -84,7 +86,8 @@ buildings = {
 		show_on_map = 1
 		show_on_map_meshes = 3
 		always_shown = yes
-		base_cost = 4800
+		base_cost = 2400
+		per_level_extra_cost = 1200
 		provincial = yes
 		only_costal = yes
 		is_port = yes
@@ -98,8 +101,8 @@ buildings = {
 	bunker = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
-		base_cost = 800
-		per_level_extra_cost = 800
+		base_cost = 600
+		per_level_extra_cost = 600
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 7
@@ -112,8 +115,8 @@ buildings = {
 	coastal_bunker = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
-		base_cost = 800
-		per_level_extra_cost = 800
+		base_cost = 600
+		per_level_extra_cost = 600
 		provincial = yes
 		disabled_in_dmz = yes
 		only_costal = yes
@@ -127,7 +130,7 @@ buildings = {
 	dockyard = {
 		show_on_map = 1
 		show_on_map_meshes = 3
-		base_cost = 10240
+		base_cost = 12000
 		only_costal = yes
 		naval_production = 1
 		icon_frame = 4
@@ -141,7 +144,7 @@ buildings = {
 	
 	anti_air_building = {
 		show_on_map = 3
-		base_cost = 4000
+		base_cost = 4800
 		icon_frame = 9
 		anti_air = yes
 		disabled_in_dmz = yes
@@ -154,9 +157,9 @@ buildings = {
 
 	synthetic_refinery = {
 		show_on_map = 1
-		base_cost = 5000
+		base_cost = 4800
 		icon_frame = 10
-		local_resources_wheat = 1 
+		local_resources_wheat = 4 
 		refinery = yes
 		max_level = 7 # This is the max unlock level
 		shares_slots = yes
@@ -164,12 +167,11 @@ buildings = {
 		infrastructure_construction_effect = yes
 		
 		show_modifier = yes
-		fuel_gain_from_states = 0.5 #per hour
 	}
 
 	fuel_silo = {
 		show_on_map = 1
-		base_cost = 8000
+		base_cost = 2400
 		icon_frame = 14
 		#max_level = 3
 		shares_slots = yes
