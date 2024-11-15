@@ -518,7 +518,7 @@ technologies = {
 		xp_unlock_cost = 25
 		
 		ranged_infantry = {
-			maximum_speed = 0.15
+			maximum_speed = 0.05
 			max_organisation = 5
 		}
 		experience_loss_factor = 0.1
@@ -790,11 +790,11 @@ technologies = {
 		
 		category_elite_infantry = {
 			soft_attack = 0.10
-            maximum_speed = 0.10
+            maximum_speed = 0.05
 		}
 		category_all_racial_infantry = {
 			soft_attack = 0.10
-            maximum_speed = 0.10
+			maximum_speed = 0.05
 		}
 
 		on_research_complete = {
@@ -1152,9 +1152,8 @@ technologies = {
 		xp_unlock_cost = 25
 
 		category_tli_all_infantry = {
-            maximum_speed = 0.15
+            maximum_speed = 0.05
             breakthrough = 0.10
-			army_morale_factor = 0.33
 		}
 
 		on_research_complete = {
@@ -1991,9 +1990,8 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_tli_all_infantry = {
-			maximum_speed = 0.20
-		}
+		max_planning = -0.25
+        planning_speed = 0.5
 
         path = {
 			leads_to_tech = flexible_command_structure 
@@ -2044,7 +2042,7 @@ technologies = {
 		xp_unlock_cost = 100
 		
         max_planning = 0.25
-        planning_speed = -0.10
+        planning_speed = -0.1
 
         path = {
 			leads_to_tech = killing_grounds 
@@ -2098,8 +2096,8 @@ technologies = {
 			max_organisation = 5
 		}
 		
-        planning_speed = 1
-        max_planning = -0.50
+        planning_speed = 0.25
+        max_planning = -0.15
 
         path = {
 			leads_to_tech = foreign_recruitment 
@@ -2142,8 +2140,8 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_line_artillery = {
-			soft_attack = 0.25
-            hard_attack = 0.25
+			soft_attack = 0.1
+            hard_attack = 0.1
 		}
 		supply_consumption_factor = 0.2
 
@@ -2192,10 +2190,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_tli_all_infantry = {
-			defense = 0.20
-		}
-        max_dig_in = 4
+        max_dig_in = 5
 
         path = {
 			leads_to_tech = infantry_firepower_superiority 
@@ -2243,8 +2238,8 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_tli_all_infantry = {
-			breakthrough = -0.25
-			maximum_speed = -0.15
+			breakthrough = -0.1
+			maximum_speed = -0.1
 		}
         max_planning = 0.25
 
@@ -2447,11 +2442,11 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_elite_infantry = {
-			defense = 0.40
+			defense = 0.10
             armor_value = 3.00
 		}
 		category_all_racial_infantry = {
-			defense = 0.40
+			defense = 0.10
             armor_value = 3.00
 		}
         category_army = {
@@ -2544,7 +2539,7 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_army = {
-			soft_attack = 0.25
+			soft_attack = 0.1
 		}
 
         xor = { mobile_warfare trench_warfare mass_assault }
