@@ -38,11 +38,11 @@ add_to_faction = ISL
 add_to_faction = JES
 add_to_faction = STA
 set_autonomy = {
-	arget = JES
+	target = JES
 	autonomous_state = autonomy_army
 }
 set_autonomy = {
-	arget = STA
+	target = STA
 	autonomous_state = autonomy_army
 }
 

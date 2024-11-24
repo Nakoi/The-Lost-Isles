@@ -8,6 +8,7 @@ sub_units = {
 		need = { air_skirmisher_equipment = 1 }
 		categories = { category_air_skirmisher }
 		land_air_wing_size = 100
+		mega_carrier_air_wing_size = 20
 	}
 	
 	air_strikers = {
@@ -18,6 +19,7 @@ sub_units = {
 		need = { air_striker_equipment = 1 }
 		categories = { category_air_striker }
 		land_air_wing_size = 100
+		mega_carrier_air_wing_size = 20
 	}
 	
 	air_frigate = {
@@ -28,6 +30,7 @@ sub_units = {
 		need = { air_frigate_equipment = 1 }
 		categories = { category_air_frigate }
 		land_air_wing_size = 12
+		mega_carrier_air_wing_size = 2
 	}
 	
 	blazing_qing = {
@@ -38,6 +41,7 @@ sub_units = {
 		need = { blazing_qing_equipment = 1 }
 		categories = { category_blazing_qing }
 		land_air_wing_size = 12
+		mega_carrier_air_wing_size = 2
 	}
 
 	air_bombardier = {
@@ -48,6 +52,7 @@ sub_units = {
 		need = { air_bombardier_equipment = 1 }
 		categories = { category_air_bombardier }
 		land_air_wing_size = 12
+		mega_carrier_air_wing_size = 22
 	}
 	
 	sky_carrier = {
@@ -58,6 +63,7 @@ sub_units = {
 		need = { sky_carrier_equipment = 1 }
 		categories = { category_sky_carrier }
 		land_air_wing_size = 12
+		mega_carrier_air_wing_size = 2
 	}
 	
 	sky_cruiser = {
@@ -68,6 +74,7 @@ sub_units = {
 		need = { sky_cruiser_equipment = 1 }
 		categories = { category_sky_cruiser }
 		land_air_wing_size = 12
+		mega_carrier_air_wing_size = 2
 	}
 
 
