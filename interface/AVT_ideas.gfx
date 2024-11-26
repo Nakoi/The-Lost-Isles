@@ -145,4 +145,358 @@ spriteTypes = {
 		name = "GFX_idea_AVT_idea_decreased_tax_revenue"
 		texturefile = "gfx/interface/ideas/generic/AVT_idea_decreased_tax_revenue.dds"
 	}
+
+#AVT_towards_meritocracy
+	SpriteType = {
+		name = "GFX_idea_AVT_towards_meritocracy"
+		texturefile = "gfx/interface/ideas/generic/AVT_towards_meritocracy.dds"
+	}
+
+#AVT_aristocratic_insight
+	SpriteType = {
+		name = "GFX_idea_AVT_aristocratic_insight"
+		texturefile = "gfx/interface/ideas/generic/AVT_aristocratic_insight.dds"
+	}
+
+#AVT_reparations_to_the_nobels
+	SpriteType = {
+		name = "GFX_idea_AVT_reparations_to_the_nobels"
+		texturefile = "gfx/interface/ideas/generic/Money_Pile.dds"
+	}
+
+#AVT_advisory_parliament
+	SpriteType = {
+		name = "GFX_idea_AVT_advisory_parliament"
+		texturefile = "gfx/interface/ideas/generic/AVT_advisory_parliament.dds"
+	}
+
+#AVT_legislative_parliament
+	SpriteType = {
+		name = "GFX_idea_AVT_legislative_parliament"
+		texturefile = "gfx/interface/ideas/generic/AVT_legislative_parliament.dds"
+	}
+
+#AVT_national_healthcare
+	SpriteType = {
+		name = "GFX_idea_AVT_national_healthcare"
+		texturefile = "gfx/interface/ideas/generic/AVT_national_healthcare.dds"
+	}
+
+#AVT_nationalist_fervor
+	SpriteType = {
+		name = "GFX_idea_AVT_nationalist_fervor"
+		texturefile = "gfx/interface/ideas/generic/AVT_nationalist_fervor.dds"
+	}
+
+#AVT_administrative_reorganistation
+	SpriteType = {
+		name = "GFX_idea_AVT_administrative_reorganistation"
+		texturefile = "gfx/interface/ideas/generic/AVT_administrative_reorganistation.dds"
+	}
+
+#AVT_strenght_though_diversity
+	SpriteType = {
+		name = "GFX_idea_AVT_strenght_though_diversity"
+		texturefile = "gfx/interface/ideas/generic/AVT_strenght_though_diversity.dds"
+	}
+
+#AVT_colonial_affairs_office_idea_00
+	SpriteType = {
+		name = "GFX_idea_AVT_colonial_affairs_office_idea_00"
+		texturefile = "gfx/interface/ideas/generic/AVT_colonial_affairs_office_idea.dds"
+	}
+
+#AVT_colonial_affairs_office_idea_01
+	SpriteType = {
+		name = "GFX_idea_AVT_colonial_affairs_office_idea_01"
+		texturefile = "gfx/interface/ideas/generic/AVT_colonial_affairs_office_idea.dds"
+	}
+
+#AVT_colonial_affairs_office_idea_02
+	SpriteType = {
+		name = "GFX_idea_AVT_colonial_affairs_office_idea_02"
+		texturefile = "gfx/interface/ideas/generic/AVT_colonial_affairs_office_idea.dds"
+	}
+
+#AVT_local_collaborators_idea
+	SpriteType = {
+		name = "GFX_idea_AVT_local_collaborators_idea"
+		texturefile = "gfx/interface/ideas/generic/AVT_local_collaborators_idea.dds"
+	}
+
+#AVT_idea_low_public_discontent
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_low_public_discontent"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_civil_war_tsar_2.dds"
+	}
+
+#AVT_idea_med_public_discontent
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_med_public_discontent"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_civil_war_tsar_2.dds"
+	}
+
+#AVT_idea_high_public_discontent
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_high_public_discontent"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_civil_war_tsar_2.dds"
+	}
+
+#AVT_idea_veryhigh_public_discontent
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_veryhigh_public_discontent"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_civil_war_tsar_2.dds"
+	}
+
+#AVT_idea_loyalty_royalfam_low
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_royalfam_low"
+		texturefile = "gfx/interface/ideas/generic/genidea_imperialism_buff_1.dds"
+	}
+
+#AVT_idea_loyalty_royalfam_mid
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_royalfam_mid"
+		texturefile = "gfx/interface/ideas/generic/genidea_imperialism_buff_1.dds"
+	}
+
+#AVT_idea_loyalty_royalfam_high
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_royalfam_high"
+		texturefile = "gfx/interface/ideas/generic/genidea_imperialism_buff_1.dds"
+	}
+
+#AVT_idea_loyalty_royalfam_veryhigh
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_royalfam_veryhigh"
+		texturefile = "gfx/interface/ideas/generic/genidea_imperialism_buff_1.dds"
+	}
+
+#AVT_idea_loyalty_aminoff_low
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_aminoff_low"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_aminoff_low.dds"
+	}
+
+#AVT_idea_loyalty_aminoff_mid
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_aminoff_mid"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_aminoff_low.dds"
+	}
+
+#AVT_idea_loyalty_aminoff_high
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_aminoff_high"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_aminoff_low.dds"
+	}
+
+#AVT_idea_loyalty_aminoff_veryhigh
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_aminoff_veryhigh"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_aminoff_low.dds"
+	}
+
+#AVT_idea_loyalty_hierta_low
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_hierta_low"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_hierta_low.dds"
+	}
+
+#AVT_idea_loyalty_hierta_mid
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_hierta_mid"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_hierta_low.dds"
+	}
+
+#AVT_idea_loyalty_hierta_high
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_hierta_high"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_hierta_low.dds"
+	}
+
+#AVT_idea_loyalty_hierta_veryhigh
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_hierta_veryhigh"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_hierta_low.dds"
+	}
+
+#AVT_idea_loyalty_demidov_low
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_demidov_low"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_demidov_low.dds"
+	}
+
+#AVT_idea_loyalty_demidov_mid
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_demidov_mid"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_demidov_low.dds"
+	}
+
+#AVT_idea_loyalty_demidov_high
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_demidov_high"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_demidov_low.dds"
+	}
+
+#AVT_idea_loyalty_demidov_veryhigh
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_demidov_veryhigh"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_demidov_low.dds"
+	}
+
+#AVT_idea_loyalty_aminoff_absolute
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_demidov_veryhigh"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_aminoff_low.dds"
+	}
+
+#AVT_idea_loyalty_hierta_absolute
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_hierta_absolute"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_hierta_low.dds"
+	}
+
+#AVT_idea_loyalty_demidov_absolute
+	SpriteType = {
+		name = "GFX_idea_AVT_idea_loyalty_demidov_absolute"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_loyalty_demidov_low.dds"
+	}
+
+#AVT_donation
+	SpriteType = {
+		name = "GFX_idea_AVT_donation"
+		texturefile = "gfx/interface/ideas/generic/Money_Pile.dds"
+	}
+
+#AVT_large_donation
+	SpriteType = {
+		name = "GFX_idea_AVT_large_donation"
+		texturefile = "gfx/interface/ideas/generic/Money_Pile.dds"
+	}
+
+#AVT_officer_reparations
+	SpriteType = {
+		name = "GFX_idea_AVT_officer_reparations"
+		texturefile = "gfx/interface/ideas/generic/Money_Pile.dds"
+	}
+
+#AVT_buyout_payments
+	SpriteType = {
+		name = "GFX_idea_AVT_buyout_payments"
+		texturefile = "gfx/interface/ideas/generic/Money_Pile.dds"
+	}
+
+#AVT_trade_collapse
+	SpriteType = {
+		name = "GFX_idea_AVT_trade_collapse"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_decreased_tax_revenue.dds"
+	}
+
+#AVT_academic_inspectors
+	SpriteType = {
+		name = "GFX_idea_AVT_academic_inspectors"
+		texturefile = "gfx/interface/ideas/generic/AVT_academic_inspectors.dds"
+	}
+
+#AVT_loyal_research
+	SpriteType = {
+		name = "GFX_idea_AVT_loyal_research"
+		texturefile = "gfx/interface/ideas/generic/AVT_academic_inspectors.dds"
+	}
+
+#AVT_plm
+	SpriteType = {
+		name = "GFX_idea_AVT_plm"
+		texturefile = "gfx/interface/ideas/generic/AVT_strenght_though_diversity.dds"
+	}
+
+#AVT_pushed_to_the_limit
+	SpriteType = {
+		name = "GFX_idea_AVT_pushed_to_the_limit"
+		texturefile = "gfx/interface/ideas/generic/AVT_pushed_to_the_limit.dds"
+	}
+
+#AVT_true_autocracy
+	SpriteType = {
+		name = "GFX_idea_AVT_true_autocracy"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_tribe_mistrust_elusive_1.dds"
+	}
+
+#AVT_executive_council
+	SpriteType = {
+		name = "GFX_idea_AVT_executive_council"
+		texturefile = "gfx/interface/ideas/generic/AVT_executive_council.dds"
+	}
+
+#AVT_feudal_perfection
+	SpriteType = {
+		name = "GFX_idea_AVT_feudal_perfection"
+		texturefile = "gfx/interface/ideas/generic/AVT_feudal_perfection.dds"
+	}
+
+#AVT_modern_feudalism
+	SpriteType = {
+		name = "GFX_idea_AVT_modern_feudalism"
+		texturefile = "gfx/interface/ideas/generic/AVT_modern_feudalism.dds"
+	}
+
+#AVT_splendor_idea
+	SpriteType = {
+		name = "GFX_idea_AVT_splendor_idea"
+		texturefile = "gfx/interface/ideas/generic/AVT_splendor_idea.dds"
+	}
+
+#AVT_investment_fund_flow
+	SpriteType = {
+		name = "GFX_idea_AVT_investment_fund_flow"
+		texturefile = "gfx/interface/ideas/generic/AVT_idea_decreased_tax_revenue.dds"
+	}
+
+#AVT_species_solidarity_idea
+	SpriteType = {
+		name = "GFX_idea_AVT_species_solidarity_idea"
+		texturefile = "gfx/interface/ideas/generic/AVT_strenght_though_diversity.dds"
+	}
+
+#AVT_griffon_castle
+	SpriteType = {
+		name = "GFX_idea_AVT_griffon_castle"
+		texturefile = "gfx/interface/ideas/generic/AVT_griffon_castle.dds"
+	}
+
+#AVT_equestrian_castle
+	SpriteType = {
+		name = "GFX_idea_AVT_equestrian_castle"
+		texturefile = "gfx/interface/ideas/generic/AVT_equestrian_castle.dds"
+	}
+
+#AVT_less_food_retard
+	SpriteType = {
+		name = "GFX_idea_AVT_less_food_retard"
+		texturefile = "gfx/interface/ideas/generic/AVT_less_food_retard.dds"
+	}
+
+#AVT_less_industry_retard
+	SpriteType = {
+		name = "GFX_idea_AVT_less_industry_retard"
+		texturefile = "gfx/interface/ideas/generic/KAE_shit_arms_industry.dds"
+	}
+
+#AVT_less_smart_people_retard
+	SpriteType = {
+		name = "GFX_idea_AVT_less_smart_people_retard"
+		texturefile = "gfx/interface/ideas/generic/AVT_less_smart_people_retard.dds"
+	}
+
+#AVT_less_soldiers_retard
+	SpriteType = {
+		name = "GFX_idea_AVT_less_soldiers_retard"
+		texturefile = "gfx/interface/ideas/generic/AVT_less_soldiers_retard.dds"
+	}
+
+#AVT_less_soldiers_retard
+	SpriteType = {
+		name = "GFX_idea_AVT_less_soldiers_retard"
+		texturefile = "gfx/interface/ideas/generic/AVT_less_soldiers_retard.dds"
+	}
 }	
