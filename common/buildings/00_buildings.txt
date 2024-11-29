@@ -6,7 +6,7 @@ buildings = {
 
 
 	infrastructure = {
-		base_cost = 3600
+		base_cost = 1200
 		per_level_extra_cost = 1200
 		icon_frame = 3
 		infrastructure = yes
@@ -17,7 +17,7 @@ buildings = {
 
 		infrastructure_construction_effect = yes
 		level_cap = {
-			state_max = 5
+			state_max = 20
 		}
 		country_modifiers = {
 			modifiers = {
@@ -28,8 +28,8 @@ buildings = {
 
 	arms_factory = {
 		show_on_map = 6
-		base_cost = 12000
-		base_cost_conversion = 6000
+		base_cost = 7200
+		base_cost_conversion = 3600
 		military_production = 1
 		disabled_in_dmz = yes
 		icon_frame = 2
@@ -43,8 +43,8 @@ buildings = {
 
 	industrial_complex = {
 		show_on_map = 6
-		base_cost = 14400
-		base_cost_conversion = 7200
+		base_cost = 9600
+		base_cost_conversion = 4800
 		general_production = 1
 		icon_frame = 1
 		value = 5
