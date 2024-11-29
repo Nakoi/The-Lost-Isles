@@ -1437,7 +1437,7 @@ technologies = {
 
         enable_building = {
             building = infrastructure
-            level = 7
+            level = 8
         }
 
         enable_building = {
@@ -1494,7 +1494,7 @@ technologies = {
 
         enable_building = {
             building = infrastructure
-            level = 11
+            level = 10
         }
         production_speed_supply_node_factor = 0.25
 		production_speed_rail_way_factor = 0.25
@@ -1543,11 +1543,6 @@ technologies = {
         #ai_research_weights = {
         #    <type> = <float>
         #}
-
-        enable_building = {
-            building = infrastructure
-            level = 15
-        }
 
         enable_building = {
             building = rail_way
