@@ -45,7 +45,8 @@ create_faction = "Anti-Luanan Alliance"
 add_to_faction = BOR
 add_to_faction = VED
 
-set_technology = { 
+set_technology = {
+	griffon_race = 1
 	infantry_weapons = 1
 	infantry_upgrade = 1
 	infantry_weapons1 = 1
