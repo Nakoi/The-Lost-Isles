@@ -110,7 +110,83 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_runic_warriors_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/runic_warrior_small_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battle_seer_coven_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/battle_seers_support_small_unit.dds" noOfFrames = 2 }
 	
-	
+	######################
+	### Non-NATO Small ###
+
+	spriteType = {
+		name = "GFX_unit_Guard_icon_small"
+		texturefile = "gfx/texticons/unit_Guard_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_heavy_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_heavy_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_machinegun_icon_small"
+		texturefile = "gfx/texticons/unit_machinegun_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_ranged_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_ranged_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_ranged_militia_icon_small"
+		texturefile = "gfx/texticons/unit_ranged_militia_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_scharpschooter_icon_small"
+		texturefile = "gfx/texticons/unit_scharpschooter_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_shock_troops_icon_small"
+		texturefile = "gfx/texticons/unit_shock_troops_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_wind_riders_icon_small"
+		texturefile = "gfx/texticons/unit_wind_riders_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_tli_recon_company_icon_small"
+		texturefile = "gfx/texticons/unit_tli_recon_company_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+
+
+
+
 
 	###########################################
 	### Large images for DIVISION TEMPLATES ###
