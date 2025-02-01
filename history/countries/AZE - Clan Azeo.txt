@@ -33,7 +33,8 @@ add_ideas = {
 	ootarigeneric_warlord_recruitment
 }
 
-set_technology = { 
+set_technology = {
+	kirin_race = 1
 	infantry_weapons = 1
 	infantry_upgrade = 1
 	infantry_weapons1 = 1

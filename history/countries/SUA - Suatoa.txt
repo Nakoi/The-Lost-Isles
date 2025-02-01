@@ -43,7 +43,8 @@ add_ideas = {
 	race_kirin
 }
 
-set_technology = { 
+set_technology = {
+	kirin_race = 1
 	infantry_weapons = 1
 	infantry_upgrade = 1
 	infantry_weapons1 = 1
