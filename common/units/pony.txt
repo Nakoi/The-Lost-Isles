@@ -51,13 +51,11 @@ sub_units = {
 
 		hills = {
 			attack = 0.15
-			defence = 0.1
-			movement = 0.3
+			movement = 0.1
 		}
 		mountain = {
-			attack = 0.2
-			defence = 0.1
-			movement = 0.6
+			attack = 0.15
+			movement = 0.1
 		}
 	}
 
@@ -105,34 +103,12 @@ sub_units = {
 		need = {
 			gunlance_equipment = 100
 		}
-
-		forest = {
-			movement = 0.5
-		}
-		hills = {
-			movement = 0.5
-		}
-		mountain = {
-			movement = 1.0
-		}
-		urban = {
-			movement = 0.2
-		}
-		jungle = {
-			movement = 0.5
-		}
-		marsh = {
-			movement = 1.0
-		}
-		desert = {
-			movement = 0.05
-		}
+		
 		river = {
-			defence = 0.3
-			movement = 0.25
+			attack = 0.1
 		}
 		amphibious = {
-			defence = 0.7
+			attack = 0.25
 		}
 
 	}
