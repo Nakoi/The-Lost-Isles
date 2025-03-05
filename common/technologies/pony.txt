@@ -75,10 +75,6 @@ technologies = {
 			entrenchment = 5
 		}
 		
-		category_juggernauts = {
-			defense = 0.2
-		}
-		
 		path = {
 			leads_to_tech = pony_mountain_training
 			research_cost_coeff = 1
@@ -110,14 +106,12 @@ technologies = {
 
 		juggernauts = {
 			hills = {
-				attack = 0.10
+				attack = 0.1
 				defence = 0.1
-				movement = 0.1
 			}
 			mountain = {
 				attack = 0.1
 				defence = 0.1
-				movement = 0.2
 			}
 		}
 		
@@ -196,13 +190,13 @@ technologies = {
 		
 		tli_sapper_company = {
 			max_organisation = 10
-			entrenchment = 2
+			entrenchment = 3
 		}
 		
 		category_juggernauts = {
 			supply_consumption = 0.03
 			hardness = 3
-			defense = 0.15
+			defense = 0.1
 		}
 
 		xor={
@@ -253,13 +247,9 @@ technologies = {
             tech_industrialized = 1
 		}
 		
-		tli_sapper_company = {
-			entrenchment = 2
-		}
-		
 		category_juggernauts = {
 			hardness = 3
-			defense = 0.15
+			defense = 0.1
 		}
 
 		
@@ -296,13 +286,9 @@ technologies = {
             tech_industrialized = 1
 		}
 		
-		tli_sapper_company = {
-			entrenchment = 2
-		}
-		
 		category_juggernauts = {
 			hardness = 3
-			defense = 0.15
+			defense = 0.1
 		}
 		
 		research_cost = 2.7
@@ -441,24 +427,18 @@ technologies = {
 		
 		category_juggernauts = {
 			supply_consumption = 0.01
-			breakthrough = 0.25
+			breakthrough = 0.15
 		}
 
 		juggernauts = {
 
-			fort = {
-				attack = 0.15
-			}
-			urban = {
-				attack = 0.15
-			}
 			hills = {
-				attack = 0.15
-				movement = 0.1
+				attack = 0.1
+				movement = 0.15
 			}
 			mountain = {
-				attack = 0.15
-				movement = 0.2
+				attack = 0.1
+				movement = 0.15
 			}
 		}
 		org_loss_when_moving = -0.15
