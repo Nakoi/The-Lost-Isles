@@ -1,0 +1,16 @@
+characters={
+	
+	NAG_leader ={
+        name= NAG_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/NAG/NAG_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=isolationism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}

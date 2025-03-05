@@ -1,0 +1,16 @@
+characters={
+	
+	ROG_leader ={
+        name= ROG_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/ROG/ROG_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=solidarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}

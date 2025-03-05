@@ -1,0 +1,16 @@
+characters={
+	
+	ZIK_leader ={
+        name= ZIK_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/ZIK/ZIK_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=isolationism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}
