@@ -1,0 +1,156 @@
+characters={
+	
+	AZE_leader ={
+        name= AZE_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/clankirin/AZE_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=continuism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	WEI_leader ={
+        name= WEI_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/clankirin/WEI_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=visionarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	HRI_leader ={
+        name= HRI_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/clankirin/HRI_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=militarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	UNU_leader ={
+        name= UNU_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/clankirin/UNU_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=solidarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	ONK_leader ={
+        name= ONK_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/clankirin/ONK_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=isolationism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	RIN_leader ={
+        name= RIN_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/clankirin/RIN_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=continuism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	WAO_leader ={
+        name= WAO_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/clankirin/WAO_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=solidarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	ASH_leader ={
+        name= ASH_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/clankirin/ASH_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=imperialism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	FRE_leader ={
+        name= FRE_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/clankirin/FRE_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=continuism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	AIN_leader ={
+        name= AIN_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/clankirin/AIN_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=isolationism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	SEN_leader ={
+        name= SEN_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/clankirin/SEN_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=isolationism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}
