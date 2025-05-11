@@ -1,0 +1,225 @@
+ ##  #   # ######
+#  # #   #   #
+#### #   #   #
+#  #  # #    #
+#  #   #     #
+
+ai_peace_score = {
+    # General rule: AVT (AAA) dislikes GAL (BBB) and wants to fully annex them
+    target = GAL # AAA
+    source = AVT # BBB
+    score_modifier = {
+        factor = 0.5  # More aggressive toward BBB
+    }
+}
+
+ai_peace_score = {
+    target = AVT
+    source = GAL
+    score_modifier = {
+        factor = 0.5  # Less aggressive; more likely to puppet
+    }
+}
+
+ai_peace_score = {
+    target = OSK
+    source = AVT
+    score_modifier = {
+        factor = 0.5  # Less aggressive; more likely to puppet
+    }
+}
+
+ai_peace_score = {
+    target = SCO
+    source = AVT
+    score_modifier = {
+        factor = 0.5  # Less aggressive; more likely to puppet
+    }
+}
+
+ai_peace_score = {
+    target = ESU
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = KAE
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = SUA
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = AST
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = AZE
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = WEI
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = HRI
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = UNU
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = ONK
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = RIN
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = ASH
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = WAO
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = FRE
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = AIN
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = SEN
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+ai_peace_score = {
+    target = TYK
+    source = AVT
+    score_modifier = {
+        factor = 0.5  # Puppet
+    }
+}
+
+ai_peace_score = {
+    target = SUN
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+ai_peace_score = {
+    target = CRU
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+ai_peace_score = {
+    target = CAI
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+ai_peace_score = {
+    target = BOR
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+ai_peace_score = {
+    target = LUA
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+ai_peace_score = {
+    target = VED
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+ai_peace_score = {
+    target = CIL
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+ai_peace_score = {
+    target = PRI
+    source = AVT
+    score_modifier = {
+        factor = 1.5  # ANNEX
+    }
+}
+
+
