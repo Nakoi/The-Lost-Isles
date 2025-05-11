@@ -46,7 +46,7 @@ replace_path="history/general"
 replace_path="history/states"
 replace_path="history/units"
 replace_path="common/scorers/country"
-common\military_industrial_organization\organizations
+replace_path="common\military_industrial_organization\organizations"
 replace_path="common/special_projects"
 supported_version="1.12.7"
 path="C:/Users/didiv/Documents/Paradox Interactive/Hearts of Iron IV/mod/The Lost Isles"
