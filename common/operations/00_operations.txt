@@ -1,0 +1,94 @@
+### operations are sorted by order of 
+### 1) no. of required operatives
+### 2) required network strength
+### eg. 1/70 comes before 2/40
+
+operation_rescue_operative = { ### 0 1/35
+	icon = GFX_operations_rescue_captured_operative
+	map_icon = GFX_operations_rescue_captured_operative_map
+	name = operation_rescue_operative
+	desc = operation_rescue_operative_desc
+	priority = 0
+	prevent_captured_operative_to_die = yes
+
+
+	days = 35
+	network_strength = 30
+	operatives = 1
+
+	visible = {
+		FROM = {
+			has_captured_operative = ROOT
+		}
+	}
+
+	available = {
+		
+	}
+
+	requirements = {
+		FROM = {
+			has_captured_operative = ROOT
+		}
+	}
+
+
+	equipment = {
+		
+	}
+	risk_chance = 0.1
+	experience = 2
+	cost_multiplier = 0 # we dont scale in cost for rescues
+
+	outcome_execute = { # SCOPE_OPERATION
+		ROOT = {
+			free_random_operative = {
+				captured_by = FROM
+				all = yes
+			}
+		}
+		ROOT = {
+			hidden_effect = {
+				set_country_flag = just_freed_operative_flag
+			}
+		}
+	}
+
+	outcome_potential = {
+		ROOT = {
+			free_random_operative = {
+				captured_by = FROM
+				all = yes
+			}
+		}
+	}
+
+	phases = { #infiltration
+		infiltration_border = { base = 25 }
+		infiltration_diplomatic = {
+			base = 25
+			modifier = {
+				factor = 20
+				ROOT = { has_war = no }
+				FROM = {
+					has_war = no
+				}
+			}
+			modifier = {
+				FROM = {
+					has_war_with = ROOT
+				}
+				factor = 0
+			}
+		}
+	}
+	phases = {
+		free_operative_free_in_transit = { base = 33 }
+		free_operative_liberate_camp = { base = 33 }
+		free_operative_smuggle_in_escape_gear = { base = 33 }
+	}
+	phases = { #exfiltration
+		exfiltration_border = { base = 30 }
+		exfiltration_go_to_ground = { base = 30 }
+	}
+}
