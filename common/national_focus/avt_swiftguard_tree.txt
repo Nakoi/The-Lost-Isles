@@ -1,0 +1,1508 @@
+focus_tree = {
+    id = avtukov_swiftguard_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = AVT
+       }
+    }
+
+    default = no
+
+    continuous_focus_position = { x = 50 y = 3000 }
+
+	focus = {
+		id = AVT_worldwide_arena
+		icon = 
+		x = 0
+		y = 0
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_a_new_tsaritsa
+		icon = aaa
+		prerequisite = { focus = AVT_worldwide_arena }
+		x = 0
+		y = 1
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_assemble_the_war_council
+		icon = aaa
+		prerequisite = { focus = AVT_a_new_tsaritsa }
+		x = 0
+		y = 2
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_dew_lily_challange
+		icon = aaa
+		prerequisite = { focus = AVT_assemble_the_war_council }
+		x = 0
+		y = 3
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_prepare_for_the_long_march
+		icon = aaa
+		prerequisite = { focus = AVT_dew_lily_challange }
+		x = 0
+		y = 4
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_exploit_gallund
+		icon = aaa
+		prerequisite = { focus = AVT_dew_lily_challange }
+		x = 2
+		y = 4
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_militarise_oskil
+		icon = aaa
+		prerequisite = { focus = AVT_dew_lily_challange }
+		x = -2
+		y = 4
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_invade_ootari
+		icon = aaa
+		prerequisite = { focus = AVT_prepare_for_the_long_march }
+		x = 0
+		y = 5
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_against_our_ancient_foe
+		icon = aaa
+		prerequisite = { focus = AVT_invade_ootari }
+		x = 0
+		y = 6
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_our_fiery_brethren
+		icon = aaa
+		prerequisite = { focus = AVT_invade_ootari }
+		x = -2
+		y = 6
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+
+	focus = {
+		id = AVT_one_last_nuisance
+		icon = aaa
+		prerequisite = { focus = AVT_invade_ootari }
+		x = 2
+		y = 6
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+
+	focus = {
+		id = AVT_luanservy_subjugated
+		icon = aaa
+		prerequisite = { focus = AVT_against_our_ancient_foe }
+		x = 0
+		y = 7
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_convince_the_savinkans
+		icon = aaa
+		prerequisite = { focus = AVT_against_our_ancient_foe }
+		x = -2
+		y = 7
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_new_warriors_for_our_cause
+		icon = aaa
+		prerequisite = { focus = AVT_against_our_ancient_foe }
+		x = 2
+		y = 7
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_a_new_war_economy
+		icon = aaa
+		prerequisite = { focus = AVT_a_new_tsaritsa }
+		x = -7
+		y = 2
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_musket_manufactories
+		icon = aaa
+		prerequisite = { focus = AVT_a_new_war_economy }
+		x = 0
+		y = 1
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_deal_with_old_elites
+		icon = aaa
+		prerequisite = { focus = AVT_a_new_war_economy }
+		x = -2
+		y = 1
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_rebuild_the_motherland
+		icon = aaa
+		prerequisite = { focus = AVT_a_new_war_economy }
+		x = 2
+		y = 1
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_focused_war_production
+		icon = aaa
+		prerequisite = { focus = AVT_musket_manufactories }
+		x = 0
+		y = 2
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_the_science_of_war
+		icon = aaa
+		prerequisite = { focus = AVT_deal_with_old_elites }
+		x = -2
+		y = 2
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_war_time_innovations
+		icon = aaa
+		prerequisite = { focus = AVT_the_science_of_war }
+		x = -2
+		y = 3
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_to_feed_an_army
+		icon = aaa
+		prerequisite = { focus = AVT_rebuild_the_motherland }
+		x = 2
+		y = 2
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_logistical_superiority
+		icon = aaa
+		prerequisite = { focus = AVT_to_feed_an_army }
+		x = 2
+		y = 3
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_plunder_economics
+		icon = aaa
+		prerequisite = { focus = AVT_focused_war_production }
+		x = 0
+		y = 3
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_wartime_industrial_revolutions
+		icon = aaa
+		prerequisite = { focus = AVT_plunder_economics }
+		prerequisite = { focus = AVT_logistical_superiority }
+		x = 0
+		y = 4
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_a_societys_backbone
+		icon = aaa
+		prerequisite = { focus = AVT_wartime_industrial_revolutions }
+		mutually_exclusive = { focus = AVT_all_for_the_front }
+		x = -1
+		y = 5
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_all_for_the_front
+		icon = aaa
+		prerequisite = { focus = AVT_wartime_industrial_revolutions }
+		mutually_exclusive = { focus = AVT_a_societys_backbone }
+		x = 1
+		y = 5
+		relative_position_id = AVT_a_new_war_economy
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_the_pacifist_problem
+		icon = aaa
+		prerequisite = { focus = AVT_a_new_tsaritsa }
+		x = -12
+		y = 2
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_war_propaganda
+		icon = aaa
+		prerequisite = { focus = AVT_the_pacifist_problem }
+		mutually_exclusive = { focus = AVT_wait_the_protests_out }
+		x = 0
+		y = 1
+		relative_position_id = AVT_the_pacifist_problem
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_wait_the_protests_out
+		icon = aaa
+		prerequisite = { focus = AVT_the_pacifist_problem }
+		mutually_exclusive = { focus = AVT_war_propaganda }
+		x = -2
+		y = 1
+		relative_position_id = AVT_the_pacifist_problem
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_arrest_their_leaders
+		icon = aaa
+		prerequisite = { focus = AVT_war_propaganda }
+		x = 0
+		y = 2
+		relative_position_id = AVT_the_pacifist_problem
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_towards_a_chivalrous_society
+		icon = aaa
+		prerequisite = { focus = AVT_a_new_tsaritsa }
+		x = 7
+		y = 2
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_pegasi_supremacy
+		icon = aaa
+		prerequisite = { focus = AVT_towards_a_chivalrous_society }
+		mutually_exclusive = { focus = AVT_all_ponies_shall_serve }
+		x = 0
+		y = 1
+		relative_position_id = AVT_towards_a_chivalrous_society
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_all_ponies_shall_serve
+		icon = aaa
+		prerequisite = { focus = AVT_towards_a_chivalrous_society }
+		mutually_exclusive = { focus = AVT_pegasi_supremacy }
+		x = -2
+		y = 1
+		relative_position_id = AVT_towards_a_chivalrous_society
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_fight_for_your_freedom
+		icon = aaa
+		prerequisite = { focus = AVT_all_ponies_shall_serve }
+		x = -2
+		y = 2
+		relative_position_id = AVT_towards_a_chivalrous_society
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_a_new_castle_system
+		icon = aaa
+		prerequisite = { focus = AVT_pegasi_supremacy }
+		x = 0
+		y = 2
+		relative_position_id = AVT_towards_a_chivalrous_society
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_new_military_talent
+		icon = aaa
+		prerequisite = { focus = AVT_a_new_castle_system focus = AVT_fight_for_your_freedom}
+		x = -1
+		y = 3
+		relative_position_id = AVT_towards_a_chivalrous_society
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_avtukovs_legacy
+		icon = aaa
+		prerequisite = { focus = AVT_towards_a_chivalrous_society }
+		x = 2
+		y = 1
+		relative_position_id = AVT_towards_a_chivalrous_society
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_winged_patrols
+		icon = aaa
+		prerequisite = { focus = AVT_avtukovs_legacy }
+		x = 2
+		y = 2
+		relative_position_id = AVT_towards_a_chivalrous_society
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_firstborn_tithe
+		icon = aaa
+		prerequisite = { focus = AVT_winged_patrols }
+		x = 2
+		y = 3
+		relative_position_id = AVT_towards_a_chivalrous_society
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_the_gracemare_convetion
+		icon = aaa
+		prerequisite = { focus = AVT_firstborn_tithe focus = AVT_new_military_talent }
+		x = 0
+		y = 4
+		relative_position_id = AVT_towards_a_chivalrous_society
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_honor_within_reason
+		icon = aaa
+		prerequisite = { focus = AVT_the_gracemare_convetion }
+		mutually_exclusive = { focus = AVT_honor_or_death }
+		x = -1
+		y = 5
+		relative_position_id = AVT_towards_a_chivalrous_society
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_honor_or_death
+		icon = aaa
+		prerequisite = { focus = AVT_the_gracemare_convetion }
+		mutually_exclusive = { focus = AVT_honor_within_reason }
+		x = 1
+		y = 5
+		relative_position_id = AVT_towards_a_chivalrous_society
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_the_looming_famine
+		icon = aaa
+		prerequisite = { focus = AVT_a_new_tsaritsa }
+		x = 12
+		y = 2
+		relative_position_id = AVT_worldwide_arena
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_subsidise_agriculture
+		icon = aaa
+		prerequisite = { focus = AVT_the_looming_famine }
+		mutually_exclusive = { focus = AVT_build_a_lasting_food_stockpile }
+		x = 0
+		y = 1
+		relative_position_id = AVT_the_looming_famine
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_build_a_lasting_food_stockpile
+		icon = aaa
+		prerequisite = { focus = AVT_the_looming_famine }
+		mutually_exclusive = { focus = AVT_subsidise_agriculture }
+		x = 2
+		y = 1
+		relative_position_id = AVT_the_looming_famine
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_preservative_innovations
+		icon = aaa
+		prerequisite = { focus = AVT_subsidise_agriculture }
+		x = 0
+		y = 2
+		relative_position_id = AVT_the_looming_famine
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+
+	focus = {
+		id = AVT_the_question_of_leadership
+		icon = aaa
+		prerequisite = { focus = AVT_luanservy_subjugated }
+		x = 2
+		y = 1
+		relative_position_id = AVT_luanservy_subjugated
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_the_marshall
+		icon = aaa
+		prerequisite = { focus = AVT_the_question_of_leadership }
+		mutually_exclusive = { focus = AVT_the_industrialist}
+		x = -1
+		y = 1
+		relative_position_id = AVT_the_question_of_leadership
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_the_industrialist
+		icon = aaa
+		prerequisite = { focus = AVT_the_question_of_leadership }
+		mutually_exclusive = { focus = AVT_the_marshall}
+		x = 1
+		y = 1
+		relative_position_id = AVT_the_question_of_leadership
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_chivalry_forever
+		icon = aaa
+		prerequisite = { focus = AVT_the_marshall }
+		x = -1
+		y = 2
+		relative_position_id = AVT_the_question_of_leadership
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_the_fight_for_profit
+		icon = aaa
+		prerequisite = { focus = AVT_the_industrialist }
+		x = 1
+		y = 2
+		relative_position_id = AVT_the_question_of_leadership
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_our_stepping_stone
+		icon = aaa
+		prerequisite = { focus = AVT_luanservy_subjugated }
+		x = -2
+		y = 1
+		relative_position_id = AVT_luanservy_subjugated
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_develop_iarira
+		icon = aaa
+		prerequisite = { focus = AVT_our_stepping_stone }
+		x = 0
+		y = 1
+		relative_position_id = AVT_our_stepping_stone
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_scarlet_lotus
+		icon = aaa
+		prerequisite = { focus = AVT_luanservy_subjugated }
+		x = -7
+		y = 1
+		relative_position_id = AVT_luanservy_subjugated
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_the_war_torn_south
+		icon = aaa
+		prerequisite = { focus = AVT_scarlet_lotus }
+		mutually_exclusive = { focus = AVT_barbaric_north }
+		x = -1
+		y = 1
+		relative_position_id = AVT_scarlet_lotus
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_barbaric_north
+		icon = aaa
+		prerequisite = { focus = AVT_scarlet_lotus }
+		mutually_exclusive = { focus = AVT_the_war_torn_south }
+		x = 1
+		y = 1
+		relative_position_id = AVT_scarlet_lotus
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_winter_warfare_experience
+		icon = aaa
+		prerequisite = { focus = AVT_the_war_torn_south }
+		prerequisite = { focus = AVT_barbaric_north }
+		x = 0
+		y = 2
+		relative_position_id = AVT_scarlet_lotus
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_intergrate_the_traunulan_ponies
+		icon = aaa
+		prerequisite = { focus = AVT_the_war_torn_south }
+		x = -1
+		y = 3
+		relative_position_id = AVT_scarlet_lotus
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+
+	focus = {
+		id = AVT_exploit_the_diamond_dogs
+		icon = aaa
+		prerequisite = { focus = AVT_barbaric_north }
+		x = 1
+		y = 3
+		relative_position_id = AVT_scarlet_lotus
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_traunulu_subjugated
+		icon = aaa
+		prerequisite = { focus = AVT_winter_warfare_experience }
+		prerequisite = { focus = AVT_exploit_the_diamond_dogs focus = AVT_intergrate_the_traunulan_ponies }
+		x = 0
+		y = 4
+		relative_position_id = AVT_scarlet_lotus
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_golden_dusk_challange
+		icon = aaa
+		prerequisite = { focus = AVT_luanservy_subjugated }
+		x = -14
+		y = 1
+		relative_position_id = AVT_luanservy_subjugated
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_decadent_coast
+		icon = aaa
+		prerequisite = { focus = AVT_golden_dusk_challange }
+		mutually_exclusive = { focus = AVT_technological_behemoth }
+		x = -1
+		y = 1
+		relative_position_id = AVT_golden_dusk_challange
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_technological_behemoth
+		icon = aaa
+		prerequisite = { focus = AVT_golden_dusk_challange }
+		mutually_exclusive = { focus = AVT_decadent_coast }
+		x = 1
+		y = 1
+		relative_position_id = AVT_golden_dusk_challange
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_open_the_vaults_of_knowledge
+		icon = aaa
+		prerequisite = { focus = AVT_decadent_coast }
+		prerequisite = { focus = AVT_technological_behemoth }
+		x = 0
+		y = 2
+		relative_position_id = AVT_golden_dusk_challange
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_demon_lords_power
+		icon = aaa
+		prerequisite = { focus = AVT_decadent_coast }
+		x = -1
+		y = 3
+		relative_position_id = AVT_golden_dusk_challange
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_the_horse_question
+		icon = aaa
+		prerequisite = { focus = AVT_technological_behemoth }
+		x = 1
+		y = 3
+		relative_position_id = AVT_golden_dusk_challange
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_arodinia_jubjugated
+		icon = aaa
+		prerequisite = { focus = AVT_the_horse_question focus = AVT_demon_lords_power }
+		prerequisite = { focus = AVT_open_the_vaults_of_knowledge }
+		x = 0
+		y = 4
+		relative_position_id = AVT_golden_dusk_challange
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_obsidian_throne_challenge
+		icon = aaa
+		prerequisite = { focus = AVT_luanservy_subjugated }
+		x = 7
+		y = 1
+		relative_position_id = AVT_luanservy_subjugated
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+
+	focus = {
+		id = AVT_secure_the_iron_deposits
+		icon = aaa
+		prerequisite = { focus = AVT_obsidian_throne_challenge }
+		mutually_exclusive = { focus = AVT_through_the_jungles }
+		x = -1
+		y = 1
+		relative_position_id = AVT_obsidian_throne_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_through_the_jungles
+		icon = aaa
+		prerequisite = { focus = AVT_obsidian_throne_challenge }
+		mutually_exclusive = { focus = AVT_secure_the_iron_deposits }
+		x = 1
+		y = 1
+		relative_position_id = AVT_obsidian_throne_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_sepsta_anciet_tactics
+		icon = aaa
+		prerequisite = { focus = AVT_secure_the_iron_deposits }
+		prerequisite = { focus = AVT_through_the_jungles }
+		x = 0
+		y = 2
+		relative_position_id = AVT_obsidian_throne_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_great_welerenias_support
+		icon = aaa
+		prerequisite = { focus = AVT_secure_the_iron_deposits }
+		x = -1
+		y = 3
+		relative_position_id = AVT_obsidian_throne_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_the_high_kingdoms_splendor
+		icon = aaa
+		prerequisite = { focus = AVT_through_the_jungles }
+		x = 1
+		y = 3
+		relative_position_id = AVT_obsidian_throne_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_dominatra_subjugated
+		icon = aaa
+		prerequisite = { focus = AVT_the_high_kingdoms_splendor  focus = AVT_great_welerenias_support }
+		prerequisite = { focus = AVT_sepsta_anciet_tactics }
+		x = 0
+		y = 4
+		relative_position_id = AVT_obsidian_throne_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_blood_legacy_challenge
+		icon = aaa
+		prerequisite = { focus = AVT_luanservy_subjugated }
+		x = 14
+		y = 1
+		relative_position_id = AVT_luanservy_subjugated
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_the_home_of_the_mercenaries
+		icon = aaa
+		prerequisite = { focus = AVT_blood_legacy_challenge }
+		mutually_exclusive = { focus = AVT_our_southern_cousins}
+		x = -1
+		y = 1
+		relative_position_id = AVT_blood_legacy_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_our_southern_cousins
+		icon = aaa
+		prerequisite = { focus = AVT_blood_legacy_challenge }
+		mutually_exclusive = { focus = AVT_the_home_of_the_mercenaries}
+		x = 1
+		y = 1
+		relative_position_id = AVT_blood_legacy_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_a_deal_with_the_sirens
+		icon = aaa
+		prerequisite = { focus = AVT_the_home_of_the_mercenaries }
+		prerequisite = { focus = AVT_our_southern_cousins }
+		x = 0
+		y = 2
+		relative_position_id = AVT_blood_legacy_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_utilise_the_zebras
+		icon = aaa
+		prerequisite = { focus = AVT_the_home_of_the_mercenaries }
+		x = -1
+		y = 3
+		relative_position_id = AVT_blood_legacy_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_the_alicorn_blood
+		icon = aaa
+		prerequisite = { focus = AVT_our_southern_cousins }
+		x = 1
+		y = 3
+		relative_position_id = AVT_blood_legacy_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = AVT_vasdarnen_subjugated
+		icon = aaa
+		prerequisite = { focus = AVT_utilise_the_zebras focus = AVT_the_alicorn_blood }
+		prerequisite = { focus = AVT_a_deal_with_the_sirens }
+		x = 0
+		y = 4
+		relative_position_id = AVT_blood_legacy_challenge
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = AVT_the_world_is_ours
+		icon = aaa
+		prerequisite = { focus = AVT_arodinia_jubjugated }
+		prerequisite = { focus = AVT_traunulu_subjugated }
+		prerequisite = { focus = AVT_dominatra_subjugated }
+		prerequisite = { focus = AVT_vasdarnen_subjugated }
+		prerequisite = { focus = AVT_chivalry_forever }
+		prerequisite = { focus = AVT_the_fight_for_profit }
+		x = 2
+		y = 6
+		relative_position_id = AVT_luanservy_subjugated
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		#COMPLETED THROUGH EVENT
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+}
