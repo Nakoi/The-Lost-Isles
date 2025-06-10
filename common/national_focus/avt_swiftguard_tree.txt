@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = AVT
+            tag = ZZZ
        }
     }
 
@@ -1030,8 +1030,7 @@ focus_tree = {
 	focus = {
 		id = AVT_winter_warfare_experience
 		icon = aaa
-		prerequisite = { focus = AVT_the_war_torn_south }
-		prerequisite = { focus = AVT_barbaric_north }
+		prerequisite = { focus = AVT_the_war_torn_south focus = AVT_barbaric_north }
 		x = 0
 		y = 2
 		relative_position_id = AVT_scarlet_lotus
@@ -1159,8 +1158,7 @@ focus_tree = {
 	focus = {
 		id = AVT_open_the_vaults_of_knowledge
 		icon = aaa
-		prerequisite = { focus = AVT_decadent_coast }
-		prerequisite = { focus = AVT_technological_behemoth }
+		prerequisite = { focus = AVT_decadent_coast focus = AVT_technological_behemoth }
 		x = 0
 		y = 2
 		relative_position_id = AVT_golden_dusk_challange
@@ -1289,8 +1287,7 @@ focus_tree = {
 	focus = {
 		id = AVT_sepsta_anciet_tactics
 		icon = aaa
-		prerequisite = { focus = AVT_secure_the_iron_deposits }
-		prerequisite = { focus = AVT_through_the_jungles }
+		prerequisite = { focus = AVT_secure_the_iron_deposits focus = AVT_through_the_jungles }
 		x = 0
 		y = 2
 		relative_position_id = AVT_obsidian_throne_challenge
@@ -1414,8 +1411,7 @@ focus_tree = {
 	focus = {
 		id = AVT_a_deal_with_the_sirens
 		icon = aaa
-		prerequisite = { focus = AVT_the_home_of_the_mercenaries }
-		prerequisite = { focus = AVT_our_southern_cousins }
+		prerequisite = { focus = AVT_the_home_of_the_mercenaries focus = AVT_our_southern_cousins }
 		x = 0
 		y = 2
 		relative_position_id = AVT_blood_legacy_challenge
@@ -1490,8 +1486,7 @@ focus_tree = {
 		prerequisite = { focus = AVT_traunulu_subjugated }
 		prerequisite = { focus = AVT_dominatra_subjugated }
 		prerequisite = { focus = AVT_vasdarnen_subjugated }
-		prerequisite = { focus = AVT_chivalry_forever }
-		prerequisite = { focus = AVT_the_fight_for_profit }
+		prerequisite = { focus = AVT_chivalry_forever focus = AVT_the_fight_for_profit }
 		x = 2
 		y = 6
 		relative_position_id = AVT_luanservy_subjugated
