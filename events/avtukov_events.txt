@@ -538,9 +538,6 @@ country_event = {
 			AVT = { country_event = { id = avt_civwarevent.11 days = 3 } }
 			AVT = { country_event = { id = avt_civwarevent.12 days = 3 } }
 			AVT = { country_event = { id = avt_civwarevent.13 days = 3 } }
-			AVT = { country_event = { id = avt_civwarevent.14 days = 7 } }
-			AVT = { country_event = { id = avt_civwarevent.15 days = 11 } }
-			AVT = { country_event = { id = avt_civwarevent.16 days = 15 } }
 			AVT = { country_event = { id = avt_civwarevent.18 days = 20 } }
 			AVT = { country_event = { id = avt_civwarevent.17 days = 30 } }
 			###MUDPONE TURF
@@ -795,6 +792,7 @@ country_event = {
 	option = {
 		name = avt_civwarevent.11.a
 		custom_effect_tooltip = AVTtt_civil_war_vorony_secesh
+		AVT = { country_event = { id = avt_civwarevent.14 days = 4 } }
 		hidden_effect = {
 			AVE = {            
 				transfer_state = 378
@@ -1025,6 +1023,7 @@ country_event = {
 	option = {
 		name = avt_civwarevent.12.a
 		custom_effect_tooltip = AVTtt_civil_war_unicorn_secesh
+		AVT = { country_event = { id = avt_civwarevent.15 days = 7 } }
 		hidden_effect = {
 			AVU = {            
 				transfer_state = 349
@@ -1203,6 +1202,7 @@ country_event = {
 	option = {
 		name = avt_civwarevent.13.a
 		custom_effect_tooltip = AVTtt_civil_war_pegasus_secesh
+		AVT = { country_event = { id = avt_civwarevent.16 days = 10 } }
 		hidden_effect = {
 			AVP = {            
 				transfer_state = 396
@@ -1664,6 +1664,14 @@ country_event = {
 				target = PVA
 				type = annex_everything
 			}
+			declare_war_on = {
+				target = AVE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AVU	
+				type = annex_everything
+			}
         }
 	}
 }
@@ -1687,6 +1695,8 @@ country_event = {
 				autonomy_state = autonomy_free
 			}
 		}
+		AVE = { create_faction = "Vorony League" }
+		AVE = { add_to_faction = AVU }
 		custom_effect_tooltip = AVTtt_civil_war_begins_in_a_week
 		hidden_effect = {
 			AVT = { add_ideas = AVT_idea_civil_war_tsar complete_national_focus = AVT_tsar_civwar_focus }
@@ -1711,8 +1721,6 @@ country_event = {
 					type = cannon_equipment
 					amount = 250
 				}
-				give_military_access = AVU
-				give_military_access = AVP
 			}
 			AVU = { load_oob = "AVT_CIVILWARTROOPS_AVU" }
 			AVU = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel complete_national_focus = AVT_mage_civwar_focus }
@@ -1729,8 +1737,6 @@ country_event = {
 					type = cannon_equipment
 					amount = 250
 				}
-				give_military_access = AVE
-				give_military_access = AVP
 			}
 			AVP = { load_oob = "AVT_CIVILWARTROOPS_AVP" }
 			AVP = { add_manpower = 100000 add_command_power = 100 add_ideas = AVT_idea_civil_war_rebel complete_national_focus = AVT_swiftguard_civwar_focus }
@@ -1751,8 +1757,6 @@ country_event = {
 					type = cannon_equipment
 					amount = 250
 				}
-				give_military_access = AVU
-				give_military_access = AVE
 			}
 		}
 	}
@@ -1807,97 +1811,6 @@ country_event = {
 }
 
 country_event = {
-	id = avt_civwarevent.20
-	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.20.a}
-	title = avt_civwarevent.20.t
-	desc = avt_civwarevent.20.d
-	picture = GFX_news_event_chinese_soldiers_march
-	fire_only_once = yes
-	
-	trigger = {
-		OR = {
-			tag = AVE
-			tag = AVU
-			tag = AVP
-		}
-		AVE = { 
-			has_country_flag = avt_civil_war_flag
-		}
-		AVU = { 
-			has_country_flag = avt_civil_war_flag
-		}
-		AVP = { 
-			has_country_flag = avt_civil_war_flag
-		}
-		NOT = { country_exists = AVT }
-	}
-	
-	option = {
-		name = avt_civwarevent.20.a
-		AVE = {
-			declare_war_on = {
-				target = AVU
-				type = annex_everything
-			}
-			diplomatic_relation = {
-				target = AVU
-				relation = military_access
-				active = no
-			}
-			declare_war_on = {
-				target = AVP
-				type = annex_everything
-			}
-			diplomatic_relation = {
-				target = AVP
-				relation = military_access
-				active = no
-			}
-        }
-		AVU = {
-			declare_war_on = {
-				target = AVE
-				type = annex_everything
-			}
-			diplomatic_relation = {
-				target = AVE
-				relation = military_access
-				active = no
-			}
-			declare_war_on = {
-				target = AVP
-				type = annex_everything
-			}
-			diplomatic_relation = {
-				target = AVP
-				relation = military_access
-				active = no
-			}
-        }
-		AVP = {
-			declare_war_on = {
-				target = AVE
-				type = annex_everything
-			}
-			diplomatic_relation = {
-				target = AVE
-				relation = military_access
-				active = no
-			}
-			declare_war_on = {
-				target = AVU
-				type = annex_everything
-			}
-			diplomatic_relation = {
-				target = AVU
-				relation = military_access
-				active = no
-			}
-		}
-	}
-}
-
-country_event = {
 	id = avt_civwarevent.21
 	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_civwarevent.21.a}
 	title = avt_civwarevent.21.t
@@ -1908,15 +1821,19 @@ country_event = {
 	trigger = {
 		tag = AVE
 		NOT = {
-			country_exists = AVU
 			country_exists = AVP
 			country_exists = AVT
 		}
+		AVU = is_ai = yes
 	}
 	
 	option = {
 		name = avt_civwarevent.21.a
 		load_focus_tree = generic_focus
+		annex_country = {
+			target = AVU
+			transfer_troops = yes
+		}
 		set_autonomy = {
 			target = OSK
 			autonomous_state = autonomy_puppet
@@ -1936,15 +1853,19 @@ country_event = {
 	trigger = {
 		tag = AVU
 		NOT = {
-			country_exists = AVE
 			country_exists = AVP
 			country_exists = AVT
 		}
+		AVE = is_ai = yes
 	}
 	
 	option = {
 		name = avt_civwarevent.22.a
 		load_focus_tree = generic_focus
+		annex_country = {
+			target = AVE
+			transfer_troops = yes
+		}
 		set_autonomy = {
 			target = OSK
 			autonomous_state = autonomy_puppet
@@ -1952,6 +1873,7 @@ country_event = {
 		}
 	}
 }
+
 
 country_event = {
 	id = avt_civwarevent.23
@@ -1965,7 +1887,6 @@ country_event = {
 		tag = AVP
 		NOT = {
 			country_exists = AVE
-			country_exists = AVU
 			country_exists = AVT
 		}
 	}
