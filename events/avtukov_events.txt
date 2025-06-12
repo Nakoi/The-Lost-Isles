@@ -467,12 +467,12 @@ country_event = {
 	
 	option = {
 		name = avt_event.14.a
-		kill_country_leader = yes
 		add_political_power = -100
 		add_popularity = {
 			ideology = ideology_imperialism
 			popularity = -0.1
 		}
+		AVT = { country_event = { id = avt_event.16 days = 3 } }
 	}
 }
 
@@ -489,6 +489,22 @@ country_event = {
 		name = avt_event.15.a
 		add_stability = -0.2
 		add_political_power = -100
+		AVT = { country_event = { id = avt_event.16 days = 3 } }
+	}
+}
+
+country_event = {
+	id = avt_event.16
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.16"}
+	title = avt_event.16.t
+	desc = avt_event.16.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.16.a
+		AVT = { country_event = { id = avt_civwarevent.0 days = 3 } }
 	}
 }
 
@@ -777,6 +793,7 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.1.a
+		AVT = { country_event = { id = avt_tsarevent.0 days = 4 } }
 	}
 }
 
@@ -1758,6 +1775,30 @@ country_event = {
 					amount = 250
 				}
 			}
+			AVE = {
+				IF = { 
+					limit = {
+						ROOT = { has_country_flag = avt_tax_evaders_flag }
+					}
+					change_tag_from = ROOT
+				}
+			}
+			AVU = {
+				IF = { 
+					limit = {
+						ROOT = { has_country_flag = avt_car_bombers_flag }
+					}
+					change_tag_from = ROOT
+				}
+			}
+			AVP = {
+				IF = { 
+					limit = {
+						ROOT = { has_country_flag = avt_arms_trafficking_flag }
+					}
+					change_tag_from = ROOT
+				}
+			}
 		}
 	}
 }
@@ -1824,7 +1865,7 @@ country_event = {
 			country_exists = AVP
 			country_exists = AVT
 		}
-		AVU = is_ai = yes
+		AVU = { is_ai = yes }
 	}
 	
 	option = {
@@ -1856,7 +1897,7 @@ country_event = {
 			country_exists = AVP
 			country_exists = AVT
 		}
-		AVE = is_ai = yes
+		AVE = { is_ai = yes }
 	}
 	
 	option = {
