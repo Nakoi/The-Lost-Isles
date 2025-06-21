@@ -1,0 +1,16 @@
+characters={
+	
+	GLO_queen ={
+        name= GLO_queen_name
+        portraits={
+            civilian={
+                large="GFX/leaders/GLO/GLO_queen.tga"
+            }
+        }
+        country_leader={
+            ideology=imperialism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}

@@ -1,0 +1,16 @@
+characters={
+	
+	ZHE_queen ={
+        name= ZHE_queen_name
+        portraits={
+            civilian={
+                large="GFX/leaders/ZHE/ZHE_queen.tga"
+            }
+        }
+        country_leader={
+            ideology=militarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}

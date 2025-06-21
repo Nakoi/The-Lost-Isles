@@ -1,0 +1,16 @@
+characters={
+	
+	YAN_queen ={
+        name= YAN_queen_name
+        portraits={
+            civilian={
+                large="GFX/leaders/YAN/YAN_queen.tga"
+            }
+        }
+        country_leader={
+            ideology=solidarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}

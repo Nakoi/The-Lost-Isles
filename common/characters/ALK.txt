@@ -1,0 +1,16 @@
+characters={
+	
+	ALK_queen ={
+        name= ALK_queen_name
+        portraits={
+            civilian={
+                large="GFX/leaders/ALK/ALK_queen.tga"
+            }
+        }
+        country_leader={
+            ideology=militarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}

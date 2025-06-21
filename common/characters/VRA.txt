@@ -1,0 +1,16 @@
+characters={
+	
+	VRA_queen ={
+        name= VRA_queen_name
+        portraits={
+            civilian={
+                large="GFX/leaders/VRA/VRA_queen.tga"
+            }
+        }
+        country_leader={
+            ideology=militarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}
