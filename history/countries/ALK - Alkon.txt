@@ -14,14 +14,14 @@ air_experience = 30
 
 set_oob = "ALK_ARMY"
 
+recruit_character = ALK_queen
+
 set_politics = {
 	ruling_party = ideology_militarism
 }
 
 set_popularities = {
 	ideology_militarism = 100
-
-
 }
 
 set_convoys = 0
