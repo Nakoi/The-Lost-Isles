@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = ZZZ
+            tag = AVT
        }
     }
 
@@ -500,9 +500,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_country_flag = avt_pacifist_protests_flag
+		}
+		
 		#COMPLETED THROUGH EVENT
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
 
@@ -514,13 +518,21 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = AVT_the_pacifist_problem
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_war_support = 0.15
+			add_popularity = {
+				ideology = ideology_militarism
+				popularity = 0.05
+			}
+			swap_ideas = {
+				add_idea = AVT_pacifist_protests_suppressed_idea
+				remove_idea = AVT_pacifist_protests_widespread_idea
+			}
 		}
 	}
 
@@ -532,13 +544,22 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = AVT_the_pacifist_problem
-		cost = 0.2
+		cost = 3
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			has_political_power > 99
+			has_stability > 0.74
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = -100
+			add_popularity = {
+				ideology = ideology_militarism
+				popularity = 0.05
+			}
 		}
 	}
 
@@ -550,13 +571,18 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = AVT_the_pacifist_problem
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_manpower = -100
+			add_popularity = {
+				ideology = ideology_solidarism
+				popularity = 0.1
+			}
+			remove_ideas = AVT_pacifist_protests_suppressed_idea
 		}
 	}
 
