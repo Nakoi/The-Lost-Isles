@@ -671,6 +671,7 @@
 
 ###IDEA LOCALISATION###
  AVT_navy_temp_range_increase:0 "Crossing the Pond"
+ AVT_civil_war_recovery:0 "Civil War Recovery"
  
  AVT_designer_gracemare_shipping:0 "Gracemarean Shipping Company - Naval Armor Design"
  AVT_designer_bacsg:0 "BACSG - High Sea Fleet Design"
@@ -765,6 +766,9 @@
  AVT_less_industry_retard:0 "Decreased Industrial Production"
  AVT_less_smart_people_retard:0 "Braindrain"
  AVT_less_soldiers_retard:0 "Chaos in the Army"
+ 
+ AVT_pacifist_protests_widespread_idea:0 "Widespread Pacifist Protests"
+ AVT_pacifist_protests_suppressed_idea:0 "Suppressed Pacifist Protests"
  
  AVT_national_pony_army_idea_01:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
@@ -1169,6 +1173,14 @@
  avt_elusiveevent.27.d:0 "Synopsis: Elusive visits the mausoleum of her family, and thinks about her reign so far, what she accomplished, and wonders if her ancestors like Dew Lily would be proud of her."
  avt_elusiveevent.27.a:0 "No regrets."
  
+ avt_swiftguardevent.1.t:0 "Violet's Coronation"
+ avt_swiftguardevent.1.d:0 "Synopsis: Violet Rain’s coronation ceremony. She makes a speech about the value of strength, conflict, etc. The public is not too pleased"
+ avt_swiftguardevent.1.a:0 "Long live the Tsaritsa!"
+ 
+ avt_swiftguardevent.2.t:0 "Pacifist Protests!"
+ avt_swiftguardevent.2.d:0 "Synopsis: Ponies are naturally peaceful creatures, and a movement was formed to resist the government’s warmongering policies"
+ avt_swiftguardevent.2.a:0 "Damn it all!"
+ 
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukia, Grand Duchess of Oskil ascends to the throne!§!"
  
@@ -1241,3 +1253,5 @@
  avt_elusive_palace_2_completed_flag:0 "Material Acquisition Complete"
  avt_elusive_palace_3_completed_flag:0 "Palace Foundations Complete"
  avt_elusive_palace_4_completed_flag:0 "Palace Interior Complete"
+ 
+ avt_pacifist_protests_flag:0 "Has Active Pacifist Protests"
