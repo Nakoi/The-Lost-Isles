@@ -1934,12 +1934,17 @@ country_event = {
 	
 	option = {
 		name = avt_civwarevent.23.a
-		load_focus_tree = generic_focus
+		load_focus_tree = avtukov_swiftguard_focus
 		set_autonomy = {
 			target = OSK
 			autonomous_state = autonomy_puppet
 			freedom_level = 0.35
 		}
+		complete_national_focus = AVT_worldwide_arena
+		add_ideas = AVT_idea_Patriotism
+		add_ideas = AVT_idea_stagnant_society
+		add_ideas = AVT_idea_tribe_mistrust
+		add_timed_idea = { idea = AVT_civil_war_recovery days = 500 }
 	}
 }
 
@@ -4298,5 +4303,42 @@ country_event = {
 	option = {
 		name = avt_elusiveevent.27.a
 		custom_effect_tooltip = gentext_thank_you
+	}
+}
+
+###SWIFTGUARD PATH###
+
+country_event = {
+	id = avt_swiftguardevent.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.1"}
+	title = avt_swiftguardevent.1.t
+	desc = avt_swiftguardevent.1.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.1.a
+		country_event = { id = avt_swiftguardevent.2 days = 300 }
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.2"}
+	title = avt_swiftguardevent.2.t
+	desc = avt_swiftguardevent.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.2.a
+		complete_national_focus = AVT_the_pacifist_problem
+		add_ideas = AVT_pacifist_protests_widespread_idea
+		add_popularity = {
+				ideology = ideology_solidarism
+				popularity = 0.15
+			}
 	}
 }
