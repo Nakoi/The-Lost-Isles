@@ -267,13 +267,33 @@ focus_tree = {
 		x = -7
 		y = 2
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			431 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			450 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry_civilizedtools
+			}
 		}
 	}
 
@@ -285,13 +305,41 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			382 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			455 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			451 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_civilizedeq
+			}
 		}
 	}
 
@@ -302,13 +350,18 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			remove_ideas = AVT_idea_stagnant_society
+			add_manpower = -5000
+			add_popularity = {
+				ideology = ideology_militarism
+				popularity = 0.1
+			}
 		}
 	}
 
@@ -320,13 +373,19 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		bypass = {
+			NOT = {
+				has_idea = AVT_civil_war_recovery
+			}
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			remove_ideas = AVT_civil_war_recovery
 		}
 	}
 
@@ -337,13 +396,21 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			434 = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_ideas = AVT_focused_war_production_idea
 		}
 	}
 
@@ -355,13 +422,13 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_research_slot = 1
 		}
 	}
 
@@ -373,13 +440,18 @@ focus_tree = {
 		x = -2
 		y = 3
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = science_armyorg
+			}
+			add_ideas = AVT_conflict_brings_innovation
 		}
 	}
 
@@ -390,13 +462,43 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			485 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			486 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = fuel_silo
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				bonus = 0.33
+				uses = 3
+				category = industry_civilizedagri
+			}
 		}
 	}
 
@@ -407,13 +509,21 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			450 = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_ideas = AVT_logistical_superiority_idea
 		}
 	}
 
@@ -424,13 +534,13 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_ideas = AVT_plunder_economics_idea
 		}
 	}
 
@@ -443,14 +553,67 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
-		completion_reward = {
-			add_political_power = 50
+		
+		available = {
+			has_political_power > 299
 		}
+		
+		completion_reward = {
+			custom_effect_tooltip = gentext_civilised_industrial_advancement
+			add_research_slot = 1
+			add_political_power = -300
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = tli_infantry
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = category_support_battalions
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = artillery
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = category_air
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = naval_equipment
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = electronics
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = racial
+			}
+			hidden_effect = { set_technology = { tech_industrialized = 1 } }
+			hidden_effect = {
+				swap_ideas = {
+					add_idea = genidea_industrial_dev
+					remove_idea = genidea_civilised_dev
+				}
+			}
+		}	
 	}
 
 	focus = {
@@ -461,13 +624,13 @@ focus_tree = {
 		x = -1
 		y = 5
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_ideas = AVT_strong_civilian_sector
 		}
 	}
 
@@ -479,13 +642,13 @@ focus_tree = {
 		x = 1
 		y = 5
 		relative_position_id = AVT_a_new_war_economy
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_ideas = AVT_all_for_the_front_idea
 		}
 	}
 
@@ -812,7 +975,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			has_fuel > 60000
+		}
+		
 		completion_reward = {
 			add_political_power = 50
 		}
