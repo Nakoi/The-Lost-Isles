@@ -1154,6 +1154,81 @@ ideas = {
 			}
 		}
 		
+		AVT_focused_war_production_idea = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_expected_value = 0.10
+				production_factory_efficiency_gain_factor = 0.25
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
+			}
+		}
+		
+		AVT_logistical_superiority_idea = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				no_supply_grace = 72
+				production_speed_supply_node_factor = 0.5
+			}
+		}
+		
+		AVT_conflict_brings_innovation = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_expected_value = 0.05
+				research_speed_factor = 0.15
+			}
+		}
+		
+		AVT_plunder_economics_idea = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_expected_value = -0.1
+				local_resources_factor = 0.15
+			}
+		}
+		
+		AVT_strong_civilian_sector = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_buildings_factor = 0.3
+				local_resources_factor = 0.3
+			}
+		}
+		
+		AVT_all_for_the_front_idea = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_factory_max_efficiency_factor = 0.3
+				line_change_production_efficiency_factor = 0.3
+				conversion_cost_mil_to_civ_factor = -2
+			}
+		}
+		
 ###ARMY TREE SHIT###
 
 		AVT_national_pony_army_idea_01 = {
