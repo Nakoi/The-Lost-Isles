@@ -292,6 +292,36 @@ characters={
         }
     }
 	
+	AVT_gen_sundance = { #empty character to become general via focus
+        name = AVT_gen_aud_luludottir_name
+		
+        portraits = {
+            army = {
+                large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+            }
+        }
+    }
+	
+	AVT_gen_cherry_spice = { #empty character to become general via focus
+        name = AVT_gen_aud_luludottir_name
+		
+        portraits = {
+            army = {
+                large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+            }
+        }
+    }
+	
+	AVT_gen_thunderbolt = { #empty character to become general via focus
+        name = AVT_gen_aud_luludottir_name
+		
+        portraits = {
+            army = {
+                large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+            }
+        }
+    }
+	
 	AVT_adv_cloud_bliss = {
         name = AVT_adv_cloud_bliss_name
 		gender = female
