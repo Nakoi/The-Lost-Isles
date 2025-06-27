@@ -36,13 +36,33 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.1 days = 1 }
+			add_popularity = {
+				ideology = ideology_solidarism
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = ideology_imperialism
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = ideology_visionarism
+				popularity = 0.12
+			}
+			add_popularity = {
+				ideology = ideology_isolationism
+				popularity = 0.13
+			}
+			add_popularity = {
+				ideology = ideology_continuism
+				popularity = 0.11
+			}
 		}
 	}
 
@@ -757,13 +777,17 @@ focus_tree = {
 		x = 7
 		y = 2
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_tech_bonus = {
+				bonus = 0.33
+				uses = 3
+				category = racial
+			}
 		}
 	}
 
@@ -776,13 +800,16 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = AVT_towards_a_chivalrous_society
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			swap_ideas = {
+				add_idea = AVT_idea_tribe_mistrust_swiftguard
+				remove_idea = AVT_idea_tribe_mistrust
+			}
 		}
 	}
 
@@ -794,13 +821,13 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = AVT_towards_a_chivalrous_society
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			remove_ideas = AVT_idea_tribe_mistrust
 		}
 	}
 
@@ -812,13 +839,14 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = AVT_towards_a_chivalrous_society
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_manpower = 50000
+			add_ideas = AVT_mass_penal_service
 		}
 	}
 
@@ -829,13 +857,16 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = AVT_towards_a_chivalrous_society
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			swap_ideas = {
+				add_idea = AVT_idea_tribe_mistrust_swiftguard_2
+				remove_idea = AVT_idea_tribe_mistrust_swiftguard
+			}
 		}
 	}
 
@@ -847,13 +878,39 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id = AVT_towards_a_chivalrous_society
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_corps_commander_role = {
+				character = AVT_gen_sundance
+				traits = {}
+				skill = 1
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			add_corps_commander_role = {
+				character = AVT_gen_cherry_spice
+				traits = {}
+				skill = 2
+				attack_skill = 1
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 2
+			}
+			add_corps_commander_role = {
+				character = AVT_gen_thunderbolt
+				traits = {}
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 2
+				logistics_skill = 3
+			}
 		}
 	}
 
@@ -865,13 +922,13 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = AVT_towards_a_chivalrous_society
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.3 days = 3 }
 		}
 	}
 
@@ -882,13 +939,13 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = AVT_towards_a_chivalrous_society
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_ideas = AVT_winged_patrols_idea
 		}
 	}
 
@@ -900,13 +957,18 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = AVT_towards_a_chivalrous_society
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_stability = -0.15
+			add_popularity = {
+				ideology = ideology_militarism
+				popularity = -0.15
+			}
+			add_ideas = AVT_firstborn_tithe_idea
 		}
 	}
 
