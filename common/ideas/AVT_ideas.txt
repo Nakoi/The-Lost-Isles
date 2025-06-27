@@ -160,6 +160,35 @@ ideas = {
                 conscription_factor = -0.1
 			}
 		}
+		
+		AVT_idea_tribe_mistrust_swiftguard = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_expected_value = 0.05
+                conscription_factor = -0.3
+				army_attack_factor = 0.15
+				industrial_capacity_factory = -0.2
+                industrial_capacity_dockyard = -0.2
+			}
+		}
+		
+		AVT_idea_tribe_mistrust_swiftguard_2 = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+                conscription_factor = -0.3
+				army_attack_factor = 0.15
+				industrial_capacity_factory = -0.05
+                industrial_capacity_dockyard = -0.05
+			}
+		}
 
 ###EARLYGAME+TSAR###
 		
@@ -1226,6 +1255,44 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.3
 				line_change_production_efficiency_factor = 0.3
 				conversion_cost_mil_to_civ_factor = -2
+			}
+		}
+		
+		AVT_mass_penal_service = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				weekly_manpower = 750
+				army_org_factor = -0.1
+				training_time_factor = -0.1
+			}
+		}
+		
+		AVT_winged_patrols_idea = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				required_garrison_factor = -0.5
+				resistance_damage_to_garrison = -0.25
+			}
+		}
+		
+		AVT_firstborn_tithe_idea = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				weekly_manpower = 1000
+				stability_weekly = -0.002
+				monthly_population = -0.6
 			}
 		}
 		
