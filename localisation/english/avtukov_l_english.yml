@@ -690,6 +690,8 @@
  AVT_idea_stagnant_society_elusive_1:0 "Stable, Not Stagnant"
  AVT_idea_tribe_mistrust:0 "Tribe Mistrust"
  AVT_idea_tribe_mistrust_elusive_1:0 "Aristocratic Union"
+ AVT_idea_tribe_mistrust_swiftguard:0 "Pegasus Supremacy"
+ AVT_idea_tribe_mistrust_swiftguard_2:0 "Pegasus Supremacy"
  
  AVT_idea_civil_war_tsar:0 "Chaos in the Capital"
  AVT_idea_civil_war_tsar_2:0 "Crush the Rebels!"
@@ -775,6 +777,7 @@
  AVT_plunder_economics_idea:0 "Plunder Economics"
  AVT_strong_civilian_sector:0 "Strong Civilian Sector"
  AVT_all_for_the_front_idea:0 "All for the Front"
+ AVT_winged_patrols_idea:0 "Winged Patrols"
  
  AVT_national_pony_army_idea_01:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
@@ -1186,6 +1189,24 @@
  avt_swiftguardevent.2.t:0 "Pacifist Protests!"
  avt_swiftguardevent.2.d:0 "Synopsis: Ponies are naturally peaceful creatures, and a movement was formed to resist the government’s warmongering policies"
  avt_swiftguardevent.2.a:0 "Damn it all!"
+ 
+ avt_swiftguardevent.3.t:0 "Avtukov Dynastic Legacy - Part 1"
+ avt_swiftguardevent.3.d:0 "Synopsis: Violet rain and the war council decide what to do about the previous tsar’s family, considering the fact that they tried to limit the role of the Swiftguards, but also how they protected Avtukia and led them to victory on many occasions. First they discuss how to portray them in propaganda."
+ avt_swiftguardevent.3.a:0 "Their Tyranny must be brought to light!"
+ avt_swiftguardevent.3.b:0 "Nothing needs to be done"
+ avt_swiftguardevent.3.c:0 "Their victories will be acknowledged."
+ 
+ avt_swiftguardevent.4.t:0 "Avtukov Dynastic Legacy - Part 2"
+ avt_swiftguardevent.4.d:0 "Synopsis: The discussion continues into dealing with Elusive Gem, the heir to the Avtukov dynasty. Some pegasi supremacists say she should be exiled with the rest of the family, while the more pragmatic ones suggest marrying her to a member of the Lieven dynasty."
+ avt_swiftguardevent.4.a:0 "Exile them to Equestria"
+ avt_swiftguardevent.4.b:0 "A dynastic union will do"
+ 
+ avt_swiftguardevent.5.t:0 "Avtukov Dynastic Legacy - Finale"
+ avt_swiftguardevent.5.d:0 "Synopsis: Finally, the Swiftguards discuss the capital. Some argue that Morechny, the home of the pegasi skirmishers should be the capital, while some want to stay with Tsarigrad for practical reasons.Some propose Ligorsk, as it is the old headquarters of the Pegasi from before the wars with the deer."
+ avt_swiftguardevent.5.a:0 "It’s time to honor our glorious past"
+ avt_swiftguardevent.5.b:0 "Our true home is Morechny"
+ avt_swiftguardevent.5.c:0 "Tsarigrad is the largest city"
+ 
  
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukia, Grand Duchess of Oskil ascends to the throne!§!"
