@@ -2,6 +2,7 @@ add_namespace = avt_event
 add_namespace = avt_civwarevent
 add_namespace = avt_tsarevent
 add_namespace = avt_elusiveevent
+add_namespace = avt_swiftguardevent
 
 ###EARLY GAME TSAR###
 
@@ -4337,8 +4338,91 @@ country_event = {
 		complete_national_focus = AVT_the_pacifist_problem
 		add_ideas = AVT_pacifist_protests_widespread_idea
 		add_popularity = {
-				ideology = ideology_solidarism
-				popularity = 0.15
-			}
+			ideology = ideology_solidarism
+			popularity = 0.15
+		}
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.3"}
+	title = avt_swiftguardevent.3.t
+	desc = avt_swiftguardevent.3.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.3.a
+		add_popularity = {
+			ideology = ideology_imperialism
+			popularity = -0.1
+		}
+		add_political_power = -50
+		add_stability = 0.05
+		country_event = { id = avt_swiftguardevent.4 days = 3 }
+	}
+	option = {
+		name = avt_swiftguardevent.3.b
+		country_event = { id = avt_swiftguardevent.4 days = 3 }
+	}
+	option = {
+		name = avt_swiftguardevent.3.c
+		add_popularity = {
+			ideology = ideology_imperialism
+			popularity = 0.1
+		}
+		add_war_support = 0.1
+		country_event = { id = avt_swiftguardevent.4 days = 3 }
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.4
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.4"}
+	title = avt_swiftguardevent.4.t
+	desc = avt_swiftguardevent.4.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.4.a
+		add_manpower = -82
+		add_stability = 0.05
+		country_event = { id = avt_swiftguardevent.5 days = 3 }
+	}
+	option = {
+		name = avt_swiftguardevent.4.b
+		add_political_power = 50
+		add_popularity = {
+			ideology = ideology_imperialism
+			popularity = 0.05
+		}
+		country_event = { id = avt_swiftguardevent.5 days = 3 }
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.5
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.5"}
+	title = avt_swiftguardevent.5.t
+	desc = avt_swiftguardevent.5.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.5.a
+		set_capital = { state = 442 }
+	}
+	option = {
+		name = avt_swiftguardevent.5.b
+		add_political_power = 50
+	}
+	option = {
+		name = avt_swiftguardevent.5.c
+		set_capital = { state = 450 }
 	}
 }
