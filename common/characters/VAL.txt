@@ -1,0 +1,16 @@
+characters={
+	
+	VAL_leader ={
+        name= VAL_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/VAL/VAL_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=visionarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}

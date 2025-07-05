@@ -1,0 +1,16 @@
+characters={
+	
+	KER_leader ={
+        name= KER_leader_name
+        portraits={
+            civilian={
+                large="GFX/leaders/KER/KER_leader.tga"
+            }
+        }
+        country_leader={
+            ideology=continuism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+}
