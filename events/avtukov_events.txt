@@ -4426,3 +4426,135 @@ country_event = {
 		set_capital = { state = 450 }
 	}
 }
+
+country_event = {
+	id = avt_swiftguardevent.6
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.6"}
+	title = avt_swiftguardevent.6.t
+	desc = avt_swiftguardevent.6.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.6.a
+		country_event = { id = avt_swiftguardevent.7 days = 3 }
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.7
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.7"}
+	title = avt_swiftguardevent.7.t
+	desc = avt_swiftguardevent.7.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.7.a
+		country_event = { id = avt_swiftguardevent.8 days = 3 }
+	}
+	
+	option = {
+		name = avt_swiftguardevent.7.b
+		country_event = { id = avt_swiftguardevent.8 days = 3 }
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.8
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.8"}
+	title = avt_swiftguardevent.8.t
+	desc = avt_swiftguardevent.8.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.8.a
+		country_event = { id = avt_swiftguardevent.9 days = 3 }
+	}
+	
+	option = {
+		name = avt_swiftguardevent.8.b
+		country_event = { id = avt_swiftguardevent.9 days = 3 }
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.9
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.9"}
+	title = avt_swiftguardevent.9.t
+	desc = avt_swiftguardevent.9.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.9.a
+		country_event = { id = avt_swiftguardevent.10 days = 3 }
+	}
+	
+	option = {
+		name = avt_swiftguardevent.9.b
+		country_event = { id = avt_swiftguardevent.10 days = 3 }
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.10
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.10"}
+	title = avt_swiftguardevent.10.t
+	desc = avt_swiftguardevent.10.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.10.a
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.101
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.101"}
+	title = avt_swiftguardevent.101.t
+	desc = avt_swiftguardevent.101.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.101.a
+	}
+	
+	option = {
+		name = avt_swiftguardevent.101.b
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.100
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.100"}
+	title = avt_swiftguardevent.100.t
+	desc = avt_swiftguardevent.100.d
+	picture = GFX_news_event_chinese_soldiers_march
+	major = no
+	
+	trigger = {
+		NOT = { tag = AVT }
+		AVT = {
+			has_completed_focus = AVT_the_gracemare_convetion
+		}
+	}
+	
+	option = {
+		name = avt_swiftguardevent.100.a
+		country_event = { id = avt_swiftguardevent.101 days = 30 }
+	}
+	
+	option = {
+		name = avt_swiftguardevent.100.b
+	}
+}
