@@ -979,13 +979,13 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = AVT_towards_a_chivalrous_society
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			AVT = { country_event = { id = avt_swiftguardevent.6 days = 3 } } 
 		}
 	}
 
