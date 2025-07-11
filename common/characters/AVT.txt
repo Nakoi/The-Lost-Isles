@@ -293,7 +293,7 @@ characters={
     }
 	
 	AVT_gen_sundance = { #empty character to become general via focus
-        name = AVT_gen_aud_luludottir_name
+        name = AVT_gen_sundance_name
 		
         portraits = {
             army = {
@@ -303,7 +303,7 @@ characters={
     }
 	
 	AVT_gen_cherry_spice = { #empty character to become general via focus
-        name = AVT_gen_aud_luludottir_name
+        name = AVT_gen_cherry_spice_name
 		
         portraits = {
             army = {
@@ -313,7 +313,7 @@ characters={
     }
 	
 	AVT_gen_thunderbolt = { #empty character to become general via focus
-        name = AVT_gen_aud_luludottir_name
+        name = AVT_gen_thunderbolt_name
 		
         portraits = {
             army = {
