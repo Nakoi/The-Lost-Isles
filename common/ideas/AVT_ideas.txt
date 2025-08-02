@@ -1303,7 +1303,8 @@ ideas = {
 			}
 				
 			modifier = {
-				
+				political_power_gain = 0.05
+				experience_loss_factor = -0.2
 			}
 		}
 		
@@ -1314,7 +1315,9 @@ ideas = {
 			}
 				
 			modifier = {
-				
+				political_power_gain = 0.05
+				army_attack_factor = -0.1
+				attrition = -0.1
 			}
 		}
 		
@@ -1325,7 +1328,9 @@ ideas = {
 			}
 				
 			modifier = {
-				
+				political_power_gain = 0.05
+				industry_air_damage_factor = -0.2
+				industry_repair_factor = 0.25
 			}
 		}
 		
