@@ -1296,6 +1296,33 @@ ideas = {
 			}
 		}
 		
+		AVT_honor_within_reason_idea = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.1
+				army_defence_factor = 0.1
+				attrition = -0.1
+			}
+		}
+		
+		AVT_honor_or_death_idea = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				army_attack_factor = 0.1
+				army_speed_factor = 0.1
+				org_loss_when_moving = -0.1
+				experience_loss_factor = 0.1
+			}
+		}
+		
 		AVT_gracemare_convention_1 = {
 			removal_cost = -1
 			available = {
@@ -1331,6 +1358,31 @@ ideas = {
 				political_power_gain = 0.05
 				industry_air_damage_factor = -0.2
 				industry_repair_factor = 0.25
+			}
+		}
+		
+		AVT_oskil_militarisation = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.2
+			}
+		}
+		
+		AVT_great_war_preparations = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_bunker_factor = 0.3
+				production_speed_supply_node_factor = 0.3
+				production_speed_air_base_factor = 0.5
 			}
 		}
 		
