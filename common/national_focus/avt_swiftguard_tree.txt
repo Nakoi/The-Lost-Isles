@@ -73,13 +73,23 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = 100
+			add_field_marshal_role = {
+				character = AVT_gen_sundance
+				traits = {}
+				skill = 3
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 4
+				logistics_skill = 1
+			}
+			country_event = { id = avt_swiftguardevent.11 days = 1 }
 		}
 	}
 
@@ -90,13 +100,27 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 2
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			has_army_manpower ={
+				size > 300000
+			}
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			declare_war_on = {
+				target = GAL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SCO
+				type = annex_everything
+			}
+			country_event = { id = avt_swiftguardevent.12 days = 1 }
 		}
 	}
 
@@ -108,13 +132,13 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_timed_idea = { idea = AVT_great_war_preparations days = 180 }
 		}
 	}
 
@@ -125,13 +149,43 @@ focus_tree = {
 		x = 2
 		y = 4
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			347 = { is_controlled_by = AVT }
+			345 = { is_controlled_by = AVT }
+			341 = { is_controlled_by = AVT }
+			333 = { is_controlled_by = AVT }
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			347 = {
+				add_resource = {
+					type = iron
+					amount = 30
+				}
+			}
+			345 = {
+				add_resource = {
+					type = crystals
+					amount = 20
+				}
+			}
+			341 = {
+				add_resource = {
+					type = crystals
+					amount = 24
+				}
+			}
+			333 = {
+				add_resource = {
+					type = coal
+					amount = 20
+				}
+			}
 		}
 	}
 
@@ -142,13 +196,17 @@ focus_tree = {
 		x = -2
 		y = 4
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			OSK = { is_puppet_of = AVT }
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			OSK = { add_ideas = AVT_oskil_militarisation }
 		}
 	}
 
@@ -159,13 +217,298 @@ focus_tree = {
 		x = 0
 		y = 5
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			NOT = { has_idea = AVT_great_war_preparations }
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			custom_effect_tooltip = AVTtt_kill_kirins
+		
+			hidden_effect = {
+				ESU = {
+					limit = {
+						country_exists = ESU
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = ESU
+							type = annex_everything
+						}
+					}
+				}
+
+				AZE = {
+					limit = {
+						country_exists = AZE
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = AZE
+							type = annex_everything
+						}
+					}
+				}
+
+				HRI = {
+					limit = {
+						country_exists = HRI
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = HRI
+							type = annex_everything
+						}
+					}
+				}
+
+				ONK = {
+					limit = {
+						country_exists = ONK
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = ONK
+							type = annex_everything
+						}
+					}
+				}
+
+				WAO = {
+					limit = {
+						country_exists = WAO
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = WAO
+							type = annex_everything
+						}
+					}
+				}
+
+				AIN = {
+					limit = {
+						country_exists = AIN
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = AIN
+							type = annex_everything
+						}
+					}
+				}
+
+				SEN = {
+					limit = {
+						country_exists = SEN
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = SEN
+							type = annex_everything
+						}
+					}
+				}
+
+				FRE = {
+					limit = {
+						country_exists = FRE
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = FRE
+							type = annex_everything
+						}
+					}
+				}
+
+				SUA = {
+					limit = {
+						country_exists = SUA
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = SUA
+							type = annex_everything
+						}
+					}
+				}
+
+				ASH = {
+					limit = {
+						country_exists = ASH
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = ASH
+							type = annex_everything
+						}
+					}
+				}
+
+				RIN = {
+					limit = {
+						country_exists = RIN
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = RIN
+							type = annex_everything
+						}
+					}
+				}
+
+				UNU = {
+					limit = {
+						country_exists = UNU
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = UNU
+							type = annex_everything
+						}
+					}
+				}
+				WEI = {
+					limit = {
+						country_exists = WEI
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = WEI
+							type = annex_everything
+						}
+					}
+				}
+
+				KAE = {
+					limit = {
+						country_exists = KAE
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = KAE
+							type = annex_everything
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -177,13 +520,156 @@ focus_tree = {
 		x = 0
 		y = 6
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			AVP = {
+				declare_war_on  = {
+					target = TYK
+					type = annex_everything
+				}
+			}
+			custom_effect_tooltip = AVTtt_kill_griffons	
+		
+			hidden_effect = {
+				SUN = {
+					limit = {
+						country_exists = SUN
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = SUN
+							type = annex_everything
+						}
+					}
+				}
+				CRU = {
+					limit = {
+						country_exists = CRU
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = CRU
+							type = annex_everything
+						}
+					}
+				}
+				CAI = {
+					limit = {
+						country_exists = CAI
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = CAI
+							type = annex_everything
+						}
+					}
+				}
+				BOR = {
+					limit = {
+						country_exists = BOR
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = BOR
+							type = annex_everything
+						}
+					}
+				}
+				LUA = {
+					limit = {
+						country_exists = LUA
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = LUA
+							type = annex_everything
+						}
+					}
+				}
+				VED = {
+					limit = {
+						country_exists = VED
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = VED
+							type = annex_everything
+						}
+					}
+				}
+				CIL = {
+					limit = {
+						country_exists = CIL
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVP = {
+						declare_war_on  = {
+							target = CIL
+							type = annex_everything
+						}
+					}
+				}
+				add_state_claim = 325
+			}
 		}
 	}
 
@@ -195,13 +681,20 @@ focus_tree = {
 		x = -2
 		y = 6
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			owns_state = 122
+			owns_state = 124
+			owns_state = 125
+			owns_state = 466
+			owns_state = 457
+		}
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.13 days = 1 }
 		}
 	}
 
@@ -214,13 +707,18 @@ focus_tree = {
 		x = 2
 		y = 6
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			AVP = {
+				declare_war_on  = {
+					target = AST
+					type = annex_everything
+				}
+			}
 		}
 	}
 
@@ -233,13 +731,17 @@ focus_tree = {
 		x = 0
 		y = 7
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 3
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			owns_state = 325		
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.14 days = 1 }
 		}
 	}
 
@@ -251,13 +753,34 @@ focus_tree = {
 		x = -2
 		y = 7
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			121 = { compliance > 59 }
+		}
 		completion_reward = {
-			add_political_power = 50
+			add_state_core = 121
+			add_state_core = 508
+			add_state_core = 509
+			add_state_core = 518
+			add_state_core = 517
+			add_state_core = 510
+			add_state_core = 511
+			add_state_core = 512
+			add_state_core = 513
+			add_state_core = 514
+			add_state_core = 515
+			add_state_core = 516
+			add_state_core = 524
+			add_state_core = 519
+			add_state_core = 520
+			add_state_core = 525
+			add_state_core = 523
+			add_state_core = 521
+			add_state_core = 522
 		}
 	}
 
@@ -269,13 +792,19 @@ focus_tree = {
 		x = 2
 		y = 7
 		relative_position_id = AVT_worldwide_arena
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			owns_state = 563
+			owns_state = 569
+			owns_state = 576
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.15 days = 1 }
 		}
 	}
 
@@ -985,7 +1514,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			AVT = { country_event = { id = avt_swiftguardevent.6 days = 3 } } 
+			AVP = { country_event = { id = avt_swiftguardevent.6 days = 3 } } 
 		}
 	}
 
@@ -997,13 +1526,13 @@ focus_tree = {
 		x = -1
 		y = 5
 		relative_position_id = AVT_towards_a_chivalrous_society
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_ideas = AVT_honor_within_reason_idea
 		}
 	}
 
@@ -1016,13 +1545,13 @@ focus_tree = {
 		x = 1
 		y = 5
 		relative_position_id = AVT_towards_a_chivalrous_society
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_ideas = AVT_honor_or_death_idea
 		}
 	}
 
