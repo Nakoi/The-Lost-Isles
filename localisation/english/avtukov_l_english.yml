@@ -784,9 +784,13 @@
  AVT_mass_penal_service:0 "Mass Penal Service"
  AVT_winged_patrols_idea:0 "Winged Patrols"
  AVT_firstborn_tithe_idea:0 "Firstborn Tithe"
+ AVT_honor_within_reason_idea:0 "Honor Within Reason"
+ AVT_honor_or_death_idea:0 "Honor or Death"
  AVT_gracemare_convention_1:0 "The Gracemare Convention - The Sick and Wounded"
  AVT_gracemare_convention_2:0 "The Gracemare Convention - Weapons of Mass Destruction"
  AVT_gracemare_convention_3:0 "The Gracemare Convention - Treatment of Civilians"
+ AVT_oskil_militarisation:0 "Militarisation of Oskil"
+ AVT_great_war_preparations:0 "Great War Preparations"
  
  AVT_national_pony_army_idea_01:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
@@ -1248,6 +1252,33 @@
  avt_swiftguardevent.101.d:0 "Synopsis: The delegation returns with the terms home, and the government has the choice of whether or not to abide by them"
  avt_swiftguardevent.101.a:0 "We will comply"
  avt_swiftguardevent.101.b:0 "We will not comply"
+ 
+ avt_swiftguardevent.100.t:0 "An Invitation from Avtukia"
+ avt_swiftguardevent.100.d:0 "Synopsis: Envoys arrive from Avtukia, inviting the dignitaries from the country to attend a conference to create an international set of rules for conducting warfare."
+ avt_swiftguardevent.100.a:0 "We shall attend"
+ avt_swiftguardevent.100.b:0 "We don’t talk with these warmongers"
+ 
+ avt_swiftguardevent.11.t:0 "Assembling the War Council"
+ avt_swiftguardevent.11.d:0 "Synopsis: Violet Rain assembles a council of her supporters. They also welcome other ponies from the previous regime that were sympathetic to the cause. Azure Aurora and Skychaser are introduced along with their respective factions."
+ avt_swiftguardevent.11.a:0 "There’s much to be done"
+ 
+ avt_swiftguardevent.12.t:0 "The Conquest of Luanservy"
+ avt_swiftguardevent.12.d:0 "Synopsis: The War council discuss the plans and challenges for their first conquest goal - that of taking over the continent of Luanservy"
+ avt_swiftguardevent.12.a:0 "To Arms!"
+ 
+ avt_swiftguardevent.13.t:0 "Panponisty Request"
+ avt_swiftguardevent.13.d:0 "Synopsis: The remnants of the Panponisty movement have requested that kirins be allowed to join Avtukian society as equals, as according to their theories they are just another tribe of ponies."
+ avt_swiftguardevent.13.a:0 "Very well. Let us welcome them."
+ avt_swiftguardevent.13.b:0 "Kirins are not ponies!"
+ 
+ avt_swiftguardevent.14.t:0 "Victory over Luanservy"
+ avt_swiftguardevent.14.d:0 "Synopsis: The leadership tours the conquered Luana city. Violet Rain thinks about the great war that destroyed Luana first, and how she finished the job."
+ avt_swiftguardevent.14.a:0 "Might Makes Right"
+ 
+ avt_swiftguardevent.15.t:0 "The Mercenary Issue"
+ avt_swiftguardevent.15.d:0 "Synopsis: A group of councilors brings up the issue that the hippogriffs of Cilarine have a similar warrior culture to our own, and that they might be worthy of bringing into Avtukia’s grand army."
+ avt_swiftguardevent.15.a:0 "Our army must remain pure"
+ avt_swiftguardevent.15.b:0 "We’ll give them a chance"
  
  
 ###TOOLTIP LOCALISATION - EARLYGAME###
