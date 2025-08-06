@@ -4536,6 +4536,7 @@ country_event = {
 					has_idea = AVT_gracemare_convention_1
 				}
 			}
+		}
 		ROOT = {
 			add_ideas = AVT_gracemare_convention_1
 		}
@@ -4545,6 +4546,7 @@ country_event = {
 					has_idea = AVT_gracemare_convention_2
 				}
 			}
+		}
 		ROOT = {
 			add_ideas = AVT_gracemare_convention_2
 		}
@@ -4554,6 +4556,7 @@ country_event = {
 					has_idea = AVT_gracemare_convention_3
 				}
 			}
+		}
 		ROOT = {
 			add_ideas = AVT_gracemare_convention_3
 		}
@@ -4573,7 +4576,11 @@ country_event = {
 	major = no
 	
 	trigger = {
-		NOT = { tag = AVP }
+		any_country = {
+			limit = {
+				NOT = { tag = AVP }
+			}
+		}
 		AVP = {
 			has_completed_focus = AVT_the_gracemare_convetion
 		}
@@ -4586,5 +4593,87 @@ country_event = {
 	
 	option = {
 		name = avt_swiftguardevent.100.b
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.11
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.11"}
+	title = avt_swiftguardevent.11.t
+	desc = avt_swiftguardevent.11.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.11.a
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.12
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.12"}
+	title = avt_swiftguardevent.12.t
+	desc = avt_swiftguardevent.12.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.12.a
+		add_war_support = 0.1
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.13
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.13"}
+	title = avt_swiftguardevent.13.t
+	desc = avt_swiftguardevent.13.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.13.a
+		add_manpower = 100000
+	}
+	option = {
+		name = avt_swiftguardevent.13.a
+		add_political_power = 100
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.14
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.14"}
+	title = avt_swiftguardevent.14.t
+	desc = avt_swiftguardevent.14.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.14.a
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.15
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.15"}
+	title = avt_swiftguardevent.15.t
+	desc = avt_swiftguardevent.15.d
+	picture = GFX_news_event_chinese_soldiers_march
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.15.a
+	}
+	
+	option = {
+		name = avt_swiftguardevent.15.b
+		add_political_power = -50
+		add_manpower = 200000
 	}
 }
