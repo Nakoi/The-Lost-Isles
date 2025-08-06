@@ -292,6 +292,16 @@ characters={
         }
     }
 	
+	AVT_gen_skychaser = { #empty character to become general via focus
+        name = AVT_gen_skychaser_name
+		
+        portraits = {
+            army = {
+                large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+            }
+        }
+    }
+	
 	AVT_gen_sundance = { #empty character to become general via focus
         name = AVT_gen_sundance_name
 		
