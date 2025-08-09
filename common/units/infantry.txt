@@ -44,7 +44,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 30
 		default_morale = 0.1
-		manpower = 500
+		manpower = 1250
 
 		#Misc Abilities
 		training_time = 25
@@ -54,7 +54,7 @@ sub_units = {
 		supply_consumption = 0.01
 	
 		need = {
-			rifle_equipment = 50
+			rifle_equipment = 100
 		}
 	}
 
@@ -93,7 +93,7 @@ sub_units = {
 		max_strength = 15
 		max_organisation = 20
 		default_morale = 0.1
-		manpower = 500
+		manpower = 1250
 
 		#Misc Abilities
 		training_time = 10
@@ -103,7 +103,7 @@ sub_units = {
 		supply_consumption = 0.01
 	
 		need = {
-			rifle_equipment = 25
+			rifle_equipment = 50
 		}
 		
 		forest = {
@@ -194,7 +194,7 @@ sub_units = {
 		
 		max_organisation = 30
 		default_morale = 0.1
-		manpower = 500
+		manpower = 1250
 
 		#Misc Abilities
 		training_time = 25
@@ -204,7 +204,7 @@ sub_units = {
 		supply_consumption = 0.04
 	
 		need = {
-			rifle_equipment = 75
+			rifle_equipment = 150
 			support_equipment = 10
 		}
 		
@@ -266,7 +266,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 30
 		default_morale = 0.1
-		manpower = 600
+		manpower = 1350
 
 		#Misc Abilities
 		training_time = 50
@@ -278,9 +278,8 @@ sub_units = {
 		transport = truck_equipment
 		
 		need = {
-			truck_equipment = 30
-			rifle_equipment = 50
-			support_equipment = 20
+			truck_equipment = 50
+			rifle_equipment = 100
 		}
 	}
 
@@ -402,7 +401,7 @@ sub_units = {
 		max_strength = 0
 		max_organisation = 5
 		default_morale = 0.1
-		manpower = 250
+		manpower = 300
 
 		#Misc Abilities
 		training_time = 30
@@ -451,7 +450,7 @@ sub_units = {
 		max_strength = 0
 		max_organisation = 5
 		default_morale = 0.1
-		manpower = 250
+		manpower = 300
 
 		#Misc Abilities
 		training_time = 40
@@ -499,7 +498,7 @@ sub_units = {
 		max_strength = 0
 		max_organisation = 5
 		default_morale = 0.1
-		manpower = 250
+		manpower = 300
 
 		#Misc Abilities
 		training_time = 60
@@ -549,7 +548,7 @@ sub_units = {
 		max_strength = 0
 		max_organisation = 5
 		default_morale = 0.1
-		manpower = 250
+		manpower = 300
 
 		#Misc Abilities
 		training_time = 40
@@ -600,7 +599,7 @@ sub_units = {
 		max_strength = 0
 		max_organisation = 5
 		default_morale = 0.1
-		manpower = 250
+		manpower = 300
 
 		#Misc Abilities
 		training_time = 30
@@ -651,7 +650,7 @@ sub_units = {
 		max_strength = 0
 		max_organisation = 5
 		default_morale = 0.1
-		manpower = 250
+		manpower = 300
 		supply_consumption = -0.1
 
 		#Misc Abilities
@@ -717,7 +716,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 30
 		default_morale = 0.1
-		manpower = 500
+		manpower = 1250
 
 		#Misc Abilities
 		training_time = 50
@@ -732,7 +731,7 @@ sub_units = {
 		supply_consumption = 0.04
 	
 		need = {
-			rifle_equipment = 75
+			rifle_equipment = 150
 			support_equipment = 15
 		}
 		
@@ -793,7 +792,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 30
 		default_morale = 0.1
-		manpower = 500
+		manpower = 1250
 
 		#Misc Abilities
 		training_time = 50
@@ -808,7 +807,7 @@ sub_units = {
 		supply_consumption = 0.04
 	
 		need = {
-			rifle_equipment = 75
+			rifle_equipment = 150
 			support_equipment = 10
 		}
 
@@ -892,7 +891,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 30
 		default_morale = 0.1
-		manpower = 500
+		manpower = 1250
 
 		#Misc Abilities
 		training_time = 60
@@ -907,7 +906,7 @@ sub_units = {
 		supply_consumption = 0.04
 	
 		need = {
-			rifle_equipment = 100
+			rifle_equipment = 200
 			support_equipment = 20
 		}
 	}
@@ -950,7 +949,7 @@ sub_units = {
 		need = {
 			ballista_equipment = 18
 		}
-		manpower = 250
+		manpower = 600
 		training_time = 40
 		max_organisation = -10
 		default_morale = 0.1
@@ -987,7 +986,7 @@ sub_units = {
 		need = {
 			cannon_equipment = 18
 		}
-		manpower = 250
+		manpower = 600
 		training_time = 40
 		max_organisation = -15
 		default_morale = 0.1
@@ -1066,7 +1065,7 @@ sub_units = {
 		need = {
 			howitzer_equipment = 18
 		}
-		manpower = 250
+		manpower = 600
 		training_time = 40
 		max_organisation = -20
 		default_morale = 0.1
@@ -1144,7 +1143,7 @@ sub_units = {
 		need = {
 			mortar_equipment = 18
 		}
-		manpower = 250
+		manpower = 600
 		training_time = 40
 		max_organisation = -25
 		default_morale = 0.1
@@ -1214,7 +1213,7 @@ sub_units = {
 		need = {
 			rocket_equipment = 18
 		}
-		manpower = 250
+		manpower = 600
 		training_time = 40
 		max_organisation = -20
 		default_morale = 0.1
@@ -1292,7 +1291,7 @@ sub_units = {
 			fuckshit_one = 18
 		}
 
-		manpower = 250
+		manpower = 600
 		training_time = 40
 		max_organisation = -15
 		default_morale = 0.1
@@ -1377,7 +1376,7 @@ sub_units = {
 		need = {
 			ballista_equipment = 6
 		}
-		manpower = 75
+		manpower = 300
 		training_time = 40
 		max_organisation = -10
 		default_morale = 0
@@ -1467,7 +1466,7 @@ sub_units = {
 		need = {
 			cannon_equipment = 6
 		}
-		manpower = 75
+		manpower = 300
 		training_time = 40
 		max_organisation = -10
 		default_morale = 0
@@ -1555,7 +1554,7 @@ sub_units = {
 		need = {
 			howitzer_equipment = 6
 		}
-		manpower = 75
+		manpower = 300
 		training_time = 40
 		max_organisation = -10
 		default_morale = 0
@@ -1635,7 +1634,7 @@ sub_units = {
 		need = {
 			mortar_equipment = 6
 		}
-		manpower = 75
+		manpower = 300
 		training_time = 40
 		max_organisation = -10
 		default_morale = 0
@@ -1723,7 +1722,7 @@ sub_units = {
 		need = {
 			rocket_equipment = 6
 		}
-		manpower = 75
+		manpower = 300
 		training_time = 40
 		max_organisation = -10
 		default_morale = 0

@@ -35,7 +35,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 30
 		default_morale = 0.1
-		manpower = 500
+		manpower = 1250
 
 		#Misc Abilities
 		training_time = 60
@@ -45,7 +45,7 @@ sub_units = {
 		supply_consumption = 0.01
 	
 		need = {
-			rifle_equipment = 120
+			rifle_equipment = 150
 			support_equipment = 25
 		}
 	}
@@ -81,7 +81,7 @@ sub_units = {
 		max_strength = 20
 		max_organisation = 25
 		default_morale = 0.1
-		manpower = 500
+		manpower = 1250
 
 		#Misc Abilities
 		training_time = 50
@@ -133,7 +133,7 @@ sub_units = {
 		max_strength = 0
 		max_organisation = 10
 		default_morale = 0.1
-		manpower = 250
+		manpower = 600
 
 		#Misc Abilities
 		training_time = 120
@@ -221,7 +221,7 @@ sub_units = {
 		max_strength = 0
 		max_organisation = 15
 		default_morale = 0.1
-		manpower = 125
+		manpower = 300
 
 		#Misc Abilities
 		training_time = 120
@@ -308,7 +308,7 @@ sub_units = {
 		max_strength = 0
 		max_organisation = 10
 		default_morale = 0.1
-		manpower = 250
+		manpower = 600
 
 		#Misc Abilities
 		training_time = 40
@@ -396,7 +396,7 @@ sub_units = {
 		max_strength = 0
 		max_organisation = 15
 		default_morale = 0.1
-		manpower = 75
+		manpower = 300
 
 		#Misc Abilities
 		training_time = 40

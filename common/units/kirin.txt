@@ -35,7 +35,7 @@ sub_units = {
 		max_strength = 15
 		max_organisation = 25
 		default_morale = 0.1
-		manpower = 500
+		manpower = 1250
 
 		#Misc Abilities
 		training_time = 60
@@ -45,7 +45,7 @@ sub_units = {
 		supply_consumption = 0.01
 	
 		need = {
-			shock_equipment = 75
+			shock_equipment = 100
 		}
 	}
 
