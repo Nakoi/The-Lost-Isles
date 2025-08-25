@@ -23,22 +23,6 @@ country_event = {
 			add_idea = policy_progressive
 			remove_idea = policy_reactionary
 		}
-		ai_chance = {
-			base = 50
-		}
-	}
-	
-	option = {
-		name = avt_event.0.b
-		set_country_flag = avt_crowd_silent
-		add_political_power = -10
-		swap_ideas = {
-			add_idea = policy_progressive
-			remove_idea = policy_reactionary
-		}
-		ai_chance = {
-			base = 50
-		}
 	}
 }
 
@@ -184,6 +168,21 @@ country_event = {
 			ideology = ideology_continuism
 			popularity = -0.1
 		}
+		country_event = { id = avt_event.100 days = 31 }
+	}
+}
+
+country_event = {
+	id = avt_event.100
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.100"}
+	title = avt_event.100.t
+	desc = avt_event.100.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.100.a
 	}
 }
 
