@@ -4651,6 +4651,7 @@ country_event = {
 	
 	option = {
 		name = avt_swiftguardevent.14.a
+		hidden_effect = { country_event = { id = avt_swiftguardevent.16 days = 70 } }
 	}
 }
 
@@ -4671,5 +4672,49 @@ country_event = {
 		name = avt_swiftguardevent.15.b
 		add_political_power = -50
 		add_manpower = 200000
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.16
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.16"}
+	title = avt_swiftguardevent.16.t
+	desc = avt_swiftguardevent.16.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.16.a
+		complete_national_focus = AVT_the_looming_famine
+		set_country_flag = avt_swiftguard_famine_flag
+		add_stability = -0.1
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.17
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.17"}
+	title = avt_swiftguardevent.17.t
+	desc = avt_swiftguardevent.17.d
+	picture = GFX_report_event_blank
+	major = no
+	fire_only_once = yes
+	
+	trigger = {
+		AVP = {
+			NOT = {
+				OR = {
+					has_completed_focus = AVT_preservative_innovations
+					has_completed_focus = AVT_build_a_lasting_food_stockpile
+				}
+			}
+		}
+		has_country_flag = avt_swiftguard_famine_flag
+	}
+	
+	option = {
+		name = avt_swiftguardevent.17.a
+		add_ideas = AVT_swiftguard_famine_1
 	}
 }
