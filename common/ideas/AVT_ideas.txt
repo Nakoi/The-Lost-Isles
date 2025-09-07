@@ -1386,6 +1386,49 @@ ideas = {
 			}
 		}
 		
+		AVT_subsidize_agriculture_idea = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				production_speed_fuel_silo_factor = 0.6
+				production_speed_synthetic_refinery_factor = 0.6
+				political_power_factor = -0.15
+			}
+		}
+		
+		AVT_swiftguard_famine_1 = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				monthly_population = -1.2
+				manpower_weekly = -2000
+				industrial_capacity_factory = -0.7
+				industrial_capacity_dockyard = -0.7
+				ideology_militarism_drift = -0.5
+			}
+		}
+		
+		AVT_swiftguard_famine_2 = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				monthly_population = -0.3
+				manpower_weekly = -500
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				ideology_militarism_drift = -0.1
+			}
+		}
+		
 ###ARMY TREE SHIT###
 
 		AVT_national_pony_army_idea_01 = {
