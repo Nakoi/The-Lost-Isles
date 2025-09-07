@@ -805,6 +805,9 @@
  AVT_gracemare_convention_3:0 "The Gracemare Convention - Treatment of Civilians"
  AVT_oskil_militarisation:0 "Militarisation of Oskil"
  AVT_great_war_preparations:0 "Great War Preparations"
+ AVT_subsidize_agriculture_idea:0 "Agriculture Subsidies"
+ AVT_swiftguard_famine_1:0 "Devestating Famine"
+ AVT_swiftguard_famine_2:0 "Fading Famine"
  
  AVT_national_pony_army_idea_01:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
@@ -1298,6 +1301,14 @@
  avt_swiftguardevent.15.a:0 "Our army must remain pure"
  avt_swiftguardevent.15.b:0 "We’ll give them a chance"
  
+ avt_swiftguardevent.16.t:0 "looming famine warning event"
+ avt_swiftguardevent.16.d:0 ""
+ avt_swiftguardevent.16.a:0 ""
+ 
+ avt_swiftguardevent.17.t:0 "famine event"
+ avt_swiftguardevent.17.d:0 ""
+ avt_swiftguardevent.17.a:0 ""
+ 
  
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukia, Grand Duchess of Oskil ascends to the throne!§!"
@@ -1372,4 +1383,6 @@
  avt_elusive_palace_3_completed_flag:0 "Palace Foundations Complete"
  avt_elusive_palace_4_completed_flag:0 "Palace Interior Complete"
  
+###TOOLTIP LOCALISATION - SWIFTGUARD###
  avt_pacifist_protests_flag:0 "Has Active Pacifist Protests"
+ avt_swiftguard_famine_flag:0 "Has Looming Famine"
