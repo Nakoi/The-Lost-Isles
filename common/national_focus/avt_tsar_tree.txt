@@ -825,23 +825,23 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = AVT_ally_schizoid
-		icon = AVT_GFX_Sovjok
-		prerequisite = { focus = AVT_panponisti }
-		x = -2
-		y = 3
-		relative_position_id = AVT_the_tzar
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			SOV = {
-				country_event = { id = avt_tsarevent.1 }
-			}
-		}
-	}
+	#focus = {
+	#	id = AVT_ally_schizoid
+	#	icon = AVT_GFX_Sovjok
+	#	prerequisite = { focus = AVT_panponisti }
+	#	x = -2
+	#	y = 3
+	#	relative_position_id = AVT_the_tzar
+	#	cost = 5
+	#	ai_will_do = {
+	#		factor = 5
+	#	}
+	#	completion_reward = {
+	#		SOV = {
+	#			country_event = { id = avt_tsarevent.1 }
+	#		}
+	#	}
+	#}
 	
 	focus = {
 		id = AVT_integrate_majority_pony_land
@@ -1817,6 +1817,66 @@ focus_tree = {
 					days = 14
 				}
 			}
+		}
+	}
+	
+	focus = {
+		id = AVT_ivorys_stratocracy
+		icon = aaa
+		prerequisite = { focus = AVT_royal_family_only }
+		x = -3
+		y = 4
+		relative_position_id = AVT_the_tzar
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = AVT_military_nobility
+		icon = aaa
+		prerequisite = { focus = AVT_ivorys_stratocracy }
+		x = -2
+		y = 5
+		relative_position_id = AVT_the_tzar
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = AVT_elevate_winged_hundreds
+		icon = aaa
+		prerequisite = { focus = AVT_ivorys_stratocracy }
+		x = -4
+		y = 5
+		relative_position_id = AVT_the_tzar
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = AVT_destroy_rural_nobility
+		icon = aaa
+		prerequisite = { focus = AVT_military_nobility focus = AVT_elevate_winged_hundreds }
+		x = -3
+		y = 6
+		relative_position_id = AVT_the_tzar
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
 		}
 	}
 	

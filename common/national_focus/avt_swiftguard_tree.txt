@@ -1568,11 +1568,10 @@ focus_tree = {
 		}
 		
 		available = {
-			has_fuel > 60000
+			has_country_flag = avt_swiftguard_famine_flag
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
 
@@ -1584,13 +1583,13 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = AVT_the_looming_famine
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_timed_idea = { idea = AVT_subsidize_agriculture_idea days = 100 }
 		}
 	}
 
@@ -1603,13 +1602,35 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = AVT_the_looming_famine
-		cost = 0.2
+		cost = 3
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		available = {
+			has_fuel > 400000
+			is_ai = no
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			IF = {
+				limit = {
+					has_idea = genidea_civilised_dev
+				}
+				add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					category = industry_civilizedagri
+				}
+				ELSE = {
+					add_tech_bonus = {
+						bonus = 1
+						uses = 1
+						category = industry_industrialagri
+					}
+				}
+			}
+			remove_ideas = AVT_swiftguard_famine_1
+			add_timed_idea = { idea = AVT_swiftguard_famine_2 days = 180 }
 		}
 	}
 
@@ -1621,13 +1642,31 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = AVT_the_looming_famine
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			IF = {
+				limit = {
+					has_idea = genidea_civilised_dev
+				}
+				add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					category = industry_civilizedagri
+				}
+				ELSE = {
+					add_tech_bonus = {
+						bonus = 1
+						uses = 1
+						category = industry_industrialagri
+					}
+				}
+			}
+			remove_ideas = AVT_swiftguard_famine_1
+			add_timed_idea = { idea = AVT_swiftguard_famine_2 days = 180 }
 		}
 	}
 
