@@ -1155,6 +1155,111 @@ ideas = {
 		
 ###SWIFTGUARD TREE SHIT###
 		
+		AVT_swiftguard_army_support_veryhigh = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_militarism_drift = 0.2
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+			}
+		}
+		
+		AVT_swiftguard_army_support_high = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_militarism_drift = 0.1
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+			}
+		}
+		
+		AVT_swiftguard_army_support_med = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		
+		AVT_swiftguard_army_support_low = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_militarism_drift = -0.2
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+			}
+		}
+		
+		AVT_swiftguard_industry_support_veryhigh = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_militarism_drift = 0.2
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
+				local_resources_factor = 0.15
+			}
+		}
+		
+		AVT_swiftguard_industry_support_high = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_militarism_drift = 0.1
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				local_resources_factor = 0.10
+			}
+		}
+		
+		AVT_swiftguard_industry_support_med = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				local_resources_factor = 0.05
+			}
+		}
+		
+		AVT_swiftguard_industry_support_low = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				ideology_militarism_drift = 0.2
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				local_resources_factor = -0.10
+			}
+		
 		AVT_pacifist_protests_widespread_idea = {
 			removal_cost = -1
 			available = {
