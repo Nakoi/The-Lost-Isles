@@ -787,6 +787,14 @@
  AVT_less_smart_people_retard:0 "Braindrain"
  AVT_less_soldiers_retard:0 "Chaos in the Army"
  
+ AVT_swiftguard_army_support_veryhigh:0 "Army Faction Support - Very High"
+ AVT_swiftguard_army_support_high:0 "Army Faction Support - High"
+ AVT_swiftguard_army_support_med:0 "Army Faction Support - Medium"
+ AVT_swiftguard_army_support_low:0 "Army Faction Support - Low"
+ AVT_swiftguard_industry_support_veryhigh:0 "Industrial Faction Support - Very High"
+ AVT_swiftguard_industry_support_high:0 "Industrial Faction Support - High"
+ AVT_swiftguard_industry_support_med:0 "Industrial Faction Support - Medium"
+ AVT_swiftguard_industry_support_low:0 "Industrial Faction Support - Low"
  AVT_pacifist_protests_widespread_idea:0 "Widespread Pacifist Protests"
  AVT_pacifist_protests_suppressed_idea:0 "Suppressed Pacifist Protests"
  AVT_focused_war_production_idea:0 "Focused War Production"
@@ -1309,6 +1317,11 @@
  avt_swiftguardevent.17.d:0 ""
  avt_swiftguardevent.17.a:0 ""
  
+ avt_swiftguardevent.18.t:0 "To Make a Pony a Prime Minister"
+ avt_swiftguardevent.18.d:0 "Synopsis: It is clear that power must be deconcentrated to effectively rule their vast and expanding empire, Violet Rain can no longer rule so much alone. The council chooses to elect a prime minister, and the two candidates are Azure Aurora and Skychaser. Both start by presenting their case in front of the council."
+ avt_swiftguardevent.18.a:0 "Azure makes a stronger impression."
+ avt_swiftguardevent.18.b:0 "Skychaser it is."
+ 
  
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukia, Grand Duchess of Oskil ascends to the throne!§!"
@@ -1383,6 +1396,10 @@
  avt_elusive_palace_3_completed_flag:0 "Palace Foundations Complete"
  avt_elusive_palace_4_completed_flag:0 "Palace Interior Complete"
  
+ AVTtt_swiftguard_military_faction_increase:0 "§GMilitary Faction Support Increases!§!"
+ AVTtt_swiftguard_military_faction_decrease:0 "§RMilitary Faction Support Decreases!§!"
+ AVTtt_swiftguard_industry_faction_increase:0 "§GIndustrial Faction Support Increases!§!"
+ AVTtt_swiftguard_industry_faction_decrease:0 "§RIndustrial Faction Support Decreases!§!"
 ###TOOLTIP LOCALISATION - SWIFTGUARD###
  avt_pacifist_protests_flag:0 "Has Active Pacifist Protests"
  avt_swiftguard_famine_flag:0 "Has Looming Famine"
