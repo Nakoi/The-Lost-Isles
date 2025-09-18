@@ -1180,6 +1180,62 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = AVT_strong_civilian_sector
+			custom_effect_tooltip = AVTtt_swiftguard_military_faction_decrease
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_veryhigh
+					add_idea = AVT_swiftguard_army_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_high
+					add_idea = AVT_swiftguard_army_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_med
+					add_idea = AVT_swiftguard_army_support_low
+				}
+			}
+			custom_effect_tooltip = AVTtt_swiftguard_industry_faction_increase
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_low
+					add_idea = AVT_swiftguard_industry_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_med
+					add_idea = AVT_swiftguard_industry_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_high
+					add_idea = AVT_swiftguard_industry_support_veryhigh
+				}
+			}
 		}
 	}
 
@@ -1198,6 +1254,62 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = AVT_all_for_the_front_idea
+			custom_effect_tooltip = AVTtt_swiftguard_industry_faction_decrease
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_veryhigh
+					add_idea = AVT_swiftguard_industry_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_high
+					add_idea = AVT_swiftguard_industry_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_med
+					add_idea = AVT_swiftguard_industry_support_low
+				}
+			}
+			custom_effect_tooltip = AVTtt_swiftguard_military_faction_increase
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_low
+					add_idea = AVT_swiftguard_army_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_med
+					add_idea = AVT_swiftguard_army_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_high
+					add_idea = AVT_swiftguard_army_support_veryhigh
+				}
+			}
 		}
 	}
 
@@ -1339,6 +1451,62 @@ focus_tree = {
 				add_idea = AVT_idea_tribe_mistrust_swiftguard
 				remove_idea = AVT_idea_tribe_mistrust
 			}
+			custom_effect_tooltip = AVTtt_swiftguard_industry_faction_decrease
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_veryhigh
+					add_idea = AVT_swiftguard_industry_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_high
+					add_idea = AVT_swiftguard_industry_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_med
+					add_idea = AVT_swiftguard_industry_support_low
+				}
+			}
+			custom_effect_tooltip = AVTtt_swiftguard_military_faction_increase
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_low
+					add_idea = AVT_swiftguard_army_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_med
+					add_idea = AVT_swiftguard_army_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_high
+					add_idea = AVT_swiftguard_army_support_veryhigh
+				}
+			}
 		}
 	}
 
@@ -1357,6 +1525,62 @@ focus_tree = {
 		
 		completion_reward = {
 			remove_ideas = AVT_idea_tribe_mistrust
+			custom_effect_tooltip = AVTtt_swiftguard_military_faction_decrease
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_veryhigh
+					add_idea = AVT_swiftguard_army_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_high
+					add_idea = AVT_swiftguard_army_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_med
+					add_idea = AVT_swiftguard_army_support_low
+				}
+			}
+			custom_effect_tooltip = AVTtt_swiftguard_industry_faction_increase
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_low
+					add_idea = AVT_swiftguard_industry_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_med
+					add_idea = AVT_swiftguard_industry_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_high
+					add_idea = AVT_swiftguard_industry_support_veryhigh
+				}
+			}
 		}
 	}
 
@@ -1533,6 +1757,62 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = AVT_honor_within_reason_idea
+			custom_effect_tooltip = AVTtt_swiftguard_military_faction_decrease
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_veryhigh
+					add_idea = AVT_swiftguard_army_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_high
+					add_idea = AVT_swiftguard_army_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_med
+					add_idea = AVT_swiftguard_army_support_low
+				}
+			}
+			custom_effect_tooltip = AVTtt_swiftguard_industry_faction_increase
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_low
+					add_idea = AVT_swiftguard_industry_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_med
+					add_idea = AVT_swiftguard_industry_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_high
+					add_idea = AVT_swiftguard_industry_support_veryhigh
+				}
+			}
 		}
 	}
 
@@ -1552,6 +1832,62 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = AVT_honor_or_death_idea
+			custom_effect_tooltip = AVTtt_swiftguard_industry_faction_decrease
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_veryhigh
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_veryhigh
+					add_idea = AVT_swiftguard_industry_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_high
+					add_idea = AVT_swiftguard_industry_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_industry_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_industry_support_med
+					add_idea = AVT_swiftguard_industry_support_low
+				}
+			}
+			custom_effect_tooltip = AVTtt_swiftguard_military_faction_increase
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_low
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_low
+					add_idea = AVT_swiftguard_army_support_med
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_med
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_med
+					add_idea = AVT_swiftguard_army_support_high
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = AVT_swiftguard_army_support_high
+				}
+				swap_ideas = {
+					remove_idea = AVT_swiftguard_army_support_high
+					add_idea = AVT_swiftguard_army_support_veryhigh
+				}
+			}
 		}
 	}
 
@@ -1679,13 +2015,13 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = AVT_luanservy_subjugated
-		cost = 0.2
+		cost = 3
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.18 days = 3 }
 		}
 	}
 
@@ -1697,11 +2033,17 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = AVT_the_question_of_leadership
-		cost = 0.2
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			OR = {
+				has_idea = AVT_swiftguard_army_support_veryhigh
+				has_idea = AVT_swiftguard_army_support_high
+			}
+		}
 		completion_reward = {
 			add_political_power = 50
 		}
@@ -1715,11 +2057,18 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = AVT_the_question_of_leadership
-		cost = 0.2
+		cost = 1
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			OR = {
+				has_idea = AVT_swiftguard_industry_support_veryhigh
+				has_idea = AVT_swiftguard_industry_support_high
+			}
+		}
+		
 		completion_reward = {
 			add_political_power = 50
 		}
@@ -1733,7 +2082,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = AVT_the_question_of_leadership
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -1750,7 +2099,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = AVT_the_question_of_leadership
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
