@@ -1259,6 +1259,7 @@ ideas = {
 				industrial_capacity_dockyard = -0.15
 				local_resources_factor = -0.10
 			}
+		}
 		
 		AVT_pacifist_protests_widespread_idea = {
 			removal_cost = -1
@@ -1531,6 +1532,17 @@ ideas = {
 				industrial_capacity_factory = -0.3
 				industrial_capacity_dockyard = -0.3
 				ideology_militarism_drift = -0.1
+			}
+		}
+		
+		AVT_swiftguard_evil_ass_magic_buff = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				army_attack_factor = 0.1
 			}
 		}
 		
