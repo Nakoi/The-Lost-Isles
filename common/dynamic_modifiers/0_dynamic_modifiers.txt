@@ -26,11 +26,11 @@
 #	can be added to countries, states or unit leaders
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
-genmod_two_luxury_purchase = {
-	enable = { always = yes }
+TLIgeneric_dynamic_modifier_colonial_exploitation = {
+    icon = GFX_modifiers_conscription_exemptions_granted
 
-	icon = GFX_modifiers_sabotaged_resource
-	
-	country_resource_luxuries = -2
+    state_resources_factor = 0.15
+	local_factories = 0.15
+	required_garrisons = 0.1
 }
 
