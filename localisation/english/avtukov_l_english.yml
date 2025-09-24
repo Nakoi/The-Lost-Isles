@@ -163,6 +163,8 @@
  AVT_tzaritsa_name:0 "Elusive Gem"
  AVT_cherry_cupcake_name:0 "Cherry Cupcake"
  AVT_violet_rain_name:0 "Violet Rain"
+ AVT_swiftguard_marshal_name:0 "Skychaser"
+ AVT_swiftguard_industrialist:0 "Azure Aurora"
  AVT_emerald_mask_name:0 "Emerald Mask"
  AVT_loyal_wing_name:0 "Loyal Wing"
  AVT_gentle_flash_name:0 "Gentle Flash"
@@ -816,6 +818,8 @@
  AVT_subsidize_agriculture_idea:0 "Agriculture Subsidies"
  AVT_swiftguard_famine_1:0 "Devestating Famine"
  AVT_swiftguard_famine_2:0 "Fading Famine"
+ AVT_swiftguard_evil_ass_magic_buff:0 "The Power of the Demon Lord"
+ AVT_swiftguard_horse_slaves:0 "Horse Slaves"
  
  AVT_national_pony_army_idea_01:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
@@ -1322,6 +1326,32 @@
  avt_swiftguardevent.18.a:0 "Azure makes a stronger impression."
  avt_swiftguardevent.18.b:0 "Skychaser it is."
  
+ avt_swiftguardevent.19.t:0 "Our New Prime Minister"
+ avt_swiftguardevent.19.d:0 "Synopsis: Skychaser takes the seat by the tsaritsa, and tells the council about the glorious conquests he will lead Avtukia to."
+ avt_swiftguardevent.19.a:0 "Cheers!"
+ 
+ avt_swiftguardevent.20.t:0 "Our New Prime Minister"
+ avt_swiftguardevent.20.d:0 "Synopsis: Azure Aurora  takes the seat by the tsaritsa, and tells the council about the riches they will all be given from the conquests she will lead."
+ avt_swiftguardevent.20.a:0 "Cheers!"
+ 
+ avt_swiftguardevent.21.t:0 "The Conquest of Arondinia"
+ avt_swiftguardevent.21.d:0 "Synopsis: The war council meets and discusses the plans to conquer Arondinia. They point out the scattered remnants of the gargoyle civilisation, the technological powerhouse that is the Griffonstonian company, and the possible magical secrets to be discovered."
+ avt_swiftguardevent.21.a:0 "To war!"
+ 
+ avt_swiftguardevent.22.t:0 "Victory over Arondinia!"
+ avt_swiftguardevent.22.d:0 "Synopsis: Violet Rain tours the capital of the company, Magrette, and wonders if the conquest will lead to an immediate war with Griffonstone."
+ avt_swiftguardevent.22.a:0 "Might Makes Right"
+ 
+ avt_swiftguardevent.23.t:0 "Dark Impulse"
+ avt_swiftguardevent.23.d:0 "Synopsis: The Demon Lord of Islivalia is defeated and captured by the soldiers, held captive with the help of some mages. Violet Rain wonders what to do with him."
+ avt_swiftguardevent.23.a:0 "Bring his head home as a trophy!"
+ avt_swiftguardevent.23.b:0 "We’ll interrogate him and learn his secrets"
+ avt_swiftguardevent.23.c:0 "Drain his power and empower our warriors with it!"
+ 
+ avt_swiftguardevent.24.t:0 "Are Horses Ponies?"
+ avt_swiftguardevent.24.d:0 "Synopsis: The council wonders what to do with the newly conquered horses, if they are equal to ponies. If they should be integrated into the army and society, or if they should be used as forced labor."
+ avt_swiftguardevent.24.a:0 "We’ll give them a chance"
+ avt_swiftguardevent.24.b:0 "We need their labor more"
  
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukia, Grand Duchess of Oskil ascends to the throne!§!"
