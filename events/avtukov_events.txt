@@ -5074,3 +5074,173 @@ country_event = {
 			}
 	}
 }
+
+country_event = {
+	id = avt_swiftguardevent.19
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.19"}
+	title = avt_swiftguardevent.19.t
+	desc = avt_swiftguardevent.19.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.19.a
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.20
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.20"}
+	title = avt_swiftguardevent.20.t
+	desc = avt_swiftguardevent.20.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.20.a
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.21
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.21"}
+	title = avt_swiftguardevent.21.t
+	desc = avt_swiftguardevent.21.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.21.a
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.22
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.22"}
+	title = avt_swiftguardevent.22.t
+	desc = avt_swiftguardevent.22.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.22.a
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.23
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.23"}
+	title = avt_swiftguardevent.23.t
+	desc = avt_swiftguardevent.23.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.23.a
+		add_stability = 0.1
+		add_war_support = 0.1
+	}
+	option = {
+		name = avt_swiftguardevent.23.a
+		add_tech_bonus = {
+            bonus = 1.0
+            uses = 3
+            category = racial
+        }
+		add_stability = -0.5
+	}
+	option = {
+		name = avt_swiftguardevent.23.a
+		add_ideas = AVT_swiftguard_evil_ass_magic_buff
+		add_stability = -0.1
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.24
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.24"}
+	title = avt_swiftguardevent.24.t
+	desc = avt_swiftguardevent.24.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.24.a
+		add_manpower = 100000
+	}
+	
+	option = {
+		name = avt_swiftguardevent.24.b
+		172 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		170 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		171 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		169 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		168 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		167 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		165 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		164 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		166 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		152 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		155 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		153 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+		63 = {
+			add_dynamic_modifier = {
+				modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+			}
+		}
+	}
+}
