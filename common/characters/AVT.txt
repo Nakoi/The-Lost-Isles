@@ -39,6 +39,34 @@ characters={
 	
 	AVT_violet_rain={
         name=AVT_violet_rain_name
+		portraits={
+            civilian={
+                large="GFX/leaders/AVT/AVT_violet_rain.tga"
+            }
+        }
+        country_leader={
+            ideology=militarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	AVT_swiftguard_marshal={
+        name=AVT_swiftguard_marshal_name
+        #portraits={
+            civilian={
+                large="GFX/leaders/AVT/AVT_violet_rain.tga"
+            }
+        #}
+        country_leader={
+            ideology=militarism_thing
+            expire="1984.1.1.1"
+            id=-1
+        }
+    }
+	
+	AVT_swiftguard_industrialist={
+        name=AVT_swiftguard_industrialist_name
         #portraits={
             civilian={
                 large="GFX/leaders/AVT/AVT_violet_rain.tga"
