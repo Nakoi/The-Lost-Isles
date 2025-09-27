@@ -5244,3 +5244,59 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = avt_swiftguardevent.25
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.25"}
+	title = avt_swiftguardevent.25.t
+	desc = avt_swiftguardevent.25.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.25.a
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.26
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.26"}
+	title = avt_swiftguardevent.26.t
+	desc = avt_swiftguardevent.26.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.26.a
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.27
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.27"}
+	title = avt_swiftguardevent.27.t
+	desc = avt_swiftguardevent.27.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.27.a
+	}
+}
+
+country_event = {
+	id = avt_swiftguardevent.28
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_swiftguardevent.28"}
+	title = avt_swiftguardevent.28.t
+	desc = avt_swiftguardevent.28.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_swiftguardevent.28.a
+	}
+}
