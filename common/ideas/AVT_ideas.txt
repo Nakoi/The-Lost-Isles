@@ -1546,6 +1546,79 @@ ideas = {
 			}
 		}
 		
+		AVT_winter_warfare_experience_idea = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				attrition = -0.1
+				out_of_supply_factor = -0.2
+				supply_consumption_factor = -0.1
+			}
+		}
+		
+		AVT_sepsta_ancient_tactics_idea = {
+			removal_cost = -1
+			available = {
+				country_exists = SEP
+				country_exists = NAS
+				country_exists = NAP
+				country_exists = TJE
+				country_exists = AVH
+				country_exists = MEP
+				country_exists = NAB
+			}
+				
+			targeted_modifier = {
+				tag = SEP
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = NAS
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = NAP
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = TJE
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = AVH
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = MEP
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = NAB
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+		}
+		
+		AVT_sepsta_riches_plundered = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				consumer_goods_expected_value = -0.15
+			}
+		}
+		
 ###ARMY TREE SHIT###
 
 		AVT_national_pony_army_idea_01 = {
