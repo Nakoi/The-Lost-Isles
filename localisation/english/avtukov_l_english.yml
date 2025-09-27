@@ -819,7 +819,9 @@
  AVT_swiftguard_famine_1:0 "Devestating Famine"
  AVT_swiftguard_famine_2:0 "Fading Famine"
  AVT_swiftguard_evil_ass_magic_buff:0 "The Power of the Demon Lord"
- AVT_swiftguard_horse_slaves:0 "Horse Slaves"
+ AVT_winter_warfare_experience_idea:0 "Winter Warfare Experience"
+ AVT_sepsta_ancient_tactics_idea:0 "Sepsta's Ancient Tactics Countered"
+ AVT_sepsta_riches_plundered:0 "Sepsta's Riches Plundered"
  
  AVT_national_pony_army_idea_01:0 "Gracemarean Model Army"
  AVT_national_pony_army_idea_02:0 "Gracemarean Model Army"
@@ -1353,6 +1355,22 @@
  avt_swiftguardevent.24.a:0 "We’ll give them a chance"
  avt_swiftguardevent.24.b:0 "We need their labor more"
  
+ avt_swiftguardevent.25.t:0 "The Conquest of Traunulu"
+ avt_swiftguardevent.25.d:0 "Synopsis: The war council meets and discusses the plans to conquer Traunulu. They point out the civil war that has ravaged the once mighty Ijikami, the possible abundant resources to be gained from subjugating the dogs, and the groups of local ponies."
+ avt_swiftguardevent.25.a:0 "To war!"
+ 
+ avt_swiftguardevent.26.t:0 "Victory over Traunulu!"
+ avt_swiftguardevent.26.d:0 "Synopsis: Violet Rain tours the capital of Ijikami, with her entourage. She wonders if they would have been more difficult to conquer if they didn’t choose to destroy themselves with the civil war"
+ avt_swiftguardevent.26.a:0 "Might Makes Right"
+ 
+ avt_swiftguardevent.27.t:0 "The Conquest of Dominatra"
+ avt_swiftguardevent.27.d:0 "Synopsis: The war council meets and discusses the plans to conquer Dominatra. They point out the abundant iron resources, the vast but decadent realm of Sepsta, and the rising power of Raynaya."
+ avt_swiftguardevent.27.a:0 "To war!"
+ 
+ avt_swiftguardevent.28.t:0 "Victory over Dominatra!"
+ avt_swiftguardevent.28.d:0 "Synopsis: Violet Rain tours the capital of Sepsta, Galya with her entourage. She wonders how she’s the first to capture this city in centuries"
+ avt_swiftguardevent.28.a:0 "Might Makes Right"
+ 
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukia, Grand Duchess of Oskil ascends to the throne!§!"
  
@@ -1383,7 +1401,7 @@
  AVTtt_pegasus_windrider_deployment_2:0 "Deploys one §YPegazskaya Rat'§! division along with four §YPegazskoye Opolchenie§! divisions in the capital!"
 
 ###TOOLTIP LOCALISATION - TSAR###
- AVTtt_kirins_killed:0 "All Kirin countries on our borders §Rdefeated§!"
+ AVTtt_kirins_killed:0 "All Kirin countries of Ootari §Rdefeated§!"
  AVTtt_gunboat_diplomacy:0 "Has 10 warships each of any type on the shores of:\nJarldom of Siilovpu\nFree Cities of Valkovsi\nKingdom of Toknong"
  AVTtt_tsarcolonial_1:0 "Has complete control of the starting territories of:\nJarldom of Siilovpu\nFree Cities of Valkovsi\nKingdom of Toknong"
  
