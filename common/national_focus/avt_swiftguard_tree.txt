@@ -508,6 +508,26 @@ focus_tree = {
 						}
 					}
 				}
+				
+				EAK = {
+					limit = {
+						country_exists = EAK
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVT = {
+						declare_war_on  = {
+							target = EAK
+							type = annex_everything
+						}
+					}
+				}
 			}
 		}
 	}
@@ -523,6 +543,102 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 5
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = AVTtt_kirins_killed
+				OR = {
+					NOT = { 
+						country_exists = ESU
+					}
+					ESU = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = KAE
+					}
+					KAE = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = EAK
+					}
+					EAK = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = SUA
+					}
+					SUA = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = AIN
+					}
+					AIN = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = SEN
+					}
+					SEN = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = FRE
+					}
+					FRE = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = WEI
+					}
+					WEI = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = UNU
+					}
+					UNU = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = RIN
+					}
+					RIN = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = ASH
+					}
+					ASH = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = AZE
+					}
+					AZE = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = HRI
+					}
+					HRI = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = ONK
+					}
+					ONK = { is_puppet_of = AVT }
+				}
+				OR = {
+					NOT = { 
+						country_exists = WAO
+					}
+					WAO = { is_puppet_of = AVT }
+				}
+			}
 		}
 		
 		completion_reward = {
@@ -759,6 +875,7 @@ focus_tree = {
 		}
 		
 		available = {
+			owns_state = 121
 			121 = { compliance > 59 }
 		}
 		completion_reward = {
@@ -2179,13 +2296,13 @@ focus_tree = {
 		x = -7
 		y = 1
 		relative_position_id = AVT_luanservy_subjugated
-		cost = 0.2
+		cost = 2
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.25 days = 1 }
 		}
 	}
 
@@ -2197,13 +2314,72 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = AVT_scarlet_lotus
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			declare_war_on = {
+				target = TEL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJB
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJC
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJD
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJF
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJJ
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IJS
+				type = annex_everything
+			}
 		}
 	}
 
@@ -2215,13 +2391,36 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = AVT_scarlet_lotus
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			declare_war_on = {
+				target = VAL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TOK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SII
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OSH
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SHI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = VEN
+				type = annex_everything
+			}
 		}
 	}
 
@@ -2233,13 +2432,13 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = AVT_scarlet_lotus
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_ideas = AVT_winter_warfare_experience_idea
 		}
 	}
 
@@ -2251,13 +2450,80 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id = AVT_scarlet_lotus
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			owns_state = 48
+			owns_state = 49
+			owns_state = 237
+			owns_state = 238
+			owns_state = 235
+			owns_state = 234
+			owns_state = 77
+			owns_state = 101
+			owns_state = 231
+			owns_state = 233
+			owns_state = 99
+			owns_state = 232
+			owns_state = 80
+			48 = {
+				compliance > 59
+			}
+			49 = {
+				compliance > 59
+			}
+			237 = {
+				compliance > 59
+			}
+			238 = {
+				compliance > 59
+			}
+			235 = {
+				compliance > 59
+			}
+			234 = {
+				compliance > 59
+			}
+			77 = {
+				compliance > 59
+			}
+			101 = {
+				compliance > 59
+			}
+			231 = {
+				compliance > 59
+			}
+			233 = {
+				compliance > 59
+			}
+			99 = {
+				compliance > 59
+			}
+			232 = {
+				compliance > 59
+			}
+			80 = {
+				compliance > 59
+			}
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			add_state_core = 48
+			add_state_core = 49
+			add_state_core = 237
+			add_state_core = 238
+			add_state_core = 235
+			add_state_core = 234
+			add_state_core = 77
+			add_state_core = 101
+			add_state_core = 231
+			add_state_core = 233
+			add_state_core = 99
+			add_state_core = 232
+			add_state_core = 80
 		}
 	}
 
@@ -2270,13 +2536,49 @@ focus_tree = {
 		x = 1
 		y = 3
 		relative_position_id = AVT_scarlet_lotus
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			owns_state = 314 
+			owns_state = 313 
+			owns_state = 311 
+			owns_state = 324
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			add_resource = {
+				type = iron
+				amount = 20
+				state = 314
+			}
+			add_resource = {
+				type = crystals
+				amount = 25
+				state = 313
+			}
+			add_resource = {
+				type = rare_metals
+				amount = 15
+				state = 311
+			}
+			add_resource = {
+				type = iron
+				amount = 10
+				state = 311
+			}
+			add_resource = {
+				type = coal
+				amount = 20
+				state = 324
+			}
+			add_resource = {
+				type = chemicals
+				amount = 10
+				state = 324
+			}
 		}
 	}
 
@@ -2293,9 +2595,36 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		available = {
+			owns_state = 3 
+			owns_state = 18
+			owns_state = 31
+			owns_state = 373
+			owns_state = 52
+			owns_state = 46
+			owns_state = 49
+			owns_state = 107
+			owns_state = 118
+			owns_state = 272
+			owns_state = 289
+			owns_state = 304
+			owns_state = 101
+			owns_state = 235
+			owns_state = 236
+			owns_state = 301
+			owns_state = 319
+			owns_state = 244
+			owns_state = 254
+			owns_state = 315
+			owns_state = 285
+			owns_state = 314
+			owns_state = 313
+			owns_state = 276
+			owns_state = 266
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.26 days = 1 }
 		}
 	}
 
@@ -2449,6 +2778,21 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		available = {
+			owns_state = 172
+			owns_state = 170
+			owns_state = 171
+			owns_state = 169
+			owns_state = 168
+			owns_state = 167
+			owns_state = 165
+			owns_state = 164
+			owns_state = 166
+			owns_state = 152
+			owns_state = 155
+			owns_state = 153
+			owns_state = 63
+		}
 		
 		completion_reward = {
 			country_event = { id = avt_swiftguardevent.24 days = 1 }
@@ -2504,13 +2848,13 @@ focus_tree = {
 		x = 7
 		y = 1
 		relative_position_id = AVT_luanservy_subjugated
-		cost = 0.2
+		cost = 2
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.27 days = 1 }
 		}
 	}
 
@@ -2524,13 +2868,24 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = AVT_obsidian_throne_challenge
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			declare_war_on = {
+				target = ALT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ROG
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KLI
+				type = annex_everything
+			}
 		}
 	}
 
@@ -2543,13 +2898,28 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = AVT_obsidian_throne_challenge
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			declare_war_on = {
+				target = ARE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MAK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = VAK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = NAC
+				type = annex_everything
+			}
 		}
 	}
 
@@ -2561,13 +2931,13 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = AVT_obsidian_throne_challenge
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_timed_idea = { idea = AVT_sepsta_ancient_tactics_idea days = 180 }
 		}
 	}
 
@@ -2578,13 +2948,66 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id = AVT_obsidian_throne_challenge
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			owns_state = 836
+			owns_state = 845
+			owns_state = 849
+			owns_state = 847
+			owns_state = 850
+			owns_state = 887
+			owns_state = 885
+			owns_state = 891
+			836 = { compliance > 59 }
+			845 = { compliance > 59 }
+			849 = { compliance > 59 }
+			847 = { compliance > 59 }
+			850 = { compliance > 59 }
+			887 = { compliance > 59 }
+			885 = { compliance > 59 }
+			891 = { compliance > 59 }
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			add_state_core = 836
+			add_state_core = 837
+			add_state_core = 838
+			add_state_core = 845
+			add_state_core = 839
+			add_state_core = 840
+			add_state_core = 846
+			add_state_core = 855
+			add_state_core = 841
+			add_state_core = 844
+			add_state_core = 843
+			add_state_core = 842
+			add_state_core = 847
+			add_state_core = 856
+			add_state_core = 848
+			add_state_core = 849
+			add_state_core = 857
+			add_state_core = 854
+			add_state_core = 850
+			add_state_core = 851
+			add_state_core = 858
+			add_state_core = 853
+			add_state_core = 891
+			add_state_core = 892
+			add_state_core = 852
+			add_state_core = 896
+			add_state_core = 895
+			add_state_core = 885
+			add_state_core = 889
+			add_state_core = 894
+			add_state_core = 893
+			add_state_core = 886
+			add_state_core = 887
+			add_state_core = 888
+			add_state_core = 890
 		}
 	}
 
@@ -2595,13 +3018,18 @@ focus_tree = {
 		x = 1
 		y = 3
 		relative_position_id = AVT_obsidian_throne_challenge
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			owns_state = 913
+			owns_state = 915
+			owns_state = 912
+		}
 		completion_reward = {
-			add_political_power = 50
+			add_timed_idea = { idea = AVT_sepsta_riches_plundered days = 180 }
 		}
 	}
 
@@ -2618,9 +3046,30 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			owns_state = 875
+			owns_state = 887
+			owns_state = 849
+			owns_state = 836
+			owns_state = 913
+			owns_state = 92
+			owns_state = 816
+			owns_state = 808
+			owns_state = 923
+			owns_state = 951
+			owns_state = 990
+			owns_state = 980
+			owns_state = 897
+			owns_state = 969
+			owns_state = 809
+			owns_state = 902
+			owns_state = 830
+			owns_state = 142
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.28 days = 1 }
 		}
 	}
 

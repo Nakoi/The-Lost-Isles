@@ -732,6 +732,26 @@ focus_tree = {
 						}
 					}
 				}
+				
+				EAK = {
+					limit = {
+						country_exists = EAK
+						NOT = {
+							OR = {
+								is_subject_of = ROOT
+								is_in_faction_with = ROOT
+								is_guaranteed_by = ROOT
+								has_guaranteed = ROOT
+							}
+						}
+					}
+					AVT = {
+						declare_war_on  = {
+							target = EAK
+							type = annex_everything
+						}
+					}
+				}
 			}
 		}
 	}
