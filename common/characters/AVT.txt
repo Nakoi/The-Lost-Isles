@@ -380,7 +380,11 @@ characters={
 				chieftrait_airmaint_2
 			}
 			available = {
-				has_completed_focus = AVT_cloud_bliss_plan
+				OR = {
+					has_completed_focus = AVT_cloud_bliss_plan
+					has_completed_focus = AVT_cloud_bliss_plan_elusivetree
+					has_completed_focus = AVT_cloud_bliss_plan_swiftguardtree
+				}
 			}
 		}
 	}
@@ -405,7 +409,11 @@ characters={
 				chieftrait_weather_2
 			}
 			available = {
-				has_completed_focus = AVT_dazzleflash_plan
+				OR = {
+					has_completed_focus = AVT_dazzleflash_plan
+					has_completed_focus = AVT_dazzleflash_plan_elusivetree
+					has_completed_focus = AVT_dazzleflash_plan_swiftguardtree
+				}
 			}
 		}
 	}
