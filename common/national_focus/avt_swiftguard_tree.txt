@@ -6,7 +6,7 @@ focus_tree = {
 
         modifier = {
             add = 10
-            tag = AVT
+            tag = ZZZ
        }
     }
 
@@ -521,7 +521,7 @@ focus_tree = {
 							}
 						}
 					}
-					AVT = {
+					AVP = {
 						declare_war_on  = {
 							target = EAK
 							type = annex_everything
@@ -2301,6 +2301,10 @@ focus_tree = {
 			factor = 5
 		}
 		
+		available = {
+			is_ai = no
+		}
+		
 		completion_reward = {
 			country_event = { id = avt_swiftguardevent.25 days = 1 }
 		}
@@ -2641,6 +2645,10 @@ focus_tree = {
 			factor = 5
 		}
 		
+		available = {
+			is_ai = no
+		}
+		
 		completion_reward = {
 			country_event = { id = avt_swiftguardevent.21 days = 1 }
 		}
@@ -2851,6 +2859,10 @@ focus_tree = {
 		cost = 2
 		ai_will_do = {
 			factor = 5
+		}
+		
+		available = {
+			is_ai = no
 		}
 		
 		completion_reward = {
@@ -3080,13 +3092,17 @@ focus_tree = {
 		x = 14
 		y = 1
 		relative_position_id = AVT_luanservy_subjugated
-		cost = 0.2
+		cost = 2
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			is_ai = no
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.29 days = 1 }
 		}
 	}
 
@@ -3098,13 +3114,24 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = AVT_blood_legacy_challenge
-		cost = 0.2
+		cost = 10
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			declare_war_on = {
+				target = LIO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MON
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CLA
+				type = annex_everything
+			}
 		}
 	}
 
@@ -3121,9 +3148,24 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			declare_war_on = {
+				target = RED
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KAT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ZIK
+				type = annex_everything
+			}
 		}
 	}
 
@@ -3134,13 +3176,13 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = AVT_blood_legacy_challenge
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			add_ideas = AVT_a_deal_with_the_sirens_idea
 		}
 	}
 
@@ -3151,13 +3193,68 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id = AVT_blood_legacy_challenge
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			owns_state = 147
+			owns_state = 148
+			owns_state = 777
+			owns_state = 788
+			owns_state = 786
+			owns_state = 787
+			owns_state = 782
+			owns_state = 783
+			owns_state = 784
+		}
 		completion_reward = {
-			add_political_power = 50
+			147 = {
+				add_dynamic_modifier = {
+					modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+				}
+			}
+			148 = {
+				add_dynamic_modifier = {
+					modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+				}
+			}
+			777 = {
+				add_dynamic_modifier = {
+					modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+				}
+			}
+			788 = {
+				add_dynamic_modifier = {
+					modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+				}
+			}
+			786 = {
+				add_dynamic_modifier = {
+					modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+				}
+			}
+			787 = {
+				add_dynamic_modifier = {
+					modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+				}
+			}
+			782 = {
+				add_dynamic_modifier = {
+					modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+				}
+			}
+			783 = {
+				add_dynamic_modifier = {
+					modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+				}
+			}
+			784 = {
+				add_dynamic_modifier = {
+					modifier = TLIgeneric_dynamic_modifier_colonial_exploitation
+				}
+			}
 		}
 	}
 
@@ -3169,13 +3266,17 @@ focus_tree = {
 		x = 1
 		y = 3
 		relative_position_id = AVT_blood_legacy_challenge
-		cost = 0.2
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
+		available = {
+			owns_state = 801
+		}
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.31 days = 1 }
 		}
 	}
 
@@ -3191,9 +3292,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.30 days = 1 }
 		}
 	}
 
@@ -3209,14 +3310,887 @@ focus_tree = {
 		x = 2
 		y = 6
 		relative_position_id = AVT_luanservy_subjugated
-		cost = 0.2
+		cost = 2
 		ai_will_do = {
 			factor = 5
 		}
-		#COMPLETED THROUGH EVENT
+		
 		completion_reward = {
-			add_political_power = 50
+			country_event = { id = avt_swiftguardevent.32 days = 1 }
 		}
 	}
-
+	
+	focus = {
+		id = AVT_aristocratic_army_swiftguardtree
+		icon = AVT_GFX_Aristocratic_Army
+		x = 20
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			army_experience = 25
+			IF = {
+				limit = {
+					NOT = {
+						AVT = {
+							has_tech = special_forces_concept
+						}
+					}
+				}
+				set_technology = {
+					special_forces_concept = 1
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_windrider_gallants_swiftguardtree
+		icon = AVT_GFX_WindRider_Galants
+		prerequisite = { focus = AVT_aristocratic_army_swiftguardtree }
+		x = -2
+		y = 1
+		relative_position_id = AVT_aristocratic_army_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+                bonus = 0.75
+                uses = 2
+                category = racial
+            }
+		}
+	}
+	
+	focus = {
+		id = AVT_support_artillery_development_swiftguardtree
+		icon = AVT_GFX_Support_Equipment_Improvements
+		prerequisite = { focus = AVT_windrider_gallants_swiftguardtree }
+		x = -2
+		y = 2
+		relative_position_id = AVT_aristocratic_army_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = AVT_aristocratic_arty_01
+			add_tech_bonus = {
+                bonus = 0.75
+                uses = 2
+                category = artillery
+            }
+		}
+	}
+	
+	focus = {
+		id = AVT_cloud_artillery_swiftguardtree
+		icon = AVT_GFX_CloudArty
+		prerequisite = { focus = AVT_support_artillery_development_swiftguardtree }
+		x = -2
+		y = 3
+		relative_position_id = AVT_aristocratic_army_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = AVT_aristocratic_arty_02
+				remove_idea = AVT_aristocratic_arty_01
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_royal_guard_expansion_swiftguardtree
+		icon = AVT_GFX_Royal_Guard_Expansion
+		prerequisite = { focus = AVT_aristocratic_army_swiftguardtree }
+		x = 1
+		y = 1
+		relative_position_id = AVT_aristocratic_army_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = AVT_aristocratic_army_01
+		}
+	}
+	
+	focus = {
+		id = AVT_armored_companions_swiftguardtree
+		icon = AVT_GFX_Armored_Companions
+		prerequisite = { focus = AVT_royal_guard_expansion_swiftguardtree }
+		x = 1
+		y = 2
+		relative_position_id = AVT_aristocratic_army_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = AVT_aristocratic_army_02
+				remove_idea = AVT_aristocratic_army_01
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_help_the_wounded_swiftguardtree
+		icon = AVT_GFX_Help_The_Wounded
+		prerequisite = { focus = AVT_armored_companions_swiftguardtree }
+		x = 0
+		y = 3
+		relative_position_id = AVT_aristocratic_army_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+                bonus = 0.5
+                uses = 2
+                category = category_hospital
+            }
+			add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                category = science_chemistry
+            }
+		}
+	}
+	
+	focus = {
+		id = AVT_tip_of_the_spear_swiftguardtree
+		icon = AVT_GFX_Tip_Of_The_Spear
+		prerequisite = { focus = AVT_armored_companions_swiftguardtree }
+		x = 2
+		y = 3
+		relative_position_id = AVT_aristocratic_army_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_doctrine_cost_reduction =  {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_motor_infantry_experiments_swiftguardtree
+		icon = AVT_GFX_Motorised_Infantry_Experiments
+		prerequisite = { focus = AVT_cloud_artillery_swiftguardtree }
+		prerequisite = { focus = AVT_help_the_wounded_swiftguardtree }
+		prerequisite = { focus = AVT_tip_of_the_spear_swiftguardtree }
+		x = 0
+		y = 4
+		relative_position_id = AVT_aristocratic_army_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+                bonus = 3
+                uses = 1
+                category = infantry_motoreq
+            }
+		}
+	}
+	
+	focus = {
+		id = AVT_avtukovian_shipbuilding_swiftguardtree
+		icon = AVT_GFX_Dockyard
+		x = 26
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			385 = {	
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			377 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_on_our_own_swiftguardtree
+		icon = AVT_GFX_On_Our_Own
+		prerequisite = { focus = AVT_avtukovian_shipbuilding_swiftguardtree }
+		mutually_exclusive = { focus = AVT_oac_cooperation_swiftguardtree focus = AVT_oskil_cooperation_swiftguardtree }
+		x = 0
+		y = 1
+		relative_position_id = AVT_avtukovian_shipbuilding_swiftguardtree
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_gracemare_shipping
+			navy_experience = 10
+		}
+	}
+	
+	focus = {
+		id = AVT_oac_cooperation_swiftguardtree
+		icon = AVT_GFX_AOC
+		prerequisite = { focus = AVT_avtukovian_shipbuilding_swiftguardtree }
+		mutually_exclusive = { focus = AVT_on_our_own_swiftguardtree focus = AVT_oskil_cooperation_swiftguardtree }
+		x = -2
+		y = 1
+		relative_position_id = AVT_avtukovian_shipbuilding_swiftguardtree
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_bacsg
+			navy_experience = 50
+			add_political_power = -50
+		}
+	}
+	
+	focus = {
+		id = AVT_oskil_cooperation_swiftguardtree
+		icon = AVT_GFX_Oskil
+		prerequisite = { focus = AVT_avtukovian_shipbuilding_swiftguardtree }
+		mutually_exclusive = { focus = AVT_oac_cooperation_swiftguardtree focus = AVT_on_our_own_swiftguardtree }
+		x = 2
+		y = 1
+		relative_position_id = AVT_avtukovian_shipbuilding_swiftguardtree
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_oskil_verft
+			navy_experience = 25
+		}
+	}
+	
+	focus = {
+		id = AVT_naval_doctrine_studies_swiftguardtree
+		icon = AVT_GFX_Dockyard_Studies
+		prerequisite = { focus = AVT_on_our_own_swiftguardtree focus = AVT_oac_cooperation_swiftguardtree focus = AVT_oskil_cooperation_swiftguardtree }
+		x = -1
+		y = 2
+		relative_position_id = AVT_avtukovian_shipbuilding_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_ussumki_dockyard_expansion_swiftguardtree
+		icon = AVT_GFX_DockyardExpansion
+		prerequisite = { focus = AVT_on_our_own_swiftguardtree focus = AVT_oac_cooperation_swiftguardtree focus = AVT_oskil_cooperation_swiftguardtree }
+		x = 1
+		y = 2
+		relative_position_id = AVT_avtukovian_shipbuilding_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			382 = {	
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_ship_design_competition_swiftguardtree
+		icon = AVT_GFX_Design_comp
+		prerequisite = { focus = AVT_naval_doctrine_studies_swiftguardtree }
+		prerequisite = { focus = AVT_ussumki_dockyard_expansion_swiftguardtree }
+		x = 0
+		y = 3
+		relative_position_id = AVT_avtukovian_shipbuilding_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = naval_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_colonial_marines_swiftguardtree
+		icon = AVT_GFX_NavyMarines
+		prerequisite = { focus = AVT_naval_doctrine_studies_swiftguardtree }
+		prerequisite = { focus = AVT_ussumki_dockyard_expansion_swiftguardtree }
+		x = -2
+		y = 3
+		relative_position_id = AVT_avtukovian_shipbuilding_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			has_tech = tech_logistics_company
+		}
+		
+		completion_reward = {
+			load_oob = AVT_COLONIALTROOPS
+		}
+	}
+	
+	focus = {
+		id = AVT_avtukovian_trade_company_swiftguardtree
+		icon = AVT_GFX_TradeCompany
+		prerequisite = { focus = AVT_naval_doctrine_studies_swiftguardtree }
+		prerequisite = { focus = AVT_ussumki_dockyard_expansion_swiftguardtree }
+		x = 2
+		y = 3
+		relative_position_id = AVT_avtukovian_shipbuilding_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = AVT_avtukovian_trading_company
+		}
+	}
+	
+	focus = {
+		id = AVT_dew_lily_boat_swiftguardtree
+		icon = AVT_GFX_Lily
+		prerequisite = { focus = AVT_ship_design_competition_swiftguardtree }
+		x = 0
+		y = 4
+		relative_position_id = AVT_avtukovian_shipbuilding_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			IF = {
+				limit = { has_dlc = "Man the Guns" }
+				has_tech = heavy_ship_tech_3
+				has_tech = spotting_equipment_2
+				has_tech = breech_loaded_cannons
+				has_tech = gatling_gun
+				has_tech = improved_carronade
+			}
+			ELSE = {
+				has_tech = heavy_ship_poverty_3
+			}
+		}
+		
+		completion_reward = {
+			IF = {
+				limit = { has_dlc = "Man the Guns" }
+				create_equipment_variant = {
+					name = "Dew Lily Class"								
+					type = ship_hull_heavy_3
+					modules = {
+						fixed_ship_battery_slot = heavy_naval_battery_3
+						fixed_ship_anti_air_slot = naval_anti_air_2
+						fixed_ship_fire_control_system_slot = spotting_equipment_2
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = ship_of_the_line_propulsion_3
+						fixed_ship_armor_slot = heavy_planking_3
+						front_1_custom_slot = naval_carronades_2
+						mid_1_custom_slot = heavy_naval_battery_3
+						mid_3_custom_slot = heavy_naval_battery_3
+						mid_2_custom_slot = light_naval_battery_3
+						mid_4_custom_slot = light_naval_battery_3
+						rear_1_custom_slot = naval_anti_air_2
+					}
+				}
+				load_oob = "AVT_IANS_DEW_LILY"
+				
+				ELSE = {
+					load_oob = "AVT_IANS_DEW_LILY"
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_reach_for_the_skies_swiftguardtree
+		icon = AVT_GFX_Reaching_For_Sky
+		x = 34
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_air
+			}
+			air_experience = 25
+		}
+	}
+	
+	focus = {
+		id = AVT_cloud_bliss_plan_swiftguardtree
+		icon = AVT_GFX_Bliss
+		prerequisite = { focus = AVT_reach_for_the_skies_swiftguardtree }
+		mutually_exclusive = { focus = AVT_dazzleflash_plan_swiftguardtree }
+		x = -1
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 1
+				category = cat_strategic_airship_implementation
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_dazzleflash_plan_swiftguardtree
+		icon = AVT_GFX_Flash		
+		prerequisite = { focus = AVT_reach_for_the_skies_swiftguardtree }
+		mutually_exclusive = { focus = AVT_cloud_bliss_plan_swiftguardtree }
+		x = 1
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 1
+				category = cat_air_parity
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_sky_carrier_development_swiftguardtree
+		icon = AVT_GFX_Examin_Forgein_Carriers
+		prerequisite = { focus = AVT_cloud_bliss_plan_swiftguardtree focus = AVT_dazzleflash_plan_swiftguardtree }
+		x = 0
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_skycarrier
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_air_doctrine_studies_swiftguardtree
+		icon = AVT_GFX_Air_Doctrine_Studies
+		prerequisite = { focus = AVT_sky_carrier_development_swiftguardtree }
+		x = 0
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_southern_air_infrastructure_swiftguardtree
+		icon = AVT_GFX_Air_Infrastructure
+		prerequisite = { focus = AVT_reach_for_the_skies_swiftguardtree }
+		x = -3
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			463 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			456 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			452 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			420 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			462 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_eastern_air_infrastructure_swiftguardtree
+		icon = AVT_GFX_Air_Infrastructure_02
+		prerequisite = { focus = AVT_reach_for_the_skies_swiftguardtree }
+		x = 3
+		y = 1
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			403 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			411 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			404 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			414 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			412 = {	
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_import_bombardiers_swiftguardtree
+		icon = AVT_GFX_Examin_Forgein_Bombardiers
+		prerequisite = { focus = AVT_cloud_bliss_plan_swiftguardtree }
+		mutually_exclusive = { focus = AVT_import_air_frigates_swiftguardtree }
+		x = -4
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_bombardier
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_import_air_frigates_swiftguardtree
+		icon = AVT_GFX_Examin_Forgein_Frigates
+		prerequisite = { focus = AVT_cloud_bliss_plan_swiftguardtree }
+		mutually_exclusive = { focus = AVT_import_bombardiers_swiftguardtree }
+		x = -2
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_airfrigate
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_aksarino_crystal_mines_swiftguardtree
+		icon = AVT_GFX_CrystalMines
+		prerequisite = { focus = AVT_import_bombardiers_swiftguardtree focus = AVT_import_air_frigates_swiftguardtree }
+		x = -4
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			384 = {	
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = crystals
+					amount = 20
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_airship_design_committee_swiftguardtree
+		icon = AVT_GFX_Design_Committee
+		prerequisite = { focus = AVT_import_bombardiers_swiftguardtree focus = AVT_import_air_frigates_swiftguardtree }
+		x = -2
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_kppd
+		}
+	}
+	
+	focus = {
+		id = AVT_sky_cruiser_experiments_swiftguardtree
+		icon = AVT_GFX_Examin_Forgein_Cruiser
+		prerequisite = { focus = AVT_aksarino_crystal_mines_swiftguardtree focus = AVT_airship_design_committee_swiftguardtree }
+		x = -3
+		y = 4
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = category_skycruiser
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_prioritise_air_skirmishers_swiftguardtree
+		icon = AVT_GFX_AirSkirmisher
+		prerequisite = { focus = AVT_dazzleflash_plan_swiftguardtree }
+		mutually_exclusive = { focus = AVT_prioritise_air_strikers_swiftguardtree }
+		x = 2
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_air_skirmisher
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_prioritise_air_strikers_swiftguardtree
+		icon = AVT_GFX_AirStriker
+		prerequisite = { focus = AVT_dazzleflash_plan_swiftguardtree }
+		mutually_exclusive = { focus = AVT_prioritise_air_skirmishers_swiftguardtree }
+		x = 4
+		y = 2
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = category_air_striker
+			}
+		}
+	}
+	
+	focus = {
+		id = AVT_skirmisher_flight_schools_swiftguardtree
+		icon = AVT_GFX_FlightSchools
+		prerequisite = { focus = AVT_prioritise_air_skirmishers_swiftguardtree focus = AVT_prioritise_air_strikers_swiftguardtree }
+		x = 2
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = AVT_designer_morechny_academy
+		}
+	}
+	
+	focus = {
+		id = AVT_alchemical_stimulants_swiftguardtree
+		icon = AVT_GFX_Chemical_Stimulants
+		prerequisite = { focus = AVT_prioritise_air_skirmishers_swiftguardtree focus = AVT_prioritise_air_strikers_swiftguardtree }
+		x = 4
+		y = 3
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = AVT_straight_up_meth_bro
+		}
+	}
+	
+	focus = {
+		id = AVT_perfected_skirmisher_equipment_swiftguardtree
+		icon = AVT_GFX_Perfected_Equipment
+		prerequisite = { focus = AVT_skirmisher_flight_schools_swiftguardtree focus = AVT_alchemical_stimulants_swiftguardtree }
+		x = 3
+		y = 4
+		relative_position_id = AVT_reach_for_the_skies_swiftguardtree
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = category_air_skirmisher
+			}
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = category_air_striker
+			}
+		}
+	}
 }
