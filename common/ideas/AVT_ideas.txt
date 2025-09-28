@@ -1513,7 +1513,7 @@ ideas = {
 				
 			modifier = {
 				monthly_population = -1.2
-				manpower_weekly = -2000
+				weekly_manpower = -2000
 				industrial_capacity_factory = -0.7
 				industrial_capacity_dockyard = -0.7
 				ideology_militarism_drift = -0.5
@@ -1528,7 +1528,7 @@ ideas = {
 				
 			modifier = {
 				monthly_population = -0.3
-				manpower_weekly = -500
+				weekly_manpower = -500
 				industrial_capacity_factory = -0.3
 				industrial_capacity_dockyard = -0.3
 				ideology_militarism_drift = -0.1
@@ -1616,6 +1616,19 @@ ideas = {
 				
 			modifier = {
 				consumer_goods_expected_value = -0.15
+			}
+		}
+		
+		AVT_a_deal_with_the_sirens_idea = {
+			removal_cost = -1
+			available = {
+				always = yes
+			}
+				
+			modifier = {
+				weekly_manpower = -50
+				transport_capacity = -0.25
+				naval_invasion_capacity = 10
 			}
 		}
 		
@@ -1710,7 +1723,7 @@ ideas = {
 			
 			equipment_bonus = {
 				cannon_equipment = {
-					maximum_speed = 1
+					maximum_speed = 0.33
 					soft_attack = 0.10
 					hard_attack = 0.20
 					ap_attack = 0.25
@@ -1747,7 +1760,7 @@ ideas = {
 			equipment_bonus = {
 				rifle_equipment = {
 					soft_attack = 0.2
-					armor_value = 1
+					armor_value = 0.1
 					instant = yes
 				}
 			}
@@ -1806,7 +1819,11 @@ ideas = {
 			picture = no
 
 			available = {
-				has_completed_focus = AVT_on_our_own
+				OR = {
+					has_completed_focus = AVT_on_our_own
+					has_completed_focus = AVT_on_our_own_elusivetree
+					has_completed_focus = AVT_on_our_own_swiftguardtree
+				}
 			}
 			
 			allowed = {
@@ -1841,7 +1858,11 @@ ideas = {
 			picture = no
 
 			available = {
-				has_completed_focus = AVT_on_our_own
+				OR = {
+					has_completed_focus = AVT_oac_cooperation
+					has_completed_focus = AVT_oac_cooperation_elusivetree
+					has_completed_focus = AVT_oac_cooperation_swiftguardtree
+				}
 			}
 			
 			allowed = {
@@ -1882,7 +1903,11 @@ ideas = {
 			picture = no
 
 			available = {
-				has_completed_focus = AVT_on_our_own
+				OR = {
+					has_completed_focus = AVT_oskil_cooperation
+					has_completed_focus = AVT_oskil_cooperation_elusivetree
+					has_completed_focus = AVT_oskil_cooperation_swiftguardtree
+				}
 			}
 			
 			allowed = {
@@ -1924,7 +1949,11 @@ ideas = {
 			picture = no
 
 			available = {
-				has_completed_focus = AVT_airship_design_committee
+				OR = {
+					has_completed_focus = AVT_airship_design_committee
+					has_completed_focus = AVT_airship_design_committee_elusivetree
+					has_completed_focus = AVT_airship_design_committee_swiftguardtree
+				}
 			}
 			
 			allowed = {
@@ -1956,7 +1985,11 @@ ideas = {
 			picture = no
 
 			available = {
-				has_completed_focus = AVT_skirmisher_flight_schools
+				OR = {
+					has_completed_focus = AVT_skirmisher_flight_schools
+					has_completed_focus = AVT_skirmisher_flight_schools_elusivetree
+					has_completed_focus = AVT_skirmisher_flight_schools_swiftguardtree
+				}
 			}
 			
 			allowed = {
