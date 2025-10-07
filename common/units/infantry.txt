@@ -42,7 +42,7 @@ sub_units = {
 		combat_width = 2
 		#Size Definitions
 		max_strength = 20
-		max_organisation = 30
+		max_organisation = 80
 		default_morale = 0.1
 		manpower = 1250
 
@@ -91,7 +91,7 @@ sub_units = {
 		combat_width = 2
 		#Size Definitions
 		max_strength = 15
-		max_organisation = 20
+		max_organisation = 80
 		default_morale = 0.1
 		manpower = 1250
 
@@ -192,7 +192,7 @@ sub_units = {
 		#Size Definitions
 		max_strength = 20
 		
-		max_organisation = 30
+		max_organisation = 80
 		default_morale = 0.1
 		manpower = 1250
 
@@ -264,7 +264,7 @@ sub_units = {
 		combat_width = 2
 		#Size Definitions
 		max_strength = 20
-		max_organisation = 30
+		max_organisation = 80
 		default_morale = 0.1
 		manpower = 1350
 
@@ -324,7 +324,7 @@ sub_units = {
 		combat_width = 0
 		#Size Definitions
 		max_strength = 0
-		max_organisation = 15
+		max_organisation = 0
 		default_morale = 0.1
 		manpower = 100
 
@@ -399,7 +399,7 @@ sub_units = {
 		combat_width = 0
 		#Size Definitions
 		max_strength = 0
-		max_organisation = 5
+		max_organisation = 0
 		default_morale = 0.1
 		manpower = 300
 
@@ -448,7 +448,7 @@ sub_units = {
 		combat_width = 0
 		#Size Definitions
 		max_strength = 0
-		max_organisation = 5
+		max_organisation = 0
 		default_morale = 0.1
 		manpower = 300
 
@@ -496,7 +496,7 @@ sub_units = {
 		combat_width = 0
 		#Size Definitions
 		max_strength = 0
-		max_organisation = 5
+		max_organisation = 0
 		default_morale = 0.1
 		manpower = 300
 
@@ -546,7 +546,7 @@ sub_units = {
 		combat_width = 0
 		#Size Definitions
 		max_strength = 0
-		max_organisation = 5
+		max_organisation = 0
 		default_morale = 0.1
 		manpower = 300
 
@@ -597,7 +597,7 @@ sub_units = {
 		combat_width = 0
 		#Size Definitions
 		max_strength = 0
-		max_organisation = 5
+		max_organisation = 0
 		default_morale = 0.1
 		manpower = 300
 
@@ -648,7 +648,7 @@ sub_units = {
 		combat_width = 0
 		#Size Definitions
 		max_strength = 0
-		max_organisation = 5
+		max_organisation = 0
 		default_morale = 0.1
 		manpower = 300
 		supply_consumption = -0.1
@@ -714,7 +714,7 @@ sub_units = {
 		combat_width = 2
 		#Size Definitions
 		max_strength = 20
-		max_organisation = 30
+		max_organisation = 80
 		default_morale = 0.1
 		manpower = 1250
 
@@ -790,7 +790,7 @@ sub_units = {
 		#maximum_speed = 0.34
 		#Size Definitions
 		max_strength = 20
-		max_organisation = 30
+		max_organisation = 80
 		default_morale = 0.1
 		manpower = 1250
 
@@ -889,7 +889,7 @@ sub_units = {
 		#maximum_speed = -0.33
 		#Size Definitions
 		max_strength = 20
-		max_organisation = 30
+		max_organisation = 80
 		default_morale = 0.1
 		manpower = 1250
 
@@ -951,7 +951,7 @@ sub_units = {
 		}
 		manpower = 600
 		training_time = 40
-		max_organisation = -10
+		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -988,7 +988,7 @@ sub_units = {
 		}
 		manpower = 600
 		training_time = 40
-		max_organisation = -15
+		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -1067,7 +1067,7 @@ sub_units = {
 		}
 		manpower = 600
 		training_time = 40
-		max_organisation = -20
+		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -1145,7 +1145,7 @@ sub_units = {
 		}
 		manpower = 600
 		training_time = 40
-		max_organisation = -25
+		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -1215,7 +1215,7 @@ sub_units = {
 		}
 		manpower = 600
 		training_time = 40
-		max_organisation = -20
+		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -1293,7 +1293,7 @@ sub_units = {
 
 		manpower = 600
 		training_time = 40
-		max_organisation = -15
+		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0
 		weight = 0.25
@@ -1378,7 +1378,7 @@ sub_units = {
 		}
 		manpower = 300
 		training_time = 40
-		max_organisation = -10
+		max_organisation = 0
 		default_morale = 0
 		max_strength = 0
 		weight = 0.05
@@ -1468,7 +1468,7 @@ sub_units = {
 		}
 		manpower = 300
 		training_time = 40
-		max_organisation = -10
+		max_organisation = 0
 		default_morale = 0
 		max_strength = 0
 		weight = 0.05
@@ -1556,7 +1556,7 @@ sub_units = {
 		}
 		manpower = 300
 		training_time = 40
-		max_organisation = -10
+		max_organisation = 0
 		default_morale = 0
 		max_strength = 0
 		weight = 0.05
@@ -1636,7 +1636,7 @@ sub_units = {
 		}
 		manpower = 300
 		training_time = 40
-		max_organisation = -10
+		max_organisation = 0
 		default_morale = 0
 		max_strength = 0
 		weight = 0.05
@@ -1724,7 +1724,7 @@ sub_units = {
 		}
 		manpower = 300
 		training_time = 40
-		max_organisation = -10
+		max_organisation = 0
 		default_morale = 0
 		max_strength = 0
 		weight = 0.05

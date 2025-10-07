@@ -33,7 +33,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 20.0
-		max_organisation = 30
+		max_organisation = 80
 		default_morale = 0.1
 		manpower = 1250
 
@@ -89,7 +89,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 15
-		max_organisation = 25
+		max_organisation = 50
 		default_morale = 0.1
 		manpower = 1250
 
@@ -140,7 +140,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 0
-		max_organisation = 15
+		max_organisation = 0
 		default_morale = 0.1
 		manpower = 300
 
@@ -187,7 +187,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 0
-		max_organisation = 10
+		max_organisation = 0
 		default_morale = 0.1
 		manpower = 5
 
