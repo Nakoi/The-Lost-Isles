@@ -1014,8 +1014,8 @@ technologies = {
 	feudal_armies = {
 
 		max_planning = 0.075
-		army_morale_factor = 0.15
-		supply_consumption_factor = 0.05
+		army_morale_factor = 0.05
+		#supply_consumption_factor = 0.05
 		land_reinforce_rate = 0.02
 		training_time_army = 10
 
@@ -1082,8 +1082,8 @@ technologies = {
 	mercenary_auxiliaries = {
 
 		max_planning = 0.075
-		army_morale_factor = 0.15
-		supply_consumption_factor = 0.05
+		army_morale_factor = 0.05
+		#supply_consumption_factor = 0.05
 		land_reinforce_rate = 0.02
 		training_time_army = 15
 		
@@ -1150,8 +1150,8 @@ technologies = {
 	professional_officers = {
 
 		max_planning = 0.075
-		army_morale_factor = 0.15
-		supply_consumption_factor = 0.05
+		army_morale_factor = 0.05
+		#supply_consumption_factor = 0.05
 		land_reinforce_rate = 0.02
 		training_time_army = 15
 		
@@ -1218,8 +1218,8 @@ technologies = {
 	centralised_planning = {
 
 		max_planning = 0.075
-		army_morale_factor = 0.15
-		supply_consumption_factor = 0.10
+		army_morale_factor = 0.05
+		#supply_consumption_factor = 0.10
 		land_reinforce_rate = 0.02
 		training_time_army = 20
 		
@@ -1291,8 +1291,8 @@ technologies = {
 	army_organisation4 = {
 
 		max_planning = 0.075
-		army_morale_factor = 0.2
-		supply_consumption_factor = 0.05
+		army_morale_factor = 0.1
+		#supply_consumption_factor = 0.05
 		land_reinforce_rate = 0.02
 		training_time_army = 15
 		
@@ -1331,8 +1331,8 @@ technologies = {
 	divisional_structure = {
 
 		max_planning = 0.075
-		army_morale_factor = 0.2
-		supply_consumption_factor = 0.10
+		army_morale_factor = 0.1
+		#supply_consumption_factor = 0.10
 		land_reinforce_rate = 0.02
 		training_time_army = 15
 		
@@ -1399,8 +1399,8 @@ technologies = {
 
 		max_planning = 0.075
 		planning_speed = 0.05
-		army_morale_factor = 0.2
-		supply_consumption_factor = 0.10
+		army_morale_factor = 0.1
+		#supply_consumption_factor = 0.10
 		land_reinforce_rate = 0.02
 		training_time_army = 15
 		
