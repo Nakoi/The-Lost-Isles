@@ -105,7 +105,7 @@ leader_traits = {
 		attack_skill = 5
 		
 		modifier = {
-			experience_loss_factor = 0.25
+			experience_gain_army_unit_factor = -0.25
 		}
 
 		new_commander_weight = {
@@ -367,7 +367,7 @@ leader_traits = {
 		
 		modifier = {
 			army_attack_factor = 0.15
-			experience_loss_factor = 0.15
+			experience_gain_army_unit_factor = -0.15
 		}
 		
 		ai_will_do = {
@@ -443,7 +443,7 @@ leader_traits = {
 		
 		modifier = {
 			army_speed_factor = 0.20
-			experience_loss_factor = 0.15
+			experience_gain_army_unit_factor = -0.15
 			org_loss_when_moving = 0.05
 		}
 		
@@ -579,7 +579,7 @@ leader_traits = {
 			
 		modifier = {
 			army_attack_factor = 0.10
-			experience_loss_factor = 0.1
+			experience_gain_army_unit_factor = 0.1
 		}
 		
 		ai_will_do = {
@@ -757,7 +757,7 @@ leader_traits = {
 		attack_skill = -2
 		
 		modifier = {
-			experience_loss_factor = -0.2
+			experience_gain_army_unit_factor = 0.2
 		}
 		
 		ai_will_do = {
