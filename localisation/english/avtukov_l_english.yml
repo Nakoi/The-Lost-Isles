@@ -29,6 +29,20 @@
  AVU_ideology_solidarism_DEF:0 "The Mage Rebellion"
  AVU_ideology_continuism_DEF:0 "The Mage Rebellion"
  AVU_ideology_isolationism_DEF:0 "The Mage Rebellion"
+ 
+ AVU_voronypath_costag_ideology_militarism:0 "Magavo Technocracy"
+ AVU_voronypath_costag_ideology_imperialism:0 "Magavo Technocracy"
+ AVU_voronypath_costag_ideology_visionarism_:0 "Magavo Technocracy"
+ AVU_voronypath_costag_ideology_solidarism:0 "Magavo Technocracy"
+ AVU_voronypath_costag_ideology_continuism:0 "Magavo Technocracy"
+ AVU_voronypath_costag_ideology_isolationism:0 "Magavo Technocracy"
+ 
+ AVU_voronypath_costag_ideology_militarism_DEF:0 "The Magavo Technocracy"
+ AVU_voronypath_costag_ideology_imperialism_DEF:0 "The Magavo Technocracy"
+ AVU_voronypath_costag_ideology_visionarism_DEF:0 "The Magavo Technocracy"
+ AVU_voronypath_costag_ideology_solidarism_DEF:0 "The Magavo Technocracy"
+ AVU_voronypath_costag_ideology_continuism_DEF:0 "The Magavo Technocracy"
+ AVU_voronypath_costag_ideology_isolationism_DEF:0 "The Magavo Technocracy"
 
  AVU_ADJ:0 "Avtukian"
  
@@ -61,6 +75,20 @@
  AVE_ideology_solidarism_DEF:0 "The Vorony Rebellion"
  AVE_ideology_continuism_DEF:0 "The Vorony Rebellion"
  AVE_ideology_isolationism_DEF:0 "The Vorony Rebellion"
+ 
+ AVE_voronypath_costag_ideology_militarism:0 "Principality of Vorony-Gracemare"
+ AVE_voronypath_costag_ideology_imperialism:0 "Principality of Vorony-Gracemare"
+ AVE_voronypath_costag_ideology_visionarism:0 "Principality of Vorony-Gracemare"
+ AVE_voronypath_costag_ideology_solidarism:0 "Principality of Vorony-Gracemare"
+ AVE_voronypath_costag_ideology_continuism:0 "Principality of Vorony-Gracemare"
+ AVE_voronypath_costag_ideology_isolationism:0 "Principality of Vorony-Gracemare"
+ 
+ AVE_voronypath_costag_ideology_militarism_DEF:0 "The Principality of Vorony-Gracemare"
+ AVE_voronypath_costag_ideology_imperialism_DEF:0 "The Principality of Vorony-Gracemare"
+ AVE_voronypath_costag_ideology_visionarism_DEF:0 "The Principality of Vorony-Gracemare"
+ AVE_voronypath_costag_ideology_solidarism_DEF:0 "The Principality of Vorony-Gracemare"
+ AVE_voronypath_costag_ideology_continuism_DEF:0 "The Principality of Vorony-Gracemare"
+ AVE_voronypath_costag_ideology_isolationism_DEF:0 "The Principality of Vorony-Gracemare"
 
  AVE_ADJ:0 "Avtukian"
  
@@ -107,6 +135,20 @@
  AVP_postcivwar_costag_ideology_solidarism_DEF:0 "The Avtukian Tsardom"
  AVP_postcivwar_costag_ideology_continuism_DEF:0 "The Avtukian Tsardom"
  AVP_postcivwar_costag_ideology_isolationism_DEF:0 "The Avtukian Tsardom"
+ 
+ AVP_voronypath_costag_ideology_militarism:0 "March of Morechny"
+ AVP_voronypath_costag_ideology_imperialism:0 "March of Morechny"
+ AVP_voronypath_costag_ideology_visionarism:0 "March of Morechny"
+ AVP_voronypath_costag_ideology_solidarism:0 "March of Morechny"
+ AVP_voronypath_costag_ideology_continuism:0 "March of Morechny"
+ AVP_voronypath_costag_ideology_isolationism:0 "March of Morechny"
+ 
+ AVP_voronypath_costag_ideology_militarism_DEF:0 "The March of Morechny"
+ AVP_voronypath_costag_ideology_imperialism_DEF:0 "The March of Morechny"
+ AVP_voronypath_costag_ideology_visionarism_DEF:0 "The March of Morechny"
+ AVP_voronypath_costag_ideology_solidarism_DEF:0 "The March of Morechny"
+ AVP_voronypath_costag_ideology_continuism_DEF:0 "The March of Morechny"
+ AVP_voronypath_costag_ideology_isolationism_DEF:0 "The March of Morechny"
 
  AVP_ADJ:0 "Avtukian"
  
@@ -257,6 +299,19 @@
  AVT_light_the_flame_desc:0 ""
  AVT_pegasi_take_charge:0 "The Swiftguards Take Charge"
  AVT_pegasi_take_charge_desc:0 ""
+ 
+ AVT_dissolution_of_avtukia:0 "The Dissolution of Avtukia"
+ AVT_dissolution_of_avtukia_desc:0 ""
+ AVT_install_puppet_tsaritsa:0 "Install the Puppet Tsaritsa"
+ AVT_install_puppet_tsaritsa_desc:0 ""
+ AVT_form_vorony:0 "Form the Vorony-Gracemare Duchy"
+ AVT_form_vorony_desc:0 ""
+ AVT_form_magavo:0 "Form the Magavo Technocracy"
+ AVT_form_magavo_desc:0 ""
+ AVT_form_morechny:0 "Form the March of Morechny"
+ AVT_form_morechny_desc:0 ""
+ AVT_goodbye_forever:0 "Goodbye, Forever"
+ AVT_goodbye_forever_desc:0 ""
  
 ###FOCUS LOCALISATION - EARLYGAME - CIVIL WAR###
  AVT_tsar_civwar_focus:0 "The Civil War"
@@ -1063,6 +1118,10 @@
  avt_event.16.d:0 "The *real* Tsar declares martial law and calls his loyalists to arms (event from the rebel perspective)"
  avt_event.16.a:0 ""
  
+ avt_event.17.t:0 ""
+ avt_event.17.d:0 "Cherry Cupcake talks to a terrified Elusive about what is going to happen next. Elusive is to sit idly while Cherry and Emerald divide Avtukia up and leave her as a Tsaritsa of her very own rump state. Elusive, terrified as she is, agrees to all of Cherry's demands."
+ avt_event.17.a:0 ""
+ 
  
  avt_civwarevent.0.t:0 "bruh"
  avt_civwarevent.0.d:0 "civil war beginning event"
@@ -1463,6 +1522,22 @@
  avt_swiftguardevent.32.d:0 "Synopsis: The conquest is complete. The council must make one final choice, between settling down and consolidating what they have and bringing war to Equestria, Zebrica and Griffonstone."
  avt_swiftguardevent.32.a:0 "Enough is enough. The time for war is over."
  
+ avt_voronyevent.1.t:0 "The Formation of the Principality of Vorony-Gracemare"
+ avt_voronyevent.1.d:0 ""
+ avt_voronyevent.1.a:0 "epic"
+ 
+ avt_voronyevent.2.t:0 "The Formation of the Magavo Technocracy"
+ avt_voronyevent.2.d:0 ""
+ avt_voronyevent.2.a:0 "epic"
+ 
+ avt_voronyevent.3.t:0 "The Formation of the March of Morechny"
+ avt_voronyevent.3.d:0 ""
+ avt_voronyevent.3.a:0 "epic"
+ 
+ avt_voronyevent.4.t:0 "The Pegasi Rebel!"
+ avt_voronyevent.4.d:0 ""
+ avt_voronyevent.4.a:0 "Traitors!"
+ 
 ###TOOLTIP LOCALISATION - EARLYGAME###
  AVTtt_tsaritsa_takeover:0 "§YHer Majesty Elusive Gem, by the Grace of the Sun, Tsaritsa of all Avtukia, Grand Duchess of Oskil ascends to the throne!§!"
  
@@ -1485,6 +1560,10 @@
  AVTtt_civil_war_loyal_pegasi_forming:0 "§GPegasi loyal to the Tsar answer the call!§!"
  AVTtt_civil_war_oskil_leaving_faction:0 "§YThe Grand Duchy of Oskil will remain neutral throughout the civil war, and will rejoin upon its conclusion!§!"
  AVTtt_civil_war_begins_in_a_week:0 "§RThe civil war starts in one week!§!"
+ 
+ AVTtt_vorony_federal_entity_formation:0 "§GOut of a fractured Avtukia, a new nation rises!§!"
+ AVTtt_unicorn_federal_entity_formation:0 "§GOut of a fractured Avtukia, a new nation rises!§!"
+ AVTtt_pegasus_federal_entity_formation:0 "§GOut of a fractured Avtukia, a new nation rises!§!"
  
  AVTtt_tsar_civwar_divisions_1:0 "Deploys five regular divisions in the capital!"
  AVTtt_mage_civwar_apprentices:0 "The Apprentices of the War Magic Academy will be deployed in unicorn support companies across all §YKopytnaya Rat'§! divisions!"
