@@ -3,6 +3,7 @@ add_namespace = avt_civwarevent
 add_namespace = avt_tsarevent
 add_namespace = avt_elusiveevent
 add_namespace = avt_swiftguardevent
+add_namespace = avt_voronyevent
 
 ###EARLY GAME TSAR###
 
@@ -472,7 +473,27 @@ country_event = {
 			ideology = ideology_imperialism
 			popularity = -0.1
 		}
-		AVT = { country_event = { id = avt_event.16 days = 3 } }
+		custom_effect_tooltip = AVTtt_tsaritsa_takeover
+		hidden_effect = {
+            retire_country_leader = yes
+			set_politics = {
+				ruling_party = ideology_continuism
+				elections_allowed = no
+			}
+            add_country_leader_role = {
+                character = AVT_tzaritsa
+                promote_leader = yes
+                country_leader = {
+                    ideology = continuism_thing
+                    expire = "1965.1.1"
+                    id=-1
+                }
+            }
+			AVT = { 
+				load_focus_tree = avtukov_vorony_dissolution_focus 
+				complete_national_focus = AVT_dissolution_of_avtukia
+			}
+        }
 	}
 }
 
@@ -505,6 +526,20 @@ country_event = {
 	option = {
 		name = avt_event.16.a
 		AVT = { country_event = { id = avt_civwarevent.0 days = 3 } }
+	}
+}
+
+country_event = {
+	id = avt_event.17
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_event.17" }
+	title = avt_event.17.t
+	desc = avt_event.17.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_event.17.a
 	}
 }
 
@@ -5354,5 +5389,263 @@ country_event = {
 	
 	option = {
 		name = avt_swiftguardevent.32.a
+	}
+}
+
+country_event = {
+	id = avt_voronyevent.1
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_voronyevent.1"}
+	title = avt_voronyevent.1.t
+	desc = avt_voronyevent.1.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_voronyevent.1.a
+		custom_effect_tooltip = AVTtt_vorony_federal_entity_formation
+		hidden_effect = {
+			AVE = {
+				transfer_state = 378
+				transfer_state = 381
+				transfer_state = 377
+				transfer_state = 380
+				transfer_state = 389
+				transfer_state = 388
+				transfer_state = 390
+				transfer_state = 421
+				transfer_state = 422
+				transfer_state = 423
+				transfer_state = 379
+				transfer_state = 382
+				transfer_state = 436
+				transfer_state = 439
+				transfer_state = 440
+				transfer_state = 438
+				transfer_state = 441
+				transfer_state = 443
+				transfer_state = 444
+				transfer_state = 451
+				transfer_state = 384
+				transfer_state = 385
+				transfer_state = 435
+				transfer_state = 386
+				transfer_state = 437
+				transfer_state = 387
+				transfer_state = 367
+				transfer_state = 420
+				transfer_state = 452
+				transfer_state = 453
+				
+				add_state_core = 378
+				add_state_core = 381
+				add_state_core = 377
+				add_state_core = 380
+				add_state_core = 389
+				add_state_core = 388
+				add_state_core = 390
+				add_state_core = 421
+				add_state_core = 422
+				add_state_core = 423
+				add_state_core = 379
+				add_state_core = 382
+				add_state_core = 436
+				add_state_core = 439
+				add_state_core = 440
+				add_state_core = 438
+				add_state_core = 441
+				add_state_core = 443
+				add_state_core = 444
+				add_state_core = 451
+				add_state_core = 384
+				add_state_core = 385
+				add_state_core = 435
+				add_state_core = 386
+				add_state_core = 437
+				add_state_core = 387
+				add_state_core = 367
+				add_state_core = 420
+				add_state_core = 452
+				add_state_core = 453
+				
+				set_capital = { state = 377 }
+				inherit_technology = AVT
+				load_focus_tree = generic_focus
+				load_oob = "AVT_CIVILWARTROOPS_AVE"
+				set_cosmetic_tag = AVE_voronypath_costag
+				AVT = { add_to_faction = AVE }
+			}
+			AVE = {
+				IF = { 
+					limit = {
+						ROOT = { has_country_flag = avt_tax_evaders_flag }
+					}
+					change_tag_from = ROOT
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = avt_voronyevent.2
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_voronyevent.2"}
+	title = avt_voronyevent.2.t
+	desc = avt_voronyevent.2.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_voronyevent.2.a
+		custom_effect_tooltip = AVTtt_unicorn_federal_entity_formation
+		hidden_effect = {
+			AVU = {            
+				transfer_state = 349
+				transfer_state = 392
+				transfer_state = 391
+				transfer_state = 425
+				transfer_state = 393
+				transfer_state = 424
+				transfer_state = 442
+				transfer_state = 426
+				transfer_state = 427
+				transfer_state = 394
+				transfer_state = 428
+				transfer_state = 395
+				transfer_state = 432
+				transfer_state = 429
+				transfer_state = 446
+				transfer_state = 445
+				transfer_state = 454
+					
+				add_state_core = 349
+				add_state_core = 392
+				add_state_core = 391
+				add_state_core = 425
+				add_state_core = 393
+				add_state_core = 424
+				add_state_core = 442
+				add_state_core = 426
+				add_state_core = 427
+				add_state_core = 394
+				add_state_core = 428
+				add_state_core = 395
+				add_state_core = 432
+				add_state_core = 429
+				add_state_core = 446
+				add_state_core = 445
+				add_state_core = 454
+				
+				set_capital = { state = 394 }
+				inherit_technology = AVT
+				load_focus_tree = generic_focus
+				load_oob = "AVT_CIVILWARTROOPS_AVU"
+				set_cosmetic_tag = AVU_voronypath_costag
+				AVT = { add_to_faction = AVU }
+			}
+			AVU = {
+				IF = { 
+					limit = {
+						ROOT = { has_country_flag = avt_car_bombers_flag }
+					}
+					change_tag_from = ROOT
+				}
+			}
+        }
+	}
+}
+
+country_event = {
+	id = avt_voronyevent.3
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_voronyevent.3"}
+	title = avt_voronyevent.3.t
+	desc = avt_voronyevent.3.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_voronyevent.3.a
+		custom_effect_tooltip = AVTtt_pegasus_federal_entity_formation
+		hidden_effect = {
+			AVP = {            
+				transfer_state = 396
+				transfer_state = 397
+				transfer_state = 398
+				transfer_state = 400
+				transfer_state = 431
+				transfer_state = 399
+				transfer_state = 430
+				transfer_state = 448
+				transfer_state = 401
+				transfer_state = 402
+				transfer_state = 416
+				transfer_state = 403
+				transfer_state = 433
+				transfer_state = 417
+				transfer_state = 411
+				transfer_state = 413
+				transfer_state = 404
+				transfer_state = 414
+				transfer_state = 415
+				transfer_state = 412
+				transfer_state = 405
+				transfer_state = 406
+				transfer_state = 407
+				transfer_state = 408
+				transfer_state = 409
+				transfer_state = 410
+				
+				add_state_core = 396
+				add_state_core = 397
+				add_state_core = 398
+				add_state_core = 400
+				add_state_core = 431
+				add_state_core = 399
+				add_state_core = 430
+				add_state_core = 448
+				add_state_core = 401
+				add_state_core = 402
+				add_state_core = 416
+				add_state_core = 403
+				add_state_core = 433
+				add_state_core = 417
+				add_state_core = 411
+				add_state_core = 413
+				add_state_core = 404
+				add_state_core = 414
+				add_state_core = 415
+				add_state_core = 412
+				add_state_core = 405
+				add_state_core = 406
+				add_state_core = 407
+				add_state_core = 408
+				add_state_core = 409
+				add_state_core = 410
+				
+				set_capital = { state = 431 }
+				inherit_technology = AVT
+				load_focus_tree = generic_focus
+				load_oob = "AVT_CIVILWARTROOPS_AVP"
+				set_cosmetic_tag = AVP_voronypath_costag
+			}
+			AVU = { country_event = { id = avt_voronyevent.4 days = 70 } }
+			AVE = { country_event = { id = avt_voronyevent.4 days = 70 } }
+        }
+	}
+}
+
+country_event = {
+	id = avt_voronyevent.4
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event avt_voronyevent.4"}
+	title = avt_voronyevent.4.t
+	desc = avt_voronyevent.4.d
+	picture = GFX_report_event_blank
+	is_triggered_only = yes
+	major = no
+	
+	option = {
+		name = avt_voronyevent.4.a
 	}
 }
