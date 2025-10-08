@@ -1827,7 +1827,12 @@ ideas = {
 			}
 			
 			allowed = {
-				original_tag = AVT
+				OR = {
+					original_tag = AVT
+					original_tag = AVE
+					original_tag = AVU
+					original_tag = AVP
+				}
 			}
 			
 			cost = 150
@@ -1866,7 +1871,12 @@ ideas = {
 			}
 			
 			allowed = {
-				original_tag = AVT
+				OR = {
+					original_tag = AVT
+					original_tag = AVE
+					original_tag = AVU
+					original_tag = AVP
+				}
 			}
 			
 			cost = 150
@@ -1911,7 +1921,12 @@ ideas = {
 			}
 			
 			allowed = {
-				original_tag = AVT
+				OR = {
+					original_tag = AVT
+					original_tag = AVE
+					original_tag = AVU
+					original_tag = AVP
+				}
 			}
 			
 			cost = 150
@@ -1957,7 +1972,12 @@ ideas = {
 			}
 			
 			allowed = {
-				original_tag = AVT
+				OR = {
+					original_tag = AVT
+					original_tag = AVE
+					original_tag = AVU
+					original_tag = AVP
+				}
 			}
 			
 			cost = 150
@@ -1993,7 +2013,12 @@ ideas = {
 			}
 			
 			allowed = {
-				original_tag = AVT
+				OR = {
+					original_tag = AVT
+					original_tag = AVE
+					original_tag = AVU
+					original_tag = AVP
+				}
 			}
 			
 			cost = 150
