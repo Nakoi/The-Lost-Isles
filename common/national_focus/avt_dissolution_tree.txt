@@ -1,0 +1,134 @@
+focus_tree = {
+    id = avtukov_vorony_dissolution_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = ZZZ
+       }
+    }
+
+    default = no
+
+    continuous_focus_position = { x = 50 y = 3000 }
+
+	focus = {
+		id = AVT_dissolution_of_avtukia
+		icon = AVT_GFX_The_Coup
+		x = 0
+		y = 0
+		cost = 0.2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+			always = no
+		}
+		
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = AVT_install_puppet_tsaritsa
+		prerequisite = { focus = AVT_dissolution_of_avtukia }
+		icon = aaa
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			AVT = { country_event = { id = avt_event.17 days = 1 } }
+		}
+	}
+	
+	focus = {
+		id = AVT_form_vorony
+		prerequisite = { focus = AVT_install_puppet_tsaritsa }
+		icon = aaa
+		x = -1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			AVT = { country_event = { id = avt_voronyevent.1 days = 1 } }
+		}
+	}
+	
+	focus = {
+		id = AVT_form_magavo
+		prerequisite = { focus = AVT_install_puppet_tsaritsa }
+		icon = aaa
+		x = 1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			AVT = { country_event = { id = avt_voronyevent.2 days = 1 } }
+		}
+	}
+	
+	focus = {
+		id = AVT_form_morechny
+		prerequisite = { focus = AVT_form_vorony }
+		prerequisite = { focus = AVT_form_magavo }
+		icon = aaa
+		x = 0
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			AVT = { country_event = { id = avt_voronyevent.3 days = 1 } }
+		}
+	}
+	
+	focus = {
+		id = AVT_goodbye_forever
+		prerequisite = { focus = AVT_form_morechny }
+		icon = aaa
+		x = 0
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		available = {
+		}
+		
+		completion_reward = {
+			load_focus_tree = generic_focus
+			remove_ideas = AVT_idea_noble_discontent
+			remove_ideas = AVT_idea_Patriotism
+			remove_ideas = AVT_idea_stagnant_society
+			remove_ideas = AVT_idea_tribe_mistrust
+		}
+	}
