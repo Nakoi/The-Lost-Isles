@@ -1,4 +1,19 @@
+AVE_voronypath_costag = {
+    color = rgb { 114 54 86 }
+    color_ui = rgb { 129 61 98 }
+}
+
+AVU_voronypath_costag = {
+    color = rgb { 71 10 47 }
+    color_ui = rgb { 82 31 70 }}
+}
+
 AVP_postcivwar_costag = {
+    color = rgb { 135 29 78 }
+    color_ui = rgb { 146 31 85 }
+}
+
+AVP_voronypath_costag = {
     color = rgb { 135 29 78 }
     color_ui = rgb { 146 31 85 }
 }
