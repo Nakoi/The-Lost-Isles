@@ -1852,57 +1852,57 @@ focus_tree = {
 	}
 	
 	#focus = {
-		id = EAK_schools_for_officers
-		prerequisite = { focus = EAK_duty_calls }
-		x = 1
-		y = 1
-		relative_position_id = EAK_duty_calls
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_ideas = KAE_officer_training_01
-		}
+	#	id = EAK_schools_for_officers
+	#	prerequisite = { focus = EAK_duty_calls }
+	#	x = 1
+	#	y = 1
+	#	relative_position_id = EAK_duty_calls
+	#	cost = 10
+	#	ai_will_do = {
+	#		factor = 5
+	#	}
+	#	completion_reward = {
+	#		add_ideas = KAE_officer_training_01
+	#	}
 	#}
 
 	#focus = {
-		id = EAK_greater_army_infrastructure
-		prerequisite = { focus = EAK_schools_for_officers }
-		x = 2
-		y = 2
-		relative_position_id = EAK_duty_calls
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			army_experience = 50
-			add_war_support = 0.1
-			#recruits new commander
-			add_tech_bonus = {
-				bonus = 0.3
-				uses = 3
-				category = category_engineers
-			}
-		}
+	#	id = EAK_greater_army_infrastructure
+	#	prerequisite = { focus = EAK_schools_for_officers }
+	#	x = 2
+	#	y = 2
+	#	relative_position_id = EAK_duty_calls
+	#	cost = 10
+	#	ai_will_do = {
+	#		factor = 5
+	#	}
+	#	completion_reward = {
+	#		army_experience = 50
+	#		add_war_support = 0.1
+	#		#recruits new commander
+	#		add_tech_bonus = {
+	#			bonus = 0.3
+	#			uses = 3
+	#			category = category_engineers
+	#		}
+	#	}
 	#}
 
 	#focus = {
-		id = EAK_joint_operations
-		prerequisite = { focus = EAK_army_attack_plans focus = EAK_army_defence_plans }
-		prerequisite = { focus = EAK_greater_army_infrastructure }
-		x = 1
-		y = 3
-		relative_position_id = EAK_duty_calls
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			army_experience = 50
-			#adds new commader 
-		}
+	#	id = EAK_joint_operations
+	#	prerequisite = { focus = EAK_army_attack_plans focus = EAK_army_defence_plans }
+	#	prerequisite = { focus = EAK_greater_army_infrastructure }
+	#	x = 1
+	#	y = 3
+	#	relative_position_id = EAK_duty_calls
+	#	cost = 10
+	#	ai_will_do = {
+	#		factor = 5
+	#	}
+	#	completion_reward = {
+	#		army_experience = 50
+	#		#adds new commader 
+	#	}
 	#}
 
 	focus = {
