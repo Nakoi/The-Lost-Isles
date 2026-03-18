@@ -1,0 +1,18 @@
+my_awesome_collection = {
+
+	#input = prefix:another_collection # A reference to another collection that will be used as input
+
+	#limit = {
+		# Optional
+		#
+		# A trigger that can be used to make the new collection only contain elements of the input
+		# that match certain criteria.
+		#
+		# SCOPE = element of the input collection
+		# PREV = previous scope, defined by the context in which the collection is used
+		# ROOT = PREV.ROOT
+		# FROM = PREV.FROM
+		#
+		# NOTE : the scope structure above mimics the scope structure of other every_xxx effects
+	#}
+}
