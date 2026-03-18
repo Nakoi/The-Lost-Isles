@@ -2502,7 +2502,7 @@ technologies = {
         #    max_organisation = 20
 		#}
         planning_speed = 0.50
-        maximum_speed = 0.15
+        #maximum_speed = 0.15 # CAN'T READ maximum_speed CAUSES ERROR
         org_loss_when_moving = -0.20
 
         xor = { superior_firepower trench_warfare mass_assault }
