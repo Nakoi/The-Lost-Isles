@@ -678,7 +678,7 @@ technologies = {
 
 		# EFFECT ########
 		air_interception_detect_factor = 0.1
-		air_interception_attack_factor = 0.2
+		#air_interception_attack_factor = 0.2 #DOESN'T WORK GAME CAN'T READ IT
 		###########
 		xp_research_type = air
 		xp_unlock_cost = 100
