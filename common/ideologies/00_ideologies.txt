@@ -26,7 +26,7 @@ ideologies = {
 			can_lower_tension = no
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = no
-			can_be_boosted = no
+#			can_be_boosted = no
 		}
 		
 		can_host_government_in_exile = no
@@ -46,7 +46,7 @@ ideologies = {
 		
 		faction_modifiers = {
 		}
-		
+		can_be_boosted = no #needs to be outside of rules
 		ai_fascist = yes
 	}
 	
@@ -76,8 +76,9 @@ ideologies = {
 			can_lower_tension = no
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = no
-			can_be_boosted = no
 		}
+
+
 		
 		can_host_government_in_exile = yes
 		
@@ -96,7 +97,7 @@ ideologies = {
 		
 		faction_modifiers = {
 		}
-		
+		can_be_boosted = no #needs to be outside of rules
 		ai_fascist = yes 
 	}
 	
