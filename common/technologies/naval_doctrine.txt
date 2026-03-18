@@ -790,10 +790,10 @@ technologies = {
 			max_organisation = 15
 			naval_speed = 0.20
 		}
-		heavy_cruiser = {
-			max_organisation = 15
-			naval_speed = 0.20	
-		}
+		#heavy_cruiser = { # GAME CAN'T READ CAUSES ERROR
+		#	max_organisation = 15
+		#	naval_speed = 0.20	
+		#}
 		########
 
 		path = {
@@ -865,10 +865,10 @@ technologies = {
 			max_organisation = 10
 			naval_range = 0.25
 		}
-		heavy_cruiser = {
-			max_organisation = 10
-			naval_range = 0.25	
-		}
+		#heavy_cruiser = { # GAME CAN'T READ CAUSES CRASH
+		#	max_organisation = 10
+		#	naval_range = 0.25	
+		#}
 		########
 
 		path = {
@@ -946,11 +946,11 @@ technologies = {
 			sub_detection = 0.15
 			surface_detection = 0.15
 		}
-		heavy_cruiser = {
-			max_organisation = 10
-			sub_detection = 0.15
-			surface_detection = 0.15	
-		}
+		#heavy_cruiser = { # GAME CAN'T READ CAUSES CRASH
+		#	max_organisation = 10
+		#	sub_detection = 0.15
+		#	surface_detection = 0.15	
+		#}
 		########
         
         xor = { big_guns_never_tire }

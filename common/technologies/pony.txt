@@ -1257,9 +1257,9 @@ technologies = {
 			default_morale = 0.1
 		}
 
-		unicorn_support = {
-			training_time = -5
-		}
+		#unicorn_support = {
+		#	training_time = -5  # HAS AN ISSUE WITH "training_time" CAUSES CRASH
+		#}
 
 		path = {
 			leads_to_tech = pony_magic_missile
