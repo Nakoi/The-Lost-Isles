@@ -958,7 +958,7 @@ technologies = {
         air_agility_factor = 0.15
         air_maximum_speed_factor = 0.15
         air_range_factor = 0.3
-        motorized_speed_factor = 0.1 #may or may not work
+#       motorized_speed_factor = 0.1 #may or may not work # DIDI "DOES NOT WORK"
         
 	}
 	

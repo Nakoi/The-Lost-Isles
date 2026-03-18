@@ -92,7 +92,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 25
 		
-        melee_equipment_cost = -0.10
+    	#melee_equipment_cost = -0.10 # GAME CAN'T READ THIS
 
         ranged_infantry = {
             defense = 0.10
@@ -1213,8 +1213,8 @@ technologies = {
         }
 		
 		#category_tli_all_infantry = {
-			defense = 0.15
-            soft_attack = 0.05
+		#	defense = 0.15   # MIGHT NEED TO BE : defence
+        #    soft_attack = 0.05
 		#}
 
 		doctrine = yes	
@@ -1552,7 +1552,7 @@ technologies = {
 			defense = -0.10
             ap_attack = 0.10
             soft_attack = 0.10
-            army_morale_factor = 0.33
+#            army_morale_factor = 0.33 # GAME MIGHT NOT READ THIS IT CREATS AN ERROR, UNKNOWN MODIFIER 
 		}
 		
 		
@@ -2497,10 +2497,10 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		motor_infantry = {
-            breakthrough = 0.40
-            max_organisation = 20
-		}
+		#motor_infantry = { # GAME DOESN'T KNOW THIS MODIFIER, IT CREATES AN ERROR
+        #    breakthrough = 0.40
+        #    max_organisation = 20
+		#}
         planning_speed = 0.50
         maximum_speed = 0.15
         org_loss_when_moving = -0.20
