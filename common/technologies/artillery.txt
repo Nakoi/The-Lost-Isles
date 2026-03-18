@@ -2038,7 +2038,7 @@ technologies = {
 		start_year = 981
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = @989 }
+			position = { x = 0 y = @989 } #ERROR OCCURS HERE IDK WHY
 		}
 
 		path = {
@@ -2120,7 +2120,7 @@ technologies = {
 		start_year = 1238
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = @1010 }
+			position = { x = 0 y = @1010 } #ERROR OCCURS HERE IDK WHY
 		}
 
 		categories = {
