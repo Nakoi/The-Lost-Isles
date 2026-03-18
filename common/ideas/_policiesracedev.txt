@@ -537,11 +537,11 @@ ideas = {
 			
 			modifier = {
 				political_power_gain = -0.1
-				materiel_manufacturer_cost_factor = -0.5
-				naval_manufacturer_cost_factor = -0.5
-				aircraft_manufacturer_cost_factor = -0.5
-				tank_manufacturer_cost_factor = -0.5
-				industrial_concern_cost_factor = -0.5
+				tli_materiel_manufacturer_cost_factor = -0.5
+				tli_naval_manufacturer_cost_factor = -0.5		#GAME CAN"T READ THIS CAUSES ERROR
+				airship_manufacturer_cost_factor = -0.5	#GAME CAN"T READ THIS CAUSES ERROR
+				cannon_manufacturer_cost_factor = -0.5		#GAME CAN"T READ THIS CAUSES ERROR
+				tli_industrial_concern_cost_factor = -0.5		#GAME CAN"T READ THIS CAUSES ERROR
 				production_speed_buildings_factor = 0.15
 			}
 		}
@@ -585,3 +585,4 @@ ideas = {
 			}
 		}
 	}
+}
