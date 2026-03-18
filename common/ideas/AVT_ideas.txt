@@ -8,7 +8,8 @@ ideas = {
 			picture = great_depression
 			removal_cost = -1
 			available = {
-				NOT = { AVT = owns_state = 258 }
+#				NOT = { AVT = owns_state = 258 }
+				NOT = { owns_state = 258 }
 			}
 				
 			modifier = {
