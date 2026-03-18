@@ -133,10 +133,10 @@ technologies = {
 		attrition = -0.1
 		army_speed_factor = 0.15
 		
-		path = {
-			leads_to_tech = 
-			research_cost_coeff = 1
-		}		
+#		path = {  # ERROR HERE EMPTY = 
+#			leads_to_tech = 
+#			research_cost_coeff = 1
+#		}		
 
 		research_cost = 2.7
 		start_year = 969
@@ -439,10 +439,10 @@ technologies = {
 			air_range = 0.10
 		}
 		
-		path = {
-			leads_to_tech =  
-			research_cost_coeff = 1
-		}		
+#		path = { # ERROR HERE EMPTY =
+#			leads_to_tech =  
+#			research_cost_coeff = 1
+#		}		
 
 		research_cost = 2.7
 		start_year = 969
@@ -912,10 +912,10 @@ technologies = {
 			}
 		}
 		
-		path = {
-			leads_to_tech = 
-			research_cost_coeff = 1
-		}		
+#		path = { # ERROR HERE EMPTY = 
+#			leads_to_tech = 
+#			research_cost_coeff = 1
+#		}		
 
 		research_cost = 2.7
 		start_year = 969
@@ -1316,10 +1316,10 @@ technologies = {
 			ap_attack = 0.25
 		}
 		
-		path = {
-			leads_to_tech = 
-			research_cost_coeff = 1
-		}		
+#		path = { # ERROR HERE EMPTY = 
+#			leads_to_tech = 
+#			research_cost_coeff = 1
+#		}		
 
 		research_cost = 2.7
 		start_year = 969
@@ -1390,10 +1390,10 @@ technologies = {
 			anti_armor_inf_equipment_3
 		}
 		
-		path = {
-			leads_to_tech = 
-			research_cost_coeff = 1
-		}		
+#		path = { # ERROR HERE EMPTY = 
+#			leads_to_tech = 
+#			research_cost_coeff = 1
+#		}		
 
 		research_cost = 2.7
 		start_year = 969
@@ -1564,10 +1564,10 @@ technologies = {
 			supply_consumption = 0.01
 		}
 		
-		path = {
-			leads_to_tech = 
-			research_cost_coeff = 1
-		}		
+#		path = { # ERROR HERE EMPTY = 
+#			leads_to_tech = 
+#			research_cost_coeff = 1
+#		}		
 
 		research_cost = 3.6
 		start_year = 969
@@ -1646,10 +1646,10 @@ technologies = {
 			supply_consumption = 0.05
 		}
 		
-		path = {
-			leads_to_tech = 
-			research_cost_coeff = 1
-		}		
+#		path = { # ERROR HERE EMPTY = 
+#			leads_to_tech = 
+#			research_cost_coeff = 1
+#		}		
 
 		research_cost = 3.6
 		start_year = 969
@@ -1766,10 +1766,10 @@ technologies = {
 			supply_consumption = 0.01
 		}
 		
-		path = {
-			leads_to_tech = 
-			research_cost_coeff = 1
-		}		
+#		path = { # ERROR HERE EMPTY =
+#			leads_to_tech = 
+#			research_cost_coeff = 1
+#		}		
 
 		research_cost = 3.6
 		start_year = 969
@@ -2094,10 +2094,10 @@ technologies = {
 			superheated_beam
 		}
 		
-		path = {
-			leads_to_tech = 
-			research_cost_coeff = 1
-		}		
+#		path = { # ERROR HERE EMPTY = 
+#			leads_to_tech = 
+#			research_cost_coeff = 1
+#		}		
 
 		research_cost = 3.6
 		start_year = 969
@@ -2148,10 +2148,10 @@ technologies = {
 			fireball_shot
 		}
 		
-		path = {
-			leads_to_tech = 
-			research_cost_coeff = 1
-		}		
+#		path = { # ERROR HERE EMPTY = 
+#			leads_to_tech = 
+#			research_cost_coeff = 1
+#		}		
 
 		research_cost = 3.6
 		start_year = 969
@@ -2248,10 +2248,10 @@ technologies = {
 			light_naval_battery_griffon_3
 		}
 		
-		path = {
-			leads_to_tech = 
-			research_cost_coeff = 1
-		}		
+#		path = { # ERROR HERE EMPTY = 
+#			leads_to_tech = 
+#			research_cost_coeff = 1
+#		}		
 
 		research_cost = 3.6
 		start_year = 969
