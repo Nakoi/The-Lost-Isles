@@ -279,9 +279,6 @@ ideas = {
 			
 			modifier = {
 				political_advisor_cost_factor = -0.25
-				economy_cost_factor = -0.25
-				trade_laws_cost_factor = -0.25
-				mobilization_laws_cost_factor = -0.25
 			}
 		}
 		
@@ -294,9 +291,6 @@ ideas = {
 			modifier = {
 				resistance_growth = -0.2
 				political_advisor_cost_factor = -0.25
-				economy_cost_factor = -0.25
-				trade_laws_cost_factor = -0.25
-				mobilization_laws_cost_factor = -0.25
 			}
 		}
 		
@@ -911,7 +905,7 @@ ideas = {
 			}
 			
 			modifier = {
-				monthly_population_factor = 0.25
+				monthly_population = 0.2
 				conscription_factor = 0.1
 				production_speed_synthetic_refinery_factor = 0.25
 				production_speed_fuel_silo_factor = 0.25
