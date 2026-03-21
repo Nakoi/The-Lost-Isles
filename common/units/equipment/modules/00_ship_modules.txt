@@ -1324,8 +1324,9 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 3
 			build_cost_ic = 90
-			manpower = 50
 		}
+		manpower = 50 # VANILLA STATES MANPOWER NEEDS TO BE OUTSIDE OF THE ADD STATS
+
 		multiply_stats = {
 			naval_speed = -0.01
 		}
@@ -1336,12 +1337,13 @@ equipment_modules = {
 		abbreviation = "saj"
 		category = module_boarding
 		sfx = sfx_ui_sd_module_turret
-		
+
 		add_stats = {
 			torpedo_attack = 6
-			build_cost_ic = 200
-			manpower = 50
+			build_cost_ic = 200	
 		}
+		manpower = 50 # VANILLA STATES MANPOWER NEEDS TO BE OUTSIDE OF THE ADD STATS
+
 		multiply_stats = {
 			naval_speed = -0.01
 		}
@@ -1356,8 +1358,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 8
 			build_cost_ic = 270
-			manpower = 50
 		}
+
+		manpower = 50 # VANILLA STATES MANPOWER NEEDS TO BE OUTSIDE OF THE ADD STATS
+
 		multiply_stats = {
 			naval_speed = -0.03
 		}
@@ -1372,8 +1376,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 9
 			build_cost_ic = 220
-			manpower = 50
 		}
+
+		manpower = 50 # VANILLA STATES MANPOWER NEEDS TO BE OUTSIDE OF THE ADD STATS
+
 		multiply_stats = {
 			naval_speed = -0.01
 			max_strength = -0.02
@@ -1389,8 +1395,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 18
 			build_cost_ic = 350
-			manpower = 50
 		}
+
+		manpower = 50 # VANILLA STATES MANPOWER NEEDS TO BE OUTSIDE OF THE ADD STATS
+
 		multiply_stats = {
 			naval_speed = -0.01
 		}
@@ -1405,8 +1413,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 22
 			build_cost_ic = 450
-			manpower = 50
 		}
+
+		manpower = 50 # VANILLA STATES MANPOWER NEEDS TO BE OUTSIDE OF THE ADD STATS
+
 		multiply_stats = {
 			naval_speed = -0.03
 		}
@@ -1421,8 +1431,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 24
 			build_cost_ic = 400
-			manpower = 50
 		}
+
+		manpower = 50 # VANILLA STATES MANPOWER NEEDS TO BE OUTSIDE OF THE ADD STATS
+
 		multiply_stats = {
 			naval_speed = -0.01
 			max_strength = -0.02
@@ -1438,8 +1450,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 27
 			build_cost_ic = 750
-			manpower = 50
 		}
+
+		manpower = 50 # VANILLA STATES MANPOWER NEEDS TO BE OUTSIDE OF THE ADD STATS
+
 		multiply_stats = {
 			naval_speed = -0.01
 		}
@@ -1454,8 +1468,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 30
 			build_cost_ic = 900
-			manpower = 50
 		}
+
+		manpower = 50 # VANILLA STATES MANPOWER NEEDS TO BE OUTSIDE OF THE ADD STATS
+
 		multiply_stats = {
 			naval_speed = -0.03
 		}
@@ -1470,8 +1486,10 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 32
 			build_cost_ic = 800
-			manpower = 50
 		}
+
+		manpower = 50 # VANILLA STATES MANPOWER NEEDS TO BE OUTSIDE OF THE ADD STATS
+
 		multiply_stats = {
 			naval_speed = -0.01
 			max_strength = -0.02
