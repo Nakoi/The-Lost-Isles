@@ -1111,37 +1111,37 @@ faction_goal_marine_corps = {
 		ROOT = {
 			add_to_temp_variable = { temp_marine_units = num_battalions_with_type@marine }
 			add_to_temp_variable = { temp_marine_units = num_battalions_with_type@marine_commando }
-			add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_mechanized }
-			add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_armor }
-			add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_light_armor }
-			add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_medium_armor }
-			add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_heavy_armor }
+			#add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_mechanized }	# DOESN'T EXIST IN TLI
+			#add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_armor }		# DOESN'T EXIST IN TLI
+			#add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_light_armor }	# DOESN'T EXIST IN TLI
+			#add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_medium_armor }	# DOESN'T EXIST IN TLI
+			#add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_heavy_armor }	# DOESN'T EXIST IN TLI
 			hidden_trigger = {
 				all_allied_country = {
 					add_to_temp_variable = { temp_marine_units = num_battalions_with_type@marine }
 					add_to_temp_variable = { temp_marine_units = num_battalions_with_type@marine_commando }
-					add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_mechanized }
-					add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_armor }
-					add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_light_armor }
-					add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_medium_armor }
-					add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_heavy_armor }
+					#add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_mechanized }		# DOESN'T EXIST IN TLI
+					##add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_armor }			# DOESN'T EXIST IN TLI
+					#add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_light_armor }		# DOESN'T EXIST IN TLI
+					#add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_medium_armor }	# DOESN'T EXIST IN TLI
+					#add_to_temp_variable = { temp_marine_units = num_battalions_with_type@amphibious_heavy_armor }		# DOESN'T EXIST IN TLI
 				}
 			}
 			set_temp_variable = { temp_marine_units_tt = temp_marine_units }
 			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@marine }
 			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@marine_commando }
-			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_mechanized }
-			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_armor }
-			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_light_armor }
-			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_medium_armor }
-			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_heavy_armor }
+			#subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_mechanized }	# DOESN'T EXIST IN TLI
+			#subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_armor }			# DOESN'T EXIST IN TLI
+			#subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_light_armor }	# DOESN'T EXIST IN TLI
+			#subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_medium_armor }	# DOESN'T EXIST IN TLI
+			#subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_heavy_armor }	# DOESN'T EXIST IN TLI
 			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@marine }
 			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@marine_commando }
-			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_mechanized }
-			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_armor }
-			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_light_armor }
-			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_medium_armor }
-			subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_heavy_armor }
+			#subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_mechanized }	# DOESN'T EXIST IN TLI
+			#subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_armor }			# DOESN'T EXIST IN TLI
+			#subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_light_armor }	# DOESN'T EXIST IN TLI
+			#subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_medium_armor }	# DOESN'T EXIST IN TLI
+			#subtract_from_temp_variable = { temp_marine_units_tt = num_battalions_with_type@amphibious_heavy_armor }	# DOESN'T EXIST IN TLI
 			custom_trigger_tooltip = {
 				tooltip = faction_goal_marine_corps_tt
 				check_variable = { temp_marine_units > 29 }
@@ -1161,10 +1161,10 @@ faction_goal_marine_corps = {
 						faction_members 
 						limit = {
 							OR = {
-								has_tech = marines
-								has_tech = amphibious_mechanized_infantry
-								has_tech = amphibious_tank
-								has_tech = amphibious_tank_chassis
+								has_tech = marines	
+								#has_tech = amphibious_mechanized_infantry	# DOESN'T EXIST IN TLI
+								#has_tech = amphibious_tank					# DOESN'T EXIST IN TLI
+								#has_tech = amphibious_tank_chassis			# DOESN'T EXIST IN TLI
 							}
 						}
 					}
