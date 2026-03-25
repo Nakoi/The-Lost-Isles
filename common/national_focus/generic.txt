@@ -5807,10 +5807,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = motorized_equipment_1
-				amount = 100
-			}
 			add_tech_bonus = {
 				bonus = 1
 				uses = 1
