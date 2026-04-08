@@ -118,7 +118,7 @@ ideas = {
 				ideology_visionarism_drift = 0.1
 				surrender_limit = 0.25
 				stability_weekly = 0.005
-				war_support_weekly 0.005
+				war_support_weekly = 0.005
 				political_power_factor = 0.15
 			}
 		}
@@ -137,7 +137,7 @@ ideas = {
 				supply_consumption_factor = 0.15
 				surrender_limit = 0.25
 				stability_weekly = 0.005
-				war_support_weekly 0.005
+				war_support_weekly = 0.005
 				enemy_justify_war_goal_time = -0.5
 				political_power_factor = 0.15
 			}
