@@ -659,7 +659,7 @@ sub_units = {
 		weight = 0.05
 		
 		supply_consumption_factor = -0.1
-		fuel_consumption_factor -0.05
+		fuel_consumption_factor = -0.05
 
 		need = {
 			support_equipment = 35
@@ -1379,7 +1379,7 @@ sub_units = {
 		manpower = 300
 		training_time = 40
 		max_organisation = 0
-		default_morale = 0
+		default_morale = 0.1 # CHANGED THIS MORALE DIDIFIX MORAL CAN'T BE ZERO
 		max_strength = 0
 		weight = 0.05
 		
@@ -1469,7 +1469,7 @@ sub_units = {
 		manpower = 300
 		training_time = 40
 		max_organisation = 0
-		default_morale = 0
+		default_morale = 0.1 # CHANGED THIS MORALE DIDIFIX MORAL CAN'T BE ZERO
 		max_strength = 0
 		weight = 0.05
 		
@@ -1557,7 +1557,7 @@ sub_units = {
 		manpower = 300
 		training_time = 40
 		max_organisation = 0
-		default_morale = 0
+		default_morale = 0.1 # CHANGED THIS MORALE DIDIFIX MORAL CAN'T BE ZERO
 		max_strength = 0
 		weight = 0.05
 		
@@ -1637,7 +1637,7 @@ sub_units = {
 		manpower = 300
 		training_time = 40
 		max_organisation = 0
-		default_morale = 0
+		default_morale = 0.1 # CHANGED THIS MORALE DIDIFIX MORAL CAN'T BE ZERO
 		max_strength = 0
 		weight = 0.05
 		
@@ -1725,7 +1725,7 @@ sub_units = {
 		manpower = 300
 		training_time = 40
 		max_organisation = 0
-		default_morale = 0
+		default_morale = 0.1 # CHANGED THIS MORALE DIDIFIX MORAL CAN'T BE ZERO
 		max_strength = 0
 		weight = 0.05
 		
@@ -1740,3 +1740,4 @@ sub_units = {
 
 		can_be_parachuted = yes
 	}
+}

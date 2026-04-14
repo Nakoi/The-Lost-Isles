@@ -132,7 +132,7 @@ sub_units = {
 		
 		supply_consumption = -0.1
 		supply_consumption_factor = -0.1
-		fuel_consumption_factor -0.05
+		fuel_consumption_factor = -0.05
 	
 		need = {
 			rifle_equipment = 25
