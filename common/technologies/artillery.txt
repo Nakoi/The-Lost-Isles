@@ -60,10 +60,6 @@ technologies = {
 		ai_will_do = {
 			factor = 100
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	catapult_upgrade = {
@@ -96,10 +92,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 100
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -156,10 +148,6 @@ technologies = {
 		ai_will_do = {
 			factor = 100
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	standard_charges = {
@@ -204,10 +192,6 @@ technologies = {
 		ai_will_do = {
 			factor = 100
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 	
 	canister_shot = {
@@ -245,10 +229,6 @@ technologies = {
 				factor = -1000
 				date < "959.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -288,9 +268,6 @@ technologies = {
 				factor = -1000
 				date < "961.1.1"
 			}
-		}
-		categories = {
-			#armor
 		}
 	}
 
@@ -334,10 +311,6 @@ technologies = {
 				date < "963.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	conical_shells = {
@@ -377,10 +350,6 @@ technologies = {
 				date < "965.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	breach_loading_mechanism = {
@@ -418,10 +387,6 @@ technologies = {
 				factor = -1000
 				date < "967.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -462,10 +427,6 @@ technologies = {
 				date < "969.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	modern_cannon = {
@@ -502,10 +463,6 @@ technologies = {
 				factor = -1000
 				date < "971.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -551,10 +508,6 @@ technologies = {
 				date < "959.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	crystal_gunpowder_mixture = {
@@ -594,10 +547,6 @@ technologies = {
 				date < "961.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	percussion_lock_mechanism = {
@@ -635,10 +584,6 @@ technologies = {
 				factor = -1000
 				date < "963.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -678,10 +623,6 @@ technologies = {
 				factor = -1000
 				date < "965.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -725,10 +666,6 @@ technologies = {
 				date < "967.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	brass_cartridges = {
@@ -767,10 +704,6 @@ technologies = {
 				date < "969.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	shrapnel_projectiles = {
@@ -803,10 +736,6 @@ technologies = {
 				factor = -1000
 				date < "971.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -853,10 +782,6 @@ technologies = {
 				date < "961.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	explosive_rockets = {
@@ -894,10 +819,6 @@ technologies = {
 				factor = -1000
 				date < "963.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -937,10 +858,6 @@ technologies = {
 				date < "965.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	flight_stabilisation = {
@@ -978,10 +895,6 @@ technologies = {
 				factor = -1000
 				date < "967.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1025,10 +938,6 @@ technologies = {
 				date < "969.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	modern_rockets = {
@@ -1061,10 +970,6 @@ technologies = {
 				factor = -1000
 				date < "971.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1110,10 +1015,6 @@ technologies = {
 				date < "957.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	elevation_screws = {
@@ -1157,10 +1058,6 @@ technologies = {
 				date < "959.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	explosive_shells = {
@@ -1199,10 +1096,6 @@ technologies = {
 				factor = -1000
 				date < "961.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1250,10 +1143,6 @@ technologies = {
 				date < "963.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	improved_mortar = {
@@ -1296,10 +1185,6 @@ technologies = {
 				date < "965.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	mortar_weight_reduction = {
@@ -1337,10 +1222,6 @@ technologies = {
 				factor = -1000
 				date < "967.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1380,10 +1261,6 @@ technologies = {
 				factor = -1000
 				date < "969.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1425,10 +1302,6 @@ technologies = {
 				factor = -1000
 				date < "971.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1475,10 +1348,6 @@ technologies = {
 				date < "961.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	indirect_fire = {
@@ -1516,10 +1385,6 @@ technologies = {
 				factor = -1000
 				date < "963.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1559,10 +1424,6 @@ technologies = {
 				date < "965.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	case_shot = {
@@ -1600,10 +1461,6 @@ technologies = {
 				factor = -1000
 				date < "967.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1647,10 +1504,6 @@ technologies = {
 				date < "969.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	recoil_management = {
@@ -1683,10 +1536,6 @@ technologies = {
 				factor = -1000
 				date < "971.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1732,10 +1581,6 @@ technologies = {
 				date < "957.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	light_artillery_upgrade_1 = {
@@ -1775,10 +1620,6 @@ technologies = {
 				factor = -1000
 				date < "961.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1822,10 +1663,6 @@ technologies = {
 				date < "961.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 	light_artillery_upgrade_2 = {
@@ -1860,10 +1697,6 @@ technologies = {
 				factor = -1000
 				date < "969.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1911,10 +1744,6 @@ technologies = {
 				factor = -1000
 				date < "500.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -1964,10 +1793,6 @@ technologies = {
 				date < "400.1.1"
 			}
 		}
-		
-		categories = {
-			#armor
-		}
 	}
 
 
@@ -2008,10 +1833,6 @@ technologies = {
 				factor = -1000
 				date < "500.1.1"
 			}
-		}
-		
-		categories = {
-			#armor
 		}
 	}
 
@@ -2185,10 +2006,10 @@ technologies = {
 				has_war = yes
 				factor = 20
 			}
-			modifier = {
-				tag = CHN
-				factor = 5
-			}
+			#modifier = {
+				#tag = CHN
+				#factor = 5
+			#}
 			modifier = {
 				factor = 1.2
 				date > "1237.1.1"
