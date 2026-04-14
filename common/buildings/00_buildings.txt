@@ -215,7 +215,7 @@ buildings = {
 		}
 	}
 
-	mega_gun_emplacement = {More actions
+	mega_gun_emplacement = {
 		dlc_allowed = { has_dlc = Gotterdammerung }
 		hide_if_missing_tech = yes
 		show_on_map = 1
@@ -251,7 +251,7 @@ buildings = {
 
 spawn_points = {
 
-	nuclear_reactor_spawn = {More actions
+	nuclear_reactor_spawn = {
 		type = state
 		max = 1
 	}
