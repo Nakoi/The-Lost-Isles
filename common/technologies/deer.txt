@@ -353,46 +353,6 @@ technologies = {
 		}
 	}
 
-	longship_deer = {
-
-		dependencies = {
-			deer_race = 1
-		    tech_primitive = 1
-		}
-
-		enable_equipments = { 
-			longship_1
-		}
-		
-		path = {
-			leads_to_tech = assault_ship_deer
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = boarding_parties_deer
-			research_cost_coeff = 1
-		}
-
-		allow_branch = {
-			NOT = { has_dlc = "Man the Guns" }
-		}		
-
-		research_cost = 1.8
-		start_year = 600
-		folder = {
-			name = deer_folder
-			position = { x = 4 y = 3 }
-		}
-		
-		categories = {
-			racial
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	assault_ship_deer = {
 
 		dependencies = {
