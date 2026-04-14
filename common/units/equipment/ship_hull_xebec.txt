@@ -5,13 +5,15 @@ equipments = {
 
 		can_be_produced = {
 		}
-
+		
 		is_archetype = yes
 		is_buildable = no
 		type = screen_ship
 		interface_category = interface_category_screen_ships
 		alias = destroyer
 		priority = 2000
+
+		#archetype = ship_hull_light #ADDED IN JUST NOW TO SEE IF IT FIXES ERRORS # UPDATE IT DOESN'T FIX THE ERRORS FUUUUUUUUUUUUUUUUUUUUUUUUUCK
 
 		module_slots = {
 			fixed_ship_battery_slot = {
@@ -375,10 +377,6 @@ equipments = {
 		naval_range = 1100
 		
 		max_strength = 320
-
-		type = { 
-			screen_ship
-		}
 		
 		build_cost_ic = 290
 		manpower = 100
