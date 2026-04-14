@@ -4,7 +4,7 @@ characters={
         name= VED_duke_name
         portraits={
             civilian={
-                large="GFX/leaders/VED/VED_duke.tga"
+                large="gfx/leaders/VED/VED_duke.tga"
             }
         }
         country_leader={
@@ -18,7 +18,7 @@ characters={
         name=VED_army_leader_01_name
         portraits={
             army={
-                large="GFX/leaders/VED/VED_army_leader_01.tga"
+                large="gfx/leaders/VED/VED_army_leader_01.tga"
             }
         }
 	    field_marshal={
@@ -35,7 +35,7 @@ characters={
         name=VED_army_leader_02_name
         portraits={
             army={
-                large="GFX/leaders/VED/VED_army_leader_02.tga"
+                large="gfx/leaders/VED/VED_army_leader_02.tga"
             }
         }
 	    corps_commander={
@@ -52,7 +52,7 @@ characters={
         name=VED_army_leader_03_name
         portraits={
             army={
-                large="GFX/leaders/VED/VED_army_leader_03.tga"
+                large="gfx/leaders/VED/VED_army_leader_03.tga"
             }
         }
 	    corps_commander={

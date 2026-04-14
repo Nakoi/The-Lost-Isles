@@ -4,7 +4,7 @@ characters={
         name= TYK_queen_name
         portraits={
             civilian={
-                large="GFX/leaders/TYK/TYK_queen.tga"
+                large="gfx/leaders/TYK/TYK_queen.tga"
             }
         }
         country_leader={
@@ -18,7 +18,7 @@ TYK_Army_leader_01={
         name=TYK_Army_leader_01_name
         portraits={
             army={
-		large="GFX/leaders/TYK/Pony_Male_Savinki_Army_leader_01.tga"
+		large="gfx/leaders/TYK/Pony_Male_Savinki_Army_leader_01.tga"
             }	
         }
 	field_marshal={
@@ -35,7 +35,7 @@ TYK_Army_leader_02={
         name=TYK_Army_leader_02_name
         portraits={
             army={
-		large="GFX/leaders/TYK/Pony_Female_Savinki_Army_leader_02.tga"
+		large="gfx/leaders/TYK/Pony_Female_Savinki_Army_leader_02.tga"
             }	
         }
 	corps_commander={
@@ -52,7 +52,7 @@ TYK_Army_leader_03={
         name=TYK_Army_leader_03_name
         portraits={
             army={
-		large="GFX/leaders/TYK/Pony_Male_Savinki_Army_leader_03.tga"
+		large="gfx/leaders/TYK/Pony_Male_Savinki_Army_leader_03.tga"
             }	
         }
 	corps_commander={
@@ -69,7 +69,7 @@ TYK_Army_leader_04={
         name=TYK_Army_leader_04_name
         portraits={
             army={
-		large="GFX/leaders/TYK/Pony_Female_Savinki_Army_leader_04.tga"
+		large="gfx/leaders/TYK/Pony_Female_Savinki_Army_leader_04.tga"
             }	
         }
 	corps_commander={
@@ -86,7 +86,7 @@ TYK_Army_leader_05={
         name=TYK_Army_leader_05_name
         portraits={
             army={
-		large="GFX/leaders/TYK/Pony_Female_Savinki_Army_leader_05.tga"
+		large="gfx/leaders/TYK/Pony_Female_Savinki_Army_leader_05.tga"
             }	
         }
 	corps_commander={

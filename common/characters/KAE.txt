@@ -4,7 +4,7 @@ characters={
         name= KAE_council_name
         portraits={
             civilian={
-                large="GFX/leaders/KAE/KAE_council.tga"
+                large="gfx/leaders/KAE/KAE_council.tga"
             }
         }
         country_leader={
@@ -18,7 +18,7 @@ characters={
         name= KAE_mutineer_mare_name
         portraits={
             civilian={
-                large="GFX/leaders/KAE/KAE_mutineer_mare.tga"
+                large="gfx/leaders/KAE/KAE_mutineer_mare.tga"
             }
         }
         country_leader={
@@ -32,7 +32,7 @@ characters={
         name=KAE_General_1_name
         portraits={
             army={
-		large="GFX/leaders/KAE/KAE_Army_leader_01.tga"
+		large="gfx/leaders/KAE/KAE_Army_leader_01.tga"
             }	
         }
         field_marshal={
@@ -49,7 +49,7 @@ characters={
         name=KAE_General_2_name
         portraits={
             army={
-		large="GFX/leaders/KAE/KAE_Army_leader_02.tga"
+		large="gfx/leaders/KAE/KAE_Army_leader_02.tga"
             }	
         }
        corps_commander={
@@ -66,7 +66,7 @@ characters={
         name=KAE_General_3_name
         portraits={
             army={
-		large="GFX/leaders/KAE/KAE_Army_leader_03.tga"
+		large="gfx/leaders/KAE/KAE_Army_leader_03.tga"
             }	
         }
        corps_commander={
@@ -83,20 +83,20 @@ characters={
 
 
     KAE_General_Merc_1={ #empty character to become general via focus
-        name=KAE_General_Merc_1=_name
+        name=KAE_General_Merc_1_name
         portraits={
             army={
-		large="GFX/leaders/KAE/KAE_Army_Merc_01.tga"
+		large="gfx/leaders/KAE/KAE_Army_Merc_01.tga"
             }	
         }
     }
 
 
     KAE_General_Merc_2={ #empty character to become general via focus
-        name=KAE_General_Merc_2=_name
+        name=KAE_General_Merc_2_name
         portraits={
             army={
-		large="GFX/leaders/KAE/KAE_Army_Merc_02.tga"
+		large="gfx/leaders/KAE/KAE_Army_Merc_02.tga"
             }	
         }
     }

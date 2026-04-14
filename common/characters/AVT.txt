@@ -4,7 +4,7 @@ characters={
         name=AVT_tzar_name
         portraits={
             civilian={
-                large="GFX/leaders/AVT/AVT_Tsar.tga"
+                large="gfx/leaders/AVT/AVT_Tsar.tga"
             }
         }
         country_leader={
@@ -18,7 +18,7 @@ characters={
         name = AVT_tzaritsa_name
         portraits = {
             civilian = {
-		large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+		        large="gfx/leaders/AVT/AVT_ElusiveGem.tga"
             }
         }
     }
@@ -27,7 +27,7 @@ characters={
         name=AVT_cherry_cupcake_name
         portraits={
             civilian={
-                large="GFX/leaders/AVT/AVT_cherry_cupcake.tga"
+                large="gfx/leaders/AVT/AVT_cherry_cupcake.tga"
             }
         }
         country_leader={
@@ -41,7 +41,7 @@ characters={
         name=AVT_violet_rain_name
 		portraits={
             civilian={
-                large="GFX/leaders/AVT/AVT_violet_rain.tga"
+                large="gfx/leaders/AVT/AVT_violet_rain.tga"
             }
         }
         country_leader={
@@ -55,7 +55,7 @@ characters={
         name=AVT_swiftguard_marshal_name
         #portraits={
             civilian={
-                large="GFX/leaders/AVT/AVT_violet_rain.tga"
+                large="gfx/leaders/AVT/AVT_violet_rain.tga"
             }
         #}
         country_leader={
@@ -69,7 +69,7 @@ characters={
         name=AVT_swiftguard_industrialist_name
         #portraits={
             civilian={
-                large="GFX/leaders/AVT/AVT_violet_rain.tga"
+                large="gfx/leaders/AVT/AVT_violet_rain.tga"
             }
         #}
         country_leader={
@@ -83,7 +83,7 @@ characters={
         name=AVT_emerald_mask_name
         portraits={
             civilian={
-                large="GFX/leaders/AVT/AVT_emerald_mask.tga"
+                large="gfx/leaders/AVT/AVT_emerald_mask.tga"
             }
         }
         country_leader={
@@ -97,7 +97,7 @@ characters={
         name=AVT_loyal_wing_name
         portraits={
             civilian={
-                large="GFX/leaders/AVT/AVT_LoyalWing.tga"
+                large="gfx/leaders/AVT/AVT_LoyalWing.tga"
             }
         }
         country_leader={
@@ -111,7 +111,7 @@ characters={
         name=AVT_gentle_flash_name
         portraits={
             civilian={
-                large="GFX/leaders/AVT/AVT_GentleFlash.tga"
+                large="gfx/leaders/AVT/AVT_GentleFlash.tga"
             }
         }
         country_leader={
@@ -125,7 +125,7 @@ characters={
         name=AVT_red_coat_name
         portraits={
             civilian={
-                large="GFX/leaders/AVT/AVT_RedCoat.tga"
+                large="gfx/leaders/AVT/AVT_RedCoat.tga"
             }
         }
         country_leader={
@@ -139,7 +139,7 @@ characters={
         name=AVT_General_9_name
         portraits={
             army={
-                large="GFX/leaders/AVT/AVT_Army_leader_09.tga"
+                large="gfx/leaders/AVT/AVT_Army_leader_09.tga"
             }
         }
 	    field_marshal={
@@ -156,7 +156,7 @@ characters={
         name=AVT_General_1_name
         portraits={
             army={
-		large="GFX/leaders/AVT/AVT_Army_leader_01.tga"
+		        large="gfx/leaders/AVT/AVT_Army_leader_01.tga"
             }	
         }
         field_marshal={
@@ -174,7 +174,7 @@ characters={
         name=AVT_General_2_name
         portraits={
             army={
-                large="GFX/leaders/AVT/AVT_Army_leader_02.tga"
+                large="gfx/leaders/AVT/AVT_Army_leader_02.tga"
             }
         }
         corps_commander={
@@ -191,7 +191,7 @@ characters={
         name=AVT_General_3_name
         portraits={
             army={
-                large="GFX/leaders/AVT/AVT_Army_leader_03.tga"
+                large="gfx/leaders/AVT/AVT_Army_leader_03.tga"
             }
         }
         corps_commander={
@@ -208,7 +208,7 @@ characters={
         name=AVT_General_4_name
         portraits={
             army={
-                large="GFX/leaders/AVT/AVT_Army_leader_04.tga"
+                large="gfx/leaders/AVT/AVT_Army_leader_04.tga"
             }
         }
         corps_commander={
@@ -225,7 +225,7 @@ characters={
         name=AVT_General_5_name
         portraits={
             army={
-                large="GFX/leaders/AVT/AVT_Army_leader_05.tga"
+                large="gfx/leaders/AVT/AVT_Army_leader_05.tga"
             }
         }
 	    corps_commander={
@@ -242,7 +242,7 @@ characters={
         name=AVT_General_6_name
         portraits={
             army={
-                large="GFX/leaders/AVT/AVT_Army_leader_06.tga"
+                large="gfx/leaders/AVT/AVT_Army_leader_06.tga"
             }
         }
         corps_commander={
@@ -259,7 +259,7 @@ characters={
         name=AVT_General_7_name
         portraits={
             army={
-                large="GFX/leaders/AVT/AVT_Army_leader_07.tga"
+                large="gfx/leaders/AVT/AVT_Army_leader_07.tga"
             }
         }
 	    corps_commander={
@@ -276,7 +276,7 @@ characters={
         name=AVT_General_8_name
         portraits={
             army={
-                large="GFX/leaders/AVT/AVT_Army_leader_08.tga"
+                large="gfx/leaders/AVT/AVT_Army_leader_08.tga"
             }
         }
 	    corps_commander={
@@ -295,7 +295,7 @@ characters={
 		
         portraits = {
             army = {
-                large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+                large="gfx/leaders/AVT/AVT_ElusiveGem.tga"
             }
         }
     }
@@ -305,7 +305,7 @@ characters={
 		
         portraits = {
             army = {
-                large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+                large="gfx/leaders/AVT/AVT_ElusiveGem.tga"
             }
         }
     }
@@ -315,7 +315,7 @@ characters={
 		
         portraits = {
             army = {
-                large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+                large="gfx/leaders/AVT/AVT_ElusiveGem.tga"
             }
         }
     }
@@ -325,7 +325,7 @@ characters={
 		
         portraits = {
             army = {
-                large="GFX/leaders/AVT/AVT_ElusiveGem.tga"
+                large="gfx/leaders/AVT/AVT_ElusiveGem.tga"
             }
         }
     }
@@ -335,7 +335,7 @@ characters={
 		
         portraits = {
             army = {
-                large="GFX/leaders/AVT/AVT_Army_leader_11_Color.tga"
+                large="gfx/leaders/AVT/AVT_Army_leader_11_Color.tga"
             }
         }
     }
@@ -345,7 +345,7 @@ characters={
 		
         portraits = {
             army = {
-                large="GFX/leaders/AVT/AVT_Army_leader_12_Color.tga"
+                large="gfx/leaders/AVT/AVT_Army_leader_12_Color.tga"
             }
         }
     }
@@ -355,7 +355,7 @@ characters={
 		
         portraits = {
             army = {
-                large="GFX/leaders/AVT/AVT_Army_leader_10_Color.tga"
+                large="gfx/leaders/AVT/AVT_Army_leader_10_Color.tga"
             }
         }
     }

@@ -4,7 +4,7 @@ characters={
         name= GAL_president_name
         portraits={
             civilian={
-                large="GFX/leaders/GAL/GAL_president.tga"
+                large="gfx/leaders/GAL/GAL_president.tga"
             }
         }
         country_leader={
@@ -18,7 +18,7 @@ GAL_Army_leader_01={
         name=GAL_Army_leader_01_name
         portraits={
             army={
-		large="GFX/leaders/GAL/Galund_Female_Army_leader_01.tga"
+		large="gfx/leaders/GAL/Galund_Female_Army_leader_01.tga"
             }	
         }
 	field_marshal={
@@ -35,7 +35,7 @@ GAL_Army_leader_02={
         name=GAL_Army_leader_02_name
         portraits={
             army={
-		large="GFX/leaders/GAL/Galund_Male_Army_leader_02.tga"
+		large="gfx/leaders/GAL/Galund_Male_Army_leader_02.tga"
             }	
         }
 	corps_commander={
@@ -52,7 +52,7 @@ GAL_Army_leader_03={
         name=GAL_Army_leader_03_name
         portraits={
             army={
-		large="GFX/leaders/GAL/Galund_Male_Army_leader_03.tga"
+		large="gfx/leaders/GAL/Galund_Male_Army_leader_03.tga"
             }	
         }
 	corps_commander={
@@ -69,12 +69,12 @@ GAL_Army_leader_04={
         name=GAL_Army_leader_04_name
         portraits={
             army={
-		large="GFX/leaders/GAL/Galund_Female_Army_leader_04.tga"
+		large="gfx/leaders/GAL/Galund_Female_Army_leader_04.tga"
             }	
         }
 	corps_commander={
             traits = {}
-            skill = 1s
+            skill = 1
             attack_skill = 1
             defense_skill = 1
             planning_skill = 1
@@ -86,12 +86,12 @@ GAL_Army_leader_05={
         name=GAL_Army_leader_05_name
         portraits={
             army={
-		large="GFX/leaders/GAL/Galund_Female_Army_leader_05.tga"
+		large="gfx/leaders/GAL/Galund_Female_Army_leader_05.tga"
             }	
         }
 	corps_commander={
             traits = {}
-            skill = 1s
+            skill = 1
             attack_skill = 1
             defense_skill = 1
             planning_skill = 1
@@ -103,12 +103,12 @@ GAL_Army_leader_06={
         name=GAL_Army_leader_06_name
         portraits={
             army={
-		large="GFX/leaders/GAL/Galund_Male_Army_leader_06.tga"
+		large="gfx/leaders/GAL/Galund_Male_Army_leader_06.tga"
             }	
         }
 	corps_commander={
             traits = {}
-            skill = 1s
+            skill = 1
             attack_skill = 1
             defense_skill = 1
             planning_skill = 1

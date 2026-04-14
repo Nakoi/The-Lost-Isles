@@ -4,7 +4,7 @@ characters={
         name= ESU_provo_government_name
         portraits={
             civilian={
-                large="GFX/leaders/ESU/ESU_wood.tga"
+                large="gfx/leaders/ESU/ESU_wood.tga"
             }
         }
         country_leader={
@@ -18,7 +18,7 @@ characters={
         name= ESU_president_name
         portraits={
             civilian={
-                large="GFX/leaders/ESU/ESU_president.tga"
+                large="gfx/leaders/ESU/ESU_president.tga"
             }
         }
     }
@@ -27,7 +27,7 @@ characters={
         name= ESU_presidentmare_name
         portraits={
             civilian={
-                large="GFX/leaders/ESU/ESU_FaithFlame.tga"
+                large="gfx/leaders/ESU/ESU_FaithFlame.tga"
             }
         }
     }
@@ -36,7 +36,7 @@ characters={
         name= ESU_evilmare_name
         portraits={
             civilian={
-                large="GFX/leaders/ESU/ESU_LeafBlaze.tga"
+                large="gfx/leaders/ESU/ESU_LeafBlaze.tga"
             }
         }
 		country_leader={
@@ -50,7 +50,7 @@ characters={
         name= ESU_moeruhoshi_name
         portraits={
             civilian={
-                large="GFX/leaders/ESU/ESU_MoeruHoshi.tga"
+                large="gfx/leaders/ESU/ESU_MoeruHoshi.tga"
             }
         }
     }
@@ -59,7 +59,7 @@ ESU_Army_leader_01={
         name=ESU_Army_leader_01_name
         portraits={
             army={
-		large="GFX/leaders/ESU/ESU_Army_leader_01.tga"
+		large="gfx/leaders/ESU/ESU_Army_leader_01.tga"
             }	
         }
 	field_marshal={
@@ -76,7 +76,7 @@ ESU_Army_leader_02={
         name=ESU_Army_leader_02_name
         portraits={
             army={
-		large="GFX/leaders/ESU/ESU_Army_leader_02.tga"
+		large="gfx/leaders/ESU/ESU_Army_leader_02.tga"
             }	
         }
 	corps_commander={
@@ -93,7 +93,7 @@ ESU_Army_leader_03={
         name=ESU_Army_leader_03_name
         portraits={
             army={
-		large="GFX/leaders/ESU/ESU_Army_leader_03.tga"
+		large="gfx/leaders/ESU/ESU_Army_leader_03.tga"
             }	
         }
 	corps_commander={
@@ -110,7 +110,7 @@ ESU_Army_leader_04={
         name=ESU_Army_leader_04_name
         portraits={
             army={
-		large="GFX/leaders/ESU/ESU_Army_leader_04.tga"
+		large="gfx/leaders/ESU/ESU_Army_leader_04.tga"
             }	
         }
 	corps_commander={
