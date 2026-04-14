@@ -153,7 +153,6 @@ buildings = {
 		only_costal = yes
 		naval_production = 1
 		icon_frame = 4
-		only_costal = yes
 		value = 5
 		infrastructure_construction_effect = yes
 		level_cap = {
@@ -241,12 +240,14 @@ buildings = {
 		icon_frame = 12
 		rocket_production = 5
 		rocket_launch_capacity = 1
-		max_level = 5
-		shares_slots = yes
 		value = 1
 		infrastructure_construction_effect = yes
+		level_cap = {
+            state_max = 3
+            shares_slots = yes
+            exclusive_with = mega_gun_emplacement
+        }
 	}
-
 }
 
 spawn_points = {
