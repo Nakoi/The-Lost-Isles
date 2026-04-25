@@ -5,7 +5,6 @@ tags={
 	"Gameplay"
 	"Map"
 }
-}
 name="The Lost Isles"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
